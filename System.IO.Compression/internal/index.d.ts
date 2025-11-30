@@ -78,11 +78,16 @@ export enum ZLibCompressionStrategy {
 }
 
 
-export class BrotliDecoder$instance {
+export interface BrotliDecoder$instance {
     decompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
     dispose(): void;
-    static tryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
+
+
+export const BrotliDecoder: {
+    new(): BrotliDecoder$instance;
+    tryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+};
 
 
 export interface __BrotliDecoder$views {
@@ -94,15 +99,19 @@ export interface BrotliDecoder$instance extends System_Internal.IDisposable$inst
 export type BrotliDecoder = BrotliDecoder$instance & __BrotliDecoder$views;
 
 
-export class BrotliEncoder$instance {
-    constructor(quality: int, window: int);
+export interface BrotliEncoder$instance {
     compress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock: boolean): OperationStatus;
     dispose(): void;
     flush(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static getMaxCompressedLength(inputSize: int): int;
-    static tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
-    static tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
+
+
+export const BrotliEncoder: {
+    new(quality: int, window: int): BrotliEncoder$instance;
+    getMaxCompressedLength(inputSize: int): int;
+    tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
+    tryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+};
 
 
 export interface __BrotliEncoder$views {
@@ -114,20 +123,19 @@ export interface BrotliEncoder$instance extends System_Internal.IDisposable$inst
 export type BrotliEncoder = BrotliEncoder$instance & __BrotliEncoder$views;
 
 
-export class BrotliCompressionOptions$instance {
-    constructor();
+export interface BrotliCompressionOptions$instance {
     quality: int;
 }
 
 
+export const BrotliCompressionOptions: {
+    new(): BrotliCompressionOptions$instance;
+};
+
+
 export type BrotliCompressionOptions = BrotliCompressionOptions$instance;
 
-export class BrotliStream$instance extends System_IO_Internal.Stream$instance {
-    constructor(stream: Stream, compressionLevel: CompressionLevel);
-    constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
-    constructor(stream: Stream, compressionOptions: BrotliCompressionOptions, leaveOpen: boolean);
-    constructor(stream: Stream, mode: CompressionMode);
-    constructor(stream: Stream, mode: CompressionMode, leaveOpen: boolean);
+export interface BrotliStream$instance extends Stream {
     readonly baseStream: Stream;
     readonly canRead: boolean;
     readonly canSeek: boolean;
@@ -163,6 +171,15 @@ export class BrotliStream$instance extends System_IO_Internal.Stream$instance {
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
+
+
+export const BrotliStream: {
+    new(stream: Stream, compressionLevel: CompressionLevel): BrotliStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean): BrotliStream$instance;
+    new(stream: Stream, compressionOptions: BrotliCompressionOptions, leaveOpen: boolean): BrotliStream$instance;
+    new(stream: Stream, mode: CompressionMode): BrotliStream$instance;
+    new(stream: Stream, mode: CompressionMode, leaveOpen: boolean): BrotliStream$instance;
+};
 
 
 export interface __BrotliStream$views {
@@ -173,12 +190,7 @@ export interface __BrotliStream$views {
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
 
 
-export class DeflateStream$instance extends System_IO_Internal.Stream$instance {
-    constructor(stream: Stream, mode: CompressionMode);
-    constructor(stream: Stream, mode: CompressionMode, leaveOpen: boolean);
-    constructor(stream: Stream, compressionLevel: CompressionLevel);
-    constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
-    constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
+export interface DeflateStream$instance extends Stream {
     readonly baseStream: Stream;
     readonly canRead: boolean;
     readonly canSeek: boolean;
@@ -220,6 +232,15 @@ export class DeflateStream$instance extends System_IO_Internal.Stream$instance {
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
+
+
+export const DeflateStream: {
+    new(stream: Stream, mode: CompressionMode): DeflateStream$instance;
+    new(stream: Stream, mode: CompressionMode, leaveOpen: boolean): DeflateStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel): DeflateStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean): DeflateStream$instance;
+    new(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean): DeflateStream$instance;
+};
 
 
 export interface __DeflateStream$views {
@@ -230,12 +251,7 @@ export interface __DeflateStream$views {
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
 
 
-export class GZipStream$instance extends System_IO_Internal.Stream$instance {
-    constructor(stream: Stream, mode: CompressionMode);
-    constructor(stream: Stream, mode: CompressionMode, leaveOpen: boolean);
-    constructor(stream: Stream, compressionLevel: CompressionLevel);
-    constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
-    constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
+export interface GZipStream$instance extends Stream {
     readonly baseStream: Stream;
     readonly canRead: boolean;
     readonly canSeek: boolean;
@@ -279,6 +295,15 @@ export class GZipStream$instance extends System_IO_Internal.Stream$instance {
 }
 
 
+export const GZipStream: {
+    new(stream: Stream, mode: CompressionMode): GZipStream$instance;
+    new(stream: Stream, mode: CompressionMode, leaveOpen: boolean): GZipStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel): GZipStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean): GZipStream$instance;
+    new(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean): GZipStream$instance;
+};
+
+
 export interface __GZipStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -287,11 +312,7 @@ export interface __GZipStream$views {
 export type GZipStream = GZipStream$instance & __GZipStream$views;
 
 
-export class ZipArchive$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, mode: ZipArchiveMode);
-    constructor(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean);
-    constructor(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding);
+export interface ZipArchive$instance {
     comment: string;
     readonly entries: ReadOnlyCollection_1<ZipArchiveEntry>;
     readonly mode: ZipArchiveMode;
@@ -300,8 +321,16 @@ export class ZipArchive$instance {
     dispose(): void;
     disposeAsync(): ValueTask;
     getEntry(entryName: string): ZipArchiveEntry;
-    static createAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 }
+
+
+export const ZipArchive: {
+    new(stream: Stream): ZipArchive$instance;
+    new(stream: Stream, mode: ZipArchiveMode): ZipArchive$instance;
+    new(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean): ZipArchive$instance;
+    new(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding): ZipArchive$instance;
+    createAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+};
 
 
 export interface __ZipArchive$views {
@@ -314,7 +343,7 @@ export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$in
 export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 
 
-export class ZipArchiveEntry$instance {
+export interface ZipArchiveEntry$instance {
     readonly archive: ZipArchive;
     comment: string;
     readonly compressedLength: long;
@@ -332,23 +361,36 @@ export class ZipArchiveEntry$instance {
 }
 
 
+export const ZipArchiveEntry: {
+    new(): ZipArchiveEntry$instance;
+};
+
+
 export type ZipArchiveEntry = ZipArchiveEntry$instance;
 
-export class ZLibCompressionOptions$instance {
-    constructor();
+export interface ZLibCompressionOptions$instance {
     compressionLevel: int;
     compressionStrategy: ZLibCompressionStrategy;
 }
 
 
+export const ZLibCompressionOptions: {
+    new(): ZLibCompressionOptions$instance;
+};
+
+
 export type ZLibCompressionOptions = ZLibCompressionOptions$instance;
 
-export class ZLibException$instance extends System_IO_Internal.IOException$instance {
-    constructor(message: string, zlibErrorContext: string, zlibErrorCode: int, zlibErrorMessage: string);
-    constructor();
-    constructor(message: string, innerException: Exception);
+export interface ZLibException$instance extends IOException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ZLibException: {
+    new(message: string, zlibErrorContext: string, zlibErrorCode: int, zlibErrorMessage: string): ZLibException$instance;
+    new(): ZLibException$instance;
+    new(message: string, innerException: Exception): ZLibException$instance;
+};
 
 
 export interface __ZLibException$views {
@@ -358,12 +400,7 @@ export interface __ZLibException$views {
 export type ZLibException = ZLibException$instance & __ZLibException$views;
 
 
-export class ZLibStream$instance extends System_IO_Internal.Stream$instance {
-    constructor(stream: Stream, mode: CompressionMode);
-    constructor(stream: Stream, mode: CompressionMode, leaveOpen: boolean);
-    constructor(stream: Stream, compressionLevel: CompressionLevel);
-    constructor(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean);
-    constructor(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean);
+export interface ZLibStream$instance extends Stream {
     readonly baseStream: Stream;
     readonly canRead: boolean;
     readonly canSeek: boolean;
@@ -405,6 +442,15 @@ export class ZLibStream$instance extends System_IO_Internal.Stream$instance {
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
+
+
+export const ZLibStream: {
+    new(stream: Stream, mode: CompressionMode): ZLibStream$instance;
+    new(stream: Stream, mode: CompressionMode, leaveOpen: boolean): ZLibStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel): ZLibStream$instance;
+    new(stream: Stream, compressionLevel: CompressionLevel, leaveOpen: boolean): ZLibStream$instance;
+    new(stream: Stream, compressionOptions: ZLibCompressionOptions, leaveOpen: boolean): ZLibStream$instance;
+};
 
 
 export interface __ZLibStream$views {

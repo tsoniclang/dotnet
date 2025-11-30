@@ -56,14 +56,7 @@ export interface IXmlJsonWriterInitializer$instance {
 
 export type IXmlJsonWriterInitializer = IXmlJsonWriterInitializer$instance;
 
-export class DataContractJsonSerializer$instance extends System_Runtime_Serialization_Internal.XmlObjectSerializer$instance {
-    constructor(type_: Type);
-    constructor(type_: Type, rootName: string);
-    constructor(type_: Type, rootName: XmlDictionaryString);
-    constructor(type_: Type, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, rootName: string, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, rootName: XmlDictionaryString, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, settings: DataContractJsonSerializerSettings);
+export interface DataContractJsonSerializer$instance extends XmlObjectSerializer {
     readonly dateTimeFormat: DateTimeFormat;
     readonly emitTypeInformation: EmitTypeInformation;
     readonly ignoreExtensionDataObject: boolean;
@@ -92,10 +85,20 @@ export class DataContractJsonSerializer$instance extends System_Runtime_Serializ
 }
 
 
+export const DataContractJsonSerializer: {
+    new(type_: Type): DataContractJsonSerializer$instance;
+    new(type_: Type, rootName: string): DataContractJsonSerializer$instance;
+    new(type_: Type, rootName: XmlDictionaryString): DataContractJsonSerializer$instance;
+    new(type_: Type, knownTypes: IEnumerable_1<Type>): DataContractJsonSerializer$instance;
+    new(type_: Type, rootName: string, knownTypes: IEnumerable_1<Type>): DataContractJsonSerializer$instance;
+    new(type_: Type, rootName: XmlDictionaryString, knownTypes: IEnumerable_1<Type>): DataContractJsonSerializer$instance;
+    new(type_: Type, settings: DataContractJsonSerializerSettings): DataContractJsonSerializer$instance;
+};
+
+
 export type DataContractJsonSerializer = DataContractJsonSerializer$instance;
 
-export class DataContractJsonSerializerSettings$instance {
-    constructor();
+export interface DataContractJsonSerializerSettings$instance {
     dateTimeFormat: DateTimeFormat;
     emitTypeInformation: EmitTypeInformation;
     ignoreExtensionDataObject: boolean;
@@ -105,6 +108,11 @@ export class DataContractJsonSerializerSettings$instance {
     serializeReadOnlyTypes: boolean;
     useSimpleDictionaryFormat: boolean;
 }
+
+
+export const DataContractJsonSerializerSettings: {
+    new(): DataContractJsonSerializerSettings$instance;
+};
 
 
 export type DataContractJsonSerializerSettings = DataContractJsonSerializerSettings$instance;

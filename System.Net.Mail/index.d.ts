@@ -25,23 +25,23 @@ import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { AlternateView$instance as AlternateView } from './internal/index.js';
-export { AlternateViewCollection$instance as AlternateViewCollection } from './internal/index.js';
-export { AttachmentBase$instance as AttachmentBase } from './internal/index.js';
-export { Attachment$instance as Attachment } from './internal/index.js';
-export { AttachmentCollection$instance as AttachmentCollection } from './internal/index.js';
-export { LinkedResource$instance as LinkedResource } from './internal/index.js';
-export { LinkedResourceCollection$instance as LinkedResourceCollection } from './internal/index.js';
-export { MailAddress$instance as MailAddress } from './internal/index.js';
-export { MailAddressCollection$instance as MailAddressCollection } from './internal/index.js';
+export { AlternateView as AlternateView } from './internal/index.js';
+export { AlternateViewCollection as AlternateViewCollection } from './internal/index.js';
+export { AttachmentBase as AttachmentBase } from './internal/index.js';
+export { Attachment as Attachment } from './internal/index.js';
+export { AttachmentCollection as AttachmentCollection } from './internal/index.js';
+export { LinkedResource as LinkedResource } from './internal/index.js';
+export { LinkedResourceCollection as LinkedResourceCollection } from './internal/index.js';
+export { MailAddress as MailAddress } from './internal/index.js';
+export { MailAddressCollection as MailAddressCollection } from './internal/index.js';
 export { DeliveryNotificationOptions as DeliveryNotificationOptions } from './internal/index.js';
-export { MailMessage$instance as MailMessage } from './internal/index.js';
+export { MailMessage as MailMessage } from './internal/index.js';
 export { MailPriority as MailPriority } from './internal/index.js';
-export { SmtpException$instance as SmtpException } from './internal/index.js';
-export { SmtpFailedRecipientException$instance as SmtpFailedRecipientException } from './internal/index.js';
-export { SmtpFailedRecipientsException$instance as SmtpFailedRecipientsException } from './internal/index.js';
+export { SmtpException as SmtpException } from './internal/index.js';
+export { SmtpFailedRecipientException as SmtpFailedRecipientException } from './internal/index.js';
+export { SmtpFailedRecipientsException as SmtpFailedRecipientsException } from './internal/index.js';
 export { SmtpStatusCode as SmtpStatusCode } from './internal/index.js';
-export { SendCompletedEventHandler$instance as SendCompletedEventHandler } from './internal/index.js';
+export type SendCompletedEventHandler = Internal.SendCompletedEventHandler;
 export { SmtpDeliveryMethod as SmtpDeliveryMethod } from './internal/index.js';
 export { SmtpDeliveryFormat as SmtpDeliveryFormat } from './internal/index.js';
-export { SmtpClient$instance as SmtpClient } from './internal/index.js';
+export { SmtpClient as SmtpClient } from './internal/index.js';

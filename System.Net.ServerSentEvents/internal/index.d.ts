@@ -42,8 +42,10 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class SseItem_1$instance<T> {
-    constructor(data: T, eventType: string);
+export type SseItemParser_1<T> = (eventType: string, data: ReadOnlySpan_1<CLROf<byte>>) => T;
+
+
+export interface SseItem_1$instance<T> {
     readonly data: T;
     eventId: string;
     readonly eventType: string;
@@ -51,32 +53,24 @@ export class SseItem_1$instance<T> {
 }
 
 
+export const SseItem_1: {
+    new<T>(data: T, eventType: string): SseItem_1$instance<T>;
+};
+
+
 export type SseItem_1<T> = SseItem_1$instance<T>;
 
-export class SseItemParser_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): T;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(eventType: string, data: ReadOnlySpan_1<CLROf<byte>>): T;
-}
-
-
-export interface __SseItemParser_1$views<T> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type SseItemParser_1<T> = SseItemParser_1$instance<T> & __SseItemParser_1$views<T>;
-
-
-export class SseParser_1$instance<T> {
+export interface SseParser_1$instance<T> {
     readonly lastEventId: string;
     readonly reconnectionInterval: TimeSpan;
     enumerate(): IEnumerable_1<SseItem_1<T>>;
     enumerateAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<SseItem_1<T>>;
 }
+
+
+export const SseParser_1: {
+    new<T>(): SseParser_1$instance<T>;
+};
 
 
 export type SseParser_1<T> = SseParser_1$instance<T>;

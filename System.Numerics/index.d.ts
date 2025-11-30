@@ -14,18 +14,18 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { BitOperations$instance as BitOperations } from './internal/index.js';
-export { Matrix3x2$instance as Matrix3x2 } from './internal/index.js';
-export { Matrix4x4$instance as Matrix4x4 } from './internal/index.js';
-export { Plane$instance as Plane } from './internal/index.js';
+export { Matrix3x2 as Matrix3x2 } from './internal/index.js';
+export { Matrix4x4 as Matrix4x4 } from './internal/index.js';
+export { Plane as Plane } from './internal/index.js';
 export { Vector$instance as Vector_0 } from './internal/index.js';
-export { Quaternion$instance as Quaternion } from './internal/index.js';
-export { TotalOrderIeee754Comparer_1$instance as TotalOrderIeee754Comparer_1 } from './internal/index.js';
-export { TotalOrderIeee754Comparer_1$instance as TotalOrderIeee754Comparer } from './internal/index.js';
-export { Vector_1$instance as Vector_1 } from './internal/index.js';
-export { Vector_1$instance as Vector } from './internal/index.js';
-export { Vector2$instance as Vector2 } from './internal/index.js';
-export { Vector3$instance as Vector3 } from './internal/index.js';
-export { Vector4$instance as Vector4 } from './internal/index.js';
+export { Quaternion as Quaternion } from './internal/index.js';
+export { TotalOrderIeee754Comparer_1 as TotalOrderIeee754Comparer_1 } from './internal/index.js';
+export { TotalOrderIeee754Comparer_1 as TotalOrderIeee754Comparer } from './internal/index.js';
+export { Vector_1 as Vector_1 } from './internal/index.js';
+export { Vector_1 as Vector } from './internal/index.js';
+export { Vector2 as Vector2 } from './internal/index.js';
+export { Vector3 as Vector3 } from './internal/index.js';
+export { Vector4 as Vector4 } from './internal/index.js';
 export type IAdditionOperators_3<TSelf extends IAdditionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = Internal.IAdditionOperators_3<TSelf, TOther, TResult>;
 export type IAdditionOperators<TSelf extends IAdditionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = Internal.IAdditionOperators_3<TSelf, TOther, TResult>;
 export type IAdditiveIdentity_2<TSelf extends IAdditiveIdentity_2<TSelf, TResult>, TResult> = Internal.IAdditiveIdentity_2<TSelf, TResult>;
@@ -90,5 +90,5 @@ export type IUnaryPlusOperators_2<TSelf extends IUnaryPlusOperators_2<TSelf, TRe
 export type IUnaryPlusOperators<TSelf extends IUnaryPlusOperators_2<TSelf, TResult>, TResult> = Internal.IUnaryPlusOperators_2<TSelf, TResult>;
 export type IUnsignedNumber_1<TSelf extends IUnsignedNumber_1<TSelf>> = Internal.IUnsignedNumber_1<TSelf>;
 export type IUnsignedNumber<TSelf extends IUnsignedNumber_1<TSelf>> = Internal.IUnsignedNumber_1<TSelf>;
-export { BigInteger$instance as BigInteger } from './internal/index.js';
-export { Complex$instance as Complex } from './internal/index.js';
+export { BigInteger as BigInteger } from './internal/index.js';
+export { Complex as Complex } from './internal/index.js';

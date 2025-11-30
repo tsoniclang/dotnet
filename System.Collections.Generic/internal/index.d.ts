@@ -218,7 +218,7 @@ export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, 
 
 export type ISet_1<T> = ISet_1$instance<T>;
 
-export class Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+export interface Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
     readonly dictionary: Dictionary_2<TKey, TValue>;
     item: TValue;
     containsKey(key: TAlternateKey): boolean;
@@ -230,14 +230,24 @@ export class Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey
 }
 
 
+export const Dictionary_2_AlternateLookup_1: {
+    new<TKey, TValue, TAlternateKey>(): Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
+};
+
+
 export type Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export class Dictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface Dictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Dictionary_2_Enumerator: {
+    new<TKey, TValue>(): Dictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __Dictionary_2_Enumerator$views<TKey, TValue> {
@@ -249,12 +259,17 @@ export interface __Dictionary_2_Enumerator$views<TKey, TValue> {
 export type Dictionary_2_Enumerator<TKey, TValue> = Dictionary_2_Enumerator$instance<TKey, TValue> & __Dictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Dictionary_2_KeyCollection_Enumerator: {
+    new<TKey, TValue>(): Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __Dictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
@@ -265,12 +280,17 @@ export interface __Dictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
 export type Dictionary_2_KeyCollection_Enumerator<TKey, TValue> = Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __Dictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
 
 
-export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Dictionary_2_ValueCollection_Enumerator: {
+    new<TKey, TValue>(): Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __Dictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
@@ -281,7 +301,7 @@ export interface __Dictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
 export type Dictionary_2_ValueCollection_Enumerator<TKey, TValue> = Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __Dictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export class HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
+export interface HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
     readonly set_: HashSet_1<T>;
     add(item: TAlternate): boolean;
     contains(item: TAlternate): boolean;
@@ -290,14 +310,24 @@ export class HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
 }
 
 
+export const HashSet_1_AlternateLookup_1: {
+    new<T, TAlternate>(): HashSet_1_AlternateLookup_1$instance<T, TAlternate>;
+};
+
+
 export type HashSet_1_AlternateLookup_1<T, TAlternate> = HashSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
-export class HashSet_1_Enumerator$instance<T> implements IDisposable {
+export interface HashSet_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const HashSet_1_Enumerator: {
+    new<T>(): HashSet_1_Enumerator$instance<T>;
+};
 
 
 export interface __HashSet_1_Enumerator$views<T> {
@@ -308,8 +338,7 @@ export interface __HashSet_1_Enumerator$views<T> {
 export type HashSet_1_Enumerator<T> = HashSet_1_Enumerator$instance<T> & __HashSet_1_Enumerator$views<T>;
 
 
-export class KeyValuePair_2$instance<TKey, TValue> {
-    constructor(key: TKey, value: TValue);
+export interface KeyValuePair_2$instance<TKey, TValue> {
     readonly key: TKey;
     readonly value: TValue;
     deconstruct(key: { value: ref<TKey> }, value: { value: ref<TValue> }): void;
@@ -317,14 +346,24 @@ export class KeyValuePair_2$instance<TKey, TValue> {
 }
 
 
+export const KeyValuePair_2: {
+    new<TKey, TValue>(key: TKey, value: TValue): KeyValuePair_2$instance<TKey, TValue>;
+};
+
+
 export type KeyValuePair_2<TKey, TValue> = KeyValuePair_2$instance<TKey, TValue>;
 
-export class LinkedList_1_Enumerator$instance<T> implements IDisposable {
+export interface LinkedList_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const LinkedList_1_Enumerator: {
+    new<T>(): LinkedList_1_Enumerator$instance<T>;
+};
 
 
 export interface __LinkedList_1_Enumerator$views<T> {
@@ -339,12 +378,17 @@ export interface LinkedList_1_Enumerator$instance<T> extends System_Runtime_Seri
 export type LinkedList_1_Enumerator<T> = LinkedList_1_Enumerator$instance<T> & __LinkedList_1_Enumerator$views<T>;
 
 
-export class List_1_Enumerator$instance<T> implements IDisposable {
+export interface List_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const List_1_Enumerator: {
+    new<T>(): List_1_Enumerator$instance<T>;
+};
 
 
 export interface __List_1_Enumerator$views<T> {
@@ -355,11 +399,16 @@ export interface __List_1_Enumerator$views<T> {
 export type List_1_Enumerator<T> = List_1_Enumerator$instance<T> & __List_1_Enumerator$views<T>;
 
 
-export class OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
+export interface OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
     readonly current: KeyValuePair_2<TKey, TValue>;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const OrderedDictionary_2_Enumerator: {
+    new<TKey, TValue>(): OrderedDictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __OrderedDictionary_2_Enumerator$views<TKey, TValue> {
@@ -371,11 +420,16 @@ export interface __OrderedDictionary_2_Enumerator$views<TKey, TValue> {
 export type OrderedDictionary_2_Enumerator<TKey, TValue> = OrderedDictionary_2_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
+export interface OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
     readonly current: TKey;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const OrderedDictionary_2_KeyCollection_Enumerator: {
+    new<TKey, TValue>(): OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __OrderedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
@@ -386,11 +440,16 @@ export interface __OrderedDictionary_2_KeyCollection_Enumerator$views<TKey, TVal
 export type OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
 
 
-export class OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
+export interface OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
     readonly current: TValue;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const OrderedDictionary_2_ValueCollection_Enumerator: {
+    new<TKey, TValue>(): OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __OrderedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
@@ -401,12 +460,17 @@ export interface __OrderedDictionary_2_ValueCollection_Enumerator$views<TKey, TV
 export type OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> implements IDisposable {
+export interface PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> extends IDisposable {
     readonly current: ValueTuple_2<TElement, TPriority>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const PriorityQueue_2_UnorderedItemsCollection_Enumerator: {
+    new<TElement, TPriority>(): PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority>;
+};
 
 
 export interface __PriorityQueue_2_UnorderedItemsCollection_Enumerator$views<TElement, TPriority> {
@@ -417,12 +481,17 @@ export interface __PriorityQueue_2_UnorderedItemsCollection_Enumerator$views<TEl
 export type PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPriority> = PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> & __PriorityQueue_2_UnorderedItemsCollection_Enumerator$views<TElement, TPriority>;
 
 
-export class Queue_1_Enumerator$instance<T> implements IDisposable {
+export interface Queue_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Queue_1_Enumerator: {
+    new<T>(): Queue_1_Enumerator$instance<T>;
+};
 
 
 export interface __Queue_1_Enumerator$views<T> {
@@ -433,12 +502,17 @@ export interface __Queue_1_Enumerator$views<T> {
 export type Queue_1_Enumerator<T> = Queue_1_Enumerator$instance<T> & __Queue_1_Enumerator$views<T>;
 
 
-export class SortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface SortedDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SortedDictionary_2_Enumerator: {
+    new<TKey, TValue>(): SortedDictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_Enumerator$views<TKey, TValue> {
@@ -450,12 +524,17 @@ export interface __SortedDictionary_2_Enumerator$views<TKey, TValue> {
 export type SortedDictionary_2_Enumerator<TKey, TValue> = SortedDictionary_2_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SortedDictionary_2_KeyCollection_Enumerator: {
+    new<TKey, TValue>(): SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
@@ -466,12 +545,17 @@ export interface __SortedDictionary_2_KeyCollection_Enumerator$views<TKey, TValu
 export type SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SortedDictionary_2_ValueCollection_Enumerator: {
+    new<TKey, TValue>(): SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
@@ -482,12 +566,17 @@ export interface __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TVa
 export type SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export class SortedSet_1_Enumerator$instance<T> implements IDisposable {
+export interface SortedSet_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SortedSet_1_Enumerator: {
+    new<T>(): SortedSet_1_Enumerator$instance<T>;
+};
 
 
 export interface __SortedSet_1_Enumerator$views<T> {
@@ -502,12 +591,17 @@ export interface SortedSet_1_Enumerator$instance<T> extends System_Runtime_Seria
 export type SortedSet_1_Enumerator<T> = SortedSet_1_Enumerator$instance<T> & __SortedSet_1_Enumerator$views<T>;
 
 
-export class Stack_1_Enumerator$instance<T> implements IDisposable {
+export interface Stack_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Stack_1_Enumerator: {
+    new<T>(): Stack_1_Enumerator$instance<T>;
+};
 
 
 export interface __Stack_1_Enumerator$views<T> {
@@ -518,11 +612,15 @@ export interface __Stack_1_Enumerator$views<T> {
 export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_Enumerator$views<T>;
 
 
-export class ByteEqualityComparer$instance extends EqualityComparer_1$instance<CLROf<byte>> {
-    constructor();
+export interface ByteEqualityComparer$instance extends EqualityComparer_1$instance<CLROf<byte>> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
+
+
+export const ByteEqualityComparer: {
+    new(): ByteEqualityComparer$instance;
+};
 
 
 export interface __ByteEqualityComparer$views {
@@ -533,11 +631,15 @@ export interface __ByteEqualityComparer$views {
 export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualityComparer$views;
 
 
-export abstract class Comparer_1$instance<T> {
-    abstract compare(x: T, y: T): int;
-    static readonly default_: unknown;
-    static create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
+export interface Comparer_1$instance<T> {
+    compare(x: T, y: T): int;
 }
+
+
+export const Comparer_1: {
+    readonly default_: unknown;
+    create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
+};
 
 
 export interface __Comparer_1$views<T> {
@@ -550,15 +652,7 @@ export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {}
 export type Comparer_1<T> = Comparer_1$instance<T> & __Comparer_1$views<T>;
 
 
-export class Dictionary_2$instance<TKey, TValue> {
-    constructor();
-    constructor(capacity: int);
-    constructor(comparer: IEqualityComparer_1<TKey>);
-    constructor(capacity: int, comparer: IEqualityComparer_1<TKey>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
+export interface Dictionary_2$instance<TKey, TValue> {
     readonly capacity: int;
     readonly comparer: IEqualityComparer_1<TKey>;
     readonly count: int;
@@ -584,6 +678,18 @@ export class Dictionary_2$instance<TKey, TValue> {
 }
 
 
+export const Dictionary_2: {
+    new<TKey, TValue>(): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey>): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int, comparer: IEqualityComparer_1<TKey>): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): Dictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): Dictionary_2$instance<TKey, TValue>;
+};
+
+
 export interface __Dictionary_2$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
@@ -602,13 +708,17 @@ export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Seri
 export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & __Dictionary_2$views<TKey, TValue>;
 
 
-export class Dictionary_2_KeyCollection$instance<TKey, TValue> {
-    constructor(dictionary: Dictionary_2<TKey, TValue>);
+export interface Dictionary_2_KeyCollection$instance<TKey, TValue> {
     readonly count: int;
     contains(item: TKey): boolean;
     copyTo(array: TKey[], index: int): void;
     getEnumerator(): Dictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const Dictionary_2_KeyCollection: {
+    new<TKey, TValue>(dictionary: Dictionary_2<TKey, TValue>): Dictionary_2_KeyCollection$instance<TKey, TValue>;
+};
 
 
 export interface __Dictionary_2_KeyCollection$views<TKey, TValue> {
@@ -622,12 +732,16 @@ export interface __Dictionary_2_KeyCollection$views<TKey, TValue> {
 export type Dictionary_2_KeyCollection<TKey, TValue> = Dictionary_2_KeyCollection$instance<TKey, TValue> & __Dictionary_2_KeyCollection$views<TKey, TValue>;
 
 
-export class Dictionary_2_ValueCollection$instance<TKey, TValue> {
-    constructor(dictionary: Dictionary_2<TKey, TValue>);
+export interface Dictionary_2_ValueCollection$instance<TKey, TValue> {
     readonly count: int;
     copyTo(array: TValue[], index: int): void;
     getEnumerator(): Dictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const Dictionary_2_ValueCollection: {
+    new<TKey, TValue>(dictionary: Dictionary_2<TKey, TValue>): Dictionary_2_ValueCollection$instance<TKey, TValue>;
+};
 
 
 export interface __Dictionary_2_ValueCollection$views<TKey, TValue> {
@@ -641,12 +755,16 @@ export interface __Dictionary_2_ValueCollection$views<TKey, TValue> {
 export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueCollection$instance<TKey, TValue> & __Dictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export class EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
-    constructor();
+export interface EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const EnumEqualityComparer_1: {
+    new<T extends number>(): EnumEqualityComparer_1$instance<T>;
+};
 
 
 export interface __EnumEqualityComparer_1$views<T extends number & unknown> {
@@ -660,12 +778,16 @@ export interface EnumEqualityComparer_1$instance<T extends number & unknown> ext
 export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$instance<T> & __EnumEqualityComparer_1$views<T>;
 
 
-export abstract class EqualityComparer_1$instance<T> {
-    abstract equals(x: T, y: T): boolean;
-    abstract getHashCode(obj: T): int;
-    static readonly default_: unknown;
-    static create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
+export interface EqualityComparer_1$instance<T> {
+    equals(x: T, y: T): boolean;
+    getHashCode(obj: T): int;
 }
+
+
+export const EqualityComparer_1: {
+    readonly default_: unknown;
+    create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
+};
 
 
 export interface __EqualityComparer_1$views<T> {
@@ -676,12 +798,16 @@ export interface __EqualityComparer_1$views<T> {
 export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityComparer_1$views<T>;
 
 
-export class GenericComparer_1$instance<T extends IComparable_1<T>> extends Comparer_1$instance<T> {
-    constructor();
+export interface GenericComparer_1$instance<T extends IComparable_1<T>> extends Comparer_1$instance<T> {
     compare(x: unknown, y: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
+
+
+export const GenericComparer_1: {
+    new<T extends IComparable_1<T>>(): GenericComparer_1$instance<T>;
+};
 
 
 export interface __GenericComparer_1$views<T extends IComparable_1<T>> {
@@ -692,11 +818,15 @@ export interface __GenericComparer_1$views<T extends IComparable_1<T>> {
 export type GenericComparer_1<T extends IComparable_1<T>> = GenericComparer_1$instance<T> & __GenericComparer_1$views<T>;
 
 
-export class GenericEqualityComparer_1$instance<T extends IEquatable_1<T>> extends EqualityComparer_1$instance<T> {
-    constructor();
+export interface GenericEqualityComparer_1$instance<T extends IEquatable_1<T>> extends EqualityComparer_1$instance<T> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
+
+
+export const GenericEqualityComparer_1: {
+    new<T extends IEquatable_1<T>>(): GenericEqualityComparer_1$instance<T>;
+};
 
 
 export interface __GenericEqualityComparer_1$views<T extends IEquatable_1<T>> {
@@ -707,13 +837,7 @@ export interface __GenericEqualityComparer_1$views<T extends IEquatable_1<T>> {
 export type GenericEqualityComparer_1<T extends IEquatable_1<T>> = GenericEqualityComparer_1$instance<T> & __GenericEqualityComparer_1$views<T>;
 
 
-export class HashSet_1$instance<T> {
-    constructor();
-    constructor(comparer: IEqualityComparer_1<T>);
-    constructor(capacity: int);
-    constructor(collection: IEnumerable_1<T>);
-    constructor(collection: IEnumerable_1<T>, comparer: IEqualityComparer_1<T>);
-    constructor(capacity: int, comparer: IEqualityComparer_1<T>);
+export interface HashSet_1$instance<T> {
     readonly capacity: int;
     readonly comparer: IEqualityComparer_1<T>;
     readonly count: int;
@@ -744,8 +868,18 @@ export class HashSet_1$instance<T> {
     tryGetAlternateLookup<TAlternate>(lookup: { value: ref<HashSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     unionWith(other: IEnumerable_1<T>): void;
-    static createSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
 }
+
+
+export const HashSet_1: {
+    new<T>(): HashSet_1$instance<T>;
+    new<T>(comparer: IEqualityComparer_1<T>): HashSet_1$instance<T>;
+    new<T>(capacity: int): HashSet_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): HashSet_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>, comparer: IEqualityComparer_1<T>): HashSet_1$instance<T>;
+    new<T>(capacity: int, comparer: IEqualityComparer_1<T>): HashSet_1$instance<T>;
+    createSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
+};
 
 
 export interface __HashSet_1$views<T> {
@@ -764,12 +898,16 @@ export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Inte
 export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
 
-export class KeyNotFoundException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface KeyNotFoundException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const KeyNotFoundException: {
+    new(): KeyNotFoundException$instance;
+    new(message: string): KeyNotFoundException$instance;
+    new(message: string, innerException: Exception): KeyNotFoundException$instance;
+};
 
 
 export interface __KeyNotFoundException$views {
@@ -779,9 +917,7 @@ export interface __KeyNotFoundException$views {
 export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFoundException$views;
 
 
-export class LinkedList_1$instance<T> {
-    constructor();
-    constructor(collection: IEnumerable_1<T>);
+export interface LinkedList_1$instance<T> {
     readonly count: int;
     readonly first: LinkedListNode_1<T>;
     readonly last: LinkedListNode_1<T>;
@@ -808,6 +944,12 @@ export class LinkedList_1$instance<T> {
 }
 
 
+export const LinkedList_1: {
+    new<T>(): LinkedList_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): LinkedList_1$instance<T>;
+};
+
+
 export interface __LinkedList_1$views<T> {
     As_ICollection_1(): ICollection_1$instance<T>;
     As_IEnumerable_1(): IEnumerable_1$instance<T>;
@@ -823,8 +965,7 @@ export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_I
 export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>;
 
 
-export class LinkedListNode_1$instance<T> {
-    constructor(value: T);
+export interface LinkedListNode_1$instance<T> {
     readonly list: LinkedList_1<T>;
     readonly next: LinkedListNode_1<T>;
     readonly previous: LinkedListNode_1<T>;
@@ -833,12 +974,14 @@ export class LinkedListNode_1$instance<T> {
 }
 
 
+export const LinkedListNode_1: {
+    new<T>(value: T): LinkedListNode_1$instance<T>;
+};
+
+
 export type LinkedListNode_1<T> = LinkedListNode_1$instance<T>;
 
-export class List_1$instance<T> {
-    constructor();
-    constructor(capacity: int);
-    constructor(collection: IEnumerable_1<T>);
+export interface List_1$instance<T> {
     capacity: int;
     readonly count: int;
     item: T;
@@ -893,6 +1036,13 @@ export class List_1$instance<T> {
 }
 
 
+export const List_1: {
+    new<T>(): List_1$instance<T>;
+    new<T>(capacity: int): List_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): List_1$instance<T>;
+};
+
+
 export interface __List_1$views<T> {
     As_ICollection_1(): ICollection_1$instance<T>;
     As_IEnumerable_1(): IEnumerable_1$instance<T>;
@@ -906,12 +1056,17 @@ export interface __List_1$views<T> {
 export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 
 
-export class NonRandomizedStringEqualityComparer$instance {
+export interface NonRandomizedStringEqualityComparer$instance {
     equals(x: string, y: string): boolean;
     getHashCode(obj: string): int;
     getUnderlyingEqualityComparer(): IEqualityComparer_1<CLROf<string>>;
-    static getStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
 }
+
+
+export const NonRandomizedStringEqualityComparer: {
+    new(): NonRandomizedStringEqualityComparer$instance;
+    getStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
+};
 
 
 export interface __NonRandomizedStringEqualityComparer$views {
@@ -924,13 +1079,17 @@ export interface NonRandomizedStringEqualityComparer$instance extends System_Run
 export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityComparer$instance & __NonRandomizedStringEqualityComparer$views;
 
 
-export class NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
-    constructor();
+export interface NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
     compare(x: unknown, y: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NullableComparer_1: {
+    new<T extends unknown>(): NullableComparer_1$instance<T>;
+};
 
 
 export interface __NullableComparer_1$views<T extends unknown> {
@@ -944,12 +1103,16 @@ export interface NullableComparer_1$instance<T extends unknown> extends System_R
 export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableComparer_1$views<T>;
 
 
-export class NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
-    constructor();
+export interface NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NullableEqualityComparer_1: {
+    new<T extends unknown>(): NullableEqualityComparer_1$instance<T>;
+};
 
 
 export interface __NullableEqualityComparer_1$views<T extends unknown> {
@@ -963,12 +1126,16 @@ export interface NullableEqualityComparer_1$instance<T extends unknown> extends 
 export type NullableEqualityComparer_1<T> = NullableEqualityComparer_1$instance<T> & __NullableEqualityComparer_1$views<T>;
 
 
-export class ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
-    constructor();
+export interface ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
     compare(x: unknown, y: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
+
+
+export const ObjectComparer_1: {
+    new<T>(): ObjectComparer_1$instance<T>;
+};
 
 
 export interface __ObjectComparer_1$views<T> {
@@ -979,11 +1146,15 @@ export interface __ObjectComparer_1$views<T> {
 export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectComparer_1$views<T>;
 
 
-export class ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
-    constructor();
+export interface ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
+
+
+export const ObjectEqualityComparer_1: {
+    new<T>(): ObjectEqualityComparer_1$instance<T>;
+};
 
 
 export interface __ObjectEqualityComparer_1$views<T> {
@@ -994,15 +1165,7 @@ export interface __ObjectEqualityComparer_1$views<T> {
 export type ObjectEqualityComparer_1<T> = ObjectEqualityComparer_1$instance<T> & __ObjectEqualityComparer_1$views<T>;
 
 
-export class OrderedDictionary_2$instance<TKey, TValue> {
-    constructor();
-    constructor(capacity: int);
-    constructor(comparer: IEqualityComparer_1<TKey>);
-    constructor(capacity: int, comparer: IEqualityComparer_1<TKey>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
+export interface OrderedDictionary_2$instance<TKey, TValue> {
     readonly capacity: int;
     readonly comparer: IEqualityComparer_1<TKey>;
     readonly count: int;
@@ -1032,6 +1195,18 @@ export class OrderedDictionary_2$instance<TKey, TValue> {
 }
 
 
+export const OrderedDictionary_2: {
+    new<TKey, TValue>(): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey>): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int, comparer: IEqualityComparer_1<TKey>): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, comparer: IEqualityComparer_1<TKey>): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): OrderedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): OrderedDictionary_2$instance<TKey, TValue>;
+};
+
+
 export interface __OrderedDictionary_2$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
@@ -1048,12 +1223,17 @@ export interface __OrderedDictionary_2$views<TKey, TValue> {
 export type OrderedDictionary_2<TKey, TValue> = OrderedDictionary_2$instance<TKey, TValue> & __OrderedDictionary_2$views<TKey, TValue>;
 
 
-export class OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
+export interface OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
     readonly count: int;
     contains(key: TKey): boolean;
     copyTo(array: TKey[], arrayIndex: int): void;
     getEnumerator(): OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const OrderedDictionary_2_KeyCollection: {
+    new<TKey, TValue>(): OrderedDictionary_2_KeyCollection$instance<TKey, TValue>;
+};
 
 
 export interface __OrderedDictionary_2_KeyCollection$views<TKey, TValue> {
@@ -1069,11 +1249,16 @@ export interface __OrderedDictionary_2_KeyCollection$views<TKey, TValue> {
 export type OrderedDictionary_2_KeyCollection<TKey, TValue> = OrderedDictionary_2_KeyCollection$instance<TKey, TValue> & __OrderedDictionary_2_KeyCollection$views<TKey, TValue>;
 
 
-export class OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
+export interface OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
     readonly count: int;
     copyTo(array: TValue[], arrayIndex: int): void;
     getEnumerator(): OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const OrderedDictionary_2_ValueCollection: {
+    new<TKey, TValue>(): OrderedDictionary_2_ValueCollection$instance<TKey, TValue>;
+};
 
 
 export interface __OrderedDictionary_2_ValueCollection$views<TKey, TValue> {
@@ -1089,13 +1274,7 @@ export interface __OrderedDictionary_2_ValueCollection$views<TKey, TValue> {
 export type OrderedDictionary_2_ValueCollection<TKey, TValue> = OrderedDictionary_2_ValueCollection$instance<TKey, TValue> & __OrderedDictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export class PriorityQueue_2$instance<TElement, TPriority> {
-    constructor();
-    constructor(initialCapacity: int);
-    constructor(comparer: IComparer_1<TPriority>);
-    constructor(initialCapacity: int, comparer: IComparer_1<TPriority>);
-    constructor(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>);
-    constructor(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>, comparer: IComparer_1<TPriority>);
+export interface PriorityQueue_2$instance<TElement, TPriority> {
     readonly capacity: int;
     readonly comparer: IComparer_1<TPriority>;
     readonly count: int;
@@ -1116,12 +1295,27 @@ export class PriorityQueue_2$instance<TElement, TPriority> {
 }
 
 
+export const PriorityQueue_2: {
+    new<TElement, TPriority>(): PriorityQueue_2$instance<TElement, TPriority>;
+    new<TElement, TPriority>(initialCapacity: int): PriorityQueue_2$instance<TElement, TPriority>;
+    new<TElement, TPriority>(comparer: IComparer_1<TPriority>): PriorityQueue_2$instance<TElement, TPriority>;
+    new<TElement, TPriority>(initialCapacity: int, comparer: IComparer_1<TPriority>): PriorityQueue_2$instance<TElement, TPriority>;
+    new<TElement, TPriority>(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>): PriorityQueue_2$instance<TElement, TPriority>;
+    new<TElement, TPriority>(items: IEnumerable_1<ValueTuple_2<TElement, TPriority>>, comparer: IComparer_1<TPriority>): PriorityQueue_2$instance<TElement, TPriority>;
+};
+
+
 export type PriorityQueue_2<TElement, TPriority> = PriorityQueue_2$instance<TElement, TPriority>;
 
-export class PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> {
+export interface PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> {
     readonly count: int;
     getEnumerator(): PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPriority>;
 }
+
+
+export const PriorityQueue_2_UnorderedItemsCollection: {
+    new<TElement, TPriority>(): PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority>;
+};
 
 
 export interface __PriorityQueue_2_UnorderedItemsCollection$views<TElement, TPriority> {
@@ -1134,10 +1328,7 @@ export interface __PriorityQueue_2_UnorderedItemsCollection$views<TElement, TPri
 export type PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority> = PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> & __PriorityQueue_2_UnorderedItemsCollection$views<TElement, TPriority>;
 
 
-export class Queue_1$instance<T> {
-    constructor();
-    constructor(capacity: int);
-    constructor(collection: IEnumerable_1<T>);
+export interface Queue_1$instance<T> {
     readonly capacity: int;
     readonly count: int;
     clear(): void;
@@ -1156,6 +1347,13 @@ export class Queue_1$instance<T> {
 }
 
 
+export const Queue_1: {
+    new<T>(): Queue_1$instance<T>;
+    new<T>(capacity: int): Queue_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): Queue_1$instance<T>;
+};
+
+
 export interface __Queue_1$views<T> {
     As_IEnumerable_1(): IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
@@ -1166,11 +1364,16 @@ export interface __Queue_1$views<T> {
 export type Queue_1<T> = Queue_1$instance<T> & __Queue_1$views<T>;
 
 
-export class ReferenceEqualityComparer$instance {
+export interface ReferenceEqualityComparer$instance {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
-    static readonly instance: ReferenceEqualityComparer;
 }
+
+
+export const ReferenceEqualityComparer: {
+    new(): ReferenceEqualityComparer$instance;
+    readonly instance: ReferenceEqualityComparer;
+};
 
 
 export interface __ReferenceEqualityComparer$views {
@@ -1181,11 +1384,7 @@ export interface __ReferenceEqualityComparer$views {
 export type ReferenceEqualityComparer = ReferenceEqualityComparer$instance & __ReferenceEqualityComparer$views;
 
 
-export class SortedDictionary_2$instance<TKey, TValue> {
-    constructor();
-    constructor(dictionary: IDictionary_2<TKey, TValue>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>);
-    constructor(comparer: IComparer_1<TKey>);
+export interface SortedDictionary_2$instance<TKey, TValue> {
     readonly comparer: IComparer_1<TKey>;
     readonly count: int;
     item: TValue;
@@ -1202,6 +1401,14 @@ export class SortedDictionary_2$instance<TKey, TValue> {
 }
 
 
+export const SortedDictionary_2: {
+    new<TKey, TValue>(): SortedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): SortedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>): SortedDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(comparer: IComparer_1<TKey>): SortedDictionary_2$instance<TKey, TValue>;
+};
+
+
 export interface __SortedDictionary_2$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
@@ -1216,13 +1423,17 @@ export interface __SortedDictionary_2$views<TKey, TValue> {
 export type SortedDictionary_2<TKey, TValue> = SortedDictionary_2$instance<TKey, TValue> & __SortedDictionary_2$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_KeyCollection$instance<TKey, TValue> {
-    constructor(dictionary: SortedDictionary_2<TKey, TValue>);
+export interface SortedDictionary_2_KeyCollection$instance<TKey, TValue> {
     readonly count: int;
     contains(item: TKey): boolean;
     copyTo(array: TKey[], index: int): void;
     getEnumerator(): SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const SortedDictionary_2_KeyCollection: {
+    new<TKey, TValue>(dictionary: SortedDictionary_2<TKey, TValue>): SortedDictionary_2_KeyCollection$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_KeyCollection$views<TKey, TValue> {
@@ -1236,12 +1447,16 @@ export interface __SortedDictionary_2_KeyCollection$views<TKey, TValue> {
 export type SortedDictionary_2_KeyCollection<TKey, TValue> = SortedDictionary_2_KeyCollection$instance<TKey, TValue> & __SortedDictionary_2_KeyCollection$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> extends Comparer_1$instance<KeyValuePair_2<TKey, TValue>> {
-    constructor(keyComparer: IComparer_1<TKey>);
+export interface SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> extends Comparer_1$instance<KeyValuePair_2<TKey, TValue>> {
     compare(x: unknown, y: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
+
+
+export const SortedDictionary_2_KeyValuePairComparer: {
+    new<TKey, TValue>(keyComparer: IComparer_1<TKey>): SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_KeyValuePairComparer$views<TKey, TValue> {
@@ -1252,12 +1467,16 @@ export interface __SortedDictionary_2_KeyValuePairComparer$views<TKey, TValue> {
 export type SortedDictionary_2_KeyValuePairComparer<TKey, TValue> = SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> & __SortedDictionary_2_KeyValuePairComparer$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_ValueCollection$instance<TKey, TValue> {
-    constructor(dictionary: SortedDictionary_2<TKey, TValue>);
+export interface SortedDictionary_2_ValueCollection$instance<TKey, TValue> {
     readonly count: int;
     copyTo(array: TValue[], index: int): void;
     getEnumerator(): SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue>;
 }
+
+
+export const SortedDictionary_2_ValueCollection: {
+    new<TKey, TValue>(dictionary: SortedDictionary_2<TKey, TValue>): SortedDictionary_2_ValueCollection$instance<TKey, TValue>;
+};
 
 
 export interface __SortedDictionary_2_ValueCollection$views<TKey, TValue> {
@@ -1271,13 +1490,7 @@ export interface __SortedDictionary_2_ValueCollection$views<TKey, TValue> {
 export type SortedDictionary_2_ValueCollection<TKey, TValue> = SortedDictionary_2_ValueCollection$instance<TKey, TValue> & __SortedDictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export class SortedList_2$instance<TKey, TValue> {
-    constructor();
-    constructor(capacity: int);
-    constructor(comparer: IComparer_1<TKey>);
-    constructor(capacity: int, comparer: IComparer_1<TKey>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>);
-    constructor(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>);
+export interface SortedList_2$instance<TKey, TValue> {
     capacity: int;
     readonly comparer: IComparer_1<TKey>;
     readonly count: int;
@@ -1301,6 +1514,16 @@ export class SortedList_2$instance<TKey, TValue> {
 }
 
 
+export const SortedList_2: {
+    new<TKey, TValue>(): SortedList_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int): SortedList_2$instance<TKey, TValue>;
+    new<TKey, TValue>(comparer: IComparer_1<TKey>): SortedList_2$instance<TKey, TValue>;
+    new<TKey, TValue>(capacity: int, comparer: IComparer_1<TKey>): SortedList_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): SortedList_2$instance<TKey, TValue>;
+    new<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, comparer: IComparer_1<TKey>): SortedList_2$instance<TKey, TValue>;
+};
+
+
 export interface __SortedList_2$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
@@ -1315,7 +1538,7 @@ export interface __SortedList_2$views<TKey, TValue> {
 export type SortedList_2<TKey, TValue> = SortedList_2$instance<TKey, TValue> & __SortedList_2$views<TKey, TValue>;
 
 
-export class SortedList_2_KeyList$instance<TKey, TValue> {
+export interface SortedList_2_KeyList$instance<TKey, TValue> {
     readonly count: int;
     readonly isReadOnly: boolean;
     item: TKey;
@@ -1331,6 +1554,11 @@ export class SortedList_2_KeyList$instance<TKey, TValue> {
 }
 
 
+export const SortedList_2_KeyList: {
+    new<TKey, TValue>(): SortedList_2_KeyList$instance<TKey, TValue>;
+};
+
+
 export interface __SortedList_2_KeyList$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<TKey>;
     As_IEnumerable_1(): IEnumerable_1$instance<TKey>;
@@ -1342,7 +1570,7 @@ export interface __SortedList_2_KeyList$views<TKey, TValue> {
 export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<TKey, TValue> & __SortedList_2_KeyList$views<TKey, TValue>;
 
 
-export class SortedList_2_ValueList$instance<TKey, TValue> {
+export interface SortedList_2_ValueList$instance<TKey, TValue> {
     readonly count: int;
     readonly isReadOnly: boolean;
     item: TValue;
@@ -1358,6 +1586,11 @@ export class SortedList_2_ValueList$instance<TKey, TValue> {
 }
 
 
+export const SortedList_2_ValueList: {
+    new<TKey, TValue>(): SortedList_2_ValueList$instance<TKey, TValue>;
+};
+
+
 export interface __SortedList_2_ValueList$views<TKey, TValue> {
     As_ICollection_1(): ICollection_1$instance<TValue>;
     As_IEnumerable_1(): IEnumerable_1$instance<TValue>;
@@ -1369,11 +1602,7 @@ export interface __SortedList_2_ValueList$views<TKey, TValue> {
 export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue>;
 
 
-export class SortedSet_1$instance<T> {
-    constructor();
-    constructor(comparer: IComparer_1<T>);
-    constructor(collection: IEnumerable_1<T>);
-    constructor(collection: IEnumerable_1<T>, comparer: IComparer_1<T>);
+export interface SortedSet_1$instance<T> {
     readonly comparer: IComparer_1<T>;
     readonly count: int;
     readonly max: T;
@@ -1400,9 +1629,17 @@ export class SortedSet_1$instance<T> {
     symmetricExceptWith(other: IEnumerable_1<T>): void;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     unionWith(other: IEnumerable_1<T>): void;
-    static createSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
-    static createSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
 }
+
+
+export const SortedSet_1: {
+    new<T>(): SortedSet_1$instance<T>;
+    new<T>(comparer: IComparer_1<T>): SortedSet_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): SortedSet_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>, comparer: IComparer_1<T>): SortedSet_1$instance<T>;
+    createSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
+    createSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
+};
 
 
 export interface __SortedSet_1$views<T> {
@@ -1422,10 +1659,7 @@ export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_In
 export type SortedSet_1<T> = SortedSet_1$instance<T> & __SortedSet_1$views<T>;
 
 
-export class Stack_1$instance<T> {
-    constructor();
-    constructor(capacity: int);
-    constructor(collection: IEnumerable_1<T>);
+export interface Stack_1$instance<T> {
     readonly capacity: int;
     readonly count: int;
     clear(): void;
@@ -1444,6 +1678,13 @@ export class Stack_1$instance<T> {
 }
 
 
+export const Stack_1: {
+    new<T>(): Stack_1$instance<T>;
+    new<T>(capacity: int): Stack_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): Stack_1$instance<T>;
+};
+
+
 export interface __Stack_1$views<T> {
     As_IEnumerable_1(): IEnumerable_1$instance<T>;
     As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
@@ -1454,9 +1695,7 @@ export interface __Stack_1$views<T> {
 export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
 
 
-export class TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
-    constructor();
-    constructor(comparer: IComparer_1<T>);
+export interface TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     add(item: T): boolean;
     add(item: T): void;
     clear(): void;
@@ -1474,6 +1713,12 @@ export class TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     onDeserialization(sender: unknown): void;
     unionWith(other: IEnumerable_1<T>): void;
 }
+
+
+export const TreeSet_1: {
+    new<T>(): TreeSet_1$instance<T>;
+    new<T>(comparer: IComparer_1<T>): TreeSet_1$instance<T>;
+};
 
 
 export interface __TreeSet_1$views<T> {

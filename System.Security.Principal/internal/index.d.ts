@@ -217,15 +217,19 @@ export interface IPrincipal$instance {
 
 export type IPrincipal = IPrincipal$instance;
 
-export class GenericIdentity$instance extends System_Security_Claims_Internal.ClaimsIdentity$instance {
-    constructor(name: string);
-    constructor(name: string, type_: string);
+export interface GenericIdentity$instance extends ClaimsIdentity {
     readonly authenticationType: string;
     readonly claims: IEnumerable_1<Claim>;
     readonly isAuthenticated: boolean;
     readonly name: string;
     clone(): ClaimsIdentity;
 }
+
+
+export const GenericIdentity: {
+    new(name: string): GenericIdentity$instance;
+    new(name: string, type_: string): GenericIdentity$instance;
+};
 
 
 export interface __GenericIdentity$views {
@@ -237,11 +241,15 @@ export interface GenericIdentity$instance extends IIdentity$instance {}
 export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views;
 
 
-export class GenericPrincipal$instance extends System_Security_Claims_Internal.ClaimsPrincipal$instance {
-    constructor(identity: IIdentity, roles: string[]);
+export interface GenericPrincipal$instance extends ClaimsPrincipal {
     readonly identity: IIdentity;
     isInRole(role: string): boolean;
 }
+
+
+export const GenericPrincipal: {
+    new(identity: IIdentity, roles: string[]): GenericPrincipal$instance;
+};
 
 
 export interface __GenericPrincipal$views {
@@ -251,13 +259,17 @@ export interface __GenericPrincipal$views {
 export type GenericPrincipal = GenericPrincipal$instance & __GenericPrincipal$views;
 
 
-export class IdentityNotMappedException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface IdentityNotMappedException$instance extends SystemException {
     readonly unmappedIdentities: IdentityReferenceCollection;
     getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
+
+
+export const IdentityNotMappedException: {
+    new(): IdentityNotMappedException$instance;
+    new(message: string): IdentityNotMappedException$instance;
+    new(message: string, inner: Exception): IdentityNotMappedException$instance;
+};
 
 
 export interface __IdentityNotMappedException$views {
@@ -267,21 +279,23 @@ export interface __IdentityNotMappedException$views {
 export type IdentityNotMappedException = IdentityNotMappedException$instance & __IdentityNotMappedException$views;
 
 
-export abstract class IdentityReference$instance {
+export interface IdentityReference$instance {
     readonly value: string;
-    abstract equals(o: unknown): boolean;
-    abstract getHashCode(): int;
-    abstract isValidTargetType(targetType: Type): boolean;
-    abstract toString(): string;
-    abstract translate(targetType: Type): IdentityReference;
+    equals(o: unknown): boolean;
+    getHashCode(): int;
+    isValidTargetType(targetType: Type): boolean;
+    toString(): string;
+    translate(targetType: Type): IdentityReference;
 }
+
+
+export const IdentityReference: {
+};
 
 
 export type IdentityReference = IdentityReference$instance;
 
-export class IdentityReferenceCollection$instance {
-    constructor();
-    constructor(capacity: int);
+export interface IdentityReferenceCollection$instance {
     readonly count: int;
     item: IdentityReference;
     add(identity: IdentityReference): void;
@@ -295,6 +309,12 @@ export class IdentityReferenceCollection$instance {
 }
 
 
+export const IdentityReferenceCollection: {
+    new(): IdentityReferenceCollection$instance;
+    new(capacity: int): IdentityReferenceCollection$instance;
+};
+
+
 export interface __IdentityReferenceCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<IdentityReference>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IdentityReference>;
@@ -304,9 +324,7 @@ export interface __IdentityReferenceCollection$views {
 export type IdentityReferenceCollection = IdentityReferenceCollection$instance & __IdentityReferenceCollection$views;
 
 
-export class NTAccount$instance extends IdentityReference$instance {
-    constructor(name: string);
-    constructor(domainName: string, accountName: string);
+export interface NTAccount$instance extends IdentityReference {
     readonly value: string;
     equals(o: unknown): boolean;
     getHashCode(): int;
@@ -316,13 +334,15 @@ export class NTAccount$instance extends IdentityReference$instance {
 }
 
 
+export const NTAccount: {
+    new(name: string): NTAccount$instance;
+    new(domainName: string, accountName: string): NTAccount$instance;
+};
+
+
 export type NTAccount = NTAccount$instance;
 
-export class SecurityIdentifier$instance extends IdentityReference$instance {
-    constructor(binaryForm: byte[], offset: int);
-    constructor(binaryForm: nint);
-    constructor(sidType: WellKnownSidType, domainSid: SecurityIdentifier);
-    constructor(sddlForm: string);
+export interface SecurityIdentifier$instance extends IdentityReference {
     readonly accountDomainSid: SecurityIdentifier;
     readonly binaryLength: int;
     readonly value: string;
@@ -337,9 +357,17 @@ export class SecurityIdentifier$instance extends IdentityReference$instance {
     isWellKnown(type_: WellKnownSidType): boolean;
     toString(): string;
     translate(targetType: Type): IdentityReference;
-    static readonly maxBinaryLength: int;
-    static readonly minBinaryLength: int;
 }
+
+
+export const SecurityIdentifier: {
+    new(binaryForm: byte[], offset: int): SecurityIdentifier$instance;
+    new(binaryForm: nint): SecurityIdentifier$instance;
+    new(sidType: WellKnownSidType, domainSid: SecurityIdentifier): SecurityIdentifier$instance;
+    new(sddlForm: string): SecurityIdentifier$instance;
+    readonly maxBinaryLength: int;
+    readonly minBinaryLength: int;
+};
 
 
 export interface __SecurityIdentifier$views {
@@ -354,13 +382,7 @@ export interface SecurityIdentifier$instance extends System_Internal.IComparable
 export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentifier$views;
 
 
-export class WindowsIdentity$instance extends System_Security_Claims_Internal.ClaimsIdentity$instance {
-    constructor(userToken: nint);
-    constructor(userToken: nint, type_: string);
-    constructor(userToken: nint, type_: string, acctType: WindowsAccountType);
-    constructor(userToken: nint, type_: string, acctType: WindowsAccountType, isAuthenticated: boolean);
-    constructor(info: SerializationInfo, context: StreamingContext);
-    constructor(sUserPrincipalName: string);
+export interface WindowsIdentity$instance extends ClaimsIdentity {
     readonly accessToken: SafeAccessTokenHandle;
     readonly authenticationType: string;
     readonly claims: IEnumerable_1<Claim>;
@@ -378,16 +400,26 @@ export class WindowsIdentity$instance extends System_Security_Claims_Internal.Cl
     readonly userClaims: IEnumerable_1<Claim>;
     clone(): ClaimsIdentity;
     dispose(): void;
-    static readonly defaultIssuer: string;
-    static getAnonymous(): WindowsIdentity;
-    static getCurrent(): WindowsIdentity;
-    static getCurrent(ifImpersonating: boolean): WindowsIdentity;
-    static getCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
-    static runImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
-    static runImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
-    static runImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
-    static runImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
 }
+
+
+export const WindowsIdentity: {
+    new(userToken: nint): WindowsIdentity$instance;
+    new(userToken: nint, type_: string): WindowsIdentity$instance;
+    new(userToken: nint, type_: string, acctType: WindowsAccountType): WindowsIdentity$instance;
+    new(userToken: nint, type_: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity$instance;
+    new(info: SerializationInfo, context: StreamingContext): WindowsIdentity$instance;
+    new(sUserPrincipalName: string): WindowsIdentity$instance;
+    readonly defaultIssuer: string;
+    getAnonymous(): WindowsIdentity;
+    getCurrent(): WindowsIdentity;
+    getCurrent(ifImpersonating: boolean): WindowsIdentity;
+    getCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
+    runImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
+    runImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
+    runImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
+    runImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
+};
 
 
 export interface __WindowsIdentity$views {
@@ -402,8 +434,7 @@ export interface WindowsIdentity$instance extends System_Internal.IDisposable$in
 export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views;
 
 
-export class WindowsPrincipal$instance extends System_Security_Claims_Internal.ClaimsPrincipal$instance {
-    constructor(ntIdentity: WindowsIdentity);
+export interface WindowsPrincipal$instance extends ClaimsPrincipal {
     readonly deviceClaims: IEnumerable_1<Claim>;
     readonly identity: IIdentity;
     readonly userClaims: IEnumerable_1<Claim>;
@@ -411,6 +442,11 @@ export class WindowsPrincipal$instance extends System_Security_Claims_Internal.C
     isInRole(role: WindowsBuiltInRole): boolean;
     isInRole(role: string): boolean;
 }
+
+
+export const WindowsPrincipal: {
+    new(ntIdentity: WindowsIdentity): WindowsPrincipal$instance;
+};
 
 
 export interface __WindowsPrincipal$views {

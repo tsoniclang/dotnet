@@ -378,6 +378,9 @@ export enum VarEnum {
 }
 
 
+export type DllImportResolver = (libraryName: string, assembly: Assembly, searchPath: Nullable_1<DllImportSearchPath>) => nint;
+
+
 export interface ICustomAdapter$instance {
     getUnderlyingObject(): unknown;
 }
@@ -418,14 +421,18 @@ export interface IDynamicInterfaceCastable$instance {
 
 export type IDynamicInterfaceCastable = IDynamicInterfaceCastable$instance;
 
-export class ArrayWithOffset$instance {
-    constructor(array: unknown, offset: int);
+export interface ArrayWithOffset$instance {
     equals(obj: unknown): boolean;
     equals(obj: ArrayWithOffset): boolean;
     getArray(): unknown;
     getHashCode(): int;
     getOffset(): int;
 }
+
+
+export const ArrayWithOffset: {
+    new(array: unknown, offset: int): ArrayWithOffset$instance;
+};
 
 
 export interface __ArrayWithOffset$views {
@@ -438,15 +445,19 @@ export interface __ArrayWithOffset$views {
 export type ArrayWithOffset = ArrayWithOffset$instance & __ArrayWithOffset$views;
 
 
-export class CLong$instance {
-    constructor(value: int);
-    constructor(value: nint);
+export interface CLong$instance {
     readonly value: nint;
     equals(o: unknown): boolean;
     equals(other: CLong): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const CLong: {
+    new(value: int): CLong$instance;
+    new(value: nint): CLong$instance;
+};
 
 
 export interface __CLong$views {
@@ -459,31 +470,45 @@ export interface __CLong$views {
 export type CLong = CLong$instance & __CLong$views;
 
 
-export class ComWrappers_ComInterfaceDispatch$instance {
+export interface ComWrappers_ComInterfaceDispatch$instance {
     vtable: nint;
-    static getInstance<T>(dispatchPtr: ptr<ComWrappers_ComInterfaceDispatch>): T;
 }
+
+
+export const ComWrappers_ComInterfaceDispatch: {
+    new(): ComWrappers_ComInterfaceDispatch$instance;
+    getInstance<T>(dispatchPtr: ptr<ComWrappers_ComInterfaceDispatch>): T;
+};
 
 
 export type ComWrappers_ComInterfaceDispatch = ComWrappers_ComInterfaceDispatch$instance;
 
-export class ComWrappers_ComInterfaceEntry$instance {
+export interface ComWrappers_ComInterfaceEntry$instance {
     IID: Guid;
     vtable: nint;
 }
 
 
+export const ComWrappers_ComInterfaceEntry: {
+    new(): ComWrappers_ComInterfaceEntry$instance;
+};
+
+
 export type ComWrappers_ComInterfaceEntry = ComWrappers_ComInterfaceEntry$instance;
 
-export class CULong$instance {
-    constructor(value: uint);
-    constructor(value: nuint);
+export interface CULong$instance {
     readonly value: nuint;
     equals(o: unknown): boolean;
     equals(other: CULong): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const CULong: {
+    new(value: uint): CULong$instance;
+    new(value: nuint): CULong$instance;
+};
 
 
 export interface __CULong$views {
@@ -496,7 +521,7 @@ export interface __CULong$views {
 export type CULong = CULong$instance & __CULong$views;
 
 
-export class GCHandle$instance {
+export interface GCHandle$instance {
     readonly isAllocated: boolean;
     target: unknown;
     addrOfPinnedObject(): nint;
@@ -504,11 +529,16 @@ export class GCHandle$instance {
     equals(other: GCHandle): boolean;
     free(): void;
     getHashCode(): int;
-    static alloc(value: unknown, type_: GCHandleType): GCHandle;
-    static alloc(value: unknown): GCHandle;
-    static fromIntPtr(value: nint): GCHandle;
-    static toIntPtr(value: GCHandle): nint;
 }
+
+
+export const GCHandle: {
+    new(): GCHandle$instance;
+    alloc(value: unknown, type_: GCHandleType): GCHandle;
+    alloc(value: unknown): GCHandle;
+    fromIntPtr(value: nint): GCHandle;
+    toIntPtr(value: GCHandle): nint;
+};
 
 
 export interface __GCHandle$views {
@@ -521,17 +551,21 @@ export interface __GCHandle$views {
 export type GCHandle = GCHandle$instance & __GCHandle$views;
 
 
-export class GCHandle_1$instance<T> {
-    constructor(target: T);
+export interface GCHandle_1$instance<T> {
     readonly isAllocated: boolean;
     target: T;
     dispose(): void;
     equals(obj: unknown): boolean;
     equals(other: GCHandle_1<T>): boolean;
     getHashCode(): int;
-    static fromIntPtr<T>(value: nint): GCHandle_1<T>;
-    static toIntPtr<T>(value: GCHandle_1<T>): nint;
 }
+
+
+export const GCHandle_1: {
+    new<T>(target: T): GCHandle_1$instance<T>;
+    fromIntPtr<T>(value: nint): GCHandle_1<T>;
+    toIntPtr<T>(value: GCHandle_1<T>): nint;
+};
 
 
 export interface __GCHandle_1$views<T> {
@@ -547,19 +581,21 @@ export interface GCHandle_1$instance<T> extends System_Internal.IDisposable$inst
 export type GCHandle_1<T> = GCHandle_1$instance<T> & __GCHandle_1$views<T>;
 
 
-export class HandleRef$instance {
-    constructor(wrapper: unknown, handle: nint);
+export interface HandleRef$instance {
     readonly handle: nint;
     readonly wrapper: unknown;
-    static toIntPtr(value: HandleRef): nint;
 }
+
+
+export const HandleRef: {
+    new(wrapper: unknown, handle: nint): HandleRef$instance;
+    toIntPtr(value: HandleRef): nint;
+};
 
 
 export type HandleRef = HandleRef$instance;
 
-export class NFloat$instance implements IBitwiseOperators_3<NFloat, NFloat, NFloat>, IComparisonOperators_3<NFloat, NFloat, CLROf<boolean>>, IEqualityOperators_3<NFloat, NFloat, CLROf<boolean>>, IModulusOperators_3<NFloat, NFloat, NFloat>, IAdditionOperators_3<NFloat, NFloat, NFloat>, IDecrementOperators_1<NFloat>, IDivisionOperators_3<NFloat, NFloat, NFloat>, IIncrementOperators_1<NFloat>, IMultiplyOperators_3<NFloat, NFloat, NFloat>, ISubtractionOperators_3<NFloat, NFloat, NFloat>, IUnaryPlusOperators_2<NFloat, NFloat>, IUnaryNegationOperators_2<NFloat, NFloat> {
-    constructor(value: float);
-    constructor(value: double);
+export interface NFloat$instance extends IBitwiseOperators_3<NFloat, NFloat, NFloat>, IComparisonOperators_3<NFloat, NFloat, CLROf<boolean>>, IEqualityOperators_3<NFloat, NFloat, CLROf<boolean>>, IModulusOperators_3<NFloat, NFloat, NFloat>, IAdditionOperators_3<NFloat, NFloat, NFloat>, IDecrementOperators_1<NFloat>, IDivisionOperators_3<NFloat, NFloat, NFloat>, IIncrementOperators_1<NFloat>, IMultiplyOperators_3<NFloat, NFloat, NFloat>, ISubtractionOperators_3<NFloat, NFloat, NFloat>, IUnaryPlusOperators_2<NFloat, NFloat>, IUnaryNegationOperators_2<NFloat, NFloat> {
     readonly value: double;
     compareTo(obj: unknown): int;
     compareTo(other: NFloat): int;
@@ -572,128 +608,134 @@ export class NFloat$instance implements IBitwiseOperators_3<NFloat, NFloat, NFlo
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly epsilon: NFloat;
-    static readonly maxValue: NFloat;
-    static readonly minValue: NFloat;
-    static readonly naN: NFloat;
-    static readonly negativeInfinity: NFloat;
-    static readonly positiveInfinity: NFloat;
-    static readonly size: int;
-    static readonly E: NFloat;
-    static readonly pi: NFloat;
-    static readonly tau: NFloat;
-    static readonly negativeZero: NFloat;
-    static abs(value: NFloat): NFloat;
-    static acos(x: NFloat): NFloat;
-    static acosh(x: NFloat): NFloat;
-    static acosPi(x: NFloat): NFloat;
-    static asin(x: NFloat): NFloat;
-    static asinh(x: NFloat): NFloat;
-    static asinPi(x: NFloat): NFloat;
-    static atan(x: NFloat): NFloat;
-    static atan2(y: NFloat, x: NFloat): NFloat;
-    static atan2Pi(y: NFloat, x: NFloat): NFloat;
-    static atanh(x: NFloat): NFloat;
-    static atanPi(x: NFloat): NFloat;
-    static bitDecrement(x: NFloat): NFloat;
-    static bitIncrement(x: NFloat): NFloat;
-    static cbrt(x: NFloat): NFloat;
-    static ceiling(x: NFloat): NFloat;
-    static clamp(value: NFloat, min: NFloat, max: NFloat): NFloat;
-    static clampNative(value: NFloat, min: NFloat, max: NFloat): NFloat;
-    static convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
-    static convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
-    static copySign(value: NFloat, sign: NFloat): NFloat;
-    static cos(x: NFloat): NFloat;
-    static cosh(x: NFloat): NFloat;
-    static cosPi(x: NFloat): NFloat;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
-    static degreesToRadians(degrees: NFloat): NFloat;
-    static exp(x: NFloat): NFloat;
-    static exp10(x: NFloat): NFloat;
-    static exp10M1(x: NFloat): NFloat;
-    static exp2(x: NFloat): NFloat;
-    static exp2M1(x: NFloat): NFloat;
-    static expM1(x: NFloat): NFloat;
-    static floor(x: NFloat): NFloat;
-    static fusedMultiplyAdd(left: NFloat, right: NFloat, addend: NFloat): NFloat;
-    static hypot(x: NFloat, y: NFloat): NFloat;
-    static ieee754Remainder(left: NFloat, right: NFloat): NFloat;
-    static iLogB(x: NFloat): int;
-    static isEvenInteger(value: NFloat): boolean;
-    static isFinite(value: NFloat): boolean;
-    static isInfinity(value: NFloat): boolean;
-    static isInteger(value: NFloat): boolean;
-    static isNaN(value: NFloat): boolean;
-    static isNegative(value: NFloat): boolean;
-    static isNegativeInfinity(value: NFloat): boolean;
-    static isNormal(value: NFloat): boolean;
-    static isOddInteger(value: NFloat): boolean;
-    static isPositive(value: NFloat): boolean;
-    static isPositiveInfinity(value: NFloat): boolean;
-    static isPow2(value: NFloat): boolean;
-    static isRealNumber(value: NFloat): boolean;
-    static isSubnormal(value: NFloat): boolean;
-    static lerp(value1: NFloat, value2: NFloat, amount: NFloat): NFloat;
-    static log(x: NFloat, newBase: NFloat): NFloat;
-    static log(x: NFloat): NFloat;
-    static log10(x: NFloat): NFloat;
-    static log10P1(x: NFloat): NFloat;
-    static log2(value: NFloat): NFloat;
-    static log2P1(x: NFloat): NFloat;
-    static logP1(x: NFloat): NFloat;
-    static max(x: NFloat, y: NFloat): NFloat;
-    static maxMagnitude(x: NFloat, y: NFloat): NFloat;
-    static maxMagnitudeNumber(x: NFloat, y: NFloat): NFloat;
-    static maxNative(x: NFloat, y: NFloat): NFloat;
-    static maxNumber(x: NFloat, y: NFloat): NFloat;
-    static min(x: NFloat, y: NFloat): NFloat;
-    static minMagnitude(x: NFloat, y: NFloat): NFloat;
-    static minMagnitudeNumber(x: NFloat, y: NFloat): NFloat;
-    static minNative(x: NFloat, y: NFloat): NFloat;
-    static minNumber(x: NFloat, y: NFloat): NFloat;
-    static multiplyAddEstimate(left: NFloat, right: NFloat, addend: NFloat): NFloat;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): NFloat;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): NFloat;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): NFloat;
-    static parse(s: string, style: NumberStyles): NFloat;
-    static parse(s: string, provider: IFormatProvider): NFloat;
-    static parse(s: string): NFloat;
-    static pow(x: NFloat, y: NFloat): NFloat;
-    static radiansToDegrees(radians: NFloat): NFloat;
-    static reciprocalEstimate(x: NFloat): NFloat;
-    static reciprocalSqrtEstimate(x: NFloat): NFloat;
-    static rootN(x: NFloat, n: int): NFloat;
-    static round(x: NFloat, digits: int, mode: MidpointRounding): NFloat;
-    static round(x: NFloat, digits: int): NFloat;
-    static round(x: NFloat, mode: MidpointRounding): NFloat;
-    static round(x: NFloat): NFloat;
-    static scaleB(x: NFloat, n: int): NFloat;
-    static sign(value: NFloat): int;
-    static sin(x: NFloat): NFloat;
-    static sinCos(x: NFloat): ValueTuple_2<NFloat, NFloat>;
-    static sinCosPi(x: NFloat): ValueTuple_2<NFloat, NFloat>;
-    static sinh(x: NFloat): NFloat;
-    static sinPi(x: NFloat): NFloat;
-    static sqrt(x: NFloat): NFloat;
-    static tan(x: NFloat): NFloat;
-    static tanh(x: NFloat): NFloat;
-    static tanPi(x: NFloat): NFloat;
-    static truncate(x: NFloat): NFloat;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
-    static tryParse(s: string, result: { value: ref<NFloat> }): boolean;
 }
+
+
+export const NFloat: {
+    new(value: float): NFloat$instance;
+    new(value: double): NFloat$instance;
+    readonly epsilon: NFloat;
+    readonly maxValue: NFloat;
+    readonly minValue: NFloat;
+    readonly naN: NFloat;
+    readonly negativeInfinity: NFloat;
+    readonly positiveInfinity: NFloat;
+    readonly size: int;
+    readonly E: NFloat;
+    readonly pi: NFloat;
+    readonly tau: NFloat;
+    readonly negativeZero: NFloat;
+    abs(value: NFloat): NFloat;
+    acos(x: NFloat): NFloat;
+    acosh(x: NFloat): NFloat;
+    acosPi(x: NFloat): NFloat;
+    asin(x: NFloat): NFloat;
+    asinh(x: NFloat): NFloat;
+    asinPi(x: NFloat): NFloat;
+    atan(x: NFloat): NFloat;
+    atan2(y: NFloat, x: NFloat): NFloat;
+    atan2Pi(y: NFloat, x: NFloat): NFloat;
+    atanh(x: NFloat): NFloat;
+    atanPi(x: NFloat): NFloat;
+    bitDecrement(x: NFloat): NFloat;
+    bitIncrement(x: NFloat): NFloat;
+    cbrt(x: NFloat): NFloat;
+    ceiling(x: NFloat): NFloat;
+    clamp(value: NFloat, min: NFloat, max: NFloat): NFloat;
+    clampNative(value: NFloat, min: NFloat, max: NFloat): NFloat;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: NFloat): TInteger;
+    copySign(value: NFloat, sign: NFloat): NFloat;
+    cos(x: NFloat): NFloat;
+    cosh(x: NFloat): NFloat;
+    cosPi(x: NFloat): NFloat;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): NFloat;
+    degreesToRadians(degrees: NFloat): NFloat;
+    exp(x: NFloat): NFloat;
+    exp10(x: NFloat): NFloat;
+    exp10M1(x: NFloat): NFloat;
+    exp2(x: NFloat): NFloat;
+    exp2M1(x: NFloat): NFloat;
+    expM1(x: NFloat): NFloat;
+    floor(x: NFloat): NFloat;
+    fusedMultiplyAdd(left: NFloat, right: NFloat, addend: NFloat): NFloat;
+    hypot(x: NFloat, y: NFloat): NFloat;
+    ieee754Remainder(left: NFloat, right: NFloat): NFloat;
+    iLogB(x: NFloat): int;
+    isEvenInteger(value: NFloat): boolean;
+    isFinite(value: NFloat): boolean;
+    isInfinity(value: NFloat): boolean;
+    isInteger(value: NFloat): boolean;
+    isNaN(value: NFloat): boolean;
+    isNegative(value: NFloat): boolean;
+    isNegativeInfinity(value: NFloat): boolean;
+    isNormal(value: NFloat): boolean;
+    isOddInteger(value: NFloat): boolean;
+    isPositive(value: NFloat): boolean;
+    isPositiveInfinity(value: NFloat): boolean;
+    isPow2(value: NFloat): boolean;
+    isRealNumber(value: NFloat): boolean;
+    isSubnormal(value: NFloat): boolean;
+    lerp(value1: NFloat, value2: NFloat, amount: NFloat): NFloat;
+    log(x: NFloat, newBase: NFloat): NFloat;
+    log(x: NFloat): NFloat;
+    log10(x: NFloat): NFloat;
+    log10P1(x: NFloat): NFloat;
+    log2(value: NFloat): NFloat;
+    log2P1(x: NFloat): NFloat;
+    logP1(x: NFloat): NFloat;
+    max(x: NFloat, y: NFloat): NFloat;
+    maxMagnitude(x: NFloat, y: NFloat): NFloat;
+    maxMagnitudeNumber(x: NFloat, y: NFloat): NFloat;
+    maxNative(x: NFloat, y: NFloat): NFloat;
+    maxNumber(x: NFloat, y: NFloat): NFloat;
+    min(x: NFloat, y: NFloat): NFloat;
+    minMagnitude(x: NFloat, y: NFloat): NFloat;
+    minMagnitudeNumber(x: NFloat, y: NFloat): NFloat;
+    minNative(x: NFloat, y: NFloat): NFloat;
+    minNumber(x: NFloat, y: NFloat): NFloat;
+    multiplyAddEstimate(left: NFloat, right: NFloat, addend: NFloat): NFloat;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): NFloat;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): NFloat;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): NFloat;
+    parse(s: string, style: NumberStyles): NFloat;
+    parse(s: string, provider: IFormatProvider): NFloat;
+    parse(s: string): NFloat;
+    pow(x: NFloat, y: NFloat): NFloat;
+    radiansToDegrees(radians: NFloat): NFloat;
+    reciprocalEstimate(x: NFloat): NFloat;
+    reciprocalSqrtEstimate(x: NFloat): NFloat;
+    rootN(x: NFloat, n: int): NFloat;
+    round(x: NFloat, digits: int, mode: MidpointRounding): NFloat;
+    round(x: NFloat, digits: int): NFloat;
+    round(x: NFloat, mode: MidpointRounding): NFloat;
+    round(x: NFloat): NFloat;
+    scaleB(x: NFloat, n: int): NFloat;
+    sign(value: NFloat): int;
+    sin(x: NFloat): NFloat;
+    sinCos(x: NFloat): ValueTuple_2<NFloat, NFloat>;
+    sinCosPi(x: NFloat): ValueTuple_2<NFloat, NFloat>;
+    sinh(x: NFloat): NFloat;
+    sinPi(x: NFloat): NFloat;
+    sqrt(x: NFloat): NFloat;
+    tan(x: NFloat): NFloat;
+    tanh(x: NFloat): NFloat;
+    tanPi(x: NFloat): NFloat;
+    truncate(x: NFloat): NFloat;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<NFloat> }): boolean;
+    tryParse(s: string, result: { value: ref<NFloat> }): boolean;
+};
 
 
 export interface __NFloat$views {
@@ -731,17 +773,22 @@ export interface NFloat$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type NFloat = NFloat$instance & __NFloat$views;
 
 
-export class OSPlatform$instance {
+export interface OSPlatform$instance {
     equals(other: OSPlatform): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly freeBSD: OSPlatform;
-    static readonly linux: OSPlatform;
-    static readonly OSX: OSPlatform;
-    static readonly windows: OSPlatform;
-    static create(osPlatform: string): OSPlatform;
 }
+
+
+export const OSPlatform: {
+    new(): OSPlatform$instance;
+    readonly freeBSD: OSPlatform;
+    readonly linux: OSPlatform;
+    readonly OSX: OSPlatform;
+    readonly windows: OSPlatform;
+    create(osPlatform: string): OSPlatform;
+};
 
 
 export interface __OSPlatform$views {
@@ -754,8 +801,7 @@ export interface __OSPlatform$views {
 export type OSPlatform = OSPlatform$instance & __OSPlatform$views;
 
 
-export class PinnedGCHandle_1$instance<T> {
-    constructor(target: T);
+export interface PinnedGCHandle_1$instance<T> {
     readonly isAllocated: boolean;
     target: T;
     dispose(): void;
@@ -763,9 +809,14 @@ export class PinnedGCHandle_1$instance<T> {
     equals(other: PinnedGCHandle_1<T>): boolean;
     getAddressOfObjectData(): ptr<void>;
     getHashCode(): int;
-    static fromIntPtr<T>(value: nint): PinnedGCHandle_1<T>;
-    static toIntPtr<T>(value: PinnedGCHandle_1<T>): nint;
 }
+
+
+export const PinnedGCHandle_1: {
+    new<T>(target: T): PinnedGCHandle_1$instance<T>;
+    fromIntPtr<T>(value: nint): PinnedGCHandle_1<T>;
+    toIntPtr<T>(value: PinnedGCHandle_1<T>): nint;
+};
 
 
 export interface __PinnedGCHandle_1$views<T> {
@@ -781,8 +832,7 @@ export interface PinnedGCHandle_1$instance<T> extends System_Internal.IDisposabl
 export type PinnedGCHandle_1<T> = PinnedGCHandle_1$instance<T> & __PinnedGCHandle_1$views<T>;
 
 
-export class WeakGCHandle_1$instance<T> {
-    constructor(target: T, trackResurrection: boolean);
+export interface WeakGCHandle_1$instance<T> {
     readonly isAllocated: boolean;
     dispose(): void;
     equals(obj: unknown): boolean;
@@ -790,9 +840,14 @@ export class WeakGCHandle_1$instance<T> {
     getHashCode(): int;
     setTarget(target: T): void;
     tryGetTarget(target: { value: ref<T> }): boolean;
-    static fromIntPtr<T>(value: nint): WeakGCHandle_1<T>;
-    static toIntPtr<T>(value: WeakGCHandle_1<T>): nint;
 }
+
+
+export const WeakGCHandle_1: {
+    new<T>(target: T, trackResurrection: boolean): WeakGCHandle_1$instance<T>;
+    fromIntPtr<T>(value: nint): WeakGCHandle_1<T>;
+    toIntPtr<T>(value: WeakGCHandle_1<T>): nint;
+};
 
 
 export interface __WeakGCHandle_1$views<T> {
@@ -808,66 +863,93 @@ export interface WeakGCHandle_1$instance<T> extends System_Internal.IDisposable$
 export type WeakGCHandle_1<T> = WeakGCHandle_1$instance<T> & __WeakGCHandle_1$views<T>;
 
 
-export class AllowReversePInvokeCallsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface AllowReversePInvokeCallsAttribute$instance extends Attribute {
 }
+
+
+export const AllowReversePInvokeCallsAttribute: {
+    new(): AllowReversePInvokeCallsAttribute$instance;
+};
 
 
 export type AllowReversePInvokeCallsAttribute = AllowReversePInvokeCallsAttribute$instance;
 
-export class AutomationProxyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(val: boolean);
+export interface AutomationProxyAttribute$instance extends Attribute {
     readonly value: boolean;
 }
 
 
+export const AutomationProxyAttribute: {
+    new(val: boolean): AutomationProxyAttribute$instance;
+};
+
+
 export type AutomationProxyAttribute = AutomationProxyAttribute$instance;
 
-export class BestFitMappingAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(BestFitMapping: boolean);
+export interface BestFitMappingAttribute$instance extends Attribute {
     throwOnUnmappableChar: boolean;
     readonly bestFitMapping: boolean;
 }
 
 
+export const BestFitMappingAttribute: {
+    new(BestFitMapping: boolean): BestFitMappingAttribute$instance;
+};
+
+
 export type BestFitMappingAttribute = BestFitMappingAttribute$instance;
 
-export class BStrWrapper$instance {
-    constructor(value: string);
-    constructor(value: unknown);
+export interface BStrWrapper$instance {
     readonly wrappedObject: string;
 }
 
 
+export const BStrWrapper: {
+    new(value: string): BStrWrapper$instance;
+    new(value: unknown): BStrWrapper$instance;
+};
+
+
 export type BStrWrapper = BStrWrapper$instance;
 
-export class ClassInterfaceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(classInterfaceType: ClassInterfaceType);
-    constructor(classInterfaceType: short);
+export interface ClassInterfaceAttribute$instance extends Attribute {
     readonly value: ClassInterfaceType;
 }
 
 
+export const ClassInterfaceAttribute: {
+    new(classInterfaceType: ClassInterfaceType): ClassInterfaceAttribute$instance;
+    new(classInterfaceType: short): ClassInterfaceAttribute$instance;
+};
+
+
 export type ClassInterfaceAttribute = ClassInterfaceAttribute$instance;
 
-export class CoClassAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(coClass: Type);
+export interface CoClassAttribute$instance extends Attribute {
     readonly coClass: Type;
 }
 
 
+export const CoClassAttribute: {
+    new(coClass: Type): CoClassAttribute$instance;
+};
+
+
 export type CoClassAttribute = CoClassAttribute$instance;
 
-export class ComAliasNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(alias: string);
+export interface ComAliasNameAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const ComAliasNameAttribute: {
+    new(alias: string): ComAliasNameAttribute$instance;
+};
+
+
 export type ComAliasNameAttribute = ComAliasNameAttribute$instance;
 
-export class ComAwareEventInfo$instance extends System_Reflection_Internal.EventInfo$instance {
-    constructor(type_: Type, eventName: string);
+export interface ComAwareEventInfo$instance extends EventInfo {
     readonly attributes: EventAttributes;
     readonly declaringType: Type;
     readonly metadataToken: int;
@@ -892,6 +974,11 @@ export class ComAwareEventInfo$instance extends System_Reflection_Internal.Event
 }
 
 
+export const ComAwareEventInfo: {
+    new(type_: Type, eventName: string): ComAwareEventInfo$instance;
+};
+
+
 export interface __ComAwareEventInfo$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -899,8 +986,7 @@ export interface __ComAwareEventInfo$views {
 export type ComAwareEventInfo = ComAwareEventInfo$instance & __ComAwareEventInfo$views;
 
 
-export class ComCompatibleVersionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(major: int, minor: int, build: int, revision: int);
+export interface ComCompatibleVersionAttribute$instance extends Attribute {
     readonly buildNumber: int;
     readonly majorVersion: int;
     readonly minorVersion: int;
@@ -908,40 +994,61 @@ export class ComCompatibleVersionAttribute$instance extends System_Internal.Attr
 }
 
 
+export const ComCompatibleVersionAttribute: {
+    new(major: int, minor: int, build: int, revision: int): ComCompatibleVersionAttribute$instance;
+};
+
+
 export type ComCompatibleVersionAttribute = ComCompatibleVersionAttribute$instance;
 
-export class ComConversionLossAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ComConversionLossAttribute$instance extends Attribute {
 }
+
+
+export const ComConversionLossAttribute: {
+    new(): ComConversionLossAttribute$instance;
+};
 
 
 export type ComConversionLossAttribute = ComConversionLossAttribute$instance;
 
-export class ComDefaultInterfaceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(defaultInterface: Type);
+export interface ComDefaultInterfaceAttribute$instance extends Attribute {
     readonly value: Type;
 }
 
 
+export const ComDefaultInterfaceAttribute: {
+    new(defaultInterface: Type): ComDefaultInterfaceAttribute$instance;
+};
+
+
 export type ComDefaultInterfaceAttribute = ComDefaultInterfaceAttribute$instance;
 
-export class ComEventInterfaceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(SourceInterface: Type, EventProvider: Type);
+export interface ComEventInterfaceAttribute$instance extends Attribute {
     readonly eventProvider: Type;
     readonly sourceInterface: Type;
 }
 
 
+export const ComEventInterfaceAttribute: {
+    new(SourceInterface: Type, EventProvider: Type): ComEventInterfaceAttribute$instance;
+};
+
+
 export type ComEventInterfaceAttribute = ComEventInterfaceAttribute$instance;
 
-export class COMException$instance extends ExternalException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, errorCode: int);
+export interface COMException$instance extends ExternalException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const COMException: {
+    new(): COMException$instance;
+    new(message: string): COMException$instance;
+    new(message: string, inner: Exception): COMException$instance;
+    new(message: string, errorCode: int): COMException$instance;
+};
 
 
 export interface __COMException$views {
@@ -951,70 +1058,98 @@ export interface __COMException$views {
 export type COMException = COMException$instance & __COMException$views;
 
 
-export class ComImportAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ComImportAttribute$instance extends Attribute {
 }
+
+
+export const ComImportAttribute: {
+    new(): ComImportAttribute$instance;
+};
 
 
 export type ComImportAttribute = ComImportAttribute$instance;
 
-export class ComRegisterFunctionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ComRegisterFunctionAttribute$instance extends Attribute {
 }
+
+
+export const ComRegisterFunctionAttribute: {
+    new(): ComRegisterFunctionAttribute$instance;
+};
 
 
 export type ComRegisterFunctionAttribute = ComRegisterFunctionAttribute$instance;
 
-export class ComSourceInterfacesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(sourceInterfaces: string);
-    constructor(sourceInterface: Type);
-    constructor(sourceInterface1: Type, sourceInterface2: Type);
-    constructor(sourceInterface1: Type, sourceInterface2: Type, sourceInterface3: Type);
-    constructor(sourceInterface1: Type, sourceInterface2: Type, sourceInterface3: Type, sourceInterface4: Type);
+export interface ComSourceInterfacesAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const ComSourceInterfacesAttribute: {
+    new(sourceInterfaces: string): ComSourceInterfacesAttribute$instance;
+    new(sourceInterface: Type): ComSourceInterfacesAttribute$instance;
+    new(sourceInterface1: Type, sourceInterface2: Type): ComSourceInterfacesAttribute$instance;
+    new(sourceInterface1: Type, sourceInterface2: Type, sourceInterface3: Type): ComSourceInterfacesAttribute$instance;
+    new(sourceInterface1: Type, sourceInterface2: Type, sourceInterface3: Type, sourceInterface4: Type): ComSourceInterfacesAttribute$instance;
+};
+
+
 export type ComSourceInterfacesAttribute = ComSourceInterfacesAttribute$instance;
 
-export class ComUnregisterFunctionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ComUnregisterFunctionAttribute$instance extends Attribute {
 }
+
+
+export const ComUnregisterFunctionAttribute: {
+    new(): ComUnregisterFunctionAttribute$instance;
+};
 
 
 export type ComUnregisterFunctionAttribute = ComUnregisterFunctionAttribute$instance;
 
-export class ComVisibleAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(visibility: boolean);
+export interface ComVisibleAttribute$instance extends Attribute {
     readonly value: boolean;
 }
 
 
+export const ComVisibleAttribute: {
+    new(visibility: boolean): ComVisibleAttribute$instance;
+};
+
+
 export type ComVisibleAttribute = ComVisibleAttribute$instance;
 
-export abstract class ComWrappers$instance {
+export interface ComWrappers$instance {
     getOrCreateComInterfaceForObject(instance: unknown, flags: CreateComInterfaceFlags): nint;
     getOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags): unknown;
     getOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, userState: unknown): unknown;
     getOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown): unknown;
     getOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown, inner: nint): unknown;
-    static getIUnknownImpl(fpQueryInterface: { value: ref<nint> }, fpAddRef: { value: ref<nint> }, fpRelease: { value: ref<nint> }): void;
-    static registerForMarshalling(instance: ComWrappers): void;
-    static registerForTrackerSupport(instance: ComWrappers): void;
-    static tryGetComInstance(obj: unknown, unknown_: { value: ref<nint> }): boolean;
-    static tryGetObject(unknown_: nint, obj: { value: ref<unknown> }): boolean;
 }
+
+
+export const ComWrappers: {
+    getIUnknownImpl(fpQueryInterface: { value: ref<nint> }, fpAddRef: { value: ref<nint> }, fpRelease: { value: ref<nint> }): void;
+    registerForMarshalling(instance: ComWrappers): void;
+    registerForTrackerSupport(instance: ComWrappers): void;
+    tryGetComInstance(obj: unknown, unknown_: { value: ref<nint> }): boolean;
+    tryGetObject(unknown_: nint, obj: { value: ref<unknown> }): boolean;
+};
 
 
 export type ComWrappers = ComWrappers$instance;
 
-export abstract class CriticalHandle$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+export interface CriticalHandle$instance extends CriticalFinalizerObject {
     readonly isClosed: boolean;
     readonly isInvalid: boolean;
     close(): void;
     dispose(): void;
     setHandleAsInvalid(): void;
 }
+
+
+export const CriticalHandle: {
+};
 
 
 export interface __CriticalHandle$views {
@@ -1026,57 +1161,80 @@ export interface CriticalHandle$instance extends System_Internal.IDisposable$ins
 export type CriticalHandle = CriticalHandle$instance & __CriticalHandle$views;
 
 
-export class CurrencyWrapper$instance {
-    constructor(obj: decimal);
-    constructor(obj: unknown);
+export interface CurrencyWrapper$instance {
     readonly wrappedObject: decimal;
 }
 
 
+export const CurrencyWrapper: {
+    new(obj: decimal): CurrencyWrapper$instance;
+    new(obj: unknown): CurrencyWrapper$instance;
+};
+
+
 export type CurrencyWrapper = CurrencyWrapper$instance;
 
-export class DefaultCharSetAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(charSet: CharSet);
+export interface DefaultCharSetAttribute$instance extends Attribute {
     readonly charSet: CharSet;
 }
 
 
+export const DefaultCharSetAttribute: {
+    new(charSet: CharSet): DefaultCharSetAttribute$instance;
+};
+
+
 export type DefaultCharSetAttribute = DefaultCharSetAttribute$instance;
 
-export class DefaultDllImportSearchPathsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(paths: DllImportSearchPath);
+export interface DefaultDllImportSearchPathsAttribute$instance extends Attribute {
     readonly paths: DllImportSearchPath;
 }
 
 
+export const DefaultDllImportSearchPathsAttribute: {
+    new(paths: DllImportSearchPath): DefaultDllImportSearchPathsAttribute$instance;
+};
+
+
 export type DefaultDllImportSearchPathsAttribute = DefaultDllImportSearchPathsAttribute$instance;
 
-export class DefaultParameterValueAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: unknown);
+export interface DefaultParameterValueAttribute$instance extends Attribute {
     readonly value: unknown;
 }
 
 
+export const DefaultParameterValueAttribute: {
+    new(value: unknown): DefaultParameterValueAttribute$instance;
+};
+
+
 export type DefaultParameterValueAttribute = DefaultParameterValueAttribute$instance;
 
-export class DispatchWrapper$instance {
-    constructor(obj: unknown);
+export interface DispatchWrapper$instance {
     readonly wrappedObject: unknown;
 }
 
 
+export const DispatchWrapper: {
+    new(obj: unknown): DispatchWrapper$instance;
+};
+
+
 export type DispatchWrapper = DispatchWrapper$instance;
 
-export class DispIdAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(dispId: int);
+export interface DispIdAttribute$instance extends Attribute {
     readonly value: int;
 }
 
 
+export const DispIdAttribute: {
+    new(dispId: int): DispIdAttribute$instance;
+};
+
+
 export type DispIdAttribute = DispIdAttribute$instance;
 
-export class DllImportAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(dllName: string);
+export interface DllImportAttribute$instance extends Attribute {
     entryPoint: string;
     charSet: CharSet;
     setLastError: boolean;
@@ -1089,52 +1247,51 @@ export class DllImportAttribute$instance extends System_Internal.Attribute$insta
 }
 
 
+export const DllImportAttribute: {
+    new(dllName: string): DllImportAttribute$instance;
+};
+
+
 export type DllImportAttribute = DllImportAttribute$instance;
 
-export class DllImportResolver$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(libraryName: string, assembly: Assembly, searchPath: Nullable_1<DllImportSearchPath>, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): nint;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(libraryName: string, assembly: Assembly, searchPath: Nullable_1<DllImportSearchPath>): nint;
+export interface DynamicInterfaceCastableImplementationAttribute$instance extends Attribute {
 }
 
 
-export interface __DllImportResolver$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DllImportResolver = DllImportResolver$instance & __DllImportResolver$views;
-
-
-export class DynamicInterfaceCastableImplementationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-}
+export const DynamicInterfaceCastableImplementationAttribute: {
+    new(): DynamicInterfaceCastableImplementationAttribute$instance;
+};
 
 
 export type DynamicInterfaceCastableImplementationAttribute = DynamicInterfaceCastableImplementationAttribute$instance;
 
-export class ErrorWrapper$instance {
-    constructor(errorCode: int);
-    constructor(errorCode: unknown);
-    constructor(e: Exception);
+export interface ErrorWrapper$instance {
     readonly errorCode: int;
 }
+
+
+export const ErrorWrapper: {
+    new(errorCode: int): ErrorWrapper$instance;
+    new(errorCode: unknown): ErrorWrapper$instance;
+    new(e: Exception): ErrorWrapper$instance;
+};
 
 
 export type ErrorWrapper = ErrorWrapper$instance;
 
-export class ExternalException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, errorCode: int);
+export interface ExternalException$instance extends SystemException {
     readonly errorCode: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const ExternalException: {
+    new(): ExternalException$instance;
+    new(message: string): ExternalException$instance;
+    new(message: string, inner: Exception): ExternalException$instance;
+    new(message: string, errorCode: int): ExternalException$instance;
+};
 
 
 export interface __ExternalException$views {
@@ -1144,25 +1301,31 @@ export interface __ExternalException$views {
 export type ExternalException = ExternalException$instance & __ExternalException$views;
 
 
-export class FieldOffsetAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(offset: int);
+export interface FieldOffsetAttribute$instance extends Attribute {
     readonly value: int;
 }
 
 
+export const FieldOffsetAttribute: {
+    new(offset: int): FieldOffsetAttribute$instance;
+};
+
+
 export type FieldOffsetAttribute = FieldOffsetAttribute$instance;
 
-export class GuidAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(guid: string);
+export interface GuidAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const GuidAttribute: {
+    new(guid: string): GuidAttribute$instance;
+};
+
+
 export type GuidAttribute = GuidAttribute$instance;
 
-export class HandleCollector$instance {
-    constructor(name: string, initialThreshold: int);
-    constructor(name: string, initialThreshold: int, maximumThreshold: int);
+export interface HandleCollector$instance {
     readonly count: int;
     readonly initialThreshold: int;
     readonly maximumThreshold: int;
@@ -1172,38 +1335,60 @@ export class HandleCollector$instance {
 }
 
 
+export const HandleCollector: {
+    new(name: string, initialThreshold: int): HandleCollector$instance;
+    new(name: string, initialThreshold: int, maximumThreshold: int): HandleCollector$instance;
+};
+
+
 export type HandleCollector = HandleCollector$instance;
 
-export class ImportedFromTypeLibAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(tlbFile: string);
+export interface ImportedFromTypeLibAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const ImportedFromTypeLibAttribute: {
+    new(tlbFile: string): ImportedFromTypeLibAttribute$instance;
+};
+
+
 export type ImportedFromTypeLibAttribute = ImportedFromTypeLibAttribute$instance;
 
-export class InAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface InAttribute$instance extends Attribute {
 }
+
+
+export const InAttribute: {
+    new(): InAttribute$instance;
+};
 
 
 export type InAttribute = InAttribute$instance;
 
-export class InterfaceTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(interfaceType: ComInterfaceType);
-    constructor(interfaceType: short);
+export interface InterfaceTypeAttribute$instance extends Attribute {
     readonly value: ComInterfaceType;
 }
 
 
+export const InterfaceTypeAttribute: {
+    new(interfaceType: ComInterfaceType): InterfaceTypeAttribute$instance;
+    new(interfaceType: short): InterfaceTypeAttribute$instance;
+};
+
+
 export type InterfaceTypeAttribute = InterfaceTypeAttribute$instance;
 
-export class InvalidComObjectException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface InvalidComObjectException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidComObjectException: {
+    new(): InvalidComObjectException$instance;
+    new(message: string): InvalidComObjectException$instance;
+    new(message: string, inner: Exception): InvalidComObjectException$instance;
+};
 
 
 export interface __InvalidComObjectException$views {
@@ -1213,12 +1398,16 @@ export interface __InvalidComObjectException$views {
 export type InvalidComObjectException = InvalidComObjectException$instance & __InvalidComObjectException$views;
 
 
-export class InvalidOleVariantTypeException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface InvalidOleVariantTypeException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidOleVariantTypeException: {
+    new(): InvalidOleVariantTypeException$instance;
+    new(message: string): InvalidOleVariantTypeException$instance;
+    new(message: string, inner: Exception): InvalidOleVariantTypeException$instance;
+};
 
 
 export interface __InvalidOleVariantTypeException$views {
@@ -1228,16 +1417,19 @@ export interface __InvalidOleVariantTypeException$views {
 export type InvalidOleVariantTypeException = InvalidOleVariantTypeException$instance & __InvalidOleVariantTypeException$views;
 
 
-export class LCIDConversionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(lcid: int);
+export interface LCIDConversionAttribute$instance extends Attribute {
     readonly value: int;
 }
 
 
+export const LCIDConversionAttribute: {
+    new(lcid: int): LCIDConversionAttribute$instance;
+};
+
+
 export type LCIDConversionAttribute = LCIDConversionAttribute$instance;
 
-export class LibraryImportAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(libraryName: string);
+export interface LibraryImportAttribute$instance extends Attribute {
     entryPoint: string;
     readonly libraryName: string;
     setLastError: boolean;
@@ -1246,20 +1438,27 @@ export class LibraryImportAttribute$instance extends System_Internal.Attribute$i
 }
 
 
+export const LibraryImportAttribute: {
+    new(libraryName: string): LibraryImportAttribute$instance;
+};
+
+
 export type LibraryImportAttribute = LibraryImportAttribute$instance;
 
-export class ManagedToNativeComInteropStubAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(classType: Type, methodName: string);
+export interface ManagedToNativeComInteropStubAttribute$instance extends Attribute {
     readonly classType: Type;
     readonly methodName: string;
 }
 
 
+export const ManagedToNativeComInteropStubAttribute: {
+    new(classType: Type, methodName: string): ManagedToNativeComInteropStubAttribute$instance;
+};
+
+
 export type ManagedToNativeComInteropStubAttribute = ManagedToNativeComInteropStubAttribute$instance;
 
-export class MarshalAsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(unmanagedType: UnmanagedType);
-    constructor(unmanagedType: short);
+export interface MarshalAsAttribute$instance extends Attribute {
     safeArraySubType: VarEnum;
     safeArrayUserDefinedSubType: Type;
     iidParameterIndex: int;
@@ -1273,14 +1472,24 @@ export class MarshalAsAttribute$instance extends System_Internal.Attribute$insta
 }
 
 
+export const MarshalAsAttribute: {
+    new(unmanagedType: UnmanagedType): MarshalAsAttribute$instance;
+    new(unmanagedType: short): MarshalAsAttribute$instance;
+};
+
+
 export type MarshalAsAttribute = MarshalAsAttribute$instance;
 
-export class MarshalDirectiveException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface MarshalDirectiveException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MarshalDirectiveException: {
+    new(): MarshalDirectiveException$instance;
+    new(message: string): MarshalDirectiveException$instance;
+    new(message: string, inner: Exception): MarshalDirectiveException$instance;
+};
 
 
 export interface __MarshalDirectiveException$views {
@@ -1290,33 +1499,50 @@ export interface __MarshalDirectiveException$views {
 export type MarshalDirectiveException = MarshalDirectiveException$instance & __MarshalDirectiveException$views;
 
 
-export class OptionalAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OptionalAttribute$instance extends Attribute {
 }
+
+
+export const OptionalAttribute: {
+    new(): OptionalAttribute$instance;
+};
 
 
 export type OptionalAttribute = OptionalAttribute$instance;
 
-export class OutAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OutAttribute$instance extends Attribute {
 }
+
+
+export const OutAttribute: {
+    new(): OutAttribute$instance;
+};
 
 
 export type OutAttribute = OutAttribute$instance;
 
-export class PosixSignalContext$instance {
-    constructor(signal: PosixSignal);
+export interface PosixSignalContext$instance {
     cancel: boolean;
     readonly signal: PosixSignal;
 }
 
 
+export const PosixSignalContext: {
+    new(signal: PosixSignal): PosixSignalContext$instance;
+};
+
+
 export type PosixSignalContext = PosixSignalContext$instance;
 
-export class PosixSignalRegistration$instance {
+export interface PosixSignalRegistration$instance {
     dispose(): void;
-    static create(signal: PosixSignal, handler: Action_1<PosixSignalContext>): PosixSignalRegistration;
 }
+
+
+export const PosixSignalRegistration: {
+    new(): PosixSignalRegistration$instance;
+    create(signal: PosixSignal, handler: Action_1<PosixSignalContext>): PosixSignalRegistration;
+};
 
 
 export interface __PosixSignalRegistration$views {
@@ -1328,36 +1554,52 @@ export interface PosixSignalRegistration$instance extends System_Internal.IDispo
 export type PosixSignalRegistration = PosixSignalRegistration$instance & __PosixSignalRegistration$views;
 
 
-export class PreserveSigAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface PreserveSigAttribute$instance extends Attribute {
 }
+
+
+export const PreserveSigAttribute: {
+    new(): PreserveSigAttribute$instance;
+};
 
 
 export type PreserveSigAttribute = PreserveSigAttribute$instance;
 
-export class PrimaryInteropAssemblyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(major: int, minor: int);
+export interface PrimaryInteropAssemblyAttribute$instance extends Attribute {
     readonly majorVersion: int;
     readonly minorVersion: int;
 }
 
 
+export const PrimaryInteropAssemblyAttribute: {
+    new(major: int, minor: int): PrimaryInteropAssemblyAttribute$instance;
+};
+
+
 export type PrimaryInteropAssemblyAttribute = PrimaryInteropAssemblyAttribute$instance;
 
-export class ProgIdAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(progId: string);
+export interface ProgIdAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const ProgIdAttribute: {
+    new(progId: string): ProgIdAttribute$instance;
+};
+
+
 export type ProgIdAttribute = ProgIdAttribute$instance;
 
-export class SafeArrayRankMismatchException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface SafeArrayRankMismatchException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SafeArrayRankMismatchException: {
+    new(): SafeArrayRankMismatchException$instance;
+    new(message: string): SafeArrayRankMismatchException$instance;
+    new(message: string, inner: Exception): SafeArrayRankMismatchException$instance;
+};
 
 
 export interface __SafeArrayRankMismatchException$views {
@@ -1367,12 +1609,16 @@ export interface __SafeArrayRankMismatchException$views {
 export type SafeArrayRankMismatchException = SafeArrayRankMismatchException$instance & __SafeArrayRankMismatchException$views;
 
 
-export class SafeArrayTypeMismatchException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface SafeArrayTypeMismatchException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SafeArrayTypeMismatchException: {
+    new(): SafeArrayTypeMismatchException$instance;
+    new(message: string): SafeArrayTypeMismatchException$instance;
+    new(message: string, inner: Exception): SafeArrayTypeMismatchException$instance;
+};
 
 
 export interface __SafeArrayTypeMismatchException$views {
@@ -1382,7 +1628,7 @@ export interface __SafeArrayTypeMismatchException$views {
 export type SafeArrayTypeMismatchException = SafeArrayTypeMismatchException$instance & __SafeArrayTypeMismatchException$views;
 
 
-export abstract class SafeBuffer$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeBuffer$instance extends SafeHandleZeroOrMinusOneIsInvalid {
     readonly byteLength: ulong;
     acquirePointer(pointer: { value: ref<ptr<byte>> }): void;
     dispose(): void;
@@ -1399,6 +1645,10 @@ export abstract class SafeBuffer$instance extends Microsoft_Win32_SafeHandles_In
 }
 
 
+export const SafeBuffer: {
+};
+
+
 export interface __SafeBuffer$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1406,7 +1656,7 @@ export interface __SafeBuffer$views {
 export type SafeBuffer = SafeBuffer$instance & __SafeBuffer$views;
 
 
-export abstract class SafeHandle$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+export interface SafeHandle$instance extends CriticalFinalizerObject {
     readonly isClosed: boolean;
     readonly isInvalid: boolean;
     close(): void;
@@ -1418,6 +1668,10 @@ export abstract class SafeHandle$instance extends System_Runtime_ConstrainedExec
 }
 
 
+export const SafeHandle: {
+};
+
+
 export interface __SafeHandle$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1427,13 +1681,17 @@ export interface SafeHandle$instance extends System_Internal.IDisposable$instanc
 export type SafeHandle = SafeHandle$instance & __SafeHandle$views;
 
 
-export class SEHException$instance extends ExternalException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface SEHException$instance extends ExternalException$instance {
     canResume(): boolean;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SEHException: {
+    new(): SEHException$instance;
+    new(message: string): SEHException$instance;
+    new(message: string, inner: Exception): SEHException$instance;
+};
 
 
 export interface __SEHException$views {
@@ -1443,15 +1701,18 @@ export interface __SEHException$views {
 export type SEHException = SEHException$instance & __SEHException$views;
 
 
-export class StandardOleMarshalObject$instance extends System_Internal.MarshalByRefObject$instance {
+export interface StandardOleMarshalObject$instance extends MarshalByRefObject {
 }
+
+
+export const StandardOleMarshalObject: {
+    new(): StandardOleMarshalObject$instance;
+};
 
 
 export type StandardOleMarshalObject = StandardOleMarshalObject$instance;
 
-export class StructLayoutAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(layoutKind: LayoutKind);
-    constructor(layoutKind: short);
+export interface StructLayoutAttribute$instance extends Attribute {
     pack: int;
     size: int;
     charSet: CharSet;
@@ -1459,118 +1720,175 @@ export class StructLayoutAttribute$instance extends System_Internal.Attribute$in
 }
 
 
+export const StructLayoutAttribute: {
+    new(layoutKind: LayoutKind): StructLayoutAttribute$instance;
+    new(layoutKind: short): StructLayoutAttribute$instance;
+};
+
+
 export type StructLayoutAttribute = StructLayoutAttribute$instance;
 
-export class SuppressGCTransitionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SuppressGCTransitionAttribute$instance extends Attribute {
 }
+
+
+export const SuppressGCTransitionAttribute: {
+    new(): SuppressGCTransitionAttribute$instance;
+};
 
 
 export type SuppressGCTransitionAttribute = SuppressGCTransitionAttribute$instance;
 
-export class TypeIdentifierAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(scope: string, identifier: string);
+export interface TypeIdentifierAttribute$instance extends Attribute {
     readonly identifier: string;
     readonly scope: string;
 }
 
 
+export const TypeIdentifierAttribute: {
+    new(): TypeIdentifierAttribute$instance;
+    new(scope: string, identifier: string): TypeIdentifierAttribute$instance;
+};
+
+
 export type TypeIdentifierAttribute = TypeIdentifierAttribute$instance;
 
-export class TypeLibFuncAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(flags: TypeLibFuncFlags);
-    constructor(flags: short);
+export interface TypeLibFuncAttribute$instance extends Attribute {
     readonly value: TypeLibFuncFlags;
 }
 
 
+export const TypeLibFuncAttribute: {
+    new(flags: TypeLibFuncFlags): TypeLibFuncAttribute$instance;
+    new(flags: short): TypeLibFuncAttribute$instance;
+};
+
+
 export type TypeLibFuncAttribute = TypeLibFuncAttribute$instance;
 
-export class TypeLibImportClassAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(importClass: Type);
+export interface TypeLibImportClassAttribute$instance extends Attribute {
     readonly value: string;
 }
 
 
+export const TypeLibImportClassAttribute: {
+    new(importClass: Type): TypeLibImportClassAttribute$instance;
+};
+
+
 export type TypeLibImportClassAttribute = TypeLibImportClassAttribute$instance;
 
-export class TypeLibTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(flags: TypeLibTypeFlags);
-    constructor(flags: short);
+export interface TypeLibTypeAttribute$instance extends Attribute {
     readonly value: TypeLibTypeFlags;
 }
 
 
+export const TypeLibTypeAttribute: {
+    new(flags: TypeLibTypeFlags): TypeLibTypeAttribute$instance;
+    new(flags: short): TypeLibTypeAttribute$instance;
+};
+
+
 export type TypeLibTypeAttribute = TypeLibTypeAttribute$instance;
 
-export class TypeLibVarAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(flags: TypeLibVarFlags);
-    constructor(flags: short);
+export interface TypeLibVarAttribute$instance extends Attribute {
     readonly value: TypeLibVarFlags;
 }
 
 
+export const TypeLibVarAttribute: {
+    new(flags: TypeLibVarFlags): TypeLibVarAttribute$instance;
+    new(flags: short): TypeLibVarAttribute$instance;
+};
+
+
 export type TypeLibVarAttribute = TypeLibVarAttribute$instance;
 
-export class TypeLibVersionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(major: int, minor: int);
+export interface TypeLibVersionAttribute$instance extends Attribute {
     readonly majorVersion: int;
     readonly minorVersion: int;
 }
 
 
+export const TypeLibVersionAttribute: {
+    new(major: int, minor: int): TypeLibVersionAttribute$instance;
+};
+
+
 export type TypeLibVersionAttribute = TypeLibVersionAttribute$instance;
 
-export class TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup> extends System_Internal.Attribute$instance {
-    constructor(assemblyName: string);
+export interface TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup> extends Attribute {
 }
+
+
+export const TypeMapAssemblyTargetAttribute_1: {
+    new<TTypeMapGroup>(assemblyName: string): TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup>;
+};
 
 
 export type TypeMapAssemblyTargetAttribute_1<TTypeMapGroup> = TypeMapAssemblyTargetAttribute_1$instance<TTypeMapGroup>;
 
-export class TypeMapAssociationAttribute_1$instance<TTypeMapGroup> extends System_Internal.Attribute$instance {
-    constructor(source: Type, proxy: Type);
+export interface TypeMapAssociationAttribute_1$instance<TTypeMapGroup> extends Attribute {
 }
+
+
+export const TypeMapAssociationAttribute_1: {
+    new<TTypeMapGroup>(source: Type, proxy: Type): TypeMapAssociationAttribute_1$instance<TTypeMapGroup>;
+};
 
 
 export type TypeMapAssociationAttribute_1<TTypeMapGroup> = TypeMapAssociationAttribute_1$instance<TTypeMapGroup>;
 
-export class TypeMapAttribute_1$instance<TTypeMapGroup> extends System_Internal.Attribute$instance {
-    constructor(value: string, target: Type);
-    constructor(value: string, target: Type, trimTarget: Type);
+export interface TypeMapAttribute_1$instance<TTypeMapGroup> extends Attribute {
 }
+
+
+export const TypeMapAttribute_1: {
+    new<TTypeMapGroup>(value: string, target: Type): TypeMapAttribute_1$instance<TTypeMapGroup>;
+    new<TTypeMapGroup>(value: string, target: Type, trimTarget: Type): TypeMapAttribute_1$instance<TTypeMapGroup>;
+};
 
 
 export type TypeMapAttribute_1<TTypeMapGroup> = TypeMapAttribute_1$instance<TTypeMapGroup>;
 
-export class UnknownWrapper$instance {
-    constructor(obj: unknown);
+export interface UnknownWrapper$instance {
     readonly wrappedObject: unknown;
 }
 
 
+export const UnknownWrapper: {
+    new(obj: unknown): UnknownWrapper$instance;
+};
+
+
 export type UnknownWrapper = UnknownWrapper$instance;
 
-export class UnmanagedCallConvAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface UnmanagedCallConvAttribute$instance extends Attribute {
     callConvs: Type[];
 }
 
 
+export const UnmanagedCallConvAttribute: {
+    new(): UnmanagedCallConvAttribute$instance;
+};
+
+
 export type UnmanagedCallConvAttribute = UnmanagedCallConvAttribute$instance;
 
-export class UnmanagedCallersOnlyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface UnmanagedCallersOnlyAttribute$instance extends Attribute {
     callConvs: Type[];
     entryPoint: string;
 }
 
 
+export const UnmanagedCallersOnlyAttribute: {
+    new(): UnmanagedCallersOnlyAttribute$instance;
+};
+
+
 export type UnmanagedCallersOnlyAttribute = UnmanagedCallersOnlyAttribute$instance;
 
-export class UnmanagedFunctionPointerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(callingConvention: CallingConvention);
+export interface UnmanagedFunctionPointerAttribute$instance extends Attribute {
     bestFitMapping: boolean;
     setLastError: boolean;
     throwOnUnmappableChar: boolean;
@@ -1579,19 +1897,32 @@ export class UnmanagedFunctionPointerAttribute$instance extends System_Internal.
 }
 
 
+export const UnmanagedFunctionPointerAttribute: {
+    new(callingConvention: CallingConvention): UnmanagedFunctionPointerAttribute$instance;
+};
+
+
 export type UnmanagedFunctionPointerAttribute = UnmanagedFunctionPointerAttribute$instance;
 
-export class VariantWrapper$instance {
-    constructor(obj: unknown);
+export interface VariantWrapper$instance {
     readonly wrappedObject: unknown;
 }
 
 
+export const VariantWrapper: {
+    new(obj: unknown): VariantWrapper$instance;
+};
+
+
 export type VariantWrapper = VariantWrapper$instance;
 
-export class WasmImportLinkageAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface WasmImportLinkageAttribute$instance extends Attribute {
 }
+
+
+export const WasmImportLinkageAttribute: {
+    new(): WasmImportLinkageAttribute$instance;
+};
 
 
 export type WasmImportLinkageAttribute = WasmImportLinkageAttribute$instance;

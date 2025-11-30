@@ -46,19 +46,19 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class JsonNodeOptions$instance {
+export interface JsonNodeOptions$instance {
     propertyNameCaseInsensitive: boolean;
 }
 
 
+export const JsonNodeOptions: {
+    new(): JsonNodeOptions$instance;
+};
+
+
 export type JsonNodeOptions = JsonNodeOptions$instance;
 
-export class JsonArray$instance extends JsonNode$instance {
-    constructor(options: Nullable_1<JsonNodeOptions>);
-    constructor(options: JsonNodeOptions, items: JsonNode[]);
-    constructor(options: JsonNodeOptions, items: ReadOnlySpan_1<JsonNode>);
-    constructor(items: JsonNode[]);
-    constructor(items: ReadOnlySpan_1<JsonNode>);
+export interface JsonArray$instance extends JsonNode {
     readonly count: int;
     add<T>(value: T): void;
     add(item: JsonNode): void;
@@ -73,8 +73,17 @@ export class JsonArray$instance extends JsonNode$instance {
     removeAt(index: int): void;
     removeRange(index: int, count: int): void;
     writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonArray;
 }
+
+
+export const JsonArray: {
+    new(options: Nullable_1<JsonNodeOptions>): JsonArray$instance;
+    new(options: JsonNodeOptions, items: JsonNode[]): JsonArray$instance;
+    new(options: JsonNodeOptions, items: ReadOnlySpan_1<JsonNode>): JsonArray$instance;
+    new(items: JsonNode[]): JsonArray$instance;
+    new(items: ReadOnlySpan_1<JsonNode>): JsonArray$instance;
+    create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonArray;
+};
 
 
 export interface __JsonArray$views {
@@ -87,7 +96,7 @@ export interface __JsonArray$views {
 export type JsonArray = JsonArray$instance & __JsonArray$views;
 
 
-export abstract class JsonNode$instance {
+export interface JsonNode$instance {
     readonly options: Nullable_1<JsonNodeOptions>;
     readonly parent: JsonNode;
     readonly root: JsonNode;
@@ -107,21 +116,23 @@ export abstract class JsonNode$instance {
     set_Item(propertyName: string, value: JsonNode): void;
     toJsonString(options?: JsonSerializerOptions): string;
     toString(): string;
-    abstract writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static deepEquals(node1: JsonNode, node2: JsonNode): boolean;
-    static parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
-    static parseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
+    writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
 }
+
+
+export const JsonNode: {
+    deepEquals(node1: JsonNode, node2: JsonNode): boolean;
+    parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    parse(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    parse(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
+    parseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
+};
 
 
 export type JsonNode = JsonNode$instance;
 
-export class JsonObject$instance extends JsonNode$instance {
-    constructor(options: Nullable_1<JsonNodeOptions>);
-    constructor(properties: IEnumerable_1<KeyValuePair_2<CLROf<string>, JsonNode>>, options: Nullable_1<JsonNodeOptions>);
+export interface JsonObject$instance extends JsonNode {
     readonly count: int;
     add(propertyName: string, value: JsonNode): void;
     add(property: KeyValuePair_2<CLROf<string>, JsonNode>): void;
@@ -140,8 +151,14 @@ export class JsonObject$instance extends JsonNode$instance {
     tryGetPropertyValue(propertyName: string, jsonNode: { value: ref<JsonNode> }): boolean;
     tryGetPropertyValue(propertyName: string, jsonNode: { value: ref<JsonNode> }, index: { value: ref<int> }): boolean;
     writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonObject;
 }
+
+
+export const JsonObject: {
+    new(options: Nullable_1<JsonNodeOptions>): JsonObject$instance;
+    new(properties: IEnumerable_1<KeyValuePair_2<CLROf<string>, JsonNode>>, options: Nullable_1<JsonNodeOptions>): JsonObject$instance;
+    create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonObject;
+};
 
 
 export interface __JsonObject$views {
@@ -155,46 +172,50 @@ export interface __JsonObject$views {
 export type JsonObject = JsonObject$instance & __JsonObject$views;
 
 
-export abstract class JsonValue$instance extends JsonNode$instance {
-    abstract tryGetValue<T>(value: { value: ref<T> }): boolean;
-    static create(value: boolean, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: byte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: char, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: DateTime, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: DateTimeOffset, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: decimal, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: double, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Guid, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: short, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: int, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: long, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<boolean>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<byte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<char>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<DateTime>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<DateTimeOffset>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<decimal>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<double>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<Guid>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<short>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<int>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<long>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<sbyte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<float>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<JsonElement>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<ushort>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<uint>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: Nullable_1<CLROf<ulong>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: sbyte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: float, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: ushort, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: uint, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create(value: ulong, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create<T>(value: T, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static create<T>(value: T, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+export interface JsonValue$instance extends JsonNode {
+    tryGetValue<T>(value: { value: ref<T> }): boolean;
 }
+
+
+export const JsonValue: {
+    create(value: boolean, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: byte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: char, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: DateTime, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: DateTimeOffset, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: decimal, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: double, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Guid, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: short, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: int, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: long, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<boolean>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<byte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<char>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<DateTime>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<DateTimeOffset>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<decimal>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<double>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<Guid>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<short>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<int>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<long>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<sbyte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<float>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<JsonElement>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<ushort>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<uint>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: Nullable_1<CLROf<ulong>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: sbyte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: float, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: ushort, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: uint, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create(value: ulong, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create<T>(value: T, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    create<T>(value: T, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+};
 
 
 export type JsonValue = JsonValue$instance;

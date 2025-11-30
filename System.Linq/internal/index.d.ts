@@ -155,30 +155,46 @@ export interface IQueryProvider$instance {
 
 export type IQueryProvider = IQueryProvider$instance;
 
-export abstract class EnumerableExecutor$instance {
+export interface EnumerableExecutor$instance {
 }
+
+
+export const EnumerableExecutor: {
+};
 
 
 export type EnumerableExecutor = EnumerableExecutor$instance;
 
-export class EnumerableExecutor_1$instance<T> extends EnumerableExecutor$instance {
-    constructor(expression: Expression);
+export interface EnumerableExecutor_1$instance<T> extends EnumerableExecutor {
 }
+
+
+export const EnumerableExecutor_1: {
+    new<T>(expression: Expression): EnumerableExecutor_1$instance<T>;
+};
 
 
 export type EnumerableExecutor_1<T> = EnumerableExecutor_1$instance<T>;
 
-export abstract class EnumerableQuery$instance {
+export interface EnumerableQuery$instance {
 }
+
+
+export const EnumerableQuery: {
+};
 
 
 export type EnumerableQuery = EnumerableQuery$instance;
 
-export class EnumerableQuery_1$instance<T> extends EnumerableQuery$instance {
-    constructor(enumerable: IEnumerable_1<T>);
-    constructor(expression: Expression);
+export interface EnumerableQuery_1$instance<T> extends EnumerableQuery {
     toString(): string;
 }
+
+
+export const EnumerableQuery_1: {
+    new<T>(enumerable: IEnumerable_1<T>): EnumerableQuery_1$instance<T>;
+    new<T>(expression: Expression): EnumerableQuery_1$instance<T>;
+};
 
 
 export interface __EnumerableQuery_1$views<T> {
@@ -193,13 +209,18 @@ export interface EnumerableQuery_1$instance<T> extends IOrderedQueryable_1$insta
 export type EnumerableQuery_1<T> = EnumerableQuery_1$instance<T> & __EnumerableQuery_1$views<T>;
 
 
-export class Lookup_2$instance<TKey, TElement> {
+export interface Lookup_2$instance<TKey, TElement> {
     readonly count: int;
     readonly item: IEnumerable_1<TElement>;
     applyResultSelector<TResult>(resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
     contains(key: TKey): boolean;
     getEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
 }
+
+
+export const Lookup_2: {
+    new<TKey, TElement>(): Lookup_2$instance<TKey, TElement>;
+};
 
 
 export interface __Lookup_2$views<TKey, TElement> {
@@ -211,11 +232,16 @@ export interface __Lookup_2$views<TKey, TElement> {
 export type Lookup_2<TKey, TElement> = Lookup_2$instance<TKey, TElement> & __Lookup_2$views<TKey, TElement>;
 
 
-export class OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
+export interface OrderedParallelQuery_1$instance<TSource> extends ParallelQuery_1$instance<TSource> {
     getEnumerator(): IEnumerator_1<TSource>;
     getEnumerator(): IEnumerator_1<TSource>;
     getEnumerator(): IEnumerator;
 }
+
+
+export const OrderedParallelQuery_1: {
+    new<TSource>(): OrderedParallelQuery_1$instance<TSource>;
+};
 
 
 export interface __OrderedParallelQuery_1$views<TSource> {
@@ -226,8 +252,13 @@ export interface __OrderedParallelQuery_1$views<TSource> {
 export type OrderedParallelQuery_1<TSource> = OrderedParallelQuery_1$instance<TSource> & __OrderedParallelQuery_1$views<TSource>;
 
 
-export class ParallelQuery$instance {
+export interface ParallelQuery$instance {
 }
+
+
+export const ParallelQuery: {
+    new(): ParallelQuery$instance;
+};
 
 
 export interface __ParallelQuery$views {
@@ -239,9 +270,14 @@ export interface ParallelQuery$instance extends System_Collections_Internal.IEnu
 export type ParallelQuery = ParallelQuery$instance & __ParallelQuery$views;
 
 
-export class ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
+export interface ParallelQuery_1$instance<TSource> extends ParallelQuery$instance {
     getEnumerator(): IEnumerator;
 }
+
+
+export const ParallelQuery_1: {
+    new<TSource>(): ParallelQuery_1$instance<TSource>;
+};
 
 
 export interface __ParallelQuery_1$views<TSource> {

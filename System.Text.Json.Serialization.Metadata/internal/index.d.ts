@@ -56,22 +56,30 @@ export interface IJsonTypeInfoResolver$instance {
 
 export type IJsonTypeInfoResolver = IJsonTypeInfoResolver$instance;
 
-export class JsonDerivedType$instance {
-    constructor(derivedType: Type);
-    constructor(derivedType: Type, typeDiscriminator: int);
-    constructor(derivedType: Type, typeDiscriminator: string);
+export interface JsonDerivedType$instance {
     readonly derivedType: Type;
     readonly typeDiscriminator: unknown;
 }
 
 
+export const JsonDerivedType: {
+    new(derivedType: Type): JsonDerivedType$instance;
+    new(derivedType: Type, typeDiscriminator: int): JsonDerivedType$instance;
+    new(derivedType: Type, typeDiscriminator: string): JsonDerivedType$instance;
+};
+
+
 export type JsonDerivedType = JsonDerivedType$instance;
 
-export class DefaultJsonTypeInfoResolver$instance {
-    constructor();
+export interface DefaultJsonTypeInfoResolver$instance {
     readonly modifiers: IList_1<Action_1<JsonTypeInfo>>;
     getTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
+
+
+export const DefaultJsonTypeInfoResolver: {
+    new(): DefaultJsonTypeInfoResolver$instance;
+};
 
 
 export interface __DefaultJsonTypeInfoResolver$views {
@@ -83,8 +91,7 @@ export interface DefaultJsonTypeInfoResolver$instance extends IJsonTypeInfoResol
 export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance & __DefaultJsonTypeInfoResolver$views;
 
 
-export class JsonCollectionInfoValues_1$instance<TCollection> {
-    constructor();
+export interface JsonCollectionInfoValues_1$instance<TCollection> {
     elementInfo: JsonTypeInfo;
     keyInfo: JsonTypeInfo;
     numberHandling: JsonNumberHandling;
@@ -93,10 +100,14 @@ export class JsonCollectionInfoValues_1$instance<TCollection> {
 }
 
 
+export const JsonCollectionInfoValues_1: {
+    new<TCollection>(): JsonCollectionInfoValues_1$instance<TCollection>;
+};
+
+
 export type JsonCollectionInfoValues_1<TCollection> = JsonCollectionInfoValues_1$instance<TCollection>;
 
-export class JsonObjectInfoValues_1$instance<T> {
-    constructor();
+export interface JsonObjectInfoValues_1$instance<T> {
     constructorAttributeProviderFactory: Func_1<ICustomAttributeProvider>;
     constructorParameterMetadataInitializer: Func_1<JsonParameterInfoValues[]>;
     numberHandling: JsonNumberHandling;
@@ -107,9 +118,14 @@ export class JsonObjectInfoValues_1$instance<T> {
 }
 
 
+export const JsonObjectInfoValues_1: {
+    new<T>(): JsonObjectInfoValues_1$instance<T>;
+};
+
+
 export type JsonObjectInfoValues_1<T> = JsonObjectInfoValues_1$instance<T>;
 
-export abstract class JsonParameterInfo$instance {
+export interface JsonParameterInfo$instance {
     readonly attributeProvider: ICustomAttributeProvider;
     readonly declaringType: Type;
     readonly defaultValue: unknown;
@@ -122,10 +138,13 @@ export abstract class JsonParameterInfo$instance {
 }
 
 
+export const JsonParameterInfo: {
+};
+
+
 export type JsonParameterInfo = JsonParameterInfo$instance;
 
-export class JsonParameterInfoValues$instance {
-    constructor();
+export interface JsonParameterInfoValues$instance {
     defaultValue: unknown;
     hasDefaultValue: boolean;
     isMemberInitializer: boolean;
@@ -136,10 +155,14 @@ export class JsonParameterInfoValues$instance {
 }
 
 
+export const JsonParameterInfoValues: {
+    new(): JsonParameterInfoValues$instance;
+};
+
+
 export type JsonParameterInfoValues = JsonParameterInfoValues$instance;
 
-export class JsonPolymorphismOptions$instance {
-    constructor();
+export interface JsonPolymorphismOptions$instance {
     readonly derivedTypes: IList_1<JsonDerivedType>;
     ignoreUnrecognizedTypeDiscriminators: boolean;
     typeDiscriminatorPropertyName: string;
@@ -147,9 +170,14 @@ export class JsonPolymorphismOptions$instance {
 }
 
 
+export const JsonPolymorphismOptions: {
+    new(): JsonPolymorphismOptions$instance;
+};
+
+
 export type JsonPolymorphismOptions = JsonPolymorphismOptions$instance;
 
-export abstract class JsonPropertyInfo$instance {
+export interface JsonPropertyInfo$instance {
     readonly associatedParameter: JsonParameterInfo;
     attributeProvider: ICustomAttributeProvider;
     customConverter: JsonConverter;
@@ -170,10 +198,13 @@ export abstract class JsonPropertyInfo$instance {
 }
 
 
+export const JsonPropertyInfo: {
+};
+
+
 export type JsonPropertyInfo = JsonPropertyInfo$instance;
 
-export class JsonPropertyInfoValues_1$instance<T> {
-    constructor();
+export interface JsonPropertyInfoValues_1$instance<T> {
     attributeProviderFactory: Func_1<ICustomAttributeProvider>;
     converter: JsonConverter_1<T>;
     declaringType: Type;
@@ -192,9 +223,14 @@ export class JsonPropertyInfoValues_1$instance<T> {
 }
 
 
+export const JsonPropertyInfoValues_1: {
+    new<T>(): JsonPropertyInfoValues_1$instance<T>;
+};
+
+
 export type JsonPropertyInfoValues_1<T> = JsonPropertyInfoValues_1$instance<T>;
 
-export abstract class JsonTypeInfo$instance {
+export interface JsonTypeInfo$instance {
     readonly constructorAttributeProvider: ICustomAttributeProvider;
     readonly converter: JsonConverter;
     createObject: Func_1<unknown>;
@@ -216,17 +252,26 @@ export abstract class JsonTypeInfo$instance {
     unmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
     createJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
     makeReadOnly(): void;
-    static createJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
-    static createJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
+
+
+export const JsonTypeInfo: {
+    createJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
+    createJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
+};
 
 
 export type JsonTypeInfo = JsonTypeInfo$instance;
 
-export class JsonTypeInfo_1$instance<T> extends JsonTypeInfo$instance {
+export interface JsonTypeInfo_1$instance<T> extends JsonTypeInfo {
     createObject: Func_1<T>;
     readonly serializeHandler: Action_2<Utf8JsonWriter, T>;
 }
+
+
+export const JsonTypeInfo_1: {
+    new<T>(): JsonTypeInfo_1$instance<T>;
+};
 
 
 export type JsonTypeInfo_1<T> = JsonTypeInfo_1$instance<T>;

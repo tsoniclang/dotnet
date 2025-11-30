@@ -94,7 +94,7 @@ export interface IDbColumnSchemaGenerator$instance {
 
 export type IDbColumnSchemaGenerator = IDbColumnSchemaGenerator$instance;
 
-export class DataAdapter$instance extends System_ComponentModel_Internal.Component$instance {
+export interface DataAdapter$instance extends Component {
     acceptChangesDuringFill: boolean;
     acceptChangesDuringUpdate: boolean;
     continueUpdateOnError: boolean;
@@ -114,6 +114,11 @@ export class DataAdapter$instance extends System_ComponentModel_Internal.Compone
 }
 
 
+export const DataAdapter: {
+    new(): DataAdapter$instance;
+};
+
+
 export interface __DataAdapter$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDataAdapter(): System_Data_Internal.IDataAdapter$instance;
@@ -125,15 +130,19 @@ export interface DataAdapter$instance extends System_ComponentModel_Internal.ICo
 export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 
 
-export class DataColumnMapping$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
-    constructor(sourceColumn: string, dataSetColumn: string);
+export interface DataColumnMapping$instance extends MarshalByRefObject {
     dataSetColumn: string;
     sourceColumn: string;
     getDataColumnBySchemaAction(dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
     toString(): string;
-    static getDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
 }
+
+
+export const DataColumnMapping: {
+    new(): DataColumnMapping$instance;
+    new(sourceColumn: string, dataSetColumn: string): DataColumnMapping$instance;
+    getDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
+};
 
 
 export interface __DataColumnMapping$views {
@@ -146,8 +155,7 @@ export interface DataColumnMapping$instance extends System_Data_Internal.IColumn
 export type DataColumnMapping = DataColumnMapping$instance & __DataColumnMapping$views;
 
 
-export class DataColumnMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
+export interface DataColumnMappingCollection$instance extends MarshalByRefObject {
     readonly count: int;
     add(value: unknown): int;
     add(sourceColumn: string, dataSetColumn: string): DataColumnMapping;
@@ -173,9 +181,14 @@ export class DataColumnMappingCollection$instance extends System_Internal.Marsha
     removeAt(sourceColumn: string): void;
     set_Item(index: int, value: DataColumnMapping): void;
     set_Item(sourceColumn: string, value: DataColumnMapping): void;
-    static getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
-    static getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
 }
+
+
+export const DataColumnMappingCollection: {
+    new(): DataColumnMappingCollection$instance;
+    getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
+    getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
+};
 
 
 export interface __DataColumnMappingCollection$views {
@@ -188,10 +201,7 @@ export interface __DataColumnMappingCollection$views {
 export type DataColumnMappingCollection = DataColumnMappingCollection$instance & __DataColumnMappingCollection$views;
 
 
-export class DataTableMapping$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
-    constructor(sourceTable: string, dataSetTable: string);
-    constructor(sourceTable: string, dataSetTable: string, columnMappings: DataColumnMapping[]);
+export interface DataTableMapping$instance extends MarshalByRefObject {
     readonly columnMappings: DataColumnMappingCollection | IColumnMappingCollection;
     dataSetTable: string;
     sourceTable: string;
@@ -200,6 +210,13 @@ export class DataTableMapping$instance extends System_Internal.MarshalByRefObjec
     getDataTableBySchemaAction(dataSet: DataSet, schemaAction: MissingSchemaAction): DataTable;
     toString(): string;
 }
+
+
+export const DataTableMapping: {
+    new(): DataTableMapping$instance;
+    new(sourceTable: string, dataSetTable: string): DataTableMapping$instance;
+    new(sourceTable: string, dataSetTable: string, columnMappings: DataColumnMapping[]): DataTableMapping$instance;
+};
 
 
 export interface __DataTableMapping$views {
@@ -212,8 +229,7 @@ export interface DataTableMapping$instance extends System_Internal.ICloneable$in
 export type DataTableMapping = DataTableMapping$instance & __DataTableMapping$views;
 
 
-export class DataTableMappingCollection$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
+export interface DataTableMappingCollection$instance extends MarshalByRefObject {
     readonly count: int;
     add(value: unknown): int;
     add(sourceTable: string, dataSetTable: string): DataTableMapping;
@@ -239,8 +255,13 @@ export class DataTableMappingCollection$instance extends System_Internal.Marshal
     removeAt(sourceTable: string): void;
     set_Item(index: int, value: DataTableMapping): void;
     set_Item(sourceTable: string, value: DataTableMapping): void;
-    static getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
 }
+
+
+export const DataTableMappingCollection: {
+    new(): DataTableMappingCollection$instance;
+    getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
+};
 
 
 export interface __DataTableMappingCollection$views {
@@ -253,25 +274,29 @@ export interface __DataTableMappingCollection$views {
 export type DataTableMappingCollection = DataTableMappingCollection$instance & __DataTableMappingCollection$views;
 
 
-export abstract class DbBatch$instance {
+export interface DbBatch$instance {
     readonly batchCommands: DbBatchCommandCollection;
     connection: DbConnection;
     timeout: int;
     transaction: DbTransaction;
-    abstract cancel(): void;
+    cancel(): void;
     createBatchCommand(): DbBatchCommand;
     dispose(): void;
     disposeAsync(): ValueTask;
-    abstract executeNonQuery(): int;
-    abstract executeNonQueryAsync(cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
+    executeNonQuery(): int;
+    executeNonQueryAsync(cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
     executeReader(behavior?: CommandBehavior): DbDataReader;
     executeReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
-    abstract executeScalar(): unknown;
-    abstract executeScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown>;
-    abstract prepare(): void;
-    abstract prepareAsync(cancellationToken?: CancellationToken): Task;
+    executeScalar(): unknown;
+    executeScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown>;
+    prepare(): void;
+    prepareAsync(cancellationToken?: CancellationToken): Task;
 }
+
+
+export const DbBatch: {
+};
 
 
 export interface __DbBatch$views {
@@ -284,7 +309,7 @@ export interface DbBatch$instance extends System_Internal.IAsyncDisposable$insta
 export type DbBatch = DbBatch$instance & __DbBatch$views;
 
 
-export abstract class DbBatchCommand$instance {
+export interface DbBatchCommand$instance {
     readonly canCreateParameter: boolean;
     commandText: string;
     commandType: CommandType;
@@ -294,22 +319,30 @@ export abstract class DbBatchCommand$instance {
 }
 
 
+export const DbBatchCommand: {
+};
+
+
 export type DbBatchCommand = DbBatchCommand$instance;
 
-export abstract class DbBatchCommandCollection$instance {
+export interface DbBatchCommandCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     item: DbBatchCommand;
-    abstract add(item: DbBatchCommand): void;
-    abstract clear(): void;
-    abstract contains(item: DbBatchCommand): boolean;
-    abstract copyTo(array: DbBatchCommand[], arrayIndex: int): void;
-    abstract getEnumerator(): IEnumerator_1<DbBatchCommand>;
-    abstract indexOf(item: DbBatchCommand): int;
-    abstract insert(index: int, item: DbBatchCommand): void;
-    abstract remove(item: DbBatchCommand): boolean;
-    abstract removeAt(index: int): void;
+    add(item: DbBatchCommand): void;
+    clear(): void;
+    contains(item: DbBatchCommand): boolean;
+    copyTo(array: DbBatchCommand[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<DbBatchCommand>;
+    indexOf(item: DbBatchCommand): int;
+    insert(index: int, item: DbBatchCommand): void;
+    remove(item: DbBatchCommand): boolean;
+    removeAt(index: int): void;
 }
+
+
+export const DbBatchCommandCollection: {
+};
 
 
 export interface __DbBatchCommandCollection$views {
@@ -322,7 +355,7 @@ export interface __DbBatchCommandCollection$views {
 export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbBatchCommandCollection$views;
 
 
-export abstract class DbColumn$instance {
+export interface DbColumn$instance {
     readonly allowDBNull: Nullable_1<CLROf<boolean>>;
     readonly baseCatalogName: string;
     readonly baseColumnName: string;
@@ -350,9 +383,13 @@ export abstract class DbColumn$instance {
 }
 
 
+export const DbColumn: {
+};
+
+
 export type DbColumn = DbColumn$instance;
 
-export abstract class DbCommand$instance extends System_ComponentModel_Internal.Component$instance {
+export interface DbCommand$instance extends Component {
     commandText: string;
     commandTimeout: int;
     commandType: CommandType;
@@ -361,11 +398,11 @@ export abstract class DbCommand$instance extends System_ComponentModel_Internal.
     readonly parameters: DbParameterCollection | IDataParameterCollection;
     transaction: DbTransaction | IDbTransaction;
     updatedRowSource: UpdateRowSource;
-    abstract cancel(): void;
+    cancel(): void;
     createParameter(): DbParameter;
     dispose(): void;
     disposeAsync(): ValueTask;
-    abstract executeNonQuery(): int;
+    executeNonQuery(): int;
     executeNonQueryAsync(): Task_1<CLROf<int>>;
     executeNonQueryAsync(cancellationToken: CancellationToken): Task_1<CLROf<int>>;
     executeReader(): DbDataReader;
@@ -374,12 +411,16 @@ export abstract class DbCommand$instance extends System_ComponentModel_Internal.
     executeReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
-    abstract executeScalar(): unknown;
+    executeScalar(): unknown;
     executeScalarAsync(): Task_1<unknown>;
     executeScalarAsync(cancellationToken: CancellationToken): Task_1<unknown>;
-    abstract prepare(): void;
+    prepare(): void;
     prepareAsync(cancellationToken?: CancellationToken): Task;
 }
+
+
+export const DbCommand: {
+};
 
 
 export interface __DbCommand$views {
@@ -394,7 +435,7 @@ export interface DbCommand$instance extends System_ComponentModel_Internal.IComp
 export type DbCommand = DbCommand$instance & __DbCommand$views;
 
 
-export abstract class DbCommandBuilder$instance extends System_ComponentModel_Internal.Component$instance {
+export interface DbCommandBuilder$instance extends Component {
     catalogLocation: CatalogLocation;
     catalogSeparator: string;
     conflictOption: ConflictOption;
@@ -416,6 +457,10 @@ export abstract class DbCommandBuilder$instance extends System_ComponentModel_In
 }
 
 
+export const DbCommandBuilder: {
+};
+
+
 export interface __DbCommandBuilder$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -426,7 +471,7 @@ export interface DbCommandBuilder$instance extends System_ComponentModel_Interna
 export type DbCommandBuilder = DbCommandBuilder$instance & __DbCommandBuilder$views;
 
 
-export abstract class DbConnection$instance extends System_ComponentModel_Internal.Component$instance {
+export interface DbConnection$instance extends Component {
     readonly canCreateBatch: boolean;
     connectionString: string;
     readonly connectionTimeout: int;
@@ -438,9 +483,9 @@ export abstract class DbConnection$instance extends System_ComponentModel_Intern
     beginTransaction(isolationLevel: IsolationLevel): DbTransaction;
     beginTransactionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
     beginTransactionAsync(isolationLevel: IsolationLevel, cancellationToken?: CancellationToken): ValueTask_1<DbTransaction>;
-    abstract changeDatabase(databaseName: string): void;
+    changeDatabase(databaseName: string): void;
     changeDatabaseAsync(databaseName: string, cancellationToken?: CancellationToken): Task;
-    abstract close(): void;
+    close(): void;
     closeAsync(): Task;
     createBatch(): DbBatch;
     createCommand(): DbCommand;
@@ -453,10 +498,14 @@ export abstract class DbConnection$instance extends System_ComponentModel_Intern
     getSchemaAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
     getSchemaAsync(collectionName: string, cancellationToken?: CancellationToken): Task_1<DataTable>;
     getSchemaAsync(collectionName: string, restrictionValues: string[], cancellationToken?: CancellationToken): Task_1<DataTable>;
-    abstract open(): void;
+    open(): void;
     openAsync(): Task;
     openAsync(cancellationToken: CancellationToken): Task;
 }
+
+
+export const DbConnection: {
+};
 
 
 export interface __DbConnection$views {
@@ -471,9 +520,7 @@ export interface DbConnection$instance extends System_ComponentModel_Internal.IC
 export type DbConnection = DbConnection$instance & __DbConnection$views;
 
 
-export class DbConnectionStringBuilder$instance {
-    constructor();
-    constructor(useOdbcRules: boolean);
+export interface DbConnectionStringBuilder$instance {
     browsableConnectionString: boolean;
     connectionString: string;
     readonly count: int;
@@ -490,9 +537,15 @@ export class DbConnectionStringBuilder$instance {
     shouldSerialize(keyword: string): boolean;
     toString(): string;
     tryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
-    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
-    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
 }
+
+
+export const DbConnectionStringBuilder: {
+    new(): DbConnectionStringBuilder$instance;
+    new(useOdbcRules: boolean): DbConnectionStringBuilder$instance;
+    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
+    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
+};
 
 
 export interface __DbConnectionStringBuilder$views {
@@ -507,7 +560,7 @@ export interface DbConnectionStringBuilder$instance extends System_ComponentMode
 export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __DbConnectionStringBuilder$views;
 
 
-export abstract class DbDataAdapter$instance extends DataAdapter$instance {
+export interface DbDataAdapter$instance extends DataAdapter$instance {
     deleteCommand: DbCommand | IDbCommand;
     insertCommand: DbCommand | IDbCommand;
     selectCommand: DbCommand | IDbCommand;
@@ -521,8 +574,12 @@ export abstract class DbDataAdapter$instance extends DataAdapter$instance {
     getFillParameters(): IDataParameter[];
     update(dataSet: DataSet): int;
     update(dataTable: DataTable): int;
-    static readonly defaultSourceTableName: string;
 }
+
+
+export const DbDataAdapter: {
+    readonly defaultSourceTableName: string;
+};
 
 
 export interface __DbDataAdapter$views {
@@ -538,7 +595,7 @@ export interface DbDataAdapter$instance extends System_Internal.ICloneable$insta
 export type DbDataAdapter = DbDataAdapter$instance & __DbDataAdapter$views;
 
 
-export abstract class DbDataReader$instance extends System_Internal.MarshalByRefObject$instance {
+export interface DbDataReader$instance extends MarshalByRefObject {
     readonly depth: int;
     readonly fieldCount: int;
     readonly hasRows: boolean;
@@ -551,49 +608,53 @@ export abstract class DbDataReader$instance extends System_Internal.MarshalByRef
     disposeAsync(): ValueTask;
     get_Item(ordinal: int): unknown;
     get_Item(name: string): unknown;
-    abstract getBoolean(ordinal: int): boolean;
-    abstract getByte(ordinal: int): byte;
-    abstract getBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
-    abstract getChar(ordinal: int): char;
-    abstract getChars(ordinal: int, dataOffset: long, buffer: char[], bufferOffset: int, length: int): long;
+    getBoolean(ordinal: int): boolean;
+    getByte(ordinal: int): byte;
+    getBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
+    getChar(ordinal: int): char;
+    getChars(ordinal: int, dataOffset: long, buffer: char[], bufferOffset: int, length: int): long;
     getColumnSchemaAsync(cancellationToken?: CancellationToken): Task_1<ReadOnlyCollection_1<DbColumn>>;
     getData(ordinal: int): DbDataReader;
-    abstract getDataTypeName(ordinal: int): string;
-    abstract getDateTime(ordinal: int): DateTime;
-    abstract getDecimal(ordinal: int): decimal;
-    abstract getDouble(ordinal: int): double;
-    abstract getEnumerator(): IEnumerator;
-    abstract getFieldType(ordinal: int): Type;
+    getDataTypeName(ordinal: int): string;
+    getDateTime(ordinal: int): DateTime;
+    getDecimal(ordinal: int): decimal;
+    getDouble(ordinal: int): double;
+    getEnumerator(): IEnumerator;
+    getFieldType(ordinal: int): Type;
     getFieldValue<T>(ordinal: int): T;
     getFieldValueAsync<T>(ordinal: int): Task_1<T>;
     getFieldValueAsync<T>(ordinal: int, cancellationToken: CancellationToken): Task_1<T>;
-    abstract getFloat(ordinal: int): float;
-    abstract getGuid(ordinal: int): Guid;
-    abstract getInt16(ordinal: int): short;
-    abstract getInt32(ordinal: int): int;
-    abstract getInt64(ordinal: int): long;
-    abstract getName(ordinal: int): string;
-    abstract getOrdinal(name: string): int;
+    getFloat(ordinal: int): float;
+    getGuid(ordinal: int): Guid;
+    getInt16(ordinal: int): short;
+    getInt32(ordinal: int): int;
+    getInt64(ordinal: int): long;
+    getName(ordinal: int): string;
+    getOrdinal(name: string): int;
     getProviderSpecificFieldType(ordinal: int): Type;
     getProviderSpecificValue(ordinal: int): unknown;
     getProviderSpecificValues(values: unknown[]): int;
     getSchemaTable(): DataTable;
     getSchemaTableAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
     getStream(ordinal: int): Stream;
-    abstract getString(ordinal: int): string;
+    getString(ordinal: int): string;
     getTextReader(ordinal: int): TextReader;
-    abstract getValue(ordinal: int): unknown;
-    abstract getValues(values: unknown[]): int;
-    abstract isDBNull(ordinal: int): boolean;
+    getValue(ordinal: int): unknown;
+    getValues(values: unknown[]): int;
+    isDBNull(ordinal: int): boolean;
     isDBNullAsync(ordinal: int): Task_1<CLROf<boolean>>;
     isDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    abstract nextResult(): boolean;
+    nextResult(): boolean;
     nextResultAsync(): Task_1<CLROf<boolean>>;
     nextResultAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    abstract read(): boolean;
+    read(): boolean;
     readAsync(): Task_1<CLROf<boolean>>;
     readAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
 }
+
+
+export const DbDataReader: {
+};
 
 
 export interface __DbDataReader$views {
@@ -609,33 +670,37 @@ export interface DbDataReader$instance extends System_Collections_Internal.IEnum
 export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 
-export abstract class DbDataRecord$instance {
+export interface DbDataRecord$instance {
     readonly fieldCount: int;
     get_Item(i: int): unknown;
     get_Item(name: string): unknown;
-    abstract getBoolean(i: int): boolean;
-    abstract getByte(i: int): byte;
-    abstract getBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
-    abstract getChar(i: int): char;
-    abstract getChars(i: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
+    getBoolean(i: int): boolean;
+    getByte(i: int): byte;
+    getBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
+    getChar(i: int): char;
+    getChars(i: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
     getData(i: int): IDataReader;
-    abstract getDataTypeName(i: int): string;
-    abstract getDateTime(i: int): DateTime;
-    abstract getDecimal(i: int): decimal;
-    abstract getDouble(i: int): double;
-    abstract getFieldType(i: int): Type;
-    abstract getFloat(i: int): float;
-    abstract getGuid(i: int): Guid;
-    abstract getInt16(i: int): short;
-    abstract getInt32(i: int): int;
-    abstract getInt64(i: int): long;
-    abstract getName(i: int): string;
-    abstract getOrdinal(name: string): int;
-    abstract getString(i: int): string;
-    abstract getValue(i: int): unknown;
-    abstract getValues(values: unknown[]): int;
-    abstract isDBNull(i: int): boolean;
+    getDataTypeName(i: int): string;
+    getDateTime(i: int): DateTime;
+    getDecimal(i: int): decimal;
+    getDouble(i: int): double;
+    getFieldType(i: int): Type;
+    getFloat(i: int): float;
+    getGuid(i: int): Guid;
+    getInt16(i: int): short;
+    getInt32(i: int): int;
+    getInt64(i: int): long;
+    getName(i: int): string;
+    getOrdinal(name: string): int;
+    getString(i: int): string;
+    getValue(i: int): unknown;
+    getValues(values: unknown[]): int;
+    isDBNull(i: int): boolean;
 }
+
+
+export const DbDataRecord: {
+};
 
 
 export interface __DbDataRecord$views {
@@ -648,7 +713,7 @@ export interface DbDataRecord$instance extends System_ComponentModel_Internal.IC
 export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 
 
-export abstract class DbDataSource$instance {
+export interface DbDataSource$instance {
     readonly connectionString: string;
     createBatch(): DbBatch;
     createCommand(commandText?: string): DbCommand;
@@ -658,6 +723,10 @@ export abstract class DbDataSource$instance {
     openConnection(): DbConnection;
     openConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<DbConnection>;
 }
+
+
+export const DbDataSource: {
+};
 
 
 export interface __DbDataSource$views {
@@ -670,22 +739,30 @@ export interface DbDataSource$instance extends System_Internal.IAsyncDisposable$
 export type DbDataSource = DbDataSource$instance & __DbDataSource$views;
 
 
-export abstract class DbDataSourceEnumerator$instance {
-    abstract getDataSources(): DataTable;
+export interface DbDataSourceEnumerator$instance {
+    getDataSources(): DataTable;
 }
+
+
+export const DbDataSourceEnumerator: {
+};
 
 
 export type DbDataSourceEnumerator = DbDataSourceEnumerator$instance;
 
-export class DbEnumerator$instance {
-    constructor(reader: IDataReader);
-    constructor(reader: IDataReader, closeReader: boolean);
-    constructor(reader: DbDataReader);
-    constructor(reader: DbDataReader, closeReader: boolean);
+export interface DbEnumerator$instance {
     readonly current: unknown;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const DbEnumerator: {
+    new(reader: IDataReader): DbEnumerator$instance;
+    new(reader: IDataReader, closeReader: boolean): DbEnumerator$instance;
+    new(reader: DbDataReader): DbEnumerator$instance;
+    new(reader: DbDataReader, closeReader: boolean): DbEnumerator$instance;
+};
 
 
 export interface __DbEnumerator$views {
@@ -697,12 +774,16 @@ export interface DbEnumerator$instance extends System_Collections_Internal.IEnum
 export type DbEnumerator = DbEnumerator$instance & __DbEnumerator$views;
 
 
-export abstract class DbException$instance extends System_Runtime_InteropServices_Internal.ExternalException$instance {
+export interface DbException$instance extends ExternalException {
     readonly batchCommand: DbBatchCommand;
     readonly isTransient: boolean;
     readonly sqlState: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DbException: {
+};
 
 
 export interface __DbException$views {
@@ -712,7 +793,7 @@ export interface __DbException$views {
 export type DbException = DbException$instance & __DbException$views;
 
 
-export abstract class DbParameter$instance extends System_Internal.MarshalByRefObject$instance {
+export interface DbParameter$instance extends MarshalByRefObject {
     dbType: DbType;
     direction: ParameterDirection;
     isNullable: boolean;
@@ -724,8 +805,12 @@ export abstract class DbParameter$instance extends System_Internal.MarshalByRefO
     sourceColumnNullMapping: boolean;
     sourceVersion: DataRowVersion;
     value: unknown;
-    abstract resetDbType(): void;
+    resetDbType(): void;
 }
+
+
+export const DbParameter: {
+};
 
 
 export interface __DbParameter$views {
@@ -736,30 +821,34 @@ export interface __DbParameter$views {
 export type DbParameter = DbParameter$instance & __DbParameter$views;
 
 
-export abstract class DbParameterCollection$instance extends System_Internal.MarshalByRefObject$instance {
+export interface DbParameterCollection$instance extends MarshalByRefObject {
     readonly count: int;
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
     readonly syncRoot: unknown;
-    abstract add(value: unknown): int;
-    abstract addRange(values: ClrArray): void;
-    abstract clear(): void;
-    abstract contains(value: unknown): boolean;
-    abstract contains(value: string): boolean;
-    abstract copyTo(array: ClrArray, index: int): void;
+    add(value: unknown): int;
+    addRange(values: ClrArray): void;
+    clear(): void;
+    contains(value: unknown): boolean;
+    contains(value: string): boolean;
+    copyTo(array: ClrArray, index: int): void;
     get_Item(index: int): DbParameter;
     get_Item(parameterName: string): DbParameter;
-    abstract getEnumerator(): IEnumerator;
-    abstract indexOf(value: unknown): int;
-    abstract indexOf(parameterName: string): int;
-    abstract insert(index: int, value: unknown): void;
-    abstract remove(value: unknown): void;
-    abstract removeAt(index: int): void;
-    abstract removeAt(parameterName: string): void;
+    getEnumerator(): IEnumerator;
+    indexOf(value: unknown): int;
+    indexOf(parameterName: string): int;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(index: int): void;
+    removeAt(parameterName: string): void;
     set_Item(index: int, value: DbParameter): void;
     set_Item(parameterName: string, value: DbParameter): void;
 }
+
+
+export const DbParameterCollection: {
+};
 
 
 export interface __DbParameterCollection$views {
@@ -772,7 +861,7 @@ export interface __DbParameterCollection$views {
 export type DbParameterCollection = DbParameterCollection$instance & __DbParameterCollection$views;
 
 
-export abstract class DbProviderFactory$instance {
+export interface DbProviderFactory$instance {
     readonly canCreateBatch: boolean;
     readonly canCreateCommandBuilder: boolean;
     readonly canCreateDataAdapter: boolean;
@@ -790,21 +879,29 @@ export abstract class DbProviderFactory$instance {
 }
 
 
+export const DbProviderFactory: {
+};
+
+
 export type DbProviderFactory = DbProviderFactory$instance;
 
-export class DbProviderSpecificTypePropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(isProviderSpecificTypeProperty: boolean);
+export interface DbProviderSpecificTypePropertyAttribute$instance extends Attribute {
     readonly isProviderSpecificTypeProperty: boolean;
 }
 
 
+export const DbProviderSpecificTypePropertyAttribute: {
+    new(isProviderSpecificTypeProperty: boolean): DbProviderSpecificTypePropertyAttribute$instance;
+};
+
+
 export type DbProviderSpecificTypePropertyAttribute = DbProviderSpecificTypePropertyAttribute$instance;
 
-export abstract class DbTransaction$instance extends System_Internal.MarshalByRefObject$instance {
+export interface DbTransaction$instance extends MarshalByRefObject {
     readonly connection: DbConnection | IDbConnection;
     readonly isolationLevel: IsolationLevel;
     readonly supportsSavepoints: boolean;
-    abstract commit(): void;
+    commit(): void;
     commitAsync(cancellationToken?: CancellationToken): Task;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -819,6 +916,10 @@ export abstract class DbTransaction$instance extends System_Internal.MarshalByRe
 }
 
 
+export const DbTransaction: {
+};
+
+
 export interface __DbTransaction$views {
     As_IDbTransaction(): System_Data_Internal.IDbTransaction$instance;
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
@@ -830,8 +931,7 @@ export interface DbTransaction$instance extends System_Internal.IAsyncDisposable
 export type DbTransaction = DbTransaction$instance & __DbTransaction$views;
 
 
-export class RowUpdatedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping);
+export interface RowUpdatedEventArgs$instance extends EventArgs {
     readonly command: IDbCommand;
     errors: Exception;
     readonly recordsAffected: int;
@@ -845,10 +945,14 @@ export class RowUpdatedEventArgs$instance extends System_Internal.EventArgs$inst
 }
 
 
+export const RowUpdatedEventArgs: {
+    new(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatedEventArgs$instance;
+};
+
+
 export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
-export class RowUpdatingEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping);
+export interface RowUpdatingEventArgs$instance extends EventArgs {
     command: IDbCommand;
     errors: Exception;
     readonly row: DataRow;
@@ -856,6 +960,11 @@ export class RowUpdatingEventArgs$instance extends System_Internal.EventArgs$ins
     status: UpdateStatus;
     readonly tableMapping: DataTableMapping;
 }
+
+
+export const RowUpdatingEventArgs: {
+    new(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatingEventArgs$instance;
+};
 
 
 export type RowUpdatingEventArgs = RowUpdatingEventArgs$instance;

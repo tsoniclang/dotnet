@@ -52,44 +52,64 @@ export enum ContractFailureKind {
 }
 
 
-export class ContractAbbreviatorAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ContractAbbreviatorAttribute$instance extends Attribute {
 }
+
+
+export const ContractAbbreviatorAttribute: {
+    new(): ContractAbbreviatorAttribute$instance;
+};
 
 
 export type ContractAbbreviatorAttribute = ContractAbbreviatorAttribute$instance;
 
-export class ContractArgumentValidatorAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ContractArgumentValidatorAttribute$instance extends Attribute {
 }
+
+
+export const ContractArgumentValidatorAttribute: {
+    new(): ContractArgumentValidatorAttribute$instance;
+};
 
 
 export type ContractArgumentValidatorAttribute = ContractArgumentValidatorAttribute$instance;
 
-export class ContractClassAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeContainingContracts: Type);
+export interface ContractClassAttribute$instance extends Attribute {
     readonly typeContainingContracts: Type;
 }
 
 
+export const ContractClassAttribute: {
+    new(typeContainingContracts: Type): ContractClassAttribute$instance;
+};
+
+
 export type ContractClassAttribute = ContractClassAttribute$instance;
 
-export class ContractClassForAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeContractsAreFor: Type);
+export interface ContractClassForAttribute$instance extends Attribute {
     readonly typeContractsAreFor: Type;
 }
 
 
+export const ContractClassForAttribute: {
+    new(typeContractsAreFor: Type): ContractClassForAttribute$instance;
+};
+
+
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
-export class ContractException$instance extends System_Internal.Exception$instance {
-    constructor(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception);
+export interface ContractException$instance extends Exception {
     readonly condition: string;
     readonly failure: string;
     readonly kind: ContractFailureKind;
     readonly userMessage: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ContractException: {
+    new(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception): ContractException$instance;
+};
 
 
 export interface __ContractException$views {
@@ -99,8 +119,7 @@ export interface __ContractException$views {
 export type ContractException = ContractException$instance & __ContractException$views;
 
 
-export class ContractFailedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception);
+export interface ContractFailedEventArgs$instance extends EventArgs {
     readonly condition: string;
     readonly failureKind: ContractFailureKind;
     readonly handled: boolean;
@@ -112,18 +131,25 @@ export class ContractFailedEventArgs$instance extends System_Internal.EventArgs$
 }
 
 
+export const ContractFailedEventArgs: {
+    new(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception): ContractFailedEventArgs$instance;
+};
+
+
 export type ContractFailedEventArgs = ContractFailedEventArgs$instance;
 
-export class ContractInvariantMethodAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ContractInvariantMethodAttribute$instance extends Attribute {
 }
+
+
+export const ContractInvariantMethodAttribute: {
+    new(): ContractInvariantMethodAttribute$instance;
+};
 
 
 export type ContractInvariantMethodAttribute = ContractInvariantMethodAttribute$instance;
 
-export class ContractOptionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(category: string, setting: string, enabled: boolean);
-    constructor(category: string, setting: string, value: string);
+export interface ContractOptionAttribute$instance extends Attribute {
     readonly category: string;
     readonly enabled: boolean;
     readonly setting: string;
@@ -131,41 +157,67 @@ export class ContractOptionAttribute$instance extends System_Internal.Attribute$
 }
 
 
+export const ContractOptionAttribute: {
+    new(category: string, setting: string, enabled: boolean): ContractOptionAttribute$instance;
+    new(category: string, setting: string, value: string): ContractOptionAttribute$instance;
+};
+
+
 export type ContractOptionAttribute = ContractOptionAttribute$instance;
 
-export class ContractPublicPropertyNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface ContractPublicPropertyNameAttribute$instance extends Attribute {
     readonly name: string;
 }
 
 
+export const ContractPublicPropertyNameAttribute: {
+    new(name: string): ContractPublicPropertyNameAttribute$instance;
+};
+
+
 export type ContractPublicPropertyNameAttribute = ContractPublicPropertyNameAttribute$instance;
 
-export class ContractReferenceAssemblyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ContractReferenceAssemblyAttribute$instance extends Attribute {
 }
+
+
+export const ContractReferenceAssemblyAttribute: {
+    new(): ContractReferenceAssemblyAttribute$instance;
+};
 
 
 export type ContractReferenceAssemblyAttribute = ContractReferenceAssemblyAttribute$instance;
 
-export class ContractRuntimeIgnoredAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ContractRuntimeIgnoredAttribute$instance extends Attribute {
 }
+
+
+export const ContractRuntimeIgnoredAttribute: {
+    new(): ContractRuntimeIgnoredAttribute$instance;
+};
 
 
 export type ContractRuntimeIgnoredAttribute = ContractRuntimeIgnoredAttribute$instance;
 
-export class ContractVerificationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: boolean);
+export interface ContractVerificationAttribute$instance extends Attribute {
     readonly value: boolean;
 }
 
 
+export const ContractVerificationAttribute: {
+    new(value: boolean): ContractVerificationAttribute$instance;
+};
+
+
 export type ContractVerificationAttribute = ContractVerificationAttribute$instance;
 
-export class PureAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface PureAttribute$instance extends Attribute {
 }
+
+
+export const PureAttribute: {
+    new(): PureAttribute$instance;
+};
 
 
 export type PureAttribute = PureAttribute$instance;

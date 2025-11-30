@@ -55,11 +55,7 @@ export enum NormalizationForm {
 }
 
 
-export class Rune$instance {
-    constructor(ch: char);
-    constructor(highSurrogate: char, lowSurrogate: char);
-    constructor(value: int);
-    constructor(value: uint);
+export interface Rune$instance {
     readonly isAscii: boolean;
     readonly isBmp: boolean;
     readonly plane: int;
@@ -75,37 +71,45 @@ export class Rune$instance {
     toString(): string;
     tryEncodeToUtf16(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     tryEncodeToUtf8(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static readonly replacementChar: Rune;
-    static decodeFromUtf16(source: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Rune> }, charsConsumed: { value: ref<int> }): OperationStatus;
-    static decodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Rune> }, bytesConsumed: { value: ref<int> }): OperationStatus;
-    static decodeLastFromUtf16(source: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Rune> }, charsConsumed: { value: ref<int> }): OperationStatus;
-    static decodeLastFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<Rune> }, bytesConsumed: { value: ref<int> }): OperationStatus;
-    static getNumericValue(value: Rune): double;
-    static getRuneAt(input: string, index: int): Rune;
-    static getUnicodeCategory(value: Rune): UnicodeCategory;
-    static isControl(value: Rune): boolean;
-    static isDigit(value: Rune): boolean;
-    static isLetter(value: Rune): boolean;
-    static isLetterOrDigit(value: Rune): boolean;
-    static isLower(value: Rune): boolean;
-    static isNumber(value: Rune): boolean;
-    static isPunctuation(value: Rune): boolean;
-    static isSeparator(value: Rune): boolean;
-    static isSymbol(value: Rune): boolean;
-    static isUpper(value: Rune): boolean;
-    static isValid(value: int): boolean;
-    static isValid(value: uint): boolean;
-    static isWhiteSpace(value: Rune): boolean;
-    static toLower(value: Rune, culture: CultureInfo): Rune;
-    static toLowerInvariant(value: Rune): Rune;
-    static toUpper(value: Rune, culture: CultureInfo): Rune;
-    static toUpperInvariant(value: Rune): Rune;
-    static tryCreate(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate(ch: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate(value: int, result: { value: ref<Rune> }): boolean;
-    static tryCreate(value: uint, result: { value: ref<Rune> }): boolean;
-    static tryGetRuneAt(input: string, index: int, value: { value: ref<Rune> }): boolean;
 }
+
+
+export const Rune: {
+    new(ch: char): Rune$instance;
+    new(highSurrogate: char, lowSurrogate: char): Rune$instance;
+    new(value: int): Rune$instance;
+    new(value: uint): Rune$instance;
+    readonly replacementChar: Rune;
+    decodeFromUtf16(source: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Rune> }, charsConsumed: { value: ref<int> }): OperationStatus;
+    decodeFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Rune> }, bytesConsumed: { value: ref<int> }): OperationStatus;
+    decodeLastFromUtf16(source: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Rune> }, charsConsumed: { value: ref<int> }): OperationStatus;
+    decodeLastFromUtf8(source: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<Rune> }, bytesConsumed: { value: ref<int> }): OperationStatus;
+    getNumericValue(value: Rune): double;
+    getRuneAt(input: string, index: int): Rune;
+    getUnicodeCategory(value: Rune): UnicodeCategory;
+    isControl(value: Rune): boolean;
+    isDigit(value: Rune): boolean;
+    isLetter(value: Rune): boolean;
+    isLetterOrDigit(value: Rune): boolean;
+    isLower(value: Rune): boolean;
+    isNumber(value: Rune): boolean;
+    isPunctuation(value: Rune): boolean;
+    isSeparator(value: Rune): boolean;
+    isSymbol(value: Rune): boolean;
+    isUpper(value: Rune): boolean;
+    isValid(value: int): boolean;
+    isValid(value: uint): boolean;
+    isWhiteSpace(value: Rune): boolean;
+    toLower(value: Rune, culture: CultureInfo): Rune;
+    toLowerInvariant(value: Rune): Rune;
+    toUpper(value: Rune, culture: CultureInfo): Rune;
+    toUpperInvariant(value: Rune): Rune;
+    tryCreate(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
+    tryCreate(ch: char, result: { value: ref<Rune> }): boolean;
+    tryCreate(value: int, result: { value: ref<Rune> }): boolean;
+    tryCreate(value: uint, result: { value: ref<Rune> }): boolean;
+    tryGetRuneAt(input: string, index: int, value: { value: ref<Rune> }): boolean;
+};
 
 
 export interface __Rune$views {
@@ -127,12 +131,17 @@ export interface Rune$instance extends System_Internal.IComparable_1$instance<Ru
 export type Rune = Rune$instance & __Rune$views;
 
 
-export class SpanLineEnumerator$instance {
+export interface SpanLineEnumerator$instance {
     readonly current: ReadOnlySpan_1<CLROf<char>>;
     getEnumerator(): SpanLineEnumerator;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SpanLineEnumerator: {
+    new(): SpanLineEnumerator$instance;
+};
 
 
 export interface __SpanLineEnumerator$views {
@@ -144,12 +153,17 @@ export interface __SpanLineEnumerator$views {
 export type SpanLineEnumerator = SpanLineEnumerator$instance & __SpanLineEnumerator$views;
 
 
-export class SpanRuneEnumerator$instance {
+export interface SpanRuneEnumerator$instance {
     readonly current: Rune;
     getEnumerator(): SpanRuneEnumerator;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SpanRuneEnumerator: {
+    new(): SpanRuneEnumerator$instance;
+};
 
 
 export interface __SpanRuneEnumerator$views {
@@ -161,9 +175,7 @@ export interface __SpanRuneEnumerator$views {
 export type SpanRuneEnumerator = SpanRuneEnumerator$instance & __SpanRuneEnumerator$views;
 
 
-export class StringBuilder_AppendInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, stringBuilder: StringBuilder);
-    constructor(literalLength: int, formattedCount: int, stringBuilder: StringBuilder, provider: IFormatProvider);
+export interface StringBuilder_AppendInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): void;
     appendFormatted<T>(value: T, format: string): void;
     appendFormatted<T>(value: T, alignment: int): void;
@@ -177,23 +189,39 @@ export class StringBuilder_AppendInterpolatedStringHandler$instance {
 }
 
 
+export const StringBuilder_AppendInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder): StringBuilder_AppendInterpolatedStringHandler$instance;
+    new(literalLength: int, formattedCount: int, stringBuilder: StringBuilder, provider: IFormatProvider): StringBuilder_AppendInterpolatedStringHandler$instance;
+};
+
+
 export type StringBuilder_AppendInterpolatedStringHandler = StringBuilder_AppendInterpolatedStringHandler$instance;
 
-export class StringBuilder_ChunkEnumerator$instance {
+export interface StringBuilder_ChunkEnumerator$instance {
     readonly current: ReadOnlyMemory_1<CLROf<char>>;
     getEnumerator(): StringBuilder_ChunkEnumerator;
     moveNext(): boolean;
 }
 
 
+export const StringBuilder_ChunkEnumerator: {
+    new(): StringBuilder_ChunkEnumerator$instance;
+};
+
+
 export type StringBuilder_ChunkEnumerator = StringBuilder_ChunkEnumerator$instance;
 
-export class StringRuneEnumerator$instance {
+export interface StringRuneEnumerator$instance {
     readonly current: Rune;
     getEnumerator(): StringRuneEnumerator;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const StringRuneEnumerator: {
+    new(): StringRuneEnumerator$instance;
+};
 
 
 export interface __StringRuneEnumerator$views {
@@ -207,8 +235,7 @@ export interface __StringRuneEnumerator$views {
 export type StringRuneEnumerator = StringRuneEnumerator$instance & __StringRuneEnumerator$views;
 
 
-export class ASCIIEncoding$instance extends Encoding$instance {
-    constructor();
+export interface ASCIIEncoding$instance extends Encoding$instance {
     readonly isSingleByte: boolean;
     clone(): unknown;
     getByteCount(chars: char[], index: int, count: int): int;
@@ -253,6 +280,11 @@ export class ASCIIEncoding$instance extends Encoding$instance {
 }
 
 
+export const ASCIIEncoding: {
+    new(): ASCIIEncoding$instance;
+};
+
+
 export interface __ASCIIEncoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
@@ -260,29 +292,39 @@ export interface __ASCIIEncoding$views {
 export type ASCIIEncoding = ASCIIEncoding$instance & __ASCIIEncoding$views;
 
 
-export class CodePagesEncodingProvider$instance extends EncodingProvider$instance {
+export interface CodePagesEncodingProvider$instance extends EncodingProvider {
     getEncoding(codepage: int): Encoding;
     getEncoding(name: string): Encoding;
     getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
     getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
     getEncodings(): IEnumerable_1<EncodingInfo>;
     getEncodings(): IEnumerable_1<EncodingInfo>;
-    static readonly instance: EncodingProvider;
 }
+
+
+export const CodePagesEncodingProvider: {
+    new(): CodePagesEncodingProvider$instance;
+    readonly instance: EncodingProvider;
+};
 
 
 export type CodePagesEncodingProvider = CodePagesEncodingProvider$instance;
 
-export class CompositeFormat$instance {
+export interface CompositeFormat$instance {
     readonly format: string;
     readonly minimumArgumentCount: int;
-    static parse(format: string): CompositeFormat;
 }
+
+
+export const CompositeFormat: {
+    new(): CompositeFormat$instance;
+    parse(format: string): CompositeFormat;
+};
 
 
 export type CompositeFormat = CompositeFormat$instance;
 
-export abstract class Decoder$instance {
+export interface Decoder$instance {
     fallback: DecoderFallback;
     readonly fallbackBuffer: DecoderFallbackBuffer;
     convert(bytes: byte[], byteIndex: int, byteCount: int, chars: char[], charIndex: int, charCount: int, flush: boolean, bytesUsed: { value: ref<int> }, charsUsed: { value: ref<int> }, completed: { value: ref<boolean> }): void;
@@ -300,10 +342,13 @@ export abstract class Decoder$instance {
 }
 
 
+export const Decoder: {
+};
+
+
 export type Decoder = Decoder$instance;
 
-export class DecoderExceptionFallback$instance extends DecoderFallback$instance {
-    constructor();
+export interface DecoderExceptionFallback$instance extends DecoderFallback {
     readonly maxCharCount: int;
     createFallbackBuffer(): DecoderFallbackBuffer;
     equals(value: unknown): boolean;
@@ -311,10 +356,14 @@ export class DecoderExceptionFallback$instance extends DecoderFallback$instance 
 }
 
 
+export const DecoderExceptionFallback: {
+    new(): DecoderExceptionFallback$instance;
+};
+
+
 export type DecoderExceptionFallback = DecoderExceptionFallback$instance;
 
-export class DecoderExceptionFallbackBuffer$instance extends DecoderFallbackBuffer$instance {
-    constructor();
+export interface DecoderExceptionFallbackBuffer$instance extends DecoderFallbackBuffer {
     readonly remaining: int;
     fallback(bytesUnknown: byte[], index: int): boolean;
     getNextChar(): char;
@@ -322,38 +371,55 @@ export class DecoderExceptionFallbackBuffer$instance extends DecoderFallbackBuff
 }
 
 
+export const DecoderExceptionFallbackBuffer: {
+    new(): DecoderExceptionFallbackBuffer$instance;
+};
+
+
 export type DecoderExceptionFallbackBuffer = DecoderExceptionFallbackBuffer$instance;
 
-export abstract class DecoderFallback$instance {
+export interface DecoderFallback$instance {
     readonly maxCharCount: int;
-    abstract createFallbackBuffer(): DecoderFallbackBuffer;
-    static readonly replacementFallback: DecoderFallback;
-    static readonly exceptionFallback: DecoderFallback;
+    createFallbackBuffer(): DecoderFallbackBuffer;
 }
+
+
+export const DecoderFallback: {
+    readonly replacementFallback: DecoderFallback;
+    readonly exceptionFallback: DecoderFallback;
+};
 
 
 export type DecoderFallback = DecoderFallback$instance;
 
-export abstract class DecoderFallbackBuffer$instance {
+export interface DecoderFallbackBuffer$instance {
     readonly remaining: int;
-    abstract fallback(bytesUnknown: byte[], index: int): boolean;
-    abstract getNextChar(): char;
-    abstract movePrevious(): boolean;
+    fallback(bytesUnknown: byte[], index: int): boolean;
+    getNextChar(): char;
+    movePrevious(): boolean;
     reset(): void;
 }
 
 
+export const DecoderFallbackBuffer: {
+};
+
+
 export type DecoderFallbackBuffer = DecoderFallbackBuffer$instance;
 
-export class DecoderFallbackException$instance extends System_Internal.ArgumentException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, bytesUnknown: byte[], index: int);
+export interface DecoderFallbackException$instance extends ArgumentException {
     readonly bytesUnknown: byte[];
     readonly index: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DecoderFallbackException: {
+    new(): DecoderFallbackException$instance;
+    new(message: string): DecoderFallbackException$instance;
+    new(message: string, innerException: Exception): DecoderFallbackException$instance;
+    new(message: string, bytesUnknown: byte[], index: int): DecoderFallbackException$instance;
+};
 
 
 export interface __DecoderFallbackException$views {
@@ -363,9 +429,7 @@ export interface __DecoderFallbackException$views {
 export type DecoderFallbackException = DecoderFallbackException$instance & __DecoderFallbackException$views;
 
 
-export class DecoderReplacementFallback$instance extends DecoderFallback$instance {
-    constructor();
-    constructor(replacement: string);
+export interface DecoderReplacementFallback$instance extends DecoderFallback {
     readonly defaultString: string;
     readonly maxCharCount: int;
     createFallbackBuffer(): DecoderFallbackBuffer;
@@ -374,10 +438,15 @@ export class DecoderReplacementFallback$instance extends DecoderFallback$instanc
 }
 
 
+export const DecoderReplacementFallback: {
+    new(): DecoderReplacementFallback$instance;
+    new(replacement: string): DecoderReplacementFallback$instance;
+};
+
+
 export type DecoderReplacementFallback = DecoderReplacementFallback$instance;
 
-export class DecoderReplacementFallbackBuffer$instance extends DecoderFallbackBuffer$instance {
-    constructor(fallback: DecoderReplacementFallback);
+export interface DecoderReplacementFallbackBuffer$instance extends DecoderFallbackBuffer {
     readonly remaining: int;
     fallback(bytesUnknown: byte[], index: int): boolean;
     getNextChar(): char;
@@ -386,9 +455,14 @@ export class DecoderReplacementFallbackBuffer$instance extends DecoderFallbackBu
 }
 
 
+export const DecoderReplacementFallbackBuffer: {
+    new(fallback: DecoderReplacementFallback): DecoderReplacementFallbackBuffer$instance;
+};
+
+
 export type DecoderReplacementFallbackBuffer = DecoderReplacementFallbackBuffer$instance;
 
-export abstract class Encoder$instance {
+export interface Encoder$instance {
     fallback: EncoderFallback;
     readonly fallbackBuffer: EncoderFallbackBuffer;
     convert(chars: char[], charIndex: int, charCount: int, bytes: byte[], byteIndex: int, byteCount: int, flush: boolean, charsUsed: { value: ref<int> }, bytesUsed: { value: ref<int> }, completed: { value: ref<boolean> }): void;
@@ -404,10 +478,13 @@ export abstract class Encoder$instance {
 }
 
 
+export const Encoder: {
+};
+
+
 export type Encoder = Encoder$instance;
 
-export class EncoderExceptionFallback$instance extends EncoderFallback$instance {
-    constructor();
+export interface EncoderExceptionFallback$instance extends EncoderFallback {
     readonly maxCharCount: int;
     createFallbackBuffer(): EncoderFallbackBuffer;
     equals(value: unknown): boolean;
@@ -415,10 +492,14 @@ export class EncoderExceptionFallback$instance extends EncoderFallback$instance 
 }
 
 
+export const EncoderExceptionFallback: {
+    new(): EncoderExceptionFallback$instance;
+};
+
+
 export type EncoderExceptionFallback = EncoderExceptionFallback$instance;
 
-export class EncoderExceptionFallbackBuffer$instance extends EncoderFallbackBuffer$instance {
-    constructor();
+export interface EncoderExceptionFallbackBuffer$instance extends EncoderFallbackBuffer {
     readonly remaining: int;
     fallback(charUnknown: char, index: int): boolean;
     fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
@@ -427,34 +508,44 @@ export class EncoderExceptionFallbackBuffer$instance extends EncoderFallbackBuff
 }
 
 
+export const EncoderExceptionFallbackBuffer: {
+    new(): EncoderExceptionFallbackBuffer$instance;
+};
+
+
 export type EncoderExceptionFallbackBuffer = EncoderExceptionFallbackBuffer$instance;
 
-export abstract class EncoderFallback$instance {
+export interface EncoderFallback$instance {
     readonly maxCharCount: int;
-    abstract createFallbackBuffer(): EncoderFallbackBuffer;
-    static readonly replacementFallback: EncoderFallback;
-    static readonly exceptionFallback: EncoderFallback;
+    createFallbackBuffer(): EncoderFallbackBuffer;
 }
+
+
+export const EncoderFallback: {
+    readonly replacementFallback: EncoderFallback;
+    readonly exceptionFallback: EncoderFallback;
+};
 
 
 export type EncoderFallback = EncoderFallback$instance;
 
-export abstract class EncoderFallbackBuffer$instance {
+export interface EncoderFallbackBuffer$instance {
     readonly remaining: int;
-    abstract fallback(charUnknown: char, index: int): boolean;
-    abstract fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
-    abstract getNextChar(): char;
-    abstract movePrevious(): boolean;
+    fallback(charUnknown: char, index: int): boolean;
+    fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
+    getNextChar(): char;
+    movePrevious(): boolean;
     reset(): void;
 }
 
 
+export const EncoderFallbackBuffer: {
+};
+
+
 export type EncoderFallbackBuffer = EncoderFallbackBuffer$instance;
 
-export class EncoderFallbackException$instance extends System_Internal.ArgumentException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface EncoderFallbackException$instance extends ArgumentException {
     readonly charUnknown: char;
     readonly charUnknownHigh: char;
     readonly charUnknownLow: char;
@@ -464,6 +555,13 @@ export class EncoderFallbackException$instance extends System_Internal.ArgumentE
 }
 
 
+export const EncoderFallbackException: {
+    new(): EncoderFallbackException$instance;
+    new(message: string): EncoderFallbackException$instance;
+    new(message: string, innerException: Exception): EncoderFallbackException$instance;
+};
+
+
 export interface __EncoderFallbackException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -471,9 +569,7 @@ export interface __EncoderFallbackException$views {
 export type EncoderFallbackException = EncoderFallbackException$instance & __EncoderFallbackException$views;
 
 
-export class EncoderReplacementFallback$instance extends EncoderFallback$instance {
-    constructor();
-    constructor(replacement: string);
+export interface EncoderReplacementFallback$instance extends EncoderFallback {
     readonly defaultString: string;
     readonly maxCharCount: int;
     createFallbackBuffer(): EncoderFallbackBuffer;
@@ -482,10 +578,15 @@ export class EncoderReplacementFallback$instance extends EncoderFallback$instanc
 }
 
 
+export const EncoderReplacementFallback: {
+    new(): EncoderReplacementFallback$instance;
+    new(replacement: string): EncoderReplacementFallback$instance;
+};
+
+
 export type EncoderReplacementFallback = EncoderReplacementFallback$instance;
 
-export class EncoderReplacementFallbackBuffer$instance extends EncoderFallbackBuffer$instance {
-    constructor(fallback: EncoderReplacementFallback);
+export interface EncoderReplacementFallbackBuffer$instance extends EncoderFallbackBuffer {
     readonly remaining: int;
     fallback(charUnknown: char, index: int): boolean;
     fallback(charUnknownHigh: char, charUnknownLow: char, index: int): boolean;
@@ -495,9 +596,14 @@ export class EncoderReplacementFallbackBuffer$instance extends EncoderFallbackBu
 }
 
 
+export const EncoderReplacementFallbackBuffer: {
+    new(fallback: EncoderReplacementFallback): EncoderReplacementFallbackBuffer$instance;
+};
+
+
 export type EncoderReplacementFallbackBuffer = EncoderReplacementFallbackBuffer$instance;
 
-export abstract class Encoding$instance {
+export interface Encoding$instance {
     readonly bodyName: string;
     readonly codePage: int;
     decoderFallback: DecoderFallback;
@@ -541,8 +647,8 @@ export abstract class Encoding$instance {
     getDecoder(): Decoder;
     getEncoder(): Encoder;
     getHashCode(): int;
-    abstract getMaxByteCount(charCount: int): int;
-    abstract getMaxCharCount(byteCount: int): int;
+    getMaxByteCount(charCount: int): int;
+    getMaxCharCount(byteCount: int): int;
     getPreamble(): byte[];
     getString(bytes: ptr<byte>, byteCount: int): string;
     getString(bytes: ReadOnlySpan_1<CLROf<byte>>): string;
@@ -552,24 +658,28 @@ export abstract class Encoding$instance {
     isAlwaysNormalized(form: NormalizationForm): boolean;
     tryGetBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     tryGetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly default_: Encoding;
-    static readonly ASCII: Encoding;
-    static readonly latin1: Encoding;
-    static readonly unicode: Encoding;
-    static readonly bigEndianUnicode: Encoding;
-    static readonly UTF7: Encoding;
-    static readonly UTF8: Encoding;
-    static readonly UTF32: Encoding;
-    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
-    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
-    static createTranscodingStream(innerStream: Stream, innerStreamEncoding: Encoding, outerStreamEncoding: Encoding, leaveOpen?: boolean): Stream;
-    static getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding(codepage: int): Encoding;
-    static getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding(name: string): Encoding;
-    static getEncodings(): EncodingInfo[];
-    static registerProvider(provider: EncodingProvider): void;
 }
+
+
+export const Encoding: {
+    readonly default_: Encoding;
+    readonly ASCII: Encoding;
+    readonly latin1: Encoding;
+    readonly unicode: Encoding;
+    readonly bigEndianUnicode: Encoding;
+    readonly UTF7: Encoding;
+    readonly UTF8: Encoding;
+    readonly UTF32: Encoding;
+    convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
+    convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
+    createTranscodingStream(innerStream: Stream, innerStreamEncoding: Encoding, outerStreamEncoding: Encoding, leaveOpen?: boolean): Stream;
+    getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    getEncoding(codepage: int): Encoding;
+    getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    getEncoding(name: string): Encoding;
+    getEncodings(): EncodingInfo[];
+    registerProvider(provider: EncodingProvider): void;
+};
 
 
 export interface __Encoding$views {
@@ -581,8 +691,7 @@ export interface Encoding$instance extends System_Internal.ICloneable$instance {
 export type Encoding = Encoding$instance & __Encoding$views;
 
 
-export class EncodingInfo$instance {
-    constructor(provider: EncodingProvider, codePage: int, name: string, displayName: string);
+export interface EncodingInfo$instance {
     readonly codePage: int;
     readonly displayName: string;
     readonly name: string;
@@ -592,10 +701,14 @@ export class EncodingInfo$instance {
 }
 
 
+export const EncodingInfo: {
+    new(provider: EncodingProvider, codePage: int, name: string, displayName: string): EncodingInfo$instance;
+};
+
+
 export type EncodingInfo = EncodingInfo$instance;
 
-export abstract class EncodingProvider$instance {
-    constructor();
+export interface EncodingProvider$instance {
     getEncoding(name: string): Encoding;
     getEncoding(codepage: int): Encoding;
     getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
@@ -604,15 +717,14 @@ export abstract class EncodingProvider$instance {
 }
 
 
+export const EncodingProvider: {
+    new(): EncodingProvider$instance;
+};
+
+
 export type EncodingProvider = EncodingProvider$instance;
 
-export class StringBuilder$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(value: string);
-    constructor(value: string, capacity: int);
-    constructor(value: string, startIndex: int, length: int, capacity: int);
-    constructor(capacity: int, maxCapacity: int);
+export interface StringBuilder$instance {
     capacity: int;
     chars: char;
     length: int;
@@ -710,6 +822,16 @@ export class StringBuilder$instance {
 }
 
 
+export const StringBuilder: {
+    new(): StringBuilder$instance;
+    new(capacity: int): StringBuilder$instance;
+    new(value: string): StringBuilder$instance;
+    new(value: string, capacity: int): StringBuilder$instance;
+    new(value: string, startIndex: int, length: int, capacity: int): StringBuilder$instance;
+    new(capacity: int, maxCapacity: int): StringBuilder$instance;
+};
+
+
 export interface __StringBuilder$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -719,10 +841,7 @@ export interface StringBuilder$instance extends System_Runtime_Serialization_Int
 export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
 
 
-export class UnicodeEncoding$instance extends Encoding$instance {
-    constructor();
-    constructor(bigEndian: boolean, byteOrderMark: boolean);
-    constructor(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidBytes: boolean);
+export interface UnicodeEncoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
     clone(): unknown;
     equals(value: unknown): boolean;
@@ -759,8 +878,15 @@ export class UnicodeEncoding$instance extends Encoding$instance {
     getString(bytes: ptr<byte>, byteCount: int): string;
     getString(bytes: ReadOnlySpan_1<CLROf<byte>>): string;
     getString(bytes: byte[]): string;
-    static readonly charSize: int;
 }
+
+
+export const UnicodeEncoding: {
+    new(): UnicodeEncoding$instance;
+    new(bigEndian: boolean, byteOrderMark: boolean): UnicodeEncoding$instance;
+    new(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidBytes: boolean): UnicodeEncoding$instance;
+    readonly charSize: int;
+};
 
 
 export interface __UnicodeEncoding$views {
@@ -770,10 +896,7 @@ export interface __UnicodeEncoding$views {
 export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views;
 
 
-export class UTF32Encoding$instance extends Encoding$instance {
-    constructor();
-    constructor(bigEndian: boolean, byteOrderMark: boolean);
-    constructor(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidCharacters: boolean);
+export interface UTF32Encoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
     clone(): unknown;
     equals(value: unknown): boolean;
@@ -813,6 +936,13 @@ export class UTF32Encoding$instance extends Encoding$instance {
 }
 
 
+export const UTF32Encoding: {
+    new(): UTF32Encoding$instance;
+    new(bigEndian: boolean, byteOrderMark: boolean): UTF32Encoding$instance;
+    new(bigEndian: boolean, byteOrderMark: boolean, throwOnInvalidCharacters: boolean): UTF32Encoding$instance;
+};
+
+
 export interface __UTF32Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
@@ -820,9 +950,7 @@ export interface __UTF32Encoding$views {
 export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 
-export class UTF7Encoding$instance extends Encoding$instance {
-    constructor();
-    constructor(allowOptionals: boolean);
+export interface UTF7Encoding$instance extends Encoding$instance {
     clone(): unknown;
     equals(value: unknown): boolean;
     getByteCount(chars: char[], index: int, count: int): int;
@@ -860,6 +988,12 @@ export class UTF7Encoding$instance extends Encoding$instance {
 }
 
 
+export const UTF7Encoding: {
+    new(): UTF7Encoding$instance;
+    new(allowOptionals: boolean): UTF7Encoding$instance;
+};
+
+
 export interface __UTF7Encoding$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
@@ -867,10 +1001,7 @@ export interface __UTF7Encoding$views {
 export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 
 
-export class UTF8Encoding$instance extends Encoding$instance {
-    constructor();
-    constructor(encoderShouldEmitUTF8Identifier: boolean);
-    constructor(encoderShouldEmitUTF8Identifier: boolean, throwOnInvalidBytes: boolean);
+export interface UTF8Encoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<CLROf<byte>>;
     clone(): unknown;
     equals(value: unknown): boolean;
@@ -916,6 +1047,13 @@ export class UTF8Encoding$instance extends Encoding$instance {
     tryGetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     tryGetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
 }
+
+
+export const UTF8Encoding: {
+    new(): UTF8Encoding$instance;
+    new(encoderShouldEmitUTF8Identifier: boolean): UTF8Encoding$instance;
+    new(encoderShouldEmitUTF8Identifier: boolean, throwOnInvalidBytes: boolean): UTF8Encoding$instance;
+};
 
 
 export interface __UTF8Encoding$views {

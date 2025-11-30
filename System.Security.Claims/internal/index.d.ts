@@ -38,14 +38,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class Claim$instance {
-    constructor(reader: BinaryReader);
-    constructor(reader: BinaryReader, subject: ClaimsIdentity);
-    constructor(type_: string, value: string);
-    constructor(type_: string, value: string, valueType: string);
-    constructor(type_: string, value: string, valueType: string, issuer: string);
-    constructor(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string);
-    constructor(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity);
+export interface Claim$instance {
     readonly issuer: string;
     readonly originalIssuer: string;
     readonly properties: IDictionary_2<CLROf<string>, CLROf<string>>;
@@ -60,21 +53,20 @@ export class Claim$instance {
 }
 
 
+export const Claim: {
+    new(reader: BinaryReader): Claim$instance;
+    new(reader: BinaryReader, subject: ClaimsIdentity): Claim$instance;
+    new(type_: string, value: string): Claim$instance;
+    new(type_: string, value: string, valueType: string): Claim$instance;
+    new(type_: string, value: string, valueType: string, issuer: string): Claim$instance;
+    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim$instance;
+    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim$instance;
+};
+
+
 export type Claim = Claim$instance;
 
-export class ClaimsIdentity$instance {
-    constructor();
-    constructor(identity: IIdentity);
-    constructor(claims: IEnumerable_1<Claim>);
-    constructor(authenticationType: string);
-    constructor(claims: IEnumerable_1<Claim>, authenticationType: string);
-    constructor(identity: IIdentity, claims: IEnumerable_1<Claim>);
-    constructor(authenticationType: string, nameType: string, roleType: string);
-    constructor(claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string);
-    constructor(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string);
-    constructor(reader: BinaryReader);
-    constructor(reader: BinaryReader, stringComparison: StringComparison);
-    constructor(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison);
+export interface ClaimsIdentity$instance {
     actor: ClaimsIdentity;
     readonly authenticationType: string;
     bootstrapContext: unknown;
@@ -96,10 +88,26 @@ export class ClaimsIdentity$instance {
     removeClaim(claim: Claim): void;
     tryRemoveClaim(claim: Claim): boolean;
     writeTo(writer: BinaryWriter): void;
-    static readonly defaultIssuer: string;
-    static readonly defaultNameClaimType: string;
-    static readonly defaultRoleClaimType: string;
 }
+
+
+export const ClaimsIdentity: {
+    new(): ClaimsIdentity$instance;
+    new(identity: IIdentity): ClaimsIdentity$instance;
+    new(claims: IEnumerable_1<Claim>): ClaimsIdentity$instance;
+    new(authenticationType: string): ClaimsIdentity$instance;
+    new(claims: IEnumerable_1<Claim>, authenticationType: string): ClaimsIdentity$instance;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>): ClaimsIdentity$instance;
+    new(authenticationType: string, nameType: string, roleType: string): ClaimsIdentity$instance;
+    new(claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity$instance;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity$instance;
+    new(reader: BinaryReader): ClaimsIdentity$instance;
+    new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity$instance;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity$instance;
+    readonly defaultIssuer: string;
+    readonly defaultNameClaimType: string;
+    readonly defaultRoleClaimType: string;
+};
 
 
 export interface __ClaimsIdentity$views {
@@ -111,12 +119,7 @@ export interface ClaimsIdentity$instance extends System_Security_Principal_Inter
 export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
 
-export class ClaimsPrincipal$instance {
-    constructor();
-    constructor(identities: IEnumerable_1<ClaimsIdentity>);
-    constructor(identity: IIdentity);
-    constructor(principal: IPrincipal);
-    constructor(reader: BinaryReader);
+export interface ClaimsPrincipal$instance {
     readonly claims: IEnumerable_1<Claim>;
     readonly identities: IEnumerable_1<ClaimsIdentity>;
     readonly identity: IIdentity;
@@ -131,10 +134,19 @@ export class ClaimsPrincipal$instance {
     hasClaim(type_: string, value: string): boolean;
     isInRole(role: string): boolean;
     writeTo(writer: BinaryWriter): void;
-    static primaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity>;
-    static claimsPrincipalSelector: Func_1<ClaimsPrincipal>;
-    static readonly current: ClaimsPrincipal;
 }
+
+
+export const ClaimsPrincipal: {
+    new(): ClaimsPrincipal$instance;
+    new(identities: IEnumerable_1<ClaimsIdentity>): ClaimsPrincipal$instance;
+    new(identity: IIdentity): ClaimsPrincipal$instance;
+    new(principal: IPrincipal): ClaimsPrincipal$instance;
+    new(reader: BinaryReader): ClaimsPrincipal$instance;
+    primaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity>;
+    claimsPrincipalSelector: Func_1<ClaimsPrincipal>;
+    readonly current: ClaimsPrincipal;
+};
 
 
 export interface __ClaimsPrincipal$views {

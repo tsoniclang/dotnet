@@ -34,29 +34,42 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class ExceptionDispatchInfo$instance {
+export interface ExceptionDispatchInfo$instance {
     readonly sourceException: Exception;
     throw_(): void;
-    static capture(source: Exception): ExceptionDispatchInfo;
-    static setCurrentStackTrace(source: Exception): Exception;
-    static setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    static throw_(source: Exception): void;
 }
+
+
+export const ExceptionDispatchInfo: {
+    new(): ExceptionDispatchInfo$instance;
+    capture(source: Exception): ExceptionDispatchInfo;
+    setCurrentStackTrace(source: Exception): Exception;
+    setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
+    throw_(source: Exception): void;
+};
 
 
 export type ExceptionDispatchInfo = ExceptionDispatchInfo$instance;
 
-export class FirstChanceExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(exception: Exception);
+export interface FirstChanceExceptionEventArgs$instance extends EventArgs {
     readonly exception: Exception;
 }
 
 
+export const FirstChanceExceptionEventArgs: {
+    new(exception: Exception): FirstChanceExceptionEventArgs$instance;
+};
+
+
 export type FirstChanceExceptionEventArgs = FirstChanceExceptionEventArgs$instance;
 
-export class HandleProcessCorruptedStateExceptionsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface HandleProcessCorruptedStateExceptionsAttribute$instance extends Attribute {
 }
+
+
+export const HandleProcessCorruptedStateExceptionsAttribute: {
+    new(): HandleProcessCorruptedStateExceptionsAttribute$instance;
+};
 
 
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;

@@ -135,161 +135,237 @@ export interface IJsonOnSerializing$instance {
 
 export type IJsonOnSerializing = IJsonOnSerializing$instance;
 
-export abstract class JsonAttribute$instance extends System_Internal.Attribute$instance {
+export interface JsonAttribute$instance extends Attribute {
 }
+
+
+export const JsonAttribute: {
+};
 
 
 export type JsonAttribute = JsonAttribute$instance;
 
-export class JsonConstructorAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonConstructorAttribute$instance extends JsonAttribute {
 }
+
+
+export const JsonConstructorAttribute: {
+    new(): JsonConstructorAttribute$instance;
+};
 
 
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
-export abstract class JsonConverter$instance {
+export interface JsonConverter$instance {
     readonly type_: Type;
-    abstract canConvert(typeToConvert: Type): boolean;
+    canConvert(typeToConvert: Type): boolean;
 }
+
+
+export const JsonConverter: {
+};
 
 
 export type JsonConverter = JsonConverter$instance;
 
-export abstract class JsonConverter_1$instance<T> extends JsonConverter$instance {
+export interface JsonConverter_1$instance<T> extends JsonConverter {
     readonly handleNull: boolean;
     readonly type_: Type;
     canConvert(typeToConvert: Type): boolean;
-    abstract read(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
+    read(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
     readAsPropertyName(reader: { value: ref<Utf8JsonReader> }, typeToConvert: Type, options: JsonSerializerOptions): T;
-    abstract write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
+    write(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
     writeAsPropertyName(writer: Utf8JsonWriter, value: T, options: JsonSerializerOptions): void;
 }
 
 
+export const JsonConverter_1: {
+};
+
+
 export type JsonConverter_1<T> = JsonConverter_1$instance<T>;
 
-export class JsonConverterAttribute$instance extends JsonAttribute$instance {
-    constructor(converterType: Type);
+export interface JsonConverterAttribute$instance extends JsonAttribute {
     readonly converterType: Type;
     createConverter(typeToConvert: Type): JsonConverter;
 }
 
 
+export const JsonConverterAttribute: {
+    new(converterType: Type): JsonConverterAttribute$instance;
+};
+
+
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
-export abstract class JsonConverterFactory$instance extends JsonConverter$instance {
+export interface JsonConverterFactory$instance extends JsonConverter {
     readonly type_: Type;
-    abstract createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
+    createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
+
+
+export const JsonConverterFactory: {
+};
 
 
 export type JsonConverterFactory = JsonConverterFactory$instance;
 
-export class JsonDerivedTypeAttribute$instance extends JsonAttribute$instance {
-    constructor(derivedType: Type);
-    constructor(derivedType: Type, typeDiscriminator: string);
-    constructor(derivedType: Type, typeDiscriminator: int);
+export interface JsonDerivedTypeAttribute$instance extends JsonAttribute {
     readonly derivedType: Type;
     readonly typeDiscriminator: unknown;
 }
 
 
+export const JsonDerivedTypeAttribute: {
+    new(derivedType: Type): JsonDerivedTypeAttribute$instance;
+    new(derivedType: Type, typeDiscriminator: string): JsonDerivedTypeAttribute$instance;
+    new(derivedType: Type, typeDiscriminator: int): JsonDerivedTypeAttribute$instance;
+};
+
+
 export type JsonDerivedTypeAttribute = JsonDerivedTypeAttribute$instance;
 
-export class JsonExtensionDataAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonExtensionDataAttribute$instance extends JsonAttribute {
 }
+
+
+export const JsonExtensionDataAttribute: {
+    new(): JsonExtensionDataAttribute$instance;
+};
 
 
 export type JsonExtensionDataAttribute = JsonExtensionDataAttribute$instance;
 
-export class JsonIgnoreAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonIgnoreAttribute$instance extends JsonAttribute {
     condition: JsonIgnoreCondition;
 }
 
 
+export const JsonIgnoreAttribute: {
+    new(): JsonIgnoreAttribute$instance;
+};
+
+
 export type JsonIgnoreAttribute = JsonIgnoreAttribute$instance;
 
-export class JsonIncludeAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonIncludeAttribute$instance extends JsonAttribute {
 }
+
+
+export const JsonIncludeAttribute: {
+    new(): JsonIncludeAttribute$instance;
+};
 
 
 export type JsonIncludeAttribute = JsonIncludeAttribute$instance;
 
-export class JsonNumberEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory$instance {
-    constructor();
+export interface JsonNumberEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
     canConvert(typeToConvert: Type): boolean;
     createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
+export const JsonNumberEnumConverter_1: {
+    new<TEnum extends number>(): JsonNumberEnumConverter_1$instance<TEnum>;
+};
+
+
 export type JsonNumberEnumConverter_1<TEnum extends number> = JsonNumberEnumConverter_1$instance<TEnum>;
 
-export class JsonNumberHandlingAttribute$instance extends JsonAttribute$instance {
-    constructor(handling: JsonNumberHandling);
+export interface JsonNumberHandlingAttribute$instance extends JsonAttribute {
     readonly handling: JsonNumberHandling;
 }
 
 
+export const JsonNumberHandlingAttribute: {
+    new(handling: JsonNumberHandling): JsonNumberHandlingAttribute$instance;
+};
+
+
 export type JsonNumberHandlingAttribute = JsonNumberHandlingAttribute$instance;
 
-export class JsonObjectCreationHandlingAttribute$instance extends JsonAttribute$instance {
-    constructor(handling: JsonObjectCreationHandling);
+export interface JsonObjectCreationHandlingAttribute$instance extends JsonAttribute {
     readonly handling: JsonObjectCreationHandling;
 }
 
 
+export const JsonObjectCreationHandlingAttribute: {
+    new(handling: JsonObjectCreationHandling): JsonObjectCreationHandlingAttribute$instance;
+};
+
+
 export type JsonObjectCreationHandlingAttribute = JsonObjectCreationHandlingAttribute$instance;
 
-export class JsonPolymorphicAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonPolymorphicAttribute$instance extends JsonAttribute {
     ignoreUnrecognizedTypeDiscriminators: boolean;
     typeDiscriminatorPropertyName: string;
     unknownDerivedTypeHandling: JsonUnknownDerivedTypeHandling;
 }
 
 
+export const JsonPolymorphicAttribute: {
+    new(): JsonPolymorphicAttribute$instance;
+};
+
+
 export type JsonPolymorphicAttribute = JsonPolymorphicAttribute$instance;
 
-export class JsonPropertyNameAttribute$instance extends JsonAttribute$instance {
-    constructor(name: string);
+export interface JsonPropertyNameAttribute$instance extends JsonAttribute {
     readonly name: string;
 }
 
 
+export const JsonPropertyNameAttribute: {
+    new(name: string): JsonPropertyNameAttribute$instance;
+};
+
+
 export type JsonPropertyNameAttribute = JsonPropertyNameAttribute$instance;
 
-export class JsonPropertyOrderAttribute$instance extends JsonAttribute$instance {
-    constructor(order: int);
+export interface JsonPropertyOrderAttribute$instance extends JsonAttribute {
     readonly order: int;
 }
 
 
+export const JsonPropertyOrderAttribute: {
+    new(order: int): JsonPropertyOrderAttribute$instance;
+};
+
+
 export type JsonPropertyOrderAttribute = JsonPropertyOrderAttribute$instance;
 
-export class JsonRequiredAttribute$instance extends JsonAttribute$instance {
-    constructor();
+export interface JsonRequiredAttribute$instance extends JsonAttribute {
 }
+
+
+export const JsonRequiredAttribute: {
+    new(): JsonRequiredAttribute$instance;
+};
 
 
 export type JsonRequiredAttribute = JsonRequiredAttribute$instance;
 
-export class JsonSerializableAttribute$instance extends JsonAttribute$instance {
-    constructor(type_: Type);
+export interface JsonSerializableAttribute$instance extends JsonAttribute {
     generationMode: JsonSourceGenerationMode;
     typeInfoPropertyName: string;
 }
 
 
+export const JsonSerializableAttribute: {
+    new(type_: Type): JsonSerializableAttribute$instance;
+};
+
+
 export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
-export abstract class JsonSerializerContext$instance {
+export interface JsonSerializerContext$instance {
     readonly options: JsonSerializerOptions;
-    abstract getTypeInfo(type_: Type): JsonTypeInfo;
+    getTypeInfo(type_: Type): JsonTypeInfo;
 }
+
+
+export const JsonSerializerContext: {
+};
 
 
 export interface __JsonSerializerContext$views {
@@ -299,9 +375,7 @@ export interface __JsonSerializerContext$views {
 export type JsonSerializerContext = JsonSerializerContext$instance & __JsonSerializerContext$views;
 
 
-export class JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute$instance {
-    constructor();
-    constructor(defaults: JsonSerializerDefaults);
+export interface JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute {
     allowDuplicateProperties: boolean;
     allowOutOfOrderMetadataProperties: boolean;
     allowTrailingCommas: boolean;
@@ -332,66 +406,100 @@ export class JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute
 }
 
 
+export const JsonSourceGenerationOptionsAttribute: {
+    new(): JsonSourceGenerationOptionsAttribute$instance;
+    new(defaults: JsonSerializerDefaults): JsonSourceGenerationOptionsAttribute$instance;
+};
+
+
 export type JsonSourceGenerationOptionsAttribute = JsonSourceGenerationOptionsAttribute$instance;
 
-export class JsonStringEnumConverter$instance extends JsonConverterFactory$instance {
-    constructor();
-    constructor(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean);
+export interface JsonStringEnumConverter$instance extends JsonConverterFactory {
     canConvert(typeToConvert: Type): boolean;
     createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
+
+
+export const JsonStringEnumConverter: {
+    new(): JsonStringEnumConverter$instance;
+    new(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean): JsonStringEnumConverter$instance;
+};
 
 
 export type JsonStringEnumConverter = JsonStringEnumConverter$instance;
 
-export class JsonStringEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory$instance {
-    constructor();
-    constructor(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean);
+export interface JsonStringEnumConverter_1$instance<TEnum extends number> extends JsonConverterFactory {
     canConvert(typeToConvert: Type): boolean;
     createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter;
 }
 
 
+export const JsonStringEnumConverter_1: {
+    new<TEnum extends number>(): JsonStringEnumConverter_1$instance<TEnum>;
+    new<TEnum extends number>(namingPolicy: JsonNamingPolicy, allowIntegerValues: boolean): JsonStringEnumConverter_1$instance<TEnum>;
+};
+
+
 export type JsonStringEnumConverter_1<TEnum extends number> = JsonStringEnumConverter_1$instance<TEnum>;
 
-export class JsonStringEnumMemberNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface JsonStringEnumMemberNameAttribute$instance extends Attribute {
     readonly name: string;
 }
 
 
+export const JsonStringEnumMemberNameAttribute: {
+    new(name: string): JsonStringEnumMemberNameAttribute$instance;
+};
+
+
 export type JsonStringEnumMemberNameAttribute = JsonStringEnumMemberNameAttribute$instance;
 
-export class JsonUnmappedMemberHandlingAttribute$instance extends JsonAttribute$instance {
-    constructor(unmappedMemberHandling: JsonUnmappedMemberHandling);
+export interface JsonUnmappedMemberHandlingAttribute$instance extends JsonAttribute {
     readonly unmappedMemberHandling: JsonUnmappedMemberHandling;
 }
 
 
+export const JsonUnmappedMemberHandlingAttribute: {
+    new(unmappedMemberHandling: JsonUnmappedMemberHandling): JsonUnmappedMemberHandlingAttribute$instance;
+};
+
+
 export type JsonUnmappedMemberHandlingAttribute = JsonUnmappedMemberHandlingAttribute$instance;
 
-export abstract class ReferenceHandler$instance {
-    abstract createResolver(): ReferenceResolver;
-    static readonly preserve: ReferenceHandler;
-    static readonly ignoreCycles: ReferenceHandler;
-}
-
-
-export type ReferenceHandler = ReferenceHandler$instance;
-
-export class ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler$instance {
-    constructor();
+export interface ReferenceHandler$instance {
     createResolver(): ReferenceResolver;
 }
 
 
+export const ReferenceHandler: {
+    readonly preserve: ReferenceHandler;
+    readonly ignoreCycles: ReferenceHandler;
+};
+
+
+export type ReferenceHandler = ReferenceHandler$instance;
+
+export interface ReferenceHandler_1$instance<T extends ReferenceResolver> extends ReferenceHandler {
+    createResolver(): ReferenceResolver;
+}
+
+
+export const ReferenceHandler_1: {
+    new<T extends ReferenceResolver>(): ReferenceHandler_1$instance<T>;
+};
+
+
 export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
-export abstract class ReferenceResolver$instance {
-    abstract addReference(referenceId: string, value: unknown): void;
-    abstract getReference(value: unknown, alreadyExists: { value: ref<boolean> }): string;
-    abstract resolveReference(referenceId: string): unknown;
+export interface ReferenceResolver$instance {
+    addReference(referenceId: string, value: unknown): void;
+    getReference(value: unknown, alreadyExists: { value: ref<boolean> }): string;
+    resolveReference(referenceId: string): unknown;
 }
+
+
+export const ReferenceResolver: {
+};
 
 
 export type ReferenceResolver = ReferenceResolver$instance;

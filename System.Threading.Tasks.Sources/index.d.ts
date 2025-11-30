@@ -16,5 +16,5 @@ export { ValueTaskSourceStatus as ValueTaskSourceStatus } from './internal/index
 export type IValueTaskSource_0 = Internal.IValueTaskSource;
 export type IValueTaskSource_1<TResult> = Internal.IValueTaskSource_1<TResult>;
 export type IValueTaskSource<TResult> = Internal.IValueTaskSource_1<TResult>;
-export { ManualResetValueTaskSourceCore_1$instance as ManualResetValueTaskSourceCore_1 } from './internal/index.js';
-export { ManualResetValueTaskSourceCore_1$instance as ManualResetValueTaskSourceCore } from './internal/index.js';
+export { ManualResetValueTaskSourceCore_1 as ManualResetValueTaskSourceCore_1 } from './internal/index.js';
+export { ManualResetValueTaskSourceCore_1 as ManualResetValueTaskSourceCore } from './internal/index.js';

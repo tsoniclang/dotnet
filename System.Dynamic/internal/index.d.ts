@@ -61,7 +61,7 @@ export interface IInvokeOnGetBinder$instance {
 
 export type IInvokeOnGetBinder = IInvokeOnGetBinder$instance;
 
-export abstract class BinaryOperationBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface BinaryOperationBinder$instance extends DynamicMetaObjectBinder {
     readonly operation: ExpressionType;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -71,24 +71,30 @@ export abstract class BinaryOperationBinder$instance extends DynamicMetaObjectBi
 }
 
 
+export const BinaryOperationBinder: {
+};
+
+
 export type BinaryOperationBinder = BinaryOperationBinder$instance;
 
-export abstract class BindingRestrictions$instance {
+export interface BindingRestrictions$instance {
     merge(restrictions: BindingRestrictions): BindingRestrictions;
     toExpression(): Expression;
-    static readonly empty: BindingRestrictions;
-    static combine(contributingObjects: IList_1<DynamicMetaObject>): BindingRestrictions;
-    static getExpressionRestriction(expression: Expression): BindingRestrictions;
-    static getInstanceRestriction(expression: Expression, instance: unknown): BindingRestrictions;
-    static getTypeRestriction(expression: Expression, type_: Type): BindingRestrictions;
 }
+
+
+export const BindingRestrictions: {
+    readonly empty: BindingRestrictions;
+    combine(contributingObjects: IList_1<DynamicMetaObject>): BindingRestrictions;
+    getExpressionRestriction(expression: Expression): BindingRestrictions;
+    getInstanceRestriction(expression: Expression, instance: unknown): BindingRestrictions;
+    getTypeRestriction(expression: Expression, type_: Type): BindingRestrictions;
+};
 
 
 export type BindingRestrictions = BindingRestrictions$instance;
 
-export class CallInfo$instance {
-    constructor(argCount: int, argNames: string[]);
-    constructor(argCount: int, argNames: IEnumerable_1<CLROf<string>>);
+export interface CallInfo$instance {
     readonly argumentCount: int;
     readonly argumentNames: ReadOnlyCollection_1<CLROf<string>>;
     equals(obj: unknown): boolean;
@@ -96,9 +102,15 @@ export class CallInfo$instance {
 }
 
 
+export const CallInfo: {
+    new(argCount: int, argNames: string[]): CallInfo$instance;
+    new(argCount: int, argNames: IEnumerable_1<CLROf<string>>): CallInfo$instance;
+};
+
+
 export type CallInfo = CallInfo$instance;
 
-export abstract class ConvertBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface ConvertBinder$instance extends DynamicMetaObjectBinder {
     readonly explicit: boolean;
     readonly returnType: Type;
     readonly type_: Type;
@@ -109,9 +121,13 @@ export abstract class ConvertBinder$instance extends DynamicMetaObjectBinder$ins
 }
 
 
+export const ConvertBinder: {
+};
+
+
 export type ConvertBinder = ConvertBinder$instance;
 
-export abstract class CreateInstanceBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface CreateInstanceBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -121,9 +137,13 @@ export abstract class CreateInstanceBinder$instance extends DynamicMetaObjectBin
 }
 
 
+export const CreateInstanceBinder: {
+};
+
+
 export type CreateInstanceBinder = CreateInstanceBinder$instance;
 
-export abstract class DeleteIndexBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface DeleteIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -133,9 +153,13 @@ export abstract class DeleteIndexBinder$instance extends DynamicMetaObjectBinder
 }
 
 
+export const DeleteIndexBinder: {
+};
+
+
 export type DeleteIndexBinder = DeleteIndexBinder$instance;
 
-export abstract class DeleteMemberBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface DeleteMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly ignoreCase: boolean;
     readonly name: string;
     readonly returnType: Type;
@@ -146,11 +170,13 @@ export abstract class DeleteMemberBinder$instance extends DynamicMetaObjectBinde
 }
 
 
+export const DeleteMemberBinder: {
+};
+
+
 export type DeleteMemberBinder = DeleteMemberBinder$instance;
 
-export class DynamicMetaObject$instance {
-    constructor(expression: Expression, restrictions: BindingRestrictions);
-    constructor(expression: Expression, restrictions: BindingRestrictions, value: unknown);
+export interface DynamicMetaObject$instance {
     readonly expression: Expression;
     readonly hasValue: boolean;
     readonly limitType: Type;
@@ -170,14 +196,20 @@ export class DynamicMetaObject$instance {
     bindSetMember(binder: SetMemberBinder, value: DynamicMetaObject): DynamicMetaObject;
     bindUnaryOperation(binder: UnaryOperationBinder): DynamicMetaObject;
     getDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
-    static readonly emptyMetaObjects: DynamicMetaObject[];
-    static create(value: unknown, expression: Expression): DynamicMetaObject;
 }
+
+
+export const DynamicMetaObject: {
+    new(expression: Expression, restrictions: BindingRestrictions): DynamicMetaObject$instance;
+    new(expression: Expression, restrictions: BindingRestrictions, value: unknown): DynamicMetaObject$instance;
+    readonly emptyMetaObjects: DynamicMetaObject[];
+    create(value: unknown, expression: Expression): DynamicMetaObject;
+};
 
 
 export type DynamicMetaObject = DynamicMetaObject$instance;
 
-export abstract class DynamicMetaObjectBinder$instance extends System_Runtime_CompilerServices_Internal.CallSiteBinder$instance {
+export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
     readonly returnType: Type;
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -188,9 +220,13 @@ export abstract class DynamicMetaObjectBinder$instance extends System_Runtime_Co
 }
 
 
+export const DynamicMetaObjectBinder: {
+};
+
+
 export type DynamicMetaObjectBinder = DynamicMetaObjectBinder$instance;
 
-export class DynamicObject$instance {
+export interface DynamicObject$instance {
     getDynamicMemberNames(): IEnumerable_1<CLROf<string>>;
     getMetaObject(parameter: Expression): DynamicMetaObject;
     tryBinaryOperation(binder: BinaryOperationBinder, arg: unknown, result: { value: ref<unknown> }): boolean;
@@ -208,6 +244,11 @@ export class DynamicObject$instance {
 }
 
 
+export const DynamicObject: {
+    new(): DynamicObject$instance;
+};
+
+
 export interface __DynamicObject$views {
     As_IDynamicMetaObjectProvider(): IDynamicMetaObjectProvider$instance;
 }
@@ -217,9 +258,13 @@ export interface DynamicObject$instance extends IDynamicMetaObjectProvider$insta
 export type DynamicObject = DynamicObject$instance & __DynamicObject$views;
 
 
-export class ExpandoObject$instance implements System_ComponentModel_Internal.INotifyPropertyChanged$instance {
-    constructor();
+export interface ExpandoObject$instance extends INotifyPropertyChanged {
 }
+
+
+export const ExpandoObject: {
+    new(): ExpandoObject$instance;
+};
 
 
 export interface __ExpandoObject$views {
@@ -235,7 +280,7 @@ export interface ExpandoObject$instance extends System_Collections_Generic_Inter
 export type ExpandoObject = ExpandoObject$instance & __ExpandoObject$views;
 
 
-export abstract class GetIndexBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface GetIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -245,9 +290,13 @@ export abstract class GetIndexBinder$instance extends DynamicMetaObjectBinder$in
 }
 
 
+export const GetIndexBinder: {
+};
+
+
 export type GetIndexBinder = GetIndexBinder$instance;
 
-export abstract class GetMemberBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface GetMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly ignoreCase: boolean;
     readonly name: string;
     readonly returnType: Type;
@@ -258,9 +307,13 @@ export abstract class GetMemberBinder$instance extends DynamicMetaObjectBinder$i
 }
 
 
+export const GetMemberBinder: {
+};
+
+
 export type GetMemberBinder = GetMemberBinder$instance;
 
-export abstract class InvokeBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface InvokeBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -270,24 +323,32 @@ export abstract class InvokeBinder$instance extends DynamicMetaObjectBinder$inst
 }
 
 
+export const InvokeBinder: {
+};
+
+
 export type InvokeBinder = InvokeBinder$instance;
 
-export abstract class InvokeMemberBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface InvokeMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly ignoreCase: boolean;
     readonly name: string;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    abstract fallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
+    fallbackInvoke(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
     fallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
     fallbackInvokeMember(target: DynamicMetaObject, args: DynamicMetaObject[], errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
 
 
+export const InvokeMemberBinder: {
+};
+
+
 export type InvokeMemberBinder = InvokeMemberBinder$instance;
 
-export abstract class SetIndexBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface SetIndexBinder$instance extends DynamicMetaObjectBinder {
     readonly callInfo: CallInfo;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -297,9 +358,13 @@ export abstract class SetIndexBinder$instance extends DynamicMetaObjectBinder$in
 }
 
 
+export const SetIndexBinder: {
+};
+
+
 export type SetIndexBinder = SetIndexBinder$instance;
 
-export abstract class SetMemberBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface SetMemberBinder$instance extends DynamicMetaObjectBinder {
     readonly ignoreCase: boolean;
     readonly name: string;
     readonly returnType: Type;
@@ -310,9 +375,13 @@ export abstract class SetMemberBinder$instance extends DynamicMetaObjectBinder$i
 }
 
 
+export const SetMemberBinder: {
+};
+
+
 export type SetMemberBinder = SetMemberBinder$instance;
 
-export abstract class UnaryOperationBinder$instance extends DynamicMetaObjectBinder$instance {
+export interface UnaryOperationBinder$instance extends DynamicMetaObjectBinder {
     readonly operation: ExpressionType;
     readonly returnType: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
@@ -320,6 +389,10 @@ export abstract class UnaryOperationBinder$instance extends DynamicMetaObjectBin
     fallbackUnaryOperation(target: DynamicMetaObject): DynamicMetaObject;
     fallbackUnaryOperation(target: DynamicMetaObject, errorSuggestion: DynamicMetaObject): DynamicMetaObject;
 }
+
+
+export const UnaryOperationBinder: {
+};
 
 
 export type UnaryOperationBinder = UnaryOperationBinder$instance;

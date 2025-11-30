@@ -44,39 +44,43 @@ export interface IHtmlString$instance {
 
 export type IHtmlString = IHtmlString$instance;
 
-export class HttpUtility$instance {
-    constructor();
-    static htmlAttributeEncode(s: string, output: TextWriter): void;
-    static htmlAttributeEncode(s: string): string;
-    static htmlDecode(s: string, output: TextWriter): void;
-    static htmlDecode(s: string): string;
-    static htmlEncode(value: unknown): string;
-    static htmlEncode(s: string, output: TextWriter): void;
-    static htmlEncode(s: string): string;
-    static javaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
-    static javaScriptStringEncode(value: string): string;
-    static parseQueryString(query: string, encoding: Encoding): NameValueCollection;
-    static parseQueryString(query: string): NameValueCollection;
-    static urlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string;
-    static urlDecode(bytes: byte[], e: Encoding): string;
-    static urlDecode(str: string, e: Encoding): string;
-    static urlDecode(str: string): string;
-    static urlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[];
-    static urlDecodeToBytes(bytes: byte[]): byte[];
-    static urlDecodeToBytes(str: string, e: Encoding): byte[];
-    static urlDecodeToBytes(str: string): byte[];
-    static urlEncode(bytes: byte[], offset: int, count: int): string;
-    static urlEncode(bytes: byte[]): string;
-    static urlEncode(str: string, e: Encoding): string;
-    static urlEncode(str: string): string;
-    static urlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[];
-    static urlEncodeToBytes(bytes: byte[]): byte[];
-    static urlEncodeToBytes(str: string, e: Encoding): byte[];
-    static urlEncodeToBytes(str: string): byte[];
-    static urlEncodeUnicode(str: string): string;
-    static urlEncodeUnicodeToBytes(str: string): byte[];
-    static urlPathEncode(str: string): string;
+export interface HttpUtility$instance {
 }
+
+
+export const HttpUtility: {
+    new(): HttpUtility$instance;
+    htmlAttributeEncode(s: string, output: TextWriter): void;
+    htmlAttributeEncode(s: string): string;
+    htmlDecode(s: string, output: TextWriter): void;
+    htmlDecode(s: string): string;
+    htmlEncode(value: unknown): string;
+    htmlEncode(s: string, output: TextWriter): void;
+    htmlEncode(s: string): string;
+    javaScriptStringEncode(value: string, addDoubleQuotes: boolean): string;
+    javaScriptStringEncode(value: string): string;
+    parseQueryString(query: string, encoding: Encoding): NameValueCollection;
+    parseQueryString(query: string): NameValueCollection;
+    urlDecode(bytes: byte[], offset: int, count: int, e: Encoding): string;
+    urlDecode(bytes: byte[], e: Encoding): string;
+    urlDecode(str: string, e: Encoding): string;
+    urlDecode(str: string): string;
+    urlDecodeToBytes(bytes: byte[], offset: int, count: int): byte[];
+    urlDecodeToBytes(bytes: byte[]): byte[];
+    urlDecodeToBytes(str: string, e: Encoding): byte[];
+    urlDecodeToBytes(str: string): byte[];
+    urlEncode(bytes: byte[], offset: int, count: int): string;
+    urlEncode(bytes: byte[]): string;
+    urlEncode(str: string, e: Encoding): string;
+    urlEncode(str: string): string;
+    urlEncodeToBytes(bytes: byte[], offset: int, count: int): byte[];
+    urlEncodeToBytes(bytes: byte[]): byte[];
+    urlEncodeToBytes(str: string, e: Encoding): byte[];
+    urlEncodeToBytes(str: string): byte[];
+    urlEncodeUnicode(str: string): string;
+    urlEncodeUnicodeToBytes(str: string): byte[];
+    urlPathEncode(str: string): string;
+};
 
 
 export type HttpUtility = HttpUtility$instance;

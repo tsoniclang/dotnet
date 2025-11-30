@@ -336,6 +336,30 @@ export enum XmlWriteMode {
 }
 
 
+export type DataColumnChangeEventHandler = (sender: unknown, e: DataColumnChangeEventArgs) => void;
+
+
+export type DataRowChangeEventHandler = (sender: unknown, e: DataRowChangeEventArgs) => void;
+
+
+export type DataTableClearEventHandler = (sender: unknown, e: DataTableClearEventArgs) => void;
+
+
+export type DataTableNewRowEventHandler = (sender: unknown, e: DataTableNewRowEventArgs) => void;
+
+
+export type FillErrorEventHandler = (sender: unknown, e: FillErrorEventArgs) => void;
+
+
+export type MergeFailedEventHandler = (sender: unknown, e: MergeFailedEventArgs) => void;
+
+
+export type StateChangeEventHandler = (sender: unknown, e: StateChangeEventArgs) => void;
+
+
+export type StatementCompletedEventHandler = (sender: unknown, e: StatementCompletedEventArgs) => void;
+
+
 export interface IColumnMapping$instance {
     dataSetColumn: string;
     sourceColumn: string;
@@ -609,7 +633,7 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
 
 export type ITableMappingCollection = ITableMappingCollection$instance;
 
-export abstract class Constraint$instance {
+export interface Constraint$instance {
     constraintName: string;
     readonly extendedProperties: PropertyCollection;
     readonly table: DataTable;
@@ -617,9 +641,13 @@ export abstract class Constraint$instance {
 }
 
 
+export const Constraint: {
+};
+
+
 export type Constraint = Constraint$instance;
 
-export class ConstraintCollection$instance extends InternalDataCollectionBase$instance {
+export interface ConstraintCollection$instance extends InternalDataCollectionBase$instance {
     add(constraint: Constraint): void;
     add(name: string, columns: DataColumn[], primaryKey: boolean): Constraint;
     add(name: string, column: DataColumn, primaryKey: boolean): Constraint;
@@ -641,6 +669,11 @@ export class ConstraintCollection$instance extends InternalDataCollectionBase$in
 }
 
 
+export const ConstraintCollection: {
+    new(): ConstraintCollection$instance;
+};
+
+
 export interface __ConstraintCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -649,12 +682,16 @@ export interface __ConstraintCollection$views {
 export type ConstraintCollection = ConstraintCollection$instance & __ConstraintCollection$views;
 
 
-export class ConstraintException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface ConstraintException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ConstraintException: {
+    new(): ConstraintException$instance;
+    new(s: string): ConstraintException$instance;
+    new(message: string, innerException: Exception): ConstraintException$instance;
+};
 
 
 export interface __ConstraintException$views {
@@ -664,12 +701,7 @@ export interface __ConstraintException$views {
 export type ConstraintException = ConstraintException$instance & __ConstraintException$views;
 
 
-export class DataColumn$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
-    constructor();
-    constructor(columnName: string);
-    constructor(columnName: string, dataType: Type);
-    constructor(columnName: string, dataType: Type, expr: string);
-    constructor(columnName: string, dataType: Type, expr: string, type_: MappingType);
+export interface DataColumn$instance extends MarshalByValueComponent {
     allowDBNull: boolean;
     autoIncrement: boolean;
     autoIncrementSeed: long;
@@ -696,6 +728,15 @@ export class DataColumn$instance extends System_ComponentModel_Internal.MarshalB
 }
 
 
+export const DataColumn: {
+    new(): DataColumn$instance;
+    new(columnName: string): DataColumn$instance;
+    new(columnName: string, dataType: Type): DataColumn$instance;
+    new(columnName: string, dataType: Type, expr: string): DataColumn$instance;
+    new(columnName: string, dataType: Type, expr: string, type_: MappingType): DataColumn$instance;
+};
+
+
 export interface __DataColumn$views {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
@@ -707,35 +748,21 @@ export interface DataColumn$instance extends System_ComponentModel_Internal.ICom
 export type DataColumn = DataColumn$instance & __DataColumn$views;
 
 
-export class DataColumnChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(row: DataRow, column: DataColumn, value: unknown);
+export interface DataColumnChangeEventArgs$instance extends EventArgs {
     readonly column: DataColumn;
     proposedValue: unknown;
     readonly row: DataRow;
 }
 
 
+export const DataColumnChangeEventArgs: {
+    new(row: DataRow, column: DataColumn, value: unknown): DataColumnChangeEventArgs$instance;
+};
+
+
 export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
-export class DataColumnChangeEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DataColumnChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DataColumnChangeEventArgs): void;
-}
-
-
-export interface __DataColumnChangeEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DataColumnChangeEventHandler = DataColumnChangeEventHandler$instance & __DataColumnChangeEventHandler$views;
-
-
-export class DataColumnCollection$instance extends InternalDataCollectionBase$instance {
+export interface DataColumnCollection$instance extends InternalDataCollectionBase$instance {
     add(column: DataColumn): void;
     add(columnName: string, type_: Type, expression: string): DataColumn;
     add(columnName: string, type_: Type): DataColumn;
@@ -757,6 +784,11 @@ export class DataColumnCollection$instance extends InternalDataCollectionBase$in
 }
 
 
+export const DataColumnCollection: {
+    new(): DataColumnCollection$instance;
+};
+
+
 export interface __DataColumnCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -765,12 +797,16 @@ export interface __DataColumnCollection$views {
 export type DataColumnCollection = DataColumnCollection$instance & __DataColumnCollection$views;
 
 
-export class DataException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(s: string, innerException: Exception);
+export interface DataException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DataException: {
+    new(): DataException$instance;
+    new(s: string): DataException$instance;
+    new(s: string, innerException: Exception): DataException$instance;
+};
 
 
 export interface __DataException$views {
@@ -780,13 +816,7 @@ export interface __DataException$views {
 export type DataException = DataException$instance & __DataException$views;
 
 
-export class DataRelation$instance {
-    constructor(relationName: string, parentColumn: DataColumn, childColumn: DataColumn);
-    constructor(relationName: string, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean);
-    constructor(relationName: string, parentColumns: DataColumn[], childColumns: DataColumn[]);
-    constructor(relationName: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean);
-    constructor(relationName: string, parentTableName: string, childTableName: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean);
-    constructor(relationName: string, parentTableName: string, parentTableNamespace: string, childTableName: string, childTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean);
+export interface DataRelation$instance {
     readonly childColumns: DataColumn[];
     readonly childKeyConstraint: ForeignKeyConstraint;
     readonly childTable: DataTable;
@@ -801,9 +831,19 @@ export class DataRelation$instance {
 }
 
 
+export const DataRelation: {
+    new(relationName: string, parentColumn: DataColumn, childColumn: DataColumn): DataRelation$instance;
+    new(relationName: string, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation$instance;
+    new(relationName: string, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation$instance;
+    new(relationName: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation$instance;
+    new(relationName: string, parentTableName: string, childTableName: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean): DataRelation$instance;
+    new(relationName: string, parentTableName: string, parentTableNamespace: string, childTableName: string, childTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], nested: boolean): DataRelation$instance;
+};
+
+
 export type DataRelation = DataRelation$instance;
 
-export abstract class DataRelationCollection$instance extends InternalDataCollectionBase$instance {
+export interface DataRelationCollection$instance extends InternalDataCollectionBase$instance {
     add(relation: DataRelation): void;
     add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
     add(name: string, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation;
@@ -827,6 +867,10 @@ export abstract class DataRelationCollection$instance extends InternalDataCollec
 }
 
 
+export const DataRelationCollection: {
+};
+
+
 export interface __DataRelationCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -835,7 +879,7 @@ export interface __DataRelationCollection$views {
 export type DataRelationCollection = DataRelationCollection$instance & __DataRelationCollection$views;
 
 
-export class DataRow$instance {
+export interface DataRow$instance {
     readonly hasErrors: boolean;
     itemArray: unknown[];
     rowError: string;
@@ -888,42 +932,38 @@ export class DataRow$instance {
 }
 
 
+export const DataRow: {
+    new(): DataRow$instance;
+};
+
+
 export type DataRow = DataRow$instance;
 
-export class DataRowBuilder$instance {
+export interface DataRowBuilder$instance {
 }
+
+
+export const DataRowBuilder: {
+    new(): DataRowBuilder$instance;
+};
 
 
 export type DataRowBuilder = DataRowBuilder$instance;
 
-export class DataRowChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(row: DataRow, action: DataRowAction);
+export interface DataRowChangeEventArgs$instance extends EventArgs {
     readonly action: DataRowAction;
     readonly row: DataRow;
 }
 
 
+export const DataRowChangeEventArgs: {
+    new(row: DataRow, action: DataRowAction): DataRowChangeEventArgs$instance;
+};
+
+
 export type DataRowChangeEventArgs = DataRowChangeEventArgs$instance;
 
-export class DataRowChangeEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DataRowChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DataRowChangeEventArgs): void;
-}
-
-
-export interface __DataRowChangeEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DataRowChangeEventHandler = DataRowChangeEventHandler$instance & __DataRowChangeEventHandler$views;
-
-
-export class DataRowCollection$instance extends InternalDataCollectionBase$instance {
+export interface DataRowCollection$instance extends InternalDataCollectionBase$instance {
     readonly count: int;
     readonly item: DataRow;
     add(row: DataRow): void;
@@ -943,6 +983,11 @@ export class DataRowCollection$instance extends InternalDataCollectionBase$insta
 }
 
 
+export const DataRowCollection: {
+    new(): DataRowCollection$instance;
+};
+
+
 export interface __DataRowCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -951,11 +996,16 @@ export interface __DataRowCollection$views {
 export type DataRowCollection = DataRowCollection$instance & __DataRowCollection$views;
 
 
-export class DataRowComparer_1$instance<TRow extends DataRow> {
+export interface DataRowComparer_1$instance<TRow extends DataRow> {
     equals(leftRow: TRow, rightRow: TRow): boolean;
     getHashCode(row: TRow): int;
-    static readonly default_: unknown;
 }
+
+
+export const DataRowComparer_1: {
+    new<TRow extends DataRow>(): DataRowComparer_1$instance<TRow>;
+    readonly default_: unknown;
+};
 
 
 export interface __DataRowComparer_1$views<TRow extends DataRow> {
@@ -965,7 +1015,7 @@ export interface __DataRowComparer_1$views<TRow extends DataRow> {
 export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance<TRow> & __DataRowComparer_1$views<TRow>;
 
 
-export class DataRowView$instance implements System_ComponentModel_Internal.INotifyPropertyChanged$instance {
+export interface DataRowView$instance extends INotifyPropertyChanged {
     readonly dataView: DataView;
     readonly isEdit: boolean;
     readonly isNew: boolean;
@@ -988,6 +1038,11 @@ export class DataRowView$instance implements System_ComponentModel_Internal.INot
 }
 
 
+export const DataRowView: {
+    new(): DataRowView$instance;
+};
+
+
 export interface __DataRowView$views {
     As_IEditableObject(): System_ComponentModel_Internal.IEditableObject$instance;
     As_ICustomTypeDescriptor(): System_ComponentModel_Internal.ICustomTypeDescriptor$instance;
@@ -999,9 +1054,7 @@ export interface DataRowView$instance extends System_ComponentModel_Internal.ICu
 export type DataRowView = DataRowView$instance & __DataRowView$views;
 
 
-export class DataSet$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
-    constructor();
-    constructor(dataSetName: string);
+export interface DataSet$instance extends MarshalByValueComponent {
     caseSensitive: boolean;
     dataSetName: string;
     readonly defaultViewManager: DataViewManager;
@@ -1078,8 +1131,14 @@ export class DataSet$instance extends System_ComponentModel_Internal.MarshalByVa
     writeXmlSchema(writer: TextWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
     writeXmlSchema(writer: XmlWriter): void;
     writeXmlSchema(writer: XmlWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
-    static getDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
+
+
+export const DataSet: {
+    new(): DataSet$instance;
+    new(dataSetName: string): DataSet$instance;
+    getDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
+};
 
 
 export interface __DataSet$views {
@@ -1098,18 +1157,19 @@ export interface DataSet$instance extends System_ComponentModel_Internal.ICompon
 export type DataSet = DataSet$instance & __DataSet$views;
 
 
-export class DataSysDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
-    constructor(description: string);
+export interface DataSysDescriptionAttribute$instance extends DescriptionAttribute {
     readonly description: string;
 }
 
 
+export const DataSysDescriptionAttribute: {
+    new(description: string): DataSysDescriptionAttribute$instance;
+};
+
+
 export type DataSysDescriptionAttribute = DataSysDescriptionAttribute$instance;
 
-export class DataTable$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
-    constructor();
-    constructor(tableName: string);
-    constructor(tableName: string, tableNamespace: string);
+export interface DataTable$instance extends MarshalByValueComponent {
     caseSensitive: boolean;
     readonly childRelations: DataRelationCollection;
     readonly columns: DataColumnCollection;
@@ -1195,8 +1255,15 @@ export class DataTable$instance extends System_ComponentModel_Internal.MarshalBy
     writeXmlSchema(writer: XmlWriter, writeHierarchy: boolean): void;
     writeXmlSchema(fileName: string): void;
     writeXmlSchema(fileName: string, writeHierarchy: boolean): void;
-    static getDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
+
+
+export const DataTable: {
+    new(): DataTable$instance;
+    new(tableName: string): DataTable$instance;
+    new(tableName: string, tableNamespace: string): DataTable$instance;
+    getDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
+};
 
 
 export interface __DataTable$views {
@@ -1215,35 +1282,21 @@ export interface DataTable$instance extends System_ComponentModel_Internal.IComp
 export type DataTable = DataTable$instance & __DataTable$views;
 
 
-export class DataTableClearEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataTable: DataTable);
+export interface DataTableClearEventArgs$instance extends EventArgs {
     readonly table: DataTable;
     readonly tableName: string;
     readonly tableNamespace: string;
 }
 
 
+export const DataTableClearEventArgs: {
+    new(dataTable: DataTable): DataTableClearEventArgs$instance;
+};
+
+
 export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
-export class DataTableClearEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DataTableClearEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DataTableClearEventArgs): void;
-}
-
-
-export interface __DataTableClearEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DataTableClearEventHandler = DataTableClearEventHandler$instance & __DataTableClearEventHandler$views;
-
-
-export class DataTableCollection$instance extends InternalDataCollectionBase$instance {
+export interface DataTableCollection$instance extends InternalDataCollectionBase$instance {
     add(table: DataTable): void;
     add(name: string): DataTable;
     add(name: string, tableNamespace: string): DataTable;
@@ -1268,6 +1321,11 @@ export class DataTableCollection$instance extends InternalDataCollectionBase$ins
 }
 
 
+export const DataTableCollection: {
+    new(): DataTableCollection$instance;
+};
+
+
 export interface __DataTableCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -1276,35 +1334,19 @@ export interface __DataTableCollection$views {
 export type DataTableCollection = DataTableCollection$instance & __DataTableCollection$views;
 
 
-export class DataTableNewRowEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataRow: DataRow);
+export interface DataTableNewRowEventArgs$instance extends EventArgs {
     readonly row: DataRow;
 }
 
 
+export const DataTableNewRowEventArgs: {
+    new(dataRow: DataRow): DataTableNewRowEventArgs$instance;
+};
+
+
 export type DataTableNewRowEventArgs = DataTableNewRowEventArgs$instance;
 
-export class DataTableNewRowEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DataTableNewRowEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DataTableNewRowEventArgs): void;
-}
-
-
-export interface __DataTableNewRowEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DataTableNewRowEventHandler = DataTableNewRowEventHandler$instance & __DataTableNewRowEventHandler$views;
-
-
-export class DataTableReader$instance extends System_Data_Common_Internal.DbDataReader$instance {
-    constructor(dataTable: DataTable);
-    constructor(dataTables: DataTable[]);
+export interface DataTableReader$instance extends DbDataReader {
     readonly depth: int;
     readonly fieldCount: int;
     readonly hasRows: boolean;
@@ -1348,6 +1390,12 @@ export class DataTableReader$instance extends System_Data_Common_Internal.DbData
 }
 
 
+export const DataTableReader: {
+    new(dataTable: DataTable): DataTableReader$instance;
+    new(dataTables: DataTable[]): DataTableReader$instance;
+};
+
+
 export interface __DataTableReader$views {
     As_IDataReader(): IDataReader$instance;
     As_IDataRecord(): IDataRecord$instance;
@@ -1359,10 +1407,7 @@ export interface __DataTableReader$views {
 export type DataTableReader = DataTableReader$instance & __DataTableReader$views;
 
 
-export class DataView$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
-    constructor();
-    constructor(table: DataTable);
-    constructor(table: DataTable, RowFilter: string, Sort: string, RowState: DataViewRowState);
+export interface DataView$instance extends MarshalByValueComponent {
     allowDelete: boolean;
     allowEdit: boolean;
     allowNew: boolean;
@@ -1396,6 +1441,13 @@ export class DataView$instance extends System_ComponentModel_Internal.MarshalByV
 }
 
 
+export const DataView: {
+    new(): DataView$instance;
+    new(table: DataTable): DataView$instance;
+    new(table: DataTable, RowFilter: string, Sort: string, RowState: DataViewRowState): DataView$instance;
+};
+
+
 export interface __DataView$views {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
@@ -1415,9 +1467,7 @@ export interface DataView$instance extends System_ComponentModel_Internal.ICompo
 export type DataView = DataView$instance & __DataView$views;
 
 
-export class DataViewManager$instance extends System_ComponentModel_Internal.MarshalByValueComponent$instance {
-    constructor();
-    constructor(dataSet: DataSet);
+export interface DataViewManager$instance extends MarshalByValueComponent {
     dataSet: DataSet;
     dataViewSettingCollectionString: string;
     readonly dataViewSettings: DataViewSettingCollection;
@@ -1425,6 +1475,12 @@ export class DataViewManager$instance extends System_ComponentModel_Internal.Mar
     dispose(): void;
     getService(service: Type): unknown;
 }
+
+
+export const DataViewManager: {
+    new(): DataViewManager$instance;
+    new(dataSet: DataSet): DataViewManager$instance;
+};
 
 
 export interface __DataViewManager$views {
@@ -1443,7 +1499,7 @@ export interface DataViewManager$instance extends System_ComponentModel_Internal
 export type DataViewManager = DataViewManager$instance & __DataViewManager$views;
 
 
-export class DataViewSetting$instance {
+export interface DataViewSetting$instance {
     applyDefaultSort: boolean;
     readonly dataViewManager: DataViewManager;
     rowFilter: string;
@@ -1453,9 +1509,14 @@ export class DataViewSetting$instance {
 }
 
 
+export const DataViewSetting: {
+    new(): DataViewSetting$instance;
+};
+
+
 export type DataViewSetting = DataViewSetting$instance;
 
-export class DataViewSettingCollection$instance {
+export interface DataViewSettingCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -1471,6 +1532,11 @@ export class DataViewSettingCollection$instance {
 }
 
 
+export const DataViewSettingCollection: {
+    new(): DataViewSettingCollection$instance;
+};
+
+
 export interface __DataViewSettingCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -1479,17 +1545,21 @@ export interface __DataViewSettingCollection$views {
 export type DataViewSettingCollection = DataViewSettingCollection$instance & __DataViewSettingCollection$views;
 
 
-export class DBConcurrencyException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, inner: Exception, dataRows: DataRow[]);
+export interface DBConcurrencyException$instance extends SystemException {
     row: DataRow;
     readonly rowCount: int;
     copyToRows(array: DataRow[]): void;
     copyToRows(array: DataRow[], arrayIndex: int): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DBConcurrencyException: {
+    new(): DBConcurrencyException$instance;
+    new(message: string): DBConcurrencyException$instance;
+    new(message: string, inner: Exception): DBConcurrencyException$instance;
+    new(message: string, inner: Exception, dataRows: DataRow[]): DBConcurrencyException$instance;
+};
 
 
 export interface __DBConcurrencyException$views {
@@ -1499,12 +1569,16 @@ export interface __DBConcurrencyException$views {
 export type DBConcurrencyException = DBConcurrencyException$instance & __DBConcurrencyException$views;
 
 
-export class DeletedRowInaccessibleException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface DeletedRowInaccessibleException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DeletedRowInaccessibleException: {
+    new(): DeletedRowInaccessibleException$instance;
+    new(s: string): DeletedRowInaccessibleException$instance;
+    new(message: string, innerException: Exception): DeletedRowInaccessibleException$instance;
+};
 
 
 export interface __DeletedRowInaccessibleException$views {
@@ -1514,12 +1588,16 @@ export interface __DeletedRowInaccessibleException$views {
 export type DeletedRowInaccessibleException = DeletedRowInaccessibleException$instance & __DeletedRowInaccessibleException$views;
 
 
-export class DuplicateNameException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface DuplicateNameException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DuplicateNameException: {
+    new(): DuplicateNameException$instance;
+    new(s: string): DuplicateNameException$instance;
+    new(message: string, innerException: Exception): DuplicateNameException$instance;
+};
 
 
 export interface __DuplicateNameException$views {
@@ -1529,8 +1607,12 @@ export interface __DuplicateNameException$views {
 export type DuplicateNameException = DuplicateNameException$instance & __DuplicateNameException$views;
 
 
-export abstract class EnumerableRowCollection$instance {
+export interface EnumerableRowCollection$instance {
 }
+
+
+export const EnumerableRowCollection: {
+};
 
 
 export interface __EnumerableRowCollection$views {
@@ -1542,9 +1624,14 @@ export interface EnumerableRowCollection$instance extends System_Collections_Int
 export type EnumerableRowCollection = EnumerableRowCollection$instance & __EnumerableRowCollection$views;
 
 
-export class EnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection$instance {
+export interface EnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection$instance {
     getEnumerator(): IEnumerator;
 }
+
+
+export const EnumerableRowCollection_1: {
+    new<TRow>(): EnumerableRowCollection_1$instance<TRow>;
+};
 
 
 export interface __EnumerableRowCollection_1$views<TRow> {
@@ -1555,12 +1642,16 @@ export interface __EnumerableRowCollection_1$views<TRow> {
 export type EnumerableRowCollection_1<TRow> = EnumerableRowCollection_1$instance<TRow> & __EnumerableRowCollection_1$views<TRow>;
 
 
-export class EvaluateException$instance extends InvalidExpressionException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface EvaluateException$instance extends InvalidExpressionException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const EvaluateException: {
+    new(): EvaluateException$instance;
+    new(s: string): EvaluateException$instance;
+    new(message: string, innerException: Exception): EvaluateException$instance;
+};
 
 
 export interface __EvaluateException$views {
@@ -1570,8 +1661,7 @@ export interface __EvaluateException$views {
 export type EvaluateException = EvaluateException$instance & __EvaluateException$views;
 
 
-export class FillErrorEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataTable: DataTable, values: unknown[]);
+export interface FillErrorEventArgs$instance extends EventArgs {
     continue_: boolean;
     readonly dataTable: DataTable;
     errors: Exception;
@@ -1579,33 +1669,14 @@ export class FillErrorEventArgs$instance extends System_Internal.EventArgs$insta
 }
 
 
+export const FillErrorEventArgs: {
+    new(dataTable: DataTable, values: unknown[]): FillErrorEventArgs$instance;
+};
+
+
 export type FillErrorEventArgs = FillErrorEventArgs$instance;
 
-export class FillErrorEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: FillErrorEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: FillErrorEventArgs): void;
-}
-
-
-export interface __FillErrorEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type FillErrorEventHandler = FillErrorEventHandler$instance & __FillErrorEventHandler$views;
-
-
-export class ForeignKeyConstraint$instance extends Constraint$instance {
-    constructor(parentColumn: DataColumn, childColumn: DataColumn);
-    constructor(constraintName: string, parentColumn: DataColumn, childColumn: DataColumn);
-    constructor(parentColumns: DataColumn[], childColumns: DataColumn[]);
-    constructor(constraintName: string, parentColumns: DataColumn[], childColumns: DataColumn[]);
-    constructor(constraintName: string, parentTableName: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule);
-    constructor(constraintName: string, parentTableName: string, parentTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule);
+export interface ForeignKeyConstraint$instance extends Constraint {
     acceptRejectRule: AcceptRejectRule;
     readonly columns: DataColumn[];
     deleteRule: Rule;
@@ -1618,14 +1689,28 @@ export class ForeignKeyConstraint$instance extends Constraint$instance {
 }
 
 
+export const ForeignKeyConstraint: {
+    new(parentColumn: DataColumn, childColumn: DataColumn): ForeignKeyConstraint$instance;
+    new(constraintName: string, parentColumn: DataColumn, childColumn: DataColumn): ForeignKeyConstraint$instance;
+    new(parentColumns: DataColumn[], childColumns: DataColumn[]): ForeignKeyConstraint$instance;
+    new(constraintName: string, parentColumns: DataColumn[], childColumns: DataColumn[]): ForeignKeyConstraint$instance;
+    new(constraintName: string, parentTableName: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule): ForeignKeyConstraint$instance;
+    new(constraintName: string, parentTableName: string, parentTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule): ForeignKeyConstraint$instance;
+};
+
+
 export type ForeignKeyConstraint = ForeignKeyConstraint$instance;
 
-export class InRowChangingEventException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface InRowChangingEventException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InRowChangingEventException: {
+    new(): InRowChangingEventException$instance;
+    new(s: string): InRowChangingEventException$instance;
+    new(message: string, innerException: Exception): InRowChangingEventException$instance;
+};
 
 
 export interface __InRowChangingEventException$views {
@@ -1635,8 +1720,7 @@ export interface __InRowChangingEventException$views {
 export type InRowChangingEventException = InRowChangingEventException$instance & __InRowChangingEventException$views;
 
 
-export class InternalDataCollectionBase$instance {
-    constructor();
+export interface InternalDataCollectionBase$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -1644,6 +1728,11 @@ export class InternalDataCollectionBase$instance {
     copyTo(ar: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
 }
+
+
+export const InternalDataCollectionBase: {
+    new(): InternalDataCollectionBase$instance;
+};
 
 
 export interface __InternalDataCollectionBase$views {
@@ -1654,12 +1743,16 @@ export interface __InternalDataCollectionBase$views {
 export type InternalDataCollectionBase = InternalDataCollectionBase$instance & __InternalDataCollectionBase$views;
 
 
-export class InvalidConstraintException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidConstraintException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidConstraintException: {
+    new(): InvalidConstraintException$instance;
+    new(s: string): InvalidConstraintException$instance;
+    new(message: string, innerException: Exception): InvalidConstraintException$instance;
+};
 
 
 export interface __InvalidConstraintException$views {
@@ -1669,12 +1762,16 @@ export interface __InvalidConstraintException$views {
 export type InvalidConstraintException = InvalidConstraintException$instance & __InvalidConstraintException$views;
 
 
-export class InvalidExpressionException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidExpressionException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidExpressionException: {
+    new(): InvalidExpressionException$instance;
+    new(s: string): InvalidExpressionException$instance;
+    new(message: string, innerException: Exception): InvalidExpressionException$instance;
+};
 
 
 export interface __InvalidExpressionException$views {
@@ -1684,39 +1781,29 @@ export interface __InvalidExpressionException$views {
 export type InvalidExpressionException = InvalidExpressionException$instance & __InvalidExpressionException$views;
 
 
-export class MergeFailedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(table: DataTable, conflict: string);
+export interface MergeFailedEventArgs$instance extends EventArgs {
     readonly conflict: string;
     readonly table: DataTable;
 }
 
 
+export const MergeFailedEventArgs: {
+    new(table: DataTable, conflict: string): MergeFailedEventArgs$instance;
+};
+
+
 export type MergeFailedEventArgs = MergeFailedEventArgs$instance;
 
-export class MergeFailedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: MergeFailedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: MergeFailedEventArgs): void;
-}
-
-
-export interface __MergeFailedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type MergeFailedEventHandler = MergeFailedEventHandler$instance & __MergeFailedEventHandler$views;
-
-
-export class MissingPrimaryKeyException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface MissingPrimaryKeyException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MissingPrimaryKeyException: {
+    new(): MissingPrimaryKeyException$instance;
+    new(s: string): MissingPrimaryKeyException$instance;
+    new(message: string, innerException: Exception): MissingPrimaryKeyException$instance;
+};
 
 
 export interface __MissingPrimaryKeyException$views {
@@ -1726,12 +1813,16 @@ export interface __MissingPrimaryKeyException$views {
 export type MissingPrimaryKeyException = MissingPrimaryKeyException$instance & __MissingPrimaryKeyException$views;
 
 
-export class NoNullAllowedException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface NoNullAllowedException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NoNullAllowedException: {
+    new(): NoNullAllowedException$instance;
+    new(s: string): NoNullAllowedException$instance;
+    new(message: string, innerException: Exception): NoNullAllowedException$instance;
+};
 
 
 export interface __NoNullAllowedException$views {
@@ -1741,10 +1832,15 @@ export interface __NoNullAllowedException$views {
 export type NoNullAllowedException = NoNullAllowedException$instance & __NoNullAllowedException$views;
 
 
-export class OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection_1$instance<TRow> {
+export interface OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableRowCollection_1$instance<TRow> {
     getEnumerator(): IEnumerator_1<TRow>;
     getEnumerator(): IEnumerator;
 }
+
+
+export const OrderedEnumerableRowCollection_1: {
+    new<TRow>(): OrderedEnumerableRowCollection_1$instance<TRow>;
+};
 
 
 export interface __OrderedEnumerableRowCollection_1$views<TRow> {
@@ -1755,8 +1851,7 @@ export interface __OrderedEnumerableRowCollection_1$views<TRow> {
 export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollection_1$instance<TRow> & __OrderedEnumerableRowCollection_1$views<TRow>;
 
 
-export class PropertyCollection$instance extends System_Collections_Internal.Hashtable$instance {
-    constructor();
+export interface PropertyCollection$instance extends Hashtable {
     add(key: unknown, value: unknown): void;
     clear(): void;
     clone(): unknown;
@@ -1768,6 +1863,11 @@ export class PropertyCollection$instance extends System_Collections_Internal.Has
     onDeserialization(sender: unknown): void;
     remove(key: unknown): void;
 }
+
+
+export const PropertyCollection: {
+    new(): PropertyCollection$instance;
+};
 
 
 export interface __PropertyCollection$views {
@@ -1782,12 +1882,16 @@ export interface __PropertyCollection$views {
 export type PropertyCollection = PropertyCollection$instance & __PropertyCollection$views;
 
 
-export class ReadOnlyException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface ReadOnlyException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ReadOnlyException: {
+    new(): ReadOnlyException$instance;
+    new(s: string): ReadOnlyException$instance;
+    new(message: string, innerException: Exception): ReadOnlyException$instance;
+};
 
 
 export interface __ReadOnlyException$views {
@@ -1797,12 +1901,16 @@ export interface __ReadOnlyException$views {
 export type ReadOnlyException = ReadOnlyException$instance & __ReadOnlyException$views;
 
 
-export class RowNotInTableException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface RowNotInTableException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const RowNotInTableException: {
+    new(): RowNotInTableException$instance;
+    new(s: string): RowNotInTableException$instance;
+    new(message: string, innerException: Exception): RowNotInTableException$instance;
+};
 
 
 export interface __RowNotInTableException$views {
@@ -1812,65 +1920,41 @@ export interface __RowNotInTableException$views {
 export type RowNotInTableException = RowNotInTableException$instance & __RowNotInTableException$views;
 
 
-export class StateChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(originalState: ConnectionState, currentState: ConnectionState);
+export interface StateChangeEventArgs$instance extends EventArgs {
     readonly currentState: ConnectionState;
     readonly originalState: ConnectionState;
 }
 
 
+export const StateChangeEventArgs: {
+    new(originalState: ConnectionState, currentState: ConnectionState): StateChangeEventArgs$instance;
+};
+
+
 export type StateChangeEventArgs = StateChangeEventArgs$instance;
 
-export class StateChangeEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: StateChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: StateChangeEventArgs): void;
-}
-
-
-export interface __StateChangeEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type StateChangeEventHandler = StateChangeEventHandler$instance & __StateChangeEventHandler$views;
-
-
-export class StatementCompletedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(recordCount: int);
+export interface StatementCompletedEventArgs$instance extends EventArgs {
     readonly recordCount: int;
 }
 
 
+export const StatementCompletedEventArgs: {
+    new(recordCount: int): StatementCompletedEventArgs$instance;
+};
+
+
 export type StatementCompletedEventArgs = StatementCompletedEventArgs$instance;
 
-export class StatementCompletedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: StatementCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: StatementCompletedEventArgs): void;
-}
-
-
-export interface __StatementCompletedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type StatementCompletedEventHandler = StatementCompletedEventHandler$instance & __StatementCompletedEventHandler$views;
-
-
-export class StrongTypingException$instance extends DataException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(s: string, innerException: Exception);
+export interface StrongTypingException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const StrongTypingException: {
+    new(): StrongTypingException$instance;
+    new(message: string): StrongTypingException$instance;
+    new(s: string, innerException: Exception): StrongTypingException$instance;
+};
 
 
 export interface __StrongTypingException$views {
@@ -1880,12 +1964,16 @@ export interface __StrongTypingException$views {
 export type StrongTypingException = StrongTypingException$instance & __StrongTypingException$views;
 
 
-export class SyntaxErrorException$instance extends InvalidExpressionException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface SyntaxErrorException$instance extends InvalidExpressionException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SyntaxErrorException: {
+    new(): SyntaxErrorException$instance;
+    new(s: string): SyntaxErrorException$instance;
+    new(message: string, innerException: Exception): SyntaxErrorException$instance;
+};
 
 
 export interface __SyntaxErrorException$views {
@@ -1895,7 +1983,7 @@ export interface __SyntaxErrorException$views {
 export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxErrorException$views;
 
 
-export abstract class TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance {
+export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$instance {
     beginInit(): void;
     cast<TResult>(): EnumerableRowCollection_1<TResult>;
     dispose(): void;
@@ -1928,6 +2016,10 @@ export abstract class TypedTableBase_1$instance<T extends DataRow> extends DataT
 }
 
 
+export const TypedTableBase_1: {
+};
+
+
 export interface __TypedTableBase_1$views<T extends DataRow> {
     As_IServiceProvider(): System_Internal.IServiceProvider$instance;
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
@@ -1946,16 +2038,7 @@ export interface TypedTableBase_1$instance<T extends DataRow> extends System_Com
 export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> & __TypedTableBase_1$views<T>;
 
 
-export class UniqueConstraint$instance extends Constraint$instance {
-    constructor(name: string, column: DataColumn);
-    constructor(column: DataColumn);
-    constructor(name: string, columns: DataColumn[]);
-    constructor(columns: DataColumn[]);
-    constructor(name: string, columnNames: string[], isPrimaryKey: boolean);
-    constructor(name: string, column: DataColumn, isPrimaryKey: boolean);
-    constructor(column: DataColumn, isPrimaryKey: boolean);
-    constructor(name: string, columns: DataColumn[], isPrimaryKey: boolean);
-    constructor(columns: DataColumn[], isPrimaryKey: boolean);
+export interface UniqueConstraint$instance extends Constraint {
     readonly columns: DataColumn[];
     readonly isPrimaryKey: boolean;
     readonly table: DataTable;
@@ -1964,14 +2047,31 @@ export class UniqueConstraint$instance extends Constraint$instance {
 }
 
 
+export const UniqueConstraint: {
+    new(name: string, column: DataColumn): UniqueConstraint$instance;
+    new(column: DataColumn): UniqueConstraint$instance;
+    new(name: string, columns: DataColumn[]): UniqueConstraint$instance;
+    new(columns: DataColumn[]): UniqueConstraint$instance;
+    new(name: string, columnNames: string[], isPrimaryKey: boolean): UniqueConstraint$instance;
+    new(name: string, column: DataColumn, isPrimaryKey: boolean): UniqueConstraint$instance;
+    new(column: DataColumn, isPrimaryKey: boolean): UniqueConstraint$instance;
+    new(name: string, columns: DataColumn[], isPrimaryKey: boolean): UniqueConstraint$instance;
+    new(columns: DataColumn[], isPrimaryKey: boolean): UniqueConstraint$instance;
+};
+
+
 export type UniqueConstraint = UniqueConstraint$instance;
 
-export class VersionNotFoundException$instance extends DataException$instance {
-    constructor();
-    constructor(s: string);
-    constructor(message: string, innerException: Exception);
+export interface VersionNotFoundException$instance extends DataException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const VersionNotFoundException: {
+    new(): VersionNotFoundException$instance;
+    new(s: string): VersionNotFoundException$instance;
+    new(message: string, innerException: Exception): VersionNotFoundException$instance;
+};
 
 
 export interface __VersionNotFoundException$views {

@@ -17,13 +17,13 @@ import type { Boolean as ClrBoolean, Byte, Enum, Exception, IComparable, IConver
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { FileSystem$instance as FileSystem } from './internal/index.js';
+export { FileSystem as FileSystem } from './internal/index.js';
 export { DeleteDirectoryOption as DeleteDirectoryOption } from './internal/index.js';
 export { RecycleOption as RecycleOption } from './internal/index.js';
 export { SearchOption as SearchOption } from './internal/index.js';
 export { UICancelOption as UICancelOption } from './internal/index.js';
 export { UIOption as UIOption } from './internal/index.js';
-export { MalformedLineException$instance as MalformedLineException } from './internal/index.js';
-export { SpecialDirectories$instance as SpecialDirectories } from './internal/index.js';
-export { TextFieldParser$instance as TextFieldParser } from './internal/index.js';
+export { MalformedLineException as MalformedLineException } from './internal/index.js';
+export { SpecialDirectories as SpecialDirectories } from './internal/index.js';
+export { TextFieldParser as TextFieldParser } from './internal/index.js';
 export { FieldType as FieldType } from './internal/index.js';

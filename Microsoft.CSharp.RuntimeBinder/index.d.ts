@@ -18,8 +18,8 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { Binder$instance as Binder } from './internal/index.js';
-export { CSharpArgumentInfo$instance as CSharpArgumentInfo } from './internal/index.js';
+export { CSharpArgumentInfo as CSharpArgumentInfo } from './internal/index.js';
 export { CSharpArgumentInfoFlags as CSharpArgumentInfoFlags } from './internal/index.js';
 export { CSharpBinderFlags as CSharpBinderFlags } from './internal/index.js';
-export { RuntimeBinderException$instance as RuntimeBinderException } from './internal/index.js';
-export { RuntimeBinderInternalCompilerException$instance as RuntimeBinderInternalCompilerException } from './internal/index.js';
+export { RuntimeBinderException as RuntimeBinderException } from './internal/index.js';
+export { RuntimeBinderInternalCompilerException as RuntimeBinderInternalCompilerException } from './internal/index.js';

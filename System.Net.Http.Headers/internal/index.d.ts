@@ -41,11 +41,16 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class HeaderStringValues$instance {
+export interface HeaderStringValues$instance {
     readonly count: int;
     getEnumerator(): HeaderStringValues_Enumerator;
     toString(): string;
 }
+
+
+export const HeaderStringValues: {
+    new(): HeaderStringValues$instance;
+};
 
 
 export interface __HeaderStringValues$views {
@@ -57,12 +62,17 @@ export interface __HeaderStringValues$views {
 export type HeaderStringValues = HeaderStringValues$instance & __HeaderStringValues$views;
 
 
-export class HeaderStringValues_Enumerator$instance implements IDisposable {
+export interface HeaderStringValues_Enumerator$instance extends IDisposable {
     readonly current: string;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const HeaderStringValues_Enumerator: {
+    new(): HeaderStringValues_Enumerator$instance;
+};
 
 
 export interface __HeaderStringValues_Enumerator$views {
@@ -73,13 +83,18 @@ export interface __HeaderStringValues_Enumerator$views {
 export type HeaderStringValues_Enumerator = HeaderStringValues_Enumerator$instance & __HeaderStringValues_Enumerator$views;
 
 
-export class HttpHeadersNonValidated$instance {
+export interface HttpHeadersNonValidated$instance {
     readonly count: int;
     readonly item: HeaderStringValues;
     contains(headerName: string): boolean;
     getEnumerator(): HttpHeadersNonValidated_Enumerator;
     tryGetValues(headerName: string, values: { value: ref<HeaderStringValues> }): boolean;
 }
+
+
+export const HttpHeadersNonValidated: {
+    new(): HttpHeadersNonValidated$instance;
+};
 
 
 export interface __HttpHeadersNonValidated$views {
@@ -92,12 +107,17 @@ export interface __HttpHeadersNonValidated$views {
 export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpHeadersNonValidated$views;
 
 
-export class HttpHeadersNonValidated_Enumerator$instance implements IDisposable {
+export interface HttpHeadersNonValidated_Enumerator$instance extends IDisposable {
     readonly current: KeyValuePair_2<CLROf<string>, HeaderStringValues>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const HttpHeadersNonValidated_Enumerator: {
+    new(): HttpHeadersNonValidated_Enumerator$instance;
+};
 
 
 export interface __HttpHeadersNonValidated_Enumerator$views {
@@ -108,17 +128,21 @@ export interface __HttpHeadersNonValidated_Enumerator$views {
 export type HttpHeadersNonValidated_Enumerator = HttpHeadersNonValidated_Enumerator$instance & __HttpHeadersNonValidated_Enumerator$views;
 
 
-export class AuthenticationHeaderValue$instance {
-    constructor(scheme: string);
-    constructor(scheme: string, parameter: string);
+export interface AuthenticationHeaderValue$instance {
     readonly parameter: string;
     readonly scheme: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): AuthenticationHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<AuthenticationHeaderValue> }): boolean;
 }
+
+
+export const AuthenticationHeaderValue: {
+    new(scheme: string): AuthenticationHeaderValue$instance;
+    new(scheme: string, parameter: string): AuthenticationHeaderValue$instance;
+    parse(input: string): AuthenticationHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<AuthenticationHeaderValue> }): boolean;
+};
 
 
 export interface __AuthenticationHeaderValue$views {
@@ -130,8 +154,7 @@ export interface AuthenticationHeaderValue$instance extends System_Internal.IClo
 export type AuthenticationHeaderValue = AuthenticationHeaderValue$instance & __AuthenticationHeaderValue$views;
 
 
-export class CacheControlHeaderValue$instance {
-    constructor();
+export interface CacheControlHeaderValue$instance {
     readonly extensions: ICollection_1<NameValueHeaderValue>;
     maxAge: Nullable_1<TimeSpan>;
     maxStale: boolean;
@@ -151,9 +174,14 @@ export class CacheControlHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): CacheControlHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<CacheControlHeaderValue> }): boolean;
 }
+
+
+export const CacheControlHeaderValue: {
+    new(): CacheControlHeaderValue$instance;
+    parse(input: string): CacheControlHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<CacheControlHeaderValue> }): boolean;
+};
 
 
 export interface __CacheControlHeaderValue$views {
@@ -165,8 +193,7 @@ export interface CacheControlHeaderValue$instance extends System_Internal.IClone
 export type CacheControlHeaderValue = CacheControlHeaderValue$instance & __CacheControlHeaderValue$views;
 
 
-export class ContentDispositionHeaderValue$instance {
-    constructor(dispositionType: string);
+export interface ContentDispositionHeaderValue$instance {
     creationDate: Nullable_1<DateTimeOffset>;
     dispositionType: string;
     fileName: string;
@@ -179,9 +206,14 @@ export class ContentDispositionHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): ContentDispositionHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<ContentDispositionHeaderValue> }): boolean;
 }
+
+
+export const ContentDispositionHeaderValue: {
+    new(dispositionType: string): ContentDispositionHeaderValue$instance;
+    parse(input: string): ContentDispositionHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<ContentDispositionHeaderValue> }): boolean;
+};
 
 
 export interface __ContentDispositionHeaderValue$views {
@@ -193,10 +225,7 @@ export interface ContentDispositionHeaderValue$instance extends System_Internal.
 export type ContentDispositionHeaderValue = ContentDispositionHeaderValue$instance & __ContentDispositionHeaderValue$views;
 
 
-export class ContentRangeHeaderValue$instance {
-    constructor(from_: long, to: long, length: long);
-    constructor(length: long);
-    constructor(from_: long, to: long);
+export interface ContentRangeHeaderValue$instance {
     readonly from_: Nullable_1<CLROf<long>>;
     readonly hasLength: boolean;
     readonly hasRange: boolean;
@@ -206,9 +235,16 @@ export class ContentRangeHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): ContentRangeHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<ContentRangeHeaderValue> }): boolean;
 }
+
+
+export const ContentRangeHeaderValue: {
+    new(from_: long, to: long, length: long): ContentRangeHeaderValue$instance;
+    new(length: long): ContentRangeHeaderValue$instance;
+    new(from_: long, to: long): ContentRangeHeaderValue$instance;
+    parse(input: string): ContentRangeHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<ContentRangeHeaderValue> }): boolean;
+};
 
 
 export interface __ContentRangeHeaderValue$views {
@@ -220,18 +256,22 @@ export interface ContentRangeHeaderValue$instance extends System_Internal.IClone
 export type ContentRangeHeaderValue = ContentRangeHeaderValue$instance & __ContentRangeHeaderValue$views;
 
 
-export class EntityTagHeaderValue$instance {
-    constructor(tag: string);
-    constructor(tag: string, isWeak: boolean);
+export interface EntityTagHeaderValue$instance {
     readonly isWeak: boolean;
     readonly tag: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly any_: EntityTagHeaderValue;
-    static parse(input: string): EntityTagHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<EntityTagHeaderValue> }): boolean;
 }
+
+
+export const EntityTagHeaderValue: {
+    new(tag: string): EntityTagHeaderValue$instance;
+    new(tag: string, isWeak: boolean): EntityTagHeaderValue$instance;
+    readonly any_: EntityTagHeaderValue;
+    parse(input: string): EntityTagHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<EntityTagHeaderValue> }): boolean;
+};
 
 
 export interface __EntityTagHeaderValue$views {
@@ -243,7 +283,7 @@ export interface EntityTagHeaderValue$instance extends System_Internal.ICloneabl
 export type EntityTagHeaderValue = EntityTagHeaderValue$instance & __EntityTagHeaderValue$views;
 
 
-export class HttpContentHeaders$instance extends HttpHeaders$instance {
+export interface HttpContentHeaders$instance extends HttpHeaders$instance {
     readonly allow: ICollection_1<CLROf<string>>;
     contentDisposition: ContentDispositionHeaderValue;
     readonly contentEncoding: ICollection_1<CLROf<string>>;
@@ -260,6 +300,11 @@ export class HttpContentHeaders$instance extends HttpHeaders$instance {
 }
 
 
+export const HttpContentHeaders: {
+    new(): HttpContentHeaders$instance;
+};
+
+
 export interface __HttpContentHeaders$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -268,7 +313,7 @@ export interface __HttpContentHeaders$views {
 export type HttpContentHeaders = HttpContentHeaders$instance & __HttpContentHeaders$views;
 
 
-export abstract class HttpHeaders$instance {
+export interface HttpHeaders$instance {
     readonly nonValidated: HttpHeadersNonValidated;
     add(name: string, value: string): void;
     add(name: string, values: IEnumerable_1<CLROf<string>>): void;
@@ -284,6 +329,10 @@ export abstract class HttpHeaders$instance {
 }
 
 
+export const HttpHeaders: {
+};
+
+
 export interface __HttpHeaders$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -292,7 +341,7 @@ export interface __HttpHeaders$views {
 export type HttpHeaders = HttpHeaders$instance & __HttpHeaders$views;
 
 
-export class HttpHeaderValueCollection_1$instance<T> {
+export interface HttpHeaderValueCollection_1$instance<T> {
     readonly count: int;
     readonly isReadOnly: boolean;
     add(item: T): void;
@@ -307,6 +356,11 @@ export class HttpHeaderValueCollection_1$instance<T> {
 }
 
 
+export const HttpHeaderValueCollection_1: {
+    new<T>(): HttpHeaderValueCollection_1$instance<T>;
+};
+
+
 export interface __HttpHeaderValueCollection_1$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -316,7 +370,7 @@ export interface __HttpHeaderValueCollection_1$views<T> {
 export type HttpHeaderValueCollection_1<T> = HttpHeaderValueCollection_1$instance<T> & __HttpHeaderValueCollection_1$views<T>;
 
 
-export class HttpRequestHeaders$instance extends HttpHeaders$instance {
+export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     readonly accept: HttpHeaderValueCollection_1<MediaTypeWithQualityHeaderValue>;
     readonly acceptCharset: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
     readonly acceptEncoding: HttpHeaderValueCollection_1<StringWithQualityHeaderValue>;
@@ -354,6 +408,11 @@ export class HttpRequestHeaders$instance extends HttpHeaders$instance {
 }
 
 
+export const HttpRequestHeaders: {
+    new(): HttpRequestHeaders$instance;
+};
+
+
 export interface __HttpRequestHeaders$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -362,7 +421,7 @@ export interface __HttpRequestHeaders$views {
 export type HttpRequestHeaders = HttpRequestHeaders$instance & __HttpRequestHeaders$views;
 
 
-export class HttpResponseHeaders$instance extends HttpHeaders$instance {
+export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
     readonly acceptRanges: HttpHeaderValueCollection_1<CLROf<string>>;
     age: Nullable_1<TimeSpan>;
     cacheControl: CacheControlHeaderValue;
@@ -388,6 +447,11 @@ export class HttpResponseHeaders$instance extends HttpHeaders$instance {
 }
 
 
+export const HttpResponseHeaders: {
+    new(): HttpResponseHeaders$instance;
+};
+
+
 export interface __HttpResponseHeaders$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -396,18 +460,22 @@ export interface __HttpResponseHeaders$views {
 export type HttpResponseHeaders = HttpResponseHeaders$instance & __HttpResponseHeaders$views;
 
 
-export class MediaTypeHeaderValue$instance {
-    constructor(mediaType: string);
-    constructor(mediaType: string, charSet: string);
+export interface MediaTypeHeaderValue$instance {
     charSet: string;
     mediaType: string;
     readonly parameters: ICollection_1<NameValueHeaderValue>;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): MediaTypeHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<MediaTypeHeaderValue> }): boolean;
 }
+
+
+export const MediaTypeHeaderValue: {
+    new(mediaType: string): MediaTypeHeaderValue$instance;
+    new(mediaType: string, charSet: string): MediaTypeHeaderValue$instance;
+    parse(input: string): MediaTypeHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<MediaTypeHeaderValue> }): boolean;
+};
 
 
 export interface __MediaTypeHeaderValue$views {
@@ -419,12 +487,16 @@ export interface MediaTypeHeaderValue$instance extends System_Internal.ICloneabl
 export type MediaTypeHeaderValue = MediaTypeHeaderValue$instance & __MediaTypeHeaderValue$views;
 
 
-export class MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderValue$instance {
-    constructor(mediaType: string);
-    constructor(mediaType: string, quality: double);
+export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderValue$instance {
     quality: Nullable_1<CLROf<double>>;
     clone(): unknown;
 }
+
+
+export const MediaTypeWithQualityHeaderValue: {
+    new(mediaType: string): MediaTypeWithQualityHeaderValue$instance;
+    new(mediaType: string, quality: double): MediaTypeWithQualityHeaderValue$instance;
+};
 
 
 export interface __MediaTypeWithQualityHeaderValue$views {
@@ -436,17 +508,21 @@ export interface MediaTypeWithQualityHeaderValue$instance extends System_Interna
 export type MediaTypeWithQualityHeaderValue = MediaTypeWithQualityHeaderValue$instance & __MediaTypeWithQualityHeaderValue$views;
 
 
-export class NameValueHeaderValue$instance {
-    constructor(name: string);
-    constructor(name: string, value: string);
+export interface NameValueHeaderValue$instance {
     readonly name: string;
     value: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): NameValueHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<NameValueHeaderValue> }): boolean;
 }
+
+
+export const NameValueHeaderValue: {
+    new(name: string): NameValueHeaderValue$instance;
+    new(name: string, value: string): NameValueHeaderValue$instance;
+    parse(input: string): NameValueHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<NameValueHeaderValue> }): boolean;
+};
 
 
 export interface __NameValueHeaderValue$views {
@@ -458,15 +534,19 @@ export interface NameValueHeaderValue$instance extends System_Internal.ICloneabl
 export type NameValueHeaderValue = NameValueHeaderValue$instance & __NameValueHeaderValue$views;
 
 
-export class NameValueWithParametersHeaderValue$instance extends NameValueHeaderValue$instance {
-    constructor(name: string);
-    constructor(name: string, value: string);
+export interface NameValueWithParametersHeaderValue$instance extends NameValueHeaderValue$instance {
     readonly parameters: ICollection_1<NameValueHeaderValue>;
     clone(): unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const NameValueWithParametersHeaderValue: {
+    new(name: string): NameValueWithParametersHeaderValue$instance;
+    new(name: string, value: string): NameValueWithParametersHeaderValue$instance;
+};
 
 
 export interface __NameValueWithParametersHeaderValue$views {
@@ -478,17 +558,21 @@ export interface NameValueWithParametersHeaderValue$instance extends System_Inte
 export type NameValueWithParametersHeaderValue = NameValueWithParametersHeaderValue$instance & __NameValueWithParametersHeaderValue$views;
 
 
-export class ProductHeaderValue$instance {
-    constructor(name: string);
-    constructor(name: string, version: string);
+export interface ProductHeaderValue$instance {
     readonly name: string;
     readonly version: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): ProductHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<ProductHeaderValue> }): boolean;
 }
+
+
+export const ProductHeaderValue: {
+    new(name: string): ProductHeaderValue$instance;
+    new(name: string, version: string): ProductHeaderValue$instance;
+    parse(input: string): ProductHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<ProductHeaderValue> }): boolean;
+};
 
 
 export interface __ProductHeaderValue$views {
@@ -500,18 +584,22 @@ export interface ProductHeaderValue$instance extends System_Internal.ICloneable$
 export type ProductHeaderValue = ProductHeaderValue$instance & __ProductHeaderValue$views;
 
 
-export class ProductInfoHeaderValue$instance {
-    constructor(productName: string, productVersion: string);
-    constructor(product: ProductHeaderValue);
-    constructor(comment: string);
+export interface ProductInfoHeaderValue$instance {
     readonly comment: string;
     readonly product: ProductHeaderValue;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): ProductInfoHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<ProductInfoHeaderValue> }): boolean;
 }
+
+
+export const ProductInfoHeaderValue: {
+    new(productName: string, productVersion: string): ProductInfoHeaderValue$instance;
+    new(product: ProductHeaderValue): ProductInfoHeaderValue$instance;
+    new(comment: string): ProductInfoHeaderValue$instance;
+    parse(input: string): ProductInfoHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<ProductInfoHeaderValue> }): boolean;
+};
 
 
 export interface __ProductInfoHeaderValue$views {
@@ -523,18 +611,22 @@ export interface ProductInfoHeaderValue$instance extends System_Internal.IClonea
 export type ProductInfoHeaderValue = ProductInfoHeaderValue$instance & __ProductInfoHeaderValue$views;
 
 
-export class RangeConditionHeaderValue$instance {
-    constructor(date: DateTimeOffset);
-    constructor(entityTag: EntityTagHeaderValue);
-    constructor(entityTag: string);
+export interface RangeConditionHeaderValue$instance {
     readonly date: Nullable_1<DateTimeOffset>;
     readonly entityTag: EntityTagHeaderValue;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): RangeConditionHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<RangeConditionHeaderValue> }): boolean;
 }
+
+
+export const RangeConditionHeaderValue: {
+    new(date: DateTimeOffset): RangeConditionHeaderValue$instance;
+    new(entityTag: EntityTagHeaderValue): RangeConditionHeaderValue$instance;
+    new(entityTag: string): RangeConditionHeaderValue$instance;
+    parse(input: string): RangeConditionHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<RangeConditionHeaderValue> }): boolean;
+};
 
 
 export interface __RangeConditionHeaderValue$views {
@@ -546,17 +638,21 @@ export interface RangeConditionHeaderValue$instance extends System_Internal.IClo
 export type RangeConditionHeaderValue = RangeConditionHeaderValue$instance & __RangeConditionHeaderValue$views;
 
 
-export class RangeHeaderValue$instance {
-    constructor();
-    constructor(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>);
+export interface RangeHeaderValue$instance {
     readonly ranges: ICollection_1<RangeItemHeaderValue>;
     unit: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): RangeHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<RangeHeaderValue> }): boolean;
 }
+
+
+export const RangeHeaderValue: {
+    new(): RangeHeaderValue$instance;
+    new(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>): RangeHeaderValue$instance;
+    parse(input: string): RangeHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<RangeHeaderValue> }): boolean;
+};
 
 
 export interface __RangeHeaderValue$views {
@@ -568,14 +664,18 @@ export interface RangeHeaderValue$instance extends System_Internal.ICloneable$in
 export type RangeHeaderValue = RangeHeaderValue$instance & __RangeHeaderValue$views;
 
 
-export class RangeItemHeaderValue$instance {
-    constructor(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>);
+export interface RangeItemHeaderValue$instance {
     readonly from_: Nullable_1<CLROf<long>>;
     readonly to: Nullable_1<CLROf<long>>;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const RangeItemHeaderValue: {
+    new(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>): RangeItemHeaderValue$instance;
+};
 
 
 export interface __RangeItemHeaderValue$views {
@@ -587,17 +687,21 @@ export interface RangeItemHeaderValue$instance extends System_Internal.ICloneabl
 export type RangeItemHeaderValue = RangeItemHeaderValue$instance & __RangeItemHeaderValue$views;
 
 
-export class RetryConditionHeaderValue$instance {
-    constructor(date: DateTimeOffset);
-    constructor(delta: TimeSpan);
+export interface RetryConditionHeaderValue$instance {
     readonly date: Nullable_1<DateTimeOffset>;
     readonly delta: Nullable_1<TimeSpan>;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): RetryConditionHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<RetryConditionHeaderValue> }): boolean;
 }
+
+
+export const RetryConditionHeaderValue: {
+    new(date: DateTimeOffset): RetryConditionHeaderValue$instance;
+    new(delta: TimeSpan): RetryConditionHeaderValue$instance;
+    parse(input: string): RetryConditionHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<RetryConditionHeaderValue> }): boolean;
+};
 
 
 export interface __RetryConditionHeaderValue$views {
@@ -609,17 +713,21 @@ export interface RetryConditionHeaderValue$instance extends System_Internal.IClo
 export type RetryConditionHeaderValue = RetryConditionHeaderValue$instance & __RetryConditionHeaderValue$views;
 
 
-export class StringWithQualityHeaderValue$instance {
-    constructor(value: string);
-    constructor(value: string, quality: double);
+export interface StringWithQualityHeaderValue$instance {
     readonly quality: Nullable_1<CLROf<double>>;
     readonly value: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): StringWithQualityHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<StringWithQualityHeaderValue> }): boolean;
 }
+
+
+export const StringWithQualityHeaderValue: {
+    new(value: string): StringWithQualityHeaderValue$instance;
+    new(value: string, quality: double): StringWithQualityHeaderValue$instance;
+    parse(input: string): StringWithQualityHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<StringWithQualityHeaderValue> }): boolean;
+};
 
 
 export interface __StringWithQualityHeaderValue$views {
@@ -631,16 +739,20 @@ export interface StringWithQualityHeaderValue$instance extends System_Internal.I
 export type StringWithQualityHeaderValue = StringWithQualityHeaderValue$instance & __StringWithQualityHeaderValue$views;
 
 
-export class TransferCodingHeaderValue$instance {
-    constructor(value: string);
+export interface TransferCodingHeaderValue$instance {
     readonly parameters: ICollection_1<NameValueHeaderValue>;
     readonly value: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): TransferCodingHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<TransferCodingHeaderValue> }): boolean;
 }
+
+
+export const TransferCodingHeaderValue: {
+    new(value: string): TransferCodingHeaderValue$instance;
+    parse(input: string): TransferCodingHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<TransferCodingHeaderValue> }): boolean;
+};
 
 
 export interface __TransferCodingHeaderValue$views {
@@ -652,12 +764,16 @@ export interface TransferCodingHeaderValue$instance extends System_Internal.IClo
 export type TransferCodingHeaderValue = TransferCodingHeaderValue$instance & __TransferCodingHeaderValue$views;
 
 
-export class TransferCodingWithQualityHeaderValue$instance extends TransferCodingHeaderValue$instance {
-    constructor(value: string);
-    constructor(value: string, quality: double);
+export interface TransferCodingWithQualityHeaderValue$instance extends TransferCodingHeaderValue$instance {
     quality: Nullable_1<CLROf<double>>;
     clone(): unknown;
 }
+
+
+export const TransferCodingWithQualityHeaderValue: {
+    new(value: string): TransferCodingWithQualityHeaderValue$instance;
+    new(value: string, quality: double): TransferCodingWithQualityHeaderValue$instance;
+};
 
 
 export interface __TransferCodingWithQualityHeaderValue$views {
@@ -669,10 +785,7 @@ export interface TransferCodingWithQualityHeaderValue$instance extends System_In
 export type TransferCodingWithQualityHeaderValue = TransferCodingWithQualityHeaderValue$instance & __TransferCodingWithQualityHeaderValue$views;
 
 
-export class ViaHeaderValue$instance {
-    constructor(protocolVersion: string, receivedBy: string);
-    constructor(protocolVersion: string, receivedBy: string, protocolName: string);
-    constructor(protocolVersion: string, receivedBy: string, protocolName: string, comment: string);
+export interface ViaHeaderValue$instance {
     readonly comment: string;
     readonly protocolName: string;
     readonly protocolVersion: string;
@@ -680,9 +793,16 @@ export class ViaHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): ViaHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<ViaHeaderValue> }): boolean;
 }
+
+
+export const ViaHeaderValue: {
+    new(protocolVersion: string, receivedBy: string): ViaHeaderValue$instance;
+    new(protocolVersion: string, receivedBy: string, protocolName: string): ViaHeaderValue$instance;
+    new(protocolVersion: string, receivedBy: string, protocolName: string, comment: string): ViaHeaderValue$instance;
+    parse(input: string): ViaHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<ViaHeaderValue> }): boolean;
+};
 
 
 export interface __ViaHeaderValue$views {
@@ -694,9 +814,7 @@ export interface ViaHeaderValue$instance extends System_Internal.ICloneable$inst
 export type ViaHeaderValue = ViaHeaderValue$instance & __ViaHeaderValue$views;
 
 
-export class WarningHeaderValue$instance {
-    constructor(code: int, agent: string, text: string);
-    constructor(code: int, agent: string, text: string, date: DateTimeOffset);
+export interface WarningHeaderValue$instance {
     readonly agent: string;
     readonly code: int;
     readonly date: Nullable_1<DateTimeOffset>;
@@ -704,9 +822,15 @@ export class WarningHeaderValue$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static parse(input: string): WarningHeaderValue;
-    static tryParse(input: string, parsedValue: { value: ref<WarningHeaderValue> }): boolean;
 }
+
+
+export const WarningHeaderValue: {
+    new(code: int, agent: string, text: string): WarningHeaderValue$instance;
+    new(code: int, agent: string, text: string, date: DateTimeOffset): WarningHeaderValue$instance;
+    parse(input: string): WarningHeaderValue;
+    tryParse(input: string, parsedValue: { value: ref<WarningHeaderValue> }): boolean;
+};
 
 
 export interface __WarningHeaderValue$views {

@@ -13,6 +13,6 @@ export * from './internal/index.js';
 // Individual type exports for convenience
 export { Cer as Cer } from './internal/index.js';
 export { Consistency as Consistency } from './internal/index.js';
-export { CriticalFinalizerObject$instance as CriticalFinalizerObject } from './internal/index.js';
-export { PrePrepareMethodAttribute$instance as PrePrepareMethodAttribute } from './internal/index.js';
-export { ReliabilityContractAttribute$instance as ReliabilityContractAttribute } from './internal/index.js';
+export { CriticalFinalizerObject as CriticalFinalizerObject } from './internal/index.js';
+export { PrePrepareMethodAttribute as PrePrepareMethodAttribute } from './internal/index.js';
+export { ReliabilityContractAttribute as ReliabilityContractAttribute } from './internal/index.js';

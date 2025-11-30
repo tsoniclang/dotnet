@@ -39,18 +39,20 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class GeneratedCodeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(tool: string, version: string);
+export interface GeneratedCodeAttribute$instance extends Attribute {
     readonly tool: string;
     readonly version: string;
 }
 
 
+export const GeneratedCodeAttribute: {
+    new(tool: string, version: string): GeneratedCodeAttribute$instance;
+};
+
+
 export type GeneratedCodeAttribute = GeneratedCodeAttribute$instance;
 
-export class IndentedTextWriter$instance extends System_IO_Internal.TextWriter$instance {
-    constructor(writer: TextWriter);
-    constructor(writer: TextWriter, tabString: string);
+export interface IndentedTextWriter$instance extends TextWriter {
     readonly encoding: Encoding;
     indent: int;
     readonly innerWriter: TextWriter;
@@ -121,8 +123,14 @@ export class IndentedTextWriter$instance extends System_IO_Internal.TextWriter$i
     writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
     writeLineNoTabs(s: string): void;
     writeLineNoTabsAsync(s: string): Task;
-    static readonly defaultTabString: string;
 }
+
+
+export const IndentedTextWriter: {
+    new(writer: TextWriter): IndentedTextWriter$instance;
+    new(writer: TextWriter, tabString: string): IndentedTextWriter$instance;
+    readonly defaultTabString: string;
+};
 
 
 export interface __IndentedTextWriter$views {

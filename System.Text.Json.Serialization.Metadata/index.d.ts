@@ -18,22 +18,22 @@ import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Char, DateOnly, D
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { DefaultJsonTypeInfoResolver$instance as DefaultJsonTypeInfoResolver } from './internal/index.js';
+export { DefaultJsonTypeInfoResolver as DefaultJsonTypeInfoResolver } from './internal/index.js';
 export type IJsonTypeInfoResolver = Internal.IJsonTypeInfoResolver;
-export { JsonDerivedType$instance as JsonDerivedType } from './internal/index.js';
-export { JsonPolymorphismOptions$instance as JsonPolymorphismOptions } from './internal/index.js';
-export { JsonTypeInfo_1$instance as JsonTypeInfo_1 } from './internal/index.js';
-export { JsonTypeInfo_1$instance as JsonTypeInfo } from './internal/index.js';
+export { JsonDerivedType as JsonDerivedType } from './internal/index.js';
+export { JsonPolymorphismOptions as JsonPolymorphismOptions } from './internal/index.js';
+export { JsonTypeInfo_1 as JsonTypeInfo_1 } from './internal/index.js';
+export { JsonTypeInfo_1 as JsonTypeInfo } from './internal/index.js';
 export { JsonTypeInfoResolver$instance as JsonTypeInfoResolver } from './internal/index.js';
 export { JsonTypeInfoKind as JsonTypeInfoKind } from './internal/index.js';
-export { JsonCollectionInfoValues_1$instance as JsonCollectionInfoValues_1 } from './internal/index.js';
-export { JsonCollectionInfoValues_1$instance as JsonCollectionInfoValues } from './internal/index.js';
+export { JsonCollectionInfoValues_1 as JsonCollectionInfoValues_1 } from './internal/index.js';
+export { JsonCollectionInfoValues_1 as JsonCollectionInfoValues } from './internal/index.js';
 export { JsonMetadataServices$instance as JsonMetadataServices } from './internal/index.js';
-export { JsonObjectInfoValues_1$instance as JsonObjectInfoValues_1 } from './internal/index.js';
-export { JsonObjectInfoValues_1$instance as JsonObjectInfoValues } from './internal/index.js';
-export { JsonParameterInfoValues$instance as JsonParameterInfoValues } from './internal/index.js';
-export { JsonParameterInfo$instance as JsonParameterInfo } from './internal/index.js';
-export { JsonPropertyInfo$instance as JsonPropertyInfo } from './internal/index.js';
-export { JsonPropertyInfoValues_1$instance as JsonPropertyInfoValues_1 } from './internal/index.js';
-export { JsonPropertyInfoValues_1$instance as JsonPropertyInfoValues } from './internal/index.js';
-export { JsonTypeInfo$instance as JsonTypeInfo_0 } from './internal/index.js';
+export { JsonObjectInfoValues_1 as JsonObjectInfoValues_1 } from './internal/index.js';
+export { JsonObjectInfoValues_1 as JsonObjectInfoValues } from './internal/index.js';
+export { JsonParameterInfoValues as JsonParameterInfoValues } from './internal/index.js';
+export { JsonParameterInfo as JsonParameterInfo } from './internal/index.js';
+export { JsonPropertyInfo as JsonPropertyInfo } from './internal/index.js';
+export { JsonPropertyInfoValues_1 as JsonPropertyInfoValues_1 } from './internal/index.js';
+export { JsonPropertyInfoValues_1 as JsonPropertyInfoValues } from './internal/index.js';
+export { JsonTypeInfo as JsonTypeInfo_0 } from './internal/index.js';

@@ -442,18 +442,34 @@ export enum TlsCipherSuite {
 }
 
 
-export class SslApplicationProtocol$instance {
-    constructor(protocol: byte[]);
-    constructor(protocol: string);
+export type LocalCertificateSelectionCallback = (sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[]) => X509Certificate;
+
+
+export type RemoteCertificateValidationCallback = (sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors) => boolean;
+
+
+export type ServerCertificateSelectionCallback = (sender: unknown, hostName: string) => X509Certificate;
+
+
+export type ServerOptionsSelectionCallback = (stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken) => ValueTask_1<SslServerAuthenticationOptions>;
+
+
+export interface SslApplicationProtocol$instance {
     readonly protocol: ReadOnlyMemory_1<CLROf<byte>>;
     equals(other: SslApplicationProtocol): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly http3: SslApplicationProtocol;
-    static readonly http2: SslApplicationProtocol;
-    static readonly http11: SslApplicationProtocol;
 }
+
+
+export const SslApplicationProtocol: {
+    new(protocol: byte[]): SslApplicationProtocol$instance;
+    new(protocol: string): SslApplicationProtocol$instance;
+    readonly http3: SslApplicationProtocol;
+    readonly http2: SslApplicationProtocol;
+    readonly http11: SslApplicationProtocol;
+};
 
 
 export interface __SslApplicationProtocol$views {
@@ -466,16 +482,20 @@ export interface __SslApplicationProtocol$views {
 export type SslApplicationProtocol = SslApplicationProtocol$instance & __SslApplicationProtocol$views;
 
 
-export class SslClientHelloInfo$instance {
-    constructor(serverName: string, sslProtocols: SslProtocols);
+export interface SslClientHelloInfo$instance {
     readonly serverName: string;
     readonly sslProtocols: SslProtocols;
 }
 
 
+export const SslClientHelloInfo: {
+    new(serverName: string, sslProtocols: SslProtocols): SslClientHelloInfo$instance;
+};
+
+
 export type SslClientHelloInfo = SslClientHelloInfo$instance;
 
-export abstract class AuthenticatedStream$instance extends System_IO_Internal.Stream$instance {
+export interface AuthenticatedStream$instance extends Stream {
     readonly isAuthenticated: boolean;
     readonly isEncrypted: boolean;
     readonly isMutuallyAuthenticated: boolean;
@@ -487,6 +507,10 @@ export abstract class AuthenticatedStream$instance extends System_IO_Internal.St
 }
 
 
+export const AuthenticatedStream: {
+};
+
+
 export interface __AuthenticatedStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -495,35 +519,19 @@ export interface __AuthenticatedStream$views {
 export type AuthenticatedStream = AuthenticatedStream$instance & __AuthenticatedStream$views;
 
 
-export class CipherSuitesPolicy$instance {
-    constructor(allowedCipherSuites: IEnumerable_1<TlsCipherSuite>);
+export interface CipherSuitesPolicy$instance {
     readonly allowedCipherSuites: IEnumerable_1<TlsCipherSuite>;
 }
 
 
+export const CipherSuitesPolicy: {
+    new(allowedCipherSuites: IEnumerable_1<TlsCipherSuite>): CipherSuitesPolicy$instance;
+};
+
+
 export type CipherSuitesPolicy = CipherSuitesPolicy$instance;
 
-export class LocalCertificateSelectionCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[], callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): X509Certificate;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, targetHost: string, localCertificates: X509CertificateCollection, remoteCertificate: X509Certificate, acceptableIssuers: string[]): X509Certificate;
-}
-
-
-export interface __LocalCertificateSelectionCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type LocalCertificateSelectionCallback = LocalCertificateSelectionCallback$instance & __LocalCertificateSelectionCallback$views;
-
-
-export class NegotiateAuthentication$instance {
-    constructor(clientOptions: NegotiateAuthenticationClientOptions);
-    constructor(serverOptions: NegotiateAuthenticationServerOptions);
+export interface NegotiateAuthentication$instance {
     readonly impersonationLevel: TokenImpersonationLevel;
     readonly isAuthenticated: boolean;
     readonly isEncrypted: boolean;
@@ -545,6 +553,12 @@ export class NegotiateAuthentication$instance {
 }
 
 
+export const NegotiateAuthentication: {
+    new(clientOptions: NegotiateAuthenticationClientOptions): NegotiateAuthentication$instance;
+    new(serverOptions: NegotiateAuthenticationServerOptions): NegotiateAuthentication$instance;
+};
+
+
 export interface __NegotiateAuthentication$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -554,8 +568,7 @@ export interface NegotiateAuthentication$instance extends System_Internal.IDispo
 export type NegotiateAuthentication = NegotiateAuthentication$instance & __NegotiateAuthentication$views;
 
 
-export class NegotiateAuthenticationClientOptions$instance {
-    constructor();
+export interface NegotiateAuthenticationClientOptions$instance {
     allowedImpersonationLevel: TokenImpersonationLevel;
     binding: ChannelBinding;
     credential: NetworkCredential;
@@ -566,10 +579,14 @@ export class NegotiateAuthenticationClientOptions$instance {
 }
 
 
+export const NegotiateAuthenticationClientOptions: {
+    new(): NegotiateAuthenticationClientOptions$instance;
+};
+
+
 export type NegotiateAuthenticationClientOptions = NegotiateAuthenticationClientOptions$instance;
 
-export class NegotiateAuthenticationServerOptions$instance {
-    constructor();
+export interface NegotiateAuthenticationServerOptions$instance {
     binding: ChannelBinding;
     credential: NetworkCredential;
     package_: string;
@@ -579,11 +596,14 @@ export class NegotiateAuthenticationServerOptions$instance {
 }
 
 
+export const NegotiateAuthenticationServerOptions: {
+    new(): NegotiateAuthenticationServerOptions$instance;
+};
+
+
 export type NegotiateAuthenticationServerOptions = NegotiateAuthenticationServerOptions$instance;
 
-export class NegotiateStream$instance extends AuthenticatedStream$instance {
-    constructor(innerStream: Stream);
-    constructor(innerStream: Stream, leaveInnerStreamOpen: boolean);
+export interface NegotiateStream$instance extends AuthenticatedStream$instance {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canTimeout: boolean;
@@ -655,6 +675,12 @@ export class NegotiateStream$instance extends AuthenticatedStream$instance {
 }
 
 
+export const NegotiateStream: {
+    new(innerStream: Stream): NegotiateStream$instance;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean): NegotiateStream$instance;
+};
+
+
 export interface __NegotiateStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -663,70 +689,20 @@ export interface __NegotiateStream$views {
 export type NegotiateStream = NegotiateStream$instance & __NegotiateStream$views;
 
 
-export class RemoteCertificateValidationCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, certificate: X509Certificate, chain: X509Chain, sslPolicyErrors: SslPolicyErrors): boolean;
+export interface SslCertificateTrust$instance {
 }
 
 
-export interface __RemoteCertificateValidationCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RemoteCertificateValidationCallback = RemoteCertificateValidationCallback$instance & __RemoteCertificateValidationCallback$views;
-
-
-export class ServerCertificateSelectionCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, hostName: string, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): X509Certificate;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, hostName: string): X509Certificate;
-}
-
-
-export interface __ServerCertificateSelectionCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ServerCertificateSelectionCallback = ServerCertificateSelectionCallback$instance & __ServerCertificateSelectionCallback$views;
-
-
-export class ServerOptionsSelectionCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): ValueTask_1<SslServerAuthenticationOptions>;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(stream: SslStream, clientHelloInfo: SslClientHelloInfo, state: unknown, cancellationToken: CancellationToken): ValueTask_1<SslServerAuthenticationOptions>;
-}
-
-
-export interface __ServerOptionsSelectionCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ServerOptionsSelectionCallback = ServerOptionsSelectionCallback$instance & __ServerOptionsSelectionCallback$views;
-
-
-export class SslCertificateTrust$instance {
-    static createForX509Collection(trustList: X509Certificate2Collection, sendTrustInHandshake?: boolean): SslCertificateTrust;
-    static createForX509Store(store: X509Store, sendTrustInHandshake?: boolean): SslCertificateTrust;
-}
+export const SslCertificateTrust: {
+    new(): SslCertificateTrust$instance;
+    createForX509Collection(trustList: X509Certificate2Collection, sendTrustInHandshake?: boolean): SslCertificateTrust;
+    createForX509Store(store: X509Store, sendTrustInHandshake?: boolean): SslCertificateTrust;
+};
 
 
 export type SslCertificateTrust = SslCertificateTrust$instance;
 
-export class SslClientAuthenticationOptions$instance {
-    constructor();
+export interface SslClientAuthenticationOptions$instance {
     allowRenegotiation: boolean;
     allowRsaPkcs1Padding: boolean;
     allowRsaPssPadding: boolean;
@@ -745,10 +721,14 @@ export class SslClientAuthenticationOptions$instance {
 }
 
 
+export const SslClientAuthenticationOptions: {
+    new(): SslClientAuthenticationOptions$instance;
+};
+
+
 export type SslClientAuthenticationOptions = SslClientAuthenticationOptions$instance;
 
-export class SslServerAuthenticationOptions$instance {
-    constructor();
+export interface SslServerAuthenticationOptions$instance {
     allowRenegotiation: boolean;
     allowRsaPkcs1Padding: boolean;
     allowRsaPssPadding: boolean;
@@ -767,14 +747,14 @@ export class SslServerAuthenticationOptions$instance {
 }
 
 
+export const SslServerAuthenticationOptions: {
+    new(): SslServerAuthenticationOptions$instance;
+};
+
+
 export type SslServerAuthenticationOptions = SslServerAuthenticationOptions$instance;
 
-export class SslStream$instance extends AuthenticatedStream$instance {
-    constructor(innerStream: Stream);
-    constructor(innerStream: Stream, leaveInnerStreamOpen: boolean);
-    constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback);
-    constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback);
-    constructor(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback, encryptionPolicy: EncryptionPolicy);
+export interface SslStream$instance extends AuthenticatedStream$instance {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canTimeout: boolean;
@@ -861,6 +841,15 @@ export class SslStream$instance extends AuthenticatedStream$instance {
 }
 
 
+export const SslStream: {
+    new(innerStream: Stream): SslStream$instance;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean): SslStream$instance;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback): SslStream$instance;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback): SslStream$instance;
+    new(innerStream: Stream, leaveInnerStreamOpen: boolean, userCertificateValidationCallback: RemoteCertificateValidationCallback, userCertificateSelectionCallback: LocalCertificateSelectionCallback, encryptionPolicy: EncryptionPolicy): SslStream$instance;
+};
+
+
 export interface __SslStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -869,12 +858,17 @@ export interface __SslStream$views {
 export type SslStream = SslStream$instance & __SslStream$views;
 
 
-export class SslStreamCertificateContext$instance {
+export interface SslStreamCertificateContext$instance {
     readonly intermediateCertificates: ReadOnlyCollection_1<X509Certificate2>;
     readonly targetCertificate: X509Certificate2;
-    static create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
-    static create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
 }
+
+
+export const SslStreamCertificateContext: {
+    new(): SslStreamCertificateContext$instance;
+    create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
+    create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
+};
 
 
 export type SslStreamCertificateContext = SslStreamCertificateContext$instance;

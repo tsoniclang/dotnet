@@ -77,9 +77,7 @@ export enum XObjectChange {
 }
 
 
-export class XAttribute$instance extends XObject$instance {
-    constructor(name: XName, value: unknown);
-    constructor(other: XAttribute);
+export interface XAttribute$instance extends XObject$instance {
     readonly isNamespaceDeclaration: boolean;
     readonly name: XName;
     readonly nextAttribute: XAttribute;
@@ -90,8 +88,14 @@ export class XAttribute$instance extends XObject$instance {
     remove(): void;
     setValue(value: unknown): void;
     toString(): string;
-    static readonly emptySequence: IEnumerable_1<XAttribute>;
 }
+
+
+export const XAttribute: {
+    new(name: XName, value: unknown): XAttribute$instance;
+    new(other: XAttribute): XAttribute$instance;
+    readonly emptySequence: IEnumerable_1<XAttribute>;
+};
 
 
 export interface __XAttribute$views {
@@ -103,14 +107,18 @@ export interface XAttribute$instance extends System_Xml_Internal.IXmlLineInfo$in
 export type XAttribute = XAttribute$instance & __XAttribute$views;
 
 
-export class XCData$instance extends XText$instance {
-    constructor(value: string);
-    constructor(other: XCData);
+export interface XCData$instance extends XText$instance {
     readonly nodeType: XmlNodeType;
     hasLineInfo(): boolean;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
+
+
+export const XCData: {
+    new(value: string): XCData$instance;
+    new(other: XCData): XCData$instance;
+};
 
 
 export interface __XCData$views {
@@ -120,15 +128,19 @@ export interface __XCData$views {
 export type XCData = XCData$instance & __XCData$views;
 
 
-export class XComment$instance extends XNode$instance {
-    constructor(value: string);
-    constructor(other: XComment);
+export interface XComment$instance extends XNode$instance {
     readonly nodeType: XmlNodeType;
     value: string;
     hasLineInfo(): boolean;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
+
+
+export const XComment: {
+    new(value: string): XComment$instance;
+    new(other: XComment): XComment$instance;
+};
 
 
 export interface __XComment$views {
@@ -138,7 +150,7 @@ export interface __XComment$views {
 export type XComment = XComment$instance & __XComment$views;
 
 
-export abstract class XContainer$instance extends XNode$instance {
+export interface XContainer$instance extends XNode$instance {
     readonly firstNode: XNode;
     readonly lastNode: XNode;
     add(content: unknown): void;
@@ -160,6 +172,10 @@ export abstract class XContainer$instance extends XNode$instance {
 }
 
 
+export const XContainer: {
+};
+
+
 export interface __XContainer$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
@@ -167,9 +183,7 @@ export interface __XContainer$views {
 export type XContainer = XContainer$instance & __XContainer$views;
 
 
-export class XDeclaration$instance {
-    constructor(version: string, encoding: string, standalone: string);
-    constructor(other: XDeclaration);
+export interface XDeclaration$instance {
     encoding: string;
     standalone: string;
     version: string;
@@ -177,13 +191,15 @@ export class XDeclaration$instance {
 }
 
 
+export const XDeclaration: {
+    new(version: string, encoding: string, standalone: string): XDeclaration$instance;
+    new(other: XDeclaration): XDeclaration$instance;
+};
+
+
 export type XDeclaration = XDeclaration$instance;
 
-export class XDocument$instance extends XContainer$instance {
-    constructor();
-    constructor(content: unknown[]);
-    constructor(declaration: XDeclaration, content: unknown[]);
-    constructor(other: XDocument);
+export interface XDocument$instance extends XContainer$instance {
     declaration: XDeclaration;
     readonly documentType: XDocumentType;
     readonly nodeType: XmlNodeType;
@@ -201,20 +217,28 @@ export class XDocument$instance extends XContainer$instance {
     saveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    static load(stream: Stream, options: LoadOptions): XDocument;
-    static load(stream: Stream): XDocument;
-    static load(textReader: TextReader, options: LoadOptions): XDocument;
-    static load(textReader: TextReader): XDocument;
-    static load(uri: string, options: LoadOptions): XDocument;
-    static load(uri: string): XDocument;
-    static load(reader: XmlReader, options: LoadOptions): XDocument;
-    static load(reader: XmlReader): XDocument;
-    static loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
-    static loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
-    static loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
-    static parse(text: string, options: LoadOptions): XDocument;
-    static parse(text: string): XDocument;
 }
+
+
+export const XDocument: {
+    new(): XDocument$instance;
+    new(content: unknown[]): XDocument$instance;
+    new(declaration: XDeclaration, content: unknown[]): XDocument$instance;
+    new(other: XDocument): XDocument$instance;
+    load(stream: Stream, options: LoadOptions): XDocument;
+    load(stream: Stream): XDocument;
+    load(textReader: TextReader, options: LoadOptions): XDocument;
+    load(textReader: TextReader): XDocument;
+    load(uri: string, options: LoadOptions): XDocument;
+    load(uri: string): XDocument;
+    load(reader: XmlReader, options: LoadOptions): XDocument;
+    load(reader: XmlReader): XDocument;
+    loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
+    loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
+    loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
+    parse(text: string, options: LoadOptions): XDocument;
+    parse(text: string): XDocument;
+};
 
 
 export interface __XDocument$views {
@@ -224,9 +248,7 @@ export interface __XDocument$views {
 export type XDocument = XDocument$instance & __XDocument$views;
 
 
-export class XDocumentType$instance extends XNode$instance {
-    constructor(name: string, publicId: string, systemId: string, internalSubset: string);
-    constructor(other: XDocumentType);
+export interface XDocumentType$instance extends XNode$instance {
     internalSubset: string;
     name: string;
     readonly nodeType: XmlNodeType;
@@ -238,6 +260,12 @@ export class XDocumentType$instance extends XNode$instance {
 }
 
 
+export const XDocumentType: {
+    new(name: string, publicId: string, systemId: string, internalSubset: string): XDocumentType$instance;
+    new(other: XDocumentType): XDocumentType$instance;
+};
+
+
 export interface __XDocumentType$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
@@ -245,12 +273,7 @@ export interface __XDocumentType$views {
 export type XDocumentType = XDocumentType$instance & __XDocumentType$views;
 
 
-export class XElement$instance extends XContainer$instance {
-    constructor(name: XName);
-    constructor(name: XName, content: unknown);
-    constructor(name: XName, content: unknown[]);
-    constructor(other: XElement);
-    constructor(other: XStreamingElement);
+export interface XElement$instance extends XContainer$instance {
     readonly firstAttribute: XAttribute;
     readonly hasAttributes: boolean;
     readonly hasElements: boolean;
@@ -292,21 +315,30 @@ export class XElement$instance extends XContainer$instance {
     setValue(value: unknown): void;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    static readonly emptySequence: IEnumerable_1<XElement>;
-    static load(stream: Stream, options: LoadOptions): XElement;
-    static load(stream: Stream): XElement;
-    static load(textReader: TextReader, options: LoadOptions): XElement;
-    static load(textReader: TextReader): XElement;
-    static load(uri: string, options: LoadOptions): XElement;
-    static load(uri: string): XElement;
-    static load(reader: XmlReader, options: LoadOptions): XElement;
-    static load(reader: XmlReader): XElement;
-    static loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
-    static loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
-    static loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
-    static parse(text: string, options: LoadOptions): XElement;
-    static parse(text: string): XElement;
 }
+
+
+export const XElement: {
+    new(name: XName): XElement$instance;
+    new(name: XName, content: unknown): XElement$instance;
+    new(name: XName, content: unknown[]): XElement$instance;
+    new(other: XElement): XElement$instance;
+    new(other: XStreamingElement): XElement$instance;
+    readonly emptySequence: IEnumerable_1<XElement>;
+    load(stream: Stream, options: LoadOptions): XElement;
+    load(stream: Stream): XElement;
+    load(textReader: TextReader, options: LoadOptions): XElement;
+    load(textReader: TextReader): XElement;
+    load(uri: string, options: LoadOptions): XElement;
+    load(uri: string): XElement;
+    load(reader: XmlReader, options: LoadOptions): XElement;
+    load(reader: XmlReader): XElement;
+    loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
+    loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
+    loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
+    parse(text: string, options: LoadOptions): XElement;
+    parse(text: string): XElement;
+};
 
 
 export interface __XElement$views {
@@ -319,16 +351,21 @@ export interface XElement$instance extends System_Xml_Serialization_Internal.IXm
 export type XElement = XElement$instance & __XElement$views;
 
 
-export class XName$instance {
+export interface XName$instance {
     readonly localName: string;
     readonly namespace_: XNamespace;
     readonly namespaceName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static get_(localName: string, namespaceName: string): XName;
-    static get_(expandedName: string): XName;
 }
+
+
+export const XName: {
+    new(): XName$instance;
+    get_(localName: string, namespaceName: string): XName;
+    get_(expandedName: string): XName;
+};
 
 
 export interface __XName$views {
@@ -344,22 +381,27 @@ export interface XName$instance extends System_Runtime_Serialization_Internal.IS
 export type XName = XName$instance & __XName$views;
 
 
-export class XNamespace$instance {
+export interface XNamespace$instance {
     readonly namespaceName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     getName(localName: string): XName;
     toString(): string;
-    static readonly none: XNamespace;
-    static readonly xml: XNamespace;
-    static readonly xmlns: XNamespace;
-    static get_(namespaceName: string): XNamespace;
 }
+
+
+export const XNamespace: {
+    new(): XNamespace$instance;
+    readonly none: XNamespace;
+    readonly xml: XNamespace;
+    readonly xmlns: XNamespace;
+    get_(namespaceName: string): XNamespace;
+};
 
 
 export type XNamespace = XNamespace$instance;
 
-export abstract class XNode$instance extends XObject$instance {
+export interface XNode$instance extends XObject$instance {
     readonly nextNode: XNode;
     readonly previousNode: XNode;
     addAfterSelf(content: unknown): void;
@@ -384,15 +426,19 @@ export abstract class XNode$instance extends XObject$instance {
     replaceWith(content: unknown[]): void;
     toString(): string;
     toString(options: SaveOptions): string;
-    abstract writeTo(writer: XmlWriter): void;
-    abstract writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    static readonly documentOrderComparer: XNodeDocumentOrderComparer;
-    static readonly equalityComparer: XNodeEqualityComparer;
-    static compareDocumentOrder(n1: XNode, n2: XNode): int;
-    static deepEquals(n1: XNode, n2: XNode): boolean;
-    static readFrom(reader: XmlReader): XNode;
-    static readFromAsync(reader: XmlReader, cancellationToken: CancellationToken): Task_1<XNode>;
+    writeTo(writer: XmlWriter): void;
+    writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
+
+
+export const XNode: {
+    readonly documentOrderComparer: XNodeDocumentOrderComparer;
+    readonly equalityComparer: XNodeEqualityComparer;
+    compareDocumentOrder(n1: XNode, n2: XNode): int;
+    deepEquals(n1: XNode, n2: XNode): boolean;
+    readFrom(reader: XmlReader): XNode;
+    readFromAsync(reader: XmlReader, cancellationToken: CancellationToken): Task_1<XNode>;
+};
 
 
 export interface __XNode$views {
@@ -404,10 +450,14 @@ export interface XNode$instance extends System_Xml_Internal.IXmlLineInfo$instanc
 export type XNode = XNode$instance & __XNode$views;
 
 
-export class XNodeDocumentOrderComparer$instance {
-    constructor();
+export interface XNodeDocumentOrderComparer$instance {
     compare(x: XNode, y: XNode): int;
 }
+
+
+export const XNodeDocumentOrderComparer: {
+    new(): XNodeDocumentOrderComparer$instance;
+};
 
 
 export interface __XNodeDocumentOrderComparer$views {
@@ -420,11 +470,15 @@ export interface XNodeDocumentOrderComparer$instance extends System_Collections_
 export type XNodeDocumentOrderComparer = XNodeDocumentOrderComparer$instance & __XNodeDocumentOrderComparer$views;
 
 
-export class XNodeEqualityComparer$instance {
-    constructor();
+export interface XNodeEqualityComparer$instance {
     equals(x: XNode, y: XNode): boolean;
     getHashCode(obj: XNode): int;
 }
+
+
+export const XNodeEqualityComparer: {
+    new(): XNodeEqualityComparer$instance;
+};
 
 
 export interface __XNodeEqualityComparer$views {
@@ -435,7 +489,7 @@ export interface __XNodeEqualityComparer$views {
 export type XNodeEqualityComparer = XNodeEqualityComparer$instance & __XNodeEqualityComparer$views;
 
 
-export abstract class XObject$instance {
+export interface XObject$instance {
     readonly baseUri: string;
     readonly document: XDocument;
     readonly nodeType: XmlNodeType;
@@ -450,6 +504,10 @@ export abstract class XObject$instance {
 }
 
 
+export const XObject: {
+};
+
+
 export interface __XObject$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
@@ -459,21 +517,23 @@ export interface XObject$instance extends System_Xml_Internal.IXmlLineInfo$insta
 export type XObject = XObject$instance & __XObject$views;
 
 
-export class XObjectChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(objectChange: XObjectChange);
+export interface XObjectChangeEventArgs$instance extends EventArgs {
     readonly objectChange: XObjectChange;
-    static readonly add: XObjectChangeEventArgs;
-    static readonly remove: XObjectChangeEventArgs;
-    static readonly name: XObjectChangeEventArgs;
-    static readonly value: XObjectChangeEventArgs;
 }
+
+
+export const XObjectChangeEventArgs: {
+    new(objectChange: XObjectChange): XObjectChangeEventArgs$instance;
+    readonly add: XObjectChangeEventArgs;
+    readonly remove: XObjectChangeEventArgs;
+    readonly name: XObjectChangeEventArgs;
+    readonly value: XObjectChangeEventArgs;
+};
 
 
 export type XObjectChangeEventArgs = XObjectChangeEventArgs$instance;
 
-export class XProcessingInstruction$instance extends XNode$instance {
-    constructor(target: string, data: string);
-    constructor(other: XProcessingInstruction);
+export interface XProcessingInstruction$instance extends XNode$instance {
     data: string;
     readonly nodeType: XmlNodeType;
     target: string;
@@ -483,6 +543,12 @@ export class XProcessingInstruction$instance extends XNode$instance {
 }
 
 
+export const XProcessingInstruction: {
+    new(target: string, data: string): XProcessingInstruction$instance;
+    new(other: XProcessingInstruction): XProcessingInstruction$instance;
+};
+
+
 export interface __XProcessingInstruction$views {
     As_IXmlLineInfo(): System_Xml_Internal.IXmlLineInfo$instance;
 }
@@ -490,10 +556,7 @@ export interface __XProcessingInstruction$views {
 export type XProcessingInstruction = XProcessingInstruction$instance & __XProcessingInstruction$views;
 
 
-export class XStreamingElement$instance {
-    constructor(name: XName);
-    constructor(name: XName, content: unknown);
-    constructor(name: XName, content: unknown[]);
+export interface XStreamingElement$instance {
     name: XName;
     add(content: unknown): void;
     add(content: unknown[]): void;
@@ -510,17 +573,28 @@ export class XStreamingElement$instance {
 }
 
 
+export const XStreamingElement: {
+    new(name: XName): XStreamingElement$instance;
+    new(name: XName, content: unknown): XStreamingElement$instance;
+    new(name: XName, content: unknown[]): XStreamingElement$instance;
+};
+
+
 export type XStreamingElement = XStreamingElement$instance;
 
-export class XText$instance extends XNode$instance {
-    constructor(value: string);
-    constructor(other: XText);
+export interface XText$instance extends XNode$instance {
     readonly nodeType: XmlNodeType;
     value: string;
     hasLineInfo(): boolean;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
 }
+
+
+export const XText: {
+    new(value: string): XText$instance;
+    new(other: XText): XText$instance;
+};
 
 
 export interface __XText$views {

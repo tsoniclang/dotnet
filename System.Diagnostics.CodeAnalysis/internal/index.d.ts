@@ -68,58 +68,77 @@ export enum DynamicallyAccessedMemberTypes {
 }
 
 
-export class AllowNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface AllowNullAttribute$instance extends Attribute {
 }
+
+
+export const AllowNullAttribute: {
+    new(): AllowNullAttribute$instance;
+};
 
 
 export type AllowNullAttribute = AllowNullAttribute$instance;
 
-export class ConstantExpectedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ConstantExpectedAttribute$instance extends Attribute {
     max: unknown;
     min: unknown;
 }
 
 
+export const ConstantExpectedAttribute: {
+    new(): ConstantExpectedAttribute$instance;
+};
+
+
 export type ConstantExpectedAttribute = ConstantExpectedAttribute$instance;
 
-export class DisallowNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DisallowNullAttribute$instance extends Attribute {
 }
+
+
+export const DisallowNullAttribute: {
+    new(): DisallowNullAttribute$instance;
+};
 
 
 export type DisallowNullAttribute = DisallowNullAttribute$instance;
 
-export class DoesNotReturnAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DoesNotReturnAttribute$instance extends Attribute {
 }
+
+
+export const DoesNotReturnAttribute: {
+    new(): DoesNotReturnAttribute$instance;
+};
 
 
 export type DoesNotReturnAttribute = DoesNotReturnAttribute$instance;
 
-export class DoesNotReturnIfAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(parameterValue: boolean);
+export interface DoesNotReturnIfAttribute$instance extends Attribute {
     readonly parameterValue: boolean;
 }
 
 
+export const DoesNotReturnIfAttribute: {
+    new(parameterValue: boolean): DoesNotReturnIfAttribute$instance;
+};
+
+
 export type DoesNotReturnIfAttribute = DoesNotReturnIfAttribute$instance;
 
-export class DynamicallyAccessedMembersAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(memberTypes: DynamicallyAccessedMemberTypes);
+export interface DynamicallyAccessedMembersAttribute$instance extends Attribute {
     readonly memberTypes: DynamicallyAccessedMemberTypes;
 }
 
 
+export const DynamicallyAccessedMembersAttribute: {
+    new(memberTypes: DynamicallyAccessedMemberTypes): DynamicallyAccessedMembersAttribute$instance;
+};
+
+
 export type DynamicallyAccessedMembersAttribute = DynamicallyAccessedMembersAttribute$instance;
 
-export class DynamicDependencyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(memberSignature: string);
-    constructor(memberSignature: string, type_: Type);
-    constructor(memberSignature: string, typeName: string, assemblyName: string);
-    constructor(memberTypes: DynamicallyAccessedMemberTypes, type_: Type);
-    constructor(memberTypes: DynamicallyAccessedMemberTypes, typeName: string, assemblyName: string);
+export interface DynamicDependencyAttribute$instance extends Attribute {
     readonly assemblyName: string;
     condition: string;
     readonly memberSignature: string;
@@ -129,160 +148,232 @@ export class DynamicDependencyAttribute$instance extends System_Internal.Attribu
 }
 
 
+export const DynamicDependencyAttribute: {
+    new(memberSignature: string): DynamicDependencyAttribute$instance;
+    new(memberSignature: string, type_: Type): DynamicDependencyAttribute$instance;
+    new(memberSignature: string, typeName: string, assemblyName: string): DynamicDependencyAttribute$instance;
+    new(memberTypes: DynamicallyAccessedMemberTypes, type_: Type): DynamicDependencyAttribute$instance;
+    new(memberTypes: DynamicallyAccessedMemberTypes, typeName: string, assemblyName: string): DynamicDependencyAttribute$instance;
+};
+
+
 export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 
-export class ExcludeFromCodeCoverageAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ExcludeFromCodeCoverageAttribute$instance extends Attribute {
     justification: string;
 }
 
 
+export const ExcludeFromCodeCoverageAttribute: {
+    new(): ExcludeFromCodeCoverageAttribute$instance;
+};
+
+
 export type ExcludeFromCodeCoverageAttribute = ExcludeFromCodeCoverageAttribute$instance;
 
-export class ExperimentalAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(diagnosticId: string);
+export interface ExperimentalAttribute$instance extends Attribute {
     readonly diagnosticId: string;
     message: string;
     urlFormat: string;
 }
 
 
+export const ExperimentalAttribute: {
+    new(diagnosticId: string): ExperimentalAttribute$instance;
+};
+
+
 export type ExperimentalAttribute = ExperimentalAttribute$instance;
 
-export class FeatureGuardAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(featureType: Type);
+export interface FeatureGuardAttribute$instance extends Attribute {
     readonly featureType: Type;
 }
 
 
+export const FeatureGuardAttribute: {
+    new(featureType: Type): FeatureGuardAttribute$instance;
+};
+
+
 export type FeatureGuardAttribute = FeatureGuardAttribute$instance;
 
-export class FeatureSwitchDefinitionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(switchName: string);
+export interface FeatureSwitchDefinitionAttribute$instance extends Attribute {
     readonly switchName: string;
 }
 
 
+export const FeatureSwitchDefinitionAttribute: {
+    new(switchName: string): FeatureSwitchDefinitionAttribute$instance;
+};
+
+
 export type FeatureSwitchDefinitionAttribute = FeatureSwitchDefinitionAttribute$instance;
 
-export class MaybeNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface MaybeNullAttribute$instance extends Attribute {
 }
+
+
+export const MaybeNullAttribute: {
+    new(): MaybeNullAttribute$instance;
+};
 
 
 export type MaybeNullAttribute = MaybeNullAttribute$instance;
 
-export class MaybeNullWhenAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(returnValue: boolean);
+export interface MaybeNullWhenAttribute$instance extends Attribute {
     readonly returnValue: boolean;
 }
+
+
+export const MaybeNullWhenAttribute: {
+    new(returnValue: boolean): MaybeNullWhenAttribute$instance;
+};
 
 
 export type MaybeNullWhenAttribute = MaybeNullWhenAttribute$instance;
 
-export class MemberNotNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(member: string);
-    constructor(members: string[]);
+export interface MemberNotNullAttribute$instance extends Attribute {
     readonly members: string[];
 }
+
+
+export const MemberNotNullAttribute: {
+    new(member: string): MemberNotNullAttribute$instance;
+    new(members: string[]): MemberNotNullAttribute$instance;
+};
 
 
 export type MemberNotNullAttribute = MemberNotNullAttribute$instance;
 
-export class MemberNotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(returnValue: boolean, member: string);
-    constructor(returnValue: boolean, members: string[]);
+export interface MemberNotNullWhenAttribute$instance extends Attribute {
     readonly members: string[];
     readonly returnValue: boolean;
 }
 
 
+export const MemberNotNullWhenAttribute: {
+    new(returnValue: boolean, member: string): MemberNotNullWhenAttribute$instance;
+    new(returnValue: boolean, members: string[]): MemberNotNullWhenAttribute$instance;
+};
+
+
 export type MemberNotNullWhenAttribute = MemberNotNullWhenAttribute$instance;
 
-export class NotNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface NotNullAttribute$instance extends Attribute {
 }
+
+
+export const NotNullAttribute: {
+    new(): NotNullAttribute$instance;
+};
 
 
 export type NotNullAttribute = NotNullAttribute$instance;
 
-export class NotNullIfNotNullAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(parameterName: string);
+export interface NotNullIfNotNullAttribute$instance extends Attribute {
     readonly parameterName: string;
 }
 
 
+export const NotNullIfNotNullAttribute: {
+    new(parameterName: string): NotNullIfNotNullAttribute$instance;
+};
+
+
 export type NotNullIfNotNullAttribute = NotNullIfNotNullAttribute$instance;
 
-export class NotNullWhenAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(returnValue: boolean);
+export interface NotNullWhenAttribute$instance extends Attribute {
     readonly returnValue: boolean;
 }
 
 
+export const NotNullWhenAttribute: {
+    new(returnValue: boolean): NotNullWhenAttribute$instance;
+};
+
+
 export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 
-export class RequiresAssemblyFilesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(message: string);
+export interface RequiresAssemblyFilesAttribute$instance extends Attribute {
     readonly message: string;
     url: string;
 }
+
+
+export const RequiresAssemblyFilesAttribute: {
+    new(): RequiresAssemblyFilesAttribute$instance;
+    new(message: string): RequiresAssemblyFilesAttribute$instance;
+};
 
 
 export type RequiresAssemblyFilesAttribute = RequiresAssemblyFilesAttribute$instance;
 
-export class RequiresDynamicCodeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(message: string);
+export interface RequiresDynamicCodeAttribute$instance extends Attribute {
     excludeStatics: boolean;
     readonly message: string;
     url: string;
 }
+
+
+export const RequiresDynamicCodeAttribute: {
+    new(message: string): RequiresDynamicCodeAttribute$instance;
+};
 
 
 export type RequiresDynamicCodeAttribute = RequiresDynamicCodeAttribute$instance;
 
-export class RequiresUnreferencedCodeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(message: string);
+export interface RequiresUnreferencedCodeAttribute$instance extends Attribute {
     excludeStatics: boolean;
     readonly message: string;
     url: string;
 }
 
 
+export const RequiresUnreferencedCodeAttribute: {
+    new(message: string): RequiresUnreferencedCodeAttribute$instance;
+};
+
+
 export type RequiresUnreferencedCodeAttribute = RequiresUnreferencedCodeAttribute$instance;
 
-export class SetsRequiredMembersAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SetsRequiredMembersAttribute$instance extends Attribute {
 }
+
+
+export const SetsRequiredMembersAttribute: {
+    new(): SetsRequiredMembersAttribute$instance;
+};
 
 
 export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance;
 
-export class StringSyntaxAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(syntax: string);
-    constructor(syntax: string, arguments: unknown[]);
+export interface StringSyntaxAttribute$instance extends Attribute {
     readonly arguments: unknown[];
     readonly syntax: string;
-    static readonly compositeFormat: string;
-    static readonly dateOnlyFormat: string;
-    static readonly dateTimeFormat: string;
-    static readonly enumFormat: string;
-    static readonly guidFormat: string;
-    static readonly json: string;
-    static readonly numericFormat: string;
-    static readonly regex: string;
-    static readonly timeOnlyFormat: string;
-    static readonly timeSpanFormat: string;
-    static readonly uri: string;
-    static readonly xml: string;
 }
+
+
+export const StringSyntaxAttribute: {
+    new(syntax: string): StringSyntaxAttribute$instance;
+    new(syntax: string, arguments: unknown[]): StringSyntaxAttribute$instance;
+    readonly compositeFormat: string;
+    readonly dateOnlyFormat: string;
+    readonly dateTimeFormat: string;
+    readonly enumFormat: string;
+    readonly guidFormat: string;
+    readonly json: string;
+    readonly numericFormat: string;
+    readonly regex: string;
+    readonly timeOnlyFormat: string;
+    readonly timeSpanFormat: string;
+    readonly uri: string;
+    readonly xml: string;
+};
 
 
 export type StringSyntaxAttribute = StringSyntaxAttribute$instance;
 
-export class SuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(category: string, checkId: string);
+export interface SuppressMessageAttribute$instance extends Attribute {
     readonly category: string;
     readonly checkId: string;
     justification: string;
@@ -290,12 +381,16 @@ export class SuppressMessageAttribute$instance extends System_Internal.Attribute
     scope: string;
     target: string;
 }
+
+
+export const SuppressMessageAttribute: {
+    new(category: string, checkId: string): SuppressMessageAttribute$instance;
+};
 
 
 export type SuppressMessageAttribute = SuppressMessageAttribute$instance;
 
-export class UnconditionalSuppressMessageAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(category: string, checkId: string);
+export interface UnconditionalSuppressMessageAttribute$instance extends Attribute {
     readonly category: string;
     readonly checkId: string;
     justification: string;
@@ -305,11 +400,20 @@ export class UnconditionalSuppressMessageAttribute$instance extends System_Inter
 }
 
 
+export const UnconditionalSuppressMessageAttribute: {
+    new(category: string, checkId: string): UnconditionalSuppressMessageAttribute$instance;
+};
+
+
 export type UnconditionalSuppressMessageAttribute = UnconditionalSuppressMessageAttribute$instance;
 
-export class UnscopedRefAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface UnscopedRefAttribute$instance extends Attribute {
 }
+
+
+export const UnscopedRefAttribute: {
+    new(): UnscopedRefAttribute$instance;
+};
 
 
 export type UnscopedRefAttribute = UnscopedRefAttribute$instance;

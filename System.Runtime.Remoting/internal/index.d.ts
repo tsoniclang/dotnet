@@ -34,10 +34,14 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class ObjectHandle$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor(o: unknown);
+export interface ObjectHandle$instance extends MarshalByRefObject {
     unwrap(): unknown;
 }
+
+
+export const ObjectHandle: {
+    new(o: unknown): ObjectHandle$instance;
+};
 
 
 export type ObjectHandle = ObjectHandle$instance;

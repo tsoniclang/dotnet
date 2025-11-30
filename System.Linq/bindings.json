@@ -1274,7 +1274,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -1288,7 +1288,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator2",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1326,7 +1326,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -1336,7 +1336,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -1378,7 +1378,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -1392,7 +1392,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator2",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1454,7 +1454,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -1464,7 +1464,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -1530,7 +1530,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IAsyncEnumerable\u00601::GetAsyncEnumerator(System.Threading.CancellationToken):IAsyncEnumerator_1",
           "clrName": "GetAsyncEnumerator",
           "tsEmitName": "getAsyncEnumerator",
-          "metadataToken": 100704636,
+          "metadataToken": 100704533,
           "canonicalSignature": "(System.Threading.CancellationToken):IAsyncEnumerator_1",
           "normalizedSignature": "GetAsyncEnumerator|(System.Threading.CancellationToken):IAsyncEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -1573,7 +1573,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IAsyncEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704636
+            "metadataToken": 100704533
           }
         }
       ]
@@ -1603,7 +1603,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -1617,7 +1617,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator2",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1650,7 +1650,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -1660,7 +1660,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ]
@@ -1676,7 +1676,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1742,7 +1742,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -1790,7 +1790,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -1804,7 +1804,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator2",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1870,7 +1870,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -1880,7 +1880,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -1928,7 +1928,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -1994,7 +1994,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -2042,7 +2042,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ClassSurface",
@@ -2056,7 +2056,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator2",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -2122,7 +2122,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -2132,7 +2132,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ],
@@ -2549,7 +2549,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -2563,7 +2563,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -2716,7 +2716,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -2726,7 +2726,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -2926,7 +2926,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -2940,7 +2940,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3050,7 +3050,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -3060,7 +3060,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3192,7 +3192,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3206,7 +3206,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -3267,7 +3267,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3277,7 +3277,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -3373,7 +3373,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3396,7 +3396,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3486,7 +3486,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3500,7 +3500,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -3547,7 +3547,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3557,7 +3557,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {

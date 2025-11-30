@@ -1126,7 +1126,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.SymbolStore.ISymbolDocumentWriter::SetCheckSum(System.Guid,System.Byte[]):System.Void",
           "clrName": "SetCheckSum",
           "tsEmitName": "setCheckSum",
-          "metadataToken": 100703238,
+          "metadataToken": 100703135,
           "canonicalSignature": "(System.Guid,System.Byte[]):System.Void",
           "normalizedSignature": "SetCheckSum|(System.Guid,System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1140,7 +1140,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.SymbolStore.ISymbolDocumentWriter::SetSource(System.Byte[]):System.Void",
           "clrName": "SetSource",
           "tsEmitName": "setSource",
-          "metadataToken": 100703239,
+          "metadataToken": 100703136,
           "canonicalSignature": "(System.Byte[]):System.Void",
           "normalizedSignature": "SetSource|(System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1163,7 +1163,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703238
+            "metadataToken": 100703135
           }
         },
         {
@@ -1173,7 +1173,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703239
+            "metadataToken": 100703136
           }
         }
       ]

@@ -395,6 +395,15 @@ export enum TypeAttributes {
 }
 
 
+export type MemberFilter = (m: MemberInfo, filterCriteria: unknown) => boolean;
+
+
+export type ModuleResolveEventHandler = (sender: unknown, e: ResolveEventArgs) => Module;
+
+
+export type TypeFilter = (m: Type, filterCriteria: unknown) => boolean;
+
+
 export interface ICustomAttributeProvider$instance {
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
@@ -436,9 +445,7 @@ export interface IReflectableType$instance {
 
 export type IReflectableType = IReflectableType$instance;
 
-export class CustomAttributeNamedArgument$instance {
-    constructor(memberInfo: MemberInfo, value: unknown);
-    constructor(memberInfo: MemberInfo, typedArgument: CustomAttributeTypedArgument);
+export interface CustomAttributeNamedArgument$instance {
     readonly isField: boolean;
     readonly memberInfo: MemberInfo;
     readonly memberName: string;
@@ -448,6 +455,12 @@ export class CustomAttributeNamedArgument$instance {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const CustomAttributeNamedArgument: {
+    new(memberInfo: MemberInfo, value: unknown): CustomAttributeNamedArgument$instance;
+    new(memberInfo: MemberInfo, typedArgument: CustomAttributeTypedArgument): CustomAttributeNamedArgument$instance;
+};
 
 
 export interface __CustomAttributeNamedArgument$views {
@@ -460,9 +473,7 @@ export interface __CustomAttributeNamedArgument$views {
 export type CustomAttributeNamedArgument = CustomAttributeNamedArgument$instance & __CustomAttributeNamedArgument$views;
 
 
-export class CustomAttributeTypedArgument$instance {
-    constructor(argumentType: Type, value: unknown);
-    constructor(value: unknown);
+export interface CustomAttributeTypedArgument$instance {
     readonly argumentType: Type;
     readonly value: unknown;
     equals(obj: unknown): boolean;
@@ -470,6 +481,12 @@ export class CustomAttributeTypedArgument$instance {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const CustomAttributeTypedArgument: {
+    new(argumentType: Type, value: unknown): CustomAttributeTypedArgument$instance;
+    new(value: unknown): CustomAttributeTypedArgument$instance;
+};
 
 
 export interface __CustomAttributeTypedArgument$views {
@@ -482,7 +499,7 @@ export interface __CustomAttributeTypedArgument$views {
 export type CustomAttributeTypedArgument = CustomAttributeTypedArgument$instance & __CustomAttributeTypedArgument$views;
 
 
-export class InterfaceMapping$instance {
+export interface InterfaceMapping$instance {
     targetType: Type;
     interfaceType: Type;
     targetMethods: MethodInfo[];
@@ -490,22 +507,35 @@ export class InterfaceMapping$instance {
 }
 
 
+export const InterfaceMapping: {
+    new(): InterfaceMapping$instance;
+};
+
+
 export type InterfaceMapping = InterfaceMapping$instance;
 
-export class ParameterModifier$instance {
-    constructor(parameterCount: int);
+export interface ParameterModifier$instance {
     item: boolean;
 }
 
 
+export const ParameterModifier: {
+    new(parameterCount: int): ParameterModifier$instance;
+};
+
+
 export type ParameterModifier = ParameterModifier$instance;
 
-export class AmbiguousMatchException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface AmbiguousMatchException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AmbiguousMatchException: {
+    new(): AmbiguousMatchException$instance;
+    new(message: string): AmbiguousMatchException$instance;
+    new(message: string, inner: Exception): AmbiguousMatchException$instance;
+};
 
 
 export interface __AmbiguousMatchException$views {
@@ -515,7 +545,7 @@ export interface __AmbiguousMatchException$views {
 export type AmbiguousMatchException = AmbiguousMatchException$instance & __AmbiguousMatchException$views;
 
 
-export abstract class Assembly$instance {
+export interface Assembly$instance {
     readonly codeBase: string;
     readonly customAttributes: IEnumerable_1<CustomAttributeData>;
     readonly definedTypes: IEnumerable_1<TypeInfo>;
@@ -570,25 +600,29 @@ export abstract class Assembly$instance {
     loadModule(moduleName: string, rawModule: byte[]): Module;
     loadModule(moduleName: string, rawModule: byte[], rawSymbolStore: byte[]): Module;
     toString(): string;
-    static createQualifiedName(assemblyName: string, typeName: string): string;
-    static getAssembly(type_: Type): Assembly;
-    static getCallingAssembly(): Assembly;
-    static getEntryAssembly(): Assembly;
-    static getExecutingAssembly(): Assembly;
-    static load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
-    static load(rawAssembly: byte[]): Assembly;
-    static load(assemblyRef: AssemblyName): Assembly;
-    static load(assemblyString: string): Assembly;
-    static loadFile(path: string): Assembly;
-    static loadFrom(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
-    static loadFrom(assemblyFile: string): Assembly;
-    static loadWithPartialName(partialName: string): Assembly;
-    static reflectionOnlyLoad(rawAssembly: byte[]): Assembly;
-    static reflectionOnlyLoad(assemblyString: string): Assembly;
-    static reflectionOnlyLoadFrom(assemblyFile: string): Assembly;
-    static setEntryAssembly(assembly: Assembly): void;
-    static unsafeLoadFrom(assemblyFile: string): Assembly;
 }
+
+
+export const Assembly: {
+    createQualifiedName(assemblyName: string, typeName: string): string;
+    getAssembly(type_: Type): Assembly;
+    getCallingAssembly(): Assembly;
+    getEntryAssembly(): Assembly;
+    getExecutingAssembly(): Assembly;
+    load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
+    load(rawAssembly: byte[]): Assembly;
+    load(assemblyRef: AssemblyName): Assembly;
+    load(assemblyString: string): Assembly;
+    loadFile(path: string): Assembly;
+    loadFrom(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
+    loadFrom(assemblyFile: string): Assembly;
+    loadWithPartialName(partialName: string): Assembly;
+    reflectionOnlyLoad(rawAssembly: byte[]): Assembly;
+    reflectionOnlyLoad(assemblyString: string): Assembly;
+    reflectionOnlyLoadFrom(assemblyFile: string): Assembly;
+    setEntryAssembly(assembly: Assembly): void;
+    unsafeLoadFrom(assemblyFile: string): Assembly;
+};
 
 
 export interface __Assembly$views {
@@ -601,126 +635,180 @@ export interface Assembly$instance extends ICustomAttributeProvider$instance, Sy
 export type Assembly = Assembly$instance & __Assembly$views;
 
 
-export class AssemblyAlgorithmIdAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(algorithmId: AssemblyHashAlgorithm_Assemblies);
-    constructor(algorithmId: uint);
+export interface AssemblyAlgorithmIdAttribute$instance extends Attribute {
     readonly algorithmId: uint;
 }
 
 
+export const AssemblyAlgorithmIdAttribute: {
+    new(algorithmId: AssemblyHashAlgorithm_Assemblies): AssemblyAlgorithmIdAttribute$instance;
+    new(algorithmId: uint): AssemblyAlgorithmIdAttribute$instance;
+};
+
+
 export type AssemblyAlgorithmIdAttribute = AssemblyAlgorithmIdAttribute$instance;
 
-export class AssemblyCompanyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(company: string);
+export interface AssemblyCompanyAttribute$instance extends Attribute {
     readonly company: string;
 }
 
 
+export const AssemblyCompanyAttribute: {
+    new(company: string): AssemblyCompanyAttribute$instance;
+};
+
+
 export type AssemblyCompanyAttribute = AssemblyCompanyAttribute$instance;
 
-export class AssemblyConfigurationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(configuration: string);
+export interface AssemblyConfigurationAttribute$instance extends Attribute {
     readonly configuration: string;
 }
 
 
+export const AssemblyConfigurationAttribute: {
+    new(configuration: string): AssemblyConfigurationAttribute$instance;
+};
+
+
 export type AssemblyConfigurationAttribute = AssemblyConfigurationAttribute$instance;
 
-export class AssemblyCopyrightAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(copyright: string);
+export interface AssemblyCopyrightAttribute$instance extends Attribute {
     readonly copyright: string;
 }
 
 
+export const AssemblyCopyrightAttribute: {
+    new(copyright: string): AssemblyCopyrightAttribute$instance;
+};
+
+
 export type AssemblyCopyrightAttribute = AssemblyCopyrightAttribute$instance;
 
-export class AssemblyCultureAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(culture: string);
+export interface AssemblyCultureAttribute$instance extends Attribute {
     readonly culture: string;
 }
 
 
+export const AssemblyCultureAttribute: {
+    new(culture: string): AssemblyCultureAttribute$instance;
+};
+
+
 export type AssemblyCultureAttribute = AssemblyCultureAttribute$instance;
 
-export class AssemblyDefaultAliasAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(defaultAlias: string);
+export interface AssemblyDefaultAliasAttribute$instance extends Attribute {
     readonly defaultAlias: string;
 }
 
 
+export const AssemblyDefaultAliasAttribute: {
+    new(defaultAlias: string): AssemblyDefaultAliasAttribute$instance;
+};
+
+
 export type AssemblyDefaultAliasAttribute = AssemblyDefaultAliasAttribute$instance;
 
-export class AssemblyDelaySignAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(delaySign: boolean);
+export interface AssemblyDelaySignAttribute$instance extends Attribute {
     readonly delaySign: boolean;
 }
 
 
+export const AssemblyDelaySignAttribute: {
+    new(delaySign: boolean): AssemblyDelaySignAttribute$instance;
+};
+
+
 export type AssemblyDelaySignAttribute = AssemblyDelaySignAttribute$instance;
 
-export class AssemblyDescriptionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(description: string);
+export interface AssemblyDescriptionAttribute$instance extends Attribute {
     readonly description: string;
 }
 
 
+export const AssemblyDescriptionAttribute: {
+    new(description: string): AssemblyDescriptionAttribute$instance;
+};
+
+
 export type AssemblyDescriptionAttribute = AssemblyDescriptionAttribute$instance;
 
-export class AssemblyFileVersionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(version: string);
+export interface AssemblyFileVersionAttribute$instance extends Attribute {
     readonly version: string;
 }
 
 
+export const AssemblyFileVersionAttribute: {
+    new(version: string): AssemblyFileVersionAttribute$instance;
+};
+
+
 export type AssemblyFileVersionAttribute = AssemblyFileVersionAttribute$instance;
 
-export class AssemblyFlagsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(flags: uint);
-    constructor(assemblyFlags: int);
-    constructor(assemblyFlags: AssemblyNameFlags);
+export interface AssemblyFlagsAttribute$instance extends Attribute {
     readonly assemblyFlags: int;
     readonly flags: uint;
 }
 
 
+export const AssemblyFlagsAttribute: {
+    new(flags: uint): AssemblyFlagsAttribute$instance;
+    new(assemblyFlags: int): AssemblyFlagsAttribute$instance;
+    new(assemblyFlags: AssemblyNameFlags): AssemblyFlagsAttribute$instance;
+};
+
+
 export type AssemblyFlagsAttribute = AssemblyFlagsAttribute$instance;
 
-export class AssemblyInformationalVersionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(informationalVersion: string);
+export interface AssemblyInformationalVersionAttribute$instance extends Attribute {
     readonly informationalVersion: string;
 }
 
 
+export const AssemblyInformationalVersionAttribute: {
+    new(informationalVersion: string): AssemblyInformationalVersionAttribute$instance;
+};
+
+
 export type AssemblyInformationalVersionAttribute = AssemblyInformationalVersionAttribute$instance;
 
-export class AssemblyKeyFileAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(keyFile: string);
+export interface AssemblyKeyFileAttribute$instance extends Attribute {
     readonly keyFile: string;
 }
 
 
+export const AssemblyKeyFileAttribute: {
+    new(keyFile: string): AssemblyKeyFileAttribute$instance;
+};
+
+
 export type AssemblyKeyFileAttribute = AssemblyKeyFileAttribute$instance;
 
-export class AssemblyKeyNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(keyName: string);
+export interface AssemblyKeyNameAttribute$instance extends Attribute {
     readonly keyName: string;
 }
 
 
+export const AssemblyKeyNameAttribute: {
+    new(keyName: string): AssemblyKeyNameAttribute$instance;
+};
+
+
 export type AssemblyKeyNameAttribute = AssemblyKeyNameAttribute$instance;
 
-export class AssemblyMetadataAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(key: string, value: string);
+export interface AssemblyMetadataAttribute$instance extends Attribute {
     readonly key: string;
     readonly value: string;
 }
 
 
+export const AssemblyMetadataAttribute: {
+    new(key: string, value: string): AssemblyMetadataAttribute$instance;
+};
+
+
 export type AssemblyMetadataAttribute = AssemblyMetadataAttribute$instance;
 
-export class AssemblyName$instance {
-    constructor(assemblyName: string);
-    constructor();
+export interface AssemblyName$instance {
     codeBase: string;
     contentType: AssemblyContentType;
     cultureInfo: CultureInfo;
@@ -742,9 +830,15 @@ export class AssemblyName$instance {
     setPublicKey(publicKey: byte[]): void;
     setPublicKeyToken(publicKeyToken: byte[]): void;
     toString(): string;
-    static getAssemblyName(assemblyFile: string): AssemblyName;
-    static referenceMatchesDefinition(reference: AssemblyName, definition: AssemblyName): boolean;
 }
+
+
+export const AssemblyName: {
+    new(assemblyName: string): AssemblyName$instance;
+    new(): AssemblyName$instance;
+    getAssemblyName(assemblyFile: string): AssemblyName;
+    referenceMatchesDefinition(reference: AssemblyName, definition: AssemblyName): boolean;
+};
 
 
 export interface __AssemblyName$views {
@@ -758,68 +852,96 @@ export interface AssemblyName$instance extends System_Internal.ICloneable$instan
 export type AssemblyName = AssemblyName$instance & __AssemblyName$views;
 
 
-export class AssemblyNameProxy$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
+export interface AssemblyNameProxy$instance extends MarshalByRefObject {
     getAssemblyName(assemblyFile: string): AssemblyName;
 }
 
 
+export const AssemblyNameProxy: {
+    new(): AssemblyNameProxy$instance;
+};
+
+
 export type AssemblyNameProxy = AssemblyNameProxy$instance;
 
-export class AssemblyProductAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(product: string);
+export interface AssemblyProductAttribute$instance extends Attribute {
     readonly product: string;
 }
 
 
+export const AssemblyProductAttribute: {
+    new(product: string): AssemblyProductAttribute$instance;
+};
+
+
 export type AssemblyProductAttribute = AssemblyProductAttribute$instance;
 
-export class AssemblySignatureKeyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(publicKey: string, countersignature: string);
+export interface AssemblySignatureKeyAttribute$instance extends Attribute {
     readonly countersignature: string;
     readonly publicKey: string;
 }
 
 
+export const AssemblySignatureKeyAttribute: {
+    new(publicKey: string, countersignature: string): AssemblySignatureKeyAttribute$instance;
+};
+
+
 export type AssemblySignatureKeyAttribute = AssemblySignatureKeyAttribute$instance;
 
-export class AssemblyTitleAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(title: string);
+export interface AssemblyTitleAttribute$instance extends Attribute {
     readonly title: string;
 }
 
 
+export const AssemblyTitleAttribute: {
+    new(title: string): AssemblyTitleAttribute$instance;
+};
+
+
 export type AssemblyTitleAttribute = AssemblyTitleAttribute$instance;
 
-export class AssemblyTrademarkAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(trademark: string);
+export interface AssemblyTrademarkAttribute$instance extends Attribute {
     readonly trademark: string;
 }
 
 
+export const AssemblyTrademarkAttribute: {
+    new(trademark: string): AssemblyTrademarkAttribute$instance;
+};
+
+
 export type AssemblyTrademarkAttribute = AssemblyTrademarkAttribute$instance;
 
-export class AssemblyVersionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(version: string);
+export interface AssemblyVersionAttribute$instance extends Attribute {
     readonly version: string;
 }
 
 
+export const AssemblyVersionAttribute: {
+    new(version: string): AssemblyVersionAttribute$instance;
+};
+
+
 export type AssemblyVersionAttribute = AssemblyVersionAttribute$instance;
 
-export abstract class Binder$instance {
-    abstract bindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: unknown, culture: CultureInfo): FieldInfo;
-    abstract bindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: { value: ref<unknown[]> }, modifiers: ParameterModifier[], culture: CultureInfo, names: string[], state: { value: ref<unknown> }): MethodBase;
-    abstract changeType(value: unknown, type_: Type, culture: CultureInfo): unknown;
-    abstract reorderArgumentArray(args: { value: ref<unknown[]> }, state: unknown): void;
-    abstract selectMethod(bindingAttr: BindingFlags, match: MethodBase[], types: Type[], modifiers: ParameterModifier[]): MethodBase;
-    abstract selectProperty(bindingAttr: BindingFlags, match: PropertyInfo[], returnType: Type, indexes: Type[], modifiers: ParameterModifier[]): PropertyInfo;
+export interface Binder$instance {
+    bindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: unknown, culture: CultureInfo): FieldInfo;
+    bindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: { value: ref<unknown[]> }, modifiers: ParameterModifier[], culture: CultureInfo, names: string[], state: { value: ref<unknown> }): MethodBase;
+    changeType(value: unknown, type_: Type, culture: CultureInfo): unknown;
+    reorderArgumentArray(args: { value: ref<unknown[]> }, state: unknown): void;
+    selectMethod(bindingAttr: BindingFlags, match: MethodBase[], types: Type[], modifiers: ParameterModifier[]): MethodBase;
+    selectProperty(bindingAttr: BindingFlags, match: PropertyInfo[], returnType: Type, indexes: Type[], modifiers: ParameterModifier[]): PropertyInfo;
 }
+
+
+export const Binder: {
+};
 
 
 export type Binder = Binder$instance;
 
-export abstract class ConstructorInfo$instance extends MethodBase$instance {
+export interface ConstructorInfo$instance extends MethodBase$instance {
     readonly memberType: MemberTypes;
     equals(obj: unknown): boolean;
     getCustomAttributes(inherit: boolean): unknown[];
@@ -828,9 +950,13 @@ export abstract class ConstructorInfo$instance extends MethodBase$instance {
     invoke(obj: unknown, parameters: unknown[]): unknown;
     invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
     isDefined(attributeType: Type, inherit: boolean): boolean;
-    static readonly constructorName: string;
-    static readonly typeConstructorName: string;
 }
+
+
+export const ConstructorInfo: {
+    readonly constructorName: string;
+    readonly typeConstructorName: string;
+};
 
 
 export interface __ConstructorInfo$views {
@@ -840,40 +966,54 @@ export interface __ConstructorInfo$views {
 export type ConstructorInfo = ConstructorInfo$instance & __ConstructorInfo$views;
 
 
-export class ConstructorInvoker$instance {
+export interface ConstructorInvoker$instance {
     invoke(): unknown;
     invoke(arg1: unknown): unknown;
     invoke(arg1: unknown, arg2: unknown): unknown;
     invoke(arg1: unknown, arg2: unknown, arg3: unknown): unknown;
     invoke(arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown;
     invoke(arguments: Span_1<unknown>): unknown;
-    static create(constructor_: ConstructorInfo): ConstructorInvoker;
 }
+
+
+export const ConstructorInvoker: {
+    new(): ConstructorInvoker$instance;
+    create(constructor_: ConstructorInfo): ConstructorInvoker;
+};
 
 
 export type ConstructorInvoker = ConstructorInvoker$instance;
 
-export class CustomAttributeData$instance {
+export interface CustomAttributeData$instance {
     readonly attributeType: Type;
     readonly constructor_: ConstructorInfo;
     readonly constructorArguments: IList_1<CustomAttributeTypedArgument>;
     readonly namedArguments: IList_1<CustomAttributeNamedArgument>;
     toString(): string;
-    static getCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
-    static getCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
-    static getCustomAttributes(target: Module): IList_1<CustomAttributeData>;
-    static getCustomAttributes(target: ParameterInfo): IList_1<CustomAttributeData>;
 }
+
+
+export const CustomAttributeData: {
+    new(): CustomAttributeData$instance;
+    getCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
+    getCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
+    getCustomAttributes(target: Module): IList_1<CustomAttributeData>;
+    getCustomAttributes(target: ParameterInfo): IList_1<CustomAttributeData>;
+};
 
 
 export type CustomAttributeData = CustomAttributeData$instance;
 
-export class CustomAttributeFormatException$instance extends System_Internal.FormatException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface CustomAttributeFormatException$instance extends FormatException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const CustomAttributeFormatException: {
+    new(): CustomAttributeFormatException$instance;
+    new(message: string): CustomAttributeFormatException$instance;
+    new(message: string, inner: Exception): CustomAttributeFormatException$instance;
+};
 
 
 export interface __CustomAttributeFormatException$views {
@@ -883,23 +1023,31 @@ export interface __CustomAttributeFormatException$views {
 export type CustomAttributeFormatException = CustomAttributeFormatException$instance & __CustomAttributeFormatException$views;
 
 
-export class DefaultMemberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(memberName: string);
+export interface DefaultMemberAttribute$instance extends Attribute {
     readonly memberName: string;
 }
 
 
+export const DefaultMemberAttribute: {
+    new(memberName: string): DefaultMemberAttribute$instance;
+};
+
+
 export type DefaultMemberAttribute = DefaultMemberAttribute$instance;
 
-export abstract class DispatchProxy$instance {
-    static create<T, TProxy extends DispatchProxy>(): T;
-    static create(interfaceType: Type, proxyType: Type): unknown;
+export interface DispatchProxy$instance {
 }
+
+
+export const DispatchProxy: {
+    create<T, TProxy extends DispatchProxy>(): T;
+    create(interfaceType: Type, proxyType: Type): unknown;
+};
 
 
 export type DispatchProxy = DispatchProxy$instance;
 
-export abstract class EventInfo$instance extends MemberInfo$instance {
+export interface EventInfo$instance extends MemberInfo$instance {
     readonly addMethod: MethodInfo;
     readonly attributes: EventAttributes;
     readonly eventHandlerType: Type;
@@ -912,8 +1060,8 @@ export abstract class EventInfo$instance extends MemberInfo$instance {
     equals(obj: unknown): boolean;
     getAddMethod(): MethodInfo;
     getAddMethod(nonPublic: boolean): MethodInfo;
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getHashCode(): int;
     getOtherMethods(): MethodInfo[];
     getOtherMethods(nonPublic: boolean): MethodInfo[];
@@ -921,9 +1069,13 @@ export abstract class EventInfo$instance extends MemberInfo$instance {
     getRaiseMethod(nonPublic: boolean): MethodInfo;
     getRemoveMethod(): MethodInfo;
     getRemoveMethod(nonPublic: boolean): MethodInfo;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
     removeEventHandler(target: unknown, handler: Function): void;
 }
+
+
+export const EventInfo: {
+};
 
 
 export interface __EventInfo$views {
@@ -933,7 +1085,7 @@ export interface __EventInfo$views {
 export type EventInfo = EventInfo$instance & __EventInfo$views;
 
 
-export class ExceptionHandlingClause$instance {
+export interface ExceptionHandlingClause$instance {
     readonly catchType: Type;
     readonly filterOffset: int;
     readonly flags: ExceptionHandlingClauseOptions;
@@ -945,9 +1097,14 @@ export class ExceptionHandlingClause$instance {
 }
 
 
+export const ExceptionHandlingClause: {
+    new(): ExceptionHandlingClause$instance;
+};
+
+
 export type ExceptionHandlingClause = ExceptionHandlingClause$instance;
 
-export abstract class FieldInfo$instance extends MemberInfo$instance {
+export interface FieldInfo$instance extends MemberInfo$instance {
     readonly attributes: FieldAttributes;
     readonly fieldHandle: RuntimeFieldHandle;
     readonly fieldType: Type;
@@ -968,22 +1125,26 @@ export abstract class FieldInfo$instance extends MemberInfo$instance {
     readonly isStatic: boolean;
     readonly memberType: MemberTypes;
     equals(obj: unknown): boolean;
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getHashCode(): int;
     getModifiedFieldType(): Type;
     getOptionalCustomModifiers(): Type[];
     getRawConstantValue(): unknown;
     getRequiredCustomModifiers(): Type[];
-    abstract getValue(obj: unknown): unknown;
+    getValue(obj: unknown): unknown;
     getValueDirect(obj: TypedReference): unknown;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
     setValue(obj: unknown, value: unknown): void;
     setValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
     setValueDirect(obj: TypedReference, value: unknown): void;
-    static getFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
-    static getFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
 }
+
+
+export const FieldInfo: {
+    getFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
+    getFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
+};
 
 
 export interface __FieldInfo$views {
@@ -993,12 +1154,16 @@ export interface __FieldInfo$views {
 export type FieldInfo = FieldInfo$instance & __FieldInfo$views;
 
 
-export class InvalidFilterCriteriaException$instance extends System_Internal.ApplicationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface InvalidFilterCriteriaException$instance extends ApplicationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidFilterCriteriaException: {
+    new(): InvalidFilterCriteriaException$instance;
+    new(message: string): InvalidFilterCriteriaException$instance;
+    new(message: string, inner: Exception): InvalidFilterCriteriaException$instance;
+};
 
 
 export interface __InvalidFilterCriteriaException$views {
@@ -1008,7 +1173,7 @@ export interface __InvalidFilterCriteriaException$views {
 export type InvalidFilterCriteriaException = InvalidFilterCriteriaException$instance & __InvalidFilterCriteriaException$views;
 
 
-export class LocalVariableInfo$instance {
+export interface LocalVariableInfo$instance {
     readonly isPinned: boolean;
     readonly localIndex: int;
     readonly localType: Type;
@@ -1016,37 +1181,28 @@ export class LocalVariableInfo$instance {
 }
 
 
+export const LocalVariableInfo: {
+    new(): LocalVariableInfo$instance;
+};
+
+
 export type LocalVariableInfo = LocalVariableInfo$instance;
 
-export class ManifestResourceInfo$instance {
-    constructor(containingAssembly: Assembly, containingFileName: string, resourceLocation: ResourceLocation);
+export interface ManifestResourceInfo$instance {
     readonly fileName: string;
     readonly referencedAssembly: Assembly;
     readonly resourceLocation: ResourceLocation;
 }
 
 
+export const ManifestResourceInfo: {
+    new(containingAssembly: Assembly, containingFileName: string, resourceLocation: ResourceLocation): ManifestResourceInfo$instance;
+};
+
+
 export type ManifestResourceInfo = ManifestResourceInfo$instance;
 
-export class MemberFilter$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(m: MemberInfo, filterCriteria: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(m: MemberInfo, filterCriteria: unknown): boolean;
-}
-
-
-export interface __MemberFilter$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type MemberFilter = MemberFilter$instance & __MemberFilter$views;
-
-
-export abstract class MemberInfo$instance {
+export interface MemberInfo$instance {
     readonly customAttributes: IEnumerable_1<CustomAttributeData>;
     readonly declaringType: Type;
     readonly isCollectible: boolean;
@@ -1056,13 +1212,17 @@ export abstract class MemberInfo$instance {
     readonly name: string;
     readonly reflectedType: Type;
     equals(obj: unknown): boolean;
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getHashCode(): int;
     hasSameMetadataDefinitionAs(other: MemberInfo): boolean;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
 }
+
+
+export const MemberInfo: {
+};
 
 
 export interface __MemberInfo$views {
@@ -1074,7 +1234,7 @@ export interface MemberInfo$instance extends ICustomAttributeProvider$instance {
 export type MemberInfo = MemberInfo$instance & __MemberInfo$views;
 
 
-export abstract class MethodBase$instance extends MemberInfo$instance {
+export interface MethodBase$instance extends MemberInfo$instance {
     readonly attributes: MethodAttributes;
     readonly callingConvention: CallingConventions;
     readonly containsGenericParameters: boolean;
@@ -1100,20 +1260,24 @@ export abstract class MethodBase$instance extends MemberInfo$instance {
     readonly methodHandle: RuntimeMethodHandle;
     readonly methodImplementationFlags: MethodImplAttributes;
     equals(obj: unknown): boolean;
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGenericArguments(): Type[];
     getHashCode(): int;
     getMethodBody(): MethodBody;
-    abstract getMethodImplementationFlags(): MethodImplAttributes;
-    abstract getParameters(): ParameterInfo[];
+    getMethodImplementationFlags(): MethodImplAttributes;
+    getParameters(): ParameterInfo[];
     invoke(obj: unknown, parameters: unknown[]): unknown;
     invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    static getCurrentMethod(): MethodBase;
-    static getMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
-    static getMethodFromHandle(handle: RuntimeMethodHandle): MethodBase;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
 }
+
+
+export const MethodBase: {
+    getCurrentMethod(): MethodBase;
+    getMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
+    getMethodFromHandle(handle: RuntimeMethodHandle): MethodBase;
+};
 
 
 export interface __MethodBase$views {
@@ -1123,7 +1287,7 @@ export interface __MethodBase$views {
 export type MethodBase = MethodBase$instance & __MethodBase$views;
 
 
-export class MethodBody$instance {
+export interface MethodBody$instance {
     readonly exceptionHandlingClauses: IList_1<ExceptionHandlingClause>;
     readonly initLocals: boolean;
     readonly localSignatureMetadataToken: int;
@@ -1133,9 +1297,14 @@ export class MethodBody$instance {
 }
 
 
+export const MethodBody: {
+    new(): MethodBody$instance;
+};
+
+
 export type MethodBody = MethodBody$instance;
 
-export abstract class MethodInfo$instance extends MethodBase$instance {
+export interface MethodInfo$instance extends MethodBase$instance {
     readonly memberType: MemberTypes;
     readonly returnParameter: ParameterInfo;
     readonly returnType: Type;
@@ -1145,7 +1314,7 @@ export abstract class MethodInfo$instance extends MethodBase$instance {
     createDelegate<T extends Function>(): T;
     createDelegate<T extends Function>(target: unknown): T;
     equals(obj: unknown): boolean;
-    abstract getBaseDefinition(): MethodInfo;
+    getBaseDefinition(): MethodInfo;
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGenericArguments(): Type[];
@@ -1156,6 +1325,10 @@ export abstract class MethodInfo$instance extends MethodBase$instance {
 }
 
 
+export const MethodInfo: {
+};
+
+
 export interface __MethodInfo$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
@@ -1163,22 +1336,32 @@ export interface __MethodInfo$views {
 export type MethodInfo = MethodInfo$instance & __MethodInfo$views;
 
 
-export class MethodInvoker$instance {
+export interface MethodInvoker$instance {
     invoke(obj: unknown): unknown;
     invoke(obj: unknown, arg1: unknown): unknown;
     invoke(obj: unknown, arg1: unknown, arg2: unknown): unknown;
     invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown): unknown;
     invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown;
     invoke(obj: unknown, arguments: Span_1<unknown>): unknown;
-    static create(method: MethodBase): MethodInvoker;
 }
+
+
+export const MethodInvoker: {
+    new(): MethodInvoker$instance;
+    create(method: MethodBase): MethodInvoker;
+};
 
 
 export type MethodInvoker = MethodInvoker$instance;
 
-export class Missing$instance {
-    static readonly value: Missing;
+export interface Missing$instance {
 }
+
+
+export const Missing: {
+    new(): Missing$instance;
+    readonly value: Missing;
+};
 
 
 export interface __Missing$views {
@@ -1190,7 +1373,7 @@ export interface Missing$instance extends System_Runtime_Serialization_Internal.
 export type Missing = Missing$instance & __Missing$views;
 
 
-export abstract class Module$instance {
+export interface Module$instance {
     readonly assembly: Assembly;
     readonly customAttributes: IEnumerable_1<CustomAttributeData>;
     readonly fullyQualifiedName: string;
@@ -1234,9 +1417,13 @@ export abstract class Module$instance {
     resolveType(metadataToken: int): Type;
     resolveType(metadataToken: int, genericTypeArguments: Type[], genericMethodArguments: Type[]): Type;
     toString(): string;
-    static readonly filterTypeName: TypeFilter;
-    static readonly filterTypeNameIgnoreCase: TypeFilter;
 }
+
+
+export const Module: {
+    readonly filterTypeName: TypeFilter;
+    readonly filterTypeNameIgnoreCase: TypeFilter;
+};
 
 
 export interface __Module$views {
@@ -1249,25 +1436,7 @@ export interface Module$instance extends ICustomAttributeProvider$instance, Syst
 export type Module = Module$instance & __Module$views;
 
 
-export class ModuleResolveEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ResolveEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): Module;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ResolveEventArgs): Module;
-}
-
-
-export interface __ModuleResolveEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ModuleResolveEventHandler = ModuleResolveEventHandler$instance & __ModuleResolveEventHandler$views;
-
-
-export class NullabilityInfo$instance {
+export interface NullabilityInfo$instance {
     readonly elementType: NullabilityInfo;
     readonly genericTypeArguments: NullabilityInfo[];
     readonly readState: NullabilityState;
@@ -1276,10 +1445,14 @@ export class NullabilityInfo$instance {
 }
 
 
+export const NullabilityInfo: {
+    new(): NullabilityInfo$instance;
+};
+
+
 export type NullabilityInfo = NullabilityInfo$instance;
 
-export class NullabilityInfoContext$instance {
-    constructor();
+export interface NullabilityInfoContext$instance {
     create(parameterInfo: ParameterInfo): NullabilityInfo;
     create(propertyInfo: PropertyInfo): NullabilityInfo;
     create(eventInfo: EventInfo): NullabilityInfo;
@@ -1287,19 +1460,27 @@ export class NullabilityInfoContext$instance {
 }
 
 
+export const NullabilityInfoContext: {
+    new(): NullabilityInfoContext$instance;
+};
+
+
 export type NullabilityInfoContext = NullabilityInfoContext$instance;
 
-export class ObfuscateAssemblyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(assemblyIsPrivate: boolean);
+export interface ObfuscateAssemblyAttribute$instance extends Attribute {
     readonly assemblyIsPrivate: boolean;
     stripAfterObfuscation: boolean;
 }
 
 
+export const ObfuscateAssemblyAttribute: {
+    new(assemblyIsPrivate: boolean): ObfuscateAssemblyAttribute$instance;
+};
+
+
 export type ObfuscateAssemblyAttribute = ObfuscateAssemblyAttribute$instance;
 
-export class ObfuscationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ObfuscationAttribute$instance extends Attribute {
     applyToMembers: boolean;
     exclude: boolean;
     feature: string;
@@ -1307,9 +1488,14 @@ export class ObfuscationAttribute$instance extends System_Internal.Attribute$ins
 }
 
 
+export const ObfuscationAttribute: {
+    new(): ObfuscationAttribute$instance;
+};
+
+
 export type ObfuscationAttribute = ObfuscationAttribute$instance;
 
-export class ParameterInfo$instance {
+export interface ParameterInfo$instance {
     readonly attributes: ParameterAttributes;
     readonly customAttributes: IEnumerable_1<CustomAttributeData>;
     readonly defaultValue: unknown;
@@ -1337,6 +1523,11 @@ export class ParameterInfo$instance {
 }
 
 
+export const ParameterInfo: {
+    new(): ParameterInfo$instance;
+};
+
+
 export interface __ParameterInfo$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
     As_IObjectReference(): System_Runtime_Serialization_Internal.IObjectReference$instance;
@@ -1347,12 +1538,17 @@ export interface ParameterInfo$instance extends ICustomAttributeProvider$instanc
 export type ParameterInfo = ParameterInfo$instance & __ParameterInfo$views;
 
 
-export class Pointer$instance {
+export interface Pointer$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static box(ptr: ptr<void>, type_: Type): unknown;
-    static unbox(ptr: unknown): ptr<void>;
 }
+
+
+export const Pointer: {
+    new(): Pointer$instance;
+    box(ptr: ptr<void>, type_: Type): unknown;
+    unbox(ptr: unknown): ptr<void>;
+};
 
 
 export interface __Pointer$views {
@@ -1364,7 +1560,7 @@ export interface Pointer$instance extends System_Runtime_Serialization_Internal.
 export type Pointer = Pointer$instance & __Pointer$views;
 
 
-export abstract class PropertyInfo$instance extends MemberInfo$instance {
+export interface PropertyInfo$instance extends MemberInfo$instance {
     readonly attributes: PropertyAttributes;
     readonly canRead: boolean;
     readonly canWrite: boolean;
@@ -1377,12 +1573,12 @@ export abstract class PropertyInfo$instance extends MemberInfo$instance {
     getAccessors(): MethodInfo[];
     getAccessors(nonPublic: boolean): MethodInfo[];
     getConstantValue(): unknown;
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGetMethod(): MethodInfo;
     getGetMethod(nonPublic: boolean): MethodInfo;
     getHashCode(): int;
-    abstract getIndexParameters(): ParameterInfo[];
+    getIndexParameters(): ParameterInfo[];
     getModifiedPropertyType(): Type;
     getOptionalCustomModifiers(): Type[];
     getRawConstantValue(): unknown;
@@ -1392,11 +1588,15 @@ export abstract class PropertyInfo$instance extends MemberInfo$instance {
     getValue(obj: unknown): unknown;
     getValue(obj: unknown, index: unknown[]): unknown;
     getValue(obj: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): unknown;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
     setValue(obj: unknown, value: unknown): void;
     setValue(obj: unknown, value: unknown, index: unknown[]): void;
     setValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): void;
 }
+
+
+export const PropertyInfo: {
+};
 
 
 export interface __PropertyInfo$views {
@@ -1406,24 +1606,32 @@ export interface __PropertyInfo$views {
 export type PropertyInfo = PropertyInfo$instance & __PropertyInfo$views;
 
 
-export abstract class ReflectionContext$instance {
+export interface ReflectionContext$instance {
     getTypeForObject(value: unknown): TypeInfo;
-    abstract mapAssembly(assembly: Assembly): Assembly;
-    abstract mapType(type_: TypeInfo): TypeInfo;
+    mapAssembly(assembly: Assembly): Assembly;
+    mapType(type_: TypeInfo): TypeInfo;
 }
+
+
+export const ReflectionContext: {
+};
 
 
 export type ReflectionContext = ReflectionContext$instance;
 
-export class ReflectionTypeLoadException$instance extends System_Internal.SystemException$instance {
-    constructor(classes: Type[], exceptions: Exception[]);
-    constructor(classes: Type[], exceptions: Exception[], message: string);
+export interface ReflectionTypeLoadException$instance extends SystemException {
     readonly loaderExceptions: Exception[];
     readonly message: string;
     readonly types: Type[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const ReflectionTypeLoadException: {
+    new(classes: Type[], exceptions: Exception[]): ReflectionTypeLoadException$instance;
+    new(classes: Type[], exceptions: Exception[], message: string): ReflectionTypeLoadException$instance;
+};
 
 
 export interface __ReflectionTypeLoadException$views {
@@ -1433,12 +1641,16 @@ export interface __ReflectionTypeLoadException$views {
 export type ReflectionTypeLoadException = ReflectionTypeLoadException$instance & __ReflectionTypeLoadException$views;
 
 
-export class StrongNameKeyPair$instance {
-    constructor(keyPairFile: FileStream);
-    constructor(keyPairArray: byte[]);
-    constructor(keyPairContainer: string);
+export interface StrongNameKeyPair$instance {
     readonly publicKey: byte[];
 }
+
+
+export const StrongNameKeyPair: {
+    new(keyPairFile: FileStream): StrongNameKeyPair$instance;
+    new(keyPairArray: byte[]): StrongNameKeyPair$instance;
+    new(keyPairContainer: string): StrongNameKeyPair$instance;
+};
 
 
 export interface __StrongNameKeyPair$views {
@@ -1451,12 +1663,16 @@ export interface StrongNameKeyPair$instance extends System_Runtime_Serialization
 export type StrongNameKeyPair = StrongNameKeyPair$instance & __StrongNameKeyPair$views;
 
 
-export class TargetException$instance extends System_Internal.ApplicationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface TargetException$instance extends ApplicationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TargetException: {
+    new(): TargetException$instance;
+    new(message: string): TargetException$instance;
+    new(message: string, inner: Exception): TargetException$instance;
+};
 
 
 export interface __TargetException$views {
@@ -1466,11 +1682,15 @@ export interface __TargetException$views {
 export type TargetException = TargetException$instance & __TargetException$views;
 
 
-export class TargetInvocationException$instance extends System_Internal.ApplicationException$instance {
-    constructor(inner: Exception);
-    constructor(message: string, inner: Exception);
+export interface TargetInvocationException$instance extends ApplicationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TargetInvocationException: {
+    new(inner: Exception): TargetInvocationException$instance;
+    new(message: string, inner: Exception): TargetInvocationException$instance;
+};
 
 
 export interface __TargetInvocationException$views {
@@ -1480,12 +1700,16 @@ export interface __TargetInvocationException$views {
 export type TargetInvocationException = TargetInvocationException$instance & __TargetInvocationException$views;
 
 
-export class TargetParameterCountException$instance extends System_Internal.ApplicationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface TargetParameterCountException$instance extends ApplicationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TargetParameterCountException: {
+    new(): TargetParameterCountException$instance;
+    new(message: string): TargetParameterCountException$instance;
+    new(message: string, inner: Exception): TargetParameterCountException$instance;
+};
 
 
 export interface __TargetParameterCountException$views {
@@ -1495,8 +1719,7 @@ export interface __TargetParameterCountException$views {
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
 
 
-export class TypeDelegator$instance extends TypeInfo$instance {
-    constructor(delegatingType: Type);
+export interface TypeDelegator$instance extends TypeInfo$instance {
     readonly assembly: Assembly;
     readonly assemblyQualifiedName: string;
     readonly baseType: Type;
@@ -1582,6 +1805,11 @@ export class TypeDelegator$instance extends TypeInfo$instance {
 }
 
 
+export const TypeDelegator: {
+    new(delegatingType: Type): TypeDelegator$instance;
+};
+
+
 export interface __TypeDelegator$views {
     As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
     As_IReflect(): IReflect$instance;
@@ -1593,25 +1821,7 @@ export interface TypeDelegator$instance extends IReflectableType$instance {}
 export type TypeDelegator = TypeDelegator$instance & __TypeDelegator$views;
 
 
-export class TypeFilter$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(m: Type, filterCriteria: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(m: Type, filterCriteria: unknown): boolean;
-}
-
-
-export interface __TypeFilter$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type TypeFilter = TypeFilter$instance & __TypeFilter$views;
-
-
-export abstract class TypeInfo$instance extends System_Internal.Type$instance {
+export interface TypeInfo$instance extends Type {
     readonly declaredConstructors: IEnumerable_1<ConstructorInfo>;
     readonly declaredEvents: IEnumerable_1<EventInfo>;
     readonly declaredFields: IEnumerable_1<FieldInfo>;
@@ -1668,6 +1878,10 @@ export abstract class TypeInfo$instance extends System_Internal.Type$instance {
     isAssignableFrom(c: Type): boolean;
     isDefined(attributeType: Type, inherit: boolean): boolean;
 }
+
+
+export const TypeInfo: {
+};
 
 
 export interface __TypeInfo$views {

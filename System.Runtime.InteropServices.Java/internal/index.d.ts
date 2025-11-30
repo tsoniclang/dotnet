@@ -38,15 +38,20 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class ComponentCrossReference$instance {
+export interface ComponentCrossReference$instance {
     sourceGroupIndex: nuint;
     destinationGroupIndex: nuint;
 }
 
 
+export const ComponentCrossReference: {
+    new(): ComponentCrossReference$instance;
+};
+
+
 export type ComponentCrossReference = ComponentCrossReference$instance;
 
-export class MarkCrossReferencesArgs$instance {
+export interface MarkCrossReferencesArgs$instance {
     componentCount: nuint;
     components: ptr<StronglyConnectedComponent>;
     crossReferenceCount: nuint;
@@ -54,12 +59,22 @@ export class MarkCrossReferencesArgs$instance {
 }
 
 
+export const MarkCrossReferencesArgs: {
+    new(): MarkCrossReferencesArgs$instance;
+};
+
+
 export type MarkCrossReferencesArgs = MarkCrossReferencesArgs$instance;
 
-export class StronglyConnectedComponent$instance {
+export interface StronglyConnectedComponent$instance {
     count: nuint;
     contexts: ptr<void>;
 }
+
+
+export const StronglyConnectedComponent: {
+    new(): StronglyConnectedComponent$instance;
+};
 
 
 export type StronglyConnectedComponent = StronglyConnectedComponent$instance;

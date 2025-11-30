@@ -12,7 +12,7 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { RequestCacheLevel as RequestCacheLevel } from './internal/index.js';
-export { RequestCachePolicy$instance as RequestCachePolicy } from './internal/index.js';
+export { RequestCachePolicy as RequestCachePolicy } from './internal/index.js';
 export { HttpCacheAgeControl as HttpCacheAgeControl } from './internal/index.js';
 export { HttpRequestCacheLevel as HttpRequestCacheLevel } from './internal/index.js';
-export { HttpRequestCachePolicy$instance as HttpRequestCachePolicy } from './internal/index.js';
+export { HttpRequestCachePolicy as HttpRequestCachePolicy } from './internal/index.js';

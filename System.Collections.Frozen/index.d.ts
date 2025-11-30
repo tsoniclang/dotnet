@@ -15,12 +15,12 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { FrozenDictionary$instance as FrozenDictionary_0 } from './internal/index.js';
-export { FrozenDictionary_2$instance as FrozenDictionary_2 } from './internal/index.js';
-export { FrozenDictionary_2$instance as FrozenDictionary } from './internal/index.js';
-export { FrozenDictionary_2_Enumerator$instance as FrozenDictionary_2_Enumerator } from './internal/index.js';
-export { FrozenDictionary_2_AlternateLookup_1$instance as FrozenDictionary_2_AlternateLookup_1 } from './internal/index.js';
+export { FrozenDictionary_2 as FrozenDictionary_2 } from './internal/index.js';
+export { FrozenDictionary_2 as FrozenDictionary } from './internal/index.js';
+export { FrozenDictionary_2_Enumerator as FrozenDictionary_2_Enumerator } from './internal/index.js';
+export { FrozenDictionary_2_AlternateLookup_1 as FrozenDictionary_2_AlternateLookup_1 } from './internal/index.js';
 export { FrozenSet$instance as FrozenSet_0 } from './internal/index.js';
-export { FrozenSet_1$instance as FrozenSet_1 } from './internal/index.js';
-export { FrozenSet_1$instance as FrozenSet } from './internal/index.js';
-export { FrozenSet_1_Enumerator$instance as FrozenSet_1_Enumerator } from './internal/index.js';
-export { FrozenSet_1_AlternateLookup_1$instance as FrozenSet_1_AlternateLookup_1 } from './internal/index.js';
+export { FrozenSet_1 as FrozenSet_1 } from './internal/index.js';
+export { FrozenSet_1 as FrozenSet } from './internal/index.js';
+export { FrozenSet_1_Enumerator as FrozenSet_1_Enumerator } from './internal/index.js';
+export { FrozenSet_1_AlternateLookup_1 as FrozenSet_1_AlternateLookup_1 } from './internal/index.js';

@@ -38,9 +38,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class Utf8_TryWriteInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, shouldAppend: ref<boolean>);
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, provider: IFormatProvider, shouldAppend: ref<boolean>);
+export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): boolean;
     appendFormatted<T>(value: T, format: string): boolean;
     appendFormatted<T>(value: T, alignment: int): boolean;
@@ -56,14 +54,24 @@ export class Utf8_TryWriteInterpolatedStringHandler$instance {
 }
 
 
+export const Utf8_TryWriteInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, shouldAppend: ref<boolean>): Utf8_TryWriteInterpolatedStringHandler$instance;
+    new(literalLength: int, formattedCount: int, destination: Span_1<CLROf<byte>>, provider: IFormatProvider, shouldAppend: ref<boolean>): Utf8_TryWriteInterpolatedStringHandler$instance;
+};
+
+
 export type Utf8_TryWriteInterpolatedStringHandler = Utf8_TryWriteInterpolatedStringHandler$instance;
 
-export class UnicodeRange$instance {
-    constructor(firstCodePoint: int, length: int);
+export interface UnicodeRange$instance {
     readonly firstCodePoint: int;
     readonly length: int;
-    static create(firstCharacter: char, lastCharacter: char): UnicodeRange;
 }
+
+
+export const UnicodeRange: {
+    new(firstCodePoint: int, length: int): UnicodeRange$instance;
+    create(firstCharacter: char, lastCharacter: char): UnicodeRange;
+};
 
 
 export type UnicodeRange = UnicodeRange$instance;

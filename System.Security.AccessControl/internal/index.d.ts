@@ -277,29 +277,42 @@ export enum SemaphoreRights {
 }
 
 
-export abstract class AccessRule$instance extends AuthorizationRule$instance {
+export interface AccessRule$instance extends AuthorizationRule {
     readonly accessControlType: AccessControlType;
 }
 
 
+export const AccessRule: {
+};
+
+
 export type AccessRule = AccessRule$instance;
 
-export class AccessRule_1$instance<T extends unknown> extends AccessRule$instance {
-    constructor(identity: IdentityReference, rights: T, type_: AccessControlType);
-    constructor(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
-    constructor(identity: string, rights: T, type_: AccessControlType);
-    constructor(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
+export interface AccessRule_1$instance<T extends unknown> extends AccessRule {
     readonly rights: T;
 }
 
 
+export const AccessRule_1: {
+    new<T extends unknown>(identity: IdentityReference, rights: T, type_: AccessControlType): AccessRule_1$instance<T>;
+    new<T extends unknown>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule_1$instance<T>;
+    new<T extends unknown>(identity: string, rights: T, type_: AccessControlType): AccessRule_1$instance<T>;
+    new<T extends unknown>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule_1$instance<T>;
+};
+
+
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
-export class AceEnumerator$instance {
+export interface AceEnumerator$instance {
     readonly current: GenericAce | unknown;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const AceEnumerator: {
+    new(): AceEnumerator$instance;
+};
 
 
 export interface __AceEnumerator$views {
@@ -309,25 +322,33 @@ export interface __AceEnumerator$views {
 export type AceEnumerator = AceEnumerator$instance & __AceEnumerator$views;
 
 
-export abstract class AuditRule$instance extends AuthorizationRule$instance {
+export interface AuditRule$instance extends AuthorizationRule {
     readonly auditFlags: AuditFlags;
 }
 
 
+export const AuditRule: {
+};
+
+
 export type AuditRule = AuditRule$instance;
 
-export class AuditRule_1$instance<T extends unknown> extends AuditRule$instance {
-    constructor(identity: IdentityReference, rights: T, flags: AuditFlags);
-    constructor(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
-    constructor(identity: string, rights: T, flags: AuditFlags);
-    constructor(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
+export interface AuditRule_1$instance<T extends unknown> extends AuditRule {
     readonly rights: T;
 }
 
 
+export const AuditRule_1: {
+    new<T extends unknown>(identity: IdentityReference, rights: T, flags: AuditFlags): AuditRule_1$instance<T>;
+    new<T extends unknown>(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1$instance<T>;
+    new<T extends unknown>(identity: string, rights: T, flags: AuditFlags): AuditRule_1$instance<T>;
+    new<T extends unknown>(identity: string, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule_1$instance<T>;
+};
+
+
 export type AuditRule_1<T> = AuditRule_1$instance<T>;
 
-export abstract class AuthorizationRule$instance {
+export interface AuthorizationRule$instance {
     readonly identityReference: IdentityReference;
     readonly inheritanceFlags: InheritanceFlags;
     readonly isInherited: boolean;
@@ -335,15 +356,23 @@ export abstract class AuthorizationRule$instance {
 }
 
 
+export const AuthorizationRule: {
+};
+
+
 export type AuthorizationRule = AuthorizationRule$instance;
 
-export class AuthorizationRuleCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
-    constructor();
+export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
     readonly item: AuthorizationRule;
     addRule(rule: AuthorizationRule): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
 }
+
+
+export const AuthorizationRuleCollection: {
+    new(): AuthorizationRuleCollection$instance;
+};
 
 
 export interface __AuthorizationRuleCollection$views {
@@ -356,17 +385,21 @@ export interface AuthorizationRuleCollection$instance extends System_Collections
 export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views;
 
 
-export class CommonAce$instance extends QualifiedAce$instance {
-    constructor(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]);
+export interface CommonAce$instance extends QualifiedAce {
     readonly binaryLength: int;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    static maxOpaqueLength(isCallback: boolean): int;
 }
+
+
+export const CommonAce: {
+    new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]): CommonAce$instance;
+    maxOpaqueLength(isCallback: boolean): int;
+};
 
 
 export type CommonAce = CommonAce$instance;
 
-export abstract class CommonAcl$instance extends GenericAcl$instance {
+export interface CommonAcl$instance extends GenericAcl$instance {
     readonly binaryLength: int;
     readonly count: int;
     readonly isCanonical: boolean;
@@ -384,6 +417,10 @@ export abstract class CommonAcl$instance extends GenericAcl$instance {
 }
 
 
+export const CommonAcl: {
+};
+
+
 export interface __CommonAcl$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -392,19 +429,19 @@ export interface __CommonAcl$views {
 export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
 
 
-export abstract class CommonObjectSecurity$instance extends ObjectSecurity$instance {
+export interface CommonObjectSecurity$instance extends ObjectSecurity {
     getAccessRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
     getAuditRules(includeExplicit: boolean, includeInherited: boolean, targetType: Type): AuthorizationRuleCollection;
 }
 
 
+export const CommonObjectSecurity: {
+};
+
+
 export type CommonObjectSecurity = CommonObjectSecurity$instance;
 
-export class CommonSecurityDescriptor$instance extends GenericSecurityDescriptor$instance {
-    constructor(isContainer: boolean, isDS: boolean, binaryForm: byte[], offset: int);
-    constructor(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: SystemAcl, discretionaryAcl: DiscretionaryAcl);
-    constructor(isContainer: boolean, isDS: boolean, rawSecurityDescriptor: RawSecurityDescriptor);
-    constructor(isContainer: boolean, isDS: boolean, sddlForm: string);
+export interface CommonSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly controlFlags: ControlFlags;
     discretionaryAcl: DiscretionaryAcl;
     group: SecurityIdentifier;
@@ -423,32 +460,48 @@ export class CommonSecurityDescriptor$instance extends GenericSecurityDescriptor
 }
 
 
+export const CommonSecurityDescriptor: {
+    new(isContainer: boolean, isDS: boolean, binaryForm: byte[], offset: int): CommonSecurityDescriptor$instance;
+    new(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: SystemAcl, discretionaryAcl: DiscretionaryAcl): CommonSecurityDescriptor$instance;
+    new(isContainer: boolean, isDS: boolean, rawSecurityDescriptor: RawSecurityDescriptor): CommonSecurityDescriptor$instance;
+    new(isContainer: boolean, isDS: boolean, sddlForm: string): CommonSecurityDescriptor$instance;
+};
+
+
 export type CommonSecurityDescriptor = CommonSecurityDescriptor$instance;
 
-export class CompoundAce$instance extends KnownAce$instance {
-    constructor(flags: AceFlags, accessMask: int, compoundAceType: CompoundAceType, sid: SecurityIdentifier);
+export interface CompoundAce$instance extends KnownAce {
     readonly binaryLength: int;
     compoundAceType: CompoundAceType;
     getBinaryForm(binaryForm: byte[], offset: int): void;
 }
 
 
+export const CompoundAce: {
+    new(flags: AceFlags, accessMask: int, compoundAceType: CompoundAceType, sid: SecurityIdentifier): CompoundAce$instance;
+};
+
+
 export type CompoundAce = CompoundAce$instance;
 
-export class CustomAce$instance extends GenericAce$instance {
-    constructor(type_: AceType, flags: AceFlags, opaque: byte[]);
+export interface CustomAce$instance extends GenericAce {
     readonly binaryLength: int;
     readonly opaqueLength: int;
     getBinaryForm(binaryForm: byte[], offset: int): void;
     getOpaque(): byte[];
     setOpaque(opaque: byte[]): void;
-    static readonly maxOpaqueLength: int;
 }
+
+
+export const CustomAce: {
+    new(type_: AceType, flags: AceFlags, opaque: byte[]): CustomAce$instance;
+    readonly maxOpaqueLength: int;
+};
 
 
 export type CustomAce = CustomAce$instance;
 
-export abstract class DirectoryObjectSecurity$instance extends ObjectSecurity$instance {
+export interface DirectoryObjectSecurity$instance extends ObjectSecurity {
     accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType, objectType: Guid, inheritedObjectType: Guid): AccessRule;
     accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
     auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags, objectType: Guid, inheritedObjectType: Guid): AuditRule;
@@ -458,20 +511,25 @@ export abstract class DirectoryObjectSecurity$instance extends ObjectSecurity$in
 }
 
 
+export const DirectoryObjectSecurity: {
+};
+
+
 export type DirectoryObjectSecurity = DirectoryObjectSecurity$instance;
 
-export class DirectorySecurity$instance extends FileSystemSecurity$instance {
-    constructor();
-    constructor(name: string, includeSections: AccessControlSections);
+export interface DirectorySecurity$instance extends FileSystemSecurity {
 }
+
+
+export const DirectorySecurity: {
+    new(): DirectorySecurity$instance;
+    new(name: string, includeSections: AccessControlSections): DirectorySecurity$instance;
+};
 
 
 export type DirectorySecurity = DirectorySecurity$instance;
 
-export class DiscretionaryAcl$instance extends CommonAcl$instance {
-    constructor(isContainer: boolean, isDS: boolean, revision: byte, capacity: int);
-    constructor(isContainer: boolean, isDS: boolean, capacity: int);
-    constructor(isContainer: boolean, isDS: boolean, rawAcl: RawAcl);
+export interface DiscretionaryAcl$instance extends CommonAcl$instance {
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     addAccess(accessType: AccessControlType, sid: SecurityIdentifier, rule: ObjectAccessRule): void;
@@ -491,6 +549,13 @@ export class DiscretionaryAcl$instance extends CommonAcl$instance {
 }
 
 
+export const DiscretionaryAcl: {
+    new(isContainer: boolean, isDS: boolean, revision: byte, capacity: int): DiscretionaryAcl$instance;
+    new(isContainer: boolean, isDS: boolean, capacity: int): DiscretionaryAcl$instance;
+    new(isContainer: boolean, isDS: boolean, rawAcl: RawAcl): DiscretionaryAcl$instance;
+};
+
+
 export interface __DiscretionaryAcl$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -499,25 +564,32 @@ export interface __DiscretionaryAcl$views {
 export type DiscretionaryAcl = DiscretionaryAcl$instance & __DiscretionaryAcl$views;
 
 
-export class EventWaitHandleAccessRule$instance extends AccessRule$instance {
-    constructor(identity: IdentityReference, eventRights: EventWaitHandleRights, type_: AccessControlType);
-    constructor(identity: string, eventRights: EventWaitHandleRights, type_: AccessControlType);
+export interface EventWaitHandleAccessRule$instance extends AccessRule {
     readonly eventWaitHandleRights: EventWaitHandleRights;
 }
+
+
+export const EventWaitHandleAccessRule: {
+    new(identity: IdentityReference, eventRights: EventWaitHandleRights, type_: AccessControlType): EventWaitHandleAccessRule$instance;
+    new(identity: string, eventRights: EventWaitHandleRights, type_: AccessControlType): EventWaitHandleAccessRule$instance;
+};
 
 
 export type EventWaitHandleAccessRule = EventWaitHandleAccessRule$instance;
 
-export class EventWaitHandleAuditRule$instance extends AuditRule$instance {
-    constructor(identity: IdentityReference, eventRights: EventWaitHandleRights, flags: AuditFlags);
+export interface EventWaitHandleAuditRule$instance extends AuditRule {
     readonly eventWaitHandleRights: EventWaitHandleRights;
 }
 
 
+export const EventWaitHandleAuditRule: {
+    new(identity: IdentityReference, eventRights: EventWaitHandleRights, flags: AuditFlags): EventWaitHandleAuditRule$instance;
+};
+
+
 export type EventWaitHandleAuditRule = EventWaitHandleAuditRule$instance;
 
-export class EventWaitHandleSecurity$instance extends NativeObjectSecurity$instance {
-    constructor();
+export interface EventWaitHandleSecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -537,39 +609,56 @@ export class EventWaitHandleSecurity$instance extends NativeObjectSecurity$insta
 }
 
 
+export const EventWaitHandleSecurity: {
+    new(): EventWaitHandleSecurity$instance;
+};
+
+
 export type EventWaitHandleSecurity = EventWaitHandleSecurity$instance;
 
-export class FileSecurity$instance extends FileSystemSecurity$instance {
-    constructor();
-    constructor(fileName: string, includeSections: AccessControlSections);
+export interface FileSecurity$instance extends FileSystemSecurity {
 }
+
+
+export const FileSecurity: {
+    new(): FileSecurity$instance;
+    new(fileName: string, includeSections: AccessControlSections): FileSecurity$instance;
+};
 
 
 export type FileSecurity = FileSecurity$instance;
 
-export class FileSystemAccessRule$instance extends AccessRule$instance {
-    constructor(identity: IdentityReference, fileSystemRights: FileSystemRights, type_: AccessControlType);
-    constructor(identity: IdentityReference, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
-    constructor(identity: string, fileSystemRights: FileSystemRights, type_: AccessControlType);
-    constructor(identity: string, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
+export interface FileSystemAccessRule$instance extends AccessRule {
     readonly fileSystemRights: FileSystemRights;
 }
+
+
+export const FileSystemAccessRule: {
+    new(identity: IdentityReference, fileSystemRights: FileSystemRights, type_: AccessControlType): FileSystemAccessRule$instance;
+    new(identity: IdentityReference, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): FileSystemAccessRule$instance;
+    new(identity: string, fileSystemRights: FileSystemRights, type_: AccessControlType): FileSystemAccessRule$instance;
+    new(identity: string, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): FileSystemAccessRule$instance;
+};
 
 
 export type FileSystemAccessRule = FileSystemAccessRule$instance;
 
-export class FileSystemAuditRule$instance extends AuditRule$instance {
-    constructor(identity: IdentityReference, fileSystemRights: FileSystemRights, flags: AuditFlags);
-    constructor(identity: IdentityReference, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
-    constructor(identity: string, fileSystemRights: FileSystemRights, flags: AuditFlags);
-    constructor(identity: string, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
+export interface FileSystemAuditRule$instance extends AuditRule {
     readonly fileSystemRights: FileSystemRights;
 }
 
 
+export const FileSystemAuditRule: {
+    new(identity: IdentityReference, fileSystemRights: FileSystemRights, flags: AuditFlags): FileSystemAuditRule$instance;
+    new(identity: IdentityReference, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): FileSystemAuditRule$instance;
+    new(identity: string, fileSystemRights: FileSystemRights, flags: AuditFlags): FileSystemAuditRule$instance;
+    new(identity: string, fileSystemRights: FileSystemRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): FileSystemAuditRule$instance;
+};
+
+
 export type FileSystemAuditRule = FileSystemAuditRule$instance;
 
-export abstract class FileSystemSecurity$instance extends NativeObjectSecurity$instance {
+export interface FileSystemSecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -589,9 +678,13 @@ export abstract class FileSystemSecurity$instance extends NativeObjectSecurity$i
 }
 
 
+export const FileSystemSecurity: {
+};
+
+
 export type FileSystemSecurity = FileSystemSecurity$instance;
 
-export abstract class GenericAce$instance {
+export interface GenericAce$instance {
     aceFlags: AceFlags;
     readonly aceType: AceType;
     readonly auditFlags: AuditFlags;
@@ -601,15 +694,19 @@ export abstract class GenericAce$instance {
     readonly propagationFlags: PropagationFlags;
     copy(): GenericAce;
     equals(o: unknown): boolean;
-    abstract getBinaryForm(binaryForm: byte[], offset: int): void;
+    getBinaryForm(binaryForm: byte[], offset: int): void;
     getHashCode(): int;
-    static createFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
 }
+
+
+export const GenericAce: {
+    createFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
+};
 
 
 export type GenericAce = GenericAce$instance;
 
-export abstract class GenericAcl$instance {
+export interface GenericAcl$instance {
     readonly binaryLength: int;
     readonly count: int;
     readonly isSynchronized: boolean;
@@ -617,12 +714,16 @@ export abstract class GenericAcl$instance {
     readonly revision: byte;
     readonly syncRoot: unknown;
     copyTo(array: GenericAce[], index: int): void;
-    abstract getBinaryForm(binaryForm: byte[], offset: int): void;
+    getBinaryForm(binaryForm: byte[], offset: int): void;
     getEnumerator(): AceEnumerator;
-    static readonly aclRevision: byte;
-    static readonly aclRevisionDS: byte;
-    static readonly maxBinaryLength: int;
 }
+
+
+export const GenericAcl: {
+    readonly aclRevision: byte;
+    readonly aclRevisionDS: byte;
+    readonly maxBinaryLength: int;
+};
 
 
 export interface __GenericAcl$views {
@@ -633,48 +734,62 @@ export interface __GenericAcl$views {
 export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
 
 
-export abstract class GenericSecurityDescriptor$instance {
+export interface GenericSecurityDescriptor$instance {
     readonly binaryLength: int;
     readonly controlFlags: ControlFlags;
     group: SecurityIdentifier;
     owner: SecurityIdentifier;
     getBinaryForm(binaryForm: byte[], offset: int): void;
     getSddlForm(includeSections: AccessControlSections): string;
-    static readonly revision: byte;
-    static isSddlConversionSupported(): boolean;
 }
+
+
+export const GenericSecurityDescriptor: {
+    readonly revision: byte;
+    isSddlConversionSupported(): boolean;
+};
 
 
 export type GenericSecurityDescriptor = GenericSecurityDescriptor$instance;
 
-export abstract class KnownAce$instance extends GenericAce$instance {
+export interface KnownAce$instance extends GenericAce {
     accessMask: int;
     securityIdentifier: SecurityIdentifier;
 }
 
 
+export const KnownAce: {
+};
+
+
 export type KnownAce = KnownAce$instance;
 
-export class MutexAccessRule$instance extends AccessRule$instance {
-    constructor(identity: IdentityReference, eventRights: MutexRights, type_: AccessControlType);
-    constructor(identity: string, eventRights: MutexRights, type_: AccessControlType);
+export interface MutexAccessRule$instance extends AccessRule {
     readonly mutexRights: MutexRights;
 }
+
+
+export const MutexAccessRule: {
+    new(identity: IdentityReference, eventRights: MutexRights, type_: AccessControlType): MutexAccessRule$instance;
+    new(identity: string, eventRights: MutexRights, type_: AccessControlType): MutexAccessRule$instance;
+};
 
 
 export type MutexAccessRule = MutexAccessRule$instance;
 
-export class MutexAuditRule$instance extends AuditRule$instance {
-    constructor(identity: IdentityReference, eventRights: MutexRights, flags: AuditFlags);
+export interface MutexAuditRule$instance extends AuditRule {
     readonly mutexRights: MutexRights;
 }
 
 
+export const MutexAuditRule: {
+    new(identity: IdentityReference, eventRights: MutexRights, flags: AuditFlags): MutexAuditRule$instance;
+};
+
+
 export type MutexAuditRule = MutexAuditRule$instance;
 
-export class MutexSecurity$instance extends NativeObjectSecurity$instance {
-    constructor();
-    constructor(name: string, includeSections: AccessControlSections);
+export interface MutexSecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -694,46 +809,68 @@ export class MutexSecurity$instance extends NativeObjectSecurity$instance {
 }
 
 
+export const MutexSecurity: {
+    new(): MutexSecurity$instance;
+    new(name: string, includeSections: AccessControlSections): MutexSecurity$instance;
+};
+
+
 export type MutexSecurity = MutexSecurity$instance;
 
-export abstract class NativeObjectSecurity$instance extends CommonObjectSecurity$instance {
+export interface NativeObjectSecurity$instance extends CommonObjectSecurity {
 }
+
+
+export const NativeObjectSecurity: {
+};
 
 
 export type NativeObjectSecurity = NativeObjectSecurity$instance;
 
-export abstract class ObjectAccessRule$instance extends AccessRule$instance {
+export interface ObjectAccessRule$instance extends AccessRule {
     readonly inheritedObjectType: Guid;
     readonly objectFlags: ObjectAceFlags;
     readonly objectType: Guid;
 }
 
 
+export const ObjectAccessRule: {
+};
+
+
 export type ObjectAccessRule = ObjectAccessRule$instance;
 
-export class ObjectAce$instance extends QualifiedAce$instance {
-    constructor(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type_: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[]);
+export interface ObjectAce$instance extends QualifiedAce {
     readonly binaryLength: int;
     inheritedObjectAceType: Guid;
     objectAceFlags: ObjectAceFlags;
     objectAceType: Guid;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    static maxOpaqueLength(isCallback: boolean): int;
 }
+
+
+export const ObjectAce: {
+    new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type_: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[]): ObjectAce$instance;
+    maxOpaqueLength(isCallback: boolean): int;
+};
 
 
 export type ObjectAce = ObjectAce$instance;
 
-export abstract class ObjectAuditRule$instance extends AuditRule$instance {
+export interface ObjectAuditRule$instance extends AuditRule {
     readonly inheritedObjectType: Guid;
     readonly objectFlags: ObjectAceFlags;
     readonly objectType: Guid;
 }
 
 
+export const ObjectAuditRule: {
+};
+
+
 export type ObjectAuditRule = ObjectAuditRule$instance;
 
-export abstract class ObjectSecurity$instance {
+export interface ObjectSecurity$instance {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly areAccessRulesCanonical: boolean;
@@ -741,8 +878,8 @@ export abstract class ObjectSecurity$instance {
     readonly areAuditRulesCanonical: boolean;
     readonly areAuditRulesProtected: boolean;
     readonly auditRuleType: Type;
-    abstract accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
-    abstract auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
+    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
+    auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
     getGroup(targetType: Type): IdentityReference;
     getOwner(targetType: Type): IdentityReference;
     getSecurityDescriptorBinaryForm(): byte[];
@@ -759,13 +896,17 @@ export abstract class ObjectSecurity$instance {
     setSecurityDescriptorBinaryForm(binaryForm: byte[], includeSections: AccessControlSections): void;
     setSecurityDescriptorSddlForm(sddlForm: string): void;
     setSecurityDescriptorSddlForm(sddlForm: string, includeSections: AccessControlSections): void;
-    static isSddlConversionSupported(): boolean;
 }
+
+
+export const ObjectSecurity: {
+    isSddlConversionSupported(): boolean;
+};
 
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export abstract class ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity$instance {
+export interface ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -785,15 +926,23 @@ export abstract class ObjectSecurity_1$instance<T extends unknown> extends Nativ
 }
 
 
+export const ObjectSecurity_1: {
+};
+
+
 export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
 
-export class PrivilegeNotHeldException$instance extends System_Internal.UnauthorizedAccessException$instance {
-    constructor();
-    constructor(privilege: string);
-    constructor(privilege: string, inner: Exception);
+export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
     readonly privilegeName: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const PrivilegeNotHeldException: {
+    new(): PrivilegeNotHeldException$instance;
+    new(privilege: string): PrivilegeNotHeldException$instance;
+    new(privilege: string, inner: Exception): PrivilegeNotHeldException$instance;
+};
 
 
 export interface __PrivilegeNotHeldException$views {
@@ -803,7 +952,7 @@ export interface __PrivilegeNotHeldException$views {
 export type PrivilegeNotHeldException = PrivilegeNotHeldException$instance & __PrivilegeNotHeldException$views;
 
 
-export abstract class QualifiedAce$instance extends KnownAce$instance {
+export interface QualifiedAce$instance extends KnownAce {
     readonly aceQualifier: AceQualifier;
     readonly isCallback: boolean;
     readonly opaqueLength: int;
@@ -812,11 +961,13 @@ export abstract class QualifiedAce$instance extends KnownAce$instance {
 }
 
 
+export const QualifiedAce: {
+};
+
+
 export type QualifiedAce = QualifiedAce$instance;
 
-export class RawAcl$instance extends GenericAcl$instance {
-    constructor(revision: byte, capacity: int);
-    constructor(binaryForm: byte[], offset: int);
+export interface RawAcl$instance extends GenericAcl$instance {
     readonly binaryLength: int;
     readonly count: int;
     item: GenericAce;
@@ -831,6 +982,12 @@ export class RawAcl$instance extends GenericAcl$instance {
 }
 
 
+export const RawAcl: {
+    new(revision: byte, capacity: int): RawAcl$instance;
+    new(binaryForm: byte[], offset: int): RawAcl$instance;
+};
+
+
 export interface __RawAcl$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -839,10 +996,7 @@ export interface __RawAcl$views {
 export type RawAcl = RawAcl$instance & __RawAcl$views;
 
 
-export class RawSecurityDescriptor$instance extends GenericSecurityDescriptor$instance {
-    constructor(binaryForm: byte[], offset: int);
-    constructor(flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: RawAcl, discretionaryAcl: RawAcl);
-    constructor(sddlForm: string);
+export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly controlFlags: ControlFlags;
     discretionaryAcl: RawAcl;
     group: SecurityIdentifier;
@@ -853,30 +1007,44 @@ export class RawSecurityDescriptor$instance extends GenericSecurityDescriptor$in
 }
 
 
+export const RawSecurityDescriptor: {
+    new(binaryForm: byte[], offset: int): RawSecurityDescriptor$instance;
+    new(flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: RawAcl, discretionaryAcl: RawAcl): RawSecurityDescriptor$instance;
+    new(sddlForm: string): RawSecurityDescriptor$instance;
+};
+
+
 export type RawSecurityDescriptor = RawSecurityDescriptor$instance;
 
-export class RegistryAccessRule$instance extends AccessRule$instance {
-    constructor(identity: IdentityReference, registryRights: RegistryRights, type_: AccessControlType);
-    constructor(identity: IdentityReference, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
-    constructor(identity: string, registryRights: RegistryRights, type_: AccessControlType);
-    constructor(identity: string, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
+export interface RegistryAccessRule$instance extends AccessRule {
     readonly registryRights: RegistryRights;
 }
+
+
+export const RegistryAccessRule: {
+    new(identity: IdentityReference, registryRights: RegistryRights, type_: AccessControlType): RegistryAccessRule$instance;
+    new(identity: IdentityReference, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): RegistryAccessRule$instance;
+    new(identity: string, registryRights: RegistryRights, type_: AccessControlType): RegistryAccessRule$instance;
+    new(identity: string, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): RegistryAccessRule$instance;
+};
 
 
 export type RegistryAccessRule = RegistryAccessRule$instance;
 
-export class RegistryAuditRule$instance extends AuditRule$instance {
-    constructor(identity: IdentityReference, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
-    constructor(identity: string, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
+export interface RegistryAuditRule$instance extends AuditRule {
     readonly registryRights: RegistryRights;
 }
 
 
+export const RegistryAuditRule: {
+    new(identity: IdentityReference, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): RegistryAuditRule$instance;
+    new(identity: string, registryRights: RegistryRights, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): RegistryAuditRule$instance;
+};
+
+
 export type RegistryAuditRule = RegistryAuditRule$instance;
 
-export class RegistrySecurity$instance extends NativeObjectSecurity$instance {
-    constructor();
+export interface RegistrySecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -896,28 +1064,39 @@ export class RegistrySecurity$instance extends NativeObjectSecurity$instance {
 }
 
 
+export const RegistrySecurity: {
+    new(): RegistrySecurity$instance;
+};
+
+
 export type RegistrySecurity = RegistrySecurity$instance;
 
-export class SemaphoreAccessRule$instance extends AccessRule$instance {
-    constructor(identity: IdentityReference, eventRights: SemaphoreRights, type_: AccessControlType);
-    constructor(identity: string, eventRights: SemaphoreRights, type_: AccessControlType);
+export interface SemaphoreAccessRule$instance extends AccessRule {
     readonly semaphoreRights: SemaphoreRights;
 }
+
+
+export const SemaphoreAccessRule: {
+    new(identity: IdentityReference, eventRights: SemaphoreRights, type_: AccessControlType): SemaphoreAccessRule$instance;
+    new(identity: string, eventRights: SemaphoreRights, type_: AccessControlType): SemaphoreAccessRule$instance;
+};
 
 
 export type SemaphoreAccessRule = SemaphoreAccessRule$instance;
 
-export class SemaphoreAuditRule$instance extends AuditRule$instance {
-    constructor(identity: IdentityReference, eventRights: SemaphoreRights, flags: AuditFlags);
+export interface SemaphoreAuditRule$instance extends AuditRule {
     readonly semaphoreRights: SemaphoreRights;
 }
 
 
+export const SemaphoreAuditRule: {
+    new(identity: IdentityReference, eventRights: SemaphoreRights, flags: AuditFlags): SemaphoreAuditRule$instance;
+};
+
+
 export type SemaphoreAuditRule = SemaphoreAuditRule$instance;
 
-export class SemaphoreSecurity$instance extends NativeObjectSecurity$instance {
-    constructor();
-    constructor(name: string, includeSections: AccessControlSections);
+export interface SemaphoreSecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -937,12 +1116,15 @@ export class SemaphoreSecurity$instance extends NativeObjectSecurity$instance {
 }
 
 
+export const SemaphoreSecurity: {
+    new(): SemaphoreSecurity$instance;
+    new(name: string, includeSections: AccessControlSections): SemaphoreSecurity$instance;
+};
+
+
 export type SemaphoreSecurity = SemaphoreSecurity$instance;
 
-export class SystemAcl$instance extends CommonAcl$instance {
-    constructor(isContainer: boolean, isDS: boolean, revision: byte, capacity: int);
-    constructor(isContainer: boolean, isDS: boolean, capacity: int);
-    constructor(isContainer: boolean, isDS: boolean, rawAcl: RawAcl);
+export interface SystemAcl$instance extends CommonAcl$instance {
     addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags): void;
     addAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     addAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
@@ -960,6 +1142,13 @@ export class SystemAcl$instance extends CommonAcl$instance {
     setAudit(auditFlags: AuditFlags, sid: SecurityIdentifier, accessMask: int, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, objectFlags: ObjectAceFlags, objectType: Guid, inheritedObjectType: Guid): void;
     setAudit(sid: SecurityIdentifier, rule: ObjectAuditRule): void;
 }
+
+
+export const SystemAcl: {
+    new(isContainer: boolean, isDS: boolean, revision: byte, capacity: int): SystemAcl$instance;
+    new(isContainer: boolean, isDS: boolean, capacity: int): SystemAcl$instance;
+    new(isContainer: boolean, isDS: boolean, rawAcl: RawAcl): SystemAcl$instance;
+};
 
 
 export interface __SystemAcl$views {

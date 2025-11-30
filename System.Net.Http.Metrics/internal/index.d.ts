@@ -35,13 +35,18 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class HttpMetricsEnrichmentContext$instance {
+export interface HttpMetricsEnrichmentContext$instance {
     readonly exception: Exception;
     readonly request: HttpRequestMessage;
     readonly response: HttpResponseMessage;
     addCustomTag(name: string, value: unknown): void;
-    static addCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
 }
+
+
+export const HttpMetricsEnrichmentContext: {
+    new(): HttpMetricsEnrichmentContext$instance;
+    addCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
+};
 
 
 export type HttpMetricsEnrichmentContext = HttpMetricsEnrichmentContext$instance;

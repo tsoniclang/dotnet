@@ -43,7 +43,13 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class JSMarshalerArgument$instance {
+export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = (arg: ref<JSMarshalerArgument>, value: T) => void;
+
+
+export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = (arg: ref<JSMarshalerArgument>, value: ref<T>) => void;
+
+
+export interface JSMarshalerArgument$instance {
     initialize(): void;
     toJS(value: boolean): void;
     toJS(value: Nullable_1<CLROf<boolean>>): void;
@@ -150,12 +156,21 @@ export class JSMarshalerArgument$instance {
 }
 
 
+export const JSMarshalerArgument: {
+    new(): JSMarshalerArgument$instance;
+};
+
+
 export type JSMarshalerArgument = JSMarshalerArgument$instance;
 
-export class JSException$instance extends System_Internal.Exception$instance {
-    constructor(msg: string);
+export interface JSException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const JSException: {
+    new(msg: string): JSException$instance;
+};
 
 
 export interface __JSException$views {
@@ -165,114 +180,100 @@ export interface __JSException$views {
 export type JSException = JSException$instance & __JSException$views;
 
 
-export class JSExportAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface JSExportAttribute$instance extends Attribute {
 }
+
+
+export const JSExportAttribute: {
+    new(): JSExportAttribute$instance;
+};
 
 
 export type JSExportAttribute = JSExportAttribute$instance;
 
-export class JSFunctionBinding$instance {
-    static bindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static bindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static invokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
+export interface JSFunctionBinding$instance {
 }
+
+
+export const JSFunctionBinding: {
+    new(): JSFunctionBinding$instance;
+    bindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    bindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    invokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
+};
 
 
 export type JSFunctionBinding = JSFunctionBinding$instance;
 
-export class JSImportAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(functionName: string);
-    constructor(functionName: string, moduleName: string);
+export interface JSImportAttribute$instance extends Attribute {
     readonly functionName: string;
     readonly moduleName: string;
 }
 
 
+export const JSImportAttribute: {
+    new(functionName: string): JSImportAttribute$instance;
+    new(functionName: string, moduleName: string): JSImportAttribute$instance;
+};
+
+
 export type JSImportAttribute = JSImportAttribute$instance;
 
-export class JSMarshalAsAttribute_1$instance<T extends JSType> extends System_Internal.Attribute$instance {
-    constructor();
+export interface JSMarshalAsAttribute_1$instance<T extends JSType> extends Attribute {
 }
+
+
+export const JSMarshalAsAttribute_1: {
+    new<T extends JSType>(): JSMarshalAsAttribute_1$instance<T>;
+};
 
 
 export type JSMarshalAsAttribute_1<T extends JSType> = JSMarshalAsAttribute_1$instance<T>;
 
-export class JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(arg: { value: ref<JSMarshalerArgument> }, result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg: { value: ref<JSMarshalerArgument> }, value: T): void;
+export interface JSMarshalerType$instance {
 }
 
 
-export interface __JSMarshalerArgument_ArgumentToJSCallback_1$views<T> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToJSCallback_1$views<T>;
-
-
-export class JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }): void;
-}
-
-
-export interface __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T>;
-
-
-export class JSMarshalerType$instance {
-    static readonly void_: JSMarshalerType;
-    static readonly discard: JSMarshalerType;
-    static readonly boolean_: JSMarshalerType;
-    static readonly byte: JSMarshalerType;
-    static readonly char: JSMarshalerType;
-    static readonly int16: JSMarshalerType;
-    static readonly int32: JSMarshalerType;
-    static readonly int52: JSMarshalerType;
-    static readonly bigInt64: JSMarshalerType;
-    static readonly double: JSMarshalerType;
-    static readonly single: JSMarshalerType;
-    static readonly intPtr: JSMarshalerType;
-    static readonly jsObject: JSMarshalerType;
-    static readonly object_: JSMarshalerType;
-    static readonly string_: JSMarshalerType;
-    static readonly exception: JSMarshalerType;
-    static readonly dateTime: JSMarshalerType;
-    static readonly dateTimeOffset: JSMarshalerType;
-    static action(): JSMarshalerType;
-    static action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
-    static action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
-    static action(arg1: JSMarshalerType): JSMarshalerType;
-    static array(element: JSMarshalerType): JSMarshalerType;
-    static arraySegment(element: JSMarshalerType): JSMarshalerType;
-    static function_(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_(result: JSMarshalerType): JSMarshalerType;
-    static nullable(primitive: JSMarshalerType): JSMarshalerType;
-    static span(element: JSMarshalerType): JSMarshalerType;
-    static task(): JSMarshalerType;
-    static task(result: JSMarshalerType): JSMarshalerType;
-}
+export const JSMarshalerType: {
+    new(): JSMarshalerType$instance;
+    readonly void_: JSMarshalerType;
+    readonly discard: JSMarshalerType;
+    readonly boolean_: JSMarshalerType;
+    readonly byte: JSMarshalerType;
+    readonly char: JSMarshalerType;
+    readonly int16: JSMarshalerType;
+    readonly int32: JSMarshalerType;
+    readonly int52: JSMarshalerType;
+    readonly bigInt64: JSMarshalerType;
+    readonly double: JSMarshalerType;
+    readonly single: JSMarshalerType;
+    readonly intPtr: JSMarshalerType;
+    readonly jsObject: JSMarshalerType;
+    readonly object_: JSMarshalerType;
+    readonly string_: JSMarshalerType;
+    readonly exception: JSMarshalerType;
+    readonly dateTime: JSMarshalerType;
+    readonly dateTimeOffset: JSMarshalerType;
+    action(): JSMarshalerType;
+    action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
+    action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
+    action(arg1: JSMarshalerType): JSMarshalerType;
+    array(element: JSMarshalerType): JSMarshalerType;
+    arraySegment(element: JSMarshalerType): JSMarshalerType;
+    function_(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function_(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function_(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function_(result: JSMarshalerType): JSMarshalerType;
+    nullable(primitive: JSMarshalerType): JSMarshalerType;
+    span(element: JSMarshalerType): JSMarshalerType;
+    task(): JSMarshalerType;
+    task(result: JSMarshalerType): JSMarshalerType;
+};
 
 
 export type JSMarshalerType = JSMarshalerType$instance;
 
-export class JSObject$instance {
+export interface JSObject$instance {
     readonly isDisposed: boolean;
     dispose(): void;
     getPropertyAsBoolean(propertyName: string): boolean;
@@ -292,6 +293,11 @@ export class JSObject$instance {
 }
 
 
+export const JSObject: {
+    new(): JSObject$instance;
+};
+
+
 export interface __JSObject$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -301,116 +307,210 @@ export interface JSObject$instance extends System_Internal.IDisposable$instance 
 export type JSObject = JSObject$instance & __JSObject$views;
 
 
-export abstract class JSType$instance {
+export interface JSType$instance {
 }
+
+
+export const JSType: {
+};
 
 
 export type JSType = JSType$instance;
 
-export class JSType_Any$instance extends JSType$instance {
+export interface JSType_Any$instance extends JSType {
 }
+
+
+export const JSType_Any: {
+    new(): JSType_Any$instance;
+};
 
 
 export type JSType_Any = JSType_Any$instance;
 
-export class JSType_Array_1$instance<T extends JSType> extends JSType$instance {
+export interface JSType_Array_1$instance<T extends JSType> extends JSType {
 }
+
+
+export const JSType_Array_1: {
+    new<T extends JSType>(): JSType_Array_1$instance<T>;
+};
 
 
 export type JSType_Array_1<T extends JSType> = JSType_Array_1$instance<T>;
 
-export class JSType_BigInt$instance extends JSType$instance {
+export interface JSType_BigInt$instance extends JSType {
 }
+
+
+export const JSType_BigInt: {
+    new(): JSType_BigInt$instance;
+};
 
 
 export type JSType_BigInt = JSType_BigInt$instance;
 
-export class JSType_Boolean$instance extends JSType$instance {
+export interface JSType_Boolean$instance extends JSType {
 }
+
+
+export const JSType_Boolean: {
+    new(): JSType_Boolean$instance;
+};
 
 
 export type JSType_Boolean = JSType_Boolean$instance;
 
-export class JSType_Date$instance extends JSType$instance {
+export interface JSType_Date$instance extends JSType {
 }
+
+
+export const JSType_Date: {
+    new(): JSType_Date$instance;
+};
 
 
 export type JSType_Date = JSType_Date$instance;
 
-export class JSType_Discard$instance extends JSType$instance {
+export interface JSType_Discard$instance extends JSType {
 }
+
+
+export const JSType_Discard: {
+    new(): JSType_Discard$instance;
+};
 
 
 export type JSType_Discard = JSType_Discard$instance;
 
-export class JSType_Error$instance extends JSType$instance {
+export interface JSType_Error$instance extends JSType {
 }
+
+
+export const JSType_Error: {
+    new(): JSType_Error$instance;
+};
 
 
 export type JSType_Error = JSType_Error$instance;
 
-export class JSType_Function$instance extends JSType$instance {
+export interface JSType_Function$instance extends JSType {
 }
+
+
+export const JSType_Function: {
+    new(): JSType_Function$instance;
+};
 
 
 export type JSType_Function = JSType_Function$instance;
 
-export class JSType_Function_1$instance<T extends JSType> extends JSType$instance {
+export interface JSType_Function_1$instance<T extends JSType> extends JSType {
 }
+
+
+export const JSType_Function_1: {
+    new<T extends JSType>(): JSType_Function_1$instance<T>;
+};
 
 
 export type JSType_Function_1<T extends JSType> = JSType_Function_1$instance<T>;
 
-export class JSType_Function_2$instance<T1 extends JSType, T2 extends JSType> extends JSType$instance {
+export interface JSType_Function_2$instance<T1 extends JSType, T2 extends JSType> extends JSType {
 }
+
+
+export const JSType_Function_2: {
+    new<T1 extends JSType, T2 extends JSType>(): JSType_Function_2$instance<T1, T2>;
+};
 
 
 export type JSType_Function_2<T1 extends JSType, T2 extends JSType> = JSType_Function_2$instance<T1, T2>;
 
-export class JSType_Function_3$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType> extends JSType$instance {
+export interface JSType_Function_3$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType> extends JSType {
 }
+
+
+export const JSType_Function_3: {
+    new<T1 extends JSType, T2 extends JSType, T3 extends JSType>(): JSType_Function_3$instance<T1, T2, T3>;
+};
 
 
 export type JSType_Function_3<T1 extends JSType, T2 extends JSType, T3 extends JSType> = JSType_Function_3$instance<T1, T2, T3>;
 
-export class JSType_Function_4$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType> extends JSType$instance {
+export interface JSType_Function_4$instance<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType> extends JSType {
 }
+
+
+export const JSType_Function_4: {
+    new<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType>(): JSType_Function_4$instance<T1, T2, T3, T4>;
+};
 
 
 export type JSType_Function_4<T1 extends JSType, T2 extends JSType, T3 extends JSType, T4 extends JSType> = JSType_Function_4$instance<T1, T2, T3, T4>;
 
-export class JSType_MemoryView$instance extends JSType$instance {
+export interface JSType_MemoryView$instance extends JSType {
 }
+
+
+export const JSType_MemoryView: {
+    new(): JSType_MemoryView$instance;
+};
 
 
 export type JSType_MemoryView = JSType_MemoryView$instance;
 
-export class JSType_Number$instance extends JSType$instance {
+export interface JSType_Number$instance extends JSType {
 }
+
+
+export const JSType_Number: {
+    new(): JSType_Number$instance;
+};
 
 
 export type JSType_Number = JSType_Number$instance;
 
-export class JSType_Object$instance extends JSType$instance {
+export interface JSType_Object$instance extends JSType {
 }
+
+
+export const JSType_Object: {
+    new(): JSType_Object$instance;
+};
 
 
 export type JSType_Object = JSType_Object$instance;
 
-export class JSType_Promise_1$instance<T extends JSType> extends JSType$instance {
+export interface JSType_Promise_1$instance<T extends JSType> extends JSType {
 }
+
+
+export const JSType_Promise_1: {
+    new<T extends JSType>(): JSType_Promise_1$instance<T>;
+};
 
 
 export type JSType_Promise_1<T extends JSType> = JSType_Promise_1$instance<T>;
 
-export class JSType_String$instance extends JSType$instance {
+export interface JSType_String$instance extends JSType {
 }
+
+
+export const JSType_String: {
+    new(): JSType_String$instance;
+};
 
 
 export type JSType_String = JSType_String$instance;
 
-export class JSType_Void$instance extends JSType$instance {
+export interface JSType_Void$instance extends JSType {
 }
+
+
+export const JSType_Void: {
+    new(): JSType_Void$instance;
+};
 
 
 export type JSType_Void = JSType_Void$instance;

@@ -384,13 +384,18 @@ export enum TransmitFileOptions {
 }
 
 
-export class IPPacketInformation$instance {
+export interface IPPacketInformation$instance {
     readonly address: IPAddress;
     readonly interface_: int;
     equals(comparand: unknown): boolean;
     equals(other: IPPacketInformation): boolean;
     getHashCode(): int;
 }
+
+
+export const IPPacketInformation: {
+    new(): IPPacketInformation$instance;
+};
 
 
 export interface __IPPacketInformation$views {
@@ -403,23 +408,33 @@ export interface __IPPacketInformation$views {
 export type IPPacketInformation = IPPacketInformation$instance & __IPPacketInformation$views;
 
 
-export class SocketInformation$instance {
+export interface SocketInformation$instance {
     options: SocketInformationOptions;
     protocolInformation: byte[];
 }
 
 
+export const SocketInformation: {
+    new(): SocketInformation$instance;
+};
+
+
 export type SocketInformation = SocketInformation$instance;
 
-export class SocketReceiveFromResult$instance {
+export interface SocketReceiveFromResult$instance {
     receivedBytes: int;
     remoteEndPoint: EndPoint;
 }
 
 
+export const SocketReceiveFromResult: {
+    new(): SocketReceiveFromResult$instance;
+};
+
+
 export type SocketReceiveFromResult = SocketReceiveFromResult$instance;
 
-export class SocketReceiveMessageFromResult$instance {
+export interface SocketReceiveMessageFromResult$instance {
     receivedBytes: int;
     socketFlags: SocketFlags;
     remoteEndPoint: EndPoint;
@@ -427,16 +442,25 @@ export class SocketReceiveMessageFromResult$instance {
 }
 
 
+export const SocketReceiveMessageFromResult: {
+    new(): SocketReceiveMessageFromResult$instance;
+};
+
+
 export type SocketReceiveMessageFromResult = SocketReceiveMessageFromResult$instance;
 
-export class UdpReceiveResult$instance {
-    constructor(buffer: byte[], remoteEndPoint: IPEndPoint);
+export interface UdpReceiveResult$instance {
     readonly buffer: byte[];
     readonly remoteEndPoint: IPEndPoint;
     equals(obj: unknown): boolean;
     equals(other: UdpReceiveResult): boolean;
     getHashCode(): int;
 }
+
+
+export const UdpReceiveResult: {
+    new(buffer: byte[], remoteEndPoint: IPEndPoint): UdpReceiveResult$instance;
+};
 
 
 export interface __UdpReceiveResult$views {
@@ -449,18 +473,21 @@ export interface __UdpReceiveResult$views {
 export type UdpReceiveResult = UdpReceiveResult$instance & __UdpReceiveResult$views;
 
 
-export class IPv6MulticastOption$instance {
-    constructor(group: IPAddress, ifindex: long);
-    constructor(group: IPAddress);
+export interface IPv6MulticastOption$instance {
     group: IPAddress;
     interfaceIndex: long;
 }
 
 
+export const IPv6MulticastOption: {
+    new(group: IPAddress, ifindex: long): IPv6MulticastOption$instance;
+    new(group: IPAddress): IPv6MulticastOption$instance;
+};
+
+
 export type IPv6MulticastOption = IPv6MulticastOption$instance;
 
-export class LingerOption$instance {
-    constructor(enable: boolean, seconds: int);
+export interface LingerOption$instance {
     enabled: boolean;
     lingerTime: int;
     equals(comparand: unknown): boolean;
@@ -468,25 +495,30 @@ export class LingerOption$instance {
 }
 
 
+export const LingerOption: {
+    new(enable: boolean, seconds: int): LingerOption$instance;
+};
+
+
 export type LingerOption = LingerOption$instance;
 
-export class MulticastOption$instance {
-    constructor(group: IPAddress, mcint: IPAddress);
-    constructor(group: IPAddress, interfaceIndex: int);
-    constructor(group: IPAddress);
+export interface MulticastOption$instance {
     group: IPAddress;
     interfaceIndex: int;
     localAddress: IPAddress;
 }
 
 
+export const MulticastOption: {
+    new(group: IPAddress, mcint: IPAddress): MulticastOption$instance;
+    new(group: IPAddress, interfaceIndex: int): MulticastOption$instance;
+    new(group: IPAddress): MulticastOption$instance;
+};
+
+
 export type MulticastOption = MulticastOption$instance;
 
-export class NetworkStream$instance extends System_IO_Internal.Stream$instance {
-    constructor(socket: Socket);
-    constructor(socket: Socket, ownsSocket: boolean);
-    constructor(socket: Socket, access: FileAccess);
-    constructor(socket: Socket, access: FileAccess, ownsSocket: boolean);
+export interface NetworkStream$instance extends Stream {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canTimeout: boolean;
@@ -530,6 +562,14 @@ export class NetworkStream$instance extends System_IO_Internal.Stream$instance {
 }
 
 
+export const NetworkStream: {
+    new(socket: Socket): NetworkStream$instance;
+    new(socket: Socket, ownsSocket: boolean): NetworkStream$instance;
+    new(socket: Socket, access: FileAccess): NetworkStream$instance;
+    new(socket: Socket, access: FileAccess, ownsSocket: boolean): NetworkStream$instance;
+};
+
+
 export interface __NetworkStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -538,12 +578,16 @@ export interface __NetworkStream$views {
 export type NetworkStream = NetworkStream$instance & __NetworkStream$views;
 
 
-export class SafeSocketHandle$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleMinusOneIsInvalid$instance {
-    constructor();
-    constructor(preexistingHandle: nint, ownsHandle: boolean);
+export interface SafeSocketHandle$instance extends SafeHandleMinusOneIsInvalid {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafeSocketHandle: {
+    new(): SafeSocketHandle$instance;
+    new(preexistingHandle: nint, ownsHandle: boolean): SafeSocketHandle$instance;
+};
 
 
 export interface __SafeSocketHandle$views {
@@ -553,20 +597,7 @@ export interface __SafeSocketHandle$views {
 export type SafeSocketHandle = SafeSocketHandle$instance & __SafeSocketHandle$views;
 
 
-export class SendPacketsElement$instance {
-    constructor(filepath: string);
-    constructor(filepath: string, offset: int, count: int);
-    constructor(filepath: string, offset: int, count: int, endOfPacket: boolean);
-    constructor(filepath: string, offset: long, count: int);
-    constructor(filepath: string, offset: long, count: int, endOfPacket: boolean);
-    constructor(fileStream: FileStream);
-    constructor(fileStream: FileStream, offset: long, count: int);
-    constructor(fileStream: FileStream, offset: long, count: int, endOfPacket: boolean);
-    constructor(buffer: byte[]);
-    constructor(buffer: byte[], offset: int, count: int);
-    constructor(buffer: byte[], offset: int, count: int, endOfPacket: boolean);
-    constructor(buffer: ReadOnlyMemory_1<CLROf<byte>>);
-    constructor(buffer: ReadOnlyMemory_1<CLROf<byte>>, endOfPacket: boolean);
+export interface SendPacketsElement$instance {
     readonly buffer: byte[];
     readonly count: int;
     readonly endOfPacket: boolean;
@@ -578,13 +609,26 @@ export class SendPacketsElement$instance {
 }
 
 
+export const SendPacketsElement: {
+    new(filepath: string): SendPacketsElement$instance;
+    new(filepath: string, offset: int, count: int): SendPacketsElement$instance;
+    new(filepath: string, offset: int, count: int, endOfPacket: boolean): SendPacketsElement$instance;
+    new(filepath: string, offset: long, count: int): SendPacketsElement$instance;
+    new(filepath: string, offset: long, count: int, endOfPacket: boolean): SendPacketsElement$instance;
+    new(fileStream: FileStream): SendPacketsElement$instance;
+    new(fileStream: FileStream, offset: long, count: int): SendPacketsElement$instance;
+    new(fileStream: FileStream, offset: long, count: int, endOfPacket: boolean): SendPacketsElement$instance;
+    new(buffer: byte[]): SendPacketsElement$instance;
+    new(buffer: byte[], offset: int, count: int): SendPacketsElement$instance;
+    new(buffer: byte[], offset: int, count: int, endOfPacket: boolean): SendPacketsElement$instance;
+    new(buffer: ReadOnlyMemory_1<CLROf<byte>>): SendPacketsElement$instance;
+    new(buffer: ReadOnlyMemory_1<CLROf<byte>>, endOfPacket: boolean): SendPacketsElement$instance;
+};
+
+
 export type SendPacketsElement = SendPacketsElement$instance;
 
-export class Socket$instance {
-    constructor(socketType: SocketType, protocolType: ProtocolType);
-    constructor(addressFamily: AddressFamily, socketType: SocketType, protocolType: ProtocolType);
-    constructor(handle: SafeSocketHandle);
-    constructor(socketInformation: SocketInformation);
+export interface Socket$instance {
     readonly addressFamily: AddressFamily;
     readonly available: int;
     blocking: boolean;
@@ -762,16 +806,24 @@ export class Socket$instance {
     setSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: boolean): void;
     setSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: unknown): void;
     shutdown(how: SocketShutdown): void;
-    static readonly supportsIPv4: boolean;
-    static readonly supportsIPv6: boolean;
-    static readonly osSupportsIPv4: boolean;
-    static readonly osSupportsIPv6: boolean;
-    static readonly osSupportsUnixDomainSockets: boolean;
-    static cancelConnectAsync(e: SocketAsyncEventArgs): void;
-    static connectAsync(socketType: SocketType, protocolType: ProtocolType, e: SocketAsyncEventArgs): boolean;
-    static select(checkRead: IList, checkWrite: IList, checkError: IList, microSeconds: int): void;
-    static select(checkRead: IList, checkWrite: IList, checkError: IList, timeout: TimeSpan): void;
 }
+
+
+export const Socket: {
+    new(socketType: SocketType, protocolType: ProtocolType): Socket$instance;
+    new(addressFamily: AddressFamily, socketType: SocketType, protocolType: ProtocolType): Socket$instance;
+    new(handle: SafeSocketHandle): Socket$instance;
+    new(socketInformation: SocketInformation): Socket$instance;
+    readonly supportsIPv4: boolean;
+    readonly supportsIPv6: boolean;
+    readonly osSupportsIPv4: boolean;
+    readonly osSupportsIPv6: boolean;
+    readonly osSupportsUnixDomainSockets: boolean;
+    cancelConnectAsync(e: SocketAsyncEventArgs): void;
+    connectAsync(socketType: SocketType, protocolType: ProtocolType, e: SocketAsyncEventArgs): boolean;
+    select(checkRead: IList, checkWrite: IList, checkError: IList, microSeconds: int): void;
+    select(checkRead: IList, checkWrite: IList, checkError: IList, timeout: TimeSpan): void;
+};
 
 
 export interface __Socket$views {
@@ -783,9 +835,7 @@ export interface Socket$instance extends System_Internal.IDisposable$instance {}
 export type Socket = Socket$instance & __Socket$views;
 
 
-export class SocketAsyncEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor();
-    constructor(unsafeSuppressExecutionContextFlow: boolean);
+export interface SocketAsyncEventArgs$instance extends EventArgs {
     acceptSocket: Socket;
     readonly buffer: byte[];
     bufferList: IList_1<ArraySegment_1<CLROf<byte>>>;
@@ -812,6 +862,12 @@ export class SocketAsyncEventArgs$instance extends System_Internal.EventArgs$ins
 }
 
 
+export const SocketAsyncEventArgs: {
+    new(): SocketAsyncEventArgs$instance;
+    new(unsafeSuppressExecutionContextFlow: boolean): SocketAsyncEventArgs$instance;
+};
+
+
 export interface __SocketAsyncEventArgs$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -821,15 +877,19 @@ export interface SocketAsyncEventArgs$instance extends System_Internal.IDisposab
 export type SocketAsyncEventArgs = SocketAsyncEventArgs$instance & __SocketAsyncEventArgs$views;
 
 
-export class SocketException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
-    constructor(errorCode: int);
-    constructor(errorCode: int, message: string);
-    constructor();
+export interface SocketException$instance extends Win32Exception {
     readonly errorCode: int;
     readonly message: string;
     readonly socketErrorCode: SocketError;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SocketException: {
+    new(errorCode: int): SocketException$instance;
+    new(errorCode: int, message: string): SocketException$instance;
+    new(): SocketException$instance;
+};
 
 
 export interface __SocketException$views {
@@ -839,11 +899,7 @@ export interface __SocketException$views {
 export type SocketException = SocketException$instance & __SocketException$views;
 
 
-export class TcpClient$instance {
-    constructor();
-    constructor(family: AddressFamily);
-    constructor(localEP: IPEndPoint);
-    constructor(hostname: string, port: int);
+export interface TcpClient$instance {
     readonly available: int;
     client: Socket;
     readonly connected: boolean;
@@ -876,6 +932,14 @@ export class TcpClient$instance {
 }
 
 
+export const TcpClient: {
+    new(): TcpClient$instance;
+    new(family: AddressFamily): TcpClient$instance;
+    new(localEP: IPEndPoint): TcpClient$instance;
+    new(hostname: string, port: int): TcpClient$instance;
+};
+
+
 export interface __TcpClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -885,10 +949,7 @@ export interface TcpClient$instance extends System_Internal.IDisposable$instance
 export type TcpClient = TcpClient$instance & __TcpClient$views;
 
 
-export class TcpListener$instance {
-    constructor(localEP: IPEndPoint);
-    constructor(localaddr: IPAddress, port: int);
-    constructor(port: int);
+export interface TcpListener$instance {
     exclusiveAddressUse: boolean;
     readonly localEndpoint: EndPoint;
     readonly server: Socket;
@@ -908,8 +969,15 @@ export class TcpListener$instance {
     start(): void;
     start(backlog: int): void;
     stop(): void;
-    static create(port: int): TcpListener;
 }
+
+
+export const TcpListener: {
+    new(localEP: IPEndPoint): TcpListener$instance;
+    new(localaddr: IPAddress, port: int): TcpListener$instance;
+    new(port: int): TcpListener$instance;
+    create(port: int): TcpListener;
+};
 
 
 export interface __TcpListener$views {
@@ -921,13 +989,7 @@ export interface TcpListener$instance extends System_Internal.IDisposable$instan
 export type TcpListener = TcpListener$instance & __TcpListener$views;
 
 
-export class UdpClient$instance {
-    constructor();
-    constructor(family: AddressFamily);
-    constructor(port: int);
-    constructor(port: int, family: AddressFamily);
-    constructor(localEP: IPEndPoint);
-    constructor(hostname: string, port: int);
+export interface UdpClient$instance {
     readonly available: int;
     client: Socket;
     dontFragment: boolean;
@@ -971,6 +1033,16 @@ export class UdpClient$instance {
 }
 
 
+export const UdpClient: {
+    new(): UdpClient$instance;
+    new(family: AddressFamily): UdpClient$instance;
+    new(port: int): UdpClient$instance;
+    new(port: int, family: AddressFamily): UdpClient$instance;
+    new(localEP: IPEndPoint): UdpClient$instance;
+    new(hostname: string, port: int): UdpClient$instance;
+};
+
+
 export interface __UdpClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -980,8 +1052,7 @@ export interface UdpClient$instance extends System_Internal.IDisposable$instance
 export type UdpClient = UdpClient$instance & __UdpClient$views;
 
 
-export class UnixDomainSocketEndPoint$instance extends System_Net_Internal.EndPoint$instance {
-    constructor(path: string);
+export interface UnixDomainSocketEndPoint$instance extends EndPoint {
     readonly addressFamily: AddressFamily;
     create(socketAddress: SocketAddress): EndPoint;
     equals(obj: unknown): boolean;
@@ -989,6 +1060,11 @@ export class UnixDomainSocketEndPoint$instance extends System_Net_Internal.EndPo
     serialize(): SocketAddress;
     toString(): string;
 }
+
+
+export const UnixDomainSocketEndPoint: {
+    new(path: string): UnixDomainSocketEndPoint$instance;
+};
 
 
 export type UnixDomainSocketEndPoint = UnixDomainSocketEndPoint$instance;

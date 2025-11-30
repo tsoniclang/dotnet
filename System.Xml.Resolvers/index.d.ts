@@ -17,4 +17,4 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { XmlKnownDtds as XmlKnownDtds } from './internal/index.js';
-export { XmlPreloadedResolver$instance as XmlPreloadedResolver } from './internal/index.js';
+export { XmlPreloadedResolver as XmlPreloadedResolver } from './internal/index.js';

@@ -10,7 +10,7 @@ import type { ptr, ref } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Numerics_Internal from "../../System.Numerics/internal/index.js";
-import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IFloatingPointConstants_1, IFloatingPointIeee754_1, IMultiplyOperators_3, IShiftOperators_3, ISignedNumber_1, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from "../../System.Numerics/internal/index.js";
+import type { IAdditionOperators_3, IBitwiseOperators_3, IDivisionOperators_3, IEqualityOperators_3, IMultiplyOperators_3, IShiftOperators_3, ISubtractionOperators_3, IUnaryNegationOperators_2, IUnaryPlusOperators_2, Plane, Quaternion, Vector_1, Vector2, Vector3, Vector4 } from "../../System.Numerics/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Double, IEquatable_1, Int16, Int32, Int64, IntPtr, MidpointRounding, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
@@ -39,19 +39,24 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class Vector128_1$instance<T> implements IAdditionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IBitwiseOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IDivisionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IEqualityOperators_3<Vector128_1<T>, Vector128_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IShiftOperators_3<Vector128_1<T>, CLROf<int>, Vector128_1<T>>, ISubtractionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IUnaryNegationOperators_2<Vector128_1<T>, Vector128_1<T>>, IUnaryPlusOperators_2<Vector128_1<T>, Vector128_1<T>> {
+export interface Vector128_1$instance<T> extends IAdditionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IBitwiseOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IDivisionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IEqualityOperators_3<Vector128_1<T>, Vector128_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IShiftOperators_3<Vector128_1<T>, CLROf<int>, Vector128_1<T>>, ISubtractionOperators_3<Vector128_1<T>, Vector128_1<T>, Vector128_1<T>>, IUnaryNegationOperators_2<Vector128_1<T>, Vector128_1<T>>, IUnaryPlusOperators_2<Vector128_1<T>, Vector128_1<T>> {
     readonly item: T;
     equals(obj: unknown): boolean;
     equals(other: Vector128_1<T>): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly allBitsSet: unknown;
-    static readonly count: int;
-    static readonly indices: unknown;
-    static readonly isSupported: boolean;
-    static readonly one: unknown;
-    static readonly zero: unknown;
 }
+
+
+export const Vector128_1: {
+    new<T>(): Vector128_1$instance<T>;
+    readonly allBitsSet: unknown;
+    readonly count: int;
+    readonly indices: unknown;
+    readonly isSupported: boolean;
+    readonly one: unknown;
+    readonly zero: unknown;
+};
 
 
 export interface __Vector128_1$views<T> {
@@ -66,19 +71,24 @@ export interface Vector128_1$instance<T> extends System_Numerics_Internal.IAddit
 export type Vector128_1<T> = Vector128_1$instance<T> & __Vector128_1$views<T>;
 
 
-export class Vector256_1$instance<T> implements IAdditionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IBitwiseOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IDivisionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IEqualityOperators_3<Vector256_1<T>, Vector256_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IShiftOperators_3<Vector256_1<T>, CLROf<int>, Vector256_1<T>>, ISubtractionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IUnaryNegationOperators_2<Vector256_1<T>, Vector256_1<T>>, IUnaryPlusOperators_2<Vector256_1<T>, Vector256_1<T>> {
+export interface Vector256_1$instance<T> extends IAdditionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IBitwiseOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IDivisionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IEqualityOperators_3<Vector256_1<T>, Vector256_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IShiftOperators_3<Vector256_1<T>, CLROf<int>, Vector256_1<T>>, ISubtractionOperators_3<Vector256_1<T>, Vector256_1<T>, Vector256_1<T>>, IUnaryNegationOperators_2<Vector256_1<T>, Vector256_1<T>>, IUnaryPlusOperators_2<Vector256_1<T>, Vector256_1<T>> {
     readonly item: T;
     equals(obj: unknown): boolean;
     equals(other: Vector256_1<T>): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly allBitsSet: unknown;
-    static readonly count: int;
-    static readonly indices: unknown;
-    static readonly isSupported: boolean;
-    static readonly one: unknown;
-    static readonly zero: unknown;
 }
+
+
+export const Vector256_1: {
+    new<T>(): Vector256_1$instance<T>;
+    readonly allBitsSet: unknown;
+    readonly count: int;
+    readonly indices: unknown;
+    readonly isSupported: boolean;
+    readonly one: unknown;
+    readonly zero: unknown;
+};
 
 
 export interface __Vector256_1$views<T> {
@@ -93,19 +103,24 @@ export interface Vector256_1$instance<T> extends System_Numerics_Internal.IAddit
 export type Vector256_1<T> = Vector256_1$instance<T> & __Vector256_1$views<T>;
 
 
-export class Vector512_1$instance<T> implements IAdditionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IBitwiseOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IDivisionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IEqualityOperators_3<Vector512_1<T>, Vector512_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IShiftOperators_3<Vector512_1<T>, CLROf<int>, Vector512_1<T>>, ISubtractionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IUnaryNegationOperators_2<Vector512_1<T>, Vector512_1<T>>, IUnaryPlusOperators_2<Vector512_1<T>, Vector512_1<T>> {
+export interface Vector512_1$instance<T> extends IAdditionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IBitwiseOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IDivisionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IEqualityOperators_3<Vector512_1<T>, Vector512_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IShiftOperators_3<Vector512_1<T>, CLROf<int>, Vector512_1<T>>, ISubtractionOperators_3<Vector512_1<T>, Vector512_1<T>, Vector512_1<T>>, IUnaryNegationOperators_2<Vector512_1<T>, Vector512_1<T>>, IUnaryPlusOperators_2<Vector512_1<T>, Vector512_1<T>> {
     readonly item: T;
     equals(obj: unknown): boolean;
     equals(other: Vector512_1<T>): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly allBitsSet: unknown;
-    static readonly count: int;
-    static readonly indices: unknown;
-    static readonly isSupported: boolean;
-    static readonly one: unknown;
-    static readonly zero: unknown;
 }
+
+
+export const Vector512_1: {
+    new<T>(): Vector512_1$instance<T>;
+    readonly allBitsSet: unknown;
+    readonly count: int;
+    readonly indices: unknown;
+    readonly isSupported: boolean;
+    readonly one: unknown;
+    readonly zero: unknown;
+};
 
 
 export interface __Vector512_1$views<T> {
@@ -120,19 +135,24 @@ export interface Vector512_1$instance<T> extends System_Numerics_Internal.IAddit
 export type Vector512_1<T> = Vector512_1$instance<T> & __Vector512_1$views<T>;
 
 
-export class Vector64_1$instance<T> implements IAdditionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IBitwiseOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IDivisionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IEqualityOperators_3<Vector64_1<T>, Vector64_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IShiftOperators_3<Vector64_1<T>, CLROf<int>, Vector64_1<T>>, ISubtractionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IUnaryNegationOperators_2<Vector64_1<T>, Vector64_1<T>>, IUnaryPlusOperators_2<Vector64_1<T>, Vector64_1<T>> {
+export interface Vector64_1$instance<T> extends IAdditionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IBitwiseOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IDivisionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IEqualityOperators_3<Vector64_1<T>, Vector64_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IShiftOperators_3<Vector64_1<T>, CLROf<int>, Vector64_1<T>>, ISubtractionOperators_3<Vector64_1<T>, Vector64_1<T>, Vector64_1<T>>, IUnaryNegationOperators_2<Vector64_1<T>, Vector64_1<T>>, IUnaryPlusOperators_2<Vector64_1<T>, Vector64_1<T>> {
     readonly item: T;
     equals(obj: unknown): boolean;
     equals(other: Vector64_1<T>): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly allBitsSet: unknown;
-    static readonly count: int;
-    static readonly indices: unknown;
-    static readonly isSupported: boolean;
-    static readonly one: unknown;
-    static readonly zero: unknown;
 }
+
+
+export const Vector64_1: {
+    new<T>(): Vector64_1$instance<T>;
+    readonly allBitsSet: unknown;
+    readonly count: int;
+    readonly indices: unknown;
+    readonly isSupported: boolean;
+    readonly one: unknown;
+    readonly zero: unknown;
+};
 
 
 export interface __Vector64_1$views<T> {
@@ -293,15 +313,6 @@ export abstract class Vector128$instance {
     static floor(vector: Vector128_1<CLROf<float>>): Vector128_1<CLROf<float>>;
     static fusedMultiplyAdd(left: Vector128_1<CLROf<double>>, right: Vector128_1<CLROf<double>>, addend: Vector128_1<CLROf<double>>): Vector128_1<CLROf<double>>;
     static fusedMultiplyAdd(left: Vector128_1<CLROf<float>>, right: Vector128_1<CLROf<float>>, addend: Vector128_1<CLROf<float>>): Vector128_1<CLROf<float>>;
-    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
-    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
-    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
-    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
-    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector128_1<T>;
-    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
-    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
-    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector128_1<T>;
-    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector128_1<T>;
     static getElement<T>(vector: Vector128_1<T>, index: int): T;
     static getLower<T>(vector: Vector128_1<T>): Vector64_1<T>;
     static getUpper<T>(vector: Vector128_1<T>): Vector64_1<T>;
@@ -615,15 +626,6 @@ export abstract class Vector256$instance {
     static floor(vector: Vector256_1<CLROf<float>>): Vector256_1<CLROf<float>>;
     static fusedMultiplyAdd(left: Vector256_1<CLROf<double>>, right: Vector256_1<CLROf<double>>, addend: Vector256_1<CLROf<double>>): Vector256_1<CLROf<double>>;
     static fusedMultiplyAdd(left: Vector256_1<CLROf<float>>, right: Vector256_1<CLROf<float>>, addend: Vector256_1<CLROf<float>>): Vector256_1<CLROf<float>>;
-    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
-    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
-    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
-    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
-    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector256_1<T>;
-    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
-    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
-    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector256_1<T>;
-    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector256_1<T>;
     static getElement<T>(vector: Vector256_1<T>, index: int): T;
     static getLower<T>(vector: Vector256_1<T>): Vector128_1<T>;
     static getUpper<T>(vector: Vector256_1<T>): Vector128_1<T>;
@@ -938,15 +940,6 @@ export abstract class Vector512$instance {
     static floor(vector: Vector512_1<CLROf<float>>): Vector512_1<CLROf<float>>;
     static fusedMultiplyAdd(left: Vector512_1<CLROf<double>>, right: Vector512_1<CLROf<double>>, addend: Vector512_1<CLROf<double>>): Vector512_1<CLROf<double>>;
     static fusedMultiplyAdd(left: Vector512_1<CLROf<float>>, right: Vector512_1<CLROf<float>>, addend: Vector512_1<CLROf<float>>): Vector512_1<CLROf<float>>;
-    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
-    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
-    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
-    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
-    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector512_1<T>;
-    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
-    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
-    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector512_1<T>;
-    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector512_1<T>;
     static getElement<T>(vector: Vector512_1<T>, index: int): T;
     static getLower<T>(vector: Vector512_1<T>): Vector256_1<T>;
     static getUpper<T>(vector: Vector512_1<T>): Vector256_1<T>;
@@ -1238,15 +1231,6 @@ export abstract class Vector64$instance {
     static floor(vector: Vector64_1<CLROf<float>>): Vector64_1<CLROf<float>>;
     static fusedMultiplyAdd(left: Vector64_1<CLROf<double>>, right: Vector64_1<CLROf<double>>, addend: Vector64_1<CLROf<double>>): Vector64_1<CLROf<double>>;
     static fusedMultiplyAdd(left: Vector64_1<CLROf<float>>, right: Vector64_1<CLROf<float>>, addend: Vector64_1<CLROf<float>>): Vector64_1<CLROf<float>>;
-    static get_E<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
-    static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
-    static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
-    static get_NegativeInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
-    static get_NegativeOne<T extends ISignedNumber_1<T>>(): Vector64_1<T>;
-    static get_NegativeZero<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
-    static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
-    static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector64_1<T>;
-    static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector64_1<T>;
     static getElement<T>(vector: Vector64_1<T>, index: int): T;
     static greaterThan<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
     static greaterThanAll<T>(left: Vector64_1<T>, right: Vector64_1<T>): boolean;

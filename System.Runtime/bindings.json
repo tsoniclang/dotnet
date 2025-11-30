@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67113216,
+          "metadataToken": 67113219,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::DefaultSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "Default",
           "tsEmitName": "default_",
-          "metadataToken": 67113217,
+          "metadataToken": 67113220,
           "normalizedSignature": "Default|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::CompactOnceSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "CompactOnce",
           "tsEmitName": "compactOnce",
-          "metadataToken": 67113218,
+          "metadataToken": 67113221,
           "normalizedSignature": "CompactOnce|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -586,7 +586,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLargeObjectHeapCompactionMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113216
+            "metadataToken": 67113219
           }
         },
         {
@@ -596,7 +596,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLargeObjectHeapCompactionMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113217
+            "metadataToken": 67113220
           }
         },
         {
@@ -606,7 +606,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLargeObjectHeapCompactionMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113218
+            "metadataToken": 67113221
           }
         }
       ]
@@ -624,7 +624,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67113219,
+          "metadataToken": 67113222,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -635,7 +635,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::BatchSystem.Runtime.GCLatencyMode",
           "clrName": "Batch",
           "tsEmitName": "batch",
-          "metadataToken": 67113220,
+          "metadataToken": 67113223,
           "normalizedSignature": "Batch|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -646,7 +646,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::InteractiveSystem.Runtime.GCLatencyMode",
           "clrName": "Interactive",
           "tsEmitName": "interactive",
-          "metadataToken": 67113221,
+          "metadataToken": 67113224,
           "normalizedSignature": "Interactive|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -657,7 +657,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::LowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "LowLatency",
           "tsEmitName": "lowLatency",
-          "metadataToken": 67113222,
+          "metadataToken": 67113225,
           "normalizedSignature": "LowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -668,7 +668,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::SustainedLowLatencySystem.Runtime.GCLatencyMode",
           "clrName": "SustainedLowLatency",
           "tsEmitName": "sustainedLowLatency",
-          "metadataToken": 67113223,
+          "metadataToken": 67113226,
           "normalizedSignature": "SustainedLowLatency|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -679,7 +679,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCLatencyMode::NoGCRegionSystem.Runtime.GCLatencyMode",
           "clrName": "NoGCRegion",
           "tsEmitName": "noGCRegion",
-          "metadataToken": 67113224,
+          "metadataToken": 67113227,
           "normalizedSignature": "NoGCRegion|System.Runtime.GCLatencyMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1229,7 +1229,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113219
+            "metadataToken": 67113222
           }
         },
         {
@@ -1239,7 +1239,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113220
+            "metadataToken": 67113223
           }
         },
         {
@@ -1249,7 +1249,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113221
+            "metadataToken": 67113224
           }
         },
         {
@@ -1259,7 +1259,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113222
+            "metadataToken": 67113225
           }
         },
         {
@@ -1269,7 +1269,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113223
+            "metadataToken": 67113226
           }
         },
         {
@@ -1279,7 +1279,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCLatencyMode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113224
+            "metadataToken": 67113227
           }
         }
       ]
@@ -1295,7 +1295,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Dispose():System.Void",
           "clrName": "Dispose",
           "tsEmitName": "dispose",
-          "metadataToken": 100682515,
+          "metadataToken": 100682498,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1325,7 +1325,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::IsAllocated:System.Boolean",
           "clrName": "IsAllocated",
           "tsEmitName": "isAllocated",
-          "metadataToken": 385879289,
+          "metadataToken": 385879285,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAllocated|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1339,7 +1339,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Target:System.Object",
           "clrName": "Target",
           "tsEmitName": "target",
-          "metadataToken": 385879290,
+          "metadataToken": 385879286,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Target|:System.Object|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1353,7 +1353,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::Dependent:System.Object",
           "clrName": "Dependent",
           "tsEmitName": "dependent",
-          "metadataToken": 385879291,
+          "metadataToken": 385879287,
           "canonicalSignature": ":System.Object",
           "normalizedSignature": "Dependent|:System.Object|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1367,7 +1367,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::TargetAndDependent:System.ValueTuple_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "TargetAndDependent",
           "tsEmitName": "targetAndDependent",
-          "metadataToken": 385879292,
+          "metadataToken": 385879288,
           "canonicalSignature": ":System.ValueTuple_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "TargetAndDependent|:System.ValueTuple_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1383,7 +1383,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.DependentHandle::.ctor(System.Object,System.Object):void",
-          "metadataToken": 100682504,
+          "metadataToken": 100682487,
           "canonicalSignature": "(System.Object,System.Object):void",
           "normalizedSignature": "constructor|(System.Object,System.Object):void|static=false",
           "isStatic": false,
@@ -1400,7 +1400,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682515
+            "metadataToken": 100682498
           }
         },
         {
@@ -1482,7 +1482,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879289
+            "metadataToken": 385879285
           }
         },
         {
@@ -1492,7 +1492,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879290
+            "metadataToken": 385879286
           }
         },
         {
@@ -1502,7 +1502,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879291
+            "metadataToken": 385879287
           }
         },
         {
@@ -1512,7 +1512,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879292
+            "metadataToken": 385879288
           }
         }
       ],
@@ -1523,7 +1523,7 @@
           "target": {
             "declaringClrType": "System.Runtime.DependentHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682504
+            "metadataToken": 100682487
           }
         }
       ]
@@ -1539,7 +1539,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1570,7 +1570,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AmbiguousImplementationException::.ctor():void",
-          "metadataToken": 100682569,
+          "metadataToken": 100682549,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -1580,7 +1580,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AmbiguousImplementationException::.ctor(System.String):void",
-          "metadataToken": 100682570,
+          "metadataToken": 100682550,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -1590,7 +1590,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AmbiguousImplementationException::.ctor(System.String,System.Exception):void",
-          "metadataToken": 100682571,
+          "metadataToken": 100682551,
           "canonicalSignature": "(System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -1607,7 +1607,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -1699,7 +1699,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -1709,7 +1709,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -1719,7 +1719,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -1729,7 +1729,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -1739,7 +1739,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -1749,7 +1749,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -1759,7 +1759,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -1769,7 +1769,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -1780,7 +1780,7 @@
           "target": {
             "declaringClrType": "System.Runtime.AmbiguousImplementationException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682569
+            "metadataToken": 100682549
           }
         },
         {
@@ -1789,7 +1789,7 @@
           "target": {
             "declaringClrType": "System.Runtime.AmbiguousImplementationException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682570
+            "metadataToken": 100682550
           }
         },
         {
@@ -1798,7 +1798,7 @@
           "target": {
             "declaringClrType": "System.Runtime.AmbiguousImplementationException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682571
+            "metadataToken": 100682551
           }
         }
       ]
@@ -1815,7 +1815,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.AssemblyTargetedPatchBandAttribute::TargetedPatchBand:System.String",
           "clrName": "TargetedPatchBand",
           "tsEmitName": "targetedPatchBand",
-          "metadataToken": 385879306,
+          "metadataToken": 385879302,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "TargetedPatchBand|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1831,7 +1831,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.AssemblyTargetedPatchBandAttribute::.ctor(System.String):void",
-          "metadataToken": 100682591,
+          "metadataToken": 100682571,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -2000,7 +2000,7 @@
           "target": {
             "declaringClrType": "System.Runtime.AssemblyTargetedPatchBandAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879306
+            "metadataToken": 385879302
           }
         },
         {
@@ -2021,7 +2021,7 @@
           "target": {
             "declaringClrType": "System.Runtime.AssemblyTargetedPatchBandAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682591
+            "metadataToken": 100682571
           }
         }
       ]
@@ -2037,7 +2037,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.MemoryFailPoint::Dispose():System.Void",
           "clrName": "Dispose",
           "tsEmitName": "dispose",
-          "metadataToken": 100682582,
+          "metadataToken": 100682562,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -2068,7 +2068,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.MemoryFailPoint::.ctor(System.Int32):void",
-          "metadataToken": 100682580,
+          "metadataToken": 100682560,
           "canonicalSignature": "(System.Int32):void",
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
@@ -2085,7 +2085,7 @@
           "target": {
             "declaringClrType": "System.Runtime.MemoryFailPoint",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682582
+            "metadataToken": 100682562
           }
         },
         {
@@ -2166,7 +2166,7 @@
           "target": {
             "declaringClrType": "System.Runtime.MemoryFailPoint",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682580
+            "metadataToken": 100682560
           }
         }
       ]
@@ -2183,7 +2183,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.TargetedPatchingOptOutAttribute::Reason:System.String",
           "clrName": "Reason",
           "tsEmitName": "reason",
-          "metadataToken": 385879307,
+          "metadataToken": 385879303,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Reason|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2199,7 +2199,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.TargetedPatchingOptOutAttribute::.ctor(System.String):void",
-          "metadataToken": 100682593,
+          "metadataToken": 100682573,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -2368,7 +2368,7 @@
           "target": {
             "declaringClrType": "System.Runtime.TargetedPatchingOptOutAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879307
+            "metadataToken": 385879303
           }
         },
         {
@@ -2389,7 +2389,7 @@
           "target": {
             "declaringClrType": "System.Runtime.TargetedPatchingOptOutAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682593
+            "metadataToken": 100682573
           }
         }
       ]
@@ -2405,7 +2405,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ControlledExecution::Run(System.Action,System.Threading.CancellationToken):System.Void",
           "clrName": "Run",
           "tsEmitName": "run",
-          "metadataToken": 100682495,
+          "metadataToken": 100682478,
           "canonicalSignature": "(System.Action,System.Threading.CancellationToken):System.Void",
           "normalizedSignature": "Run|(System.Action,System.Threading.CancellationToken):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ControlledExecution",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682495
+            "metadataToken": 100682478
           }
         },
         {
@@ -2505,7 +2505,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::IsServerGC:System.Boolean",
           "clrName": "IsServerGC",
           "tsEmitName": "isServerGC",
-          "metadataToken": 385879300,
+          "metadataToken": 385879296,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsServerGC|:System.Boolean|static=true|accessor=get",
           "emitScope": "ClassSurface",
@@ -2519,7 +2519,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::LatencyMode:System.Runtime.GCLatencyMode",
           "clrName": "LatencyMode",
           "tsEmitName": "latencyMode",
-          "metadataToken": 385879301,
+          "metadataToken": 385879297,
           "canonicalSignature": ":System.Runtime.GCLatencyMode",
           "normalizedSignature": "LatencyMode|:System.Runtime.GCLatencyMode|static=true|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2533,7 +2533,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.GCSettings::LargeObjectHeapCompactionMode:System.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "LargeObjectHeapCompactionMode",
           "tsEmitName": "largeObjectHeapCompactionMode",
-          "metadataToken": 385879302,
+          "metadataToken": 385879298,
           "canonicalSignature": ":System.Runtime.GCLargeObjectHeapCompactionMode",
           "normalizedSignature": "LargeObjectHeapCompactionMode|:System.Runtime.GCLargeObjectHeapCompactionMode|static=true|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2617,7 +2617,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879300
+            "metadataToken": 385879296
           }
         },
         {
@@ -2627,7 +2627,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879301
+            "metadataToken": 385879297
           }
         },
         {
@@ -2637,7 +2637,7 @@
           "target": {
             "declaringClrType": "System.Runtime.GCSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879302
+            "metadataToken": 385879298
           }
         }
       ]
@@ -2653,7 +2653,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompiledILBytes(System.Boolean):System.Int64",
           "clrName": "GetCompiledILBytes",
           "tsEmitName": "getCompiledILBytes",
-          "metadataToken": 100682565,
+          "metadataToken": 100682545,
           "canonicalSignature": "(System.Boolean):System.Int64",
           "normalizedSignature": "GetCompiledILBytes|(System.Boolean):System.Int64|static=true",
           "emitScope": "ClassSurface",
@@ -2667,7 +2667,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompiledMethodCount(System.Boolean):System.Int64",
           "clrName": "GetCompiledMethodCount",
           "tsEmitName": "getCompiledMethodCount",
-          "metadataToken": 100682566,
+          "metadataToken": 100682546,
           "canonicalSignature": "(System.Boolean):System.Int64",
           "normalizedSignature": "GetCompiledMethodCount|(System.Boolean):System.Int64|static=true",
           "emitScope": "ClassSurface",
@@ -2681,7 +2681,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.JitInfo::GetCompilationTime(System.Boolean):System.TimeSpan",
           "clrName": "GetCompilationTime",
           "tsEmitName": "getCompilationTime",
-          "metadataToken": 100682568,
+          "metadataToken": 100682548,
           "canonicalSignature": "(System.Boolean):System.TimeSpan",
           "normalizedSignature": "GetCompilationTime|(System.Boolean):System.TimeSpan|static=true",
           "emitScope": "ClassSurface",
@@ -2704,7 +2704,7 @@
           "target": {
             "declaringClrType": "System.Runtime.JitInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682565
+            "metadataToken": 100682545
           }
         },
         {
@@ -2714,7 +2714,7 @@
           "target": {
             "declaringClrType": "System.Runtime.JitInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682566
+            "metadataToken": 100682546
           }
         },
         {
@@ -2724,7 +2724,7 @@
           "target": {
             "declaringClrType": "System.Runtime.JitInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682568
+            "metadataToken": 100682548
           }
         },
         {
@@ -2800,7 +2800,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ProfileOptimization::SetProfileRoot(System.String):System.Void",
           "clrName": "SetProfileRoot",
           "tsEmitName": "setProfileRoot",
-          "metadataToken": 100682594,
+          "metadataToken": 100682574,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "SetProfileRoot|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2814,7 +2814,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ProfileOptimization::StartProfile(System.String):System.Void",
           "clrName": "StartProfile",
           "tsEmitName": "startProfile",
-          "metadataToken": 100682595,
+          "metadataToken": 100682575,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "StartProfile|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -2837,7 +2837,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ProfileOptimization",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682594
+            "metadataToken": 100682574
           }
         },
         {
@@ -2847,7 +2847,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ProfileOptimization",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682595
+            "metadataToken": 100682575
           }
         },
         {

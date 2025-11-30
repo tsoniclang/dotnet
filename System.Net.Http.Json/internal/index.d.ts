@@ -45,15 +45,20 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class JsonContent$instance extends System_Net_Http_Internal.HttpContent$instance {
+export interface JsonContent$instance extends HttpContent {
     readonly objectType: Type;
     readonly value: unknown;
     dispose(): void;
-    static create(inputValue: unknown, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue): JsonContent;
-    static create(inputValue: unknown, inputType: Type, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
-    static create<T>(inputValue: T, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue): JsonContent;
-    static create<T>(inputValue: T, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
 }
+
+
+export const JsonContent: {
+    new(): JsonContent$instance;
+    create(inputValue: unknown, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue): JsonContent;
+    create(inputValue: unknown, inputType: Type, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
+    create<T>(inputValue: T, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue): JsonContent;
+    create<T>(inputValue: T, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
+};
 
 
 export interface __JsonContent$views {

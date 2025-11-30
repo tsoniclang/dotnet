@@ -18,5 +18,5 @@ export { SslProtocols as SslProtocols } from './internal/index.js';
 export { ExchangeAlgorithmType as ExchangeAlgorithmType } from './internal/index.js';
 export { CipherAlgorithmType as CipherAlgorithmType } from './internal/index.js';
 export { HashAlgorithmType as HashAlgorithmType } from './internal/index.js';
-export { AuthenticationException$instance as AuthenticationException } from './internal/index.js';
-export { InvalidCredentialException$instance as InvalidCredentialException } from './internal/index.js';
+export { AuthenticationException as AuthenticationException } from './internal/index.js';
+export { InvalidCredentialException as InvalidCredentialException } from './internal/index.js';

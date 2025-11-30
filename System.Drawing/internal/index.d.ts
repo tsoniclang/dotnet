@@ -218,7 +218,7 @@ export enum KnownColor {
 }
 
 
-export class Color$instance {
+export interface Color$instance {
     readonly A: byte;
     readonly B: byte;
     readonly G: byte;
@@ -237,156 +237,161 @@ export class Color$instance {
     toArgb(): int;
     toKnownColor(): KnownColor;
     toString(): string;
-    static readonly empty: Color;
-    static readonly transparent: Color;
-    static readonly aliceBlue: Color;
-    static readonly antiqueWhite: Color;
-    static readonly aqua: Color;
-    static readonly aquamarine: Color;
-    static readonly azure: Color;
-    static readonly beige: Color;
-    static readonly bisque: Color;
-    static readonly black: Color;
-    static readonly blanchedAlmond: Color;
-    static readonly blue: Color;
-    static readonly blueViolet: Color;
-    static readonly brown: Color;
-    static readonly burlyWood: Color;
-    static readonly cadetBlue: Color;
-    static readonly chartreuse: Color;
-    static readonly chocolate: Color;
-    static readonly coral: Color;
-    static readonly cornflowerBlue: Color;
-    static readonly cornsilk: Color;
-    static readonly crimson: Color;
-    static readonly cyan: Color;
-    static readonly darkBlue: Color;
-    static readonly darkCyan: Color;
-    static readonly darkGoldenrod: Color;
-    static readonly darkGray: Color;
-    static readonly darkGreen: Color;
-    static readonly darkKhaki: Color;
-    static readonly darkMagenta: Color;
-    static readonly darkOliveGreen: Color;
-    static readonly darkOrange: Color;
-    static readonly darkOrchid: Color;
-    static readonly darkRed: Color;
-    static readonly darkSalmon: Color;
-    static readonly darkSeaGreen: Color;
-    static readonly darkSlateBlue: Color;
-    static readonly darkSlateGray: Color;
-    static readonly darkTurquoise: Color;
-    static readonly darkViolet: Color;
-    static readonly deepPink: Color;
-    static readonly deepSkyBlue: Color;
-    static readonly dimGray: Color;
-    static readonly dodgerBlue: Color;
-    static readonly firebrick: Color;
-    static readonly floralWhite: Color;
-    static readonly forestGreen: Color;
-    static readonly fuchsia: Color;
-    static readonly gainsboro: Color;
-    static readonly ghostWhite: Color;
-    static readonly gold: Color;
-    static readonly goldenrod: Color;
-    static readonly gray: Color;
-    static readonly green: Color;
-    static readonly greenYellow: Color;
-    static readonly honeydew: Color;
-    static readonly hotPink: Color;
-    static readonly indianRed: Color;
-    static readonly indigo: Color;
-    static readonly ivory: Color;
-    static readonly khaki: Color;
-    static readonly lavender: Color;
-    static readonly lavenderBlush: Color;
-    static readonly lawnGreen: Color;
-    static readonly lemonChiffon: Color;
-    static readonly lightBlue: Color;
-    static readonly lightCoral: Color;
-    static readonly lightCyan: Color;
-    static readonly lightGoldenrodYellow: Color;
-    static readonly lightGreen: Color;
-    static readonly lightGray: Color;
-    static readonly lightPink: Color;
-    static readonly lightSalmon: Color;
-    static readonly lightSeaGreen: Color;
-    static readonly lightSkyBlue: Color;
-    static readonly lightSlateGray: Color;
-    static readonly lightSteelBlue: Color;
-    static readonly lightYellow: Color;
-    static readonly lime: Color;
-    static readonly limeGreen: Color;
-    static readonly linen: Color;
-    static readonly magenta: Color;
-    static readonly maroon: Color;
-    static readonly mediumAquamarine: Color;
-    static readonly mediumBlue: Color;
-    static readonly mediumOrchid: Color;
-    static readonly mediumPurple: Color;
-    static readonly mediumSeaGreen: Color;
-    static readonly mediumSlateBlue: Color;
-    static readonly mediumSpringGreen: Color;
-    static readonly mediumTurquoise: Color;
-    static readonly mediumVioletRed: Color;
-    static readonly midnightBlue: Color;
-    static readonly mintCream: Color;
-    static readonly mistyRose: Color;
-    static readonly moccasin: Color;
-    static readonly navajoWhite: Color;
-    static readonly navy: Color;
-    static readonly oldLace: Color;
-    static readonly olive: Color;
-    static readonly oliveDrab: Color;
-    static readonly orange: Color;
-    static readonly orangeRed: Color;
-    static readonly orchid: Color;
-    static readonly paleGoldenrod: Color;
-    static readonly paleGreen: Color;
-    static readonly paleTurquoise: Color;
-    static readonly paleVioletRed: Color;
-    static readonly papayaWhip: Color;
-    static readonly peachPuff: Color;
-    static readonly peru: Color;
-    static readonly pink: Color;
-    static readonly plum: Color;
-    static readonly powderBlue: Color;
-    static readonly purple: Color;
-    static readonly rebeccaPurple: Color;
-    static readonly red: Color;
-    static readonly rosyBrown: Color;
-    static readonly royalBlue: Color;
-    static readonly saddleBrown: Color;
-    static readonly salmon: Color;
-    static readonly sandyBrown: Color;
-    static readonly seaGreen: Color;
-    static readonly seaShell: Color;
-    static readonly sienna: Color;
-    static readonly silver: Color;
-    static readonly skyBlue: Color;
-    static readonly slateBlue: Color;
-    static readonly slateGray: Color;
-    static readonly snow: Color;
-    static readonly springGreen: Color;
-    static readonly steelBlue: Color;
-    static readonly tan: Color;
-    static readonly teal: Color;
-    static readonly thistle: Color;
-    static readonly tomato: Color;
-    static readonly turquoise: Color;
-    static readonly violet: Color;
-    static readonly wheat: Color;
-    static readonly white: Color;
-    static readonly whiteSmoke: Color;
-    static readonly yellow: Color;
-    static readonly yellowGreen: Color;
-    static fromArgb(alpha: int, baseColor: Color): Color;
-    static fromArgb(alpha: int, red: int, green: int, blue: int): Color;
-    static fromArgb(red: int, green: int, blue: int): Color;
-    static fromArgb(argb: int): Color;
-    static fromKnownColor(color: KnownColor): Color;
-    static fromName(name: string): Color;
 }
+
+
+export const Color: {
+    new(): Color$instance;
+    readonly empty: Color;
+    readonly transparent: Color;
+    readonly aliceBlue: Color;
+    readonly antiqueWhite: Color;
+    readonly aqua: Color;
+    readonly aquamarine: Color;
+    readonly azure: Color;
+    readonly beige: Color;
+    readonly bisque: Color;
+    readonly black: Color;
+    readonly blanchedAlmond: Color;
+    readonly blue: Color;
+    readonly blueViolet: Color;
+    readonly brown: Color;
+    readonly burlyWood: Color;
+    readonly cadetBlue: Color;
+    readonly chartreuse: Color;
+    readonly chocolate: Color;
+    readonly coral: Color;
+    readonly cornflowerBlue: Color;
+    readonly cornsilk: Color;
+    readonly crimson: Color;
+    readonly cyan: Color;
+    readonly darkBlue: Color;
+    readonly darkCyan: Color;
+    readonly darkGoldenrod: Color;
+    readonly darkGray: Color;
+    readonly darkGreen: Color;
+    readonly darkKhaki: Color;
+    readonly darkMagenta: Color;
+    readonly darkOliveGreen: Color;
+    readonly darkOrange: Color;
+    readonly darkOrchid: Color;
+    readonly darkRed: Color;
+    readonly darkSalmon: Color;
+    readonly darkSeaGreen: Color;
+    readonly darkSlateBlue: Color;
+    readonly darkSlateGray: Color;
+    readonly darkTurquoise: Color;
+    readonly darkViolet: Color;
+    readonly deepPink: Color;
+    readonly deepSkyBlue: Color;
+    readonly dimGray: Color;
+    readonly dodgerBlue: Color;
+    readonly firebrick: Color;
+    readonly floralWhite: Color;
+    readonly forestGreen: Color;
+    readonly fuchsia: Color;
+    readonly gainsboro: Color;
+    readonly ghostWhite: Color;
+    readonly gold: Color;
+    readonly goldenrod: Color;
+    readonly gray: Color;
+    readonly green: Color;
+    readonly greenYellow: Color;
+    readonly honeydew: Color;
+    readonly hotPink: Color;
+    readonly indianRed: Color;
+    readonly indigo: Color;
+    readonly ivory: Color;
+    readonly khaki: Color;
+    readonly lavender: Color;
+    readonly lavenderBlush: Color;
+    readonly lawnGreen: Color;
+    readonly lemonChiffon: Color;
+    readonly lightBlue: Color;
+    readonly lightCoral: Color;
+    readonly lightCyan: Color;
+    readonly lightGoldenrodYellow: Color;
+    readonly lightGreen: Color;
+    readonly lightGray: Color;
+    readonly lightPink: Color;
+    readonly lightSalmon: Color;
+    readonly lightSeaGreen: Color;
+    readonly lightSkyBlue: Color;
+    readonly lightSlateGray: Color;
+    readonly lightSteelBlue: Color;
+    readonly lightYellow: Color;
+    readonly lime: Color;
+    readonly limeGreen: Color;
+    readonly linen: Color;
+    readonly magenta: Color;
+    readonly maroon: Color;
+    readonly mediumAquamarine: Color;
+    readonly mediumBlue: Color;
+    readonly mediumOrchid: Color;
+    readonly mediumPurple: Color;
+    readonly mediumSeaGreen: Color;
+    readonly mediumSlateBlue: Color;
+    readonly mediumSpringGreen: Color;
+    readonly mediumTurquoise: Color;
+    readonly mediumVioletRed: Color;
+    readonly midnightBlue: Color;
+    readonly mintCream: Color;
+    readonly mistyRose: Color;
+    readonly moccasin: Color;
+    readonly navajoWhite: Color;
+    readonly navy: Color;
+    readonly oldLace: Color;
+    readonly olive: Color;
+    readonly oliveDrab: Color;
+    readonly orange: Color;
+    readonly orangeRed: Color;
+    readonly orchid: Color;
+    readonly paleGoldenrod: Color;
+    readonly paleGreen: Color;
+    readonly paleTurquoise: Color;
+    readonly paleVioletRed: Color;
+    readonly papayaWhip: Color;
+    readonly peachPuff: Color;
+    readonly peru: Color;
+    readonly pink: Color;
+    readonly plum: Color;
+    readonly powderBlue: Color;
+    readonly purple: Color;
+    readonly rebeccaPurple: Color;
+    readonly red: Color;
+    readonly rosyBrown: Color;
+    readonly royalBlue: Color;
+    readonly saddleBrown: Color;
+    readonly salmon: Color;
+    readonly sandyBrown: Color;
+    readonly seaGreen: Color;
+    readonly seaShell: Color;
+    readonly sienna: Color;
+    readonly silver: Color;
+    readonly skyBlue: Color;
+    readonly slateBlue: Color;
+    readonly slateGray: Color;
+    readonly snow: Color;
+    readonly springGreen: Color;
+    readonly steelBlue: Color;
+    readonly tan: Color;
+    readonly teal: Color;
+    readonly thistle: Color;
+    readonly tomato: Color;
+    readonly turquoise: Color;
+    readonly violet: Color;
+    readonly wheat: Color;
+    readonly white: Color;
+    readonly whiteSmoke: Color;
+    readonly yellow: Color;
+    readonly yellowGreen: Color;
+    fromArgb(alpha: int, baseColor: Color): Color;
+    fromArgb(alpha: int, red: int, green: int, blue: int): Color;
+    fromArgb(red: int, green: int, blue: int): Color;
+    fromArgb(argb: int): Color;
+    fromKnownColor(color: KnownColor): Color;
+    fromName(name: string): Color;
+};
 
 
 export interface __Color$views {
@@ -399,10 +404,7 @@ export interface __Color$views {
 export type Color = Color$instance & __Color$views;
 
 
-export class Point$instance {
-    constructor(x: int, y: int);
-    constructor(sz: Size);
-    constructor(dw: int);
+export interface Point$instance {
     readonly isEmpty: boolean;
     X: int;
     Y: int;
@@ -412,13 +414,20 @@ export class Point$instance {
     offset(dx: int, dy: int): void;
     offset(p: Point): void;
     toString(): string;
-    static readonly empty: Point;
-    static add(pt: Point, sz: Size): Point;
-    static ceiling(value: PointF): Point;
-    static round(value: PointF): Point;
-    static subtract(pt: Point, sz: Size): Point;
-    static truncate(value: PointF): Point;
 }
+
+
+export const Point: {
+    new(x: int, y: int): Point$instance;
+    new(sz: Size): Point$instance;
+    new(dw: int): Point$instance;
+    readonly empty: Point;
+    add(pt: Point, sz: Size): Point;
+    ceiling(value: PointF): Point;
+    round(value: PointF): Point;
+    subtract(pt: Point, sz: Size): Point;
+    truncate(value: PointF): Point;
+};
 
 
 export interface __Point$views {
@@ -431,9 +440,7 @@ export interface __Point$views {
 export type Point = Point$instance & __Point$views;
 
 
-export class PointF$instance {
-    constructor(x: float, y: float);
-    constructor(vector: Vector2);
+export interface PointF$instance {
     readonly isEmpty: boolean;
     X: float;
     Y: float;
@@ -442,12 +449,18 @@ export class PointF$instance {
     getHashCode(): int;
     toString(): string;
     toVector2(): Vector2;
-    static readonly empty: PointF;
-    static add(pt: PointF, sz: Size): PointF;
-    static add(pt: PointF, sz: SizeF): PointF;
-    static subtract(pt: PointF, sz: Size): PointF;
-    static subtract(pt: PointF, sz: SizeF): PointF;
 }
+
+
+export const PointF: {
+    new(x: float, y: float): PointF$instance;
+    new(vector: Vector2): PointF$instance;
+    readonly empty: PointF;
+    add(pt: PointF, sz: Size): PointF;
+    add(pt: PointF, sz: SizeF): PointF;
+    subtract(pt: PointF, sz: Size): PointF;
+    subtract(pt: PointF, sz: SizeF): PointF;
+};
 
 
 export interface __PointF$views {
@@ -460,9 +473,7 @@ export interface __PointF$views {
 export type PointF = PointF$instance & __PointF$views;
 
 
-export class Rectangle$instance {
-    constructor(x: int, y: int, width: int, height: int);
-    constructor(location: Point, size: Size);
+export interface Rectangle$instance {
     readonly bottom: int;
     height: int;
     readonly isEmpty: boolean;
@@ -487,15 +498,21 @@ export class Rectangle$instance {
     offset(pos: Point): void;
     offset(x: int, y: int): void;
     toString(): string;
-    static readonly empty: Rectangle;
-    static ceiling(value: RectangleF): Rectangle;
-    static fromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
-    static inflate(rect: Rectangle, x: int, y: int): Rectangle;
-    static intersect(a: Rectangle, b: Rectangle): Rectangle;
-    static round(value: RectangleF): Rectangle;
-    static truncate(value: RectangleF): Rectangle;
-    static union(a: Rectangle, b: Rectangle): Rectangle;
 }
+
+
+export const Rectangle: {
+    new(x: int, y: int, width: int, height: int): Rectangle$instance;
+    new(location: Point, size: Size): Rectangle$instance;
+    readonly empty: Rectangle;
+    ceiling(value: RectangleF): Rectangle;
+    fromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
+    inflate(rect: Rectangle, x: int, y: int): Rectangle;
+    intersect(a: Rectangle, b: Rectangle): Rectangle;
+    round(value: RectangleF): Rectangle;
+    truncate(value: RectangleF): Rectangle;
+    union(a: Rectangle, b: Rectangle): Rectangle;
+};
 
 
 export interface __Rectangle$views {
@@ -508,10 +525,7 @@ export interface __Rectangle$views {
 export type Rectangle = Rectangle$instance & __Rectangle$views;
 
 
-export class RectangleF$instance {
-    constructor(x: float, y: float, width: float, height: float);
-    constructor(location: PointF, size: SizeF);
-    constructor(vector: Vector4);
+export interface RectangleF$instance {
     readonly bottom: float;
     height: float;
     readonly isEmpty: boolean;
@@ -537,12 +551,19 @@ export class RectangleF$instance {
     offset(x: float, y: float): void;
     toString(): string;
     toVector4(): Vector4;
-    static readonly empty: RectangleF;
-    static fromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
-    static inflate(rect: RectangleF, x: float, y: float): RectangleF;
-    static intersect(a: RectangleF, b: RectangleF): RectangleF;
-    static union(a: RectangleF, b: RectangleF): RectangleF;
 }
+
+
+export const RectangleF: {
+    new(x: float, y: float, width: float, height: float): RectangleF$instance;
+    new(location: PointF, size: SizeF): RectangleF$instance;
+    new(vector: Vector4): RectangleF$instance;
+    readonly empty: RectangleF;
+    fromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
+    inflate(rect: RectangleF, x: float, y: float): RectangleF;
+    intersect(a: RectangleF, b: RectangleF): RectangleF;
+    union(a: RectangleF, b: RectangleF): RectangleF;
+};
 
 
 export interface __RectangleF$views {
@@ -555,9 +576,7 @@ export interface __RectangleF$views {
 export type RectangleF = RectangleF$instance & __RectangleF$views;
 
 
-export class Size$instance {
-    constructor(pt: Point);
-    constructor(width: int, height: int);
+export interface Size$instance {
     height: int;
     readonly isEmpty: boolean;
     width: int;
@@ -565,13 +584,19 @@ export class Size$instance {
     equals(other: Size): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly empty: Size;
-    static add(sz1: Size, sz2: Size): Size;
-    static ceiling(value: SizeF): Size;
-    static round(value: SizeF): Size;
-    static subtract(sz1: Size, sz2: Size): Size;
-    static truncate(value: SizeF): Size;
 }
+
+
+export const Size: {
+    new(pt: Point): Size$instance;
+    new(width: int, height: int): Size$instance;
+    readonly empty: Size;
+    add(sz1: Size, sz2: Size): Size;
+    ceiling(value: SizeF): Size;
+    round(value: SizeF): Size;
+    subtract(sz1: Size, sz2: Size): Size;
+    truncate(value: SizeF): Size;
+};
 
 
 export interface __Size$views {
@@ -584,11 +609,7 @@ export interface __Size$views {
 export type Size = Size$instance & __Size$views;
 
 
-export class SizeF$instance {
-    constructor(size: SizeF);
-    constructor(pt: PointF);
-    constructor(vector: Vector2);
-    constructor(width: float, height: float);
+export interface SizeF$instance {
     height: float;
     readonly isEmpty: boolean;
     width: float;
@@ -599,10 +620,18 @@ export class SizeF$instance {
     toSize(): Size;
     toString(): string;
     toVector2(): Vector2;
-    static readonly empty: SizeF;
-    static add(sz1: SizeF, sz2: SizeF): SizeF;
-    static subtract(sz1: SizeF, sz2: SizeF): SizeF;
 }
+
+
+export const SizeF: {
+    new(size: SizeF): SizeF$instance;
+    new(pt: PointF): SizeF$instance;
+    new(vector: Vector2): SizeF$instance;
+    new(width: float, height: float): SizeF$instance;
+    readonly empty: SizeF;
+    add(sz1: SizeF, sz2: SizeF): SizeF;
+    subtract(sz1: SizeF, sz2: SizeF): SizeF;
+};
 
 
 export interface __SizeF$views {
@@ -615,8 +644,7 @@ export interface __SizeF$views {
 export type SizeF = SizeF$instance & __SizeF$views;
 
 
-export class ColorConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface ColorConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -632,10 +660,14 @@ export class ColorConverter$instance extends System_ComponentModel_Internal.Type
 }
 
 
+export const ColorConverter: {
+    new(): ColorConverter$instance;
+};
+
+
 export type ColorConverter = ColorConverter$instance;
 
-export class PointConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface PointConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -654,12 +686,16 @@ export class PointConverter$instance extends System_ComponentModel_Internal.Type
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
+
+
+export const PointConverter: {
+    new(): PointConverter$instance;
+};
 
 
 export type PointConverter = PointConverter$instance;
 
-export class RectangleConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface RectangleConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -678,12 +714,16 @@ export class RectangleConverter$instance extends System_ComponentModel_Internal.
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
+
+
+export const RectangleConverter: {
+    new(): RectangleConverter$instance;
+};
 
 
 export type RectangleConverter = RectangleConverter$instance;
 
-export class SizeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface SizeConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -702,12 +742,16 @@ export class SizeConverter$instance extends System_ComponentModel_Internal.TypeC
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
+
+
+export const SizeConverter: {
+    new(): SizeConverter$instance;
+};
 
 
 export type SizeConverter = SizeConverter$instance;
 
-export class SizeFConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface SizeFConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -726,6 +770,11 @@ export class SizeFConverter$instance extends System_ComponentModel_Internal.Type
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
+
+
+export const SizeFConverter: {
+    new(): SizeFConverter$instance;
+};
 
 
 export type SizeFConverter = SizeFConverter$instance;

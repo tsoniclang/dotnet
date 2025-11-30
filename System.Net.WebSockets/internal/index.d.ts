@@ -104,18 +104,21 @@ export enum WebSocketState {
 }
 
 
-export class ValueWebSocketReceiveResult$instance {
-    constructor(count: int, messageType: WebSocketMessageType, endOfMessage: boolean);
+export interface ValueWebSocketReceiveResult$instance {
     readonly count: int;
     readonly endOfMessage: boolean;
     readonly messageType: WebSocketMessageType;
 }
 
 
+export const ValueWebSocketReceiveResult: {
+    new(count: int, messageType: WebSocketMessageType, endOfMessage: boolean): ValueWebSocketReceiveResult$instance;
+};
+
+
 export type ValueWebSocketReceiveResult = ValueWebSocketReceiveResult$instance;
 
-export class ClientWebSocket$instance extends WebSocket$instance {
-    constructor();
+export interface ClientWebSocket$instance extends WebSocket$instance {
     readonly closeStatus: Nullable_1<WebSocketCloseStatus>;
     readonly closeStatusDescription: string;
     httpResponseHeaders: IReadOnlyDictionary_2<CLROf<string>, IEnumerable_1<CLROf<string>>>;
@@ -140,6 +143,11 @@ export class ClientWebSocket$instance extends WebSocket$instance {
 }
 
 
+export const ClientWebSocket: {
+    new(): ClientWebSocket$instance;
+};
+
+
 export interface __ClientWebSocket$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -147,7 +155,7 @@ export interface __ClientWebSocket$views {
 export type ClientWebSocket = ClientWebSocket$instance & __ClientWebSocket$views;
 
 
-export class ClientWebSocketOptions$instance {
+export interface ClientWebSocketOptions$instance {
     clientCertificates: X509CertificateCollection;
     collectHttpResponseDetails: boolean;
     cookies: CookieContainer;
@@ -167,9 +175,14 @@ export class ClientWebSocketOptions$instance {
 }
 
 
+export const ClientWebSocketOptions: {
+    new(): ClientWebSocketOptions$instance;
+};
+
+
 export type ClientWebSocketOptions = ClientWebSocketOptions$instance;
 
-export class HttpListenerWebSocketContext$instance extends WebSocketContext$instance {
+export interface HttpListenerWebSocketContext$instance extends WebSocketContext {
     readonly cookieCollection: CookieCollection;
     readonly headers: NameValueCollection;
     readonly isAuthenticated: boolean;
@@ -185,31 +198,40 @@ export class HttpListenerWebSocketContext$instance extends WebSocketContext$inst
 }
 
 
+export const HttpListenerWebSocketContext: {
+    new(): HttpListenerWebSocketContext$instance;
+};
+
+
 export type HttpListenerWebSocketContext = HttpListenerWebSocketContext$instance;
 
-export abstract class WebSocket$instance {
+export interface WebSocket$instance {
     readonly closeStatus: Nullable_1<WebSocketCloseStatus>;
     readonly closeStatusDescription: string;
     readonly state: WebSocketState;
     readonly subProtocol: string;
-    abstract abort(): void;
-    abstract closeAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
-    abstract closeOutputAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
-    abstract dispose(): void;
+    abort(): void;
+    closeAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
+    closeOutputAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
+    dispose(): void;
     receiveAsync(buffer: ArraySegment_1<CLROf<byte>>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
     receiveAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
     sendAsync(buffer: ArraySegment_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
     sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
     sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
-    static readonly defaultKeepAliveInterval: TimeSpan;
-    static createClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<CLROf<byte>>;
-    static createClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<CLROf<byte>>): WebSocket;
-    static createFromStream(stream: Stream, isServer: boolean, subProtocol: string, keepAliveInterval: TimeSpan): WebSocket;
-    static createFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
-    static createServerBuffer(receiveBufferSize: int): ArraySegment_1<CLROf<byte>>;
-    static isApplicationTargeting45(): boolean;
-    static registerPrefixes(): void;
 }
+
+
+export const WebSocket: {
+    readonly defaultKeepAliveInterval: TimeSpan;
+    createClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<CLROf<byte>>;
+    createClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<CLROf<byte>>): WebSocket;
+    createFromStream(stream: Stream, isServer: boolean, subProtocol: string, keepAliveInterval: TimeSpan): WebSocket;
+    createFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
+    createServerBuffer(receiveBufferSize: int): ArraySegment_1<CLROf<byte>>;
+    isApplicationTargeting45(): boolean;
+    registerPrefixes(): void;
+};
 
 
 export interface __WebSocket$views {
@@ -221,7 +243,7 @@ export interface WebSocket$instance extends System_Internal.IDisposable$instance
 export type WebSocket = WebSocket$instance & __WebSocket$views;
 
 
-export abstract class WebSocketContext$instance {
+export interface WebSocketContext$instance {
     readonly cookieCollection: CookieCollection;
     readonly headers: NameValueCollection;
     readonly isAuthenticated: boolean;
@@ -237,10 +259,13 @@ export abstract class WebSocketContext$instance {
 }
 
 
+export const WebSocketContext: {
+};
+
+
 export type WebSocketContext = WebSocketContext$instance;
 
-export class WebSocketCreationOptions$instance {
-    constructor();
+export interface WebSocketCreationOptions$instance {
     dangerousDeflateOptions: WebSocketDeflateOptions;
     isServer: boolean;
     keepAliveInterval: TimeSpan;
@@ -249,10 +274,14 @@ export class WebSocketCreationOptions$instance {
 }
 
 
+export const WebSocketCreationOptions: {
+    new(): WebSocketCreationOptions$instance;
+};
+
+
 export type WebSocketCreationOptions = WebSocketCreationOptions$instance;
 
-export class WebSocketDeflateOptions$instance {
-    constructor();
+export interface WebSocketDeflateOptions$instance {
     clientContextTakeover: boolean;
     clientMaxWindowBits: int;
     serverContextTakeover: boolean;
@@ -260,27 +289,36 @@ export class WebSocketDeflateOptions$instance {
 }
 
 
+export const WebSocketDeflateOptions: {
+    new(): WebSocketDeflateOptions$instance;
+};
+
+
 export type WebSocketDeflateOptions = WebSocketDeflateOptions$instance;
 
-export class WebSocketException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
-    constructor();
-    constructor(error: WebSocketError);
-    constructor(error: WebSocketError, message: string);
-    constructor(error: WebSocketError, innerException: Exception);
-    constructor(error: WebSocketError, message: string, innerException: Exception);
-    constructor(nativeError: int);
-    constructor(nativeError: int, message: string);
-    constructor(nativeError: int, innerException: Exception);
-    constructor(error: WebSocketError, nativeError: int);
-    constructor(error: WebSocketError, nativeError: int, message: string);
-    constructor(error: WebSocketError, nativeError: int, innerException: Exception);
-    constructor(error: WebSocketError, nativeError: int, message: string, innerException: Exception);
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface WebSocketException$instance extends Win32Exception {
     readonly errorCode: int;
     readonly webSocketErrorCode: WebSocketError;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const WebSocketException: {
+    new(): WebSocketException$instance;
+    new(error: WebSocketError): WebSocketException$instance;
+    new(error: WebSocketError, message: string): WebSocketException$instance;
+    new(error: WebSocketError, innerException: Exception): WebSocketException$instance;
+    new(error: WebSocketError, message: string, innerException: Exception): WebSocketException$instance;
+    new(nativeError: int): WebSocketException$instance;
+    new(nativeError: int, message: string): WebSocketException$instance;
+    new(nativeError: int, innerException: Exception): WebSocketException$instance;
+    new(error: WebSocketError, nativeError: int): WebSocketException$instance;
+    new(error: WebSocketError, nativeError: int, message: string): WebSocketException$instance;
+    new(error: WebSocketError, nativeError: int, innerException: Exception): WebSocketException$instance;
+    new(error: WebSocketError, nativeError: int, message: string, innerException: Exception): WebSocketException$instance;
+    new(message: string): WebSocketException$instance;
+    new(message: string, innerException: Exception): WebSocketException$instance;
+};
 
 
 export interface __WebSocketException$views {
@@ -290,9 +328,7 @@ export interface __WebSocketException$views {
 export type WebSocketException = WebSocketException$instance & __WebSocketException$views;
 
 
-export class WebSocketReceiveResult$instance {
-    constructor(count: int, messageType: WebSocketMessageType, endOfMessage: boolean);
-    constructor(count: int, messageType: WebSocketMessageType, endOfMessage: boolean, closeStatus: Nullable_1<WebSocketCloseStatus>, closeStatusDescription: string);
+export interface WebSocketReceiveResult$instance {
     readonly closeStatus: Nullable_1<WebSocketCloseStatus>;
     readonly closeStatusDescription: string;
     readonly count: int;
@@ -301,9 +337,15 @@ export class WebSocketReceiveResult$instance {
 }
 
 
+export const WebSocketReceiveResult: {
+    new(count: int, messageType: WebSocketMessageType, endOfMessage: boolean): WebSocketReceiveResult$instance;
+    new(count: int, messageType: WebSocketMessageType, endOfMessage: boolean, closeStatus: Nullable_1<WebSocketCloseStatus>, closeStatusDescription: string): WebSocketReceiveResult$instance;
+};
+
+
 export type WebSocketReceiveResult = WebSocketReceiveResult$instance;
 
-export class WebSocketStream$instance extends System_IO_Internal.Stream$instance {
+export interface WebSocketStream$instance extends Stream {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canWrite: boolean;
@@ -334,11 +376,16 @@ export class WebSocketStream$instance extends System_IO_Internal.Stream$instance
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    static create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, ownsWebSocket?: boolean): WebSocketStream;
-    static create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, closeTimeout: TimeSpan): WebSocketStream;
-    static createReadableMessageStream(webSocket: WebSocket): WebSocketStream;
-    static createWritableMessageStream(webSocket: WebSocket, writeMessageType: WebSocketMessageType): WebSocketStream;
 }
+
+
+export const WebSocketStream: {
+    new(): WebSocketStream$instance;
+    create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, ownsWebSocket?: boolean): WebSocketStream;
+    create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, closeTimeout: TimeSpan): WebSocketStream;
+    createReadableMessageStream(webSocket: WebSocket): WebSocketStream;
+    createWritableMessageStream(webSocket: WebSocket, writeMessageType: WebSocketMessageType): WebSocketStream;
+};
 
 
 export interface __WebSocketStream$views {

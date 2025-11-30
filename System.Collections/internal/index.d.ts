@@ -161,8 +161,7 @@ export interface IStructuralEquatable$instance {
 
 export type IStructuralEquatable = IStructuralEquatable$instance;
 
-export class DictionaryEntry$instance {
-    constructor(key: unknown, value: unknown);
+export interface DictionaryEntry$instance {
     key: unknown;
     value: unknown;
     deconstruct(key: { value: ref<unknown> }, value: { value: ref<unknown> }): void;
@@ -170,12 +169,14 @@ export class DictionaryEntry$instance {
 }
 
 
+export const DictionaryEntry: {
+    new(key: unknown, value: unknown): DictionaryEntry$instance;
+};
+
+
 export type DictionaryEntry = DictionaryEntry$instance;
 
-export class ArrayList$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(c: ICollection);
+export interface ArrayList$instance {
     capacity: int;
     readonly count: int;
     readonly isFixedSize: boolean;
@@ -217,15 +218,22 @@ export class ArrayList$instance {
     toArray(): unknown[];
     toArray(type_: Type): ClrArray;
     trimToSize(): void;
-    static adapter(list: IList): ArrayList;
-    static fixedSize(list: ArrayList): ArrayList;
-    static fixedSize(list: IList): IList;
-    static readOnly(list: ArrayList): ArrayList;
-    static readOnly(list: IList): IList;
-    static repeat(value: unknown, count: int): ArrayList;
-    static synchronized(list: ArrayList): ArrayList;
-    static synchronized(list: IList): IList;
 }
+
+
+export const ArrayList: {
+    new(): ArrayList$instance;
+    new(capacity: int): ArrayList$instance;
+    new(c: ICollection): ArrayList$instance;
+    adapter(list: IList): ArrayList;
+    fixedSize(list: ArrayList): ArrayList;
+    fixedSize(list: IList): IList;
+    readOnly(list: ArrayList): ArrayList;
+    readOnly(list: IList): IList;
+    repeat(value: unknown, count: int): ArrayList;
+    synchronized(list: ArrayList): ArrayList;
+    synchronized(list: IList): IList;
+};
 
 
 export interface __ArrayList$views {
@@ -240,13 +248,7 @@ export interface ArrayList$instance extends System_Internal.ICloneable$instance 
 export type ArrayList = ArrayList$instance & __ArrayList$views;
 
 
-export class BitArray$instance {
-    constructor(length: int);
-    constructor(length: int, defaultValue: boolean);
-    constructor(bytes: byte[]);
-    constructor(values: boolean[]);
-    constructor(values: int[]);
-    constructor(bits: BitArray);
+export interface BitArray$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -270,6 +272,16 @@ export class BitArray$instance {
 }
 
 
+export const BitArray: {
+    new(length: int): BitArray$instance;
+    new(length: int, defaultValue: boolean): BitArray$instance;
+    new(bytes: byte[]): BitArray$instance;
+    new(values: boolean[]): BitArray$instance;
+    new(values: int[]): BitArray$instance;
+    new(bits: BitArray): BitArray$instance;
+};
+
+
 export interface __BitArray$views {
     As_ICollection(): ICollection$instance;
     As_IEnumerable(): IEnumerable$instance;
@@ -282,13 +294,17 @@ export interface BitArray$instance extends System_Internal.ICloneable$instance, 
 export type BitArray = BitArray$instance & __BitArray$views;
 
 
-export class CaseInsensitiveComparer$instance {
-    constructor();
-    constructor(culture: CultureInfo);
+export interface CaseInsensitiveComparer$instance {
     compare(a: unknown, b: unknown): int;
-    static readonly default_: CaseInsensitiveComparer;
-    static readonly defaultInvariant: CaseInsensitiveComparer;
 }
+
+
+export const CaseInsensitiveComparer: {
+    new(): CaseInsensitiveComparer$instance;
+    new(culture: CultureInfo): CaseInsensitiveComparer$instance;
+    readonly default_: CaseInsensitiveComparer;
+    readonly defaultInvariant: CaseInsensitiveComparer;
+};
 
 
 export interface __CaseInsensitiveComparer$views {
@@ -300,13 +316,17 @@ export interface CaseInsensitiveComparer$instance extends IComparer$instance {}
 export type CaseInsensitiveComparer = CaseInsensitiveComparer$instance & __CaseInsensitiveComparer$views;
 
 
-export class CaseInsensitiveHashCodeProvider$instance {
-    constructor();
-    constructor(culture: CultureInfo);
+export interface CaseInsensitiveHashCodeProvider$instance {
     getHashCode(obj: unknown): int;
-    static readonly default_: CaseInsensitiveHashCodeProvider;
-    static readonly defaultInvariant: CaseInsensitiveHashCodeProvider;
 }
+
+
+export const CaseInsensitiveHashCodeProvider: {
+    new(): CaseInsensitiveHashCodeProvider$instance;
+    new(culture: CultureInfo): CaseInsensitiveHashCodeProvider$instance;
+    readonly default_: CaseInsensitiveHashCodeProvider;
+    readonly defaultInvariant: CaseInsensitiveHashCodeProvider;
+};
 
 
 export interface __CaseInsensitiveHashCodeProvider$views {
@@ -316,13 +336,17 @@ export interface __CaseInsensitiveHashCodeProvider$views {
 export type CaseInsensitiveHashCodeProvider = CaseInsensitiveHashCodeProvider$instance & __CaseInsensitiveHashCodeProvider$views;
 
 
-export abstract class CollectionBase$instance {
+export interface CollectionBase$instance {
     capacity: int;
     readonly count: int;
     clear(): void;
     getEnumerator(): IEnumerator;
     removeAt(index: int): void;
 }
+
+
+export const CollectionBase: {
+};
 
 
 export interface __CollectionBase$views {
@@ -334,13 +358,17 @@ export interface __CollectionBase$views {
 export type CollectionBase = CollectionBase$instance & __CollectionBase$views;
 
 
-export class Comparer$instance {
-    constructor(culture: CultureInfo);
+export interface Comparer$instance {
     compare(a: unknown, b: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static readonly default_: Comparer;
-    static readonly defaultInvariant: Comparer;
 }
+
+
+export const Comparer: {
+    new(culture: CultureInfo): Comparer$instance;
+    readonly default_: Comparer;
+    readonly defaultInvariant: Comparer;
+};
 
 
 export interface __Comparer$views {
@@ -353,12 +381,16 @@ export interface Comparer$instance extends IComparer$instance, System_Runtime_Se
 export type Comparer = Comparer$instance & __Comparer$views;
 
 
-export abstract class DictionaryBase$instance {
+export interface DictionaryBase$instance {
     readonly count: int;
     clear(): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IDictionaryEnumerator;
 }
+
+
+export const DictionaryBase: {
+};
 
 
 export interface __DictionaryBase$views {
@@ -370,22 +402,7 @@ export interface __DictionaryBase$views {
 export type DictionaryBase = DictionaryBase$instance & __DictionaryBase$views;
 
 
-export class Hashtable$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(capacity: int, loadFactor: float);
-    constructor(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer);
-    constructor(hcp: IHashCodeProvider, comparer: IComparer);
-    constructor(equalityComparer: IEqualityComparer);
-    constructor(capacity: int, hcp: IHashCodeProvider, comparer: IComparer);
-    constructor(capacity: int, equalityComparer: IEqualityComparer);
-    constructor(d: IDictionary);
-    constructor(d: IDictionary, loadFactor: float);
-    constructor(d: IDictionary, hcp: IHashCodeProvider, comparer: IComparer);
-    constructor(d: IDictionary, equalityComparer: IEqualityComparer);
-    constructor(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer);
-    constructor(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer);
-    constructor(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer);
+export interface Hashtable$instance {
     readonly count: int;
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
@@ -405,8 +422,27 @@ export class Hashtable$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     onDeserialization(sender: unknown): void;
     remove(key: unknown): void;
-    static synchronized(table: Hashtable): Hashtable;
 }
+
+
+export const Hashtable: {
+    new(): Hashtable$instance;
+    new(capacity: int): Hashtable$instance;
+    new(capacity: int, loadFactor: float): Hashtable$instance;
+    new(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable$instance;
+    new(hcp: IHashCodeProvider, comparer: IComparer): Hashtable$instance;
+    new(equalityComparer: IEqualityComparer): Hashtable$instance;
+    new(capacity: int, hcp: IHashCodeProvider, comparer: IComparer): Hashtable$instance;
+    new(capacity: int, equalityComparer: IEqualityComparer): Hashtable$instance;
+    new(d: IDictionary): Hashtable$instance;
+    new(d: IDictionary, loadFactor: float): Hashtable$instance;
+    new(d: IDictionary, hcp: IHashCodeProvider, comparer: IComparer): Hashtable$instance;
+    new(d: IDictionary, equalityComparer: IEqualityComparer): Hashtable$instance;
+    new(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable$instance;
+    new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable$instance;
+    new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable$instance;
+    synchronized(table: Hashtable): Hashtable;
+};
 
 
 export interface __Hashtable$views {
@@ -423,8 +459,7 @@ export interface Hashtable$instance extends System_Internal.ICloneable$instance,
 export type Hashtable = Hashtable$instance & __Hashtable$views;
 
 
-export class ListDictionaryInternal$instance {
-    constructor();
+export interface ListDictionaryInternal$instance {
     readonly count: int;
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
@@ -442,6 +477,11 @@ export class ListDictionaryInternal$instance {
 }
 
 
+export const ListDictionaryInternal: {
+    new(): ListDictionaryInternal$instance;
+};
+
+
 export interface __ListDictionaryInternal$views {
     As_ICollection(): ICollection$instance;
     As_IDictionary(): IDictionary$instance;
@@ -451,11 +491,7 @@ export interface __ListDictionaryInternal$views {
 export type ListDictionaryInternal = ListDictionaryInternal$instance & __ListDictionaryInternal$views;
 
 
-export class Queue$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(capacity: int, growFactor: float);
-    constructor(col: ICollection);
+export interface Queue$instance {
     readonly count: int;
     readonly isSynchronized: boolean;
     readonly syncRoot: unknown;
@@ -469,8 +505,16 @@ export class Queue$instance {
     peek(): unknown;
     toArray(): unknown[];
     trimToSize(): void;
-    static synchronized(queue: Queue): Queue;
 }
+
+
+export const Queue: {
+    new(): Queue$instance;
+    new(capacity: int): Queue$instance;
+    new(capacity: int, growFactor: float): Queue$instance;
+    new(col: ICollection): Queue$instance;
+    synchronized(queue: Queue): Queue;
+};
 
 
 export interface __Queue$views {
@@ -484,10 +528,14 @@ export interface Queue$instance extends System_Internal.ICloneable$instance {}
 export type Queue = Queue$instance & __Queue$views;
 
 
-export abstract class ReadOnlyCollectionBase$instance {
+export interface ReadOnlyCollectionBase$instance {
     readonly count: int;
     getEnumerator(): IEnumerator;
 }
+
+
+export const ReadOnlyCollectionBase: {
+};
 
 
 export interface __ReadOnlyCollectionBase$views {
@@ -498,13 +546,7 @@ export interface __ReadOnlyCollectionBase$views {
 export type ReadOnlyCollectionBase = ReadOnlyCollectionBase$instance & __ReadOnlyCollectionBase$views;
 
 
-export class SortedList$instance {
-    constructor();
-    constructor(initialCapacity: int);
-    constructor(comparer: IComparer);
-    constructor(comparer: IComparer, capacity: int);
-    constructor(d: IDictionary);
-    constructor(d: IDictionary, comparer: IComparer);
+export interface SortedList$instance {
     capacity: int;
     readonly count: int;
     readonly isFixedSize: boolean;
@@ -532,8 +574,18 @@ export class SortedList$instance {
     removeAt(index: int): void;
     setByIndex(index: int, value: unknown): void;
     trimToSize(): void;
-    static synchronized(list: SortedList): SortedList;
 }
+
+
+export const SortedList: {
+    new(): SortedList$instance;
+    new(initialCapacity: int): SortedList$instance;
+    new(comparer: IComparer): SortedList$instance;
+    new(comparer: IComparer, capacity: int): SortedList$instance;
+    new(d: IDictionary): SortedList$instance;
+    new(d: IDictionary, comparer: IComparer): SortedList$instance;
+    synchronized(list: SortedList): SortedList;
+};
 
 
 export interface __SortedList$views {
@@ -548,10 +600,7 @@ export interface SortedList$instance extends System_Internal.ICloneable$instance
 export type SortedList = SortedList$instance & __SortedList$views;
 
 
-export class Stack$instance {
-    constructor();
-    constructor(initialCapacity: int);
-    constructor(col: ICollection);
+export interface Stack$instance {
     readonly count: int;
     readonly isSynchronized: boolean;
     readonly syncRoot: unknown;
@@ -564,8 +613,15 @@ export class Stack$instance {
     pop(): unknown;
     push(obj: unknown): void;
     toArray(): unknown[];
-    static synchronized(stack: Stack): Stack;
 }
+
+
+export const Stack: {
+    new(): Stack$instance;
+    new(initialCapacity: int): Stack$instance;
+    new(col: ICollection): Stack$instance;
+    synchronized(stack: Stack): Stack;
+};
 
 
 export interface __Stack$views {

@@ -84,7 +84,7 @@ export enum RegistryView {
 }
 
 
-export class RegistryKey$instance extends System_Internal.MarshalByRefObject$instance {
+export interface RegistryKey$instance extends MarshalByRefObject {
     readonly handle: SafeRegistryHandle;
     readonly name: string;
     readonly subKeyCount: int;
@@ -123,12 +123,17 @@ export class RegistryKey$instance extends System_Internal.MarshalByRefObject$ins
     setValue(name: string, value: unknown): void;
     setValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
     toString(): string;
-    static fromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
-    static fromHandle(handle: SafeRegistryHandle): RegistryKey;
-    static openBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
-    static openRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
-    static openRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
 }
+
+
+export const RegistryKey: {
+    new(): RegistryKey$instance;
+    fromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
+    fromHandle(handle: SafeRegistryHandle): RegistryKey;
+    openBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
+    openRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
+    openRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
+};
 
 
 export interface __RegistryKey$views {

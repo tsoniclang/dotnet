@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67111654,
+          "metadataToken": 67111653,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::NoneSystem.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67111655,
+          "metadataToken": 67111654,
           "normalizedSignature": "None|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::MD5System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "MD5",
           "tsEmitName": "MD5",
-          "metadataToken": 67111656,
+          "metadataToken": 67111655,
           "normalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA1System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA1",
           "tsEmitName": "SHA1",
-          "metadataToken": 67111657,
+          "metadataToken": 67111656,
           "normalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA256System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA256",
           "tsEmitName": "SHA256",
-          "metadataToken": 67111658,
+          "metadataToken": 67111657,
           "normalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -69,7 +69,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA384System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA384",
           "tsEmitName": "SHA384",
-          "metadataToken": 67111659,
+          "metadataToken": 67111658,
           "normalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -80,7 +80,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA512System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA512",
           "tsEmitName": "SHA512",
-          "metadataToken": 67111660,
+          "metadataToken": 67111659,
           "normalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -630,7 +630,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111654
+            "metadataToken": 67111653
           }
         },
         {
@@ -640,7 +640,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111655
+            "metadataToken": 67111654
           }
         },
         {
@@ -650,7 +650,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111656
+            "metadataToken": 67111655
           }
         },
         {
@@ -660,7 +660,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111657
+            "metadataToken": 67111656
           }
         },
         {
@@ -670,7 +670,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111658
+            "metadataToken": 67111657
           }
         },
         {
@@ -680,7 +680,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111659
+            "metadataToken": 67111658
           }
         },
         {
@@ -690,7 +690,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyHashAlgorithm",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111660
+            "metadataToken": 67111659
           }
         }
       ]
@@ -708,7 +708,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67111661,
+          "metadataToken": 67111660,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -719,7 +719,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameMachineSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
           "clrName": "SameMachine",
           "tsEmitName": "sameMachine",
-          "metadataToken": 67111662,
+          "metadataToken": 67111661,
           "normalizedSignature": "SameMachine|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -730,7 +730,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameProcessSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
           "clrName": "SameProcess",
           "tsEmitName": "sameProcess",
-          "metadataToken": 67111663,
+          "metadataToken": 67111662,
           "normalizedSignature": "SameProcess|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -741,7 +741,7 @@
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::SameDomainSystem.Configuration.Assemblies.AssemblyVersionCompatibility",
           "clrName": "SameDomain",
           "tsEmitName": "sameDomain",
-          "metadataToken": 67111664,
+          "metadataToken": 67111663,
           "normalizedSignature": "SameDomain|System.Configuration.Assemblies.AssemblyVersionCompatibility|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1291,7 +1291,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111661
+            "metadataToken": 67111660
           }
         },
         {
@@ -1301,7 +1301,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111662
+            "metadataToken": 67111661
           }
         },
         {
@@ -1311,7 +1311,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111663
+            "metadataToken": 67111662
           }
         },
         {
@@ -1321,7 +1321,7 @@
           "target": {
             "declaringClrType": "System.Configuration.Assemblies.AssemblyVersionCompatibility",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111664
+            "metadataToken": 67111663
           }
         }
       ]

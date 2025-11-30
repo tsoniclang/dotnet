@@ -74,23 +74,30 @@ export enum SecurityPermissionFlag {
 }
 
 
-export abstract class CodeAccessSecurityAttribute$instance extends SecurityAttribute$instance {
+export interface CodeAccessSecurityAttribute$instance extends SecurityAttribute {
 }
+
+
+export const CodeAccessSecurityAttribute: {
+};
 
 
 export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 
-export abstract class SecurityAttribute$instance extends System_Internal.Attribute$instance {
+export interface SecurityAttribute$instance extends Attribute {
     action: SecurityAction;
     unrestricted: boolean;
-    abstract createPermission(): IPermission;
+    createPermission(): IPermission;
 }
+
+
+export const SecurityAttribute: {
+};
 
 
 export type SecurityAttribute = SecurityAttribute$instance;
 
-export class SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute$instance {
-    constructor(action: SecurityAction);
+export interface SecurityPermissionAttribute$instance extends CodeAccessSecurityAttribute {
     assertion: boolean;
     bindingRedirects: boolean;
     controlAppDomain: boolean;
@@ -108,6 +115,11 @@ export class SecurityPermissionAttribute$instance extends CodeAccessSecurityAttr
     unmanagedCode: boolean;
     createPermission(): IPermission;
 }
+
+
+export const SecurityPermissionAttribute: {
+    new(action: SecurityAction): SecurityPermissionAttribute$instance;
+};
 
 
 export type SecurityPermissionAttribute = SecurityPermissionAttribute$instance;

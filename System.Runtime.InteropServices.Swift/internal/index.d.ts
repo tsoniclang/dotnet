@@ -37,34 +37,50 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class SwiftError$instance {
-    constructor(value: ptr<void>);
+export interface SwiftError$instance {
     readonly value: ptr<void>;
 }
+
+
+export const SwiftError: {
+    new(value: ptr<void>): SwiftError$instance;
+};
 
 
 export type SwiftError = SwiftError$instance;
 
-export class SwiftIndirectResult$instance {
-    constructor(value: ptr<void>);
+export interface SwiftIndirectResult$instance {
     readonly value: ptr<void>;
 }
+
+
+export const SwiftIndirectResult: {
+    new(value: ptr<void>): SwiftIndirectResult$instance;
+};
 
 
 export type SwiftIndirectResult = SwiftIndirectResult$instance;
 
-export class SwiftSelf$instance {
-    constructor(value: ptr<void>);
+export interface SwiftSelf$instance {
     readonly value: ptr<void>;
 }
 
 
+export const SwiftSelf: {
+    new(value: ptr<void>): SwiftSelf$instance;
+};
+
+
 export type SwiftSelf = SwiftSelf$instance;
 
-export class SwiftSelf_1$instance<T extends unknown> {
-    constructor(value: T);
+export interface SwiftSelf_1$instance<T extends unknown> {
     readonly value: T;
 }
+
+
+export const SwiftSelf_1: {
+    new<T extends unknown>(value: T): SwiftSelf_1$instance<T>;
+};
 
 
 export type SwiftSelf_1<T> = SwiftSelf_1$instance<T>;

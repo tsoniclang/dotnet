@@ -518,6 +518,141 @@ export enum UriPartial {
 }
 
 
+export type Action = () => void;
+
+
+export type Action_1<T> = (obj: T) => void;
+
+
+export type Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => void;
+
+
+export type Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => void;
+
+
+export type Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => void;
+
+
+export type Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => void;
+
+
+export type Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => void;
+
+
+export type Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => void;
+
+
+export type Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => void;
+
+
+export type Action_2<T1, T2> = (arg1: T1, arg2: T2) => void;
+
+
+export type Action_3<T1, T2, T3> = (arg1: T1, arg2: T2, arg3: T3) => void;
+
+
+export type Action_4<T1, T2, T3, T4> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => void;
+
+
+export type Action_5<T1, T2, T3, T4, T5> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => void;
+
+
+export type Action_6<T1, T2, T3, T4, T5, T6> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => void;
+
+
+export type Action_7<T1, T2, T3, T4, T5, T6, T7> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => void;
+
+
+export type Action_8<T1, T2, T3, T4, T5, T6, T7, T8> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => void;
+
+
+export type Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void;
+
+
+export type AssemblyLoadEventHandler = (sender: unknown, args: AssemblyLoadEventArgs) => void;
+
+
+export type AsyncCallback = (ar: IAsyncResult) => void;
+
+
+export type Comparison_1<T> = (x: T, y: T) => int;
+
+
+export type ConsoleCancelEventHandler = (sender: unknown, e: ConsoleCancelEventArgs) => void;
+
+
+export type Converter_2<TInput, TOutput> = (input: TInput) => TOutput;
+
+
+export type EventHandler = (sender: unknown, e: EventArgs) => void;
+
+
+export type EventHandler_1<TEventArgs> = (sender: unknown, e: TEventArgs) => void;
+
+
+export type EventHandler_2<TSender, TEventArgs> = (sender: TSender, e: TEventArgs) => void;
+
+
+export type Func_1<TResult> = () => TResult;
+
+
+export type Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => TResult;
+
+
+export type Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10) => TResult;
+
+
+export type Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11) => TResult;
+
+
+export type Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12) => TResult;
+
+
+export type Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13) => TResult;
+
+
+export type Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14) => TResult;
+
+
+export type Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15) => TResult;
+
+
+export type Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16) => TResult;
+
+
+export type Func_2<T, TResult> = (arg: T) => TResult;
+
+
+export type Func_3<T1, T2, TResult> = (arg1: T1, arg2: T2) => TResult;
+
+
+export type Func_4<T1, T2, T3, TResult> = (arg1: T1, arg2: T2, arg3: T3) => TResult;
+
+
+export type Func_5<T1, T2, T3, T4, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4) => TResult;
+
+
+export type Func_6<T1, T2, T3, T4, T5, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5) => TResult;
+
+
+export type Func_7<T1, T2, T3, T4, T5, T6, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6) => TResult;
+
+
+export type Func_8<T1, T2, T3, T4, T5, T6, T7, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7) => TResult;
+
+
+export type Func_9<T1, T2, T3, T4, T5, T6, T7, T8, TResult> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8) => TResult;
+
+
+export type Predicate_1<T> = (obj: T) => boolean;
+
+
+export type ResolveEventHandler = (sender: unknown, args: ResolveEventArgs) => Assembly;
+
+
+export type UnhandledExceptionEventHandler = (sender: unknown, e: UnhandledExceptionEventArgs) => void;
+
+
 export interface IAsyncDisposable$instance {
     disposeAsync(): ValueTask;
 }
@@ -681,9 +816,7 @@ export interface IUtf8SpanParsable_1$instance<TSelf extends IUtf8SpanParsable_1<
 
 export type IUtf8SpanParsable_1<TSelf extends IUtf8SpanParsable_1<TSelf>> = IUtf8SpanParsable_1$instance<TSelf>;
 
-export class ArgIterator$instance {
-    constructor(arglist: RuntimeArgumentHandle);
-    constructor(arglist: RuntimeArgumentHandle, ptr: ptr<void>);
+export interface ArgIterator$instance {
     end(): void;
     equals(o: unknown): boolean;
     getHashCode(): int;
@@ -694,11 +827,15 @@ export class ArgIterator$instance {
 }
 
 
+export const ArgIterator: {
+    new(arglist: RuntimeArgumentHandle): ArgIterator$instance;
+    new(arglist: RuntimeArgumentHandle, ptr: ptr<void>): ArgIterator$instance;
+};
+
+
 export type ArgIterator = ArgIterator$instance;
 
-export class ArraySegment_1$instance<T> {
-    constructor(array: T[]);
-    constructor(array: T[], offset: int, count: int);
+export interface ArraySegment_1$instance<T> {
     readonly array: T[];
     readonly count: int;
     item: T;
@@ -713,8 +850,14 @@ export class ArraySegment_1$instance<T> {
     slice(index: int): ArraySegment_1<T>;
     slice(index: int, count: int): ArraySegment_1<T>;
     toArray(): T[];
-    static readonly empty: unknown;
 }
+
+
+export const ArraySegment_1: {
+    new<T>(array: T[]): ArraySegment_1$instance<T>;
+    new<T>(array: T[], offset: int, count: int): ArraySegment_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ArraySegment_1$views<T> {
@@ -728,12 +871,17 @@ export interface __ArraySegment_1$views<T> {
 export type ArraySegment_1<T> = ArraySegment_1$instance<T> & __ArraySegment_1$views<T>;
 
 
-export class ArraySegment_1_Enumerator$instance<T> implements IDisposable {
+export interface ArraySegment_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ArraySegment_1_Enumerator: {
+    new<T>(): ArraySegment_1_Enumerator$instance<T>;
+};
 
 
 export interface __ArraySegment_1_Enumerator$views<T> {
@@ -744,7 +892,7 @@ export interface __ArraySegment_1_Enumerator$views<T> {
 export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T> & __ArraySegment_1_Enumerator$views<T>;
 
 
-export class Boolean$instance {
+export interface Boolean$instance {
     compareTo(obj: unknown): int;
     compareTo(value: boolean): int;
     equals(obj: unknown): boolean;
@@ -754,13 +902,18 @@ export class Boolean$instance {
     toString(): string;
     toString(provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly trueString: string;
-    static readonly falseString: string;
-    static parse(value: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static parse(value: string): boolean;
-    static tryParse(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<boolean> }): boolean;
-    static tryParse(value: string, result: { value: ref<boolean> }): boolean;
 }
+
+
+export const Boolean: {
+    new(): Boolean$instance;
+    readonly trueString: string;
+    readonly falseString: string;
+    parse(value: ReadOnlySpan_1<CLROf<char>>): boolean;
+    parse(value: string): boolean;
+    tryParse(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<boolean> }): boolean;
+    tryParse(value: string, result: { value: ref<boolean> }): boolean;
+};
 
 
 export interface __Boolean$views {
@@ -781,7 +934,7 @@ export interface Boolean$instance extends ISpanParsable_1$instance<CLROf<boolean
 export type Boolean = Boolean$instance & __Boolean$views;
 
 
-export class Byte$instance implements IBitwiseOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IComparisonOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IModulusOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IAdditionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IDecrementOperators_1<CLROf<byte>>, IDivisionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IIncrementOperators_1<CLROf<byte>>, IMultiplyOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, ISubtractionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IUnaryPlusOperators_2<CLROf<byte>, CLROf<byte>>, IUnaryNegationOperators_2<CLROf<byte>, CLROf<byte>>, IShiftOperators_3<CLROf<byte>, CLROf<int>, CLROf<byte>> {
+export interface Byte$instance extends IBitwiseOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IComparisonOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IModulusOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IAdditionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IDecrementOperators_1<CLROf<byte>>, IDivisionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IIncrementOperators_1<CLROf<byte>>, IMultiplyOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, ISubtractionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IUnaryPlusOperators_2<CLROf<byte>, CLROf<byte>>, IUnaryNegationOperators_2<CLROf<byte>, CLROf<byte>>, IShiftOperators_3<CLROf<byte>, CLROf<int>, CLROf<byte>> {
     compareTo(value: unknown): int;
     compareTo(value: byte): int;
     equals(obj: unknown): boolean;
@@ -794,43 +947,48 @@ export class Byte$instance implements IBitwiseOperators_3<CLROf<byte>, CLROf<byt
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: byte;
-    static readonly minValue: byte;
-    static clamp(value: byte, min: byte, max: byte): byte;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
-    static divRem(left: byte, right: byte): ValueTuple_2<CLROf<byte>, CLROf<byte>>;
-    static isEvenInteger(value: byte): boolean;
-    static isOddInteger(value: byte): boolean;
-    static isPow2(value: byte): boolean;
-    static leadingZeroCount(value: byte): byte;
-    static log2(value: byte): byte;
-    static max(x: byte, y: byte): byte;
-    static min(x: byte, y: byte): byte;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): byte;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): byte;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): byte;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): byte;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): byte;
-    static parse(s: string, style: NumberStyles): byte;
-    static parse(s: string, provider: IFormatProvider): byte;
-    static parse(s: string): byte;
-    static popCount(value: byte): byte;
-    static rotateLeft(value: byte, rotateAmount: int): byte;
-    static rotateRight(value: byte, rotateAmount: int): byte;
-    static sign(value: byte): int;
-    static trailingZeroCount(value: byte): byte;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<byte> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<byte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static tryParse(s: string, result: { value: ref<byte> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
 }
+
+
+export const Byte: {
+    new(): Byte$instance;
+    readonly maxValue: byte;
+    readonly minValue: byte;
+    clamp(value: byte, min: byte, max: byte): byte;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    divRem(left: byte, right: byte): ValueTuple_2<CLROf<byte>, CLROf<byte>>;
+    isEvenInteger(value: byte): boolean;
+    isOddInteger(value: byte): boolean;
+    isPow2(value: byte): boolean;
+    leadingZeroCount(value: byte): byte;
+    log2(value: byte): byte;
+    max(x: byte, y: byte): byte;
+    min(x: byte, y: byte): byte;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): byte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): byte;
+    parse(s: string, style: NumberStyles): byte;
+    parse(s: string, provider: IFormatProvider): byte;
+    parse(s: string): byte;
+    popCount(value: byte): byte;
+    rotateLeft(value: byte, rotateAmount: int): byte;
+    rotateRight(value: byte, rotateAmount: int): byte;
+    sign(value: byte): int;
+    trailingZeroCount(value: byte): byte;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<byte> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<byte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    tryParse(s: string, result: { value: ref<byte> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<byte> }): boolean;
+};
 
 
 export interface __Byte$views {
@@ -867,7 +1025,7 @@ export interface Byte$instance extends System_Numerics_Internal.IMinMaxValue_1$i
 export type Byte = Byte$instance & __Byte$views;
 
 
-export class Char$instance implements IBitwiseOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IComparisonOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IEqualityOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IModulusOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IAdditionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IDecrementOperators_1<CLROf<char>>, IDivisionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IIncrementOperators_1<CLROf<char>>, IMultiplyOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, ISubtractionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IUnaryPlusOperators_2<CLROf<char>, CLROf<char>>, IUnaryNegationOperators_2<CLROf<char>, CLROf<char>>, IShiftOperators_3<CLROf<char>, CLROf<int>, CLROf<char>> {
+export interface Char$instance extends IBitwiseOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IComparisonOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IEqualityOperators_3<CLROf<char>, CLROf<char>, CLROf<boolean>>, IModulusOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IAdditionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IDecrementOperators_1<CLROf<char>>, IDivisionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IIncrementOperators_1<CLROf<char>>, IMultiplyOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, ISubtractionOperators_3<CLROf<char>, CLROf<char>, CLROf<char>>, IUnaryPlusOperators_2<CLROf<char>, CLROf<char>>, IUnaryNegationOperators_2<CLROf<char>, CLROf<char>>, IShiftOperators_3<CLROf<char>, CLROf<int>, CLROf<char>> {
     compareTo(value: unknown): int;
     compareTo(value: char): int;
     equals(obj: unknown): boolean;
@@ -876,65 +1034,70 @@ export class Char$instance implements IBitwiseOperators_3<CLROf<char>, CLROf<cha
     getTypeCode(): TypeCode;
     toString(): string;
     toString(provider: IFormatProvider): string;
-    static readonly maxValue: char;
-    static readonly minValue: char;
-    static convertFromUtf32(utf32: int): string;
-    static convertToUtf32(highSurrogate: char, lowSurrogate: char): int;
-    static convertToUtf32(s: string, index: int): int;
-    static getNumericValue(c: char): double;
-    static getNumericValue(s: string, index: int): double;
-    static getUnicodeCategory(c: char): UnicodeCategory;
-    static getUnicodeCategory(s: string, index: int): UnicodeCategory;
-    static isAscii(c: char): boolean;
-    static isAsciiDigit(c: char): boolean;
-    static isAsciiHexDigit(c: char): boolean;
-    static isAsciiHexDigitLower(c: char): boolean;
-    static isAsciiHexDigitUpper(c: char): boolean;
-    static isAsciiLetter(c: char): boolean;
-    static isAsciiLetterLower(c: char): boolean;
-    static isAsciiLetterOrDigit(c: char): boolean;
-    static isAsciiLetterUpper(c: char): boolean;
-    static isBetween(c: char, minInclusive: char, maxInclusive: char): boolean;
-    static isControl(c: char): boolean;
-    static isControl(s: string, index: int): boolean;
-    static isDigit(c: char): boolean;
-    static isDigit(s: string, index: int): boolean;
-    static isHighSurrogate(c: char): boolean;
-    static isHighSurrogate(s: string, index: int): boolean;
-    static isLetter(c: char): boolean;
-    static isLetter(s: string, index: int): boolean;
-    static isLetterOrDigit(c: char): boolean;
-    static isLetterOrDigit(s: string, index: int): boolean;
-    static isLower(c: char): boolean;
-    static isLower(s: string, index: int): boolean;
-    static isLowSurrogate(c: char): boolean;
-    static isLowSurrogate(s: string, index: int): boolean;
-    static isNumber(c: char): boolean;
-    static isNumber(s: string, index: int): boolean;
-    static isPunctuation(c: char): boolean;
-    static isPunctuation(s: string, index: int): boolean;
-    static isSeparator(c: char): boolean;
-    static isSeparator(s: string, index: int): boolean;
-    static isSurrogate(c: char): boolean;
-    static isSurrogate(s: string, index: int): boolean;
-    static isSurrogatePair(highSurrogate: char, lowSurrogate: char): boolean;
-    static isSurrogatePair(s: string, index: int): boolean;
-    static isSymbol(c: char): boolean;
-    static isSymbol(s: string, index: int): boolean;
-    static isUpper(c: char): boolean;
-    static isUpper(s: string, index: int): boolean;
-    static isWhiteSpace(c: char): boolean;
-    static isWhiteSpace(s: string, index: int): boolean;
-    static parse(s: string): char;
-    static toLower(c: char, culture: CultureInfo): char;
-    static toLower(c: char): char;
-    static toLowerInvariant(c: char): char;
-    static toString(c: char): string;
-    static toUpper(c: char, culture: CultureInfo): char;
-    static toUpper(c: char): char;
-    static toUpperInvariant(c: char): char;
-    static tryParse(s: string, result: { value: ref<char> }): boolean;
 }
+
+
+export const Char: {
+    new(): Char$instance;
+    readonly maxValue: char;
+    readonly minValue: char;
+    convertFromUtf32(utf32: int): string;
+    convertToUtf32(highSurrogate: char, lowSurrogate: char): int;
+    convertToUtf32(s: string, index: int): int;
+    getNumericValue(c: char): double;
+    getNumericValue(s: string, index: int): double;
+    getUnicodeCategory(c: char): UnicodeCategory;
+    getUnicodeCategory(s: string, index: int): UnicodeCategory;
+    isAscii(c: char): boolean;
+    isAsciiDigit(c: char): boolean;
+    isAsciiHexDigit(c: char): boolean;
+    isAsciiHexDigitLower(c: char): boolean;
+    isAsciiHexDigitUpper(c: char): boolean;
+    isAsciiLetter(c: char): boolean;
+    isAsciiLetterLower(c: char): boolean;
+    isAsciiLetterOrDigit(c: char): boolean;
+    isAsciiLetterUpper(c: char): boolean;
+    isBetween(c: char, minInclusive: char, maxInclusive: char): boolean;
+    isControl(c: char): boolean;
+    isControl(s: string, index: int): boolean;
+    isDigit(c: char): boolean;
+    isDigit(s: string, index: int): boolean;
+    isHighSurrogate(c: char): boolean;
+    isHighSurrogate(s: string, index: int): boolean;
+    isLetter(c: char): boolean;
+    isLetter(s: string, index: int): boolean;
+    isLetterOrDigit(c: char): boolean;
+    isLetterOrDigit(s: string, index: int): boolean;
+    isLower(c: char): boolean;
+    isLower(s: string, index: int): boolean;
+    isLowSurrogate(c: char): boolean;
+    isLowSurrogate(s: string, index: int): boolean;
+    isNumber(c: char): boolean;
+    isNumber(s: string, index: int): boolean;
+    isPunctuation(c: char): boolean;
+    isPunctuation(s: string, index: int): boolean;
+    isSeparator(c: char): boolean;
+    isSeparator(s: string, index: int): boolean;
+    isSurrogate(c: char): boolean;
+    isSurrogate(s: string, index: int): boolean;
+    isSurrogatePair(highSurrogate: char, lowSurrogate: char): boolean;
+    isSurrogatePair(s: string, index: int): boolean;
+    isSymbol(c: char): boolean;
+    isSymbol(s: string, index: int): boolean;
+    isUpper(c: char): boolean;
+    isUpper(s: string, index: int): boolean;
+    isWhiteSpace(c: char): boolean;
+    isWhiteSpace(s: string, index: int): boolean;
+    parse(s: string): char;
+    toLower(c: char, culture: CultureInfo): char;
+    toLower(c: char): char;
+    toLowerInvariant(c: char): char;
+    toString(c: char): string;
+    toUpper(c: char, culture: CultureInfo): char;
+    toUpper(c: char): char;
+    toUpperInvariant(c: char): char;
+    tryParse(s: string, result: { value: ref<char> }): boolean;
+};
 
 
 export interface __Char$views {
@@ -971,8 +1134,7 @@ export interface Char$instance extends System_Numerics_Internal.IMinMaxValue_1$i
 export type Char = Char$instance & __Char$views;
 
 
-export class ConsoleKeyInfo$instance {
-    constructor(keyChar: char, key: ConsoleKey, shift: boolean, alt: boolean, control: boolean);
+export interface ConsoleKeyInfo$instance {
     readonly key: ConsoleKey;
     readonly keyChar: char;
     readonly modifiers: ConsoleModifiers;
@@ -980,6 +1142,11 @@ export class ConsoleKeyInfo$instance {
     equals(obj: ConsoleKeyInfo): boolean;
     getHashCode(): int;
 }
+
+
+export const ConsoleKeyInfo: {
+    new(keyChar: char, key: ConsoleKey, shift: boolean, alt: boolean, control: boolean): ConsoleKeyInfo$instance;
+};
 
 
 export interface __ConsoleKeyInfo$views {
@@ -992,9 +1159,7 @@ export interface __ConsoleKeyInfo$views {
 export type ConsoleKeyInfo = ConsoleKeyInfo$instance & __ConsoleKeyInfo$views;
 
 
-export class DateOnly$instance {
-    constructor(year: int, month: int, day: int);
-    constructor(year: int, month: int, day: int, calendar: Calendar);
+export interface DateOnly$instance {
     readonly day: int;
     readonly dayNumber: int;
     readonly dayOfWeek: DayOfWeek;
@@ -1020,37 +1185,43 @@ export class DateOnly$instance {
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: DateOnly;
-    static readonly maxValue: DateOnly;
-    static fromDateTime(dateTime: DateTime): DateOnly;
-    static fromDayNumber(dayNumber: int): DateOnly;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateOnly;
-    static parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parse(s: string, provider: IFormatProvider): DateOnly;
-    static parse(s: string): DateOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): DateOnly;
-    static parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parseExact(s: string, format: string): DateOnly;
-    static parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
-    static parseExact(s: string, formats: string[]): DateOnly;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static tryParse(s: string, result: { value: ref<DateOnly> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: string, format: string, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: string, formats: string[], result: { value: ref<DateOnly> }): boolean;
-    static tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
 }
+
+
+export const DateOnly: {
+    new(year: int, month: int, day: int): DateOnly$instance;
+    new(year: int, month: int, day: int, calendar: Calendar): DateOnly$instance;
+    readonly minValue: DateOnly;
+    readonly maxValue: DateOnly;
+    fromDateTime(dateTime: DateTime): DateOnly;
+    fromDayNumber(dayNumber: int): DateOnly;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateOnly;
+    parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parse(s: string, provider: IFormatProvider): DateOnly;
+    parse(s: string): DateOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): DateOnly;
+    parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parseExact(s: string, format: string): DateOnly;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parseExact(s: string, formats: string[]): DateOnly;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    tryParse(s: string, result: { value: ref<DateOnly> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateOnly> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: string, format: string, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: string, formats: string[], result: { value: ref<DateOnly> }): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateOnly> }): boolean;
+};
 
 
 export interface __DateOnly$views {
@@ -1073,24 +1244,7 @@ export interface DateOnly$instance extends IComparable_1$instance<DateOnly>, ISp
 export type DateOnly = DateOnly$instance & __DateOnly$views;
 
 
-export class DateTime$instance {
-    constructor(ticks: long);
-    constructor(ticks: long, kind: DateTimeKind);
-    constructor(date: DateOnly, time: TimeOnly);
-    constructor(date: DateOnly, time: TimeOnly, kind: DateTimeKind);
-    constructor(year: int, month: int, day: int);
-    constructor(year: int, month: int, day: int, calendar: Calendar);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar, kind: DateTimeKind);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, kind: DateTimeKind);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, calendar: Calendar);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, kind: DateTimeKind);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, kind: DateTimeKind);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, kind: DateTimeKind);
+export interface DateTime$instance {
     readonly date: DateTime;
     readonly day: int;
     readonly dayOfWeek: DayOfWeek;
@@ -1147,42 +1301,63 @@ export class DateTime$instance {
     toUniversalTime(): DateTime;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: DateTime;
-    static readonly maxValue: DateTime;
-    static readonly unixEpoch: DateTime;
-    static readonly now: DateTime;
-    static readonly today: DateTime;
-    static readonly utcNow: DateTime;
-    static compare(t1: DateTime, t2: DateTime): int;
-    static daysInMonth(year: int, month: int): int;
-    static equals(t1: DateTime, t2: DateTime): boolean;
-    static fromBinary(dateData: long): DateTime;
-    static fromFileTime(fileTime: long): DateTime;
-    static fromFileTimeUtc(fileTime: long): DateTime;
-    static fromOADate(d: double): DateTime;
-    static isLeapYear(year: int): boolean;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, styles?: DateTimeStyles): DateTime;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTime;
-    static parse(s: string, provider: IFormatProvider, styles: DateTimeStyles): DateTime;
-    static parse(s: string, provider: IFormatProvider): DateTime;
-    static parse(s: string): DateTime;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style?: DateTimeStyles): DateTime;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateTime;
-    static parseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles): DateTime;
-    static parseExact(s: string, format: string, provider: IFormatProvider): DateTime;
-    static parseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles): DateTime;
-    static specifyKind(value: DateTime, kind: DateTimeKind): DateTime;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTime> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static tryParse(s: string, result: { value: ref<DateTime> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
-    static tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
 }
+
+
+export const DateTime: {
+    new(ticks: long): DateTime$instance;
+    new(ticks: long, kind: DateTimeKind): DateTime$instance;
+    new(date: DateOnly, time: TimeOnly): DateTime$instance;
+    new(date: DateOnly, time: TimeOnly, kind: DateTimeKind): DateTime$instance;
+    new(year: int, month: int, day: int): DateTime$instance;
+    new(year: int, month: int, day: int, calendar: Calendar): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar, kind: DateTimeKind): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, kind: DateTimeKind): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, calendar: Calendar): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, kind: DateTimeKind): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, kind: DateTimeKind): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar): DateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, kind: DateTimeKind): DateTime$instance;
+    readonly minValue: DateTime;
+    readonly maxValue: DateTime;
+    readonly unixEpoch: DateTime;
+    readonly now: DateTime;
+    readonly today: DateTime;
+    readonly utcNow: DateTime;
+    compare(t1: DateTime, t2: DateTime): int;
+    daysInMonth(year: int, month: int): int;
+    equals(t1: DateTime, t2: DateTime): boolean;
+    fromBinary(dateData: long): DateTime;
+    fromFileTime(fileTime: long): DateTime;
+    fromFileTimeUtc(fileTime: long): DateTime;
+    fromOADate(d: double): DateTime;
+    isLeapYear(year: int): boolean;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, styles?: DateTimeStyles): DateTime;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTime;
+    parse(s: string, provider: IFormatProvider, styles: DateTimeStyles): DateTime;
+    parse(s: string, provider: IFormatProvider): DateTime;
+    parse(s: string): DateTime;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    parseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles): DateTime;
+    parseExact(s: string, format: string, provider: IFormatProvider): DateTime;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles): DateTime;
+    specifyKind(value: DateTime, kind: DateTimeKind): DateTime;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTime> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    tryParse(s: string, result: { value: ref<DateTime> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTime> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<DateTime> }): boolean;
+};
 
 
 export interface __DateTime$views {
@@ -1207,16 +1382,7 @@ export interface DateTime$instance extends IComparable_1$instance<DateTime>, ISp
 export type DateTime = DateTime$instance & __DateTime$views;
 
 
-export class DateTimeOffset$instance {
-    constructor(ticks: long, offset: TimeSpan);
-    constructor(dateTime: DateTime);
-    constructor(dateTime: DateTime, offset: TimeSpan);
-    constructor(date: DateOnly, time: TimeOnly, offset: TimeSpan);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, offset: TimeSpan);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, offset: TimeSpan);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar, offset: TimeSpan);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, offset: TimeSpan);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, offset: TimeSpan);
+export interface DateTimeOffset$instance {
     readonly date: DateTime;
     readonly dateTime: DateTime;
     readonly day: int;
@@ -1267,37 +1433,50 @@ export class DateTimeOffset$instance {
     toUnixTimeSeconds(): long;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
-    static readonly minValue: DateTimeOffset;
-    static readonly maxValue: DateTimeOffset;
-    static readonly unixEpoch: DateTimeOffset;
-    static readonly utcNow: DateTimeOffset;
-    static readonly now: DateTimeOffset;
-    static compare(first: DateTimeOffset, second: DateTimeOffset): int;
-    static equals(first: DateTimeOffset, second: DateTimeOffset): boolean;
-    static fromFileTime(fileTime: long): DateTimeOffset;
-    static fromUnixTimeMilliseconds(milliseconds: long): DateTimeOffset;
-    static fromUnixTimeSeconds(seconds: long): DateTimeOffset;
-    static parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTimeOffset;
-    static parse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
-    static parse(input: string, formatProvider: IFormatProvider): DateTimeOffset;
-    static parse(input: string): DateTimeOffset;
-    static parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
-    static parseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
-    static parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
-    static parseExact(input: string, format: string, formatProvider: IFormatProvider): DateTimeOffset;
-    static parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
-    static tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParse(input: string, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
-    static tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
 }
+
+
+export const DateTimeOffset: {
+    new(ticks: long, offset: TimeSpan): DateTimeOffset$instance;
+    new(dateTime: DateTime): DateTimeOffset$instance;
+    new(dateTime: DateTime, offset: TimeSpan): DateTimeOffset$instance;
+    new(date: DateOnly, time: TimeOnly, offset: TimeSpan): DateTimeOffset$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, offset: TimeSpan): DateTimeOffset$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, offset: TimeSpan): DateTimeOffset$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, calendar: Calendar, offset: TimeSpan): DateTimeOffset$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, offset: TimeSpan): DateTimeOffset$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, microsecond: int, calendar: Calendar, offset: TimeSpan): DateTimeOffset$instance;
+    readonly minValue: DateTimeOffset;
+    readonly maxValue: DateTimeOffset;
+    readonly unixEpoch: DateTimeOffset;
+    readonly utcNow: DateTimeOffset;
+    readonly now: DateTimeOffset;
+    compare(first: DateTimeOffset, second: DateTimeOffset): int;
+    equals(first: DateTimeOffset, second: DateTimeOffset): boolean;
+    fromFileTime(fileTime: long): DateTimeOffset;
+    fromUnixTimeMilliseconds(milliseconds: long): DateTimeOffset;
+    fromUnixTimeSeconds(seconds: long): DateTimeOffset;
+    parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): DateTimeOffset;
+    parse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
+    parse(input: string, formatProvider: IFormatProvider): DateTimeOffset;
+    parse(input: string): DateTimeOffset;
+    parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider): DateTimeOffset;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
+    tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParse(input: string, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: { value: ref<DateTimeOffset> }): boolean;
+};
 
 
 export interface __DateTimeOffset$views {
@@ -1322,16 +1501,7 @@ export interface DateTimeOffset$instance extends IComparable_1$instance<DateTime
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
-export class Decimal$instance implements IAdditionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IDecrementOperators_1<CLROf<decimal>>, IDivisionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IEqualityOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IIncrementOperators_1<CLROf<decimal>>, IMultiplyOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, ISubtractionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IUnaryPlusOperators_2<CLROf<decimal>, CLROf<decimal>>, IUnaryNegationOperators_2<CLROf<decimal>, CLROf<decimal>>, IComparisonOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IModulusOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>> {
-    constructor(value: int);
-    constructor(value: uint);
-    constructor(value: long);
-    constructor(value: ulong);
-    constructor(value: float);
-    constructor(value: double);
-    constructor(bits: int[]);
-    constructor(bits: ReadOnlySpan_1<CLROf<int>>);
-    constructor(lo: int, mid: int, hi: int, isNegative: boolean, scale: byte);
+export interface Decimal$instance extends IAdditionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IDecrementOperators_1<CLROf<decimal>>, IDivisionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IEqualityOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IIncrementOperators_1<CLROf<decimal>>, IMultiplyOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, ISubtractionOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>>, IUnaryPlusOperators_2<CLROf<decimal>, CLROf<decimal>>, IUnaryNegationOperators_2<CLROf<decimal>, CLROf<decimal>>, IComparisonOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<boolean>>, IModulusOperators_3<CLROf<decimal>, CLROf<decimal>, CLROf<decimal>> {
     readonly scale: byte;
     compareTo(value: unknown): int;
     compareTo(value: decimal): int;
@@ -1345,78 +1515,91 @@ export class Decimal$instance implements IAdditionOperators_3<CLROf<decimal>, CL
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly zero: decimal;
-    static readonly one: decimal;
-    static readonly minusOne: decimal;
-    static readonly maxValue: decimal;
-    static readonly minValue: decimal;
-    static abs(value: decimal): decimal;
-    static add(d1: decimal, d2: decimal): decimal;
-    static ceiling(d: decimal): decimal;
-    static clamp(value: decimal, min: decimal, max: decimal): decimal;
-    static compare(d1: decimal, d2: decimal): int;
-    static convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
-    static convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
-    static copySign(value: decimal, sign: decimal): decimal;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
-    static divide(d1: decimal, d2: decimal): decimal;
-    static equals(d1: decimal, d2: decimal): boolean;
-    static floor(d: decimal): decimal;
-    static fromOACurrency(cy: long): decimal;
-    static getBits(d: decimal, destination: Span_1<CLROf<int>>): int;
-    static getBits(d: decimal): int[];
-    static isCanonical(value: decimal): boolean;
-    static isEvenInteger(value: decimal): boolean;
-    static isInteger(value: decimal): boolean;
-    static isNegative(value: decimal): boolean;
-    static isOddInteger(value: decimal): boolean;
-    static isPositive(value: decimal): boolean;
-    static max(x: decimal, y: decimal): decimal;
-    static maxMagnitude(x: decimal, y: decimal): decimal;
-    static min(x: decimal, y: decimal): decimal;
-    static minMagnitude(x: decimal, y: decimal): decimal;
-    static multiply(d1: decimal, d2: decimal): decimal;
-    static negate(d: decimal): decimal;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): decimal;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): decimal;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): decimal;
-    static parse(s: string, style: NumberStyles): decimal;
-    static parse(s: string, provider: IFormatProvider): decimal;
-    static parse(s: string): decimal;
-    static remainder(d1: decimal, d2: decimal): decimal;
-    static round(d: decimal, decimals: int, mode: MidpointRounding): decimal;
-    static round(d: decimal, decimals: int): decimal;
-    static round(d: decimal, mode: MidpointRounding): decimal;
-    static round(d: decimal): decimal;
-    static sign(d: decimal): int;
-    static subtract(d1: decimal, d2: decimal): decimal;
-    static toByte(value: decimal): byte;
-    static toDouble(d: decimal): double;
-    static toInt16(value: decimal): short;
-    static toInt32(d: decimal): int;
-    static toInt64(d: decimal): long;
-    static toOACurrency(value: decimal): long;
-    static toSByte(value: decimal): sbyte;
-    static toSingle(d: decimal): float;
-    static toUInt16(value: decimal): ushort;
-    static toUInt32(d: decimal): uint;
-    static toUInt64(d: decimal): ulong;
-    static truncate(d: decimal): decimal;
-    static tryGetBits(d: decimal, destination: Span_1<CLROf<int>>, valuesWritten: { value: ref<int> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<decimal> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: string, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
 }
+
+
+export const Decimal: {
+    new(value: int): Decimal$instance;
+    new(value: uint): Decimal$instance;
+    new(value: long): Decimal$instance;
+    new(value: ulong): Decimal$instance;
+    new(value: float): Decimal$instance;
+    new(value: double): Decimal$instance;
+    new(bits: int[]): Decimal$instance;
+    new(bits: ReadOnlySpan_1<CLROf<int>>): Decimal$instance;
+    new(lo: int, mid: int, hi: int, isNegative: boolean, scale: byte): Decimal$instance;
+    readonly zero: decimal;
+    readonly one: decimal;
+    readonly minusOne: decimal;
+    readonly maxValue: decimal;
+    readonly minValue: decimal;
+    abs(value: decimal): decimal;
+    add(d1: decimal, d2: decimal): decimal;
+    ceiling(d: decimal): decimal;
+    clamp(value: decimal, min: decimal, max: decimal): decimal;
+    compare(d1: decimal, d2: decimal): int;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    copySign(value: decimal, sign: decimal): decimal;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    divide(d1: decimal, d2: decimal): decimal;
+    equals(d1: decimal, d2: decimal): boolean;
+    floor(d: decimal): decimal;
+    fromOACurrency(cy: long): decimal;
+    getBits(d: decimal, destination: Span_1<CLROf<int>>): int;
+    getBits(d: decimal): int[];
+    isCanonical(value: decimal): boolean;
+    isEvenInteger(value: decimal): boolean;
+    isInteger(value: decimal): boolean;
+    isNegative(value: decimal): boolean;
+    isOddInteger(value: decimal): boolean;
+    isPositive(value: decimal): boolean;
+    max(x: decimal, y: decimal): decimal;
+    maxMagnitude(x: decimal, y: decimal): decimal;
+    min(x: decimal, y: decimal): decimal;
+    minMagnitude(x: decimal, y: decimal): decimal;
+    multiply(d1: decimal, d2: decimal): decimal;
+    negate(d: decimal): decimal;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): decimal;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): decimal;
+    parse(s: string, style: NumberStyles): decimal;
+    parse(s: string, provider: IFormatProvider): decimal;
+    parse(s: string): decimal;
+    remainder(d1: decimal, d2: decimal): decimal;
+    round(d: decimal, decimals: int, mode: MidpointRounding): decimal;
+    round(d: decimal, decimals: int): decimal;
+    round(d: decimal, mode: MidpointRounding): decimal;
+    round(d: decimal): decimal;
+    sign(d: decimal): int;
+    subtract(d1: decimal, d2: decimal): decimal;
+    toByte(value: decimal): byte;
+    toDouble(d: decimal): double;
+    toInt16(value: decimal): short;
+    toInt32(d: decimal): int;
+    toInt64(d: decimal): long;
+    toOACurrency(value: decimal): long;
+    toSByte(value: decimal): sbyte;
+    toSingle(d: decimal): float;
+    toUInt16(value: decimal): ushort;
+    toUInt32(d: decimal): uint;
+    toUInt64(d: decimal): ulong;
+    truncate(d: decimal): decimal;
+    tryGetBits(d: decimal, destination: Span_1<CLROf<int>>, valuesWritten: { value: ref<int> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<decimal> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<decimal> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    tryParse(s: string, result: { value: ref<decimal> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<decimal> }): boolean;
+};
 
 
 export interface __Decimal$views {
@@ -1456,16 +1639,21 @@ export interface Decimal$instance extends System_Numerics_Internal.IMinMaxValue_
 export type Decimal = Decimal$instance & __Decimal$views;
 
 
-export class Delegate_InvocationListEnumerator_1$instance<TDelegate extends Function> {
+export interface Delegate_InvocationListEnumerator_1$instance<TDelegate extends Function> {
     readonly current: TDelegate;
     getEnumerator(): Delegate_InvocationListEnumerator_1<TDelegate>;
     moveNext(): boolean;
 }
 
 
+export const Delegate_InvocationListEnumerator_1: {
+    new<TDelegate extends Function>(): Delegate_InvocationListEnumerator_1$instance<TDelegate>;
+};
+
+
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
-export class Double$instance implements IBitwiseOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IComparisonOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IEqualityOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IModulusOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IAdditionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IDecrementOperators_1<CLROf<double>>, IDivisionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IIncrementOperators_1<CLROf<double>>, IMultiplyOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, ISubtractionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IUnaryPlusOperators_2<CLROf<double>, CLROf<double>>, IUnaryNegationOperators_2<CLROf<double>, CLROf<double>> {
+export interface Double$instance extends IBitwiseOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IComparisonOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IEqualityOperators_3<CLROf<double>, CLROf<double>, CLROf<boolean>>, IModulusOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IAdditionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IDecrementOperators_1<CLROf<double>>, IDivisionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IIncrementOperators_1<CLROf<double>>, IMultiplyOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, ISubtractionOperators_3<CLROf<double>, CLROf<double>, CLROf<double>>, IUnaryPlusOperators_2<CLROf<double>, CLROf<double>>, IUnaryNegationOperators_2<CLROf<double>, CLROf<double>> {
     compareTo(value: unknown): int;
     compareTo(value: double): int;
     equals(obj: unknown): boolean;
@@ -1478,127 +1666,132 @@ export class Double$instance implements IBitwiseOperators_3<CLROf<double>, CLROf
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: double;
-    static readonly maxValue: double;
-    static readonly epsilon: double;
-    static readonly negativeInfinity: double;
-    static readonly positiveInfinity: double;
-    static readonly naN: double;
-    static readonly negativeZero: double;
-    static readonly E: double;
-    static readonly pi: double;
-    static readonly tau: double;
-    static abs(value: double): double;
-    static acos(x: double): double;
-    static acosh(x: double): double;
-    static acosPi(x: double): double;
-    static asin(x: double): double;
-    static asinh(x: double): double;
-    static asinPi(x: double): double;
-    static atan(x: double): double;
-    static atan2(y: double, x: double): double;
-    static atan2Pi(y: double, x: double): double;
-    static atanh(x: double): double;
-    static atanPi(x: double): double;
-    static bitDecrement(x: double): double;
-    static bitIncrement(x: double): double;
-    static cbrt(x: double): double;
-    static ceiling(x: double): double;
-    static clamp(value: double, min: double, max: double): double;
-    static clampNative(value: double, min: double, max: double): double;
-    static convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
-    static convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
-    static copySign(value: double, sign: double): double;
-    static cos(x: double): double;
-    static cosh(x: double): double;
-    static cosPi(x: double): double;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): double;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
-    static degreesToRadians(degrees: double): double;
-    static exp(x: double): double;
-    static exp10(x: double): double;
-    static exp10M1(x: double): double;
-    static exp2(x: double): double;
-    static exp2M1(x: double): double;
-    static expM1(x: double): double;
-    static floor(x: double): double;
-    static fusedMultiplyAdd(left: double, right: double, addend: double): double;
-    static hypot(x: double, y: double): double;
-    static ieee754Remainder(left: double, right: double): double;
-    static iLogB(x: double): int;
-    static isEvenInteger(value: double): boolean;
-    static isFinite(d: double): boolean;
-    static isInfinity(d: double): boolean;
-    static isInteger(value: double): boolean;
-    static isNaN(d: double): boolean;
-    static isNegative(d: double): boolean;
-    static isNegativeInfinity(d: double): boolean;
-    static isNormal(d: double): boolean;
-    static isOddInteger(value: double): boolean;
-    static isPositive(value: double): boolean;
-    static isPositiveInfinity(d: double): boolean;
-    static isPow2(value: double): boolean;
-    static isRealNumber(value: double): boolean;
-    static isSubnormal(d: double): boolean;
-    static lerp(value1: double, value2: double, amount: double): double;
-    static log(x: double, newBase: double): double;
-    static log(x: double): double;
-    static log10(x: double): double;
-    static log10P1(x: double): double;
-    static log2(value: double): double;
-    static log2P1(x: double): double;
-    static logP1(x: double): double;
-    static max(x: double, y: double): double;
-    static maxMagnitude(x: double, y: double): double;
-    static maxMagnitudeNumber(x: double, y: double): double;
-    static maxNative(x: double, y: double): double;
-    static maxNumber(x: double, y: double): double;
-    static min(x: double, y: double): double;
-    static minMagnitude(x: double, y: double): double;
-    static minMagnitudeNumber(x: double, y: double): double;
-    static minNative(x: double, y: double): double;
-    static minNumber(x: double, y: double): double;
-    static multiplyAddEstimate(left: double, right: double, addend: double): double;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): double;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): double;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): double;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): double;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): double;
-    static parse(s: string, style: NumberStyles): double;
-    static parse(s: string, provider: IFormatProvider): double;
-    static parse(s: string): double;
-    static pow(x: double, y: double): double;
-    static radiansToDegrees(radians: double): double;
-    static reciprocalEstimate(x: double): double;
-    static reciprocalSqrtEstimate(x: double): double;
-    static rootN(x: double, n: int): double;
-    static round(x: double, digits: int, mode: MidpointRounding): double;
-    static round(x: double, digits: int): double;
-    static round(x: double, mode: MidpointRounding): double;
-    static round(x: double): double;
-    static scaleB(x: double, n: int): double;
-    static sign(value: double): int;
-    static sin(x: double): double;
-    static sinCos(x: double): ValueTuple_2<CLROf<double>, CLROf<double>>;
-    static sinCosPi(x: double): ValueTuple_2<CLROf<double>, CLROf<double>>;
-    static sinh(x: double): double;
-    static sinPi(x: double): double;
-    static sqrt(x: double): double;
-    static tan(x: double): double;
-    static tanh(x: double): double;
-    static tanPi(x: double): double;
-    static truncate(x: double): double;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<double> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<double> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static tryParse(s: string, result: { value: ref<double> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<double> }): boolean;
 }
+
+
+export const Double: {
+    new(): Double$instance;
+    readonly minValue: double;
+    readonly maxValue: double;
+    readonly epsilon: double;
+    readonly negativeInfinity: double;
+    readonly positiveInfinity: double;
+    readonly naN: double;
+    readonly negativeZero: double;
+    readonly E: double;
+    readonly pi: double;
+    readonly tau: double;
+    abs(value: double): double;
+    acos(x: double): double;
+    acosh(x: double): double;
+    acosPi(x: double): double;
+    asin(x: double): double;
+    asinh(x: double): double;
+    asinPi(x: double): double;
+    atan(x: double): double;
+    atan2(y: double, x: double): double;
+    atan2Pi(y: double, x: double): double;
+    atanh(x: double): double;
+    atanPi(x: double): double;
+    bitDecrement(x: double): double;
+    bitIncrement(x: double): double;
+    cbrt(x: double): double;
+    ceiling(x: double): double;
+    clamp(value: double, min: double, max: double): double;
+    clampNative(value: double, min: double, max: double): double;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    copySign(value: double, sign: double): double;
+    cos(x: double): double;
+    cosh(x: double): double;
+    cosPi(x: double): double;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    degreesToRadians(degrees: double): double;
+    exp(x: double): double;
+    exp10(x: double): double;
+    exp10M1(x: double): double;
+    exp2(x: double): double;
+    exp2M1(x: double): double;
+    expM1(x: double): double;
+    floor(x: double): double;
+    fusedMultiplyAdd(left: double, right: double, addend: double): double;
+    hypot(x: double, y: double): double;
+    ieee754Remainder(left: double, right: double): double;
+    iLogB(x: double): int;
+    isEvenInteger(value: double): boolean;
+    isFinite(d: double): boolean;
+    isInfinity(d: double): boolean;
+    isInteger(value: double): boolean;
+    isNaN(d: double): boolean;
+    isNegative(d: double): boolean;
+    isNegativeInfinity(d: double): boolean;
+    isNormal(d: double): boolean;
+    isOddInteger(value: double): boolean;
+    isPositive(value: double): boolean;
+    isPositiveInfinity(d: double): boolean;
+    isPow2(value: double): boolean;
+    isRealNumber(value: double): boolean;
+    isSubnormal(d: double): boolean;
+    lerp(value1: double, value2: double, amount: double): double;
+    log(x: double, newBase: double): double;
+    log(x: double): double;
+    log10(x: double): double;
+    log10P1(x: double): double;
+    log2(value: double): double;
+    log2P1(x: double): double;
+    logP1(x: double): double;
+    max(x: double, y: double): double;
+    maxMagnitude(x: double, y: double): double;
+    maxMagnitudeNumber(x: double, y: double): double;
+    maxNative(x: double, y: double): double;
+    maxNumber(x: double, y: double): double;
+    min(x: double, y: double): double;
+    minMagnitude(x: double, y: double): double;
+    minMagnitudeNumber(x: double, y: double): double;
+    minNative(x: double, y: double): double;
+    minNumber(x: double, y: double): double;
+    multiplyAddEstimate(left: double, right: double, addend: double): double;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): double;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): double;
+    parse(s: string, style: NumberStyles): double;
+    parse(s: string, provider: IFormatProvider): double;
+    parse(s: string): double;
+    pow(x: double, y: double): double;
+    radiansToDegrees(radians: double): double;
+    reciprocalEstimate(x: double): double;
+    reciprocalSqrtEstimate(x: double): double;
+    rootN(x: double, n: int): double;
+    round(x: double, digits: int, mode: MidpointRounding): double;
+    round(x: double, digits: int): double;
+    round(x: double, mode: MidpointRounding): double;
+    round(x: double): double;
+    scaleB(x: double, n: int): double;
+    sign(value: double): int;
+    sin(x: double): double;
+    sinCos(x: double): ValueTuple_2<CLROf<double>, CLROf<double>>;
+    sinCosPi(x: double): ValueTuple_2<CLROf<double>, CLROf<double>>;
+    sinh(x: double): double;
+    sinPi(x: double): double;
+    sqrt(x: double): double;
+    tan(x: double): double;
+    tanh(x: double): double;
+    tanPi(x: double): double;
+    truncate(x: double): double;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<double> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<double> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    tryParse(s: string, result: { value: ref<double> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<double> }): boolean;
+};
 
 
 export interface __Double$views {
@@ -1638,16 +1831,21 @@ export interface Double$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type Double = Double$instance & __Double$views;
 
 
-export class Environment_ProcessCpuUsage$instance {
+export interface Environment_ProcessCpuUsage$instance {
     readonly privilegedTime: TimeSpan;
     readonly totalTime: TimeSpan;
     readonly userTime: TimeSpan;
 }
 
 
+export const Environment_ProcessCpuUsage: {
+    new(): Environment_ProcessCpuUsage$instance;
+};
+
+
 export type Environment_ProcessCpuUsage = Environment_ProcessCpuUsage$instance;
 
-export class GCGenerationInfo$instance {
+export interface GCGenerationInfo$instance {
     readonly fragmentationAfterBytes: long;
     readonly fragmentationBeforeBytes: long;
     readonly sizeAfterBytes: long;
@@ -1655,9 +1853,14 @@ export class GCGenerationInfo$instance {
 }
 
 
+export const GCGenerationInfo: {
+    new(): GCGenerationInfo$instance;
+};
+
+
 export type GCGenerationInfo = GCGenerationInfo$instance;
 
-export class GCMemoryInfo$instance {
+export interface GCMemoryInfo$instance {
     readonly compacted: boolean;
     readonly concurrent: boolean;
     readonly finalizationPendingCount: long;
@@ -1677,16 +1880,14 @@ export class GCMemoryInfo$instance {
 }
 
 
+export const GCMemoryInfo: {
+    new(): GCMemoryInfo$instance;
+};
+
+
 export type GCMemoryInfo = GCMemoryInfo$instance;
 
-export class Guid$instance {
-    constructor(b: byte[]);
-    constructor(b: ReadOnlySpan_1<CLROf<byte>>);
-    constructor(b: ReadOnlySpan_1<CLROf<byte>>, bigEndian: boolean);
-    constructor(a: uint, b: ushort, c: ushort, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte);
-    constructor(a: int, b: short, c: short, d: byte[]);
-    constructor(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte);
-    constructor(g: string);
+export interface Guid$instance {
     readonly variant: int;
     readonly version: int;
     compareTo(value: unknown): int;
@@ -1703,28 +1904,39 @@ export class Guid$instance {
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
     tryWriteBytes(destination: Span_1<CLROf<byte>>): boolean;
     tryWriteBytes(destination: Span_1<CLROf<byte>>, bigEndian: boolean, bytesWritten: { value: ref<int> }): boolean;
-    static readonly empty: Guid;
-    static readonly allBitsSet: Guid;
-    static createVersion7(): Guid;
-    static createVersion7(timestamp: DateTimeOffset): Guid;
-    static newGuid(): Guid;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): Guid;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Guid;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): Guid;
-    static parse(input: ReadOnlySpan_1<CLROf<char>>): Guid;
-    static parse(s: string, provider: IFormatProvider): Guid;
-    static parse(input: string): Guid;
-    static parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>): Guid;
-    static parseExact(input: string, format: string): Guid;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Guid> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
-    static tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
-    static tryParse(input: string, result: { value: ref<Guid> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
-    static tryParseExact(input: string, format: string, result: { value: ref<Guid> }): boolean;
 }
+
+
+export const Guid: {
+    new(b: byte[]): Guid$instance;
+    new(b: ReadOnlySpan_1<CLROf<byte>>): Guid$instance;
+    new(b: ReadOnlySpan_1<CLROf<byte>>, bigEndian: boolean): Guid$instance;
+    new(a: uint, b: ushort, c: ushort, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): Guid$instance;
+    new(a: int, b: short, c: short, d: byte[]): Guid$instance;
+    new(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): Guid$instance;
+    new(g: string): Guid$instance;
+    readonly empty: Guid;
+    readonly allBitsSet: Guid;
+    createVersion7(): Guid;
+    createVersion7(timestamp: DateTimeOffset): Guid;
+    newGuid(): Guid;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): Guid;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Guid;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): Guid;
+    parse(input: ReadOnlySpan_1<CLROf<char>>): Guid;
+    parse(s: string, provider: IFormatProvider): Guid;
+    parse(input: string): Guid;
+    parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>): Guid;
+    parseExact(input: string, format: string): Guid;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Guid> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
+    tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
+    tryParse(input: string, result: { value: ref<Guid> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<Guid> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Guid> }): boolean;
+    tryParseExact(input: string, format: string, result: { value: ref<Guid> }): boolean;
+};
 
 
 export interface __Guid$views {
@@ -1748,7 +1960,7 @@ export interface Guid$instance extends IComparable_1$instance<Guid>, ISpanParsab
 export type Guid = Guid$instance & __Guid$views;
 
 
-export class Half$instance implements IBitwiseOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IComparisonOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IEqualityOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IModulusOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IAdditionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IDecrementOperators_1<CLROf<half>>, IDivisionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IIncrementOperators_1<CLROf<half>>, IMultiplicativeIdentity_2<CLROf<half>, CLROf<half>>, IMultiplyOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, ISubtractionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IUnaryPlusOperators_2<CLROf<half>, CLROf<half>>, IUnaryNegationOperators_2<CLROf<half>, CLROf<half>> {
+export interface Half$instance extends IBitwiseOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IComparisonOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IEqualityOperators_3<CLROf<half>, CLROf<half>, CLROf<boolean>>, IModulusOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IAdditionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IDecrementOperators_1<CLROf<half>>, IDivisionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IIncrementOperators_1<CLROf<half>>, IMultiplicativeIdentity_2<CLROf<half>, CLROf<half>>, IMultiplyOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, ISubtractionOperators_3<CLROf<half>, CLROf<half>, CLROf<half>>, IUnaryPlusOperators_2<CLROf<half>, CLROf<half>>, IUnaryNegationOperators_2<CLROf<half>, CLROf<half>> {
     compareTo(obj: unknown): int;
     compareTo(other: half): int;
     equals(obj: unknown): boolean;
@@ -1760,131 +1972,136 @@ export class Half$instance implements IBitwiseOperators_3<CLROf<half>, CLROf<hal
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly epsilon: half;
-    static readonly positiveInfinity: half;
-    static readonly negativeInfinity: half;
-    static readonly naN: half;
-    static readonly minValue: half;
-    static readonly maxValue: half;
-    static readonly E: half;
-    static readonly pi: half;
-    static readonly tau: half;
-    static readonly negativeZero: half;
-    static readonly multiplicativeIdentity: half;
-    static readonly one: half;
-    static readonly zero: half;
-    static readonly negativeOne: half;
-    static abs(value: half): half;
-    static acos(x: half): half;
-    static acosh(x: half): half;
-    static acosPi(x: half): half;
-    static asin(x: half): half;
-    static asinh(x: half): half;
-    static asinPi(x: half): half;
-    static atan(x: half): half;
-    static atan2(y: half, x: half): half;
-    static atan2Pi(y: half, x: half): half;
-    static atanh(x: half): half;
-    static atanPi(x: half): half;
-    static bitDecrement(x: half): half;
-    static bitIncrement(x: half): half;
-    static cbrt(x: half): half;
-    static ceiling(x: half): half;
-    static clamp(value: half, min: half, max: half): half;
-    static clampNative(value: half, min: half, max: half): half;
-    static convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
-    static convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
-    static copySign(value: half, sign: half): half;
-    static cos(x: half): half;
-    static cosh(x: half): half;
-    static cosPi(x: half): half;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): half;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
-    static degreesToRadians(degrees: half): half;
-    static exp(x: half): half;
-    static exp10(x: half): half;
-    static exp10M1(x: half): half;
-    static exp2(x: half): half;
-    static exp2M1(x: half): half;
-    static expM1(x: half): half;
-    static floor(x: half): half;
-    static fusedMultiplyAdd(left: half, right: half, addend: half): half;
-    static hypot(x: half, y: half): half;
-    static ieee754Remainder(left: half, right: half): half;
-    static iLogB(x: half): int;
-    static isEvenInteger(value: half): boolean;
-    static isFinite(value: half): boolean;
-    static isInfinity(value: half): boolean;
-    static isInteger(value: half): boolean;
-    static isNaN(value: half): boolean;
-    static isNegative(value: half): boolean;
-    static isNegativeInfinity(value: half): boolean;
-    static isNormal(value: half): boolean;
-    static isOddInteger(value: half): boolean;
-    static isPositive(value: half): boolean;
-    static isPositiveInfinity(value: half): boolean;
-    static isPow2(value: half): boolean;
-    static isRealNumber(value: half): boolean;
-    static isSubnormal(value: half): boolean;
-    static lerp(value1: half, value2: half, amount: half): half;
-    static log(x: half, newBase: half): half;
-    static log(x: half): half;
-    static log10(x: half): half;
-    static log10P1(x: half): half;
-    static log2(value: half): half;
-    static log2P1(x: half): half;
-    static logP1(x: half): half;
-    static max(x: half, y: half): half;
-    static maxMagnitude(x: half, y: half): half;
-    static maxMagnitudeNumber(x: half, y: half): half;
-    static maxNative(x: half, y: half): half;
-    static maxNumber(x: half, y: half): half;
-    static min(x: half, y: half): half;
-    static minMagnitude(x: half, y: half): half;
-    static minMagnitudeNumber(x: half, y: half): half;
-    static minNative(x: half, y: half): half;
-    static minNumber(x: half, y: half): half;
-    static multiplyAddEstimate(left: half, right: half, addend: half): half;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): half;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): half;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): half;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): half;
-    static parse(s: string, style?: NumberStyles, provider?: IFormatProvider): half;
-    static parse(s: string, style: NumberStyles): half;
-    static parse(s: string, provider: IFormatProvider): half;
-    static parse(s: string): half;
-    static pow(x: half, y: half): half;
-    static radiansToDegrees(radians: half): half;
-    static reciprocalEstimate(x: half): half;
-    static reciprocalSqrtEstimate(x: half): half;
-    static rootN(x: half, n: int): half;
-    static round(x: half, digits: int, mode: MidpointRounding): half;
-    static round(x: half, digits: int): half;
-    static round(x: half, mode: MidpointRounding): half;
-    static round(x: half): half;
-    static scaleB(x: half, n: int): half;
-    static sign(value: half): int;
-    static sin(x: half): half;
-    static sinCos(x: half): ValueTuple_2<CLROf<half>, CLROf<half>>;
-    static sinCosPi(x: half): ValueTuple_2<CLROf<half>, CLROf<half>>;
-    static sinh(x: half): half;
-    static sinPi(x: half): half;
-    static sqrt(x: half): half;
-    static tan(x: half): half;
-    static tanh(x: half): half;
-    static tanPi(x: half): half;
-    static truncate(x: half): half;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<half> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<half> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
-    static tryParse(s: string, result: { value: ref<half> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<half> }): boolean;
 }
+
+
+export const Half: {
+    new(): Half$instance;
+    readonly epsilon: half;
+    readonly positiveInfinity: half;
+    readonly negativeInfinity: half;
+    readonly naN: half;
+    readonly minValue: half;
+    readonly maxValue: half;
+    readonly E: half;
+    readonly pi: half;
+    readonly tau: half;
+    readonly negativeZero: half;
+    readonly multiplicativeIdentity: half;
+    readonly one: half;
+    readonly zero: half;
+    readonly negativeOne: half;
+    abs(value: half): half;
+    acos(x: half): half;
+    acosh(x: half): half;
+    acosPi(x: half): half;
+    asin(x: half): half;
+    asinh(x: half): half;
+    asinPi(x: half): half;
+    atan(x: half): half;
+    atan2(y: half, x: half): half;
+    atan2Pi(y: half, x: half): half;
+    atanh(x: half): half;
+    atanPi(x: half): half;
+    bitDecrement(x: half): half;
+    bitIncrement(x: half): half;
+    cbrt(x: half): half;
+    ceiling(x: half): half;
+    clamp(value: half, min: half, max: half): half;
+    clampNative(value: half, min: half, max: half): half;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    copySign(value: half, sign: half): half;
+    cos(x: half): half;
+    cosh(x: half): half;
+    cosPi(x: half): half;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    degreesToRadians(degrees: half): half;
+    exp(x: half): half;
+    exp10(x: half): half;
+    exp10M1(x: half): half;
+    exp2(x: half): half;
+    exp2M1(x: half): half;
+    expM1(x: half): half;
+    floor(x: half): half;
+    fusedMultiplyAdd(left: half, right: half, addend: half): half;
+    hypot(x: half, y: half): half;
+    ieee754Remainder(left: half, right: half): half;
+    iLogB(x: half): int;
+    isEvenInteger(value: half): boolean;
+    isFinite(value: half): boolean;
+    isInfinity(value: half): boolean;
+    isInteger(value: half): boolean;
+    isNaN(value: half): boolean;
+    isNegative(value: half): boolean;
+    isNegativeInfinity(value: half): boolean;
+    isNormal(value: half): boolean;
+    isOddInteger(value: half): boolean;
+    isPositive(value: half): boolean;
+    isPositiveInfinity(value: half): boolean;
+    isPow2(value: half): boolean;
+    isRealNumber(value: half): boolean;
+    isSubnormal(value: half): boolean;
+    lerp(value1: half, value2: half, amount: half): half;
+    log(x: half, newBase: half): half;
+    log(x: half): half;
+    log10(x: half): half;
+    log10P1(x: half): half;
+    log2(value: half): half;
+    log2P1(x: half): half;
+    logP1(x: half): half;
+    max(x: half, y: half): half;
+    maxMagnitude(x: half, y: half): half;
+    maxMagnitudeNumber(x: half, y: half): half;
+    maxNative(x: half, y: half): half;
+    maxNumber(x: half, y: half): half;
+    min(x: half, y: half): half;
+    minMagnitude(x: half, y: half): half;
+    minMagnitudeNumber(x: half, y: half): half;
+    minNative(x: half, y: half): half;
+    minNumber(x: half, y: half): half;
+    multiplyAddEstimate(left: half, right: half, addend: half): half;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): half;
+    parse(s: string, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(s: string, style: NumberStyles): half;
+    parse(s: string, provider: IFormatProvider): half;
+    parse(s: string): half;
+    pow(x: half, y: half): half;
+    radiansToDegrees(radians: half): half;
+    reciprocalEstimate(x: half): half;
+    reciprocalSqrtEstimate(x: half): half;
+    rootN(x: half, n: int): half;
+    round(x: half, digits: int, mode: MidpointRounding): half;
+    round(x: half, digits: int): half;
+    round(x: half, mode: MidpointRounding): half;
+    round(x: half): half;
+    scaleB(x: half, n: int): half;
+    sign(value: half): int;
+    sin(x: half): half;
+    sinCos(x: half): ValueTuple_2<CLROf<half>, CLROf<half>>;
+    sinCosPi(x: half): ValueTuple_2<CLROf<half>, CLROf<half>>;
+    sinh(x: half): half;
+    sinPi(x: half): half;
+    sqrt(x: half): half;
+    tan(x: half): half;
+    tanh(x: half): half;
+    tanPi(x: half): half;
+    truncate(x: half): half;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<half> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<half> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+    tryParse(s: string, result: { value: ref<half> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<half> }): boolean;
+};
 
 
 export interface __Half$views {
@@ -1923,28 +2140,32 @@ export interface Half$instance extends System_Numerics_Internal.IMinMaxValue_1$i
 export type Half = Half$instance & __Half$views;
 
 
-export class HashCode$instance {
+export interface HashCode$instance {
     add<T>(value: T): void;
     add<T>(value: T, comparer: IEqualityComparer_1<T>): void;
     addBytes(value: ReadOnlySpan_1<CLROf<byte>>): void;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toHashCode(): int;
-    static combine<T1, T2, T3, T4, T5, T6, T7, T8>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7, value8: T8): int;
-    static combine<T1, T2, T3, T4, T5, T6, T7>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7): int;
-    static combine<T1, T2, T3, T4, T5, T6>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6): int;
-    static combine<T1, T2, T3, T4, T5>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5): int;
-    static combine<T1, T2, T3, T4>(value1: T1, value2: T2, value3: T3, value4: T4): int;
-    static combine<T1, T2, T3>(value1: T1, value2: T2, value3: T3): int;
-    static combine<T1, T2>(value1: T1, value2: T2): int;
-    static combine<T1>(value1: T1): int;
 }
+
+
+export const HashCode: {
+    new(): HashCode$instance;
+    combine<T1, T2, T3, T4, T5, T6, T7, T8>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7, value8: T8): int;
+    combine<T1, T2, T3, T4, T5, T6, T7>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6, value7: T7): int;
+    combine<T1, T2, T3, T4, T5, T6>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5, value6: T6): int;
+    combine<T1, T2, T3, T4, T5>(value1: T1, value2: T2, value3: T3, value4: T4, value5: T5): int;
+    combine<T1, T2, T3, T4>(value1: T1, value2: T2, value3: T3, value4: T4): int;
+    combine<T1, T2, T3>(value1: T1, value2: T2, value3: T3): int;
+    combine<T1, T2>(value1: T1, value2: T2): int;
+    combine<T1>(value1: T1): int;
+};
 
 
 export type HashCode = HashCode$instance;
 
-export class Index$instance {
-    constructor(value: int, fromEnd: boolean);
+export interface Index$instance {
     readonly isFromEnd: boolean;
     readonly value: int;
     equals(value: unknown): boolean;
@@ -1952,11 +2173,16 @@ export class Index$instance {
     getHashCode(): int;
     getOffset(length: int): int;
     toString(): string;
-    static readonly start: Index;
-    static readonly end: Index;
-    static fromEnd(value: int): Index;
-    static fromStart(value: int): Index;
 }
+
+
+export const Index: {
+    new(value: int, fromEnd: boolean): Index$instance;
+    readonly start: Index;
+    readonly end: Index;
+    fromEnd(value: int): Index;
+    fromStart(value: int): Index;
+};
 
 
 export interface __Index$views {
@@ -1969,8 +2195,7 @@ export interface __Index$views {
 export type Index = Index$instance & __Index$views;
 
 
-export class Int128$instance implements IBitwiseOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IComparisonOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IModulusOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IAdditionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IDecrementOperators_1<CLROf<int128>>, IDivisionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IIncrementOperators_1<CLROf<int128>>, IMultiplyOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, ISubtractionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IUnaryPlusOperators_2<CLROf<int128>, CLROf<int128>>, IUnaryNegationOperators_2<CLROf<int128>, CLROf<int128>>, IShiftOperators_3<CLROf<int128>, CLROf<int>, CLROf<int128>> {
-    constructor(upper: ulong, lower: ulong);
+export interface Int128$instance extends IBitwiseOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IComparisonOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int128>, CLROf<int128>, CLROf<boolean>>, IModulusOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IAdditionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IDecrementOperators_1<CLROf<int128>>, IDivisionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IIncrementOperators_1<CLROf<int128>>, IMultiplyOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, ISubtractionOperators_3<CLROf<int128>, CLROf<int128>, CLROf<int128>>, IUnaryPlusOperators_2<CLROf<int128>, CLROf<int128>>, IUnaryNegationOperators_2<CLROf<int128>, CLROf<int128>>, IShiftOperators_3<CLROf<int128>, CLROf<int>, CLROf<int128>> {
     compareTo(value: unknown): int;
     compareTo(value: int128): int;
     equals(obj: unknown): boolean;
@@ -1982,53 +2207,58 @@ export class Int128$instance implements IBitwiseOperators_3<CLROf<int128>, CLROf
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: int128;
-    static readonly maxValue: int128;
-    static readonly one: int128;
-    static readonly zero: int128;
-    static readonly negativeOne: int128;
-    static abs(value: int128): int128;
-    static bigMul(left: int128, right: int128, lower: { value: ref<int128> }): int128;
-    static clamp(value: int128, min: int128, max: int128): int128;
-    static copySign(value: int128, sign: int128): int128;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
-    static divRem(left: int128, right: int128): ValueTuple_2<CLROf<int128>, CLROf<int128>>;
-    static isEvenInteger(value: int128): boolean;
-    static isNegative(value: int128): boolean;
-    static isOddInteger(value: int128): boolean;
-    static isPositive(value: int128): boolean;
-    static isPow2(value: int128): boolean;
-    static leadingZeroCount(value: int128): int128;
-    static log2(value: int128): int128;
-    static max(x: int128, y: int128): int128;
-    static maxMagnitude(x: int128, y: int128): int128;
-    static min(x: int128, y: int128): int128;
-    static minMagnitude(x: int128, y: int128): int128;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int128;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int128;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int128;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int128;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): int128;
-    static parse(s: string, style: NumberStyles): int128;
-    static parse(s: string, provider: IFormatProvider): int128;
-    static parse(s: string): int128;
-    static popCount(value: int128): int128;
-    static rotateLeft(value: int128, rotateAmount: int): int128;
-    static rotateRight(value: int128, rotateAmount: int): int128;
-    static sign(value: int128): int;
-    static trailingZeroCount(value: int128): int128;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int128> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
-    static tryParse(s: string, result: { value: ref<int128> }): boolean;
 }
+
+
+export const Int128: {
+    new(upper: ulong, lower: ulong): Int128$instance;
+    readonly minValue: int128;
+    readonly maxValue: int128;
+    readonly one: int128;
+    readonly zero: int128;
+    readonly negativeOne: int128;
+    abs(value: int128): int128;
+    bigMul(left: int128, right: int128, lower: { value: ref<int128> }): int128;
+    clamp(value: int128, min: int128, max: int128): int128;
+    copySign(value: int128, sign: int128): int128;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    divRem(left: int128, right: int128): ValueTuple_2<CLROf<int128>, CLROf<int128>>;
+    isEvenInteger(value: int128): boolean;
+    isNegative(value: int128): boolean;
+    isOddInteger(value: int128): boolean;
+    isPositive(value: int128): boolean;
+    isPow2(value: int128): boolean;
+    leadingZeroCount(value: int128): int128;
+    log2(value: int128): int128;
+    max(x: int128, y: int128): int128;
+    maxMagnitude(x: int128, y: int128): int128;
+    min(x: int128, y: int128): int128;
+    minMagnitude(x: int128, y: int128): int128;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int128;
+    parse(s: string, style: NumberStyles): int128;
+    parse(s: string, provider: IFormatProvider): int128;
+    parse(s: string): int128;
+    popCount(value: int128): int128;
+    rotateLeft(value: int128, rotateAmount: int): int128;
+    rotateRight(value: int128, rotateAmount: int): int128;
+    sign(value: int128): int;
+    trailingZeroCount(value: int128): int128;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int128> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<int128> }): boolean;
+    tryParse(s: string, result: { value: ref<int128> }): boolean;
+};
 
 
 export interface __Int128$views {
@@ -2063,7 +2293,7 @@ export interface Int128$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type Int128 = Int128$instance & __Int128$views;
 
 
-export class Int16$instance implements IBitwiseOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IComparisonOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IEqualityOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IModulusOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IAdditionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IDecrementOperators_1<CLROf<short>>, IDivisionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IIncrementOperators_1<CLROf<short>>, IMultiplyOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, ISubtractionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IUnaryPlusOperators_2<CLROf<short>, CLROf<short>>, IUnaryNegationOperators_2<CLROf<short>, CLROf<short>>, IShiftOperators_3<CLROf<short>, CLROf<int>, CLROf<short>> {
+export interface Int16$instance extends IBitwiseOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IComparisonOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IEqualityOperators_3<CLROf<short>, CLROf<short>, CLROf<boolean>>, IModulusOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IAdditionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IDecrementOperators_1<CLROf<short>>, IDivisionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IIncrementOperators_1<CLROf<short>>, IMultiplyOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, ISubtractionOperators_3<CLROf<short>, CLROf<short>, CLROf<short>>, IUnaryPlusOperators_2<CLROf<short>, CLROf<short>>, IUnaryNegationOperators_2<CLROf<short>, CLROf<short>>, IShiftOperators_3<CLROf<short>, CLROf<int>, CLROf<short>> {
     compareTo(value: unknown): int;
     compareTo(value: short): int;
     equals(obj: unknown): boolean;
@@ -2076,49 +2306,54 @@ export class Int16$instance implements IBitwiseOperators_3<CLROf<short>, CLROf<s
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: short;
-    static readonly minValue: short;
-    static abs(value: short): short;
-    static clamp(value: short, min: short, max: short): short;
-    static copySign(value: short, sign: short): short;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): short;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
-    static divRem(left: short, right: short): ValueTuple_2<CLROf<short>, CLROf<short>>;
-    static isEvenInteger(value: short): boolean;
-    static isNegative(value: short): boolean;
-    static isOddInteger(value: short): boolean;
-    static isPositive(value: short): boolean;
-    static isPow2(value: short): boolean;
-    static leadingZeroCount(value: short): short;
-    static log2(value: short): short;
-    static max(x: short, y: short): short;
-    static maxMagnitude(x: short, y: short): short;
-    static min(x: short, y: short): short;
-    static minMagnitude(x: short, y: short): short;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): short;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): short;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): short;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): short;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): short;
-    static parse(s: string, style: NumberStyles): short;
-    static parse(s: string, provider: IFormatProvider): short;
-    static parse(s: string): short;
-    static popCount(value: short): short;
-    static rotateLeft(value: short, rotateAmount: int): short;
-    static rotateRight(value: short, rotateAmount: int): short;
-    static sign(value: short): int;
-    static trailingZeroCount(value: short): short;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<short> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<short> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<short> }): boolean;
-    static tryParse(s: string, result: { value: ref<short> }): boolean;
 }
+
+
+export const Int16: {
+    new(): Int16$instance;
+    readonly maxValue: short;
+    readonly minValue: short;
+    abs(value: short): short;
+    clamp(value: short, min: short, max: short): short;
+    copySign(value: short, sign: short): short;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    divRem(left: short, right: short): ValueTuple_2<CLROf<short>, CLROf<short>>;
+    isEvenInteger(value: short): boolean;
+    isNegative(value: short): boolean;
+    isOddInteger(value: short): boolean;
+    isPositive(value: short): boolean;
+    isPow2(value: short): boolean;
+    leadingZeroCount(value: short): short;
+    log2(value: short): short;
+    max(x: short, y: short): short;
+    maxMagnitude(x: short, y: short): short;
+    min(x: short, y: short): short;
+    minMagnitude(x: short, y: short): short;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): short;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): short;
+    parse(s: string, style: NumberStyles): short;
+    parse(s: string, provider: IFormatProvider): short;
+    parse(s: string): short;
+    popCount(value: short): short;
+    rotateLeft(value: short, rotateAmount: int): short;
+    rotateRight(value: short, rotateAmount: int): short;
+    sign(value: short): int;
+    trailingZeroCount(value: short): short;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<short> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<short> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<short> }): boolean;
+    tryParse(s: string, result: { value: ref<short> }): boolean;
+};
 
 
 export interface __Int16$views {
@@ -2155,7 +2390,7 @@ export interface Int16$instance extends System_Numerics_Internal.IMinMaxValue_1$
 export type Int16 = Int16$instance & __Int16$views;
 
 
-export class Int32$instance implements IBitwiseOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IComparisonOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IModulusOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IAdditionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IDecrementOperators_1<CLROf<int>>, IDivisionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IIncrementOperators_1<CLROf<int>>, IMultiplyOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, ISubtractionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IUnaryPlusOperators_2<CLROf<int>, CLROf<int>>, IUnaryNegationOperators_2<CLROf<int>, CLROf<int>>, IShiftOperators_3<CLROf<int>, CLROf<int>, CLROf<int>> {
+export interface Int32$instance extends IBitwiseOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IComparisonOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IEqualityOperators_3<CLROf<int>, CLROf<int>, CLROf<boolean>>, IModulusOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IAdditionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IDecrementOperators_1<CLROf<int>>, IDivisionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IIncrementOperators_1<CLROf<int>>, IMultiplyOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, ISubtractionOperators_3<CLROf<int>, CLROf<int>, CLROf<int>>, IUnaryPlusOperators_2<CLROf<int>, CLROf<int>>, IUnaryNegationOperators_2<CLROf<int>, CLROf<int>>, IShiftOperators_3<CLROf<int>, CLROf<int>, CLROf<int>> {
     compareTo(value: unknown): int;
     compareTo(value: int): int;
     equals(obj: unknown): boolean;
@@ -2168,50 +2403,55 @@ export class Int32$instance implements IBitwiseOperators_3<CLROf<int>, CLROf<int
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: int;
-    static readonly minValue: int;
-    static abs(value: int): int;
-    static bigMul(left: int, right: int): long;
-    static clamp(value: int, min: int, max: int): int;
-    static copySign(value: int, sign: int): int;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
-    static divRem(left: int, right: int): ValueTuple_2<CLROf<int>, CLROf<int>>;
-    static isEvenInteger(value: int): boolean;
-    static isNegative(value: int): boolean;
-    static isOddInteger(value: int): boolean;
-    static isPositive(value: int): boolean;
-    static isPow2(value: int): boolean;
-    static leadingZeroCount(value: int): int;
-    static log2(value: int): int;
-    static max(x: int, y: int): int;
-    static maxMagnitude(x: int, y: int): int;
-    static min(x: int, y: int): int;
-    static minMagnitude(x: int, y: int): int;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): int;
-    static parse(s: string, style: NumberStyles): int;
-    static parse(s: string, provider: IFormatProvider): int;
-    static parse(s: string): int;
-    static popCount(value: int): int;
-    static rotateLeft(value: int, rotateAmount: int): int;
-    static rotateRight(value: int, rotateAmount: int): int;
-    static sign(value: int): int;
-    static trailingZeroCount(value: int): int;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<int> }): boolean;
-    static tryParse(s: string, result: { value: ref<int> }): boolean;
 }
+
+
+export const Int32: {
+    new(): Int32$instance;
+    readonly maxValue: int;
+    readonly minValue: int;
+    abs(value: int): int;
+    bigMul(left: int, right: int): long;
+    clamp(value: int, min: int, max: int): int;
+    copySign(value: int, sign: int): int;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    divRem(left: int, right: int): ValueTuple_2<CLROf<int>, CLROf<int>>;
+    isEvenInteger(value: int): boolean;
+    isNegative(value: int): boolean;
+    isOddInteger(value: int): boolean;
+    isPositive(value: int): boolean;
+    isPow2(value: int): boolean;
+    leadingZeroCount(value: int): int;
+    log2(value: int): int;
+    max(x: int, y: int): int;
+    maxMagnitude(x: int, y: int): int;
+    min(x: int, y: int): int;
+    minMagnitude(x: int, y: int): int;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): int;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int;
+    parse(s: string, style: NumberStyles): int;
+    parse(s: string, provider: IFormatProvider): int;
+    parse(s: string): int;
+    popCount(value: int): int;
+    rotateLeft(value: int, rotateAmount: int): int;
+    rotateRight(value: int, rotateAmount: int): int;
+    sign(value: int): int;
+    trailingZeroCount(value: int): int;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<int> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<int> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<int> }): boolean;
+    tryParse(s: string, result: { value: ref<int> }): boolean;
+};
 
 
 export interface __Int32$views {
@@ -2248,7 +2488,7 @@ export interface Int32$instance extends System_Numerics_Internal.IMinMaxValue_1$
 export type Int32 = Int32$instance & __Int32$views;
 
 
-export class Int64$instance implements IBitwiseOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IComparisonOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IEqualityOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IModulusOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IAdditionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IDecrementOperators_1<CLROf<long>>, IDivisionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IIncrementOperators_1<CLROf<long>>, IMultiplyOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, ISubtractionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IUnaryPlusOperators_2<CLROf<long>, CLROf<long>>, IUnaryNegationOperators_2<CLROf<long>, CLROf<long>>, IShiftOperators_3<CLROf<long>, CLROf<int>, CLROf<long>> {
+export interface Int64$instance extends IBitwiseOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IComparisonOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IEqualityOperators_3<CLROf<long>, CLROf<long>, CLROf<boolean>>, IModulusOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IAdditionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IDecrementOperators_1<CLROf<long>>, IDivisionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IIncrementOperators_1<CLROf<long>>, IMultiplyOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, ISubtractionOperators_3<CLROf<long>, CLROf<long>, CLROf<long>>, IUnaryPlusOperators_2<CLROf<long>, CLROf<long>>, IUnaryNegationOperators_2<CLROf<long>, CLROf<long>>, IShiftOperators_3<CLROf<long>, CLROf<int>, CLROf<long>> {
     compareTo(value: unknown): int;
     compareTo(value: long): int;
     equals(obj: unknown): boolean;
@@ -2261,50 +2501,55 @@ export class Int64$instance implements IBitwiseOperators_3<CLROf<long>, CLROf<lo
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: long;
-    static readonly minValue: long;
-    static abs(value: long): long;
-    static bigMul(left: long, right: long): int128;
-    static clamp(value: long, min: long, max: long): long;
-    static copySign(value: long, sign: long): long;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): long;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
-    static divRem(left: long, right: long): ValueTuple_2<CLROf<long>, CLROf<long>>;
-    static isEvenInteger(value: long): boolean;
-    static isNegative(value: long): boolean;
-    static isOddInteger(value: long): boolean;
-    static isPositive(value: long): boolean;
-    static isPow2(value: long): boolean;
-    static leadingZeroCount(value: long): long;
-    static log2(value: long): long;
-    static max(x: long, y: long): long;
-    static maxMagnitude(x: long, y: long): long;
-    static min(x: long, y: long): long;
-    static minMagnitude(x: long, y: long): long;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): long;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): long;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): long;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): long;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): long;
-    static parse(s: string, style: NumberStyles): long;
-    static parse(s: string, provider: IFormatProvider): long;
-    static parse(s: string): long;
-    static popCount(value: long): long;
-    static rotateLeft(value: long, rotateAmount: int): long;
-    static rotateRight(value: long, rotateAmount: int): long;
-    static sign(value: long): int;
-    static trailingZeroCount(value: long): long;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<long> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<long> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<long> }): boolean;
-    static tryParse(s: string, result: { value: ref<long> }): boolean;
 }
+
+
+export const Int64: {
+    new(): Int64$instance;
+    readonly maxValue: long;
+    readonly minValue: long;
+    abs(value: long): long;
+    bigMul(left: long, right: long): int128;
+    clamp(value: long, min: long, max: long): long;
+    copySign(value: long, sign: long): long;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    divRem(left: long, right: long): ValueTuple_2<CLROf<long>, CLROf<long>>;
+    isEvenInteger(value: long): boolean;
+    isNegative(value: long): boolean;
+    isOddInteger(value: long): boolean;
+    isPositive(value: long): boolean;
+    isPow2(value: long): boolean;
+    leadingZeroCount(value: long): long;
+    log2(value: long): long;
+    max(x: long, y: long): long;
+    maxMagnitude(x: long, y: long): long;
+    min(x: long, y: long): long;
+    minMagnitude(x: long, y: long): long;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): long;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): long;
+    parse(s: string, style: NumberStyles): long;
+    parse(s: string, provider: IFormatProvider): long;
+    parse(s: string): long;
+    popCount(value: long): long;
+    rotateLeft(value: long, rotateAmount: int): long;
+    rotateRight(value: long, rotateAmount: int): long;
+    sign(value: long): int;
+    trailingZeroCount(value: long): long;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<long> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<long> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<long> }): boolean;
+    tryParse(s: string, result: { value: ref<long> }): boolean;
+};
 
 
 export interface __Int64$views {
@@ -2341,10 +2586,7 @@ export interface Int64$instance extends System_Numerics_Internal.IMinMaxValue_1$
 export type Int64 = Int64$instance & __Int64$views;
 
 
-export class IntPtr$instance implements IBitwiseOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IComparisonOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IAdditionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IDecrementOperators_1<CLROf<nint>>, IDivisionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IIncrementOperators_1<CLROf<nint>>, IMultiplyOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, ISubtractionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IUnaryPlusOperators_2<CLROf<nint>, CLROf<nint>>, IUnaryNegationOperators_2<CLROf<nint>, CLROf<nint>>, IShiftOperators_3<CLROf<nint>, CLROf<int>, CLROf<nint>> {
-    constructor(value: int);
-    constructor(value: long);
-    constructor(value: ptr<void>);
+export interface IntPtr$instance extends IBitwiseOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IComparisonOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nint>, CLROf<nint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IAdditionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IDecrementOperators_1<CLROf<nint>>, IDivisionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IIncrementOperators_1<CLROf<nint>>, IMultiplyOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, ISubtractionOperators_3<CLROf<nint>, CLROf<nint>, CLROf<nint>>, IUnaryPlusOperators_2<CLROf<nint>, CLROf<nint>>, IUnaryNegationOperators_2<CLROf<nint>, CLROf<nint>>, IShiftOperators_3<CLROf<nint>, CLROf<int>, CLROf<nint>> {
     compareTo(value: unknown): int;
     compareTo(value: nint): int;
     equals(obj: unknown): boolean;
@@ -2359,54 +2601,61 @@ export class IntPtr$instance implements IBitwiseOperators_3<CLROf<nint>, CLROf<n
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly zero: nint;
-    static readonly size: int;
-    static readonly maxValue: nint;
-    static readonly minValue: nint;
-    static abs(value: nint): nint;
-    static add(pointer: nint, offset: int): nint;
-    static bigMul(left: nint, right: nint, lower: { value: ref<nint> }): nint;
-    static clamp(value: nint, min: nint, max: nint): nint;
-    static copySign(value: nint, sign: nint): nint;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
-    static divRem(left: nint, right: nint): ValueTuple_2<CLROf<nint>, CLROf<nint>>;
-    static isEvenInteger(value: nint): boolean;
-    static isNegative(value: nint): boolean;
-    static isOddInteger(value: nint): boolean;
-    static isPositive(value: nint): boolean;
-    static isPow2(value: nint): boolean;
-    static leadingZeroCount(value: nint): nint;
-    static log2(value: nint): nint;
-    static max(x: nint, y: nint): nint;
-    static maxMagnitude(x: nint, y: nint): nint;
-    static min(x: nint, y: nint): nint;
-    static minMagnitude(x: nint, y: nint): nint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nint;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): nint;
-    static parse(s: string, style: NumberStyles): nint;
-    static parse(s: string, provider: IFormatProvider): nint;
-    static parse(s: string): nint;
-    static popCount(value: nint): nint;
-    static rotateLeft(value: nint, rotateAmount: int): nint;
-    static rotateRight(value: nint, rotateAmount: int): nint;
-    static sign(value: nint): int;
-    static subtract(pointer: nint, offset: int): nint;
-    static trailingZeroCount(value: nint): nint;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nint> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
-    static tryParse(s: string, result: { value: ref<nint> }): boolean;
 }
+
+
+export const IntPtr: {
+    new(value: int): IntPtr$instance;
+    new(value: long): IntPtr$instance;
+    new(value: ptr<void>): IntPtr$instance;
+    readonly zero: nint;
+    readonly size: int;
+    readonly maxValue: nint;
+    readonly minValue: nint;
+    abs(value: nint): nint;
+    add(pointer: nint, offset: int): nint;
+    bigMul(left: nint, right: nint, lower: { value: ref<nint> }): nint;
+    clamp(value: nint, min: nint, max: nint): nint;
+    copySign(value: nint, sign: nint): nint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    divRem(left: nint, right: nint): ValueTuple_2<CLROf<nint>, CLROf<nint>>;
+    isEvenInteger(value: nint): boolean;
+    isNegative(value: nint): boolean;
+    isOddInteger(value: nint): boolean;
+    isPositive(value: nint): boolean;
+    isPow2(value: nint): boolean;
+    leadingZeroCount(value: nint): nint;
+    log2(value: nint): nint;
+    max(x: nint, y: nint): nint;
+    maxMagnitude(x: nint, y: nint): nint;
+    min(x: nint, y: nint): nint;
+    minMagnitude(x: nint, y: nint): nint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nint;
+    parse(s: string, style: NumberStyles): nint;
+    parse(s: string, provider: IFormatProvider): nint;
+    parse(s: string): nint;
+    popCount(value: nint): nint;
+    rotateLeft(value: nint, rotateAmount: int): nint;
+    rotateRight(value: nint, rotateAmount: int): nint;
+    sign(value: nint): int;
+    subtract(pointer: nint, offset: int): nint;
+    trailingZeroCount(value: nint): nint;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nint> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<nint> }): boolean;
+    tryParse(s: string, result: { value: ref<nint> }): boolean;
+};
 
 
 export interface __IntPtr$views {
@@ -2443,9 +2692,7 @@ export interface IntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type IntPtr = IntPtr$instance & __IntPtr$views;
 
 
-export class Memory_1$instance<T> {
-    constructor(array: T[]);
-    constructor(array: T[], start: int, length: int);
+export interface Memory_1$instance<T> {
     readonly isEmpty: boolean;
     readonly length: int;
     readonly span: Span_1<T>;
@@ -2459,8 +2706,14 @@ export class Memory_1$instance<T> {
     toArray(): T[];
     toString(): string;
     tryCopyTo(destination: Memory_1<T>): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const Memory_1: {
+    new<T>(array: T[]): Memory_1$instance<T>;
+    new<T>(array: T[], start: int, length: int): Memory_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __Memory_1$views<T> {
@@ -2473,13 +2726,18 @@ export interface __Memory_1$views<T> {
 export type Memory_1<T> = Memory_1$instance<T> & __Memory_1$views<T>;
 
 
-export class MemoryExtensions_SpanSplitEnumerator_1$instance<T extends IEquatable_1<T>> {
+export interface MemoryExtensions_SpanSplitEnumerator_1$instance<T extends IEquatable_1<T>> {
     readonly current: Range;
     readonly source: ReadOnlySpan_1<T>;
     getEnumerator(): MemoryExtensions_SpanSplitEnumerator_1<T>;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const MemoryExtensions_SpanSplitEnumerator_1: {
+    new<T extends IEquatable_1<T>>(): MemoryExtensions_SpanSplitEnumerator_1$instance<T>;
+};
 
 
 export interface __MemoryExtensions_SpanSplitEnumerator_1$views<T extends IEquatable_1<T>> {
@@ -2491,9 +2749,7 @@ export interface __MemoryExtensions_SpanSplitEnumerator_1$views<T extends IEquat
 export type MemoryExtensions_SpanSplitEnumerator_1<T extends IEquatable_1<T>> = MemoryExtensions_SpanSplitEnumerator_1$instance<T> & __MemoryExtensions_SpanSplitEnumerator_1$views<T>;
 
 
-export class MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, shouldAppend: ref<boolean>);
-    constructor(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, provider: IFormatProvider, shouldAppend: ref<boolean>);
+export interface MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): boolean;
     appendFormatted<T>(value: T, format: string): boolean;
     appendFormatted<T>(value: T, alignment: int): boolean;
@@ -2507,9 +2763,15 @@ export class MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
 }
 
 
+export const MemoryExtensions_TryWriteInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, shouldAppend: ref<boolean>): MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
+    new(literalLength: int, formattedCount: int, destination: Span_1<CLROf<char>>, provider: IFormatProvider, shouldAppend: ref<boolean>): MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
+};
+
+
 export type MemoryExtensions_TryWriteInterpolatedStringHandler = MemoryExtensions_TryWriteInterpolatedStringHandler$instance;
 
-export class ModuleHandle$instance {
+export interface ModuleHandle$instance {
     readonly mdStreamVersion: int;
     equals(obj: unknown): boolean;
     equals(handle: ModuleHandle): boolean;
@@ -2523,8 +2785,13 @@ export class ModuleHandle$instance {
     resolveMethodHandle(methodToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeMethodHandle;
     resolveTypeHandle(typeToken: int): RuntimeTypeHandle;
     resolveTypeHandle(typeToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeTypeHandle;
-    static readonly emptyHandle: ModuleHandle;
 }
+
+
+export const ModuleHandle: {
+    new(): ModuleHandle$instance;
+    readonly emptyHandle: ModuleHandle;
+};
 
 
 export interface __ModuleHandle$views {
@@ -2537,8 +2804,7 @@ export interface __ModuleHandle$views {
 export type ModuleHandle = ModuleHandle$instance & __ModuleHandle$views;
 
 
-export class Nullable_1$instance<T extends unknown> {
-    constructor(value: T);
+export interface Nullable_1$instance<T extends unknown> {
     readonly hasValue: boolean;
     readonly value: T;
     equals(other: unknown): boolean;
@@ -2549,10 +2815,14 @@ export class Nullable_1$instance<T extends unknown> {
 }
 
 
+export const Nullable_1: {
+    new<T extends unknown>(value: T): Nullable_1$instance<T>;
+};
+
+
 export type Nullable_1<T> = Nullable_1$instance<T>;
 
-export class Range$instance {
-    constructor(start: Index, end: Index);
+export interface Range$instance {
     readonly end: Index;
     readonly start: Index;
     equals(value: unknown): boolean;
@@ -2560,10 +2830,15 @@ export class Range$instance {
     getHashCode(): int;
     getOffsetAndLength(length: int): ValueTuple_2<CLROf<int>, CLROf<int>>;
     toString(): string;
-    static readonly all: Range;
-    static endAt(end: Index): Range;
-    static startAt(start: Index): Range;
 }
+
+
+export const Range: {
+    new(start: Index, end: Index): Range$instance;
+    readonly all: Range;
+    endAt(end: Index): Range;
+    startAt(start: Index): Range;
+};
 
 
 export interface __Range$views {
@@ -2576,9 +2851,7 @@ export interface __Range$views {
 export type Range = Range$instance & __Range$views;
 
 
-export class ReadOnlyMemory_1$instance<T> {
-    constructor(array: T[]);
-    constructor(array: T[], start: int, length: int);
+export interface ReadOnlyMemory_1$instance<T> {
     readonly isEmpty: boolean;
     readonly length: int;
     readonly span: ReadOnlySpan_1<T>;
@@ -2592,8 +2865,14 @@ export class ReadOnlyMemory_1$instance<T> {
     toArray(): T[];
     toString(): string;
     tryCopyTo(destination: Memory_1<T>): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const ReadOnlyMemory_1: {
+    new<T>(array: T[]): ReadOnlyMemory_1$instance<T>;
+    new<T>(array: T[], start: int, length: int): ReadOnlyMemory_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ReadOnlyMemory_1$views<T> {
@@ -2606,11 +2885,7 @@ export interface __ReadOnlyMemory_1$views<T> {
 export type ReadOnlyMemory_1<T> = ReadOnlyMemory_1$instance<T> & __ReadOnlyMemory_1$views<T>;
 
 
-export class ReadOnlySpan_1$instance<T> {
-    constructor(array: T[]);
-    constructor(array: T[], start: int, length: int);
-    constructor(pointer: ptr<void>, length: int);
-    constructor(reference: ref<T>);
+export interface ReadOnlySpan_1$instance<T> {
     readonly isEmpty: boolean;
     readonly item: ref<T>;
     readonly length: int;
@@ -2624,18 +2899,31 @@ export class ReadOnlySpan_1$instance<T> {
     toArray(): T[];
     toString(): string;
     tryCopyTo(destination: Span_1<T>): boolean;
-    static readonly empty: unknown;
-    static castUp<T, TDerived extends T>(items: ReadOnlySpan_1<TDerived>): ReadOnlySpan_1<T>;
 }
+
+
+export const ReadOnlySpan_1: {
+    new<T>(array: T[]): ReadOnlySpan_1$instance<T>;
+    new<T>(array: T[], start: int, length: int): ReadOnlySpan_1$instance<T>;
+    new<T>(pointer: ptr<void>, length: int): ReadOnlySpan_1$instance<T>;
+    new<T>(reference: ref<T>): ReadOnlySpan_1$instance<T>;
+    readonly empty: unknown;
+    castUp<T, TDerived extends T>(items: ReadOnlySpan_1<TDerived>): ReadOnlySpan_1<T>;
+};
 
 
 export type ReadOnlySpan_1<T> = ReadOnlySpan_1$instance<T>;
 
-export class ReadOnlySpan_1_Enumerator$instance<T> {
+export interface ReadOnlySpan_1_Enumerator$instance<T> {
     readonly current: ref<T>;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ReadOnlySpan_1_Enumerator: {
+    new<T>(): ReadOnlySpan_1_Enumerator$instance<T>;
+};
 
 
 export interface __ReadOnlySpan_1_Enumerator$views<T> {
@@ -2647,21 +2935,31 @@ export interface __ReadOnlySpan_1_Enumerator$views<T> {
 export type ReadOnlySpan_1_Enumerator<T> = ReadOnlySpan_1_Enumerator$instance<T> & __ReadOnlySpan_1_Enumerator$views<T>;
 
 
-export class RuntimeArgumentHandle$instance {
+export interface RuntimeArgumentHandle$instance {
 }
+
+
+export const RuntimeArgumentHandle: {
+    new(): RuntimeArgumentHandle$instance;
+};
 
 
 export type RuntimeArgumentHandle = RuntimeArgumentHandle$instance;
 
-export class RuntimeFieldHandle$instance {
+export interface RuntimeFieldHandle$instance {
     readonly value: nint;
     equals(obj: unknown): boolean;
     equals(handle: RuntimeFieldHandle): boolean;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static fromIntPtr(value: nint): RuntimeFieldHandle;
-    static toIntPtr(value: RuntimeFieldHandle): nint;
 }
+
+
+export const RuntimeFieldHandle: {
+    new(): RuntimeFieldHandle$instance;
+    fromIntPtr(value: nint): RuntimeFieldHandle;
+    toIntPtr(value: RuntimeFieldHandle): nint;
+};
 
 
 export interface __RuntimeFieldHandle$views {
@@ -2677,16 +2975,21 @@ export interface RuntimeFieldHandle$instance extends System_Runtime_Serializatio
 export type RuntimeFieldHandle = RuntimeFieldHandle$instance & __RuntimeFieldHandle$views;
 
 
-export class RuntimeMethodHandle$instance {
+export interface RuntimeMethodHandle$instance {
     readonly value: nint;
     equals(obj: unknown): boolean;
     equals(handle: RuntimeMethodHandle): boolean;
     getFunctionPointer(): nint;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static fromIntPtr(value: nint): RuntimeMethodHandle;
-    static toIntPtr(value: RuntimeMethodHandle): nint;
 }
+
+
+export const RuntimeMethodHandle: {
+    new(): RuntimeMethodHandle$instance;
+    fromIntPtr(value: nint): RuntimeMethodHandle;
+    toIntPtr(value: RuntimeMethodHandle): nint;
+};
 
 
 export interface __RuntimeMethodHandle$views {
@@ -2702,16 +3005,21 @@ export interface RuntimeMethodHandle$instance extends System_Runtime_Serializati
 export type RuntimeMethodHandle = RuntimeMethodHandle$instance & __RuntimeMethodHandle$views;
 
 
-export class RuntimeTypeHandle$instance {
+export interface RuntimeTypeHandle$instance {
     readonly value: nint;
     equals(obj: unknown): boolean;
     equals(handle: RuntimeTypeHandle): boolean;
     getHashCode(): int;
     getModuleHandle(): ModuleHandle;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static fromIntPtr(value: nint): RuntimeTypeHandle;
-    static toIntPtr(value: RuntimeTypeHandle): nint;
 }
+
+
+export const RuntimeTypeHandle: {
+    new(): RuntimeTypeHandle$instance;
+    fromIntPtr(value: nint): RuntimeTypeHandle;
+    toIntPtr(value: RuntimeTypeHandle): nint;
+};
 
 
 export interface __RuntimeTypeHandle$views {
@@ -2727,7 +3035,7 @@ export interface RuntimeTypeHandle$instance extends System_Runtime_Serialization
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
 
-export class SByte$instance implements IBitwiseOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IComparisonOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IModulusOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IAdditionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IDecrementOperators_1<CLROf<sbyte>>, IDivisionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IIncrementOperators_1<CLROf<sbyte>>, IMultiplyOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, ISubtractionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IUnaryPlusOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IUnaryNegationOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IShiftOperators_3<CLROf<sbyte>, CLROf<int>, CLROf<sbyte>> {
+export interface SByte$instance extends IBitwiseOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IComparisonOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<boolean>>, IModulusOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IAdditionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IDecrementOperators_1<CLROf<sbyte>>, IDivisionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IIncrementOperators_1<CLROf<sbyte>>, IMultiplyOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, ISubtractionOperators_3<CLROf<sbyte>, CLROf<sbyte>, CLROf<sbyte>>, IUnaryPlusOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IUnaryNegationOperators_2<CLROf<sbyte>, CLROf<sbyte>>, IShiftOperators_3<CLROf<sbyte>, CLROf<int>, CLROf<sbyte>> {
     compareTo(obj: unknown): int;
     compareTo(value: sbyte): int;
     equals(obj: unknown): boolean;
@@ -2740,49 +3048,54 @@ export class SByte$instance implements IBitwiseOperators_3<CLROf<sbyte>, CLROf<s
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: sbyte;
-    static readonly minValue: sbyte;
-    static abs(value: sbyte): sbyte;
-    static clamp(value: sbyte, min: sbyte, max: sbyte): sbyte;
-    static copySign(value: sbyte, sign: sbyte): sbyte;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
-    static divRem(left: sbyte, right: sbyte): ValueTuple_2<CLROf<sbyte>, CLROf<sbyte>>;
-    static isEvenInteger(value: sbyte): boolean;
-    static isNegative(value: sbyte): boolean;
-    static isOddInteger(value: sbyte): boolean;
-    static isPositive(value: sbyte): boolean;
-    static isPow2(value: sbyte): boolean;
-    static leadingZeroCount(value: sbyte): sbyte;
-    static log2(value: sbyte): sbyte;
-    static max(x: sbyte, y: sbyte): sbyte;
-    static maxMagnitude(x: sbyte, y: sbyte): sbyte;
-    static min(x: sbyte, y: sbyte): sbyte;
-    static minMagnitude(x: sbyte, y: sbyte): sbyte;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): sbyte;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): sbyte;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): sbyte;
-    static parse(s: string, style: NumberStyles): sbyte;
-    static parse(s: string, provider: IFormatProvider): sbyte;
-    static parse(s: string): sbyte;
-    static popCount(value: sbyte): sbyte;
-    static rotateLeft(value: sbyte, rotateAmount: int): sbyte;
-    static rotateRight(value: sbyte, rotateAmount: int): sbyte;
-    static sign(value: sbyte): int;
-    static trailingZeroCount(value: sbyte): sbyte;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
-    static tryParse(s: string, result: { value: ref<sbyte> }): boolean;
 }
+
+
+export const SByte: {
+    new(): SByte$instance;
+    readonly maxValue: sbyte;
+    readonly minValue: sbyte;
+    abs(value: sbyte): sbyte;
+    clamp(value: sbyte, min: sbyte, max: sbyte): sbyte;
+    copySign(value: sbyte, sign: sbyte): sbyte;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    divRem(left: sbyte, right: sbyte): ValueTuple_2<CLROf<sbyte>, CLROf<sbyte>>;
+    isEvenInteger(value: sbyte): boolean;
+    isNegative(value: sbyte): boolean;
+    isOddInteger(value: sbyte): boolean;
+    isPositive(value: sbyte): boolean;
+    isPow2(value: sbyte): boolean;
+    leadingZeroCount(value: sbyte): sbyte;
+    log2(value: sbyte): sbyte;
+    max(x: sbyte, y: sbyte): sbyte;
+    maxMagnitude(x: sbyte, y: sbyte): sbyte;
+    min(x: sbyte, y: sbyte): sbyte;
+    minMagnitude(x: sbyte, y: sbyte): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): sbyte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): sbyte;
+    parse(s: string, style: NumberStyles): sbyte;
+    parse(s: string, provider: IFormatProvider): sbyte;
+    parse(s: string): sbyte;
+    popCount(value: sbyte): sbyte;
+    rotateLeft(value: sbyte, rotateAmount: int): sbyte;
+    rotateRight(value: sbyte, rotateAmount: int): sbyte;
+    sign(value: sbyte): int;
+    trailingZeroCount(value: sbyte): sbyte;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<sbyte> }): boolean;
+    tryParse(s: string, result: { value: ref<sbyte> }): boolean;
+};
 
 
 export interface __SByte$views {
@@ -2819,14 +3132,18 @@ export interface SByte$instance extends System_Numerics_Internal.IMinMaxValue_1$
 export type SByte = SByte$instance & __SByte$views;
 
 
-export class SequencePosition$instance {
-    constructor(object_: unknown, integer: int);
+export interface SequencePosition$instance {
     equals(other: SequencePosition): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     getInteger(): int;
     getObject(): unknown;
 }
+
+
+export const SequencePosition: {
+    new(object_: unknown, integer: int): SequencePosition$instance;
+};
 
 
 export interface __SequencePosition$views {
@@ -2839,7 +3156,7 @@ export interface __SequencePosition$views {
 export type SequencePosition = SequencePosition$instance & __SequencePosition$views;
 
 
-export class Single$instance implements IBitwiseOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IComparisonOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IEqualityOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IModulusOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IAdditionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IDecrementOperators_1<CLROf<float>>, IDivisionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IIncrementOperators_1<CLROf<float>>, IMultiplyOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, ISubtractionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IUnaryPlusOperators_2<CLROf<float>, CLROf<float>>, IUnaryNegationOperators_2<CLROf<float>, CLROf<float>> {
+export interface Single$instance extends IBitwiseOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IComparisonOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IEqualityOperators_3<CLROf<float>, CLROf<float>, CLROf<boolean>>, IModulusOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IAdditionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IDecrementOperators_1<CLROf<float>>, IDivisionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IIncrementOperators_1<CLROf<float>>, IMultiplyOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, ISubtractionOperators_3<CLROf<float>, CLROf<float>, CLROf<float>>, IUnaryPlusOperators_2<CLROf<float>, CLROf<float>>, IUnaryNegationOperators_2<CLROf<float>, CLROf<float>> {
     compareTo(value: unknown): int;
     compareTo(value: float): int;
     equals(obj: unknown): boolean;
@@ -2852,127 +3169,132 @@ export class Single$instance implements IBitwiseOperators_3<CLROf<float>, CLROf<
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: float;
-    static readonly maxValue: float;
-    static readonly epsilon: float;
-    static readonly negativeInfinity: float;
-    static readonly positiveInfinity: float;
-    static readonly naN: float;
-    static readonly negativeZero: float;
-    static readonly E: float;
-    static readonly pi: float;
-    static readonly tau: float;
-    static abs(value: float): float;
-    static acos(x: float): float;
-    static acosh(x: float): float;
-    static acosPi(x: float): float;
-    static asin(x: float): float;
-    static asinh(x: float): float;
-    static asinPi(x: float): float;
-    static atan(x: float): float;
-    static atan2(y: float, x: float): float;
-    static atan2Pi(y: float, x: float): float;
-    static atanh(x: float): float;
-    static atanPi(x: float): float;
-    static bitDecrement(x: float): float;
-    static bitIncrement(x: float): float;
-    static cbrt(x: float): float;
-    static ceiling(x: float): float;
-    static clamp(value: float, min: float, max: float): float;
-    static clampNative(value: float, min: float, max: float): float;
-    static convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
-    static convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
-    static copySign(value: float, sign: float): float;
-    static cos(x: float): float;
-    static cosh(x: float): float;
-    static cosPi(x: float): float;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): float;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
-    static degreesToRadians(degrees: float): float;
-    static exp(x: float): float;
-    static exp10(x: float): float;
-    static exp10M1(x: float): float;
-    static exp2(x: float): float;
-    static exp2M1(x: float): float;
-    static expM1(x: float): float;
-    static floor(x: float): float;
-    static fusedMultiplyAdd(left: float, right: float, addend: float): float;
-    static hypot(x: float, y: float): float;
-    static ieee754Remainder(left: float, right: float): float;
-    static iLogB(x: float): int;
-    static isEvenInteger(value: float): boolean;
-    static isFinite(f: float): boolean;
-    static isInfinity(f: float): boolean;
-    static isInteger(value: float): boolean;
-    static isNaN(f: float): boolean;
-    static isNegative(f: float): boolean;
-    static isNegativeInfinity(f: float): boolean;
-    static isNormal(f: float): boolean;
-    static isOddInteger(value: float): boolean;
-    static isPositive(value: float): boolean;
-    static isPositiveInfinity(f: float): boolean;
-    static isPow2(value: float): boolean;
-    static isRealNumber(value: float): boolean;
-    static isSubnormal(f: float): boolean;
-    static lerp(value1: float, value2: float, amount: float): float;
-    static log(x: float, newBase: float): float;
-    static log(x: float): float;
-    static log10(x: float): float;
-    static log10P1(x: float): float;
-    static log2(value: float): float;
-    static log2P1(x: float): float;
-    static logP1(x: float): float;
-    static max(x: float, y: float): float;
-    static maxMagnitude(x: float, y: float): float;
-    static maxMagnitudeNumber(x: float, y: float): float;
-    static maxNative(x: float, y: float): float;
-    static maxNumber(x: float, y: float): float;
-    static min(x: float, y: float): float;
-    static minMagnitude(x: float, y: float): float;
-    static minMagnitudeNumber(x: float, y: float): float;
-    static minNative(x: float, y: float): float;
-    static minNumber(x: float, y: float): float;
-    static multiplyAddEstimate(left: float, right: float, addend: float): float;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): float;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): float;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): float;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): float;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): float;
-    static parse(s: string, style: NumberStyles): float;
-    static parse(s: string, provider: IFormatProvider): float;
-    static parse(s: string): float;
-    static pow(x: float, y: float): float;
-    static radiansToDegrees(radians: float): float;
-    static reciprocalEstimate(x: float): float;
-    static reciprocalSqrtEstimate(x: float): float;
-    static rootN(x: float, n: int): float;
-    static round(x: float, digits: int, mode: MidpointRounding): float;
-    static round(x: float, digits: int): float;
-    static round(x: float, mode: MidpointRounding): float;
-    static round(x: float): float;
-    static scaleB(x: float, n: int): float;
-    static sign(value: float): int;
-    static sin(x: float): float;
-    static sinCos(x: float): ValueTuple_2<CLROf<float>, CLROf<float>>;
-    static sinCosPi(x: float): ValueTuple_2<CLROf<float>, CLROf<float>>;
-    static sinh(x: float): float;
-    static sinPi(x: float): float;
-    static sqrt(x: float): float;
-    static tan(x: float): float;
-    static tanh(x: float): float;
-    static tanPi(x: float): float;
-    static truncate(x: float): float;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<float> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<float> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<float> }): boolean;
-    static tryParse(s: string, result: { value: ref<float> }): boolean;
 }
+
+
+export const Single: {
+    new(): Single$instance;
+    readonly minValue: float;
+    readonly maxValue: float;
+    readonly epsilon: float;
+    readonly negativeInfinity: float;
+    readonly positiveInfinity: float;
+    readonly naN: float;
+    readonly negativeZero: float;
+    readonly E: float;
+    readonly pi: float;
+    readonly tau: float;
+    abs(value: float): float;
+    acos(x: float): float;
+    acosh(x: float): float;
+    acosPi(x: float): float;
+    asin(x: float): float;
+    asinh(x: float): float;
+    asinPi(x: float): float;
+    atan(x: float): float;
+    atan2(y: float, x: float): float;
+    atan2Pi(y: float, x: float): float;
+    atanh(x: float): float;
+    atanPi(x: float): float;
+    bitDecrement(x: float): float;
+    bitIncrement(x: float): float;
+    cbrt(x: float): float;
+    ceiling(x: float): float;
+    clamp(value: float, min: float, max: float): float;
+    clampNative(value: float, min: float, max: float): float;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    copySign(value: float, sign: float): float;
+    cos(x: float): float;
+    cosh(x: float): float;
+    cosPi(x: float): float;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    degreesToRadians(degrees: float): float;
+    exp(x: float): float;
+    exp10(x: float): float;
+    exp10M1(x: float): float;
+    exp2(x: float): float;
+    exp2M1(x: float): float;
+    expM1(x: float): float;
+    floor(x: float): float;
+    fusedMultiplyAdd(left: float, right: float, addend: float): float;
+    hypot(x: float, y: float): float;
+    ieee754Remainder(left: float, right: float): float;
+    iLogB(x: float): int;
+    isEvenInteger(value: float): boolean;
+    isFinite(f: float): boolean;
+    isInfinity(f: float): boolean;
+    isInteger(value: float): boolean;
+    isNaN(f: float): boolean;
+    isNegative(f: float): boolean;
+    isNegativeInfinity(f: float): boolean;
+    isNormal(f: float): boolean;
+    isOddInteger(value: float): boolean;
+    isPositive(value: float): boolean;
+    isPositiveInfinity(f: float): boolean;
+    isPow2(value: float): boolean;
+    isRealNumber(value: float): boolean;
+    isSubnormal(f: float): boolean;
+    lerp(value1: float, value2: float, amount: float): float;
+    log(x: float, newBase: float): float;
+    log(x: float): float;
+    log10(x: float): float;
+    log10P1(x: float): float;
+    log2(value: float): float;
+    log2P1(x: float): float;
+    logP1(x: float): float;
+    max(x: float, y: float): float;
+    maxMagnitude(x: float, y: float): float;
+    maxMagnitudeNumber(x: float, y: float): float;
+    maxNative(x: float, y: float): float;
+    maxNumber(x: float, y: float): float;
+    min(x: float, y: float): float;
+    minMagnitude(x: float, y: float): float;
+    minMagnitudeNumber(x: float, y: float): float;
+    minNative(x: float, y: float): float;
+    minNumber(x: float, y: float): float;
+    multiplyAddEstimate(left: float, right: float, addend: float): float;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): float;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): float;
+    parse(s: string, style: NumberStyles): float;
+    parse(s: string, provider: IFormatProvider): float;
+    parse(s: string): float;
+    pow(x: float, y: float): float;
+    radiansToDegrees(radians: float): float;
+    reciprocalEstimate(x: float): float;
+    reciprocalSqrtEstimate(x: float): float;
+    rootN(x: float, n: int): float;
+    round(x: float, digits: int, mode: MidpointRounding): float;
+    round(x: float, digits: int): float;
+    round(x: float, mode: MidpointRounding): float;
+    round(x: float): float;
+    scaleB(x: float, n: int): float;
+    sign(value: float): int;
+    sin(x: float): float;
+    sinCos(x: float): ValueTuple_2<CLROf<float>, CLROf<float>>;
+    sinCosPi(x: float): ValueTuple_2<CLROf<float>, CLROf<float>>;
+    sinh(x: float): float;
+    sinPi(x: float): float;
+    sqrt(x: float): float;
+    tan(x: float): float;
+    tanh(x: float): float;
+    tanPi(x: float): float;
+    truncate(x: float): float;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<float> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<float> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<float> }): boolean;
+    tryParse(s: string, result: { value: ref<float> }): boolean;
+};
 
 
 export interface __Single$views {
@@ -3012,11 +3334,7 @@ export interface Single$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type Single = Single$instance & __Single$views;
 
 
-export class Span_1$instance<T> {
-    constructor(array: T[]);
-    constructor(array: T[], start: int, length: int);
-    constructor(pointer: ptr<void>, length: int);
-    constructor(reference: ref<T>);
+export interface Span_1$instance<T> {
     readonly isEmpty: boolean;
     readonly item: ref<T>;
     readonly length: int;
@@ -3032,17 +3350,30 @@ export class Span_1$instance<T> {
     toArray(): T[];
     toString(): string;
     tryCopyTo(destination: Span_1<T>): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const Span_1: {
+    new<T>(array: T[]): Span_1$instance<T>;
+    new<T>(array: T[], start: int, length: int): Span_1$instance<T>;
+    new<T>(pointer: ptr<void>, length: int): Span_1$instance<T>;
+    new<T>(reference: ref<T>): Span_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export type Span_1<T> = Span_1$instance<T>;
 
-export class Span_1_Enumerator$instance<T> {
+export interface Span_1_Enumerator$instance<T> {
     readonly current: ref<T>;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const Span_1_Enumerator: {
+    new<T>(): Span_1_Enumerator$instance<T>;
+};
 
 
 export interface __Span_1_Enumerator$views<T> {
@@ -3054,12 +3385,7 @@ export interface __Span_1_Enumerator$views<T> {
 export type Span_1_Enumerator<T> = Span_1_Enumerator$instance<T> & __Span_1_Enumerator$views<T>;
 
 
-export class TimeOnly$instance {
-    constructor(hour: int, minute: int);
-    constructor(hour: int, minute: int, second: int);
-    constructor(hour: int, minute: int, second: int, millisecond: int);
-    constructor(hour: int, minute: int, second: int, millisecond: int, microsecond: int);
-    constructor(ticks: long);
+export interface TimeOnly$instance {
     readonly hour: int;
     readonly microsecond: int;
     readonly millisecond: int;
@@ -3092,37 +3418,46 @@ export class TimeOnly$instance {
     toTimeSpan(): TimeSpan;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: TimeOnly;
-    static readonly maxValue: TimeOnly;
-    static fromDateTime(dateTime: DateTime): TimeOnly;
-    static fromTimeSpan(timeSpan: TimeSpan): TimeOnly;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): TimeOnly;
-    static parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parse(s: string, provider: IFormatProvider): TimeOnly;
-    static parse(s: string): TimeOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): TimeOnly;
-    static parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parseExact(s: string, format: string): TimeOnly;
-    static parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
-    static parseExact(s: string, formats: string[]): TimeOnly;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
-    static tryParse(s: string, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: string, format: string, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
-    static tryParseExact(s: string, formats: string[], result: { value: ref<TimeOnly> }): boolean;
 }
+
+
+export const TimeOnly: {
+    new(hour: int, minute: int): TimeOnly$instance;
+    new(hour: int, minute: int, second: int): TimeOnly$instance;
+    new(hour: int, minute: int, second: int, millisecond: int): TimeOnly$instance;
+    new(hour: int, minute: int, second: int, millisecond: int, microsecond: int): TimeOnly$instance;
+    new(ticks: long): TimeOnly$instance;
+    readonly minValue: TimeOnly;
+    readonly maxValue: TimeOnly;
+    fromDateTime(dateTime: DateTime): TimeOnly;
+    fromTimeSpan(timeSpan: TimeSpan): TimeOnly;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): TimeOnly;
+    parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parse(s: string, provider: IFormatProvider): TimeOnly;
+    parse(s: string): TimeOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[]): TimeOnly;
+    parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: string, format: string): TimeOnly;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: string, formats: string[]): TimeOnly;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<TimeOnly> }): boolean;
+    tryParse(s: string, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: ReadOnlySpan_1<CLROf<char>>, formats: string[], result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: string, format: string, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: { value: ref<TimeOnly> }): boolean;
+    tryParseExact(s: string, formats: string[], result: { value: ref<TimeOnly> }): boolean;
+};
 
 
 export interface __TimeOnly$views {
@@ -3145,12 +3480,7 @@ export interface TimeOnly$instance extends IComparable$instance, ISpanParsable_1
 export type TimeOnly = TimeOnly$instance & __TimeOnly$views;
 
 
-export class TimeSpan$instance {
-    constructor(ticks: long);
-    constructor(hours: int, minutes: int, seconds: int);
-    constructor(days: int, hours: int, minutes: int, seconds: int);
-    constructor(days: int, hours: int, minutes: int, seconds: int, milliseconds: int);
-    constructor(days: int, hours: int, minutes: int, seconds: int, milliseconds: int, microseconds: int);
+export interface TimeSpan$instance {
     readonly days: int;
     readonly hours: int;
     readonly microseconds: int;
@@ -3183,73 +3513,82 @@ export class TimeSpan$instance {
     toString(format: string, formatProvider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): boolean;
-    static readonly zero: TimeSpan;
-    static readonly maxValue: TimeSpan;
-    static readonly minValue: TimeSpan;
-    static readonly nanosecondsPerTick: long;
-    static readonly ticksPerMicrosecond: long;
-    static readonly ticksPerMillisecond: long;
-    static readonly ticksPerSecond: long;
-    static readonly ticksPerMinute: long;
-    static readonly ticksPerHour: long;
-    static readonly ticksPerDay: long;
-    static readonly microsecondsPerMillisecond: long;
-    static readonly microsecondsPerSecond: long;
-    static readonly microsecondsPerMinute: long;
-    static readonly microsecondsPerHour: long;
-    static readonly microsecondsPerDay: long;
-    static readonly millisecondsPerSecond: long;
-    static readonly millisecondsPerMinute: long;
-    static readonly millisecondsPerHour: long;
-    static readonly millisecondsPerDay: long;
-    static readonly secondsPerMinute: long;
-    static readonly secondsPerHour: long;
-    static readonly secondsPerDay: long;
-    static readonly minutesPerHour: long;
-    static readonly minutesPerDay: long;
-    static readonly hoursPerDay: int;
-    static compare(t1: TimeSpan, t2: TimeSpan): int;
-    static equals(t1: TimeSpan, t2: TimeSpan): boolean;
-    static fromDays(value: double): TimeSpan;
-    static fromDays(days: int, hours?: int, minutes?: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
-    static fromDays(days: int): TimeSpan;
-    static fromHours(value: double): TimeSpan;
-    static fromHours(hours: int, minutes?: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
-    static fromHours(hours: int): TimeSpan;
-    static fromMicroseconds(value: double): TimeSpan;
-    static fromMicroseconds(microseconds: long): TimeSpan;
-    static fromMilliseconds(value: double): TimeSpan;
-    static fromMilliseconds(milliseconds: long, microseconds: long): TimeSpan;
-    static fromMilliseconds(milliseconds: long): TimeSpan;
-    static fromMinutes(value: double): TimeSpan;
-    static fromMinutes(minutes: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
-    static fromMinutes(minutes: long): TimeSpan;
-    static fromSeconds(value: double): TimeSpan;
-    static fromSeconds(seconds: long, milliseconds?: long, microseconds?: long): TimeSpan;
-    static fromSeconds(seconds: long): TimeSpan;
-    static fromTicks(value: long): TimeSpan;
-    static parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): TimeSpan;
-    static parse(input: string, formatProvider: IFormatProvider): TimeSpan;
-    static parse(s: string): TimeSpan;
-    static parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
-    static parseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
-    static parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
-    static parseExact(input: string, format: string, formatProvider: IFormatProvider): TimeSpan;
-    static parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
-    static parseExact(input: string, formats: string[], formatProvider: IFormatProvider): TimeSpan;
-    static tryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeSpan> }): boolean;
-    static tryParse(input: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static tryParse(s: string, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: string, format: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
-    static tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
 }
+
+
+export const TimeSpan: {
+    new(ticks: long): TimeSpan$instance;
+    new(hours: int, minutes: int, seconds: int): TimeSpan$instance;
+    new(days: int, hours: int, minutes: int, seconds: int): TimeSpan$instance;
+    new(days: int, hours: int, minutes: int, seconds: int, milliseconds: int): TimeSpan$instance;
+    new(days: int, hours: int, minutes: int, seconds: int, milliseconds: int, microseconds: int): TimeSpan$instance;
+    readonly zero: TimeSpan;
+    readonly maxValue: TimeSpan;
+    readonly minValue: TimeSpan;
+    readonly nanosecondsPerTick: long;
+    readonly ticksPerMicrosecond: long;
+    readonly ticksPerMillisecond: long;
+    readonly ticksPerSecond: long;
+    readonly ticksPerMinute: long;
+    readonly ticksPerHour: long;
+    readonly ticksPerDay: long;
+    readonly microsecondsPerMillisecond: long;
+    readonly microsecondsPerSecond: long;
+    readonly microsecondsPerMinute: long;
+    readonly microsecondsPerHour: long;
+    readonly microsecondsPerDay: long;
+    readonly millisecondsPerSecond: long;
+    readonly millisecondsPerMinute: long;
+    readonly millisecondsPerHour: long;
+    readonly millisecondsPerDay: long;
+    readonly secondsPerMinute: long;
+    readonly secondsPerHour: long;
+    readonly secondsPerDay: long;
+    readonly minutesPerHour: long;
+    readonly minutesPerDay: long;
+    readonly hoursPerDay: int;
+    compare(t1: TimeSpan, t2: TimeSpan): int;
+    equals(t1: TimeSpan, t2: TimeSpan): boolean;
+    fromDays(value: double): TimeSpan;
+    fromDays(days: int, hours?: int, minutes?: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
+    fromDays(days: int): TimeSpan;
+    fromHours(value: double): TimeSpan;
+    fromHours(hours: int, minutes?: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
+    fromHours(hours: int): TimeSpan;
+    fromMicroseconds(value: double): TimeSpan;
+    fromMicroseconds(microseconds: long): TimeSpan;
+    fromMilliseconds(value: double): TimeSpan;
+    fromMilliseconds(milliseconds: long, microseconds: long): TimeSpan;
+    fromMilliseconds(milliseconds: long): TimeSpan;
+    fromMinutes(value: double): TimeSpan;
+    fromMinutes(minutes: long, seconds?: long, milliseconds?: long, microseconds?: long): TimeSpan;
+    fromMinutes(minutes: long): TimeSpan;
+    fromSeconds(value: double): TimeSpan;
+    fromSeconds(seconds: long, milliseconds?: long, microseconds?: long): TimeSpan;
+    fromSeconds(seconds: long): TimeSpan;
+    fromTicks(value: long): TimeSpan;
+    parse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider?: IFormatProvider): TimeSpan;
+    parse(input: string, formatProvider: IFormatProvider): TimeSpan;
+    parse(s: string): TimeSpan;
+    parseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    parseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider): TimeSpan;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider): TimeSpan;
+    tryParse(input: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TimeSpan> }): boolean;
+    tryParse(input: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    tryParse(s: string, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, format: ReadOnlySpan_1<CLROf<char>>, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: ReadOnlySpan_1<CLROf<char>>, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: { value: ref<TimeSpan> }): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, result: { value: ref<TimeSpan> }): boolean;
+};
 
 
 export interface __TimeSpan$views {
@@ -3272,7 +3611,7 @@ export interface TimeSpan$instance extends IComparable$instance, ISpanParsable_1
 export type TimeSpan = TimeSpan$instance & __TimeSpan$views;
 
 
-export class TimeZoneInfo_TransitionTime$instance {
+export interface TimeZoneInfo_TransitionTime$instance {
     readonly day: int;
     readonly dayOfWeek: DayOfWeek;
     readonly isFixedDateRule: boolean;
@@ -3282,9 +3621,14 @@ export class TimeZoneInfo_TransitionTime$instance {
     equals(obj: unknown): boolean;
     equals(other: TimeZoneInfo_TransitionTime): boolean;
     getHashCode(): int;
-    static createFixedDateRule(timeOfDay: DateTime, month: int, day: int): TimeZoneInfo_TransitionTime;
-    static createFloatingDateRule(timeOfDay: DateTime, month: int, week: int, dayOfWeek: DayOfWeek): TimeZoneInfo_TransitionTime;
 }
+
+
+export const TimeZoneInfo_TransitionTime: {
+    new(): TimeZoneInfo_TransitionTime$instance;
+    createFixedDateRule(timeOfDay: DateTime, month: int, day: int): TimeZoneInfo_TransitionTime;
+    createFloatingDateRule(timeOfDay: DateTime, month: int, week: int, dayOfWeek: DayOfWeek): TimeZoneInfo_TransitionTime;
+};
 
 
 export interface __TimeZoneInfo_TransitionTime$views {
@@ -3301,21 +3645,25 @@ export interface TimeZoneInfo_TransitionTime$instance extends System_Runtime_Ser
 export type TimeZoneInfo_TransitionTime = TimeZoneInfo_TransitionTime$instance & __TimeZoneInfo_TransitionTime$views;
 
 
-export class TypedReference$instance {
+export interface TypedReference$instance {
     equals(o: unknown): boolean;
     getHashCode(): int;
-    static getTargetType(value: TypedReference): Type;
-    static makeTypedReference(target: unknown, flds: FieldInfo[]): TypedReference;
-    static setTypedReference(target: TypedReference, value: unknown): void;
-    static targetTypeToken(value: TypedReference): RuntimeTypeHandle;
-    static toObject(value: TypedReference): unknown;
 }
+
+
+export const TypedReference: {
+    new(): TypedReference$instance;
+    getTargetType(value: TypedReference): Type;
+    makeTypedReference(target: unknown, flds: FieldInfo[]): TypedReference;
+    setTypedReference(target: TypedReference, value: unknown): void;
+    targetTypeToken(value: TypedReference): RuntimeTypeHandle;
+    toObject(value: TypedReference): unknown;
+};
 
 
 export type TypedReference = TypedReference$instance;
 
-export class UInt128$instance implements IBitwiseOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IComparisonOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IAdditionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IDecrementOperators_1<CLROf<uint128>>, IDivisionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IIncrementOperators_1<CLROf<uint128>>, IMultiplyOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, ISubtractionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IUnaryPlusOperators_2<CLROf<uint128>, CLROf<uint128>>, IUnaryNegationOperators_2<CLROf<uint128>, CLROf<uint128>>, IShiftOperators_3<CLROf<uint128>, CLROf<int>, CLROf<uint128>> {
-    constructor(upper: ulong, lower: ulong);
+export interface UInt128$instance extends IBitwiseOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IComparisonOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IAdditionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IDecrementOperators_1<CLROf<uint128>>, IDivisionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IIncrementOperators_1<CLROf<uint128>>, IMultiplyOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, ISubtractionOperators_3<CLROf<uint128>, CLROf<uint128>, CLROf<uint128>>, IUnaryPlusOperators_2<CLROf<uint128>, CLROf<uint128>>, IUnaryNegationOperators_2<CLROf<uint128>, CLROf<uint128>>, IShiftOperators_3<CLROf<uint128>, CLROf<int>, CLROf<uint128>> {
     compareTo(value: unknown): int;
     compareTo(value: uint128): int;
     equals(obj: unknown): boolean;
@@ -3327,46 +3675,51 @@ export class UInt128$instance implements IBitwiseOperators_3<CLROf<uint128>, CLR
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly minValue: uint128;
-    static readonly maxValue: uint128;
-    static readonly one: uint128;
-    static readonly zero: uint128;
-    static bigMul(left: uint128, right: uint128, lower: { value: ref<uint128> }): uint128;
-    static clamp(value: uint128, min: uint128, max: uint128): uint128;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
-    static divRem(left: uint128, right: uint128): ValueTuple_2<CLROf<uint128>, CLROf<uint128>>;
-    static isEvenInteger(value: uint128): boolean;
-    static isOddInteger(value: uint128): boolean;
-    static isPow2(value: uint128): boolean;
-    static leadingZeroCount(value: uint128): uint128;
-    static log2(value: uint128): uint128;
-    static max(x: uint128, y: uint128): uint128;
-    static min(x: uint128, y: uint128): uint128;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint128;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint128;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): uint128;
-    static parse(s: string, style: NumberStyles): uint128;
-    static parse(s: string, provider: IFormatProvider): uint128;
-    static parse(s: string): uint128;
-    static popCount(value: uint128): uint128;
-    static rotateLeft(value: uint128, rotateAmount: int): uint128;
-    static rotateRight(value: uint128, rotateAmount: int): uint128;
-    static sign(value: uint128): int;
-    static trailingZeroCount(value: uint128): uint128;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
-    static tryParse(s: string, result: { value: ref<uint128> }): boolean;
 }
+
+
+export const UInt128: {
+    new(upper: ulong, lower: ulong): UInt128$instance;
+    readonly minValue: uint128;
+    readonly maxValue: uint128;
+    readonly one: uint128;
+    readonly zero: uint128;
+    bigMul(left: uint128, right: uint128, lower: { value: ref<uint128> }): uint128;
+    clamp(value: uint128, min: uint128, max: uint128): uint128;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    divRem(left: uint128, right: uint128): ValueTuple_2<CLROf<uint128>, CLROf<uint128>>;
+    isEvenInteger(value: uint128): boolean;
+    isOddInteger(value: uint128): boolean;
+    isPow2(value: uint128): boolean;
+    leadingZeroCount(value: uint128): uint128;
+    log2(value: uint128): uint128;
+    max(x: uint128, y: uint128): uint128;
+    min(x: uint128, y: uint128): uint128;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint128;
+    parse(s: string, style: NumberStyles): uint128;
+    parse(s: string, provider: IFormatProvider): uint128;
+    parse(s: string): uint128;
+    popCount(value: uint128): uint128;
+    rotateLeft(value: uint128, rotateAmount: int): uint128;
+    rotateRight(value: uint128, rotateAmount: int): uint128;
+    sign(value: uint128): int;
+    trailingZeroCount(value: uint128): uint128;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint128> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<uint128> }): boolean;
+    tryParse(s: string, result: { value: ref<uint128> }): boolean;
+};
 
 
 export interface __UInt128$views {
@@ -3401,7 +3754,7 @@ export interface UInt128$instance extends System_Numerics_Internal.IMinMaxValue_
 export type UInt128 = UInt128$instance & __UInt128$views;
 
 
-export class UInt16$instance implements IBitwiseOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IComparisonOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IModulusOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IAdditionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IDecrementOperators_1<CLROf<ushort>>, IDivisionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IIncrementOperators_1<CLROf<ushort>>, IMultiplyOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, ISubtractionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IUnaryPlusOperators_2<CLROf<ushort>, CLROf<ushort>>, IUnaryNegationOperators_2<CLROf<ushort>, CLROf<ushort>>, IShiftOperators_3<CLROf<ushort>, CLROf<int>, CLROf<ushort>> {
+export interface UInt16$instance extends IBitwiseOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IComparisonOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<boolean>>, IModulusOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IAdditionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IDecrementOperators_1<CLROf<ushort>>, IDivisionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IIncrementOperators_1<CLROf<ushort>>, IMultiplyOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, ISubtractionOperators_3<CLROf<ushort>, CLROf<ushort>, CLROf<ushort>>, IUnaryPlusOperators_2<CLROf<ushort>, CLROf<ushort>>, IUnaryNegationOperators_2<CLROf<ushort>, CLROf<ushort>>, IShiftOperators_3<CLROf<ushort>, CLROf<int>, CLROf<ushort>> {
     compareTo(value: unknown): int;
     compareTo(value: ushort): int;
     equals(obj: unknown): boolean;
@@ -3414,43 +3767,48 @@ export class UInt16$instance implements IBitwiseOperators_3<CLROf<ushort>, CLROf
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: ushort;
-    static readonly minValue: ushort;
-    static clamp(value: ushort, min: ushort, max: ushort): ushort;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
-    static divRem(left: ushort, right: ushort): ValueTuple_2<CLROf<ushort>, CLROf<ushort>>;
-    static isEvenInteger(value: ushort): boolean;
-    static isOddInteger(value: ushort): boolean;
-    static isPow2(value: ushort): boolean;
-    static leadingZeroCount(value: ushort): ushort;
-    static log2(value: ushort): ushort;
-    static max(x: ushort, y: ushort): ushort;
-    static min(x: ushort, y: ushort): ushort;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ushort;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ushort;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): ushort;
-    static parse(s: string, style: NumberStyles): ushort;
-    static parse(s: string, provider: IFormatProvider): ushort;
-    static parse(s: string): ushort;
-    static popCount(value: ushort): ushort;
-    static rotateLeft(value: ushort, rotateAmount: int): ushort;
-    static rotateRight(value: ushort, rotateAmount: int): ushort;
-    static sign(value: ushort): int;
-    static trailingZeroCount(value: ushort): ushort;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
-    static tryParse(s: string, result: { value: ref<ushort> }): boolean;
 }
+
+
+export const UInt16: {
+    new(): UInt16$instance;
+    readonly maxValue: ushort;
+    readonly minValue: ushort;
+    clamp(value: ushort, min: ushort, max: ushort): ushort;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    divRem(left: ushort, right: ushort): ValueTuple_2<CLROf<ushort>, CLROf<ushort>>;
+    isEvenInteger(value: ushort): boolean;
+    isOddInteger(value: ushort): boolean;
+    isPow2(value: ushort): boolean;
+    leadingZeroCount(value: ushort): ushort;
+    log2(value: ushort): ushort;
+    max(x: ushort, y: ushort): ushort;
+    min(x: ushort, y: ushort): ushort;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ushort;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ushort;
+    parse(s: string, style: NumberStyles): ushort;
+    parse(s: string, provider: IFormatProvider): ushort;
+    parse(s: string): ushort;
+    popCount(value: ushort): ushort;
+    rotateLeft(value: ushort, rotateAmount: int): ushort;
+    rotateRight(value: ushort, rotateAmount: int): ushort;
+    sign(value: ushort): int;
+    trailingZeroCount(value: ushort): ushort;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ushort> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ushort> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<ushort> }): boolean;
+    tryParse(s: string, result: { value: ref<ushort> }): boolean;
+};
 
 
 export interface __UInt16$views {
@@ -3487,7 +3845,7 @@ export interface UInt16$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type UInt16 = UInt16$instance & __UInt16$views;
 
 
-export class UInt32$instance implements IBitwiseOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IComparisonOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IAdditionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IDecrementOperators_1<CLROf<uint>>, IDivisionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IIncrementOperators_1<CLROf<uint>>, IMultiplyOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, ISubtractionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IUnaryPlusOperators_2<CLROf<uint>, CLROf<uint>>, IUnaryNegationOperators_2<CLROf<uint>, CLROf<uint>>, IShiftOperators_3<CLROf<uint>, CLROf<int>, CLROf<uint>> {
+export interface UInt32$instance extends IBitwiseOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IComparisonOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<uint>, CLROf<uint>, CLROf<boolean>>, IModulusOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IAdditionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IDecrementOperators_1<CLROf<uint>>, IDivisionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IIncrementOperators_1<CLROf<uint>>, IMultiplyOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, ISubtractionOperators_3<CLROf<uint>, CLROf<uint>, CLROf<uint>>, IUnaryPlusOperators_2<CLROf<uint>, CLROf<uint>>, IUnaryNegationOperators_2<CLROf<uint>, CLROf<uint>>, IShiftOperators_3<CLROf<uint>, CLROf<int>, CLROf<uint>> {
     compareTo(value: unknown): int;
     compareTo(value: uint): int;
     equals(obj: unknown): boolean;
@@ -3500,44 +3858,49 @@ export class UInt32$instance implements IBitwiseOperators_3<CLROf<uint>, CLROf<u
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: uint;
-    static readonly minValue: uint;
-    static bigMul(left: uint, right: uint): ulong;
-    static clamp(value: uint, min: uint, max: uint): uint;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
-    static divRem(left: uint, right: uint): ValueTuple_2<CLROf<uint>, CLROf<uint>>;
-    static isEvenInteger(value: uint): boolean;
-    static isOddInteger(value: uint): boolean;
-    static isPow2(value: uint): boolean;
-    static leadingZeroCount(value: uint): uint;
-    static log2(value: uint): uint;
-    static max(x: uint, y: uint): uint;
-    static min(x: uint, y: uint): uint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): uint;
-    static parse(s: string, style: NumberStyles): uint;
-    static parse(s: string, provider: IFormatProvider): uint;
-    static parse(s: string): uint;
-    static popCount(value: uint): uint;
-    static rotateLeft(value: uint, rotateAmount: int): uint;
-    static rotateRight(value: uint, rotateAmount: int): uint;
-    static sign(value: uint): int;
-    static trailingZeroCount(value: uint): uint;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
-    static tryParse(s: string, result: { value: ref<uint> }): boolean;
 }
+
+
+export const UInt32: {
+    new(): UInt32$instance;
+    readonly maxValue: uint;
+    readonly minValue: uint;
+    bigMul(left: uint, right: uint): ulong;
+    clamp(value: uint, min: uint, max: uint): uint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    divRem(left: uint, right: uint): ValueTuple_2<CLROf<uint>, CLROf<uint>>;
+    isEvenInteger(value: uint): boolean;
+    isOddInteger(value: uint): boolean;
+    isPow2(value: uint): boolean;
+    leadingZeroCount(value: uint): uint;
+    log2(value: uint): uint;
+    max(x: uint, y: uint): uint;
+    min(x: uint, y: uint): uint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): uint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint;
+    parse(s: string, style: NumberStyles): uint;
+    parse(s: string, provider: IFormatProvider): uint;
+    parse(s: string): uint;
+    popCount(value: uint): uint;
+    rotateLeft(value: uint, rotateAmount: int): uint;
+    rotateRight(value: uint, rotateAmount: int): uint;
+    sign(value: uint): int;
+    trailingZeroCount(value: uint): uint;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<uint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<uint> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<uint> }): boolean;
+    tryParse(s: string, result: { value: ref<uint> }): boolean;
+};
 
 
 export interface __UInt32$views {
@@ -3574,7 +3937,7 @@ export interface UInt32$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type UInt32 = UInt32$instance & __UInt32$views;
 
 
-export class UInt64$instance implements IBitwiseOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IComparisonOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IModulusOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IAdditionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IDecrementOperators_1<CLROf<ulong>>, IDivisionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IIncrementOperators_1<CLROf<ulong>>, IMultiplyOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, ISubtractionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IUnaryPlusOperators_2<CLROf<ulong>, CLROf<ulong>>, IUnaryNegationOperators_2<CLROf<ulong>, CLROf<ulong>>, IShiftOperators_3<CLROf<ulong>, CLROf<int>, CLROf<ulong>> {
+export interface UInt64$instance extends IBitwiseOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IComparisonOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IEqualityOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<boolean>>, IModulusOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IAdditionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IDecrementOperators_1<CLROf<ulong>>, IDivisionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IIncrementOperators_1<CLROf<ulong>>, IMultiplyOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, ISubtractionOperators_3<CLROf<ulong>, CLROf<ulong>, CLROf<ulong>>, IUnaryPlusOperators_2<CLROf<ulong>, CLROf<ulong>>, IUnaryNegationOperators_2<CLROf<ulong>, CLROf<ulong>>, IShiftOperators_3<CLROf<ulong>, CLROf<int>, CLROf<ulong>> {
     compareTo(value: unknown): int;
     compareTo(value: ulong): int;
     equals(obj: unknown): boolean;
@@ -3587,44 +3950,49 @@ export class UInt64$instance implements IBitwiseOperators_3<CLROf<ulong>, CLROf<
     toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly maxValue: ulong;
-    static readonly minValue: ulong;
-    static bigMul(left: ulong, right: ulong): uint128;
-    static clamp(value: ulong, min: ulong, max: ulong): ulong;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
-    static divRem(left: ulong, right: ulong): ValueTuple_2<CLROf<ulong>, CLROf<ulong>>;
-    static isEvenInteger(value: ulong): boolean;
-    static isOddInteger(value: ulong): boolean;
-    static isPow2(value: ulong): boolean;
-    static leadingZeroCount(value: ulong): ulong;
-    static log2(value: ulong): ulong;
-    static max(x: ulong, y: ulong): ulong;
-    static min(x: ulong, y: ulong): ulong;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ulong;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ulong;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): ulong;
-    static parse(s: string, style: NumberStyles): ulong;
-    static parse(s: string, provider: IFormatProvider): ulong;
-    static parse(s: string): ulong;
-    static popCount(value: ulong): ulong;
-    static rotateLeft(value: ulong, rotateAmount: int): ulong;
-    static rotateRight(value: ulong, rotateAmount: int): ulong;
-    static sign(value: ulong): int;
-    static trailingZeroCount(value: ulong): ulong;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
-    static tryParse(s: string, result: { value: ref<ulong> }): boolean;
 }
+
+
+export const UInt64: {
+    new(): UInt64$instance;
+    readonly maxValue: ulong;
+    readonly minValue: ulong;
+    bigMul(left: ulong, right: ulong): uint128;
+    clamp(value: ulong, min: ulong, max: ulong): ulong;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    divRem(left: ulong, right: ulong): ValueTuple_2<CLROf<ulong>, CLROf<ulong>>;
+    isEvenInteger(value: ulong): boolean;
+    isOddInteger(value: ulong): boolean;
+    isPow2(value: ulong): boolean;
+    leadingZeroCount(value: ulong): ulong;
+    log2(value: ulong): ulong;
+    max(x: ulong, y: ulong): ulong;
+    min(x: ulong, y: ulong): ulong;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): ulong;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ulong;
+    parse(s: string, style: NumberStyles): ulong;
+    parse(s: string, provider: IFormatProvider): ulong;
+    parse(s: string): ulong;
+    popCount(value: ulong): ulong;
+    rotateLeft(value: ulong, rotateAmount: int): ulong;
+    rotateRight(value: ulong, rotateAmount: int): ulong;
+    sign(value: ulong): int;
+    trailingZeroCount(value: ulong): ulong;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<ulong> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<ulong> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<ulong> }): boolean;
+    tryParse(s: string, result: { value: ref<ulong> }): boolean;
+};
 
 
 export interface __UInt64$views {
@@ -3661,10 +4029,7 @@ export interface UInt64$instance extends System_Numerics_Internal.IMinMaxValue_1
 export type UInt64 = UInt64$instance & __UInt64$views;
 
 
-export class UIntPtr$instance implements IBitwiseOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IComparisonOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IAdditionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IDecrementOperators_1<CLROf<nuint>>, IDivisionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IIncrementOperators_1<CLROf<nuint>>, IMultiplyOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, ISubtractionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IUnaryPlusOperators_2<CLROf<nuint>, CLROf<nuint>>, IUnaryNegationOperators_2<CLROf<nuint>, CLROf<nuint>>, IShiftOperators_3<CLROf<nuint>, CLROf<int>, CLROf<nuint>> {
-    constructor(value: uint);
-    constructor(value: ulong);
-    constructor(value: ptr<void>);
+export interface UIntPtr$instance extends IBitwiseOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IComparisonOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IEqualityOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<boolean>>, IModulusOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IAdditionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IDecrementOperators_1<CLROf<nuint>>, IDivisionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IIncrementOperators_1<CLROf<nuint>>, IMultiplyOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, ISubtractionOperators_3<CLROf<nuint>, CLROf<nuint>, CLROf<nuint>>, IUnaryPlusOperators_2<CLROf<nuint>, CLROf<nuint>>, IUnaryNegationOperators_2<CLROf<nuint>, CLROf<nuint>>, IShiftOperators_3<CLROf<nuint>, CLROf<int>, CLROf<nuint>> {
     compareTo(value: unknown): int;
     compareTo(value: nuint): int;
     equals(obj: unknown): boolean;
@@ -3679,48 +4044,55 @@ export class UIntPtr$instance implements IBitwiseOperators_3<CLROf<nuint>, CLROf
     toUInt64(): ulong;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
-    static readonly zero: nuint;
-    static readonly size: int;
-    static readonly maxValue: nuint;
-    static readonly minValue: nuint;
-    static add(pointer: nuint, offset: int): nuint;
-    static bigMul(left: nuint, right: nuint, lower: { value: ref<nuint> }): nuint;
-    static clamp(value: nuint, min: nuint, max: nuint): nuint;
-    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
-    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
-    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
-    static divRem(left: nuint, right: nuint): ValueTuple_2<CLROf<nuint>, CLROf<nuint>>;
-    static isEvenInteger(value: nuint): boolean;
-    static isOddInteger(value: nuint): boolean;
-    static isPow2(value: nuint): boolean;
-    static leadingZeroCount(value: nuint): nuint;
-    static log2(value: nuint): nuint;
-    static max(x: nuint, y: nuint): nuint;
-    static min(x: nuint, y: nuint): nuint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nuint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
-    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nuint;
-    static parse(s: string, style: NumberStyles, provider: IFormatProvider): nuint;
-    static parse(s: string, style: NumberStyles): nuint;
-    static parse(s: string, provider: IFormatProvider): nuint;
-    static parse(s: string): nuint;
-    static popCount(value: nuint): nuint;
-    static rotateLeft(value: nuint, rotateAmount: int): nuint;
-    static rotateRight(value: nuint, rotateAmount: int): nuint;
-    static sign(value: nuint): int;
-    static subtract(pointer: nuint, offset: int): nuint;
-    static trailingZeroCount(value: nuint): nuint;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
-    static tryParse(s: string, result: { value: ref<nuint> }): boolean;
 }
+
+
+export const UIntPtr: {
+    new(value: uint): UIntPtr$instance;
+    new(value: ulong): UIntPtr$instance;
+    new(value: ptr<void>): UIntPtr$instance;
+    readonly zero: nuint;
+    readonly size: int;
+    readonly maxValue: nuint;
+    readonly minValue: nuint;
+    add(pointer: nuint, offset: int): nuint;
+    bigMul(left: nuint, right: nuint, lower: { value: ref<nuint> }): nuint;
+    clamp(value: nuint, min: nuint, max: nuint): nuint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    divRem(left: nuint, right: nuint): ValueTuple_2<CLROf<nuint>, CLROf<nuint>>;
+    isEvenInteger(value: nuint): boolean;
+    isOddInteger(value: nuint): boolean;
+    isPow2(value: nuint): boolean;
+    leadingZeroCount(value: nuint): nuint;
+    log2(value: nuint): nuint;
+    max(x: nuint, y: nuint): nuint;
+    min(x: nuint, y: nuint): nuint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): nuint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nuint;
+    parse(s: string, style: NumberStyles): nuint;
+    parse(s: string, provider: IFormatProvider): nuint;
+    parse(s: string): nuint;
+    popCount(value: nuint): nuint;
+    rotateLeft(value: nuint, rotateAmount: int): nuint;
+    rotateRight(value: nuint, rotateAmount: int): nuint;
+    sign(value: nuint): int;
+    subtract(pointer: nuint, offset: int): nuint;
+    trailingZeroCount(value: nuint): nuint;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<nuint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<nuint> }): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: { value: ref<nuint> }): boolean;
+    tryParse(s: string, result: { value: ref<nuint> }): boolean;
+};
 
 
 export interface __UIntPtr$views {
@@ -3757,29 +4129,39 @@ export interface UIntPtr$instance extends System_Numerics_Internal.IMinMaxValue_
 export type UIntPtr = UIntPtr$instance & __UIntPtr$views;
 
 
-export class UriCreationOptions$instance {
+export interface UriCreationOptions$instance {
     dangerousDisablePathAndQueryCanonicalization: boolean;
 }
 
 
+export const UriCreationOptions: {
+    new(): UriCreationOptions$instance;
+};
+
+
 export type UriCreationOptions = UriCreationOptions$instance;
 
-export class ValueTuple$instance {
+export interface ValueTuple$instance {
     compareTo(other: ValueTuple): int;
     equals(obj: unknown): boolean;
     equals(other: ValueTuple): boolean;
     getHashCode(): int;
     toString(): string;
-    static create(): ValueTuple;
-    static create<T1, T2, T3, T4, T5, T6, T7, T8>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
-    static create<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
-    static create<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
-    static create<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
-    static create<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
-    static create<T1, T2, T3>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
-    static create<T1, T2>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
-    static create<T1>(item1: T1): ValueTuple_1<T1>;
 }
+
+
+export const ValueTuple: {
+    new(): ValueTuple$instance;
+    create(): ValueTuple;
+    create<T1, T2, T3, T4, T5, T6, T7, T8>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, item8: T8): ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, ValueTuple_1<T8>>;
+    create<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>;
+    create<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6<T1, T2, T3, T4, T5, T6>;
+    create<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5<T1, T2, T3, T4, T5>;
+    create<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4<T1, T2, T3, T4>;
+    create<T1, T2, T3>(item1: T1, item2: T2, item3: T3): ValueTuple_3<T1, T2, T3>;
+    create<T1, T2>(item1: T1, item2: T2): ValueTuple_2<T1, T2>;
+    create<T1>(item1: T1): ValueTuple_1<T1>;
+};
 
 
 export interface __ValueTuple$views {
@@ -3800,8 +4182,7 @@ export interface ValueTuple$instance extends IComparable_1$instance<ValueTuple>,
 export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 
 
-export class ValueTuple_1$instance<T1> {
-    constructor(item1: T1);
+export interface ValueTuple_1$instance<T1> {
     item1: T1;
     compareTo(other: ValueTuple_1<T1>): int;
     equals(obj: unknown): boolean;
@@ -3809,6 +4190,11 @@ export class ValueTuple_1$instance<T1> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_1: {
+    new<T1>(item1: T1): ValueTuple_1$instance<T1>;
+};
 
 
 export interface __ValueTuple_1$views<T1> {
@@ -3829,8 +4215,7 @@ export interface ValueTuple_1$instance<T1> extends IComparable_1$instance<ValueT
 export type ValueTuple_1<T1> = ValueTuple_1$instance<T1> & __ValueTuple_1$views<T1>;
 
 
-export class ValueTuple_2$instance<T1, T2> {
-    constructor(item1: T1, item2: T2);
+export interface ValueTuple_2$instance<T1, T2> {
     item1: T1;
     item2: T2;
     compareTo(other: ValueTuple_2<T1, T2>): int;
@@ -3839,6 +4224,11 @@ export class ValueTuple_2$instance<T1, T2> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_2: {
+    new<T1, T2>(item1: T1, item2: T2): ValueTuple_2$instance<T1, T2>;
+};
 
 
 export interface __ValueTuple_2$views<T1, T2> {
@@ -3859,8 +4249,7 @@ export interface ValueTuple_2$instance<T1, T2> extends IComparable_1$instance<Va
 export type ValueTuple_2<T1, T2> = ValueTuple_2$instance<T1, T2> & __ValueTuple_2$views<T1, T2>;
 
 
-export class ValueTuple_3$instance<T1, T2, T3> {
-    constructor(item1: T1, item2: T2, item3: T3);
+export interface ValueTuple_3$instance<T1, T2, T3> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -3870,6 +4259,11 @@ export class ValueTuple_3$instance<T1, T2, T3> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_3: {
+    new<T1, T2, T3>(item1: T1, item2: T2, item3: T3): ValueTuple_3$instance<T1, T2, T3>;
+};
 
 
 export interface __ValueTuple_3$views<T1, T2, T3> {
@@ -3890,8 +4284,7 @@ export interface ValueTuple_3$instance<T1, T2, T3> extends IComparable_1$instanc
 export type ValueTuple_3<T1, T2, T3> = ValueTuple_3$instance<T1, T2, T3> & __ValueTuple_3$views<T1, T2, T3>;
 
 
-export class ValueTuple_4$instance<T1, T2, T3, T4> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4);
+export interface ValueTuple_4$instance<T1, T2, T3, T4> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -3902,6 +4295,11 @@ export class ValueTuple_4$instance<T1, T2, T3, T4> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_4: {
+    new<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): ValueTuple_4$instance<T1, T2, T3, T4>;
+};
 
 
 export interface __ValueTuple_4$views<T1, T2, T3, T4> {
@@ -3922,8 +4320,7 @@ export interface ValueTuple_4$instance<T1, T2, T3, T4> extends IComparable_1$ins
 export type ValueTuple_4<T1, T2, T3, T4> = ValueTuple_4$instance<T1, T2, T3, T4> & __ValueTuple_4$views<T1, T2, T3, T4>;
 
 
-export class ValueTuple_5$instance<T1, T2, T3, T4, T5> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5);
+export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -3935,6 +4332,11 @@ export class ValueTuple_5$instance<T1, T2, T3, T4, T5> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_5: {
+    new<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): ValueTuple_5$instance<T1, T2, T3, T4, T5>;
+};
 
 
 export interface __ValueTuple_5$views<T1, T2, T3, T4, T5> {
@@ -3955,8 +4357,7 @@ export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> extends IComparable_1
 export type ValueTuple_5<T1, T2, T3, T4, T5> = ValueTuple_5$instance<T1, T2, T3, T4, T5> & __ValueTuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export class ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6);
+export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -3969,6 +4370,11 @@ export class ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_6: {
+    new<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): ValueTuple_6$instance<T1, T2, T3, T4, T5, T6>;
+};
 
 
 export interface __ValueTuple_6$views<T1, T2, T3, T4, T5, T6> {
@@ -3989,8 +4395,7 @@ export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> extends IComparab
 export type ValueTuple_6<T1, T2, T3, T4, T5, T6> = ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> & __ValueTuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export class ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7);
+export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -4004,6 +4409,11 @@ export class ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_7: {
+    new<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7>;
+};
 
 
 export interface __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
@@ -4024,8 +4434,7 @@ export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends IComp
 export type ValueTuple_7<T1, T2, T3, T4, T5, T6, T7> = ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __ValueTuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export class ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest);
+export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
     item1: T1;
     item2: T2;
     item3: T3;
@@ -4040,6 +4449,11 @@ export class ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends unk
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ValueTuple_8: {
+    new<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest>;
+};
 
 
 export interface __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest extends unknown> {
@@ -4060,18 +4474,27 @@ export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends
 export type ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __ValueTuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
-export class Void$instance {
+export interface Void$instance {
 }
+
+
+export const Void: {
+    new(): Void$instance;
+};
 
 
 export type Void = Void$instance;
 
-export class AccessViolationException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface AccessViolationException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AccessViolationException: {
+    new(): AccessViolationException$instance;
+    new(message: string): AccessViolationException$instance;
+    new(message: string, innerException: Exception): AccessViolationException$instance;
+};
 
 
 export interface __AccessViolationException$views {
@@ -4081,320 +4504,7 @@ export interface __AccessViolationException$views {
 export type AccessViolationException = AccessViolationException$instance & __AccessViolationException$views;
 
 
-export class Action$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): void;
-}
-
-
-export interface __Action$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action = Action$instance & __Action$views;
-
-
-export class Action_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(obj: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(obj: T): void;
-}
-
-
-export interface __Action_1$views<T> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_1<T> = Action_1$instance<T> & __Action_1$views<T>;
-
-
-export class Action_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): void;
-}
-
-
-export interface __Action_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> = Action_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10> & __Action_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>;
-
-
-export class Action_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): void;
-}
-
-
-export interface __Action_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> = Action_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11> & __Action_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>;
-
-
-export class Action_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): void;
-}
-
-
-export interface __Action_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> = Action_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12> & __Action_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>;
-
-
-export class Action_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): void;
-}
-
-
-export interface __Action_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> = Action_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13> & __Action_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>;
-
-
-export class Action_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): void;
-}
-
-
-export interface __Action_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> = Action_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14> & __Action_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>;
-
-
-export class Action_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): void;
-}
-
-
-export interface __Action_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> = Action_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15> & __Action_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>;
-
-
-export class Action_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): void;
-}
-
-
-export interface __Action_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> = Action_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16> & __Action_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>;
-
-
-export class Action_2$instance<T1, T2> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2): void;
-}
-
-
-export interface __Action_2$views<T1, T2> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_2<T1, T2> = Action_2$instance<T1, T2> & __Action_2$views<T1, T2>;
-
-
-export class Action_3$instance<T1, T2, T3> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3): void;
-}
-
-
-export interface __Action_3$views<T1, T2, T3> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_3<T1, T2, T3> = Action_3$instance<T1, T2, T3> & __Action_3$views<T1, T2, T3>;
-
-
-export class Action_4$instance<T1, T2, T3, T4> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): void;
-}
-
-
-export interface __Action_4$views<T1, T2, T3, T4> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_4<T1, T2, T3, T4> = Action_4$instance<T1, T2, T3, T4> & __Action_4$views<T1, T2, T3, T4>;
-
-
-export class Action_5$instance<T1, T2, T3, T4, T5> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): void;
-}
-
-
-export interface __Action_5$views<T1, T2, T3, T4, T5> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_5<T1, T2, T3, T4, T5> = Action_5$instance<T1, T2, T3, T4, T5> & __Action_5$views<T1, T2, T3, T4, T5>;
-
-
-export class Action_6$instance<T1, T2, T3, T4, T5, T6> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): void;
-}
-
-
-export interface __Action_6$views<T1, T2, T3, T4, T5, T6> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_6<T1, T2, T3, T4, T5, T6> = Action_6$instance<T1, T2, T3, T4, T5, T6> & __Action_6$views<T1, T2, T3, T4, T5, T6>;
-
-
-export class Action_7$instance<T1, T2, T3, T4, T5, T6, T7> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): void;
-}
-
-
-export interface __Action_7$views<T1, T2, T3, T4, T5, T6, T7> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_7<T1, T2, T3, T4, T5, T6, T7> = Action_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Action_7$views<T1, T2, T3, T4, T5, T6, T7>;
-
-
-export class Action_8$instance<T1, T2, T3, T4, T5, T6, T7, T8> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): void;
-}
-
-
-export interface __Action_8$views<T1, T2, T3, T4, T5, T6, T7, T8> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_8<T1, T2, T3, T4, T5, T6, T7, T8> = Action_8$instance<T1, T2, T3, T4, T5, T6, T7, T8> & __Action_8$views<T1, T2, T3, T4, T5, T6, T7, T8>;
-
-
-export class Action_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): void;
-}
-
-
-export interface __Action_9$views<T1, T2, T3, T4, T5, T6, T7, T8, T9> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9> = Action_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9> & __Action_9$views<T1, T2, T3, T4, T5, T6, T7, T8, T9>;
-
-
-export class AggregateException$instance extends Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(innerExceptions: IEnumerable_1<Exception>);
-    constructor(innerExceptions: Exception[]);
-    constructor(message: string, innerExceptions: IEnumerable_1<Exception>);
-    constructor(message: string, innerExceptions: Exception[]);
+export interface AggregateException$instance extends Exception$instance {
     readonly innerExceptions: ReadOnlyCollection_1<Exception>;
     readonly message: string;
     flatten(): AggregateException;
@@ -4405,6 +4515,17 @@ export class AggregateException$instance extends Exception$instance {
 }
 
 
+export const AggregateException: {
+    new(): AggregateException$instance;
+    new(message: string): AggregateException$instance;
+    new(message: string, innerException: Exception): AggregateException$instance;
+    new(innerExceptions: IEnumerable_1<Exception>): AggregateException$instance;
+    new(innerExceptions: Exception[]): AggregateException$instance;
+    new(message: string, innerExceptions: IEnumerable_1<Exception>): AggregateException$instance;
+    new(message: string, innerExceptions: Exception[]): AggregateException$instance;
+};
+
+
 export interface __AggregateException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -4412,7 +4533,7 @@ export interface __AggregateException$views {
 export type AggregateException = AggregateException$instance & __AggregateException$views;
 
 
-export class AppDomain$instance extends MarshalByRefObject$instance {
+export interface AppDomain$instance extends MarshalByRefObject {
     readonly baseDirectory: string;
     readonly dynamicDirectory: string;
     readonly friendlyName: string;
@@ -4466,31 +4587,45 @@ export class AppDomain$instance extends MarshalByRefObject$instance {
     setShadowCopyPath(path: string): void;
     setThreadPrincipal(principal: IPrincipal): void;
     toString(): string;
-    static readonly currentDomain: AppDomain;
-    static monitoringIsEnabled: boolean;
-    static readonly monitoringSurvivedProcessMemorySize: long;
-    static createDomain(friendlyName: string): AppDomain;
-    static getCurrentThreadId(): int;
-    static unload(domain: AppDomain): void;
 }
+
+
+export const AppDomain: {
+    new(): AppDomain$instance;
+    readonly currentDomain: AppDomain;
+    monitoringIsEnabled: boolean;
+    readonly monitoringSurvivedProcessMemorySize: long;
+    createDomain(friendlyName: string): AppDomain;
+    getCurrentThreadId(): int;
+    unload(domain: AppDomain): void;
+};
 
 
 export type AppDomain = AppDomain$instance;
 
-export class AppDomainSetup$instance {
+export interface AppDomainSetup$instance {
     readonly applicationBase: string;
     readonly targetFrameworkName: string;
 }
 
 
+export const AppDomainSetup: {
+    new(): AppDomainSetup$instance;
+};
+
+
 export type AppDomainSetup = AppDomainSetup$instance;
 
-export class AppDomainUnloadedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface AppDomainUnloadedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AppDomainUnloadedException: {
+    new(): AppDomainUnloadedException$instance;
+    new(message: string): AppDomainUnloadedException$instance;
+    new(message: string, innerException: Exception): AppDomainUnloadedException$instance;
+};
 
 
 export interface __AppDomainUnloadedException$views {
@@ -4500,12 +4635,16 @@ export interface __AppDomainUnloadedException$views {
 export type AppDomainUnloadedException = AppDomainUnloadedException$instance & __AppDomainUnloadedException$views;
 
 
-export class ApplicationException$instance extends Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ApplicationException$instance extends Exception$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ApplicationException: {
+    new(): ApplicationException$instance;
+    new(message: string): ApplicationException$instance;
+    new(message: string, innerException: Exception): ApplicationException$instance;
+};
 
 
 export interface __ApplicationException$views {
@@ -4515,8 +4654,7 @@ export interface __ApplicationException$views {
 export type ApplicationException = ApplicationException$instance & __ApplicationException$views;
 
 
-export class ApplicationId$instance {
-    constructor(publicKeyToken: byte[], name: string, version: Version, processorArchitecture: string, culture: string);
+export interface ApplicationId$instance {
     readonly culture: string;
     readonly name: string;
     readonly processorArchitecture: string;
@@ -4529,20 +4667,29 @@ export class ApplicationId$instance {
 }
 
 
+export const ApplicationId: {
+    new(publicKeyToken: byte[], name: string, version: Version, processorArchitecture: string, culture: string): ApplicationId$instance;
+};
+
+
 export type ApplicationId = ApplicationId$instance;
 
-export class ArgumentException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, paramName: string, innerException: Exception);
-    constructor(message: string, paramName: string);
+export interface ArgumentException$instance extends SystemException$instance {
     readonly message: string;
     readonly paramName: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static throwIfNullOrEmpty(argument: string, paramName?: string): void;
-    static throwIfNullOrWhiteSpace(argument: string, paramName?: string): void;
 }
+
+
+export const ArgumentException: {
+    new(): ArgumentException$instance;
+    new(message: string): ArgumentException$instance;
+    new(message: string, innerException: Exception): ArgumentException$instance;
+    new(message: string, paramName: string, innerException: Exception): ArgumentException$instance;
+    new(message: string, paramName: string): ArgumentException$instance;
+    throwIfNullOrEmpty(argument: string, paramName?: string): void;
+    throwIfNullOrWhiteSpace(argument: string, paramName?: string): void;
+};
 
 
 export interface __ArgumentException$views {
@@ -4552,15 +4699,19 @@ export interface __ArgumentException$views {
 export type ArgumentException = ArgumentException$instance & __ArgumentException$views;
 
 
-export class ArgumentNullException$instance extends ArgumentException$instance {
-    constructor();
-    constructor(paramName: string);
-    constructor(message: string, innerException: Exception);
-    constructor(paramName: string, message: string);
+export interface ArgumentNullException$instance extends ArgumentException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static throwIfNull(argument: unknown, paramName?: string): void;
-    static throwIfNull(argument: ptr<void>, paramName?: string): void;
 }
+
+
+export const ArgumentNullException: {
+    new(): ArgumentNullException$instance;
+    new(paramName: string): ArgumentNullException$instance;
+    new(message: string, innerException: Exception): ArgumentNullException$instance;
+    new(paramName: string, message: string): ArgumentNullException$instance;
+    throwIfNull(argument: unknown, paramName?: string): void;
+    throwIfNull(argument: ptr<void>, paramName?: string): void;
+};
 
 
 export interface __ArgumentNullException$views {
@@ -4570,25 +4721,29 @@ export interface __ArgumentNullException$views {
 export type ArgumentNullException = ArgumentNullException$instance & __ArgumentNullException$views;
 
 
-export class ArgumentOutOfRangeException$instance extends ArgumentException$instance {
-    constructor();
-    constructor(paramName: string);
-    constructor(paramName: string, message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(paramName: string, actualValue: unknown, message: string);
+export interface ArgumentOutOfRangeException$instance extends ArgumentException$instance {
     readonly actualValue: unknown;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static throwIfEqual<T extends IEquatable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfLessThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfLessThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfNegative<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
-    static throwIfNegativeOrZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
-    static throwIfNotEqual<T extends IEquatable_1<T>>(value: T, other: T, paramName?: string): void;
-    static throwIfZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
 }
+
+
+export const ArgumentOutOfRangeException: {
+    new(): ArgumentOutOfRangeException$instance;
+    new(paramName: string): ArgumentOutOfRangeException$instance;
+    new(paramName: string, message: string): ArgumentOutOfRangeException$instance;
+    new(message: string, innerException: Exception): ArgumentOutOfRangeException$instance;
+    new(paramName: string, actualValue: unknown, message: string): ArgumentOutOfRangeException$instance;
+    throwIfEqual<T>(value: T, other: T, paramName?: string): void;
+    throwIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfLessThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfLessThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfNegative<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
+    throwIfNegativeOrZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
+    throwIfNotEqual<T>(value: T, other: T, paramName?: string): void;
+    throwIfZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
+};
 
 
 export interface __ArgumentOutOfRangeException$views {
@@ -4598,12 +4753,16 @@ export interface __ArgumentOutOfRangeException$views {
 export type ArgumentOutOfRangeException = ArgumentOutOfRangeException$instance & __ArgumentOutOfRangeException$views;
 
 
-export class ArithmeticException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ArithmeticException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ArithmeticException: {
+    new(): ArithmeticException$instance;
+    new(message: string): ArithmeticException$instance;
+    new(message: string, innerException: Exception): ArithmeticException$instance;
+};
 
 
 export interface __ArithmeticException$views {
@@ -4613,7 +4772,7 @@ export interface __ArithmeticException$views {
 export type ArithmeticException = ArithmeticException$instance & __ArithmeticException$views;
 
 
-export abstract class Array$instance {
+export interface Array$instance {
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -4646,83 +4805,87 @@ export abstract class Array$instance {
     setValue(value: unknown, index1: long, index2: long): void;
     setValue(value: unknown, index1: long, index2: long, index3: long): void;
     setValue(value: unknown, indices: long[]): void;
-    static readonly maxLength: int;
-    static asReadOnly<T>(array: T[]): ReadOnlyCollection_1<T>;
-    static binarySearch(array: Array, index: int, length: int, value: unknown, comparer: IComparer): int;
-    static binarySearch(array: Array, index: int, length: int, value: unknown): int;
-    static binarySearch(array: Array, value: unknown, comparer: IComparer): int;
-    static binarySearch(array: Array, value: unknown): int;
-    static binarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T>): int;
-    static binarySearch<T>(array: T[], index: int, length: int, value: T): int;
-    static binarySearch<T>(array: T[], value: T, comparer: IComparer_1<T>): int;
-    static binarySearch<T>(array: T[], value: T): int;
-    static clear(array: Array, index: int, length: int): void;
-    static clear(array: Array): void;
-    static constrainedCopy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
-    static convertAll<TInput, TOutput>(array: TInput[], converter: Converter_2<TInput, TOutput>): TOutput[];
-    static copy(sourceArray: Array, destinationArray: Array, length: int): void;
-    static copy(sourceArray: Array, destinationArray: Array, length: long): void;
-    static copy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
-    static copy(sourceArray: Array, sourceIndex: long, destinationArray: Array, destinationIndex: long, length: long): void;
-    static createInstance(elementType: Type, length1: int, length2: int, length3: int): Array;
-    static createInstance(elementType: Type, length1: int, length2: int): Array;
-    static createInstance(elementType: Type, length: int): Array;
-    static createInstance(elementType: Type, lengths: int[], lowerBounds: int[]): Array;
-    static createInstance(elementType: Type, lengths: int[]): Array;
-    static createInstance(elementType: Type, lengths: long[]): Array;
-    static createInstanceFromArrayType(arrayType: Type, length: int): Array;
-    static createInstanceFromArrayType(arrayType: Type, lengths: int[], lowerBounds: int[]): Array;
-    static createInstanceFromArrayType(arrayType: Type, lengths: int[]): Array;
-    static empty<T>(): T[];
-    static exists<T>(array: T[], match: Predicate_1<T>): boolean;
-    static fill<T>(array: T[], value: T, startIndex: int, count: int): void;
-    static fill<T>(array: T[], value: T): void;
-    static find<T>(array: T[], match: Predicate_1<T>): T;
-    static findAll<T>(array: T[], match: Predicate_1<T>): T[];
-    static findIndex<T>(array: T[], match: Predicate_1<T>): int;
-    static findIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
-    static findIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
-    static findLast<T>(array: T[], match: Predicate_1<T>): T;
-    static findLastIndex<T>(array: T[], match: Predicate_1<T>): int;
-    static findLastIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
-    static findLastIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
-    static forEach<T>(array: T[], action: Action_1<T>): void;
-    static indexOf(array: Array, value: unknown, startIndex: int, count: int): int;
-    static indexOf(array: Array, value: unknown, startIndex: int): int;
-    static indexOf(array: Array, value: unknown): int;
-    static indexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
-    static indexOf<T>(array: T[], value: T, startIndex: int): int;
-    static indexOf<T>(array: T[], value: T): int;
-    static lastIndexOf(array: Array, value: unknown, startIndex: int, count: int): int;
-    static lastIndexOf(array: Array, value: unknown, startIndex: int): int;
-    static lastIndexOf(array: Array, value: unknown): int;
-    static lastIndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
-    static lastIndexOf<T>(array: T[], value: T, startIndex: int): int;
-    static lastIndexOf<T>(array: T[], value: T): int;
-    static resize<T>(array: { value: ref<T[]> }, newSize: int): void;
-    static reverse(array: Array, index: int, length: int): void;
-    static reverse(array: Array): void;
-    static reverse<T>(array: T[], index: int, length: int): void;
-    static reverse<T>(array: T[]): void;
-    static sort(keys: Array, items: Array, comparer: IComparer): void;
-    static sort(keys: Array, items: Array, index: int, length: int, comparer: IComparer): void;
-    static sort(keys: Array, items: Array, index: int, length: int): void;
-    static sort(keys: Array, items: Array): void;
-    static sort(array: Array, comparer: IComparer): void;
-    static sort(array: Array, index: int, length: int, comparer: IComparer): void;
-    static sort(array: Array, index: int, length: int): void;
-    static sort(array: Array): void;
-    static sort<T>(array: T[], comparison: Comparison_1<T>): void;
-    static sort<T>(array: T[], comparer: IComparer_1<T>): void;
-    static sort<T>(array: T[], index: int, length: int, comparer: IComparer_1<T>): void;
-    static sort<T>(array: T[], index: int, length: int): void;
-    static sort<T>(array: T[]): void;
-    static sort<TKey, TValue>(keys: TKey[], items: TValue[], comparer: IComparer_1<TKey>): void;
-    static sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int, comparer: IComparer_1<TKey>): void;
-    static sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int): void;
-    static sort<TKey, TValue>(keys: TKey[], items: TValue[]): void;
-    static trueForAll<T>(array: T[], match: Predicate_1<T>): boolean;
 }
+
+
+export const Array: {
+    readonly maxLength: int;
+    asReadOnly<T>(array: T[]): ReadOnlyCollection_1<T>;
+    binarySearch(array: Array, index: int, length: int, value: unknown, comparer: IComparer): int;
+    binarySearch(array: Array, index: int, length: int, value: unknown): int;
+    binarySearch(array: Array, value: unknown, comparer: IComparer): int;
+    binarySearch(array: Array, value: unknown): int;
+    binarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T>): int;
+    binarySearch<T>(array: T[], index: int, length: int, value: T): int;
+    binarySearch<T>(array: T[], value: T, comparer: IComparer_1<T>): int;
+    binarySearch<T>(array: T[], value: T): int;
+    clear(array: Array, index: int, length: int): void;
+    clear(array: Array): void;
+    constrainedCopy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
+    convertAll<TInput, TOutput>(array: TInput[], converter: Converter_2<TInput, TOutput>): TOutput[];
+    copy(sourceArray: Array, destinationArray: Array, length: int): void;
+    copy(sourceArray: Array, destinationArray: Array, length: long): void;
+    copy(sourceArray: Array, sourceIndex: int, destinationArray: Array, destinationIndex: int, length: int): void;
+    copy(sourceArray: Array, sourceIndex: long, destinationArray: Array, destinationIndex: long, length: long): void;
+    createInstance(elementType: Type, length1: int, length2: int, length3: int): Array;
+    createInstance(elementType: Type, length1: int, length2: int): Array;
+    createInstance(elementType: Type, length: int): Array;
+    createInstance(elementType: Type, lengths: int[], lowerBounds: int[]): Array;
+    createInstance(elementType: Type, lengths: int[]): Array;
+    createInstance(elementType: Type, lengths: long[]): Array;
+    createInstanceFromArrayType(arrayType: Type, length: int): Array;
+    createInstanceFromArrayType(arrayType: Type, lengths: int[], lowerBounds: int[]): Array;
+    createInstanceFromArrayType(arrayType: Type, lengths: int[]): Array;
+    empty<T>(): T[];
+    exists<T>(array: T[], match: Predicate_1<T>): boolean;
+    fill<T>(array: T[], value: T, startIndex: int, count: int): void;
+    fill<T>(array: T[], value: T): void;
+    find<T>(array: T[], match: Predicate_1<T>): T;
+    findAll<T>(array: T[], match: Predicate_1<T>): T[];
+    findIndex<T>(array: T[], match: Predicate_1<T>): int;
+    findIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
+    findIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
+    findLast<T>(array: T[], match: Predicate_1<T>): T;
+    findLastIndex<T>(array: T[], match: Predicate_1<T>): int;
+    findLastIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
+    findLastIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
+    forEach<T>(array: T[], action: Action_1<T>): void;
+    indexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    indexOf(array: Array, value: unknown, startIndex: int): int;
+    indexOf(array: Array, value: unknown): int;
+    indexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
+    indexOf<T>(array: T[], value: T, startIndex: int): int;
+    indexOf<T>(array: T[], value: T): int;
+    lastIndexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    lastIndexOf(array: Array, value: unknown, startIndex: int): int;
+    lastIndexOf(array: Array, value: unknown): int;
+    lastIndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
+    lastIndexOf<T>(array: T[], value: T, startIndex: int): int;
+    lastIndexOf<T>(array: T[], value: T): int;
+    resize<T>(array: { value: ref<T[]> }, newSize: int): void;
+    reverse(array: Array, index: int, length: int): void;
+    reverse(array: Array): void;
+    reverse<T>(array: T[], index: int, length: int): void;
+    reverse<T>(array: T[]): void;
+    sort(keys: Array, items: Array, comparer: IComparer): void;
+    sort(keys: Array, items: Array, index: int, length: int, comparer: IComparer): void;
+    sort(keys: Array, items: Array, index: int, length: int): void;
+    sort(keys: Array, items: Array): void;
+    sort(array: Array, comparer: IComparer): void;
+    sort(array: Array, index: int, length: int, comparer: IComparer): void;
+    sort(array: Array, index: int, length: int): void;
+    sort(array: Array): void;
+    sort<T>(array: T[], comparison: Comparison_1<T>): void;
+    sort<T>(array: T[], comparer: IComparer_1<T>): void;
+    sort<T>(array: T[], index: int, length: int, comparer: IComparer_1<T>): void;
+    sort<T>(array: T[], index: int, length: int): void;
+    sort<T>(array: T[]): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], comparer: IComparer_1<TKey>): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int, comparer: IComparer_1<TKey>): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[]): void;
+    trueForAll<T>(array: T[], match: Predicate_1<T>): boolean;
+};
 
 
 export interface __Array$views {
@@ -4739,12 +4902,16 @@ export interface Array$instance extends System_Collections_Internal.IStructuralC
 export type Array = Array$instance & __Array$views;
 
 
-export class ArrayTypeMismatchException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ArrayTypeMismatchException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ArrayTypeMismatchException: {
+    new(): ArrayTypeMismatchException$instance;
+    new(message: string): ArrayTypeMismatchException$instance;
+    new(message: string, innerException: Exception): ArrayTypeMismatchException$instance;
+};
 
 
 export interface __ArrayTypeMismatchException$views {
@@ -4754,115 +4921,95 @@ export interface __ArrayTypeMismatchException$views {
 export type ArrayTypeMismatchException = ArrayTypeMismatchException$instance & __ArrayTypeMismatchException$views;
 
 
-export class AssemblyLoadEventArgs$instance extends EventArgs$instance {
-    constructor(loadedAssembly: Assembly);
+export interface AssemblyLoadEventArgs$instance extends EventArgs {
     readonly loadedAssembly: Assembly;
 }
 
 
+export const AssemblyLoadEventArgs: {
+    new(loadedAssembly: Assembly): AssemblyLoadEventArgs$instance;
+};
+
+
 export type AssemblyLoadEventArgs = AssemblyLoadEventArgs$instance;
 
-export class AssemblyLoadEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, args: AssemblyLoadEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, args: AssemblyLoadEventArgs): void;
-}
-
-
-export interface __AssemblyLoadEventHandler$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type AssemblyLoadEventHandler = AssemblyLoadEventHandler$instance & __AssemblyLoadEventHandler$views;
-
-
-export class AsyncCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(ar: IAsyncResult, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(ar: IAsyncResult): void;
-}
-
-
-export interface __AsyncCallback$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type AsyncCallback = AsyncCallback$instance & __AsyncCallback$views;
-
-
-export abstract class Attribute$instance {
+export interface Attribute$instance {
     readonly typeId: unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
     match(obj: unknown): boolean;
-    static getCustomAttribute(element: Assembly, attributeType: Type, inherit: boolean): Attribute;
-    static getCustomAttribute(element: Assembly, attributeType: Type): Attribute;
-    static getCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute;
-    static getCustomAttribute(element: MemberInfo, attributeType: Type): Attribute;
-    static getCustomAttribute(element: Module, attributeType: Type, inherit: boolean): Attribute;
-    static getCustomAttribute(element: Module, attributeType: Type): Attribute;
-    static getCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute;
-    static getCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute;
-    static getCustomAttributes(element: Assembly, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: Assembly, attributeType: Type, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: Assembly, attributeType: Type): Attribute[];
-    static getCustomAttributes(element: Assembly): Attribute[];
-    static getCustomAttributes(element: MemberInfo, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: MemberInfo, attributeType: Type): Attribute[];
-    static getCustomAttributes(element: MemberInfo): Attribute[];
-    static getCustomAttributes(element: Module, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: Module, attributeType: Type, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: Module, attributeType: Type): Attribute[];
-    static getCustomAttributes(element: Module): Attribute[];
-    static getCustomAttributes(element: ParameterInfo, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute[];
-    static getCustomAttributes(element: ParameterInfo, attributeType: Type): Attribute[];
-    static getCustomAttributes(element: ParameterInfo): Attribute[];
-    static isDefined(element: Assembly, attributeType: Type, inherit: boolean): boolean;
-    static isDefined(element: Assembly, attributeType: Type): boolean;
-    static isDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;
-    static isDefined(element: MemberInfo, attributeType: Type): boolean;
-    static isDefined(element: Module, attributeType: Type, inherit: boolean): boolean;
-    static isDefined(element: Module, attributeType: Type): boolean;
-    static isDefined(element: ParameterInfo, attributeType: Type, inherit: boolean): boolean;
-    static isDefined(element: ParameterInfo, attributeType: Type): boolean;
 }
+
+
+export const Attribute: {
+    getCustomAttribute(element: Assembly, attributeType: Type, inherit: boolean): Attribute;
+    getCustomAttribute(element: Assembly, attributeType: Type): Attribute;
+    getCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute;
+    getCustomAttribute(element: MemberInfo, attributeType: Type): Attribute;
+    getCustomAttribute(element: Module, attributeType: Type, inherit: boolean): Attribute;
+    getCustomAttribute(element: Module, attributeType: Type): Attribute;
+    getCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute;
+    getCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute;
+    getCustomAttributes(element: Assembly, inherit: boolean): Attribute[];
+    getCustomAttributes(element: Assembly, attributeType: Type, inherit: boolean): Attribute[];
+    getCustomAttributes(element: Assembly, attributeType: Type): Attribute[];
+    getCustomAttributes(element: Assembly): Attribute[];
+    getCustomAttributes(element: MemberInfo, inherit: boolean): Attribute[];
+    getCustomAttributes(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute[];
+    getCustomAttributes(element: MemberInfo, attributeType: Type): Attribute[];
+    getCustomAttributes(element: MemberInfo): Attribute[];
+    getCustomAttributes(element: Module, inherit: boolean): Attribute[];
+    getCustomAttributes(element: Module, attributeType: Type, inherit: boolean): Attribute[];
+    getCustomAttributes(element: Module, attributeType: Type): Attribute[];
+    getCustomAttributes(element: Module): Attribute[];
+    getCustomAttributes(element: ParameterInfo, inherit: boolean): Attribute[];
+    getCustomAttributes(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute[];
+    getCustomAttributes(element: ParameterInfo, attributeType: Type): Attribute[];
+    getCustomAttributes(element: ParameterInfo): Attribute[];
+    isDefined(element: Assembly, attributeType: Type, inherit: boolean): boolean;
+    isDefined(element: Assembly, attributeType: Type): boolean;
+    isDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;
+    isDefined(element: MemberInfo, attributeType: Type): boolean;
+    isDefined(element: Module, attributeType: Type, inherit: boolean): boolean;
+    isDefined(element: Module, attributeType: Type): boolean;
+    isDefined(element: ParameterInfo, attributeType: Type, inherit: boolean): boolean;
+    isDefined(element: ParameterInfo, attributeType: Type): boolean;
+};
 
 
 export type Attribute = Attribute$instance;
 
-export class AttributeUsageAttribute$instance extends Attribute$instance {
-    constructor(validOn: AttributeTargets);
+export interface AttributeUsageAttribute$instance extends Attribute {
     allowMultiple: boolean;
     inherited: boolean;
     readonly validOn: AttributeTargets;
 }
 
 
+export const AttributeUsageAttribute: {
+    new(validOn: AttributeTargets): AttributeUsageAttribute$instance;
+};
+
+
 export type AttributeUsageAttribute = AttributeUsageAttribute$instance;
 
-export class BadImageFormatException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, fileName: string);
-    constructor(message: string, fileName: string, inner: Exception);
+export interface BadImageFormatException$instance extends SystemException$instance {
     readonly fileName: string;
     readonly fusionLog: string;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const BadImageFormatException: {
+    new(): BadImageFormatException$instance;
+    new(message: string): BadImageFormatException$instance;
+    new(message: string, inner: Exception): BadImageFormatException$instance;
+    new(message: string, fileName: string): BadImageFormatException$instance;
+    new(message: string, fileName: string, inner: Exception): BadImageFormatException$instance;
+};
 
 
 export interface __BadImageFormatException$views {
@@ -4872,12 +5019,16 @@ export interface __BadImageFormatException$views {
 export type BadImageFormatException = BadImageFormatException$instance & __BadImageFormatException$views;
 
 
-export class CannotUnloadAppDomainException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface CannotUnloadAppDomainException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const CannotUnloadAppDomainException: {
+    new(): CannotUnloadAppDomainException$instance;
+    new(message: string): CannotUnloadAppDomainException$instance;
+    new(message: string, innerException: Exception): CannotUnloadAppDomainException$instance;
+};
 
 
 export interface __CannotUnloadAppDomainException$views {
@@ -4887,13 +5038,18 @@ export interface __CannotUnloadAppDomainException$views {
 export type CannotUnloadAppDomainException = CannotUnloadAppDomainException$instance & __CannotUnloadAppDomainException$views;
 
 
-export class CharEnumerator$instance implements IDisposable$instance {
+export interface CharEnumerator$instance extends IDisposable {
     readonly current: char;
     clone(): unknown;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const CharEnumerator: {
+    new(): CharEnumerator$instance;
+};
 
 
 export interface __CharEnumerator$views {
@@ -4907,70 +5063,51 @@ export interface CharEnumerator$instance extends ICloneable$instance {}
 export type CharEnumerator = CharEnumerator$instance & __CharEnumerator$views;
 
 
-export class CLSCompliantAttribute$instance extends Attribute$instance {
-    constructor(isCompliant: boolean);
+export interface CLSCompliantAttribute$instance extends Attribute {
     readonly isCompliant: boolean;
 }
 
 
+export const CLSCompliantAttribute: {
+    new(isCompliant: boolean): CLSCompliantAttribute$instance;
+};
+
+
 export type CLSCompliantAttribute = CLSCompliantAttribute$instance;
 
-export class Comparison_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(x: T, y: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): int;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(x: T, y: T): int;
-}
-
-
-export interface __Comparison_1$views<T> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Comparison_1<T> = Comparison_1$instance<T> & __Comparison_1$views<T>;
-
-
-export class ConsoleCancelEventArgs$instance extends EventArgs$instance {
+export interface ConsoleCancelEventArgs$instance extends EventArgs {
     cancel: boolean;
     readonly specialKey: ConsoleSpecialKey;
 }
 
 
+export const ConsoleCancelEventArgs: {
+    new(): ConsoleCancelEventArgs$instance;
+};
+
+
 export type ConsoleCancelEventArgs = ConsoleCancelEventArgs$instance;
 
-export class ConsoleCancelEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ConsoleCancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ConsoleCancelEventArgs): void;
+export interface ContextBoundObject$instance extends MarshalByRefObject {
 }
 
 
-export interface __ConsoleCancelEventHandler$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ConsoleCancelEventHandler = ConsoleCancelEventHandler$instance & __ConsoleCancelEventHandler$views;
-
-
-export abstract class ContextBoundObject$instance extends MarshalByRefObject$instance {
-}
+export const ContextBoundObject: {
+};
 
 
 export type ContextBoundObject = ContextBoundObject$instance;
 
-export class ContextMarshalException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface ContextMarshalException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ContextMarshalException: {
+    new(): ContextMarshalException$instance;
+    new(message: string): ContextMarshalException$instance;
+    new(message: string, inner: Exception): ContextMarshalException$instance;
+};
 
 
 export interface __ContextMarshalException$views {
@@ -4980,32 +5117,18 @@ export interface __ContextMarshalException$views {
 export type ContextMarshalException = ContextMarshalException$instance & __ContextMarshalException$views;
 
 
-export class ContextStaticAttribute$instance extends Attribute$instance {
-    constructor();
+export interface ContextStaticAttribute$instance extends Attribute {
 }
+
+
+export const ContextStaticAttribute: {
+    new(): ContextStaticAttribute$instance;
+};
 
 
 export type ContextStaticAttribute = ContextStaticAttribute$instance;
 
-export class Converter_2$instance<TInput, TOutput> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(input: TInput, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TOutput;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(input: TInput): TOutput;
-}
-
-
-export interface __Converter_2$views<TInput, TOutput> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Converter_2<TInput, TOutput> = Converter_2$instance<TInput, TOutput> & __Converter_2$views<TInput, TOutput>;
-
-
-export class CultureAwareComparer$instance extends StringComparer$instance {
+export interface CultureAwareComparer$instance extends StringComparer$instance {
     compare(x: string, y: string): int;
     compare(x: unknown, y: unknown): int;
     compare(x: unknown, y: unknown): int;
@@ -5017,6 +5140,11 @@ export class CultureAwareComparer$instance extends StringComparer$instance {
     getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const CultureAwareComparer: {
+    new(): CultureAwareComparer$instance;
+};
 
 
 export interface __CultureAwareComparer$views {
@@ -5033,12 +5161,16 @@ export interface CultureAwareComparer$instance extends System_Runtime_Serializat
 export type CultureAwareComparer = CultureAwareComparer$instance & __CultureAwareComparer$views;
 
 
-export class DataMisalignedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface DataMisalignedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DataMisalignedException: {
+    new(): DataMisalignedException$instance;
+    new(message: string): DataMisalignedException$instance;
+    new(message: string, innerException: Exception): DataMisalignedException$instance;
+};
 
 
 export interface __DataMisalignedException$views {
@@ -5048,13 +5180,18 @@ export interface __DataMisalignedException$views {
 export type DataMisalignedException = DataMisalignedException$instance & __DataMisalignedException$views;
 
 
-export class DBNull$instance {
+export interface DBNull$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getTypeCode(): TypeCode;
     toString(): string;
     toString(provider: IFormatProvider): string;
-    static readonly value: DBNull;
 }
+
+
+export const DBNull: {
+    new(): DBNull$instance;
+    readonly value: DBNull;
+};
 
 
 export interface __DBNull$views {
@@ -5067,7 +5204,7 @@ export interface DBNull$instance extends System_Runtime_Serialization_Internal.I
 export type DBNull = DBNull$instance & __DBNull$views;
 
 
-export abstract class Delegate$instance {
+export interface Delegate$instance {
     readonly hasSingleTarget: boolean;
     readonly method: MethodInfo;
     readonly target: unknown;
@@ -5077,23 +5214,27 @@ export abstract class Delegate$instance {
     getHashCode(): int;
     getInvocationList(): Function[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static combine(a: Function, b: Function): Function;
-    static combine(delegates: Function[]): Function;
-    static combine(delegates: ReadOnlySpan_1<Function>): Function;
-    static createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function;
-    static createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo): Function;
-    static createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
-    static createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean): Function;
-    static createDelegate(type_: Type, target: unknown, method: string): Function;
-    static createDelegate(type_: Type, method: MethodInfo, throwOnBindFailure: boolean): Function;
-    static createDelegate(type_: Type, method: MethodInfo): Function;
-    static createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
-    static createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean): Function;
-    static createDelegate(type_: Type, target: Type, method: string): Function;
-    static enumerateInvocationList<TDelegate extends Function>(d: TDelegate): Delegate_InvocationListEnumerator_1<TDelegate>;
-    static remove(source: Function, value: Function): Function;
-    static removeAll(source: Function, value: Function): Function;
 }
+
+
+export const Delegate: {
+    combine(a: Function, b: Function): Function;
+    combine(delegates: Function[]): Function;
+    combine(delegates: ReadOnlySpan_1<Function>): Function;
+    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function;
+    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo): Function;
+    createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
+    createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean): Function;
+    createDelegate(type_: Type, target: unknown, method: string): Function;
+    createDelegate(type_: Type, method: MethodInfo, throwOnBindFailure: boolean): Function;
+    createDelegate(type_: Type, method: MethodInfo): Function;
+    createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function;
+    createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean): Function;
+    createDelegate(type_: Type, target: Type, method: string): Function;
+    enumerateInvocationList<TDelegate extends Function>(d: TDelegate): Delegate_InvocationListEnumerator_1<TDelegate>;
+    remove(source: Function, value: Function): Function;
+    removeAll(source: Function, value: Function): Function;
+};
 
 
 export interface __Delegate$views {
@@ -5106,12 +5247,16 @@ export interface Delegate$instance extends ICloneable$instance, System_Runtime_S
 export type Delegate = Delegate$instance & __Delegate$views;
 
 
-export class DivideByZeroException$instance extends ArithmeticException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface DivideByZeroException$instance extends ArithmeticException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DivideByZeroException: {
+    new(): DivideByZeroException$instance;
+    new(message: string): DivideByZeroException$instance;
+    new(message: string, innerException: Exception): DivideByZeroException$instance;
+};
 
 
 export interface __DivideByZeroException$views {
@@ -5121,12 +5266,16 @@ export interface __DivideByZeroException$views {
 export type DivideByZeroException = DivideByZeroException$instance & __DivideByZeroException$views;
 
 
-export class DllNotFoundException$instance extends TypeLoadException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface DllNotFoundException$instance extends TypeLoadException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DllNotFoundException: {
+    new(): DllNotFoundException$instance;
+    new(message: string): DllNotFoundException$instance;
+    new(message: string, inner: Exception): DllNotFoundException$instance;
+};
 
 
 export interface __DllNotFoundException$views {
@@ -5136,13 +5285,17 @@ export interface __DllNotFoundException$views {
 export type DllNotFoundException = DllNotFoundException$instance & __DllNotFoundException$views;
 
 
-export class DuplicateWaitObjectException$instance extends ArgumentException$instance {
-    constructor();
-    constructor(parameterName: string);
-    constructor(parameterName: string, message: string);
-    constructor(message: string, innerException: Exception);
+export interface DuplicateWaitObjectException$instance extends ArgumentException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DuplicateWaitObjectException: {
+    new(): DuplicateWaitObjectException$instance;
+    new(parameterName: string): DuplicateWaitObjectException$instance;
+    new(parameterName: string, message: string): DuplicateWaitObjectException$instance;
+    new(message: string, innerException: Exception): DuplicateWaitObjectException$instance;
+};
 
 
 export interface __DuplicateWaitObjectException$views {
@@ -5152,12 +5305,16 @@ export interface __DuplicateWaitObjectException$views {
 export type DuplicateWaitObjectException = DuplicateWaitObjectException$instance & __DuplicateWaitObjectException$views;
 
 
-export class EntryPointNotFoundException$instance extends TypeLoadException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface EntryPointNotFoundException$instance extends TypeLoadException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const EntryPointNotFoundException: {
+    new(): EntryPointNotFoundException$instance;
+    new(message: string): EntryPointNotFoundException$instance;
+    new(message: string, inner: Exception): EntryPointNotFoundException$instance;
+};
 
 
 export interface __EntryPointNotFoundException$views {
@@ -5167,7 +5324,7 @@ export interface __EntryPointNotFoundException$views {
 export type EntryPointNotFoundException = EntryPointNotFoundException$instance & __EntryPointNotFoundException$views;
 
 
-export abstract class Enum$instance {
+export interface Enum$instance {
     compareTo(target: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
@@ -5177,45 +5334,49 @@ export abstract class Enum$instance {
     toString(format: string): string;
     toString(provider: IFormatProvider): string;
     toString(format: string, provider: IFormatProvider): string;
-    static format(enumType: Type, value: unknown, format: string): string;
-    static getName(enumType: Type, value: unknown): string;
-    static getName<TEnum extends number>(value: TEnum): string;
-    static getNames<TEnum extends number>(): string[];
-    static getNames(enumType: Type): string[];
-    static getUnderlyingType(enumType: Type): Type;
-    static getValues<TEnum extends number>(): TEnum[];
-    static getValues(enumType: Type): Array;
-    static getValuesAsUnderlyingType<TEnum extends number>(): Array;
-    static getValuesAsUnderlyingType(enumType: Type): Array;
-    static isDefined(enumType: Type, value: unknown): boolean;
-    static isDefined<TEnum extends number>(value: TEnum): boolean;
-    static parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): TEnum;
-    static parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>): TEnum;
-    static parse<TEnum extends unknown>(value: string, ignoreCase: boolean): TEnum;
-    static parse<TEnum extends unknown>(value: string): TEnum;
-    static parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): unknown;
-    static parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>): unknown;
-    static parse(enumType: Type, value: string, ignoreCase: boolean): unknown;
-    static parse(enumType: Type, value: string): unknown;
-    static toObject(enumType: Type, value: byte): unknown;
-    static toObject(enumType: Type, value: short): unknown;
-    static toObject(enumType: Type, value: int): unknown;
-    static toObject(enumType: Type, value: long): unknown;
-    static toObject(enumType: Type, value: unknown): unknown;
-    static toObject(enumType: Type, value: sbyte): unknown;
-    static toObject(enumType: Type, value: ushort): unknown;
-    static toObject(enumType: Type, value: uint): unknown;
-    static toObject(enumType: Type, value: ulong): unknown;
-    static tryFormat<TEnum extends unknown>(value: TEnum, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
-    static tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TEnum> }): boolean;
-    static tryParse<TEnum extends unknown>(value: string, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
-    static tryParse<TEnum extends unknown>(value: string, result: { value: ref<TEnum> }): boolean;
-    static tryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
-    static tryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<unknown> }): boolean;
-    static tryParse(enumType: Type, value: string, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
-    static tryParse(enumType: Type, value: string, result: { value: ref<unknown> }): boolean;
 }
+
+
+export const Enum: {
+    format(enumType: Type, value: unknown, format: string): string;
+    getName(enumType: Type, value: unknown): string;
+    getName<TEnum extends number>(value: TEnum): string;
+    getNames<TEnum extends number>(): string[];
+    getNames(enumType: Type): string[];
+    getUnderlyingType(enumType: Type): Type;
+    getValues<TEnum extends number>(): TEnum[];
+    getValues(enumType: Type): Array;
+    getValuesAsUnderlyingType<TEnum extends number>(): Array;
+    getValuesAsUnderlyingType(enumType: Type): Array;
+    isDefined(enumType: Type, value: unknown): boolean;
+    isDefined<TEnum extends number>(value: TEnum): boolean;
+    parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): TEnum;
+    parse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>): TEnum;
+    parse<TEnum extends unknown>(value: string, ignoreCase: boolean): TEnum;
+    parse<TEnum extends unknown>(value: string): TEnum;
+    parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean): unknown;
+    parse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>): unknown;
+    parse(enumType: Type, value: string, ignoreCase: boolean): unknown;
+    parse(enumType: Type, value: string): unknown;
+    toObject(enumType: Type, value: byte): unknown;
+    toObject(enumType: Type, value: short): unknown;
+    toObject(enumType: Type, value: int): unknown;
+    toObject(enumType: Type, value: long): unknown;
+    toObject(enumType: Type, value: unknown): unknown;
+    toObject(enumType: Type, value: sbyte): unknown;
+    toObject(enumType: Type, value: ushort): unknown;
+    toObject(enumType: Type, value: uint): unknown;
+    toObject(enumType: Type, value: ulong): unknown;
+    tryFormat<TEnum extends unknown>(value: TEnum, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>): boolean;
+    tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
+    tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TEnum> }): boolean;
+    tryParse<TEnum extends unknown>(value: string, ignoreCase: boolean, result: { value: ref<TEnum> }): boolean;
+    tryParse<TEnum extends unknown>(value: string, result: { value: ref<TEnum> }): boolean;
+    tryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
+    tryParse(enumType: Type, value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<unknown> }): boolean;
+    tryParse(enumType: Type, value: string, ignoreCase: boolean, result: { value: ref<unknown> }): boolean;
+    tryParse(enumType: Type, value: string, result: { value: ref<unknown> }): boolean;
+};
 
 
 export interface __Enum$views {
@@ -5233,72 +5394,19 @@ export interface Enum$instance extends IComparable$instance {}
 export type Enum = Enum$instance & __Enum$views;
 
 
-export class EventArgs$instance {
-    constructor();
-    static readonly empty: EventArgs;
+export interface EventArgs$instance {
 }
+
+
+export const EventArgs: {
+    new(): EventArgs$instance;
+    readonly empty: EventArgs;
+};
 
 
 export type EventArgs = EventArgs$instance;
 
-export class EventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: EventArgs): void;
-}
-
-
-export interface __EventHandler$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type EventHandler = EventHandler$instance & __EventHandler$views;
-
-
-export class EventHandler_1$instance<TEventArgs> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: TEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: TEventArgs): void;
-}
-
-
-export interface __EventHandler_1$views<TEventArgs> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type EventHandler_1<TEventArgs> = EventHandler_1$instance<TEventArgs> & __EventHandler_1$views<TEventArgs>;
-
-
-export class EventHandler_2$instance<TSender, TEventArgs> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: TSender, e: TEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: TSender, e: TEventArgs): void;
-}
-
-
-export interface __EventHandler_2$views<TSender, TEventArgs> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type EventHandler_2<TSender, TEventArgs> = EventHandler_2$instance<TSender, TEventArgs> & __EventHandler_2$views<TSender, TEventArgs>;
-
-
-export class Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface Exception$instance {
     readonly data: IDictionary;
     helpLink: string;
     hResult: int;
@@ -5314,6 +5422,13 @@ export class Exception$instance {
 }
 
 
+export const Exception: {
+    new(): Exception$instance;
+    new(message: string): Exception$instance;
+    new(message: string, innerException: Exception): Exception$instance;
+};
+
+
 export interface __Exception$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -5323,12 +5438,16 @@ export interface Exception$instance extends System_Runtime_Serialization_Interna
 export type Exception = Exception$instance & __Exception$views;
 
 
-export class ExecutionEngineException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ExecutionEngineException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ExecutionEngineException: {
+    new(): ExecutionEngineException$instance;
+    new(message: string): ExecutionEngineException$instance;
+    new(message: string, innerException: Exception): ExecutionEngineException$instance;
+};
 
 
 export interface __ExecutionEngineException$views {
@@ -5338,12 +5457,16 @@ export interface __ExecutionEngineException$views {
 export type ExecutionEngineException = ExecutionEngineException$instance & __ExecutionEngineException$views;
 
 
-export class FieldAccessException$instance extends MemberAccessException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface FieldAccessException$instance extends MemberAccessException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const FieldAccessException: {
+    new(): FieldAccessException$instance;
+    new(message: string): FieldAccessException$instance;
+    new(message: string, inner: Exception): FieldAccessException$instance;
+};
 
 
 export interface __FieldAccessException$views {
@@ -5353,26 +5476,38 @@ export interface __FieldAccessException$views {
 export type FieldAccessException = FieldAccessException$instance & __FieldAccessException$views;
 
 
-export class FileStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface FileStyleUriParser$instance extends UriParser {
 }
+
+
+export const FileStyleUriParser: {
+    new(): FileStyleUriParser$instance;
+};
 
 
 export type FileStyleUriParser = FileStyleUriParser$instance;
 
-export class FlagsAttribute$instance extends Attribute$instance {
-    constructor();
+export interface FlagsAttribute$instance extends Attribute {
 }
+
+
+export const FlagsAttribute: {
+    new(): FlagsAttribute$instance;
+};
 
 
 export type FlagsAttribute = FlagsAttribute$instance;
 
-export class FormatException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface FormatException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const FormatException: {
+    new(): FormatException$instance;
+    new(message: string): FormatException$instance;
+    new(message: string, innerException: Exception): FormatException$instance;
+};
 
 
 export interface __FormatException$views {
@@ -5382,16 +5517,20 @@ export interface __FormatException$views {
 export type FormatException = FormatException$instance & __FormatException$views;
 
 
-export abstract class FormattableString$instance {
+export interface FormattableString$instance {
     readonly argumentCount: int;
     readonly format: string;
-    abstract getArgument(index: int): unknown;
-    abstract getArguments(): unknown[];
+    getArgument(index: int): unknown;
+    getArguments(): unknown[];
     toString(formatProvider: IFormatProvider): string;
     toString(): string;
-    static currentCulture(formattable: FormattableString): string;
-    static invariant(formattable: FormattableString): string;
 }
+
+
+export const FormattableString: {
+    currentCulture(formattable: FormattableString): string;
+    invariant(formattable: FormattableString): string;
+};
 
 
 export interface __FormattableString$views {
@@ -5401,346 +5540,60 @@ export interface __FormattableString$views {
 export type FormattableString = FormattableString$instance & __FormattableString$views;
 
 
-export class FtpStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface FtpStyleUriParser$instance extends UriParser {
 }
+
+
+export const FtpStyleUriParser: {
+    new(): FtpStyleUriParser$instance;
+};
 
 
 export type FtpStyleUriParser = FtpStyleUriParser$instance;
 
-export class Func_1$instance<TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): TResult;
+export interface GenericUriParser$instance extends UriParser {
 }
 
 
-export interface __Func_1$views<TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_1<TResult> = Func_1$instance<TResult> & __Func_1$views<TResult>;
-
-
-export class Func_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9): TResult;
-}
-
-
-export interface __Func_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_10<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> = Func_10$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult> & __Func_10$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>;
-
-
-export class Func_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10): TResult;
-}
-
-
-export interface __Func_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_11<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> = Func_11$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult> & __Func_11$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>;
-
-
-export class Func_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11): TResult;
-}
-
-
-export interface __Func_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> = Func_12$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult> & __Func_12$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>;
-
-
-export class Func_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12): TResult;
-}
-
-
-export interface __Func_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_13<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> = Func_13$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult> & __Func_13$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>;
-
-
-export class Func_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13): TResult;
-}
-
-
-export interface __Func_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_14<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> = Func_14$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult> & __Func_14$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>;
-
-
-export class Func_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14): TResult;
-}
-
-
-export interface __Func_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_15<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> = Func_15$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult> & __Func_15$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>;
-
-
-export class Func_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15): TResult;
-}
-
-
-export interface __Func_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_16<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> = Func_16$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult> & __Func_16$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>;
-
-
-export class Func_17$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9, arg10: T10, arg11: T11, arg12: T12, arg13: T13, arg14: T14, arg15: T15, arg16: T16): TResult;
-}
-
-
-export interface __Func_17$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_17<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> = Func_17$instance<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult> & __Func_17$views<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>;
-
-
-export class Func_2$instance<T, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg: T): TResult;
-}
-
-
-export interface __Func_2$views<T, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_2<T, TResult> = Func_2$instance<T, TResult> & __Func_2$views<T, TResult>;
-
-
-export class Func_3$instance<T1, T2, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2): TResult;
-}
-
-
-export interface __Func_3$views<T1, T2, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_3<T1, T2, TResult> = Func_3$instance<T1, T2, TResult> & __Func_3$views<T1, T2, TResult>;
-
-
-export class Func_4$instance<T1, T2, T3, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3): TResult;
-}
-
-
-export interface __Func_4$views<T1, T2, T3, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_4<T1, T2, T3, TResult> = Func_4$instance<T1, T2, T3, TResult> & __Func_4$views<T1, T2, T3, TResult>;
-
-
-export class Func_5$instance<T1, T2, T3, T4, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4): TResult;
-}
-
-
-export interface __Func_5$views<T1, T2, T3, T4, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_5<T1, T2, T3, T4, TResult> = Func_5$instance<T1, T2, T3, T4, TResult> & __Func_5$views<T1, T2, T3, T4, TResult>;
-
-
-export class Func_6$instance<T1, T2, T3, T4, T5, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5): TResult;
-}
-
-
-export interface __Func_6$views<T1, T2, T3, T4, T5, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_6<T1, T2, T3, T4, T5, TResult> = Func_6$instance<T1, T2, T3, T4, T5, TResult> & __Func_6$views<T1, T2, T3, T4, T5, TResult>;
-
-
-export class Func_7$instance<T1, T2, T3, T4, T5, T6, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6): TResult;
-}
-
-
-export interface __Func_7$views<T1, T2, T3, T4, T5, T6, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_7<T1, T2, T3, T4, T5, T6, TResult> = Func_7$instance<T1, T2, T3, T4, T5, T6, TResult> & __Func_7$views<T1, T2, T3, T4, T5, T6, TResult>;
-
-
-export class Func_8$instance<T1, T2, T3, T4, T5, T6, T7, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7): TResult;
-}
-
-
-export interface __Func_8$views<T1, T2, T3, T4, T5, T6, T7, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_8<T1, T2, T3, T4, T5, T6, T7, TResult> = Func_8$instance<T1, T2, T3, T4, T5, T6, T7, TResult> & __Func_8$views<T1, T2, T3, T4, T5, T6, T7, TResult>;
-
-
-export class Func_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8): TResult;
-}
-
-
-export interface __Func_9$views<T1, T2, T3, T4, T5, T6, T7, T8, TResult> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Func_9<T1, T2, T3, T4, T5, T6, T7, T8, TResult> = Func_9$instance<T1, T2, T3, T4, T5, T6, T7, T8, TResult> & __Func_9$views<T1, T2, T3, T4, T5, T6, T7, T8, TResult>;
-
-
-export class GenericUriParser$instance extends UriParser$instance {
-    constructor(options: GenericUriParserOptions);
-}
+export const GenericUriParser: {
+    new(options: GenericUriParserOptions): GenericUriParser$instance;
+};
 
 
 export type GenericUriParser = GenericUriParser$instance;
 
-export class GopherStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface GopherStyleUriParser$instance extends UriParser {
 }
+
+
+export const GopherStyleUriParser: {
+    new(): GopherStyleUriParser$instance;
+};
 
 
 export type GopherStyleUriParser = GopherStyleUriParser$instance;
 
-export class HttpStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface HttpStyleUriParser$instance extends UriParser {
 }
+
+
+export const HttpStyleUriParser: {
+    new(): HttpStyleUriParser$instance;
+};
 
 
 export type HttpStyleUriParser = HttpStyleUriParser$instance;
 
-export class IndexOutOfRangeException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface IndexOutOfRangeException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const IndexOutOfRangeException: {
+    new(): IndexOutOfRangeException$instance;
+    new(message: string): IndexOutOfRangeException$instance;
+    new(message: string, innerException: Exception): IndexOutOfRangeException$instance;
+};
 
 
 export interface __IndexOutOfRangeException$views {
@@ -5750,12 +5603,16 @@ export interface __IndexOutOfRangeException$views {
 export type IndexOutOfRangeException = IndexOutOfRangeException$instance & __IndexOutOfRangeException$views;
 
 
-export class InsufficientExecutionStackException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InsufficientExecutionStackException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InsufficientExecutionStackException: {
+    new(): InsufficientExecutionStackException$instance;
+    new(message: string): InsufficientExecutionStackException$instance;
+    new(message: string, innerException: Exception): InsufficientExecutionStackException$instance;
+};
 
 
 export interface __InsufficientExecutionStackException$views {
@@ -5765,12 +5622,16 @@ export interface __InsufficientExecutionStackException$views {
 export type InsufficientExecutionStackException = InsufficientExecutionStackException$instance & __InsufficientExecutionStackException$views;
 
 
-export class InsufficientMemoryException$instance extends OutOfMemoryException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InsufficientMemoryException$instance extends OutOfMemoryException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InsufficientMemoryException: {
+    new(): InsufficientMemoryException$instance;
+    new(message: string): InsufficientMemoryException$instance;
+    new(message: string, innerException: Exception): InsufficientMemoryException$instance;
+};
 
 
 export interface __InsufficientMemoryException$views {
@@ -5780,13 +5641,17 @@ export interface __InsufficientMemoryException$views {
 export type InsufficientMemoryException = InsufficientMemoryException$instance & __InsufficientMemoryException$views;
 
 
-export class InvalidCastException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, errorCode: int);
+export interface InvalidCastException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidCastException: {
+    new(): InvalidCastException$instance;
+    new(message: string): InvalidCastException$instance;
+    new(message: string, innerException: Exception): InvalidCastException$instance;
+    new(message: string, errorCode: int): InvalidCastException$instance;
+};
 
 
 export interface __InvalidCastException$views {
@@ -5796,12 +5661,16 @@ export interface __InvalidCastException$views {
 export type InvalidCastException = InvalidCastException$instance & __InvalidCastException$views;
 
 
-export class InvalidOperationException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidOperationException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidOperationException: {
+    new(): InvalidOperationException$instance;
+    new(message: string): InvalidOperationException$instance;
+    new(message: string, innerException: Exception): InvalidOperationException$instance;
+};
 
 
 export interface __InvalidOperationException$views {
@@ -5811,12 +5680,16 @@ export interface __InvalidOperationException$views {
 export type InvalidOperationException = InvalidOperationException$instance & __InvalidOperationException$views;
 
 
-export class InvalidProgramException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface InvalidProgramException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidProgramException: {
+    new(): InvalidProgramException$instance;
+    new(message: string): InvalidProgramException$instance;
+    new(message: string, inner: Exception): InvalidProgramException$instance;
+};
 
 
 export interface __InvalidProgramException$views {
@@ -5826,12 +5699,16 @@ export interface __InvalidProgramException$views {
 export type InvalidProgramException = InvalidProgramException$instance & __InvalidProgramException$views;
 
 
-export class InvalidTimeZoneException$instance extends Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidTimeZoneException$instance extends Exception$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidTimeZoneException: {
+    new(): InvalidTimeZoneException$instance;
+    new(message: string): InvalidTimeZoneException$instance;
+    new(message: string, innerException: Exception): InvalidTimeZoneException$instance;
+};
 
 
 export interface __InvalidTimeZoneException$views {
@@ -5841,71 +5718,100 @@ export interface __InvalidTimeZoneException$views {
 export type InvalidTimeZoneException = InvalidTimeZoneException$instance & __InvalidTimeZoneException$views;
 
 
-export class Lazy_1$instance<T> {
-    constructor();
-    constructor(value: T);
-    constructor(valueFactory: Func_1<T>);
-    constructor(isThreadSafe: boolean);
-    constructor(mode: LazyThreadSafetyMode);
-    constructor(valueFactory: Func_1<T>, isThreadSafe: boolean);
-    constructor(valueFactory: Func_1<T>, mode: LazyThreadSafetyMode);
+export interface Lazy_1$instance<T> {
     readonly isValueCreated: boolean;
     readonly value: T;
     toString(): string;
 }
 
 
+export const Lazy_1: {
+    new<T>(): Lazy_1$instance<T>;
+    new<T>(value: T): Lazy_1$instance<T>;
+    new<T>(valueFactory: Func_1<T>): Lazy_1$instance<T>;
+    new<T>(isThreadSafe: boolean): Lazy_1$instance<T>;
+    new<T>(mode: LazyThreadSafetyMode): Lazy_1$instance<T>;
+    new<T>(valueFactory: Func_1<T>, isThreadSafe: boolean): Lazy_1$instance<T>;
+    new<T>(valueFactory: Func_1<T>, mode: LazyThreadSafetyMode): Lazy_1$instance<T>;
+};
+
+
 export type Lazy_1<T> = Lazy_1$instance<T>;
 
-export class Lazy_2$instance<T, TMetadata> extends Lazy_1$instance<T> {
-    constructor(valueFactory: Func_1<T>, metadata: TMetadata);
-    constructor(metadata: TMetadata);
-    constructor(metadata: TMetadata, isThreadSafe: boolean);
-    constructor(valueFactory: Func_1<T>, metadata: TMetadata, isThreadSafe: boolean);
-    constructor(metadata: TMetadata, mode: LazyThreadSafetyMode);
-    constructor(valueFactory: Func_1<T>, metadata: TMetadata, mode: LazyThreadSafetyMode);
+export interface Lazy_2$instance<T, TMetadata> extends Lazy_1<T> {
     readonly metadata: TMetadata;
 }
 
 
+export const Lazy_2: {
+    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata): Lazy_2$instance<T, TMetadata>;
+    new<T, TMetadata>(metadata: TMetadata): Lazy_2$instance<T, TMetadata>;
+    new<T, TMetadata>(metadata: TMetadata, isThreadSafe: boolean): Lazy_2$instance<T, TMetadata>;
+    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata, isThreadSafe: boolean): Lazy_2$instance<T, TMetadata>;
+    new<T, TMetadata>(metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2$instance<T, TMetadata>;
+    new<T, TMetadata>(valueFactory: Func_1<T>, metadata: TMetadata, mode: LazyThreadSafetyMode): Lazy_2$instance<T, TMetadata>;
+};
+
+
 export type Lazy_2<T, TMetadata> = Lazy_2$instance<T, TMetadata>;
 
-export class LdapStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface LdapStyleUriParser$instance extends UriParser {
 }
+
+
+export const LdapStyleUriParser: {
+    new(): LdapStyleUriParser$instance;
+};
 
 
 export type LdapStyleUriParser = LdapStyleUriParser$instance;
 
-export class LoaderOptimizationAttribute$instance extends Attribute$instance {
-    constructor(value: byte);
-    constructor(value: LoaderOptimization);
+export interface LoaderOptimizationAttribute$instance extends Attribute {
     readonly value: LoaderOptimization;
 }
 
 
+export const LoaderOptimizationAttribute: {
+    new(value: byte): LoaderOptimizationAttribute$instance;
+    new(value: LoaderOptimization): LoaderOptimizationAttribute$instance;
+};
+
+
 export type LoaderOptimizationAttribute = LoaderOptimizationAttribute$instance;
 
-export class LocalDataStoreSlot$instance {
+export interface LocalDataStoreSlot$instance {
 }
+
+
+export const LocalDataStoreSlot: {
+    new(): LocalDataStoreSlot$instance;
+};
 
 
 export type LocalDataStoreSlot = LocalDataStoreSlot$instance;
 
-export abstract class MarshalByRefObject$instance {
+export interface MarshalByRefObject$instance {
     getLifetimeService(): unknown;
     initializeLifetimeService(): unknown;
 }
 
 
+export const MarshalByRefObject: {
+};
+
+
 export type MarshalByRefObject = MarshalByRefObject$instance;
 
-export class MemberAccessException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface MemberAccessException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MemberAccessException: {
+    new(): MemberAccessException$instance;
+    new(message: string): MemberAccessException$instance;
+    new(message: string, inner: Exception): MemberAccessException$instance;
+};
 
 
 export interface __MemberAccessException$views {
@@ -5915,12 +5821,16 @@ export interface __MemberAccessException$views {
 export type MemberAccessException = MemberAccessException$instance & __MemberAccessException$views;
 
 
-export class MethodAccessException$instance extends MemberAccessException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface MethodAccessException$instance extends MemberAccessException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MethodAccessException: {
+    new(): MethodAccessException$instance;
+    new(message: string): MethodAccessException$instance;
+    new(message: string, inner: Exception): MethodAccessException$instance;
+};
 
 
 export interface __MethodAccessException$views {
@@ -5930,14 +5840,18 @@ export interface __MethodAccessException$views {
 export type MethodAccessException = MethodAccessException$instance & __MethodAccessException$views;
 
 
-export class MissingFieldException$instance extends MissingMemberException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(className: string, fieldName: string);
+export interface MissingFieldException$instance extends MissingMemberException$instance {
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MissingFieldException: {
+    new(): MissingFieldException$instance;
+    new(message: string): MissingFieldException$instance;
+    new(message: string, inner: Exception): MissingFieldException$instance;
+    new(className: string, fieldName: string): MissingFieldException$instance;
+};
 
 
 export interface __MissingFieldException$views {
@@ -5947,14 +5861,18 @@ export interface __MissingFieldException$views {
 export type MissingFieldException = MissingFieldException$instance & __MissingFieldException$views;
 
 
-export class MissingMemberException$instance extends MemberAccessException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(className: string, memberName: string);
+export interface MissingMemberException$instance extends MemberAccessException$instance {
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MissingMemberException: {
+    new(): MissingMemberException$instance;
+    new(message: string): MissingMemberException$instance;
+    new(message: string, inner: Exception): MissingMemberException$instance;
+    new(className: string, memberName: string): MissingMemberException$instance;
+};
 
 
 export interface __MissingMemberException$views {
@@ -5964,14 +5882,18 @@ export interface __MissingMemberException$views {
 export type MissingMemberException = MissingMemberException$instance & __MissingMemberException$views;
 
 
-export class MissingMethodException$instance extends MissingMemberException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(className: string, methodName: string);
+export interface MissingMethodException$instance extends MissingMemberException$instance {
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MissingMethodException: {
+    new(): MissingMethodException$instance;
+    new(message: string): MissingMethodException$instance;
+    new(message: string, inner: Exception): MissingMethodException$instance;
+    new(className: string, methodName: string): MissingMethodException$instance;
+};
 
 
 export interface __MissingMethodException$views {
@@ -5981,20 +5903,28 @@ export interface __MissingMethodException$views {
 export type MissingMethodException = MissingMethodException$instance & __MissingMethodException$views;
 
 
-export class MTAThreadAttribute$instance extends Attribute$instance {
-    constructor();
+export interface MTAThreadAttribute$instance extends Attribute {
 }
+
+
+export const MTAThreadAttribute: {
+    new(): MTAThreadAttribute$instance;
+};
 
 
 export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
-export abstract class MulticastDelegate$instance extends Function {
+export interface MulticastDelegate$instance extends Function {
     clone(): unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     getInvocationList(): Function[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MulticastDelegate: {
+};
 
 
 export interface __MulticastDelegate$views {
@@ -6005,12 +5935,16 @@ export interface __MulticastDelegate$views {
 export type MulticastDelegate = MulticastDelegate$instance & __MulticastDelegate$views;
 
 
-export class MulticastNotSupportedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface MulticastNotSupportedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const MulticastNotSupportedException: {
+    new(): MulticastNotSupportedException$instance;
+    new(message: string): MulticastNotSupportedException$instance;
+    new(message: string, inner: Exception): MulticastNotSupportedException$instance;
+};
 
 
 export interface __MulticastNotSupportedException$views {
@@ -6020,44 +5954,64 @@ export interface __MulticastNotSupportedException$views {
 export type MulticastNotSupportedException = MulticastNotSupportedException$instance & __MulticastNotSupportedException$views;
 
 
-export class NetPipeStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface NetPipeStyleUriParser$instance extends UriParser {
 }
+
+
+export const NetPipeStyleUriParser: {
+    new(): NetPipeStyleUriParser$instance;
+};
 
 
 export type NetPipeStyleUriParser = NetPipeStyleUriParser$instance;
 
-export class NetTcpStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface NetTcpStyleUriParser$instance extends UriParser {
 }
+
+
+export const NetTcpStyleUriParser: {
+    new(): NetTcpStyleUriParser$instance;
+};
 
 
 export type NetTcpStyleUriParser = NetTcpStyleUriParser$instance;
 
-export class NewsStyleUriParser$instance extends UriParser$instance {
-    constructor();
+export interface NewsStyleUriParser$instance extends UriParser {
 }
+
+
+export const NewsStyleUriParser: {
+    new(): NewsStyleUriParser$instance;
+};
 
 
 export type NewsStyleUriParser = NewsStyleUriParser$instance;
 
-export class NonSerializedAttribute$instance extends Attribute$instance {
-    constructor();
+export interface NonSerializedAttribute$instance extends Attribute {
 }
+
+
+export const NonSerializedAttribute: {
+    new(): NonSerializedAttribute$instance;
+};
 
 
 export type NonSerializedAttribute = NonSerializedAttribute$instance;
 
-export class NotFiniteNumberException$instance extends ArithmeticException$instance {
-    constructor();
-    constructor(offendingNumber: double);
-    constructor(message: string);
-    constructor(message: string, offendingNumber: double);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, offendingNumber: double, innerException: Exception);
+export interface NotFiniteNumberException$instance extends ArithmeticException$instance {
     readonly offendingNumber: double;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NotFiniteNumberException: {
+    new(): NotFiniteNumberException$instance;
+    new(offendingNumber: double): NotFiniteNumberException$instance;
+    new(message: string): NotFiniteNumberException$instance;
+    new(message: string, offendingNumber: double): NotFiniteNumberException$instance;
+    new(message: string, innerException: Exception): NotFiniteNumberException$instance;
+    new(message: string, offendingNumber: double, innerException: Exception): NotFiniteNumberException$instance;
+};
 
 
 export interface __NotFiniteNumberException$views {
@@ -6067,12 +6021,16 @@ export interface __NotFiniteNumberException$views {
 export type NotFiniteNumberException = NotFiniteNumberException$instance & __NotFiniteNumberException$views;
 
 
-export class NotImplementedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface NotImplementedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NotImplementedException: {
+    new(): NotImplementedException$instance;
+    new(message: string): NotImplementedException$instance;
+    new(message: string, inner: Exception): NotImplementedException$instance;
+};
 
 
 export interface __NotImplementedException$views {
@@ -6082,12 +6040,16 @@ export interface __NotImplementedException$views {
 export type NotImplementedException = NotImplementedException$instance & __NotImplementedException$views;
 
 
-export class NotSupportedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface NotSupportedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NotSupportedException: {
+    new(): NotSupportedException$instance;
+    new(message: string): NotSupportedException$instance;
+    new(message: string, innerException: Exception): NotSupportedException$instance;
+};
 
 
 export interface __NotSupportedException$views {
@@ -6097,12 +6059,16 @@ export interface __NotSupportedException$views {
 export type NotSupportedException = NotSupportedException$instance & __NotSupportedException$views;
 
 
-export class NullReferenceException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface NullReferenceException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NullReferenceException: {
+    new(): NullReferenceException$instance;
+    new(message: string): NullReferenceException$instance;
+    new(message: string, innerException: Exception): NullReferenceException$instance;
+};
 
 
 export interface __NullReferenceException$views {
@@ -6112,29 +6078,37 @@ export interface __NullReferenceException$views {
 export type NullReferenceException = NullReferenceException$instance & __NullReferenceException$views;
 
 
-export class Object$instance {
-    constructor();
+export interface Object$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     getType(): Type;
     toString(): string;
-    static equals(objA: unknown, objB: unknown): boolean;
-    static referenceEquals(objA: unknown, objB: unknown): boolean;
 }
+
+
+export const Object: {
+    new(): Object$instance;
+    equals(objA: unknown, objB: unknown): boolean;
+    referenceEquals(objA: unknown, objB: unknown): boolean;
+};
 
 
 export type Object = Object$instance;
 
-export class ObjectDisposedException$instance extends InvalidOperationException$instance {
-    constructor(objectName: string);
-    constructor(objectName: string, message: string);
-    constructor(message: string, innerException: Exception);
+export interface ObjectDisposedException$instance extends InvalidOperationException$instance {
     readonly message: string;
     readonly objectName: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static throwIf(condition: boolean, instance: unknown): void;
-    static throwIf(condition: boolean, type_: Type): void;
 }
+
+
+export const ObjectDisposedException: {
+    new(objectName: string): ObjectDisposedException$instance;
+    new(objectName: string, message: string): ObjectDisposedException$instance;
+    new(message: string, innerException: Exception): ObjectDisposedException$instance;
+    throwIf(condition: boolean, instance: unknown): void;
+    throwIf(condition: boolean, type_: Type): void;
+};
 
 
 export interface __ObjectDisposedException$views {
@@ -6144,10 +6118,7 @@ export interface __ObjectDisposedException$views {
 export type ObjectDisposedException = ObjectDisposedException$instance & __ObjectDisposedException$views;
 
 
-export class ObsoleteAttribute$instance extends Attribute$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, error: boolean);
+export interface ObsoleteAttribute$instance extends Attribute {
     diagnosticId: string;
     readonly isError: boolean;
     readonly message: string;
@@ -6155,10 +6126,16 @@ export class ObsoleteAttribute$instance extends Attribute$instance {
 }
 
 
+export const ObsoleteAttribute: {
+    new(): ObsoleteAttribute$instance;
+    new(message: string): ObsoleteAttribute$instance;
+    new(message: string, error: boolean): ObsoleteAttribute$instance;
+};
+
+
 export type ObsoleteAttribute = ObsoleteAttribute$instance;
 
-export class OperatingSystem$instance {
-    constructor(platform: PlatformID, version: Version);
+export interface OperatingSystem$instance {
     readonly platform: PlatformID;
     readonly servicePack: string;
     readonly version: Version;
@@ -6166,28 +6143,33 @@ export class OperatingSystem$instance {
     clone(): unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
-    static isAndroid(): boolean;
-    static isAndroidVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
-    static isBrowser(): boolean;
-    static isFreeBSD(): boolean;
-    static isFreeBSDVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
-    static isIOS(): boolean;
-    static isIOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
-    static isLinux(): boolean;
-    static isMacCatalyst(): boolean;
-    static isMacCatalystVersionAtLeast(major: int, minor?: int, build?: int): boolean;
-    static isMacOS(): boolean;
-    static isMacOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
-    static isOSPlatform(platform: string): boolean;
-    static isOSPlatformVersionAtLeast(platform: string, major: int, minor?: int, build?: int, revision?: int): boolean;
-    static isTvOS(): boolean;
-    static isTvOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
-    static isWasi(): boolean;
-    static isWatchOS(): boolean;
-    static isWatchOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
-    static isWindows(): boolean;
-    static isWindowsVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
 }
+
+
+export const OperatingSystem: {
+    new(platform: PlatformID, version: Version): OperatingSystem$instance;
+    isAndroid(): boolean;
+    isAndroidVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
+    isBrowser(): boolean;
+    isFreeBSD(): boolean;
+    isFreeBSDVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
+    isIOS(): boolean;
+    isIOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
+    isLinux(): boolean;
+    isMacCatalyst(): boolean;
+    isMacCatalystVersionAtLeast(major: int, minor?: int, build?: int): boolean;
+    isMacOS(): boolean;
+    isMacOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
+    isOSPlatform(platform: string): boolean;
+    isOSPlatformVersionAtLeast(platform: string, major: int, minor?: int, build?: int, revision?: int): boolean;
+    isTvOS(): boolean;
+    isTvOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
+    isWasi(): boolean;
+    isWatchOS(): boolean;
+    isWatchOSVersionAtLeast(major: int, minor?: int, build?: int): boolean;
+    isWindows(): boolean;
+    isWindowsVersionAtLeast(major: int, minor?: int, build?: int, revision?: int): boolean;
+};
 
 
 export interface __OperatingSystem$views {
@@ -6200,16 +6182,20 @@ export interface OperatingSystem$instance extends ICloneable$instance, System_Ru
 export type OperatingSystem = OperatingSystem$instance & __OperatingSystem$views;
 
 
-export class OperationCanceledException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(token: CancellationToken);
-    constructor(message: string, token: CancellationToken);
-    constructor(message: string, innerException: Exception, token: CancellationToken);
+export interface OperationCanceledException$instance extends SystemException$instance {
     readonly cancellationToken: CancellationToken;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const OperationCanceledException: {
+    new(): OperationCanceledException$instance;
+    new(message: string): OperationCanceledException$instance;
+    new(message: string, innerException: Exception): OperationCanceledException$instance;
+    new(token: CancellationToken): OperationCanceledException$instance;
+    new(message: string, token: CancellationToken): OperationCanceledException$instance;
+    new(message: string, innerException: Exception, token: CancellationToken): OperationCanceledException$instance;
+};
 
 
 export interface __OperationCanceledException$views {
@@ -6219,7 +6205,7 @@ export interface __OperationCanceledException$views {
 export type OperationCanceledException = OperationCanceledException$instance & __OperationCanceledException$views;
 
 
-export class OrdinalComparer$instance extends StringComparer$instance {
+export interface OrdinalComparer$instance extends StringComparer$instance {
     compare(x: string, y: string): int;
     compare(x: unknown, y: unknown): int;
     compare(x: unknown, y: unknown): int;
@@ -6230,6 +6216,11 @@ export class OrdinalComparer$instance extends StringComparer$instance {
     getHashCode(obj: unknown): int;
     getHashCode(obj: unknown): int;
 }
+
+
+export const OrdinalComparer: {
+    new(): OrdinalComparer$instance;
+};
 
 
 export interface __OrdinalComparer$views {
@@ -6243,12 +6234,16 @@ export interface __OrdinalComparer$views {
 export type OrdinalComparer = OrdinalComparer$instance & __OrdinalComparer$views;
 
 
-export class OutOfMemoryException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface OutOfMemoryException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const OutOfMemoryException: {
+    new(): OutOfMemoryException$instance;
+    new(message: string): OutOfMemoryException$instance;
+    new(message: string, innerException: Exception): OutOfMemoryException$instance;
+};
 
 
 export interface __OutOfMemoryException$views {
@@ -6258,12 +6253,16 @@ export interface __OutOfMemoryException$views {
 export type OutOfMemoryException = OutOfMemoryException$instance & __OutOfMemoryException$views;
 
 
-export class OverflowException$instance extends ArithmeticException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface OverflowException$instance extends ArithmeticException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const OverflowException: {
+    new(): OverflowException$instance;
+    new(message: string): OverflowException$instance;
+    new(message: string, innerException: Exception): OverflowException$instance;
+};
 
 
 export interface __OverflowException$views {
@@ -6273,19 +6272,27 @@ export interface __OverflowException$views {
 export type OverflowException = OverflowException$instance & __OverflowException$views;
 
 
-export class ParamArrayAttribute$instance extends Attribute$instance {
-    constructor();
+export interface ParamArrayAttribute$instance extends Attribute {
 }
+
+
+export const ParamArrayAttribute: {
+    new(): ParamArrayAttribute$instance;
+};
 
 
 export type ParamArrayAttribute = ParamArrayAttribute$instance;
 
-export class PlatformNotSupportedException$instance extends NotSupportedException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface PlatformNotSupportedException$instance extends NotSupportedException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const PlatformNotSupportedException: {
+    new(): PlatformNotSupportedException$instance;
+    new(message: string): PlatformNotSupportedException$instance;
+    new(message: string, inner: Exception): PlatformNotSupportedException$instance;
+};
 
 
 export interface __PlatformNotSupportedException$views {
@@ -6295,28 +6302,14 @@ export interface __PlatformNotSupportedException$views {
 export type PlatformNotSupportedException = PlatformNotSupportedException$instance & __PlatformNotSupportedException$views;
 
 
-export class Predicate_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(obj: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(obj: T): boolean;
+export interface Progress_1$instance<T> {
 }
 
 
-export interface __Predicate_1$views<T> {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type Predicate_1<T> = Predicate_1$instance<T> & __Predicate_1$views<T>;
-
-
-export class Progress_1$instance<T> {
-    constructor();
-    constructor(handler: Action_1<T>);
-}
+export const Progress_1: {
+    new<T>(): Progress_1$instance<T>;
+    new<T>(handler: Action_1<T>): Progress_1$instance<T>;
+};
 
 
 export interface __Progress_1$views<T> {
@@ -6328,9 +6321,7 @@ export interface Progress_1$instance<T> extends IProgress_1$instance<T> {}
 export type Progress_1<T> = Progress_1$instance<T> & __Progress_1$views<T>;
 
 
-export class Random$instance {
-    constructor();
-    constructor(Seed: int);
+export interface Random$instance {
     getHexString(stringLength: int, lowercase?: boolean): string;
     getHexString(destination: Span_1<CLROf<char>>, lowercase?: boolean): void;
     getItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
@@ -6349,18 +6340,28 @@ export class Random$instance {
     nextSingle(): float;
     shuffle<T>(values: T[]): void;
     shuffle<T>(values: Span_1<T>): void;
-    static readonly shared: Random;
 }
+
+
+export const Random: {
+    new(): Random$instance;
+    new(Seed: int): Random$instance;
+    readonly shared: Random;
+};
 
 
 export type Random = Random$instance;
 
-export class RankException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface RankException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const RankException: {
+    new(): RankException$instance;
+    new(message: string): RankException$instance;
+    new(message: string, innerException: Exception): RankException$instance;
+};
 
 
 export interface __RankException$views {
@@ -6370,47 +6371,41 @@ export interface __RankException$views {
 export type RankException = RankException$instance & __RankException$views;
 
 
-export class ResolveEventArgs$instance extends EventArgs$instance {
-    constructor(name: string);
-    constructor(name: string, requestingAssembly: Assembly);
+export interface ResolveEventArgs$instance extends EventArgs {
     readonly name: string;
     readonly requestingAssembly: Assembly;
 }
 
 
+export const ResolveEventArgs: {
+    new(name: string): ResolveEventArgs$instance;
+    new(name: string, requestingAssembly: Assembly): ResolveEventArgs$instance;
+};
+
+
 export type ResolveEventArgs = ResolveEventArgs$instance;
 
-export class ResolveEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, args: ResolveEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): Assembly;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, args: ResolveEventArgs): Assembly;
+export interface SerializableAttribute$instance extends Attribute {
 }
 
 
-export interface __ResolveEventHandler$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ResolveEventHandler = ResolveEventHandler$instance & __ResolveEventHandler$views;
-
-
-export class SerializableAttribute$instance extends Attribute$instance {
-    constructor();
-}
+export const SerializableAttribute: {
+    new(): SerializableAttribute$instance;
+};
 
 
 export type SerializableAttribute = SerializableAttribute$instance;
 
-export class StackOverflowException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface StackOverflowException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const StackOverflowException: {
+    new(): StackOverflowException$instance;
+    new(message: string): StackOverflowException$instance;
+    new(message: string, innerException: Exception): StackOverflowException$instance;
+};
 
 
 export interface __StackOverflowException$views {
@@ -6420,23 +6415,18 @@ export interface __StackOverflowException$views {
 export type StackOverflowException = StackOverflowException$instance & __StackOverflowException$views;
 
 
-export class STAThreadAttribute$instance extends Attribute$instance {
-    constructor();
+export interface STAThreadAttribute$instance extends Attribute {
 }
+
+
+export const STAThreadAttribute: {
+    new(): STAThreadAttribute$instance;
+};
 
 
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
-export class String$instance {
-    constructor(value: char[]);
-    constructor(value: char[], startIndex: int, length: int);
-    constructor(value: ptr<char>);
-    constructor(value: ptr<char>, startIndex: int, length: int);
-    constructor(value: ptr<sbyte>);
-    constructor(value: ptr<sbyte>, startIndex: int, length: int);
-    constructor(value: ptr<sbyte>, startIndex: int, length: int, enc: Encoding);
-    constructor(c: char, count: int);
-    constructor(value: ReadOnlySpan_1<CLROf<char>>);
+export interface String$instance {
     readonly chars: char;
     readonly length: int;
     clone(): unknown;
@@ -6543,75 +6533,88 @@ export class String$instance {
     trimStart(trimChars: char[]): string;
     trimStart(trimChars: ReadOnlySpan_1<CLROf<char>>): string;
     tryCopyTo(destination: Span_1<CLROf<char>>): boolean;
-    static readonly empty: string;
-    static compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo): int;
-    static compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean): int;
-    static compare(strA: string, indexA: int, strB: string, indexB: int, length: int, culture: CultureInfo, options: CompareOptions): int;
-    static compare(strA: string, indexA: int, strB: string, indexB: int, length: int, comparisonType: StringComparison): int;
-    static compare(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
-    static compare(strA: string, strB: string, ignoreCase: boolean, culture: CultureInfo): int;
-    static compare(strA: string, strB: string, ignoreCase: boolean): int;
-    static compare(strA: string, strB: string, culture: CultureInfo, options: CompareOptions): int;
-    static compare(strA: string, strB: string, comparisonType: StringComparison): int;
-    static compare(strA: string, strB: string): int;
-    static compareOrdinal(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
-    static compareOrdinal(strA: string, strB: string): int;
-    static concat<T>(values: IEnumerable_1<T>): string;
-    static concat(values: IEnumerable_1<CLROf<string>>): string;
-    static concat(arg0: unknown, arg1: unknown, arg2: unknown): string;
-    static concat(arg0: unknown, arg1: unknown): string;
-    static concat(arg0: unknown): string;
-    static concat(args: unknown[]): string;
-    static concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>, str3: ReadOnlySpan_1<CLROf<char>>): string;
-    static concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>): string;
-    static concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>): string;
-    static concat(args: ReadOnlySpan_1<unknown>): string;
-    static concat(values: ReadOnlySpan_1<CLROf<string>>): string;
-    static concat(str0: string, str1: string, str2: string, str3: string): string;
-    static concat(str0: string, str1: string, str2: string): string;
-    static concat(str0: string, str1: string): string;
-    static concat(values: string[]): string;
-    static copy(str: string): string;
-    static create(provider: IFormatProvider, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
-    static create(provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
-    static create<TState>(length: int, state: TState, action: SpanAction_2<CLROf<char>, TState>): string;
-    static equals(a: string, b: string, comparisonType: StringComparison): boolean;
-    static equals(a: string, b: string): boolean;
-    static format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
-    static format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): string;
-    static format(provider: IFormatProvider, format: string, arg0: unknown): string;
-    static format(provider: IFormatProvider, format: string, args: unknown[]): string;
-    static format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): string;
-    static format(provider: IFormatProvider, format: CompositeFormat, args: unknown[]): string;
-    static format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
-    static format<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
-    static format<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
-    static format<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): string;
-    static format(format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
-    static format(format: string, arg0: unknown, arg1: unknown): string;
-    static format(format: string, arg0: unknown): string;
-    static format(format: string, args: unknown[]): string;
-    static format(format: string, args: ReadOnlySpan_1<unknown>): string;
-    static getHashCode(value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
-    static getHashCode(value: ReadOnlySpan_1<CLROf<char>>): int;
-    static intern(str: string): string;
-    static isInterned(str: string): string;
-    static isNullOrEmpty(value: string): boolean;
-    static isNullOrWhiteSpace(value: string): boolean;
-    static join<T>(separator: char, values: IEnumerable_1<T>): string;
-    static join(separator: char, values: unknown[]): string;
-    static join(separator: char, values: ReadOnlySpan_1<unknown>): string;
-    static join(separator: char, value: ReadOnlySpan_1<CLROf<string>>): string;
-    static join(separator: char, value: string[], startIndex: int, count: int): string;
-    static join(separator: char, value: string[]): string;
-    static join<T>(separator: string, values: IEnumerable_1<T>): string;
-    static join(separator: string, values: IEnumerable_1<CLROf<string>>): string;
-    static join(separator: string, values: unknown[]): string;
-    static join(separator: string, values: ReadOnlySpan_1<unknown>): string;
-    static join(separator: string, value: ReadOnlySpan_1<CLROf<string>>): string;
-    static join(separator: string, value: string[], startIndex: int, count: int): string;
-    static join(separator: string, value: string[]): string;
 }
+
+
+export const String: {
+    new(value: char[]): String$instance;
+    new(value: char[], startIndex: int, length: int): String$instance;
+    new(value: ptr<char>): String$instance;
+    new(value: ptr<char>, startIndex: int, length: int): String$instance;
+    new(value: ptr<sbyte>): String$instance;
+    new(value: ptr<sbyte>, startIndex: int, length: int): String$instance;
+    new(value: ptr<sbyte>, startIndex: int, length: int, enc: Encoding): String$instance;
+    new(c: char, count: int): String$instance;
+    new(value: ReadOnlySpan_1<CLROf<char>>): String$instance;
+    readonly empty: string;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, comparisonType: StringComparison): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compare(strA: string, strB: string, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, strB: string, ignoreCase: boolean): int;
+    compare(strA: string, strB: string, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, strB: string, comparisonType: StringComparison): int;
+    compare(strA: string, strB: string): int;
+    compareOrdinal(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compareOrdinal(strA: string, strB: string): int;
+    concat<T>(values: IEnumerable_1<T>): string;
+    concat(values: IEnumerable_1<CLROf<string>>): string;
+    concat(arg0: unknown, arg1: unknown, arg2: unknown): string;
+    concat(arg0: unknown, arg1: unknown): string;
+    concat(arg0: unknown): string;
+    concat(args: unknown[]): string;
+    concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>, str3: ReadOnlySpan_1<CLROf<char>>): string;
+    concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>, str2: ReadOnlySpan_1<CLROf<char>>): string;
+    concat(str0: ReadOnlySpan_1<CLROf<char>>, str1: ReadOnlySpan_1<CLROf<char>>): string;
+    concat(args: ReadOnlySpan_1<unknown>): string;
+    concat(values: ReadOnlySpan_1<CLROf<string>>): string;
+    concat(str0: string, str1: string, str2: string, str3: string): string;
+    concat(str0: string, str1: string, str2: string): string;
+    concat(str0: string, str1: string): string;
+    concat(values: string[]): string;
+    copy(str: string): string;
+    create(provider: IFormatProvider, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
+    create(provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>, handler: { value: ref<DefaultInterpolatedStringHandler> }): string;
+    create<TState>(length: int, state: TState, action: SpanAction_2<CLROf<char>, TState>): string;
+    equals(a: string, b: string, comparisonType: StringComparison): boolean;
+    equals(a: string, b: string): boolean;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown): string;
+    format(provider: IFormatProvider, format: string, args: unknown[]): string;
+    format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): string;
+    format(provider: IFormatProvider, format: CompositeFormat, args: unknown[]): string;
+    format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
+    format<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
+    format<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
+    format<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): string;
+    format(format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(format: string, arg0: unknown, arg1: unknown): string;
+    format(format: string, arg0: unknown): string;
+    format(format: string, args: unknown[]): string;
+    format(format: string, args: ReadOnlySpan_1<unknown>): string;
+    getHashCode(value: ReadOnlySpan_1<CLROf<char>>, comparisonType: StringComparison): int;
+    getHashCode(value: ReadOnlySpan_1<CLROf<char>>): int;
+    intern(str: string): string;
+    isInterned(str: string): string;
+    isNullOrEmpty(value: string): boolean;
+    isNullOrWhiteSpace(value: string): boolean;
+    join<T>(separator: char, values: IEnumerable_1<T>): string;
+    join(separator: char, values: unknown[]): string;
+    join(separator: char, values: ReadOnlySpan_1<unknown>): string;
+    join(separator: char, value: ReadOnlySpan_1<CLROf<string>>): string;
+    join(separator: char, value: string[], startIndex: int, count: int): string;
+    join(separator: char, value: string[]): string;
+    join<T>(separator: string, values: IEnumerable_1<T>): string;
+    join(separator: string, values: IEnumerable_1<CLROf<string>>): string;
+    join(separator: string, values: unknown[]): string;
+    join(separator: string, values: ReadOnlySpan_1<unknown>): string;
+    join(separator: string, value: ReadOnlySpan_1<CLROf<string>>): string;
+    join(separator: string, value: string[], startIndex: int, count: int): string;
+    join(separator: string, value: string[]): string;
+};
 
 
 export interface __String$views {
@@ -6635,25 +6638,29 @@ export interface String$instance extends ICloneable$instance, IComparable$instan
 export type String = String$instance & __String$views;
 
 
-export abstract class StringComparer$instance {
+export interface StringComparer$instance {
     compare(x: unknown, y: unknown): int;
     compare(x: string, y: string): int;
     equals(x: unknown, y: unknown): boolean;
     equals(x: string, y: string): boolean;
     getHashCode(obj: unknown): int;
     getHashCode(obj: string): int;
-    static readonly invariantCulture: StringComparer;
-    static readonly invariantCultureIgnoreCase: StringComparer;
-    static readonly currentCulture: StringComparer;
-    static readonly currentCultureIgnoreCase: StringComparer;
-    static readonly ordinal: StringComparer;
-    static readonly ordinalIgnoreCase: StringComparer;
-    static create(culture: CultureInfo, ignoreCase: boolean): StringComparer;
-    static create(culture: CultureInfo, options: CompareOptions): StringComparer;
-    static fromComparison(comparisonType: StringComparison): StringComparer;
-    static isWellKnownCultureAwareComparer(comparer: IEqualityComparer_1<CLROf<string>>, compareInfo: { value: ref<CompareInfo> }, compareOptions: { value: ref<CompareOptions> }): boolean;
-    static isWellKnownOrdinalComparer(comparer: IEqualityComparer_1<CLROf<string>>, ignoreCase: { value: ref<boolean> }): boolean;
 }
+
+
+export const StringComparer: {
+    readonly invariantCulture: StringComparer;
+    readonly invariantCultureIgnoreCase: StringComparer;
+    readonly currentCulture: StringComparer;
+    readonly currentCultureIgnoreCase: StringComparer;
+    readonly ordinal: StringComparer;
+    readonly ordinalIgnoreCase: StringComparer;
+    create(culture: CultureInfo, ignoreCase: boolean): StringComparer;
+    create(culture: CultureInfo, options: CompareOptions): StringComparer;
+    fromComparison(comparisonType: StringComparison): StringComparer;
+    isWellKnownCultureAwareComparer(comparer: IEqualityComparer_1<CLROf<string>>, compareInfo: { value: ref<CompareInfo> }, compareOptions: { value: ref<CompareOptions> }): boolean;
+    isWellKnownOrdinalComparer(comparer: IEqualityComparer_1<CLROf<string>>, ignoreCase: { value: ref<boolean> }): boolean;
+};
 
 
 export interface __StringComparer$views {
@@ -6668,12 +6675,16 @@ export interface StringComparer$instance extends System_Collections_Internal.ICo
 export type StringComparer = StringComparer$instance & __StringComparer$views;
 
 
-export class SystemException$instance extends Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SystemException$instance extends Exception$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SystemException: {
+    new(): SystemException$instance;
+    new(message: string): SystemException$instance;
+    new(message: string, innerException: Exception): SystemException$instance;
+};
 
 
 export interface __SystemException$views {
@@ -6683,19 +6694,27 @@ export interface __SystemException$views {
 export type SystemException = SystemException$instance & __SystemException$views;
 
 
-export class ThreadStaticAttribute$instance extends Attribute$instance {
-    constructor();
+export interface ThreadStaticAttribute$instance extends Attribute {
 }
+
+
+export const ThreadStaticAttribute: {
+    new(): ThreadStaticAttribute$instance;
+};
 
 
 export type ThreadStaticAttribute = ThreadStaticAttribute$instance;
 
-export class TimeoutException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface TimeoutException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TimeoutException: {
+    new(): TimeoutException$instance;
+    new(message: string): TimeoutException$instance;
+    new(message: string, innerException: Exception): TimeoutException$instance;
+};
 
 
 export interface __TimeoutException$views {
@@ -6705,7 +6724,7 @@ export interface __TimeoutException$views {
 export type TimeoutException = TimeoutException$instance & __TimeoutException$views;
 
 
-export abstract class TimeProvider$instance {
+export interface TimeProvider$instance {
     readonly localTimeZone: TimeZoneInfo;
     readonly timestampFrequency: long;
     createTimer(callback: TimerCallback, state: unknown, dueTime: TimeSpan, period: TimeSpan): ITimer;
@@ -6714,28 +6733,36 @@ export abstract class TimeProvider$instance {
     getLocalNow(): DateTimeOffset;
     getTimestamp(): long;
     getUtcNow(): DateTimeOffset;
-    static readonly system: TimeProvider;
 }
+
+
+export const TimeProvider: {
+    readonly system: TimeProvider;
+};
 
 
 export type TimeProvider = TimeProvider$instance;
 
-export abstract class TimeZone$instance {
+export interface TimeZone$instance {
     readonly daylightName: string;
     readonly standardName: string;
-    abstract getDaylightChanges(year: int): DaylightTime;
-    abstract getUtcOffset(time: DateTime): TimeSpan;
+    getDaylightChanges(year: int): DaylightTime;
+    getUtcOffset(time: DateTime): TimeSpan;
     isDaylightSavingTime(time: DateTime): boolean;
     toLocalTime(time: DateTime): DateTime;
     toUniversalTime(time: DateTime): DateTime;
-    static readonly currentTimeZone: TimeZone;
-    static isDaylightSavingTime(time: DateTime, daylightTimes: DaylightTime): boolean;
 }
+
+
+export const TimeZone: {
+    readonly currentTimeZone: TimeZone;
+    isDaylightSavingTime(time: DateTime, daylightTimes: DaylightTime): boolean;
+};
 
 
 export type TimeZone = TimeZone$instance;
 
-export class TimeZoneInfo$instance {
+export interface TimeZoneInfo$instance {
     readonly baseUtcOffset: TimeSpan;
     readonly daylightName: string;
     readonly displayName: string;
@@ -6759,30 +6786,35 @@ export class TimeZoneInfo$instance {
     isInvalidTime(dateTime: DateTime): boolean;
     toSerializedString(): string;
     toString(): string;
-    static readonly local: TimeZoneInfo;
-    static readonly utc: TimeZoneInfo;
-    static clearCachedData(): void;
-    static convertTime(dateTime: DateTime, sourceTimeZone: TimeZoneInfo, destinationTimeZone: TimeZoneInfo): DateTime;
-    static convertTime(dateTime: DateTime, destinationTimeZone: TimeZoneInfo): DateTime;
-    static convertTime(dateTimeOffset: DateTimeOffset, destinationTimeZone: TimeZoneInfo): DateTimeOffset;
-    static convertTimeBySystemTimeZoneId(dateTime: DateTime, sourceTimeZoneId: string, destinationTimeZoneId: string): DateTime;
-    static convertTimeBySystemTimeZoneId(dateTime: DateTime, destinationTimeZoneId: string): DateTime;
-    static convertTimeBySystemTimeZoneId(dateTimeOffset: DateTimeOffset, destinationTimeZoneId: string): DateTimeOffset;
-    static convertTimeFromUtc(dateTime: DateTime, destinationTimeZone: TimeZoneInfo): DateTime;
-    static convertTimeToUtc(dateTime: DateTime, sourceTimeZone: TimeZoneInfo): DateTime;
-    static convertTimeToUtc(dateTime: DateTime): DateTime;
-    static createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[], disableDaylightSavingTime: boolean): TimeZoneInfo;
-    static createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[]): TimeZoneInfo;
-    static createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string): TimeZoneInfo;
-    static findSystemTimeZoneById(id: string): TimeZoneInfo;
-    static fromSerializedString(source: string): TimeZoneInfo;
-    static getSystemTimeZones(): ReadOnlyCollection_1<TimeZoneInfo>;
-    static getSystemTimeZones(skipSorting: boolean): ReadOnlyCollection_1<TimeZoneInfo>;
-    static tryConvertIanaIdToWindowsId(ianaId: string, windowsId: { value: ref<string> }): boolean;
-    static tryConvertWindowsIdToIanaId(windowsId: string, region: string, ianaId: { value: ref<string> }): boolean;
-    static tryConvertWindowsIdToIanaId(windowsId: string, ianaId: { value: ref<string> }): boolean;
-    static tryFindSystemTimeZoneById(id: string, timeZoneInfo: { value: ref<TimeZoneInfo> }): boolean;
 }
+
+
+export const TimeZoneInfo: {
+    new(): TimeZoneInfo$instance;
+    readonly local: TimeZoneInfo;
+    readonly utc: TimeZoneInfo;
+    clearCachedData(): void;
+    convertTime(dateTime: DateTime, sourceTimeZone: TimeZoneInfo, destinationTimeZone: TimeZoneInfo): DateTime;
+    convertTime(dateTime: DateTime, destinationTimeZone: TimeZoneInfo): DateTime;
+    convertTime(dateTimeOffset: DateTimeOffset, destinationTimeZone: TimeZoneInfo): DateTimeOffset;
+    convertTimeBySystemTimeZoneId(dateTime: DateTime, sourceTimeZoneId: string, destinationTimeZoneId: string): DateTime;
+    convertTimeBySystemTimeZoneId(dateTime: DateTime, destinationTimeZoneId: string): DateTime;
+    convertTimeBySystemTimeZoneId(dateTimeOffset: DateTimeOffset, destinationTimeZoneId: string): DateTimeOffset;
+    convertTimeFromUtc(dateTime: DateTime, destinationTimeZone: TimeZoneInfo): DateTime;
+    convertTimeToUtc(dateTime: DateTime, sourceTimeZone: TimeZoneInfo): DateTime;
+    convertTimeToUtc(dateTime: DateTime): DateTime;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[], disableDaylightSavingTime: boolean): TimeZoneInfo;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[]): TimeZoneInfo;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string): TimeZoneInfo;
+    findSystemTimeZoneById(id: string): TimeZoneInfo;
+    fromSerializedString(source: string): TimeZoneInfo;
+    getSystemTimeZones(): ReadOnlyCollection_1<TimeZoneInfo>;
+    getSystemTimeZones(skipSorting: boolean): ReadOnlyCollection_1<TimeZoneInfo>;
+    tryConvertIanaIdToWindowsId(ianaId: string, windowsId: { value: ref<string> }): boolean;
+    tryConvertWindowsIdToIanaId(windowsId: string, region: string, ianaId: { value: ref<string> }): boolean;
+    tryConvertWindowsIdToIanaId(windowsId: string, ianaId: { value: ref<string> }): boolean;
+    tryFindSystemTimeZoneById(id: string, timeZoneInfo: { value: ref<TimeZoneInfo> }): boolean;
+};
 
 
 export interface __TimeZoneInfo$views {
@@ -6799,7 +6831,7 @@ export interface TimeZoneInfo$instance extends System_Runtime_Serialization_Inte
 export type TimeZoneInfo = TimeZoneInfo$instance & __TimeZoneInfo$views;
 
 
-export class TimeZoneInfo_AdjustmentRule$instance {
+export interface TimeZoneInfo_AdjustmentRule$instance {
     readonly baseUtcOffsetDelta: TimeSpan;
     readonly dateEnd: DateTime;
     readonly dateStart: DateTime;
@@ -6809,9 +6841,14 @@ export class TimeZoneInfo_AdjustmentRule$instance {
     equals(other: TimeZoneInfo_AdjustmentRule): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static createAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime, baseUtcOffsetDelta: TimeSpan): TimeZoneInfo_AdjustmentRule;
-    static createAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime): TimeZoneInfo_AdjustmentRule;
 }
+
+
+export const TimeZoneInfo_AdjustmentRule: {
+    new(): TimeZoneInfo_AdjustmentRule$instance;
+    createAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime, baseUtcOffsetDelta: TimeSpan): TimeZoneInfo_AdjustmentRule;
+    createAdjustmentRule(dateStart: DateTime, dateEnd: DateTime, daylightDelta: TimeSpan, daylightTransitionStart: TimeZoneInfo_TransitionTime, daylightTransitionEnd: TimeZoneInfo_TransitionTime): TimeZoneInfo_AdjustmentRule;
+};
 
 
 export interface __TimeZoneInfo_AdjustmentRule$views {
@@ -6828,12 +6865,16 @@ export interface TimeZoneInfo_AdjustmentRule$instance extends System_Runtime_Ser
 export type TimeZoneInfo_AdjustmentRule = TimeZoneInfo_AdjustmentRule$instance & __TimeZoneInfo_AdjustmentRule$views;
 
 
-export class TimeZoneNotFoundException$instance extends Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface TimeZoneNotFoundException$instance extends Exception$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TimeZoneNotFoundException: {
+    new(): TimeZoneNotFoundException$instance;
+    new(message: string): TimeZoneNotFoundException$instance;
+    new(message: string, innerException: Exception): TimeZoneNotFoundException$instance;
+};
 
 
 export interface __TimeZoneNotFoundException$views {
@@ -6843,13 +6884,17 @@ export interface __TimeZoneNotFoundException$views {
 export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __TimeZoneNotFoundException$views;
 
 
-export class Tuple_1$instance<T1> {
-    constructor(item1: T1);
+export interface Tuple_1$instance<T1> {
     readonly item1: T1;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_1: {
+    new<T1>(item1: T1): Tuple_1$instance<T1>;
+};
 
 
 export interface __Tuple_1$views<T1> {
@@ -6867,14 +6912,18 @@ export interface Tuple_1$instance<T1> extends System_Collections_Internal.IStruc
 export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 
 
-export class Tuple_2$instance<T1, T2> {
-    constructor(item1: T1, item2: T2);
+export interface Tuple_2$instance<T1, T2> {
     readonly item1: T1;
     readonly item2: T2;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_2: {
+    new<T1, T2>(item1: T1, item2: T2): Tuple_2$instance<T1, T2>;
+};
 
 
 export interface __Tuple_2$views<T1, T2> {
@@ -6892,8 +6941,7 @@ export interface Tuple_2$instance<T1, T2> extends System_Collections_Internal.IS
 export type Tuple_2<T1, T2> = Tuple_2$instance<T1, T2> & __Tuple_2$views<T1, T2>;
 
 
-export class Tuple_3$instance<T1, T2, T3> {
-    constructor(item1: T1, item2: T2, item3: T3);
+export interface Tuple_3$instance<T1, T2, T3> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -6901,6 +6949,11 @@ export class Tuple_3$instance<T1, T2, T3> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_3: {
+    new<T1, T2, T3>(item1: T1, item2: T2, item3: T3): Tuple_3$instance<T1, T2, T3>;
+};
 
 
 export interface __Tuple_3$views<T1, T2, T3> {
@@ -6918,8 +6971,7 @@ export interface Tuple_3$instance<T1, T2, T3> extends System_Collections_Interna
 export type Tuple_3<T1, T2, T3> = Tuple_3$instance<T1, T2, T3> & __Tuple_3$views<T1, T2, T3>;
 
 
-export class Tuple_4$instance<T1, T2, T3, T4> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4);
+export interface Tuple_4$instance<T1, T2, T3, T4> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -6928,6 +6980,11 @@ export class Tuple_4$instance<T1, T2, T3, T4> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_4: {
+    new<T1, T2, T3, T4>(item1: T1, item2: T2, item3: T3, item4: T4): Tuple_4$instance<T1, T2, T3, T4>;
+};
 
 
 export interface __Tuple_4$views<T1, T2, T3, T4> {
@@ -6945,8 +7002,7 @@ export interface Tuple_4$instance<T1, T2, T3, T4> extends System_Collections_Int
 export type Tuple_4<T1, T2, T3, T4> = Tuple_4$instance<T1, T2, T3, T4> & __Tuple_4$views<T1, T2, T3, T4>;
 
 
-export class Tuple_5$instance<T1, T2, T3, T4, T5> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5);
+export interface Tuple_5$instance<T1, T2, T3, T4, T5> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -6956,6 +7012,11 @@ export class Tuple_5$instance<T1, T2, T3, T4, T5> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_5: {
+    new<T1, T2, T3, T4, T5>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5): Tuple_5$instance<T1, T2, T3, T4, T5>;
+};
 
 
 export interface __Tuple_5$views<T1, T2, T3, T4, T5> {
@@ -6973,8 +7034,7 @@ export interface Tuple_5$instance<T1, T2, T3, T4, T5> extends System_Collections
 export type Tuple_5<T1, T2, T3, T4, T5> = Tuple_5$instance<T1, T2, T3, T4, T5> & __Tuple_5$views<T1, T2, T3, T4, T5>;
 
 
-export class Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6);
+export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -6985,6 +7045,11 @@ export class Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_6: {
+    new<T1, T2, T3, T4, T5, T6>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6): Tuple_6$instance<T1, T2, T3, T4, T5, T6>;
+};
 
 
 export interface __Tuple_6$views<T1, T2, T3, T4, T5, T6> {
@@ -7002,8 +7067,7 @@ export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> extends System_Collect
 export type Tuple_6<T1, T2, T3, T4, T5, T6> = Tuple_6$instance<T1, T2, T3, T4, T5, T6> & __Tuple_6$views<T1, T2, T3, T4, T5, T6>;
 
 
-export class Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7);
+export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -7015,6 +7079,11 @@ export class Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_7: {
+    new<T1, T2, T3, T4, T5, T6, T7>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7): Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7>;
+};
 
 
 export interface __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7> {
@@ -7032,8 +7101,7 @@ export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> extends System_Col
 export type Tuple_7<T1, T2, T3, T4, T5, T6, T7> = Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> & __Tuple_7$views<T1, T2, T3, T4, T5, T6, T7>;
 
 
-export class Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
-    constructor(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest);
+export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
@@ -7046,6 +7114,11 @@ export class Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const Tuple_8: {
+    new<T1, T2, T3, T4, T5, T6, T7, TRest>(item1: T1, item2: T2, item3: T3, item4: T4, item5: T5, item6: T6, item7: T7, rest: TRest): Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest>;
+};
 
 
 export interface __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest> {
@@ -7063,7 +7136,7 @@ export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> extends Sys
 export type Tuple_8<T1, T2, T3, T4, T5, T6, T7, TRest> = Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> & __Tuple_8$views<T1, T2, T3, T4, T5, T6, T7, TRest>;
 
 
-export abstract class Type$instance extends System_Reflection_Internal.MemberInfo$instance {
+export interface Type$instance extends MemberInfo {
     readonly assembly: Assembly;
     readonly assemblyQualifiedName: string;
     readonly attributes: TypeAttributes;
@@ -7144,10 +7217,10 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     getConstructor(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo;
     getConstructors(): ConstructorInfo[];
     getConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
-    abstract getCustomAttributes(inherit: boolean): unknown[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getDefaultMembers(): MemberInfo[];
-    abstract getElementType(): Type;
+    getElementType(): Type;
     getEnumName(value: unknown): string;
     getEnumNames(): string[];
     getEnumUnderlyingType(): Type;
@@ -7171,7 +7244,7 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     getInterface(name: string): Type;
     getInterface(name: string, ignoreCase: boolean): Type;
     getInterfaceMap(interfaceType: Type): InterfaceMapping;
-    abstract getInterfaces(): Type[];
+    getInterfaces(): Type[];
     getMember(name: string): MemberInfo[];
     getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
@@ -7213,7 +7286,7 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
     isAssignableFrom(c: Type): boolean;
     isAssignableTo(targetType: Type): boolean;
-    abstract isDefined(attributeType: Type, inherit: boolean): boolean;
+    isDefined(attributeType: Type, inherit: boolean): boolean;
     isEnumDefined(value: unknown): boolean;
     isEquivalentTo(other: Type): boolean;
     isInstanceOfType(o: unknown): boolean;
@@ -7224,35 +7297,39 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     makeGenericType(typeArguments: Type[]): Type;
     makePointerType(): Type;
     toString(): string;
-    static readonly delimiter: char;
-    static readonly emptyTypes: Type[];
-    static readonly missing: unknown;
-    static readonly filterAttribute: MemberFilter;
-    static readonly filterName: MemberFilter;
-    static readonly filterNameIgnoreCase: MemberFilter;
-    static readonly defaultBinder: Binder;
-    static getType(typeName: string, throwOnError: boolean, ignoreCase: boolean): Type;
-    static getType(typeName: string, throwOnError: boolean): Type;
-    static getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>, throwOnError: boolean, ignoreCase: boolean): Type;
-    static getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>, throwOnError: boolean): Type;
-    static getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>): Type;
-    static getType(typeName: string): Type;
-    static getTypeArray(args: unknown[]): Type[];
-    static getTypeCode(type_: Type): TypeCode;
-    static getTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type;
-    static getTypeFromCLSID(clsid: Guid, server: string, throwOnError: boolean): Type;
-    static getTypeFromCLSID(clsid: Guid, server: string): Type;
-    static getTypeFromCLSID(clsid: Guid): Type;
-    static getTypeFromHandle(handle: RuntimeTypeHandle): Type;
-    static getTypeFromProgID(progID: string, throwOnError: boolean): Type;
-    static getTypeFromProgID(progID: string, server: string, throwOnError: boolean): Type;
-    static getTypeFromProgID(progID: string, server: string): Type;
-    static getTypeFromProgID(progID: string): Type;
-    static getTypeHandle(o: unknown): RuntimeTypeHandle;
-    static makeGenericMethodParameter(position: int): Type;
-    static makeGenericSignatureType(genericTypeDefinition: Type, typeArguments: Type[]): Type;
-    static reflectionOnlyGetType(typeName: string, throwIfNotFound: boolean, ignoreCase: boolean): Type;
 }
+
+
+export const Type: {
+    readonly delimiter: char;
+    readonly emptyTypes: Type[];
+    readonly missing: unknown;
+    readonly filterAttribute: MemberFilter;
+    readonly filterName: MemberFilter;
+    readonly filterNameIgnoreCase: MemberFilter;
+    readonly defaultBinder: Binder;
+    getType(typeName: string, throwOnError: boolean, ignoreCase: boolean): Type;
+    getType(typeName: string, throwOnError: boolean): Type;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>, throwOnError: boolean, ignoreCase: boolean): Type;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>, throwOnError: boolean): Type;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, CLROf<string>, CLROf<boolean>, Type>): Type;
+    getType(typeName: string): Type;
+    getTypeArray(args: unknown[]): Type[];
+    getTypeCode(type_: Type): TypeCode;
+    getTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type;
+    getTypeFromCLSID(clsid: Guid, server: string, throwOnError: boolean): Type;
+    getTypeFromCLSID(clsid: Guid, server: string): Type;
+    getTypeFromCLSID(clsid: Guid): Type;
+    getTypeFromHandle(handle: RuntimeTypeHandle): Type;
+    getTypeFromProgID(progID: string, throwOnError: boolean): Type;
+    getTypeFromProgID(progID: string, server: string, throwOnError: boolean): Type;
+    getTypeFromProgID(progID: string, server: string): Type;
+    getTypeFromProgID(progID: string): Type;
+    getTypeHandle(o: unknown): RuntimeTypeHandle;
+    makeGenericMethodParameter(position: int): Type;
+    makeGenericSignatureType(genericTypeDefinition: Type, typeArguments: Type[]): Type;
+    reflectionOnlyGetType(typeName: string, throwIfNotFound: boolean, ignoreCase: boolean): Type;
+};
 
 
 export interface __Type$views {
@@ -7263,12 +7340,16 @@ export interface __Type$views {
 export type Type = Type$instance & __Type$views;
 
 
-export class TypeAccessException$instance extends TypeLoadException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface TypeAccessException$instance extends TypeLoadException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TypeAccessException: {
+    new(): TypeAccessException$instance;
+    new(message: string): TypeAccessException$instance;
+    new(message: string, inner: Exception): TypeAccessException$instance;
+};
 
 
 export interface __TypeAccessException$views {
@@ -7278,11 +7359,15 @@ export interface __TypeAccessException$views {
 export type TypeAccessException = TypeAccessException$instance & __TypeAccessException$views;
 
 
-export class TypeInitializationException$instance extends SystemException$instance {
-    constructor(fullTypeName: string, innerException: Exception);
+export interface TypeInitializationException$instance extends SystemException$instance {
     readonly typeName: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TypeInitializationException: {
+    new(fullTypeName: string, innerException: Exception): TypeInitializationException$instance;
+};
 
 
 export interface __TypeInitializationException$views {
@@ -7292,14 +7377,18 @@ export interface __TypeInitializationException$views {
 export type TypeInitializationException = TypeInitializationException$instance & __TypeInitializationException$views;
 
 
-export class TypeLoadException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface TypeLoadException$instance extends SystemException$instance {
     readonly message: string;
     readonly typeName: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TypeLoadException: {
+    new(): TypeLoadException$instance;
+    new(message: string): TypeLoadException$instance;
+    new(message: string, inner: Exception): TypeLoadException$instance;
+};
 
 
 export interface __TypeLoadException$views {
@@ -7309,12 +7398,16 @@ export interface __TypeLoadException$views {
 export type TypeLoadException = TypeLoadException$instance & __TypeLoadException$views;
 
 
-export class TypeUnloadedException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface TypeUnloadedException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TypeUnloadedException: {
+    new(): TypeUnloadedException$instance;
+    new(message: string): TypeUnloadedException$instance;
+    new(message: string, innerException: Exception): TypeUnloadedException$instance;
+};
 
 
 export interface __TypeUnloadedException$views {
@@ -7324,12 +7417,16 @@ export interface __TypeUnloadedException$views {
 export type TypeUnloadedException = TypeUnloadedException$instance & __TypeUnloadedException$views;
 
 
-export class UnauthorizedAccessException$instance extends SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface UnauthorizedAccessException$instance extends SystemException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const UnauthorizedAccessException: {
+    new(): UnauthorizedAccessException$instance;
+    new(message: string): UnauthorizedAccessException$instance;
+    new(message: string, inner: Exception): UnauthorizedAccessException$instance;
+};
 
 
 export interface __UnauthorizedAccessException$views {
@@ -7339,38 +7436,28 @@ export interface __UnauthorizedAccessException$views {
 export type UnauthorizedAccessException = UnauthorizedAccessException$instance & __UnauthorizedAccessException$views;
 
 
-export class UnhandledExceptionEventArgs$instance extends EventArgs$instance {
-    constructor(exception: unknown, isTerminating: boolean);
+export interface UnhandledExceptionEventArgs$instance extends EventArgs {
     readonly exceptionObject: unknown;
     readonly isTerminating: boolean;
 }
 
 
+export const UnhandledExceptionEventArgs: {
+    new(exception: unknown, isTerminating: boolean): UnhandledExceptionEventArgs$instance;
+};
+
+
 export type UnhandledExceptionEventArgs = UnhandledExceptionEventArgs$instance;
 
-export class UnhandledExceptionEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: UnhandledExceptionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: UnhandledExceptionEventArgs): void;
-}
-
-
-export interface __UnhandledExceptionEventHandler$views {
-    As_ICloneable(): ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type UnhandledExceptionEventHandler = UnhandledExceptionEventHandler$instance & __UnhandledExceptionEventHandler$views;
-
-
-export class UnitySerializationHolder$instance {
-    constructor(info: SerializationInfo, context: StreamingContext);
+export interface UnitySerializationHolder$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getRealObject(context: StreamingContext): unknown;
 }
+
+
+export const UnitySerializationHolder: {
+    new(info: SerializationInfo, context: StreamingContext): UnitySerializationHolder$instance;
+};
 
 
 export interface __UnitySerializationHolder$views {
@@ -7383,14 +7470,7 @@ export interface UnitySerializationHolder$instance extends System_Runtime_Serial
 export type UnitySerializationHolder = UnitySerializationHolder$instance & __UnitySerializationHolder$views;
 
 
-export class Uri$instance {
-    constructor(uriString: string);
-    constructor(uriString: string, dontEscape: boolean);
-    constructor(baseUri: Uri, relativeUri: string, dontEscape: boolean);
-    constructor(uriString: string, uriKind: UriKind);
-    constructor(uriString: string, creationOptions: ref<UriCreationOptions>);
-    constructor(baseUri: Uri, relativeUri: string);
-    constructor(baseUri: Uri, relativeUri: Uri);
+export interface Uri$instance {
     readonly absolutePath: string;
     readonly absoluteUri: string;
     readonly authority: string;
@@ -7424,44 +7504,55 @@ export class Uri$instance {
     makeRelativeUri(uri: Uri): Uri;
     toString(): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static readonly uriSchemeFile: string;
-    static readonly uriSchemeFtp: string;
-    static readonly uriSchemeSftp: string;
-    static readonly uriSchemeFtps: string;
-    static readonly uriSchemeGopher: string;
-    static readonly uriSchemeHttp: string;
-    static readonly uriSchemeHttps: string;
-    static readonly uriSchemeWs: string;
-    static readonly uriSchemeWss: string;
-    static readonly uriSchemeMailto: string;
-    static readonly uriSchemeNews: string;
-    static readonly uriSchemeNntp: string;
-    static readonly uriSchemeSsh: string;
-    static readonly uriSchemeTelnet: string;
-    static readonly uriSchemeNetTcp: string;
-    static readonly uriSchemeNetPipe: string;
-    static readonly schemeDelimiter: string;
-    static checkHostName(name: string): UriHostNameType;
-    static checkSchemeName(schemeName: string): boolean;
-    static compare(uri1: Uri, uri2: Uri, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
-    static escapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>): string;
-    static escapeDataString(stringToEscape: string): string;
-    static escapeUriString(stringToEscape: string): string;
-    static fromHex(digit: char): int;
-    static hexEscape(character: char): string;
-    static hexUnescape(pattern: string, index: { value: ref<int> }): char;
-    static isHexDigit(character: char): boolean;
-    static isHexEncoding(pattern: string, index: int): boolean;
-    static isWellFormedUriString(uriString: string, uriKind: UriKind): boolean;
-    static tryCreate(uriString: string, creationOptions: { value: ref<UriCreationOptions> }, result: { value: ref<Uri> }): boolean;
-    static tryCreate(uriString: string, uriKind: UriKind, result: { value: ref<Uri> }): boolean;
-    static tryCreate(baseUri: Uri, relativeUri: string, result: { value: ref<Uri> }): boolean;
-    static tryCreate(baseUri: Uri, relativeUri: Uri, result: { value: ref<Uri> }): boolean;
-    static tryEscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static tryUnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static unescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>): string;
-    static unescapeDataString(stringToUnescape: string): string;
 }
+
+
+export const Uri: {
+    new(uriString: string): Uri$instance;
+    new(uriString: string, dontEscape: boolean): Uri$instance;
+    new(baseUri: Uri, relativeUri: string, dontEscape: boolean): Uri$instance;
+    new(uriString: string, uriKind: UriKind): Uri$instance;
+    new(uriString: string, creationOptions: ref<UriCreationOptions>): Uri$instance;
+    new(baseUri: Uri, relativeUri: string): Uri$instance;
+    new(baseUri: Uri, relativeUri: Uri): Uri$instance;
+    readonly uriSchemeFile: string;
+    readonly uriSchemeFtp: string;
+    readonly uriSchemeSftp: string;
+    readonly uriSchemeFtps: string;
+    readonly uriSchemeGopher: string;
+    readonly uriSchemeHttp: string;
+    readonly uriSchemeHttps: string;
+    readonly uriSchemeWs: string;
+    readonly uriSchemeWss: string;
+    readonly uriSchemeMailto: string;
+    readonly uriSchemeNews: string;
+    readonly uriSchemeNntp: string;
+    readonly uriSchemeSsh: string;
+    readonly uriSchemeTelnet: string;
+    readonly uriSchemeNetTcp: string;
+    readonly uriSchemeNetPipe: string;
+    readonly schemeDelimiter: string;
+    checkHostName(name: string): UriHostNameType;
+    checkSchemeName(schemeName: string): boolean;
+    compare(uri1: Uri, uri2: Uri, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
+    escapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>): string;
+    escapeDataString(stringToEscape: string): string;
+    escapeUriString(stringToEscape: string): string;
+    fromHex(digit: char): int;
+    hexEscape(character: char): string;
+    hexUnescape(pattern: string, index: { value: ref<int> }): char;
+    isHexDigit(character: char): boolean;
+    isHexEncoding(pattern: string, index: int): boolean;
+    isWellFormedUriString(uriString: string, uriKind: UriKind): boolean;
+    tryCreate(uriString: string, creationOptions: { value: ref<UriCreationOptions> }, result: { value: ref<Uri> }): boolean;
+    tryCreate(uriString: string, uriKind: UriKind, result: { value: ref<Uri> }): boolean;
+    tryCreate(baseUri: Uri, relativeUri: string, result: { value: ref<Uri> }): boolean;
+    tryCreate(baseUri: Uri, relativeUri: Uri, result: { value: ref<Uri> }): boolean;
+    tryEscapeDataString(charsToEscape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    tryUnescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    unescapeDataString(charsToUnescape: ReadOnlySpan_1<CLROf<char>>): string;
+    unescapeDataString(stringToUnescape: string): string;
+};
 
 
 export interface __Uri$views {
@@ -7479,14 +7570,7 @@ export interface Uri$instance extends System_Runtime_Serialization_Internal.ISer
 export type Uri = Uri$instance & __Uri$views;
 
 
-export class UriBuilder$instance {
-    constructor();
-    constructor(uri: string);
-    constructor(uri: Uri);
-    constructor(schemeName: string, hostName: string);
-    constructor(scheme: string, host: string, portNumber: int);
-    constructor(scheme: string, host: string, port: int, pathValue: string);
-    constructor(scheme: string, host: string, port: int, path: string, extraValue: string);
+export interface UriBuilder$instance {
     fragment: string;
     host: string;
     password: string;
@@ -7502,14 +7586,29 @@ export class UriBuilder$instance {
 }
 
 
+export const UriBuilder: {
+    new(): UriBuilder$instance;
+    new(uri: string): UriBuilder$instance;
+    new(uri: Uri): UriBuilder$instance;
+    new(schemeName: string, hostName: string): UriBuilder$instance;
+    new(scheme: string, host: string, portNumber: int): UriBuilder$instance;
+    new(scheme: string, host: string, port: int, pathValue: string): UriBuilder$instance;
+    new(scheme: string, host: string, port: int, path: string, extraValue: string): UriBuilder$instance;
+};
+
+
 export type UriBuilder = UriBuilder$instance;
 
-export class UriFormatException$instance extends FormatException$instance {
-    constructor();
-    constructor(textString: string);
-    constructor(textString: string, e: Exception);
+export interface UriFormatException$instance extends FormatException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const UriFormatException: {
+    new(): UriFormatException$instance;
+    new(textString: string): UriFormatException$instance;
+    new(textString: string, e: Exception): UriFormatException$instance;
+};
 
 
 export interface __UriFormatException$views {
@@ -7519,16 +7618,19 @@ export interface __UriFormatException$views {
 export type UriFormatException = UriFormatException$instance & __UriFormatException$views;
 
 
-export abstract class UriParser$instance {
-    static isKnownScheme(schemeName: string): boolean;
-    static register(uriParser: UriParser, schemeName: string, defaultPort: int): void;
+export interface UriParser$instance {
 }
+
+
+export const UriParser: {
+    isKnownScheme(schemeName: string): boolean;
+    register(uriParser: UriParser, schemeName: string, defaultPort: int): void;
+};
 
 
 export type UriParser = UriParser$instance;
 
-export class UriTypeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface UriTypeConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -7542,23 +7644,27 @@ export class UriTypeConverter$instance extends System_ComponentModel_Internal.Ty
 }
 
 
+export const UriTypeConverter: {
+    new(): UriTypeConverter$instance;
+};
+
+
 export type UriTypeConverter = UriTypeConverter$instance;
 
-export abstract class ValueType$instance {
+export interface ValueType$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
 
 
+export const ValueType: {
+};
+
+
 export type ValueType = ValueType$instance;
 
-export class Version$instance {
-    constructor(major: int, minor: int, build: int, revision: int);
-    constructor(major: int, minor: int, build: int);
-    constructor(major: int, minor: int);
-    constructor(version: string);
-    constructor();
+export interface Version$instance {
     readonly build: int;
     readonly major: int;
     readonly majorRevision: short;
@@ -7577,13 +7683,22 @@ export class Version$instance {
     tryFormat(destination: Span_1<CLROf<char>>, fieldCount: int, charsWritten: { value: ref<int> }): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, fieldCount: int, bytesWritten: { value: ref<int> }): boolean;
-    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Version;
-    static parse(input: ReadOnlySpan_1<CLROf<char>>): Version;
-    static parse(input: string): Version;
-    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Version> }): boolean;
-    static tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Version> }): boolean;
-    static tryParse(input: string, result: { value: ref<Version> }): boolean;
 }
+
+
+export const Version: {
+    new(major: int, minor: int, build: int, revision: int): Version$instance;
+    new(major: int, minor: int, build: int): Version$instance;
+    new(major: int, minor: int): Version$instance;
+    new(version: string): Version$instance;
+    new(): Version$instance;
+    parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): Version;
+    parse(input: ReadOnlySpan_1<CLROf<char>>): Version;
+    parse(input: string): Version;
+    tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<Version> }): boolean;
+    tryParse(input: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<Version> }): boolean;
+    tryParse(input: string, result: { value: ref<Version> }): boolean;
+};
 
 
 export interface __Version$views {
@@ -7606,14 +7721,18 @@ export interface Version$instance extends ICloneable$instance, IComparable$insta
 export type Version = Version$instance & __Version$views;
 
 
-export class WeakReference$instance {
-    constructor(target: unknown);
-    constructor(target: unknown, trackResurrection: boolean);
+export interface WeakReference$instance {
     readonly isAlive: boolean;
     target: unknown;
     readonly trackResurrection: boolean;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const WeakReference: {
+    new(target: unknown): WeakReference$instance;
+    new(target: unknown, trackResurrection: boolean): WeakReference$instance;
+};
 
 
 export interface __WeakReference$views {
@@ -7625,13 +7744,17 @@ export interface WeakReference$instance extends System_Runtime_Serialization_Int
 export type WeakReference = WeakReference$instance & __WeakReference$views;
 
 
-export class WeakReference_1$instance<T> {
-    constructor(target: T);
-    constructor(target: T, trackResurrection: boolean);
+export interface WeakReference_1$instance<T> {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     setTarget(target: T): void;
     tryGetTarget(target: { value: ref<T> }): boolean;
 }
+
+
+export const WeakReference_1: {
+    new<T>(target: T): WeakReference_1$instance<T>;
+    new<T>(target: T, trackResurrection: boolean): WeakReference_1$instance<T>;
+};
 
 
 export interface __WeakReference_1$views<T> {

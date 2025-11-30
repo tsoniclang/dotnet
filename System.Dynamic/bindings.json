@@ -3324,7 +3324,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::ContainsKey(TKey):System.Boolean",
           "clrName": "ContainsKey",
           "tsEmitName": "containsKey",
-          "metadataToken": 100704653,
+          "metadataToken": 100704550,
           "canonicalSignature": "(TKey):System.Boolean",
           "normalizedSignature": "ContainsKey|(TKey):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3338,7 +3338,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Add(TKey,TValue):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100704654,
+          "metadataToken": 100704551,
           "canonicalSignature": "(TKey,TValue):System.Void",
           "normalizedSignature": "Add|(TKey,TValue):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3352,7 +3352,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::TryGetValue(TKey,TValue\u0026):System.Boolean",
           "clrName": "TryGetValue",
           "tsEmitName": "tryGetValue",
-          "metadataToken": 100704656,
+          "metadataToken": 100704553,
           "canonicalSignature": "(TKey,TValue\u0026):System.Boolean",
           "normalizedSignature": "TryGetValue|(TKey,TValue\u0026):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3366,7 +3366,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Add(T):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100704641,
+          "metadataToken": 100704538,
           "canonicalSignature": "(T):System.Void",
           "normalizedSignature": "Add|(T):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3380,7 +3380,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Clear():System.Void",
           "clrName": "Clear",
           "tsEmitName": "clear",
-          "metadataToken": 100704642,
+          "metadataToken": 100704539,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Clear|():System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3394,7 +3394,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Contains(T):System.Boolean",
           "clrName": "Contains",
           "tsEmitName": "contains",
-          "metadataToken": 100704643,
+          "metadataToken": 100704540,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "Contains|(T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3408,7 +3408,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
           "tsEmitName": "copyTo",
-          "metadataToken": 100704644,
+          "metadataToken": 100704541,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3422,7 +3422,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEnumerable\u00601::GetEnumerator():IEnumerator_1",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100704663,
+          "metadataToken": 100704560,
           "canonicalSignature": "():IEnumerator_1",
           "normalizedSignature": "GetEnumerator|():IEnumerator_1|static=false",
           "emitScope": "ViewOnly",
@@ -3436,7 +3436,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -3452,7 +3452,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Keys:ICollection_1",
           "clrName": "Keys",
           "tsEmitName": "keys",
-          "metadataToken": 385881460,
+          "metadataToken": 385881421,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Keys|:ICollection_1|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3466,7 +3466,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::Count:System.Int32",
           "clrName": "Count",
           "tsEmitName": "count",
-          "metadataToken": 385881456,
+          "metadataToken": 385881417,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Count|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3480,7 +3480,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.ICollection\u00601::IsReadOnly:System.Boolean",
           "clrName": "IsReadOnly",
           "tsEmitName": "isReadOnly",
-          "metadataToken": 385881457,
+          "metadataToken": 385881418,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsReadOnly|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3494,7 +3494,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IDictionary\u00602::Values:ICollection_1",
           "clrName": "Values",
           "tsEmitName": "values",
-          "metadataToken": 385881461,
+          "metadataToken": 385881422,
           "canonicalSignature": ":ICollection_1",
           "normalizedSignature": "Values|:ICollection_1|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3537,7 +3537,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704653
+            "metadataToken": 100704550
           }
         },
         {
@@ -3547,7 +3547,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704654
+            "metadataToken": 100704551
           }
         },
         {
@@ -3557,7 +3557,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704656
+            "metadataToken": 100704553
           }
         },
         {
@@ -3567,7 +3567,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704641
+            "metadataToken": 100704538
           }
         },
         {
@@ -3577,7 +3577,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704642
+            "metadataToken": 100704539
           }
         },
         {
@@ -3587,7 +3587,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704643
+            "metadataToken": 100704540
           }
         },
         {
@@ -3597,7 +3597,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704644
+            "metadataToken": 100704541
           }
         },
         {
@@ -3607,7 +3607,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEnumerable\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704663
+            "metadataToken": 100704560
           }
         },
         {
@@ -3617,7 +3617,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3689,7 +3689,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881460
+            "metadataToken": 385881421
           }
         },
         {
@@ -3699,7 +3699,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881456
+            "metadataToken": 385881417
           }
         },
         {
@@ -3709,7 +3709,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.ICollection\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881457
+            "metadataToken": 385881418
           }
         },
         {
@@ -3719,7 +3719,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IDictionary\u00602",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881461
+            "metadataToken": 385881422
           }
         }
       ],

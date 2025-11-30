@@ -16,10 +16,10 @@ import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, ICompar
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { ExtendedProtectionPolicyTypeConverter$instance as ExtendedProtectionPolicyTypeConverter } from './internal/index.js';
-export { ChannelBinding$instance as ChannelBinding } from './internal/index.js';
+export { ExtendedProtectionPolicyTypeConverter as ExtendedProtectionPolicyTypeConverter } from './internal/index.js';
+export { ChannelBinding as ChannelBinding } from './internal/index.js';
 export { ChannelBindingKind as ChannelBindingKind } from './internal/index.js';
-export { ExtendedProtectionPolicy$instance as ExtendedProtectionPolicy } from './internal/index.js';
-export { ServiceNameCollection$instance as ServiceNameCollection } from './internal/index.js';
+export { ExtendedProtectionPolicy as ExtendedProtectionPolicy } from './internal/index.js';
+export { ServiceNameCollection as ServiceNameCollection } from './internal/index.js';
 export { PolicyEnforcement as PolicyEnforcement } from './internal/index.js';
 export { ProtectionScenario as ProtectionScenario } from './internal/index.js';

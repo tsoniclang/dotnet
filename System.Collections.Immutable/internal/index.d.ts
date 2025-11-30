@@ -122,7 +122,7 @@ export interface IImmutableStack_1$instance<T> extends IEnumerable_1<T>, IEnumer
 
 export type IImmutableStack_1<T> = IImmutableStack_1$instance<T>;
 
-export class ImmutableArray_1$instance<T> {
+export interface ImmutableArray_1$instance<T> {
     readonly isDefault: boolean;
     readonly isDefaultOrEmpty: boolean;
     readonly isEmpty: boolean;
@@ -189,9 +189,14 @@ export class ImmutableArray_1$instance<T> {
     sort(comparer: IComparer_1<T>): ImmutableArray_1<T>;
     sort(index: int, count: int, comparer: IComparer_1<T>): ImmutableArray_1<T>;
     toBuilder(): ImmutableArray_1_Builder<T>;
-    static readonly empty: unknown;
-    static castUp<T, TDerived extends T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
 }
+
+
+export const ImmutableArray_1: {
+    new<T>(): ImmutableArray_1$instance<T>;
+    readonly empty: unknown;
+    castUp<T, TDerived extends T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
+};
 
 
 export interface __ImmutableArray_1$views<T> {
@@ -216,20 +221,30 @@ export interface ImmutableArray_1$instance<T> extends System_Collections_Interna
 export type ImmutableArray_1<T> = ImmutableArray_1$instance<T> & __ImmutableArray_1$views<T>;
 
 
-export class ImmutableArray_1_Enumerator$instance<T> {
+export interface ImmutableArray_1_Enumerator$instance<T> {
     readonly current: T;
     moveNext(): boolean;
 }
 
 
+export const ImmutableArray_1_Enumerator: {
+    new<T>(): ImmutableArray_1_Enumerator$instance<T>;
+};
+
+
 export type ImmutableArray_1_Enumerator<T> = ImmutableArray_1_Enumerator$instance<T>;
 
-export class ImmutableDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface ImmutableDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImmutableDictionary_2_Enumerator: {
+    new<TKey, TValue>(): ImmutableDictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __ImmutableDictionary_2_Enumerator$views<TKey, TValue> {
@@ -240,12 +255,17 @@ export interface __ImmutableDictionary_2_Enumerator$views<TKey, TValue> {
 export type ImmutableDictionary_2_Enumerator<TKey, TValue> = ImmutableDictionary_2_Enumerator$instance<TKey, TValue> & __ImmutableDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class ImmutableHashSet_1_Enumerator$instance<T> implements IDisposable {
+export interface ImmutableHashSet_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImmutableHashSet_1_Enumerator: {
+    new<T>(): ImmutableHashSet_1_Enumerator$instance<T>;
+};
 
 
 export interface __ImmutableHashSet_1_Enumerator$views<T> {
@@ -256,12 +276,17 @@ export interface __ImmutableHashSet_1_Enumerator$views<T> {
 export type ImmutableHashSet_1_Enumerator<T> = ImmutableHashSet_1_Enumerator$instance<T> & __ImmutableHashSet_1_Enumerator$views<T>;
 
 
-export class ImmutableList_1_Enumerator$instance<T> implements IDisposable {
+export interface ImmutableList_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImmutableList_1_Enumerator: {
+    new<T>(): ImmutableList_1_Enumerator$instance<T>;
+};
 
 
 export interface __ImmutableList_1_Enumerator$views<T> {
@@ -272,20 +297,30 @@ export interface __ImmutableList_1_Enumerator$views<T> {
 export type ImmutableList_1_Enumerator<T> = ImmutableList_1_Enumerator$instance<T> & __ImmutableList_1_Enumerator$views<T>;
 
 
-export class ImmutableQueue_1_Enumerator$instance<T> {
+export interface ImmutableQueue_1_Enumerator$instance<T> {
     readonly current: T;
     moveNext(): boolean;
 }
 
 
+export const ImmutableQueue_1_Enumerator: {
+    new<T>(): ImmutableQueue_1_Enumerator$instance<T>;
+};
+
+
 export type ImmutableQueue_1_Enumerator<T> = ImmutableQueue_1_Enumerator$instance<T>;
 
-export class ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
+export interface ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> extends IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImmutableSortedDictionary_2_Enumerator: {
+    new<TKey, TValue>(): ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __ImmutableSortedDictionary_2_Enumerator$views<TKey, TValue> {
@@ -296,12 +331,17 @@ export interface __ImmutableSortedDictionary_2_Enumerator$views<TKey, TValue> {
 export type ImmutableSortedDictionary_2_Enumerator<TKey, TValue> = ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> & __ImmutableSortedDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class ImmutableSortedSet_1_Enumerator$instance<T> implements IDisposable {
+export interface ImmutableSortedSet_1_Enumerator$instance<T> extends IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImmutableSortedSet_1_Enumerator: {
+    new<T>(): ImmutableSortedSet_1_Enumerator$instance<T>;
+};
 
 
 export interface __ImmutableSortedSet_1_Enumerator$views<T> {
@@ -312,15 +352,20 @@ export interface __ImmutableSortedSet_1_Enumerator$views<T> {
 export type ImmutableSortedSet_1_Enumerator<T> = ImmutableSortedSet_1_Enumerator$instance<T> & __ImmutableSortedSet_1_Enumerator$views<T>;
 
 
-export class ImmutableStack_1_Enumerator$instance<T> {
+export interface ImmutableStack_1_Enumerator$instance<T> {
     readonly current: T;
     moveNext(): boolean;
 }
 
 
+export const ImmutableStack_1_Enumerator: {
+    new<T>(): ImmutableStack_1_Enumerator$instance<T>;
+};
+
+
 export type ImmutableStack_1_Enumerator<T> = ImmutableStack_1_Enumerator$instance<T>;
 
-export class ImmutableArray_1_Builder$instance<T> {
+export interface ImmutableArray_1_Builder$instance<T> {
     capacity: int;
     count: int;
     item: T;
@@ -374,6 +419,11 @@ export class ImmutableArray_1_Builder$instance<T> {
 }
 
 
+export const ImmutableArray_1_Builder: {
+    new<T>(): ImmutableArray_1_Builder$instance<T>;
+};
+
+
 export interface __ImmutableArray_1_Builder$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -385,7 +435,7 @@ export interface __ImmutableArray_1_Builder$views<T> {
 export type ImmutableArray_1_Builder<T> = ImmutableArray_1_Builder$instance<T> & __ImmutableArray_1_Builder$views<T>;
 
 
-export class ImmutableDictionary_2$instance<TKey, TValue> {
+export interface ImmutableDictionary_2$instance<TKey, TValue> {
     readonly count: int;
     readonly isEmpty: boolean;
     readonly item: TValue;
@@ -409,8 +459,13 @@ export class ImmutableDictionary_2$instance<TKey, TValue> {
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
     withComparers(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
     withComparers(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableDictionary_2: {
+    new<TKey, TValue>(): ImmutableDictionary_2$instance<TKey, TValue>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableDictionary_2$views<TKey, TValue> {
@@ -428,7 +483,7 @@ export interface __ImmutableDictionary_2$views<TKey, TValue> {
 export type ImmutableDictionary_2<TKey, TValue> = ImmutableDictionary_2$instance<TKey, TValue> & __ImmutableDictionary_2$views<TKey, TValue>;
 
 
-export class ImmutableDictionary_2_Builder$instance<TKey, TValue> {
+export interface ImmutableDictionary_2_Builder$instance<TKey, TValue> {
     readonly count: int;
     item: TValue;
     keyComparer: IEqualityComparer_1<TKey>;
@@ -454,6 +509,11 @@ export class ImmutableDictionary_2_Builder$instance<TKey, TValue> {
 }
 
 
+export const ImmutableDictionary_2_Builder: {
+    new<TKey, TValue>(): ImmutableDictionary_2_Builder$instance<TKey, TValue>;
+};
+
+
 export interface __ImmutableDictionary_2_Builder$views<TKey, TValue> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
@@ -468,7 +528,7 @@ export interface __ImmutableDictionary_2_Builder$views<TKey, TValue> {
 export type ImmutableDictionary_2_Builder<TKey, TValue> = ImmutableDictionary_2_Builder$instance<TKey, TValue> & __ImmutableDictionary_2_Builder$views<TKey, TValue>;
 
 
-export class ImmutableHashSet_1$instance<T> {
+export interface ImmutableHashSet_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     readonly keyComparer: IEqualityComparer_1<T>;
@@ -490,8 +550,13 @@ export class ImmutableHashSet_1$instance<T> {
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     union(other: IEnumerable_1<T>): ImmutableHashSet_1<T>;
     withComparer(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1<T>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableHashSet_1: {
+    new<T>(): ImmutableHashSet_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableHashSet_1$views<T> {
@@ -508,7 +573,7 @@ export interface __ImmutableHashSet_1$views<T> {
 export type ImmutableHashSet_1<T> = ImmutableHashSet_1$instance<T> & __ImmutableHashSet_1$views<T>;
 
 
-export class ImmutableHashSet_1_Builder$instance<T> {
+export interface ImmutableHashSet_1_Builder$instance<T> {
     readonly count: int;
     keyComparer: IEqualityComparer_1<T>;
     add(item: T): boolean;
@@ -531,6 +596,11 @@ export class ImmutableHashSet_1_Builder$instance<T> {
 }
 
 
+export const ImmutableHashSet_1_Builder: {
+    new<T>(): ImmutableHashSet_1_Builder$instance<T>;
+};
+
+
 export interface __ImmutableHashSet_1_Builder$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -542,7 +612,7 @@ export interface __ImmutableHashSet_1_Builder$views<T> {
 export type ImmutableHashSet_1_Builder<T> = ImmutableHashSet_1_Builder$instance<T> & __ImmutableHashSet_1_Builder$views<T>;
 
 
-export class ImmutableList_1$instance<T> {
+export interface ImmutableList_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     readonly item: T;
@@ -594,8 +664,13 @@ export class ImmutableList_1$instance<T> {
     sort(index: int, count: int, comparer: IComparer_1<T>): ImmutableList_1<T>;
     toBuilder(): ImmutableList_1_Builder<T>;
     trueForAll(match: Predicate_1<T>): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableList_1: {
+    new<T>(): ImmutableList_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableList_1$views<T> {
@@ -612,7 +687,7 @@ export interface __ImmutableList_1$views<T> {
 export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1$views<T>;
 
 
-export class ImmutableList_1_Builder$instance<T> {
+export interface ImmutableList_1_Builder$instance<T> {
     readonly count: int;
     item: T;
     add(item: T): void;
@@ -670,6 +745,11 @@ export class ImmutableList_1_Builder$instance<T> {
 }
 
 
+export const ImmutableList_1_Builder: {
+    new<T>(): ImmutableList_1_Builder$instance<T>;
+};
+
+
 export interface __ImmutableList_1_Builder$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -683,7 +763,7 @@ export interface __ImmutableList_1_Builder$views<T> {
 export type ImmutableList_1_Builder<T> = ImmutableList_1_Builder$instance<T> & __ImmutableList_1_Builder$views<T>;
 
 
-export class ImmutableQueue_1$instance<T> {
+export interface ImmutableQueue_1$instance<T> {
     readonly isEmpty: boolean;
     clear(): ImmutableQueue_1<T>;
     dequeue(): ImmutableQueue_1<T>;
@@ -692,8 +772,13 @@ export class ImmutableQueue_1$instance<T> {
     getEnumerator(): ImmutableQueue_1_Enumerator<T>;
     peek(): T;
     peekRef(): ref<T>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableQueue_1: {
+    new<T>(): ImmutableQueue_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableQueue_1$views<T> {
@@ -705,7 +790,7 @@ export interface __ImmutableQueue_1$views<T> {
 export type ImmutableQueue_1<T> = ImmutableQueue_1$instance<T> & __ImmutableQueue_1$views<T>;
 
 
-export class ImmutableSortedDictionary_2$instance<TKey, TValue> {
+export interface ImmutableSortedDictionary_2$instance<TKey, TValue> {
     readonly count: int;
     readonly isEmpty: boolean;
     readonly item: TValue;
@@ -730,8 +815,13 @@ export class ImmutableSortedDictionary_2$instance<TKey, TValue> {
     valueRef(key: TKey): ref<TValue>;
     withComparers(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
     withComparers(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableSortedDictionary_2: {
+    new<TKey, TValue>(): ImmutableSortedDictionary_2$instance<TKey, TValue>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableSortedDictionary_2$views<TKey, TValue> {
@@ -749,7 +839,7 @@ export interface __ImmutableSortedDictionary_2$views<TKey, TValue> {
 export type ImmutableSortedDictionary_2<TKey, TValue> = ImmutableSortedDictionary_2$instance<TKey, TValue> & __ImmutableSortedDictionary_2$views<TKey, TValue>;
 
 
-export class ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
+export interface ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
     readonly count: int;
     item: TValue;
     keyComparer: IComparer_1<TKey>;
@@ -776,6 +866,11 @@ export class ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
 }
 
 
+export const ImmutableSortedDictionary_2_Builder: {
+    new<TKey, TValue>(): ImmutableSortedDictionary_2_Builder$instance<TKey, TValue>;
+};
+
+
 export interface __ImmutableSortedDictionary_2_Builder$views<TKey, TValue> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
@@ -790,7 +885,7 @@ export interface __ImmutableSortedDictionary_2_Builder$views<TKey, TValue> {
 export type ImmutableSortedDictionary_2_Builder<TKey, TValue> = ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> & __ImmutableSortedDictionary_2_Builder$views<TKey, TValue>;
 
 
-export class ImmutableSortedSet_1$instance<T> {
+export interface ImmutableSortedSet_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     readonly item: T;
@@ -818,8 +913,13 @@ export class ImmutableSortedSet_1$instance<T> {
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     union(other: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
     withComparer(comparer: IComparer_1<T>): ImmutableSortedSet_1<T>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableSortedSet_1: {
+    new<T>(): ImmutableSortedSet_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableSortedSet_1$views<T> {
@@ -838,7 +938,7 @@ export interface __ImmutableSortedSet_1$views<T> {
 export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __ImmutableSortedSet_1$views<T>;
 
 
-export class ImmutableSortedSet_1_Builder$instance<T> {
+export interface ImmutableSortedSet_1_Builder$instance<T> {
     readonly count: int;
     readonly item: T;
     keyComparer: IComparer_1<T>;
@@ -867,6 +967,11 @@ export class ImmutableSortedSet_1_Builder$instance<T> {
 }
 
 
+export const ImmutableSortedSet_1_Builder: {
+    new<T>(): ImmutableSortedSet_1_Builder$instance<T>;
+};
+
+
 export interface __ImmutableSortedSet_1_Builder$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -879,7 +984,7 @@ export interface __ImmutableSortedSet_1_Builder$views<T> {
 export type ImmutableSortedSet_1_Builder<T> = ImmutableSortedSet_1_Builder$instance<T> & __ImmutableSortedSet_1_Builder$views<T>;
 
 
-export class ImmutableStack_1$instance<T> {
+export interface ImmutableStack_1$instance<T> {
     readonly isEmpty: boolean;
     clear(): ImmutableStack_1<T>;
     getEnumerator(): ImmutableStack_1_Enumerator<T>;
@@ -888,8 +993,13 @@ export class ImmutableStack_1$instance<T> {
     pop(): ImmutableStack_1<T>;
     pop(value: { value: ref<T> }): ImmutableStack_1<T>;
     push(value: T): ImmutableStack_1<T>;
-    static readonly empty: unknown;
 }
+
+
+export const ImmutableStack_1: {
+    new<T>(): ImmutableStack_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export interface __ImmutableStack_1$views<T> {

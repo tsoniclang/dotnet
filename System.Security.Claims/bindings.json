@@ -776,7 +776,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Principal.IIdentity::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name$view",
-          "metadataToken": 385878137,
+          "metadataToken": 385878138,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -790,7 +790,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Principal.IIdentity::AuthenticationType:System.String",
           "clrName": "AuthenticationType",
           "tsEmitName": "authenticationType$view",
-          "metadataToken": 385878138,
+          "metadataToken": 385878139,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "AuthenticationType|:System.String|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -804,7 +804,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Principal.IIdentity::IsAuthenticated:System.Boolean",
           "clrName": "IsAuthenticated",
           "tsEmitName": "isAuthenticated$view",
-          "metadataToken": 385878139,
+          "metadataToken": 385878140,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IsAuthenticated|:System.Boolean|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -1253,7 +1253,7 @@
           "target": {
             "declaringClrType": "System.Security.Principal.IIdentity",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878137
+            "metadataToken": 385878138
           }
         },
         {
@@ -1263,7 +1263,7 @@
           "target": {
             "declaringClrType": "System.Security.Principal.IIdentity",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878138
+            "metadataToken": 385878139
           }
         },
         {
@@ -1273,7 +1273,7 @@
           "target": {
             "declaringClrType": "System.Security.Principal.IIdentity",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878139
+            "metadataToken": 385878140
           }
         }
       ],
@@ -1685,7 +1685,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Principal.IPrincipal::Identity:System.Security.Principal.IIdentity",
           "clrName": "Identity",
           "tsEmitName": "identity$view",
-          "metadataToken": 385878140,
+          "metadataToken": 385878141,
           "canonicalSignature": ":System.Security.Principal.IIdentity",
           "normalizedSignature": "Identity|:System.Security.Principal.IIdentity|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2000,7 +2000,7 @@
           "target": {
             "declaringClrType": "System.Security.Principal.IPrincipal",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878140
+            "metadataToken": 385878141
           }
         }
       ],

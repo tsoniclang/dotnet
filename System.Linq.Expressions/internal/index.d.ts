@@ -166,7 +166,7 @@ export interface IDynamicExpression$instance extends IArgumentProvider$instance 
 
 export type IDynamicExpression = IDynamicExpression$instance;
 
-export class BinaryExpression$instance extends Expression$instance {
+export interface BinaryExpression$instance extends Expression {
     readonly canReduce: boolean;
     readonly conversion: LambdaExpression;
     readonly isLifted: boolean;
@@ -179,9 +179,14 @@ export class BinaryExpression$instance extends Expression$instance {
 }
 
 
+export const BinaryExpression: {
+    new(): BinaryExpression$instance;
+};
+
+
 export type BinaryExpression = BinaryExpression$instance;
 
-export class BlockExpression$instance extends Expression$instance {
+export interface BlockExpression$instance extends Expression {
     readonly expressions: ReadOnlyCollection_1<Expression>;
     readonly nodeType: ExpressionType;
     readonly result: Expression;
@@ -191,9 +196,14 @@ export class BlockExpression$instance extends Expression$instance {
 }
 
 
+export const BlockExpression: {
+    new(): BlockExpression$instance;
+};
+
+
 export type BlockExpression = BlockExpression$instance;
 
-export class CatchBlock$instance {
+export interface CatchBlock$instance {
     readonly body: Expression;
     readonly filter: Expression;
     readonly test: Type;
@@ -203,9 +213,14 @@ export class CatchBlock$instance {
 }
 
 
+export const CatchBlock: {
+    new(): CatchBlock$instance;
+};
+
+
 export type CatchBlock = CatchBlock$instance;
 
-export class ConditionalExpression$instance extends Expression$instance {
+export interface ConditionalExpression$instance extends Expression {
     readonly ifFalse: Expression;
     readonly ifTrue: Expression;
     readonly nodeType: ExpressionType;
@@ -215,18 +230,28 @@ export class ConditionalExpression$instance extends Expression$instance {
 }
 
 
+export const ConditionalExpression: {
+    new(): ConditionalExpression$instance;
+};
+
+
 export type ConditionalExpression = ConditionalExpression$instance;
 
-export class ConstantExpression$instance extends Expression$instance {
+export interface ConstantExpression$instance extends Expression {
     readonly nodeType: ExpressionType;
     readonly type_: Type;
     readonly value: unknown;
 }
 
 
+export const ConstantExpression: {
+    new(): ConstantExpression$instance;
+};
+
+
 export type ConstantExpression = ConstantExpression$instance;
 
-export class DebugInfoExpression$instance extends Expression$instance {
+export interface DebugInfoExpression$instance extends Expression {
     readonly document: SymbolDocumentInfo;
     readonly endColumn: int;
     readonly endLine: int;
@@ -238,17 +263,27 @@ export class DebugInfoExpression$instance extends Expression$instance {
 }
 
 
+export const DebugInfoExpression: {
+    new(): DebugInfoExpression$instance;
+};
+
+
 export type DebugInfoExpression = DebugInfoExpression$instance;
 
-export class DefaultExpression$instance extends Expression$instance {
+export interface DefaultExpression$instance extends Expression {
     readonly nodeType: ExpressionType;
     readonly type_: Type;
 }
 
 
+export const DefaultExpression: {
+    new(): DefaultExpression$instance;
+};
+
+
 export type DefaultExpression = DefaultExpression$instance;
 
-export class DynamicExpression$instance extends Expression$instance {
+export interface DynamicExpression$instance extends Expression {
     readonly arguments: ReadOnlyCollection_1<Expression>;
     readonly binder: CallSiteBinder;
     readonly canReduce: boolean;
@@ -257,19 +292,24 @@ export class DynamicExpression$instance extends Expression$instance {
     readonly type_: Type;
     reduce(): Expression;
     update(arguments: IEnumerable_1<Expression>): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arguments: Expression[]): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: IEnumerable_1<Expression>): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[]): DynamicExpression;
 }
+
+
+export const DynamicExpression: {
+    new(): DynamicExpression$instance;
+    dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arguments: Expression[]): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: IEnumerable_1<Expression>): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[]): DynamicExpression;
+};
 
 
 export interface __DynamicExpression$views {
@@ -282,14 +322,18 @@ export interface DynamicExpression$instance extends IDynamicExpression$instance 
 export type DynamicExpression = DynamicExpression$instance & __DynamicExpression$views;
 
 
-export class DynamicExpressionVisitor$instance extends ExpressionVisitor$instance {
-    constructor();
+export interface DynamicExpressionVisitor$instance extends ExpressionVisitor {
 }
+
+
+export const DynamicExpressionVisitor: {
+    new(): DynamicExpressionVisitor$instance;
+};
 
 
 export type DynamicExpressionVisitor = DynamicExpressionVisitor$instance;
 
-export class ElementInit$instance {
+export interface ElementInit$instance {
     readonly addMethod: MethodInfo;
     readonly argumentCount: int;
     readonly arguments: ReadOnlyCollection_1<Expression>;
@@ -297,6 +341,11 @@ export class ElementInit$instance {
     toString(): string;
     update(arguments: IEnumerable_1<Expression>): ElementInit;
 }
+
+
+export const ElementInit: {
+    new(): ElementInit$instance;
+};
 
 
 export interface __ElementInit$views {
@@ -308,7 +357,7 @@ export interface ElementInit$instance extends IArgumentProvider$instance {}
 export type ElementInit = ElementInit$instance & __ElementInit$views;
 
 
-export abstract class Expression$instance {
+export interface Expression$instance {
     readonly canReduce: boolean;
     readonly nodeType: ExpressionType;
     readonly type_: Type;
@@ -316,321 +365,325 @@ export abstract class Expression$instance {
     reduceAndCheck(): Expression;
     reduceExtensions(): Expression;
     toString(): string;
-    static add(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static add(left: Expression, right: Expression): BinaryExpression;
-    static addAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static addAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static addAssign(left: Expression, right: Expression): BinaryExpression;
-    static addAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static addAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static addAssignChecked(left: Expression, right: Expression): BinaryExpression;
-    static addChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static addChecked(left: Expression, right: Expression): BinaryExpression;
-    static and(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static and(left: Expression, right: Expression): BinaryExpression;
-    static andAlso(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static andAlso(left: Expression, right: Expression): BinaryExpression;
-    static andAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static andAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static andAssign(left: Expression, right: Expression): BinaryExpression;
-    static arrayAccess(array: Expression, indexes: IEnumerable_1<Expression>): IndexExpression;
-    static arrayAccess(array: Expression, indexes: Expression[]): IndexExpression;
-    static arrayIndex(array: Expression, indexes: IEnumerable_1<Expression>): MethodCallExpression;
-    static arrayIndex(array: Expression, index: Expression): BinaryExpression;
-    static arrayIndex(array: Expression, indexes: Expression[]): MethodCallExpression;
-    static arrayLength(array: Expression): UnaryExpression;
-    static assign(left: Expression, right: Expression): BinaryExpression;
-    static bind(member: MemberInfo, expression: Expression): MemberAssignment;
-    static bind(propertyAccessor: MethodInfo, expression: Expression): MemberAssignment;
-    static block(expressions: IEnumerable_1<Expression>): BlockExpression;
-    static block(variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
-    static block(variables: IEnumerable_1<ParameterExpression>, expressions: Expression[]): BlockExpression;
-    static block(arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression, arg4: Expression): BlockExpression;
-    static block(arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): BlockExpression;
-    static block(arg0: Expression, arg1: Expression, arg2: Expression): BlockExpression;
-    static block(arg0: Expression, arg1: Expression): BlockExpression;
-    static block(expressions: Expression[]): BlockExpression;
-    static block(type_: Type, expressions: IEnumerable_1<Expression>): BlockExpression;
-    static block(type_: Type, variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
-    static block(type_: Type, variables: IEnumerable_1<ParameterExpression>, expressions: Expression[]): BlockExpression;
-    static block(type_: Type, expressions: Expression[]): BlockExpression;
-    static break_(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
-    static break_(target: LabelTarget, value: Expression): GotoExpression;
-    static break_(target: LabelTarget, type_: Type): GotoExpression;
-    static break_(target: LabelTarget): GotoExpression;
-    static call(instance: Expression, method: MethodInfo, arguments: IEnumerable_1<Expression>): MethodCallExpression;
-    static call(instance: Expression, method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
-    static call(instance: Expression, method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
-    static call(instance: Expression, method: MethodInfo, arguments: Expression[]): MethodCallExpression;
-    static call(instance: Expression, method: MethodInfo): MethodCallExpression;
-    static call(instance: Expression, methodName: string, typeArguments: Type[], arguments: Expression[]): MethodCallExpression;
-    static call(method: MethodInfo, arguments: IEnumerable_1<Expression>): MethodCallExpression;
-    static call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression, arg4: Expression): MethodCallExpression;
-    static call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): MethodCallExpression;
-    static call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
-    static call(method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
-    static call(method: MethodInfo, arg0: Expression): MethodCallExpression;
-    static call(method: MethodInfo, arguments: Expression[]): MethodCallExpression;
-    static call(type_: Type, methodName: string, typeArguments: Type[], arguments: Expression[]): MethodCallExpression;
-    static catch_(variable: ParameterExpression, body: Expression, filter: Expression): CatchBlock;
-    static catch_(variable: ParameterExpression, body: Expression): CatchBlock;
-    static catch_(type_: Type, body: Expression, filter: Expression): CatchBlock;
-    static catch_(type_: Type, body: Expression): CatchBlock;
-    static clearDebugInfo(document: SymbolDocumentInfo): DebugInfoExpression;
-    static coalesce(left: Expression, right: Expression, conversion: LambdaExpression): BinaryExpression;
-    static coalesce(left: Expression, right: Expression): BinaryExpression;
-    static condition(test: Expression, ifTrue: Expression, ifFalse: Expression, type_: Type): ConditionalExpression;
-    static condition(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
-    static constant(value: unknown, type_: Type): ConstantExpression;
-    static constant(value: unknown): ConstantExpression;
-    static continue_(target: LabelTarget, type_: Type): GotoExpression;
-    static continue_(target: LabelTarget): GotoExpression;
-    static convert(expression: Expression, type_: Type, method: MethodInfo): UnaryExpression;
-    static convert(expression: Expression, type_: Type): UnaryExpression;
-    static convertChecked(expression: Expression, type_: Type, method: MethodInfo): UnaryExpression;
-    static convertChecked(expression: Expression, type_: Type): UnaryExpression;
-    static debugInfo(document: SymbolDocumentInfo, startLine: int, startColumn: int, endLine: int, endColumn: int): DebugInfoExpression;
-    static decrement(expression: Expression, method: MethodInfo): UnaryExpression;
-    static decrement(expression: Expression): UnaryExpression;
-    static default_(type_: Type): DefaultExpression;
-    static divide(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static divide(left: Expression, right: Expression): BinaryExpression;
-    static divideAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static divideAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static divideAssign(left: Expression, right: Expression): BinaryExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression): DynamicExpression;
-    static dynamic(binder: CallSiteBinder, returnType: Type, arguments: Expression[]): DynamicExpression;
-    static elementInit(addMethod: MethodInfo, arguments: IEnumerable_1<Expression>): ElementInit;
-    static elementInit(addMethod: MethodInfo, arguments: Expression[]): ElementInit;
-    static empty(): DefaultExpression;
-    static equal(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static equal(left: Expression, right: Expression): BinaryExpression;
-    static exclusiveOr(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static exclusiveOr(left: Expression, right: Expression): BinaryExpression;
-    static exclusiveOrAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static exclusiveOrAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static exclusiveOrAssign(left: Expression, right: Expression): BinaryExpression;
-    static field(expression: Expression, field: FieldInfo): MemberExpression;
-    static field(expression: Expression, fieldName: string): MemberExpression;
-    static field(expression: Expression, type_: Type, fieldName: string): MemberExpression;
-    static getActionType(typeArgs: Type[]): Type;
-    static getDelegateType(typeArgs: Type[]): Type;
-    static getFuncType(typeArgs: Type[]): Type;
-    static goto(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
-    static goto(target: LabelTarget, value: Expression): GotoExpression;
-    static goto(target: LabelTarget, type_: Type): GotoExpression;
-    static goto(target: LabelTarget): GotoExpression;
-    static greaterThan(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static greaterThan(left: Expression, right: Expression): BinaryExpression;
-    static greaterThanOrEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static greaterThanOrEqual(left: Expression, right: Expression): BinaryExpression;
-    static ifThen(test: Expression, ifTrue: Expression): ConditionalExpression;
-    static ifThenElse(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
-    static increment(expression: Expression, method: MethodInfo): UnaryExpression;
-    static increment(expression: Expression): UnaryExpression;
-    static invoke(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
-    static invoke(expression: Expression, arguments: Expression[]): InvocationExpression;
-    static isFalse(expression: Expression, method: MethodInfo): UnaryExpression;
-    static isFalse(expression: Expression): UnaryExpression;
-    static isTrue(expression: Expression, method: MethodInfo): UnaryExpression;
-    static isTrue(expression: Expression): UnaryExpression;
-    static label(): LabelTarget;
-    static label(target: LabelTarget, defaultValue: Expression): LabelExpression;
-    static label(target: LabelTarget): LabelExpression;
-    static label(name: string): LabelTarget;
-    static label(type_: Type, name: string): LabelTarget;
-    static label(type_: Type): LabelTarget;
-    static lambda<TDelegate>(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
-    static lambda(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda<TDelegate>(body: Expression, tailCall: boolean, parameters: ParameterExpression[]): Expression_1<TDelegate>;
-    static lambda(body: Expression, tailCall: boolean, parameters: ParameterExpression[]): LambdaExpression;
-    static lambda<TDelegate>(body: Expression, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
-    static lambda(body: Expression, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda<TDelegate>(body: Expression, parameters: ParameterExpression[]): Expression_1<TDelegate>;
-    static lambda(body: Expression, parameters: ParameterExpression[]): LambdaExpression;
-    static lambda<TDelegate>(body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
-    static lambda(body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda<TDelegate>(body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
-    static lambda(body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: ParameterExpression[]): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, parameters: ParameterExpression[]): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static lambda(delegateType: Type, body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
-    static leftShift(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static leftShift(left: Expression, right: Expression): BinaryExpression;
-    static leftShiftAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static leftShiftAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static leftShiftAssign(left: Expression, right: Expression): BinaryExpression;
-    static lessThan(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static lessThan(left: Expression, right: Expression): BinaryExpression;
-    static lessThanOrEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static lessThanOrEqual(left: Expression, right: Expression): BinaryExpression;
-    static listBind(member: MemberInfo, initializers: IEnumerable_1<ElementInit>): MemberListBinding;
-    static listBind(member: MemberInfo, initializers: ElementInit[]): MemberListBinding;
-    static listBind(propertyAccessor: MethodInfo, initializers: IEnumerable_1<ElementInit>): MemberListBinding;
-    static listBind(propertyAccessor: MethodInfo, initializers: ElementInit[]): MemberListBinding;
-    static listInit(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
-    static listInit(newExpression: NewExpression, initializers: IEnumerable_1<Expression>): ListInitExpression;
-    static listInit(newExpression: NewExpression, initializers: ElementInit[]): ListInitExpression;
-    static listInit(newExpression: NewExpression, initializers: Expression[]): ListInitExpression;
-    static listInit(newExpression: NewExpression, addMethod: MethodInfo, initializers: IEnumerable_1<Expression>): ListInitExpression;
-    static listInit(newExpression: NewExpression, addMethod: MethodInfo, initializers: Expression[]): ListInitExpression;
-    static loop(body: Expression, break_: LabelTarget, continue_: LabelTarget): LoopExpression;
-    static loop(body: Expression, break_: LabelTarget): LoopExpression;
-    static loop(body: Expression): LoopExpression;
-    static makeBinary(binaryType: ExpressionType, left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static makeBinary(binaryType: ExpressionType, left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static makeBinary(binaryType: ExpressionType, left: Expression, right: Expression): BinaryExpression;
-    static makeCatchBlock(type_: Type, variable: ParameterExpression, body: Expression, filter: Expression): CatchBlock;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: IEnumerable_1<Expression>): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
-    static makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[]): DynamicExpression;
-    static makeGoto(kind: GotoExpressionKind, target: LabelTarget, value: Expression, type_: Type): GotoExpression;
-    static makeIndex(instance: Expression, indexer: PropertyInfo, arguments: IEnumerable_1<Expression>): IndexExpression;
-    static makeMemberAccess(expression: Expression, member: MemberInfo): MemberExpression;
-    static makeTry(type_: Type, body: Expression, finally_: Expression, fault: Expression, handlers: IEnumerable_1<CatchBlock>): TryExpression;
-    static makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type, method: MethodInfo): UnaryExpression;
-    static makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type): UnaryExpression;
-    static memberBind(member: MemberInfo, bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
-    static memberBind(member: MemberInfo, bindings: MemberBinding[]): MemberMemberBinding;
-    static memberBind(propertyAccessor: MethodInfo, bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
-    static memberBind(propertyAccessor: MethodInfo, bindings: MemberBinding[]): MemberMemberBinding;
-    static memberInit(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
-    static memberInit(newExpression: NewExpression, bindings: MemberBinding[]): MemberInitExpression;
-    static modulo(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static modulo(left: Expression, right: Expression): BinaryExpression;
-    static moduloAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static moduloAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static moduloAssign(left: Expression, right: Expression): BinaryExpression;
-    static multiply(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static multiply(left: Expression, right: Expression): BinaryExpression;
-    static multiplyAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static multiplyAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static multiplyAssign(left: Expression, right: Expression): BinaryExpression;
-    static multiplyAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static multiplyAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static multiplyAssignChecked(left: Expression, right: Expression): BinaryExpression;
-    static multiplyChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static multiplyChecked(left: Expression, right: Expression): BinaryExpression;
-    static negate(expression: Expression, method: MethodInfo): UnaryExpression;
-    static negate(expression: Expression): UnaryExpression;
-    static negateChecked(expression: Expression, method: MethodInfo): UnaryExpression;
-    static negateChecked(expression: Expression): UnaryExpression;
-    static new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>, members: IEnumerable_1<MemberInfo>): NewExpression;
-    static new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>, members: MemberInfo[]): NewExpression;
-    static new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>): NewExpression;
-    static new_(constructor_: ConstructorInfo, arguments: Expression[]): NewExpression;
-    static new_(constructor_: ConstructorInfo): NewExpression;
-    static new_(type_: Type): NewExpression;
-    static newArrayBounds(type_: Type, bounds: IEnumerable_1<Expression>): NewArrayExpression;
-    static newArrayBounds(type_: Type, bounds: Expression[]): NewArrayExpression;
-    static newArrayInit(type_: Type, initializers: IEnumerable_1<Expression>): NewArrayExpression;
-    static newArrayInit(type_: Type, initializers: Expression[]): NewArrayExpression;
-    static not(expression: Expression, method: MethodInfo): UnaryExpression;
-    static not(expression: Expression): UnaryExpression;
-    static notEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
-    static notEqual(left: Expression, right: Expression): BinaryExpression;
-    static onesComplement(expression: Expression, method: MethodInfo): UnaryExpression;
-    static onesComplement(expression: Expression): UnaryExpression;
-    static or(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static or(left: Expression, right: Expression): BinaryExpression;
-    static orAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static orAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static orAssign(left: Expression, right: Expression): BinaryExpression;
-    static orElse(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static orElse(left: Expression, right: Expression): BinaryExpression;
-    static parameter(type_: Type, name: string): ParameterExpression;
-    static parameter(type_: Type): ParameterExpression;
-    static postDecrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
-    static postDecrementAssign(expression: Expression): UnaryExpression;
-    static postIncrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
-    static postIncrementAssign(expression: Expression): UnaryExpression;
-    static power(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static power(left: Expression, right: Expression): BinaryExpression;
-    static powerAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static powerAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static powerAssign(left: Expression, right: Expression): BinaryExpression;
-    static preDecrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
-    static preDecrementAssign(expression: Expression): UnaryExpression;
-    static preIncrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
-    static preIncrementAssign(expression: Expression): UnaryExpression;
-    static property(expression: Expression, propertyAccessor: MethodInfo): MemberExpression;
-    static property(instance: Expression, indexer: PropertyInfo, arguments: IEnumerable_1<Expression>): IndexExpression;
-    static property(instance: Expression, indexer: PropertyInfo, arguments: Expression[]): IndexExpression;
-    static property(expression: Expression, property: PropertyInfo): MemberExpression;
-    static property(instance: Expression, propertyName: string, arguments: Expression[]): IndexExpression;
-    static property(expression: Expression, propertyName: string): MemberExpression;
-    static property(expression: Expression, type_: Type, propertyName: string): MemberExpression;
-    static propertyOrField(expression: Expression, propertyOrFieldName: string): MemberExpression;
-    static quote(expression: Expression): UnaryExpression;
-    static referenceEqual(left: Expression, right: Expression): BinaryExpression;
-    static referenceNotEqual(left: Expression, right: Expression): BinaryExpression;
-    static rethrow(): UnaryExpression;
-    static rethrow(type_: Type): UnaryExpression;
-    static return_(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
-    static return_(target: LabelTarget, value: Expression): GotoExpression;
-    static return_(target: LabelTarget, type_: Type): GotoExpression;
-    static return_(target: LabelTarget): GotoExpression;
-    static rightShift(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static rightShift(left: Expression, right: Expression): BinaryExpression;
-    static rightShiftAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static rightShiftAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static rightShiftAssign(left: Expression, right: Expression): BinaryExpression;
-    static runtimeVariables(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
-    static runtimeVariables(variables: ParameterExpression[]): RuntimeVariablesExpression;
-    static subtract(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static subtract(left: Expression, right: Expression): BinaryExpression;
-    static subtractAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static subtractAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static subtractAssign(left: Expression, right: Expression): BinaryExpression;
-    static subtractAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
-    static subtractAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static subtractAssignChecked(left: Expression, right: Expression): BinaryExpression;
-    static subtractChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
-    static subtractChecked(left: Expression, right: Expression): BinaryExpression;
-    static switch_(switchValue: Expression, defaultBody: Expression, cases: SwitchCase[]): SwitchExpression;
-    static switch_(switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: IEnumerable_1<SwitchCase>): SwitchExpression;
-    static switch_(switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: SwitchCase[]): SwitchExpression;
-    static switch_(switchValue: Expression, cases: SwitchCase[]): SwitchExpression;
-    static switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: IEnumerable_1<SwitchCase>): SwitchExpression;
-    static switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: SwitchCase[]): SwitchExpression;
-    static switchCase(body: Expression, testValues: IEnumerable_1<Expression>): SwitchCase;
-    static switchCase(body: Expression, testValues: Expression[]): SwitchCase;
-    static symbolDocument(fileName: string, language: Guid, languageVendor: Guid, documentType: Guid): SymbolDocumentInfo;
-    static symbolDocument(fileName: string, language: Guid, languageVendor: Guid): SymbolDocumentInfo;
-    static symbolDocument(fileName: string, language: Guid): SymbolDocumentInfo;
-    static symbolDocument(fileName: string): SymbolDocumentInfo;
-    static throw_(value: Expression, type_: Type): UnaryExpression;
-    static throw_(value: Expression): UnaryExpression;
-    static tryCatch(body: Expression, handlers: CatchBlock[]): TryExpression;
-    static tryCatchFinally(body: Expression, finally_: Expression, handlers: CatchBlock[]): TryExpression;
-    static tryFault(body: Expression, fault: Expression): TryExpression;
-    static tryFinally(body: Expression, finally_: Expression): TryExpression;
-    static tryGetActionType(typeArgs: Type[], actionType: { value: ref<Type> }): boolean;
-    static tryGetFuncType(typeArgs: Type[], funcType: { value: ref<Type> }): boolean;
-    static typeAs(expression: Expression, type_: Type): UnaryExpression;
-    static typeEqual(expression: Expression, type_: Type): TypeBinaryExpression;
-    static typeIs(expression: Expression, type_: Type): TypeBinaryExpression;
-    static unaryPlus(expression: Expression, method: MethodInfo): UnaryExpression;
-    static unaryPlus(expression: Expression): UnaryExpression;
-    static unbox(expression: Expression, type_: Type): UnaryExpression;
-    static variable(type_: Type, name: string): ParameterExpression;
-    static variable(type_: Type): ParameterExpression;
 }
+
+
+export const Expression: {
+    add(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    add(left: Expression, right: Expression): BinaryExpression;
+    addAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    addAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    addAssign(left: Expression, right: Expression): BinaryExpression;
+    addAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    addAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    addAssignChecked(left: Expression, right: Expression): BinaryExpression;
+    addChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    addChecked(left: Expression, right: Expression): BinaryExpression;
+    and(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    and(left: Expression, right: Expression): BinaryExpression;
+    andAlso(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    andAlso(left: Expression, right: Expression): BinaryExpression;
+    andAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    andAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    andAssign(left: Expression, right: Expression): BinaryExpression;
+    arrayAccess(array: Expression, indexes: IEnumerable_1<Expression>): IndexExpression;
+    arrayAccess(array: Expression, indexes: Expression[]): IndexExpression;
+    arrayIndex(array: Expression, indexes: IEnumerable_1<Expression>): MethodCallExpression;
+    arrayIndex(array: Expression, index: Expression): BinaryExpression;
+    arrayIndex(array: Expression, indexes: Expression[]): MethodCallExpression;
+    arrayLength(array: Expression): UnaryExpression;
+    assign(left: Expression, right: Expression): BinaryExpression;
+    bind(member: MemberInfo, expression: Expression): MemberAssignment;
+    bind(propertyAccessor: MethodInfo, expression: Expression): MemberAssignment;
+    block(expressions: IEnumerable_1<Expression>): BlockExpression;
+    block(variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
+    block(variables: IEnumerable_1<ParameterExpression>, expressions: Expression[]): BlockExpression;
+    block(arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression, arg4: Expression): BlockExpression;
+    block(arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): BlockExpression;
+    block(arg0: Expression, arg1: Expression, arg2: Expression): BlockExpression;
+    block(arg0: Expression, arg1: Expression): BlockExpression;
+    block(expressions: Expression[]): BlockExpression;
+    block(type_: Type, expressions: IEnumerable_1<Expression>): BlockExpression;
+    block(type_: Type, variables: IEnumerable_1<ParameterExpression>, expressions: IEnumerable_1<Expression>): BlockExpression;
+    block(type_: Type, variables: IEnumerable_1<ParameterExpression>, expressions: Expression[]): BlockExpression;
+    block(type_: Type, expressions: Expression[]): BlockExpression;
+    break_(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
+    break_(target: LabelTarget, value: Expression): GotoExpression;
+    break_(target: LabelTarget, type_: Type): GotoExpression;
+    break_(target: LabelTarget): GotoExpression;
+    call(instance: Expression, method: MethodInfo, arguments: IEnumerable_1<Expression>): MethodCallExpression;
+    call(instance: Expression, method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
+    call(instance: Expression, method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
+    call(instance: Expression, method: MethodInfo, arguments: Expression[]): MethodCallExpression;
+    call(instance: Expression, method: MethodInfo): MethodCallExpression;
+    call(instance: Expression, methodName: string, typeArguments: Type[], arguments: Expression[]): MethodCallExpression;
+    call(method: MethodInfo, arguments: IEnumerable_1<Expression>): MethodCallExpression;
+    call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression, arg4: Expression): MethodCallExpression;
+    call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): MethodCallExpression;
+    call(method: MethodInfo, arg0: Expression, arg1: Expression, arg2: Expression): MethodCallExpression;
+    call(method: MethodInfo, arg0: Expression, arg1: Expression): MethodCallExpression;
+    call(method: MethodInfo, arg0: Expression): MethodCallExpression;
+    call(method: MethodInfo, arguments: Expression[]): MethodCallExpression;
+    call(type_: Type, methodName: string, typeArguments: Type[], arguments: Expression[]): MethodCallExpression;
+    catch_(variable: ParameterExpression, body: Expression, filter: Expression): CatchBlock;
+    catch_(variable: ParameterExpression, body: Expression): CatchBlock;
+    catch_(type_: Type, body: Expression, filter: Expression): CatchBlock;
+    catch_(type_: Type, body: Expression): CatchBlock;
+    clearDebugInfo(document: SymbolDocumentInfo): DebugInfoExpression;
+    coalesce(left: Expression, right: Expression, conversion: LambdaExpression): BinaryExpression;
+    coalesce(left: Expression, right: Expression): BinaryExpression;
+    condition(test: Expression, ifTrue: Expression, ifFalse: Expression, type_: Type): ConditionalExpression;
+    condition(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
+    constant(value: unknown, type_: Type): ConstantExpression;
+    constant(value: unknown): ConstantExpression;
+    continue_(target: LabelTarget, type_: Type): GotoExpression;
+    continue_(target: LabelTarget): GotoExpression;
+    convert(expression: Expression, type_: Type, method: MethodInfo): UnaryExpression;
+    convert(expression: Expression, type_: Type): UnaryExpression;
+    convertChecked(expression: Expression, type_: Type, method: MethodInfo): UnaryExpression;
+    convertChecked(expression: Expression, type_: Type): UnaryExpression;
+    debugInfo(document: SymbolDocumentInfo, startLine: int, startColumn: int, endLine: int, endColumn: int): DebugInfoExpression;
+    decrement(expression: Expression, method: MethodInfo): UnaryExpression;
+    decrement(expression: Expression): UnaryExpression;
+    default_(type_: Type): DefaultExpression;
+    divide(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    divide(left: Expression, right: Expression): BinaryExpression;
+    divideAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    divideAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    divideAssign(left: Expression, right: Expression): BinaryExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arguments: IEnumerable_1<Expression>): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression, arg1: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arg0: Expression): DynamicExpression;
+    dynamic(binder: CallSiteBinder, returnType: Type, arguments: Expression[]): DynamicExpression;
+    elementInit(addMethod: MethodInfo, arguments: IEnumerable_1<Expression>): ElementInit;
+    elementInit(addMethod: MethodInfo, arguments: Expression[]): ElementInit;
+    empty(): DefaultExpression;
+    equal(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    equal(left: Expression, right: Expression): BinaryExpression;
+    exclusiveOr(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    exclusiveOr(left: Expression, right: Expression): BinaryExpression;
+    exclusiveOrAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    exclusiveOrAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    exclusiveOrAssign(left: Expression, right: Expression): BinaryExpression;
+    field(expression: Expression, field: FieldInfo): MemberExpression;
+    field(expression: Expression, fieldName: string): MemberExpression;
+    field(expression: Expression, type_: Type, fieldName: string): MemberExpression;
+    getActionType(typeArgs: Type[]): Type;
+    getDelegateType(typeArgs: Type[]): Type;
+    getFuncType(typeArgs: Type[]): Type;
+    goto(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
+    goto(target: LabelTarget, value: Expression): GotoExpression;
+    goto(target: LabelTarget, type_: Type): GotoExpression;
+    goto(target: LabelTarget): GotoExpression;
+    greaterThan(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    greaterThan(left: Expression, right: Expression): BinaryExpression;
+    greaterThanOrEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    greaterThanOrEqual(left: Expression, right: Expression): BinaryExpression;
+    ifThen(test: Expression, ifTrue: Expression): ConditionalExpression;
+    ifThenElse(test: Expression, ifTrue: Expression, ifFalse: Expression): ConditionalExpression;
+    increment(expression: Expression, method: MethodInfo): UnaryExpression;
+    increment(expression: Expression): UnaryExpression;
+    invoke(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
+    invoke(expression: Expression, arguments: Expression[]): InvocationExpression;
+    isFalse(expression: Expression, method: MethodInfo): UnaryExpression;
+    isFalse(expression: Expression): UnaryExpression;
+    isTrue(expression: Expression, method: MethodInfo): UnaryExpression;
+    isTrue(expression: Expression): UnaryExpression;
+    label(): LabelTarget;
+    label(target: LabelTarget, defaultValue: Expression): LabelExpression;
+    label(target: LabelTarget): LabelExpression;
+    label(name: string): LabelTarget;
+    label(type_: Type, name: string): LabelTarget;
+    label(type_: Type): LabelTarget;
+    lambda<TDelegate>(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
+    lambda(body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda<TDelegate>(body: Expression, tailCall: boolean, parameters: ParameterExpression[]): Expression_1<TDelegate>;
+    lambda(body: Expression, tailCall: boolean, parameters: ParameterExpression[]): LambdaExpression;
+    lambda<TDelegate>(body: Expression, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
+    lambda(body: Expression, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda<TDelegate>(body: Expression, parameters: ParameterExpression[]): Expression_1<TDelegate>;
+    lambda(body: Expression, parameters: ParameterExpression[]): LambdaExpression;
+    lambda<TDelegate>(body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
+    lambda(body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda<TDelegate>(body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): Expression_1<TDelegate>;
+    lambda(body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, tailCall: boolean, parameters: ParameterExpression[]): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, parameters: ParameterExpression[]): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, name: string, tailCall: boolean, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    lambda(delegateType: Type, body: Expression, name: string, parameters: IEnumerable_1<ParameterExpression>): LambdaExpression;
+    leftShift(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    leftShift(left: Expression, right: Expression): BinaryExpression;
+    leftShiftAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    leftShiftAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    leftShiftAssign(left: Expression, right: Expression): BinaryExpression;
+    lessThan(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    lessThan(left: Expression, right: Expression): BinaryExpression;
+    lessThanOrEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    lessThanOrEqual(left: Expression, right: Expression): BinaryExpression;
+    listBind(member: MemberInfo, initializers: IEnumerable_1<ElementInit>): MemberListBinding;
+    listBind(member: MemberInfo, initializers: ElementInit[]): MemberListBinding;
+    listBind(propertyAccessor: MethodInfo, initializers: IEnumerable_1<ElementInit>): MemberListBinding;
+    listBind(propertyAccessor: MethodInfo, initializers: ElementInit[]): MemberListBinding;
+    listInit(newExpression: NewExpression, initializers: IEnumerable_1<ElementInit>): ListInitExpression;
+    listInit(newExpression: NewExpression, initializers: IEnumerable_1<Expression>): ListInitExpression;
+    listInit(newExpression: NewExpression, initializers: ElementInit[]): ListInitExpression;
+    listInit(newExpression: NewExpression, initializers: Expression[]): ListInitExpression;
+    listInit(newExpression: NewExpression, addMethod: MethodInfo, initializers: IEnumerable_1<Expression>): ListInitExpression;
+    listInit(newExpression: NewExpression, addMethod: MethodInfo, initializers: Expression[]): ListInitExpression;
+    loop(body: Expression, break_: LabelTarget, continue_: LabelTarget): LoopExpression;
+    loop(body: Expression, break_: LabelTarget): LoopExpression;
+    loop(body: Expression): LoopExpression;
+    makeBinary(binaryType: ExpressionType, left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    makeBinary(binaryType: ExpressionType, left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    makeBinary(binaryType: ExpressionType, left: Expression, right: Expression): BinaryExpression;
+    makeCatchBlock(type_: Type, variable: ParameterExpression, body: Expression, filter: Expression): CatchBlock;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: IEnumerable_1<Expression>): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression, arg3: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression, arg2: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression, arg1: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arg0: Expression): DynamicExpression;
+    makeDynamic(delegateType: Type, binder: CallSiteBinder, arguments: Expression[]): DynamicExpression;
+    makeGoto(kind: GotoExpressionKind, target: LabelTarget, value: Expression, type_: Type): GotoExpression;
+    makeIndex(instance: Expression, indexer: PropertyInfo, arguments: IEnumerable_1<Expression>): IndexExpression;
+    makeMemberAccess(expression: Expression, member: MemberInfo): MemberExpression;
+    makeTry(type_: Type, body: Expression, finally_: Expression, fault: Expression, handlers: IEnumerable_1<CatchBlock>): TryExpression;
+    makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type, method: MethodInfo): UnaryExpression;
+    makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type): UnaryExpression;
+    memberBind(member: MemberInfo, bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
+    memberBind(member: MemberInfo, bindings: MemberBinding[]): MemberMemberBinding;
+    memberBind(propertyAccessor: MethodInfo, bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
+    memberBind(propertyAccessor: MethodInfo, bindings: MemberBinding[]): MemberMemberBinding;
+    memberInit(newExpression: NewExpression, bindings: IEnumerable_1<MemberBinding>): MemberInitExpression;
+    memberInit(newExpression: NewExpression, bindings: MemberBinding[]): MemberInitExpression;
+    modulo(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    modulo(left: Expression, right: Expression): BinaryExpression;
+    moduloAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    moduloAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    moduloAssign(left: Expression, right: Expression): BinaryExpression;
+    multiply(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    multiply(left: Expression, right: Expression): BinaryExpression;
+    multiplyAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    multiplyAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    multiplyAssign(left: Expression, right: Expression): BinaryExpression;
+    multiplyAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    multiplyAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    multiplyAssignChecked(left: Expression, right: Expression): BinaryExpression;
+    multiplyChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    multiplyChecked(left: Expression, right: Expression): BinaryExpression;
+    negate(expression: Expression, method: MethodInfo): UnaryExpression;
+    negate(expression: Expression): UnaryExpression;
+    negateChecked(expression: Expression, method: MethodInfo): UnaryExpression;
+    negateChecked(expression: Expression): UnaryExpression;
+    new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>, members: IEnumerable_1<MemberInfo>): NewExpression;
+    new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>, members: MemberInfo[]): NewExpression;
+    new_(constructor_: ConstructorInfo, arguments: IEnumerable_1<Expression>): NewExpression;
+    new_(constructor_: ConstructorInfo, arguments: Expression[]): NewExpression;
+    new_(constructor_: ConstructorInfo): NewExpression;
+    new_(type_: Type): NewExpression;
+    newArrayBounds(type_: Type, bounds: IEnumerable_1<Expression>): NewArrayExpression;
+    newArrayBounds(type_: Type, bounds: Expression[]): NewArrayExpression;
+    newArrayInit(type_: Type, initializers: IEnumerable_1<Expression>): NewArrayExpression;
+    newArrayInit(type_: Type, initializers: Expression[]): NewArrayExpression;
+    not(expression: Expression, method: MethodInfo): UnaryExpression;
+    not(expression: Expression): UnaryExpression;
+    notEqual(left: Expression, right: Expression, liftToNull: boolean, method: MethodInfo): BinaryExpression;
+    notEqual(left: Expression, right: Expression): BinaryExpression;
+    onesComplement(expression: Expression, method: MethodInfo): UnaryExpression;
+    onesComplement(expression: Expression): UnaryExpression;
+    or(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    or(left: Expression, right: Expression): BinaryExpression;
+    orAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    orAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    orAssign(left: Expression, right: Expression): BinaryExpression;
+    orElse(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    orElse(left: Expression, right: Expression): BinaryExpression;
+    parameter(type_: Type, name: string): ParameterExpression;
+    parameter(type_: Type): ParameterExpression;
+    postDecrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
+    postDecrementAssign(expression: Expression): UnaryExpression;
+    postIncrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
+    postIncrementAssign(expression: Expression): UnaryExpression;
+    power(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    power(left: Expression, right: Expression): BinaryExpression;
+    powerAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    powerAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    powerAssign(left: Expression, right: Expression): BinaryExpression;
+    preDecrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
+    preDecrementAssign(expression: Expression): UnaryExpression;
+    preIncrementAssign(expression: Expression, method: MethodInfo): UnaryExpression;
+    preIncrementAssign(expression: Expression): UnaryExpression;
+    property(expression: Expression, propertyAccessor: MethodInfo): MemberExpression;
+    property(instance: Expression, indexer: PropertyInfo, arguments: IEnumerable_1<Expression>): IndexExpression;
+    property(instance: Expression, indexer: PropertyInfo, arguments: Expression[]): IndexExpression;
+    property(expression: Expression, property: PropertyInfo): MemberExpression;
+    property(instance: Expression, propertyName: string, arguments: Expression[]): IndexExpression;
+    property(expression: Expression, propertyName: string): MemberExpression;
+    property(expression: Expression, type_: Type, propertyName: string): MemberExpression;
+    propertyOrField(expression: Expression, propertyOrFieldName: string): MemberExpression;
+    quote(expression: Expression): UnaryExpression;
+    referenceEqual(left: Expression, right: Expression): BinaryExpression;
+    referenceNotEqual(left: Expression, right: Expression): BinaryExpression;
+    rethrow(): UnaryExpression;
+    rethrow(type_: Type): UnaryExpression;
+    return_(target: LabelTarget, value: Expression, type_: Type): GotoExpression;
+    return_(target: LabelTarget, value: Expression): GotoExpression;
+    return_(target: LabelTarget, type_: Type): GotoExpression;
+    return_(target: LabelTarget): GotoExpression;
+    rightShift(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    rightShift(left: Expression, right: Expression): BinaryExpression;
+    rightShiftAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    rightShiftAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    rightShiftAssign(left: Expression, right: Expression): BinaryExpression;
+    runtimeVariables(variables: IEnumerable_1<ParameterExpression>): RuntimeVariablesExpression;
+    runtimeVariables(variables: ParameterExpression[]): RuntimeVariablesExpression;
+    subtract(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    subtract(left: Expression, right: Expression): BinaryExpression;
+    subtractAssign(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    subtractAssign(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    subtractAssign(left: Expression, right: Expression): BinaryExpression;
+    subtractAssignChecked(left: Expression, right: Expression, method: MethodInfo, conversion: LambdaExpression): BinaryExpression;
+    subtractAssignChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    subtractAssignChecked(left: Expression, right: Expression): BinaryExpression;
+    subtractChecked(left: Expression, right: Expression, method: MethodInfo): BinaryExpression;
+    subtractChecked(left: Expression, right: Expression): BinaryExpression;
+    switch_(switchValue: Expression, defaultBody: Expression, cases: SwitchCase[]): SwitchExpression;
+    switch_(switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: IEnumerable_1<SwitchCase>): SwitchExpression;
+    switch_(switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: SwitchCase[]): SwitchExpression;
+    switch_(switchValue: Expression, cases: SwitchCase[]): SwitchExpression;
+    switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: IEnumerable_1<SwitchCase>): SwitchExpression;
+    switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: SwitchCase[]): SwitchExpression;
+    switchCase(body: Expression, testValues: IEnumerable_1<Expression>): SwitchCase;
+    switchCase(body: Expression, testValues: Expression[]): SwitchCase;
+    symbolDocument(fileName: string, language: Guid, languageVendor: Guid, documentType: Guid): SymbolDocumentInfo;
+    symbolDocument(fileName: string, language: Guid, languageVendor: Guid): SymbolDocumentInfo;
+    symbolDocument(fileName: string, language: Guid): SymbolDocumentInfo;
+    symbolDocument(fileName: string): SymbolDocumentInfo;
+    throw_(value: Expression, type_: Type): UnaryExpression;
+    throw_(value: Expression): UnaryExpression;
+    tryCatch(body: Expression, handlers: CatchBlock[]): TryExpression;
+    tryCatchFinally(body: Expression, finally_: Expression, handlers: CatchBlock[]): TryExpression;
+    tryFault(body: Expression, fault: Expression): TryExpression;
+    tryFinally(body: Expression, finally_: Expression): TryExpression;
+    tryGetActionType(typeArgs: Type[], actionType: { value: ref<Type> }): boolean;
+    tryGetFuncType(typeArgs: Type[], funcType: { value: ref<Type> }): boolean;
+    typeAs(expression: Expression, type_: Type): UnaryExpression;
+    typeEqual(expression: Expression, type_: Type): TypeBinaryExpression;
+    typeIs(expression: Expression, type_: Type): TypeBinaryExpression;
+    unaryPlus(expression: Expression, method: MethodInfo): UnaryExpression;
+    unaryPlus(expression: Expression): UnaryExpression;
+    unbox(expression: Expression, type_: Type): UnaryExpression;
+    variable(type_: Type, name: string): ParameterExpression;
+    variable(type_: Type): ParameterExpression;
+};
 
 
 export type Expression = Expression$instance;
 
-export class Expression_1$instance<TDelegate> extends LambdaExpression$instance {
+export interface Expression_1$instance<TDelegate> extends LambdaExpression {
     compile(): TDelegate;
     compile(preferInterpretation: boolean): TDelegate;
     compile(debugInfoGenerator: DebugInfoGenerator): TDelegate;
@@ -641,20 +694,29 @@ export class Expression_1$instance<TDelegate> extends LambdaExpression$instance 
 }
 
 
+export const Expression_1: {
+    new<TDelegate>(): Expression_1$instance<TDelegate>;
+};
+
+
 export type Expression_1<TDelegate> = Expression_1$instance<TDelegate>;
 
-export abstract class ExpressionVisitor$instance {
+export interface ExpressionVisitor$instance {
     visit(node: Expression): Expression;
     visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
     visitAndConvert<T extends Expression>(node: T, callerName: string): T;
     visitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string): ReadOnlyCollection_1<T>;
-    static visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
 }
+
+
+export const ExpressionVisitor: {
+    visit<T>(nodes: ReadOnlyCollection_1<T>, elementVisitor: Func_2<T, T>): ReadOnlyCollection_1<T>;
+};
 
 
 export type ExpressionVisitor = ExpressionVisitor$instance;
 
-export class GotoExpression$instance extends Expression$instance {
+export interface GotoExpression$instance extends Expression {
     readonly kind: GotoExpressionKind;
     readonly nodeType: ExpressionType;
     readonly target: LabelTarget;
@@ -664,9 +726,14 @@ export class GotoExpression$instance extends Expression$instance {
 }
 
 
+export const GotoExpression: {
+    new(): GotoExpression$instance;
+};
+
+
 export type GotoExpression = GotoExpression$instance;
 
-export class IndexExpression$instance extends Expression$instance {
+export interface IndexExpression$instance extends Expression {
     readonly argumentCount: int;
     readonly arguments: ReadOnlyCollection_1<Expression>;
     readonly indexer: PropertyInfo;
@@ -678,6 +745,11 @@ export class IndexExpression$instance extends Expression$instance {
 }
 
 
+export const IndexExpression: {
+    new(): IndexExpression$instance;
+};
+
+
 export interface __IndexExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
@@ -687,7 +759,7 @@ export interface IndexExpression$instance extends IArgumentProvider$instance {}
 export type IndexExpression = IndexExpression$instance & __IndexExpression$views;
 
 
-export class InvocationExpression$instance extends Expression$instance {
+export interface InvocationExpression$instance extends Expression {
     readonly argumentCount: int;
     readonly arguments: ReadOnlyCollection_1<Expression>;
     readonly expression: Expression;
@@ -696,6 +768,11 @@ export class InvocationExpression$instance extends Expression$instance {
     getArgument(index: int): Expression;
     update(expression: Expression, arguments: IEnumerable_1<Expression>): InvocationExpression;
 }
+
+
+export const InvocationExpression: {
+    new(): InvocationExpression$instance;
+};
 
 
 export interface __InvocationExpression$views {
@@ -707,7 +784,7 @@ export interface InvocationExpression$instance extends IArgumentProvider$instanc
 export type InvocationExpression = InvocationExpression$instance & __InvocationExpression$views;
 
 
-export class LabelExpression$instance extends Expression$instance {
+export interface LabelExpression$instance extends Expression {
     readonly defaultValue: Expression;
     readonly nodeType: ExpressionType;
     readonly target: LabelTarget;
@@ -716,18 +793,28 @@ export class LabelExpression$instance extends Expression$instance {
 }
 
 
+export const LabelExpression: {
+    new(): LabelExpression$instance;
+};
+
+
 export type LabelExpression = LabelExpression$instance;
 
-export class LabelTarget$instance {
+export interface LabelTarget$instance {
     readonly name: string;
     readonly type_: Type;
     toString(): string;
 }
 
 
+export const LabelTarget: {
+    new(): LabelTarget$instance;
+};
+
+
 export type LabelTarget = LabelTarget$instance;
 
-export abstract class LambdaExpression$instance extends Expression$instance {
+export interface LambdaExpression$instance extends Expression {
     readonly body: Expression;
     readonly name: string;
     readonly nodeType: ExpressionType;
@@ -738,14 +825,18 @@ export abstract class LambdaExpression$instance extends Expression$instance {
     compile(): Function;
     compile(preferInterpretation: boolean): Function;
     compile(debugInfoGenerator: DebugInfoGenerator): Function;
-    static readonly canCompileToIL: boolean;
-    static readonly canInterpret: boolean;
 }
+
+
+export const LambdaExpression: {
+    readonly canCompileToIL: boolean;
+    readonly canInterpret: boolean;
+};
 
 
 export type LambdaExpression = LambdaExpression$instance;
 
-export class ListInitExpression$instance extends Expression$instance {
+export interface ListInitExpression$instance extends Expression {
     readonly canReduce: boolean;
     readonly initializers: ReadOnlyCollection_1<ElementInit>;
     readonly newExpression: NewExpression;
@@ -756,9 +847,14 @@ export class ListInitExpression$instance extends Expression$instance {
 }
 
 
+export const ListInitExpression: {
+    new(): ListInitExpression$instance;
+};
+
+
 export type ListInitExpression = ListInitExpression$instance;
 
-export class LoopExpression$instance extends Expression$instance {
+export interface LoopExpression$instance extends Expression {
     readonly body: Expression;
     readonly breakLabel: LabelTarget;
     readonly continueLabel: LabelTarget;
@@ -768,26 +864,40 @@ export class LoopExpression$instance extends Expression$instance {
 }
 
 
+export const LoopExpression: {
+    new(): LoopExpression$instance;
+};
+
+
 export type LoopExpression = LoopExpression$instance;
 
-export class MemberAssignment$instance extends MemberBinding$instance {
+export interface MemberAssignment$instance extends MemberBinding {
     readonly expression: Expression;
     update(expression: Expression): MemberAssignment;
 }
 
 
+export const MemberAssignment: {
+    new(): MemberAssignment$instance;
+};
+
+
 export type MemberAssignment = MemberAssignment$instance;
 
-export abstract class MemberBinding$instance {
+export interface MemberBinding$instance {
     readonly bindingType: MemberBindingType;
     readonly member: MemberInfo;
     toString(): string;
 }
 
 
+export const MemberBinding: {
+};
+
+
 export type MemberBinding = MemberBinding$instance;
 
-export class MemberExpression$instance extends Expression$instance {
+export interface MemberExpression$instance extends Expression {
     readonly expression: Expression;
     readonly member: MemberInfo;
     readonly nodeType: ExpressionType;
@@ -795,9 +905,14 @@ export class MemberExpression$instance extends Expression$instance {
 }
 
 
+export const MemberExpression: {
+    new(): MemberExpression$instance;
+};
+
+
 export type MemberExpression = MemberExpression$instance;
 
-export class MemberInitExpression$instance extends Expression$instance {
+export interface MemberInitExpression$instance extends Expression {
     readonly bindings: ReadOnlyCollection_1<MemberBinding>;
     readonly canReduce: boolean;
     readonly newExpression: NewExpression;
@@ -808,25 +923,40 @@ export class MemberInitExpression$instance extends Expression$instance {
 }
 
 
+export const MemberInitExpression: {
+    new(): MemberInitExpression$instance;
+};
+
+
 export type MemberInitExpression = MemberInitExpression$instance;
 
-export class MemberListBinding$instance extends MemberBinding$instance {
+export interface MemberListBinding$instance extends MemberBinding {
     readonly initializers: ReadOnlyCollection_1<ElementInit>;
     update(initializers: IEnumerable_1<ElementInit>): MemberListBinding;
 }
 
 
+export const MemberListBinding: {
+    new(): MemberListBinding$instance;
+};
+
+
 export type MemberListBinding = MemberListBinding$instance;
 
-export class MemberMemberBinding$instance extends MemberBinding$instance {
+export interface MemberMemberBinding$instance extends MemberBinding {
     readonly bindings: ReadOnlyCollection_1<MemberBinding>;
     update(bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
 }
 
 
+export const MemberMemberBinding: {
+    new(): MemberMemberBinding$instance;
+};
+
+
 export type MemberMemberBinding = MemberMemberBinding$instance;
 
-export class MethodCallExpression$instance extends Expression$instance {
+export interface MethodCallExpression$instance extends Expression {
     readonly argumentCount: int;
     readonly arguments: ReadOnlyCollection_1<Expression>;
     readonly method: MethodInfo;
@@ -838,6 +968,11 @@ export class MethodCallExpression$instance extends Expression$instance {
 }
 
 
+export const MethodCallExpression: {
+    new(): MethodCallExpression$instance;
+};
+
+
 export interface __MethodCallExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
@@ -847,16 +982,21 @@ export interface MethodCallExpression$instance extends IArgumentProvider$instanc
 export type MethodCallExpression = MethodCallExpression$instance & __MethodCallExpression$views;
 
 
-export class NewArrayExpression$instance extends Expression$instance {
+export interface NewArrayExpression$instance extends Expression {
     readonly expressions: ReadOnlyCollection_1<Expression>;
     readonly type_: Type;
     update(expressions: IEnumerable_1<Expression>): NewArrayExpression;
 }
 
 
+export const NewArrayExpression: {
+    new(): NewArrayExpression$instance;
+};
+
+
 export type NewArrayExpression = NewArrayExpression$instance;
 
-export class NewExpression$instance extends Expression$instance {
+export interface NewExpression$instance extends Expression {
     readonly argumentCount: int;
     readonly arguments: ReadOnlyCollection_1<Expression>;
     readonly constructor_: ConstructorInfo;
@@ -868,6 +1008,11 @@ export class NewExpression$instance extends Expression$instance {
 }
 
 
+export const NewExpression: {
+    new(): NewExpression$instance;
+};
+
+
 export interface __NewExpression$views {
     As_IArgumentProvider(): IArgumentProvider$instance;
 }
@@ -877,7 +1022,7 @@ export interface NewExpression$instance extends IArgumentProvider$instance {}
 export type NewExpression = NewExpression$instance & __NewExpression$views;
 
 
-export class ParameterExpression$instance extends Expression$instance {
+export interface ParameterExpression$instance extends Expression {
     readonly isByRef: boolean;
     readonly name: string;
     readonly nodeType: ExpressionType;
@@ -885,9 +1030,14 @@ export class ParameterExpression$instance extends Expression$instance {
 }
 
 
+export const ParameterExpression: {
+    new(): ParameterExpression$instance;
+};
+
+
 export type ParameterExpression = ParameterExpression$instance;
 
-export class RuntimeVariablesExpression$instance extends Expression$instance {
+export interface RuntimeVariablesExpression$instance extends Expression {
     readonly nodeType: ExpressionType;
     readonly type_: Type;
     readonly variables: ReadOnlyCollection_1<ParameterExpression>;
@@ -895,9 +1045,14 @@ export class RuntimeVariablesExpression$instance extends Expression$instance {
 }
 
 
+export const RuntimeVariablesExpression: {
+    new(): RuntimeVariablesExpression$instance;
+};
+
+
 export type RuntimeVariablesExpression = RuntimeVariablesExpression$instance;
 
-export class SwitchCase$instance {
+export interface SwitchCase$instance {
     readonly body: Expression;
     readonly testValues: ReadOnlyCollection_1<Expression>;
     toString(): string;
@@ -905,9 +1060,14 @@ export class SwitchCase$instance {
 }
 
 
+export const SwitchCase: {
+    new(): SwitchCase$instance;
+};
+
+
 export type SwitchCase = SwitchCase$instance;
 
-export class SwitchExpression$instance extends Expression$instance {
+export interface SwitchExpression$instance extends Expression {
     readonly cases: ReadOnlyCollection_1<SwitchCase>;
     readonly comparison: MethodInfo;
     readonly defaultBody: Expression;
@@ -918,9 +1078,14 @@ export class SwitchExpression$instance extends Expression$instance {
 }
 
 
+export const SwitchExpression: {
+    new(): SwitchExpression$instance;
+};
+
+
 export type SwitchExpression = SwitchExpression$instance;
 
-export class SymbolDocumentInfo$instance {
+export interface SymbolDocumentInfo$instance {
     readonly documentType: Guid;
     readonly fileName: string;
     readonly language: Guid;
@@ -928,9 +1093,14 @@ export class SymbolDocumentInfo$instance {
 }
 
 
+export const SymbolDocumentInfo: {
+    new(): SymbolDocumentInfo$instance;
+};
+
+
 export type SymbolDocumentInfo = SymbolDocumentInfo$instance;
 
-export class TryExpression$instance extends Expression$instance {
+export interface TryExpression$instance extends Expression {
     readonly body: Expression;
     readonly fault: Expression;
     readonly finally_: Expression;
@@ -941,9 +1111,14 @@ export class TryExpression$instance extends Expression$instance {
 }
 
 
+export const TryExpression: {
+    new(): TryExpression$instance;
+};
+
+
 export type TryExpression = TryExpression$instance;
 
-export class TypeBinaryExpression$instance extends Expression$instance {
+export interface TypeBinaryExpression$instance extends Expression {
     readonly expression: Expression;
     readonly nodeType: ExpressionType;
     readonly type_: Type;
@@ -952,9 +1127,14 @@ export class TypeBinaryExpression$instance extends Expression$instance {
 }
 
 
+export const TypeBinaryExpression: {
+    new(): TypeBinaryExpression$instance;
+};
+
+
 export type TypeBinaryExpression = TypeBinaryExpression$instance;
 
-export class UnaryExpression$instance extends Expression$instance {
+export interface UnaryExpression$instance extends Expression {
     readonly canReduce: boolean;
     readonly isLifted: boolean;
     readonly isLiftedToNull: boolean;
@@ -965,6 +1145,11 @@ export class UnaryExpression$instance extends Expression$instance {
     reduce(): Expression;
     update(operand: Expression): UnaryExpression;
 }
+
+
+export const UnaryExpression: {
+    new(): UnaryExpression$instance;
+};
 
 
 export type UnaryExpression = UnaryExpression$instance;

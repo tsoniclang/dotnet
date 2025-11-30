@@ -69,8 +69,7 @@ export interface INullable$instance {
 
 export type INullable = INullable$instance;
 
-export class SqlBinary$instance {
-    constructor(value: byte[]);
+export interface SqlBinary$instance {
     readonly isNull: boolean;
     readonly item: byte;
     readonly length: int;
@@ -82,18 +81,23 @@ export class SqlBinary$instance {
     getHashCode(): int;
     toSqlGuid(): SqlGuid;
     toString(): string;
-    static readonly null_: SqlBinary;
-    static add(x: SqlBinary, y: SqlBinary): SqlBinary;
-    static concat(x: SqlBinary, y: SqlBinary): SqlBinary;
-    static equals(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static greaterThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static lessThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static lessThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static notEquals(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static wrapBytes(bytes: byte[]): SqlBinary;
 }
+
+
+export const SqlBinary: {
+    new(value: byte[]): SqlBinary$instance;
+    readonly null_: SqlBinary;
+    add(x: SqlBinary, y: SqlBinary): SqlBinary;
+    concat(x: SqlBinary, y: SqlBinary): SqlBinary;
+    equals(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    greaterThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    lessThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    lessThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    notEquals(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    wrapBytes(bytes: byte[]): SqlBinary;
+};
 
 
 export interface __SqlBinary$views {
@@ -112,9 +116,7 @@ export interface SqlBinary$instance extends INullable$instance, System_Xml_Seria
 export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
 
 
-export class SqlBoolean$instance {
-    constructor(value: boolean);
-    constructor(value: int);
+export interface SqlBoolean$instance {
     readonly byteValue: byte;
     readonly isFalse: boolean;
     readonly isNull: boolean;
@@ -135,24 +137,30 @@ export class SqlBoolean$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly true_: SqlBoolean;
-    static readonly false_: SqlBoolean;
-    static readonly null_: SqlBoolean;
-    static readonly zero: SqlBoolean;
-    static readonly one: SqlBoolean;
-    static and(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static equals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static greaterThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static lessThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static lessThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static notEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static onesComplement(x: SqlBoolean): SqlBoolean;
-    static or(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static parse(s: string): SqlBoolean;
-    static xor(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
 }
+
+
+export const SqlBoolean: {
+    new(value: boolean): SqlBoolean$instance;
+    new(value: int): SqlBoolean$instance;
+    readonly true_: SqlBoolean;
+    readonly false_: SqlBoolean;
+    readonly null_: SqlBoolean;
+    readonly zero: SqlBoolean;
+    readonly one: SqlBoolean;
+    and(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    equals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    greaterThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    lessThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    lessThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    notEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    onesComplement(x: SqlBoolean): SqlBoolean;
+    or(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    parse(s: string): SqlBoolean;
+    xor(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+};
 
 
 export interface __SqlBoolean$views {
@@ -171,8 +179,7 @@ export interface SqlBoolean$instance extends INullable$instance, System_Xml_Seri
 export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
 
 
-export class SqlByte$instance {
-    constructor(value: byte);
+export interface SqlByte$instance {
     readonly isNull: boolean;
     readonly value: byte;
     compareTo(value: unknown): int;
@@ -190,29 +197,34 @@ export class SqlByte$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlByte;
-    static readonly zero: SqlByte;
-    static readonly minValue: SqlByte;
-    static readonly maxValue: SqlByte;
-    static add(x: SqlByte, y: SqlByte): SqlByte;
-    static bitwiseAnd(x: SqlByte, y: SqlByte): SqlByte;
-    static bitwiseOr(x: SqlByte, y: SqlByte): SqlByte;
-    static divide(x: SqlByte, y: SqlByte): SqlByte;
-    static equals(x: SqlByte, y: SqlByte): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlByte, y: SqlByte): SqlBoolean;
-    static greaterThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
-    static lessThan(x: SqlByte, y: SqlByte): SqlBoolean;
-    static lessThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
-    static mod(x: SqlByte, y: SqlByte): SqlByte;
-    static modulus(x: SqlByte, y: SqlByte): SqlByte;
-    static multiply(x: SqlByte, y: SqlByte): SqlByte;
-    static notEquals(x: SqlByte, y: SqlByte): SqlBoolean;
-    static onesComplement(x: SqlByte): SqlByte;
-    static parse(s: string): SqlByte;
-    static subtract(x: SqlByte, y: SqlByte): SqlByte;
-    static xor(x: SqlByte, y: SqlByte): SqlByte;
 }
+
+
+export const SqlByte: {
+    new(value: byte): SqlByte$instance;
+    readonly null_: SqlByte;
+    readonly zero: SqlByte;
+    readonly minValue: SqlByte;
+    readonly maxValue: SqlByte;
+    add(x: SqlByte, y: SqlByte): SqlByte;
+    bitwiseAnd(x: SqlByte, y: SqlByte): SqlByte;
+    bitwiseOr(x: SqlByte, y: SqlByte): SqlByte;
+    divide(x: SqlByte, y: SqlByte): SqlByte;
+    equals(x: SqlByte, y: SqlByte): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlByte, y: SqlByte): SqlBoolean;
+    greaterThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
+    lessThan(x: SqlByte, y: SqlByte): SqlBoolean;
+    lessThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
+    mod(x: SqlByte, y: SqlByte): SqlByte;
+    modulus(x: SqlByte, y: SqlByte): SqlByte;
+    multiply(x: SqlByte, y: SqlByte): SqlByte;
+    notEquals(x: SqlByte, y: SqlByte): SqlBoolean;
+    onesComplement(x: SqlByte): SqlByte;
+    parse(s: string): SqlByte;
+    subtract(x: SqlByte, y: SqlByte): SqlByte;
+    xor(x: SqlByte, y: SqlByte): SqlByte;
+};
 
 
 export interface __SqlByte$views {
@@ -231,13 +243,7 @@ export interface SqlByte$instance extends INullable$instance, System_Xml_Seriali
 export type SqlByte = SqlByte$instance & __SqlByte$views;
 
 
-export class SqlDateTime$instance {
-    constructor(value: DateTime);
-    constructor(year: int, month: int, day: int);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: double);
-    constructor(year: int, month: int, day: int, hour: int, minute: int, second: int, bilisecond: int);
-    constructor(dayTicks: int, timeTicks: int);
+export interface SqlDateTime$instance {
     readonly dayTicks: int;
     readonly isNull: boolean;
     readonly timeTicks: int;
@@ -249,23 +255,33 @@ export class SqlDateTime$instance {
     getHashCode(): int;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly sqlTicksPerSecond: int;
-    static readonly sqlTicksPerMinute: int;
-    static readonly sqlTicksPerHour: int;
-    static readonly minValue: SqlDateTime;
-    static readonly maxValue: SqlDateTime;
-    static readonly null_: SqlDateTime;
-    static add(x: SqlDateTime, t: TimeSpan): SqlDateTime;
-    static equals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static greaterThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static lessThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static lessThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static notEquals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static parse(s: string): SqlDateTime;
-    static subtract(x: SqlDateTime, t: TimeSpan): SqlDateTime;
 }
+
+
+export const SqlDateTime: {
+    new(value: DateTime): SqlDateTime$instance;
+    new(year: int, month: int, day: int): SqlDateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int): SqlDateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: double): SqlDateTime$instance;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, bilisecond: int): SqlDateTime$instance;
+    new(dayTicks: int, timeTicks: int): SqlDateTime$instance;
+    readonly sqlTicksPerSecond: int;
+    readonly sqlTicksPerMinute: int;
+    readonly sqlTicksPerHour: int;
+    readonly minValue: SqlDateTime;
+    readonly maxValue: SqlDateTime;
+    readonly null_: SqlDateTime;
+    add(x: SqlDateTime, t: TimeSpan): SqlDateTime;
+    equals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    greaterThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    lessThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    lessThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    notEquals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    parse(s: string): SqlDateTime;
+    subtract(x: SqlDateTime, t: TimeSpan): SqlDateTime;
+};
 
 
 export interface __SqlDateTime$views {
@@ -284,13 +300,7 @@ export interface SqlDateTime$instance extends INullable$instance, System_Xml_Ser
 export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
 
 
-export class SqlDecimal$instance {
-    constructor(value: decimal);
-    constructor(value: int);
-    constructor(value: long);
-    constructor(bPrecision: byte, bScale: byte, fPositive: boolean, bits: int[]);
-    constructor(bPrecision: byte, bScale: byte, fPositive: boolean, data1: int, data2: int, data3: int, data4: int);
-    constructor(dVal: double);
+export interface SqlDecimal$instance {
     readonly binData: byte[];
     readonly data: int[];
     readonly isNull: boolean;
@@ -315,33 +325,43 @@ export class SqlDecimal$instance {
     toSqlString(): SqlString;
     toString(): string;
     writeTdsValue(destination: Span_1<CLROf<uint>>): int;
-    static readonly maxPrecision: byte;
-    static readonly maxScale: byte;
-    static readonly null_: SqlDecimal;
-    static readonly minValue: SqlDecimal;
-    static readonly maxValue: SqlDecimal;
-    static abs(n: SqlDecimal): SqlDecimal;
-    static add(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static adjustScale(n: SqlDecimal, digits: int, fRound: boolean): SqlDecimal;
-    static ceiling(n: SqlDecimal): SqlDecimal;
-    static convertToPrecScale(n: SqlDecimal, precision: int, scale: int): SqlDecimal;
-    static divide(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static equals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static floor(n: SqlDecimal): SqlDecimal;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static greaterThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static lessThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static lessThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static multiply(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static notEquals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static parse(s: string): SqlDecimal;
-    static power(n: SqlDecimal, exp: double): SqlDecimal;
-    static round(n: SqlDecimal, position: int): SqlDecimal;
-    static sign(n: SqlDecimal): SqlInt32;
-    static subtract(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static truncate(n: SqlDecimal, position: int): SqlDecimal;
 }
+
+
+export const SqlDecimal: {
+    new(value: decimal): SqlDecimal$instance;
+    new(value: int): SqlDecimal$instance;
+    new(value: long): SqlDecimal$instance;
+    new(bPrecision: byte, bScale: byte, fPositive: boolean, bits: int[]): SqlDecimal$instance;
+    new(bPrecision: byte, bScale: byte, fPositive: boolean, data1: int, data2: int, data3: int, data4: int): SqlDecimal$instance;
+    new(dVal: double): SqlDecimal$instance;
+    readonly maxPrecision: byte;
+    readonly maxScale: byte;
+    readonly null_: SqlDecimal;
+    readonly minValue: SqlDecimal;
+    readonly maxValue: SqlDecimal;
+    abs(n: SqlDecimal): SqlDecimal;
+    add(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    adjustScale(n: SqlDecimal, digits: int, fRound: boolean): SqlDecimal;
+    ceiling(n: SqlDecimal): SqlDecimal;
+    convertToPrecScale(n: SqlDecimal, precision: int, scale: int): SqlDecimal;
+    divide(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    equals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    floor(n: SqlDecimal): SqlDecimal;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    greaterThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    lessThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    lessThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    multiply(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    notEquals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    parse(s: string): SqlDecimal;
+    power(n: SqlDecimal, exp: double): SqlDecimal;
+    round(n: SqlDecimal, position: int): SqlDecimal;
+    sign(n: SqlDecimal): SqlInt32;
+    subtract(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    truncate(n: SqlDecimal, position: int): SqlDecimal;
+};
 
 
 export interface __SqlDecimal$views {
@@ -360,8 +380,7 @@ export interface SqlDecimal$instance extends INullable$instance, System_Xml_Seri
 export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
 
 
-export class SqlDouble$instance {
-    constructor(value: double);
+export interface SqlDouble$instance {
     readonly isNull: boolean;
     readonly value: double;
     compareTo(value: unknown): int;
@@ -379,23 +398,28 @@ export class SqlDouble$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlDouble;
-    static readonly zero: SqlDouble;
-    static readonly minValue: SqlDouble;
-    static readonly maxValue: SqlDouble;
-    static add(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static divide(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static equals(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static greaterThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static lessThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static lessThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static multiply(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static notEquals(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static parse(s: string): SqlDouble;
-    static subtract(x: SqlDouble, y: SqlDouble): SqlDouble;
 }
+
+
+export const SqlDouble: {
+    new(value: double): SqlDouble$instance;
+    readonly null_: SqlDouble;
+    readonly zero: SqlDouble;
+    readonly minValue: SqlDouble;
+    readonly maxValue: SqlDouble;
+    add(x: SqlDouble, y: SqlDouble): SqlDouble;
+    divide(x: SqlDouble, y: SqlDouble): SqlDouble;
+    equals(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    greaterThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    lessThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    lessThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    multiply(x: SqlDouble, y: SqlDouble): SqlDouble;
+    notEquals(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    parse(s: string): SqlDouble;
+    subtract(x: SqlDouble, y: SqlDouble): SqlDouble;
+};
 
 
 export interface __SqlDouble$views {
@@ -414,11 +438,7 @@ export interface SqlDouble$instance extends INullable$instance, System_Xml_Seria
 export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
 
 
-export class SqlGuid$instance {
-    constructor(value: byte[]);
-    constructor(s: string);
-    constructor(g: Guid);
-    constructor(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte);
+export interface SqlGuid$instance {
     readonly isNull: boolean;
     readonly value: Guid;
     compareTo(value: unknown): int;
@@ -430,16 +450,24 @@ export class SqlGuid$instance {
     toSqlBinary(): SqlBinary;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlGuid;
-    static equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static greaterThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static lessThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static lessThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static notEquals(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static parse(s: string): SqlGuid;
 }
+
+
+export const SqlGuid: {
+    new(value: byte[]): SqlGuid$instance;
+    new(s: string): SqlGuid$instance;
+    new(g: Guid): SqlGuid$instance;
+    new(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): SqlGuid$instance;
+    readonly null_: SqlGuid;
+    equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    greaterThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    lessThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    lessThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    notEquals(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    parse(s: string): SqlGuid;
+};
 
 
 export interface __SqlGuid$views {
@@ -459,8 +487,7 @@ export interface SqlGuid$instance extends INullable$instance, System_Runtime_Ser
 export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
 
 
-export class SqlInt16$instance {
-    constructor(value: short);
+export interface SqlInt16$instance {
     readonly isNull: boolean;
     readonly value: short;
     compareTo(value: unknown): int;
@@ -478,29 +505,34 @@ export class SqlInt16$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlInt16;
-    static readonly zero: SqlInt16;
-    static readonly minValue: SqlInt16;
-    static readonly maxValue: SqlInt16;
-    static add(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static bitwiseAnd(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static bitwiseOr(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static divide(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static equals(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static greaterThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static lessThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static lessThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static mod(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static modulus(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static multiply(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static notEquals(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static onesComplement(x: SqlInt16): SqlInt16;
-    static parse(s: string): SqlInt16;
-    static subtract(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static xor(x: SqlInt16, y: SqlInt16): SqlInt16;
 }
+
+
+export const SqlInt16: {
+    new(value: short): SqlInt16$instance;
+    readonly null_: SqlInt16;
+    readonly zero: SqlInt16;
+    readonly minValue: SqlInt16;
+    readonly maxValue: SqlInt16;
+    add(x: SqlInt16, y: SqlInt16): SqlInt16;
+    bitwiseAnd(x: SqlInt16, y: SqlInt16): SqlInt16;
+    bitwiseOr(x: SqlInt16, y: SqlInt16): SqlInt16;
+    divide(x: SqlInt16, y: SqlInt16): SqlInt16;
+    equals(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    greaterThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    lessThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    lessThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    mod(x: SqlInt16, y: SqlInt16): SqlInt16;
+    modulus(x: SqlInt16, y: SqlInt16): SqlInt16;
+    multiply(x: SqlInt16, y: SqlInt16): SqlInt16;
+    notEquals(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    onesComplement(x: SqlInt16): SqlInt16;
+    parse(s: string): SqlInt16;
+    subtract(x: SqlInt16, y: SqlInt16): SqlInt16;
+    xor(x: SqlInt16, y: SqlInt16): SqlInt16;
+};
 
 
 export interface __SqlInt16$views {
@@ -519,8 +551,7 @@ export interface SqlInt16$instance extends INullable$instance, System_Xml_Serial
 export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
 
 
-export class SqlInt32$instance {
-    constructor(value: int);
+export interface SqlInt32$instance {
     readonly isNull: boolean;
     readonly value: int;
     compareTo(value: unknown): int;
@@ -538,29 +569,34 @@ export class SqlInt32$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlInt32;
-    static readonly zero: SqlInt32;
-    static readonly minValue: SqlInt32;
-    static readonly maxValue: SqlInt32;
-    static add(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static bitwiseAnd(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static bitwiseOr(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static divide(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static equals(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static greaterThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static lessThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static lessThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static mod(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static modulus(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static multiply(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static notEquals(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static onesComplement(x: SqlInt32): SqlInt32;
-    static parse(s: string): SqlInt32;
-    static subtract(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static xor(x: SqlInt32, y: SqlInt32): SqlInt32;
 }
+
+
+export const SqlInt32: {
+    new(value: int): SqlInt32$instance;
+    readonly null_: SqlInt32;
+    readonly zero: SqlInt32;
+    readonly minValue: SqlInt32;
+    readonly maxValue: SqlInt32;
+    add(x: SqlInt32, y: SqlInt32): SqlInt32;
+    bitwiseAnd(x: SqlInt32, y: SqlInt32): SqlInt32;
+    bitwiseOr(x: SqlInt32, y: SqlInt32): SqlInt32;
+    divide(x: SqlInt32, y: SqlInt32): SqlInt32;
+    equals(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    greaterThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    lessThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    lessThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    mod(x: SqlInt32, y: SqlInt32): SqlInt32;
+    modulus(x: SqlInt32, y: SqlInt32): SqlInt32;
+    multiply(x: SqlInt32, y: SqlInt32): SqlInt32;
+    notEquals(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    onesComplement(x: SqlInt32): SqlInt32;
+    parse(s: string): SqlInt32;
+    subtract(x: SqlInt32, y: SqlInt32): SqlInt32;
+    xor(x: SqlInt32, y: SqlInt32): SqlInt32;
+};
 
 
 export interface __SqlInt32$views {
@@ -579,8 +615,7 @@ export interface SqlInt32$instance extends INullable$instance, System_Xml_Serial
 export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
 
 
-export class SqlInt64$instance {
-    constructor(value: long);
+export interface SqlInt64$instance {
     readonly isNull: boolean;
     readonly value: long;
     compareTo(value: unknown): int;
@@ -598,29 +633,34 @@ export class SqlInt64$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlInt64;
-    static readonly zero: SqlInt64;
-    static readonly minValue: SqlInt64;
-    static readonly maxValue: SqlInt64;
-    static add(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static bitwiseAnd(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static bitwiseOr(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static divide(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static equals(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static greaterThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static lessThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static lessThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static mod(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static modulus(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static multiply(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static notEquals(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static onesComplement(x: SqlInt64): SqlInt64;
-    static parse(s: string): SqlInt64;
-    static subtract(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static xor(x: SqlInt64, y: SqlInt64): SqlInt64;
 }
+
+
+export const SqlInt64: {
+    new(value: long): SqlInt64$instance;
+    readonly null_: SqlInt64;
+    readonly zero: SqlInt64;
+    readonly minValue: SqlInt64;
+    readonly maxValue: SqlInt64;
+    add(x: SqlInt64, y: SqlInt64): SqlInt64;
+    bitwiseAnd(x: SqlInt64, y: SqlInt64): SqlInt64;
+    bitwiseOr(x: SqlInt64, y: SqlInt64): SqlInt64;
+    divide(x: SqlInt64, y: SqlInt64): SqlInt64;
+    equals(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    greaterThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    lessThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    lessThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    mod(x: SqlInt64, y: SqlInt64): SqlInt64;
+    modulus(x: SqlInt64, y: SqlInt64): SqlInt64;
+    multiply(x: SqlInt64, y: SqlInt64): SqlInt64;
+    notEquals(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    onesComplement(x: SqlInt64): SqlInt64;
+    parse(s: string): SqlInt64;
+    subtract(x: SqlInt64, y: SqlInt64): SqlInt64;
+    xor(x: SqlInt64, y: SqlInt64): SqlInt64;
+};
 
 
 export interface __SqlInt64$views {
@@ -639,11 +679,7 @@ export interface SqlInt64$instance extends INullable$instance, System_Xml_Serial
 export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
 
 
-export class SqlMoney$instance {
-    constructor(value: int);
-    constructor(value: long);
-    constructor(value: decimal);
-    constructor(value: double);
+export interface SqlMoney$instance {
     readonly isNull: boolean;
     readonly value: decimal;
     compareTo(value: unknown): int;
@@ -666,24 +702,32 @@ export class SqlMoney$instance {
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlMoney;
-    static readonly zero: SqlMoney;
-    static readonly minValue: SqlMoney;
-    static readonly maxValue: SqlMoney;
-    static add(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static divide(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static equals(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static fromTdsValue(value: long): SqlMoney;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static greaterThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static lessThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static lessThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static multiply(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static notEquals(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static parse(s: string): SqlMoney;
-    static subtract(x: SqlMoney, y: SqlMoney): SqlMoney;
 }
+
+
+export const SqlMoney: {
+    new(value: int): SqlMoney$instance;
+    new(value: long): SqlMoney$instance;
+    new(value: decimal): SqlMoney$instance;
+    new(value: double): SqlMoney$instance;
+    readonly null_: SqlMoney;
+    readonly zero: SqlMoney;
+    readonly minValue: SqlMoney;
+    readonly maxValue: SqlMoney;
+    add(x: SqlMoney, y: SqlMoney): SqlMoney;
+    divide(x: SqlMoney, y: SqlMoney): SqlMoney;
+    equals(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    fromTdsValue(value: long): SqlMoney;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    greaterThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    lessThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    lessThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    multiply(x: SqlMoney, y: SqlMoney): SqlMoney;
+    notEquals(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    parse(s: string): SqlMoney;
+    subtract(x: SqlMoney, y: SqlMoney): SqlMoney;
+};
 
 
 export interface __SqlMoney$views {
@@ -702,9 +746,7 @@ export interface SqlMoney$instance extends INullable$instance, System_Xml_Serial
 export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
 
 
-export class SqlSingle$instance {
-    constructor(value: float);
-    constructor(value: double);
+export interface SqlSingle$instance {
     readonly isNull: boolean;
     readonly value: float;
     compareTo(value: unknown): int;
@@ -722,23 +764,29 @@ export class SqlSingle$instance {
     toSqlMoney(): SqlMoney;
     toSqlString(): SqlString;
     toString(): string;
-    static readonly null_: SqlSingle;
-    static readonly zero: SqlSingle;
-    static readonly minValue: SqlSingle;
-    static readonly maxValue: SqlSingle;
-    static add(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static divide(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static equals(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static greaterThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static lessThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static lessThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static multiply(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static notEquals(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static parse(s: string): SqlSingle;
-    static subtract(x: SqlSingle, y: SqlSingle): SqlSingle;
 }
+
+
+export const SqlSingle: {
+    new(value: float): SqlSingle$instance;
+    new(value: double): SqlSingle$instance;
+    readonly null_: SqlSingle;
+    readonly zero: SqlSingle;
+    readonly minValue: SqlSingle;
+    readonly maxValue: SqlSingle;
+    add(x: SqlSingle, y: SqlSingle): SqlSingle;
+    divide(x: SqlSingle, y: SqlSingle): SqlSingle;
+    equals(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    greaterThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    lessThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    lessThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    multiply(x: SqlSingle, y: SqlSingle): SqlSingle;
+    notEquals(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    parse(s: string): SqlSingle;
+    subtract(x: SqlSingle, y: SqlSingle): SqlSingle;
+};
 
 
 export interface __SqlSingle$views {
@@ -757,14 +805,7 @@ export interface SqlSingle$instance extends INullable$instance, System_Xml_Seria
 export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
 
 
-export class SqlString$instance {
-    constructor(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int, fUnicode: boolean);
-    constructor(lcid: int, compareOptions: SqlCompareOptions, data: byte[], fUnicode: boolean);
-    constructor(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int);
-    constructor(lcid: int, compareOptions: SqlCompareOptions, data: byte[]);
-    constructor(data: string, lcid: int, compareOptions: SqlCompareOptions);
-    constructor(data: string, lcid: int);
-    constructor(data: string);
+export interface SqlString$instance {
     readonly compareInfo: CompareInfo;
     readonly cultureInfo: CultureInfo;
     readonly isNull: boolean;
@@ -791,24 +832,35 @@ export class SqlString$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toString(): string;
-    static readonly null_: SqlString;
-    static readonly ignoreCase: int;
-    static readonly ignoreWidth: int;
-    static readonly ignoreNonSpace: int;
-    static readonly ignoreKanaType: int;
-    static readonly binarySort: int;
-    static readonly binarySort2: int;
-    static add(x: SqlString, y: SqlString): SqlString;
-    static compareOptionsFromSqlCompareOptions(compareOptions: SqlCompareOptions): CompareOptions;
-    static concat(x: SqlString, y: SqlString): SqlString;
-    static equals(x: SqlString, y: SqlString): SqlBoolean;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static greaterThan(x: SqlString, y: SqlString): SqlBoolean;
-    static greaterThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
-    static lessThan(x: SqlString, y: SqlString): SqlBoolean;
-    static lessThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
-    static notEquals(x: SqlString, y: SqlString): SqlBoolean;
 }
+
+
+export const SqlString: {
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int, fUnicode: boolean): SqlString$instance;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], fUnicode: boolean): SqlString$instance;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int): SqlString$instance;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[]): SqlString$instance;
+    new(data: string, lcid: int, compareOptions: SqlCompareOptions): SqlString$instance;
+    new(data: string, lcid: int): SqlString$instance;
+    new(data: string): SqlString$instance;
+    readonly null_: SqlString;
+    readonly ignoreCase: int;
+    readonly ignoreWidth: int;
+    readonly ignoreNonSpace: int;
+    readonly ignoreKanaType: int;
+    readonly binarySort: int;
+    readonly binarySort2: int;
+    add(x: SqlString, y: SqlString): SqlString;
+    compareOptionsFromSqlCompareOptions(compareOptions: SqlCompareOptions): CompareOptions;
+    concat(x: SqlString, y: SqlString): SqlString;
+    equals(x: SqlString, y: SqlString): SqlBoolean;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    greaterThan(x: SqlString, y: SqlString): SqlBoolean;
+    greaterThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
+    lessThan(x: SqlString, y: SqlString): SqlBoolean;
+    lessThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
+    notEquals(x: SqlString, y: SqlString): SqlBoolean;
+};
 
 
 export interface __SqlString$views {
@@ -827,12 +879,16 @@ export interface SqlString$instance extends INullable$instance, System_Xml_Seria
 export type SqlString = SqlString$instance & __SqlString$views;
 
 
-export class SqlAlreadyFilledException$instance extends SqlTypeException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, e: Exception);
+export interface SqlAlreadyFilledException$instance extends SqlTypeException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SqlAlreadyFilledException: {
+    new(): SqlAlreadyFilledException$instance;
+    new(message: string): SqlAlreadyFilledException$instance;
+    new(message: string, e: Exception): SqlAlreadyFilledException$instance;
+};
 
 
 export interface __SqlAlreadyFilledException$views {
@@ -842,11 +898,7 @@ export interface __SqlAlreadyFilledException$views {
 export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __SqlAlreadyFilledException$views;
 
 
-export class SqlBytes$instance {
-    constructor();
-    constructor(buffer: byte[]);
-    constructor(value: SqlBinary);
-    constructor(s: Stream);
+export interface SqlBytes$instance {
     readonly buffer: byte[];
     readonly isNull: boolean;
     item: byte;
@@ -860,9 +912,17 @@ export class SqlBytes$instance {
     setNull(): void;
     toSqlBinary(): SqlBinary;
     write(offset: long, buffer: byte[], offsetInBuffer: int, count: int): void;
-    static readonly null_: SqlBytes;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
+
+
+export const SqlBytes: {
+    new(): SqlBytes$instance;
+    new(buffer: byte[]): SqlBytes$instance;
+    new(value: SqlBinary): SqlBytes$instance;
+    new(s: Stream): SqlBytes$instance;
+    readonly null_: SqlBytes;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+};
 
 
 export interface __SqlBytes$views {
@@ -876,10 +936,7 @@ export interface SqlBytes$instance extends INullable$instance, System_Runtime_Se
 export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 
 
-export class SqlChars$instance {
-    constructor();
-    constructor(buffer: char[]);
-    constructor(value: SqlString);
+export interface SqlChars$instance {
     readonly buffer: char[];
     readonly isNull: boolean;
     item: char;
@@ -892,9 +949,16 @@ export class SqlChars$instance {
     setNull(): void;
     toSqlString(): SqlString;
     write(offset: long, buffer: char[], offsetInBuffer: int, count: int): void;
-    static readonly null_: SqlChars;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
+
+
+export const SqlChars: {
+    new(): SqlChars$instance;
+    new(buffer: char[]): SqlChars$instance;
+    new(value: SqlString): SqlChars$instance;
+    readonly null_: SqlChars;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+};
 
 
 export interface __SqlChars$views {
@@ -908,12 +972,16 @@ export interface SqlChars$instance extends INullable$instance, System_Runtime_Se
 export type SqlChars = SqlChars$instance & __SqlChars$views;
 
 
-export class SqlNotFilledException$instance extends SqlTypeException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, e: Exception);
+export interface SqlNotFilledException$instance extends SqlTypeException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SqlNotFilledException: {
+    new(): SqlNotFilledException$instance;
+    new(message: string): SqlNotFilledException$instance;
+    new(message: string, e: Exception): SqlNotFilledException$instance;
+};
 
 
 export interface __SqlNotFilledException$views {
@@ -923,12 +991,16 @@ export interface __SqlNotFilledException$views {
 export type SqlNotFilledException = SqlNotFilledException$instance & __SqlNotFilledException$views;
 
 
-export class SqlNullValueException$instance extends SqlTypeException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, e: Exception);
+export interface SqlNullValueException$instance extends SqlTypeException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SqlNullValueException: {
+    new(): SqlNullValueException$instance;
+    new(message: string): SqlNullValueException$instance;
+    new(message: string, e: Exception): SqlNullValueException$instance;
+};
 
 
 export interface __SqlNullValueException$views {
@@ -938,12 +1010,16 @@ export interface __SqlNullValueException$views {
 export type SqlNullValueException = SqlNullValueException$instance & __SqlNullValueException$views;
 
 
-export class SqlTruncateException$instance extends SqlTypeException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, e: Exception);
+export interface SqlTruncateException$instance extends SqlTypeException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SqlTruncateException: {
+    new(): SqlTruncateException$instance;
+    new(message: string): SqlTruncateException$instance;
+    new(message: string, e: Exception): SqlTruncateException$instance;
+};
 
 
 export interface __SqlTruncateException$views {
@@ -953,12 +1029,16 @@ export interface __SqlTruncateException$views {
 export type SqlTruncateException = SqlTruncateException$instance & __SqlTruncateException$views;
 
 
-export class SqlTypeException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, e: Exception);
+export interface SqlTypeException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SqlTypeException: {
+    new(): SqlTypeException$instance;
+    new(message: string): SqlTypeException$instance;
+    new(message: string, e: Exception): SqlTypeException$instance;
+};
 
 
 export interface __SqlTypeException$views {
@@ -968,16 +1048,20 @@ export interface __SqlTypeException$views {
 export type SqlTypeException = SqlTypeException$instance & __SqlTypeException$views;
 
 
-export class SqlXml$instance {
-    constructor();
-    constructor(value: XmlReader);
-    constructor(value: Stream);
+export interface SqlXml$instance {
     readonly isNull: boolean;
     readonly value: string;
     createReader(): XmlReader;
-    static readonly null_: SqlXml;
-    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
+
+
+export const SqlXml: {
+    new(): SqlXml$instance;
+    new(value: XmlReader): SqlXml$instance;
+    new(value: Stream): SqlXml$instance;
+    readonly null_: SqlXml;
+    getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+};
 
 
 export interface __SqlXml$views {

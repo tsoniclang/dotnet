@@ -69,35 +69,47 @@ export enum TarEntryType {
 }
 
 
-export class GnuTarEntry$instance extends PosixTarEntry$instance {
-    constructor(entryType: TarEntryType, entryName: string);
-    constructor(other: TarEntry);
+export interface GnuTarEntry$instance extends PosixTarEntry {
     accessTime: DateTimeOffset;
     changeTime: DateTimeOffset;
 }
 
 
+export const GnuTarEntry: {
+    new(entryType: TarEntryType, entryName: string): GnuTarEntry$instance;
+    new(other: TarEntry): GnuTarEntry$instance;
+};
+
+
 export type GnuTarEntry = GnuTarEntry$instance;
 
-export class PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry$instance {
-    constructor(globalExtendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>);
+export interface PaxGlobalExtendedAttributesTarEntry$instance extends PosixTarEntry {
     readonly globalExtendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
 }
 
 
+export const PaxGlobalExtendedAttributesTarEntry: {
+    new(globalExtendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>): PaxGlobalExtendedAttributesTarEntry$instance;
+};
+
+
 export type PaxGlobalExtendedAttributesTarEntry = PaxGlobalExtendedAttributesTarEntry$instance;
 
-export class PaxTarEntry$instance extends PosixTarEntry$instance {
-    constructor(entryType: TarEntryType, entryName: string);
-    constructor(entryType: TarEntryType, entryName: string, extendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>);
-    constructor(other: TarEntry);
+export interface PaxTarEntry$instance extends PosixTarEntry {
     readonly extendedAttributes: IReadOnlyDictionary_2<CLROf<string>, CLROf<string>>;
 }
 
 
+export const PaxTarEntry: {
+    new(entryType: TarEntryType, entryName: string): PaxTarEntry$instance;
+    new(entryType: TarEntryType, entryName: string, extendedAttributes: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>): PaxTarEntry$instance;
+    new(other: TarEntry): PaxTarEntry$instance;
+};
+
+
 export type PaxTarEntry = PaxTarEntry$instance;
 
-export abstract class PosixTarEntry$instance extends TarEntry$instance {
+export interface PosixTarEntry$instance extends TarEntry {
     deviceMajor: int;
     deviceMinor: int;
     groupName: string;
@@ -105,9 +117,13 @@ export abstract class PosixTarEntry$instance extends TarEntry$instance {
 }
 
 
+export const PosixTarEntry: {
+};
+
+
 export type PosixTarEntry = PosixTarEntry$instance;
 
-export abstract class TarEntry$instance {
+export interface TarEntry$instance {
     readonly checksum: int;
     readonly dataOffset: long;
     dataStream: Stream;
@@ -126,15 +142,23 @@ export abstract class TarEntry$instance {
 }
 
 
+export const TarEntry: {
+};
+
+
 export type TarEntry = TarEntry$instance;
 
-export class TarReader$instance {
-    constructor(archiveStream: Stream, leaveOpen: boolean);
+export interface TarReader$instance {
     dispose(): void;
     disposeAsync(): ValueTask;
     getNextEntry(copyData?: boolean): TarEntry;
     getNextEntryAsync(copyData?: boolean, cancellationToken?: CancellationToken): ValueTask_1<TarEntry>;
 }
+
+
+export const TarReader: {
+    new(archiveStream: Stream, leaveOpen: boolean): TarReader$instance;
+};
 
 
 export interface __TarReader$views {
@@ -147,10 +171,7 @@ export interface TarReader$instance extends System_Internal.IAsyncDisposable$ins
 export type TarReader = TarReader$instance & __TarReader$views;
 
 
-export class TarWriter$instance {
-    constructor(archiveStream: Stream);
-    constructor(archiveStream: Stream, leaveOpen: boolean);
-    constructor(archiveStream: Stream, format: TarEntryFormat, leaveOpen: boolean);
+export interface TarWriter$instance {
     readonly format: TarEntryFormat;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -159,6 +180,13 @@ export class TarWriter$instance {
     writeEntryAsync(fileName: string, entryName: string, cancellationToken?: CancellationToken): Task;
     writeEntryAsync(entry: TarEntry, cancellationToken?: CancellationToken): Task;
 }
+
+
+export const TarWriter: {
+    new(archiveStream: Stream): TarWriter$instance;
+    new(archiveStream: Stream, leaveOpen: boolean): TarWriter$instance;
+    new(archiveStream: Stream, format: TarEntryFormat, leaveOpen: boolean): TarWriter$instance;
+};
 
 
 export interface __TarWriter$views {
@@ -171,18 +199,26 @@ export interface TarWriter$instance extends System_Internal.IAsyncDisposable$ins
 export type TarWriter = TarWriter$instance & __TarWriter$views;
 
 
-export class UstarTarEntry$instance extends PosixTarEntry$instance {
-    constructor(entryType: TarEntryType, entryName: string);
-    constructor(other: TarEntry);
+export interface UstarTarEntry$instance extends PosixTarEntry {
 }
+
+
+export const UstarTarEntry: {
+    new(entryType: TarEntryType, entryName: string): UstarTarEntry$instance;
+    new(other: TarEntry): UstarTarEntry$instance;
+};
 
 
 export type UstarTarEntry = UstarTarEntry$instance;
 
-export class V7TarEntry$instance extends TarEntry$instance {
-    constructor(entryType: TarEntryType, entryName: string);
-    constructor(other: TarEntry);
+export interface V7TarEntry$instance extends TarEntry {
 }
+
+
+export const V7TarEntry: {
+    new(entryType: TarEntryType, entryName: string): V7TarEntry$instance;
+    new(other: TarEntry): V7TarEntry$instance;
+};
 
 
 export type V7TarEntry = V7TarEntry$instance;

@@ -63,61 +63,91 @@ export enum SetIteratorResult {
 }
 
 
-export class AncestorDocOrderIterator$instance {
+export interface AncestorDocOrderIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     moveNext(): boolean;
 }
+
+
+export const AncestorDocOrderIterator: {
+    new(): AncestorDocOrderIterator$instance;
+};
 
 
 export type AncestorDocOrderIterator = AncestorDocOrderIterator$instance;
 
-export class AncestorIterator$instance {
+export interface AncestorIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     moveNext(): boolean;
 }
 
 
+export const AncestorIterator: {
+    new(): AncestorIterator$instance;
+};
+
+
 export type AncestorIterator = AncestorIterator$instance;
 
-export class AttributeContentIterator$instance {
+export interface AttributeContentIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator): void;
     moveNext(): boolean;
 }
+
+
+export const AttributeContentIterator: {
+    new(): AttributeContentIterator$instance;
+};
 
 
 export type AttributeContentIterator = AttributeContentIterator$instance;
 
-export class AttributeIterator$instance {
+export interface AttributeIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator): void;
     moveNext(): boolean;
 }
+
+
+export const AttributeIterator: {
+    new(): AttributeIterator$instance;
+};
 
 
 export type AttributeIterator = AttributeIterator$instance;
 
-export class ContentIterator$instance {
+export interface ContentIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator): void;
     moveNext(): boolean;
 }
 
 
+export const ContentIterator: {
+    new(): ContentIterator$instance;
+};
+
+
 export type ContentIterator = ContentIterator$instance;
 
-export class ContentMergeIterator$instance {
+export interface ContentMergeIterator$instance {
     readonly current: XPathNavigator;
     create(filter: XmlNavigatorFilter): void;
     moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
+export const ContentMergeIterator: {
+    new(): ContentMergeIterator$instance;
+};
+
+
 export type ContentMergeIterator = ContentMergeIterator$instance;
 
-export class DecimalAggregator$instance {
+export interface DecimalAggregator$instance {
     readonly averageResult: decimal;
     readonly isEmpty: boolean;
     readonly maximumResult: decimal;
@@ -131,45 +161,70 @@ export class DecimalAggregator$instance {
 }
 
 
+export const DecimalAggregator: {
+    new(): DecimalAggregator$instance;
+};
+
+
 export type DecimalAggregator = DecimalAggregator$instance;
 
-export class DescendantIterator$instance {
+export interface DescendantIterator$instance {
     readonly current: XPathNavigator;
     create(input: XPathNavigator, filter: XmlNavigatorFilter, orSelf: boolean): void;
     moveNext(): boolean;
 }
 
 
+export const DescendantIterator: {
+    new(): DescendantIterator$instance;
+};
+
+
 export type DescendantIterator = DescendantIterator$instance;
 
-export class DescendantMergeIterator$instance {
+export interface DescendantMergeIterator$instance {
     readonly current: XPathNavigator;
     create(filter: XmlNavigatorFilter, orSelf: boolean): void;
     moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
+export const DescendantMergeIterator: {
+    new(): DescendantMergeIterator$instance;
+};
+
+
 export type DescendantMergeIterator = DescendantMergeIterator$instance;
 
-export class DifferenceIterator$instance {
+export interface DifferenceIterator$instance {
     readonly current: XPathNavigator;
     create(runtime: XmlQueryRuntime): void;
     moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
+export const DifferenceIterator: {
+    new(): DifferenceIterator$instance;
+};
+
+
 export type DifferenceIterator = DifferenceIterator$instance;
 
-export class DodSequenceMerge$instance {
+export interface DodSequenceMerge$instance {
     addSequence(sequence: IList_1<XPathNavigator>): void;
     create(runtime: XmlQueryRuntime): void;
     mergeSequences(): IList_1<XPathNavigator>;
 }
 
 
+export const DodSequenceMerge: {
+    new(): DodSequenceMerge$instance;
+};
+
+
 export type DodSequenceMerge = DodSequenceMerge$instance;
 
-export class DoubleAggregator$instance {
+export interface DoubleAggregator$instance {
     readonly averageResult: double;
     readonly isEmpty: boolean;
     readonly maximumResult: double;
@@ -183,45 +238,70 @@ export class DoubleAggregator$instance {
 }
 
 
+export const DoubleAggregator: {
+    new(): DoubleAggregator$instance;
+};
+
+
 export type DoubleAggregator = DoubleAggregator$instance;
 
-export class ElementContentIterator$instance {
+export interface ElementContentIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, localName: string, ns: string): void;
     moveNext(): boolean;
 }
 
 
+export const ElementContentIterator: {
+    new(): ElementContentIterator$instance;
+};
+
+
 export type ElementContentIterator = ElementContentIterator$instance;
 
-export class FollowingSiblingIterator$instance {
+export interface FollowingSiblingIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
 
 
+export const FollowingSiblingIterator: {
+    new(): FollowingSiblingIterator$instance;
+};
+
+
 export type FollowingSiblingIterator = FollowingSiblingIterator$instance;
 
-export class FollowingSiblingMergeIterator$instance {
+export interface FollowingSiblingMergeIterator$instance {
     readonly current: XPathNavigator;
     create(filter: XmlNavigatorFilter): void;
     moveNext(navigator: XPathNavigator): IteratorResult;
 }
 
 
+export const FollowingSiblingMergeIterator: {
+    new(): FollowingSiblingMergeIterator$instance;
+};
+
+
 export type FollowingSiblingMergeIterator = FollowingSiblingMergeIterator$instance;
 
-export class IdIterator$instance {
+export interface IdIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, value: string): void;
     moveNext(): boolean;
 }
 
 
+export const IdIterator: {
+    new(): IdIterator$instance;
+};
+
+
 export type IdIterator = IdIterator$instance;
 
-export class Int32Aggregator$instance {
+export interface Int32Aggregator$instance {
     readonly averageResult: int;
     readonly isEmpty: boolean;
     readonly maximumResult: int;
@@ -235,9 +315,14 @@ export class Int32Aggregator$instance {
 }
 
 
+export const Int32Aggregator: {
+    new(): Int32Aggregator$instance;
+};
+
+
 export type Int32Aggregator = Int32Aggregator$instance;
 
-export class Int64Aggregator$instance {
+export interface Int64Aggregator$instance {
     readonly averageResult: long;
     readonly isEmpty: boolean;
     readonly maximumResult: long;
@@ -251,81 +336,126 @@ export class Int64Aggregator$instance {
 }
 
 
+export const Int64Aggregator: {
+    new(): Int64Aggregator$instance;
+};
+
+
 export type Int64Aggregator = Int64Aggregator$instance;
 
-export class IntersectIterator$instance {
+export interface IntersectIterator$instance {
     readonly current: XPathNavigator;
     create(runtime: XmlQueryRuntime): void;
     moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
+export const IntersectIterator: {
+    new(): IntersectIterator$instance;
+};
+
+
 export type IntersectIterator = IntersectIterator$instance;
 
-export class NamespaceIterator$instance {
+export interface NamespaceIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator): void;
     moveNext(): boolean;
 }
 
 
+export const NamespaceIterator: {
+    new(): NamespaceIterator$instance;
+};
+
+
 export type NamespaceIterator = NamespaceIterator$instance;
 
-export class NodeKindContentIterator$instance {
+export interface NodeKindContentIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, nodeType: XPathNodeType): void;
     moveNext(): boolean;
 }
 
 
+export const NodeKindContentIterator: {
+    new(): NodeKindContentIterator$instance;
+};
+
+
 export type NodeKindContentIterator = NodeKindContentIterator$instance;
 
-export class NodeRangeIterator$instance {
+export interface NodeRangeIterator$instance {
     readonly current: XPathNavigator;
     create(start: XPathNavigator, filter: XmlNavigatorFilter, end: XPathNavigator): void;
     moveNext(): boolean;
 }
 
 
+export const NodeRangeIterator: {
+    new(): NodeRangeIterator$instance;
+};
+
+
 export type NodeRangeIterator = NodeRangeIterator$instance;
 
-export class ParentIterator$instance {
+export interface ParentIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
+
+
+export const ParentIterator: {
+    new(): ParentIterator$instance;
+};
 
 
 export type ParentIterator = ParentIterator$instance;
 
-export class PrecedingIterator$instance {
+export interface PrecedingIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
+
+
+export const PrecedingIterator: {
+    new(): PrecedingIterator$instance;
+};
 
 
 export type PrecedingIterator = PrecedingIterator$instance;
 
-export class PrecedingSiblingDocOrderIterator$instance {
+export interface PrecedingSiblingDocOrderIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
+
+
+export const PrecedingSiblingDocOrderIterator: {
+    new(): PrecedingSiblingDocOrderIterator$instance;
+};
 
 
 export type PrecedingSiblingDocOrderIterator = PrecedingSiblingDocOrderIterator$instance;
 
-export class PrecedingSiblingIterator$instance {
+export interface PrecedingSiblingIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
 
 
+export const PrecedingSiblingIterator: {
+    new(): PrecedingSiblingIterator$instance;
+};
+
+
 export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 
-export class StringConcat$instance {
+export interface StringConcat$instance {
     delimiter: string;
     clear(): void;
     concat(value: string): void;
@@ -333,18 +463,28 @@ export class StringConcat$instance {
 }
 
 
+export const StringConcat: {
+    new(): StringConcat$instance;
+};
+
+
 export type StringConcat = StringConcat$instance;
 
-export class UnionIterator$instance {
+export interface UnionIterator$instance {
     readonly current: XPathNavigator;
     create(runtime: XmlQueryRuntime): void;
     moveNext(nestedNavigator: XPathNavigator): SetIteratorResult;
 }
 
 
+export const UnionIterator: {
+    new(): UnionIterator$instance;
+};
+
+
 export type UnionIterator = UnionIterator$instance;
 
-export class XmlSortKeyAccumulator$instance {
+export interface XmlSortKeyAccumulator$instance {
     readonly keys: ClrArray;
     addDateTimeSortKey(collation: XmlCollation, value: DateTime): void;
     addDecimalSortKey(collation: XmlCollation, value: decimal): void;
@@ -358,82 +498,126 @@ export class XmlSortKeyAccumulator$instance {
 }
 
 
+export const XmlSortKeyAccumulator: {
+    new(): XmlSortKeyAccumulator$instance;
+};
+
+
 export type XmlSortKeyAccumulator = XmlSortKeyAccumulator$instance;
 
-export class XPathFollowingIterator$instance {
+export interface XPathFollowingIterator$instance {
     readonly current: XPathNavigator;
     create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
 
 
+export const XPathFollowingIterator: {
+    new(): XPathFollowingIterator$instance;
+};
+
+
 export type XPathFollowingIterator = XPathFollowingIterator$instance;
 
-export class XPathFollowingMergeIterator$instance {
+export interface XPathFollowingMergeIterator$instance {
     readonly current: XPathNavigator;
     create(filter: XmlNavigatorFilter): void;
     moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
+export const XPathFollowingMergeIterator: {
+    new(): XPathFollowingMergeIterator$instance;
+};
+
+
 export type XPathFollowingMergeIterator = XPathFollowingMergeIterator$instance;
 
-export class XPathPrecedingDocOrderIterator$instance {
+export interface XPathPrecedingDocOrderIterator$instance {
     readonly current: XPathNavigator;
     create(input: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
 
 
+export const XPathPrecedingDocOrderIterator: {
+    new(): XPathPrecedingDocOrderIterator$instance;
+};
+
+
 export type XPathPrecedingDocOrderIterator = XPathPrecedingDocOrderIterator$instance;
 
-export class XPathPrecedingIterator$instance {
+export interface XPathPrecedingIterator$instance {
     readonly current: XPathNavigator;
     create(context: XPathNavigator, filter: XmlNavigatorFilter): void;
     moveNext(): boolean;
 }
 
 
+export const XPathPrecedingIterator: {
+    new(): XPathPrecedingIterator$instance;
+};
+
+
 export type XPathPrecedingIterator = XPathPrecedingIterator$instance;
 
-export class XPathPrecedingMergeIterator$instance {
+export interface XPathPrecedingMergeIterator$instance {
     readonly current: XPathNavigator;
     create(filter: XmlNavigatorFilter): void;
     moveNext(input: XPathNavigator): IteratorResult;
 }
 
 
+export const XPathPrecedingMergeIterator: {
+    new(): XPathPrecedingMergeIterator$instance;
+};
+
+
 export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 
-export class XmlCollation$instance {
+export interface XmlCollation$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
+export const XmlCollation: {
+    new(): XmlCollation$instance;
+};
+
+
 export type XmlCollation = XmlCollation$instance;
 
-export class XmlILIndex$instance {
+export interface XmlILIndex$instance {
     add(key: string, navigator: XPathNavigator): void;
     lookup(key: string): XmlQueryNodeSequence;
 }
 
 
+export const XmlILIndex: {
+    new(): XmlILIndex$instance;
+};
+
+
 export type XmlILIndex = XmlILIndex$instance;
 
-export abstract class XmlNavigatorFilter$instance {
-    abstract isFiltered(navigator: XPathNavigator): boolean;
-    abstract moveToContent(navigator: XPathNavigator): boolean;
-    abstract moveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
-    abstract moveToFollowingSibling(navigator: XPathNavigator): boolean;
-    abstract moveToNextContent(navigator: XPathNavigator): boolean;
-    abstract moveToPreviousSibling(navigator: XPathNavigator): boolean;
+export interface XmlNavigatorFilter$instance {
+    isFiltered(navigator: XPathNavigator): boolean;
+    moveToContent(navigator: XPathNavigator): boolean;
+    moveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
+    moveToFollowingSibling(navigator: XPathNavigator): boolean;
+    moveToNextContent(navigator: XPathNavigator): boolean;
+    moveToPreviousSibling(navigator: XPathNavigator): boolean;
 }
+
+
+export const XmlNavigatorFilter: {
+};
 
 
 export type XmlNavigatorFilter = XmlNavigatorFilter$instance;
 
-export class XmlQueryContext$instance {
+export interface XmlQueryContext$instance {
     readonly defaultDataSource: XPathNavigator;
     readonly defaultNameTable: XmlNameTable;
     readonly queryNameTable: XmlNameTable;
@@ -446,12 +630,14 @@ export class XmlQueryContext$instance {
 }
 
 
+export const XmlQueryContext: {
+    new(): XmlQueryContext$instance;
+};
+
+
 export type XmlQueryContext = XmlQueryContext$instance;
 
-export class XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<XPathItem> {
-    constructor();
-    constructor(capacity: int);
-    constructor(item: XPathItem);
+export interface XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<XPathItem> {
     add(value: XPathItem): void;
     add(value: unknown): int;
     addClone(item: XPathItem): void;
@@ -471,6 +657,13 @@ export class XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<X
 }
 
 
+export const XmlQueryItemSequence: {
+    new(): XmlQueryItemSequence$instance;
+    new(capacity: int): XmlQueryItemSequence$instance;
+    new(item: XPathItem): XmlQueryItemSequence$instance;
+};
+
+
 export interface __XmlQueryItemSequence$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<XPathItem>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<XPathItem>;
@@ -483,12 +676,7 @@ export interface __XmlQueryItemSequence$views {
 export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryItemSequence$views;
 
 
-export class XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
-    constructor();
-    constructor(capacity: int);
-    constructor(list: IList_1<XPathNavigator>);
-    constructor(array: XPathNavigator[], size: int);
-    constructor(navigator: XPathNavigator);
+export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
     isDocOrderDistinct: boolean;
     add(value: XPathNavigator): void;
     add(value: unknown): int;
@@ -510,6 +698,15 @@ export class XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<X
 }
 
 
+export const XmlQueryNodeSequence: {
+    new(): XmlQueryNodeSequence$instance;
+    new(capacity: int): XmlQueryNodeSequence$instance;
+    new(list: IList_1<XPathNavigator>): XmlQueryNodeSequence$instance;
+    new(array: XPathNavigator[], size: int): XmlQueryNodeSequence$instance;
+    new(navigator: XPathNavigator): XmlQueryNodeSequence$instance;
+};
+
+
 export interface __XmlQueryNodeSequence$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<XPathNavigator>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<XPathNavigator>;
@@ -522,7 +719,7 @@ export interface __XmlQueryNodeSequence$views {
 export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNodeSequence$views;
 
 
-export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$instance {
+export interface XmlQueryOutput$instance extends XmlWriter {
     readonly writeState: WriteState;
     readonly xmlLang: string;
     readonly xmlSpace: XmlSpace;
@@ -598,6 +795,11 @@ export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$insta
 }
 
 
+export const XmlQueryOutput: {
+    new(): XmlQueryOutput$instance;
+};
+
+
 export interface __XmlQueryOutput$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -606,7 +808,7 @@ export interface __XmlQueryOutput$views {
 export type XmlQueryOutput = XmlQueryOutput$instance & __XmlQueryOutput$views;
 
 
-export class XmlQueryRuntime$instance {
+export interface XmlQueryRuntime$instance {
     readonly externalContext: XmlQueryContext;
     readonly nameTable: XmlNameTable;
     readonly output: XmlQueryOutput;
@@ -647,17 +849,18 @@ export class XmlQueryRuntime$instance {
     startSequenceConstruction(output: { value: ref<XmlQueryOutput> }): void;
     textRtfConstruction(text: string, baseUri: string): XPathNavigator;
     throwException(text: string): void;
-    static onCurrentNodeChanged(currentNode: XPathNavigator): int;
 }
+
+
+export const XmlQueryRuntime: {
+    new(): XmlQueryRuntime$instance;
+    onCurrentNodeChanged(currentNode: XPathNavigator): int;
+};
 
 
 export type XmlQueryRuntime = XmlQueryRuntime$instance;
 
-export class XmlQuerySequence_1$instance<T> {
-    constructor();
-    constructor(capacity: int);
-    constructor(array: T[], size: int);
-    constructor(value: T);
+export interface XmlQuerySequence_1$instance<T> {
     readonly count: int;
     item: T;
     add(value: T): void;
@@ -667,10 +870,18 @@ export class XmlQuerySequence_1$instance<T> {
     getEnumerator(): IEnumerator_1<T>;
     indexOf(value: T): int;
     sortByKeys(keys: ClrArray): void;
-    static readonly empty: unknown;
-    static createOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
-    static createOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 }
+
+
+export const XmlQuerySequence_1: {
+    new<T>(): XmlQuerySequence_1$instance<T>;
+    new<T>(capacity: int): XmlQuerySequence_1$instance<T>;
+    new<T>(array: T[], size: int): XmlQuerySequence_1$instance<T>;
+    new<T>(value: T): XmlQuerySequence_1$instance<T>;
+    readonly empty: unknown;
+    createOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
+    createOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
+};
 
 
 export interface __XmlQuerySequence_1$views<T> {
@@ -685,7 +896,7 @@ export interface __XmlQuerySequence_1$views<T> {
 export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T>;
 
 
-export class XsltLibrary$instance {
+export interface XsltLibrary$instance {
     checkScriptNamespace(nsUri: string): int;
     elementAvailable(name: XmlQualifiedName): boolean;
     equalityOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
@@ -700,6 +911,11 @@ export class XsltLibrary$instance {
     registerDecimalFormatter(formatPicture: string, infinitySymbol: string, nanSymbol: string, characters: string): double;
     relationalOperator(opCode: double, left: IList_1<XPathItem>, right: IList_1<XPathItem>): boolean;
 }
+
+
+export const XsltLibrary: {
+    new(): XsltLibrary$instance;
+};
 
 
 export type XsltLibrary = XsltLibrary$instance;

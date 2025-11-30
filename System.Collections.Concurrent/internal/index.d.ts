@@ -64,7 +64,7 @@ export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1
 
 export type IProducerConsumerCollection_1<T> = IProducerConsumerCollection_1$instance<T>;
 
-export class ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+export interface ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
     readonly dictionary: ConcurrentDictionary_2<TKey, TValue>;
     item: TValue;
     containsKey(key: TAlternateKey): boolean;
@@ -76,13 +76,14 @@ export class ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAl
 }
 
 
+export const ConcurrentDictionary_2_AlternateLookup_1: {
+    new<TKey, TValue, TAlternateKey>(): ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
+};
+
+
 export type ConcurrentDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = ConcurrentDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export class BlockingCollection_1$instance<T> {
-    constructor();
-    constructor(boundedCapacity: int);
-    constructor(collection: IProducerConsumerCollection_1<T>, boundedCapacity: int);
-    constructor(collection: IProducerConsumerCollection_1<T>);
+export interface BlockingCollection_1$instance<T> {
     readonly boundedCapacity: int;
     readonly count: int;
     readonly isAddingCompleted: boolean;
@@ -105,19 +106,27 @@ export class BlockingCollection_1$instance<T> {
     tryTake(item: { value: ref<T> }, timeout: TimeSpan): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    static addToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    static addToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
-    static takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
-    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
-    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
-    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
 }
+
+
+export const BlockingCollection_1: {
+    new<T>(): BlockingCollection_1$instance<T>;
+    new<T>(boundedCapacity: int): BlockingCollection_1$instance<T>;
+    new<T>(collection: IProducerConsumerCollection_1<T>, boundedCapacity: int): BlockingCollection_1$instance<T>;
+    new<T>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1$instance<T>;
+    addToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    addToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
+    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+};
 
 
 export interface __BlockingCollection_1$views<T> {
@@ -133,9 +142,7 @@ export interface BlockingCollection_1$instance<T> extends System_Collections_Gen
 export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
 
 
-export class ConcurrentBag_1$instance<T> {
-    constructor();
-    constructor(collection: IEnumerable_1<T>);
+export interface ConcurrentBag_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     add(item: T): void;
@@ -146,6 +153,12 @@ export class ConcurrentBag_1$instance<T> {
     tryPeek(result: { value: ref<T> }): boolean;
     tryTake(result: { value: ref<T> }): boolean;
 }
+
+
+export const ConcurrentBag_1: {
+    new<T>(): ConcurrentBag_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): ConcurrentBag_1$instance<T>;
+};
 
 
 export interface __ConcurrentBag_1$views<T> {
@@ -159,14 +172,7 @@ export interface __ConcurrentBag_1$views<T> {
 export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1$views<T>;
 
 
-export class ConcurrentDictionary_2$instance<TKey, TValue> {
-    constructor();
-    constructor(concurrencyLevel: int, capacity: int);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>);
-    constructor(comparer: IEqualityComparer_1<TKey>);
-    constructor(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
-    constructor(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>);
-    constructor(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey>);
+export interface ConcurrentDictionary_2$instance<TKey, TValue> {
     readonly comparer: IEqualityComparer_1<TKey>;
     readonly count: int;
     readonly isEmpty: boolean;
@@ -193,6 +199,17 @@ export class ConcurrentDictionary_2$instance<TKey, TValue> {
 }
 
 
+export const ConcurrentDictionary_2: {
+    new<TKey, TValue>(): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, capacity: int): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2$instance<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2$instance<TKey, TValue>;
+};
+
+
 export interface __ConcurrentDictionary_2$views<TKey, TValue> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
@@ -207,9 +224,7 @@ export interface __ConcurrentDictionary_2$views<TKey, TValue> {
 export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instance<TKey, TValue> & __ConcurrentDictionary_2$views<TKey, TValue>;
 
 
-export class ConcurrentQueue_1$instance<T> {
-    constructor();
-    constructor(collection: IEnumerable_1<T>);
+export interface ConcurrentQueue_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     clear(): void;
@@ -220,6 +235,12 @@ export class ConcurrentQueue_1$instance<T> {
     tryDequeue(result: { value: ref<T> }): boolean;
     tryPeek(result: { value: ref<T> }): boolean;
 }
+
+
+export const ConcurrentQueue_1: {
+    new<T>(): ConcurrentQueue_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): ConcurrentQueue_1$instance<T>;
+};
 
 
 export interface __ConcurrentQueue_1$views<T> {
@@ -233,9 +254,7 @@ export interface __ConcurrentQueue_1$views<T> {
 export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQueue_1$views<T>;
 
 
-export class ConcurrentStack_1$instance<T> {
-    constructor();
-    constructor(collection: IEnumerable_1<T>);
+export interface ConcurrentStack_1$instance<T> {
     readonly count: int;
     readonly isEmpty: boolean;
     clear(): void;
@@ -252,6 +271,12 @@ export class ConcurrentStack_1$instance<T> {
 }
 
 
+export const ConcurrentStack_1: {
+    new<T>(): ConcurrentStack_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): ConcurrentStack_1$instance<T>;
+};
+
+
 export interface __ConcurrentStack_1$views<T> {
     As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -263,26 +288,34 @@ export interface __ConcurrentStack_1$views<T> {
 export type ConcurrentStack_1<T> = ConcurrentStack_1$instance<T> & __ConcurrentStack_1$views<T>;
 
 
-export abstract class OrderablePartitioner_1$instance<TSource> extends Partitioner_1$instance<TSource> {
+export interface OrderablePartitioner_1$instance<TSource> extends Partitioner_1<TSource> {
     readonly keysNormalized: boolean;
     readonly keysOrderedAcrossPartitions: boolean;
     readonly keysOrderedInEachPartition: boolean;
     getDynamicPartitions(): IEnumerable_1<TSource>;
     getDynamicPartitions(): IEnumerable_1<TSource>;
     getOrderableDynamicPartitions(): IEnumerable_1<KeyValuePair_2<CLROf<long>, TSource>>;
-    abstract getOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<CLROf<long>, TSource>>>;
+    getOrderablePartitions(partitionCount: int): IList_1<IEnumerator_1<KeyValuePair_2<CLROf<long>, TSource>>>;
     getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
     getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
 }
+
+
+export const OrderablePartitioner_1: {
+};
 
 
 export type OrderablePartitioner_1<TSource> = OrderablePartitioner_1$instance<TSource>;
 
-export abstract class Partitioner_1$instance<TSource> {
+export interface Partitioner_1$instance<TSource> {
     readonly supportsDynamicPartitions: boolean;
     getDynamicPartitions(): IEnumerable_1<TSource>;
-    abstract getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
+    getPartitions(partitionCount: int): IList_1<IEnumerator_1<TSource>>;
 }
+
+
+export const Partitioner_1: {
+};
 
 
 export type Partitioner_1<TSource> = Partitioner_1$instance<TSource>;

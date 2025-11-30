@@ -17,7 +17,7 @@ import type { Boolean as ClrBoolean, Int32, Int64, Nullable_1, Object as ClrObje
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { DataContract$instance as DataContract } from './internal/index.js';
-export { DataContractSet$instance as DataContractSet } from './internal/index.js';
-export { DataMember$instance as DataMember } from './internal/index.js';
-export { XmlDataContract$instance as XmlDataContract } from './internal/index.js';
+export { DataContract as DataContract } from './internal/index.js';
+export { DataContractSet as DataContractSet } from './internal/index.js';
+export { DataMember as DataMember } from './internal/index.js';
+export { XmlDataContract as XmlDataContract } from './internal/index.js';

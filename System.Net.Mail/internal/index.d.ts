@@ -113,20 +113,27 @@ export enum SmtpStatusCode {
 }
 
 
-export class AlternateView$instance extends AttachmentBase$instance {
-    constructor(fileName: string);
-    constructor(fileName: string, mediaType: string);
-    constructor(fileName: string, contentType: ContentType);
-    constructor(contentStream: Stream);
-    constructor(contentStream: Stream, mediaType: string);
-    constructor(contentStream: Stream, contentType: ContentType);
+export type SendCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
+
+
+export interface AlternateView$instance extends AttachmentBase$instance {
     baseUri: Uri;
     readonly linkedResources: LinkedResourceCollection;
     dispose(): void;
-    static createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
-    static createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
-    static createAlternateViewFromString(content: string): AlternateView;
 }
+
+
+export const AlternateView: {
+    new(fileName: string): AlternateView$instance;
+    new(fileName: string, mediaType: string): AlternateView$instance;
+    new(fileName: string, contentType: ContentType): AlternateView$instance;
+    new(contentStream: Stream): AlternateView$instance;
+    new(contentStream: Stream, mediaType: string): AlternateView$instance;
+    new(contentStream: Stream, contentType: ContentType): AlternateView$instance;
+    createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
+    createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    createAlternateViewFromString(content: string): AlternateView;
+};
 
 
 export interface __AlternateView$views {
@@ -136,7 +143,7 @@ export interface __AlternateView$views {
 export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 
-export class AlternateViewCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView> {
+export interface AlternateViewCollection$instance extends Collection_1<AlternateView> {
     add(item: AlternateView): void;
     add(value: unknown): int;
     clear(): void;
@@ -156,6 +163,11 @@ export class AlternateViewCollection$instance extends System_Collections_ObjectM
 }
 
 
+export const AlternateViewCollection: {
+    new(): AlternateViewCollection$instance;
+};
+
+
 export interface __AlternateViewCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<AlternateView>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<AlternateView>;
@@ -172,21 +184,25 @@ export interface AlternateViewCollection$instance extends System_Internal.IDispo
 export type AlternateViewCollection = AlternateViewCollection$instance & __AlternateViewCollection$views;
 
 
-export class Attachment$instance extends AttachmentBase$instance {
-    constructor(fileName: string);
-    constructor(fileName: string, mediaType: string);
-    constructor(fileName: string, contentType: ContentType);
-    constructor(contentStream: Stream, name: string);
-    constructor(contentStream: Stream, name: string, mediaType: string);
-    constructor(contentStream: Stream, contentType: ContentType);
+export interface Attachment$instance extends AttachmentBase$instance {
     readonly contentDisposition: ContentDisposition;
     name: string;
     nameEncoding: Encoding;
     dispose(): void;
-    static createAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    static createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    static createAttachmentFromString(content: string, name: string): Attachment;
 }
+
+
+export const Attachment: {
+    new(fileName: string): Attachment$instance;
+    new(fileName: string, mediaType: string): Attachment$instance;
+    new(fileName: string, contentType: ContentType): Attachment$instance;
+    new(contentStream: Stream, name: string): Attachment$instance;
+    new(contentStream: Stream, name: string, mediaType: string): Attachment$instance;
+    new(contentStream: Stream, contentType: ContentType): Attachment$instance;
+    createAttachmentFromString(content: string, contentType: ContentType): Attachment;
+    createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    createAttachmentFromString(content: string, name: string): Attachment;
+};
 
 
 export interface __Attachment$views {
@@ -196,13 +212,17 @@ export interface __Attachment$views {
 export type Attachment = Attachment$instance & __Attachment$views;
 
 
-export abstract class AttachmentBase$instance {
+export interface AttachmentBase$instance {
     contentId: string;
     readonly contentStream: Stream;
     contentType: ContentType;
     transferEncoding: TransferEncoding;
     dispose(): void;
 }
+
+
+export const AttachmentBase: {
+};
 
 
 export interface __AttachmentBase$views {
@@ -214,7 +234,7 @@ export interface AttachmentBase$instance extends System_Internal.IDisposable$ins
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
-export class AttachmentCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment> {
+export interface AttachmentCollection$instance extends Collection_1<Attachment> {
     add(item: Attachment): void;
     add(value: unknown): int;
     clear(): void;
@@ -234,6 +254,11 @@ export class AttachmentCollection$instance extends System_Collections_ObjectMode
 }
 
 
+export const AttachmentCollection: {
+    new(): AttachmentCollection$instance;
+};
+
+
 export interface __AttachmentCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<Attachment>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Attachment>;
@@ -250,19 +275,23 @@ export interface AttachmentCollection$instance extends System_Internal.IDisposab
 export type AttachmentCollection = AttachmentCollection$instance & __AttachmentCollection$views;
 
 
-export class LinkedResource$instance extends AttachmentBase$instance {
-    constructor(fileName: string);
-    constructor(fileName: string, mediaType: string);
-    constructor(fileName: string, contentType: ContentType);
-    constructor(contentStream: Stream);
-    constructor(contentStream: Stream, mediaType: string);
-    constructor(contentStream: Stream, contentType: ContentType);
+export interface LinkedResource$instance extends AttachmentBase$instance {
     contentLink: Uri;
     dispose(): void;
-    static createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
-    static createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
-    static createLinkedResourceFromString(content: string): LinkedResource;
 }
+
+
+export const LinkedResource: {
+    new(fileName: string): LinkedResource$instance;
+    new(fileName: string, mediaType: string): LinkedResource$instance;
+    new(fileName: string, contentType: ContentType): LinkedResource$instance;
+    new(contentStream: Stream): LinkedResource$instance;
+    new(contentStream: Stream, mediaType: string): LinkedResource$instance;
+    new(contentStream: Stream, contentType: ContentType): LinkedResource$instance;
+    createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
+    createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    createLinkedResourceFromString(content: string): LinkedResource;
+};
 
 
 export interface __LinkedResource$views {
@@ -272,7 +301,7 @@ export interface __LinkedResource$views {
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 
-export class LinkedResourceCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource> {
+export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> {
     add(item: LinkedResource): void;
     add(value: unknown): int;
     clear(): void;
@@ -292,6 +321,11 @@ export class LinkedResourceCollection$instance extends System_Collections_Object
 }
 
 
+export const LinkedResourceCollection: {
+    new(): LinkedResourceCollection$instance;
+};
+
+
 export interface __LinkedResourceCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<LinkedResource>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<LinkedResource>;
@@ -308,10 +342,7 @@ export interface LinkedResourceCollection$instance extends System_Internal.IDisp
 export type LinkedResourceCollection = LinkedResourceCollection$instance & __LinkedResourceCollection$views;
 
 
-export class MailAddress$instance {
-    constructor(address: string);
-    constructor(address: string, displayName: string);
-    constructor(address: string, displayName: string, displayNameEncoding: Encoding);
+export interface MailAddress$instance {
     readonly address: string;
     readonly displayName: string;
     readonly host: string;
@@ -319,16 +350,22 @@ export class MailAddress$instance {
     equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static tryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
-    static tryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
-    static tryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
 }
+
+
+export const MailAddress: {
+    new(address: string): MailAddress$instance;
+    new(address: string, displayName: string): MailAddress$instance;
+    new(address: string, displayName: string, displayNameEncoding: Encoding): MailAddress$instance;
+    tryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
+    tryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
+    tryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
+};
 
 
 export type MailAddress = MailAddress$instance;
 
-export class MailAddressCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress> {
-    constructor();
+export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
     add(item: MailAddress): void;
     add(value: unknown): int;
     clear(): void;
@@ -348,6 +385,11 @@ export class MailAddressCollection$instance extends System_Collections_ObjectMod
 }
 
 
+export const MailAddressCollection: {
+    new(): MailAddressCollection$instance;
+};
+
+
 export interface __MailAddressCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<MailAddress>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<MailAddress>;
@@ -361,11 +403,7 @@ export interface __MailAddressCollection$views {
 export type MailAddressCollection = MailAddressCollection$instance & __MailAddressCollection$views;
 
 
-export class MailMessage$instance {
-    constructor();
-    constructor(from_: string, to: string);
-    constructor(from_: string, to: string, subject: string, body: string);
-    constructor(from_: MailAddress, to: MailAddress);
+export interface MailMessage$instance {
     readonly alternateViews: AlternateViewCollection;
     readonly attachments: AttachmentCollection;
     readonly bcc: MailAddressCollection;
@@ -389,6 +427,14 @@ export class MailMessage$instance {
 }
 
 
+export const MailMessage: {
+    new(): MailMessage$instance;
+    new(from_: string, to: string): MailMessage$instance;
+    new(from_: string, to: string, subject: string, body: string): MailMessage$instance;
+    new(from_: MailAddress, to: MailAddress): MailMessage$instance;
+};
+
+
 export interface __MailMessage$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -398,28 +444,7 @@ export interface MailMessage$instance extends System_Internal.IDisposable$instan
 export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 
-export class SendCompletedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
-}
-
-
-export interface __SendCompletedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type SendCompletedEventHandler = SendCompletedEventHandler$instance & __SendCompletedEventHandler$views;
-
-
-export class SmtpClient$instance {
-    constructor();
-    constructor(host: string);
-    constructor(host: string, port: int);
+export interface SmtpClient$instance {
     readonly clientCertificates: X509CertificateCollection;
     credentials: ICredentialsByHost;
     deliveryFormat: SmtpDeliveryFormat;
@@ -445,6 +470,13 @@ export class SmtpClient$instance {
 }
 
 
+export const SmtpClient: {
+    new(): SmtpClient$instance;
+    new(host: string): SmtpClient$instance;
+    new(host: string, port: int): SmtpClient$instance;
+};
+
+
 export interface __SmtpClient$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -454,15 +486,19 @@ export interface SmtpClient$instance extends System_Internal.IDisposable$instanc
 export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
 
-export class SmtpException$instance extends System_Internal.Exception$instance {
-    constructor(statusCode: SmtpStatusCode);
-    constructor(statusCode: SmtpStatusCode, message: string);
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SmtpException$instance extends Exception {
     statusCode: SmtpStatusCode;
     getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
+
+
+export const SmtpException: {
+    new(statusCode: SmtpStatusCode): SmtpException$instance;
+    new(statusCode: SmtpStatusCode, message: string): SmtpException$instance;
+    new(): SmtpException$instance;
+    new(message: string): SmtpException$instance;
+    new(message: string, innerException: Exception): SmtpException$instance;
+};
 
 
 export interface __SmtpException$views {
@@ -472,16 +508,20 @@ export interface __SmtpException$views {
 export type SmtpException = SmtpException$instance & __SmtpException$views;
 
 
-export class SmtpFailedRecipientException$instance extends SmtpException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(statusCode: SmtpStatusCode, failedRecipient: string);
-    constructor(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string);
-    constructor(message: string, failedRecipient: string, innerException: Exception);
+export interface SmtpFailedRecipientException$instance extends SmtpException$instance {
     readonly failedRecipient: string;
     getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
+
+
+export const SmtpFailedRecipientException: {
+    new(): SmtpFailedRecipientException$instance;
+    new(message: string): SmtpFailedRecipientException$instance;
+    new(message: string, innerException: Exception): SmtpFailedRecipientException$instance;
+    new(statusCode: SmtpStatusCode, failedRecipient: string): SmtpFailedRecipientException$instance;
+    new(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string): SmtpFailedRecipientException$instance;
+    new(message: string, failedRecipient: string, innerException: Exception): SmtpFailedRecipientException$instance;
+};
 
 
 export interface __SmtpFailedRecipientException$views {
@@ -491,14 +531,18 @@ export interface __SmtpFailedRecipientException$views {
 export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance & __SmtpFailedRecipientException$views;
 
 
-export class SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, innerExceptions: SmtpFailedRecipientException[]);
+export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipientException$instance {
     readonly innerExceptions: SmtpFailedRecipientException[];
     getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
 }
+
+
+export const SmtpFailedRecipientsException: {
+    new(): SmtpFailedRecipientsException$instance;
+    new(message: string): SmtpFailedRecipientsException$instance;
+    new(message: string, innerException: Exception): SmtpFailedRecipientsException$instance;
+    new(message: string, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException$instance;
+};
 
 
 export interface __SmtpFailedRecipientsException$views {

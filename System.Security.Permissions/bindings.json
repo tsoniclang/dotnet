@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.PermissionState::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67110741,
+          "metadataToken": 67110740,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.PermissionState::NoneSystem.Security.Permissions.PermissionState",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67110742,
+          "metadataToken": 67110741,
           "normalizedSignature": "None|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.PermissionState::UnrestrictedSystem.Security.Permissions.PermissionState",
           "clrName": "Unrestricted",
           "tsEmitName": "unrestricted",
-          "metadataToken": 67110743,
+          "metadataToken": 67110742,
           "normalizedSignature": "Unrestricted|System.Security.Permissions.PermissionState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -586,7 +586,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.PermissionState",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110741
+            "metadataToken": 67110740
           }
         },
         {
@@ -596,7 +596,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.PermissionState",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110742
+            "metadataToken": 67110741
           }
         },
         {
@@ -606,7 +606,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.PermissionState",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110743
+            "metadataToken": 67110742
           }
         }
       ]
@@ -624,7 +624,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67110744,
+          "metadataToken": 67110743,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -635,7 +635,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::AssertSystem.Security.Permissions.SecurityAction",
           "clrName": "Assert",
           "tsEmitName": "assert",
-          "metadataToken": 67110745,
+          "metadataToken": 67110744,
           "normalizedSignature": "Assert|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -646,7 +646,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::DemandSystem.Security.Permissions.SecurityAction",
           "clrName": "Demand",
           "tsEmitName": "demand",
-          "metadataToken": 67110746,
+          "metadataToken": 67110745,
           "normalizedSignature": "Demand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -657,7 +657,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::DenySystem.Security.Permissions.SecurityAction",
           "clrName": "Deny",
           "tsEmitName": "deny",
-          "metadataToken": 67110747,
+          "metadataToken": 67110746,
           "normalizedSignature": "Deny|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -668,7 +668,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::InheritanceDemandSystem.Security.Permissions.SecurityAction",
           "clrName": "InheritanceDemand",
           "tsEmitName": "inheritanceDemand",
-          "metadataToken": 67110748,
+          "metadataToken": 67110747,
           "normalizedSignature": "InheritanceDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -679,7 +679,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::LinkDemandSystem.Security.Permissions.SecurityAction",
           "clrName": "LinkDemand",
           "tsEmitName": "linkDemand",
-          "metadataToken": 67110749,
+          "metadataToken": 67110748,
           "normalizedSignature": "LinkDemand|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -690,7 +690,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::PermitOnlySystem.Security.Permissions.SecurityAction",
           "clrName": "PermitOnly",
           "tsEmitName": "permitOnly",
-          "metadataToken": 67110750,
+          "metadataToken": 67110749,
           "normalizedSignature": "PermitOnly|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -701,7 +701,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestMinimumSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestMinimum",
           "tsEmitName": "requestMinimum",
-          "metadataToken": 67110751,
+          "metadataToken": 67110750,
           "normalizedSignature": "RequestMinimum|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -712,7 +712,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestOptionalSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestOptional",
           "tsEmitName": "requestOptional",
-          "metadataToken": 67110752,
+          "metadataToken": 67110751,
           "normalizedSignature": "RequestOptional|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -723,7 +723,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAction::RequestRefuseSystem.Security.Permissions.SecurityAction",
           "clrName": "RequestRefuse",
           "tsEmitName": "requestRefuse",
-          "metadataToken": 67110753,
+          "metadataToken": 67110752,
           "normalizedSignature": "RequestRefuse|System.Security.Permissions.SecurityAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1273,7 +1273,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110744
+            "metadataToken": 67110743
           }
         },
         {
@@ -1283,7 +1283,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110745
+            "metadataToken": 67110744
           }
         },
         {
@@ -1293,7 +1293,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110746
+            "metadataToken": 67110745
           }
         },
         {
@@ -1303,7 +1303,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110747
+            "metadataToken": 67110746
           }
         },
         {
@@ -1313,7 +1313,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110748
+            "metadataToken": 67110747
           }
         },
         {
@@ -1323,7 +1323,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110749
+            "metadataToken": 67110748
           }
         },
         {
@@ -1333,7 +1333,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110750
+            "metadataToken": 67110749
           }
         },
         {
@@ -1343,7 +1343,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110751
+            "metadataToken": 67110750
           }
         },
         {
@@ -1353,7 +1353,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110752
+            "metadataToken": 67110751
           }
         },
         {
@@ -1363,7 +1363,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAction",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110753
+            "metadataToken": 67110752
           }
         }
       ]
@@ -1381,7 +1381,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67110771,
+          "metadataToken": 67110770,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1392,7 +1392,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::AllFlagsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "AllFlags",
           "tsEmitName": "allFlags",
-          "metadataToken": 67110772,
+          "metadataToken": 67110771,
           "normalizedSignature": "AllFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1403,7 +1403,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::AssertionSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Assertion",
           "tsEmitName": "assertion",
-          "metadataToken": 67110773,
+          "metadataToken": 67110772,
           "normalizedSignature": "Assertion|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1414,7 +1414,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::BindingRedirectsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "BindingRedirects",
           "tsEmitName": "bindingRedirects",
-          "metadataToken": 67110774,
+          "metadataToken": 67110773,
           "normalizedSignature": "BindingRedirects|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1425,7 +1425,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlAppDomainSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlAppDomain",
           "tsEmitName": "controlAppDomain",
-          "metadataToken": 67110775,
+          "metadataToken": 67110774,
           "normalizedSignature": "ControlAppDomain|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1436,7 +1436,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlDomainPolicySystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlDomainPolicy",
           "tsEmitName": "controlDomainPolicy",
-          "metadataToken": 67110776,
+          "metadataToken": 67110775,
           "normalizedSignature": "ControlDomainPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1447,7 +1447,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlEvidenceSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlEvidence",
           "tsEmitName": "controlEvidence",
-          "metadataToken": 67110777,
+          "metadataToken": 67110776,
           "normalizedSignature": "ControlEvidence|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1458,7 +1458,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlPolicySystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlPolicy",
           "tsEmitName": "controlPolicy",
-          "metadataToken": 67110778,
+          "metadataToken": 67110777,
           "normalizedSignature": "ControlPolicy|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1469,7 +1469,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlPrincipalSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlPrincipal",
           "tsEmitName": "controlPrincipal",
-          "metadataToken": 67110779,
+          "metadataToken": 67110778,
           "normalizedSignature": "ControlPrincipal|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1480,7 +1480,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ControlThreadSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "ControlThread",
           "tsEmitName": "controlThread",
-          "metadataToken": 67110780,
+          "metadataToken": 67110779,
           "normalizedSignature": "ControlThread|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1491,7 +1491,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::ExecutionSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Execution",
           "tsEmitName": "execution",
-          "metadataToken": 67110781,
+          "metadataToken": 67110780,
           "normalizedSignature": "Execution|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1502,7 +1502,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::InfrastructureSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Infrastructure",
           "tsEmitName": "infrastructure",
-          "metadataToken": 67110782,
+          "metadataToken": 67110781,
           "normalizedSignature": "Infrastructure|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1513,7 +1513,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::NoFlagsSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "NoFlags",
           "tsEmitName": "noFlags",
-          "metadataToken": 67110783,
+          "metadataToken": 67110782,
           "normalizedSignature": "NoFlags|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1524,7 +1524,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::RemotingConfigurationSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "RemotingConfiguration",
           "tsEmitName": "remotingConfiguration",
-          "metadataToken": 67110784,
+          "metadataToken": 67110783,
           "normalizedSignature": "RemotingConfiguration|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1535,7 +1535,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::SerializationFormatterSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "SerializationFormatter",
           "tsEmitName": "serializationFormatter",
-          "metadataToken": 67110785,
+          "metadataToken": 67110784,
           "normalizedSignature": "SerializationFormatter|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1546,7 +1546,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::SkipVerificationSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "SkipVerification",
           "tsEmitName": "skipVerification",
-          "metadataToken": 67110786,
+          "metadataToken": 67110785,
           "normalizedSignature": "SkipVerification|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1557,7 +1557,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionFlag::UnmanagedCodeSystem.Security.Permissions.SecurityPermissionFlag",
           "clrName": "UnmanagedCode",
           "tsEmitName": "unmanagedCode",
-          "metadataToken": 67110787,
+          "metadataToken": 67110786,
           "normalizedSignature": "UnmanagedCode|System.Security.Permissions.SecurityPermissionFlag|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2107,7 +2107,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110771
+            "metadataToken": 67110770
           }
         },
         {
@@ -2117,7 +2117,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110772
+            "metadataToken": 67110771
           }
         },
         {
@@ -2127,7 +2127,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110773
+            "metadataToken": 67110772
           }
         },
         {
@@ -2137,7 +2137,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110774
+            "metadataToken": 67110773
           }
         },
         {
@@ -2147,7 +2147,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110775
+            "metadataToken": 67110774
           }
         },
         {
@@ -2157,7 +2157,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110776
+            "metadataToken": 67110775
           }
         },
         {
@@ -2167,7 +2167,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110777
+            "metadataToken": 67110776
           }
         },
         {
@@ -2177,7 +2177,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110778
+            "metadataToken": 67110777
           }
         },
         {
@@ -2187,7 +2187,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110779
+            "metadataToken": 67110778
           }
         },
         {
@@ -2197,7 +2197,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110780
+            "metadataToken": 67110779
           }
         },
         {
@@ -2207,7 +2207,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110781
+            "metadataToken": 67110780
           }
         },
         {
@@ -2217,7 +2217,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110782
+            "metadataToken": 67110781
           }
         },
         {
@@ -2227,7 +2227,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110783
+            "metadataToken": 67110782
           }
         },
         {
@@ -2237,7 +2237,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110784
+            "metadataToken": 67110783
           }
         },
         {
@@ -2247,7 +2247,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110785
+            "metadataToken": 67110784
           }
         },
         {
@@ -2257,7 +2257,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110786
+            "metadataToken": 67110785
           }
         },
         {
@@ -2267,7 +2267,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionFlag",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110787
+            "metadataToken": 67110786
           }
         }
       ]
@@ -2453,7 +2453,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878141
+            "metadataToken": 385878142
           }
         },
         {
@@ -2463,7 +2463,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878142
+            "metadataToken": 385878143
           }
         },
         {
@@ -2505,7 +2505,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::Action:System.Security.Permissions.SecurityAction",
           "clrName": "Action",
           "tsEmitName": "action",
-          "metadataToken": 385878141,
+          "metadataToken": 385878142,
           "canonicalSignature": ":System.Security.Permissions.SecurityAction",
           "normalizedSignature": "Action|:System.Security.Permissions.SecurityAction|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2519,7 +2519,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityAttribute::Unrestricted:System.Boolean",
           "clrName": "Unrestricted",
           "tsEmitName": "unrestricted",
-          "metadataToken": 385878142,
+          "metadataToken": 385878143,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Unrestricted|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2703,7 +2703,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878141
+            "metadataToken": 385878142
           }
         },
         {
@@ -2713,7 +2713,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878142
+            "metadataToken": 385878143
           }
         },
         {
@@ -2755,7 +2755,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Assertion:System.Boolean",
           "clrName": "Assertion",
           "tsEmitName": "assertion",
-          "metadataToken": 385878143,
+          "metadataToken": 385878144,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Assertion|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2769,7 +2769,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::BindingRedirects:System.Boolean",
           "clrName": "BindingRedirects",
           "tsEmitName": "bindingRedirects",
-          "metadataToken": 385878144,
+          "metadataToken": 385878145,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "BindingRedirects|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2783,7 +2783,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlAppDomain:System.Boolean",
           "clrName": "ControlAppDomain",
           "tsEmitName": "controlAppDomain",
-          "metadataToken": 385878145,
+          "metadataToken": 385878146,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlAppDomain|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2797,7 +2797,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlDomainPolicy:System.Boolean",
           "clrName": "ControlDomainPolicy",
           "tsEmitName": "controlDomainPolicy",
-          "metadataToken": 385878146,
+          "metadataToken": 385878147,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlDomainPolicy|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2811,7 +2811,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlEvidence:System.Boolean",
           "clrName": "ControlEvidence",
           "tsEmitName": "controlEvidence",
-          "metadataToken": 385878147,
+          "metadataToken": 385878148,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlEvidence|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2825,7 +2825,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlPolicy:System.Boolean",
           "clrName": "ControlPolicy",
           "tsEmitName": "controlPolicy",
-          "metadataToken": 385878148,
+          "metadataToken": 385878149,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlPolicy|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2839,7 +2839,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlPrincipal:System.Boolean",
           "clrName": "ControlPrincipal",
           "tsEmitName": "controlPrincipal",
-          "metadataToken": 385878149,
+          "metadataToken": 385878150,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlPrincipal|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2853,7 +2853,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::ControlThread:System.Boolean",
           "clrName": "ControlThread",
           "tsEmitName": "controlThread",
-          "metadataToken": 385878150,
+          "metadataToken": 385878151,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "ControlThread|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2867,7 +2867,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Execution:System.Boolean",
           "clrName": "Execution",
           "tsEmitName": "execution",
-          "metadataToken": 385878151,
+          "metadataToken": 385878152,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Execution|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2881,7 +2881,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Flags:System.Security.Permissions.SecurityPermissionFlag",
           "clrName": "Flags",
           "tsEmitName": "flags",
-          "metadataToken": 385878152,
+          "metadataToken": 385878153,
           "canonicalSignature": ":System.Security.Permissions.SecurityPermissionFlag",
           "normalizedSignature": "Flags|:System.Security.Permissions.SecurityPermissionFlag|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2895,7 +2895,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::Infrastructure:System.Boolean",
           "clrName": "Infrastructure",
           "tsEmitName": "infrastructure",
-          "metadataToken": 385878153,
+          "metadataToken": 385878154,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Infrastructure|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2909,7 +2909,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::RemotingConfiguration:System.Boolean",
           "clrName": "RemotingConfiguration",
           "tsEmitName": "remotingConfiguration",
-          "metadataToken": 385878154,
+          "metadataToken": 385878155,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "RemotingConfiguration|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2923,7 +2923,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::SerializationFormatter:System.Boolean",
           "clrName": "SerializationFormatter",
           "tsEmitName": "serializationFormatter",
-          "metadataToken": 385878155,
+          "metadataToken": 385878156,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SerializationFormatter|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2937,7 +2937,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::SkipVerification:System.Boolean",
           "clrName": "SkipVerification",
           "tsEmitName": "skipVerification",
-          "metadataToken": 385878156,
+          "metadataToken": 385878157,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "SkipVerification|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2951,7 +2951,7 @@
           "stableId": "System.Private.CoreLib:System.Security.Permissions.SecurityPermissionAttribute::UnmanagedCode:System.Boolean",
           "clrName": "UnmanagedCode",
           "tsEmitName": "unmanagedCode",
-          "metadataToken": 385878157,
+          "metadataToken": 385878158,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "UnmanagedCode|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -3146,7 +3146,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878143
+            "metadataToken": 385878144
           }
         },
         {
@@ -3156,7 +3156,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878144
+            "metadataToken": 385878145
           }
         },
         {
@@ -3166,7 +3166,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878145
+            "metadataToken": 385878146
           }
         },
         {
@@ -3176,7 +3176,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878146
+            "metadataToken": 385878147
           }
         },
         {
@@ -3186,7 +3186,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878147
+            "metadataToken": 385878148
           }
         },
         {
@@ -3196,7 +3196,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878148
+            "metadataToken": 385878149
           }
         },
         {
@@ -3206,7 +3206,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878149
+            "metadataToken": 385878150
           }
         },
         {
@@ -3216,7 +3216,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878150
+            "metadataToken": 385878151
           }
         },
         {
@@ -3226,7 +3226,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878151
+            "metadataToken": 385878152
           }
         },
         {
@@ -3236,7 +3236,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878152
+            "metadataToken": 385878153
           }
         },
         {
@@ -3246,7 +3246,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878153
+            "metadataToken": 385878154
           }
         },
         {
@@ -3256,7 +3256,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878154
+            "metadataToken": 385878155
           }
         },
         {
@@ -3266,7 +3266,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878155
+            "metadataToken": 385878156
           }
         },
         {
@@ -3276,7 +3276,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878156
+            "metadataToken": 385878157
           }
         },
         {
@@ -3286,7 +3286,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityPermissionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878157
+            "metadataToken": 385878158
           }
         },
         {
@@ -3296,7 +3296,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878141
+            "metadataToken": 385878142
           }
         },
         {
@@ -3306,7 +3306,7 @@
           "target": {
             "declaringClrType": "System.Security.Permissions.SecurityAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878142
+            "metadataToken": 385878143
           }
         },
         {

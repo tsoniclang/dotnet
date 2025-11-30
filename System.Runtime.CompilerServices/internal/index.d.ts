@@ -93,6 +93,15 @@ export enum UnsafeAccessorKind {
 }
 
 
+export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = (key: TKey) => TValue;
+
+
+export type RuntimeHelpers_CleanupCode = (userData: unknown, exceptionThrown: boolean) => void;
+
+
+export type RuntimeHelpers_TryCode = (userData: unknown) => void;
+
+
 export interface IAsyncStateMachine$instance {
     moveNext(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
@@ -140,18 +149,23 @@ export interface ITuple$instance {
 
 export type ITuple = ITuple$instance;
 
-export class AsyncIteratorMethodBuilder$instance {
+export interface AsyncIteratorMethodBuilder$instance {
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     complete(): void;
     moveNext<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create(): AsyncIteratorMethodBuilder;
 }
+
+
+export const AsyncIteratorMethodBuilder: {
+    new(): AsyncIteratorMethodBuilder$instance;
+    create(): AsyncIteratorMethodBuilder;
+};
 
 
 export type AsyncIteratorMethodBuilder = AsyncIteratorMethodBuilder$instance;
 
-export class AsyncTaskMethodBuilder$instance {
+export interface AsyncTaskMethodBuilder$instance {
     readonly task: Task;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -159,13 +173,18 @@ export class AsyncTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create(): AsyncTaskMethodBuilder;
 }
+
+
+export const AsyncTaskMethodBuilder: {
+    new(): AsyncTaskMethodBuilder$instance;
+    create(): AsyncTaskMethodBuilder;
+};
 
 
 export type AsyncTaskMethodBuilder = AsyncTaskMethodBuilder$instance;
 
-export class AsyncTaskMethodBuilder_1$instance<TResult> {
+export interface AsyncTaskMethodBuilder_1$instance<TResult> {
     readonly task: Task_1<TResult>;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -173,13 +192,18 @@ export class AsyncTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create<TResult>(): AsyncTaskMethodBuilder_1<TResult>;
 }
+
+
+export const AsyncTaskMethodBuilder_1: {
+    new<TResult>(): AsyncTaskMethodBuilder_1$instance<TResult>;
+    create<TResult>(): AsyncTaskMethodBuilder_1<TResult>;
+};
 
 
 export type AsyncTaskMethodBuilder_1<TResult> = AsyncTaskMethodBuilder_1$instance<TResult>;
 
-export class AsyncValueTaskMethodBuilder$instance {
+export interface AsyncValueTaskMethodBuilder$instance {
     readonly task: ValueTask;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -187,13 +211,18 @@ export class AsyncValueTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create(): AsyncValueTaskMethodBuilder;
 }
+
+
+export const AsyncValueTaskMethodBuilder: {
+    new(): AsyncValueTaskMethodBuilder$instance;
+    create(): AsyncValueTaskMethodBuilder;
+};
 
 
 export type AsyncValueTaskMethodBuilder = AsyncValueTaskMethodBuilder$instance;
 
-export class AsyncValueTaskMethodBuilder_1$instance<TResult> {
+export interface AsyncValueTaskMethodBuilder_1$instance<TResult> {
     readonly task: ValueTask_1<TResult>;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -201,70 +230,110 @@ export class AsyncValueTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create<TResult>(): AsyncValueTaskMethodBuilder_1<TResult>;
 }
+
+
+export const AsyncValueTaskMethodBuilder_1: {
+    new<TResult>(): AsyncValueTaskMethodBuilder_1$instance<TResult>;
+    create<TResult>(): AsyncValueTaskMethodBuilder_1<TResult>;
+};
 
 
 export type AsyncValueTaskMethodBuilder_1<TResult> = AsyncValueTaskMethodBuilder_1$instance<TResult>;
 
-export class AsyncVoidMethodBuilder$instance {
+export interface AsyncVoidMethodBuilder$instance {
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     setException(exception: Exception): void;
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create(): AsyncVoidMethodBuilder;
 }
+
+
+export const AsyncVoidMethodBuilder: {
+    new(): AsyncVoidMethodBuilder$instance;
+    create(): AsyncVoidMethodBuilder;
+};
 
 
 export type AsyncVoidMethodBuilder = AsyncVoidMethodBuilder$instance;
 
-export class ConfiguredAsyncDisposable$instance {
+export interface ConfiguredAsyncDisposable$instance {
     disposeAsync(): ConfiguredValueTaskAwaitable;
 }
 
 
+export const ConfiguredAsyncDisposable: {
+    new(): ConfiguredAsyncDisposable$instance;
+};
+
+
 export type ConfiguredAsyncDisposable = ConfiguredAsyncDisposable$instance;
 
-export class ConfiguredCancelableAsyncEnumerable_1$instance<T> {
+export interface ConfiguredCancelableAsyncEnumerable_1$instance<T> {
     configureAwait(continueOnCapturedContext: boolean): ConfiguredCancelableAsyncEnumerable_1<T>;
     getAsyncEnumerator(): ConfiguredCancelableAsyncEnumerable_1_Enumerator<T>;
     withCancellation(cancellationToken: CancellationToken): ConfiguredCancelableAsyncEnumerable_1<T>;
 }
 
 
+export const ConfiguredCancelableAsyncEnumerable_1: {
+    new<T>(): ConfiguredCancelableAsyncEnumerable_1$instance<T>;
+};
+
+
 export type ConfiguredCancelableAsyncEnumerable_1<T> = ConfiguredCancelableAsyncEnumerable_1$instance<T>;
 
-export class ConfiguredCancelableAsyncEnumerable_1_Enumerator$instance<T> {
+export interface ConfiguredCancelableAsyncEnumerable_1_Enumerator$instance<T> {
     readonly current: T;
     disposeAsync(): ConfiguredValueTaskAwaitable;
     moveNextAsync(): ConfiguredValueTaskAwaitable_1<CLROf<boolean>>;
 }
 
 
+export const ConfiguredCancelableAsyncEnumerable_1_Enumerator: {
+    new<T>(): ConfiguredCancelableAsyncEnumerable_1_Enumerator$instance<T>;
+};
+
+
 export type ConfiguredCancelableAsyncEnumerable_1_Enumerator<T> = ConfiguredCancelableAsyncEnumerable_1_Enumerator$instance<T>;
 
-export class ConfiguredTaskAwaitable$instance {
+export interface ConfiguredTaskAwaitable$instance {
     getAwaiter(): ConfiguredTaskAwaitable_ConfiguredTaskAwaiter;
 }
 
 
+export const ConfiguredTaskAwaitable: {
+    new(): ConfiguredTaskAwaitable$instance;
+};
+
+
 export type ConfiguredTaskAwaitable = ConfiguredTaskAwaitable$instance;
 
-export class ConfiguredTaskAwaitable_1$instance<TResult> {
+export interface ConfiguredTaskAwaitable_1$instance<TResult> {
     getAwaiter(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult>;
 }
 
 
+export const ConfiguredTaskAwaitable_1: {
+    new<TResult>(): ConfiguredTaskAwaitable_1$instance<TResult>;
+};
+
+
 export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
 
-export class ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> implements ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter: {
+    new<TResult>(): ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult>;
+};
 
 
 export interface __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult> {
@@ -276,12 +345,17 @@ export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResul
 export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> & __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult>;
 
 
-export class ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance implements ICriticalNotifyCompletion {
+export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ConfiguredTaskAwaitable_ConfiguredTaskAwaiter: {
+    new(): ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance;
+};
 
 
 export interface __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views {
@@ -293,26 +367,41 @@ export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends 
 export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance & __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views;
 
 
-export class ConfiguredValueTaskAwaitable$instance {
+export interface ConfiguredValueTaskAwaitable$instance {
     getAwaiter(): ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter;
 }
 
 
+export const ConfiguredValueTaskAwaitable: {
+    new(): ConfiguredValueTaskAwaitable$instance;
+};
+
+
 export type ConfiguredValueTaskAwaitable = ConfiguredValueTaskAwaitable$instance;
 
-export class ConfiguredValueTaskAwaitable_1$instance<TResult> {
+export interface ConfiguredValueTaskAwaitable_1$instance<TResult> {
     getAwaiter(): ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult>;
 }
 
 
+export const ConfiguredValueTaskAwaitable_1: {
+    new<TResult>(): ConfiguredValueTaskAwaitable_1$instance<TResult>;
+};
+
+
 export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
-export class ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> implements ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter: {
+    new<TResult>(): ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult>;
+};
 
 
 export interface __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult> {
@@ -324,12 +413,17 @@ export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$insta
 export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> = ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> & __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult>;
 
 
-export class ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance implements ICriticalNotifyCompletion {
+export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter: {
+    new(): ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance;
+};
 
 
 export interface __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views {
@@ -341,10 +435,7 @@ export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instanc
 export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance & __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views;
 
 
-export class DefaultInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int);
-    constructor(literalLength: int, formattedCount: int, provider: IFormatProvider);
-    constructor(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>);
+export interface DefaultInterpolatedStringHandler$instance {
     readonly text: ReadOnlySpan_1<CLROf<char>>;
     appendFormatted<T>(value: T): void;
     appendFormatted<T>(value: T, format: string): void;
@@ -362,99 +453,181 @@ export class DefaultInterpolatedStringHandler$instance {
 }
 
 
+export const DefaultInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int): DefaultInterpolatedStringHandler$instance;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider): DefaultInterpolatedStringHandler$instance;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>): DefaultInterpolatedStringHandler$instance;
+};
+
+
 export type DefaultInterpolatedStringHandler = DefaultInterpolatedStringHandler$instance;
 
-export class InlineArray10_1$instance<T> {
+export interface InlineArray10_1$instance<T> {
 }
+
+
+export const InlineArray10_1: {
+    new<T>(): InlineArray10_1$instance<T>;
+};
 
 
 export type InlineArray10_1<T> = InlineArray10_1$instance<T>;
 
-export class InlineArray11_1$instance<T> {
+export interface InlineArray11_1$instance<T> {
 }
+
+
+export const InlineArray11_1: {
+    new<T>(): InlineArray11_1$instance<T>;
+};
 
 
 export type InlineArray11_1<T> = InlineArray11_1$instance<T>;
 
-export class InlineArray12_1$instance<T> {
+export interface InlineArray12_1$instance<T> {
 }
+
+
+export const InlineArray12_1: {
+    new<T>(): InlineArray12_1$instance<T>;
+};
 
 
 export type InlineArray12_1<T> = InlineArray12_1$instance<T>;
 
-export class InlineArray13_1$instance<T> {
+export interface InlineArray13_1$instance<T> {
 }
+
+
+export const InlineArray13_1: {
+    new<T>(): InlineArray13_1$instance<T>;
+};
 
 
 export type InlineArray13_1<T> = InlineArray13_1$instance<T>;
 
-export class InlineArray14_1$instance<T> {
+export interface InlineArray14_1$instance<T> {
 }
+
+
+export const InlineArray14_1: {
+    new<T>(): InlineArray14_1$instance<T>;
+};
 
 
 export type InlineArray14_1<T> = InlineArray14_1$instance<T>;
 
-export class InlineArray15_1$instance<T> {
+export interface InlineArray15_1$instance<T> {
 }
+
+
+export const InlineArray15_1: {
+    new<T>(): InlineArray15_1$instance<T>;
+};
 
 
 export type InlineArray15_1<T> = InlineArray15_1$instance<T>;
 
-export class InlineArray16_1$instance<T> {
+export interface InlineArray16_1$instance<T> {
 }
+
+
+export const InlineArray16_1: {
+    new<T>(): InlineArray16_1$instance<T>;
+};
 
 
 export type InlineArray16_1<T> = InlineArray16_1$instance<T>;
 
-export class InlineArray2_1$instance<T> {
+export interface InlineArray2_1$instance<T> {
 }
+
+
+export const InlineArray2_1: {
+    new<T>(): InlineArray2_1$instance<T>;
+};
 
 
 export type InlineArray2_1<T> = InlineArray2_1$instance<T>;
 
-export class InlineArray3_1$instance<T> {
+export interface InlineArray3_1$instance<T> {
 }
+
+
+export const InlineArray3_1: {
+    new<T>(): InlineArray3_1$instance<T>;
+};
 
 
 export type InlineArray3_1<T> = InlineArray3_1$instance<T>;
 
-export class InlineArray4_1$instance<T> {
+export interface InlineArray4_1$instance<T> {
 }
+
+
+export const InlineArray4_1: {
+    new<T>(): InlineArray4_1$instance<T>;
+};
 
 
 export type InlineArray4_1<T> = InlineArray4_1$instance<T>;
 
-export class InlineArray5_1$instance<T> {
+export interface InlineArray5_1$instance<T> {
 }
+
+
+export const InlineArray5_1: {
+    new<T>(): InlineArray5_1$instance<T>;
+};
 
 
 export type InlineArray5_1<T> = InlineArray5_1$instance<T>;
 
-export class InlineArray6_1$instance<T> {
+export interface InlineArray6_1$instance<T> {
 }
+
+
+export const InlineArray6_1: {
+    new<T>(): InlineArray6_1$instance<T>;
+};
 
 
 export type InlineArray6_1<T> = InlineArray6_1$instance<T>;
 
-export class InlineArray7_1$instance<T> {
+export interface InlineArray7_1$instance<T> {
 }
+
+
+export const InlineArray7_1: {
+    new<T>(): InlineArray7_1$instance<T>;
+};
 
 
 export type InlineArray7_1<T> = InlineArray7_1$instance<T>;
 
-export class InlineArray8_1$instance<T> {
+export interface InlineArray8_1$instance<T> {
 }
+
+
+export const InlineArray8_1: {
+    new<T>(): InlineArray8_1$instance<T>;
+};
 
 
 export type InlineArray8_1<T> = InlineArray8_1$instance<T>;
 
-export class InlineArray9_1$instance<T> {
+export interface InlineArray9_1$instance<T> {
 }
+
+
+export const InlineArray9_1: {
+    new<T>(): InlineArray9_1$instance<T>;
+};
 
 
 export type InlineArray9_1<T> = InlineArray9_1$instance<T>;
 
-export class PoolingAsyncValueTaskMethodBuilder$instance {
+export interface PoolingAsyncValueTaskMethodBuilder$instance {
     readonly task: ValueTask;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -462,13 +635,18 @@ export class PoolingAsyncValueTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create(): PoolingAsyncValueTaskMethodBuilder;
 }
+
+
+export const PoolingAsyncValueTaskMethodBuilder: {
+    new(): PoolingAsyncValueTaskMethodBuilder$instance;
+    create(): PoolingAsyncValueTaskMethodBuilder;
+};
 
 
 export type PoolingAsyncValueTaskMethodBuilder = PoolingAsyncValueTaskMethodBuilder$instance;
 
-export class PoolingAsyncValueTaskMethodBuilder_1$instance<TResult> {
+export interface PoolingAsyncValueTaskMethodBuilder_1$instance<TResult> {
     readonly task: ValueTask_1<TResult>;
     awaitOnCompleted<TAwaiter extends INotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
@@ -476,18 +654,28 @@ export class PoolingAsyncValueTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static create<TResult>(): PoolingAsyncValueTaskMethodBuilder_1<TResult>;
 }
+
+
+export const PoolingAsyncValueTaskMethodBuilder_1: {
+    new<TResult>(): PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
+    create<TResult>(): PoolingAsyncValueTaskMethodBuilder_1<TResult>;
+};
 
 
 export type PoolingAsyncValueTaskMethodBuilder_1<TResult> = PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
 
-export class TaskAwaiter$instance implements ICriticalNotifyCompletion {
+export interface TaskAwaiter$instance extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const TaskAwaiter: {
+    new(): TaskAwaiter$instance;
+};
 
 
 export interface __TaskAwaiter$views {
@@ -499,12 +687,17 @@ export interface TaskAwaiter$instance extends ICriticalNotifyCompletion$instance
 export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 
-export class TaskAwaiter_1$instance<TResult> implements ICriticalNotifyCompletion {
+export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const TaskAwaiter_1: {
+    new<TResult>(): TaskAwaiter_1$instance<TResult>;
+};
 
 
 export interface __TaskAwaiter_1$views<TResult> {
@@ -516,12 +709,17 @@ export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompleti
 export type TaskAwaiter_1<TResult> = TaskAwaiter_1$instance<TResult> & __TaskAwaiter_1$views<TResult>;
 
 
-export class ValueTaskAwaiter$instance implements ICriticalNotifyCompletion {
+export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ValueTaskAwaiter: {
+    new(): ValueTaskAwaiter$instance;
+};
 
 
 export interface __ValueTaskAwaiter$views {
@@ -533,12 +731,17 @@ export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion$ins
 export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$views;
 
 
-export class ValueTaskAwaiter_1$instance<TResult> implements ICriticalNotifyCompletion {
+export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const ValueTaskAwaiter_1: {
+    new<TResult>(): ValueTaskAwaiter_1$instance<TResult>;
+};
 
 
 export interface __ValueTaskAwaiter_1$views<TResult> {
@@ -550,19 +753,29 @@ export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCom
 export type ValueTaskAwaiter_1<TResult> = ValueTaskAwaiter_1$instance<TResult> & __ValueTaskAwaiter_1$views<TResult>;
 
 
-export class YieldAwaitable$instance {
+export interface YieldAwaitable$instance {
     getAwaiter(): YieldAwaitable_YieldAwaiter;
 }
 
 
+export const YieldAwaitable: {
+    new(): YieldAwaitable$instance;
+};
+
+
 export type YieldAwaitable = YieldAwaitable$instance;
 
-export class YieldAwaitable_YieldAwaiter$instance implements ICriticalNotifyCompletion {
+export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
+
+
+export const YieldAwaitable_YieldAwaiter: {
+    new(): YieldAwaitable_YieldAwaiter$instance;
+};
 
 
 export interface __YieldAwaitable_YieldAwaiter$views {
@@ -574,200 +787,301 @@ export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCom
 export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance & __YieldAwaitable_YieldAwaiter$views;
 
 
-export class AccessedThroughPropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(propertyName: string);
+export interface AccessedThroughPropertyAttribute$instance extends Attribute {
     readonly propertyName: string;
 }
 
 
+export const AccessedThroughPropertyAttribute: {
+    new(propertyName: string): AccessedThroughPropertyAttribute$instance;
+};
+
+
 export type AccessedThroughPropertyAttribute = AccessedThroughPropertyAttribute$instance;
 
-export class AsyncIteratorStateMachineAttribute$instance extends StateMachineAttribute$instance {
-    constructor(stateMachineType: Type);
+export interface AsyncIteratorStateMachineAttribute$instance extends StateMachineAttribute {
 }
+
+
+export const AsyncIteratorStateMachineAttribute: {
+    new(stateMachineType: Type): AsyncIteratorStateMachineAttribute$instance;
+};
 
 
 export type AsyncIteratorStateMachineAttribute = AsyncIteratorStateMachineAttribute$instance;
 
-export class AsyncMethodBuilderAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(builderType: Type);
+export interface AsyncMethodBuilderAttribute$instance extends Attribute {
     readonly builderType: Type;
 }
 
 
+export const AsyncMethodBuilderAttribute: {
+    new(builderType: Type): AsyncMethodBuilderAttribute$instance;
+};
+
+
 export type AsyncMethodBuilderAttribute = AsyncMethodBuilderAttribute$instance;
 
-export class AsyncStateMachineAttribute$instance extends StateMachineAttribute$instance {
-    constructor(stateMachineType: Type);
+export interface AsyncStateMachineAttribute$instance extends StateMachineAttribute {
 }
+
+
+export const AsyncStateMachineAttribute: {
+    new(stateMachineType: Type): AsyncStateMachineAttribute$instance;
+};
 
 
 export type AsyncStateMachineAttribute = AsyncStateMachineAttribute$instance;
 
-export class CallConvCdecl$instance {
-    constructor();
+export interface CallConvCdecl$instance {
 }
+
+
+export const CallConvCdecl: {
+    new(): CallConvCdecl$instance;
+};
 
 
 export type CallConvCdecl = CallConvCdecl$instance;
 
-export class CallConvFastcall$instance {
-    constructor();
+export interface CallConvFastcall$instance {
 }
+
+
+export const CallConvFastcall: {
+    new(): CallConvFastcall$instance;
+};
 
 
 export type CallConvFastcall = CallConvFastcall$instance;
 
-export class CallConvMemberFunction$instance {
-    constructor();
+export interface CallConvMemberFunction$instance {
 }
+
+
+export const CallConvMemberFunction: {
+    new(): CallConvMemberFunction$instance;
+};
 
 
 export type CallConvMemberFunction = CallConvMemberFunction$instance;
 
-export class CallConvStdcall$instance {
-    constructor();
+export interface CallConvStdcall$instance {
 }
+
+
+export const CallConvStdcall: {
+    new(): CallConvStdcall$instance;
+};
 
 
 export type CallConvStdcall = CallConvStdcall$instance;
 
-export class CallConvSuppressGCTransition$instance {
-    constructor();
+export interface CallConvSuppressGCTransition$instance {
 }
+
+
+export const CallConvSuppressGCTransition: {
+    new(): CallConvSuppressGCTransition$instance;
+};
 
 
 export type CallConvSuppressGCTransition = CallConvSuppressGCTransition$instance;
 
-export class CallConvSwift$instance {
-    constructor();
+export interface CallConvSwift$instance {
 }
+
+
+export const CallConvSwift: {
+    new(): CallConvSwift$instance;
+};
 
 
 export type CallConvSwift = CallConvSwift$instance;
 
-export class CallConvThiscall$instance {
-    constructor();
+export interface CallConvThiscall$instance {
 }
+
+
+export const CallConvThiscall: {
+    new(): CallConvThiscall$instance;
+};
 
 
 export type CallConvThiscall = CallConvThiscall$instance;
 
-export class CallerArgumentExpressionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(parameterName: string);
+export interface CallerArgumentExpressionAttribute$instance extends Attribute {
     readonly parameterName: string;
 }
 
 
+export const CallerArgumentExpressionAttribute: {
+    new(parameterName: string): CallerArgumentExpressionAttribute$instance;
+};
+
+
 export type CallerArgumentExpressionAttribute = CallerArgumentExpressionAttribute$instance;
 
-export class CallerFilePathAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CallerFilePathAttribute$instance extends Attribute {
 }
+
+
+export const CallerFilePathAttribute: {
+    new(): CallerFilePathAttribute$instance;
+};
 
 
 export type CallerFilePathAttribute = CallerFilePathAttribute$instance;
 
-export class CallerLineNumberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CallerLineNumberAttribute$instance extends Attribute {
 }
+
+
+export const CallerLineNumberAttribute: {
+    new(): CallerLineNumberAttribute$instance;
+};
 
 
 export type CallerLineNumberAttribute = CallerLineNumberAttribute$instance;
 
-export class CallerMemberNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CallerMemberNameAttribute$instance extends Attribute {
 }
+
+
+export const CallerMemberNameAttribute: {
+    new(): CallerMemberNameAttribute$instance;
+};
 
 
 export type CallerMemberNameAttribute = CallerMemberNameAttribute$instance;
 
-export class CallSite$instance {
+export interface CallSite$instance {
     readonly binder: CallSiteBinder;
-    static create(delegateType: Type, binder: CallSiteBinder): CallSite;
 }
+
+
+export const CallSite: {
+    new(): CallSite$instance;
+    create(delegateType: Type, binder: CallSiteBinder): CallSite;
+};
 
 
 export type CallSite = CallSite$instance;
 
-export class CallSite_1$instance<T> extends CallSite$instance {
+export interface CallSite_1$instance<T> extends CallSite {
     target: T;
     readonly update: T;
 }
 
 
+export const CallSite_1: {
+    new<T>(): CallSite_1$instance<T>;
+};
+
+
 export type CallSite_1<T> = CallSite_1$instance<T>;
 
-export abstract class CallSiteBinder$instance {
-    abstract bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+export interface CallSiteBinder$instance {
+    bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     bindDelegate<T>(site: CallSite_1<T>, args: unknown[]): T;
-    static readonly updateLabel: LabelTarget;
 }
+
+
+export const CallSiteBinder: {
+    readonly updateLabel: LabelTarget;
+};
 
 
 export type CallSiteBinder = CallSiteBinder$instance;
 
-export class Closure$instance {
-    constructor(constants: unknown[], locals: unknown[]);
+export interface Closure$instance {
     readonly constants: unknown[];
     readonly locals: unknown[];
 }
 
 
+export const Closure: {
+    new(constants: unknown[], locals: unknown[]): Closure$instance;
+};
+
+
 export type Closure = Closure$instance;
 
-export class CollectionBuilderAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(builderType: Type, methodName: string);
+export interface CollectionBuilderAttribute$instance extends Attribute {
     readonly builderType: Type;
     readonly methodName: string;
 }
 
 
+export const CollectionBuilderAttribute: {
+    new(builderType: Type, methodName: string): CollectionBuilderAttribute$instance;
+};
+
+
 export type CollectionBuilderAttribute = CollectionBuilderAttribute$instance;
 
-export class CompilationRelaxationsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(relaxations: int);
-    constructor(relaxations: CompilationRelaxations);
+export interface CompilationRelaxationsAttribute$instance extends Attribute {
     readonly compilationRelaxations: int;
 }
 
 
+export const CompilationRelaxationsAttribute: {
+    new(relaxations: int): CompilationRelaxationsAttribute$instance;
+    new(relaxations: CompilationRelaxations): CompilationRelaxationsAttribute$instance;
+};
+
+
 export type CompilationRelaxationsAttribute = CompilationRelaxationsAttribute$instance;
 
-export class CompilerFeatureRequiredAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(featureName: string);
+export interface CompilerFeatureRequiredAttribute$instance extends Attribute {
     readonly featureName: string;
     isOptional: boolean;
-    static readonly refStructs: string;
-    static readonly requiredMembers: string;
 }
+
+
+export const CompilerFeatureRequiredAttribute: {
+    new(featureName: string): CompilerFeatureRequiredAttribute$instance;
+    readonly refStructs: string;
+    readonly requiredMembers: string;
+};
 
 
 export type CompilerFeatureRequiredAttribute = CompilerFeatureRequiredAttribute$instance;
 
-export class CompilerGeneratedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CompilerGeneratedAttribute$instance extends Attribute {
 }
+
+
+export const CompilerGeneratedAttribute: {
+    new(): CompilerGeneratedAttribute$instance;
+};
 
 
 export type CompilerGeneratedAttribute = CompilerGeneratedAttribute$instance;
 
-export class CompilerGlobalScopeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CompilerGlobalScopeAttribute$instance extends Attribute {
 }
+
+
+export const CompilerGlobalScopeAttribute: {
+    new(): CompilerGlobalScopeAttribute$instance;
+};
 
 
 export type CompilerGlobalScopeAttribute = CompilerGlobalScopeAttribute$instance;
 
-export class CompilerLoweringPreserveAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CompilerLoweringPreserveAttribute$instance extends Attribute {
 }
+
+
+export const CompilerLoweringPreserveAttribute: {
+    new(): CompilerLoweringPreserveAttribute$instance;
+};
 
 
 export type CompilerLoweringPreserveAttribute = CompilerLoweringPreserveAttribute$instance;
 
-export class ConditionalWeakTable_2$instance<TKey, TValue> {
-    constructor();
+export interface ConditionalWeakTable_2$instance<TKey, TValue> {
     add(key: TKey, value: TValue): void;
     addOrUpdate(key: TKey, value: TValue): void;
     clear(): void;
@@ -783,6 +1097,11 @@ export class ConditionalWeakTable_2$instance<TKey, TValue> {
 }
 
 
+export const ConditionalWeakTable_2: {
+    new<TKey, TValue>(): ConditionalWeakTable_2$instance<TKey, TValue>;
+};
+
+
 export interface __ConditionalWeakTable_2$views<TKey, TValue> {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -793,330 +1112,476 @@ export interface ConditionalWeakTable_2$instance<TKey, TValue> extends System_Co
 export type ConditionalWeakTable_2<TKey, TValue> = ConditionalWeakTable_2$instance<TKey, TValue> & __ConditionalWeakTable_2$views<TKey, TValue>;
 
 
-export class ConditionalWeakTable_2_CreateValueCallback$instance<TKey, TValue> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(key: TKey, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): TValue;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(key: TKey): TValue;
+export interface CppInlineNamespaceAttribute$instance extends Attribute {
 }
 
 
-export interface __ConditionalWeakTable_2_CreateValueCallback$views<TKey, TValue> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = ConditionalWeakTable_2_CreateValueCallback$instance<TKey, TValue> & __ConditionalWeakTable_2_CreateValueCallback$views<TKey, TValue>;
-
-
-export class CppInlineNamespaceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(dottedName: string);
-}
+export const CppInlineNamespaceAttribute: {
+    new(dottedName: string): CppInlineNamespaceAttribute$instance;
+};
 
 
 export type CppInlineNamespaceAttribute = CppInlineNamespaceAttribute$instance;
 
-export class CreateNewOnMetadataUpdateAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CreateNewOnMetadataUpdateAttribute$instance extends Attribute {
 }
+
+
+export const CreateNewOnMetadataUpdateAttribute: {
+    new(): CreateNewOnMetadataUpdateAttribute$instance;
+};
 
 
 export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttribute$instance;
 
-export abstract class CustomConstantAttribute$instance extends System_Internal.Attribute$instance {
+export interface CustomConstantAttribute$instance extends Attribute {
     readonly value: unknown;
 }
+
+
+export const CustomConstantAttribute: {
+};
 
 
 export type CustomConstantAttribute = CustomConstantAttribute$instance;
 
-export class DateTimeConstantAttribute$instance extends CustomConstantAttribute$instance {
-    constructor(ticks: long);
+export interface DateTimeConstantAttribute$instance extends CustomConstantAttribute {
     readonly value: unknown;
 }
 
 
+export const DateTimeConstantAttribute: {
+    new(ticks: long): DateTimeConstantAttribute$instance;
+};
+
+
 export type DateTimeConstantAttribute = DateTimeConstantAttribute$instance;
 
-export abstract class DebugInfoGenerator$instance {
-    abstract markSequencePoint(method: LambdaExpression, ilOffset: int, sequencePoint: DebugInfoExpression): void;
-    static createPdbGenerator(): DebugInfoGenerator;
+export interface DebugInfoGenerator$instance {
+    markSequencePoint(method: LambdaExpression, ilOffset: int, sequencePoint: DebugInfoExpression): void;
 }
+
+
+export const DebugInfoGenerator: {
+    createPdbGenerator(): DebugInfoGenerator;
+};
 
 
 export type DebugInfoGenerator = DebugInfoGenerator$instance;
 
-export class DecimalConstantAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(scale: byte, sign: byte, hi: uint, mid: uint, low: uint);
-    constructor(scale: byte, sign: byte, hi: int, mid: int, low: int);
+export interface DecimalConstantAttribute$instance extends Attribute {
     readonly value: decimal;
 }
 
 
+export const DecimalConstantAttribute: {
+    new(scale: byte, sign: byte, hi: uint, mid: uint, low: uint): DecimalConstantAttribute$instance;
+    new(scale: byte, sign: byte, hi: int, mid: int, low: int): DecimalConstantAttribute$instance;
+};
+
+
 export type DecimalConstantAttribute = DecimalConstantAttribute$instance;
 
-export class DefaultDependencyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(loadHintArgument: LoadHint);
+export interface DefaultDependencyAttribute$instance extends Attribute {
     readonly loadHint: LoadHint;
 }
 
 
+export const DefaultDependencyAttribute: {
+    new(loadHintArgument: LoadHint): DefaultDependencyAttribute$instance;
+};
+
+
 export type DefaultDependencyAttribute = DefaultDependencyAttribute$instance;
 
-export class DependencyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(dependentAssemblyArgument: string, loadHintArgument: LoadHint);
+export interface DependencyAttribute$instance extends Attribute {
     readonly dependentAssembly: string;
     readonly loadHint: LoadHint;
 }
 
 
+export const DependencyAttribute: {
+    new(dependentAssemblyArgument: string, loadHintArgument: LoadHint): DependencyAttribute$instance;
+};
+
+
 export type DependencyAttribute = DependencyAttribute$instance;
 
-export class DisablePrivateReflectionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DisablePrivateReflectionAttribute$instance extends Attribute {
 }
+
+
+export const DisablePrivateReflectionAttribute: {
+    new(): DisablePrivateReflectionAttribute$instance;
+};
 
 
 export type DisablePrivateReflectionAttribute = DisablePrivateReflectionAttribute$instance;
 
-export class DisableRuntimeMarshallingAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DisableRuntimeMarshallingAttribute$instance extends Attribute {
 }
+
+
+export const DisableRuntimeMarshallingAttribute: {
+    new(): DisableRuntimeMarshallingAttribute$instance;
+};
 
 
 export type DisableRuntimeMarshallingAttribute = DisableRuntimeMarshallingAttribute$instance;
 
-export class DiscardableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DiscardableAttribute$instance extends Attribute {
 }
+
+
+export const DiscardableAttribute: {
+    new(): DiscardableAttribute$instance;
+};
 
 
 export type DiscardableAttribute = DiscardableAttribute$instance;
 
-export class DynamicAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(transformFlags: boolean[]);
+export interface DynamicAttribute$instance extends Attribute {
     readonly transformFlags: IList_1<CLROf<boolean>>;
 }
 
 
+export const DynamicAttribute: {
+    new(): DynamicAttribute$instance;
+    new(transformFlags: boolean[]): DynamicAttribute$instance;
+};
+
+
 export type DynamicAttribute = DynamicAttribute$instance;
 
-export class EnumeratorCancellationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EnumeratorCancellationAttribute$instance extends Attribute {
 }
+
+
+export const EnumeratorCancellationAttribute: {
+    new(): EnumeratorCancellationAttribute$instance;
+};
 
 
 export type EnumeratorCancellationAttribute = EnumeratorCancellationAttribute$instance;
 
-export class ExtensionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ExtensionAttribute$instance extends Attribute {
 }
+
+
+export const ExtensionAttribute: {
+    new(): ExtensionAttribute$instance;
+};
 
 
 export type ExtensionAttribute = ExtensionAttribute$instance;
 
-export class ExtensionMarkerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface ExtensionMarkerAttribute$instance extends Attribute {
     readonly name: string;
 }
 
 
+export const ExtensionMarkerAttribute: {
+    new(name: string): ExtensionMarkerAttribute$instance;
+};
+
+
 export type ExtensionMarkerAttribute = ExtensionMarkerAttribute$instance;
 
-export class FixedAddressValueTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface FixedAddressValueTypeAttribute$instance extends Attribute {
 }
+
+
+export const FixedAddressValueTypeAttribute: {
+    new(): FixedAddressValueTypeAttribute$instance;
+};
 
 
 export type FixedAddressValueTypeAttribute = FixedAddressValueTypeAttribute$instance;
 
-export class FixedBufferAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(elementType: Type, length: int);
+export interface FixedBufferAttribute$instance extends Attribute {
     readonly elementType: Type;
     readonly length: int;
 }
 
 
+export const FixedBufferAttribute: {
+    new(elementType: Type, length: int): FixedBufferAttribute$instance;
+};
+
+
 export type FixedBufferAttribute = FixedBufferAttribute$instance;
 
-export class HasCopySemanticsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface HasCopySemanticsAttribute$instance extends Attribute {
 }
+
+
+export const HasCopySemanticsAttribute: {
+    new(): HasCopySemanticsAttribute$instance;
+};
 
 
 export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 
-export class IDispatchConstantAttribute$instance extends CustomConstantAttribute$instance {
-    constructor();
+export interface IDispatchConstantAttribute$instance extends CustomConstantAttribute {
     readonly value: unknown;
 }
 
 
+export const IDispatchConstantAttribute: {
+    new(): IDispatchConstantAttribute$instance;
+};
+
+
 export type IDispatchConstantAttribute = IDispatchConstantAttribute$instance;
 
-export class IndexerNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(indexerName: string);
+export interface IndexerNameAttribute$instance extends Attribute {
 }
+
+
+export const IndexerNameAttribute: {
+    new(indexerName: string): IndexerNameAttribute$instance;
+};
 
 
 export type IndexerNameAttribute = IndexerNameAttribute$instance;
 
-export class InlineArrayAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(length: int);
+export interface InlineArrayAttribute$instance extends Attribute {
     readonly length: int;
 }
 
 
+export const InlineArrayAttribute: {
+    new(length: int): InlineArrayAttribute$instance;
+};
+
+
 export type InlineArrayAttribute = InlineArrayAttribute$instance;
 
-export class InternalsVisibleToAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(assemblyName: string);
+export interface InternalsVisibleToAttribute$instance extends Attribute {
     allInternalsVisible: boolean;
     readonly assemblyName: string;
 }
 
 
+export const InternalsVisibleToAttribute: {
+    new(assemblyName: string): InternalsVisibleToAttribute$instance;
+};
+
+
 export type InternalsVisibleToAttribute = InternalsVisibleToAttribute$instance;
 
-export class InterpolatedStringHandlerArgumentAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(argument: string);
-    constructor(arguments: string[]);
+export interface InterpolatedStringHandlerArgumentAttribute$instance extends Attribute {
     readonly arguments: string[];
 }
 
 
+export const InterpolatedStringHandlerArgumentAttribute: {
+    new(argument: string): InterpolatedStringHandlerArgumentAttribute$instance;
+    new(arguments: string[]): InterpolatedStringHandlerArgumentAttribute$instance;
+};
+
+
 export type InterpolatedStringHandlerArgumentAttribute = InterpolatedStringHandlerArgumentAttribute$instance;
 
-export class InterpolatedStringHandlerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface InterpolatedStringHandlerAttribute$instance extends Attribute {
 }
+
+
+export const InterpolatedStringHandlerAttribute: {
+    new(): InterpolatedStringHandlerAttribute$instance;
+};
 
 
 export type InterpolatedStringHandlerAttribute = InterpolatedStringHandlerAttribute$instance;
 
-export class IsByRefLikeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface IsByRefLikeAttribute$instance extends Attribute {
 }
+
+
+export const IsByRefLikeAttribute: {
+    new(): IsByRefLikeAttribute$instance;
+};
 
 
 export type IsByRefLikeAttribute = IsByRefLikeAttribute$instance;
 
-export class IsReadOnlyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface IsReadOnlyAttribute$instance extends Attribute {
 }
+
+
+export const IsReadOnlyAttribute: {
+    new(): IsReadOnlyAttribute$instance;
+};
 
 
 export type IsReadOnlyAttribute = IsReadOnlyAttribute$instance;
 
-export class IsUnmanagedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface IsUnmanagedAttribute$instance extends Attribute {
 }
+
+
+export const IsUnmanagedAttribute: {
+    new(): IsUnmanagedAttribute$instance;
+};
 
 
 export type IsUnmanagedAttribute = IsUnmanagedAttribute$instance;
 
-export class IteratorStateMachineAttribute$instance extends StateMachineAttribute$instance {
-    constructor(stateMachineType: Type);
+export interface IteratorStateMachineAttribute$instance extends StateMachineAttribute {
 }
+
+
+export const IteratorStateMachineAttribute: {
+    new(stateMachineType: Type): IteratorStateMachineAttribute$instance;
+};
 
 
 export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instance;
 
-export class IUnknownConstantAttribute$instance extends CustomConstantAttribute$instance {
-    constructor();
+export interface IUnknownConstantAttribute$instance extends CustomConstantAttribute {
     readonly value: unknown;
 }
 
 
+export const IUnknownConstantAttribute: {
+    new(): IUnknownConstantAttribute$instance;
+};
+
+
 export type IUnknownConstantAttribute = IUnknownConstantAttribute$instance;
 
-export class MetadataUpdateOriginalTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(originalType: Type);
+export interface MetadataUpdateDeletedAttribute$instance extends Attribute {
+}
+
+
+export const MetadataUpdateDeletedAttribute: {
+    new(): MetadataUpdateDeletedAttribute$instance;
+};
+
+
+export type MetadataUpdateDeletedAttribute = MetadataUpdateDeletedAttribute$instance;
+
+export interface MetadataUpdateOriginalTypeAttribute$instance extends Attribute {
     readonly originalType: Type;
 }
 
 
+export const MetadataUpdateOriginalTypeAttribute: {
+    new(originalType: Type): MetadataUpdateOriginalTypeAttribute$instance;
+};
+
+
 export type MetadataUpdateOriginalTypeAttribute = MetadataUpdateOriginalTypeAttribute$instance;
 
-export class MethodImplAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(methodImplOptions: MethodImplOptions);
-    constructor(value: short);
-    constructor();
+export interface MethodImplAttribute$instance extends Attribute {
     methodCodeType: MethodCodeType;
     readonly value: MethodImplOptions;
 }
 
 
+export const MethodImplAttribute: {
+    new(methodImplOptions: MethodImplOptions): MethodImplAttribute$instance;
+    new(value: short): MethodImplAttribute$instance;
+    new(): MethodImplAttribute$instance;
+};
+
+
 export type MethodImplAttribute = MethodImplAttribute$instance;
 
-export class ModuleInitializerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ModuleInitializerAttribute$instance extends Attribute {
 }
+
+
+export const ModuleInitializerAttribute: {
+    new(): ModuleInitializerAttribute$instance;
+};
 
 
 export type ModuleInitializerAttribute = ModuleInitializerAttribute$instance;
 
-export class NativeCppClassAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface NativeCppClassAttribute$instance extends Attribute {
 }
+
+
+export const NativeCppClassAttribute: {
+    new(): NativeCppClassAttribute$instance;
+};
 
 
 export type NativeCppClassAttribute = NativeCppClassAttribute$instance;
 
-export class NullableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: byte);
-    constructor(value: byte[]);
+export interface NullableAttribute$instance extends Attribute {
     readonly nullableFlags: byte[];
 }
 
 
+export const NullableAttribute: {
+    new(value: byte): NullableAttribute$instance;
+    new(value: byte[]): NullableAttribute$instance;
+};
+
+
 export type NullableAttribute = NullableAttribute$instance;
 
-export class NullableContextAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: byte);
+export interface NullableContextAttribute$instance extends Attribute {
     readonly flag: byte;
 }
 
 
+export const NullableContextAttribute: {
+    new(value: byte): NullableContextAttribute$instance;
+};
+
+
 export type NullableContextAttribute = NullableContextAttribute$instance;
 
-export class NullablePublicOnlyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: boolean);
+export interface NullablePublicOnlyAttribute$instance extends Attribute {
     readonly includesInternals: boolean;
 }
 
 
+export const NullablePublicOnlyAttribute: {
+    new(value: boolean): NullablePublicOnlyAttribute$instance;
+};
+
+
 export type NullablePublicOnlyAttribute = NullablePublicOnlyAttribute$instance;
 
-export class OverloadResolutionPriorityAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(priority: int);
+export interface OverloadResolutionPriorityAttribute$instance extends Attribute {
     readonly priority: int;
 }
 
 
+export const OverloadResolutionPriorityAttribute: {
+    new(priority: int): OverloadResolutionPriorityAttribute$instance;
+};
+
+
 export type OverloadResolutionPriorityAttribute = OverloadResolutionPriorityAttribute$instance;
 
-export class ParamCollectionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ParamCollectionAttribute$instance extends Attribute {
 }
+
+
+export const ParamCollectionAttribute: {
+    new(): ParamCollectionAttribute$instance;
+};
 
 
 export type ParamCollectionAttribute = ParamCollectionAttribute$instance;
 
-export class PreserveBaseOverridesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface PreserveBaseOverridesAttribute$instance extends Attribute {
 }
+
+
+export const PreserveBaseOverridesAttribute: {
+    new(): PreserveBaseOverridesAttribute$instance;
+};
 
 
 export type PreserveBaseOverridesAttribute = PreserveBaseOverridesAttribute$instance;
 
-export class ReadOnlyCollectionBuilder_1$instance<T> {
-    constructor();
-    constructor(capacity: int);
-    constructor(collection: IEnumerable_1<T>);
+export interface ReadOnlyCollectionBuilder_1$instance<T> {
     capacity: int;
     readonly count: int;
     item: T;
@@ -1136,6 +1601,13 @@ export class ReadOnlyCollectionBuilder_1$instance<T> {
 }
 
 
+export const ReadOnlyCollectionBuilder_1: {
+    new<T>(): ReadOnlyCollectionBuilder_1$instance<T>;
+    new<T>(capacity: int): ReadOnlyCollectionBuilder_1$instance<T>;
+    new<T>(collection: IEnumerable_1<T>): ReadOnlyCollectionBuilder_1$instance<T>;
+};
+
+
 export interface __ReadOnlyCollectionBuilder_1$views<T> {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
@@ -1148,100 +1620,97 @@ export interface __ReadOnlyCollectionBuilder_1$views<T> {
 export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instance<T> & __ReadOnlyCollectionBuilder_1$views<T>;
 
 
-export class ReferenceAssemblyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(description: string);
+export interface ReferenceAssemblyAttribute$instance extends Attribute {
     readonly description: string;
 }
 
 
+export const ReferenceAssemblyAttribute: {
+    new(): ReferenceAssemblyAttribute$instance;
+    new(description: string): ReferenceAssemblyAttribute$instance;
+};
+
+
 export type ReferenceAssemblyAttribute = ReferenceAssemblyAttribute$instance;
 
-export class RefSafetyRulesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(version: int);
+export interface RefSafetyRulesAttribute$instance extends Attribute {
     readonly version: int;
 }
 
 
+export const RefSafetyRulesAttribute: {
+    new(version: int): RefSafetyRulesAttribute$instance;
+};
+
+
 export type RefSafetyRulesAttribute = RefSafetyRulesAttribute$instance;
 
-export class RequiredAttributeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(requiredContract: Type);
+export interface RequiredAttributeAttribute$instance extends Attribute {
     readonly requiredContract: Type;
 }
 
 
+export const RequiredAttributeAttribute: {
+    new(requiredContract: Type): RequiredAttributeAttribute$instance;
+};
+
+
 export type RequiredAttributeAttribute = RequiredAttributeAttribute$instance;
 
-export class RequiredMemberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface RequiredMemberAttribute$instance extends Attribute {
 }
+
+
+export const RequiredMemberAttribute: {
+    new(): RequiredMemberAttribute$instance;
+};
 
 
 export type RequiredMemberAttribute = RequiredMemberAttribute$instance;
 
-export class RequiresLocationAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface RequiresLocationAttribute$instance extends Attribute {
 }
+
+
+export const RequiresLocationAttribute: {
+    new(): RequiresLocationAttribute$instance;
+};
 
 
 export type RequiresLocationAttribute = RequiresLocationAttribute$instance;
 
-export class RuleCache_1$instance<T> {
+export interface RuleCache_1$instance<T> {
 }
+
+
+export const RuleCache_1: {
+    new<T>(): RuleCache_1$instance<T>;
+};
 
 
 export type RuleCache_1<T> = RuleCache_1$instance<T>;
 
-export class RuntimeCompatibilityAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface RuntimeCompatibilityAttribute$instance extends Attribute {
     wrapNonExceptionThrows: boolean;
 }
 
 
+export const RuntimeCompatibilityAttribute: {
+    new(): RuntimeCompatibilityAttribute$instance;
+};
+
+
 export type RuntimeCompatibilityAttribute = RuntimeCompatibilityAttribute$instance;
 
-export class RuntimeHelpers_CleanupCode$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(userData: unknown, exceptionThrown: boolean, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(userData: unknown, exceptionThrown: boolean): void;
-}
-
-
-export interface __RuntimeHelpers_CleanupCode$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RuntimeHelpers_CleanupCode = RuntimeHelpers_CleanupCode$instance & __RuntimeHelpers_CleanupCode$views;
-
-
-export class RuntimeHelpers_TryCode$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(userData: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(userData: unknown): void;
-}
-
-
-export interface __RuntimeHelpers_TryCode$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RuntimeHelpers_TryCode = RuntimeHelpers_TryCode$instance & __RuntimeHelpers_TryCode$views;
-
-
-export class RuntimeWrappedException$instance extends System_Internal.Exception$instance {
-    constructor(thrownObject: unknown);
+export interface RuntimeWrappedException$instance extends Exception {
     readonly wrappedException: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const RuntimeWrappedException: {
+    new(thrownObject: unknown): RuntimeWrappedException$instance;
+};
 
 
 export interface __RuntimeWrappedException$views {
@@ -1251,54 +1720,82 @@ export interface __RuntimeWrappedException$views {
 export type RuntimeWrappedException = RuntimeWrappedException$instance & __RuntimeWrappedException$views;
 
 
-export class ScopedRefAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ScopedRefAttribute$instance extends Attribute {
 }
+
+
+export const ScopedRefAttribute: {
+    new(): ScopedRefAttribute$instance;
+};
 
 
 export type ScopedRefAttribute = ScopedRefAttribute$instance;
 
-export class ScopelessEnumAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ScopelessEnumAttribute$instance extends Attribute {
 }
+
+
+export const ScopelessEnumAttribute: {
+    new(): ScopelessEnumAttribute$instance;
+};
 
 
 export type ScopelessEnumAttribute = ScopelessEnumAttribute$instance;
 
-export class SkipLocalsInitAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SkipLocalsInitAttribute$instance extends Attribute {
 }
+
+
+export const SkipLocalsInitAttribute: {
+    new(): SkipLocalsInitAttribute$instance;
+};
 
 
 export type SkipLocalsInitAttribute = SkipLocalsInitAttribute$instance;
 
-export class SpecialNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SpecialNameAttribute$instance extends Attribute {
 }
+
+
+export const SpecialNameAttribute: {
+    new(): SpecialNameAttribute$instance;
+};
 
 
 export type SpecialNameAttribute = SpecialNameAttribute$instance;
 
-export class StateMachineAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(stateMachineType: Type);
+export interface StateMachineAttribute$instance extends Attribute {
     readonly stateMachineType: Type;
 }
 
 
+export const StateMachineAttribute: {
+    new(stateMachineType: Type): StateMachineAttribute$instance;
+};
+
+
 export type StateMachineAttribute = StateMachineAttribute$instance;
 
-export class StringFreezingAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface StringFreezingAttribute$instance extends Attribute {
 }
+
+
+export const StringFreezingAttribute: {
+    new(): StringFreezingAttribute$instance;
+};
 
 
 export type StringFreezingAttribute = StringFreezingAttribute$instance;
 
-export class StrongBox_1$instance<T> {
-    constructor();
-    constructor(value: T);
+export interface StrongBox_1$instance<T> {
     value: T;
 }
+
+
+export const StrongBox_1: {
+    new<T>(): StrongBox_1$instance<T>;
+    new<T>(value: T): StrongBox_1$instance<T>;
+};
 
 
 export interface __StrongBox_1$views<T> {
@@ -1310,23 +1807,31 @@ export interface StrongBox_1$instance<T> extends IStrongBox$instance {}
 export type StrongBox_1<T> = StrongBox_1$instance<T> & __StrongBox_1$views<T>;
 
 
-export class SuppressIldasmAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SuppressIldasmAttribute$instance extends Attribute {
 }
+
+
+export const SuppressIldasmAttribute: {
+    new(): SuppressIldasmAttribute$instance;
+};
 
 
 export type SuppressIldasmAttribute = SuppressIldasmAttribute$instance;
 
-export class SwitchExpressionException$instance extends System_Internal.InvalidOperationException$instance {
-    constructor();
-    constructor(innerException: Exception);
-    constructor(unmatchedValue: unknown);
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SwitchExpressionException$instance extends InvalidOperationException {
     readonly message: string;
     readonly unmatchedValue: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SwitchExpressionException: {
+    new(): SwitchExpressionException$instance;
+    new(innerException: Exception): SwitchExpressionException$instance;
+    new(unmatchedValue: unknown): SwitchExpressionException$instance;
+    new(message: string): SwitchExpressionException$instance;
+    new(message: string, innerException: Exception): SwitchExpressionException$instance;
+};
 
 
 export interface __SwitchExpressionException$views {
@@ -1336,50 +1841,74 @@ export interface __SwitchExpressionException$views {
 export type SwitchExpressionException = SwitchExpressionException$instance & __SwitchExpressionException$views;
 
 
-export class TupleElementNamesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(transformNames: string[]);
+export interface TupleElementNamesAttribute$instance extends Attribute {
     readonly transformNames: IList_1<CLROf<string>>;
 }
 
 
+export const TupleElementNamesAttribute: {
+    new(transformNames: string[]): TupleElementNamesAttribute$instance;
+};
+
+
 export type TupleElementNamesAttribute = TupleElementNamesAttribute$instance;
 
-export class TypeForwardedFromAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(assemblyFullName: string);
+export interface TypeForwardedFromAttribute$instance extends Attribute {
     readonly assemblyFullName: string;
 }
 
 
+export const TypeForwardedFromAttribute: {
+    new(assemblyFullName: string): TypeForwardedFromAttribute$instance;
+};
+
+
 export type TypeForwardedFromAttribute = TypeForwardedFromAttribute$instance;
 
-export class TypeForwardedToAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(destination: Type);
+export interface TypeForwardedToAttribute$instance extends Attribute {
     readonly destination: Type;
 }
 
 
+export const TypeForwardedToAttribute: {
+    new(destination: Type): TypeForwardedToAttribute$instance;
+};
+
+
 export type TypeForwardedToAttribute = TypeForwardedToAttribute$instance;
 
-export class UnsafeAccessorAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(kind: UnsafeAccessorKind);
+export interface UnsafeAccessorAttribute$instance extends Attribute {
     readonly kind: UnsafeAccessorKind;
     name: string;
 }
 
 
+export const UnsafeAccessorAttribute: {
+    new(kind: UnsafeAccessorKind): UnsafeAccessorAttribute$instance;
+};
+
+
 export type UnsafeAccessorAttribute = UnsafeAccessorAttribute$instance;
 
-export class UnsafeAccessorTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeName: string);
+export interface UnsafeAccessorTypeAttribute$instance extends Attribute {
     readonly typeName: string;
 }
 
 
+export const UnsafeAccessorTypeAttribute: {
+    new(typeName: string): UnsafeAccessorTypeAttribute$instance;
+};
+
+
 export type UnsafeAccessorTypeAttribute = UnsafeAccessorTypeAttribute$instance;
 
-export class UnsafeValueTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface UnsafeValueTypeAttribute$instance extends Attribute {
 }
+
+
+export const UnsafeValueTypeAttribute: {
+    new(): UnsafeValueTypeAttribute$instance;
+};
 
 
 export type UnsafeValueTypeAttribute = UnsafeValueTypeAttribute$instance;

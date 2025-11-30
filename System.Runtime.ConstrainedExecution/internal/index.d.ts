@@ -49,24 +49,36 @@ export enum Consistency {
 }
 
 
-export abstract class CriticalFinalizerObject$instance {
+export interface CriticalFinalizerObject$instance {
 }
+
+
+export const CriticalFinalizerObject: {
+};
 
 
 export type CriticalFinalizerObject = CriticalFinalizerObject$instance;
 
-export class PrePrepareMethodAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface PrePrepareMethodAttribute$instance extends Attribute {
 }
+
+
+export const PrePrepareMethodAttribute: {
+    new(): PrePrepareMethodAttribute$instance;
+};
 
 
 export type PrePrepareMethodAttribute = PrePrepareMethodAttribute$instance;
 
-export class ReliabilityContractAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(consistencyGuarantee: Consistency, cer: Cer);
+export interface ReliabilityContractAttribute$instance extends Attribute {
     readonly cer: Cer;
     readonly consistencyGuarantee: Consistency;
 }
+
+
+export const ReliabilityContractAttribute: {
+    new(consistencyGuarantee: Consistency, cer: Cer): ReliabilityContractAttribute$instance;
+};
 
 
 export type ReliabilityContractAttribute = ReliabilityContractAttribute$instance;

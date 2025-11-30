@@ -50,27 +50,16 @@ export enum ObjectiveCMarshal_MessageSendFunction {
 }
 
 
-export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
+export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = (exception: Exception, lastMethod: RuntimeMethodHandle, context: ref<nint>) => unknown;
+
+
+export interface ObjectiveCTrackedTypeAttribute$instance extends Attribute {
 }
 
 
-export interface __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance & __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views;
-
-
-export class ObjectiveCTrackedTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-}
+export const ObjectiveCTrackedTypeAttribute: {
+    new(): ObjectiveCTrackedTypeAttribute$instance;
+};
 
 
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;

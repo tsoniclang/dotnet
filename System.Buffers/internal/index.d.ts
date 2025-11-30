@@ -49,6 +49,12 @@ export enum OperationStatus {
 }
 
 
+export type ReadOnlySpanAction_2<T, TArg> = (span: ReadOnlySpan_1<T>, arg: TArg) => void;
+
+
+export type SpanAction_2<T, TArg> = (span: Span_1<T>, arg: TArg) => void;
+
+
 export interface IBufferWriter_1$instance<T> {
     advance(count: int): void;
     getMemory(sizeHint?: int): Memory_1<T>;
@@ -76,11 +82,15 @@ export interface IPinnable$instance {
 
 export type IPinnable = IPinnable$instance;
 
-export class MemoryHandle$instance {
-    constructor(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable);
+export interface MemoryHandle$instance {
     readonly pointer: ptr<void>;
     dispose(): void;
 }
+
+
+export const MemoryHandle: {
+    new(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable): MemoryHandle$instance;
+};
 
 
 export interface __MemoryHandle$views {
@@ -92,11 +102,7 @@ export interface MemoryHandle$instance extends System_Internal.IDisposable$insta
 export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
 
-export class ReadOnlySequence_1$instance<T> {
-    constructor(startSegment: ReadOnlySequenceSegment_1<T>, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T>, endIndex: int);
-    constructor(array: T[]);
-    constructor(array: T[], start: int, length: int);
-    constructor(memory: ReadOnlyMemory_1<T>);
+export interface ReadOnlySequence_1$instance<T> {
     readonly end: SequencePosition;
     readonly first: ReadOnlyMemory_1<T>;
     readonly firstSpan: ReadOnlySpan_1<T>;
@@ -119,23 +125,34 @@ export class ReadOnlySequence_1$instance<T> {
     slice(start: long): ReadOnlySequence_1<T>;
     toString(): string;
     tryGet(position: { value: ref<SequencePosition> }, memory: { value: ref<ReadOnlyMemory_1<T>> }, advance?: boolean): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const ReadOnlySequence_1: {
+    new<T>(startSegment: ReadOnlySequenceSegment_1<T>, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T>, endIndex: int): ReadOnlySequence_1$instance<T>;
+    new<T>(array: T[]): ReadOnlySequence_1$instance<T>;
+    new<T>(array: T[], start: int, length: int): ReadOnlySequence_1$instance<T>;
+    new<T>(memory: ReadOnlyMemory_1<T>): ReadOnlySequence_1$instance<T>;
+    readonly empty: unknown;
+};
 
 
 export type ReadOnlySequence_1<T> = ReadOnlySequence_1$instance<T>;
 
-export class ReadOnlySequence_1_Enumerator$instance<T> {
-    constructor(sequence: ref<ReadOnlySequence_1<T>>);
+export interface ReadOnlySequence_1_Enumerator$instance<T> {
     readonly current: ReadOnlyMemory_1<T>;
     moveNext(): boolean;
 }
 
 
+export const ReadOnlySequence_1_Enumerator: {
+    new<T>(sequence: ref<ReadOnlySequence_1<T>>): ReadOnlySequence_1_Enumerator$instance<T>;
+};
+
+
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
-export class SequenceReader_1$instance<T extends IEquatable_1<T>> {
-    constructor(sequence: ReadOnlySequence_1<T>);
+export interface SequenceReader_1$instance<T extends IEquatable_1<T>> {
     readonly consumed: long;
     readonly currentSpan: ReadOnlySpan_1<T>;
     readonly currentSpanIndex: int;
@@ -174,10 +191,14 @@ export class SequenceReader_1$instance<T extends IEquatable_1<T>> {
 }
 
 
+export const SequenceReader_1: {
+    new<T extends IEquatable_1<T>>(sequence: ReadOnlySequence_1<T>): SequenceReader_1$instance<T>;
+};
+
+
 export type SequenceReader_1<T extends IEquatable_1<T>> = SequenceReader_1$instance<T>;
 
-export class StandardFormat$instance {
-    constructor(symbol_: char, precision: byte);
+export interface StandardFormat$instance {
     readonly hasPrecision: boolean;
     readonly isDefault: boolean;
     readonly precision: byte;
@@ -186,12 +207,17 @@ export class StandardFormat$instance {
     equals(other: StandardFormat): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly noPrecision: byte;
-    static readonly maxPrecision: byte;
-    static parse(format: ReadOnlySpan_1<CLROf<char>>): StandardFormat;
-    static parse(format: string): StandardFormat;
-    static tryParse(format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<StandardFormat> }): boolean;
 }
+
+
+export const StandardFormat: {
+    new(symbol_: char, precision: byte): StandardFormat$instance;
+    readonly noPrecision: byte;
+    readonly maxPrecision: byte;
+    parse(format: ReadOnlySpan_1<CLROf<char>>): StandardFormat;
+    parse(format: string): StandardFormat;
+    tryParse(format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<StandardFormat> }): boolean;
+};
 
 
 export interface __StandardFormat$views {
@@ -204,9 +230,7 @@ export interface __StandardFormat$views {
 export type StandardFormat = StandardFormat$instance & __StandardFormat$views;
 
 
-export class ArrayBufferWriter_1$instance<T> {
-    constructor();
-    constructor(initialCapacity: int);
+export interface ArrayBufferWriter_1$instance<T> {
     readonly capacity: int;
     readonly freeCapacity: int;
     readonly writtenCount: int;
@@ -220,6 +244,12 @@ export class ArrayBufferWriter_1$instance<T> {
 }
 
 
+export const ArrayBufferWriter_1: {
+    new<T>(): ArrayBufferWriter_1$instance<T>;
+    new<T>(initialCapacity: int): ArrayBufferWriter_1$instance<T>;
+};
+
+
 export interface __ArrayBufferWriter_1$views<T> {
     As_IBufferWriter_1(): IBufferWriter_1$instance<T>;
 }
@@ -229,23 +259,31 @@ export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instanc
 export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBufferWriter_1$views<T>;
 
 
-export abstract class ArrayPool_1$instance<T> {
-    abstract rent(minimumLength: int): T[];
-    abstract return_(array: T[], clearArray?: boolean): void;
-    static readonly shared: unknown;
-    static create<T>(): ArrayPool_1<T>;
-    static create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+export interface ArrayPool_1$instance<T> {
+    rent(minimumLength: int): T[];
+    return_(array: T[], clearArray?: boolean): void;
 }
+
+
+export const ArrayPool_1: {
+    readonly shared: unknown;
+    create<T>(): ArrayPool_1<T>;
+    create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+};
 
 
 export type ArrayPool_1<T> = ArrayPool_1$instance<T>;
 
-export abstract class MemoryManager_1$instance<T> {
+export interface MemoryManager_1$instance<T> {
     readonly memory: Memory_1<T>;
-    abstract getSpan(): Span_1<T>;
-    abstract pin(elementIndex?: int): MemoryHandle;
-    abstract unpin(): void;
+    getSpan(): Span_1<T>;
+    pin(elementIndex?: int): MemoryHandle;
+    unpin(): void;
 }
+
+
+export const MemoryManager_1: {
+};
 
 
 export interface __MemoryManager_1$views<T> {
@@ -259,12 +297,16 @@ export interface MemoryManager_1$instance<T> extends IMemoryOwner_1$instance<T> 
 export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
 
 
-export abstract class MemoryPool_1$instance<T> {
+export interface MemoryPool_1$instance<T> {
     readonly maxBufferSize: int;
     dispose(): void;
-    abstract rent(minBufferSize?: int): IMemoryOwner_1<T>;
-    static readonly shared: unknown;
+    rent(minBufferSize?: int): IMemoryOwner_1<T>;
 }
+
+
+export const MemoryPool_1: {
+    readonly shared: unknown;
+};
 
 
 export interface __MemoryPool_1$views<T> {
@@ -276,57 +318,30 @@ export interface MemoryPool_1$instance<T> extends System_Internal.IDisposable$in
 export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>;
 
 
-export abstract class ReadOnlySequenceSegment_1$instance<T> {
+export interface ReadOnlySequenceSegment_1$instance<T> {
     readonly memory: ReadOnlyMemory_1<T>;
     readonly next: ReadOnlySequenceSegment_1<T>;
     readonly runningIndex: long;
 }
 
 
+export const ReadOnlySequenceSegment_1: {
+};
+
+
 export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
 
-export class ReadOnlySpanAction_2$instance<T, TArg> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(span: ReadOnlySpan_1<T>, arg: TArg): void;
-}
-
-
-export interface __ReadOnlySpanAction_2$views<T, TArg> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ReadOnlySpanAction_2<T, TArg> = ReadOnlySpanAction_2$instance<T, TArg> & __ReadOnlySpanAction_2$views<T, TArg>;
-
-
-export class SearchValues_1$instance<T extends IEquatable_1<T>> {
+export interface SearchValues_1$instance<T extends IEquatable_1<T>> {
     contains(value: T): boolean;
 }
 
 
+export const SearchValues_1: {
+    new<T extends IEquatable_1<T>>(): SearchValues_1$instance<T>;
+};
+
+
 export type SearchValues_1<T extends IEquatable_1<T>> = SearchValues_1$instance<T>;
-
-export class SpanAction_2$instance<T, TArg> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(span: Span_1<T>, arg: TArg): void;
-}
-
-
-export interface __SpanAction_2$views<T, TArg> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type SpanAction_2<T, TArg> = SpanAction_2$instance<T, TArg> & __SpanAction_2$views<T, TArg>;
-
 
 export abstract class BuffersExtensions$instance {
     static copyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;

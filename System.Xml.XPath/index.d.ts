@@ -20,17 +20,17 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export type IXPathNavigable = Internal.IXPathNavigable;
-export { XPathDocument$instance as XPathDocument } from './internal/index.js';
-export { XPathException$instance as XPathException } from './internal/index.js';
+export { XPathDocument as XPathDocument } from './internal/index.js';
+export { XPathException as XPathException } from './internal/index.js';
 export { XmlSortOrder as XmlSortOrder } from './internal/index.js';
 export { XmlCaseOrder as XmlCaseOrder } from './internal/index.js';
 export { XmlDataType as XmlDataType } from './internal/index.js';
 export { XPathResultType as XPathResultType } from './internal/index.js';
-export { XPathExpression$instance as XPathExpression } from './internal/index.js';
-export { XPathItem$instance as XPathItem } from './internal/index.js';
+export { XPathExpression as XPathExpression } from './internal/index.js';
+export { XPathItem as XPathItem } from './internal/index.js';
 export { XPathNamespaceScope as XPathNamespaceScope } from './internal/index.js';
-export { XPathNavigator$instance as XPathNavigator } from './internal/index.js';
-export { XPathNodeIterator$instance as XPathNodeIterator } from './internal/index.js';
+export { XPathNavigator as XPathNavigator } from './internal/index.js';
+export { XPathNodeIterator as XPathNodeIterator } from './internal/index.js';
 export { XPathNodeType as XPathNodeType } from './internal/index.js';
 export { Extensions$instance as Extensions } from './internal/index.js';
 export { XDocumentExtensions$instance as XDocumentExtensions } from './internal/index.js';

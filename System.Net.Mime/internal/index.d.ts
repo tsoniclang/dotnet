@@ -44,9 +44,7 @@ export enum TransferEncoding {
 }
 
 
-export class ContentDisposition$instance {
-    constructor();
-    constructor(disposition: string);
+export interface ContentDisposition$instance {
     creationDate: DateTime;
     dispositionType: string;
     fileName: string;
@@ -61,11 +59,15 @@ export class ContentDisposition$instance {
 }
 
 
+export const ContentDisposition: {
+    new(): ContentDisposition$instance;
+    new(disposition: string): ContentDisposition$instance;
+};
+
+
 export type ContentDisposition = ContentDisposition$instance;
 
-export class ContentType$instance {
-    constructor();
-    constructor(contentType: string);
+export interface ContentType$instance {
     boundary: string;
     charSet: string;
     mediaType: string;
@@ -75,6 +77,12 @@ export class ContentType$instance {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const ContentType: {
+    new(): ContentType$instance;
+    new(contentType: string): ContentType$instance;
+};
 
 
 export type ContentType = ContentType$instance;

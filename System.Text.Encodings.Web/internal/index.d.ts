@@ -41,26 +41,34 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export abstract class HtmlEncoder$instance extends TextEncoder$instance {
-    static readonly default_: HtmlEncoder;
-    static create(settings: TextEncoderSettings): HtmlEncoder;
-    static create(allowedRanges: UnicodeRange[]): HtmlEncoder;
+export interface HtmlEncoder$instance extends TextEncoder {
 }
+
+
+export const HtmlEncoder: {
+    readonly default_: HtmlEncoder;
+    create(settings: TextEncoderSettings): HtmlEncoder;
+    create(allowedRanges: UnicodeRange[]): HtmlEncoder;
+};
 
 
 export type HtmlEncoder = HtmlEncoder$instance;
 
-export abstract class JavaScriptEncoder$instance extends TextEncoder$instance {
-    static readonly default_: JavaScriptEncoder;
-    static readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
-    static create(settings: TextEncoderSettings): JavaScriptEncoder;
-    static create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
+export interface JavaScriptEncoder$instance extends TextEncoder {
 }
+
+
+export const JavaScriptEncoder: {
+    readonly default_: JavaScriptEncoder;
+    readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
+    create(settings: TextEncoderSettings): JavaScriptEncoder;
+    create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
+};
 
 
 export type JavaScriptEncoder = JavaScriptEncoder$instance;
 
-export abstract class TextEncoder$instance {
+export interface TextEncoder$instance {
     readonly maxOutputCharactersPerInputCharacter: int;
     encode(value: string): string;
     encode(output: TextWriter, value: string): void;
@@ -68,19 +76,20 @@ export abstract class TextEncoder$instance {
     encode(output: TextWriter, value: char[], startIndex: int, characterCount: int): void;
     encode(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsConsumed: { value: ref<int> }, charsWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
     encodeUtf8(utf8Source: ReadOnlySpan_1<CLROf<byte>>, utf8Destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock?: boolean): OperationStatus;
-    abstract findFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
+    findFirstCharacterToEncode(text: ptr<char>, textLength: int): int;
     findFirstCharacterToEncodeUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): int;
-    abstract tryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: { value: ref<int> }): boolean;
-    abstract willEncode(unicodeScalar: int): boolean;
+    tryEncodeUnicodeScalar(unicodeScalar: int, buffer: ptr<char>, bufferLength: int, numberOfCharactersWritten: { value: ref<int> }): boolean;
+    willEncode(unicodeScalar: int): boolean;
 }
+
+
+export const TextEncoder: {
+};
 
 
 export type TextEncoder = TextEncoder$instance;
 
-export class TextEncoderSettings$instance {
-    constructor();
-    constructor(other: TextEncoderSettings);
-    constructor(allowedRanges: UnicodeRange[]);
+export interface TextEncoderSettings$instance {
     allowCharacter(character: char): void;
     allowCharacters(characters: char[]): void;
     allowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
@@ -95,13 +104,24 @@ export class TextEncoderSettings$instance {
 }
 
 
+export const TextEncoderSettings: {
+    new(): TextEncoderSettings$instance;
+    new(other: TextEncoderSettings): TextEncoderSettings$instance;
+    new(allowedRanges: UnicodeRange[]): TextEncoderSettings$instance;
+};
+
+
 export type TextEncoderSettings = TextEncoderSettings$instance;
 
-export abstract class UrlEncoder$instance extends TextEncoder$instance {
-    static readonly default_: UrlEncoder;
-    static create(settings: TextEncoderSettings): UrlEncoder;
-    static create(allowedRanges: UnicodeRange[]): UrlEncoder;
+export interface UrlEncoder$instance extends TextEncoder {
 }
+
+
+export const UrlEncoder: {
+    readonly default_: UrlEncoder;
+    create(settings: TextEncoderSettings): UrlEncoder;
+    create(allowedRanges: UnicodeRange[]): UrlEncoder;
+};
 
 
 export type UrlEncoder = UrlEncoder$instance;

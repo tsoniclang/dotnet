@@ -14,6 +14,6 @@ import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPt
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { AssemblyLoadContext$instance as AssemblyLoadContext } from './internal/index.js';
-export { AssemblyLoadContext_ContextualReflectionScope$instance as AssemblyLoadContext_ContextualReflectionScope } from './internal/index.js';
-export { AssemblyDependencyResolver$instance as AssemblyDependencyResolver } from './internal/index.js';
+export { AssemblyLoadContext as AssemblyLoadContext } from './internal/index.js';
+export { AssemblyLoadContext_ContextualReflectionScope as AssemblyLoadContext_ContextualReflectionScope } from './internal/index.js';
+export { AssemblyDependencyResolver as AssemblyDependencyResolver } from './internal/index.js';
