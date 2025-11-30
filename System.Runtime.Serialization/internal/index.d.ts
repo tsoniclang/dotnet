@@ -704,8 +704,8 @@ export abstract class FormatterServices$instance {
     static checkTypeSecurity(t: Type, securityLevel: TypeFilterLevel): void;
     static getObjectData(obj: unknown, members: MemberInfo[]): unknown[];
     static getSafeUninitializedObject(type_: Type): unknown;
-    static getSerializableMembers2(type_: Type, context: StreamingContext): MemberInfo[];
-    static getSerializableMembers2(type_: Type): MemberInfo[];
+    static getSerializableMembers(type_: Type, context: StreamingContext): MemberInfo[];
+    static getSerializableMembers(type_: Type): MemberInfo[];
     static getSurrogateForCyclicalReference(innerSurrogate: ISerializationSurrogate): ISerializationSurrogate;
     static getTypeFromAssembly(assem: Assembly, name: string): Type;
     static getUninitializedObject(type_: Type): unknown;
@@ -767,8 +767,8 @@ export abstract class XmlSerializableServices$instance {
 export type XmlSerializableServices = XmlSerializableServices$instance;
 
 export abstract class XPathQueryGenerator$instance {
-    static createFromDataContractSerializer2(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder, namespaces: { value: ref<XmlNamespaceManager> }): string;
-    static createFromDataContractSerializer2(type_: Type, pathToMember: MemberInfo[], namespaces: { value: ref<XmlNamespaceManager> }): string;
+    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder, namespaces: { value: ref<XmlNamespaceManager> }): string;
+    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], namespaces: { value: ref<XmlNamespaceManager> }): string;
 }
 
 

@@ -3519,7 +3519,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "AddAccess",
-          "tsEmitName": "addAccess2",
+          "tsEmitName": "addAccess",
           "normalizedSignature": "AddAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3535,7 +3535,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::AddAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
           "clrName": "AddAccess",
-          "tsEmitName": "addAccess3",
+          "tsEmitName": "addAccess",
           "normalizedSignature": "AddAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3567,7 +3567,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
           "clrName": "RemoveAccess",
-          "tsEmitName": "removeAccess2",
+          "tsEmitName": "removeAccess",
           "normalizedSignature": "RemoveAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3583,7 +3583,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Boolean",
           "clrName": "RemoveAccess",
-          "tsEmitName": "removeAccess3",
+          "tsEmitName": "removeAccess",
           "normalizedSignature": "RemoveAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3615,7 +3615,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "RemoveAccessSpecific",
-          "tsEmitName": "removeAccessSpecific2",
+          "tsEmitName": "removeAccessSpecific",
           "normalizedSignature": "RemoveAccessSpecific|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3631,7 +3631,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::RemoveAccessSpecific(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
           "clrName": "RemoveAccessSpecific",
-          "tsEmitName": "removeAccessSpecific3",
+          "tsEmitName": "removeAccessSpecific",
           "normalizedSignature": "RemoveAccessSpecific|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3663,7 +3663,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "SetAccess",
-          "tsEmitName": "setAccess2",
+          "tsEmitName": "setAccess",
           "normalizedSignature": "SetAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3679,7 +3679,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.DiscretionaryAcl::SetAccess(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void",
           "clrName": "SetAccess",
-          "tsEmitName": "setAccess3",
+          "tsEmitName": "setAccess",
           "normalizedSignature": "SetAccess|(System.Security.AccessControl.AccessControlType,System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAccessRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6169,7 +6169,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorBinaryForm(System.Byte[],System.Security.AccessControl.AccessControlSections):System.Void",
           "clrName": "SetSecurityDescriptorBinaryForm",
-          "tsEmitName": "setSecurityDescriptorBinaryForm2",
+          "tsEmitName": "setSecurityDescriptorBinaryForm",
           "normalizedSignature": "SetSecurityDescriptorBinaryForm|(System.Byte[],System.Security.AccessControl.AccessControlSections):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6201,7 +6201,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectSecurity::SetSecurityDescriptorSddlForm(System.String,System.Security.AccessControl.AccessControlSections):System.Void",
           "clrName": "SetSecurityDescriptorSddlForm",
-          "tsEmitName": "setSecurityDescriptorSddlForm2",
+          "tsEmitName": "setSecurityDescriptorSddlForm",
           "normalizedSignature": "SetSecurityDescriptorSddlForm|(System.String,System.Security.AccessControl.AccessControlSections):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7963,7 +7963,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "AddAudit",
-          "tsEmitName": "addAudit2",
+          "tsEmitName": "addAudit",
           "normalizedSignature": "AddAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7979,7 +7979,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::AddAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
           "clrName": "AddAudit",
-          "tsEmitName": "addAudit3",
+          "tsEmitName": "addAudit",
           "normalizedSignature": "AddAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8011,7 +8011,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean",
           "clrName": "RemoveAudit",
-          "tsEmitName": "removeAudit2",
+          "tsEmitName": "removeAudit",
           "normalizedSignature": "RemoveAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8027,7 +8027,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Boolean",
           "clrName": "RemoveAudit",
-          "tsEmitName": "removeAudit3",
+          "tsEmitName": "removeAudit",
           "normalizedSignature": "RemoveAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8059,7 +8059,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "RemoveAuditSpecific",
-          "tsEmitName": "removeAuditSpecific2",
+          "tsEmitName": "removeAuditSpecific",
           "normalizedSignature": "RemoveAuditSpecific|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8075,7 +8075,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::RemoveAuditSpecific(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
           "clrName": "RemoveAuditSpecific",
-          "tsEmitName": "removeAuditSpecific3",
+          "tsEmitName": "removeAuditSpecific",
           "normalizedSignature": "RemoveAuditSpecific|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8107,7 +8107,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void",
           "clrName": "SetAudit",
-          "tsEmitName": "setAudit2",
+          "tsEmitName": "setAudit",
           "normalizedSignature": "SetAudit|(System.Security.AccessControl.AuditFlags,System.Security.Principal.SecurityIdentifier,System.Int32,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.ObjectAceFlags,System.Guid,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8123,7 +8123,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SystemAcl::SetAudit(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void",
           "clrName": "SetAudit",
-          "tsEmitName": "setAudit3",
+          "tsEmitName": "setAudit",
           "normalizedSignature": "SetAudit|(System.Security.Principal.SecurityIdentifier,System.Security.AccessControl.ObjectAuditRule):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

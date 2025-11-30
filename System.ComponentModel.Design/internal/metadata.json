@@ -669,7 +669,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateComponent(System.Type,System.String):System.ComponentModel.IComponent",
           "clrName": "CreateComponent",
-          "tsEmitName": "createComponent2",
+          "tsEmitName": "createComponent",
           "normalizedSignature": "CreateComponent|(System.Type,System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -701,7 +701,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IDesignerHost::CreateTransaction(System.String):System.ComponentModel.Design.DesignerTransaction",
           "clrName": "CreateTransaction",
-          "tsEmitName": "createTransaction2",
+          "tsEmitName": "createTransaction",
           "normalizedSignature": "CreateTransaction|(System.String):System.ComponentModel.Design.DesignerTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService2",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -797,7 +797,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService3",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -813,7 +813,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService4",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -845,7 +845,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "removeService2",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1226,7 +1226,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::ShowCode(System.Int32):System.Boolean",
           "clrName": "ShowCode",
-          "tsEmitName": "showCode2",
+          "tsEmitName": "showCode",
           "normalizedSignature": "ShowCode|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1242,7 +1242,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IEventBindingService::ShowCode(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.Boolean",
           "clrName": "ShowCode",
-          "tsEmitName": "showCode3",
+          "tsEmitName": "showCode",
           "normalizedSignature": "ShowCode|(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1680,7 +1680,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IReferenceService::GetReferences(System.Type):System.Object[]",
           "clrName": "GetReferences",
-          "tsEmitName": "getReferences2",
+          "tsEmitName": "getReferences",
           "normalizedSignature": "GetReferences|(System.Type):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1921,7 +1921,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ISelectionService::SetSelectedComponents(System.Collections.ICollection,System.ComponentModel.Design.SelectionTypes):System.Void",
           "clrName": "SetSelectedComponents",
-          "tsEmitName": "setSelectedComponents2",
+          "tsEmitName": "setSelectedComponents",
           "normalizedSignature": "SetSelectedComponents|(System.Collections.ICollection,System.ComponentModel.Design.SelectionTypes):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2009,7 +2009,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService2",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2025,7 +2025,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService3",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2041,7 +2041,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService4",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2073,7 +2073,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.IServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "removeService2",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2314,7 +2314,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetAssembly(System.Reflection.AssemblyName,System.Boolean):System.Reflection.Assembly",
           "clrName": "GetAssembly",
-          "tsEmitName": "getAssembly2",
+          "tsEmitName": "getAssembly",
           "normalizedSignature": "GetAssembly|(System.Reflection.AssemblyName,System.Boolean):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2346,7 +2346,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetType(System.String,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType2",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2362,7 +2362,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ITypeResolutionService::GetType(System.String,System.Boolean,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType3",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4793,7 +4793,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerVerbCollection::AddRange(System.ComponentModel.Design.DesignerVerbCollection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.ComponentModel.Design.DesignerVerbCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5537,7 +5537,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.MenuCommand::Invoke(System.Object):System.Void",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5722,7 +5722,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.Object,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService2",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.Object,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5738,7 +5738,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService3",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5754,7 +5754,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::AddService(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void",
           "clrName": "AddService",
-          "tsEmitName": "addService4",
+          "tsEmitName": "addService",
           "normalizedSignature": "AddService|(System.Type,System.ComponentModel.Design.ServiceCreatorCallback,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5818,7 +5818,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ServiceContainer::RemoveService(System.Type,System.Boolean):System.Void",
           "clrName": "RemoveService",
-          "tsEmitName": "removeService2",
+          "tsEmitName": "removeService",
           "normalizedSignature": "RemoveService|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6764,7 +6764,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.TypeDescriptionProviderService::GetProvider(System.Type):System.ComponentModel.TypeDescriptionProvider",
           "clrName": "GetProvider",
-          "tsEmitName": "getProvider2",
+          "tsEmitName": "getProvider",
           "normalizedSignature": "GetProvider|(System.Type):System.ComponentModel.TypeDescriptionProvider|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -277,9 +277,9 @@ export class XmlSchema$instance extends XmlSchemaObject$instance {
     write(writer: XmlWriter, namespaceManager: XmlNamespaceManager): void;
     static readonly namespace_: string;
     static readonly instanceNamespace: string;
-    static read2(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema;
-    static read2(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema;
-    static read2(reader: XmlReader, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema;
+    static read(reader: XmlReader, validationEventHandler: ValidationEventHandler): XmlSchema;
 }
 
 
@@ -416,6 +416,7 @@ export type XmlSchemaCollection = XmlSchemaCollection$instance & __XmlSchemaColl
 export class XmlSchemaCollectionEnumerator$instance {
     readonly current: unknown | XmlSchema;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1002,8 +1003,8 @@ export class XmlSchemaType$instance extends XmlSchemaAnnotated$instance {
     readonly typeCode: XmlTypeCode;
     static getBuiltInComplexType(typeCode: XmlTypeCode): XmlSchemaComplexType;
     static getBuiltInComplexType(qualifiedName: XmlQualifiedName): XmlSchemaComplexType;
-    static getBuiltInSimpleType2(typeCode: XmlTypeCode): XmlSchemaSimpleType;
-    static getBuiltInSimpleType2(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType;
+    static getBuiltInSimpleType(typeCode: XmlTypeCode): XmlSchemaSimpleType;
+    static getBuiltInSimpleType(qualifiedName: XmlQualifiedName): XmlSchemaSimpleType;
     static isDerivedFrom(derivedType: XmlSchemaType, baseType: XmlSchemaType, except: XmlSchemaDerivationMethod): boolean;
 }
 
@@ -1098,14 +1099,14 @@ export type XmlValueGetter = XmlValueGetter$instance & __XmlValueGetter$views;
 
 
 export abstract class Extensions$instance {
-    static getSchemaInfo2(source: XAttribute): IXmlSchemaInfo;
-    static getSchemaInfo2(source: XElement): IXmlSchemaInfo;
-    static validate6(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate6(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static validate6(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate6(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
-    static validate6(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
-    static validate6(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static getSchemaInfo(source: XAttribute): IXmlSchemaInfo;
+    static getSchemaInfo(source: XElement): IXmlSchemaInfo;
+    static validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate(source: XAttribute, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate(source: XDocument, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
+    static validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler, addSchemaInfo: boolean): void;
+    static validate(source: XElement, partialValidationType: XmlSchemaObject, schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): void;
 }
 
 

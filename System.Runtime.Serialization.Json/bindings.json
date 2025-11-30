@@ -25,7 +25,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer::SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput2",
+          "tsEmitName": "setInput",
           "metadataToken": 100666981,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "normalizedSignature": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
@@ -53,7 +53,7 @@
           }
         },
         {
-          "tsName": "setInput2",
+          "tsName": "setInput",
           "isStatic": false,
           "tsSignatureId": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "target": {
@@ -155,7 +155,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject2",
+          "tsEmitName": "isStartObject",
           "metadataToken": 100666923,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader):System.Boolean",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
@@ -183,7 +183,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject2",
+          "tsEmitName": "readObject",
           "metadataToken": 100666925,
           "canonicalSignature": "(System.Xml.XmlReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject3",
+          "tsEmitName": "readObject",
           "metadataToken": 100666926,
           "canonicalSignature": "(System.Xml.XmlReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "readObject",
           "metadataToken": 100666927,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
@@ -225,7 +225,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject5",
+          "tsEmitName": "readObject",
           "metadataToken": 100666928,
           "canonicalSignature": "(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject2",
+          "tsEmitName": "writeEndObject",
           "metadataToken": 100666930,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter):System.Void",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
@@ -281,7 +281,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject2",
+          "tsEmitName": "writeObject",
           "metadataToken": 100666932,
           "canonicalSignature": "(System.Xml.XmlWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject3",
+          "tsEmitName": "writeObject",
           "metadataToken": 100666933,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent2",
+          "tsEmitName": "writeObjectContent",
           "metadataToken": 100666935,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -351,7 +351,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.DataContractJsonSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "writeStartObject",
           "metadataToken": 100666937,
           "canonicalSignature": "(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
@@ -569,7 +569,7 @@
           }
         },
         {
-          "tsName": "isStartObject2",
+          "tsName": "isStartObject",
           "isStatic": false,
           "tsSignatureId": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
           "target": {
@@ -589,7 +589,7 @@
           }
         },
         {
-          "tsName": "readObject2",
+          "tsName": "readObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
           "target": {
@@ -599,7 +599,7 @@
           }
         },
         {
-          "tsName": "readObject3",
+          "tsName": "readObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -609,7 +609,7 @@
           }
         },
         {
-          "tsName": "readObject4",
+          "tsName": "readObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
           "target": {
@@ -619,7 +619,7 @@
           }
         },
         {
-          "tsName": "readObject5",
+          "tsName": "readObject",
           "isStatic": false,
           "tsSignatureId": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "target": {
@@ -639,7 +639,7 @@
           }
         },
         {
-          "tsName": "writeEndObject2",
+          "tsName": "writeEndObject",
           "isStatic": false,
           "tsSignatureId": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
           "target": {
@@ -659,7 +659,7 @@
           }
         },
         {
-          "tsName": "writeObject2",
+          "tsName": "writeObject",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "target": {
@@ -669,7 +669,7 @@
           }
         },
         {
-          "tsName": "writeObject3",
+          "tsName": "writeObject",
           "isStatic": false,
           "tsSignatureId": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -689,7 +689,7 @@
           }
         },
         {
-          "tsName": "writeObjectContent2",
+          "tsName": "writeObjectContent",
           "isStatic": false,
           "tsSignatureId": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -709,7 +709,7 @@
           }
         },
         {
-          "tsName": "writeStartObject2",
+          "tsName": "writeStartObject",
           "isStatic": false,
           "tsSignatureId": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "target": {
@@ -1355,7 +1355,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader2",
+          "tsEmitName": "createJsonReader",
           "metadataToken": 100667124,
           "canonicalSignature": "(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
@@ -1369,7 +1369,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader3",
+          "tsEmitName": "createJsonReader",
           "metadataToken": 100667125,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
@@ -1383,7 +1383,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader4",
+          "tsEmitName": "createJsonReader",
           "metadataToken": 100667126,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
@@ -1397,7 +1397,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateJsonReader",
-          "tsEmitName": "createJsonReader5",
+          "tsEmitName": "createJsonReader",
           "metadataToken": 100667127,
           "canonicalSignature": "(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "normalizedSignature": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter2",
+          "tsEmitName": "createJsonWriter",
           "metadataToken": 100667129,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter3",
+          "tsEmitName": "createJsonWriter",
           "metadataToken": 100667130,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
@@ -1453,7 +1453,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter4",
+          "tsEmitName": "createJsonWriter",
           "metadataToken": 100667131,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
@@ -1467,7 +1467,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.Json.JsonReaderWriterFactory::CreateJsonWriter(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateJsonWriter",
-          "tsEmitName": "createJsonWriter5",
+          "tsEmitName": "createJsonWriter",
           "metadataToken": 100667132,
           "canonicalSignature": "(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter",
           "normalizedSignature": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter|static=true",
@@ -1495,7 +1495,7 @@
           }
         },
         {
-          "tsName": "createJsonReader2",
+          "tsName": "createJsonReader",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1505,7 +1505,7 @@
           }
         },
         {
-          "tsName": "createJsonReader3",
+          "tsName": "createJsonReader",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1515,7 +1515,7 @@
           }
         },
         {
-          "tsName": "createJsonReader4",
+          "tsName": "createJsonReader",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1525,7 +1525,7 @@
           }
         },
         {
-          "tsName": "createJsonReader5",
+          "tsName": "createJsonReader",
           "isStatic": true,
           "tsSignatureId": "CreateJsonReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "target": {
@@ -1545,7 +1545,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter2",
+          "tsName": "createJsonWriter",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1555,7 +1555,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter3",
+          "tsName": "createJsonWriter",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1565,7 +1565,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter4",
+          "tsName": "createJsonWriter",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "target": {
@@ -1575,7 +1575,7 @@
           }
         },
         {
-          "tsName": "createJsonWriter5",
+          "tsName": "createJsonWriter",
           "isStatic": true,
           "tsSignatureId": "CreateJsonWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Boolean,System.String):System.Xml.XmlDictionaryWriter|static=true",
           "target": {

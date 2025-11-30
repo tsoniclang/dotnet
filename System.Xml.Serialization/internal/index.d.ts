@@ -673,6 +673,7 @@ export class XmlSchemaEnumerator$instance implements System_Internal.IDisposable
     readonly current: XmlSchema;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -728,10 +729,12 @@ export type XmlSchemaProviderAttribute = XmlSchemaProviderAttribute$instance;
 export class XmlSchemas$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     readonly isCompiled: boolean;
+    add(schemas: XmlSchemas): void;
     add(value: unknown): int;
     addReference(schema: XmlSchema): void;
     clear(): void;
     compile(handler: ValidationEventHandler, fullCompile: boolean): void;
+    contains(schema: XmlSchema): boolean;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(name: XmlQualifiedName, type_: Type): unknown;
@@ -872,11 +875,11 @@ export class XmlSerializer$instance {
     serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces): void;
     serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces, encodingStyle: string): void;
     serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces, encodingStyle: string, id: string): void;
-    static fromMappings2(mappings: XmlMapping[], type_: Type): XmlSerializer[];
-    static fromMappings2(mappings: XmlMapping[]): XmlSerializer[];
+    static fromMappings(mappings: XmlMapping[], type_: Type): XmlSerializer[];
+    static fromMappings(mappings: XmlMapping[]): XmlSerializer[];
     static fromTypes(types: Type[]): XmlSerializer[];
-    static getXmlSerializerAssemblyName2(type_: Type, defaultNamespace: string): string;
-    static getXmlSerializerAssemblyName2(type_: Type): string;
+    static getXmlSerializerAssemblyName(type_: Type, defaultNamespace: string): string;
+    static getXmlSerializerAssemblyName(type_: Type): string;
 }
 
 

@@ -492,7 +492,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -500,7 +500,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -640,7 +639,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -648,7 +647,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -926,7 +924,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.CaptureCollection::CopyTo(System.Text.RegularExpressions.Capture[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Capture[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1649,7 +1647,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::CopyTo(System.Text.RegularExpressions.Group[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Group[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2431,7 +2429,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchCollection::CopyTo(System.Text.RegularExpressions.Match[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Match[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3093,7 +3091,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void",
           "clrName": "CompileToAssembly",
-          "tsEmitName": "compileToAssembly2",
+          "tsEmitName": "compileToAssembly",
           "normalizedSignature": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3109,7 +3107,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void",
           "clrName": "CompileToAssembly",
-          "tsEmitName": "compileToAssembly3",
+          "tsEmitName": "compileToAssembly",
           "normalizedSignature": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3253,7 +3251,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count2",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3269,7 +3267,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count3",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3301,7 +3299,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count2",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3317,7 +3315,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count3",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3333,7 +3331,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count4",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3349,7 +3347,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count5",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3365,7 +3363,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count6",
+          "tsEmitName": "count",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3397,7 +3395,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch2",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3413,7 +3411,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch3",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3429,7 +3427,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch4",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3445,7 +3443,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch5",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3461,7 +3459,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch6",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3493,7 +3491,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.Int32):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch2",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.String,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3509,7 +3507,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch3",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3525,7 +3523,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch4",
+          "tsEmitName": "isMatch",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3557,7 +3555,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match2",
+          "tsEmitName": "match",
           "normalizedSignature": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3573,7 +3571,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match3",
+          "tsEmitName": "match",
           "normalizedSignature": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3605,7 +3603,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match2",
+          "tsEmitName": "match",
           "normalizedSignature": "Match|(System.String,System.Int32):System.Text.RegularExpressions.Match|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3621,7 +3619,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match3",
+          "tsEmitName": "match",
           "normalizedSignature": "Match|(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3653,7 +3651,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches2",
+          "tsEmitName": "matches",
           "normalizedSignature": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3669,7 +3667,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches3",
+          "tsEmitName": "matches",
           "normalizedSignature": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3701,7 +3699,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches2",
+          "tsEmitName": "matches",
           "normalizedSignature": "Matches|(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3733,7 +3731,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3749,7 +3747,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace3",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3781,7 +3779,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3797,7 +3795,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace3",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3813,7 +3811,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace4",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3829,7 +3827,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace5",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3845,7 +3843,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace6",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3861,7 +3859,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace4",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3877,7 +3875,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace5",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3893,7 +3891,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace6",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3925,7 +3923,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split2",
+          "tsEmitName": "split",
           "normalizedSignature": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3941,7 +3939,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split3",
+          "tsEmitName": "split",
           "normalizedSignature": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3973,7 +3971,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split2",
+          "tsEmitName": "split",
           "normalizedSignature": "Split|(System.String,System.Int32):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3989,7 +3987,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32,System.Int32):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split3",
+          "tsEmitName": "split",
           "normalizedSignature": "Split|(System.String,System.Int32,System.Int32):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4021,7 +4019,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches2",
+          "tsEmitName": "enumerateMatches",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4037,7 +4035,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches3",
+          "tsEmitName": "enumerateMatches",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4069,7 +4067,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches2",
+          "tsEmitName": "enumerateMatches",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4101,7 +4099,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits2",
+          "tsEmitName": "enumerateSplits",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4117,7 +4115,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits3",
+          "tsEmitName": "enumerateSplits",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4149,7 +4147,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits2",
+          "tsEmitName": "enumerateSplits",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4165,7 +4163,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits3",
+          "tsEmitName": "enumerateSplits",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

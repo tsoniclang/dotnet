@@ -911,7 +911,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.BlobEncoder::CustomAttributeSignature(System.Action_1[[System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "CustomAttributeSignature",
-          "tsEmitName": "customAttributeSignature2",
+          "tsEmitName": "customAttributeSignature",
           "normalizedSignature": "CustomAttributeSignature|(System.Action_1[[System.Reflection.Metadata.Ecma335.FixedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeNamedArgumentsEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1522,7 +1522,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry::Equals(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Reflection.Metadata.Ecma335.EditAndContinueLogEntry):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2014,7 +2014,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Token(System.Int32):System.Void",
           "clrName": "Token",
-          "tsEmitName": "token2",
+          "tsEmitName": "token",
           "normalizedSignature": "Token|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2062,7 +2062,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MethodDefinitionHandle):System.Void",
           "clrName": "Call",
-          "tsEmitName": "call2",
+          "tsEmitName": "call",
           "normalizedSignature": "Call|(System.Reflection.Metadata.MethodDefinitionHandle):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2078,7 +2078,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MethodSpecificationHandle):System.Void",
           "clrName": "Call",
-          "tsEmitName": "call3",
+          "tsEmitName": "call",
           "normalizedSignature": "Call|(System.Reflection.Metadata.MethodSpecificationHandle):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2094,7 +2094,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Call(System.Reflection.Metadata.MemberReferenceHandle):System.Void",
           "clrName": "Call",
-          "tsEmitName": "call4",
+          "tsEmitName": "call",
           "normalizedSignature": "Call|(System.Reflection.Metadata.MemberReferenceHandle):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2435,7 +2435,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LabelHandle::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2564,7 +2564,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedVector(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.VectorEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "TaggedVector",
-          "tsEmitName": "taggedVector2",
+          "tsEmitName": "taggedVector",
           "normalizedSignature": "TaggedVector|(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeArrayTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.VectorEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2612,7 +2612,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LiteralEncoder::TaggedScalar(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ScalarEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "TaggedScalar",
-          "tsEmitName": "taggedScalar2",
+          "tsEmitName": "taggedScalar",
           "normalizedSignature": "TaggedScalar|(System.Action_1[[System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ScalarEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2880,7 +2880,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Int32,System.Int32,System.Int32,System.Boolean,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody",
           "clrName": "AddMethodBody",
-          "tsEmitName": "addMethodBody2",
+          "tsEmitName": "addMethodBody",
           "normalizedSignature": "AddMethodBody|(System.Int32,System.Int32,System.Int32,System.Boolean,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder\u002BMethodBody|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2896,7 +2896,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes):System.Int32",
           "clrName": "AddMethodBody",
-          "tsEmitName": "addMethodBody3",
+          "tsEmitName": "addMethodBody",
           "normalizedSignature": "AddMethodBody|(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2912,7 +2912,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyStreamEncoder::AddMethodBody(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Int32",
           "clrName": "AddMethodBody",
-          "tsEmitName": "addMethodBody4",
+          "tsEmitName": "addMethodBody",
           "normalizedSignature": "AddMethodBody|(System.Reflection.Metadata.Ecma335.InstructionEncoder,System.Int32,System.Reflection.Metadata.StandaloneSignatureHandle,System.Reflection.Metadata.Ecma335.MethodBodyAttributes,System.Boolean):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3045,7 +3045,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodSignatureEncoder::Parameters(System.Int32,System.Action_1[[System.Reflection.Metadata.Ecma335.ReturnTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ParametersEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "Parameters",
-          "tsEmitName": "parameters2",
+          "tsEmitName": "parameters",
           "normalizedSignature": "Parameters|(System.Int32,System.Action_1[[System.Reflection.Metadata.Ecma335.ReturnTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ParametersEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3131,7 +3131,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.NamedArgumentsEncoder::AddArgument(System.Boolean,System.Action_1[[System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.NameEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.LiteralEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "AddArgument",
-          "tsEmitName": "addArgument2",
+          "tsEmitName": "addArgument",
           "normalizedSignature": "AddArgument|(System.Boolean,System.Action_1[[System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.NameEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.LiteralEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3517,7 +3517,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.PermissionSetEncoder::AddPermission(System.String,System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.Ecma335.PermissionSetEncoder",
           "clrName": "AddPermission",
-          "tsEmitName": "addPermission2",
+          "tsEmitName": "addPermission",
           "normalizedSignature": "AddPermission|(System.String,System.Reflection.Metadata.BlobBuilder):System.Reflection.Metadata.Ecma335.PermissionSetEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4169,7 +4169,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Array(System.Action_1[[System.Reflection.Metadata.Ecma335.SignatureTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ArrayShapeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "Array",
-          "tsEmitName": "array2",
+          "tsEmitName": "array",
           "normalizedSignature": "Array|(System.Action_1[[System.Reflection.Metadata.Ecma335.SignatureTypeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Action_1[[System.Reflection.Metadata.Ecma335.ArrayShapeEncoder,System.Reflection.Metadata,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5355,7 +5355,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::SetCapacity(System.Reflection.Metadata.Ecma335.HeapIndex,System.Int32):System.Void",
           "clrName": "SetCapacity",
-          "tsEmitName": "setCapacity2",
+          "tsEmitName": "setCapacity",
           "normalizedSignature": "SetCapacity|(System.Reflection.Metadata.Ecma335.HeapIndex,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5387,7 +5387,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlob(System.Byte[]):System.Reflection.Metadata.BlobHandle",
           "clrName": "GetOrAddBlob",
-          "tsEmitName": "getOrAddBlob2",
+          "tsEmitName": "getOrAddBlob",
           "normalizedSignature": "GetOrAddBlob|(System.Byte[]):System.Reflection.Metadata.BlobHandle|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5403,7 +5403,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataBuilder::GetOrAddBlob(System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Metadata.BlobHandle",
           "clrName": "GetOrAddBlob",
-          "tsEmitName": "getOrAddBlob3",
+          "tsEmitName": "getOrAddBlob",
           "normalizedSignature": "GetOrAddBlob|(System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Metadata.BlobHandle|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6221,7 +6221,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetNextHandle(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.BlobHandle",
           "clrName": "GetNextHandle",
-          "tsEmitName": "getNextHandle2",
+          "tsEmitName": "getNextHandle",
           "normalizedSignature": "GetNextHandle|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.BlobHandle):System.Reflection.Metadata.BlobHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6237,7 +6237,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataReaderExtensions::GetNextHandle(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.StringHandle",
           "clrName": "GetNextHandle",
-          "tsEmitName": "getNextHandle3",
+          "tsEmitName": "getNextHandle",
           "normalizedSignature": "GetNextHandle|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.StringHandle):System.Reflection.Metadata.StringHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6398,7 +6398,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32",
           "clrName": "GetToken",
-          "tsEmitName": "getToken2",
+          "tsEmitName": "getToken",
           "normalizedSignature": "GetToken|(System.Reflection.Metadata.MetadataReader,System.Reflection.Metadata.Handle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6414,7 +6414,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetRowNumber(System.Reflection.Metadata.EntityHandle):System.Int32",
           "clrName": "GetRowNumber",
-          "tsEmitName": "getRowNumber2",
+          "tsEmitName": "getRowNumber",
           "normalizedSignature": "GetRowNumber|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6430,7 +6430,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.Handle):System.Int32",
           "clrName": "GetHeapOffset",
-          "tsEmitName": "getHeapOffset2",
+          "tsEmitName": "getHeapOffset",
           "normalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.Handle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6446,7 +6446,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.BlobHandle):System.Int32",
           "clrName": "GetHeapOffset",
-          "tsEmitName": "getHeapOffset3",
+          "tsEmitName": "getHeapOffset",
           "normalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.BlobHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6462,7 +6462,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.GuidHandle):System.Int32",
           "clrName": "GetHeapOffset",
-          "tsEmitName": "getHeapOffset4",
+          "tsEmitName": "getHeapOffset",
           "normalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.GuidHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6478,7 +6478,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.UserStringHandle):System.Int32",
           "clrName": "GetHeapOffset",
-          "tsEmitName": "getHeapOffset5",
+          "tsEmitName": "getHeapOffset",
           "normalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.UserStringHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6494,7 +6494,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetHeapOffset(System.Reflection.Metadata.StringHandle):System.Int32",
           "clrName": "GetHeapOffset",
-          "tsEmitName": "getHeapOffset6",
+          "tsEmitName": "getHeapOffset",
           "normalizedSignature": "GetHeapOffset|(System.Reflection.Metadata.StringHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6510,7 +6510,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.Handle):System.Int32",
           "clrName": "GetToken",
-          "tsEmitName": "getToken3",
+          "tsEmitName": "getToken",
           "normalizedSignature": "GetToken|(System.Reflection.Metadata.Handle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6526,7 +6526,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::GetToken(System.Reflection.Metadata.EntityHandle):System.Int32",
           "clrName": "GetToken",
-          "tsEmitName": "getToken4",
+          "tsEmitName": "getToken",
           "normalizedSignature": "GetToken|(System.Reflection.Metadata.EntityHandle):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6606,7 +6606,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::EntityHandle(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle",
           "clrName": "EntityHandle",
-          "tsEmitName": "entityHandle2",
+          "tsEmitName": "entityHandle",
           "normalizedSignature": "EntityHandle|(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6622,7 +6622,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MetadataTokens::Handle(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle",
           "clrName": "Handle",
-          "tsEmitName": "handle2",
+          "tsEmitName": "handle",
           "normalizedSignature": "Handle|(System.Reflection.Metadata.Ecma335.TableIndex,System.Int32):System.Reflection.Metadata.EntityHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

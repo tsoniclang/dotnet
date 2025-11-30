@@ -117,8 +117,8 @@ export interface ISymbolReader$instance {
     getDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument;
     getDocuments(): ISymbolDocument[];
     getGlobalVariables(): ISymbolVariable[];
-    getMethod2(method: SymbolToken, version: int): ISymbolMethod;
-    getMethod2(method: SymbolToken): ISymbolMethod;
+    getMethod(method: SymbolToken, version: int): ISymbolMethod;
+    getMethod(method: SymbolToken): ISymbolMethod;
     getMethodFromDocumentPosition(document: ISymbolDocument, line: int, column: int): ISymbolMethod;
     getNamespaces(): ISymbolNamespace[];
     getSymAttribute(parent: SymbolToken, name: string): byte[];

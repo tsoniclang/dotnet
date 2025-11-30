@@ -301,7 +301,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "OpenExisting",
-          "tsEmitName": "openExisting2",
+          "tsEmitName": "openExisting",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -317,7 +317,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::OpenExisting(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "OpenExisting",
-          "tsEmitName": "openExisting3",
+          "tsEmitName": "openExisting",
           "normalizedSignature": "OpenExisting|(System.String,System.IO.MemoryMappedFiles.MemoryMappedFileRights,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -349,7 +349,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile2",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -365,7 +365,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile3",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -381,7 +381,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile4",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -397,7 +397,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile5",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -413,7 +413,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile6",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -429,7 +429,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateFromFile",
-          "tsEmitName": "createFromFile7",
+          "tsEmitName": "createFromFile",
           "normalizedSignature": "CreateFromFile|(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -461,7 +461,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateNew",
-          "tsEmitName": "createNew2",
+          "tsEmitName": "createNew",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -477,7 +477,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateNew",
-          "tsEmitName": "createNew3",
+          "tsEmitName": "createNew",
           "normalizedSignature": "CreateNew|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -509,7 +509,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateOrOpen",
-          "tsEmitName": "createOrOpen2",
+          "tsEmitName": "createOrOpen",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -525,7 +525,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateOrOpen(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile",
           "clrName": "CreateOrOpen",
-          "tsEmitName": "createOrOpen3",
+          "tsEmitName": "createOrOpen",
           "normalizedSignature": "CreateOrOpen|(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability):System.IO.MemoryMappedFiles.MemoryMappedFile|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "clrName": "CreateViewStream",
-          "tsEmitName": "createViewStream2",
+          "tsEmitName": "createViewStream",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -573,7 +573,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewStream(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream",
           "clrName": "CreateViewStream",
-          "tsEmitName": "createViewStream3",
+          "tsEmitName": "createViewStream",
           "normalizedSignature": "CreateViewStream|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -605,7 +605,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "clrName": "CreateViewAccessor",
-          "tsEmitName": "createViewAccessor2",
+          "tsEmitName": "createViewAccessor",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -621,7 +621,7 @@
         {
           "stableId": "System.IO.MemoryMappedFiles:System.IO.MemoryMappedFiles.MemoryMappedFile::CreateViewAccessor(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor",
           "clrName": "CreateViewAccessor",
-          "tsEmitName": "createViewAccessor3",
+          "tsEmitName": "createViewAccessor",
           "normalizedSignature": "CreateViewAccessor|(System.Int64,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess):System.IO.MemoryMappedFiles.MemoryMappedViewAccessor|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

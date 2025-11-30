@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::BinarySearch(System.Object):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100703440,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "BinarySearch|(System.Object):System.Int32|static=false",
@@ -1671,7 +1671,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::BinarySearch(System.Object,System.Collections.IComparer):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100703441,
           "canonicalSignature": "(System.Object,System.Collections.IComparer):System.Int32",
           "normalizedSignature": "BinarySearch|(System.Object,System.Collections.IComparer):System.Int32|static=false",
@@ -1741,7 +1741,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100703446,
           "canonicalSignature": "(System.Array,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
@@ -1755,7 +1755,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::CopyTo(System.Int32,System.Array,System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "metadataToken": 100703447,
           "canonicalSignature": "(System.Int32,System.Array,System.Int32,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Int32,System.Array,System.Int32,System.Int32):System.Void|static=false",
@@ -1783,7 +1783,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::FixedSize(System.Collections.ArrayList):System.Collections.ArrayList",
           "clrName": "FixedSize",
-          "tsEmitName": "fixedSize2",
+          "tsEmitName": "fixedSize",
           "metadataToken": 100703450,
           "canonicalSignature": "(System.Collections.ArrayList):System.Collections.ArrayList",
           "normalizedSignature": "FixedSize|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
@@ -1811,7 +1811,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::GetEnumerator(System.Int32,System.Int32):System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
-          "tsEmitName": "getEnumerator2",
+          "tsEmitName": "getEnumerator",
           "metadataToken": 100703452,
           "canonicalSignature": "(System.Int32,System.Int32):System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|(System.Int32,System.Int32):System.Collections.IEnumerator|static=false",
@@ -1839,7 +1839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::IndexOf(System.Object,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100703454,
           "canonicalSignature": "(System.Object,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(System.Object,System.Int32):System.Int32|static=false",
@@ -1853,7 +1853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::IndexOf(System.Object,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "metadataToken": 100703455,
           "canonicalSignature": "(System.Object,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(System.Object,System.Int32,System.Int32):System.Int32|static=false",
@@ -1909,7 +1909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::LastIndexOf(System.Object,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100703459,
           "canonicalSignature": "(System.Object,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(System.Object,System.Int32):System.Int32|static=false",
@@ -1923,7 +1923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::LastIndexOf(System.Object,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100703460,
           "canonicalSignature": "(System.Object,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(System.Object,System.Int32,System.Int32):System.Int32|static=false",
@@ -1951,7 +1951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ReadOnly(System.Collections.ArrayList):System.Collections.ArrayList",
           "clrName": "ReadOnly",
-          "tsEmitName": "readOnly2",
+          "tsEmitName": "readOnly",
           "metadataToken": 100703462,
           "canonicalSignature": "(System.Collections.ArrayList):System.Collections.ArrayList",
           "normalizedSignature": "ReadOnly|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
@@ -2035,7 +2035,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Reverse(System.Int32,System.Int32):System.Void",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "metadataToken": 100703468,
           "canonicalSignature": "(System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
@@ -2091,7 +2091,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Sort(System.Collections.IComparer):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "metadataToken": 100703472,
           "canonicalSignature": "(System.Collections.IComparer):System.Void",
           "normalizedSignature": "Sort|(System.Collections.IComparer):System.Void|static=false",
@@ -2105,7 +2105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Sort(System.Int32,System.Int32,System.Collections.IComparer):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "metadataToken": 100703473,
           "canonicalSignature": "(System.Int32,System.Int32,System.Collections.IComparer):System.Void",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,System.Collections.IComparer):System.Void|static=false",
@@ -2133,7 +2133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::Synchronized(System.Collections.ArrayList):System.Collections.ArrayList",
           "clrName": "Synchronized",
-          "tsEmitName": "synchronized2",
+          "tsEmitName": "synchronized",
           "metadataToken": 100703475,
           "canonicalSignature": "(System.Collections.ArrayList):System.Collections.ArrayList",
           "normalizedSignature": "Synchronized|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
@@ -2161,7 +2161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ArrayList::ToArray(System.Type):System.Array",
           "clrName": "ToArray",
-          "tsEmitName": "toArray2",
+          "tsEmitName": "toArray",
           "metadataToken": 100703477,
           "canonicalSignature": "(System.Type):System.Array",
           "normalizedSignature": "ToArray|(System.Type):System.Array|static=false",
@@ -2559,7 +2559,7 @@
           }
         },
         {
-          "tsName": "binarySearch2",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(System.Object):System.Int32|static=false",
           "target": {
@@ -2569,7 +2569,7 @@
           }
         },
         {
-          "tsName": "binarySearch3",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(System.Object,System.Collections.IComparer):System.Int32|static=false",
           "target": {
@@ -2619,7 +2619,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "target": {
@@ -2629,7 +2629,7 @@
           }
         },
         {
-          "tsName": "copyTo3",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Int32,System.Array,System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -2649,7 +2649,7 @@
           }
         },
         {
-          "tsName": "fixedSize2",
+          "tsName": "fixedSize",
           "isStatic": true,
           "tsSignatureId": "FixedSize|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
           "target": {
@@ -2669,7 +2669,7 @@
           }
         },
         {
-          "tsName": "getEnumerator2",
+          "tsName": "getEnumerator",
           "isStatic": false,
           "tsSignatureId": "GetEnumerator|(System.Int32,System.Int32):System.Collections.IEnumerator|static=false",
           "target": {
@@ -2689,7 +2689,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(System.Object,System.Int32):System.Int32|static=false",
           "target": {
@@ -2699,7 +2699,7 @@
           }
         },
         {
-          "tsName": "indexOf3",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(System.Object,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -2739,7 +2739,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf2",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(System.Object,System.Int32):System.Int32|static=false",
           "target": {
@@ -2749,7 +2749,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf3",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(System.Object,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -2769,7 +2769,7 @@
           }
         },
         {
-          "tsName": "readOnly2",
+          "tsName": "readOnly",
           "isStatic": true,
           "tsSignatureId": "ReadOnly|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
           "target": {
@@ -2829,7 +2829,7 @@
           }
         },
         {
-          "tsName": "reverse2",
+          "tsName": "reverse",
           "isStatic": false,
           "tsSignatureId": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -2869,7 +2869,7 @@
           }
         },
         {
-          "tsName": "sort2",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Collections.IComparer):System.Void|static=false",
           "target": {
@@ -2879,7 +2879,7 @@
           }
         },
         {
-          "tsName": "sort3",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Int32,System.Int32,System.Collections.IComparer):System.Void|static=false",
           "target": {
@@ -2899,7 +2899,7 @@
           }
         },
         {
-          "tsName": "synchronized2",
+          "tsName": "synchronized",
           "isStatic": true,
           "tsSignatureId": "Synchronized|(System.Collections.ArrayList):System.Collections.ArrayList|static=true",
           "target": {
@@ -2919,7 +2919,7 @@
           }
         },
         {
-          "tsName": "toArray2",
+          "tsName": "toArray",
           "isStatic": false,
           "tsSignatureId": "ToArray|(System.Type):System.Array|static=false",
           "target": {

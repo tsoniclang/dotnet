@@ -130,7 +130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64::IsValid(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid2",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid3",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -162,7 +162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid4",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -243,7 +243,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::DecodeFromUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "DecodeFromUtf8",
-          "tsEmitName": "decodeFromUtf82",
+          "tsEmitName": "decodeFromUtf8",
           "normalizedSignature": "DecodeFromUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -275,7 +275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::DecodeFromUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]",
           "clrName": "DecodeFromUtf8",
-          "tsEmitName": "decodeFromUtf83",
+          "tsEmitName": "decodeFromUtf8",
           "normalizedSignature": "DecodeFromUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -307,7 +307,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::DecodeFromChars(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "DecodeFromChars",
-          "tsEmitName": "decodeFromChars2",
+          "tsEmitName": "decodeFromChars",
           "normalizedSignature": "DecodeFromChars|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::DecodeFromChars(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]",
           "clrName": "DecodeFromChars",
-          "tsEmitName": "decodeFromChars3",
+          "tsEmitName": "decodeFromChars",
           "normalizedSignature": "DecodeFromChars|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -387,7 +387,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::EncodeToUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "EncodeToUtf8",
-          "tsEmitName": "encodeToUtf82",
+          "tsEmitName": "encodeToUtf8",
           "normalizedSignature": "EncodeToUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::EncodeToUtf8(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]",
           "clrName": "EncodeToUtf8",
-          "tsEmitName": "encodeToUtf83",
+          "tsEmitName": "encodeToUtf8",
           "normalizedSignature": "EncodeToUtf8|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -435,7 +435,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::EncodeToChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "EncodeToChars",
-          "tsEmitName": "encodeToChars2",
+          "tsEmitName": "encodeToChars",
           "normalizedSignature": "EncodeToChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -451,7 +451,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::EncodeToChars(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Char[]",
           "clrName": "EncodeToChars",
-          "tsEmitName": "encodeToChars3",
+          "tsEmitName": "encodeToChars",
           "normalizedSignature": "EncodeToChars|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Char[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -547,7 +547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::IsValid(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid2",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -563,7 +563,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid3",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -579,7 +579,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Base64Url::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "IsValid",
-          "tsEmitName": "isValid4",
+          "tsEmitName": "isValid",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -628,7 +628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.DateTimeOffset,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat2",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.DateTimeOffset,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -644,7 +644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.DateTime,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat3",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.DateTime,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -660,7 +660,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Decimal,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat4",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Decimal,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -676,7 +676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Double,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat5",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Double,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -692,7 +692,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Single,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat6",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Single,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -708,7 +708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Guid,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat7",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Guid,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -724,7 +724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Byte,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat8",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Byte,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -740,7 +740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.SByte,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat9",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.SByte,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -756,7 +756,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.UInt16,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat10",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.UInt16,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -772,7 +772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Int16,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat11",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Int16,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -788,7 +788,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.UInt32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat12",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.UInt32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -804,7 +804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat13",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -820,7 +820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.UInt64,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat14",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.UInt64,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -836,7 +836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.Int64,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat15",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Int64,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -852,7 +852,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Formatter::TryFormat(System.TimeSpan,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat16",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.TimeSpan,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Buffers.StandardFormat):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -901,7 +901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -917,7 +917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse3",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -933,7 +933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse4",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -949,7 +949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse5",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -965,7 +965,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse6",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -981,7 +981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse7",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -997,7 +997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.SByte\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse8",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.SByte\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1013,7 +1013,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse9",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int16\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1029,7 +1029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse10",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse11",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1061,7 +1061,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Byte\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse12",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Byte\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1077,7 +1077,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse13",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt16\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1093,7 +1093,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse14",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1109,7 +1109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse15",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1125,7 +1125,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Text.Utf8Parser::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.TimeSpan\u0026,System.Int32\u0026,System.Char):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse16",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.TimeSpan\u0026,System.Int32\u0026,System.Char):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

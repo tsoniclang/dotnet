@@ -606,10 +606,10 @@ export class PhysicalAddress$instance {
     getHashCode(): int;
     toString(): string;
     static readonly none: PhysicalAddress;
-    static parse2(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
-    static parse2(address: string): PhysicalAddress;
-    static tryParse2(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
-    static tryParse2(address: string, value: { value: ref<PhysicalAddress> }): boolean;
+    static parse(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
+    static parse(address: string): PhysicalAddress;
+    static tryParse(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
+    static tryParse(address: string, value: { value: ref<PhysicalAddress> }): boolean;
 }
 
 

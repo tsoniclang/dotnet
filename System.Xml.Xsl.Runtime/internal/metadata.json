@@ -3298,7 +3298,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryItemSequence::CreateOrReuse(System.Xml.Xsl.Runtime.XmlQueryItemSequence,System.Xml.XPath.XPathItem):System.Xml.Xsl.Runtime.XmlQueryItemSequence",
           "clrName": "CreateOrReuse",
-          "tsEmitName": "createOrReuse2",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryItemSequence,System.Xml.XPath.XPathItem):System.Xml.Xsl.Runtime.XmlQueryItemSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4014,7 +4014,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryNodeSequence::CreateOrReuse(System.Xml.Xsl.Runtime.XmlQueryNodeSequence,System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.XmlQueryNodeSequence",
           "clrName": "CreateOrReuse",
-          "tsEmitName": "createOrReuse2",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(System.Xml.Xsl.Runtime.XmlQueryNodeSequence,System.Xml.XPath.XPathNavigator):System.Xml.Xsl.Runtime.XmlQueryNodeSequence|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4771,7 +4771,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartDocument(System.Boolean):System.Void",
           "clrName": "WriteStartDocument",
-          "tsEmitName": "writeStartDocument2",
+          "tsEmitName": "writeStartDocument",
           "normalizedSignature": "WriteStartDocument|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5043,7 +5043,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteRaw(System.String):System.Void",
           "clrName": "WriteRaw",
-          "tsEmitName": "writeRaw2",
+          "tsEmitName": "writeRaw",
           "normalizedSignature": "WriteRaw|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5187,7 +5187,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementUnchecked(System.String):System.Void",
           "clrName": "WriteStartElementUnchecked",
-          "tsEmitName": "writeStartElementUnchecked2",
+          "tsEmitName": "writeStartElementUnchecked",
           "normalizedSignature": "WriteStartElementUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5235,7 +5235,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteEndElementUnchecked(System.String):System.Void",
           "clrName": "WriteEndElementUnchecked",
-          "tsEmitName": "writeEndElementUnchecked2",
+          "tsEmitName": "writeEndElementUnchecked",
           "normalizedSignature": "WriteEndElementUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5267,7 +5267,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeUnchecked(System.String):System.Void",
           "clrName": "WriteStartAttributeUnchecked",
-          "tsEmitName": "writeStartAttributeUnchecked2",
+          "tsEmitName": "writeStartAttributeUnchecked",
           "normalizedSignature": "WriteStartAttributeUnchecked|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5427,7 +5427,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.String,System.String):System.Void",
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "writeStartElementComputed2",
+          "tsEmitName": "writeStartElementComputed",
           "normalizedSignature": "WriteStartElementComputed|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5443,7 +5443,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "writeStartElementComputed3",
+          "tsEmitName": "writeStartElementComputed",
           "normalizedSignature": "WriteStartElementComputed|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5459,7 +5459,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartElementComputed(System.Xml.XmlQualifiedName):System.Void",
           "clrName": "WriteStartElementComputed",
-          "tsEmitName": "writeStartElementComputed4",
+          "tsEmitName": "writeStartElementComputed",
           "normalizedSignature": "WriteStartElementComputed|(System.Xml.XmlQualifiedName):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5491,7 +5491,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.String,System.String):System.Void",
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "writeStartAttributeComputed2",
+          "tsEmitName": "writeStartAttributeComputed",
           "normalizedSignature": "WriteStartAttributeComputed|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5507,7 +5507,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "writeStartAttributeComputed3",
+          "tsEmitName": "writeStartAttributeComputed",
           "normalizedSignature": "WriteStartAttributeComputed|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5523,7 +5523,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryOutput::WriteStartAttributeComputed(System.Xml.XmlQualifiedName):System.Void",
           "clrName": "WriteStartAttributeComputed",
-          "tsEmitName": "writeStartAttributeComputed4",
+          "tsEmitName": "writeStartAttributeComputed",
           "normalizedSignature": "WriteStartAttributeComputed|(System.Xml.XmlQualifiedName):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6164,7 +6164,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::ParseTagName(System.String,System.String):System.Xml.XmlQualifiedName",
           "clrName": "ParseTagName",
-          "tsEmitName": "parseTagName2",
+          "tsEmitName": "parseTagName",
           "normalizedSignature": "ParseTagName|(System.String,System.String):System.Xml.XmlQualifiedName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6196,7 +6196,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::IsQNameEqual(System.Xml.XPath.XPathNavigator,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsQNameEqual",
-          "tsEmitName": "isQNameEqual2",
+          "tsEmitName": "isQNameEqual",
           "normalizedSignature": "IsQNameEqual|(System.Xml.XPath.XPathNavigator,System.Int32,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6260,7 +6260,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Xml.XPath.XPathItem,System.Int32):System.Boolean",
           "clrName": "MatchesXmlType",
-          "tsEmitName": "matchesXmlType2",
+          "tsEmitName": "matchesXmlType",
           "normalizedSignature": "MatchesXmlType|(System.Xml.XPath.XPathItem,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6276,7 +6276,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Schema.XmlTypeCode):System.Boolean",
           "clrName": "MatchesXmlType",
-          "tsEmitName": "matchesXmlType3",
+          "tsEmitName": "matchesXmlType",
           "normalizedSignature": "MatchesXmlType|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Xml.Schema.XmlTypeCode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6292,7 +6292,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQueryRuntime::MatchesXmlType(System.Xml.XPath.XPathItem,System.Xml.Schema.XmlTypeCode):System.Boolean",
           "clrName": "MatchesXmlType",
-          "tsEmitName": "matchesXmlType4",
+          "tsEmitName": "matchesXmlType",
           "normalizedSignature": "MatchesXmlType|(System.Xml.XPath.XPathItem,System.Xml.Schema.XmlTypeCode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6642,7 +6642,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XmlQuerySequence\u00601::CreateOrReuse(XmlQuerySequence_1,T):XmlQuerySequence_1",
           "clrName": "CreateOrReuse",
-          "tsEmitName": "createOrReuse2",
+          "tsEmitName": "createOrReuse",
           "normalizedSignature": "CreateOrReuse|(XmlQuerySequence_1,T):XmlQuerySequence_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7716,7 +7716,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToBoolean(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean",
           "clrName": "ToBoolean",
-          "tsEmitName": "toBoolean2",
+          "tsEmitName": "toBoolean",
           "normalizedSignature": "ToBoolean|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7748,7 +7748,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Xml.XPath.XPathItem):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble2",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Xml.XPath.XPathItem):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7764,7 +7764,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble3",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7796,7 +7796,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNode(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.XPath.XPathNavigator",
           "clrName": "ToNode",
-          "tsEmitName": "toNode2",
+          "tsEmitName": "toNode",
           "normalizedSignature": "ToNode|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Xml.XPath.XPathNavigator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7828,7 +7828,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToNodeSet(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "ToNodeSet",
-          "tsEmitName": "toNodeSet2",
+          "tsEmitName": "toNodeSet",
           "normalizedSignature": "ToNodeSet|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Collections.Generic.IList_1[[System.Xml.XPath.XPathNavigator,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7860,7 +7860,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.Xml.XPath.XPathItem):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Xml.XPath.XPathItem):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7876,7 +7876,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString3",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Collections.Generic.IList_1[[System.Xml.XPath.XPathItem,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7892,7 +7892,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToString(System.DateTime):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString4",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTime):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7908,7 +7908,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Decimal):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble4",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Decimal):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7924,7 +7924,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Int32):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble5",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Int32):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7940,7 +7940,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltConvert::ToDouble(System.Int64):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble6",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Int64):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8133,7 +8133,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.Runtime.XsltFunctions::Substring(System.String,System.Double,System.Double):System.String",
           "clrName": "Substring",
-          "tsEmitName": "substring2",
+          "tsEmitName": "substring",
           "normalizedSignature": "Substring|(System.String,System.Double,System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

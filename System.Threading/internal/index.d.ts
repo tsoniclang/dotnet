@@ -268,9 +268,9 @@ export class SpinWait$instance {
     reset(): void;
     spinOnce(): void;
     spinOnce(sleep1Threshold: int): void;
-    static spinUntil3(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
-    static spinUntil3(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
-    static spinUntil3(condition: Func_1<CLROf<boolean>>): void;
+    static spinUntil(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
+    static spinUntil(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
+    static spinUntil(condition: Func_1<CLROf<boolean>>): void;
 }
 
 
@@ -377,10 +377,10 @@ export class CancellationTokenSource$instance {
     cancelAsync(): Task;
     dispose(): void;
     tryReset(): boolean;
-    static createLinkedTokenSource4(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
-    static createLinkedTokenSource4(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource4(token: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource4(tokens: CancellationToken[]): CancellationTokenSource;
+    static createLinkedTokenSource(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
+    static createLinkedTokenSource(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
+    static createLinkedTokenSource(token: CancellationToken): CancellationTokenSource;
+    static createLinkedTokenSource(tokens: CancellationToken[]): CancellationTokenSource;
 }
 
 
@@ -473,8 +473,8 @@ export class EventWaitHandle$instance extends WaitHandle$instance {
     set_(): boolean;
     static openExisting(name: string, options: NamedWaitHandleOptions): EventWaitHandle;
     static openExisting(name: string): EventWaitHandle;
-    static tryOpenExisting2(name: string, result: { value: ref<EventWaitHandle> }): boolean;
-    static tryOpenExisting2(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
+    static tryOpenExisting(name: string, result: { value: ref<EventWaitHandle> }): boolean;
+    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
 }
 
 
@@ -520,8 +520,6 @@ export class HostExecutionContext$instance {
 export interface __HostExecutionContext$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
-
-export interface HostExecutionContext$instance extends System_Internal.IDisposable$instance {}
 
 export type HostExecutionContext = HostExecutionContext$instance & __HostExecutionContext$views;
 
@@ -636,8 +634,8 @@ export class Mutex$instance extends WaitHandle$instance {
     releaseMutex(): void;
     static openExisting(name: string, options: NamedWaitHandleOptions): Mutex;
     static openExisting(name: string): Mutex;
-    static tryOpenExisting2(name: string, result: { value: ref<Mutex> }): boolean;
-    static tryOpenExisting2(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
+    static tryOpenExisting(name: string, result: { value: ref<Mutex> }): boolean;
+    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
 }
 
 
@@ -1209,19 +1207,19 @@ export abstract class WaitHandle$instance extends System_Internal.MarshalByRefOb
     waitOne(millisecondsTimeout: int, exitContext: boolean): boolean;
     waitOne(timeout: TimeSpan, exitContext: boolean): boolean;
     static readonly waitTimeout: int;
-    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
-    static signalAndWait3(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
-    static waitAll4(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
-    static waitAll4(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
-    static waitAll4(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
-    static waitAll4(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
-    static waitAll4(waitHandles: WaitHandle[]): boolean;
-    static waitAny4(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
-    static waitAny4(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
-    static waitAny4(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
-    static waitAny4(waitHandles: WaitHandle[], timeout: TimeSpan): int;
-    static waitAny4(waitHandles: WaitHandle[]): int;
+    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
+    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
+    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
+    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
+    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
+    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
+    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
+    static waitAll(waitHandles: WaitHandle[]): boolean;
+    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
+    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
+    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
+    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan): int;
+    static waitAny(waitHandles: WaitHandle[]): int;
 }
 
 
@@ -1285,38 +1283,38 @@ export abstract class Interlocked$instance {
     static and(location1: { value: ref<long> }, value: long): long;
     static and(location1: { value: ref<uint> }, value: uint): uint;
     static and(location1: { value: ref<ulong> }, value: ulong): ulong;
-    static compareExchange6(location1: { value: ref<byte> }, value: byte, comparand: byte): byte;
-    static compareExchange6(location1: { value: ref<double> }, value: double, comparand: double): double;
-    static compareExchange6(location1: { value: ref<short> }, value: short, comparand: short): short;
-    static compareExchange6(location1: { value: ref<int> }, value: int, comparand: int): int;
-    static compareExchange6(location1: { value: ref<long> }, value: long, comparand: long): long;
-    static compareExchange6(location1: { value: ref<nint> }, value: nint, comparand: nint): nint;
-    static compareExchange6(location1: { value: ref<unknown> }, value: unknown, comparand: unknown): unknown;
-    static compareExchange6(location1: { value: ref<sbyte> }, value: sbyte, comparand: sbyte): sbyte;
-    static compareExchange6(location1: { value: ref<float> }, value: float, comparand: float): float;
-    static compareExchange6(location1: { value: ref<ushort> }, value: ushort, comparand: ushort): ushort;
-    static compareExchange6(location1: { value: ref<uint> }, value: uint, comparand: uint): uint;
-    static compareExchange6(location1: { value: ref<ulong> }, value: ulong, comparand: ulong): ulong;
-    static compareExchange6(location1: { value: ref<nuint> }, value: nuint, comparand: nuint): nuint;
-    static compareExchange6<T>(location1: { value: ref<T> }, value: T, comparand: T): T;
+    static compareExchange(location1: { value: ref<byte> }, value: byte, comparand: byte): byte;
+    static compareExchange(location1: { value: ref<double> }, value: double, comparand: double): double;
+    static compareExchange(location1: { value: ref<short> }, value: short, comparand: short): short;
+    static compareExchange(location1: { value: ref<int> }, value: int, comparand: int): int;
+    static compareExchange(location1: { value: ref<long> }, value: long, comparand: long): long;
+    static compareExchange(location1: { value: ref<nint> }, value: nint, comparand: nint): nint;
+    static compareExchange(location1: { value: ref<unknown> }, value: unknown, comparand: unknown): unknown;
+    static compareExchange(location1: { value: ref<sbyte> }, value: sbyte, comparand: sbyte): sbyte;
+    static compareExchange(location1: { value: ref<float> }, value: float, comparand: float): float;
+    static compareExchange(location1: { value: ref<ushort> }, value: ushort, comparand: ushort): ushort;
+    static compareExchange(location1: { value: ref<uint> }, value: uint, comparand: uint): uint;
+    static compareExchange(location1: { value: ref<ulong> }, value: ulong, comparand: ulong): ulong;
+    static compareExchange(location1: { value: ref<nuint> }, value: nuint, comparand: nuint): nuint;
+    static compareExchange<T>(location1: { value: ref<T> }, value: T, comparand: T): T;
     static decrement(location: { value: ref<int> }): int;
     static decrement(location: { value: ref<long> }): long;
     static decrement(location: { value: ref<uint> }): uint;
     static decrement(location: { value: ref<ulong> }): ulong;
-    static exchange6(location1: { value: ref<byte> }, value: byte): byte;
-    static exchange6(location1: { value: ref<double> }, value: double): double;
-    static exchange6(location1: { value: ref<short> }, value: short): short;
-    static exchange6(location1: { value: ref<int> }, value: int): int;
-    static exchange6(location1: { value: ref<long> }, value: long): long;
-    static exchange6(location1: { value: ref<nint> }, value: nint): nint;
-    static exchange6(location1: { value: ref<unknown> }, value: unknown): unknown;
-    static exchange6(location1: { value: ref<sbyte> }, value: sbyte): sbyte;
-    static exchange6(location1: { value: ref<float> }, value: float): float;
-    static exchange6(location1: { value: ref<ushort> }, value: ushort): ushort;
-    static exchange6(location1: { value: ref<uint> }, value: uint): uint;
-    static exchange6(location1: { value: ref<ulong> }, value: ulong): ulong;
-    static exchange6(location1: { value: ref<nuint> }, value: nuint): nuint;
-    static exchange6<T>(location1: { value: ref<T> }, value: T): T;
+    static exchange(location1: { value: ref<byte> }, value: byte): byte;
+    static exchange(location1: { value: ref<double> }, value: double): double;
+    static exchange(location1: { value: ref<short> }, value: short): short;
+    static exchange(location1: { value: ref<int> }, value: int): int;
+    static exchange(location1: { value: ref<long> }, value: long): long;
+    static exchange(location1: { value: ref<nint> }, value: nint): nint;
+    static exchange(location1: { value: ref<unknown> }, value: unknown): unknown;
+    static exchange(location1: { value: ref<sbyte> }, value: sbyte): sbyte;
+    static exchange(location1: { value: ref<float> }, value: float): float;
+    static exchange(location1: { value: ref<ushort> }, value: ushort): ushort;
+    static exchange(location1: { value: ref<uint> }, value: uint): uint;
+    static exchange(location1: { value: ref<ulong> }, value: ulong): ulong;
+    static exchange(location1: { value: ref<nuint> }, value: nuint): nuint;
+    static exchange<T>(location1: { value: ref<T> }, value: T): T;
     static increment(location: { value: ref<int> }): int;
     static increment(location: { value: ref<long> }): long;
     static increment(location: { value: ref<uint> }): uint;
@@ -1335,11 +1333,11 @@ export abstract class Interlocked$instance {
 export type Interlocked = Interlocked$instance;
 
 export abstract class LazyInitializer$instance {
-    static ensureInitialized2<T>(target: { value: ref<T> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized2<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized2<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }): T;
-    static ensureInitialized2<T>(target: { value: ref<T> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
-    static ensureInitialized2<T>(target: { value: ref<T> }): T;
+    static ensureInitialized<T>(target: { value: ref<T> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized<T>(target: { value: ref<T> }, initialized: { value: ref<boolean> }, syncLock: { value: ref<unknown> }): T;
+    static ensureInitialized<T>(target: { value: ref<T> }, syncLock: { value: ref<unknown> }, valueFactory: Func_1<T>): T;
+    static ensureInitialized<T>(target: { value: ref<T> }): T;
 }
 
 
@@ -1347,23 +1345,23 @@ export type LazyInitializer = LazyInitializer$instance;
 
 export abstract class Monitor$instance {
     static readonly lockContentionCount: long;
-    static enter2(obj: unknown, lockTaken: { value: ref<boolean> }): void;
-    static enter2(obj: unknown): void;
+    static enter(obj: unknown, lockTaken: { value: ref<boolean> }): void;
+    static enter(obj: unknown): void;
     static exit(obj: unknown): void;
     static isEntered(obj: unknown): boolean;
     static pulse(obj: unknown): void;
     static pulseAll(obj: unknown): void;
-    static tryEnter2(obj: unknown, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter2(obj: unknown, millisecondsTimeout: int, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter2(obj: unknown, millisecondsTimeout: int): boolean;
-    static tryEnter2(obj: unknown, timeout: TimeSpan, lockTaken: { value: ref<boolean> }): void;
-    static tryEnter2(obj: unknown, timeout: TimeSpan): boolean;
-    static tryEnter2(obj: unknown): boolean;
-    static wait4(obj: unknown, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static wait4(obj: unknown, millisecondsTimeout: int): boolean;
-    static wait4(obj: unknown, timeout: TimeSpan, exitContext: boolean): boolean;
-    static wait4(obj: unknown, timeout: TimeSpan): boolean;
-    static wait4(obj: unknown): boolean;
+    static tryEnter(obj: unknown, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter(obj: unknown, millisecondsTimeout: int, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter(obj: unknown, millisecondsTimeout: int): boolean;
+    static tryEnter(obj: unknown, timeout: TimeSpan, lockTaken: { value: ref<boolean> }): void;
+    static tryEnter(obj: unknown, timeout: TimeSpan): boolean;
+    static tryEnter(obj: unknown): boolean;
+    static wait(obj: unknown, millisecondsTimeout: int, exitContext: boolean): boolean;
+    static wait(obj: unknown, millisecondsTimeout: int): boolean;
+    static wait(obj: unknown, timeout: TimeSpan, exitContext: boolean): boolean;
+    static wait(obj: unknown, timeout: TimeSpan): boolean;
+    static wait(obj: unknown): boolean;
 }
 
 
@@ -1408,23 +1406,23 @@ export abstract class ThreadPool$instance {
     static getAvailableThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
     static getMaxThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
     static getMinThreads(workerThreads: { value: ref<int> }, completionPortThreads: { value: ref<int> }): void;
-    static queueUserWorkItem3<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
-    static queueUserWorkItem3(callBack: WaitCallback, state: unknown): boolean;
-    static queueUserWorkItem3(callBack: WaitCallback): boolean;
-    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static registerWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static queueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
+    static queueUserWorkItem(callBack: WaitCallback, state: unknown): boolean;
+    static queueUserWorkItem(callBack: WaitCallback): boolean;
+    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static registerWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
     static setMaxThreads(workerThreads: int, completionPortThreads: int): boolean;
     static setMinThreads(workerThreads: int, completionPortThreads: int): boolean;
     static unsafeQueueNativeOverlapped(overlapped: ptr<NativeOverlapped>): boolean;
     static unsafeQueueUserWorkItem<TState>(callBack: Action_1<TState>, state: TState, preferLocal: boolean): boolean;
     static unsafeQueueUserWorkItem(callBack: IThreadPoolWorkItem, preferLocal: boolean): boolean;
     static unsafeQueueUserWorkItem(callBack: WaitCallback, state: unknown): boolean;
-    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
-    static unsafeRegisterWaitForSingleObject2(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: int, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: long, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, timeout: TimeSpan, executeOnlyOnce: boolean): RegisteredWaitHandle;
+    static unsafeRegisterWaitForSingleObject(waitObject: WaitHandle, callBack: WaitOrTimerCallback, state: unknown, millisecondsTimeOutInterval: uint, executeOnlyOnce: boolean): RegisteredWaitHandle;
 }
 
 

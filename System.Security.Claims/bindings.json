@@ -25,7 +25,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.Claim::Clone(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim",
           "clrName": "Clone",
-          "tsEmitName": "clone2",
+          "tsEmitName": "clone",
           "metadataToken": 100663340,
           "canonicalSignature": "(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim",
           "normalizedSignature": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
@@ -251,7 +251,7 @@
           }
         },
         {
-          "tsName": "clone2",
+          "tsName": "clone",
           "isStatic": false,
           "tsSignatureId": "Clone|(System.Security.Claims.ClaimsIdentity):System.Security.Claims.Claim|static=false",
           "target": {
@@ -563,7 +563,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::FindAll(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "FindAll",
-          "tsEmitName": "findAll2",
+          "tsEmitName": "findAll",
           "metadataToken": 100663383,
           "canonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -591,7 +591,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::FindFirst(System.String):System.Security.Claims.Claim",
           "clrName": "FindFirst",
-          "tsEmitName": "findFirst2",
+          "tsEmitName": "findFirst",
           "metadataToken": 100663385,
           "canonicalSignature": "(System.String):System.Security.Claims.Claim",
           "normalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
@@ -619,7 +619,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsIdentity::HasClaim(System.String,System.String):System.Boolean",
           "clrName": "HasClaim",
-          "tsEmitName": "hasClaim2",
+          "tsEmitName": "hasClaim",
           "metadataToken": 100663387,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
@@ -1035,7 +1035,7 @@
           }
         },
         {
-          "tsName": "findAll2",
+          "tsName": "findAll",
           "isStatic": false,
           "tsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "target": {
@@ -1055,7 +1055,7 @@
           }
         },
         {
-          "tsName": "findFirst2",
+          "tsName": "findFirst",
           "isStatic": false,
           "tsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
           "target": {
@@ -1075,7 +1075,7 @@
           }
         },
         {
-          "tsName": "hasClaim2",
+          "tsName": "hasClaim",
           "isStatic": false,
           "tsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
           "target": {
@@ -1486,7 +1486,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsPrincipal::FindAll(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "FindAll",
-          "tsEmitName": "findAll2",
+          "tsEmitName": "findAll",
           "metadataToken": 100663446,
           "canonicalSignature": "(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
@@ -1514,7 +1514,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsPrincipal::FindFirst(System.String):System.Security.Claims.Claim",
           "clrName": "FindFirst",
-          "tsEmitName": "findFirst2",
+          "tsEmitName": "findFirst",
           "metadataToken": 100663448,
           "canonicalSignature": "(System.String):System.Security.Claims.Claim",
           "normalizedSignature": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
@@ -1542,7 +1542,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimsPrincipal::HasClaim(System.String,System.String):System.Boolean",
           "clrName": "HasClaim",
-          "tsEmitName": "hasClaim2",
+          "tsEmitName": "hasClaim",
           "metadataToken": 100663450,
           "canonicalSignature": "(System.String,System.String):System.Boolean",
           "normalizedSignature": "HasClaim|(System.String,System.String):System.Boolean|static=false",
@@ -1792,7 +1792,7 @@
           }
         },
         {
-          "tsName": "findAll2",
+          "tsName": "findAll",
           "isStatic": false,
           "tsSignatureId": "FindAll|(System.String):System.Collections.Generic.IEnumerable_1[[System.Security.Claims.Claim,System.Security.Claims,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "target": {
@@ -1812,7 +1812,7 @@
           }
         },
         {
-          "tsName": "findFirst2",
+          "tsName": "findFirst",
           "isStatic": false,
           "tsSignatureId": "FindFirst|(System.String):System.Security.Claims.Claim|static=false",
           "target": {
@@ -1832,7 +1832,7 @@
           }
         },
         {
-          "tsName": "hasClaim2",
+          "tsName": "hasClaim",
           "isStatic": false,
           "tsSignatureId": "HasClaim|(System.String,System.String):System.Boolean|static=false",
           "target": {

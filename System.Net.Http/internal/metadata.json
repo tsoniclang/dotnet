@@ -711,7 +711,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.Uri):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStringAsync",
-          "tsEmitName": "getStringAsync2",
+          "tsEmitName": "getStringAsync",
           "normalizedSignature": "GetStringAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -727,7 +727,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStringAsync",
-          "tsEmitName": "getStringAsync3",
+          "tsEmitName": "getStringAsync",
           "normalizedSignature": "GetStringAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -743,7 +743,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStringAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStringAsync",
-          "tsEmitName": "getStringAsync4",
+          "tsEmitName": "getStringAsync",
           "normalizedSignature": "GetStringAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -775,7 +775,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetByteArrayAsync",
-          "tsEmitName": "getByteArrayAsync2",
+          "tsEmitName": "getByteArrayAsync",
           "normalizedSignature": "GetByteArrayAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetByteArrayAsync",
-          "tsEmitName": "getByteArrayAsync3",
+          "tsEmitName": "getByteArrayAsync",
           "normalizedSignature": "GetByteArrayAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -807,7 +807,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetByteArrayAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetByteArrayAsync",
-          "tsEmitName": "getByteArrayAsync4",
+          "tsEmitName": "getByteArrayAsync",
           "normalizedSignature": "GetByteArrayAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -839,7 +839,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStreamAsync",
-          "tsEmitName": "getStreamAsync2",
+          "tsEmitName": "getStreamAsync",
           "normalizedSignature": "GetStreamAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -855,7 +855,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStreamAsync",
-          "tsEmitName": "getStreamAsync3",
+          "tsEmitName": "getStreamAsync",
           "normalizedSignature": "GetStreamAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -871,7 +871,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetStreamAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetStreamAsync",
-          "tsEmitName": "getStreamAsync4",
+          "tsEmitName": "getStreamAsync",
           "normalizedSignature": "GetStreamAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -903,7 +903,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync2",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -919,7 +919,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync3",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.String,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -935,7 +935,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync4",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.Uri,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -951,7 +951,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync5",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -967,7 +967,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync6",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -983,7 +983,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync7",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -999,7 +999,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::GetAsync(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetAsync",
-          "tsEmitName": "getAsync8",
+          "tsEmitName": "getAsync",
           "normalizedSignature": "GetAsync|(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1031,7 +1031,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PostAsync",
-          "tsEmitName": "postAsync2",
+          "tsEmitName": "postAsync",
           "normalizedSignature": "PostAsync|(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1047,7 +1047,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PostAsync",
-          "tsEmitName": "postAsync3",
+          "tsEmitName": "postAsync",
           "normalizedSignature": "PostAsync|(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1063,7 +1063,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PostAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PostAsync",
-          "tsEmitName": "postAsync4",
+          "tsEmitName": "postAsync",
           "normalizedSignature": "PostAsync|(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1095,7 +1095,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PutAsync",
-          "tsEmitName": "putAsync2",
+          "tsEmitName": "putAsync",
           "normalizedSignature": "PutAsync|(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1111,7 +1111,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PutAsync",
-          "tsEmitName": "putAsync3",
+          "tsEmitName": "putAsync",
           "normalizedSignature": "PutAsync|(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1127,7 +1127,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PutAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PutAsync",
-          "tsEmitName": "putAsync4",
+          "tsEmitName": "putAsync",
           "normalizedSignature": "PutAsync|(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1159,7 +1159,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PatchAsync",
-          "tsEmitName": "patchAsync2",
+          "tsEmitName": "patchAsync",
           "normalizedSignature": "PatchAsync|(System.Uri,System.Net.Http.HttpContent):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1175,7 +1175,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PatchAsync",
-          "tsEmitName": "patchAsync3",
+          "tsEmitName": "patchAsync",
           "normalizedSignature": "PatchAsync|(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1191,7 +1191,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::PatchAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PatchAsync",
-          "tsEmitName": "patchAsync4",
+          "tsEmitName": "patchAsync",
           "normalizedSignature": "PatchAsync|(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1223,7 +1223,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "DeleteAsync",
-          "tsEmitName": "deleteAsync2",
+          "tsEmitName": "deleteAsync",
           "normalizedSignature": "DeleteAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1239,7 +1239,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "DeleteAsync",
-          "tsEmitName": "deleteAsync3",
+          "tsEmitName": "deleteAsync",
           "normalizedSignature": "DeleteAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1255,7 +1255,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::DeleteAsync(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "DeleteAsync",
-          "tsEmitName": "deleteAsync4",
+          "tsEmitName": "deleteAsync",
           "normalizedSignature": "DeleteAsync|(System.Uri,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1287,7 +1287,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Net.Http.HttpResponseMessage",
           "clrName": "Send",
-          "tsEmitName": "send2",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Net.Http.HttpResponseMessage|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1303,7 +1303,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage",
           "clrName": "Send",
-          "tsEmitName": "send3",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1319,7 +1319,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::Send(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage",
           "clrName": "Send",
-          "tsEmitName": "send4",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Net.Http.HttpResponseMessage|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync2",
           "normalizedSignature": "SendAsync|(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1367,7 +1367,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync4",
+          "tsEmitName": "sendAsync2",
           "normalizedSignature": "SendAsync|(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1383,7 +1383,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpClient::SendAsync(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync5",
+          "tsEmitName": "sendAsync2",
           "normalizedSignature": "SendAsync|(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.Http.HttpResponseMessage,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2051,7 +2051,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStringAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsStringAsync",
-          "tsEmitName": "readAsStringAsync2",
+          "tsEmitName": "readAsStringAsync",
           "normalizedSignature": "ReadAsStringAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2083,7 +2083,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsByteArrayAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsByteArrayAsync",
-          "tsEmitName": "readAsByteArrayAsync2",
+          "tsEmitName": "readAsByteArrayAsync",
           "normalizedSignature": "ReadAsByteArrayAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2115,7 +2115,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStream(System.Threading.CancellationToken):System.IO.Stream",
           "clrName": "ReadAsStream",
-          "tsEmitName": "readAsStream2",
+          "tsEmitName": "readAsStream",
           "normalizedSignature": "ReadAsStream|(System.Threading.CancellationToken):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2147,7 +2147,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::ReadAsStreamAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsStreamAsync",
-          "tsEmitName": "readAsStreamAsync2",
+          "tsEmitName": "readAsStreamAsync",
           "normalizedSignature": "ReadAsStreamAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2195,7 +2195,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync2",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2211,7 +2211,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync3",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2227,7 +2227,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::CopyToAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync4",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2259,7 +2259,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64):System.Threading.Tasks.Task",
           "clrName": "LoadIntoBufferAsync",
-          "tsEmitName": "loadIntoBufferAsync2",
+          "tsEmitName": "loadIntoBufferAsync",
           "normalizedSignature": "LoadIntoBufferAsync|(System.Int64):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2275,7 +2275,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "LoadIntoBufferAsync",
-          "tsEmitName": "loadIntoBufferAsync3",
+          "tsEmitName": "loadIntoBufferAsync",
           "normalizedSignature": "LoadIntoBufferAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2291,7 +2291,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpContent::LoadIntoBufferAsync(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "LoadIntoBufferAsync",
-          "tsEmitName": "loadIntoBufferAsync4",
+          "tsEmitName": "loadIntoBufferAsync",
           "normalizedSignature": "LoadIntoBufferAsync|(System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2619,7 +2619,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4054,7 +4054,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::Add(System.Net.Http.HttpContent,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Net.Http.HttpContent,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4070,7 +4070,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.MultipartFormDataContent::Add(System.Net.Http.HttpContent,System.String,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Net.Http.HttpContent,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

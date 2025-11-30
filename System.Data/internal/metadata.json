@@ -2403,7 +2403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2419,7 +2419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2483,7 +2483,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2985,7 +2985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3049,7 +3049,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4149,7 +4149,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDbCommand::ExecuteReader(System.Data.CommandBehavior):System.Data.IDataReader",
           "clrName": "ExecuteReader",
-          "tsEmitName": "executeReader2",
+          "tsEmitName": "executeReader",
           "normalizedSignature": "ExecuteReader|(System.Data.CommandBehavior):System.Data.IDataReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4320,7 +4320,7 @@
         {
           "stableId": "System.Data.Common:System.Data.IDbConnection::BeginTransaction(System.Data.IsolationLevel):System.Data.IDbTransaction",
           "clrName": "BeginTransaction",
-          "tsEmitName": "beginTransaction2",
+          "tsEmitName": "beginTransaction",
           "normalizedSignature": "BeginTransaction|(System.Data.IsolationLevel):System.Data.IDbTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5006,7 +5006,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Add(System.Object):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5022,7 +5022,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5086,7 +5086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.IList::RemoveAt(System.Int32):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5386,7 +5386,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::Add(System.String,System.Data.DataColumn[],System.Boolean):System.Data.Constraint",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn[],System.Boolean):System.Data.Constraint|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5402,7 +5402,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::Add(System.String,System.Data.DataColumn,System.Boolean):System.Data.Constraint",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn,System.Boolean):System.Data.Constraint|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5418,7 +5418,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::Add(System.String,System.Data.DataColumn,System.Data.DataColumn):System.Data.Constraint",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn,System.Data.DataColumn):System.Data.Constraint|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5434,7 +5434,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::Add(System.String,System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.Constraint",
           "clrName": "Add",
-          "tsEmitName": "add5",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.Constraint|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5546,7 +5546,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5594,7 +5594,7 @@
         {
           "stableId": "System.Data.Common:System.Data.ConstraintCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6528,7 +6528,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::Add(System.String,System.Type,System.String):System.Data.DataColumn",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Type,System.String):System.Data.DataColumn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6544,7 +6544,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::Add(System.String,System.Type):System.Data.DataColumn",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Type):System.Data.DataColumn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6560,7 +6560,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::Add(System.String):System.Data.DataColumn",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String):System.Data.DataColumn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6576,7 +6576,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::Add():System.Data.DataColumn",
           "clrName": "Add",
-          "tsEmitName": "add5",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|():System.Data.DataColumn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6672,7 +6672,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6720,7 +6720,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumnCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7221,7 +7221,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.String,System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7237,7 +7237,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7253,7 +7253,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Data.DataColumn[],System.Data.DataColumn[]):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7269,7 +7269,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.String,System.Data.DataColumn,System.Data.DataColumn):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add5",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn,System.Data.DataColumn):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7285,7 +7285,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add6",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7301,7 +7301,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Add(System.Data.DataColumn,System.Data.DataColumn):System.Data.DataRelation",
           "clrName": "Add",
-          "tsEmitName": "add7",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Data.DataColumn,System.Data.DataColumn):System.Data.DataRelation|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7381,7 +7381,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7445,7 +7445,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRelationCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7729,7 +7729,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::SetColumnError(System.String,System.String):System.Void",
           "clrName": "SetColumnError",
-          "tsEmitName": "setColumnError2",
+          "tsEmitName": "setColumnError",
           "normalizedSignature": "SetColumnError|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7745,7 +7745,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::SetColumnError(System.Data.DataColumn,System.String):System.Void",
           "clrName": "SetColumnError",
-          "tsEmitName": "setColumnError3",
+          "tsEmitName": "setColumnError",
           "normalizedSignature": "SetColumnError|(System.Data.DataColumn,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7777,7 +7777,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetColumnError(System.String):System.String",
           "clrName": "GetColumnError",
-          "tsEmitName": "getColumnError2",
+          "tsEmitName": "getColumnError",
           "normalizedSignature": "GetColumnError|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7793,7 +7793,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetColumnError(System.Data.DataColumn):System.String",
           "clrName": "GetColumnError",
-          "tsEmitName": "getColumnError3",
+          "tsEmitName": "getColumnError",
           "normalizedSignature": "GetColumnError|(System.Data.DataColumn):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7857,7 +7857,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetChildRows(System.String,System.Data.DataRowVersion):System.Data.DataRow[]",
           "clrName": "GetChildRows",
-          "tsEmitName": "getChildRows2",
+          "tsEmitName": "getChildRows",
           "normalizedSignature": "GetChildRows|(System.String,System.Data.DataRowVersion):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7873,7 +7873,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetChildRows(System.Data.DataRelation):System.Data.DataRow[]",
           "clrName": "GetChildRows",
-          "tsEmitName": "getChildRows3",
+          "tsEmitName": "getChildRows",
           "normalizedSignature": "GetChildRows|(System.Data.DataRelation):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7889,7 +7889,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetChildRows(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow[]",
           "clrName": "GetChildRows",
-          "tsEmitName": "getChildRows4",
+          "tsEmitName": "getChildRows",
           "normalizedSignature": "GetChildRows|(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7921,7 +7921,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRow(System.String,System.Data.DataRowVersion):System.Data.DataRow",
           "clrName": "GetParentRow",
-          "tsEmitName": "getParentRow2",
+          "tsEmitName": "getParentRow",
           "normalizedSignature": "GetParentRow|(System.String,System.Data.DataRowVersion):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7937,7 +7937,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRow(System.Data.DataRelation):System.Data.DataRow",
           "clrName": "GetParentRow",
-          "tsEmitName": "getParentRow3",
+          "tsEmitName": "getParentRow",
           "normalizedSignature": "GetParentRow|(System.Data.DataRelation):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7953,7 +7953,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRow(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow",
           "clrName": "GetParentRow",
-          "tsEmitName": "getParentRow4",
+          "tsEmitName": "getParentRow",
           "normalizedSignature": "GetParentRow|(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7985,7 +7985,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRows(System.String,System.Data.DataRowVersion):System.Data.DataRow[]",
           "clrName": "GetParentRows",
-          "tsEmitName": "getParentRows2",
+          "tsEmitName": "getParentRows",
           "normalizedSignature": "GetParentRows|(System.String,System.Data.DataRowVersion):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8001,7 +8001,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRows(System.Data.DataRelation):System.Data.DataRow[]",
           "clrName": "GetParentRows",
-          "tsEmitName": "getParentRows3",
+          "tsEmitName": "getParentRows",
           "normalizedSignature": "GetParentRows|(System.Data.DataRelation):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8017,7 +8017,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::GetParentRows(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow[]",
           "clrName": "GetParentRows",
-          "tsEmitName": "getParentRows4",
+          "tsEmitName": "getParentRows",
           "normalizedSignature": "GetParentRows|(System.Data.DataRelation,System.Data.DataRowVersion):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8065,7 +8065,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::IsNull(System.String):System.Boolean",
           "clrName": "IsNull",
-          "tsEmitName": "isNull2",
+          "tsEmitName": "isNull",
           "normalizedSignature": "IsNull|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8081,7 +8081,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::IsNull(System.Data.DataColumn):System.Boolean",
           "clrName": "IsNull",
-          "tsEmitName": "isNull3",
+          "tsEmitName": "isNull",
           "normalizedSignature": "IsNull|(System.Data.DataColumn):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8097,7 +8097,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::IsNull(System.Data.DataColumn,System.Data.DataRowVersion):System.Boolean",
           "clrName": "IsNull",
-          "tsEmitName": "isNull4",
+          "tsEmitName": "isNull",
           "normalizedSignature": "IsNull|(System.Data.DataColumn,System.Data.DataRowVersion):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8145,7 +8145,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::SetParentRow(System.Data.DataRow,System.Data.DataRelation):System.Void",
           "clrName": "SetParentRow",
-          "tsEmitName": "setParentRow2",
+          "tsEmitName": "setParentRow",
           "normalizedSignature": "SetParentRow|(System.Data.DataRow,System.Data.DataRelation):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8684,7 +8684,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowCollection::Add(System.Object[]):System.Data.DataRow",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Object[]):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8716,7 +8716,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowCollection::Find(System.Object[]):System.Data.DataRow",
           "clrName": "Find",
-          "tsEmitName": "find2",
+          "tsEmitName": "find",
           "normalizedSignature": "Find|(System.Object[]):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8764,7 +8764,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowCollection::Contains(System.Object[]):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object[]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8796,7 +8796,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowCollection::CopyTo(System.Data.DataRow[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Data.DataRow[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9137,7 +9137,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::CreateChildView(System.Data.DataRelation):System.Data.DataView",
           "clrName": "CreateChildView",
-          "tsEmitName": "createChildView2",
+          "tsEmitName": "createChildView",
           "normalizedSignature": "CreateChildView|(System.Data.DataRelation):System.Data.DataView|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9153,7 +9153,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::CreateChildView(System.String,System.Boolean):System.Data.DataView",
           "clrName": "CreateChildView",
-          "tsEmitName": "createChildView3",
+          "tsEmitName": "createChildView",
           "normalizedSignature": "CreateChildView|(System.String,System.Boolean):System.Data.DataView|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9169,7 +9169,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::CreateChildView(System.String):System.Data.DataView",
           "clrName": "CreateChildView",
-          "tsEmitName": "createChildView4",
+          "tsEmitName": "createChildView",
           "normalizedSignature": "CreateChildView|(System.String):System.Data.DataView|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9778,7 +9778,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::GetChanges(System.Data.DataRowState):System.Data.DataSet",
           "clrName": "GetChanges",
-          "tsEmitName": "getChanges2",
+          "tsEmitName": "getChanges",
           "normalizedSignature": "GetChanges|(System.Data.DataRowState):System.Data.DataSet|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9842,7 +9842,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::HasChanges(System.Data.DataRowState):System.Boolean",
           "clrName": "HasChanges",
-          "tsEmitName": "hasChanges2",
+          "tsEmitName": "hasChanges",
           "normalizedSignature": "HasChanges|(System.Data.DataRowState):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9874,7 +9874,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::InferXmlSchema(System.IO.Stream,System.String[]):System.Void",
           "clrName": "InferXmlSchema",
-          "tsEmitName": "inferXmlSchema2",
+          "tsEmitName": "inferXmlSchema",
           "normalizedSignature": "InferXmlSchema|(System.IO.Stream,System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9890,7 +9890,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::InferXmlSchema(System.IO.TextReader,System.String[]):System.Void",
           "clrName": "InferXmlSchema",
-          "tsEmitName": "inferXmlSchema3",
+          "tsEmitName": "inferXmlSchema",
           "normalizedSignature": "InferXmlSchema|(System.IO.TextReader,System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9906,7 +9906,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::InferXmlSchema(System.String,System.String[]):System.Void",
           "clrName": "InferXmlSchema",
-          "tsEmitName": "inferXmlSchema4",
+          "tsEmitName": "inferXmlSchema",
           "normalizedSignature": "InferXmlSchema|(System.String,System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9938,7 +9938,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXmlSchema(System.IO.Stream):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema2",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9954,7 +9954,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXmlSchema(System.IO.TextReader):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema3",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.IO.TextReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9970,7 +9970,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXmlSchema(System.String):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema4",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10002,7 +10002,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.IO.Stream,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema2",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.Stream,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10018,7 +10018,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.String):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema3",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10034,7 +10034,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.String,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema4",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.String,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10050,7 +10050,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.IO.TextWriter):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema5",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10066,7 +10066,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.IO.TextWriter,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema6",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.TextWriter,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10082,7 +10082,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema7",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10098,7 +10098,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXmlSchema(System.Xml.XmlWriter,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema8",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.Xml.XmlWriter,System.Converter_2[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10130,7 +10130,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.IO.Stream):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml2",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.Stream):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10146,7 +10146,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.IO.TextReader):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml3",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.TextReader):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10162,7 +10162,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.String):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml4",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.String):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10178,7 +10178,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.Xml.XmlReader,System.Data.XmlReadMode):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml5",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader,System.Data.XmlReadMode):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10194,7 +10194,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.IO.Stream,System.Data.XmlReadMode):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml6",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.Stream,System.Data.XmlReadMode):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10210,7 +10210,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.IO.TextReader,System.Data.XmlReadMode):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml7",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.TextReader,System.Data.XmlReadMode):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10226,7 +10226,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::ReadXml(System.String,System.Data.XmlReadMode):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml8",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.String,System.Data.XmlReadMode):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10258,7 +10258,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.IO.TextWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml2",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10274,7 +10274,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml3",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10290,7 +10290,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.String):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml4",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10306,7 +10306,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.IO.Stream,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml5",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10322,7 +10322,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml6",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10338,7 +10338,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml7",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10354,7 +10354,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::WriteXml(System.String,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml8",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10386,7 +10386,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataSet,System.Boolean):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge2",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataSet,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10402,7 +10402,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge3",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataSet,System.Boolean,System.Data.MissingSchemaAction):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10418,7 +10418,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataTable):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge4",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataTable):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10434,7 +10434,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge5",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10450,7 +10450,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataRow[]):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge6",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataRow[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10466,7 +10466,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Merge(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge7",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataRow[],System.Boolean,System.Data.MissingSchemaAction):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10546,7 +10546,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[]):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Data.IDataReader,System.Data.LoadOption,System.Data.DataTable[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10562,7 +10562,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Load(System.Data.IDataReader,System.Data.LoadOption,System.String[]):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load3",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Data.IDataReader,System.Data.LoadOption,System.String[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10594,7 +10594,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::CreateDataReader(System.Data.DataTable[]):System.Data.DataTableReader",
           "clrName": "CreateDataReader",
-          "tsEmitName": "createDataReader2",
+          "tsEmitName": "createDataReader",
           "normalizedSignature": "CreateDataReader|(System.Data.DataTable[]):System.Data.DataTableReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11277,7 +11277,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::GetChanges(System.Data.DataRowState):System.Data.DataTable",
           "clrName": "GetChanges",
-          "tsEmitName": "getChanges2",
+          "tsEmitName": "getChanges",
           "normalizedSignature": "GetChanges|(System.Data.DataRowState):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11389,7 +11389,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Select(System.String):System.Data.DataRow[]",
           "clrName": "Select",
-          "tsEmitName": "select2",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.String):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11405,7 +11405,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Select(System.String,System.String):System.Data.DataRow[]",
           "clrName": "Select",
-          "tsEmitName": "select3",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.String,System.String):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11421,7 +11421,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Select(System.String,System.String,System.Data.DataViewRowState):System.Data.DataRow[]",
           "clrName": "Select",
-          "tsEmitName": "select4",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.String,System.String,System.Data.DataViewRowState):System.Data.DataRow[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11501,7 +11501,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::LoadDataRow(System.Object[],System.Data.LoadOption):System.Data.DataRow",
           "clrName": "LoadDataRow",
-          "tsEmitName": "loadDataRow2",
+          "tsEmitName": "loadDataRow",
           "normalizedSignature": "LoadDataRow|(System.Object[],System.Data.LoadOption):System.Data.DataRow|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11533,7 +11533,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Merge(System.Data.DataTable,System.Boolean):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge2",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataTable,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11549,7 +11549,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Merge(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction):System.Void",
           "clrName": "Merge",
-          "tsEmitName": "merge3",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Data.DataTable,System.Boolean,System.Data.MissingSchemaAction):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11581,7 +11581,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Load(System.Data.IDataReader,System.Data.LoadOption):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Data.IDataReader,System.Data.LoadOption):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11597,7 +11597,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Load(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load3",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Data.IDataReader,System.Data.LoadOption,System.Data.FillErrorEventHandler):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11645,7 +11645,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.Stream,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml2",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11661,7 +11661,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.TextWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml3",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11677,7 +11677,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.TextWriter,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml4",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11693,7 +11693,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml5",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11709,7 +11709,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.Xml.XmlWriter,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml6",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11725,7 +11725,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.String):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml7",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11741,7 +11741,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.String,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml8",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11757,7 +11757,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.Stream,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml9",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11773,7 +11773,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.Stream,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml10",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.Stream,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11789,7 +11789,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml11",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11805,7 +11805,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.IO.TextWriter,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml12",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.IO.TextWriter,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11821,7 +11821,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml13",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11837,7 +11837,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.Xml.XmlWriter,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml14",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11853,7 +11853,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.String,System.Data.XmlWriteMode):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml15",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String,System.Data.XmlWriteMode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11869,7 +11869,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXml(System.String,System.Data.XmlWriteMode,System.Boolean):System.Void",
           "clrName": "WriteXml",
-          "tsEmitName": "writeXml16",
+          "tsEmitName": "writeXml",
           "normalizedSignature": "WriteXml|(System.String,System.Data.XmlWriteMode,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11901,7 +11901,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.IO.Stream,System.Boolean):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema2",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.Stream,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11917,7 +11917,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.IO.TextWriter):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema3",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11933,7 +11933,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.IO.TextWriter,System.Boolean):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema4",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.IO.TextWriter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11949,7 +11949,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema5",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11965,7 +11965,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.Xml.XmlWriter,System.Boolean):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema6",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.Xml.XmlWriter,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11981,7 +11981,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.String):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema7",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11997,7 +11997,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::WriteXmlSchema(System.String,System.Boolean):System.Void",
           "clrName": "WriteXmlSchema",
-          "tsEmitName": "writeXmlSchema8",
+          "tsEmitName": "writeXmlSchema",
           "normalizedSignature": "WriteXmlSchema|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12029,7 +12029,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXml(System.IO.TextReader):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml2",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.IO.TextReader):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12045,7 +12045,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXml(System.String):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml3",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.String):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12061,7 +12061,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXml(System.Xml.XmlReader):System.Data.XmlReadMode",
           "clrName": "ReadXml",
-          "tsEmitName": "readXml4",
+          "tsEmitName": "readXml",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Data.XmlReadMode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12093,7 +12093,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXmlSchema(System.IO.TextReader):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema2",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.IO.TextReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12109,7 +12109,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXmlSchema(System.String):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema3",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12125,7 +12125,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::ReadXmlSchema(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXmlSchema",
-          "tsEmitName": "readXmlSchema4",
+          "tsEmitName": "readXmlSchema",
           "normalizedSignature": "ReadXmlSchema|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13015,7 +13015,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Add(System.String):System.Data.DataTable",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13031,7 +13031,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Add(System.String,System.String):System.Data.DataTable",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.String):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13047,7 +13047,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Add():System.Data.DataTable",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|():System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13111,7 +13111,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Contains(System.String,System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13159,7 +13159,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13175,7 +13175,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::IndexOf(System.String,System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13223,7 +13223,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13239,7 +13239,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableCollection::Remove(System.String,System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove3",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14874,7 +14874,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::Find(System.Object[]):System.Int32",
           "clrName": "Find",
-          "tsEmitName": "find2",
+          "tsEmitName": "find",
           "normalizedSignature": "Find|(System.Object[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14906,7 +14906,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::FindRows(System.Object[]):System.Data.DataRowView[]",
           "clrName": "FindRows",
-          "tsEmitName": "findRows2",
+          "tsEmitName": "findRows",
           "normalizedSignature": "FindRows|(System.Object[]):System.Data.DataRowView[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14954,7 +14954,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::ToTable(System.String):System.Data.DataTable",
           "clrName": "ToTable",
-          "tsEmitName": "toTable2",
+          "tsEmitName": "toTable",
           "normalizedSignature": "ToTable|(System.String):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14970,7 +14970,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::ToTable(System.Boolean,System.String[]):System.Data.DataTable",
           "clrName": "ToTable",
-          "tsEmitName": "toTable3",
+          "tsEmitName": "toTable",
           "normalizedSignature": "ToTable|(System.Boolean,System.String[]):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14986,7 +14986,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::ToTable(System.String,System.Boolean,System.String[]):System.Data.DataTable",
           "clrName": "ToTable",
-          "tsEmitName": "toTable4",
+          "tsEmitName": "toTable",
           "normalizedSignature": "ToTable|(System.String,System.Boolean,System.String[]):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16737,7 +16737,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataViewSettingCollection::CopyTo(System.Data.DataViewSetting[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Data.DataViewSetting[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17041,7 +17041,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DBConcurrencyException::CopyToRows(System.Data.DataRow[],System.Int32):System.Void",
           "clrName": "CopyToRows",
-          "tsEmitName": "copyToRows2",
+          "tsEmitName": "copyToRows",
           "normalizedSignature": "CopyToRows|(System.Data.DataRow[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21148,7 +21148,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::Field(System.Data.DataRow,System.Data.DataColumn):T",
           "clrName": "Field",
-          "tsEmitName": "field2",
+          "tsEmitName": "field",
           "normalizedSignature": "Field|(System.Data.DataRow,System.Data.DataColumn):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21164,7 +21164,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::Field(System.Data.DataRow,System.Int32):T",
           "clrName": "Field",
-          "tsEmitName": "field3",
+          "tsEmitName": "field",
           "normalizedSignature": "Field|(System.Data.DataRow,System.Int32):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21180,7 +21180,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::Field(System.Data.DataRow,System.Int32,System.Data.DataRowVersion):T",
           "clrName": "Field",
-          "tsEmitName": "field4",
+          "tsEmitName": "field",
           "normalizedSignature": "Field|(System.Data.DataRow,System.Int32,System.Data.DataRowVersion):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21196,7 +21196,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::Field(System.Data.DataRow,System.String,System.Data.DataRowVersion):T",
           "clrName": "Field",
-          "tsEmitName": "field5",
+          "tsEmitName": "field",
           "normalizedSignature": "Field|(System.Data.DataRow,System.String,System.Data.DataRowVersion):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21212,7 +21212,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::Field(System.Data.DataRow,System.Data.DataColumn,System.Data.DataRowVersion):T",
           "clrName": "Field",
-          "tsEmitName": "field6",
+          "tsEmitName": "field",
           "normalizedSignature": "Field|(System.Data.DataRow,System.Data.DataColumn,System.Data.DataRowVersion):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21244,7 +21244,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::SetField(System.Data.DataRow,System.String,T):System.Void",
           "clrName": "SetField",
-          "tsEmitName": "setField2",
+          "tsEmitName": "setField",
           "normalizedSignature": "SetField|(System.Data.DataRow,System.String,T):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21260,7 +21260,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowExtensions::SetField(System.Data.DataRow,System.Data.DataColumn,T):System.Void",
           "clrName": "SetField",
-          "tsEmitName": "setField3",
+          "tsEmitName": "setField",
           "normalizedSignature": "SetField|(System.Data.DataRow,System.Data.DataColumn,T):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21325,7 +21325,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableExtensions::CopyToDataTable(IEnumerable_1,System.Data.DataTable,System.Data.LoadOption):System.Void",
           "clrName": "CopyToDataTable",
-          "tsEmitName": "copyToDataTable2",
+          "tsEmitName": "copyToDataTable",
           "normalizedSignature": "CopyToDataTable|(IEnumerable_1,System.Data.DataTable,System.Data.LoadOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21341,7 +21341,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableExtensions::CopyToDataTable(IEnumerable_1,System.Data.DataTable,System.Data.LoadOption,System.Data.FillErrorEventHandler):System.Void",
           "clrName": "CopyToDataTable",
-          "tsEmitName": "copyToDataTable3",
+          "tsEmitName": "copyToDataTable",
           "normalizedSignature": "CopyToDataTable|(IEnumerable_1,System.Data.DataTable,System.Data.LoadOption,System.Data.FillErrorEventHandler):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21373,7 +21373,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTableExtensions::AsDataView(EnumerableRowCollection_1):System.Data.DataView",
           "clrName": "AsDataView",
-          "tsEmitName": "asDataView2",
+          "tsEmitName": "asDataView",
           "normalizedSignature": "AsDataView|(EnumerableRowCollection_1):System.Data.DataView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21438,7 +21438,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollectionExtensions::OrderBy(EnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "OrderBy",
-          "tsEmitName": "orderBy2",
+          "tsEmitName": "orderBy",
           "normalizedSignature": "OrderBy|(EnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21470,7 +21470,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollectionExtensions::OrderByDescending(EnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "OrderByDescending",
-          "tsEmitName": "orderByDescending2",
+          "tsEmitName": "orderByDescending",
           "normalizedSignature": "OrderByDescending|(EnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21502,7 +21502,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollectionExtensions::ThenBy(OrderedEnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "ThenBy",
-          "tsEmitName": "thenBy2",
+          "tsEmitName": "thenBy",
           "normalizedSignature": "ThenBy|(OrderedEnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21534,7 +21534,7 @@
         {
           "stableId": "System.Data.Common:System.Data.EnumerableRowCollectionExtensions::ThenByDescending(OrderedEnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "ThenByDescending",
-          "tsEmitName": "thenByDescending2",
+          "tsEmitName": "thenByDescending",
           "normalizedSignature": "ThenByDescending|(OrderedEnumerableRowCollection_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21631,7 +21631,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBaseExtensions::OrderBy(TypedTableBase_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "OrderBy",
-          "tsEmitName": "orderBy2",
+          "tsEmitName": "orderBy",
           "normalizedSignature": "OrderBy|(TypedTableBase_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21663,7 +21663,7 @@
         {
           "stableId": "System.Data.Common:System.Data.TypedTableBaseExtensions::OrderByDescending(TypedTableBase_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1",
           "clrName": "OrderByDescending",
-          "tsEmitName": "orderByDescending2",
+          "tsEmitName": "orderByDescending",
           "normalizedSignature": "OrderByDescending|(TypedTableBase_1,Func_2,IComparer_1):OrderedEnumerableRowCollection_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

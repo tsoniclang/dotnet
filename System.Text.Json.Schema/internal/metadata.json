@@ -179,7 +179,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "GetJsonSchemaAsNode",
-          "tsEmitName": "getJsonSchemaAsNode2",
+          "tsEmitName": "getJsonSchemaAsNode",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

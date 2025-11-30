@@ -135,7 +135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync2",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write9",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -183,7 +183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write10",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -199,7 +199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write11",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write12",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -231,7 +231,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write13",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -247,7 +247,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write14",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -263,7 +263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write15",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -279,7 +279,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write16",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -295,7 +295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write17",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -311,7 +311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write18",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -327,7 +327,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write19",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -343,7 +343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write20",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -359,7 +359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write21",
+          "tsEmitName": "write8",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -391,7 +391,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -407,7 +407,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync5",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -423,7 +423,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync6",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -439,7 +439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync7",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -503,7 +503,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine8",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -519,7 +519,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine9",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -535,7 +535,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine10",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -551,7 +551,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine11",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -567,7 +567,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine12",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -583,7 +583,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine13",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -599,7 +599,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine14",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -615,7 +615,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine15",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -631,7 +631,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine16",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -647,7 +647,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine17",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -663,7 +663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine18",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -679,7 +679,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine19",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -695,7 +695,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine20",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -711,7 +711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine21",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -727,7 +727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine22",
+          "tsEmitName": "writeLine7",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -759,7 +759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync4",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -775,7 +775,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync6",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -807,7 +807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync7",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -823,7 +823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync8",
+          "tsEmitName": "writeLineAsync3",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

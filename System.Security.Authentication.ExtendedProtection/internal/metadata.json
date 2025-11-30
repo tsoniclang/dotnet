@@ -502,7 +502,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ServiceNameCollection::Merge(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection",
           "clrName": "Merge",
-          "tsEmitName": "merge2",
+          "tsEmitName": "merge",
           "normalizedSignature": "Merge|(System.Collections.IEnumerable):System.Security.Authentication.ExtendedProtection.ServiceNameCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

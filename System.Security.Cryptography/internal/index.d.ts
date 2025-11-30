@@ -787,14 +787,14 @@ export class CngKey$instance {
     getProperty(name: string, options: CngPropertyOptions): CngProperty;
     hasProperty(name: string, options: CngPropertyOptions): boolean;
     setProperty(property: CngProperty): void;
-    static create3(algorithm: CngAlgorithm, keyName: string, creationParameters: CngKeyCreationParameters): CngKey;
-    static create3(algorithm: CngAlgorithm, keyName: string): CngKey;
-    static create3(algorithm: CngAlgorithm): CngKey;
-    static exists3(keyName: string, provider: CngProvider, options: CngKeyOpenOptions): boolean;
-    static exists3(keyName: string, provider: CngProvider): boolean;
-    static exists3(keyName: string): boolean;
-    static import_2(keyBlob: byte[], format: CngKeyBlobFormat, provider: CngProvider): CngKey;
-    static import_2(keyBlob: byte[], format: CngKeyBlobFormat): CngKey;
+    static create(algorithm: CngAlgorithm, keyName: string, creationParameters: CngKeyCreationParameters): CngKey;
+    static create(algorithm: CngAlgorithm, keyName: string): CngKey;
+    static create(algorithm: CngAlgorithm): CngKey;
+    static exists(keyName: string, provider: CngProvider, options: CngKeyOpenOptions): boolean;
+    static exists(keyName: string, provider: CngProvider): boolean;
+    static exists(keyName: string): boolean;
+    static import_(keyBlob: byte[], format: CngKeyBlobFormat, provider: CngProvider): CngKey;
+    static import_(keyBlob: byte[], format: CngKeyBlobFormat): CngKey;
     static open(keyHandle: SafeNCryptKeyHandle, keyHandleOpenOptions: CngKeyHandleOpenOptions): CngKey;
     static open(keyName: string, provider: CngProvider, openOptions: CngKeyOpenOptions): CngKey;
     static open(keyName: string, provider: CngProvider): CngKey;
@@ -965,15 +965,15 @@ export abstract class CompositeMLDsa$instance {
     static importCompositeMLDsaPrivateKey(algorithm: CompositeMLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
     static importCompositeMLDsaPublicKey(algorithm: CompositeMLDsaAlgorithm, source: byte[]): CompositeMLDsa;
     static importCompositeMLDsaPublicKey(algorithm: CompositeMLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
-    static importEncryptedPkcs8PrivateKey3(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
-    static importEncryptedPkcs8PrivateKey3(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
-    static importEncryptedPkcs8PrivateKey3(password: string, source: byte[]): CompositeMLDsa;
-    static importFromEncryptedPem4(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
-    static importFromEncryptedPem4(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): CompositeMLDsa;
-    static importFromEncryptedPem4(source: string, passwordBytes: byte[]): CompositeMLDsa;
-    static importFromEncryptedPem4(source: string, password: string): CompositeMLDsa;
-    static importFromPem2(source: ReadOnlySpan_1<CLROf<char>>): CompositeMLDsa;
-    static importFromPem2(source: string): CompositeMLDsa;
+    static importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
+    static importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
+    static importEncryptedPkcs8PrivateKey(password: string, source: byte[]): CompositeMLDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): CompositeMLDsa;
+    static importFromEncryptedPem(source: string, passwordBytes: byte[]): CompositeMLDsa;
+    static importFromEncryptedPem(source: string, password: string): CompositeMLDsa;
+    static importFromPem(source: ReadOnlySpan_1<CLROf<char>>): CompositeMLDsa;
+    static importFromPem(source: string): CompositeMLDsa;
     static importPkcs8PrivateKey(source: byte[]): CompositeMLDsa;
     static importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>): CompositeMLDsa;
     static importSubjectPublicKeyInfo(source: byte[]): CompositeMLDsa;
@@ -1291,6 +1291,8 @@ export abstract class DSA$instance extends AsymmetricAlgorithm$instance {
     verifySignature(rgbHash: byte[], rgbSignature: byte[], signatureFormat: DSASignatureFormat): boolean;
     verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>): boolean;
     verifySignature(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): boolean;
+    static create(parameters: DSAParameters): DSA;
+    static create(algName: string): DSA;
 }
 
 
@@ -1348,6 +1350,7 @@ export class DSACryptoServiceProvider$instance extends DSA$instance {
     importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
     importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, bytesRead: { value: ref<int> }): void;
     importParameters(parameters: DSAParameters): void;
+    signData(inputStream: Stream): byte[];
     signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
     signData(data: Stream, hashAlgorithm: HashAlgorithmName): byte[];
     signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
@@ -1683,6 +1686,7 @@ export class ECDsaCng$instance extends ECDsa$instance {
     readonly key: CngKey;
     dispose(): void;
     fromXmlString(xmlString: string): void;
+    signData(data: Stream): byte[];
     signData(data: byte[], hashAlgorithm: HashAlgorithmName): byte[];
     signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName): byte[];
     signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): byte[];
@@ -1700,6 +1704,7 @@ export class ECDsaCng$instance extends ECDsa$instance {
     signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, signatureFormat: DSASignatureFormat): int;
     signHash(hash: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     toXmlString(includePrivateParameters: boolean): string;
+    verifyData(data: Stream, signature: byte[]): boolean;
     verifyData(data: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName): boolean;
     verifyData(data: byte[], offset: int, count: int, signature: byte[], hashAlgorithm: HashAlgorithmName, signatureFormat: DSASignatureFormat): boolean;
@@ -1849,9 +1854,9 @@ export class HMACMD5$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -1881,9 +1886,9 @@ export class HMACSHA1$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -1912,9 +1917,9 @@ export class HMACSHA256$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -1944,9 +1949,9 @@ export class HMACSHA3_256$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -1976,9 +1981,9 @@ export class HMACSHA3_384$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -2008,9 +2013,9 @@ export class HMACSHA3_512$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -2040,9 +2045,9 @@ export class HMACSHA384$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -2072,9 +2077,9 @@ export class HMACSHA512$instance extends HMAC$instance {
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: Stream): byte[];
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: byte[], source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(key: ReadOnlyMemory_1<CLROf<byte>>, source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(key: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -2292,8 +2297,8 @@ export abstract class MD5$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -2365,22 +2370,22 @@ export abstract class MLDsa$instance {
     static importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
     static importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
     static importEncryptedPkcs8PrivateKey(password: string, source: byte[]): MLDsa;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): MLDsa;
-    static importFromEncryptedPem2(source: string, passwordBytes: byte[]): MLDsa;
-    static importFromEncryptedPem2(source: string, password: string): MLDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): MLDsa;
+    static importFromEncryptedPem(source: string, passwordBytes: byte[]): MLDsa;
+    static importFromEncryptedPem(source: string, password: string): MLDsa;
     static importFromPem(source: ReadOnlySpan_1<CLROf<char>>): MLDsa;
     static importFromPem(source: string): MLDsa;
-    static importMLDsaPrivateKey2(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
-    static importMLDsaPrivateKey2(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
-    static importMLDsaPrivateSeed2(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
-    static importMLDsaPrivateSeed2(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
-    static importMLDsaPublicKey2(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
-    static importMLDsaPublicKey2(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
-    static importPkcs8PrivateKey2(source: byte[]): MLDsa;
-    static importPkcs8PrivateKey2(source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
-    static importSubjectPublicKeyInfo2(source: byte[]): MLDsa;
-    static importSubjectPublicKeyInfo2(source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importMLDsaPrivateKey(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
+    static importMLDsaPrivateKey(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importMLDsaPrivateSeed(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
+    static importMLDsaPrivateSeed(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importMLDsaPublicKey(algorithm: MLDsaAlgorithm, source: byte[]): MLDsa;
+    static importMLDsaPublicKey(algorithm: MLDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importPkcs8PrivateKey(source: byte[]): MLDsa;
+    static importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
+    static importSubjectPublicKeyInfo(source: byte[]): MLDsa;
+    static importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>): MLDsa;
 }
 
 
@@ -2478,25 +2483,25 @@ export abstract class MLKem$instance {
     tryExportSubjectPublicKeyInfo(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     static readonly isSupported: boolean;
     static generateKey(algorithm: MLKemAlgorithm): MLKem;
-    static importDecapsulationKey2(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
-    static importDecapsulationKey2(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
-    static importEncapsulationKey2(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
-    static importEncapsulationKey2(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importDecapsulationKey(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
+    static importDecapsulationKey(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importEncapsulationKey(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
+    static importEncapsulationKey(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
     static importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
     static importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
     static importEncryptedPkcs8PrivateKey(password: string, source: byte[]): MLKem;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): MLKem;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): MLKem;
-    static importFromEncryptedPem2(source: string, passwordBytes: byte[]): MLKem;
-    static importFromEncryptedPem2(source: string, password: string): MLKem;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): MLKem;
+    static importFromEncryptedPem(source: string, passwordBytes: byte[]): MLKem;
+    static importFromEncryptedPem(source: string, password: string): MLKem;
     static importFromPem(source: ReadOnlySpan_1<CLROf<char>>): MLKem;
     static importFromPem(source: string): MLKem;
-    static importPkcs8PrivateKey2(source: byte[]): MLKem;
-    static importPkcs8PrivateKey2(source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
-    static importPrivateSeed2(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
-    static importPrivateSeed2(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
-    static importSubjectPublicKeyInfo2(source: byte[]): MLKem;
-    static importSubjectPublicKeyInfo2(source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importPkcs8PrivateKey(source: byte[]): MLKem;
+    static importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importPrivateSeed(algorithm: MLKemAlgorithm, source: byte[]): MLKem;
+    static importPrivateSeed(algorithm: MLKemAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
+    static importSubjectPublicKeyInfo(source: byte[]): MLKem;
+    static importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>): MLKem;
 }
 
 
@@ -2669,8 +2674,8 @@ export abstract class RandomNumberGenerator$instance {
     static create(rngName: string): RandomNumberGenerator;
     static fill(data: Span_1<CLROf<byte>>): void;
     static getBytes(count: int): byte[];
-    static getHexString2(stringLength: int, lowercase?: boolean): string;
-    static getHexString2(destination: Span_1<CLROf<char>>, lowercase?: boolean): void;
+    static getHexString(stringLength: int, lowercase?: boolean): string;
+    static getHexString(destination: Span_1<CLROf<char>>, lowercase?: boolean): void;
     static getInt32(fromInclusive: int, toExclusive: int): int;
     static getInt32(toExclusive: int): int;
     static getItems<T>(choices: ReadOnlySpan_1<T>, destination: Span_1<T>): void;
@@ -2891,6 +2896,8 @@ export abstract class RSA$instance extends AsymmetricAlgorithm$instance {
     verifyData(data: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
     verifyHash(hash: byte[], signature: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
     verifyHash(hash: ReadOnlySpan_1<CLROf<byte>>, signature: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): boolean;
+    static create(parameters: RSAParameters): RSA;
+    static create(algName: string): RSA;
 }
 
 
@@ -2948,6 +2955,7 @@ export class RSACryptoServiceProvider$instance extends RSA$instance {
     importParameters(parameters: RSAParameters): void;
     signData(data: Stream, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     signData(data: byte[], offset: int, count: int, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
+    signData(inputStream: Stream, halg: unknown): byte[];
     signData(data: byte[], hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     signData(data: ReadOnlySpan_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): byte[];
     signData(data: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, hashAlgorithm: HashAlgorithmName, padding: RSASignaturePadding): int;
@@ -3203,8 +3211,8 @@ export abstract class SHA1$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3262,8 +3270,8 @@ export abstract class SHA256$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3322,8 +3330,8 @@ export abstract class SHA3_256$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3348,8 +3356,8 @@ export abstract class SHA3_384$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3374,8 +3382,8 @@ export abstract class SHA3_512$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3399,8 +3407,8 @@ export abstract class SHA384$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3458,8 +3466,8 @@ export abstract class SHA512$instance extends HashAlgorithm$instance {
     static hashData(source: Stream): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): int;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>): byte[];
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    static hashDataAsync2(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static hashDataAsync(source: Stream, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     static tryHashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
@@ -3525,8 +3533,8 @@ export class Shake128$instance {
     static hashData(source: Stream, destination: Span_1<CLROf<byte>>): void;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, outputLength: int): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
-    static hashDataAsync2(source: Stream, outputLength: int, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    static hashDataAsync(source: Stream, outputLength: int, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -3558,8 +3566,8 @@ export class Shake256$instance {
     static hashData(source: Stream, destination: Span_1<CLROf<byte>>): void;
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, outputLength: int): byte[];
     static hashData(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>): void;
-    static hashDataAsync2(source: Stream, outputLength: int, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
-    static hashDataAsync2(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    static hashDataAsync(source: Stream, outputLength: int, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    static hashDataAsync(source: Stream, destination: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -3622,20 +3630,20 @@ export abstract class SlhDsa$instance {
     static importEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<CLROf<byte>>, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
     static importEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<CLROf<char>>, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
     static importEncryptedPkcs8PrivateKey(password: string, source: byte[]): SlhDsa;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
-    static importFromEncryptedPem2(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): SlhDsa;
-    static importFromEncryptedPem2(source: string, passwordBytes: byte[]): SlhDsa;
-    static importFromEncryptedPem2(source: string, password: string): SlhDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, passwordBytes: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
+    static importFromEncryptedPem(source: ReadOnlySpan_1<CLROf<char>>, password: ReadOnlySpan_1<CLROf<char>>): SlhDsa;
+    static importFromEncryptedPem(source: string, passwordBytes: byte[]): SlhDsa;
+    static importFromEncryptedPem(source: string, password: string): SlhDsa;
     static importFromPem(source: ReadOnlySpan_1<CLROf<char>>): SlhDsa;
     static importFromPem(source: string): SlhDsa;
-    static importPkcs8PrivateKey2(source: byte[]): SlhDsa;
-    static importPkcs8PrivateKey2(source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
-    static importSlhDsaPrivateKey2(algorithm: SlhDsaAlgorithm, source: byte[]): SlhDsa;
-    static importSlhDsaPrivateKey2(algorithm: SlhDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
-    static importSlhDsaPublicKey2(algorithm: SlhDsaAlgorithm, source: byte[]): SlhDsa;
-    static importSlhDsaPublicKey2(algorithm: SlhDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
-    static importSubjectPublicKeyInfo2(source: byte[]): SlhDsa;
-    static importSubjectPublicKeyInfo2(source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
+    static importPkcs8PrivateKey(source: byte[]): SlhDsa;
+    static importPkcs8PrivateKey(source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
+    static importSlhDsaPrivateKey(algorithm: SlhDsaAlgorithm, source: byte[]): SlhDsa;
+    static importSlhDsaPrivateKey(algorithm: SlhDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
+    static importSlhDsaPublicKey(algorithm: SlhDsaAlgorithm, source: byte[]): SlhDsa;
+    static importSlhDsaPublicKey(algorithm: SlhDsaAlgorithm, source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
+    static importSubjectPublicKeyInfo(source: byte[]): SlhDsa;
+    static importSubjectPublicKeyInfo(source: ReadOnlySpan_1<CLROf<byte>>): SlhDsa;
 }
 
 

@@ -39,7 +39,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted2",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682326,
           "canonicalSignature": "(T,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Boolean|static=false",
@@ -53,7 +53,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted3",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682327,
           "canonicalSignature": "(T,System.Int32):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted4",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682328,
           "canonicalSignature": "(T,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
@@ -81,7 +81,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted5",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682329,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
@@ -95,7 +95,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted6",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682330,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted7",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682331,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
@@ -123,7 +123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted8",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682332,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted9",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682333,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.String):System.Boolean|static=false",
@@ -151,7 +151,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted10",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682334,
           "canonicalSignature": "(System.String,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
@@ -165,7 +165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted11",
+          "tsEmitName": "appendFormatted",
           "metadataToken": 100682335,
           "canonicalSignature": "(System.Object,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
@@ -224,7 +224,7 @@
           }
         },
         {
-          "tsName": "appendFormatted2",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(T,System.String):System.Boolean|static=false",
           "target": {
@@ -234,7 +234,7 @@
           }
         },
         {
-          "tsName": "appendFormatted3",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
           "target": {
@@ -244,7 +244,7 @@
           }
         },
         {
-          "tsName": "appendFormatted4",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
           "target": {
@@ -254,7 +254,7 @@
           }
         },
         {
-          "tsName": "appendFormatted5",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -264,7 +264,7 @@
           }
         },
         {
-          "tsName": "appendFormatted6",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "target": {
@@ -274,7 +274,7 @@
           }
         },
         {
-          "tsName": "appendFormatted7",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -284,7 +284,7 @@
           }
         },
         {
-          "tsName": "appendFormatted8",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "target": {
@@ -294,7 +294,7 @@
           }
         },
         {
-          "tsName": "appendFormatted9",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.String):System.Boolean|static=false",
           "target": {
@@ -304,7 +304,7 @@
           }
         },
         {
-          "tsName": "appendFormatted10",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
           "target": {
@@ -314,7 +314,7 @@
           }
         },
         {
-          "tsName": "appendFormatted11",
+          "tsName": "appendFormatted",
           "isStatic": false,
           "tsSignatureId": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
           "target": {
@@ -4594,7 +4594,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryWrite",
-          "tsEmitName": "tryWrite2",
+          "tsEmitName": "tryWrite",
           "metadataToken": 100682320,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
@@ -4656,7 +4656,7 @@
           }
         },
         {
-          "tsName": "tryWrite2",
+          "tsName": "tryWrite",
           "isStatic": true,
           "tsSignatureId": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "target": {

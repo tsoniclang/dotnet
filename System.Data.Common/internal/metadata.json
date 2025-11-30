@@ -868,7 +868,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Add(System.String,System.String):System.Data.Common.DataColumnMapping",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.String):System.Data.Common.DataColumnMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -900,7 +900,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::AddRange(System.Array):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Array):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -948,7 +948,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -980,7 +980,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::CopyTo(System.Data.Common.DataColumnMapping[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Data.Common.DataColumnMapping[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1044,7 +1044,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1092,7 +1092,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Insert(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert2",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Data.Common.DataColumnMapping):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1124,7 +1124,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::RemoveAt(System.String):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1156,7 +1156,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::Remove(System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Data.Common.DataColumnMapping):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1848,7 +1848,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::AddRange(System.Array):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Array):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1864,7 +1864,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Add(System.String,System.String):System.Data.Common.DataTableMapping",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.String):System.Data.Common.DataTableMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1912,7 +1912,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Contains(System.Object):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1944,7 +1944,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::CopyTo(System.Data.Common.DataTableMapping[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Data.Common.DataTableMapping[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2008,7 +2008,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2056,7 +2056,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Insert(System.Int32,System.Data.Common.DataTableMapping):System.Void",
           "clrName": "Insert",
-          "tsEmitName": "insert2",
+          "tsEmitName": "insert",
           "normalizedSignature": "Insert|(System.Int32,System.Data.Common.DataTableMapping):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2088,7 +2088,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::RemoveAt(System.String):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2120,7 +2120,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::Remove(System.Data.Common.DataTableMapping):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Data.Common.DataTableMapping):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2588,7 +2588,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbBatch::ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ExecuteReaderAsync",
-          "tsEmitName": "executeReaderAsync2",
+          "tsEmitName": "executeReaderAsync",
           "normalizedSignature": "ExecuteReaderAsync|(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3818,7 +3818,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReader(System.Data.CommandBehavior):System.Data.Common.DbDataReader",
           "clrName": "ExecuteReader",
-          "tsEmitName": "executeReader2",
+          "tsEmitName": "executeReader",
           "normalizedSignature": "ExecuteReader|(System.Data.CommandBehavior):System.Data.Common.DbDataReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3850,7 +3850,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteNonQueryAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ExecuteNonQueryAsync",
-          "tsEmitName": "executeNonQueryAsync2",
+          "tsEmitName": "executeNonQueryAsync",
           "normalizedSignature": "ExecuteNonQueryAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3882,7 +3882,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ExecuteReaderAsync",
-          "tsEmitName": "executeReaderAsync2",
+          "tsEmitName": "executeReaderAsync",
           "normalizedSignature": "ExecuteReaderAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3898,7 +3898,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Data.CommandBehavior):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ExecuteReaderAsync",
-          "tsEmitName": "executeReaderAsync3",
+          "tsEmitName": "executeReaderAsync",
           "normalizedSignature": "ExecuteReaderAsync|(System.Data.CommandBehavior):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3914,7 +3914,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteReaderAsync(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ExecuteReaderAsync",
-          "tsEmitName": "executeReaderAsync4",
+          "tsEmitName": "executeReaderAsync",
           "normalizedSignature": "ExecuteReaderAsync|(System.Data.CommandBehavior,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.Common.DbDataReader,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3946,7 +3946,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommand::ExecuteScalarAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ExecuteScalarAsync",
-          "tsEmitName": "executeScalarAsync2",
+          "tsEmitName": "executeScalarAsync",
           "normalizedSignature": "ExecuteScalarAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4460,7 +4460,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetInsertCommand(System.Boolean):System.Data.Common.DbCommand",
           "clrName": "GetInsertCommand",
-          "tsEmitName": "getInsertCommand2",
+          "tsEmitName": "getInsertCommand",
           "normalizedSignature": "GetInsertCommand|(System.Boolean):System.Data.Common.DbCommand|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4492,7 +4492,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetUpdateCommand(System.Boolean):System.Data.Common.DbCommand",
           "clrName": "GetUpdateCommand",
-          "tsEmitName": "getUpdateCommand2",
+          "tsEmitName": "getUpdateCommand",
           "normalizedSignature": "GetUpdateCommand|(System.Boolean):System.Data.Common.DbCommand|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4524,7 +4524,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbCommandBuilder::GetDeleteCommand(System.Boolean):System.Data.Common.DbCommand",
           "clrName": "GetDeleteCommand",
-          "tsEmitName": "getDeleteCommand2",
+          "tsEmitName": "getDeleteCommand",
           "normalizedSignature": "GetDeleteCommand|(System.Boolean):System.Data.Common.DbCommand|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4791,7 +4791,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::BeginTransaction(System.Data.IsolationLevel):System.Data.Common.DbTransaction",
           "clrName": "BeginTransaction",
-          "tsEmitName": "beginTransaction2",
+          "tsEmitName": "beginTransaction",
           "normalizedSignature": "BeginTransaction|(System.Data.IsolationLevel):System.Data.Common.DbTransaction|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4823,7 +4823,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::BeginTransactionAsync(System.Data.IsolationLevel,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Data.Common.DbTransaction,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "BeginTransactionAsync",
-          "tsEmitName": "beginTransactionAsync2",
+          "tsEmitName": "beginTransactionAsync",
           "normalizedSignature": "BeginTransactionAsync|(System.Data.IsolationLevel,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Data.Common.DbTransaction,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4983,7 +4983,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchema(System.String):System.Data.DataTable",
           "clrName": "GetSchema",
-          "tsEmitName": "getSchema2",
+          "tsEmitName": "getSchema",
           "normalizedSignature": "GetSchema|(System.String):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4999,7 +4999,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchema(System.String,System.String[]):System.Data.DataTable",
           "clrName": "GetSchema",
-          "tsEmitName": "getSchema3",
+          "tsEmitName": "getSchema",
           "normalizedSignature": "GetSchema|(System.String,System.String[]):System.Data.DataTable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5031,7 +5031,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchemaAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetSchemaAsync",
-          "tsEmitName": "getSchemaAsync2",
+          "tsEmitName": "getSchemaAsync",
           "normalizedSignature": "GetSchemaAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5047,7 +5047,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::GetSchemaAsync(System.String,System.String[],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetSchemaAsync",
-          "tsEmitName": "getSchemaAsync3",
+          "tsEmitName": "getSchemaAsync",
           "normalizedSignature": "GetSchemaAsync|(System.String,System.String[],System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Data.DataTable,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5095,7 +5095,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnection::OpenAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "OpenAsync",
-          "tsEmitName": "openAsync2",
+          "tsEmitName": "openAsync",
           "normalizedSignature": "OpenAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5489,7 +5489,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbConnectionStringBuilder::AppendKeyValuePair(System.Text.StringBuilder,System.String,System.String,System.Boolean):System.Void",
           "clrName": "AppendKeyValuePair",
-          "tsEmitName": "appendKeyValuePair2",
+          "tsEmitName": "appendKeyValuePair",
           "normalizedSignature": "AppendKeyValuePair|(System.Text.StringBuilder,System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6216,7 +6216,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]",
           "clrName": "FillSchema",
-          "tsEmitName": "fillSchema2",
+          "tsEmitName": "fillSchema",
           "normalizedSignature": "FillSchema|(System.Data.DataSet,System.Data.SchemaType):System.Data.DataTable[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6232,7 +6232,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::FillSchema(System.Data.DataSet,System.Data.SchemaType,System.String):System.Data.DataTable[]",
           "clrName": "FillSchema",
-          "tsEmitName": "fillSchema3",
+          "tsEmitName": "fillSchema",
           "normalizedSignature": "FillSchema|(System.Data.DataSet,System.Data.SchemaType,System.String):System.Data.DataTable[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6264,7 +6264,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataSet,System.String):System.Int32",
           "clrName": "Fill",
-          "tsEmitName": "fill2",
+          "tsEmitName": "fill",
           "normalizedSignature": "Fill|(System.Data.DataSet,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6280,7 +6280,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataSet,System.Int32,System.Int32,System.String):System.Int32",
           "clrName": "Fill",
-          "tsEmitName": "fill3",
+          "tsEmitName": "fill",
           "normalizedSignature": "Fill|(System.Data.DataSet,System.Int32,System.Int32,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6296,7 +6296,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Data.DataTable):System.Int32",
           "clrName": "Fill",
-          "tsEmitName": "fill4",
+          "tsEmitName": "fill",
           "normalizedSignature": "Fill|(System.Data.DataTable):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6312,7 +6312,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Fill(System.Int32,System.Int32,System.Data.DataTable[]):System.Int32",
           "clrName": "Fill",
-          "tsEmitName": "fill5",
+          "tsEmitName": "fill",
           "normalizedSignature": "Fill|(System.Int32,System.Int32,System.Data.DataTable[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6360,7 +6360,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataRow[]):System.Int32",
           "clrName": "Update",
-          "tsEmitName": "update2",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(System.Data.DataRow[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6376,7 +6376,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataTable):System.Int32",
           "clrName": "Update",
-          "tsEmitName": "update3",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(System.Data.DataTable):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6392,7 +6392,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataAdapter::Update(System.Data.DataSet,System.String):System.Int32",
           "clrName": "Update",
-          "tsEmitName": "update4",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(System.Data.DataSet,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7300,7 +7300,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::GetFieldValueAsync(System.Int32,System.Threading.CancellationToken):Task_1",
           "clrName": "GetFieldValueAsync",
-          "tsEmitName": "getFieldValueAsync2",
+          "tsEmitName": "getFieldValueAsync",
           "normalizedSignature": "GetFieldValueAsync|(System.Int32,System.Threading.CancellationToken):Task_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7364,7 +7364,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::IsDBNullAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "IsDBNullAsync",
-          "tsEmitName": "isDBNullAsync2",
+          "tsEmitName": "isDBNullAsync",
           "normalizedSignature": "IsDBNullAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7428,7 +7428,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::ReadAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7460,7 +7460,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::NextResultAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "NextResultAsync",
-          "tsEmitName": "nextResultAsync2",
+          "tsEmitName": "nextResultAsync",
           "normalizedSignature": "NextResultAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9915,7 +9915,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::Contains(System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9995,7 +9995,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::IndexOf(System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10059,7 +10059,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::RemoveAt(System.String):System.Void",
           "clrName": "RemoveAt",
-          "tsEmitName": "removeAt2",
+          "tsEmitName": "removeAt",
           "normalizedSignature": "RemoveAt|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10887,7 +10887,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::RollbackAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "RollbackAsync",
-          "tsEmitName": "rollbackAsync2",
+          "tsEmitName": "rollbackAsync",
           "normalizedSignature": "RollbackAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10935,7 +10935,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbTransaction::Rollback(System.String):System.Void",
           "clrName": "Rollback",
-          "tsEmitName": "rollback2",
+          "tsEmitName": "rollback",
           "normalizedSignature": "Rollback|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11129,7 +11129,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.RowUpdatedEventArgs::CopyToRows(System.Data.DataRow[],System.Int32):System.Void",
           "clrName": "CopyToRows",
-          "tsEmitName": "copyToRows2",
+          "tsEmitName": "copyToRows",
           "normalizedSignature": "CopyToRows|(System.Data.DataRow[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11949,7 +11949,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactory(System.Data.DataRow):System.Data.Common.DbProviderFactory",
           "clrName": "GetFactory",
-          "tsEmitName": "getFactory2",
+          "tsEmitName": "getFactory",
           "normalizedSignature": "GetFactory|(System.Data.DataRow):System.Data.Common.DbProviderFactory|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11965,7 +11965,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::GetFactory(System.Data.Common.DbConnection):System.Data.Common.DbProviderFactory",
           "clrName": "GetFactory",
-          "tsEmitName": "getFactory3",
+          "tsEmitName": "getFactory",
           "normalizedSignature": "GetFactory|(System.Data.Common.DbConnection):System.Data.Common.DbProviderFactory|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12029,7 +12029,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::RegisterFactory(System.String,System.Type):System.Void",
           "clrName": "RegisterFactory",
-          "tsEmitName": "registerFactory2",
+          "tsEmitName": "registerFactory",
           "normalizedSignature": "RegisterFactory|(System.String,System.Type):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12045,7 +12045,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbProviderFactories::RegisterFactory(System.String,System.Data.Common.DbProviderFactory):System.Void",
           "clrName": "RegisterFactory",
-          "tsEmitName": "registerFactory3",
+          "tsEmitName": "registerFactory",
           "normalizedSignature": "RegisterFactory|(System.String,System.Data.Common.DbProviderFactory):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

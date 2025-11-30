@@ -866,7 +866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int16):System.Int16",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness2",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.Int16):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -882,7 +882,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int32):System.Int32",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness3",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int64):System.Int64",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness4",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.Int64):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -914,7 +914,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.IntPtr):System.IntPtr",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness5",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -930,7 +930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int128):System.Int128",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness6",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.Int128):System.Int128|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -946,7 +946,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Byte):System.Byte",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness7",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.Byte):System.Byte|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt16):System.UInt16",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness8",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -978,7 +978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt32):System.UInt32",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness9",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -994,7 +994,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt64):System.UInt64",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness10",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1010,7 +1010,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UIntPtr):System.UIntPtr",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness11",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1026,7 +1026,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt128):System.UInt128",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness12",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1042,7 +1042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness13",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1058,7 +1058,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness14",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1074,7 +1074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness15",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1090,7 +1090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness16",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1106,7 +1106,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness17",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1122,7 +1122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness18",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness19",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1154,7 +1154,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness20",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1170,7 +1170,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness21",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1186,7 +1186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness22",
+          "tsEmitName": "reverseEndianness",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

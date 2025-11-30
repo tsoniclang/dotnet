@@ -168,7 +168,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -176,7 +176,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -528,7 +527,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -536,7 +535,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -2071,7 +2069,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Add(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2103,7 +2101,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "TryAddWithoutValidation",
-          "tsEmitName": "tryAddWithoutValidation2",
+          "tsEmitName": "tryAddWithoutValidation",
           "normalizedSignature": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

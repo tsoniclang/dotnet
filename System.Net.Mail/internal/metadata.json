@@ -506,7 +506,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.AlternateView",
           "clrName": "CreateAlternateViewFromString",
-          "tsEmitName": "createAlternateViewFromString2",
+          "tsEmitName": "createAlternateViewFromString",
           "normalizedSignature": "CreateAlternateViewFromString|(System.String,System.Text.Encoding,System.String):System.Net.Mail.AlternateView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -522,7 +522,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.AlternateView::CreateAlternateViewFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.AlternateView",
           "clrName": "CreateAlternateViewFromString",
-          "tsEmitName": "createAlternateViewFromString3",
+          "tsEmitName": "createAlternateViewFromString",
           "normalizedSignature": "CreateAlternateViewFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.AlternateView|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1357,7 +1357,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.String,System.Text.Encoding,System.String):System.Net.Mail.Attachment",
           "clrName": "CreateAttachmentFromString",
-          "tsEmitName": "createAttachmentFromString2",
+          "tsEmitName": "createAttachmentFromString",
           "normalizedSignature": "CreateAttachmentFromString|(System.String,System.String,System.Text.Encoding,System.String):System.Net.Mail.Attachment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1373,7 +1373,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.Attachment::CreateAttachmentFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.Attachment",
           "clrName": "CreateAttachmentFromString",
-          "tsEmitName": "createAttachmentFromString3",
+          "tsEmitName": "createAttachmentFromString",
           "normalizedSignature": "CreateAttachmentFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.Attachment|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2334,7 +2334,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Text.Encoding,System.String):System.Net.Mail.LinkedResource",
           "clrName": "CreateLinkedResourceFromString",
-          "tsEmitName": "createLinkedResourceFromString2",
+          "tsEmitName": "createLinkedResourceFromString",
           "normalizedSignature": "CreateLinkedResourceFromString|(System.String,System.Text.Encoding,System.String):System.Net.Mail.LinkedResource|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2350,7 +2350,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource::CreateLinkedResourceFromString(System.String,System.Net.Mime.ContentType):System.Net.Mail.LinkedResource",
           "clrName": "CreateLinkedResourceFromString",
-          "tsEmitName": "createLinkedResourceFromString3",
+          "tsEmitName": "createLinkedResourceFromString",
           "normalizedSignature": "CreateLinkedResourceFromString|(System.String,System.Net.Mime.ContentType):System.Net.Mail.LinkedResource|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3170,7 +3170,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Net.Mail.MailAddress\u0026):System.Boolean",
           "clrName": "TryCreate",
-          "tsEmitName": "tryCreate2",
+          "tsEmitName": "tryCreate",
           "normalizedSignature": "TryCreate|(System.String,System.String,System.Net.Mail.MailAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3186,7 +3186,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailAddress::TryCreate(System.String,System.String,System.Text.Encoding,System.Net.Mail.MailAddress\u0026):System.Boolean",
           "clrName": "TryCreate",
-          "tsEmitName": "tryCreate3",
+          "tsEmitName": "tryCreate",
           "normalizedSignature": "TryCreate|(System.String,System.String,System.Text.Encoding,System.Net.Mail.MailAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4550,7 +4550,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::Send(System.Net.Mail.MailMessage):System.Void",
           "clrName": "Send",
-          "tsEmitName": "send2",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.Mail.MailMessage):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4582,7 +4582,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendAsync(System.Net.Mail.MailMessage,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.Mail.MailMessage,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4630,7 +4630,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "sendMailAsync2",
+          "tsEmitName": "sendMailAsync",
           "normalizedSignature": "SendMailAsync|(System.Net.Mail.MailMessage):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4646,7 +4646,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "sendMailAsync3",
+          "tsEmitName": "sendMailAsync",
           "normalizedSignature": "SendMailAsync|(System.String,System.String,System.String,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4662,7 +4662,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpClient::SendMailAsync(System.Net.Mail.MailMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SendMailAsync",
-          "tsEmitName": "sendMailAsync4",
+          "tsEmitName": "sendMailAsync",
           "normalizedSignature": "SendMailAsync|(System.Net.Mail.MailMessage,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

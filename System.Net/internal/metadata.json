@@ -2604,7 +2604,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPNetwork",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPNetwork|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2620,7 +2620,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPNetwork",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPNetwork|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2652,7 +2652,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPNetwork\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPNetwork\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2668,7 +2668,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPNetwork\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse3",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPNetwork\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2716,7 +2716,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::TryFormat(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat2",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2748,7 +2748,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPNetwork::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3068,7 +3068,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.AuthenticationManager::Unregister(System.String):System.Void",
           "clrName": "Unregister",
-          "tsEmitName": "unregister2",
+          "tsEmitName": "unregister",
           "normalizedSignature": "Unregister|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3842,7 +3842,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieCollection::Add(System.Net.CookieCollection):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Net.CookieCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3922,7 +3922,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieCollection::CopyTo(System.Net.Cookie[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Net.Cookie[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4301,7 +4301,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieContainer::Add(System.Net.CookieCollection):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Net.CookieCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4317,7 +4317,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieContainer::Add(System.Uri,System.Net.Cookie):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Uri,System.Net.Cookie):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4333,7 +4333,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieContainer::Add(System.Uri,System.Net.CookieCollection):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Uri,System.Net.CookieCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4617,7 +4617,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CredentialCache::Add(System.String,System.Int32,System.String,System.Net.NetworkCredential):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Int32,System.String,System.Net.NetworkCredential):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4649,7 +4649,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CredentialCache::Remove(System.String,System.Int32,System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4681,7 +4681,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CredentialCache::GetCredential(System.String,System.Int32,System.String):System.Net.NetworkCredential",
           "clrName": "GetCredential",
-          "tsEmitName": "getCredential2",
+          "tsEmitName": "getCredential",
           "normalizedSignature": "GetCredential|(System.String,System.Int32,System.String):System.Net.NetworkCredential|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7649,7 +7649,7 @@
         {
           "stableId": "System.Net.HttpListener:System.Net.HttpListenerContext::AcceptWebSocketAsync(System.String,System.TimeSpan):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "AcceptWebSocketAsync",
-          "tsEmitName": "acceptWebSocketAsync2",
+          "tsEmitName": "acceptWebSocketAsync",
           "normalizedSignature": "AcceptWebSocketAsync|(System.String,System.TimeSpan):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7665,7 +7665,7 @@
         {
           "stableId": "System.Net.HttpListener:System.Net.HttpListenerContext::AcceptWebSocketAsync(System.String,System.Int32,System.TimeSpan):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "AcceptWebSocketAsync",
-          "tsEmitName": "acceptWebSocketAsync3",
+          "tsEmitName": "acceptWebSocketAsync",
           "normalizedSignature": "AcceptWebSocketAsync|(System.String,System.Int32,System.TimeSpan):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7681,7 +7681,7 @@
         {
           "stableId": "System.Net.HttpListener:System.Net.HttpListenerContext::AcceptWebSocketAsync(System.String,System.Int32,System.TimeSpan,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "AcceptWebSocketAsync",
-          "tsEmitName": "acceptWebSocketAsync4",
+          "tsEmitName": "acceptWebSocketAsync",
           "normalizedSignature": "AcceptWebSocketAsync|(System.String,System.Int32,System.TimeSpan,System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Net.WebSockets.HttpListenerWebSocketContext,System.Net.HttpListener,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7858,7 +7858,7 @@
         {
           "stableId": "System.Net.HttpListener:System.Net.HttpListenerPrefixCollection::CopyTo(System.String[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.String[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8780,7 +8780,7 @@
         {
           "stableId": "System.Net.HttpListener:System.Net.HttpListenerResponse::Close(System.Byte[],System.Boolean):System.Void",
           "clrName": "Close",
-          "tsEmitName": "close2",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|(System.Byte[],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9198,7 +9198,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::GetRequestStream(System.Net.TransportContext\u0026):System.IO.Stream",
           "clrName": "GetRequestStream",
-          "tsEmitName": "getRequestStream2",
+          "tsEmitName": "getRequestStream",
           "normalizedSignature": "GetRequestStream|(System.Net.TransportContext\u0026):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9230,7 +9230,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::EndGetRequestStream(System.IAsyncResult):System.IO.Stream",
           "clrName": "EndGetRequestStream",
-          "tsEmitName": "endGetRequestStream2",
+          "tsEmitName": "endGetRequestStream",
           "normalizedSignature": "EndGetRequestStream|(System.IAsyncResult):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9294,7 +9294,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.Int64,System.Int64):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Int64,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9310,7 +9310,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange3",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9326,7 +9326,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.Int64):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9342,7 +9342,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.String,System.Int32,System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange5",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.String,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9358,7 +9358,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.String,System.Int64,System.Int64):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange6",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.String,System.Int64,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9374,7 +9374,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.String,System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange7",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9390,7 +9390,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.HttpWebRequest::AddRange(System.String,System.Int64):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange8",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.String,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10543,7 +10543,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPAddress\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10559,7 +10559,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPAddress\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse3",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10591,7 +10591,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPAddress",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPAddress|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10607,7 +10607,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPAddress",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPAddress|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10687,7 +10687,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::TryFormat(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat2",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10719,7 +10719,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::HostToNetworkOrder(System.Int32):System.Int32",
           "clrName": "HostToNetworkOrder",
-          "tsEmitName": "hostToNetworkOrder2",
+          "tsEmitName": "hostToNetworkOrder",
           "normalizedSignature": "HostToNetworkOrder|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10735,7 +10735,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::HostToNetworkOrder(System.Int16):System.Int16",
           "clrName": "HostToNetworkOrder",
-          "tsEmitName": "hostToNetworkOrder3",
+          "tsEmitName": "hostToNetworkOrder",
           "normalizedSignature": "HostToNetworkOrder|(System.Int16):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10767,7 +10767,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::NetworkToHostOrder(System.Int32):System.Int32",
           "clrName": "NetworkToHostOrder",
-          "tsEmitName": "networkToHostOrder2",
+          "tsEmitName": "networkToHostOrder",
           "normalizedSignature": "NetworkToHostOrder|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10783,7 +10783,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::NetworkToHostOrder(System.Int16):System.Int16",
           "clrName": "NetworkToHostOrder",
-          "tsEmitName": "networkToHostOrder3",
+          "tsEmitName": "networkToHostOrder",
           "normalizedSignature": "NetworkToHostOrder|(System.Int16):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11291,7 +11291,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPEndPoint::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11323,7 +11323,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPEndPoint::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPEndPoint",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.IPEndPoint|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11596,7 +11596,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.NetworkCredential::GetCredential(System.String,System.Int32,System.String):System.Net.NetworkCredential",
           "clrName": "GetCredential",
-          "tsEmitName": "getCredential2",
+          "tsEmitName": "getCredential",
           "normalizedSignature": "GetCredential|(System.String,System.Int32,System.String):System.Net.NetworkCredential|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12462,7 +12462,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.ServicePointManager::FindServicePoint(System.String,System.Net.IWebProxy):System.Net.ServicePoint",
           "clrName": "FindServicePoint",
-          "tsEmitName": "findServicePoint2",
+          "tsEmitName": "findServicePoint",
           "normalizedSignature": "FindServicePoint|(System.String,System.Net.IWebProxy):System.Net.ServicePoint|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12478,7 +12478,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.ServicePointManager::FindServicePoint(System.Uri,System.Net.IWebProxy):System.Net.ServicePoint",
           "clrName": "FindServicePoint",
-          "tsEmitName": "findServicePoint3",
+          "tsEmitName": "findServicePoint",
           "normalizedSignature": "FindServicePoint|(System.Uri,System.Net.IWebProxy):System.Net.ServicePoint|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12759,7 +12759,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.SocketAddress::Equals(System.Net.SocketAddress):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Net.SocketAddress):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13852,7 +13852,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadData(System.Uri):System.Byte[]",
           "clrName": "DownloadData",
-          "tsEmitName": "downloadData2",
+          "tsEmitName": "downloadData",
           "normalizedSignature": "DownloadData|(System.Uri):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13884,7 +13884,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadFile(System.Uri,System.String):System.Void",
           "clrName": "DownloadFile",
-          "tsEmitName": "downloadFile2",
+          "tsEmitName": "downloadFile",
           "normalizedSignature": "DownloadFile|(System.Uri,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13916,7 +13916,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenRead(System.Uri):System.IO.Stream",
           "clrName": "OpenRead",
-          "tsEmitName": "openRead2",
+          "tsEmitName": "openRead",
           "normalizedSignature": "OpenRead|(System.Uri):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13948,7 +13948,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWrite(System.Uri):System.IO.Stream",
           "clrName": "OpenWrite",
-          "tsEmitName": "openWrite2",
+          "tsEmitName": "openWrite",
           "normalizedSignature": "OpenWrite|(System.Uri):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13964,7 +13964,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWrite(System.String,System.String):System.IO.Stream",
           "clrName": "OpenWrite",
-          "tsEmitName": "openWrite3",
+          "tsEmitName": "openWrite",
           "normalizedSignature": "OpenWrite|(System.String,System.String):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13980,7 +13980,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWrite(System.Uri,System.String):System.IO.Stream",
           "clrName": "OpenWrite",
-          "tsEmitName": "openWrite4",
+          "tsEmitName": "openWrite",
           "normalizedSignature": "OpenWrite|(System.Uri,System.String):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14012,7 +14012,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadData(System.Uri,System.Byte[]):System.Byte[]",
           "clrName": "UploadData",
-          "tsEmitName": "uploadData2",
+          "tsEmitName": "uploadData",
           "normalizedSignature": "UploadData|(System.Uri,System.Byte[]):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14028,7 +14028,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadData(System.String,System.String,System.Byte[]):System.Byte[]",
           "clrName": "UploadData",
-          "tsEmitName": "uploadData3",
+          "tsEmitName": "uploadData",
           "normalizedSignature": "UploadData|(System.String,System.String,System.Byte[]):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14044,7 +14044,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadData(System.Uri,System.String,System.Byte[]):System.Byte[]",
           "clrName": "UploadData",
-          "tsEmitName": "uploadData4",
+          "tsEmitName": "uploadData",
           "normalizedSignature": "UploadData|(System.Uri,System.String,System.Byte[]):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14076,7 +14076,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFile(System.Uri,System.String):System.Byte[]",
           "clrName": "UploadFile",
-          "tsEmitName": "uploadFile2",
+          "tsEmitName": "uploadFile",
           "normalizedSignature": "UploadFile|(System.Uri,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14092,7 +14092,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFile(System.String,System.String,System.String):System.Byte[]",
           "clrName": "UploadFile",
-          "tsEmitName": "uploadFile3",
+          "tsEmitName": "uploadFile",
           "normalizedSignature": "UploadFile|(System.String,System.String,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14108,7 +14108,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFile(System.Uri,System.String,System.String):System.Byte[]",
           "clrName": "UploadFile",
-          "tsEmitName": "uploadFile4",
+          "tsEmitName": "uploadFile",
           "normalizedSignature": "UploadFile|(System.Uri,System.String,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14140,7 +14140,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValues(System.Uri,System.Collections.Specialized.NameValueCollection):System.Byte[]",
           "clrName": "UploadValues",
-          "tsEmitName": "uploadValues2",
+          "tsEmitName": "uploadValues",
           "normalizedSignature": "UploadValues|(System.Uri,System.Collections.Specialized.NameValueCollection):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14156,7 +14156,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValues(System.String,System.String,System.Collections.Specialized.NameValueCollection):System.Byte[]",
           "clrName": "UploadValues",
-          "tsEmitName": "uploadValues3",
+          "tsEmitName": "uploadValues",
           "normalizedSignature": "UploadValues|(System.String,System.String,System.Collections.Specialized.NameValueCollection):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14172,7 +14172,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValues(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Byte[]",
           "clrName": "UploadValues",
-          "tsEmitName": "uploadValues4",
+          "tsEmitName": "uploadValues",
           "normalizedSignature": "UploadValues|(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14204,7 +14204,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadString(System.Uri,System.String):System.String",
           "clrName": "UploadString",
-          "tsEmitName": "uploadString2",
+          "tsEmitName": "uploadString",
           "normalizedSignature": "UploadString|(System.Uri,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14220,7 +14220,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadString(System.String,System.String,System.String):System.String",
           "clrName": "UploadString",
-          "tsEmitName": "uploadString3",
+          "tsEmitName": "uploadString",
           "normalizedSignature": "UploadString|(System.String,System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14236,7 +14236,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadString(System.Uri,System.String,System.String):System.String",
           "clrName": "UploadString",
-          "tsEmitName": "uploadString4",
+          "tsEmitName": "uploadString",
           "normalizedSignature": "UploadString|(System.Uri,System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14268,7 +14268,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadString(System.Uri):System.String",
           "clrName": "DownloadString",
-          "tsEmitName": "downloadString2",
+          "tsEmitName": "downloadString",
           "normalizedSignature": "DownloadString|(System.Uri):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14300,7 +14300,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenReadAsync(System.Uri,System.Object):System.Void",
           "clrName": "OpenReadAsync",
-          "tsEmitName": "openReadAsync2",
+          "tsEmitName": "openReadAsync",
           "normalizedSignature": "OpenReadAsync|(System.Uri,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14332,7 +14332,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWriteAsync(System.Uri,System.String):System.Void",
           "clrName": "OpenWriteAsync",
-          "tsEmitName": "openWriteAsync2",
+          "tsEmitName": "openWriteAsync",
           "normalizedSignature": "OpenWriteAsync|(System.Uri,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14348,7 +14348,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWriteAsync(System.Uri,System.String,System.Object):System.Void",
           "clrName": "OpenWriteAsync",
-          "tsEmitName": "openWriteAsync3",
+          "tsEmitName": "openWriteAsync",
           "normalizedSignature": "OpenWriteAsync|(System.Uri,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14380,7 +14380,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadStringAsync(System.Uri,System.Object):System.Void",
           "clrName": "DownloadStringAsync",
-          "tsEmitName": "downloadStringAsync2",
+          "tsEmitName": "downloadStringAsync",
           "normalizedSignature": "DownloadStringAsync|(System.Uri,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14412,7 +14412,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadDataAsync(System.Uri,System.Object):System.Void",
           "clrName": "DownloadDataAsync",
-          "tsEmitName": "downloadDataAsync2",
+          "tsEmitName": "downloadDataAsync",
           "normalizedSignature": "DownloadDataAsync|(System.Uri,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14444,7 +14444,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadFileAsync(System.Uri,System.String,System.Object):System.Void",
           "clrName": "DownloadFileAsync",
-          "tsEmitName": "downloadFileAsync2",
+          "tsEmitName": "downloadFileAsync",
           "normalizedSignature": "DownloadFileAsync|(System.Uri,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14476,7 +14476,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadStringAsync(System.Uri,System.String,System.String):System.Void",
           "clrName": "UploadStringAsync",
-          "tsEmitName": "uploadStringAsync2",
+          "tsEmitName": "uploadStringAsync",
           "normalizedSignature": "UploadStringAsync|(System.Uri,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14492,7 +14492,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadStringAsync(System.Uri,System.String,System.String,System.Object):System.Void",
           "clrName": "UploadStringAsync",
-          "tsEmitName": "uploadStringAsync3",
+          "tsEmitName": "uploadStringAsync",
           "normalizedSignature": "UploadStringAsync|(System.Uri,System.String,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14524,7 +14524,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadDataAsync(System.Uri,System.String,System.Byte[]):System.Void",
           "clrName": "UploadDataAsync",
-          "tsEmitName": "uploadDataAsync2",
+          "tsEmitName": "uploadDataAsync",
           "normalizedSignature": "UploadDataAsync|(System.Uri,System.String,System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14540,7 +14540,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadDataAsync(System.Uri,System.String,System.Byte[],System.Object):System.Void",
           "clrName": "UploadDataAsync",
-          "tsEmitName": "uploadDataAsync3",
+          "tsEmitName": "uploadDataAsync",
           "normalizedSignature": "UploadDataAsync|(System.Uri,System.String,System.Byte[],System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14572,7 +14572,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFileAsync(System.Uri,System.String,System.String):System.Void",
           "clrName": "UploadFileAsync",
-          "tsEmitName": "uploadFileAsync2",
+          "tsEmitName": "uploadFileAsync",
           "normalizedSignature": "UploadFileAsync|(System.Uri,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14588,7 +14588,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFileAsync(System.Uri,System.String,System.String,System.Object):System.Void",
           "clrName": "UploadFileAsync",
-          "tsEmitName": "uploadFileAsync3",
+          "tsEmitName": "uploadFileAsync",
           "normalizedSignature": "UploadFileAsync|(System.Uri,System.String,System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14620,7 +14620,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValuesAsync(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Void",
           "clrName": "UploadValuesAsync",
-          "tsEmitName": "uploadValuesAsync2",
+          "tsEmitName": "uploadValuesAsync",
           "normalizedSignature": "UploadValuesAsync|(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14636,7 +14636,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValuesAsync(System.Uri,System.String,System.Collections.Specialized.NameValueCollection,System.Object):System.Void",
           "clrName": "UploadValuesAsync",
-          "tsEmitName": "uploadValuesAsync3",
+          "tsEmitName": "uploadValuesAsync",
           "normalizedSignature": "UploadValuesAsync|(System.Uri,System.String,System.Collections.Specialized.NameValueCollection,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14684,7 +14684,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadStringTaskAsync(System.Uri):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DownloadStringTaskAsync",
-          "tsEmitName": "downloadStringTaskAsync2",
+          "tsEmitName": "downloadStringTaskAsync",
           "normalizedSignature": "DownloadStringTaskAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14716,7 +14716,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenReadTaskAsync(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OpenReadTaskAsync",
-          "tsEmitName": "openReadTaskAsync2",
+          "tsEmitName": "openReadTaskAsync",
           "normalizedSignature": "OpenReadTaskAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14748,7 +14748,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWriteTaskAsync(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OpenWriteTaskAsync",
-          "tsEmitName": "openWriteTaskAsync2",
+          "tsEmitName": "openWriteTaskAsync",
           "normalizedSignature": "OpenWriteTaskAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14764,7 +14764,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWriteTaskAsync(System.String,System.String):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OpenWriteTaskAsync",
-          "tsEmitName": "openWriteTaskAsync3",
+          "tsEmitName": "openWriteTaskAsync",
           "normalizedSignature": "OpenWriteTaskAsync|(System.String,System.String):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14780,7 +14780,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::OpenWriteTaskAsync(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OpenWriteTaskAsync",
-          "tsEmitName": "openWriteTaskAsync4",
+          "tsEmitName": "openWriteTaskAsync",
           "normalizedSignature": "OpenWriteTaskAsync|(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.IO.Stream,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14812,7 +14812,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadStringTaskAsync(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadStringTaskAsync",
-          "tsEmitName": "uploadStringTaskAsync2",
+          "tsEmitName": "uploadStringTaskAsync",
           "normalizedSignature": "UploadStringTaskAsync|(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14828,7 +14828,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadStringTaskAsync(System.String,System.String,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadStringTaskAsync",
-          "tsEmitName": "uploadStringTaskAsync3",
+          "tsEmitName": "uploadStringTaskAsync",
           "normalizedSignature": "UploadStringTaskAsync|(System.String,System.String,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14844,7 +14844,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadStringTaskAsync(System.Uri,System.String,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadStringTaskAsync",
-          "tsEmitName": "uploadStringTaskAsync4",
+          "tsEmitName": "uploadStringTaskAsync",
           "normalizedSignature": "UploadStringTaskAsync|(System.Uri,System.String,System.String):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14876,7 +14876,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadDataTaskAsync(System.Uri):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DownloadDataTaskAsync",
-          "tsEmitName": "downloadDataTaskAsync2",
+          "tsEmitName": "downloadDataTaskAsync",
           "normalizedSignature": "DownloadDataTaskAsync|(System.Uri):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14908,7 +14908,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::DownloadFileTaskAsync(System.Uri,System.String):System.Threading.Tasks.Task",
           "clrName": "DownloadFileTaskAsync",
-          "tsEmitName": "downloadFileTaskAsync2",
+          "tsEmitName": "downloadFileTaskAsync",
           "normalizedSignature": "DownloadFileTaskAsync|(System.Uri,System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14940,7 +14940,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadDataTaskAsync(System.Uri,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadDataTaskAsync",
-          "tsEmitName": "uploadDataTaskAsync2",
+          "tsEmitName": "uploadDataTaskAsync",
           "normalizedSignature": "UploadDataTaskAsync|(System.Uri,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14956,7 +14956,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadDataTaskAsync(System.String,System.String,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadDataTaskAsync",
-          "tsEmitName": "uploadDataTaskAsync3",
+          "tsEmitName": "uploadDataTaskAsync",
           "normalizedSignature": "UploadDataTaskAsync|(System.String,System.String,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14972,7 +14972,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadDataTaskAsync(System.Uri,System.String,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadDataTaskAsync",
-          "tsEmitName": "uploadDataTaskAsync4",
+          "tsEmitName": "uploadDataTaskAsync",
           "normalizedSignature": "UploadDataTaskAsync|(System.Uri,System.String,System.Byte[]):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15004,7 +15004,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFileTaskAsync(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadFileTaskAsync",
-          "tsEmitName": "uploadFileTaskAsync2",
+          "tsEmitName": "uploadFileTaskAsync",
           "normalizedSignature": "UploadFileTaskAsync|(System.Uri,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15020,7 +15020,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFileTaskAsync(System.String,System.String,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadFileTaskAsync",
-          "tsEmitName": "uploadFileTaskAsync3",
+          "tsEmitName": "uploadFileTaskAsync",
           "normalizedSignature": "UploadFileTaskAsync|(System.String,System.String,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15036,7 +15036,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadFileTaskAsync(System.Uri,System.String,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadFileTaskAsync",
-          "tsEmitName": "uploadFileTaskAsync4",
+          "tsEmitName": "uploadFileTaskAsync",
           "normalizedSignature": "UploadFileTaskAsync|(System.Uri,System.String,System.String):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15068,7 +15068,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValuesTaskAsync(System.String,System.String,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadValuesTaskAsync",
-          "tsEmitName": "uploadValuesTaskAsync2",
+          "tsEmitName": "uploadValuesTaskAsync",
           "normalizedSignature": "UploadValuesTaskAsync|(System.String,System.String,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15084,7 +15084,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValuesTaskAsync(System.Uri,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadValuesTaskAsync",
-          "tsEmitName": "uploadValuesTaskAsync3",
+          "tsEmitName": "uploadValuesTaskAsync",
           "normalizedSignature": "UploadValuesTaskAsync|(System.Uri,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15100,7 +15100,7 @@
         {
           "stableId": "System.Net.WebClient:System.Net.WebClient::UploadValuesTaskAsync(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "UploadValuesTaskAsync",
-          "tsEmitName": "uploadValuesTaskAsync4",
+          "tsEmitName": "uploadValuesTaskAsync",
           "normalizedSignature": "UploadValuesTaskAsync|(System.Uri,System.String,System.Collections.Specialized.NameValueCollection):System.Threading.Tasks.Task_1[[System.Byte[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15577,7 +15577,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpRequestHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_2",
+          "tsEmitName": "set_",
           "normalizedSignature": "Set|(System.Net.HttpRequestHeader,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15593,7 +15593,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpResponseHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_3",
+          "tsEmitName": "set_",
           "normalizedSignature": "Set|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15641,7 +15641,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Remove(System.Net.HttpResponseHeader):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Net.HttpResponseHeader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15689,7 +15689,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::IsRestricted(System.String,System.Boolean):System.Boolean",
           "clrName": "IsRestricted",
-          "tsEmitName": "isRestricted2",
+          "tsEmitName": "isRestricted",
           "normalizedSignature": "IsRestricted|(System.String,System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15721,7 +15721,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::GetValues(System.String):System.String[]",
           "clrName": "GetValues",
-          "tsEmitName": "getValues2",
+          "tsEmitName": "getValues",
           "normalizedSignature": "GetValues|(System.String):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15785,7 +15785,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_2",
+          "tsEmitName": "get_",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15817,7 +15817,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Add(System.Net.HttpResponseHeader,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15833,7 +15833,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Add(System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15849,7 +15849,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Add(System.String,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add5",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15865,7 +15865,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove3",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16500,7 +16500,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.WebRequest::Create(System.Uri):System.Net.WebRequest",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Uri):System.Net.WebRequest|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16548,7 +16548,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.WebRequest::CreateHttp(System.Uri):System.Net.HttpWebRequest",
           "clrName": "CreateHttp",
-          "tsEmitName": "createHttp2",
+          "tsEmitName": "createHttp",
           "normalizedSignature": "CreateHttp|(System.Uri):System.Net.HttpWebRequest|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17427,7 +17427,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostEntry(System.String):System.Net.IPHostEntry",
           "clrName": "GetHostEntry",
-          "tsEmitName": "getHostEntry2",
+          "tsEmitName": "getHostEntry",
           "normalizedSignature": "GetHostEntry|(System.String):System.Net.IPHostEntry|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17443,7 +17443,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostEntry(System.String,System.Net.Sockets.AddressFamily):System.Net.IPHostEntry",
           "clrName": "GetHostEntry",
-          "tsEmitName": "getHostEntry3",
+          "tsEmitName": "getHostEntry",
           "normalizedSignature": "GetHostEntry|(System.String,System.Net.Sockets.AddressFamily):System.Net.IPHostEntry|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17475,7 +17475,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostEntryAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetHostEntryAsync",
-          "tsEmitName": "getHostEntryAsync2",
+          "tsEmitName": "getHostEntryAsync",
           "normalizedSignature": "GetHostEntryAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17491,7 +17491,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostEntryAsync(System.String,System.Net.Sockets.AddressFamily,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetHostEntryAsync",
-          "tsEmitName": "getHostEntryAsync3",
+          "tsEmitName": "getHostEntryAsync",
           "normalizedSignature": "GetHostEntryAsync|(System.String,System.Net.Sockets.AddressFamily,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17507,7 +17507,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostEntryAsync(System.Net.IPAddress):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetHostEntryAsync",
-          "tsEmitName": "getHostEntryAsync4",
+          "tsEmitName": "getHostEntryAsync",
           "normalizedSignature": "GetHostEntryAsync|(System.Net.IPAddress):System.Threading.Tasks.Task_1[[System.Net.IPHostEntry,System.Net.NameResolution,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17539,7 +17539,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::BeginGetHostEntry(System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginGetHostEntry",
-          "tsEmitName": "beginGetHostEntry2",
+          "tsEmitName": "beginGetHostEntry",
           "normalizedSignature": "BeginGetHostEntry|(System.String,System.AsyncCallback,System.Object):System.IAsyncResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17587,7 +17587,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostAddresses(System.String,System.Net.Sockets.AddressFamily):System.Net.IPAddress[]",
           "clrName": "GetHostAddresses",
-          "tsEmitName": "getHostAddresses2",
+          "tsEmitName": "getHostAddresses",
           "normalizedSignature": "GetHostAddresses|(System.String,System.Net.Sockets.AddressFamily):System.Net.IPAddress[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17619,7 +17619,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostAddressesAsync(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPAddress[],System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetHostAddressesAsync",
-          "tsEmitName": "getHostAddressesAsync2",
+          "tsEmitName": "getHostAddressesAsync",
           "normalizedSignature": "GetHostAddressesAsync|(System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPAddress[],System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17635,7 +17635,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostAddressesAsync(System.String,System.Net.Sockets.AddressFamily,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPAddress[],System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "GetHostAddressesAsync",
-          "tsEmitName": "getHostAddressesAsync3",
+          "tsEmitName": "getHostAddressesAsync",
           "normalizedSignature": "GetHostAddressesAsync|(System.String,System.Net.Sockets.AddressFamily,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.IPAddress[],System.Net.Primitives,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17747,7 +17747,7 @@
         {
           "stableId": "System.Net.NameResolution:System.Net.Dns::GetHostByAddress(System.Net.IPAddress):System.Net.IPHostEntry",
           "clrName": "GetHostByAddress",
-          "tsEmitName": "getHostByAddress2",
+          "tsEmitName": "getHostByAddress",
           "normalizedSignature": "GetHostByAddress|(System.Net.IPAddress):System.Net.IPHostEntry|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18162,7 +18162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Net.WebUtility::HtmlEncode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlEncode",
-          "tsEmitName": "htmlEncode2",
+          "tsEmitName": "htmlEncode",
           "normalizedSignature": "HtmlEncode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18194,7 +18194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Net.WebUtility::HtmlDecode(System.String,System.IO.TextWriter):System.Void",
           "clrName": "HtmlDecode",
-          "tsEmitName": "htmlDecode2",
+          "tsEmitName": "htmlDecode",
           "normalizedSignature": "HtmlDecode|(System.String,System.IO.TextWriter):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

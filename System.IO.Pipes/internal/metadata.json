@@ -699,7 +699,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::Connect(System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect2",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -715,7 +715,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::Connect(System.TimeSpan):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect3",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -747,7 +747,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync2",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -763,7 +763,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync3",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -779,7 +779,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync4",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -795,7 +795,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeClientStream::ConnectAsync(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync5",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.TimeSpan,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.NamedPipeServerStream::WaitForConnectionAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WaitForConnectionAsync",
-          "tsEmitName": "waitForConnectionAsync2",
+          "tsEmitName": "waitForConnectionAsync",
           "normalizedSignature": "WaitForConnectionAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1728,7 +1728,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1760,7 +1760,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1824,7 +1824,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1856,7 +1856,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

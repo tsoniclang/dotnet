@@ -1916,7 +1916,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::CreateSigningRequest(System.Security.Cryptography.X509Certificates.X509SignatureGenerator):System.Byte[]",
           "clrName": "CreateSigningRequest",
-          "tsEmitName": "createSigningRequest2",
+          "tsEmitName": "createSigningRequest",
           "normalizedSignature": "CreateSigningRequest|(System.Security.Cryptography.X509Certificates.X509SignatureGenerator):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1948,7 +1948,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::CreateSigningRequestPem(System.Security.Cryptography.X509Certificates.X509SignatureGenerator):System.String",
           "clrName": "CreateSigningRequestPem",
-          "tsEmitName": "createSigningRequestPem2",
+          "tsEmitName": "createSigningRequestPem",
           "normalizedSignature": "CreateSigningRequestPem|(System.Security.Cryptography.X509Certificates.X509SignatureGenerator):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1996,7 +1996,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.DateTimeOffset,System.DateTimeOffset,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Security.Cryptography.X509Certificates.X509Certificate2,System.DateTimeOffset,System.DateTimeOffset,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2012,7 +2012,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::Create(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.DateTimeOffset,System.DateTimeOffset,System.Byte[]):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.DateTimeOffset,System.DateTimeOffset,System.Byte[]):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2028,7 +2028,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::Create(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.DateTimeOffset,System.DateTimeOffset,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.DateTimeOffset,System.DateTimeOffset,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2060,7 +2060,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::LoadSigningRequestPem(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.CertificateRequest",
           "clrName": "LoadSigningRequestPem",
-          "tsEmitName": "loadSigningRequestPem2",
+          "tsEmitName": "loadSigningRequestPem",
           "normalizedSignature": "LoadSigningRequestPem|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.CertificateRequest|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2092,7 +2092,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequest::LoadSigningRequest(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.HashAlgorithmName,System.Int32\u0026,System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.CertificateRequest",
           "clrName": "LoadSigningRequest",
-          "tsEmitName": "loadSigningRequest2",
+          "tsEmitName": "loadSigningRequest",
           "normalizedSignature": "LoadSigningRequest|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.HashAlgorithmName,System.Int32\u0026,System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions,System.Security.Cryptography.RSASignaturePadding):System.Security.Cryptography.X509Certificates.CertificateRequest|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2278,7 +2278,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::AddEntry(System.Byte[],System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Security.Cryptography.X509Certificates.X509RevocationReason,System.Security.Cryptography,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "AddEntry",
-          "tsEmitName": "addEntry2",
+          "tsEmitName": "addEntry",
           "normalizedSignature": "AddEntry|(System.Byte[],System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Security.Cryptography.X509Certificates.X509RevocationReason,System.Security.Cryptography,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2294,7 +2294,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::AddEntry(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Security.Cryptography.X509Certificates.X509RevocationReason,System.Security.Cryptography,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void",
           "clrName": "AddEntry",
-          "tsEmitName": "addEntry3",
+          "tsEmitName": "addEntry",
           "normalizedSignature": "AddEntry|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Security.Cryptography.X509Certificates.X509RevocationReason,System.Security.Cryptography,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2326,7 +2326,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::RemoveEntry(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "RemoveEntry",
-          "tsEmitName": "removeEntry2",
+          "tsEmitName": "removeEntry",
           "normalizedSignature": "RemoveEntry|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2358,7 +2358,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::Build(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.Numerics.BigInteger,System.DateTimeOffset,System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension,System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]",
           "clrName": "Build",
-          "tsEmitName": "build2",
+          "tsEmitName": "build",
           "normalizedSignature": "Build|(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.Security.Cryptography.X509Certificates.X509SignatureGenerator,System.Numerics.BigInteger,System.DateTimeOffset,System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension,System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2406,7 +2406,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::Load(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Numerics.BigInteger\u0026,System.Int32\u0026):System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Numerics.BigInteger\u0026,System.Int32\u0026):System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2438,7 +2438,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder::LoadPem(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Numerics.BigInteger\u0026):System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder",
           "clrName": "LoadPem",
-          "tsEmitName": "loadPem2",
+          "tsEmitName": "loadPem",
           "normalizedSignature": "LoadPem|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Numerics.BigInteger\u0026):System.Security.Cryptography.X509Certificates.CertificateRevocationListBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3335,7 +3335,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X500DistinguishedNameBuilder::Add(System.Security.Cryptography.Oid,System.String,System.Nullable_1[[System.Formats.Asn1.UniversalTagNumber,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Security.Cryptography.Oid,System.String,System.Nullable_1[[System.Formats.Asn1.UniversalTagNumber,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3630,7 +3630,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509AuthorityInformationAccessExtension::EnumerateUris(System.Security.Cryptography.Oid):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateUris",
-          "tsEmitName": "enumerateUris2",
+          "tsEmitName": "enumerateUris",
           "normalizedSignature": "EnumerateUris|(System.Security.Cryptography.Oid):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3748,7 +3748,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension::CreateFromSubjectKeyIdentifier(System.Byte[]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension",
           "clrName": "CreateFromSubjectKeyIdentifier",
-          "tsEmitName": "createFromSubjectKeyIdentifier2",
+          "tsEmitName": "createFromSubjectKeyIdentifier",
           "normalizedSignature": "CreateFromSubjectKeyIdentifier|(System.Byte[]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3764,7 +3764,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension::CreateFromSubjectKeyIdentifier(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension",
           "clrName": "CreateFromSubjectKeyIdentifier",
-          "tsEmitName": "createFromSubjectKeyIdentifier3",
+          "tsEmitName": "createFromSubjectKeyIdentifier",
           "normalizedSignature": "CreateFromSubjectKeyIdentifier|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3796,7 +3796,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension::CreateFromIssuerNameAndSerialNumber(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension",
           "clrName": "CreateFromIssuerNameAndSerialNumber",
-          "tsEmitName": "createFromIssuerNameAndSerialNumber2",
+          "tsEmitName": "createFromIssuerNameAndSerialNumber",
           "normalizedSignature": "CreateFromIssuerNameAndSerialNumber|(System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3828,7 +3828,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension::Create(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X500DistinguishedName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509AuthorityKeyIdentifierExtension|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4161,7 +4161,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Equals(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Security.Cryptography.X509Certificates.X509Certificate):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4193,7 +4193,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]",
           "clrName": "Export",
-          "tsEmitName": "export_2",
+          "tsEmitName": "export_",
           "normalizedSignature": "Export|(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4209,7 +4209,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.Security.SecureString):System.Byte[]",
           "clrName": "Export",
-          "tsEmitName": "export_3",
+          "tsEmitName": "export_",
           "normalizedSignature": "Export|(System.Security.Cryptography.X509Certificates.X509ContentType,System.Security.SecureString):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4241,7 +4241,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::ExportPkcs12(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]",
           "clrName": "ExportPkcs12",
-          "tsEmitName": "exportPkcs122",
+          "tsEmitName": "exportPkcs12",
           "normalizedSignature": "ExportPkcs12|(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4289,7 +4289,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::GetCertHash(System.Security.Cryptography.HashAlgorithmName):System.Byte[]",
           "clrName": "GetCertHash",
-          "tsEmitName": "getCertHash2",
+          "tsEmitName": "getCertHash",
           "normalizedSignature": "GetCertHash|(System.Security.Cryptography.HashAlgorithmName):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4337,7 +4337,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::GetCertHashString(System.Security.Cryptography.HashAlgorithmName):System.String",
           "clrName": "GetCertHashString",
-          "tsEmitName": "getCertHashString2",
+          "tsEmitName": "getCertHashString",
           "normalizedSignature": "GetCertHashString|(System.Security.Cryptography.HashAlgorithmName):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4593,7 +4593,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::ToString(System.Boolean):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Boolean):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4625,7 +4625,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_2",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4641,7 +4641,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Import(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_3",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4657,7 +4657,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Import(System.String):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_4",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4673,7 +4673,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_5",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4689,7 +4689,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate::Import(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_6",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4937,7 +4937,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::GetCertContentType(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "GetCertContentType",
-          "tsEmitName": "getCertContentType2",
+          "tsEmitName": "getCertContentType",
           "normalizedSignature": "GetCertContentType|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509ContentType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4953,7 +4953,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::GetCertContentType(System.String):System.Security.Cryptography.X509Certificates.X509ContentType",
           "clrName": "GetCertContentType",
-          "tsEmitName": "getCertContentType3",
+          "tsEmitName": "getCertContentType",
           "normalizedSignature": "GetCertContentType|(System.String):System.Security.Cryptography.X509Certificates.X509ContentType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5001,7 +5001,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::ToString(System.Boolean):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Boolean):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5033,7 +5033,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_2",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5049,7 +5049,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Import(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_3",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5065,7 +5065,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Import(System.String):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_4",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5081,7 +5081,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_5",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5097,7 +5097,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::Import(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_6",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5209,7 +5209,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::CopyWithPrivateKey(System.Security.Cryptography.MLKem):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "CopyWithPrivateKey",
-          "tsEmitName": "copyWithPrivateKey2",
+          "tsEmitName": "copyWithPrivateKey",
           "normalizedSignature": "CopyWithPrivateKey|(System.Security.Cryptography.MLKem):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5257,7 +5257,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::CopyWithPrivateKey(System.Security.Cryptography.MLDsa):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "CopyWithPrivateKey",
-          "tsEmitName": "copyWithPrivateKey3",
+          "tsEmitName": "copyWithPrivateKey",
           "normalizedSignature": "CopyWithPrivateKey|(System.Security.Cryptography.MLDsa):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5305,7 +5305,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::CopyWithPrivateKey(System.Security.Cryptography.SlhDsa):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "CopyWithPrivateKey",
-          "tsEmitName": "copyWithPrivateKey4",
+          "tsEmitName": "copyWithPrivateKey",
           "normalizedSignature": "CopyWithPrivateKey|(System.Security.Cryptography.SlhDsa):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5353,7 +5353,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::CopyWithPrivateKey(System.Security.Cryptography.CompositeMLDsa):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "CopyWithPrivateKey",
-          "tsEmitName": "copyWithPrivateKey5",
+          "tsEmitName": "copyWithPrivateKey",
           "normalizedSignature": "CopyWithPrivateKey|(System.Security.Cryptography.CompositeMLDsa):System.Security.Cryptography.X509Certificates.X509Certificate2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5433,7 +5433,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2::CreateFromPem(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "CreateFromPem",
-          "tsEmitName": "createFromPem2",
+          "tsEmitName": "createFromPem",
           "normalizedSignature": "CreateFromPem|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5967,7 +5967,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::AddRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange3",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6031,7 +6031,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::ExportPkcs12(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]",
           "clrName": "ExportPkcs12",
-          "tsEmitName": "exportPkcs122",
+          "tsEmitName": "exportPkcs12",
           "normalizedSignature": "ExportPkcs12|(System.Security.Cryptography.PbeParameters,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6047,7 +6047,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Export(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]",
           "clrName": "Export",
-          "tsEmitName": "export_2",
+          "tsEmitName": "export_",
           "normalizedSignature": "Export|(System.Security.Cryptography.X509Certificates.X509ContentType,System.String):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6111,7 +6111,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_2",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6127,7 +6127,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_3",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6143,7 +6143,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_4",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6159,7 +6159,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_5",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6175,7 +6175,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_6",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6191,7 +6191,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_7",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6207,7 +6207,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::Import(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void",
           "clrName": "Import",
-          "tsEmitName": "import_8",
+          "tsEmitName": "import_",
           "normalizedSignature": "Import|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6271,7 +6271,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::RemoveRange(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(System.Security.Cryptography.X509Certificates.X509Certificate2Collection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6399,7 +6399,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::FindByThumbprint(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "FindByThumbprint",
-          "tsEmitName": "findByThumbprint2",
+          "tsEmitName": "findByThumbprint",
           "normalizedSignature": "FindByThumbprint|(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6415,7 +6415,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509Certificate2Collection::FindByThumbprint(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "FindByThumbprint",
-          "tsEmitName": "findByThumbprint3",
+          "tsEmitName": "findByThumbprint",
           "normalizedSignature": "FindByThumbprint|(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7187,7 +7187,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateCollection::AddRange(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Security.Cryptography.X509Certificates.X509CertificateCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10080,7 +10080,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateLoader::LoadCertificate(System.Byte[]):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "LoadCertificate",
-          "tsEmitName": "loadCertificate2",
+          "tsEmitName": "loadCertificate",
           "normalizedSignature": "LoadCertificate|(System.Byte[]):System.Security.Cryptography.X509Certificates.X509Certificate2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10128,7 +10128,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateLoader::LoadPkcs12(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "LoadPkcs12",
-          "tsEmitName": "loadPkcs122",
+          "tsEmitName": "loadPkcs12",
           "normalizedSignature": "LoadPkcs12|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10160,7 +10160,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateLoader::LoadPkcs12FromFile(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2",
           "clrName": "LoadPkcs12FromFile",
-          "tsEmitName": "loadPkcs12FromFile2",
+          "tsEmitName": "loadPkcs12FromFile",
           "normalizedSignature": "LoadPkcs12FromFile|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10192,7 +10192,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateLoader::LoadPkcs12Collection(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "LoadPkcs12Collection",
-          "tsEmitName": "loadPkcs12Collection2",
+          "tsEmitName": "loadPkcs12Collection",
           "normalizedSignature": "LoadPkcs12Collection|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10224,7 +10224,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509CertificateLoader::LoadPkcs12CollectionFromFile(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2Collection",
           "clrName": "LoadPkcs12CollectionFromFile",
-          "tsEmitName": "loadPkcs12CollectionFromFile2",
+          "tsEmitName": "loadPkcs12CollectionFromFile",
           "normalizedSignature": "LoadPkcs12CollectionFromFile|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Security.Cryptography.X509Certificates.X509KeyStorageFlags,System.Security.Cryptography.X509Certificates.Pkcs12LoaderLimits):System.Security.Cryptography.X509Certificates.X509Certificate2Collection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

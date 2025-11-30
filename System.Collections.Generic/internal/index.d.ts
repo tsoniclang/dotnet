@@ -99,8 +99,8 @@ export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyV
     readonly values: ICollection_1<TValue>;
     readonly count: int;
     readonly isReadOnly: boolean;
-    add2(item: KeyValuePair_2<TKey, TValue>): void;
-    add2(key: TKey, value: TValue): void;
+    add(item: KeyValuePair_2<TKey, TValue>): void;
+    add(key: TKey, value: TValue): void;
     clear(): void;
     contains(item: KeyValuePair_2<TKey, TValue>): boolean;
     containsKey(key: TKey): boolean;
@@ -205,8 +205,8 @@ export type IReadOnlySet_1<T> = IReadOnlySet_1$instance<T>;
 export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
     readonly count: int;
     readonly isReadOnly: boolean;
-    add2(item: T): void;
-    add2(item: T): boolean;
+    add(item: T): void;
+    add(item: T): boolean;
     clear(): void;
     copyTo(array: T[], arrayIndex: int): void;
     getEnumerator(): IEnumerator_1<T>;
@@ -236,6 +236,7 @@ export class Dictionary_2_Enumerator$instance<TKey, TValue> implements IDisposab
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -252,6 +253,7 @@ export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implem
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -267,6 +269,7 @@ export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> impl
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -293,6 +296,7 @@ export class HashSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -319,6 +323,7 @@ export class LinkedList_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -338,6 +343,7 @@ export class List_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -352,6 +358,7 @@ export type List_1_Enumerator<T> = List_1_Enumerator$instance<T> & __List_1_Enum
 export class OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
     readonly current: KeyValuePair_2<TKey, TValue>;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -367,6 +374,7 @@ export type OrderedDictionary_2_Enumerator<TKey, TValue> = OrderedDictionary_2_E
 export class OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
     readonly current: TKey;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -381,6 +389,7 @@ export type OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = Ordered
 export class OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
     readonly current: TValue;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -396,6 +405,7 @@ export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TEleme
     readonly current: ValueTuple_2<TElement, TPriority>;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -411,6 +421,7 @@ export class Queue_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -426,6 +437,7 @@ export class SortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDi
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -442,6 +454,7 @@ export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> 
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -457,6 +470,7 @@ export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -472,6 +486,7 @@ export class SortedSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -491,6 +506,7 @@ export class Stack_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1479,12 +1495,12 @@ export type TreeSet_1<T> = TreeSet_1$instance<T> & __TreeSet_1$views<T>;
 
 export abstract class CollectionExtensions$instance {
     static addRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
-    static asReadOnly3<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
-    static asReadOnly3<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    static asReadOnly3<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
+    static asReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
+    static asReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
+    static asReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
     static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
-    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
+    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
     static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
     static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
     static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;

@@ -429,27 +429,7 @@
           }
         },
         {
-          "tsName": "createDelegate2",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664227
-          }
-        },
-        {
-          "tsName": "createDelegate3",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664228
-          }
-        },
-        {
-          "tsName": "createDelegate4",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -469,7 +449,7 @@
           }
         },
         {
-          "tsName": "combine2",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
           "target": {
@@ -479,17 +459,7 @@
           }
         },
         {
-          "tsName": "combine3",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664257
-          }
-        },
-        {
-          "tsName": "createDelegate5",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -499,53 +469,13 @@
           }
         },
         {
-          "tsName": "createDelegate6",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
             "declaringClrType": "System.Delegate",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "createDelegate7",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664260
-          }
-        },
-        {
-          "tsName": "createDelegate8",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664261
-          }
-        },
-        {
-          "tsName": "createDelegate9",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664262
-          }
-        },
-        {
-          "tsName": "createDelegate10",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664263
           }
         },
         {
@@ -871,7 +801,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync",
           "metadataToken": 100663330,
           "canonicalSignature": "(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
@@ -899,7 +829,7 @@
           }
         },
         {
-          "tsName": "writeAsync2",
+          "tsName": "writeAsync",
           "isStatic": true,
           "tsSignatureId": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "target": {
@@ -994,7 +924,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100663394,
           "canonicalSignature": "(System.IO.Stream,SseItemParser_1):SseParser_1",
           "normalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
@@ -1034,7 +964,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
           "target": {

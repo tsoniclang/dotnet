@@ -114,7 +114,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonArray::Add(System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -710,7 +710,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -726,7 +726,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -742,7 +742,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::Parse(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "Parse",
-          "tsEmitName": "parse4",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.IO.Stream,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Text.Json.JsonDocumentOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -981,7 +981,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryGetPropertyValue(System.String,System.Text.Json.Nodes.JsonNode\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetPropertyValue",
-          "tsEmitName": "tryGetPropertyValue2",
+          "tsEmitName": "tryGetPropertyValue",
           "normalizedSignature": "TryGetPropertyValue|(System.String,System.Text.Json.Nodes.JsonNode\u0026,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1045,7 +1045,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::TryAdd(System.String,System.Text.Json.Nodes.JsonNode,System.Int32\u0026):System.Boolean",
           "clrName": "TryAdd",
-          "tsEmitName": "tryAdd2",
+          "tsEmitName": "tryAdd",
           "normalizedSignature": "TryAdd|(System.String,System.Text.Json.Nodes.JsonNode,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1061,7 +1061,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::Add(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Text.Json.Nodes.JsonNode,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1173,7 +1173,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonObject::SetAt(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "SetAt",
-          "tsEmitName": "setAt2",
+          "tsEmitName": "setAt",
           "normalizedSignature": "SetAt|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1565,7 +1565,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1581,7 +1581,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Byte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Byte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1597,7 +1597,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1613,7 +1613,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Char,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Char,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1629,7 +1629,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1645,7 +1645,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.DateTime,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.DateTime,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1661,7 +1661,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1677,7 +1677,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.DateTimeOffset,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create9",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.DateTimeOffset,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1693,7 +1693,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create10",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1709,7 +1709,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Decimal,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create11",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Decimal,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1725,7 +1725,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create12",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Decimal,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1741,7 +1741,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Double,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create13",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Double,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1757,7 +1757,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create14",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1773,7 +1773,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Guid,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create15",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Guid,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1789,7 +1789,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Guid,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create16",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Guid,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1805,7 +1805,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create17",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1821,7 +1821,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create18",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1837,7 +1837,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create19",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create20",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1869,7 +1869,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Int64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create21",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1885,7 +1885,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create22",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1901,7 +1901,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.SByte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create23",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.SByte,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1917,7 +1917,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.SByte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create24",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.SByte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1933,7 +1933,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Single,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create25",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Single,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1949,7 +1949,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create26",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1965,7 +1965,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create27",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1981,7 +1981,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create28",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.UInt16,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1997,7 +1997,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create29",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2013,7 +2013,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create30",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.UInt32,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2029,7 +2029,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create31",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2045,7 +2045,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.UInt64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create32",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.UInt64,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2061,7 +2061,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create33",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2077,7 +2077,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create34",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Text.Json.JsonElement,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2093,7 +2093,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(System.Nullable_1[[System.Text.Json.JsonElement,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create35",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Nullable_1[[System.Text.Json.JsonElement,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2125,7 +2125,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(T,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create36",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2141,7 +2141,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonValue::Create(T,JsonTypeInfo_1,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue",
           "clrName": "Create",
-          "tsEmitName": "create37",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T,JsonTypeInfo_1,System.Nullable_1[[System.Text.Json.Nodes.JsonNodeOptions,System.Text.Json,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Text.Json.Nodes.JsonValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

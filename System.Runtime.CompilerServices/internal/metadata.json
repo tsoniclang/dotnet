@@ -2240,7 +2240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted2",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2256,7 +2256,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted3",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2272,7 +2272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted4",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2288,7 +2288,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted5",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2304,7 +2304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted6",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2320,7 +2320,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted7",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2336,7 +2336,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted8",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2352,7 +2352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.DefaultInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted9",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4461,7 +4461,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::Remove(TKey,TValue\u0026):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(TKey,TValue\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4509,7 +4509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrAdd(TKey,Func_2):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd2",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(TKey,Func_2):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4525,7 +4525,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.ConditionalWeakTable\u00602::GetOrAdd(TKey,Func_3,TArg):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd3",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(TKey,Func_3,TArg):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6177,7 +6177,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.ReadOnlyCollectionBuilder\u00601::Reverse(System.Int32,System.Int32):System.Void",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7857,7 +7857,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.Task):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_2",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(System.Threading.Tasks.Task):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7873,7 +7873,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ValueTask_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_3",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(ValueTask_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7889,7 +7889,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.ValueTask):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_4",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(System.Threading.Tasks.ValueTask):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7905,7 +7905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_5",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7921,7 +7921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_6",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7937,7 +7937,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_7",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(ConfiguredTaskAwaitable_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7953,7 +7953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredValueTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_8",
+          "tsEmitName": "await_",
           "normalizedSignature": "Await|(ConfiguredValueTaskAwaitable_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8735,7 +8735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.RuntimeHelpers::PrepareMethod(System.RuntimeMethodHandle,System.RuntimeTypeHandle[]):System.Void",
           "clrName": "PrepareMethod",
-          "tsEmitName": "prepareMethod2",
+          "tsEmitName": "prepareMethod",
           "normalizedSignature": "PrepareMethod|(System.RuntimeMethodHandle,System.RuntimeTypeHandle[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9184,7 +9184,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Runtime.CompilerServices.RuntimeOps::CreateRuntimeVariables():System.Runtime.CompilerServices.IRuntimeVariables",
           "clrName": "CreateRuntimeVariables",
-          "tsEmitName": "createRuntimeVariables2",
+          "tsEmitName": "createRuntimeVariables",
           "normalizedSignature": "CreateRuntimeVariables|():System.Runtime.CompilerServices.IRuntimeVariables|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9265,7 +9265,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(TFrom\u0026):TTo\u0026",
           "clrName": "As",
-          "tsEmitName": "as_2",
+          "tsEmitName": "as_",
           "normalizedSignature": "As|(TFrom\u0026):TTo\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9297,7 +9297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(T\u0026,System.IntPtr):T\u0026",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T\u0026,System.IntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9313,7 +9313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(System.Void*,System.Int32):System.Void*",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Void*,System.Int32):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9329,7 +9329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Add(T\u0026,System.UIntPtr):T\u0026",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9409,7 +9409,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Copy(T\u0026,System.Void*):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy2",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(T\u0026,System.Void*):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9441,7 +9441,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlock(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void",
           "clrName": "CopyBlock",
-          "tsEmitName": "copyBlock2",
+          "tsEmitName": "copyBlock",
           "normalizedSignature": "CopyBlock|(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9473,7 +9473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::CopyBlockUnaligned(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void",
           "clrName": "CopyBlockUnaligned",
-          "tsEmitName": "copyBlockUnaligned2",
+          "tsEmitName": "copyBlockUnaligned",
           "normalizedSignature": "CopyBlockUnaligned|(System.Byte\u0026,System.Byte\u0026,System.UInt32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9569,7 +9569,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlock(System.Byte\u0026,System.Byte,System.UInt32):System.Void",
           "clrName": "InitBlock",
-          "tsEmitName": "initBlock2",
+          "tsEmitName": "initBlock",
           "normalizedSignature": "InitBlock|(System.Byte\u0026,System.Byte,System.UInt32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9601,7 +9601,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::InitBlockUnaligned(System.Byte\u0026,System.Byte,System.UInt32):System.Void",
           "clrName": "InitBlockUnaligned",
-          "tsEmitName": "initBlockUnaligned2",
+          "tsEmitName": "initBlockUnaligned",
           "normalizedSignature": "InitBlockUnaligned|(System.Byte\u0026,System.Byte,System.UInt32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9633,7 +9633,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::ReadUnaligned(System.Byte\u0026):T",
           "clrName": "ReadUnaligned",
-          "tsEmitName": "readUnaligned2",
+          "tsEmitName": "readUnaligned",
           "normalizedSignature": "ReadUnaligned|(System.Byte\u0026):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9665,7 +9665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::WriteUnaligned(System.Byte\u0026,T):System.Void",
           "clrName": "WriteUnaligned",
-          "tsEmitName": "writeUnaligned2",
+          "tsEmitName": "writeUnaligned",
           "normalizedSignature": "WriteUnaligned|(System.Byte\u0026,T):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9681,7 +9681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AddByteOffset(T\u0026,System.IntPtr):T\u0026",
           "clrName": "AddByteOffset",
-          "tsEmitName": "addByteOffset2",
+          "tsEmitName": "addByteOffset",
           "normalizedSignature": "AddByteOffset|(T\u0026,System.IntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9745,7 +9745,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::AsRef(T\u0026):T\u0026",
           "clrName": "AsRef",
-          "tsEmitName": "asRef2",
+          "tsEmitName": "asRef",
           "normalizedSignature": "AsRef|(T\u0026):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9841,7 +9841,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(System.Void*,System.Int32):System.Void*",
           "clrName": "Subtract",
-          "tsEmitName": "subtract2",
+          "tsEmitName": "subtract",
           "normalizedSignature": "Subtract|(System.Void*,System.Int32):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9857,7 +9857,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(T\u0026,System.IntPtr):T\u0026",
           "clrName": "Subtract",
-          "tsEmitName": "subtract3",
+          "tsEmitName": "subtract",
           "normalizedSignature": "Subtract|(T\u0026,System.IntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9873,7 +9873,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::Subtract(T\u0026,System.UIntPtr):T\u0026",
           "clrName": "Subtract",
-          "tsEmitName": "subtract4",
+          "tsEmitName": "subtract",
           "normalizedSignature": "Subtract|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9905,7 +9905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::SubtractByteOffset(T\u0026,System.UIntPtr):T\u0026",
           "clrName": "SubtractByteOffset",
-          "tsEmitName": "subtractByteOffset2",
+          "tsEmitName": "subtractByteOffset",
           "normalizedSignature": "SubtractByteOffset|(T\u0026,System.UIntPtr):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

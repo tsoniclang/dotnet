@@ -144,7 +144,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -160,7 +160,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.IO.Stream):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Uri,System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -176,7 +176,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Uri,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -2005,7 +2005,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.IdentityReferenceCollection::Translate(System.Type,System.Boolean):System.Security.Principal.IdentityReferenceCollection",
           "clrName": "Translate",
-          "tsEmitName": "translate2",
+          "tsEmitName": "translate",
           "normalizedSignature": "Translate|(System.Type,System.Boolean):System.Security.Principal.IdentityReferenceCollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2370,7 +2370,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.SecurityIdentifier::Equals(System.Security.Principal.SecurityIdentifier):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Security.Principal.SecurityIdentifier):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2698,7 +2698,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Boolean):System.Security.Principal.WindowsIdentity",
           "clrName": "GetCurrent",
-          "tsEmitName": "getCurrent2",
+          "tsEmitName": "getCurrent",
           "normalizedSignature": "GetCurrent|(System.Boolean):System.Security.Principal.WindowsIdentity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2714,7 +2714,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::GetCurrent(System.Security.Principal.TokenAccessLevels):System.Security.Principal.WindowsIdentity",
           "clrName": "GetCurrent",
-          "tsEmitName": "getCurrent3",
+          "tsEmitName": "getCurrent",
           "normalizedSignature": "GetCurrent|(System.Security.Principal.TokenAccessLevels):System.Security.Principal.WindowsIdentity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2762,7 +2762,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonatedAsync(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):Task_1",
           "clrName": "RunImpersonatedAsync",
-          "tsEmitName": "runImpersonatedAsync2",
+          "tsEmitName": "runImpersonatedAsync",
           "normalizedSignature": "RunImpersonatedAsync|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2778,7 +2778,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsIdentity::RunImpersonated(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):T",
           "clrName": "RunImpersonated",
-          "tsEmitName": "runImpersonated2",
+          "tsEmitName": "runImpersonated",
           "normalizedSignature": "RunImpersonated|(Microsoft.Win32.SafeHandles.SafeAccessTokenHandle,Func_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3193,7 +3193,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.SecurityIdentifier):System.Boolean",
           "clrName": "IsInRole",
-          "tsEmitName": "isInRole2",
+          "tsEmitName": "isInRole",
           "normalizedSignature": "IsInRole|(System.Security.Principal.SecurityIdentifier):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3209,7 +3209,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.Security.Principal.WindowsBuiltInRole):System.Boolean",
           "clrName": "IsInRole",
-          "tsEmitName": "isInRole3",
+          "tsEmitName": "isInRole",
           "normalizedSignature": "IsInRole|(System.Security.Principal.WindowsBuiltInRole):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3225,7 +3225,7 @@
         {
           "stableId": "System.Security.Principal.Windows:System.Security.Principal.WindowsPrincipal::IsInRole(System.String):System.Boolean",
           "clrName": "IsInRole",
-          "tsEmitName": "isInRole4",
+          "tsEmitName": "isInRole",
           "normalizedSignature": "IsInRole|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

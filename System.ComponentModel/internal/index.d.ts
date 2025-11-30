@@ -226,8 +226,8 @@ export interface IBindingListView$instance extends IBindingList, IList, ICollect
     add(value: unknown): int;
     addIndex(property: PropertyDescriptor): void;
     addNew(): unknown;
-    applySort2(property: PropertyDescriptor, direction: ListSortDirection): void;
-    applySort2(sorts: ListSortDescriptionCollection): void;
+    applySort(property: PropertyDescriptor, direction: ListSortDirection): void;
+    applySort(sorts: ListSortDescriptionCollection): void;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(property: PropertyDescriptor, key: unknown): int;
@@ -263,11 +263,11 @@ export interface IComNativeDescriptorHandler$instance {
     getDefaultEvent(component: unknown): EventDescriptor;
     getDefaultProperty(component: unknown): PropertyDescriptor;
     getEditor(component: unknown, baseEditorType: Type): unknown;
-    getEvents2(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    getEvents2(component: unknown): EventDescriptorCollection;
+    getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    getEvents(component: unknown): EventDescriptorCollection;
     getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    getPropertyValue2(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
-    getPropertyValue2(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
+    getPropertyValue(component: unknown, dispid: int, success: { value: ref<boolean> }): unknown;
+    getPropertyValue(component: unknown, propertyName: string, success: { value: ref<boolean> }): unknown;
 }
 
 
@@ -285,8 +285,8 @@ export type IComponent = IComponent$instance;
 
 export interface IContainer$instance extends IDisposable {
     readonly components: ComponentCollection;
-    add2(component: IComponent, name: string): void;
-    add2(component: IComponent): void;
+    add(component: IComponent, name: string): void;
+    add(component: IComponent): void;
     dispose(): void;
 }
 
@@ -354,8 +354,8 @@ export type IListSource = IListSource$instance;
 export interface INestedContainer$instance extends IContainer, IDisposable {
     readonly owner: IComponent;
     readonly components: ComponentCollection;
-    add2(component: IComponent, name: string): void;
-    add2(component: IComponent): void;
+    add(component: IComponent, name: string): void;
+    add(component: IComponent): void;
     dispose(): void;
 }
 
@@ -1670,15 +1670,15 @@ export type LicenseException = LicenseException$instance & __LicenseException$vi
 export class LicenseManager$instance {
     static currentContext: LicenseContext;
     static readonly usageMode: LicenseUsageMode;
-    static createWithContext2(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
-    static createWithContext2(type_: Type, creationContext: LicenseContext): unknown;
+    static createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
+    static createWithContext(type_: Type, creationContext: LicenseContext): unknown;
     static isLicensed(type_: Type): boolean;
-    static isValid2(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
-    static isValid2(type_: Type): boolean;
+    static isValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
+    static isValid(type_: Type): boolean;
     static lockContext(contextUser: unknown): void;
     static unlockContext(contextUser: unknown): void;
-    static validate2(type_: Type, instance: unknown): License;
-    static validate2(type_: Type): void;
+    static validate(type_: Type, instance: unknown): License;
+    static validate(type_: Type): void;
 }
 
 
@@ -2579,63 +2579,63 @@ export class TypeDescriptor$instance {
     static readonly interfaceType: Type;
     static readonly comObjectType: Type;
     static comNativeDescriptorHandler: IComNativeDescriptorHandler;
-    static addAttributes2(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
-    static addAttributes2(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
+    static addAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
+    static addAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
     static addEditorTable(editorBaseType: Type, table: Hashtable): void;
-    static addProvider2(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProvider2(provider: TypeDescriptionProvider, type_: Type): void;
-    static addProviderTransparent2(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProviderTransparent2(provider: TypeDescriptionProvider, type_: Type): void;
+    static addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    static addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    static addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
     static createAssociation(primary: unknown, secondary: unknown): void;
     static createDesigner(component: IComponent, designerBaseType: Type): IDesigner;
-    static createEvent2(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
-    static createEvent2(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
+    static createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
+    static createEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
     static createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
-    static createProperty2(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
-    static createProperty2(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
+    static createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
+    static createProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
     static getAssociation(type_: Type, primary: unknown): unknown;
-    static getAttributes3(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
-    static getAttributes3(component: unknown): AttributeCollection;
-    static getAttributes3(componentType: Type): AttributeCollection;
-    static getClassName2(component: unknown, noCustomTypeDesc: boolean): string;
-    static getClassName2(component: unknown): string;
-    static getClassName2(componentType: Type): string;
-    static getComponentName2(component: unknown, noCustomTypeDesc: boolean): string;
-    static getComponentName2(component: unknown): string;
-    static getConverter2(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
-    static getConverter2(component: unknown): TypeConverter;
-    static getConverter2(type_: Type): TypeConverter;
+    static getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
+    static getAttributes(component: unknown): AttributeCollection;
+    static getAttributes(componentType: Type): AttributeCollection;
+    static getClassName(component: unknown, noCustomTypeDesc: boolean): string;
+    static getClassName(component: unknown): string;
+    static getClassName(componentType: Type): string;
+    static getComponentName(component: unknown, noCustomTypeDesc: boolean): string;
+    static getComponentName(component: unknown): string;
+    static getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
+    static getConverter(component: unknown): TypeConverter;
+    static getConverter(type_: Type): TypeConverter;
     static getConverterFromRegisteredType(component: unknown): TypeConverter;
     static getConverterFromRegisteredType(type_: Type): TypeConverter;
-    static getDefaultEvent3(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
-    static getDefaultEvent3(component: unknown): EventDescriptor;
-    static getDefaultEvent3(componentType: Type): EventDescriptor;
-    static getDefaultProperty3(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
-    static getDefaultProperty3(component: unknown): PropertyDescriptor;
-    static getDefaultProperty3(componentType: Type): PropertyDescriptor;
-    static getEditor2(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
-    static getEditor2(component: unknown, editorBaseType: Type): unknown;
-    static getEditor2(type_: Type, editorBaseType: Type): unknown;
-    static getEvents6(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents6(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents6(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents6(component: unknown): EventDescriptorCollection;
-    static getEvents6(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents6(componentType: Type): EventDescriptorCollection;
+    static getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
+    static getDefaultEvent(component: unknown): EventDescriptor;
+    static getDefaultEvent(componentType: Type): EventDescriptor;
+    static getDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
+    static getDefaultProperty(component: unknown): PropertyDescriptor;
+    static getDefaultProperty(componentType: Type): PropertyDescriptor;
+    static getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
+    static getEditor(component: unknown, editorBaseType: Type): unknown;
+    static getEditor(type_: Type, editorBaseType: Type): unknown;
+    static getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    static getEvents(component: unknown): EventDescriptorCollection;
+    static getEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
+    static getEvents(componentType: Type): EventDescriptorCollection;
     static getEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
     static getFullComponentName(component: unknown): string;
-    static getProperties6(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties6(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties6(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties6(component: unknown): PropertyDescriptorCollection;
-    static getProperties6(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties6(componentType: Type): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType2(component: unknown): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType2(componentType: Type): PropertyDescriptorCollection;
-    static getProvider2(instance: unknown): TypeDescriptionProvider;
-    static getProvider2(type_: Type): TypeDescriptionProvider;
-    static getReflectionType2(instance: unknown): Type;
-    static getReflectionType2(type_: Type): Type;
+    static getProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    static getProperties(component: unknown): PropertyDescriptorCollection;
+    static getProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
+    static getProperties(componentType: Type): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
+    static getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
+    static getProvider(instance: unknown): TypeDescriptionProvider;
+    static getProvider(type_: Type): TypeDescriptionProvider;
+    static getReflectionType(instance: unknown): Type;
+    static getReflectionType(type_: Type): Type;
     static refresh(component: unknown): void;
     static refresh(assembly: Assembly): void;
     static refresh(module_: Module): void;
@@ -2643,10 +2643,10 @@ export class TypeDescriptor$instance {
     static registerType<T>(): void;
     static removeAssociation(primary: unknown, secondary: unknown): void;
     static removeAssociations(primary: unknown): void;
-    static removeProvider2(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProvider2(provider: TypeDescriptionProvider, type_: Type): void;
-    static removeProviderTransparent2(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProviderTransparent2(provider: TypeDescriptionProvider, type_: Type): void;
+    static removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    static removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    static removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
     static sortDescriptorArray(infos: IList): void;
 }
 

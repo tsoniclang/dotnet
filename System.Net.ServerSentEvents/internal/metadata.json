@@ -334,7 +334,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseFormatter::WriteAsync(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(IAsyncEnumerable_1,System.IO.Stream,Action_2,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -383,7 +383,7 @@
         {
           "stableId": "System.Net.ServerSentEvents:System.Net.ServerSentEvents.SseParser::Create(System.IO.Stream,SseItemParser_1):SseParser_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream,SseItemParser_1):SseParser_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

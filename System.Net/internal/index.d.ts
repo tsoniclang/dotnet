@@ -384,12 +384,12 @@ export class IPNetwork$instance {
     toString(): string;
     tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static parse3(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPNetwork;
-    static parse3(s: ReadOnlySpan_1<CLROf<char>>): IPNetwork;
-    static parse3(s: string): IPNetwork;
-    static tryParse3(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPNetwork> }): boolean;
-    static tryParse3(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPNetwork> }): boolean;
-    static tryParse3(s: string, result: { value: ref<IPNetwork> }): boolean;
+    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPNetwork;
+    static parse(s: ReadOnlySpan_1<CLROf<char>>): IPNetwork;
+    static parse(s: string): IPNetwork;
+    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPNetwork> }): boolean;
+    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPNetwork> }): boolean;
+    static tryParse(s: string, result: { value: ref<IPNetwork> }): boolean;
 }
 
 
@@ -591,7 +591,7 @@ export interface __CredentialCache$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
-export interface CredentialCache$instance extends System_Collections_Internal.IEnumerable$instance, ICredentials$instance {}
+export interface CredentialCache$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type CredentialCache = CredentialCache$instance & __CredentialCache$views;
 
@@ -1196,21 +1196,21 @@ export class IPAddress$instance {
     static readonly iPv6Any: IPAddress;
     static readonly iPv6Loopback: IPAddress;
     static readonly iPv6None: IPAddress;
-    static hostToNetworkOrder3(host: short): short;
-    static hostToNetworkOrder3(host: int): int;
-    static hostToNetworkOrder3(host: long): long;
+    static hostToNetworkOrder(host: short): short;
+    static hostToNetworkOrder(host: int): int;
+    static hostToNetworkOrder(host: long): long;
     static isLoopback(address: IPAddress): boolean;
     static isValid(ipSpan: ReadOnlySpan_1<CLROf<char>>): boolean;
     static isValidUtf8(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static networkToHostOrder3(network: short): short;
-    static networkToHostOrder3(network: int): int;
-    static networkToHostOrder3(network: long): long;
-    static parse2(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPAddress;
-    static parse2(ipSpan: ReadOnlySpan_1<CLROf<char>>): IPAddress;
-    static parse2(ipString: string): IPAddress;
-    static tryParse2(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPAddress> }): boolean;
-    static tryParse2(ipSpan: ReadOnlySpan_1<CLROf<char>>, address: { value: ref<IPAddress> }): boolean;
-    static tryParse2(ipString: string, address: { value: ref<IPAddress> }): boolean;
+    static networkToHostOrder(network: short): short;
+    static networkToHostOrder(network: int): int;
+    static networkToHostOrder(network: long): long;
+    static parse(utf8Text: ReadOnlySpan_1<CLROf<byte>>): IPAddress;
+    static parse(ipSpan: ReadOnlySpan_1<CLROf<char>>): IPAddress;
+    static parse(ipString: string): IPAddress;
+    static tryParse(utf8Text: ReadOnlySpan_1<CLROf<byte>>, result: { value: ref<IPAddress> }): boolean;
+    static tryParse(ipSpan: ReadOnlySpan_1<CLROf<char>>, address: { value: ref<IPAddress> }): boolean;
+    static tryParse(ipString: string, address: { value: ref<IPAddress> }): boolean;
 }
 
 
@@ -1241,10 +1241,10 @@ export class IPEndPoint$instance extends EndPoint$instance {
     toString(): string;
     static readonly minPort: int;
     static readonly maxPort: int;
-    static parse2(s: ReadOnlySpan_1<CLROf<char>>): IPEndPoint;
-    static parse2(s: string): IPEndPoint;
-    static tryParse2(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPEndPoint> }): boolean;
-    static tryParse2(s: string, result: { value: ref<IPEndPoint> }): boolean;
+    static parse(s: ReadOnlySpan_1<CLROf<char>>): IPEndPoint;
+    static parse(s: string): IPEndPoint;
+    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<IPEndPoint> }): boolean;
+    static tryParse(s: string, result: { value: ref<IPEndPoint> }): boolean;
 }
 
 
@@ -1279,8 +1279,6 @@ export interface __NetworkCredential$views {
     As_ICredentials(): ICredentials$instance;
     As_ICredentialsByHost(): ICredentialsByHost$instance;
 }
-
-export interface NetworkCredential$instance extends ICredentials$instance {}
 
 export type NetworkCredential = NetworkCredential$instance & __NetworkCredential$views;
 
@@ -1394,9 +1392,9 @@ export class ServicePointManager$instance {
     static reusePort: boolean;
     static checkCertificateRevocationList: boolean;
     static readonly encryptionPolicy: EncryptionPolicy;
-    static findServicePoint2(uriString: string, proxy: IWebProxy): ServicePoint;
-    static findServicePoint2(address: Uri, proxy: IWebProxy): ServicePoint;
-    static findServicePoint2(address: Uri): ServicePoint;
+    static findServicePoint(uriString: string, proxy: IWebProxy): ServicePoint;
+    static findServicePoint(address: Uri, proxy: IWebProxy): ServicePoint;
+    static findServicePoint(address: Uri): ServicePoint;
     static setTcpKeepAlive(enabled: boolean, keepAliveTime: int, keepAliveInterval: int): void;
 }
 
@@ -1695,6 +1693,7 @@ export class WebHeaderCollection$instance extends System_Collections_Specialized
     readonly allKeys: string[];
     readonly count: int;
     readonly keys: NameObjectCollectionBase_KeysCollection;
+    add(header: HttpResponseHeader, value: string): void;
     add(name: string, value: string): void;
     add(c: NameValueCollection): void;
     clear(): void;
@@ -1707,12 +1706,14 @@ export class WebHeaderCollection$instance extends System_Collections_Specialized
     getValues(index: int): string[];
     getValues(header: string): string[];
     onDeserialization(sender: unknown): void;
+    remove(header: HttpResponseHeader): void;
     remove(name: string): void;
     set_(name: string, value: string): void;
+    set_(header: HttpResponseHeader, value: string): void;
     toByteArray(): byte[];
     toString(): string;
-    static isRestricted2(headerName: string, response: boolean): boolean;
-    static isRestricted2(headerName: string): boolean;
+    static isRestricted(headerName: string, response: boolean): boolean;
+    static isRestricted(headerName: string): boolean;
 }
 
 
@@ -1864,21 +1865,21 @@ export abstract class Dns$instance {
     static endGetHostByName(asyncResult: IAsyncResult): IPHostEntry;
     static endGetHostEntry(asyncResult: IAsyncResult): IPHostEntry;
     static endResolve(asyncResult: IAsyncResult): IPHostEntry;
-    static getHostAddresses2(hostNameOrAddress: string, family: AddressFamily): IPAddress[];
-    static getHostAddresses2(hostNameOrAddress: string): IPAddress[];
-    static getHostAddressesAsync3(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPAddress[]>;
-    static getHostAddressesAsync3(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPAddress[]>;
-    static getHostAddressesAsync3(hostNameOrAddress: string): Task_1<IPAddress[]>;
-    static getHostByAddress2(address: IPAddress): IPHostEntry;
-    static getHostByAddress2(address: string): IPHostEntry;
+    static getHostAddresses(hostNameOrAddress: string, family: AddressFamily): IPAddress[];
+    static getHostAddresses(hostNameOrAddress: string): IPAddress[];
+    static getHostAddressesAsync(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPAddress[]>;
+    static getHostAddressesAsync(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPAddress[]>;
+    static getHostAddressesAsync(hostNameOrAddress: string): Task_1<IPAddress[]>;
+    static getHostByAddress(address: IPAddress): IPHostEntry;
+    static getHostByAddress(address: string): IPHostEntry;
     static getHostByName(hostName: string): IPHostEntry;
     static getHostEntry(address: IPAddress): IPHostEntry;
     static getHostEntry(hostNameOrAddress: string, family: AddressFamily): IPHostEntry;
     static getHostEntry(hostNameOrAddress: string): IPHostEntry;
-    static getHostEntryAsync4(address: IPAddress): Task_1<IPHostEntry>;
-    static getHostEntryAsync4(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPHostEntry>;
-    static getHostEntryAsync4(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPHostEntry>;
-    static getHostEntryAsync4(hostNameOrAddress: string): Task_1<IPHostEntry>;
+    static getHostEntryAsync(address: IPAddress): Task_1<IPHostEntry>;
+    static getHostEntryAsync(hostNameOrAddress: string, family: AddressFamily, cancellationToken?: CancellationToken): Task_1<IPHostEntry>;
+    static getHostEntryAsync(hostNameOrAddress: string, cancellationToken: CancellationToken): Task_1<IPHostEntry>;
+    static getHostEntryAsync(hostNameOrAddress: string): Task_1<IPHostEntry>;
     static getHostName(): string;
     static resolve(hostName: string): IPHostEntry;
 }
@@ -1943,10 +1944,10 @@ export abstract class WebRequestMethods_Http$instance {
 export type WebRequestMethods_Http = WebRequestMethods_Http$instance;
 
 export abstract class WebUtility$instance {
-    static htmlDecode2(value: string, output: TextWriter): void;
-    static htmlDecode2(value: string): string;
-    static htmlEncode2(value: string, output: TextWriter): void;
-    static htmlEncode2(value: string): string;
+    static htmlDecode(value: string, output: TextWriter): void;
+    static htmlDecode(value: string): string;
+    static htmlEncode(value: string, output: TextWriter): void;
+    static htmlEncode(value: string): string;
     static urlDecode(encodedValue: string): string;
     static urlDecodeToBytes(encodedValue: byte[], offset: int, count: int): byte[];
     static urlEncode(value: string): string;

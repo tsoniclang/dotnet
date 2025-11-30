@@ -99,7 +99,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::FallbackBinaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackBinaryOperation",
-          "tsEmitName": "fallbackBinaryOperation2",
+          "tsEmitName": "fallbackBinaryOperation",
           "normalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -425,7 +425,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::FallbackConvert(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackConvert",
-          "tsEmitName": "fallbackConvert2",
+          "tsEmitName": "fallbackConvert",
           "normalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -552,7 +552,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::FallbackCreateInstance(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackCreateInstance",
-          "tsEmitName": "fallbackCreateInstance2",
+          "tsEmitName": "fallbackCreateInstance",
           "normalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -680,7 +680,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::FallbackDeleteIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackDeleteIndex",
-          "tsEmitName": "fallbackDeleteIndex2",
+          "tsEmitName": "fallbackDeleteIndex",
           "normalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -776,7 +776,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::FallbackDeleteMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackDeleteMember",
-          "tsEmitName": "fallbackDeleteMember2",
+          "tsEmitName": "fallbackDeleteMember",
           "normalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1256,7 +1256,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind3",
+          "tsEmitName": "bind2",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1304,7 +1304,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Defer(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Defer",
-          "tsEmitName": "defer2",
+          "tsEmitName": "defer",
           "normalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1917,7 +1917,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::FallbackGetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackGetIndex",
-          "tsEmitName": "fallbackGetIndex2",
+          "tsEmitName": "fallbackGetIndex",
           "normalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2013,7 +2013,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::FallbackGetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackGetMember",
-          "tsEmitName": "fallbackGetMember2",
+          "tsEmitName": "fallbackGetMember",
           "normalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2140,7 +2140,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::FallbackInvoke(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackInvoke",
-          "tsEmitName": "fallbackInvoke2",
+          "tsEmitName": "fallbackInvoke",
           "normalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2268,7 +2268,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::FallbackInvokeMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackInvokeMember",
-          "tsEmitName": "fallbackInvokeMember2",
+          "tsEmitName": "fallbackInvokeMember",
           "normalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2426,7 +2426,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::FallbackSetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackSetIndex",
-          "tsEmitName": "fallbackSetIndex2",
+          "tsEmitName": "fallbackSetIndex",
           "normalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2538,7 +2538,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::FallbackSetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackSetMember",
-          "tsEmitName": "fallbackSetMember2",
+          "tsEmitName": "fallbackSetMember",
           "normalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2649,7 +2649,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::FallbackUnaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackUnaryOperation",
-          "tsEmitName": "fallbackUnaryOperation2",
+          "tsEmitName": "fallbackUnaryOperation",
           "normalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -422,7 +422,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey2",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -438,7 +438,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey3",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -454,7 +454,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey4",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -470,7 +470,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey5",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistrySecurity):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -486,7 +486,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,System.Boolean):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey6",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,System.Boolean):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -502,7 +502,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::CreateSubKey(System.String,System.Boolean,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey",
           "clrName": "CreateSubKey",
-          "tsEmitName": "createSubKey7",
+          "tsEmitName": "createSubKey",
           "normalizedSignature": "CreateSubKey|(System.String,System.Boolean,Microsoft.Win32.RegistryOptions):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -534,7 +534,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKey(System.String,System.Boolean):System.Void",
           "clrName": "DeleteSubKey",
-          "tsEmitName": "deleteSubKey2",
+          "tsEmitName": "deleteSubKey",
           "normalizedSignature": "DeleteSubKey|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -566,7 +566,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteSubKeyTree(System.String,System.Boolean):System.Void",
           "clrName": "DeleteSubKeyTree",
-          "tsEmitName": "deleteSubKeyTree2",
+          "tsEmitName": "deleteSubKeyTree",
           "normalizedSignature": "DeleteSubKeyTree|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -598,7 +598,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::DeleteValue(System.String,System.Boolean):System.Void",
           "clrName": "DeleteValue",
-          "tsEmitName": "deleteValue2",
+          "tsEmitName": "deleteValue",
           "normalizedSignature": "DeleteValue|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -662,7 +662,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::FromHandle(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey",
           "clrName": "FromHandle",
-          "tsEmitName": "fromHandle2",
+          "tsEmitName": "fromHandle",
           "normalizedSignature": "FromHandle|(Microsoft.Win32.SafeHandles.SafeRegistryHandle,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -694,7 +694,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetAccessControl(System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.RegistrySecurity",
           "clrName": "GetAccessControl",
-          "tsEmitName": "getAccessControl2",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.RegistrySecurity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -742,7 +742,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValue(System.String,System.Object):System.Object",
           "clrName": "GetValue",
-          "tsEmitName": "getValue2",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.String,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -758,7 +758,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::GetValue(System.String,System.Object,Microsoft.Win32.RegistryValueOptions):System.Object",
           "clrName": "GetValue",
-          "tsEmitName": "getValue3",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.String,System.Object,Microsoft.Win32.RegistryValueOptions):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenRemoteBaseKey(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey",
           "clrName": "OpenRemoteBaseKey",
-          "tsEmitName": "openRemoteBaseKey2",
+          "tsEmitName": "openRemoteBaseKey",
           "normalizedSignature": "OpenRemoteBaseKey|(Microsoft.Win32.RegistryHive,System.String,Microsoft.Win32.RegistryView):Microsoft.Win32.RegistryKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -870,7 +870,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey",
           "clrName": "OpenSubKey",
-          "tsEmitName": "openSubKey2",
+          "tsEmitName": "openSubKey",
           "normalizedSignature": "OpenSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -886,7 +886,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey",
           "clrName": "OpenSubKey",
-          "tsEmitName": "openSubKey3",
+          "tsEmitName": "openSubKey",
           "normalizedSignature": "OpenSubKey|(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -902,7 +902,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,System.Boolean):Microsoft.Win32.RegistryKey",
           "clrName": "OpenSubKey",
-          "tsEmitName": "openSubKey4",
+          "tsEmitName": "openSubKey",
           "normalizedSignature": "OpenSubKey|(System.String,System.Boolean):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -918,7 +918,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::OpenSubKey(System.String,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey",
           "clrName": "OpenSubKey",
-          "tsEmitName": "openSubKey5",
+          "tsEmitName": "openSubKey",
           "normalizedSignature": "OpenSubKey|(System.String,System.Security.AccessControl.RegistryRights):Microsoft.Win32.RegistryKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -966,7 +966,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKey::SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "setValue2",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1140,7 +1140,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.Registry::SetValue(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "setValue2",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

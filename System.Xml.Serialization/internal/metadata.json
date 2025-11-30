@@ -788,7 +788,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::Add(System.Type,System.String,System.Xml.Serialization.SoapAttributes):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Type,System.String,System.Xml.Serialization.SoapAttributes):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1201,7 +1201,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportTypeMapping(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportTypeMapping",
-          "tsEmitName": "importTypeMapping2",
+          "tsEmitName": "importTypeMapping",
           "normalizedSignature": "ImportTypeMapping|(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1233,7 +1233,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping2",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1249,7 +1249,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping3",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1265,7 +1265,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping4",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3302,7 +3302,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::Add(System.Type,System.String,System.Xml.Serialization.XmlAttributes):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Type,System.String,System.Xml.Serialization.XmlAttributes):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5260,7 +5260,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportTypeMapping",
-          "tsEmitName": "importTypeMapping2",
+          "tsEmitName": "importTypeMapping",
           "normalizedSignature": "ImportTypeMapping|(System.Type,System.String):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5276,7 +5276,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportTypeMapping",
-          "tsEmitName": "importTypeMapping3",
+          "tsEmitName": "importTypeMapping",
           "normalizedSignature": "ImportTypeMapping|(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5292,7 +5292,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportTypeMapping(System.Type,System.Xml.Serialization.XmlRootAttribute,System.String):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportTypeMapping",
-          "tsEmitName": "importTypeMapping4",
+          "tsEmitName": "importTypeMapping",
           "normalizedSignature": "ImportTypeMapping|(System.Type,System.Xml.Serialization.XmlRootAttribute,System.String):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5324,7 +5324,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping2",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5340,7 +5340,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping3",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5356,7 +5356,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlReflectionImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping4",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.XmlReflectionMember[],System.Boolean,System.Boolean,System.Boolean,System.Xml.Serialization.XmlMappingAccess):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5646,7 +5646,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -5654,7 +5654,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -5781,7 +5780,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportTypeMapping(System.Xml.Serialization.XmlMembersMapping):System.Xml.XmlQualifiedName",
           "clrName": "ExportTypeMapping",
-          "tsEmitName": "exportTypeMapping2",
+          "tsEmitName": "exportTypeMapping",
           "normalizedSignature": "ExportTypeMapping|(System.Xml.Serialization.XmlMembersMapping):System.Xml.XmlQualifiedName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5813,7 +5812,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportMembersMapping(System.Xml.Serialization.XmlMembersMapping,System.Boolean):System.Void",
           "clrName": "ExportMembersMapping",
-          "tsEmitName": "exportMembersMapping2",
+          "tsEmitName": "exportMembersMapping",
           "normalizedSignature": "ExportMembersMapping|(System.Xml.Serialization.XmlMembersMapping,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5845,7 +5844,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaExporter::ExportAnyType(System.Xml.Serialization.XmlMembersMapping):System.String",
           "clrName": "ExportAnyType",
-          "tsEmitName": "exportAnyType2",
+          "tsEmitName": "exportAnyType",
           "normalizedSignature": "ExportAnyType|(System.Xml.Serialization.XmlMembersMapping):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5900,7 +5899,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportDerivedTypeMapping(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportDerivedTypeMapping",
-          "tsEmitName": "importDerivedTypeMapping2",
+          "tsEmitName": "importDerivedTypeMapping",
           "normalizedSignature": "ImportDerivedTypeMapping|(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5932,7 +5931,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportSchemaType(System.Xml.XmlQualifiedName,System.Type):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportSchemaType",
-          "tsEmitName": "importSchemaType2",
+          "tsEmitName": "importSchemaType",
           "normalizedSignature": "ImportSchemaType|(System.Xml.XmlQualifiedName,System.Type):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5948,7 +5947,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportSchemaType(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping",
           "clrName": "ImportSchemaType",
-          "tsEmitName": "importSchemaType3",
+          "tsEmitName": "importSchemaType",
           "normalizedSignature": "ImportSchemaType|(System.Xml.XmlQualifiedName,System.Type,System.Boolean):System.Xml.Serialization.XmlTypeMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6012,7 +6011,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.Xml.XmlQualifiedName[]):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping2",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.Xml.XmlQualifiedName[]):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6028,7 +6027,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.Xml.XmlQualifiedName[],System.Type,System.Boolean):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping3",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.Xml.XmlQualifiedName[],System.Type,System.Boolean):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6044,7 +6043,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemaImporter::ImportMembersMapping(System.String,System.String,System.Xml.Serialization.SoapSchemaMember[]):System.Xml.Serialization.XmlMembersMapping",
           "clrName": "ImportMembersMapping",
-          "tsEmitName": "importMembersMapping4",
+          "tsEmitName": "importMembersMapping",
           "normalizedSignature": "ImportMembersMapping|(System.String,System.String,System.Xml.Serialization.SoapSchemaMember[]):System.Xml.Serialization.XmlMembersMapping|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6173,7 +6172,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Xml.Schema.XmlSchema,System.Uri):System.Int32",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchema,System.Uri):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6189,7 +6188,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Add(System.Xml.Serialization.XmlSchemas):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add2",
           "normalizedSignature": "Add|(System.Xml.Serialization.XmlSchemas):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6269,7 +6268,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::Contains(System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains3",
+          "tsEmitName": "contains2",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7425,7 +7424,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize2",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.TextWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7441,7 +7440,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.Stream,System.Object):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize3",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7457,7 +7456,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize4",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7473,7 +7472,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize5",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7489,7 +7488,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize6",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7505,7 +7504,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize7",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7521,7 +7520,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Serialize(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize8",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Xml.XmlWriter,System.Object,System.Xml.Serialization.XmlSerializerNamespaces,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7553,7 +7552,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.IO.TextReader):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize2",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.TextReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7569,7 +7568,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize3",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Xml.XmlReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7585,7 +7584,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize4",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Xml.XmlReader,System.Xml.Serialization.XmlDeserializationEvents):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7601,7 +7600,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.String):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize5",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Xml.XmlReader,System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7617,7 +7616,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::Deserialize(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize6",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Xml.XmlReader,System.String,System.Xml.Serialization.XmlDeserializationEvents):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7665,7 +7664,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::FromMappings(System.Xml.Serialization.XmlMapping[],System.Type):System.Xml.Serialization.XmlSerializer[]",
           "clrName": "FromMappings",
-          "tsEmitName": "fromMappings2",
+          "tsEmitName": "fromMappings",
           "normalizedSignature": "FromMappings|(System.Xml.Serialization.XmlMapping[],System.Type):System.Xml.Serialization.XmlSerializer[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7713,7 +7712,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializer::GetXmlSerializerAssemblyName(System.Type,System.String):System.String",
           "clrName": "GetXmlSerializerAssemblyName",
-          "tsEmitName": "getXmlSerializerAssemblyName2",
+          "tsEmitName": "getXmlSerializerAssemblyName",
           "normalizedSignature": "GetXmlSerializerAssemblyName|(System.Type,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7895,7 +7894,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer2",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type,System.Xml.Serialization.XmlRootAttribute):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7911,7 +7910,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Type[]):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer3",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type,System.Type[]):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7927,7 +7926,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlAttributeOverrides):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer4",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type,System.Xml.Serialization.XmlAttributeOverrides):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7943,7 +7942,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Xml.Serialization.XmlTypeMapping):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer5",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Xml.Serialization.XmlTypeMapping):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7959,7 +7958,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer6",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7975,7 +7974,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.String):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer7",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type,System.String):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7991,7 +7990,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSerializerFactory::CreateSerializer(System.Type,System.Xml.Serialization.XmlAttributeOverrides,System.Type[],System.Xml.Serialization.XmlRootAttribute,System.String,System.String):System.Xml.Serialization.XmlSerializer",
           "clrName": "CreateSerializer",
-          "tsEmitName": "createSerializer8",
+          "tsEmitName": "createSerializer",
           "normalizedSignature": "CreateSerializer|(System.Type,System.Xml.Serialization.XmlAttributeOverrides,System.Type[],System.Xml.Serialization.XmlRootAttribute,System.String,System.String):System.Xml.Serialization.XmlSerializer|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -118,16 +118,16 @@ export abstract class DataContractJsonSerializerExtensions$instance {
 export type DataContractJsonSerializerExtensions = DataContractJsonSerializerExtensions$instance;
 
 export abstract class JsonReaderWriterFactory$instance {
-    static createJsonReader5(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createJsonReader5(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonReader5(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonReader5(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createJsonReader5(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createJsonWriter5(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean, indentChars: string): XmlDictionaryWriter;
-    static createJsonWriter5(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean): XmlDictionaryWriter;
-    static createJsonWriter5(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
-    static createJsonWriter5(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
-    static createJsonWriter5(stream: Stream): XmlDictionaryWriter;
+    static createJsonReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createJsonReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createJsonReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createJsonReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createJsonReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean, indentChars: string): XmlDictionaryWriter;
+    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean, indent: boolean): XmlDictionaryWriter;
+    static createJsonWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
+    static createJsonWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
+    static createJsonWriter(stream: Stream): XmlDictionaryWriter;
 }
 
 

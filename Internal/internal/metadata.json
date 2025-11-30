@@ -34,7 +34,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

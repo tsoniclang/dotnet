@@ -159,7 +159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.ICollection::CopyTo(System.Array,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Array,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -286,7 +286,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryGetValue(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
           "clrName": "TryGetValue",
-          "tsEmitName": "tryGetValue2",
+          "tsEmitName": "tryGetValue",
           "normalizedSignature": "TryGetValue|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -318,7 +318,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602\u002BAlternateLookup\u00601::TryRemove(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean",
           "clrName": "TryRemove",
-          "tsEmitName": "tryRemove2",
+          "tsEmitName": "tryRemove",
           "normalizedSignature": "TryRemove|(TAlternateKey,TKey\u0026,TValue\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -398,7 +398,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Add(T,System.Threading.CancellationToken):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(T,System.Threading.CancellationToken):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -430,7 +430,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.TimeSpan):System.Boolean",
           "clrName": "TryAdd",
-          "tsEmitName": "tryAdd2",
+          "tsEmitName": "tryAdd",
           "normalizedSignature": "TryAdd|(T,System.TimeSpan):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -446,7 +446,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.Int32):System.Boolean",
           "clrName": "TryAdd",
-          "tsEmitName": "tryAdd3",
+          "tsEmitName": "tryAdd",
           "normalizedSignature": "TryAdd|(T,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -462,7 +462,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAdd(T,System.Int32,System.Threading.CancellationToken):System.Boolean",
           "clrName": "TryAdd",
-          "tsEmitName": "tryAdd4",
+          "tsEmitName": "tryAdd",
           "normalizedSignature": "TryAdd|(T,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -494,7 +494,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::Take(System.Threading.CancellationToken):T",
           "clrName": "Take",
-          "tsEmitName": "take2",
+          "tsEmitName": "take",
           "normalizedSignature": "Take|(System.Threading.CancellationToken):T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -526,7 +526,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.TimeSpan):System.Boolean",
           "clrName": "TryTake",
-          "tsEmitName": "tryTake2",
+          "tsEmitName": "tryTake",
           "normalizedSignature": "TryTake|(T\u0026,System.TimeSpan):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -542,7 +542,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.Int32):System.Boolean",
           "clrName": "TryTake",
-          "tsEmitName": "tryTake3",
+          "tsEmitName": "tryTake",
           "normalizedSignature": "TryTake|(T\u0026,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -558,7 +558,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTake(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean",
           "clrName": "TryTake",
-          "tsEmitName": "tryTake4",
+          "tsEmitName": "tryTake",
           "normalizedSignature": "TryTake|(T\u0026,System.Int32,System.Threading.CancellationToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -590,7 +590,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::AddToAny(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32",
           "clrName": "AddToAny",
-          "tsEmitName": "addToAny2",
+          "tsEmitName": "addToAny",
           "normalizedSignature": "AddToAny|(BlockingCollection_1[],T,System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -622,7 +622,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.TimeSpan):System.Int32",
           "clrName": "TryAddToAny",
-          "tsEmitName": "tryAddToAny2",
+          "tsEmitName": "tryAddToAny",
           "normalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.TimeSpan):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -638,7 +638,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.Int32):System.Int32",
           "clrName": "TryAddToAny",
-          "tsEmitName": "tryAddToAny3",
+          "tsEmitName": "tryAddToAny",
           "normalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -654,7 +654,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryAddToAny(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32",
           "clrName": "TryAddToAny",
-          "tsEmitName": "tryAddToAny4",
+          "tsEmitName": "tryAddToAny",
           "normalizedSignature": "TryAddToAny|(BlockingCollection_1[],T,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -686,7 +686,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TakeFromAny(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32",
           "clrName": "TakeFromAny",
-          "tsEmitName": "takeFromAny2",
+          "tsEmitName": "takeFromAny",
           "normalizedSignature": "TakeFromAny|(BlockingCollection_1[],T\u0026,System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -718,7 +718,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32",
           "clrName": "TryTakeFromAny",
-          "tsEmitName": "tryTakeFromAny2",
+          "tsEmitName": "tryTakeFromAny",
           "normalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.TimeSpan):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -734,7 +734,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.Int32):System.Int32",
           "clrName": "TryTakeFromAny",
-          "tsEmitName": "tryTakeFromAny3",
+          "tsEmitName": "tryTakeFromAny",
           "normalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -750,7 +750,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::TryTakeFromAny(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32",
           "clrName": "TryTakeFromAny",
-          "tsEmitName": "tryTakeFromAny4",
+          "tsEmitName": "tryTakeFromAny",
           "normalizedSignature": "TryTakeFromAny|(BlockingCollection_1[],T\u0026,System.Int32,System.Threading.CancellationToken):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -846,7 +846,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.BlockingCollection\u00601::GetConsumingEnumerable(System.Threading.CancellationToken):IEnumerable_1",
           "clrName": "GetConsumingEnumerable",
-          "tsEmitName": "getConsumingEnumerable2",
+          "tsEmitName": "getConsumingEnumerable",
           "normalizedSignature": "GetConsumingEnumerable|(System.Threading.CancellationToken):IEnumerable_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1527,7 +1527,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::TryRemove(KeyValuePair_2):System.Boolean",
           "clrName": "TryRemove",
-          "tsEmitName": "tryRemove2",
+          "tsEmitName": "tryRemove",
           "normalizedSignature": "TryRemove|(KeyValuePair_2):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1639,7 +1639,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetOrAdd(TKey,Func_3,TArg):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd2",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(TKey,Func_3,TArg):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1655,7 +1655,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::GetOrAdd(TKey,TValue):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd3",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(TKey,TValue):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1687,7 +1687,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::AddOrUpdate(TKey,Func_2,Func_3):TValue",
           "clrName": "AddOrUpdate",
-          "tsEmitName": "addOrUpdate2",
+          "tsEmitName": "addOrUpdate",
           "normalizedSignature": "AddOrUpdate|(TKey,Func_2,Func_3):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1703,7 +1703,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentDictionary\u00602::AddOrUpdate(TKey,TValue,Func_3):TValue",
           "clrName": "AddOrUpdate",
-          "tsEmitName": "addOrUpdate3",
+          "tsEmitName": "addOrUpdate",
           "normalizedSignature": "AddOrUpdate|(TKey,TValue,Func_3):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2811,7 +2811,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::PushRange(T[],System.Int32,System.Int32):System.Void",
           "clrName": "PushRange",
-          "tsEmitName": "pushRange2",
+          "tsEmitName": "pushRange",
           "normalizedSignature": "PushRange|(T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2875,7 +2875,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.ConcurrentStack\u00601::TryPopRange(T[],System.Int32,System.Int32):System.Int32",
           "clrName": "TryPopRange",
-          "tsEmitName": "tryPopRange2",
+          "tsEmitName": "tryPopRange",
           "normalizedSignature": "TryPopRange|(T[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3405,7 +3405,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(TSource[],System.Boolean):OrderablePartitioner_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(TSource[],System.Boolean):OrderablePartitioner_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3421,7 +3421,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(IEnumerable_1):OrderablePartitioner_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEnumerable_1):OrderablePartitioner_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3437,7 +3437,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEnumerable_1,System.Collections.Concurrent.EnumerablePartitionerOptions):OrderablePartitioner_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3453,7 +3453,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3469,7 +3469,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int64,System.Int64,System.Int64):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3485,7 +3485,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3501,7 +3501,7 @@
         {
           "stableId": "System.Collections.Concurrent:System.Collections.Concurrent.Partitioner::Create(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int32,System.Int32,System.Int32):System.Collections.Concurrent.OrderablePartitioner_1[[System.Tuple_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

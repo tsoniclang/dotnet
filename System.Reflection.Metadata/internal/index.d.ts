@@ -679,6 +679,7 @@ export type AssemblyFileHandleCollection = AssemblyFileHandleCollection$instance
 export class AssemblyFileHandleCollection_Enumerator$instance {
     readonly current: AssemblyFileHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -741,6 +742,7 @@ export type AssemblyReferenceHandleCollection = AssemblyReferenceHandleCollectio
 export class AssemblyReferenceHandleCollection_Enumerator$instance {
     readonly current: AssemblyReferenceHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -790,8 +792,8 @@ export class BlobContentId$instance {
     equals(other: BlobContentId): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static fromHash2(hashCode: byte[]): BlobContentId;
-    static fromHash2(hashCode: ImmutableArray_1<CLROf<byte>>): BlobContentId;
+    static fromHash(hashCode: byte[]): BlobContentId;
+    static fromHash(hashCode: ImmutableArray_1<CLROf<byte>>): BlobContentId;
     static getTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
 }
 
@@ -999,6 +1001,7 @@ export type CustomAttributeHandleCollection = CustomAttributeHandleCollection$in
 export class CustomAttributeHandleCollection_Enumerator$instance {
     readonly current: CustomAttributeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1084,6 +1087,7 @@ export type CustomDebugInformationHandleCollection = CustomDebugInformationHandl
 export class CustomDebugInformationHandleCollection_Enumerator$instance {
     readonly current: CustomDebugInformationHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1140,6 +1144,7 @@ export type DeclarativeSecurityAttributeHandleCollection = DeclarativeSecurityAt
 export class DeclarativeSecurityAttributeHandleCollection_Enumerator$instance {
     readonly current: DeclarativeSecurityAttributeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1197,6 +1202,7 @@ export type DocumentHandleCollection = DocumentHandleCollection$instance & __Doc
 export class DocumentHandleCollection_Enumerator$instance {
     readonly current: DocumentHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1305,6 +1311,7 @@ export type EventDefinitionHandleCollection = EventDefinitionHandleCollection$in
 export class EventDefinitionHandleCollection_Enumerator$instance {
     readonly current: EventDefinitionHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1378,6 +1385,7 @@ export type ExportedTypeHandleCollection = ExportedTypeHandleCollection$instance
 export class ExportedTypeHandleCollection_Enumerator$instance {
     readonly current: ExportedTypeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1441,6 +1449,7 @@ export type FieldDefinitionHandleCollection = FieldDefinitionHandleCollection$in
 export class FieldDefinitionHandleCollection_Enumerator$instance {
     readonly current: FieldDefinitionHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1510,6 +1519,7 @@ export type GenericParameterConstraintHandleCollection = GenericParameterConstra
 export class GenericParameterConstraintHandleCollection_Enumerator$instance {
     readonly current: GenericParameterConstraintHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1558,6 +1568,7 @@ export type GenericParameterHandleCollection = GenericParameterHandleCollection$
 export class GenericParameterHandleCollection_Enumerator$instance {
     readonly current: GenericParameterHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1675,6 +1686,7 @@ export type ImportScopeCollection = ImportScopeCollection$instance & __ImportSco
 export class ImportScopeCollection_Enumerator$instance {
     readonly current: ImportScopeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1748,6 +1760,7 @@ export type InterfaceImplementationHandleCollection = InterfaceImplementationHan
 export class InterfaceImplementationHandleCollection_Enumerator$instance {
     readonly current: InterfaceImplementationHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1803,6 +1816,7 @@ export type LocalConstantHandleCollection = LocalConstantHandleCollection$instan
 export class LocalConstantHandleCollection_Enumerator$instance {
     readonly current: LocalConstantHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1864,6 +1878,7 @@ export type LocalScopeHandleCollection = LocalScopeHandleCollection$instance & _
 export class LocalScopeHandleCollection_ChildrenEnumerator$instance {
     readonly current: LocalScopeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1878,6 +1893,7 @@ export type LocalScopeHandleCollection_ChildrenEnumerator = LocalScopeHandleColl
 export class LocalScopeHandleCollection_Enumerator$instance {
     readonly current: LocalScopeHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1934,6 +1950,7 @@ export type LocalVariableHandleCollection = LocalVariableHandleCollection$instan
 export class LocalVariableHandleCollection_Enumerator$instance {
     readonly current: LocalVariableHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1992,6 +2009,7 @@ export type ManifestResourceHandleCollection = ManifestResourceHandleCollection$
 export class ManifestResourceHandleCollection_Enumerator$instance {
     readonly current: ManifestResourceHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2052,6 +2070,7 @@ export type MemberReferenceHandleCollection = MemberReferenceHandleCollection$in
 export class MemberReferenceHandleCollection_Enumerator$instance {
     readonly current: MemberReferenceHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2125,6 +2144,7 @@ export type MethodDebugInformationHandleCollection = MethodDebugInformationHandl
 export class MethodDebugInformationHandleCollection_Enumerator$instance {
     readonly current: MethodDebugInformationHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2191,6 +2211,7 @@ export type MethodDefinitionHandleCollection = MethodDefinitionHandleCollection$
 export class MethodDefinitionHandleCollection_Enumerator$instance {
     readonly current: MethodDefinitionHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2248,6 +2269,7 @@ export type MethodImplementationHandleCollection = MethodImplementationHandleCol
 export class MethodImplementationHandleCollection_Enumerator$instance {
     readonly current: MethodImplementationHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2441,6 +2463,7 @@ export type ParameterHandleCollection = ParameterHandleCollection$instance & __P
 export class ParameterHandleCollection_Enumerator$instance {
     readonly current: ParameterHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2511,6 +2534,7 @@ export type PropertyDefinitionHandleCollection = PropertyDefinitionHandleCollect
 export class PropertyDefinitionHandleCollection_Enumerator$instance {
     readonly current: PropertyDefinitionHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2720,6 +2744,7 @@ export type TypeDefinitionHandleCollection = TypeDefinitionHandleCollection$inst
 export class TypeDefinitionHandleCollection_Enumerator$instance {
     readonly current: TypeDefinitionHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2786,6 +2811,7 @@ export type TypeReferenceHandleCollection = TypeReferenceHandleCollection$instan
 export class TypeReferenceHandleCollection_Enumerator$instance {
     readonly current: TypeReferenceHandle;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -2940,7 +2966,7 @@ export interface __HandleComparer$views {
     As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<Handle>;
 }
 
-export interface HandleComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<Handle> {}
+export interface HandleComparer$instance extends System_Collections_Generic_Internal.IComparer_1$instance<EntityHandle> {}
 
 export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
@@ -3169,9 +3195,9 @@ export abstract class MetadataUpdater$instance {
 export type MetadataUpdater = MetadataUpdater$instance;
 
 export abstract class PEReaderExtensions$instance {
-    static getMetadataReader3(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
-    static getMetadataReader3(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
-    static getMetadataReader3(peReader: PEReader): MetadataReader;
+    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
+    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
+    static getMetadataReader(peReader: PEReader): MetadataReader;
     static getMethodBody(peReader: PEReader, relativeVirtualAddress: int): MethodBodyBlock;
 }
 

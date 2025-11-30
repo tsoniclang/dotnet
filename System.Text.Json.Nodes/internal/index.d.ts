@@ -109,10 +109,10 @@ export abstract class JsonNode$instance {
     toString(): string;
     abstract writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
     static deepEquals(node1: JsonNode, node2: JsonNode): boolean;
-    static parse4(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse4(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse4(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static parse4(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
+    static parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
     static parseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
 }
 

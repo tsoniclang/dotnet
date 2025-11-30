@@ -765,7 +765,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionOptions::Equals(System.Transactions.TransactionOptions):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Transactions.TransactionOptions):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1359,7 +1359,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.PreparingEnlistment::ForceRollback(System.Exception):System.Void",
           "clrName": "ForceRollback",
-          "tsEmitName": "forceRollback2",
+          "tsEmitName": "forceRollback",
           "normalizedSignature": "ForceRollback|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1424,7 +1424,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::Aborted(System.Exception):System.Void",
           "clrName": "Aborted",
-          "tsEmitName": "aborted2",
+          "tsEmitName": "aborted",
           "normalizedSignature": "Aborted|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1472,7 +1472,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.SinglePhaseEnlistment::InDoubt(System.Exception):System.Void",
           "clrName": "InDoubt",
-          "tsEmitName": "inDoubt2",
+          "tsEmitName": "inDoubt",
           "normalizedSignature": "InDoubt|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1658,7 +1658,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistDurable(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistDurable",
-          "tsEmitName": "enlistDurable2",
+          "tsEmitName": "enlistDurable",
           "normalizedSignature": "EnlistDurable|(System.Guid,System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1690,7 +1690,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::Rollback(System.Exception):System.Void",
           "clrName": "Rollback",
-          "tsEmitName": "rollback2",
+          "tsEmitName": "rollback",
           "normalizedSignature": "Rollback|(System.Exception):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1722,7 +1722,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistVolatile(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment",
           "clrName": "EnlistVolatile",
-          "tsEmitName": "enlistVolatile2",
+          "tsEmitName": "enlistVolatile",
           "normalizedSignature": "EnlistVolatile|(System.Transactions.ISinglePhaseNotification,System.Transactions.EnlistmentOptions):System.Transactions.Enlistment|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.Transaction::EnlistPromotableSinglePhase(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean",
           "clrName": "EnlistPromotableSinglePhase",
-          "tsEmitName": "enlistPromotableSinglePhase2",
+          "tsEmitName": "enlistPromotableSinglePhase",
           "normalizedSignature": "EnlistPromotableSinglePhase|(System.Transactions.IPromotableSinglePhaseNotification,System.Guid):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

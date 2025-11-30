@@ -631,7 +631,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::AddSort(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType):System.Void",
           "clrName": "AddSort",
-          "tsEmitName": "addSort2",
+          "tsEmitName": "addSort",
           "normalizedSignature": "AddSort|(System.Object,System.Xml.XPath.XmlSortOrder,System.Xml.XPath.XmlCaseOrder,System.String,System.Xml.XPath.XmlDataType):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -679,7 +679,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::SetContext(System.Xml.IXmlNamespaceResolver):System.Void",
           "clrName": "SetContext",
-          "tsEmitName": "setContext2",
+          "tsEmitName": "setContext",
           "normalizedSignature": "SetContext|(System.Xml.IXmlNamespaceResolver):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -711,7 +711,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathExpression::Compile(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathExpression",
           "clrName": "Compile",
-          "tsEmitName": "compile2",
+          "tsEmitName": "compile",
           "normalizedSignature": "Compile|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathItem::ValueAs(System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "ValueAs",
-          "tsEmitName": "valueAs2",
+          "tsEmitName": "valueAs",
           "normalizedSignature": "ValueAs|(System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1279,7 +1279,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFirstNamespace():System.Boolean",
           "clrName": "MoveToFirstNamespace",
-          "tsEmitName": "moveToFirstNamespace2",
+          "tsEmitName": "moveToFirstNamespace",
           "normalizedSignature": "MoveToFirstNamespace|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1295,7 +1295,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNextNamespace():System.Boolean",
           "clrName": "MoveToNextNamespace",
-          "tsEmitName": "moveToNextNamespace2",
+          "tsEmitName": "moveToNextNamespace",
           "normalizedSignature": "MoveToNextNamespace|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1455,7 +1455,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToChild(System.Xml.XPath.XPathNodeType):System.Boolean",
           "clrName": "MoveToChild",
-          "tsEmitName": "moveToChild2",
+          "tsEmitName": "moveToChild",
           "normalizedSignature": "MoveToChild|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1487,7 +1487,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.String,System.String,System.Xml.XPath.XPathNavigator):System.Boolean",
           "clrName": "MoveToFollowing",
-          "tsEmitName": "moveToFollowing2",
+          "tsEmitName": "moveToFollowing",
           "normalizedSignature": "MoveToFollowing|(System.String,System.String,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1503,7 +1503,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.Xml.XPath.XPathNodeType):System.Boolean",
           "clrName": "MoveToFollowing",
-          "tsEmitName": "moveToFollowing3",
+          "tsEmitName": "moveToFollowing",
           "normalizedSignature": "MoveToFollowing|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1519,7 +1519,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToFollowing(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator):System.Boolean",
           "clrName": "MoveToFollowing",
-          "tsEmitName": "moveToFollowing4",
+          "tsEmitName": "moveToFollowing",
           "normalizedSignature": "MoveToFollowing|(System.Xml.XPath.XPathNodeType,System.Xml.XPath.XPathNavigator):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1535,7 +1535,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNext(System.String,System.String):System.Boolean",
           "clrName": "MoveToNext",
-          "tsEmitName": "moveToNext2",
+          "tsEmitName": "moveToNext",
           "normalizedSignature": "MoveToNext|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1551,7 +1551,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::MoveToNext(System.Xml.XPath.XPathNodeType):System.Boolean",
           "clrName": "MoveToNext",
-          "tsEmitName": "moveToNext3",
+          "tsEmitName": "moveToNext",
           "normalizedSignature": "MoveToNext|(System.Xml.XPath.XPathNodeType):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1663,7 +1663,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectSingleNode(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNavigator",
           "clrName": "SelectSingleNode",
-          "tsEmitName": "selectSingleNode2",
+          "tsEmitName": "selectSingleNode",
           "normalizedSignature": "SelectSingleNode|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1679,7 +1679,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectSingleNode(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNavigator",
           "clrName": "SelectSingleNode",
-          "tsEmitName": "selectSingleNode3",
+          "tsEmitName": "selectSingleNode",
           "normalizedSignature": "SelectSingleNode|(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNavigator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1711,7 +1711,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Select(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNodeIterator",
           "clrName": "Select",
-          "tsEmitName": "select2",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.String,System.Xml.IXmlNamespaceResolver):System.Xml.XPath.XPathNodeIterator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1727,7 +1727,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Select(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNodeIterator",
           "clrName": "Select",
-          "tsEmitName": "select3",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.Xml.XPath.XPathExpression):System.Xml.XPath.XPathNodeIterator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1759,7 +1759,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.String,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "Evaluate",
-          "tsEmitName": "evaluate2",
+          "tsEmitName": "evaluate",
           "normalizedSignature": "Evaluate|(System.String,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1775,7 +1775,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.Xml.XPath.XPathExpression):System.Object",
           "clrName": "Evaluate",
-          "tsEmitName": "evaluate3",
+          "tsEmitName": "evaluate",
           "normalizedSignature": "Evaluate|(System.Xml.XPath.XPathExpression):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1791,7 +1791,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Evaluate(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator):System.Object",
           "clrName": "Evaluate",
-          "tsEmitName": "evaluate4",
+          "tsEmitName": "evaluate",
           "normalizedSignature": "Evaluate|(System.Xml.XPath.XPathExpression,System.Xml.XPath.XPathNodeIterator):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1823,7 +1823,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::Matches(System.String):System.Boolean",
           "clrName": "Matches",
-          "tsEmitName": "matches2",
+          "tsEmitName": "matches",
           "normalizedSignature": "Matches|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1855,7 +1855,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectChildren(System.String,System.String):System.Xml.XPath.XPathNodeIterator",
           "clrName": "SelectChildren",
-          "tsEmitName": "selectChildren2",
+          "tsEmitName": "selectChildren",
           "normalizedSignature": "SelectChildren|(System.String,System.String):System.Xml.XPath.XPathNodeIterator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1887,7 +1887,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectAncestors(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "clrName": "SelectAncestors",
-          "tsEmitName": "selectAncestors2",
+          "tsEmitName": "selectAncestors",
           "normalizedSignature": "SelectAncestors|(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1919,7 +1919,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::SelectDescendants(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator",
           "clrName": "SelectDescendants",
-          "tsEmitName": "selectDescendants2",
+          "tsEmitName": "selectDescendants",
           "normalizedSignature": "SelectDescendants|(System.String,System.String,System.Boolean):System.Xml.XPath.XPathNodeIterator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2047,7 +2047,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceSelf(System.Xml.XmlReader):System.Void",
           "clrName": "ReplaceSelf",
-          "tsEmitName": "replaceSelf2",
+          "tsEmitName": "replaceSelf",
           "normalizedSignature": "ReplaceSelf|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2063,7 +2063,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::ReplaceSelf(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "ReplaceSelf",
-          "tsEmitName": "replaceSelf3",
+          "tsEmitName": "replaceSelf",
           "normalizedSignature": "ReplaceSelf|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2079,7 +2079,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.String):System.Void",
           "clrName": "AppendChild",
-          "tsEmitName": "appendChild2",
+          "tsEmitName": "appendChild",
           "normalizedSignature": "AppendChild|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2095,7 +2095,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.Xml.XmlReader):System.Void",
           "clrName": "AppendChild",
-          "tsEmitName": "appendChild3",
+          "tsEmitName": "appendChild",
           "normalizedSignature": "AppendChild|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2111,7 +2111,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::AppendChild(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "AppendChild",
-          "tsEmitName": "appendChild4",
+          "tsEmitName": "appendChild",
           "normalizedSignature": "AppendChild|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2127,7 +2127,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.String):System.Void",
           "clrName": "PrependChild",
-          "tsEmitName": "prependChild2",
+          "tsEmitName": "prependChild",
           "normalizedSignature": "PrependChild|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2143,7 +2143,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.Xml.XmlReader):System.Void",
           "clrName": "PrependChild",
-          "tsEmitName": "prependChild3",
+          "tsEmitName": "prependChild",
           "normalizedSignature": "PrependChild|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2159,7 +2159,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::PrependChild(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "PrependChild",
-          "tsEmitName": "prependChild4",
+          "tsEmitName": "prependChild",
           "normalizedSignature": "PrependChild|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2175,7 +2175,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.String):System.Void",
           "clrName": "InsertBefore",
-          "tsEmitName": "insertBefore2",
+          "tsEmitName": "insertBefore",
           "normalizedSignature": "InsertBefore|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2191,7 +2191,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.Xml.XmlReader):System.Void",
           "clrName": "InsertBefore",
-          "tsEmitName": "insertBefore3",
+          "tsEmitName": "insertBefore",
           "normalizedSignature": "InsertBefore|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2207,7 +2207,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertBefore(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "InsertBefore",
-          "tsEmitName": "insertBefore4",
+          "tsEmitName": "insertBefore",
           "normalizedSignature": "InsertBefore|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2223,7 +2223,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.String):System.Void",
           "clrName": "InsertAfter",
-          "tsEmitName": "insertAfter2",
+          "tsEmitName": "insertAfter",
           "normalizedSignature": "InsertAfter|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2239,7 +2239,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.Xml.XmlReader):System.Void",
           "clrName": "InsertAfter",
-          "tsEmitName": "insertAfter3",
+          "tsEmitName": "insertAfter",
           "normalizedSignature": "InsertAfter|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2255,7 +2255,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNavigator::InsertAfter(System.Xml.XPath.XPathNavigator):System.Void",
           "clrName": "InsertAfter",
-          "tsEmitName": "insertAfter4",
+          "tsEmitName": "insertAfter",
           "normalizedSignature": "InsertAfter|(System.Xml.XPath.XPathNavigator):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3036,7 +3036,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::CreateNavigator(System.Xml.Linq.XNode,System.Xml.XmlNameTable):System.Xml.XPath.XPathNavigator",
           "clrName": "CreateNavigator",
-          "tsEmitName": "createNavigator2",
+          "tsEmitName": "createNavigator",
           "normalizedSignature": "CreateNavigator|(System.Xml.Linq.XNode,System.Xml.XmlNameTable):System.Xml.XPath.XPathNavigator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3068,7 +3068,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathEvaluate(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "XPathEvaluate",
-          "tsEmitName": "xPathEvaluate2",
+          "tsEmitName": "xPathEvaluate",
           "normalizedSignature": "XPathEvaluate|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3100,7 +3100,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElement(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Xml.Linq.XElement",
           "clrName": "XPathSelectElement",
-          "tsEmitName": "xPathSelectElement2",
+          "tsEmitName": "xPathSelectElement",
           "normalizedSignature": "XPathSelectElement|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Xml.Linq.XElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3132,7 +3132,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.XPath.Extensions::XPathSelectElements(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "XPathSelectElements",
-          "tsEmitName": "xPathSelectElements2",
+          "tsEmitName": "xPathSelectElements",
           "normalizedSignature": "XPathSelectElements|(System.Xml.Linq.XNode,System.String,System.Xml.IXmlNamespaceResolver):System.Collections.Generic.IEnumerable_1[[System.Xml.Linq.XElement,System.Private.Xml.Linq,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

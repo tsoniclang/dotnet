@@ -94,8 +94,8 @@ export class BitVector32$instance {
     toString(): string;
     static createMask(): int;
     static createMask(previous: int): int;
-    static createSection2(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
-    static createSection2(maxValue: short): BitVector32_Section;
+    static createSection(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
+    static createSection(maxValue: short): BitVector32_Section;
     static toString(value: BitVector32): string;
 }
 

@@ -686,7 +686,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowMessageHeader::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4477,7 +4477,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo2",
+          "tsEmitName": "linkTo",
           "normalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,Predicate_1):System.IDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4493,7 +4493,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::LinkTo(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable",
           "clrName": "LinkTo",
-          "tsEmitName": "linkTo3",
+          "tsEmitName": "linkTo",
           "normalizedSignature": "LinkTo|(ISourceBlock_1,ITargetBlock_1,System.Threading.Tasks.Dataflow.DataflowLinkOptions,Predicate_1):System.IDisposable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4541,7 +4541,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::SendAsync(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(ITargetBlock_1,TInput,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4589,7 +4589,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.Threading.CancellationToken):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4605,7 +4605,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync3",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4621,7 +4621,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::ReceiveAsync(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync4",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):Task_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4653,7 +4653,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.Threading.CancellationToken):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive2",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.Threading.CancellationToken):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4669,7 +4669,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive3",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4685,7 +4685,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Receive(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput",
           "clrName": "Receive",
-          "tsEmitName": "receive4",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(ISourceBlock_1,System.TimeSpan,System.Threading.CancellationToken):TOutput|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4717,7 +4717,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::OutputAvailableAsync(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "OutputAvailableAsync",
-          "tsEmitName": "outputAvailableAsync2",
+          "tsEmitName": "outputAvailableAsync",
           "normalizedSignature": "OutputAvailableAsync|(ISourceBlock_1,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4765,7 +4765,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose2",
+          "tsEmitName": "choose",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4781,7 +4781,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose3",
+          "tsEmitName": "choose",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4797,7 +4797,7 @@
         {
           "stableId": "System.Threading.Tasks.Dataflow:System.Threading.Tasks.Dataflow.DataflowBlock::Choose(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Choose",
-          "tsEmitName": "choose4",
+          "tsEmitName": "choose",
           "normalizedSignature": "Choose|(ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,ISourceBlock_1,Action_1,System.Threading.Tasks.Dataflow.DataflowBlockOptions):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

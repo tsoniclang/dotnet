@@ -357,7 +357,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.IFormatterConverter::Convert(System.Object,System.TypeCode):System.Object",
           "clrName": "Convert",
-          "tsEmitName": "convert2",
+          "tsEmitName": "convert",
           "normalizedSignature": "Convert|(System.Object,System.TypeCode):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -843,7 +843,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.ISerializationSurrogateProvider2::GetCustomDataToExport(System.Type,System.Type):System.Object",
           "clrName": "GetCustomDataToExport",
-          "tsEmitName": "getCustomDataToExport2",
+          "tsEmitName": "getCustomDataToExport",
           "normalizedSignature": "GetCustomDataToExport|(System.Type,System.Type):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1690,7 +1690,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteStartObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1706,7 +1706,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObjectContent(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent2",
+          "tsEmitName": "writeObjectContent",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1722,7 +1722,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteEndObject(System.Xml.XmlDictionaryWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject2",
+          "tsEmitName": "writeEndObject",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlDictionaryWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1738,7 +1738,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject4",
+          "tsEmitName": "writeObject3",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object,System.Runtime.Serialization.DataContractResolver):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1770,7 +1770,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "readObject3",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject5",
+          "tsEmitName": "readObject3",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1818,7 +1818,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject2",
+          "tsEmitName": "isStartObject",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1834,7 +1834,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContractSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject6",
+          "tsEmitName": "readObject3",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean,System.Runtime.Serialization.DataContractResolver):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2687,7 +2687,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterConverter::Convert(System.Object,System.TypeCode):System.Object",
           "clrName": "Convert",
-          "tsEmitName": "convert2",
+          "tsEmitName": "convert",
           "normalizedSignature": "Convert|(System.Object,System.TypeCode):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3488,7 +3488,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo):System.Void",
           "clrName": "RegisterObject",
-          "tsEmitName": "registerObject2",
+          "tsEmitName": "registerObject",
           "normalizedSignature": "RegisterObject|(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3504,7 +3504,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo):System.Void",
           "clrName": "RegisterObject",
-          "tsEmitName": "registerObject3",
+          "tsEmitName": "registerObject",
           "normalizedSignature": "RegisterObject|(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3520,7 +3520,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[]):System.Void",
           "clrName": "RegisterObject",
-          "tsEmitName": "registerObject4",
+          "tsEmitName": "registerObject",
           "normalizedSignature": "RegisterObject|(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3600,7 +3600,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.ObjectManager::RecordArrayElementFixup(System.Int64,System.Int32[],System.Int64):System.Void",
           "clrName": "RecordArrayElementFixup",
-          "tsEmitName": "recordArrayElementFixup2",
+          "tsEmitName": "recordArrayElementFixup",
           "normalizedSignature": "RecordArrayElementFixup|(System.Int64,System.Int32[],System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4146,7 +4146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Object):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue2",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4162,7 +4162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Boolean):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue3",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4178,7 +4178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Char):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue4",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4194,7 +4194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.SByte):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue5",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.SByte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4210,7 +4210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Byte):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue6",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4226,7 +4226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int16):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue7",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4242,7 +4242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt16):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue8",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4258,7 +4258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int32):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue9",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4274,7 +4274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt32):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue10",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4290,7 +4290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Int64):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue11",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4306,7 +4306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.UInt64):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue12",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4322,7 +4322,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Single):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue13",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4338,7 +4338,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Double):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue14",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4354,7 +4354,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.Decimal):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue15",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4370,7 +4370,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.SerializationInfo::AddValue(System.String,System.DateTime):System.Void",
           "clrName": "AddValue",
-          "tsEmitName": "addValue16",
+          "tsEmitName": "addValue",
           "normalizedSignature": "AddValue|(System.String,System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5226,7 +5226,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject2",
+          "tsEmitName": "writeObject",
           "normalizedSignature": "WriteObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5242,7 +5242,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteStartObject(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5258,7 +5258,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObjectContent(System.Xml.XmlWriter,System.Object):System.Void",
           "clrName": "WriteObjectContent",
-          "tsEmitName": "writeObjectContent2",
+          "tsEmitName": "writeObjectContent",
           "normalizedSignature": "WriteObjectContent|(System.Xml.XmlWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5274,7 +5274,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteEndObject(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteEndObject",
-          "tsEmitName": "writeEndObject2",
+          "tsEmitName": "writeEndObject",
           "normalizedSignature": "WriteEndObject|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5290,7 +5290,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::WriteObject(System.Xml.XmlDictionaryWriter,System.Object):System.Void",
           "clrName": "WriteObject",
-          "tsEmitName": "writeObject3",
+          "tsEmitName": "writeObject",
           "normalizedSignature": "WriteObject|(System.Xml.XmlDictionaryWriter,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5322,7 +5322,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject2",
+          "tsEmitName": "readObject",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5338,7 +5338,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlDictionaryReader):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject3",
+          "tsEmitName": "readObject",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5354,7 +5354,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject4",
+          "tsEmitName": "readObject",
           "normalizedSignature": "ReadObject|(System.Xml.XmlReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5370,7 +5370,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::ReadObject(System.Xml.XmlDictionaryReader,System.Boolean):System.Object",
           "clrName": "ReadObject",
-          "tsEmitName": "readObject5",
+          "tsEmitName": "readObject",
           "normalizedSignature": "ReadObject|(System.Xml.XmlDictionaryReader,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5402,7 +5402,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XmlObjectSerializer::IsStartObject(System.Xml.XmlDictionaryReader):System.Boolean",
           "clrName": "IsStartObject",
-          "tsEmitName": "isStartObject2",
+          "tsEmitName": "isStartObject",
           "normalizedSignature": "IsStartObject|(System.Xml.XmlDictionaryReader):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5451,7 +5451,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_2",
+          "tsEmitName": "export_",
           "normalizedSignature": "Export|(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5467,7 +5467,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Type):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_3",
+          "tsEmitName": "export_",
           "normalizedSignature": "Export|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5547,7 +5547,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::CanExport(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "CanExport",
-          "tsEmitName": "canExport2",
+          "tsEmitName": "canExport",
           "normalizedSignature": "CanExport|(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5563,7 +5563,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::CanExport(System.Type):System.Boolean",
           "clrName": "CanExport",
-          "tsEmitName": "canExport3",
+          "tsEmitName": "canExport",
           "normalizedSignature": "CanExport|(System.Type):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5703,7 +5703,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.FormatterServices::GetSerializableMembers(System.Type,System.Runtime.Serialization.StreamingContext):System.Reflection.MemberInfo[]",
           "clrName": "GetSerializableMembers",
-          "tsEmitName": "getSerializableMembers2",
+          "tsEmitName": "getSerializableMembers",
           "normalizedSignature": "GetSerializableMembers|(System.Type,System.Runtime.Serialization.StreamingContext):System.Reflection.MemberInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6486,7 +6486,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XPathQueryGenerator::CreateFromDataContractSerializer(System.Type,System.Reflection.MemberInfo[],System.Text.StringBuilder,System.Xml.XmlNamespaceManager\u0026):System.String",
           "clrName": "CreateFromDataContractSerializer",
-          "tsEmitName": "createFromDataContractSerializer2",
+          "tsEmitName": "createFromDataContractSerializer",
           "normalizedSignature": "CreateFromDataContractSerializer|(System.Type,System.Reflection.MemberInfo[],System.Text.StringBuilder,System.Xml.XmlNamespaceManager\u0026):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

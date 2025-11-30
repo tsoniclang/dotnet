@@ -332,7 +332,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice2",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.Int64,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -348,7 +348,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int64):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice3",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int64):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -364,7 +364,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.Int32):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice4",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.Int32,System.Int32):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -380,7 +380,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int32,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice5",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.Int32,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -396,7 +396,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.Int32):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice6",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.SequencePosition,System.Int32):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -412,7 +412,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice7",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.SequencePosition,System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -428,7 +428,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.SequencePosition):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice8",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.SequencePosition):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -444,7 +444,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::Slice(System.Int64):ReadOnlySequence_1",
           "clrName": "Slice",
-          "tsEmitName": "slice9",
+          "tsEmitName": "slice",
           "normalizedSignature": "Slice|(System.Int64):ReadOnlySequence_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -524,7 +524,7 @@
         {
           "stableId": "System.Memory:System.Buffers.ReadOnlySequence\u00601::GetPosition(System.Int64,System.SequencePosition):System.SequencePosition",
           "clrName": "GetPosition",
-          "tsEmitName": "getPosition2",
+          "tsEmitName": "getPosition",
           "normalizedSignature": "GetPosition|(System.Int64,System.SequencePosition):System.SequencePosition|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryPeek(System.Int64,T\u0026):System.Boolean",
           "clrName": "TryPeek",
-          "tsEmitName": "tryPeek2",
+          "tsEmitName": "tryPeek",
           "normalizedSignature": "TryPeek|(System.Int64,T\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo2",
+          "tsEmitName": "tryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -893,7 +893,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo3",
+          "tsEmitName": "tryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -909,7 +909,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo4",
+          "tsEmitName": "tryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,T,T,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -941,7 +941,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadToAny(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadToAny",
-          "tsEmitName": "tryReadToAny2",
+          "tsEmitName": "tryReadToAny",
           "normalizedSignature": "TryReadToAny|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -957,7 +957,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo5",
+          "tsEmitName": "tryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySpan_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -973,7 +973,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::TryReadTo(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "TryReadTo",
-          "tsEmitName": "tryReadTo6",
+          "tsEmitName": "tryReadTo",
           "normalizedSignature": "TryReadTo|(ReadOnlySequence_1\u0026,ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1069,7 +1069,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny2",
+          "tsEmitName": "advancePastAny",
           "normalizedSignature": "AdvancePastAny|(T,T,T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1085,7 +1085,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny3",
+          "tsEmitName": "advancePastAny",
           "normalizedSignature": "AdvancePastAny|(T,T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1101,7 +1101,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::AdvancePastAny(T,T):System.Int64",
           "clrName": "AdvancePastAny",
-          "tsEmitName": "advancePastAny4",
+          "tsEmitName": "advancePastAny",
           "normalizedSignature": "AdvancePastAny|(T,T):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1149,7 +1149,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReader\u00601::IsNext(ReadOnlySpan_1,System.Boolean):System.Boolean",
           "clrName": "IsNext",
-          "tsEmitName": "isNext2",
+          "tsEmitName": "isNext",
           "normalizedSignature": "IsNext|(ReadOnlySpan_1,System.Boolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1355,7 +1355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Parse(System.String):System.Buffers.StandardFormat",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String):System.Buffers.StandardFormat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1419,7 +1419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Equals(System.Buffers.StandardFormat):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Buffers.StandardFormat):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Create(System.Int32,System.Int32):ArrayPool_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Int32,System.Int32):ArrayPool_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2614,7 +2614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Buffers.SearchValues_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2630,7 +2630,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.SearchValues::Create(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.StringComparison):System.Buffers.SearchValues_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2695,7 +2695,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryReadLittleEndian",
-          "tsEmitName": "tryReadLittleEndian2",
+          "tsEmitName": "tryReadLittleEndian",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2711,7 +2711,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryReadBigEndian",
-          "tsEmitName": "tryReadBigEndian2",
+          "tsEmitName": "tryReadBigEndian",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2727,7 +2727,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadLittleEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "clrName": "TryReadLittleEndian",
-          "tsEmitName": "tryReadLittleEndian3",
+          "tsEmitName": "tryReadLittleEndian",
           "normalizedSignature": "TryReadLittleEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2743,7 +2743,7 @@
         {
           "stableId": "System.Memory:System.Buffers.SequenceReaderExtensions::TryReadBigEndian(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean",
           "clrName": "TryReadBigEndian",
-          "tsEmitName": "tryReadBigEndian3",
+          "tsEmitName": "tryReadBigEndian",
           "normalizedSignature": "TryReadBigEndian|(System.Buffers.SequenceReader_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026,System.Int64\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

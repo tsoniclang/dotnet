@@ -328,6 +328,7 @@ export class SecurityIdentifier$instance extends IdentityReference$instance {
     readonly value: string;
     compareTo(sid: SecurityIdentifier): int;
     equals(o: unknown): boolean;
+    equals(sid: SecurityIdentifier): boolean;
     getBinaryForm(binaryForm: byte[], offset: int): void;
     getHashCode(): int;
     isAccountSid(): boolean;
@@ -382,10 +383,10 @@ export class WindowsIdentity$instance extends System_Security_Claims_Internal.Cl
     static getCurrent(): WindowsIdentity;
     static getCurrent(ifImpersonating: boolean): WindowsIdentity;
     static getCurrent(desiredAccess: TokenAccessLevels): WindowsIdentity;
-    static runImpersonated2<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
-    static runImpersonated2(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
-    static runImpersonatedAsync2<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
-    static runImpersonatedAsync2(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
+    static runImpersonated<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<T>): T;
+    static runImpersonated(safeAccessTokenHandle: SafeAccessTokenHandle, action: Action): void;
+    static runImpersonatedAsync<T>(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task_1<T>>): Task_1<T>;
+    static runImpersonatedAsync(safeAccessTokenHandle: SafeAccessTokenHandle, func: Func_1<Task>): Task;
 }
 
 
@@ -406,6 +407,8 @@ export class WindowsPrincipal$instance extends System_Security_Claims_Internal.C
     readonly deviceClaims: IEnumerable_1<Claim>;
     readonly identity: IIdentity;
     readonly userClaims: IEnumerable_1<Claim>;
+    isInRole(sid: SecurityIdentifier): boolean;
+    isInRole(role: WindowsBuiltInRole): boolean;
     isInRole(role: string): boolean;
 }
 

@@ -105,18 +105,18 @@ export class BlockingCollection_1$instance<T> {
     tryTake(item: { value: ref<T> }, timeout: TimeSpan): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    static addToAny2<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    static addToAny2<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static takeFromAny2<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
-    static takeFromAny2<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
-    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
-    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
-    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+    static addToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    static addToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    static takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
+    static takeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    static tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
+    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
+    static tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
 }
 
 
@@ -288,14 +288,14 @@ export abstract class Partitioner_1$instance<TSource> {
 export type Partitioner_1<TSource> = Partitioner_1$instance<TSource>;
 
 export abstract class Partitioner$instance {
-    static create4<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
-    static create4<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
-    static create4<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
-    static create4(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
-    static create4(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
-    static create4(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
-    static create4(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
-    static create4<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static create<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
+    static create<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
+    static create<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static create(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
+    static create(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
+    static create(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
+    static create(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
+    static create<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
 }
 
 

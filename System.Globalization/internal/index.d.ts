@@ -1004,13 +1004,13 @@ export class StringInfo$instance {
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
-    static getNextTextElement2(str: string, index: int): string;
-    static getNextTextElement2(str: string): string;
-    static getNextTextElementLength3(str: ReadOnlySpan_1<CLROf<char>>): int;
-    static getNextTextElementLength3(str: string, index: int): int;
-    static getNextTextElementLength3(str: string): int;
-    static getTextElementEnumerator2(str: string, index: int): TextElementEnumerator;
-    static getTextElementEnumerator2(str: string): TextElementEnumerator;
+    static getNextTextElement(str: string, index: int): string;
+    static getNextTextElement(str: string): string;
+    static getNextTextElementLength(str: ReadOnlySpan_1<CLROf<char>>): int;
+    static getNextTextElementLength(str: string, index: int): int;
+    static getNextTextElementLength(str: string): int;
+    static getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
+    static getTextElementEnumerator(str: string): TextElementEnumerator;
     static parseCombiningCharacters(str: string): int[];
 }
 
@@ -1241,11 +1241,11 @@ export abstract class GlobalizationExtensions$instance {
 export type GlobalizationExtensions = GlobalizationExtensions$instance;
 
 export abstract class ISOWeek$instance {
-    static getWeekOfYear2(date: DateOnly): int;
-    static getWeekOfYear2(date: DateTime): int;
+    static getWeekOfYear(date: DateOnly): int;
+    static getWeekOfYear(date: DateTime): int;
     static getWeeksInYear(year: int): int;
-    static getYear2(date: DateOnly): int;
-    static getYear2(date: DateTime): int;
+    static getYear(date: DateOnly): int;
+    static getYear(date: DateTime): int;
     static getYearEnd(year: int): DateTime;
     static getYearStart(year: int): DateTime;
     static toDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;

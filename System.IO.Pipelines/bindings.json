@@ -930,7 +930,7 @@
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::AdvanceTo(System.SequencePosition,System.SequencePosition):System.Void",
           "clrName": "AdvanceTo",
-          "tsEmitName": "advanceTo2",
+          "tsEmitName": "advanceTo",
           "metadataToken": 100663508,
           "canonicalSignature": "(System.SequencePosition,System.SequencePosition):System.Void",
           "normalizedSignature": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
@@ -1028,7 +1028,7 @@
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::Create(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100663515,
           "canonicalSignature": "(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader",
           "normalizedSignature": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
@@ -1056,7 +1056,7 @@
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeReader::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync2",
+          "tsEmitName": "copyToAsync",
           "metadataToken": 100663517,
           "canonicalSignature": "(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
@@ -1114,7 +1114,7 @@
           }
         },
         {
-          "tsName": "advanceTo2",
+          "tsName": "advanceTo",
           "isStatic": false,
           "tsSignatureId": "AdvanceTo|(System.SequencePosition,System.SequencePosition):System.Void|static=false",
           "target": {
@@ -1184,7 +1184,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IO.Pipelines.PipeReader|static=true",
           "target": {
@@ -1204,7 +1204,7 @@
           }
         },
         {
-          "tsName": "copyToAsync2",
+          "tsName": "copyToAsync",
           "isStatic": false,
           "tsSignatureId": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "target": {

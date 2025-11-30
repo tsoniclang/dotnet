@@ -709,7 +709,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolReader::GetMethod(System.Diagnostics.SymbolStore.SymbolToken,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.Diagnostics.SymbolStore.SymbolToken,System.Int32):System.Diagnostics.SymbolStore.ISymbolMethod|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymbolToken::Equals(System.Diagnostics.SymbolStore.SymbolToken):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Diagnostics.SymbolStore.SymbolToken):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

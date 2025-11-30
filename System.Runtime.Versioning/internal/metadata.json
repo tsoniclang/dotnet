@@ -223,7 +223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Runtime.Versioning.FrameworkName):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -826,7 +826,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
           "clrName": "MakeVersionSafeName",
-          "tsEmitName": "makeVersionSafeName2",
+          "tsEmitName": "makeVersionSafeName",
           "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

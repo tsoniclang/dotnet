@@ -539,7 +539,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::GetDataContract(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract",
           "clrName": "GetDataContract",
-          "tsEmitName": "getDataContract2",
+          "tsEmitName": "getDataContract",
           "metadataToken": 100667680,
           "canonicalSignature": "(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract",
           "normalizedSignature": "GetDataContract|(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract|static=false",
@@ -581,7 +581,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.DataContracts.DataContractSet::ImportSchemaSet(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "clrName": "ImportSchemaSet",
-          "tsEmitName": "importSchemaSet2",
+          "tsEmitName": "importSchemaSet",
           "metadataToken": 100667701,
           "canonicalSignature": "(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]",
           "normalizedSignature": "ImportSchemaSet|(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
@@ -687,7 +687,7 @@
           }
         },
         {
-          "tsName": "getDataContract2",
+          "tsName": "getDataContract",
           "isStatic": false,
           "tsSignatureId": "GetDataContract|(System.Xml.XmlQualifiedName):System.Runtime.Serialization.DataContracts.DataContract|static=false",
           "target": {
@@ -717,7 +717,7 @@
           }
         },
         {
-          "tsName": "importSchemaSet2",
+          "tsName": "importSchemaSet",
           "isStatic": false,
           "tsSignatureId": "ImportSchemaSet|(System.Xml.Schema.XmlSchemaSet,System.Collections.Generic.IEnumerable_1[[System.Xml.Schema.XmlSchemaElement,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Boolean):System.Collections.Generic.List_1[[System.Xml.XmlQualifiedName,System.Private.Xml,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]|static=false",
           "target": {

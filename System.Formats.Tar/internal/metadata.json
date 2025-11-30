@@ -929,7 +929,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntry(System.Formats.Tar.TarEntry):System.Void",
           "clrName": "WriteEntry",
-          "tsEmitName": "writeEntry2",
+          "tsEmitName": "writeEntry",
           "normalizedSignature": "WriteEntry|(System.Formats.Tar.TarEntry):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -945,7 +945,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarWriter::WriteEntryAsync(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteEntryAsync",
-          "tsEmitName": "writeEntryAsync2",
+          "tsEmitName": "writeEntryAsync",
           "normalizedSignature": "WriteEntryAsync|(System.Formats.Tar.TarEntry,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1130,7 +1130,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory2",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1146,7 +1146,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::CreateFromDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync2",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1194,7 +1194,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory2",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync2",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

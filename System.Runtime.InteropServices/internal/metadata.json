@@ -2979,7 +2979,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ArrayWithOffset::Equals(System.Runtime.InteropServices.ArrayWithOffset):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.InteropServices.ArrayWithOffset):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3051,7 +3051,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CLong::Equals(System.Runtime.InteropServices.CLong):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.InteropServices.CLong):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3254,7 +3254,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CULong::Equals(System.Runtime.InteropServices.CULong):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.InteropServices.CULong):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3379,7 +3379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.GCHandle::Alloc(System.Object,System.Runtime.InteropServices.GCHandleType):System.Runtime.InteropServices.GCHandle",
           "clrName": "Alloc",
-          "tsEmitName": "alloc2",
+          "tsEmitName": "alloc",
           "normalizedSignature": "Alloc|(System.Object,System.Runtime.InteropServices.GCHandleType):System.Runtime.InteropServices.GCHandle|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3491,7 +3491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.GCHandle::Equals(System.Runtime.InteropServices.GCHandle):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.InteropServices.GCHandle):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3636,7 +3636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.GCHandle\u00601::Equals(GCHandle_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(GCHandle_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3970,7 +3970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.String,System.Globalization.NumberStyles):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Globalization.NumberStyles):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3986,7 +3986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.String,System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4002,7 +4002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse4",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4018,7 +4018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse5",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4050,7 +4050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4066,7 +4066,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse3",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4082,7 +4082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse4",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4098,7 +4098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse5",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4130,7 +4130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::CompareTo(System.Runtime.InteropServices.NFloat):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Runtime.InteropServices.NFloat):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4162,7 +4162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Equals(System.Runtime.InteropServices.NFloat):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Runtime.InteropServices.NFloat):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4210,7 +4210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::ToString(System.String):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4226,7 +4226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::ToString(System.IFormatProvider):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString3",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.IFormatProvider):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4242,7 +4242,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::ToString(System.String,System.IFormatProvider):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString4",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4274,7 +4274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryFormat(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean",
           "clrName": "TryFormat",
-          "tsEmitName": "tryFormat2",
+          "tsEmitName": "tryFormat",
           "normalizedSignature": "TryFormat|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4306,7 +4306,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Log2(System.Runtime.InteropServices.NFloat):System.Runtime.InteropServices.NFloat",
           "clrName": "Log2",
-          "tsEmitName": "log22",
+          "tsEmitName": "log2",
           "normalizedSignature": "Log2|(System.Runtime.InteropServices.NFloat):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4498,7 +4498,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Round(System.Runtime.InteropServices.NFloat,System.Int32):System.Runtime.InteropServices.NFloat",
           "clrName": "Round",
-          "tsEmitName": "round2",
+          "tsEmitName": "round",
           "normalizedSignature": "Round|(System.Runtime.InteropServices.NFloat,System.Int32):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4514,7 +4514,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Round(System.Runtime.InteropServices.NFloat,System.MidpointRounding):System.Runtime.InteropServices.NFloat",
           "clrName": "Round",
-          "tsEmitName": "round3",
+          "tsEmitName": "round",
           "normalizedSignature": "Round|(System.Runtime.InteropServices.NFloat,System.MidpointRounding):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4530,7 +4530,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Round(System.Runtime.InteropServices.NFloat,System.Int32,System.MidpointRounding):System.Runtime.InteropServices.NFloat",
           "clrName": "Round",
-          "tsEmitName": "round4",
+          "tsEmitName": "round",
           "normalizedSignature": "Round|(System.Runtime.InteropServices.NFloat,System.Int32,System.MidpointRounding):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4850,7 +4850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Log(System.Runtime.InteropServices.NFloat,System.Runtime.InteropServices.NFloat):System.Runtime.InteropServices.NFloat",
           "clrName": "Log",
-          "tsEmitName": "log2",
+          "tsEmitName": "log",
           "normalizedSignature": "Log|(System.Runtime.InteropServices.NFloat,System.Runtime.InteropServices.NFloat):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5314,7 +5314,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.String,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse6",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5410,7 +5410,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse6",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5426,7 +5426,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse7",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5698,7 +5698,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse7",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5714,7 +5714,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse8",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.NumberStyles,System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5730,7 +5730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::Parse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Runtime.InteropServices.NFloat",
           "clrName": "Parse",
-          "tsEmitName": "parse8",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider):System.Runtime.InteropServices.NFloat|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5746,7 +5746,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NFloat::TryParse(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse9",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Runtime.InteropServices.NFloat\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7142,7 +7142,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.OSPlatform::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7365,7 +7365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.PinnedGCHandle\u00601::Equals(PinnedGCHandle_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(PinnedGCHandle_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7581,7 +7581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.WeakGCHandle\u00601::Equals(WeakGCHandle_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(WeakGCHandle_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8068,7 +8068,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8886,7 +8886,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers::GetOrCreateObjectForComInstance(System.IntPtr,System.Runtime.InteropServices.CreateObjectFlags,System.Object):System.Object",
           "clrName": "GetOrCreateObjectForComInstance",
-          "tsEmitName": "getOrCreateObjectForComInstance2",
+          "tsEmitName": "getOrCreateObjectForComInstance",
           "normalizedSignature": "GetOrCreateObjectForComInstance|(System.IntPtr,System.Runtime.InteropServices.CreateObjectFlags,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8918,7 +8918,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComWrappers::GetOrRegisterObjectForComInstance(System.IntPtr,System.Runtime.InteropServices.CreateObjectFlags,System.Object,System.IntPtr):System.Object",
           "clrName": "GetOrRegisterObjectForComInstance",
-          "tsEmitName": "getOrRegisterObjectForComInstance2",
+          "tsEmitName": "getOrRegisterObjectForComInstance",
           "normalizedSignature": "GetOrRegisterObjectForComInstance|(System.IntPtr,System.Runtime.InteropServices.CreateObjectFlags,System.Object,System.IntPtr):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10986,7 +10986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeBuffer::Initialize(System.UInt32,System.UInt32):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "initialize2",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.UInt32,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11002,7 +11002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.SafeBuffer::Initialize(System.UInt32):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "initialize3",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12207,7 +12207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CollectionsMarshal::GetValueRefOrNullRef(AlternateLookup_1,TAlternateKey):TValue\u0026",
           "clrName": "GetValueRefOrNullRef",
-          "tsEmitName": "getValueRefOrNullRef2",
+          "tsEmitName": "getValueRefOrNullRef",
           "normalizedSignature": "GetValueRefOrNullRef|(AlternateLookup_1,TAlternateKey):TValue\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12239,7 +12239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.CollectionsMarshal::GetValueRefOrAddDefault(AlternateLookup_1,TAlternateKey,System.Boolean\u0026):TValue\u0026",
           "clrName": "GetValueRefOrAddDefault",
-          "tsEmitName": "getValueRefOrAddDefault2",
+          "tsEmitName": "getValueRefOrAddDefault",
           "normalizedSignature": "GetValueRefOrAddDefault|(AlternateLookup_1,TAlternateKey,System.Boolean\u0026):TValue\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12772,7 +12772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStringAnsi(System.IntPtr,System.Int32):System.String",
           "clrName": "PtrToStringAnsi",
-          "tsEmitName": "ptrToStringAnsi2",
+          "tsEmitName": "ptrToStringAnsi",
           "normalizedSignature": "PtrToStringAnsi|(System.IntPtr,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12804,7 +12804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStringUni(System.IntPtr,System.Int32):System.String",
           "clrName": "PtrToStringUni",
-          "tsEmitName": "ptrToStringUni2",
+          "tsEmitName": "ptrToStringUni",
           "normalizedSignature": "PtrToStringUni|(System.IntPtr,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12836,7 +12836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStringUTF8(System.IntPtr,System.Int32):System.String",
           "clrName": "PtrToStringUTF8",
-          "tsEmitName": "ptrToStringUTF82",
+          "tsEmitName": "ptrToStringUTF8",
           "normalizedSignature": "PtrToStringUTF8|(System.IntPtr,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12868,7 +12868,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::SizeOf(T):System.Int32",
           "clrName": "SizeOf",
-          "tsEmitName": "sizeOf2",
+          "tsEmitName": "sizeOf",
           "normalizedSignature": "SizeOf|(T):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12884,7 +12884,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::SizeOf(System.Type):System.Int32",
           "clrName": "SizeOf",
-          "tsEmitName": "sizeOf3",
+          "tsEmitName": "sizeOf",
           "normalizedSignature": "SizeOf|(System.Type):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12900,7 +12900,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::SizeOf():System.Int32",
           "clrName": "SizeOf",
-          "tsEmitName": "sizeOf4",
+          "tsEmitName": "sizeOf",
           "normalizedSignature": "SizeOf|():System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12980,7 +12980,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::UnsafeAddrOfPinnedArrayElement(T[],System.Int32):System.IntPtr",
           "clrName": "UnsafeAddrOfPinnedArrayElement",
-          "tsEmitName": "unsafeAddrOfPinnedArrayElement2",
+          "tsEmitName": "unsafeAddrOfPinnedArrayElement",
           "normalizedSignature": "UnsafeAddrOfPinnedArrayElement|(T[],System.Int32):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12996,7 +12996,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::OffsetOf(System.String):System.IntPtr",
           "clrName": "OffsetOf",
-          "tsEmitName": "offsetOf2",
+          "tsEmitName": "offsetOf",
           "normalizedSignature": "OffsetOf|(System.String):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13028,7 +13028,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Char[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy2",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Char[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13044,7 +13044,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Int16[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy3",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Int16[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13060,7 +13060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Int64[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy4",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Int64[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13076,7 +13076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Single[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy5",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Single[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13092,7 +13092,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Double[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy6",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Double[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13108,7 +13108,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.Byte[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy7",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.Byte[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13124,7 +13124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr[],System.Int32,System.IntPtr,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy8",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr[],System.Int32,System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13140,7 +13140,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Int32[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy9",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Int32[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13156,7 +13156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy10",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Char[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13172,7 +13172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Int16[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy11",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Int16[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13188,7 +13188,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Int64[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy12",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Int64[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13204,7 +13204,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Single[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy13",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Single[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13220,7 +13220,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Double[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy14",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Double[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13236,7 +13236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy15",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.Byte[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13252,7 +13252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.IntPtr[],System.Int32,System.Int32):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy16",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.IntPtr,System.IntPtr[],System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13268,7 +13268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadByte(System.IntPtr,System.Int32):System.Byte",
           "clrName": "ReadByte",
-          "tsEmitName": "readByte2",
+          "tsEmitName": "readByte",
           "normalizedSignature": "ReadByte|(System.IntPtr,System.Int32):System.Byte|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13284,7 +13284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadByte(System.IntPtr):System.Byte",
           "clrName": "ReadByte",
-          "tsEmitName": "readByte3",
+          "tsEmitName": "readByte",
           "normalizedSignature": "ReadByte|(System.IntPtr):System.Byte|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13300,7 +13300,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt16(System.IntPtr,System.Int32):System.Int16",
           "clrName": "ReadInt16",
-          "tsEmitName": "readInt162",
+          "tsEmitName": "readInt16",
           "normalizedSignature": "ReadInt16|(System.IntPtr,System.Int32):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13316,7 +13316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt16(System.IntPtr):System.Int16",
           "clrName": "ReadInt16",
-          "tsEmitName": "readInt163",
+          "tsEmitName": "readInt16",
           "normalizedSignature": "ReadInt16|(System.IntPtr):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13332,7 +13332,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt32(System.IntPtr,System.Int32):System.Int32",
           "clrName": "ReadInt32",
-          "tsEmitName": "readInt322",
+          "tsEmitName": "readInt32",
           "normalizedSignature": "ReadInt32|(System.IntPtr,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13348,7 +13348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt32(System.IntPtr):System.Int32",
           "clrName": "ReadInt32",
-          "tsEmitName": "readInt323",
+          "tsEmitName": "readInt32",
           "normalizedSignature": "ReadInt32|(System.IntPtr):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13380,7 +13380,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadIntPtr(System.IntPtr,System.Int32):System.IntPtr",
           "clrName": "ReadIntPtr",
-          "tsEmitName": "readIntPtr2",
+          "tsEmitName": "readIntPtr",
           "normalizedSignature": "ReadIntPtr|(System.IntPtr,System.Int32):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13396,7 +13396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadIntPtr(System.IntPtr):System.IntPtr",
           "clrName": "ReadIntPtr",
-          "tsEmitName": "readIntPtr3",
+          "tsEmitName": "readIntPtr",
           "normalizedSignature": "ReadIntPtr|(System.IntPtr):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13412,7 +13412,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt64(System.IntPtr,System.Int32):System.Int64",
           "clrName": "ReadInt64",
-          "tsEmitName": "readInt642",
+          "tsEmitName": "readInt64",
           "normalizedSignature": "ReadInt64|(System.IntPtr,System.Int32):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13428,7 +13428,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ReadInt64(System.IntPtr):System.Int64",
           "clrName": "ReadInt64",
-          "tsEmitName": "readInt643",
+          "tsEmitName": "readInt64",
           "normalizedSignature": "ReadInt64|(System.IntPtr):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13444,7 +13444,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteByte(System.IntPtr,System.Int32,System.Byte):System.Void",
           "clrName": "WriteByte",
-          "tsEmitName": "writeByte2",
+          "tsEmitName": "writeByte",
           "normalizedSignature": "WriteByte|(System.IntPtr,System.Int32,System.Byte):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13460,7 +13460,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteByte(System.IntPtr,System.Byte):System.Void",
           "clrName": "WriteByte",
-          "tsEmitName": "writeByte3",
+          "tsEmitName": "writeByte",
           "normalizedSignature": "WriteByte|(System.IntPtr,System.Byte):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13476,7 +13476,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt16(System.IntPtr,System.Int32,System.Int16):System.Void",
           "clrName": "WriteInt16",
-          "tsEmitName": "writeInt162",
+          "tsEmitName": "writeInt16",
           "normalizedSignature": "WriteInt16|(System.IntPtr,System.Int32,System.Int16):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13492,7 +13492,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt16(System.IntPtr,System.Int16):System.Void",
           "clrName": "WriteInt16",
-          "tsEmitName": "writeInt163",
+          "tsEmitName": "writeInt16",
           "normalizedSignature": "WriteInt16|(System.IntPtr,System.Int16):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13508,7 +13508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt16(System.IntPtr,System.Int32,System.Char):System.Void",
           "clrName": "WriteInt16",
-          "tsEmitName": "writeInt164",
+          "tsEmitName": "writeInt16",
           "normalizedSignature": "WriteInt16|(System.IntPtr,System.Int32,System.Char):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13524,7 +13524,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt16(System.Object,System.Int32,System.Char):System.Void",
           "clrName": "WriteInt16",
-          "tsEmitName": "writeInt165",
+          "tsEmitName": "writeInt16",
           "normalizedSignature": "WriteInt16|(System.Object,System.Int32,System.Char):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13540,7 +13540,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt16(System.IntPtr,System.Char):System.Void",
           "clrName": "WriteInt16",
-          "tsEmitName": "writeInt166",
+          "tsEmitName": "writeInt16",
           "normalizedSignature": "WriteInt16|(System.IntPtr,System.Char):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13556,7 +13556,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt32(System.IntPtr,System.Int32,System.Int32):System.Void",
           "clrName": "WriteInt32",
-          "tsEmitName": "writeInt322",
+          "tsEmitName": "writeInt32",
           "normalizedSignature": "WriteInt32|(System.IntPtr,System.Int32,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13572,7 +13572,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt32(System.IntPtr,System.Int32):System.Void",
           "clrName": "WriteInt32",
-          "tsEmitName": "writeInt323",
+          "tsEmitName": "writeInt32",
           "normalizedSignature": "WriteInt32|(System.IntPtr,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13604,7 +13604,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteIntPtr(System.Object,System.Int32,System.IntPtr):System.Void",
           "clrName": "WriteIntPtr",
-          "tsEmitName": "writeIntPtr2",
+          "tsEmitName": "writeIntPtr",
           "normalizedSignature": "WriteIntPtr|(System.Object,System.Int32,System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13620,7 +13620,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteIntPtr(System.IntPtr,System.IntPtr):System.Void",
           "clrName": "WriteIntPtr",
-          "tsEmitName": "writeIntPtr3",
+          "tsEmitName": "writeIntPtr",
           "normalizedSignature": "WriteIntPtr|(System.IntPtr,System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13636,7 +13636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt64(System.IntPtr,System.Int32,System.Int64):System.Void",
           "clrName": "WriteInt64",
-          "tsEmitName": "writeInt642",
+          "tsEmitName": "writeInt64",
           "normalizedSignature": "WriteInt64|(System.IntPtr,System.Int32,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13652,7 +13652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::WriteInt64(System.IntPtr,System.Int64):System.Void",
           "clrName": "WriteInt64",
-          "tsEmitName": "writeInt643",
+          "tsEmitName": "writeInt64",
           "normalizedSignature": "WriteInt64|(System.IntPtr,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13700,7 +13700,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::StructureToPtr(T,System.IntPtr,System.Boolean):System.Void",
           "clrName": "StructureToPtr",
-          "tsEmitName": "structureToPtr2",
+          "tsEmitName": "structureToPtr",
           "normalizedSignature": "StructureToPtr|(T,System.IntPtr,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13732,7 +13732,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr,System.Object):System.Void",
           "clrName": "PtrToStructure",
-          "tsEmitName": "ptrToStructure2",
+          "tsEmitName": "ptrToStructure",
           "normalizedSignature": "PtrToStructure|(System.IntPtr,System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13748,7 +13748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr,T):System.Void",
           "clrName": "PtrToStructure",
-          "tsEmitName": "ptrToStructure3",
+          "tsEmitName": "ptrToStructure",
           "normalizedSignature": "PtrToStructure|(System.IntPtr,T):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13764,7 +13764,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr):T",
           "clrName": "PtrToStructure",
-          "tsEmitName": "ptrToStructure4",
+          "tsEmitName": "ptrToStructure",
           "normalizedSignature": "PtrToStructure|(System.IntPtr):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13780,7 +13780,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::DestroyStructure(System.IntPtr):System.Void",
           "clrName": "DestroyStructure",
-          "tsEmitName": "destroyStructure2",
+          "tsEmitName": "destroyStructure",
           "normalizedSignature": "DestroyStructure|(System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13828,7 +13828,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetExceptionForHR(System.Int32,System.IntPtr):System.Exception",
           "clrName": "GetExceptionForHR",
-          "tsEmitName": "getExceptionForHR2",
+          "tsEmitName": "getExceptionForHR",
           "normalizedSignature": "GetExceptionForHR|(System.Int32,System.IntPtr):System.Exception|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13844,7 +13844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetExceptionForHR(System.Int32,System.Guid\u0026,System.IntPtr):System.Exception",
           "clrName": "GetExceptionForHR",
-          "tsEmitName": "getExceptionForHR3",
+          "tsEmitName": "getExceptionForHR",
           "normalizedSignature": "GetExceptionForHR|(System.Int32,System.Guid\u0026,System.IntPtr):System.Exception|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13876,7 +13876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ThrowExceptionForHR(System.Int32,System.IntPtr):System.Void",
           "clrName": "ThrowExceptionForHR",
-          "tsEmitName": "throwExceptionForHR2",
+          "tsEmitName": "throwExceptionForHR",
           "normalizedSignature": "ThrowExceptionForHR|(System.Int32,System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13892,7 +13892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::ThrowExceptionForHR(System.Int32,System.Guid\u0026,System.IntPtr):System.Void",
           "clrName": "ThrowExceptionForHR",
-          "tsEmitName": "throwExceptionForHR3",
+          "tsEmitName": "throwExceptionForHR",
           "normalizedSignature": "ThrowExceptionForHR|(System.Int32,System.Guid\u0026,System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14116,7 +14116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetDelegateForFunctionPointer(System.IntPtr):TDelegate",
           "clrName": "GetDelegateForFunctionPointer",
-          "tsEmitName": "getDelegateForFunctionPointer2",
+          "tsEmitName": "getDelegateForFunctionPointer",
           "normalizedSignature": "GetDelegateForFunctionPointer|(System.IntPtr):TDelegate|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14148,7 +14148,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetFunctionPointerForDelegate(TDelegate):System.IntPtr",
           "clrName": "GetFunctionPointerForDelegate",
-          "tsEmitName": "getFunctionPointerForDelegate2",
+          "tsEmitName": "getFunctionPointerForDelegate",
           "normalizedSignature": "GetFunctionPointerForDelegate|(TDelegate):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14452,7 +14452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::CreateAggregatedObject(System.IntPtr,T):System.IntPtr",
           "clrName": "CreateAggregatedObject",
-          "tsEmitName": "createAggregatedObject2",
+          "tsEmitName": "createAggregatedObject",
           "normalizedSignature": "CreateAggregatedObject|(System.IntPtr,T):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14484,7 +14484,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::CreateWrapperOfType(T):TWrapper",
           "clrName": "CreateWrapperOfType",
-          "tsEmitName": "createWrapperOfType2",
+          "tsEmitName": "createWrapperOfType",
           "normalizedSignature": "CreateWrapperOfType|(T):TWrapper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14548,7 +14548,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetComInterfaceForObject(System.Object,System.Type,System.Runtime.InteropServices.CustomQueryInterfaceMode):System.IntPtr",
           "clrName": "GetComInterfaceForObject",
-          "tsEmitName": "getComInterfaceForObject2",
+          "tsEmitName": "getComInterfaceForObject",
           "normalizedSignature": "GetComInterfaceForObject|(System.Object,System.Type,System.Runtime.InteropServices.CustomQueryInterfaceMode):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14564,7 +14564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetComInterfaceForObject(T):System.IntPtr",
           "clrName": "GetComInterfaceForObject",
-          "tsEmitName": "getComInterfaceForObject3",
+          "tsEmitName": "getComInterfaceForObject",
           "normalizedSignature": "GetComInterfaceForObject|(T):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14644,7 +14644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetNativeVariantForObject(T,System.IntPtr):System.Void",
           "clrName": "GetNativeVariantForObject",
-          "tsEmitName": "getNativeVariantForObject2",
+          "tsEmitName": "getNativeVariantForObject",
           "normalizedSignature": "GetNativeVariantForObject|(T,System.IntPtr):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14708,7 +14708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetObjectForNativeVariant(System.IntPtr):T",
           "clrName": "GetObjectForNativeVariant",
-          "tsEmitName": "getObjectForNativeVariant2",
+          "tsEmitName": "getObjectForNativeVariant",
           "normalizedSignature": "GetObjectForNativeVariant|(System.IntPtr):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14740,7 +14740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::GetObjectsForNativeVariants(System.IntPtr,System.Int32):T[]",
           "clrName": "GetObjectsForNativeVariants",
-          "tsEmitName": "getObjectsForNativeVariants2",
+          "tsEmitName": "getObjectsForNativeVariants",
           "normalizedSignature": "GetObjectsForNativeVariants|(System.IntPtr,System.Int32):T[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14900,7 +14900,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::PtrToStringAuto(System.IntPtr):System.String",
           "clrName": "PtrToStringAuto",
-          "tsEmitName": "ptrToStringAuto2",
+          "tsEmitName": "ptrToStringAuto",
           "normalizedSignature": "PtrToStringAuto|(System.IntPtr):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14948,7 +14948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshal::AllocHGlobal(System.IntPtr):System.IntPtr",
           "clrName": "AllocHGlobal",
-          "tsEmitName": "allocHGlobal2",
+          "tsEmitName": "allocHGlobal",
           "normalizedSignature": "AllocHGlobal|(System.IntPtr):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15160,7 +15160,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::GetArrayDataReference(System.Array):System.Byte\u0026",
           "clrName": "GetArrayDataReference",
-          "tsEmitName": "getArrayDataReference2",
+          "tsEmitName": "getArrayDataReference",
           "normalizedSignature": "GetArrayDataReference|(System.Array):System.Byte\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15192,7 +15192,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::AsBytes(ReadOnlySpan_1):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "AsBytes",
-          "tsEmitName": "asBytes2",
+          "tsEmitName": "asBytes",
           "normalizedSignature": "AsBytes|(ReadOnlySpan_1):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15240,7 +15240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::GetReference(ReadOnlySpan_1):T\u0026",
           "clrName": "GetReference",
-          "tsEmitName": "getReference2",
+          "tsEmitName": "getReference",
           "normalizedSignature": "GetReference|(ReadOnlySpan_1):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15272,7 +15272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::Cast(ReadOnlySpan_1):ReadOnlySpan_1",
           "clrName": "Cast",
-          "tsEmitName": "cast2",
+          "tsEmitName": "cast",
           "normalizedSignature": "Cast|(ReadOnlySpan_1):ReadOnlySpan_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15336,7 +15336,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::CreateReadOnlySpanFromNullTerminated(System.Byte*):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "CreateReadOnlySpanFromNullTerminated",
-          "tsEmitName": "createReadOnlySpanFromNullTerminated2",
+          "tsEmitName": "createReadOnlySpanFromNullTerminated",
           "normalizedSignature": "CreateReadOnlySpanFromNullTerminated|(System.Byte*):System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15384,7 +15384,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::TryGetMemoryManager(ReadOnlyMemory_1,TManager\u0026,System.Int32\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryGetMemoryManager",
-          "tsEmitName": "tryGetMemoryManager2",
+          "tsEmitName": "tryGetMemoryManager",
           "normalizedSignature": "TryGetMemoryManager|(ReadOnlyMemory_1,TManager\u0026,System.Int32\u0026,System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15512,7 +15512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.MemoryMarshal::AsRef(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T\u0026",
           "clrName": "AsRef",
-          "tsEmitName": "asRef2",
+          "tsEmitName": "asRef",
           "normalizedSignature": "AsRef|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):T\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15593,7 +15593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NativeLibrary::Load(System.String,System.Reflection.Assembly,System.Nullable_1[[System.Runtime.InteropServices.DllImportSearchPath,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.String,System.Reflection.Assembly,System.Nullable_1[[System.Runtime.InteropServices.DllImportSearchPath,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IntPtr|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15609,7 +15609,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NativeLibrary::TryLoad(System.String,System.Reflection.Assembly,System.Nullable_1[[System.Runtime.InteropServices.DllImportSearchPath,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean",
           "clrName": "TryLoad",
-          "tsEmitName": "tryLoad2",
+          "tsEmitName": "tryLoad",
           "normalizedSignature": "TryLoad|(System.String,System.Reflection.Assembly,System.Nullable_1[[System.Runtime.InteropServices.DllImportSearchPath,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IntPtr\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15850,7 +15850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NativeMemory::Alloc(System.UIntPtr):System.Void*",
           "clrName": "Alloc",
-          "tsEmitName": "alloc2",
+          "tsEmitName": "alloc",
           "normalizedSignature": "Alloc|(System.UIntPtr):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15866,7 +15866,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.NativeMemory::AllocZeroed(System.UIntPtr,System.UIntPtr):System.Void*",
           "clrName": "AllocZeroed",
-          "tsEmitName": "allocZeroed2",
+          "tsEmitName": "allocZeroed",
           "normalizedSignature": "AllocZeroed|(System.UIntPtr,System.UIntPtr):System.Void*|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

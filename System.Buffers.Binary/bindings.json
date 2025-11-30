@@ -753,7 +753,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int16):System.Int16",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness2",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678721,
           "canonicalSignature": "(System.Int16):System.Int16",
           "normalizedSignature": "ReverseEndianness|(System.Int16):System.Int16|static=true",
@@ -767,7 +767,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int32):System.Int32",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness3",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678722,
           "canonicalSignature": "(System.Int32):System.Int32",
           "normalizedSignature": "ReverseEndianness|(System.Int32):System.Int32|static=true",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int64):System.Int64",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness4",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678723,
           "canonicalSignature": "(System.Int64):System.Int64",
           "normalizedSignature": "ReverseEndianness|(System.Int64):System.Int64|static=true",
@@ -795,7 +795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.IntPtr):System.IntPtr",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness5",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678724,
           "canonicalSignature": "(System.IntPtr):System.IntPtr",
           "normalizedSignature": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
@@ -809,7 +809,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Int128):System.Int128",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness6",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678725,
           "canonicalSignature": "(System.Int128):System.Int128",
           "normalizedSignature": "ReverseEndianness|(System.Int128):System.Int128|static=true",
@@ -823,7 +823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.Byte):System.Byte",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness7",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678726,
           "canonicalSignature": "(System.Byte):System.Byte",
           "normalizedSignature": "ReverseEndianness|(System.Byte):System.Byte|static=true",
@@ -837,7 +837,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt16):System.UInt16",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness8",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678727,
           "canonicalSignature": "(System.UInt16):System.UInt16",
           "normalizedSignature": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
@@ -851,7 +851,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt32):System.UInt32",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness9",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678729,
           "canonicalSignature": "(System.UInt32):System.UInt32",
           "normalizedSignature": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
@@ -865,7 +865,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt64):System.UInt64",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness10",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678730,
           "canonicalSignature": "(System.UInt64):System.UInt64",
           "normalizedSignature": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
@@ -879,7 +879,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UIntPtr):System.UIntPtr",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness11",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678731,
           "canonicalSignature": "(System.UIntPtr):System.UIntPtr",
           "normalizedSignature": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
@@ -893,7 +893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt128):System.UInt128",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness12",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678732,
           "canonicalSignature": "(System.UInt128):System.UInt128",
           "normalizedSignature": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
@@ -907,7 +907,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness13",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678733,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -921,7 +921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness14",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678734,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -935,7 +935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness15",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678735,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -949,7 +949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness16",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678736,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -963,7 +963,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness17",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678737,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -977,7 +977,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness18",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678738,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -991,7 +991,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness19",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678739,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -1005,7 +1005,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness20",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678740,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -1019,7 +1019,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness21",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678742,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -1033,7 +1033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ReverseEndianness",
-          "tsEmitName": "reverseEndianness22",
+          "tsEmitName": "reverseEndianness",
           "metadataToken": 100678743,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
@@ -2309,7 +2309,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness2",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.Int16):System.Int16|static=true",
           "target": {
@@ -2319,7 +2319,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness3",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.Int32):System.Int32|static=true",
           "target": {
@@ -2329,7 +2329,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness4",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.Int64):System.Int64|static=true",
           "target": {
@@ -2339,7 +2339,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness5",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.IntPtr):System.IntPtr|static=true",
           "target": {
@@ -2349,7 +2349,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness6",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.Int128):System.Int128|static=true",
           "target": {
@@ -2359,7 +2359,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness7",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.Byte):System.Byte|static=true",
           "target": {
@@ -2369,7 +2369,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness8",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.UInt16):System.UInt16|static=true",
           "target": {
@@ -2379,7 +2379,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness9",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.UInt32):System.UInt32|static=true",
           "target": {
@@ -2389,7 +2389,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness10",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.UInt64):System.UInt64|static=true",
           "target": {
@@ -2399,7 +2399,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness11",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.UIntPtr):System.UIntPtr|static=true",
           "target": {
@@ -2409,7 +2409,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness12",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.UInt128):System.UInt128|static=true",
           "target": {
@@ -2419,7 +2419,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness13",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2429,7 +2429,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness14",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2439,7 +2439,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness15",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2449,7 +2449,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness16",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2459,7 +2459,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness17",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2469,7 +2469,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness18",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2479,7 +2479,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness19",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UIntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2489,7 +2489,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness20",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2499,7 +2499,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness21",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.UInt128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
@@ -2509,7 +2509,7 @@
           }
         },
         {
-          "tsName": "reverseEndianness22",
+          "tsName": "reverseEndianness",
           "isStatic": true,
           "tsSignatureId": "ReverseEndianness|(System.ReadOnlySpan_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Int128,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "target": {
