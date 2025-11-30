@@ -412,7 +412,7 @@
         {
           "stableId": "System.IO.Compression.Brotli:System.IO.Compression.BrotliEncoder::TryCompress(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32,System.Int32):System.Boolean",
           "clrName": "TryCompress",
-          "tsEmitName": "tryCompress2",
+          "tsEmitName": "tryCompress",
           "normalizedSignature": "TryCompress|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32,System.Int32):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -538,7 +538,7 @@
         {
           "stableId": "System.IO.Compression.Brotli:System.IO.Compression.BrotliStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -602,7 +602,7 @@
         {
           "stableId": "System.IO.Compression.Brotli:System.IO.Compression.BrotliStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -682,7 +682,7 @@
         {
           "stableId": "System.IO.Compression.Brotli:System.IO.Compression.BrotliStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -746,7 +746,7 @@
         {
           "stableId": "System.IO.Compression.Brotli:System.IO.Compression.BrotliStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1218,7 +1218,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.DeflateStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1282,7 +1282,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.DeflateStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1330,7 +1330,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.DeflateStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1410,7 +1410,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.DeflateStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1946,7 +1946,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.GZipStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2026,7 +2026,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.GZipStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2090,7 +2090,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.GZipStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2122,7 +2122,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.GZipStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2562,7 +2562,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZipArchive::CreateEntry(System.String,System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry",
           "clrName": "CreateEntry",
-          "tsEmitName": "createEntry2",
+          "tsEmitName": "createEntry",
           "normalizedSignature": "CreateEntry|(System.String,System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3239,7 +3239,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3271,7 +3271,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3335,7 +3335,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3367,7 +3367,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3855,7 +3855,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::Open(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding):System.IO.Compression.ZipArchive",
           "clrName": "Open",
-          "tsEmitName": "open2",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding):System.IO.Compression.ZipArchive|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3887,7 +3887,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory2",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3903,7 +3903,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory3",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3919,7 +3919,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectory(System.String,System.IO.Stream):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory4",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3935,7 +3935,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectory(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory5",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3951,7 +3951,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectory(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding):System.Void",
           "clrName": "CreateFromDirectory",
-          "tsEmitName": "createFromDirectory6",
+          "tsEmitName": "createFromDirectory",
           "normalizedSignature": "CreateFromDirectory|(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3999,7 +3999,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::OpenAsync(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Compression.ZipArchive,System.IO.Compression,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b77a5c561934e089]]",
           "clrName": "OpenAsync",
-          "tsEmitName": "openAsync2",
+          "tsEmitName": "openAsync",
           "normalizedSignature": "OpenAsync|(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Compression.ZipArchive,System.IO.Compression,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b77a5c561934e089]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4031,7 +4031,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectoryAsync(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync2",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4047,7 +4047,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectoryAsync(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync3",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4063,7 +4063,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync4",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4079,7 +4079,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync5",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4095,7 +4095,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::CreateFromDirectoryAsync(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CreateFromDirectoryAsync",
-          "tsEmitName": "createFromDirectoryAsync6",
+          "tsEmitName": "createFromDirectoryAsync",
           "normalizedSignature": "CreateFromDirectoryAsync|(System.String,System.IO.Stream,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4127,7 +4127,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory2",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4143,7 +4143,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.String,System.String,System.Text.Encoding):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory3",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4159,7 +4159,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.String,System.String,System.Text.Encoding,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory4",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.String,System.String,System.Text.Encoding,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4175,7 +4175,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.IO.Stream,System.String):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory5",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4191,7 +4191,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.IO.Stream,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory6",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4207,7 +4207,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.IO.Stream,System.String,System.Text.Encoding):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory7",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4223,7 +4223,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectory(System.IO.Stream,System.String,System.Text.Encoding,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory8",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Stream,System.String,System.Text.Encoding,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4255,7 +4255,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync2",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4271,7 +4271,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync3",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4287,7 +4287,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.String,System.String,System.Text.Encoding,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync4",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.String,System.String,System.Text.Encoding,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4303,7 +4303,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync5",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4319,7 +4319,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync6",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4335,7 +4335,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync7",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4351,7 +4351,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFile::ExtractToDirectoryAsync(System.IO.Stream,System.String,System.Text.Encoding,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync8",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Stream,System.String,System.Text.Encoding,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4400,7 +4400,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::CreateEntryFromFile(System.IO.Compression.ZipArchive,System.String,System.String,System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry",
           "clrName": "CreateEntryFromFile",
-          "tsEmitName": "createEntryFromFile2",
+          "tsEmitName": "createEntryFromFile",
           "normalizedSignature": "CreateEntryFromFile|(System.IO.Compression.ZipArchive,System.String,System.String,System.IO.Compression.CompressionLevel):System.IO.Compression.ZipArchiveEntry|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4432,7 +4432,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::CreateEntryFromFileAsync(System.IO.Compression.ZipArchive,System.String,System.String,System.IO.Compression.CompressionLevel,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Compression.ZipArchiveEntry,System.IO.Compression,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b77a5c561934e089]]",
           "clrName": "CreateEntryFromFileAsync",
-          "tsEmitName": "createEntryFromFileAsync2",
+          "tsEmitName": "createEntryFromFileAsync",
           "normalizedSignature": "CreateEntryFromFileAsync|(System.IO.Compression.ZipArchive,System.String,System.String,System.IO.Compression.CompressionLevel,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.IO.Compression.ZipArchiveEntry,System.IO.Compression,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b77a5c561934e089]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4464,7 +4464,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::ExtractToDirectory(System.IO.Compression.ZipArchive,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToDirectory",
-          "tsEmitName": "extractToDirectory2",
+          "tsEmitName": "extractToDirectory",
           "normalizedSignature": "ExtractToDirectory|(System.IO.Compression.ZipArchive,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4496,7 +4496,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::ExtractToDirectoryAsync(System.IO.Compression.ZipArchive,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToDirectoryAsync",
-          "tsEmitName": "extractToDirectoryAsync2",
+          "tsEmitName": "extractToDirectoryAsync",
           "normalizedSignature": "ExtractToDirectoryAsync|(System.IO.Compression.ZipArchive,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4528,7 +4528,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::ExtractToFile(System.IO.Compression.ZipArchiveEntry,System.String,System.Boolean):System.Void",
           "clrName": "ExtractToFile",
-          "tsEmitName": "extractToFile2",
+          "tsEmitName": "extractToFile",
           "normalizedSignature": "ExtractToFile|(System.IO.Compression.ZipArchiveEntry,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4560,7 +4560,7 @@
         {
           "stableId": "System.IO.Compression.ZipFile:System.IO.Compression.ZipFileExtensions::ExtractToFileAsync(System.IO.Compression.ZipArchiveEntry,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "ExtractToFileAsync",
-          "tsEmitName": "extractToFileAsync2",
+          "tsEmitName": "extractToFileAsync",
           "normalizedSignature": "ExtractToFileAsync|(System.IO.Compression.ZipArchiveEntry,System.String,System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

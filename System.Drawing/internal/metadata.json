@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Int32,System.Int32,System.Int32):System.Drawing.Color",
           "clrName": "FromArgb",
-          "tsEmitName": "fromArgb2",
+          "tsEmitName": "fromArgb",
           "normalizedSignature": "FromArgb|(System.Int32,System.Int32,System.Int32,System.Int32):System.Drawing.Color|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1652,7 +1652,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Drawing.Color):System.Drawing.Color",
           "clrName": "FromArgb",
-          "tsEmitName": "fromArgb3",
+          "tsEmitName": "fromArgb",
           "normalizedSignature": "FromArgb|(System.Int32,System.Drawing.Color):System.Drawing.Color|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::FromArgb(System.Int32,System.Int32,System.Int32):System.Drawing.Color",
           "clrName": "FromArgb",
-          "tsEmitName": "fromArgb4",
+          "tsEmitName": "fromArgb",
           "normalizedSignature": "FromArgb|(System.Int32,System.Int32,System.Int32):System.Drawing.Color|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1828,7 +1828,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::Equals(System.Drawing.Color):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.Color):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4266,7 +4266,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Equals(System.Drawing.Point):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.Point):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4314,7 +4314,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Offset(System.Drawing.Point):System.Void",
           "clrName": "Offset",
-          "tsEmitName": "offset2",
+          "tsEmitName": "offset",
           "normalizedSignature": "Offset|(System.Drawing.Point):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4500,7 +4500,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Add(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4516,7 +4516,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Subtract(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF",
           "clrName": "Subtract",
-          "tsEmitName": "subtract2",
+          "tsEmitName": "subtract",
           "normalizedSignature": "Subtract|(System.Drawing.PointF,System.Drawing.SizeF):System.Drawing.PointF|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4548,7 +4548,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Equals(System.Drawing.PointF):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.PointF):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4729,7 +4729,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Equals(System.Drawing.Rectangle):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.Rectangle):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4809,7 +4809,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Contains(System.Drawing.Point):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Drawing.Point):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4825,7 +4825,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Contains(System.Drawing.Rectangle):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains3",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Drawing.Rectangle):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4873,7 +4873,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Inflate(System.Drawing.Size):System.Void",
           "clrName": "Inflate",
-          "tsEmitName": "inflate2",
+          "tsEmitName": "inflate",
           "normalizedSignature": "Inflate|(System.Drawing.Size):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4985,7 +4985,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Offset(System.Int32,System.Int32):System.Void",
           "clrName": "Offset",
-          "tsEmitName": "offset2",
+          "tsEmitName": "offset",
           "normalizedSignature": "Offset|(System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5286,7 +5286,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Equals(System.Drawing.RectangleF):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.RectangleF):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5318,7 +5318,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Contains(System.Drawing.PointF):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Drawing.PointF):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5334,7 +5334,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Contains(System.Drawing.RectangleF):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains3",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Drawing.RectangleF):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5382,7 +5382,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Inflate(System.Drawing.SizeF):System.Void",
           "clrName": "Inflate",
-          "tsEmitName": "inflate2",
+          "tsEmitName": "inflate",
           "normalizedSignature": "Inflate|(System.Drawing.SizeF):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5494,7 +5494,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Offset(System.Single,System.Single):System.Void",
           "clrName": "Offset",
-          "tsEmitName": "offset2",
+          "tsEmitName": "offset",
           "normalizedSignature": "Offset|(System.Single,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5848,7 +5848,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Size::Equals(System.Drawing.Size):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.Size):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6061,7 +6061,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.SizeF::Equals(System.Drawing.SizeF):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Drawing.SizeF):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

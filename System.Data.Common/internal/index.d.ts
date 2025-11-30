@@ -490,8 +490,8 @@ export class DbConnectionStringBuilder$instance {
     shouldSerialize(keyword: string): boolean;
     toString(): string;
     tryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
-    static appendKeyValuePair2(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
-    static appendKeyValuePair2(builder: StringBuilder, keyword: string, value: string): void;
+    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
+    static appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
 }
 
 
@@ -515,9 +515,12 @@ export abstract class DbDataAdapter$instance extends DataAdapter$instance {
     updateCommand: DbCommand | IDbCommand;
     dispose(): void;
     fill(dataSet: DataSet): int;
+    fill(dataTable: DataTable): int;
+    fillSchema(dataTable: DataTable, schemaType: SchemaType): DataTable;
     fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
     getFillParameters(): IDataParameter[];
     update(dataSet: DataSet): int;
+    update(dataTable: DataTable): int;
     static readonly defaultSourceTableName: string;
 }
 
@@ -926,14 +929,14 @@ export abstract class DbMetaDataColumnNames$instance {
 export type DbMetaDataColumnNames = DbMetaDataColumnNames$instance;
 
 export abstract class DbProviderFactories$instance {
-    static getFactory3(connection: DbConnection): DbProviderFactory;
-    static getFactory3(providerRow: DataRow): DbProviderFactory;
-    static getFactory3(providerInvariantName: string): DbProviderFactory;
+    static getFactory(connection: DbConnection): DbProviderFactory;
+    static getFactory(providerRow: DataRow): DbProviderFactory;
+    static getFactory(providerInvariantName: string): DbProviderFactory;
     static getFactoryClasses(): DataTable;
     static getProviderInvariantNames(): IEnumerable_1<CLROf<string>>;
-    static registerFactory3(providerInvariantName: string, factory: DbProviderFactory): void;
-    static registerFactory3(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
-    static registerFactory3(providerInvariantName: string, providerFactoryClass: Type): void;
+    static registerFactory(providerInvariantName: string, factory: DbProviderFactory): void;
+    static registerFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
+    static registerFactory(providerInvariantName: string, providerFactoryClass: Type): void;
     static tryGetFactory(providerInvariantName: string, factory: { value: ref<DbProviderFactory> }): boolean;
     static unregisterFactory(providerInvariantName: string): boolean;
 }

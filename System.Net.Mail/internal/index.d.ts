@@ -123,9 +123,9 @@ export class AlternateView$instance extends AttachmentBase$instance {
     baseUri: Uri;
     readonly linkedResources: LinkedResourceCollection;
     dispose(): void;
-    static createAlternateViewFromString3(content: string, contentType: ContentType): AlternateView;
-    static createAlternateViewFromString3(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
-    static createAlternateViewFromString3(content: string): AlternateView;
+    static createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
+    static createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    static createAlternateViewFromString(content: string): AlternateView;
 }
 
 
@@ -183,9 +183,9 @@ export class Attachment$instance extends AttachmentBase$instance {
     name: string;
     nameEncoding: Encoding;
     dispose(): void;
-    static createAttachmentFromString3(content: string, contentType: ContentType): Attachment;
-    static createAttachmentFromString3(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    static createAttachmentFromString3(content: string, name: string): Attachment;
+    static createAttachmentFromString(content: string, contentType: ContentType): Attachment;
+    static createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    static createAttachmentFromString(content: string, name: string): Attachment;
 }
 
 
@@ -259,9 +259,9 @@ export class LinkedResource$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream, contentType: ContentType);
     contentLink: Uri;
     dispose(): void;
-    static createLinkedResourceFromString3(content: string, contentType: ContentType): LinkedResource;
-    static createLinkedResourceFromString3(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
-    static createLinkedResourceFromString3(content: string): LinkedResource;
+    static createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
+    static createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    static createLinkedResourceFromString(content: string): LinkedResource;
 }
 
 

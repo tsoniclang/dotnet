@@ -1357,7 +1357,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::GetDaysInMonth(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInMonth",
-          "tsEmitName": "getDaysInMonth2",
+          "tsEmitName": "getDaysInMonth",
           "normalizedSignature": "GetDaysInMonth|(System.Int32,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1389,7 +1389,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::GetDaysInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetDaysInYear",
-          "tsEmitName": "getDaysInYear2",
+          "tsEmitName": "getDaysInYear",
           "normalizedSignature": "GetDaysInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1501,7 +1501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::GetMonthsInYear(System.Int32,System.Int32):System.Int32",
           "clrName": "GetMonthsInYear",
-          "tsEmitName": "getMonthsInYear2",
+          "tsEmitName": "getMonthsInYear",
           "normalizedSignature": "GetMonthsInYear|(System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1581,7 +1581,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapDay",
-          "tsEmitName": "isLeapDay2",
+          "tsEmitName": "isLeapDay",
           "normalizedSignature": "IsLeapDay|(System.Int32,System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1613,7 +1613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::IsLeapMonth(System.Int32,System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapMonth",
-          "tsEmitName": "isLeapMonth2",
+          "tsEmitName": "isLeapMonth",
           "normalizedSignature": "IsLeapMonth|(System.Int32,System.Int32,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1645,7 +1645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::GetLeapMonth(System.Int32,System.Int32):System.Int32",
           "clrName": "GetLeapMonth",
-          "tsEmitName": "getLeapMonth2",
+          "tsEmitName": "getLeapMonth",
           "normalizedSignature": "GetLeapMonth|(System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1677,7 +1677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::IsLeapYear(System.Int32,System.Int32):System.Boolean",
           "clrName": "IsLeapYear",
-          "tsEmitName": "isLeapYear2",
+          "tsEmitName": "isLeapYear",
           "normalizedSignature": "IsLeapYear|(System.Int32,System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1709,7 +1709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.Calendar::ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime2",
+          "tsEmitName": "toDateTime",
           "normalizedSignature": "ToDateTime|(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32):System.DateTime|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2020,7 +2020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetCompareInfo(System.String,System.Reflection.Assembly):System.Globalization.CompareInfo",
           "clrName": "GetCompareInfo",
-          "tsEmitName": "getCompareInfo2",
+          "tsEmitName": "getCompareInfo",
           "normalizedSignature": "GetCompareInfo|(System.String,System.Reflection.Assembly):System.Globalization.CompareInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2036,7 +2036,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetCompareInfo(System.Int32):System.Globalization.CompareInfo",
           "clrName": "GetCompareInfo",
-          "tsEmitName": "getCompareInfo3",
+          "tsEmitName": "getCompareInfo",
           "normalizedSignature": "GetCompareInfo|(System.Int32):System.Globalization.CompareInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2052,7 +2052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetCompareInfo(System.String):System.Globalization.CompareInfo",
           "clrName": "GetCompareInfo",
-          "tsEmitName": "getCompareInfo4",
+          "tsEmitName": "getCompareInfo",
           "normalizedSignature": "GetCompareInfo|(System.String):System.Globalization.CompareInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2084,7 +2084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSortable(System.String):System.Boolean",
           "clrName": "IsSortable",
-          "tsEmitName": "isSortable2",
+          "tsEmitName": "isSortable",
           "normalizedSignature": "IsSortable|(System.String):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2100,7 +2100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSortable(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsSortable",
-          "tsEmitName": "isSortable3",
+          "tsEmitName": "isSortable",
           "normalizedSignature": "IsSortable|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2116,7 +2116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSortable(System.Text.Rune):System.Boolean",
           "clrName": "IsSortable",
-          "tsEmitName": "isSortable4",
+          "tsEmitName": "isSortable",
           "normalizedSignature": "IsSortable|(System.Text.Rune):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2148,7 +2148,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.String,System.String,System.Globalization.CompareOptions):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare2",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.String,System.String,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2164,7 +2164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare3",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2180,7 +2180,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare4",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.String,System.Int32,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2196,7 +2196,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.String,System.Int32,System.String,System.Int32):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare5",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.String,System.Int32,System.String,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2212,7 +2212,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare6",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.String,System.Int32,System.Int32,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2228,7 +2228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::Compare(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32",
           "clrName": "Compare",
-          "tsEmitName": "compare7",
+          "tsEmitName": "compare",
           "normalizedSignature": "Compare|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2260,7 +2260,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsPrefix(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Boolean",
           "clrName": "IsPrefix",
-          "tsEmitName": "isPrefix2",
+          "tsEmitName": "isPrefix",
           "normalizedSignature": "IsPrefix|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2276,7 +2276,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsPrefix(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Boolean",
           "clrName": "IsPrefix",
-          "tsEmitName": "isPrefix3",
+          "tsEmitName": "isPrefix",
           "normalizedSignature": "IsPrefix|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2292,7 +2292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsPrefix(System.String,System.String):System.Boolean",
           "clrName": "IsPrefix",
-          "tsEmitName": "isPrefix4",
+          "tsEmitName": "isPrefix",
           "normalizedSignature": "IsPrefix|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2324,7 +2324,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSuffix(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Boolean",
           "clrName": "IsSuffix",
-          "tsEmitName": "isSuffix2",
+          "tsEmitName": "isSuffix",
           "normalizedSignature": "IsSuffix|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2340,7 +2340,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSuffix(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Boolean",
           "clrName": "IsSuffix",
-          "tsEmitName": "isSuffix3",
+          "tsEmitName": "isSuffix",
           "normalizedSignature": "IsSuffix|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2356,7 +2356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IsSuffix(System.String,System.String):System.Boolean",
           "clrName": "IsSuffix",
-          "tsEmitName": "isSuffix4",
+          "tsEmitName": "isSuffix",
           "normalizedSignature": "IsSuffix|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2388,7 +2388,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2404,7 +2404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.Char,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.Char,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2420,7 +2420,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2436,7 +2436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.Char,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf5",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.Char,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2452,7 +2452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf6",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2468,7 +2468,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf7",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.Char,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2484,7 +2484,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf8",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2500,7 +2500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.Char,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf9",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.Char,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2516,7 +2516,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf10",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2532,7 +2532,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf11",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2548,7 +2548,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf12",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2564,7 +2564,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf13",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2580,7 +2580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf14",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2596,7 +2596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::IndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Rune,System.Globalization.CompareOptions):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf15",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Rune,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2628,7 +2628,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2644,7 +2644,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.Char,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.Char,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2660,7 +2660,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2676,7 +2676,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.Char,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf5",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.Char,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2692,7 +2692,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf6",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2708,7 +2708,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.Char,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf7",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.Char,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2724,7 +2724,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf8",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2740,7 +2740,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.Char,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf9",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.Char,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2756,7 +2756,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf10",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2772,7 +2772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf11",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.Char,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2788,7 +2788,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf12",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.String,System.String,System.Int32,System.Int32,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2804,7 +2804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf13",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2820,7 +2820,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf14",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions,System.Int32\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2836,7 +2836,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LastIndexOf(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Rune,System.Globalization.CompareOptions):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf15",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Rune,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2868,7 +2868,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetSortKey(System.String):System.Globalization.SortKey",
           "clrName": "GetSortKey",
-          "tsEmitName": "getSortKey2",
+          "tsEmitName": "getSortKey",
           "normalizedSignature": "GetSortKey|(System.String):System.Globalization.SortKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2884,7 +2884,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetSortKey(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32",
           "clrName": "GetSortKey",
-          "tsEmitName": "getSortKey3",
+          "tsEmitName": "getSortKey",
           "normalizedSignature": "GetSortKey|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2948,7 +2948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetHashCode(System.String,System.Globalization.CompareOptions):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode2",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(System.String,System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2964,7 +2964,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::GetHashCode(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32",
           "clrName": "GetHashCode",
-          "tsEmitName": "getHashCode3",
+          "tsEmitName": "getHashCode",
           "normalizedSignature": "GetHashCode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Globalization.CompareOptions):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3252,7 +3252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::GetCultureInfo(System.String):System.Globalization.CultureInfo",
           "clrName": "GetCultureInfo",
-          "tsEmitName": "getCultureInfo2",
+          "tsEmitName": "getCultureInfo",
           "normalizedSignature": "GetCultureInfo|(System.String):System.Globalization.CultureInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3268,7 +3268,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::GetCultureInfo(System.String,System.String):System.Globalization.CultureInfo",
           "clrName": "GetCultureInfo",
-          "tsEmitName": "getCultureInfo3",
+          "tsEmitName": "getCultureInfo",
           "normalizedSignature": "GetCultureInfo|(System.String,System.String):System.Globalization.CultureInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3284,7 +3284,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::GetCultureInfo(System.String,System.Boolean):System.Globalization.CultureInfo",
           "clrName": "GetCultureInfo",
-          "tsEmitName": "getCultureInfo4",
+          "tsEmitName": "getCultureInfo",
           "normalizedSignature": "GetCultureInfo|(System.String,System.Boolean):System.Globalization.CultureInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4075,7 +4075,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeFormatInfo::GetAllDateTimePatterns(System.Char):System.String[]",
           "clrName": "GetAllDateTimePatterns",
-          "tsEmitName": "getAllDateTimePatterns2",
+          "tsEmitName": "getAllDateTimePatterns",
           "normalizedSignature": "GetAllDateTimePatterns|(System.Char):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6907,7 +6907,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.IdnMapping::GetAscii(System.String,System.Int32):System.String",
           "clrName": "GetAscii",
-          "tsEmitName": "getAscii2",
+          "tsEmitName": "getAscii",
           "normalizedSignature": "GetAscii|(System.String,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6923,7 +6923,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.IdnMapping::GetAscii(System.String,System.Int32,System.Int32):System.String",
           "clrName": "GetAscii",
-          "tsEmitName": "getAscii3",
+          "tsEmitName": "getAscii",
           "normalizedSignature": "GetAscii|(System.String,System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6955,7 +6955,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.IdnMapping::GetUnicode(System.String,System.Int32):System.String",
           "clrName": "GetUnicode",
-          "tsEmitName": "getUnicode2",
+          "tsEmitName": "getUnicode",
           "normalizedSignature": "GetUnicode|(System.String,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6971,7 +6971,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.IdnMapping::GetUnicode(System.String,System.Int32,System.Int32):System.String",
           "clrName": "GetUnicode",
-          "tsEmitName": "getUnicode3",
+          "tsEmitName": "getUnicode",
           "normalizedSignature": "GetUnicode|(System.String,System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10506,7 +10506,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.SortVersion::Equals(System.Globalization.SortVersion):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Globalization.SortVersion):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10657,7 +10657,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::SubstringByTextElements(System.Int32,System.Int32):System.String",
           "clrName": "SubstringByTextElements",
-          "tsEmitName": "substringByTextElements2",
+          "tsEmitName": "substringByTextElements",
           "normalizedSignature": "SubstringByTextElements|(System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10689,7 +10689,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::GetNextTextElement(System.String,System.Int32):System.String",
           "clrName": "GetNextTextElement",
-          "tsEmitName": "getNextTextElement2",
+          "tsEmitName": "getNextTextElement",
           "normalizedSignature": "GetNextTextElement|(System.String,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10721,7 +10721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::GetNextTextElementLength(System.String,System.Int32):System.Int32",
           "clrName": "GetNextTextElementLength",
-          "tsEmitName": "getNextTextElementLength2",
+          "tsEmitName": "getNextTextElementLength",
           "normalizedSignature": "GetNextTextElementLength|(System.String,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10737,7 +10737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::GetNextTextElementLength(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "GetNextTextElementLength",
-          "tsEmitName": "getNextTextElementLength3",
+          "tsEmitName": "getNextTextElementLength",
           "normalizedSignature": "GetNextTextElementLength|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10769,7 +10769,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::GetTextElementEnumerator(System.String,System.Int32):System.Globalization.TextElementEnumerator",
           "clrName": "GetTextElementEnumerator",
-          "tsEmitName": "getTextElementEnumerator2",
+          "tsEmitName": "getTextElementEnumerator",
           "normalizedSignature": "GetTextElementEnumerator|(System.String,System.Int32):System.Globalization.TextElementEnumerator|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11720,7 +11720,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TextInfo::ToLower(System.String):System.String",
           "clrName": "ToLower",
-          "tsEmitName": "toLower2",
+          "tsEmitName": "toLower",
           "normalizedSignature": "ToLower|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11752,7 +11752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TextInfo::ToUpper(System.String):System.String",
           "clrName": "ToUpper",
-          "tsEmitName": "toUpper2",
+          "tsEmitName": "toUpper",
           "normalizedSignature": "ToUpper|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13135,7 +13135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CharUnicodeInfo::GetDecimalDigitValue(System.String,System.Int32):System.Int32",
           "clrName": "GetDecimalDigitValue",
-          "tsEmitName": "getDecimalDigitValue2",
+          "tsEmitName": "getDecimalDigitValue",
           "normalizedSignature": "GetDecimalDigitValue|(System.String,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13167,7 +13167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CharUnicodeInfo::GetDigitValue(System.String,System.Int32):System.Int32",
           "clrName": "GetDigitValue",
-          "tsEmitName": "getDigitValue2",
+          "tsEmitName": "getDigitValue",
           "normalizedSignature": "GetDigitValue|(System.String,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13199,7 +13199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CharUnicodeInfo::GetNumericValue(System.String,System.Int32):System.Double",
           "clrName": "GetNumericValue",
-          "tsEmitName": "getNumericValue2",
+          "tsEmitName": "getNumericValue",
           "normalizedSignature": "GetNumericValue|(System.String,System.Int32):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13231,7 +13231,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CharUnicodeInfo::GetUnicodeCategory(System.Int32):System.Globalization.UnicodeCategory",
           "clrName": "GetUnicodeCategory",
-          "tsEmitName": "getUnicodeCategory2",
+          "tsEmitName": "getUnicodeCategory",
           "normalizedSignature": "GetUnicodeCategory|(System.Int32):System.Globalization.UnicodeCategory|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13247,7 +13247,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CharUnicodeInfo::GetUnicodeCategory(System.String,System.Int32):System.Globalization.UnicodeCategory",
           "clrName": "GetUnicodeCategory",
-          "tsEmitName": "getUnicodeCategory3",
+          "tsEmitName": "getUnicodeCategory",
           "normalizedSignature": "GetUnicodeCategory|(System.String,System.Int32):System.Globalization.UnicodeCategory|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13329,7 +13329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ISOWeek::GetWeekOfYear(System.DateOnly):System.Int32",
           "clrName": "GetWeekOfYear",
-          "tsEmitName": "getWeekOfYear2",
+          "tsEmitName": "getWeekOfYear",
           "normalizedSignature": "GetWeekOfYear|(System.DateOnly):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13361,7 +13361,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.ISOWeek::GetYear(System.DateOnly):System.Int32",
           "clrName": "GetYear",
-          "tsEmitName": "getYear2",
+          "tsEmitName": "getYear",
           "normalizedSignature": "GetYear|(System.DateOnly):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -268,9 +268,9 @@ export interface IXmlBinaryWriterInitializer$instance {
 export type IXmlBinaryWriterInitializer = IXmlBinaryWriterInitializer$instance;
 
 export interface IXmlDictionary$instance {
-    tryLookup2(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup2(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup2(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
 }
 
 
@@ -537,13 +537,13 @@ export class XmlConvert$instance {
     static toBoolean(s: string): boolean;
     static toByte(s: string): byte;
     static toChar(s: string): char;
-    static toDateTime2(s: string, format: string): DateTime;
-    static toDateTime2(s: string, formats: string[]): DateTime;
-    static toDateTime2(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
-    static toDateTime2(s: string): DateTime;
-    static toDateTimeOffset2(s: string, format: string): DateTimeOffset;
-    static toDateTimeOffset2(s: string, formats: string[]): DateTimeOffset;
-    static toDateTimeOffset2(s: string): DateTimeOffset;
+    static toDateTime(s: string, format: string): DateTime;
+    static toDateTime(s: string, formats: string[]): DateTime;
+    static toDateTime(s: string, dateTimeOption: XmlDateTimeSerializationMode): DateTime;
+    static toDateTime(s: string): DateTime;
+    static toDateTimeOffset(s: string, format: string): DateTimeOffset;
+    static toDateTimeOffset(s: string, formats: string[]): DateTimeOffset;
+    static toDateTimeOffset(s: string): DateTimeOffset;
     static toDecimal(s: string): decimal;
     static toDouble(s: string): double;
     static toGuid(s: string): Guid;
@@ -665,8 +665,6 @@ export interface __XmlDictionary$views {
     As_IXmlDictionary(): IXmlDictionary$instance;
 }
 
-export interface XmlDictionary$instance extends IXmlDictionary$instance {}
-
 export type XmlDictionary = XmlDictionary$instance & __XmlDictionary$views;
 
 
@@ -724,6 +722,7 @@ export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     readContentAsGuid(): Guid;
     readContentAsQualifiedName(localName: { value: ref<string> }, namespaceUri: { value: ref<string> }): void;
     readContentAsString(): string;
+    readContentAsString(strings: XmlDictionaryString[], index: { value: ref<int> }): string;
     readContentAsTimeSpan(): TimeSpan;
     readContentAsUniqueId(): UniqueId;
     readDateTimeArray(localName: string, namespaceUri: string): DateTime[];
@@ -780,29 +779,29 @@ export abstract class XmlDictionaryReader$instance extends XmlReader$instance {
     tryGetLocalNameAsDictionaryString(localName: { value: ref<XmlDictionaryString> }): boolean;
     tryGetNamespaceUriAsDictionaryString(namespaceUri: { value: ref<XmlDictionaryString> }): boolean;
     tryGetValueAsDictionaryString(value: { value: ref<XmlDictionaryString> }): boolean;
-    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    static createBinaryReader5(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader5(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader5(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
-    static createBinaryReader5(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createBinaryReader5(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    static createBinaryReader(buffer: byte[], offset: int, count: int, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas, session: XmlBinaryReaderSession): XmlDictionaryReader;
+    static createBinaryReader(stream: Stream, dictionary: IXmlDictionary, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createBinaryReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
     static createDictionaryReader(reader: XmlReader): XmlDictionaryReader;
-    static createMtomReader5(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader5(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader5(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader5(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createMtomReader5(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createMtomReader5(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader3(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createTextReader3(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader3(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
-    static createTextReader3(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
-    static createTextReader3(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(buffer: byte[], offset: int, count: int, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas, maxBufferSize: int, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createMtomReader(stream: Stream, encodings: Encoding[], contentType: string, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createMtomReader(stream: Stream, encodings: Encoding[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader(buffer: byte[], offset: int, count: int, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createTextReader(buffer: byte[], offset: int, count: int, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader(buffer: byte[], quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
+    static createTextReader(stream: Stream, encoding: Encoding, quotas: XmlDictionaryReaderQuotas, onClose: OnXmlDictionaryReaderClose): XmlDictionaryReader;
+    static createTextReader(stream: Stream, quotas: XmlDictionaryReaderQuotas): XmlDictionaryReader;
 }
 
 
@@ -884,6 +883,10 @@ export abstract class XmlDictionaryWriter$instance extends XmlWriter$instance {
     writeStartElement(prefix: string, localName: string, ns: string): void;
     writeStartElement(localName: string): void;
     writeString(text: string): void;
+    writeValue(value: XmlDictionaryString): void;
+    writeValue(value: UniqueId): void;
+    writeValue(value: TimeSpan): void;
+    writeValue(value: IStreamProvider): void;
     writeValue(value: unknown): void;
     writeValue(value: string): void;
     writeValue(value: boolean): void;
@@ -899,16 +902,16 @@ export abstract class XmlDictionaryWriter$instance extends XmlWriter$instance {
     writeXmlAttribute(localName: XmlDictionaryString, value: XmlDictionaryString): void;
     writeXmlnsAttribute(prefix: string, namespaceUri: string): void;
     writeXmlnsAttribute(prefix: string, namespaceUri: XmlDictionaryString): void;
-    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
-    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
-    static createBinaryWriter4(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
-    static createBinaryWriter4(stream: Stream): XmlDictionaryWriter;
+    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession, ownsStream: boolean): XmlDictionaryWriter;
+    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary, session: XmlBinaryWriterSession): XmlDictionaryWriter;
+    static createBinaryWriter(stream: Stream, dictionary: IXmlDictionary): XmlDictionaryWriter;
+    static createBinaryWriter(stream: Stream): XmlDictionaryWriter;
     static createDictionaryWriter(writer: XmlWriter): XmlDictionaryWriter;
-    static createMtomWriter2(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
-    static createMtomWriter2(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
-    static createTextWriter3(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
-    static createTextWriter3(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
-    static createTextWriter3(stream: Stream): XmlDictionaryWriter;
+    static createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string, boundary: string, startUri: string, writeMessageHeaders: boolean, ownsStream: boolean): XmlDictionaryWriter;
+    static createMtomWriter(stream: Stream, encoding: Encoding, maxSizeInBytes: int, startInfo: string): XmlDictionaryWriter;
+    static createTextWriter(stream: Stream, encoding: Encoding, ownsStream: boolean): XmlDictionaryWriter;
+    static createTextWriter(stream: Stream, encoding: Encoding): XmlDictionaryWriter;
+    static createTextWriter(stream: Stream): XmlDictionaryWriter;
 }
 
 
@@ -1640,18 +1643,18 @@ export abstract class XmlReader$instance {
     abstract resolveEntity(): void;
     skip(): void;
     skipAsync(): Task;
-    static create6(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    static create6(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create6(input: Stream, settings: XmlReaderSettings): XmlReader;
-    static create6(input: Stream): XmlReader;
-    static create6(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
-    static create6(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create6(input: TextReader, settings: XmlReaderSettings): XmlReader;
-    static create6(input: TextReader): XmlReader;
-    static create6(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
-    static create6(inputUri: string, settings: XmlReaderSettings): XmlReader;
-    static create6(inputUri: string): XmlReader;
-    static create6(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
+    static create(input: Stream, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    static create(input: Stream, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create(input: Stream, settings: XmlReaderSettings): XmlReader;
+    static create(input: Stream): XmlReader;
+    static create(input: TextReader, settings: XmlReaderSettings, baseUri: string): XmlReader;
+    static create(input: TextReader, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create(input: TextReader, settings: XmlReaderSettings): XmlReader;
+    static create(input: TextReader): XmlReader;
+    static create(inputUri: string, settings: XmlReaderSettings, inputContext: XmlParserContext): XmlReader;
+    static create(inputUri: string, settings: XmlReaderSettings): XmlReader;
+    static create(inputUri: string): XmlReader;
+    static create(reader: XmlReader, settings: XmlReaderSettings): XmlReader;
     static isName(str: string): boolean;
     static isNameToken(str: string): boolean;
 }
@@ -2112,16 +2115,16 @@ export abstract class XmlWriter$instance {
     writeValue(value: long): void;
     abstract writeWhitespace(ws: string): void;
     writeWhitespaceAsync(ws: string): Task;
-    static create4(output: Stream, settings: XmlWriterSettings): XmlWriter;
-    static create4(output: Stream): XmlWriter;
-    static create4(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
-    static create4(output: TextWriter): XmlWriter;
-    static create4(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
-    static create4(outputFileName: string): XmlWriter;
-    static create4(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
-    static create4(output: StringBuilder): XmlWriter;
-    static create4(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
-    static create4(output: XmlWriter): XmlWriter;
+    static create(output: Stream, settings: XmlWriterSettings): XmlWriter;
+    static create(output: Stream): XmlWriter;
+    static create(output: TextWriter, settings: XmlWriterSettings): XmlWriter;
+    static create(output: TextWriter): XmlWriter;
+    static create(outputFileName: string, settings: XmlWriterSettings): XmlWriter;
+    static create(outputFileName: string): XmlWriter;
+    static create(output: StringBuilder, settings: XmlWriterSettings): XmlWriter;
+    static create(output: StringBuilder): XmlWriter;
+    static create(output: XmlWriter, settings: XmlWriterSettings): XmlWriter;
+    static create(output: XmlWriter): XmlWriter;
 }
 
 

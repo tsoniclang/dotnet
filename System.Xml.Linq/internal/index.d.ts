@@ -201,19 +201,19 @@ export class XDocument$instance extends XContainer$instance {
     saveAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
-    static load4(stream: Stream, options: LoadOptions): XDocument;
-    static load4(stream: Stream): XDocument;
-    static load4(textReader: TextReader, options: LoadOptions): XDocument;
-    static load4(textReader: TextReader): XDocument;
-    static load4(uri: string, options: LoadOptions): XDocument;
-    static load4(uri: string): XDocument;
-    static load4(reader: XmlReader, options: LoadOptions): XDocument;
-    static load4(reader: XmlReader): XDocument;
+    static load(stream: Stream, options: LoadOptions): XDocument;
+    static load(stream: Stream): XDocument;
+    static load(textReader: TextReader, options: LoadOptions): XDocument;
+    static load(textReader: TextReader): XDocument;
+    static load(uri: string, options: LoadOptions): XDocument;
+    static load(uri: string): XDocument;
+    static load(reader: XmlReader, options: LoadOptions): XDocument;
+    static load(reader: XmlReader): XDocument;
     static loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
     static loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
     static loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XDocument>;
-    static parse2(text: string, options: LoadOptions): XDocument;
-    static parse2(text: string): XDocument;
+    static parse(text: string, options: LoadOptions): XDocument;
+    static parse(text: string): XDocument;
 }
 
 
@@ -293,19 +293,19 @@ export class XElement$instance extends XContainer$instance {
     writeTo(writer: XmlWriter): void;
     writeToAsync(writer: XmlWriter, cancellationToken: CancellationToken): Task;
     static readonly emptySequence: IEnumerable_1<XElement>;
-    static load4(stream: Stream, options: LoadOptions): XElement;
-    static load4(stream: Stream): XElement;
-    static load4(textReader: TextReader, options: LoadOptions): XElement;
-    static load4(textReader: TextReader): XElement;
-    static load4(uri: string, options: LoadOptions): XElement;
-    static load4(uri: string): XElement;
-    static load4(reader: XmlReader, options: LoadOptions): XElement;
-    static load4(reader: XmlReader): XElement;
+    static load(stream: Stream, options: LoadOptions): XElement;
+    static load(stream: Stream): XElement;
+    static load(textReader: TextReader, options: LoadOptions): XElement;
+    static load(textReader: TextReader): XElement;
+    static load(uri: string, options: LoadOptions): XElement;
+    static load(uri: string): XElement;
+    static load(reader: XmlReader, options: LoadOptions): XElement;
+    static load(reader: XmlReader): XElement;
     static loadAsync(stream: Stream, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
     static loadAsync(textReader: TextReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
     static loadAsync(reader: XmlReader, options: LoadOptions, cancellationToken: CancellationToken): Task_1<XElement>;
-    static parse2(text: string, options: LoadOptions): XElement;
-    static parse2(text: string): XElement;
+    static parse(text: string, options: LoadOptions): XElement;
+    static parse(text: string): XElement;
 }
 
 
@@ -326,8 +326,8 @@ export class XName$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static get_2(localName: string, namespaceName: string): XName;
-    static get_2(expandedName: string): XName;
+    static get_(localName: string, namespaceName: string): XName;
+    static get_(expandedName: string): XName;
 }
 
 
@@ -531,24 +531,24 @@ export type XText = XText$instance & __XText$views;
 
 
 export abstract class Extensions$instance {
-    static ancestors2<T extends XNode>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
-    static ancestors2<T extends XNode>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
-    static ancestorsAndSelf2(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XElement>;
-    static ancestorsAndSelf2(source: IEnumerable_1<XElement>): IEnumerable_1<XElement>;
-    static attributes2(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XAttribute>;
-    static attributes2(source: IEnumerable_1<XElement>): IEnumerable_1<XAttribute>;
+    static ancestors<T extends XNode>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
+    static ancestors<T extends XNode>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
+    static ancestorsAndSelf(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XElement>;
+    static ancestorsAndSelf(source: IEnumerable_1<XElement>): IEnumerable_1<XElement>;
+    static attributes(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XAttribute>;
+    static attributes(source: IEnumerable_1<XElement>): IEnumerable_1<XAttribute>;
     static descendantNodes<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XNode>;
     static descendantNodesAndSelf(source: IEnumerable_1<XElement>): IEnumerable_1<XNode>;
-    static descendants2<T extends XContainer>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
-    static descendants2<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
-    static descendantsAndSelf2(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XElement>;
-    static descendantsAndSelf2(source: IEnumerable_1<XElement>): IEnumerable_1<XElement>;
-    static elements2<T extends XContainer>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
-    static elements2<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
+    static descendants<T extends XContainer>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
+    static descendants<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
+    static descendantsAndSelf(source: IEnumerable_1<XElement>, name: XName): IEnumerable_1<XElement>;
+    static descendantsAndSelf(source: IEnumerable_1<XElement>): IEnumerable_1<XElement>;
+    static elements<T extends XContainer>(source: IEnumerable_1<T>, name: XName): IEnumerable_1<XElement>;
+    static elements<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XElement>;
     static inDocumentOrder<T extends XNode>(source: IEnumerable_1<T>): IEnumerable_1<T>;
     static nodes<T extends XContainer>(source: IEnumerable_1<T>): IEnumerable_1<XNode>;
-    static remove2<T extends XNode>(source: IEnumerable_1<T>): void;
-    static remove2(source: IEnumerable_1<XAttribute>): void;
+    static remove<T extends XNode>(source: IEnumerable_1<T>): void;
+    static remove(source: IEnumerable_1<XAttribute>): void;
 }
 
 

@@ -481,7 +481,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::GetProperty(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.Json.JsonElement",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.Json.JsonElement|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -497,7 +497,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::GetProperty(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.Json.JsonElement",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty3",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Text.Json.JsonElement|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -529,7 +529,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::TryGetProperty(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonElement\u0026):System.Boolean",
           "clrName": "TryGetProperty",
-          "tsEmitName": "tryGetProperty2",
+          "tsEmitName": "tryGetProperty",
           "normalizedSignature": "TryGetProperty|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonElement\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -545,7 +545,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::TryGetProperty(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonElement\u0026):System.Boolean",
           "clrName": "TryGetProperty",
-          "tsEmitName": "tryGetProperty3",
+          "tsEmitName": "tryGetProperty",
           "normalizedSignature": "TryGetProperty|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonElement\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1121,7 +1121,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::ValueEquals(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ValueEquals",
-          "tsEmitName": "valueEquals2",
+          "tsEmitName": "valueEquals",
           "normalizedSignature": "ValueEquals|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1137,7 +1137,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::ValueEquals(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ValueEquals",
-          "tsEmitName": "valueEquals3",
+          "tsEmitName": "valueEquals",
           "normalizedSignature": "ValueEquals|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1265,7 +1265,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonElement",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1281,7 +1281,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonElement::Parse(System.String,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonElement",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1805,7 +1805,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonEncodedText::Encode(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encodings.Web.JavaScriptEncoder):System.Text.Json.JsonEncodedText",
           "clrName": "Encode",
-          "tsEmitName": "encode2",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encodings.Web.JavaScriptEncoder):System.Text.Json.JsonEncodedText|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1821,7 +1821,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonEncodedText::Encode(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encodings.Web.JavaScriptEncoder):System.Text.Json.JsonEncodedText",
           "clrName": "Encode",
-          "tsEmitName": "encode3",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encodings.Web.JavaScriptEncoder):System.Text.Json.JsonEncodedText|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonEncodedText::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1982,7 +1982,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonProperty::NameEquals(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "NameEquals",
-          "tsEmitName": "nameEquals2",
+          "tsEmitName": "nameEquals",
           "normalizedSignature": "NameEquals|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1998,7 +1998,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonProperty::NameEquals(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "NameEquals",
-          "tsEmitName": "nameEquals3",
+          "tsEmitName": "nameEquals",
           "normalizedSignature": "NameEquals|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2395,7 +2395,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonReader::ValueTextEquals(System.String):System.Boolean",
           "clrName": "ValueTextEquals",
-          "tsEmitName": "valueTextEquals2",
+          "tsEmitName": "valueTextEquals",
           "normalizedSignature": "ValueTextEquals|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2411,7 +2411,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonReader::ValueTextEquals(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ValueTextEquals",
-          "tsEmitName": "valueTextEquals3",
+          "tsEmitName": "valueTextEquals",
           "normalizedSignature": "ValueTextEquals|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2459,7 +2459,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonReader::CopyString(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "CopyString",
-          "tsEmitName": "copyString2",
+          "tsEmitName": "copyString",
           "normalizedSignature": "CopyString|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3239,7 +3239,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonDocument::Parse(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3255,7 +3255,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonDocument::Parse(System.IO.Stream,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument",
           "clrName": "Parse",
-          "tsEmitName": "parse3",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.IO.Stream,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3287,7 +3287,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonDocument::Parse(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument",
           "clrName": "Parse",
-          "tsEmitName": "parse4",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3303,7 +3303,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonDocument::Parse(System.String,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument",
           "clrName": "Parse",
-          "tsEmitName": "parse5",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Text.Json.JsonDocumentOptions):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3727,7 +3727,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializerOptions::MakeReadOnly(System.Boolean):System.Void",
           "clrName": "MakeReadOnly",
-          "tsEmitName": "makeReadOnly2",
+          "tsEmitName": "makeReadOnly",
           "normalizedSignature": "MakeReadOnly|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4288,7 +4288,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValueSegment(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteStringValueSegment",
-          "tsEmitName": "writeStringValueSegment2",
+          "tsEmitName": "writeStringValueSegment",
           "normalizedSignature": "WriteStringValueSegment|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4336,7 +4336,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::Reset(System.IO.Stream):System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset2",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4352,7 +4352,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::Reset(System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Reset",
-          "tsEmitName": "reset3",
+          "tsEmitName": "reset",
           "normalizedSignature": "Reset|(System.Buffers.IBufferWriter_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4464,7 +4464,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartArray(System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteStartArray",
-          "tsEmitName": "writeStartArray2",
+          "tsEmitName": "writeStartArray",
           "normalizedSignature": "WriteStartArray|(System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4480,7 +4480,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartObject(System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject2",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4496,7 +4496,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartArray(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStartArray",
-          "tsEmitName": "writeStartArray3",
+          "tsEmitName": "writeStartArray",
           "normalizedSignature": "WriteStartArray|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4512,7 +4512,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartObject(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject3",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4528,7 +4528,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartArray(System.String):System.Void",
           "clrName": "WriteStartArray",
-          "tsEmitName": "writeStartArray4",
+          "tsEmitName": "writeStartArray",
           "normalizedSignature": "WriteStartArray|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4544,7 +4544,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartObject(System.String):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject4",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4560,7 +4560,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartArray(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStartArray",
-          "tsEmitName": "writeStartArray5",
+          "tsEmitName": "writeStartArray",
           "normalizedSignature": "WriteStartArray|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4576,7 +4576,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStartObject(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStartObject",
-          "tsEmitName": "writeStartObject5",
+          "tsEmitName": "writeStartObject",
           "normalizedSignature": "WriteStartObject|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4640,7 +4640,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBase64String(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteBase64String",
-          "tsEmitName": "writeBase64String2",
+          "tsEmitName": "writeBase64String",
           "normalizedSignature": "WriteBase64String|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4656,7 +4656,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBase64String(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteBase64String",
-          "tsEmitName": "writeBase64String3",
+          "tsEmitName": "writeBase64String",
           "normalizedSignature": "WriteBase64String|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4672,7 +4672,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBase64String(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteBase64String",
-          "tsEmitName": "writeBase64String4",
+          "tsEmitName": "writeBase64String",
           "normalizedSignature": "WriteBase64String|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4704,7 +4704,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.DateTime):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString2",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4720,7 +4720,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString3",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4736,7 +4736,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString4",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4752,7 +4752,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.DateTimeOffset):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString5",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4768,7 +4768,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.DateTimeOffset):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString6",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4784,7 +4784,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString7",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4800,7 +4800,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString8",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4832,7 +4832,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.Decimal):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber2",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4848,7 +4848,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber3",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4864,7 +4864,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber4",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4880,7 +4880,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.Double):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber5",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4896,7 +4896,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.Double):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber6",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4912,7 +4912,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber7",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4928,7 +4928,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber8",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4944,7 +4944,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.Single):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber9",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4960,7 +4960,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.Single):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber10",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4976,7 +4976,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber11",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4992,7 +4992,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber12",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5008,7 +5008,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.Guid):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString9",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5024,7 +5024,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.Guid):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString10",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5040,7 +5040,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString11",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5056,7 +5056,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString12",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5088,7 +5088,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNull(System.String):System.Void",
           "clrName": "WriteNull",
-          "tsEmitName": "writeNull2",
+          "tsEmitName": "writeNull",
           "normalizedSignature": "WriteNull|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5104,7 +5104,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNull(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteNull",
-          "tsEmitName": "writeNull3",
+          "tsEmitName": "writeNull",
           "normalizedSignature": "WriteNull|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5120,7 +5120,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNull(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteNull",
-          "tsEmitName": "writeNull4",
+          "tsEmitName": "writeNull",
           "normalizedSignature": "WriteNull|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5152,7 +5152,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBoolean(System.String,System.Boolean):System.Void",
           "clrName": "WriteBoolean",
-          "tsEmitName": "writeBoolean2",
+          "tsEmitName": "writeBoolean",
           "normalizedSignature": "WriteBoolean|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5168,7 +5168,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBoolean(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteBoolean",
-          "tsEmitName": "writeBoolean3",
+          "tsEmitName": "writeBoolean",
           "normalizedSignature": "WriteBoolean|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5184,7 +5184,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteBoolean(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteBoolean",
-          "tsEmitName": "writeBoolean4",
+          "tsEmitName": "writeBoolean",
           "normalizedSignature": "WriteBoolean|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5200,7 +5200,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.Int64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber13",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5216,7 +5216,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.Int64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber14",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5232,7 +5232,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber15",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5248,7 +5248,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber16",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5264,7 +5264,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.Int32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber17",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5280,7 +5280,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.Int32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber18",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5296,7 +5296,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber19",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5312,7 +5312,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber20",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5344,7 +5344,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WritePropertyName(System.String):System.Void",
           "clrName": "WritePropertyName",
-          "tsEmitName": "writePropertyName2",
+          "tsEmitName": "writePropertyName",
           "normalizedSignature": "WritePropertyName|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5360,7 +5360,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WritePropertyName(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WritePropertyName",
-          "tsEmitName": "writePropertyName3",
+          "tsEmitName": "writePropertyName",
           "normalizedSignature": "WritePropertyName|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5376,7 +5376,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WritePropertyName(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WritePropertyName",
-          "tsEmitName": "writePropertyName4",
+          "tsEmitName": "writePropertyName",
           "normalizedSignature": "WritePropertyName|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5392,7 +5392,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString13",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5408,7 +5408,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString14",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5424,7 +5424,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.String):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString15",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5440,7 +5440,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString16",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5456,7 +5456,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString17",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5472,7 +5472,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.String):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString18",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5488,7 +5488,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString19",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5504,7 +5504,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString20",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5520,7 +5520,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString21",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5536,7 +5536,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.Text.Json.JsonEncodedText,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString22",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.Text.Json.JsonEncodedText,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5552,7 +5552,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString23",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5568,7 +5568,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString24",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5584,7 +5584,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString25",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5600,7 +5600,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString26",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5616,7 +5616,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString27",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5632,7 +5632,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteString(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Void",
           "clrName": "WriteString",
-          "tsEmitName": "writeString28",
+          "tsEmitName": "writeString",
           "normalizedSignature": "WriteString|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5648,7 +5648,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.UInt64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber21",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5664,7 +5664,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.UInt64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber22",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5680,7 +5680,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber23",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5696,7 +5696,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber24",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5712,7 +5712,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.Text.Json.JsonEncodedText,System.UInt32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber25",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.Text.Json.JsonEncodedText,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5728,7 +5728,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.String,System.UInt32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber26",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.String,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5744,7 +5744,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber27",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5760,7 +5760,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumber(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void",
           "clrName": "WriteNumber",
-          "tsEmitName": "writeNumber28",
+          "tsEmitName": "writeNumber",
           "normalizedSignature": "WriteNumber|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5808,7 +5808,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteCommentValue(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteCommentValue",
-          "tsEmitName": "writeCommentValue2",
+          "tsEmitName": "writeCommentValue",
           "normalizedSignature": "WriteCommentValue|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5824,7 +5824,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteCommentValue(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteCommentValue",
-          "tsEmitName": "writeCommentValue3",
+          "tsEmitName": "writeCommentValue",
           "normalizedSignature": "WriteCommentValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5856,7 +5856,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.DateTimeOffset):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue2",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5888,7 +5888,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.Double):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue2",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5904,7 +5904,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.Single):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue3",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5920,7 +5920,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.Guid):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue3",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5984,7 +5984,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteRawValue(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteRawValue",
-          "tsEmitName": "writeRawValue2",
+          "tsEmitName": "writeRawValue",
           "normalizedSignature": "WriteRawValue|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6000,7 +6000,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteRawValue(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteRawValue",
-          "tsEmitName": "writeRawValue3",
+          "tsEmitName": "writeRawValue",
           "normalizedSignature": "WriteRawValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6016,7 +6016,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteRawValue(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void",
           "clrName": "WriteRawValue",
-          "tsEmitName": "writeRawValue4",
+          "tsEmitName": "writeRawValue",
           "normalizedSignature": "WriteRawValue|(System.Buffers.ReadOnlySequence_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6032,7 +6032,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.Int32):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue4",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6048,7 +6048,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.Int64):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue5",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6064,7 +6064,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.Text.Json.JsonEncodedText):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue4",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.Text.Json.JsonEncodedText):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6080,7 +6080,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.String):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue5",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6096,7 +6096,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue6",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6112,7 +6112,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteStringValue(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteStringValue",
-          "tsEmitName": "writeStringValue7",
+          "tsEmitName": "writeStringValue",
           "normalizedSignature": "WriteStringValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6128,7 +6128,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.UInt32):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue6",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6144,7 +6144,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Utf8JsonWriter::WriteNumberValue(System.UInt64):System.Void",
           "clrName": "WriteNumberValue",
-          "tsEmitName": "writeNumberValue7",
+          "tsEmitName": "writeNumberValue",
           "normalizedSignature": "WriteNumberValue|(System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6299,7 +6299,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonDocument,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize2",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonDocument,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6315,7 +6315,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonDocument,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize3",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonDocument,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6331,7 +6331,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonDocument,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize4",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonDocument,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6347,7 +6347,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonDocument,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize5",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonDocument,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6363,7 +6363,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonElement,System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize6",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonElement,System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6379,7 +6379,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonElement,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize7",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonElement,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6395,7 +6395,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonElement,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize8",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonElement,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6411,7 +6411,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonElement,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize9",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonElement,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6427,7 +6427,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.JsonElement,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize10",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.JsonElement,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6443,7 +6443,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Nodes.JsonNode,System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize11",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Nodes.JsonNode,System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6459,7 +6459,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Nodes.JsonNode,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize12",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Nodes.JsonNode,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6475,7 +6475,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Nodes.JsonNode,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize13",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Nodes.JsonNode,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6491,7 +6491,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Nodes.JsonNode,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize14",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Nodes.JsonNode,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6507,7 +6507,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Nodes.JsonNode,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize15",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Nodes.JsonNode,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6539,7 +6539,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Threading.CancellationToken):ValueTask_1",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync2",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Threading.CancellationToken):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6555,7 +6555,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Pipelines.PipeReader,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync3",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Pipelines.PipeReader,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6571,7 +6571,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Pipelines.PipeReader,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync4",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Pipelines.PipeReader,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6587,7 +6587,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Pipelines.PipeReader,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync5",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Pipelines.PipeReader,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6619,7 +6619,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable2",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6635,7 +6635,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Boolean,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable3",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Pipelines.PipeReader,JsonTypeInfo_1,System.Boolean,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6651,7 +6651,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Pipelines.PipeReader,System.Boolean,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable4",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Pipelines.PipeReader,System.Boolean,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6683,7 +6683,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToDocument(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.JsonDocument",
           "clrName": "SerializeToDocument",
-          "tsEmitName": "serializeToDocument2",
+          "tsEmitName": "serializeToDocument",
           "normalizedSignature": "SerializeToDocument|(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6699,7 +6699,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToDocument(TValue,JsonTypeInfo_1):System.Text.Json.JsonDocument",
           "clrName": "SerializeToDocument",
-          "tsEmitName": "serializeToDocument3",
+          "tsEmitName": "serializeToDocument",
           "normalizedSignature": "SerializeToDocument|(TValue,JsonTypeInfo_1):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6715,7 +6715,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToDocument(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.JsonDocument",
           "clrName": "SerializeToDocument",
-          "tsEmitName": "serializeToDocument4",
+          "tsEmitName": "serializeToDocument",
           "normalizedSignature": "SerializeToDocument|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6731,7 +6731,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToDocument(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.JsonDocument",
           "clrName": "SerializeToDocument",
-          "tsEmitName": "serializeToDocument5",
+          "tsEmitName": "serializeToDocument",
           "normalizedSignature": "SerializeToDocument|(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.JsonDocument|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6763,7 +6763,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToElement(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.JsonElement",
           "clrName": "SerializeToElement",
-          "tsEmitName": "serializeToElement2",
+          "tsEmitName": "serializeToElement",
           "normalizedSignature": "SerializeToElement|(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6779,7 +6779,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToElement(TValue,JsonTypeInfo_1):System.Text.Json.JsonElement",
           "clrName": "SerializeToElement",
-          "tsEmitName": "serializeToElement3",
+          "tsEmitName": "serializeToElement",
           "normalizedSignature": "SerializeToElement|(TValue,JsonTypeInfo_1):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6795,7 +6795,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToElement(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.JsonElement",
           "clrName": "SerializeToElement",
-          "tsEmitName": "serializeToElement4",
+          "tsEmitName": "serializeToElement",
           "normalizedSignature": "SerializeToElement|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6811,7 +6811,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToElement(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.JsonElement",
           "clrName": "SerializeToElement",
-          "tsEmitName": "serializeToElement5",
+          "tsEmitName": "serializeToElement",
           "normalizedSignature": "SerializeToElement|(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.JsonElement|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6843,7 +6843,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToNode(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "SerializeToNode",
-          "tsEmitName": "serializeToNode2",
+          "tsEmitName": "serializeToNode",
           "normalizedSignature": "SerializeToNode|(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6859,7 +6859,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToNode(TValue,JsonTypeInfo_1):System.Text.Json.Nodes.JsonNode",
           "clrName": "SerializeToNode",
-          "tsEmitName": "serializeToNode3",
+          "tsEmitName": "serializeToNode",
           "normalizedSignature": "SerializeToNode|(TValue,JsonTypeInfo_1):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6875,7 +6875,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToNode(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.Nodes.JsonNode",
           "clrName": "SerializeToNode",
-          "tsEmitName": "serializeToNode4",
+          "tsEmitName": "serializeToNode",
           "normalizedSignature": "SerializeToNode|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6891,7 +6891,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToNode(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.Nodes.JsonNode",
           "clrName": "SerializeToNode",
-          "tsEmitName": "serializeToNode5",
+          "tsEmitName": "serializeToNode",
           "normalizedSignature": "SerializeToNode|(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Text.Json.Nodes.JsonNode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6907,7 +6907,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize16",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6923,7 +6923,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize17",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6939,7 +6939,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize18",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6955,7 +6955,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize19",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6971,7 +6971,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize20",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6987,7 +6987,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Stream,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):ValueTask_1",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync6",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Stream,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7003,7 +7003,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.IO.Stream,System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize21",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream,System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7019,7 +7019,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Stream,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync7",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Stream,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7035,7 +7035,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.IO.Stream,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize22",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7051,7 +7051,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Stream,JsonTypeInfo_1,System.Threading.CancellationToken):ValueTask_1",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync8",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Stream,JsonTypeInfo_1,System.Threading.CancellationToken):ValueTask_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7067,7 +7067,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Stream,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync9",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Stream,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7083,7 +7083,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.IO.Stream,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize23",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7099,7 +7099,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.IO.Stream,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize24",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7115,7 +7115,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsync(System.IO.Stream,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "DeserializeAsync",
-          "tsEmitName": "deserializeAsync10",
+          "tsEmitName": "deserializeAsync",
           "normalizedSignature": "DeserializeAsync|(System.IO.Stream,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7131,7 +7131,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.IO.Stream,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize25",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.IO.Stream,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7147,7 +7147,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Stream,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable5",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Stream,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7163,7 +7163,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Stream,System.Boolean,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable6",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Stream,System.Boolean,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7179,7 +7179,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Stream,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable7",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Stream,JsonTypeInfo_1,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7195,7 +7195,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::DeserializeAsyncEnumerable(System.IO.Stream,JsonTypeInfo_1,System.Boolean,System.Threading.CancellationToken):IAsyncEnumerable_1",
           "clrName": "DeserializeAsyncEnumerable",
-          "tsEmitName": "deserializeAsyncEnumerable8",
+          "tsEmitName": "deserializeAsyncEnumerable",
           "normalizedSignature": "DeserializeAsyncEnumerable|(System.IO.Stream,JsonTypeInfo_1,System.Boolean,System.Threading.CancellationToken):IAsyncEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7211,7 +7211,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.String,System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize26",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.String,System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7227,7 +7227,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize27",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7243,7 +7243,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.String,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize28",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.String,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7259,7 +7259,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize29",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7275,7 +7275,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.String,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize30",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.String,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7291,7 +7291,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize31",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7307,7 +7307,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.String,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize32",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.String,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7323,7 +7323,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize33",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7339,7 +7339,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize34",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.String,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7355,7 +7355,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize35",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7371,7 +7371,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Utf8JsonReader\u0026,System.Text.Json.JsonSerializerOptions):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize36",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Utf8JsonReader\u0026,System.Text.Json.JsonSerializerOptions):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7387,7 +7387,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize37",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.JsonSerializerOptions):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7403,7 +7403,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Utf8JsonReader\u0026,JsonTypeInfo_1):TValue",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize38",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Utf8JsonReader\u0026,JsonTypeInfo_1):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7419,7 +7419,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Utf8JsonReader\u0026,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize39",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Utf8JsonReader\u0026,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7435,7 +7435,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Deserialize(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object",
           "clrName": "Deserialize",
-          "tsEmitName": "deserialize40",
+          "tsEmitName": "deserialize",
           "normalizedSignature": "Deserialize|(System.Text.Json.Utf8JsonReader\u0026,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7467,7 +7467,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToUtf8Bytes(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Byte[]",
           "clrName": "SerializeToUtf8Bytes",
-          "tsEmitName": "serializeToUtf8Bytes2",
+          "tsEmitName": "serializeToUtf8Bytes",
           "normalizedSignature": "SerializeToUtf8Bytes|(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7483,7 +7483,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToUtf8Bytes(TValue,JsonTypeInfo_1):System.Byte[]",
           "clrName": "SerializeToUtf8Bytes",
-          "tsEmitName": "serializeToUtf8Bytes3",
+          "tsEmitName": "serializeToUtf8Bytes",
           "normalizedSignature": "SerializeToUtf8Bytes|(TValue,JsonTypeInfo_1):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7499,7 +7499,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToUtf8Bytes(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Byte[]",
           "clrName": "SerializeToUtf8Bytes",
-          "tsEmitName": "serializeToUtf8Bytes4",
+          "tsEmitName": "serializeToUtf8Bytes",
           "normalizedSignature": "SerializeToUtf8Bytes|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7515,7 +7515,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeToUtf8Bytes(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Byte[]",
           "clrName": "SerializeToUtf8Bytes",
-          "tsEmitName": "serializeToUtf8Bytes5",
+          "tsEmitName": "serializeToUtf8Bytes",
           "normalizedSignature": "SerializeToUtf8Bytes|(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Byte[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7563,7 +7563,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Stream,System.Object,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync2",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Stream,System.Object,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7579,7 +7579,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.IO.Stream,System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize2",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7595,7 +7595,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Stream,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync3",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Stream,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7611,7 +7611,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.IO.Stream,TValue,JsonTypeInfo_1):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize3",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,TValue,JsonTypeInfo_1):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7627,7 +7627,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Stream,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync4",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Stream,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7643,7 +7643,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.IO.Stream,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize4",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7659,7 +7659,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Stream,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync5",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Stream,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7675,7 +7675,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.IO.Stream,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize5",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.IO.Stream,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7691,7 +7691,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(TValue,System.Text.Json.JsonSerializerOptions):System.String",
           "clrName": "Serialize",
-          "tsEmitName": "serialize6",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(TValue,System.Text.Json.JsonSerializerOptions):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7707,7 +7707,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.String",
           "clrName": "Serialize",
-          "tsEmitName": "serialize7",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7723,7 +7723,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(TValue,JsonTypeInfo_1):System.String",
           "clrName": "Serialize",
-          "tsEmitName": "serialize8",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(TValue,JsonTypeInfo_1):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7739,7 +7739,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.String",
           "clrName": "Serialize",
-          "tsEmitName": "serialize9",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7755,7 +7755,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.String",
           "clrName": "Serialize",
-          "tsEmitName": "serialize10",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7771,7 +7771,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Pipelines.PipeWriter,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync6",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Pipelines.PipeWriter,TValue,JsonTypeInfo_1,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7787,7 +7787,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Pipelines.PipeWriter,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync7",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Pipelines.PipeWriter,TValue,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7803,7 +7803,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Pipelines.PipeWriter,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync8",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Pipelines.PipeWriter,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7819,7 +7819,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Pipelines.PipeWriter,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync9",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Pipelines.PipeWriter,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7835,7 +7835,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::SerializeAsync(System.IO.Pipelines.PipeWriter,System.Object,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "SerializeAsync",
-          "tsEmitName": "serializeAsync10",
+          "tsEmitName": "serializeAsync",
           "normalizedSignature": "SerializeAsync|(System.IO.Pipelines.PipeWriter,System.Object,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7851,7 +7851,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Text.Json.Utf8JsonWriter,TValue,System.Text.Json.JsonSerializerOptions):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize11",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Text.Json.Utf8JsonWriter,TValue,System.Text.Json.JsonSerializerOptions):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7867,7 +7867,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Text.Json.Utf8JsonWriter,System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize12",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Text.Json.Utf8JsonWriter,System.Object,System.Type,System.Text.Json.JsonSerializerOptions):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7883,7 +7883,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Text.Json.Utf8JsonWriter,TValue,JsonTypeInfo_1):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize13",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Text.Json.Utf8JsonWriter,TValue,JsonTypeInfo_1):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7899,7 +7899,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize14",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Text.Json.Utf8JsonWriter,System.Object,System.Text.Json.Serialization.Metadata.JsonTypeInfo):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7915,7 +7915,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializer::Serialize(System.Text.Json.Utf8JsonWriter,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Void",
           "clrName": "Serialize",
-          "tsEmitName": "serialize15",
+          "tsEmitName": "serialize",
           "normalizedSignature": "Serialize|(System.Text.Json.Utf8JsonWriter,System.Object,System.Type,System.Text.Json.Serialization.JsonSerializerContext):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

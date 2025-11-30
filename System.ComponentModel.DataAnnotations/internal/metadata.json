@@ -2763,7 +2763,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.ValidationAttribute::Validate(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate2",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3259,7 +3259,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::TryValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Boolean):System.Boolean",
           "clrName": "TryValidateObject",
-          "tsEmitName": "tryValidateObject2",
+          "tsEmitName": "tryValidateObject",
           "normalizedSignature": "TryValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Collections.Generic.ICollection_1[[System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.Annotations,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3323,7 +3323,7 @@
         {
           "stableId": "System.ComponentModel.Annotations:System.ComponentModel.DataAnnotations.Validator::ValidateObject(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Boolean):System.Void",
           "clrName": "ValidateObject",
-          "tsEmitName": "validateObject2",
+          "tsEmitName": "validateObject",
           "normalizedSignature": "ValidateObject|(System.Object,System.ComponentModel.DataAnnotations.ValidationContext,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

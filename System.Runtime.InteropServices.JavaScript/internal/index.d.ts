@@ -259,10 +259,10 @@ export class JSMarshalerType$instance {
     static action(arg1: JSMarshalerType): JSMarshalerType;
     static array(element: JSMarshalerType): JSMarshalerType;
     static arraySegment(element: JSMarshalerType): JSMarshalerType;
-    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_4(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static function_4(result: JSMarshalerType): JSMarshalerType;
+    static function_(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_(result: JSMarshalerType): JSMarshalerType;
     static nullable(primitive: JSMarshalerType): JSMarshalerType;
     static span(element: JSMarshalerType): JSMarshalerType;
     static task(): JSMarshalerType;

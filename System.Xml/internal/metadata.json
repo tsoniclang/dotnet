@@ -1554,7 +1554,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.IXmlBinaryReaderInitializer::SetInput(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput2",
+          "tsEmitName": "setInput",
           "normalizedSignature": "SetInput|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.IXmlDictionary::TryLookup(System.Int32,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup2",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.Int32,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1652,7 +1652,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.IXmlDictionary::TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup3",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1814,7 +1814,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.IXmlTextReaderInitializer::SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void",
           "clrName": "SetInput",
-          "tsEmitName": "setInput2",
+          "tsEmitName": "setInput",
           "normalizedSignature": "SetInput|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1896,7 +1896,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Add(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1928,7 +1928,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Get(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_2",
+          "tsEmitName": "get_",
           "normalizedSignature": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2136,7 +2136,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.UniqueId::TryGetGuid(System.Byte[],System.Int32):System.Boolean",
           "clrName": "TryGetGuid",
-          "tsEmitName": "tryGetGuid2",
+          "tsEmitName": "tryGetGuid",
           "normalizedSignature": "TryGetGuid|(System.Byte[],System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3106,7 +3106,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlBinaryReaderSession::TryLookup(System.String,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup2",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.String,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3122,7 +3122,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlBinaryReaderSession::TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup3",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4326,7 +4326,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Char):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Char):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4342,7 +4342,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Decimal):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString3",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Decimal):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4358,7 +4358,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.SByte):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString4",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.SByte):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4374,7 +4374,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Int16):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString5",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4390,7 +4390,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Int32):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString6",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4406,7 +4406,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Int64):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString7",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4422,7 +4422,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Byte):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString8",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Byte):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4438,7 +4438,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.UInt16):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString9",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.UInt16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4454,7 +4454,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.UInt32):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString10",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.UInt32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4470,7 +4470,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.UInt64):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString11",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.UInt64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4486,7 +4486,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Single):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString12",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Single):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4502,7 +4502,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Double):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString13",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4518,7 +4518,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.TimeSpan):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString14",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.TimeSpan):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4534,7 +4534,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.DateTime):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString15",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTime):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4550,7 +4550,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.DateTime,System.String):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString16",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTime,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4566,7 +4566,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.DateTime,System.Xml.XmlDateTimeSerializationMode):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString17",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTime,System.Xml.XmlDateTimeSerializationMode):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4582,7 +4582,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.DateTimeOffset):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString18",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTimeOffset):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4598,7 +4598,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.DateTimeOffset,System.String):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString19",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTimeOffset,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4614,7 +4614,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToString(System.Guid):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString20",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Guid):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4870,7 +4870,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToDateTime(System.String,System.String):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime2",
+          "tsEmitName": "toDateTime",
           "normalizedSignature": "ToDateTime|(System.String,System.String):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4886,7 +4886,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToDateTime(System.String,System.String[]):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime3",
+          "tsEmitName": "toDateTime",
           "normalizedSignature": "ToDateTime|(System.String,System.String[]):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4902,7 +4902,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToDateTime(System.String,System.Xml.XmlDateTimeSerializationMode):System.DateTime",
           "clrName": "ToDateTime",
-          "tsEmitName": "toDateTime4",
+          "tsEmitName": "toDateTime",
           "normalizedSignature": "ToDateTime|(System.String,System.Xml.XmlDateTimeSerializationMode):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4934,7 +4934,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToDateTimeOffset(System.String,System.String):System.DateTimeOffset",
           "clrName": "ToDateTimeOffset",
-          "tsEmitName": "toDateTimeOffset2",
+          "tsEmitName": "toDateTimeOffset",
           "normalizedSignature": "ToDateTimeOffset|(System.String,System.String):System.DateTimeOffset|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4950,7 +4950,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlConvert::ToDateTimeOffset(System.String,System.String[]):System.DateTimeOffset",
           "clrName": "ToDateTimeOffset",
-          "tsEmitName": "toDateTimeOffset3",
+          "tsEmitName": "toDateTimeOffset",
           "normalizedSignature": "ToDateTimeOffset|(System.String,System.String[]):System.DateTimeOffset|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5101,7 +5101,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::Load(System.IO.Stream):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5117,7 +5117,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::Load(System.IO.TextReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load3",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.IO.TextReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5133,7 +5133,7 @@
         {
           "stableId": "System.Data.Common:System.Xml.XmlDataDocument::Load(System.Xml.XmlReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load4",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5721,7 +5721,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionary::TryLookup(System.Int32,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup2",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.Int32,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5737,7 +5737,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionary::TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean",
           "clrName": "TryLookup",
-          "tsEmitName": "tryLookup3",
+          "tsEmitName": "tryLookup",
           "normalizedSignature": "TryLookup|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString\u0026):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5880,7 +5880,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader2",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5896,7 +5896,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader3",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5912,7 +5912,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader4",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5928,7 +5928,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader5",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.Byte[],System.Int32,System.Int32,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5944,7 +5944,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader6",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5960,7 +5960,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader7",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5976,7 +5976,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader8",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5992,7 +5992,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateBinaryReader(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateBinaryReader",
-          "tsEmitName": "createBinaryReader9",
+          "tsEmitName": "createBinaryReader",
           "normalizedSignature": "CreateBinaryReader|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlDictionaryReaderQuotas,System.Xml.XmlBinaryReaderSession,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6024,7 +6024,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateTextReader(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateTextReader",
-          "tsEmitName": "createTextReader2",
+          "tsEmitName": "createTextReader",
           "normalizedSignature": "CreateTextReader|(System.Byte[],System.Int32,System.Int32,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6040,7 +6040,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateTextReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateTextReader",
-          "tsEmitName": "createTextReader3",
+          "tsEmitName": "createTextReader",
           "normalizedSignature": "CreateTextReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6056,7 +6056,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateTextReader(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateTextReader",
-          "tsEmitName": "createTextReader4",
+          "tsEmitName": "createTextReader",
           "normalizedSignature": "CreateTextReader|(System.IO.Stream,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6072,7 +6072,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateTextReader(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateTextReader",
-          "tsEmitName": "createTextReader5",
+          "tsEmitName": "createTextReader",
           "normalizedSignature": "CreateTextReader|(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6104,7 +6104,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.IO.Stream,System.Text.Encoding[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader2",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.IO.Stream,System.Text.Encoding[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6120,7 +6120,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.IO.Stream,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader3",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.IO.Stream,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6136,7 +6136,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.IO.Stream,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas,System.Int32,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader4",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.IO.Stream,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas,System.Int32,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6152,7 +6152,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader5",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6168,7 +6168,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader6",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6184,7 +6184,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader7",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6200,7 +6200,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::CreateMtomReader(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas,System.Int32,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader",
           "clrName": "CreateMtomReader",
-          "tsEmitName": "createMtomReader8",
+          "tsEmitName": "createMtomReader",
           "normalizedSignature": "CreateMtomReader|(System.Byte[],System.Int32,System.Int32,System.Text.Encoding[],System.String,System.Xml.XmlDictionaryReaderQuotas,System.Int32,System.Xml.OnXmlDictionaryReaderClose):System.Xml.XmlDictionaryReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6264,7 +6264,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::MoveToStartElement(System.String):System.Void",
           "clrName": "MoveToStartElement",
-          "tsEmitName": "moveToStartElement2",
+          "tsEmitName": "moveToStartElement",
           "normalizedSignature": "MoveToStartElement|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6280,7 +6280,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::MoveToStartElement(System.String,System.String):System.Void",
           "clrName": "MoveToStartElement",
-          "tsEmitName": "moveToStartElement3",
+          "tsEmitName": "moveToStartElement",
           "normalizedSignature": "MoveToStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6296,7 +6296,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::MoveToStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "MoveToStartElement",
-          "tsEmitName": "moveToStartElement4",
+          "tsEmitName": "moveToStartElement",
           "normalizedSignature": "MoveToStartElement|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6328,7 +6328,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsLocalName(System.Xml.XmlDictionaryString):System.Boolean",
           "clrName": "IsLocalName",
-          "tsEmitName": "isLocalName2",
+          "tsEmitName": "isLocalName",
           "normalizedSignature": "IsLocalName|(System.Xml.XmlDictionaryString):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6360,7 +6360,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IsNamespaceUri(System.Xml.XmlDictionaryString):System.Boolean",
           "clrName": "IsNamespaceUri",
-          "tsEmitName": "isNamespaceUri2",
+          "tsEmitName": "isNamespaceUri",
           "normalizedSignature": "IsNamespaceUri|(System.Xml.XmlDictionaryString):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6392,7 +6392,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadFullStartElement(System.String):System.Void",
           "clrName": "ReadFullStartElement",
-          "tsEmitName": "readFullStartElement2",
+          "tsEmitName": "readFullStartElement",
           "normalizedSignature": "ReadFullStartElement|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6408,7 +6408,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadFullStartElement(System.String,System.String):System.Void",
           "clrName": "ReadFullStartElement",
-          "tsEmitName": "readFullStartElement3",
+          "tsEmitName": "readFullStartElement",
           "normalizedSignature": "ReadFullStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6424,7 +6424,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadFullStartElement(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "ReadFullStartElement",
-          "tsEmitName": "readFullStartElement4",
+          "tsEmitName": "readFullStartElement",
           "normalizedSignature": "ReadFullStartElement|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6488,7 +6488,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::IndexOfLocalName(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString):System.Int32",
           "clrName": "IndexOfLocalName",
-          "tsEmitName": "indexOfLocalName2",
+          "tsEmitName": "indexOfLocalName",
           "normalizedSignature": "IndexOfLocalName|(System.Xml.XmlDictionaryString[],System.Xml.XmlDictionaryString):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6648,7 +6648,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsString(System.String[],System.Int32\u0026):System.String",
           "clrName": "ReadContentAsString",
-          "tsEmitName": "readContentAsString2",
+          "tsEmitName": "readContentAsString",
           "normalizedSignature": "ReadContentAsString|(System.String[],System.Int32\u0026):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6664,7 +6664,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadContentAsString(System.Xml.XmlDictionaryString[],System.Int32\u0026):System.String",
           "clrName": "ReadContentAsString",
-          "tsEmitName": "readContentAsString3",
+          "tsEmitName": "readContentAsString",
           "normalizedSignature": "ReadContentAsString|(System.Xml.XmlDictionaryString[],System.Int32\u0026):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7096,7 +7096,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadBooleanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Boolean[]",
           "clrName": "ReadBooleanArray",
-          "tsEmitName": "readBooleanArray2",
+          "tsEmitName": "readBooleanArray",
           "normalizedSignature": "ReadBooleanArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Boolean[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7128,7 +7128,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray2",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7160,7 +7160,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadInt16Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int16[]",
           "clrName": "ReadInt16Array",
-          "tsEmitName": "readInt16Array2",
+          "tsEmitName": "readInt16Array",
           "normalizedSignature": "ReadInt16Array|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int16[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7176,7 +7176,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Int16[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray3",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Int16[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7192,7 +7192,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray4",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7224,7 +7224,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadInt32Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int32[]",
           "clrName": "ReadInt32Array",
-          "tsEmitName": "readInt32Array2",
+          "tsEmitName": "readInt32Array",
           "normalizedSignature": "ReadInt32Array|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int32[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7240,7 +7240,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Int32[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray5",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Int32[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7256,7 +7256,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray6",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7288,7 +7288,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadInt64Array(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int64[]",
           "clrName": "ReadInt64Array",
-          "tsEmitName": "readInt64Array2",
+          "tsEmitName": "readInt64Array",
           "normalizedSignature": "ReadInt64Array|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Int64[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7304,7 +7304,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Int64[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray7",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Int64[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7320,7 +7320,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray8",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7352,7 +7352,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadSingleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Single[]",
           "clrName": "ReadSingleArray",
-          "tsEmitName": "readSingleArray2",
+          "tsEmitName": "readSingleArray",
           "normalizedSignature": "ReadSingleArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Single[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7368,7 +7368,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Single[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray9",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Single[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7384,7 +7384,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray10",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7416,7 +7416,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadDoubleArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Double[]",
           "clrName": "ReadDoubleArray",
-          "tsEmitName": "readDoubleArray2",
+          "tsEmitName": "readDoubleArray",
           "normalizedSignature": "ReadDoubleArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Double[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7432,7 +7432,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Double[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray11",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Double[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7448,7 +7448,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray12",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7480,7 +7480,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadDecimalArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Decimal[]",
           "clrName": "ReadDecimalArray",
-          "tsEmitName": "readDecimalArray2",
+          "tsEmitName": "readDecimalArray",
           "normalizedSignature": "ReadDecimalArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Decimal[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7496,7 +7496,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Decimal[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray13",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Decimal[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7512,7 +7512,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray14",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7544,7 +7544,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadDateTimeArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.DateTime[]",
           "clrName": "ReadDateTimeArray",
-          "tsEmitName": "readDateTimeArray2",
+          "tsEmitName": "readDateTimeArray",
           "normalizedSignature": "ReadDateTimeArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.DateTime[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7560,7 +7560,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.DateTime[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray15",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.DateTime[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7576,7 +7576,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray16",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7608,7 +7608,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadGuidArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Guid[]",
           "clrName": "ReadGuidArray",
-          "tsEmitName": "readGuidArray2",
+          "tsEmitName": "readGuidArray",
           "normalizedSignature": "ReadGuidArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Guid[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7624,7 +7624,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.Guid[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray17",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.Guid[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7640,7 +7640,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray18",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7672,7 +7672,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadTimeSpanArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.TimeSpan[]",
           "clrName": "ReadTimeSpanArray",
-          "tsEmitName": "readTimeSpanArray2",
+          "tsEmitName": "readTimeSpanArray",
           "normalizedSignature": "ReadTimeSpanArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.TimeSpan[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7688,7 +7688,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray19",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.String,System.String,System.TimeSpan[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7704,7 +7704,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReader::ReadArray(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32):System.Int32",
           "clrName": "ReadArray",
-          "tsEmitName": "readArray20",
+          "tsEmitName": "readArray",
           "normalizedSignature": "ReadArray|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8398,7 +8398,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateBinaryWriter",
-          "tsEmitName": "createBinaryWriter2",
+          "tsEmitName": "createBinaryWriter",
           "normalizedSignature": "CreateBinaryWriter|(System.IO.Stream,System.Xml.IXmlDictionary):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8414,7 +8414,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateBinaryWriter",
-          "tsEmitName": "createBinaryWriter3",
+          "tsEmitName": "createBinaryWriter",
           "normalizedSignature": "CreateBinaryWriter|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8430,7 +8430,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateBinaryWriter(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateBinaryWriter",
-          "tsEmitName": "createBinaryWriter4",
+          "tsEmitName": "createBinaryWriter",
           "normalizedSignature": "CreateBinaryWriter|(System.IO.Stream,System.Xml.IXmlDictionary,System.Xml.XmlBinaryWriterSession,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8462,7 +8462,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateTextWriter(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateTextWriter",
-          "tsEmitName": "createTextWriter2",
+          "tsEmitName": "createTextWriter",
           "normalizedSignature": "CreateTextWriter|(System.IO.Stream,System.Text.Encoding):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8478,7 +8478,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateTextWriter(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateTextWriter",
-          "tsEmitName": "createTextWriter3",
+          "tsEmitName": "createTextWriter",
           "normalizedSignature": "CreateTextWriter|(System.IO.Stream,System.Text.Encoding,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8510,7 +8510,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::CreateMtomWriter(System.IO.Stream,System.Text.Encoding,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter",
           "clrName": "CreateMtomWriter",
-          "tsEmitName": "createMtomWriter2",
+          "tsEmitName": "createMtomWriter",
           "normalizedSignature": "CreateMtomWriter|(System.IO.Stream,System.Text.Encoding,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean):System.Xml.XmlDictionaryWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8574,7 +8574,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartElement(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement5",
+          "tsEmitName": "writeStartElement4",
           "normalizedSignature": "WriteStartElement|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8606,7 +8606,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteStartAttribute(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute5",
+          "tsEmitName": "writeStartAttribute4",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8654,7 +8654,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteXmlnsAttribute(System.String,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteXmlnsAttribute",
-          "tsEmitName": "writeXmlnsAttribute2",
+          "tsEmitName": "writeXmlnsAttribute",
           "normalizedSignature": "WriteXmlnsAttribute|(System.String,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8686,7 +8686,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteXmlAttribute(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void",
           "clrName": "WriteXmlAttribute",
-          "tsEmitName": "writeXmlAttribute2",
+          "tsEmitName": "writeXmlAttribute",
           "normalizedSignature": "WriteXmlAttribute|(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8702,7 +8702,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteAttributeString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "writeAttributeString5",
+          "tsEmitName": "writeAttributeString4",
           "normalizedSignature": "WriteAttributeString|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8734,7 +8734,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteElementString(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "writeElementString5",
+          "tsEmitName": "writeElementString4",
           "normalizedSignature": "WriteElementString|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8798,7 +8798,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Xml.UniqueId):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue12",
+          "tsEmitName": "writeValue11",
           "normalizedSignature": "WriteValue|(System.Xml.UniqueId):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8814,7 +8814,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Guid):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue13",
+          "tsEmitName": "writeValue11",
           "normalizedSignature": "WriteValue|(System.Guid):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8830,7 +8830,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.TimeSpan):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue14",
+          "tsEmitName": "writeValue11",
           "normalizedSignature": "WriteValue|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8846,7 +8846,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteValue(System.Xml.IStreamProvider):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue15",
+          "tsEmitName": "writeValue11",
           "normalizedSignature": "WriteValue|(System.Xml.IStreamProvider):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8926,7 +8926,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteNode(System.Xml.XmlDictionaryReader,System.Boolean):System.Void",
           "clrName": "WriteNode",
-          "tsEmitName": "writeNode3",
+          "tsEmitName": "writeNode2",
           "normalizedSignature": "WriteNode|(System.Xml.XmlDictionaryReader,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8958,7 +8958,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray2",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Boolean[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8974,7 +8974,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Int16[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray3",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Int16[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8990,7 +8990,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray4",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int16[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9006,7 +9006,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Int32[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray5",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Int32[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9022,7 +9022,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray6",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int32[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9038,7 +9038,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Int64[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray7",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Int64[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9054,7 +9054,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray8",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Int64[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9070,7 +9070,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Single[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray9",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Single[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9086,7 +9086,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray10",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Single[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9102,7 +9102,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Double[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray11",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Double[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9118,7 +9118,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray12",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Double[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9134,7 +9134,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Decimal[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray13",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Decimal[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9150,7 +9150,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray14",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Decimal[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9166,7 +9166,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.DateTime[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray15",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.DateTime[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9182,7 +9182,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray16",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.DateTime[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9198,7 +9198,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.Guid[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray17",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.Guid[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9214,7 +9214,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray18",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.Guid[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9230,7 +9230,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.String,System.String,System.TimeSpan[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray19",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.String,System.String,System.TimeSpan[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9246,7 +9246,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryWriter::WriteArray(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteArray",
-          "tsEmitName": "writeArray20",
+          "tsEmitName": "writeArray",
           "normalizedSignature": "WriteArray|(System.String,System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString,System.TimeSpan[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10017,7 +10017,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateAttribute(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "CreateAttribute",
-          "tsEmitName": "createAttribute2",
+          "tsEmitName": "createAttribute",
           "normalizedSignature": "CreateAttribute|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10033,7 +10033,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateElement(System.String,System.String):System.Xml.XmlElement",
           "clrName": "CreateElement",
-          "tsEmitName": "createElement2",
+          "tsEmitName": "createElement",
           "normalizedSignature": "CreateElement|(System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10049,7 +10049,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::GetElementsByTagName(System.String,System.String):System.Xml.XmlNodeList",
           "clrName": "GetElementsByTagName",
-          "tsEmitName": "getElementsByTagName2",
+          "tsEmitName": "getElementsByTagName",
           "normalizedSignature": "GetElementsByTagName|(System.String,System.String):System.Xml.XmlNodeList|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10097,7 +10097,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateAttribute(System.String,System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "CreateAttribute",
-          "tsEmitName": "createAttribute3",
+          "tsEmitName": "createAttribute",
           "normalizedSignature": "CreateAttribute|(System.String,System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10113,7 +10113,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateElement(System.String,System.String,System.String):System.Xml.XmlElement",
           "clrName": "CreateElement",
-          "tsEmitName": "createElement3",
+          "tsEmitName": "createElement",
           "normalizedSignature": "CreateElement|(System.String,System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10145,7 +10145,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateNode(System.String,System.String,System.String):System.Xml.XmlNode",
           "clrName": "CreateNode",
-          "tsEmitName": "createNode2",
+          "tsEmitName": "createNode",
           "normalizedSignature": "CreateNode|(System.String,System.String,System.String):System.Xml.XmlNode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10161,7 +10161,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::CreateNode(System.Xml.XmlNodeType,System.String,System.String):System.Xml.XmlNode",
           "clrName": "CreateNode",
-          "tsEmitName": "createNode3",
+          "tsEmitName": "createNode",
           "normalizedSignature": "CreateNode|(System.Xml.XmlNodeType,System.String,System.String):System.Xml.XmlNode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10209,7 +10209,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Load(System.IO.Stream):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10225,7 +10225,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Load(System.IO.TextReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load3",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.IO.TextReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10241,7 +10241,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Load(System.Xml.XmlReader):System.Void",
           "clrName": "Load",
-          "tsEmitName": "load4",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Xml.XmlReader):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10289,7 +10289,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Save(System.IO.Stream):System.Void",
           "clrName": "Save",
-          "tsEmitName": "save2",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.IO.Stream):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10305,7 +10305,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Save(System.IO.TextWriter):System.Void",
           "clrName": "Save",
-          "tsEmitName": "save3",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10321,7 +10321,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Save(System.Xml.XmlWriter):System.Void",
           "clrName": "Save",
-          "tsEmitName": "save4",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10385,7 +10385,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDocument::Validate(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlNode):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate2",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlNode):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11542,7 +11542,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute2",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11558,7 +11558,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::SetAttribute(System.String,System.String,System.String):System.String",
           "clrName": "SetAttribute",
-          "tsEmitName": "setAttribute2",
+          "tsEmitName": "setAttribute",
           "normalizedSignature": "SetAttribute|(System.String,System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11574,7 +11574,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::RemoveAttribute(System.String,System.String):System.Void",
           "clrName": "RemoveAttribute",
-          "tsEmitName": "removeAttribute2",
+          "tsEmitName": "removeAttribute",
           "normalizedSignature": "RemoveAttribute|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11590,7 +11590,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::GetAttributeNode(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "GetAttributeNode",
-          "tsEmitName": "getAttributeNode2",
+          "tsEmitName": "getAttributeNode",
           "normalizedSignature": "GetAttributeNode|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11606,7 +11606,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::SetAttributeNode(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "SetAttributeNode",
-          "tsEmitName": "setAttributeNode2",
+          "tsEmitName": "setAttributeNode",
           "normalizedSignature": "SetAttributeNode|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11622,7 +11622,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::RemoveAttributeNode(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "RemoveAttributeNode",
-          "tsEmitName": "removeAttributeNode2",
+          "tsEmitName": "removeAttributeNode",
           "normalizedSignature": "RemoveAttributeNode|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11638,7 +11638,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::GetElementsByTagName(System.String,System.String):System.Xml.XmlNodeList",
           "clrName": "GetElementsByTagName",
-          "tsEmitName": "getElementsByTagName2",
+          "tsEmitName": "getElementsByTagName",
           "normalizedSignature": "GetElementsByTagName|(System.String,System.String):System.Xml.XmlNodeList|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11670,7 +11670,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlElement::HasAttribute(System.String,System.String):System.Boolean",
           "clrName": "HasAttribute",
-          "tsEmitName": "hasAttribute2",
+          "tsEmitName": "hasAttribute",
           "normalizedSignature": "HasAttribute|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13145,7 +13145,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNamedNodeMap::GetNamedItem(System.String,System.String):System.Xml.XmlNode",
           "clrName": "GetNamedItem",
-          "tsEmitName": "getNamedItem2",
+          "tsEmitName": "getNamedItem",
           "normalizedSignature": "GetNamedItem|(System.String,System.String):System.Xml.XmlNode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13161,7 +13161,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNamedNodeMap::RemoveNamedItem(System.String,System.String):System.Xml.XmlNode",
           "clrName": "RemoveNamedItem",
-          "tsEmitName": "removeNamedItem2",
+          "tsEmitName": "removeNamedItem",
           "normalizedSignature": "RemoveNamedItem|(System.String,System.String):System.Xml.XmlNode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13508,7 +13508,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_2",
+          "tsEmitName": "get_",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13540,7 +13540,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Add(System.String):System.String",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13605,7 +13605,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::SelectSingleNode(System.String,System.Xml.XmlNamespaceManager):System.Xml.XmlNode",
           "clrName": "SelectSingleNode",
-          "tsEmitName": "selectSingleNode2",
+          "tsEmitName": "selectSingleNode",
           "normalizedSignature": "SelectSingleNode|(System.String,System.Xml.XmlNamespaceManager):System.Xml.XmlNode|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13637,7 +13637,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::SelectNodes(System.String,System.Xml.XmlNamespaceManager):System.Xml.XmlNodeList",
           "clrName": "SelectNodes",
-          "tsEmitName": "selectNodes2",
+          "tsEmitName": "selectNodes",
           "normalizedSignature": "SelectNodes|(System.String,System.Xml.XmlNamespaceManager):System.Xml.XmlNodeList|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14720,7 +14720,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute2",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14736,7 +14736,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::GetAttribute(System.Int32):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute3",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14768,7 +14768,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::MoveToAttribute(System.String,System.String):System.Boolean",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute2",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14784,7 +14784,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::MoveToAttribute(System.Int32):System.Void",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute3",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16567,7 +16567,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsObject(System.String,System.String):System.Object",
           "clrName": "ReadElementContentAsObject",
-          "tsEmitName": "readElementContentAsObject2",
+          "tsEmitName": "readElementContentAsObject",
           "normalizedSignature": "ReadElementContentAsObject|(System.String,System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16599,7 +16599,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsBoolean(System.String,System.String):System.Boolean",
           "clrName": "ReadElementContentAsBoolean",
-          "tsEmitName": "readElementContentAsBoolean2",
+          "tsEmitName": "readElementContentAsBoolean",
           "normalizedSignature": "ReadElementContentAsBoolean|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16631,7 +16631,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsDateTime(System.String,System.String):System.DateTime",
           "clrName": "ReadElementContentAsDateTime",
-          "tsEmitName": "readElementContentAsDateTime2",
+          "tsEmitName": "readElementContentAsDateTime",
           "normalizedSignature": "ReadElementContentAsDateTime|(System.String,System.String):System.DateTime|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16663,7 +16663,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsDouble(System.String,System.String):System.Double",
           "clrName": "ReadElementContentAsDouble",
-          "tsEmitName": "readElementContentAsDouble2",
+          "tsEmitName": "readElementContentAsDouble",
           "normalizedSignature": "ReadElementContentAsDouble|(System.String,System.String):System.Double|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16695,7 +16695,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsFloat(System.String,System.String):System.Single",
           "clrName": "ReadElementContentAsFloat",
-          "tsEmitName": "readElementContentAsFloat2",
+          "tsEmitName": "readElementContentAsFloat",
           "normalizedSignature": "ReadElementContentAsFloat|(System.String,System.String):System.Single|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16727,7 +16727,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsDecimal(System.String,System.String):System.Decimal",
           "clrName": "ReadElementContentAsDecimal",
-          "tsEmitName": "readElementContentAsDecimal2",
+          "tsEmitName": "readElementContentAsDecimal",
           "normalizedSignature": "ReadElementContentAsDecimal|(System.String,System.String):System.Decimal|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16759,7 +16759,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsInt(System.String,System.String):System.Int32",
           "clrName": "ReadElementContentAsInt",
-          "tsEmitName": "readElementContentAsInt2",
+          "tsEmitName": "readElementContentAsInt",
           "normalizedSignature": "ReadElementContentAsInt|(System.String,System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16791,7 +16791,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsLong(System.String,System.String):System.Int64",
           "clrName": "ReadElementContentAsLong",
-          "tsEmitName": "readElementContentAsLong2",
+          "tsEmitName": "readElementContentAsLong",
           "normalizedSignature": "ReadElementContentAsLong|(System.String,System.String):System.Int64|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16823,7 +16823,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAsString(System.String,System.String):System.String",
           "clrName": "ReadElementContentAsString",
-          "tsEmitName": "readElementContentAsString2",
+          "tsEmitName": "readElementContentAsString",
           "normalizedSignature": "ReadElementContentAsString|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16855,7 +16855,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementContentAs(System.Type,System.Xml.IXmlNamespaceResolver,System.String,System.String):System.Object",
           "clrName": "ReadElementContentAs",
-          "tsEmitName": "readElementContentAs2",
+          "tsEmitName": "readElementContentAs",
           "normalizedSignature": "ReadElementContentAs|(System.Type,System.Xml.IXmlNamespaceResolver,System.String,System.String):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16887,7 +16887,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute2",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16903,7 +16903,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::GetAttribute(System.Int32):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute3",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16935,7 +16935,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::MoveToAttribute(System.String,System.String):System.Boolean",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute2",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16951,7 +16951,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::MoveToAttribute(System.Int32):System.Void",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute3",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17239,7 +17239,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadStartElement(System.String):System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "readStartElement2",
+          "tsEmitName": "readStartElement",
           "normalizedSignature": "ReadStartElement|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17255,7 +17255,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadStartElement(System.String,System.String):System.Void",
           "clrName": "ReadStartElement",
-          "tsEmitName": "readStartElement3",
+          "tsEmitName": "readStartElement",
           "normalizedSignature": "ReadStartElement|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17287,7 +17287,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementString(System.String):System.String",
           "clrName": "ReadElementString",
-          "tsEmitName": "readElementString2",
+          "tsEmitName": "readElementString",
           "normalizedSignature": "ReadElementString|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17303,7 +17303,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadElementString(System.String,System.String):System.String",
           "clrName": "ReadElementString",
-          "tsEmitName": "readElementString3",
+          "tsEmitName": "readElementString",
           "normalizedSignature": "ReadElementString|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17351,7 +17351,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::IsStartElement(System.String):System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "isStartElement2",
+          "tsEmitName": "isStartElement",
           "normalizedSignature": "IsStartElement|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17367,7 +17367,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::IsStartElement(System.String,System.String):System.Boolean",
           "clrName": "IsStartElement",
-          "tsEmitName": "isStartElement3",
+          "tsEmitName": "isStartElement",
           "normalizedSignature": "IsStartElement|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17399,7 +17399,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadToFollowing(System.String,System.String):System.Boolean",
           "clrName": "ReadToFollowing",
-          "tsEmitName": "readToFollowing2",
+          "tsEmitName": "readToFollowing",
           "normalizedSignature": "ReadToFollowing|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17431,7 +17431,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadToDescendant(System.String,System.String):System.Boolean",
           "clrName": "ReadToDescendant",
-          "tsEmitName": "readToDescendant2",
+          "tsEmitName": "readToDescendant",
           "normalizedSignature": "ReadToDescendant|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17463,7 +17463,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::ReadToNextSibling(System.String,System.String):System.Boolean",
           "clrName": "ReadToNextSibling",
-          "tsEmitName": "readToNextSibling2",
+          "tsEmitName": "readToNextSibling",
           "normalizedSignature": "ReadToNextSibling|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17591,7 +17591,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.String,System.Xml.XmlReaderSettings):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Xml.XmlReaderSettings):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17607,7 +17607,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.String,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17623,7 +17623,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.Stream):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17639,7 +17639,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.Stream,System.Xml.XmlReaderSettings):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream,System.Xml.XmlReaderSettings):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17655,7 +17655,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.String):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream,System.Xml.XmlReaderSettings,System.String):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17671,7 +17671,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17687,7 +17687,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.TextReader):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextReader):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17703,7 +17703,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.TextReader,System.Xml.XmlReaderSettings):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create9",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextReader,System.Xml.XmlReaderSettings):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17719,7 +17719,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.String):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create10",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextReader,System.Xml.XmlReaderSettings,System.String):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17735,7 +17735,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create11",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17751,7 +17751,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::Create(System.Xml.XmlReader,System.Xml.XmlReaderSettings):System.Xml.XmlReader",
           "clrName": "Create",
-          "tsEmitName": "create12",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XmlReader,System.Xml.XmlReaderSettings):System.Xml.XmlReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19635,7 +19635,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute2",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19651,7 +19651,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::GetAttribute(System.Int32):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute3",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19683,7 +19683,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::MoveToAttribute(System.String,System.String):System.Boolean",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute2",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19699,7 +19699,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::MoveToAttribute(System.Int32):System.Void",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute3",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20744,7 +20744,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteStartDocument(System.Boolean):System.Void",
           "clrName": "WriteStartDocument",
-          "tsEmitName": "writeStartDocument2",
+          "tsEmitName": "writeStartDocument",
           "normalizedSignature": "WriteStartDocument|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21032,7 +21032,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextWriter::WriteRaw(System.String):System.Void",
           "clrName": "WriteRaw",
-          "tsEmitName": "writeRaw2",
+          "tsEmitName": "writeRaw",
           "normalizedSignature": "WriteRaw|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21624,7 +21624,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::GetAttribute(System.String,System.String):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute2",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.String,System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21640,7 +21640,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::GetAttribute(System.Int32):System.String",
           "clrName": "GetAttribute",
-          "tsEmitName": "getAttribute3",
+          "tsEmitName": "getAttribute",
           "normalizedSignature": "GetAttribute|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21672,7 +21672,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::MoveToAttribute(System.String,System.String):System.Boolean",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute2",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.String,System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21688,7 +21688,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::MoveToAttribute(System.Int32):System.Void",
           "clrName": "MoveToAttribute",
-          "tsEmitName": "moveToAttribute3",
+          "tsEmitName": "moveToAttribute",
           "normalizedSignature": "MoveToAttribute|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22856,7 +22856,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartDocument(System.Boolean):System.Void",
           "clrName": "WriteStartDocument",
-          "tsEmitName": "writeStartDocument2",
+          "tsEmitName": "writeStartDocument",
           "normalizedSignature": "WriteStartDocument|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22920,7 +22920,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartElement(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement2",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22936,7 +22936,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartElement(System.String):System.Void",
           "clrName": "WriteStartElement",
-          "tsEmitName": "writeStartElement3",
+          "tsEmitName": "writeStartElement",
           "normalizedSignature": "WriteStartElement|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23000,7 +23000,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteAttributeString(System.String,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "writeAttributeString2",
+          "tsEmitName": "writeAttributeString",
           "normalizedSignature": "WriteAttributeString|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23016,7 +23016,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteAttributeString(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "WriteAttributeString",
-          "tsEmitName": "writeAttributeString3",
+          "tsEmitName": "writeAttributeString",
           "normalizedSignature": "WriteAttributeString|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23048,7 +23048,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartAttribute(System.String,System.String,System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute2",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23064,7 +23064,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartAttribute(System.String):System.Void",
           "clrName": "WriteStartAttribute",
-          "tsEmitName": "writeStartAttribute3",
+          "tsEmitName": "writeStartAttribute",
           "normalizedSignature": "WriteStartAttribute|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23256,7 +23256,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteRaw(System.String):System.Void",
           "clrName": "WriteRaw",
-          "tsEmitName": "writeRaw2",
+          "tsEmitName": "writeRaw",
           "normalizedSignature": "WriteRaw|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23416,7 +23416,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.String):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue2",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23432,7 +23432,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Boolean):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue3",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23448,7 +23448,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.DateTime):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue4",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.DateTime):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23464,7 +23464,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.DateTimeOffset):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue5",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.DateTimeOffset):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23480,7 +23480,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Double):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue6",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23496,7 +23496,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Single):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue7",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23512,7 +23512,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Decimal):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue8",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23528,7 +23528,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Int32):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue9",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23544,7 +23544,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteValue(System.Int64):System.Void",
           "clrName": "WriteValue",
-          "tsEmitName": "writeValue10",
+          "tsEmitName": "writeValue",
           "normalizedSignature": "WriteValue|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23592,7 +23592,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteNode(System.Xml.XPath.XPathNavigator,System.Boolean):System.Void",
           "clrName": "WriteNode",
-          "tsEmitName": "writeNode2",
+          "tsEmitName": "writeNode",
           "normalizedSignature": "WriteNode|(System.Xml.XPath.XPathNavigator,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23624,7 +23624,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteElementString(System.String,System.String,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "writeElementString2",
+          "tsEmitName": "writeElementString",
           "normalizedSignature": "WriteElementString|(System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23640,7 +23640,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteElementString(System.String,System.String,System.String,System.String):System.Void",
           "clrName": "WriteElementString",
-          "tsEmitName": "writeElementString3",
+          "tsEmitName": "writeElementString",
           "normalizedSignature": "WriteElementString|(System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23688,7 +23688,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.String,System.Xml.XmlWriterSettings):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Xml.XmlWriterSettings):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23704,7 +23704,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.IO.Stream):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23720,7 +23720,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.IO.Stream,System.Xml.XmlWriterSettings):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.Stream,System.Xml.XmlWriterSettings):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23736,7 +23736,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.IO.TextWriter):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextWriter):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23752,7 +23752,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.IO.TextWriter,System.Xml.XmlWriterSettings):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.TextWriter,System.Xml.XmlWriterSettings):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23768,7 +23768,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.Text.StringBuilder):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Text.StringBuilder):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23784,7 +23784,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.Text.StringBuilder,System.Xml.XmlWriterSettings):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Text.StringBuilder,System.Xml.XmlWriterSettings):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23800,7 +23800,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.Xml.XmlWriter):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create9",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XmlWriter):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23816,7 +23816,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::Create(System.Xml.XmlWriter,System.Xml.XmlWriterSettings):System.Xml.XmlWriter",
           "clrName": "Create",
-          "tsEmitName": "create10",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Xml.XmlWriter,System.Xml.XmlWriterSettings):System.Xml.XmlWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -23848,7 +23848,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteStartDocumentAsync(System.Boolean):System.Threading.Tasks.Task",
           "clrName": "WriteStartDocumentAsync",
-          "tsEmitName": "writeStartDocumentAsync2",
+          "tsEmitName": "writeStartDocumentAsync",
           "normalizedSignature": "WriteStartDocumentAsync|(System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24120,7 +24120,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteRawAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteRawAsync",
-          "tsEmitName": "writeRawAsync2",
+          "tsEmitName": "writeRawAsync",
           "normalizedSignature": "WriteRawAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24264,7 +24264,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriter::WriteNodeAsync(System.Xml.XPath.XPathNavigator,System.Boolean):System.Threading.Tasks.Task",
           "clrName": "WriteNodeAsync",
-          "tsEmitName": "writeNodeAsync2",
+          "tsEmitName": "writeNodeAsync",
           "normalizedSignature": "WriteNodeAsync|(System.Xml.XPath.XPathNavigator,System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

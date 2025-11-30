@@ -53,7 +53,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged2",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663408,
           "canonicalSignature": "(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -67,7 +67,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS2",
+          "tsEmitName": "toJS",
           "metadataToken": 100663409,
           "canonicalSignature": "(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -81,7 +81,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged3",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663410,
           "canonicalSignature": "(System.Byte\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Byte\u0026):System.Void|static=false",
@@ -95,7 +95,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS3",
+          "tsEmitName": "toJS",
           "metadataToken": 100663411,
           "canonicalSignature": "(System.Byte):System.Void",
           "normalizedSignature": "ToJS|(System.Byte):System.Void|static=false",
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged4",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663412,
           "canonicalSignature": "(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -123,7 +123,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS4",
+          "tsEmitName": "toJS",
           "metadataToken": 100663413,
           "canonicalSignature": "(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Byte[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged5",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663414,
           "canonicalSignature": "(System.Byte[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Byte[]\u0026):System.Void|static=false",
@@ -151,7 +151,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Byte[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS5",
+          "tsEmitName": "toJS",
           "metadataToken": 100663415,
           "canonicalSignature": "(System.Byte[]):System.Void",
           "normalizedSignature": "ToJS|(System.Byte[]):System.Void|static=false",
@@ -165,7 +165,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Char\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged6",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663416,
           "canonicalSignature": "(System.Char\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Char\u0026):System.Void|static=false",
@@ -179,7 +179,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Char):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS6",
+          "tsEmitName": "toJS",
           "metadataToken": 100663417,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "ToJS|(System.Char):System.Void|static=false",
@@ -193,7 +193,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged7",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663418,
           "canonicalSignature": "(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -207,7 +207,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS7",
+          "tsEmitName": "toJS",
           "metadataToken": 100663419,
           "canonicalSignature": "(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -221,7 +221,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int16\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged8",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663420,
           "canonicalSignature": "(System.Int16\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Int16\u0026):System.Void|static=false",
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int16):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS8",
+          "tsEmitName": "toJS",
           "metadataToken": 100663421,
           "canonicalSignature": "(System.Int16):System.Void",
           "normalizedSignature": "ToJS|(System.Int16):System.Void|static=false",
@@ -249,7 +249,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged9",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663422,
           "canonicalSignature": "(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -263,7 +263,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS9",
+          "tsEmitName": "toJS",
           "metadataToken": 100663423,
           "canonicalSignature": "(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -277,7 +277,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged10",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663424,
           "canonicalSignature": "(System.Int32\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Int32\u0026):System.Void|static=false",
@@ -291,7 +291,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS10",
+          "tsEmitName": "toJS",
           "metadataToken": 100663425,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "ToJS|(System.Int32):System.Void|static=false",
@@ -305,7 +305,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged11",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663426,
           "canonicalSignature": "(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -319,7 +319,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS11",
+          "tsEmitName": "toJS",
           "metadataToken": 100663427,
           "canonicalSignature": "(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -333,7 +333,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int32[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged12",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663428,
           "canonicalSignature": "(System.Int32[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Int32[]\u0026):System.Void|static=false",
@@ -347,7 +347,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int32[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS12",
+          "tsEmitName": "toJS",
           "metadataToken": 100663429,
           "canonicalSignature": "(System.Int32[]):System.Void",
           "normalizedSignature": "ToJS|(System.Int32[]):System.Void|static=false",
@@ -361,7 +361,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Int64\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged13",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663430,
           "canonicalSignature": "(System.Int64\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Int64\u0026):System.Void|static=false",
@@ -375,7 +375,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Int64):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS13",
+          "tsEmitName": "toJS",
           "metadataToken": 100663431,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "ToJS|(System.Int64):System.Void|static=false",
@@ -389,7 +389,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged14",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663432,
           "canonicalSignature": "(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -403,7 +403,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS14",
+          "tsEmitName": "toJS",
           "metadataToken": 100663433,
           "canonicalSignature": "(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -445,7 +445,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManagedBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManagedBig",
-          "tsEmitName": "toManagedBig2",
+          "tsEmitName": "toManagedBig",
           "metadataToken": 100663436,
           "canonicalSignature": "(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManagedBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -459,7 +459,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJSBig(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJSBig",
-          "tsEmitName": "toJSBig2",
+          "tsEmitName": "toJSBig",
           "metadataToken": 100663437,
           "canonicalSignature": "(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJSBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -473,7 +473,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Single\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged15",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663438,
           "canonicalSignature": "(System.Single\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Single\u0026):System.Void|static=false",
@@ -487,7 +487,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Single):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS15",
+          "tsEmitName": "toJS",
           "metadataToken": 100663439,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "ToJS|(System.Single):System.Void|static=false",
@@ -501,7 +501,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged16",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663440,
           "canonicalSignature": "(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -515,7 +515,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS16",
+          "tsEmitName": "toJS",
           "metadataToken": 100663441,
           "canonicalSignature": "(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -529,7 +529,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged17",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663442,
           "canonicalSignature": "(System.Double\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Double\u0026):System.Void|static=false",
@@ -543,7 +543,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS17",
+          "tsEmitName": "toJS",
           "metadataToken": 100663443,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "ToJS|(System.Double):System.Void|static=false",
@@ -557,7 +557,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged18",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663444,
           "canonicalSignature": "(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -571,7 +571,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS18",
+          "tsEmitName": "toJS",
           "metadataToken": 100663445,
           "canonicalSignature": "(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -585,7 +585,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Double[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged19",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663446,
           "canonicalSignature": "(System.Double[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Double[]\u0026):System.Void|static=false",
@@ -599,7 +599,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Double[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS19",
+          "tsEmitName": "toJS",
           "metadataToken": 100663447,
           "canonicalSignature": "(System.Double[]):System.Void",
           "normalizedSignature": "ToJS|(System.Double[]):System.Void|static=false",
@@ -613,7 +613,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.IntPtr\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged20",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663448,
           "canonicalSignature": "(System.IntPtr\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.IntPtr\u0026):System.Void|static=false",
@@ -627,7 +627,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.IntPtr):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS20",
+          "tsEmitName": "toJS",
           "metadataToken": 100663449,
           "canonicalSignature": "(System.IntPtr):System.Void",
           "normalizedSignature": "ToJS|(System.IntPtr):System.Void|static=false",
@@ -641,7 +641,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged21",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663450,
           "canonicalSignature": "(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -655,7 +655,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS21",
+          "tsEmitName": "toJS",
           "metadataToken": 100663451,
           "canonicalSignature": "(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -669,7 +669,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTimeOffset\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged22",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663452,
           "canonicalSignature": "(System.DateTimeOffset\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.DateTimeOffset\u0026):System.Void|static=false",
@@ -683,7 +683,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTimeOffset):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS22",
+          "tsEmitName": "toJS",
           "metadataToken": 100663453,
           "canonicalSignature": "(System.DateTimeOffset):System.Void",
           "normalizedSignature": "ToJS|(System.DateTimeOffset):System.Void|static=false",
@@ -697,7 +697,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged23",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663454,
           "canonicalSignature": "(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -711,7 +711,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS23",
+          "tsEmitName": "toJS",
           "metadataToken": 100663455,
           "canonicalSignature": "(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -725,7 +725,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.DateTime\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged24",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663456,
           "canonicalSignature": "(System.DateTime\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.DateTime\u0026):System.Void|static=false",
@@ -739,7 +739,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.DateTime):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS24",
+          "tsEmitName": "toJS",
           "metadataToken": 100663457,
           "canonicalSignature": "(System.DateTime):System.Void",
           "normalizedSignature": "ToJS|(System.DateTime):System.Void|static=false",
@@ -753,7 +753,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged25",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663458,
           "canonicalSignature": "(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -767,7 +767,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS25",
+          "tsEmitName": "toJS",
           "metadataToken": 100663459,
           "canonicalSignature": "(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged26",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663460,
           "canonicalSignature": "(System.String\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.String\u0026):System.Void|static=false",
@@ -795,7 +795,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS26",
+          "tsEmitName": "toJS",
           "metadataToken": 100663461,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "ToJS|(System.String):System.Void|static=false",
@@ -809,7 +809,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.String[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged27",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663462,
           "canonicalSignature": "(System.String[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.String[]\u0026):System.Void|static=false",
@@ -823,7 +823,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.String[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS27",
+          "tsEmitName": "toJS",
           "metadataToken": 100663463,
           "canonicalSignature": "(System.String[]):System.Void",
           "normalizedSignature": "ToJS|(System.String[]):System.Void|static=false",
@@ -837,7 +837,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Exception\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged28",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663464,
           "canonicalSignature": "(System.Exception\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Exception\u0026):System.Void|static=false",
@@ -851,7 +851,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Exception):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS28",
+          "tsEmitName": "toJS",
           "metadataToken": 100663465,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "ToJS|(System.Exception):System.Void|static=false",
@@ -865,7 +865,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged29",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663466,
           "canonicalSignature": "(System.Object\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Object\u0026):System.Void|static=false",
@@ -879,7 +879,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS29",
+          "tsEmitName": "toJS",
           "metadataToken": 100663467,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "ToJS|(System.Object):System.Void|static=false",
@@ -893,7 +893,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Object[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged30",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663468,
           "canonicalSignature": "(System.Object[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Object[]\u0026):System.Void|static=false",
@@ -907,7 +907,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Object[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS30",
+          "tsEmitName": "toJS",
           "metadataToken": 100663469,
           "canonicalSignature": "(System.Object[]):System.Void",
           "normalizedSignature": "ToJS|(System.Object[]):System.Void|static=false",
@@ -921,7 +921,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged31",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663470,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void|static=false",
@@ -935,7 +935,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS31",
+          "tsEmitName": "toJS",
           "metadataToken": 100663471,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "normalizedSignature": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
@@ -949,7 +949,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged32",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663472,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void|static=false",
@@ -963,7 +963,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS32",
+          "tsEmitName": "toJS",
           "metadataToken": 100663473,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void",
           "normalizedSignature": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void|static=false",
@@ -977,7 +977,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Threading.Tasks.Task\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged33",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663474,
           "canonicalSignature": "(System.Threading.Tasks.Task\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Threading.Tasks.Task\u0026):System.Void|static=false",
@@ -991,7 +991,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Threading.Tasks.Task):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS33",
+          "tsEmitName": "toJS",
           "metadataToken": 100663475,
           "canonicalSignature": "(System.Threading.Tasks.Task):System.Void",
           "normalizedSignature": "ToJS|(System.Threading.Tasks.Task):System.Void|static=false",
@@ -1005,7 +1005,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Task_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged34",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663476,
           "canonicalSignature": "(Task_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Task_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1019,7 +1019,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Task_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS34",
+          "tsEmitName": "toJS",
           "metadataToken": 100663477,
           "canonicalSignature": "(Task_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Task_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1033,7 +1033,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Action\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged35",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663478,
           "canonicalSignature": "(System.Action\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Action\u0026):System.Void|static=false",
@@ -1047,7 +1047,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Action):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS35",
+          "tsEmitName": "toJS",
           "metadataToken": 100663479,
           "canonicalSignature": "(System.Action):System.Void",
           "normalizedSignature": "ToJS|(System.Action):System.Void|static=false",
@@ -1061,7 +1061,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_1\u0026,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged36",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663480,
           "canonicalSignature": "(Action_1\u0026,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Action_1\u0026,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1075,7 +1075,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS36",
+          "tsEmitName": "toJS",
           "metadataToken": 100663481,
           "canonicalSignature": "(Action_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Action_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1089,7 +1089,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged37",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663482,
           "canonicalSignature": "(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1103,7 +1103,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS37",
+          "tsEmitName": "toJS",
           "metadataToken": 100663483,
           "canonicalSignature": "(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1117,7 +1117,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged38",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663484,
           "canonicalSignature": "(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1131,7 +1131,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS38",
+          "tsEmitName": "toJS",
           "metadataToken": 100663485,
           "canonicalSignature": "(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1145,7 +1145,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged39",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663486,
           "canonicalSignature": "(Func_1\u0026,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Func_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1159,7 +1159,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS39",
+          "tsEmitName": "toJS",
           "metadataToken": 100663487,
           "canonicalSignature": "(Func_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Func_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1173,7 +1173,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged40",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663488,
           "canonicalSignature": "(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1187,7 +1187,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS40",
+          "tsEmitName": "toJS",
           "metadataToken": 100663489,
           "canonicalSignature": "(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1201,7 +1201,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged41",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663490,
           "canonicalSignature": "(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1215,7 +1215,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS41",
+          "tsEmitName": "toJS",
           "metadataToken": 100663491,
           "canonicalSignature": "(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1229,7 +1229,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged42",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663492,
           "canonicalSignature": "(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void",
           "normalizedSignature": "ToManaged|(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
@@ -1243,7 +1243,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS42",
+          "tsEmitName": "toJS",
           "metadataToken": 100663493,
           "canonicalSignature": "(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void",
           "normalizedSignature": "ToJS|(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
@@ -1257,7 +1257,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Void*\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged43",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663494,
           "canonicalSignature": "(System.Void*\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Void*\u0026):System.Void|static=false",
@@ -1271,7 +1271,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Void*):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS43",
+          "tsEmitName": "toJS",
           "metadataToken": 100663495,
           "canonicalSignature": "(System.Void*):System.Void",
           "normalizedSignature": "ToJS|(System.Void*):System.Void|static=false",
@@ -1285,7 +1285,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged44",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663496,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1299,7 +1299,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS44",
+          "tsEmitName": "toJS",
           "metadataToken": 100663497,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1313,7 +1313,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged45",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663498,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1327,7 +1327,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS45",
+          "tsEmitName": "toJS",
           "metadataToken": 100663499,
           "canonicalSignature": "(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1341,7 +1341,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged46",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663500,
           "canonicalSignature": "(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1355,7 +1355,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS46",
+          "tsEmitName": "toJS",
           "metadataToken": 100663501,
           "canonicalSignature": "(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1369,7 +1369,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged47",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663502,
           "canonicalSignature": "(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1383,7 +1383,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS47",
+          "tsEmitName": "toJS",
           "metadataToken": 100663503,
           "canonicalSignature": "(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1397,7 +1397,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged48",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663504,
           "canonicalSignature": "(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1411,7 +1411,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS48",
+          "tsEmitName": "toJS",
           "metadataToken": 100663505,
           "canonicalSignature": "(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToManaged(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "clrName": "ToManaged",
-          "tsEmitName": "toManaged49",
+          "tsEmitName": "toManaged",
           "metadataToken": 100663506,
           "canonicalSignature": "(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void",
           "normalizedSignature": "ToManaged|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument::ToJS(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "ToJS",
-          "tsEmitName": "toJS49",
+          "tsEmitName": "toJS",
           "metadataToken": 100663507,
           "canonicalSignature": "(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "ToJS|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -1487,7 +1487,7 @@
           }
         },
         {
-          "tsName": "toManaged2",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1497,7 +1497,7 @@
           }
         },
         {
-          "tsName": "toJS2",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1507,7 +1507,7 @@
           }
         },
         {
-          "tsName": "toManaged3",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Byte\u0026):System.Void|static=false",
           "target": {
@@ -1517,7 +1517,7 @@
           }
         },
         {
-          "tsName": "toJS3",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Byte):System.Void|static=false",
           "target": {
@@ -1527,7 +1527,7 @@
           }
         },
         {
-          "tsName": "toManaged4",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1537,7 +1537,7 @@
           }
         },
         {
-          "tsName": "toJS4",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1547,7 +1547,7 @@
           }
         },
         {
-          "tsName": "toManaged5",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Byte[]\u0026):System.Void|static=false",
           "target": {
@@ -1557,7 +1557,7 @@
           }
         },
         {
-          "tsName": "toJS5",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Byte[]):System.Void|static=false",
           "target": {
@@ -1567,7 +1567,7 @@
           }
         },
         {
-          "tsName": "toManaged6",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Char\u0026):System.Void|static=false",
           "target": {
@@ -1577,7 +1577,7 @@
           }
         },
         {
-          "tsName": "toJS6",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Char):System.Void|static=false",
           "target": {
@@ -1587,7 +1587,7 @@
           }
         },
         {
-          "tsName": "toManaged7",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1597,7 +1597,7 @@
           }
         },
         {
-          "tsName": "toJS7",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1607,7 +1607,7 @@
           }
         },
         {
-          "tsName": "toManaged8",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Int16\u0026):System.Void|static=false",
           "target": {
@@ -1617,7 +1617,7 @@
           }
         },
         {
-          "tsName": "toJS8",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Int16):System.Void|static=false",
           "target": {
@@ -1627,7 +1627,7 @@
           }
         },
         {
-          "tsName": "toManaged9",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1637,7 +1637,7 @@
           }
         },
         {
-          "tsName": "toJS9",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Int16,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1647,7 +1647,7 @@
           }
         },
         {
-          "tsName": "toManaged10",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Int32\u0026):System.Void|static=false",
           "target": {
@@ -1657,7 +1657,7 @@
           }
         },
         {
-          "tsName": "toJS10",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Int32):System.Void|static=false",
           "target": {
@@ -1667,7 +1667,7 @@
           }
         },
         {
-          "tsName": "toManaged11",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1677,7 +1677,7 @@
           }
         },
         {
-          "tsName": "toJS11",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1687,7 +1687,7 @@
           }
         },
         {
-          "tsName": "toManaged12",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Int32[]\u0026):System.Void|static=false",
           "target": {
@@ -1697,7 +1697,7 @@
           }
         },
         {
-          "tsName": "toJS12",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Int32[]):System.Void|static=false",
           "target": {
@@ -1707,7 +1707,7 @@
           }
         },
         {
-          "tsName": "toManaged13",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Int64\u0026):System.Void|static=false",
           "target": {
@@ -1717,7 +1717,7 @@
           }
         },
         {
-          "tsName": "toJS13",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Int64):System.Void|static=false",
           "target": {
@@ -1727,7 +1727,7 @@
           }
         },
         {
-          "tsName": "toManaged14",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1737,7 +1737,7 @@
           }
         },
         {
-          "tsName": "toJS14",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1767,7 +1767,7 @@
           }
         },
         {
-          "tsName": "toManagedBig2",
+          "tsName": "toManagedBig",
           "isStatic": false,
           "tsSignatureId": "ToManagedBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1777,7 +1777,7 @@
           }
         },
         {
-          "tsName": "toJSBig2",
+          "tsName": "toJSBig",
           "isStatic": false,
           "tsSignatureId": "ToJSBig|(System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1787,7 +1787,7 @@
           }
         },
         {
-          "tsName": "toManaged15",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Single\u0026):System.Void|static=false",
           "target": {
@@ -1797,7 +1797,7 @@
           }
         },
         {
-          "tsName": "toJS15",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Single):System.Void|static=false",
           "target": {
@@ -1807,7 +1807,7 @@
           }
         },
         {
-          "tsName": "toManaged16",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1817,7 +1817,7 @@
           }
         },
         {
-          "tsName": "toJS16",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Single,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1827,7 +1827,7 @@
           }
         },
         {
-          "tsName": "toManaged17",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Double\u0026):System.Void|static=false",
           "target": {
@@ -1837,7 +1837,7 @@
           }
         },
         {
-          "tsName": "toJS17",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Double):System.Void|static=false",
           "target": {
@@ -1847,7 +1847,7 @@
           }
         },
         {
-          "tsName": "toManaged18",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1857,7 +1857,7 @@
           }
         },
         {
-          "tsName": "toJS18",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1867,7 +1867,7 @@
           }
         },
         {
-          "tsName": "toManaged19",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Double[]\u0026):System.Void|static=false",
           "target": {
@@ -1877,7 +1877,7 @@
           }
         },
         {
-          "tsName": "toJS19",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Double[]):System.Void|static=false",
           "target": {
@@ -1887,7 +1887,7 @@
           }
         },
         {
-          "tsName": "toManaged20",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.IntPtr\u0026):System.Void|static=false",
           "target": {
@@ -1897,7 +1897,7 @@
           }
         },
         {
-          "tsName": "toJS20",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.IntPtr):System.Void|static=false",
           "target": {
@@ -1907,7 +1907,7 @@
           }
         },
         {
-          "tsName": "toManaged21",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1917,7 +1917,7 @@
           }
         },
         {
-          "tsName": "toJS21",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.IntPtr,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1927,7 +1927,7 @@
           }
         },
         {
-          "tsName": "toManaged22",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.DateTimeOffset\u0026):System.Void|static=false",
           "target": {
@@ -1937,7 +1937,7 @@
           }
         },
         {
-          "tsName": "toJS22",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.DateTimeOffset):System.Void|static=false",
           "target": {
@@ -1947,7 +1947,7 @@
           }
         },
         {
-          "tsName": "toManaged23",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1957,7 +1957,7 @@
           }
         },
         {
-          "tsName": "toJS23",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.DateTimeOffset,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -1967,7 +1967,7 @@
           }
         },
         {
-          "tsName": "toManaged24",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.DateTime\u0026):System.Void|static=false",
           "target": {
@@ -1977,7 +1977,7 @@
           }
         },
         {
-          "tsName": "toJS24",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.DateTime):System.Void|static=false",
           "target": {
@@ -1987,7 +1987,7 @@
           }
         },
         {
-          "tsName": "toManaged25",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -1997,7 +1997,7 @@
           }
         },
         {
-          "tsName": "toJS25",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Nullable_1[[System.DateTime,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2007,7 +2007,7 @@
           }
         },
         {
-          "tsName": "toManaged26",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.String\u0026):System.Void|static=false",
           "target": {
@@ -2017,7 +2017,7 @@
           }
         },
         {
-          "tsName": "toJS26",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.String):System.Void|static=false",
           "target": {
@@ -2027,7 +2027,7 @@
           }
         },
         {
-          "tsName": "toManaged27",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.String[]\u0026):System.Void|static=false",
           "target": {
@@ -2037,7 +2037,7 @@
           }
         },
         {
-          "tsName": "toJS27",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.String[]):System.Void|static=false",
           "target": {
@@ -2047,7 +2047,7 @@
           }
         },
         {
-          "tsName": "toManaged28",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Exception\u0026):System.Void|static=false",
           "target": {
@@ -2057,7 +2057,7 @@
           }
         },
         {
-          "tsName": "toJS28",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Exception):System.Void|static=false",
           "target": {
@@ -2067,7 +2067,7 @@
           }
         },
         {
-          "tsName": "toManaged29",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Object\u0026):System.Void|static=false",
           "target": {
@@ -2077,7 +2077,7 @@
           }
         },
         {
-          "tsName": "toJS29",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Object):System.Void|static=false",
           "target": {
@@ -2087,7 +2087,7 @@
           }
         },
         {
-          "tsName": "toManaged30",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Object[]\u0026):System.Void|static=false",
           "target": {
@@ -2097,7 +2097,7 @@
           }
         },
         {
-          "tsName": "toJS30",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Object[]):System.Void|static=false",
           "target": {
@@ -2107,7 +2107,7 @@
           }
         },
         {
-          "tsName": "toManaged31",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject\u0026):System.Void|static=false",
           "target": {
@@ -2117,7 +2117,7 @@
           }
         },
         {
-          "tsName": "toJS31",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
           "target": {
@@ -2127,7 +2127,7 @@
           }
         },
         {
-          "tsName": "toManaged32",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Runtime.InteropServices.JavaScript.JSObject[]\u0026):System.Void|static=false",
           "target": {
@@ -2137,7 +2137,7 @@
           }
         },
         {
-          "tsName": "toJS32",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Runtime.InteropServices.JavaScript.JSObject[]):System.Void|static=false",
           "target": {
@@ -2147,7 +2147,7 @@
           }
         },
         {
-          "tsName": "toManaged33",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Threading.Tasks.Task\u0026):System.Void|static=false",
           "target": {
@@ -2157,7 +2157,7 @@
           }
         },
         {
-          "tsName": "toJS33",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Threading.Tasks.Task):System.Void|static=false",
           "target": {
@@ -2167,7 +2167,7 @@
           }
         },
         {
-          "tsName": "toManaged34",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Task_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2177,7 +2177,7 @@
           }
         },
         {
-          "tsName": "toJS34",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Task_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2187,7 +2187,7 @@
           }
         },
         {
-          "tsName": "toManaged35",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Action\u0026):System.Void|static=false",
           "target": {
@@ -2197,7 +2197,7 @@
           }
         },
         {
-          "tsName": "toJS35",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Action):System.Void|static=false",
           "target": {
@@ -2207,7 +2207,7 @@
           }
         },
         {
-          "tsName": "toManaged36",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Action_1\u0026,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2217,7 +2217,7 @@
           }
         },
         {
-          "tsName": "toJS36",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Action_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2227,7 +2227,7 @@
           }
         },
         {
-          "tsName": "toManaged37",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Action_2\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2237,7 +2237,7 @@
           }
         },
         {
-          "tsName": "toJS37",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Action_2,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2247,7 +2247,7 @@
           }
         },
         {
-          "tsName": "toManaged38",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Action_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2257,7 +2257,7 @@
           }
         },
         {
-          "tsName": "toJS38",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Action_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2267,7 +2267,7 @@
           }
         },
         {
-          "tsName": "toManaged39",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Func_1\u0026,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2277,7 +2277,7 @@
           }
         },
         {
-          "tsName": "toJS39",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Func_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2287,7 +2287,7 @@
           }
         },
         {
-          "tsName": "toManaged40",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Func_2\u0026,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2297,7 +2297,7 @@
           }
         },
         {
-          "tsName": "toJS40",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Func_2,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2307,7 +2307,7 @@
           }
         },
         {
-          "tsName": "toManaged41",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Func_3\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2317,7 +2317,7 @@
           }
         },
         {
-          "tsName": "toJS41",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Func_3,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2327,7 +2327,7 @@
           }
         },
         {
-          "tsName": "toManaged42",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(Func_4\u0026,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToJSCallback_1,ArgumentToManagedCallback_1):System.Void|static=false",
           "target": {
@@ -2337,7 +2337,7 @@
           }
         },
         {
-          "tsName": "toJS42",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(Func_4,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToManagedCallback_1,ArgumentToJSCallback_1):System.Void|static=false",
           "target": {
@@ -2347,7 +2347,7 @@
           }
         },
         {
-          "tsName": "toManaged43",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Void*\u0026):System.Void|static=false",
           "target": {
@@ -2357,7 +2357,7 @@
           }
         },
         {
-          "tsName": "toJS43",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Void*):System.Void|static=false",
           "target": {
@@ -2367,7 +2367,7 @@
           }
         },
         {
-          "tsName": "toManaged44",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2377,7 +2377,7 @@
           }
         },
         {
-          "tsName": "toJS44",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2387,7 +2387,7 @@
           }
         },
         {
-          "tsName": "toManaged45",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2397,7 +2397,7 @@
           }
         },
         {
-          "tsName": "toJS45",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2407,7 +2407,7 @@
           }
         },
         {
-          "tsName": "toManaged46",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2417,7 +2417,7 @@
           }
         },
         {
-          "tsName": "toJS46",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Span_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2427,7 +2427,7 @@
           }
         },
         {
-          "tsName": "toManaged47",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2437,7 +2437,7 @@
           }
         },
         {
-          "tsName": "toJS47",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.Span_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2447,7 +2447,7 @@
           }
         },
         {
-          "tsName": "toManaged48",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2457,7 +2457,7 @@
           }
         },
         {
-          "tsName": "toJS48",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.ArraySegment_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2467,7 +2467,7 @@
           }
         },
         {
-          "tsName": "toManaged49",
+          "tsName": "toManaged",
           "isStatic": false,
           "tsSignatureId": "ToManaged|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]\u0026):System.Void|static=false",
           "target": {
@@ -2477,7 +2477,7 @@
           }
         },
         {
-          "tsName": "toJS49",
+          "tsName": "toJS",
           "isStatic": false,
           "tsSignatureId": "ToJS|(System.ArraySegment_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -2811,256 +2811,6 @@
         {
           "tsName": "getCustomAttributes",
           "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663865
-          }
-        },
-        {
-          "tsName": "getCustomAttributes2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663866
-          }
-        },
-        {
-          "tsName": "getCustomAttributes3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663867
-          }
-        },
-        {
-          "tsName": "getCustomAttributes4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663868
-          }
-        },
-        {
-          "tsName": "isDefined",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663869
-          }
-        },
-        {
-          "tsName": "isDefined2",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663870
-          }
-        },
-        {
-          "tsName": "getCustomAttribute",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663871
-          }
-        },
-        {
-          "tsName": "getCustomAttribute2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663872
-          }
-        },
-        {
-          "tsName": "getCustomAttributes5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663873
-          }
-        },
-        {
-          "tsName": "getCustomAttributes6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663874
-          }
-        },
-        {
-          "tsName": "getCustomAttributes7",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663875
-          }
-        },
-        {
-          "tsName": "getCustomAttributes8",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663876
-          }
-        },
-        {
-          "tsName": "isDefined3",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663877
-          }
-        },
-        {
-          "tsName": "isDefined4",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663878
-          }
-        },
-        {
-          "tsName": "getCustomAttribute3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663879
-          }
-        },
-        {
-          "tsName": "getCustomAttribute4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663880
-          }
-        },
-        {
-          "tsName": "getCustomAttributes9",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663881
-          }
-        },
-        {
-          "tsName": "getCustomAttributes10",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663882
-          }
-        },
-        {
-          "tsName": "getCustomAttributes11",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663883
-          }
-        },
-        {
-          "tsName": "getCustomAttributes12",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663884
-          }
-        },
-        {
-          "tsName": "isDefined5",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663885
-          }
-        },
-        {
-          "tsName": "isDefined6",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663886
-          }
-        },
-        {
-          "tsName": "getCustomAttribute5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663887
-          }
-        },
-        {
-          "tsName": "getCustomAttribute6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663888
-          }
-        },
-        {
-          "tsName": "getCustomAttributes13",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663889
-          }
-        },
-        {
-          "tsName": "getCustomAttributes14",
-          "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
             "declaringClrType": "System.Attribute",
@@ -3069,7 +2819,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes15",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
           "target": {
@@ -3079,7 +2829,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes16",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -3089,7 +2839,7 @@
           }
         },
         {
-          "tsName": "isDefined7",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
           "target": {
@@ -3099,7 +2849,7 @@
           }
         },
         {
-          "tsName": "isDefined8",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -3109,7 +2859,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute7",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
           "target": {
@@ -3119,7 +2869,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute8",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -3445,256 +3195,6 @@
         {
           "tsName": "getCustomAttributes",
           "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663865
-          }
-        },
-        {
-          "tsName": "getCustomAttributes2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663866
-          }
-        },
-        {
-          "tsName": "getCustomAttributes3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663867
-          }
-        },
-        {
-          "tsName": "getCustomAttributes4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663868
-          }
-        },
-        {
-          "tsName": "isDefined",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663869
-          }
-        },
-        {
-          "tsName": "isDefined2",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663870
-          }
-        },
-        {
-          "tsName": "getCustomAttribute",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663871
-          }
-        },
-        {
-          "tsName": "getCustomAttribute2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663872
-          }
-        },
-        {
-          "tsName": "getCustomAttributes5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663873
-          }
-        },
-        {
-          "tsName": "getCustomAttributes6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663874
-          }
-        },
-        {
-          "tsName": "getCustomAttributes7",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663875
-          }
-        },
-        {
-          "tsName": "getCustomAttributes8",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663876
-          }
-        },
-        {
-          "tsName": "isDefined3",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663877
-          }
-        },
-        {
-          "tsName": "isDefined4",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663878
-          }
-        },
-        {
-          "tsName": "getCustomAttribute3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663879
-          }
-        },
-        {
-          "tsName": "getCustomAttribute4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663880
-          }
-        },
-        {
-          "tsName": "getCustomAttributes9",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663881
-          }
-        },
-        {
-          "tsName": "getCustomAttributes10",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663882
-          }
-        },
-        {
-          "tsName": "getCustomAttributes11",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663883
-          }
-        },
-        {
-          "tsName": "getCustomAttributes12",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663884
-          }
-        },
-        {
-          "tsName": "isDefined5",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663885
-          }
-        },
-        {
-          "tsName": "isDefined6",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663886
-          }
-        },
-        {
-          "tsName": "getCustomAttribute5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663887
-          }
-        },
-        {
-          "tsName": "getCustomAttribute6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663888
-          }
-        },
-        {
-          "tsName": "getCustomAttributes13",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663889
-          }
-        },
-        {
-          "tsName": "getCustomAttributes14",
-          "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
             "declaringClrType": "System.Attribute",
@@ -3703,7 +3203,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes15",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
           "target": {
@@ -3713,7 +3213,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes16",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -3723,7 +3223,7 @@
           }
         },
         {
-          "tsName": "isDefined7",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
           "target": {
@@ -3733,7 +3233,7 @@
           }
         },
         {
-          "tsName": "isDefined8",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -3743,7 +3243,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute7",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
           "target": {
@@ -3753,7 +3253,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute8",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -3922,256 +3422,6 @@
         {
           "tsName": "getCustomAttributes",
           "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663865
-          }
-        },
-        {
-          "tsName": "getCustomAttributes2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663866
-          }
-        },
-        {
-          "tsName": "getCustomAttributes3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663867
-          }
-        },
-        {
-          "tsName": "getCustomAttributes4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663868
-          }
-        },
-        {
-          "tsName": "isDefined",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663869
-          }
-        },
-        {
-          "tsName": "isDefined2",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663870
-          }
-        },
-        {
-          "tsName": "getCustomAttribute",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663871
-          }
-        },
-        {
-          "tsName": "getCustomAttribute2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663872
-          }
-        },
-        {
-          "tsName": "getCustomAttributes5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663873
-          }
-        },
-        {
-          "tsName": "getCustomAttributes6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663874
-          }
-        },
-        {
-          "tsName": "getCustomAttributes7",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663875
-          }
-        },
-        {
-          "tsName": "getCustomAttributes8",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663876
-          }
-        },
-        {
-          "tsName": "isDefined3",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663877
-          }
-        },
-        {
-          "tsName": "isDefined4",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663878
-          }
-        },
-        {
-          "tsName": "getCustomAttribute3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663879
-          }
-        },
-        {
-          "tsName": "getCustomAttribute4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663880
-          }
-        },
-        {
-          "tsName": "getCustomAttributes9",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663881
-          }
-        },
-        {
-          "tsName": "getCustomAttributes10",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663882
-          }
-        },
-        {
-          "tsName": "getCustomAttributes11",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663883
-          }
-        },
-        {
-          "tsName": "getCustomAttributes12",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663884
-          }
-        },
-        {
-          "tsName": "isDefined5",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663885
-          }
-        },
-        {
-          "tsName": "isDefined6",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663886
-          }
-        },
-        {
-          "tsName": "getCustomAttribute5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663887
-          }
-        },
-        {
-          "tsName": "getCustomAttribute6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663888
-          }
-        },
-        {
-          "tsName": "getCustomAttributes13",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663889
-          }
-        },
-        {
-          "tsName": "getCustomAttributes14",
-          "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
             "declaringClrType": "System.Attribute",
@@ -4180,7 +3430,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes15",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
           "target": {
@@ -4190,7 +3440,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes16",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -4200,7 +3450,7 @@
           }
         },
         {
-          "tsName": "isDefined7",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
           "target": {
@@ -4210,7 +3460,7 @@
           }
         },
         {
-          "tsName": "isDefined8",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -4220,7 +3470,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute7",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
           "target": {
@@ -4230,7 +3480,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute8",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -4577,27 +3827,7 @@
           }
         },
         {
-          "tsName": "createDelegate2",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664227
-          }
-        },
-        {
-          "tsName": "createDelegate3",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664228
-          }
-        },
-        {
-          "tsName": "createDelegate4",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -4617,7 +3847,7 @@
           }
         },
         {
-          "tsName": "combine2",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
           "target": {
@@ -4627,17 +3857,7 @@
           }
         },
         {
-          "tsName": "combine3",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664257
-          }
-        },
-        {
-          "tsName": "createDelegate5",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -4647,53 +3867,13 @@
           }
         },
         {
-          "tsName": "createDelegate6",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
             "declaringClrType": "System.Delegate",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "createDelegate7",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664260
-          }
-        },
-        {
-          "tsName": "createDelegate8",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664261
-          }
-        },
-        {
-          "tsName": "createDelegate9",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664262
-          }
-        },
-        {
-          "tsName": "createDelegate10",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664263
           }
         },
         {
@@ -5054,27 +4234,7 @@
           }
         },
         {
-          "tsName": "createDelegate2",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664227
-          }
-        },
-        {
-          "tsName": "createDelegate3",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664228
-          }
-        },
-        {
-          "tsName": "createDelegate4",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -5094,7 +4254,7 @@
           }
         },
         {
-          "tsName": "combine2",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
           "target": {
@@ -5104,17 +4264,7 @@
           }
         },
         {
-          "tsName": "combine3",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664257
-          }
-        },
-        {
-          "tsName": "createDelegate5",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -5124,53 +4274,13 @@
           }
         },
         {
-          "tsName": "createDelegate6",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
             "declaringClrType": "System.Delegate",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "createDelegate7",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664260
-          }
-        },
-        {
-          "tsName": "createDelegate8",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664261
-          }
-        },
-        {
-          "tsName": "createDelegate9",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664262
-          }
-        },
-        {
-          "tsName": "createDelegate10",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664263
           }
         },
         {
@@ -5336,7 +4446,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Task(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Task",
-          "tsEmitName": "task2",
+          "tsEmitName": "task",
           "metadataToken": 100663393,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Task|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5406,7 +4516,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action2",
+          "tsEmitName": "action",
           "metadataToken": 100663398,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5420,7 +4530,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action3",
+          "tsEmitName": "action",
           "metadataToken": 100663399,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5434,7 +4544,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Action(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Action",
-          "tsEmitName": "action4",
+          "tsEmitName": "action",
           "metadataToken": 100663400,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5462,7 +4572,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_2",
+          "tsEmitName": "function_",
           "metadataToken": 100663402,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5476,7 +4586,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_3",
+          "tsEmitName": "function_",
           "metadataToken": 100663403,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5490,7 +4600,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_4",
+          "tsEmitName": "function_",
           "metadataToken": 100663404,
           "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
@@ -5781,7 +4891,7 @@
           }
         },
         {
-          "tsName": "task2",
+          "tsName": "task",
           "isStatic": true,
           "tsSignatureId": "Task|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5831,7 +4941,7 @@
           }
         },
         {
-          "tsName": "action2",
+          "tsName": "action",
           "isStatic": true,
           "tsSignatureId": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5841,7 +4951,7 @@
           }
         },
         {
-          "tsName": "action3",
+          "tsName": "action",
           "isStatic": true,
           "tsSignatureId": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5851,7 +4961,7 @@
           }
         },
         {
-          "tsName": "action4",
+          "tsName": "action",
           "isStatic": true,
           "tsSignatureId": "Action|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5871,7 +4981,7 @@
           }
         },
         {
-          "tsName": "function_2",
+          "tsName": "function_",
           "isStatic": true,
           "tsSignatureId": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5881,7 +4991,7 @@
           }
         },
         {
-          "tsName": "function_3",
+          "tsName": "function_",
           "isStatic": true,
           "tsSignatureId": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -5891,7 +5001,7 @@
           }
         },
         {
-          "tsName": "function_4",
+          "tsName": "function_",
           "isStatic": true,
           "tsSignatureId": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "target": {
@@ -6294,7 +5404,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Int32):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty2",
+          "tsEmitName": "setProperty",
           "metadataToken": 100663359,
           "canonicalSignature": "(System.String,System.Int32):System.Void",
           "normalizedSignature": "SetProperty|(System.String,System.Int32):System.Void|static=false",
@@ -6308,7 +5418,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Double):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty3",
+          "tsEmitName": "setProperty",
           "metadataToken": 100663360,
           "canonicalSignature": "(System.String,System.Double):System.Void",
           "normalizedSignature": "SetProperty|(System.String,System.Double):System.Void|static=false",
@@ -6322,7 +5432,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.String):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty4",
+          "tsEmitName": "setProperty",
           "metadataToken": 100663361,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "SetProperty|(System.String,System.String):System.Void|static=false",
@@ -6336,7 +5446,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty5",
+          "tsEmitName": "setProperty",
           "metadataToken": 100663362,
           "canonicalSignature": "(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void",
           "normalizedSignature": "SetProperty|(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
@@ -6350,7 +5460,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSObject::SetProperty(System.String,System.Byte[]):System.Void",
           "clrName": "SetProperty",
-          "tsEmitName": "setProperty6",
+          "tsEmitName": "setProperty",
           "metadataToken": 100663363,
           "canonicalSignature": "(System.String,System.Byte[]):System.Void",
           "normalizedSignature": "SetProperty|(System.String,System.Byte[]):System.Void|static=false",
@@ -6497,7 +5607,7 @@
           }
         },
         {
-          "tsName": "setProperty2",
+          "tsName": "setProperty",
           "isStatic": false,
           "tsSignatureId": "SetProperty|(System.String,System.Int32):System.Void|static=false",
           "target": {
@@ -6507,7 +5617,7 @@
           }
         },
         {
-          "tsName": "setProperty3",
+          "tsName": "setProperty",
           "isStatic": false,
           "tsSignatureId": "SetProperty|(System.String,System.Double):System.Void|static=false",
           "target": {
@@ -6517,7 +5627,7 @@
           }
         },
         {
-          "tsName": "setProperty4",
+          "tsName": "setProperty",
           "isStatic": false,
           "tsSignatureId": "SetProperty|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -6527,7 +5637,7 @@
           }
         },
         {
-          "tsName": "setProperty5",
+          "tsName": "setProperty",
           "isStatic": false,
           "tsSignatureId": "SetProperty|(System.String,System.Runtime.InteropServices.JavaScript.JSObject):System.Void|static=false",
           "target": {
@@ -6537,7 +5647,7 @@
           }
         },
         {
-          "tsName": "setProperty6",
+          "tsName": "setProperty",
           "isStatic": false,
           "tsSignatureId": "SetProperty|(System.String,System.Byte[]):System.Void|static=false",
           "target": {

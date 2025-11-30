@@ -108,8 +108,8 @@ export abstract class PipeReader$instance {
     abstract readAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     readAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     abstract tryRead(result: { value: ref<ReadResult> }): boolean;
-    static create2(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
-    static create2(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+    static create(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
+    static create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
 }
 
 

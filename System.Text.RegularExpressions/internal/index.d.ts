@@ -100,6 +100,7 @@ export class Regex_ValueMatchEnumerator$instance {
     readonly current: ValueMatch;
     getEnumerator(): Regex_ValueMatchEnumerator;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -115,6 +116,7 @@ export class Regex_ValueSplitEnumerator$instance {
     readonly current: Range;
     getEnumerator(): Regex_ValueSplitEnumerator;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -319,43 +321,43 @@ export class Regex$instance {
     toString(): string;
     static readonly infiniteMatchTimeout: TimeSpan;
     static cacheSize: int;
-    static compileToAssembly3(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
-    static compileToAssembly3(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
-    static compileToAssembly3(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
-    static count6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    static count6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): int;
-    static count6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): int;
-    static count6(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    static count6(input: string, pattern: string, options: RegexOptions): int;
-    static count6(input: string, pattern: string): int;
-    static enumerateMatches3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
-    static enumerateMatches3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
-    static enumerateMatches3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueMatchEnumerator;
-    static enumerateSplits3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
-    static enumerateSplits3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
-    static enumerateSplits3(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueSplitEnumerator;
+    static compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
+    static compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
+    static compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
+    static count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    static count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): int;
+    static count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): int;
+    static count(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    static count(input: string, pattern: string, options: RegexOptions): int;
+    static count(input: string, pattern: string): int;
+    static enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
+    static enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
+    static enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueMatchEnumerator;
+    static enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
+    static enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
+    static enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueSplitEnumerator;
     static escape(str: string): string;
-    static isMatch6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    static isMatch6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): boolean;
-    static isMatch6(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): boolean;
-    static isMatch6(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    static isMatch6(input: string, pattern: string, options: RegexOptions): boolean;
-    static isMatch6(input: string, pattern: string): boolean;
-    static match3(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Match;
-    static match3(input: string, pattern: string, options: RegexOptions): Match;
-    static match3(input: string, pattern: string): Match;
-    static matches3(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): MatchCollection;
-    static matches3(input: string, pattern: string, options: RegexOptions): MatchCollection;
-    static matches3(input: string, pattern: string): MatchCollection;
-    static replace3(input: string, pattern: string, replacement: string, options: RegexOptions, matchTimeout: TimeSpan): string;
-    static replace3(input: string, pattern: string, replacement: string, options: RegexOptions): string;
-    static replace3(input: string, pattern: string, replacement: string): string;
-    static replace3(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions, matchTimeout: TimeSpan): string;
-    static replace3(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions): string;
-    static replace3(input: string, pattern: string, evaluator: MatchEvaluator): string;
-    static split3(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): string[];
-    static split3(input: string, pattern: string, options: RegexOptions): string[];
-    static split3(input: string, pattern: string): string[];
+    static isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    static isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): boolean;
+    static isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): boolean;
+    static isMatch(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    static isMatch(input: string, pattern: string, options: RegexOptions): boolean;
+    static isMatch(input: string, pattern: string): boolean;
+    static match(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Match;
+    static match(input: string, pattern: string, options: RegexOptions): Match;
+    static match(input: string, pattern: string): Match;
+    static matches(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): MatchCollection;
+    static matches(input: string, pattern: string, options: RegexOptions): MatchCollection;
+    static matches(input: string, pattern: string): MatchCollection;
+    static replace(input: string, pattern: string, replacement: string, options: RegexOptions, matchTimeout: TimeSpan): string;
+    static replace(input: string, pattern: string, replacement: string, options: RegexOptions): string;
+    static replace(input: string, pattern: string, replacement: string): string;
+    static replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions, matchTimeout: TimeSpan): string;
+    static replace(input: string, pattern: string, evaluator: MatchEvaluator, options: RegexOptions): string;
+    static replace(input: string, pattern: string, evaluator: MatchEvaluator): string;
+    static split(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): string[];
+    static split(input: string, pattern: string, options: RegexOptions): string[];
+    static split(input: string, pattern: string): string[];
     static unescape(str: string): string;
 }
 

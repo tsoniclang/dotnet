@@ -462,7 +462,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateMask(System.Int32):System.Int32",
           "clrName": "CreateMask",
-          "tsEmitName": "createMask2",
+          "tsEmitName": "createMask",
           "normalizedSignature": "CreateMask|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -494,7 +494,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::CreateSection(System.Int16,System.Collections.Specialized.BitVector32\u002BSection):System.Collections.Specialized.BitVector32\u002BSection",
           "clrName": "CreateSection",
-          "tsEmitName": "createSection2",
+          "tsEmitName": "createSection",
           "normalizedSignature": "CreateSection|(System.Int16,System.Collections.Specialized.BitVector32\u002BSection):System.Collections.Specialized.BitVector32\u002BSection|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -526,7 +526,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::Equals(System.Collections.Specialized.BitVector32):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Collections.Specialized.BitVector32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -731,7 +731,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32\u002BSection::Equals(System.Collections.Specialized.BitVector32\u002BSection):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Collections.Specialized.BitVector32\u002BSection):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -876,7 +876,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveHashtable(System.Int32):System.Collections.Hashtable",
           "clrName": "CreateCaseInsensitiveHashtable",
-          "tsEmitName": "createCaseInsensitiveHashtable2",
+          "tsEmitName": "createCaseInsensitiveHashtable",
           "normalizedSignature": "CreateCaseInsensitiveHashtable|(System.Int32):System.Collections.Hashtable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -892,7 +892,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.Specialized.CollectionsUtil::CreateCaseInsensitiveHashtable(System.Collections.IDictionary):System.Collections.Hashtable",
           "clrName": "CreateCaseInsensitiveHashtable",
-          "tsEmitName": "createCaseInsensitiveHashtable3",
+          "tsEmitName": "createCaseInsensitiveHashtable",
           "normalizedSignature": "CreateCaseInsensitiveHashtable|(System.Collections.IDictionary):System.Collections.Hashtable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2397,7 +2397,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Add(System.String,System.String):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2477,7 +2477,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_2",
+          "tsEmitName": "get_",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2493,7 +2493,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::GetValues(System.Int32):System.String[]",
           "clrName": "GetValues",
-          "tsEmitName": "getValues2",
+          "tsEmitName": "getValues",
           "normalizedSignature": "GetValues|(System.Int32):System.String[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

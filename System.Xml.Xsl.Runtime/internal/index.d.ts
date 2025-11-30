@@ -668,8 +668,8 @@ export class XmlQuerySequence_1$instance<T> {
     indexOf(value: T): int;
     sortByKeys(keys: ClrArray): void;
     static readonly empty: unknown;
-    static createOrReuse2<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
-    static createOrReuse2<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
+    static createOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
+    static createOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 }
 
 
@@ -725,26 +725,26 @@ export type XmlILStorageConverter = XmlILStorageConverter$instance;
 
 export abstract class XsltConvert$instance {
     static ensureNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static toBoolean2(listItems: IList_1<XPathItem>): boolean;
-    static toBoolean2(item: XPathItem): boolean;
+    static toBoolean(listItems: IList_1<XPathItem>): boolean;
+    static toBoolean(item: XPathItem): boolean;
     static toDateTime(value: string): DateTime;
     static toDecimal(value: double): decimal;
-    static toDouble3(listItems: IList_1<XPathItem>): double;
-    static toDouble3(value: decimal): double;
-    static toDouble3(value: int): double;
-    static toDouble3(value: long): double;
-    static toDouble3(value: string): double;
-    static toDouble3(item: XPathItem): double;
+    static toDouble(listItems: IList_1<XPathItem>): double;
+    static toDouble(value: decimal): double;
+    static toDouble(value: int): double;
+    static toDouble(value: long): double;
+    static toDouble(value: string): double;
+    static toDouble(item: XPathItem): double;
     static toInt(value: double): int;
     static toLong(value: double): long;
-    static toNode2(listItems: IList_1<XPathItem>): XPathNavigator;
-    static toNode2(item: XPathItem): XPathNavigator;
-    static toNodeSet2(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static toNodeSet2(item: XPathItem): IList_1<XPathNavigator>;
-    static toString3(listItems: IList_1<XPathItem>): string;
-    static toString3(value: DateTime): string;
-    static toString3(value: double): string;
-    static toString3(item: XPathItem): string;
+    static toNode(listItems: IList_1<XPathItem>): XPathNavigator;
+    static toNode(item: XPathItem): XPathNavigator;
+    static toNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static toNodeSet(item: XPathItem): IList_1<XPathNavigator>;
+    static toString(listItems: IList_1<XPathItem>): string;
+    static toString(value: DateTime): string;
+    static toString(value: double): string;
+    static toString(item: XPathItem): string;
 }
 
 
@@ -765,8 +765,8 @@ export abstract class XsltFunctions$instance {
     static outerXml(navigator: XPathNavigator): string;
     static round(value: double): double;
     static startsWith(s1: string, s2: string): boolean;
-    static substring2(value: string, startIndex: double, length: double): string;
-    static substring2(value: string, startIndex: double): string;
+    static substring(value: string, startIndex: double, length: double): string;
+    static substring(value: string, startIndex: double): string;
     static substringAfter(s1: string, s2: string): string;
     static substringBefore(s1: string, s2: string): string;
     static systemProperty(name: XmlQualifiedName): XPathItem;

@@ -171,24 +171,24 @@ export class PureAttribute$instance extends System_Internal.Attribute$instance {
 export type PureAttribute = PureAttribute$instance;
 
 export abstract class Contract$instance {
-    static assert2(condition: boolean, userMessage: string): void;
-    static assert2(condition: boolean): void;
-    static assume2(condition: boolean, userMessage: string): void;
-    static assume2(condition: boolean): void;
+    static assert(condition: boolean, userMessage: string): void;
+    static assert(condition: boolean): void;
+    static assume(condition: boolean, userMessage: string): void;
+    static assume(condition: boolean): void;
     static endContractBlock(): void;
-    static ensures2(condition: boolean, userMessage: string): void;
-    static ensures2(condition: boolean): void;
-    static ensuresOnThrow2<TException extends Exception>(condition: boolean, userMessage: string): void;
-    static ensuresOnThrow2<TException extends Exception>(condition: boolean): void;
-    static exists2<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static exists2(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static forAll2<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static forAll2(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static invariant2(condition: boolean, userMessage: string): void;
-    static invariant2(condition: boolean): void;
+    static ensures(condition: boolean, userMessage: string): void;
+    static ensures(condition: boolean): void;
+    static ensuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
+    static ensuresOnThrow<TException extends Exception>(condition: boolean): void;
+    static exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static forAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static forAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static invariant(condition: boolean, userMessage: string): void;
+    static invariant(condition: boolean): void;
     static oldValue<T>(value: T): T;
-    static requires2(condition: boolean, userMessage: string): void;
-    static requires2(condition: boolean): void;
+    static requires(condition: boolean, userMessage: string): void;
+    static requires(condition: boolean): void;
     static result<T>(): T;
     static valueAtReturn<T>(value: { value: ref<T> }): T;
 }

@@ -369,7 +369,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporter::GetJsonSchemaAsNode(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "clrName": "GetJsonSchemaAsNode",
-          "tsEmitName": "getJsonSchemaAsNode2",
+          "tsEmitName": "getJsonSchemaAsNode",
           "metadataToken": 100665284,
           "canonicalSignature": "(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode",
           "normalizedSignature": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
@@ -397,7 +397,7 @@
           }
         },
         {
-          "tsName": "getJsonSchemaAsNode2",
+          "tsName": "getJsonSchemaAsNode",
           "isStatic": true,
           "tsSignatureId": "GetJsonSchemaAsNode|(System.Text.Json.Serialization.Metadata.JsonTypeInfo,System.Text.Json.Schema.JsonSchemaExporterOptions):System.Text.Json.Nodes.JsonNode|static=true",
           "target": {

@@ -140,20 +140,20 @@ export interface IDesignerHost$instance extends IServiceContainer, IServiceProvi
     readonly rootComponentClassName: string;
     readonly transactionDescription: string;
     activate(): void;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService4(serviceType: Type, serviceInstance: unknown): void;
-    createComponent2(componentClass: Type, name: string): IComponent;
-    createComponent2(componentClass: Type): IComponent;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    createComponent(componentClass: Type, name: string): IComponent;
+    createComponent(componentClass: Type): IComponent;
     createTransaction(): DesignerTransaction;
     createTransaction(description: string): DesignerTransaction;
     destroyComponent(component: IComponent): void;
     getDesigner(component: IComponent): IDesigner;
     getService(serviceType: Type): unknown;
     getType(typeName: string): Type;
-    removeService2(serviceType: Type, promote: boolean): void;
-    removeService2(serviceType: Type): void;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 
@@ -280,21 +280,21 @@ export interface ISelectionService$instance {
     readonly selectionCount: int;
     getComponentSelected(component: unknown): boolean;
     getSelectedComponents(): ICollection;
-    setSelectedComponents2(components: ICollection, selectionType: SelectionTypes): void;
-    setSelectedComponents2(components: ICollection): void;
+    setSelectedComponents(components: ICollection, selectionType: SelectionTypes): void;
+    setSelectedComponents(components: ICollection): void;
 }
 
 
 export type ISelectionService = ISelectionService$instance;
 
 export interface IServiceContainer$instance extends IServiceProvider {
-    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService4(serviceType: Type, serviceInstance: unknown): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
     getService(serviceType: Type): unknown;
-    removeService2(serviceType: Type, promote: boolean): void;
-    removeService2(serviceType: Type): void;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 
@@ -331,12 +331,12 @@ export interface ITypeDiscoveryService$instance {
 export type ITypeDiscoveryService = ITypeDiscoveryService$instance;
 
 export interface ITypeResolutionService$instance {
-    getAssembly2(name: AssemblyName, throwOnError: boolean): Assembly;
-    getAssembly2(name: AssemblyName): Assembly;
+    getAssembly(name: AssemblyName, throwOnError: boolean): Assembly;
+    getAssembly(name: AssemblyName): Assembly;
     getPathOfAssembly(name: AssemblyName): string;
-    getType3(name: string, throwOnError: boolean, ignoreCase: boolean): Type;
-    getType3(name: string, throwOnError: boolean): Type;
-    getType3(name: string): Type;
+    getType(name: string, throwOnError: boolean, ignoreCase: boolean): Type;
+    getType(name: string, throwOnError: boolean): Type;
+    getType(name: string): Type;
     referenceAssembly(name: AssemblyName): void;
 }
 

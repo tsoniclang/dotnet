@@ -1737,7 +1737,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Read(System.IO.Stream,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.IO.Stream,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1753,7 +1753,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Read(System.Xml.XmlReader,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Xml.XmlReader,System.Xml.Schema.ValidationEventHandler):System.Xml.Schema.XmlSchema|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1785,7 +1785,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.Stream,System.Xml.XmlNamespaceManager):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.IO.Stream,System.Xml.XmlNamespaceManager):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1801,7 +1801,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.TextWriter):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.IO.TextWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1817,7 +1817,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.IO.TextWriter,System.Xml.XmlNamespaceManager):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.IO.TextWriter,System.Xml.XmlNamespaceManager):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1833,7 +1833,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.Xml.XmlWriter):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Xml.XmlWriter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1849,7 +1849,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Write(System.Xml.XmlWriter,System.Xml.XmlNamespaceManager):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write6",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Xml.XmlWriter,System.Xml.XmlNamespaceManager):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1881,7 +1881,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::Compile(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlResolver):System.Void",
           "clrName": "Compile",
-          "tsEmitName": "compile2",
+          "tsEmitName": "compile",
           "normalizedSignature": "Compile|(System.Xml.Schema.ValidationEventHandler,System.Xml.XmlResolver):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2906,7 +2906,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2922,7 +2922,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.String,System.Xml.XmlReader,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Xml.XmlReader,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2938,7 +2938,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2954,7 +2954,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchema,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add5",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchema,System.Xml.XmlResolver):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2970,7 +2970,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Add(System.Xml.Schema.XmlSchemaCollection):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add6",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchemaCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3002,7 +3002,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaCollection::Contains(System.String):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3233,7 +3233,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -3241,7 +3241,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -3853,7 +3852,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatype::ChangeType(System.Object,System.Type,System.Xml.IXmlNamespaceResolver):System.Object",
           "clrName": "ChangeType",
-          "tsEmitName": "changeType2",
+          "tsEmitName": "changeType",
           "normalizedSignature": "ChangeType|(System.Object,System.Type,System.Xml.IXmlNamespaceResolver):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4982,7 +4981,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference::InferSchema(System.Xml.XmlReader,System.Xml.Schema.XmlSchemaSet):System.Xml.Schema.XmlSchemaSet",
           "clrName": "InferSchema",
-          "tsEmitName": "inferSchema2",
+          "tsEmitName": "inferSchema",
           "normalizedSignature": "InferSchema|(System.Xml.XmlReader,System.Xml.Schema.XmlSchemaSet):System.Xml.Schema.XmlSchemaSet|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6729,7 +6728,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.String,System.Xml.XmlReader):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6745,7 +6744,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.Xml.Schema.XmlSchemaSet):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add3",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchemaSet):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6761,7 +6760,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Add(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema",
           "clrName": "Add",
-          "tsEmitName": "add4",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Xml.Schema.XmlSchema):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6825,7 +6824,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Contains(System.Xml.Schema.XmlSchema):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(System.Xml.Schema.XmlSchema):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6905,7 +6904,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaSet::Schemas(System.String):System.Collections.ICollection",
           "clrName": "Schemas",
-          "tsEmitName": "schemas2",
+          "tsEmitName": "schemas",
           "normalizedSignature": "Schemas|(System.String):System.Collections.ICollection|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7578,7 +7577,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::GetBuiltInSimpleType(System.Xml.Schema.XmlTypeCode):System.Xml.Schema.XmlSchemaSimpleType",
           "clrName": "GetBuiltInSimpleType",
-          "tsEmitName": "getBuiltInSimpleType2",
+          "tsEmitName": "getBuiltInSimpleType",
           "normalizedSignature": "GetBuiltInSimpleType|(System.Xml.Schema.XmlTypeCode):System.Xml.Schema.XmlSchemaSimpleType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7610,7 +7609,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaType::GetBuiltInComplexType(System.Xml.XmlQualifiedName):System.Xml.Schema.XmlSchemaComplexType",
           "clrName": "GetBuiltInComplexType",
-          "tsEmitName": "getBuiltInComplexType2",
+          "tsEmitName": "getBuiltInComplexType",
           "normalizedSignature": "GetBuiltInComplexType|(System.Xml.XmlQualifiedName):System.Xml.Schema.XmlSchemaComplexType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7957,7 +7956,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::Initialize(System.Xml.Schema.XmlSchemaObject):System.Void",
           "clrName": "Initialize",
-          "tsEmitName": "initialize2",
+          "tsEmitName": "initialize",
           "normalizedSignature": "Initialize|(System.Xml.Schema.XmlSchemaObject):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7989,7 +7988,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo,System.String,System.String,System.String,System.String):System.Void",
           "clrName": "ValidateElement",
-          "tsEmitName": "validateElement2",
+          "tsEmitName": "validateElement",
           "normalizedSignature": "ValidateElement|(System.String,System.String,System.Xml.Schema.XmlSchemaInfo,System.String,System.String,System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8021,7 +8020,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateAttribute(System.String,System.String,System.Xml.Schema.XmlValueGetter,System.Xml.Schema.XmlSchemaInfo):System.Object",
           "clrName": "ValidateAttribute",
-          "tsEmitName": "validateAttribute2",
+          "tsEmitName": "validateAttribute",
           "normalizedSignature": "ValidateAttribute|(System.String,System.String,System.Xml.Schema.XmlValueGetter,System.Xml.Schema.XmlSchemaInfo):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8085,7 +8084,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateText(System.Xml.Schema.XmlValueGetter):System.Void",
           "clrName": "ValidateText",
-          "tsEmitName": "validateText2",
+          "tsEmitName": "validateText",
           "normalizedSignature": "ValidateText|(System.Xml.Schema.XmlValueGetter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8117,7 +8116,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateWhitespace(System.Xml.Schema.XmlValueGetter):System.Void",
           "clrName": "ValidateWhitespace",
-          "tsEmitName": "validateWhitespace2",
+          "tsEmitName": "validateWhitespace",
           "normalizedSignature": "ValidateWhitespace|(System.Xml.Schema.XmlValueGetter):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8149,7 +8148,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidator::ValidateEndElement(System.Xml.Schema.XmlSchemaInfo,System.Object):System.Object",
           "clrName": "ValidateEndElement",
-          "tsEmitName": "validateEndElement2",
+          "tsEmitName": "validateEndElement",
           "normalizedSignature": "ValidateEndElement|(System.Xml.Schema.XmlSchemaInfo,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8534,7 +8533,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::GetSchemaInfo(System.Xml.Linq.XAttribute):System.Xml.Schema.IXmlSchemaInfo",
           "clrName": "GetSchemaInfo",
-          "tsEmitName": "getSchemaInfo2",
+          "tsEmitName": "getSchemaInfo",
           "normalizedSignature": "GetSchemaInfo|(System.Xml.Linq.XAttribute):System.Xml.Schema.IXmlSchemaInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8566,7 +8565,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XDocument,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate2",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Linq.XDocument,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8582,7 +8581,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate3",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8598,7 +8597,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate4",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Linq.XElement,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8614,7 +8613,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate5",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8630,7 +8629,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Schema.Extensions::Validate(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void",
           "clrName": "Validate",
-          "tsEmitName": "validate6",
+          "tsEmitName": "validate",
           "normalizedSignature": "Validate|(System.Xml.Linq.XAttribute,System.Xml.Schema.XmlSchemaObject,System.Xml.Schema.XmlSchemaSet,System.Xml.Schema.ValidationEventHandler,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

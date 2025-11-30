@@ -405,7 +405,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::LoadFromStream(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly",
           "clrName": "LoadFromStream",
-          "tsEmitName": "loadFromStream2",
+          "tsEmitName": "loadFromStream",
           "metadataToken": 100682835,
           "canonicalSignature": "(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly",
           "normalizedSignature": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
@@ -682,7 +682,7 @@
           }
         },
         {
-          "tsName": "loadFromStream2",
+          "tsName": "loadFromStream",
           "isStatic": false,
           "tsSignatureId": "LoadFromStream|(System.IO.Stream,System.IO.Stream):System.Reflection.Assembly|static=false",
           "target": {

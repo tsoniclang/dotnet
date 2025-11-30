@@ -917,7 +917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.Label::Equals(System.Reflection.Emit.Label):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Reflection.Emit.Label):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -999,7 +999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCode::Equals(System.Reflection.Emit.OpCode):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Reflection.Emit.OpCode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1233,7 +1233,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.AssemblyBuilder::DefineDynamicAssembly(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable_1[[System.Reflection.Emit.CustomAttributeBuilder,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Emit.AssemblyBuilder",
           "clrName": "DefineDynamicAssembly",
-          "tsEmitName": "defineDynamicAssembly2",
+          "tsEmitName": "defineDynamicAssembly",
           "normalizedSignature": "DefineDynamicAssembly|(System.Reflection.AssemblyName,System.Reflection.Emit.AssemblyBuilderAccess,System.Collections.Generic.IEnumerable_1[[System.Reflection.Emit.CustomAttributeBuilder,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Reflection.Emit.AssemblyBuilder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1297,7 +1297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.AssemblyBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1409,7 +1409,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.AssemblyBuilder::GetManifestResourceStream(System.Type,System.String):System.IO.Stream",
           "clrName": "GetManifestResourceStream",
-          "tsEmitName": "getManifestResourceStream2",
+          "tsEmitName": "getManifestResourceStream",
           "normalizedSignature": "GetManifestResourceStream|(System.Type,System.String):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1683,7 +1683,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ConstructorBuilder::GetILGenerator(System.Int32):System.Reflection.Emit.ILGenerator",
           "clrName": "GetILGenerator",
-          "tsEmitName": "getILGenerator2",
+          "tsEmitName": "getILGenerator",
           "normalizedSignature": "GetILGenerator|(System.Int32):System.Reflection.Emit.ILGenerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1715,7 +1715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ConstructorBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1932,7 +1932,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::SetCode(System.Byte*,System.Int32,System.Int32):System.Void",
           "clrName": "SetCode",
-          "tsEmitName": "setCode2",
+          "tsEmitName": "setCode",
           "normalizedSignature": "SetCode|(System.Byte*,System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1964,7 +1964,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::SetExceptions(System.Byte*,System.Int32):System.Void",
           "clrName": "SetExceptions",
-          "tsEmitName": "setExceptions2",
+          "tsEmitName": "setExceptions",
           "normalizedSignature": "SetExceptions|(System.Byte*,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1996,7 +1996,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::SetLocalSignature(System.Byte*,System.Int32):System.Void",
           "clrName": "SetLocalSignature",
-          "tsEmitName": "setLocalSignature2",
+          "tsEmitName": "setLocalSignature",
           "normalizedSignature": "SetLocalSignature|(System.Byte*,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2028,7 +2028,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.Reflection.Emit.DynamicMethod):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor2",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.Reflection.Emit.DynamicMethod):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2044,7 +2044,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.RuntimeMethodHandle,System.RuntimeTypeHandle):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor3",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.RuntimeMethodHandle,System.RuntimeTypeHandle):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2060,7 +2060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.RuntimeFieldHandle):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor4",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.RuntimeFieldHandle):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2076,7 +2076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.RuntimeFieldHandle,System.RuntimeTypeHandle):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor5",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.RuntimeFieldHandle,System.RuntimeTypeHandle):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2092,7 +2092,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.RuntimeTypeHandle):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor6",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.RuntimeTypeHandle):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2108,7 +2108,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.String):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor7",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.String):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2124,7 +2124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicILInfo::GetTokenFor(System.Byte[]):System.Int32",
           "clrName": "GetTokenFor",
-          "tsEmitName": "getTokenFor8",
+          "tsEmitName": "getTokenFor",
           "normalizedSignature": "GetTokenFor|(System.Byte[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2189,7 +2189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicMethod::CreateDelegate(System.Type,System.Object):System.Delegate",
           "clrName": "CreateDelegate",
-          "tsEmitName": "createDelegate4",
+          "tsEmitName": "createDelegate3",
           "normalizedSignature": "CreateDelegate|(System.Type,System.Object):System.Delegate|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2333,7 +2333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicMethod::GetCustomAttributes(System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2381,7 +2381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicMethod::GetILGenerator():System.Reflection.Emit.ILGenerator",
           "clrName": "GetILGenerator",
-          "tsEmitName": "getILGenerator2",
+          "tsEmitName": "getILGenerator",
           "normalizedSignature": "GetILGenerator|():System.Reflection.Emit.ILGenerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2829,7 +2829,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.EnumBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2893,7 +2893,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.EnumBuilder::MakeArrayType(System.Int32):System.Type",
           "clrName": "MakeArrayType",
-          "tsEmitName": "makeArrayType2",
+          "tsEmitName": "makeArrayType",
           "normalizedSignature": "MakeArrayType|(System.Int32):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3885,7 +3885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.EventBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3982,7 +3982,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FieldBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4146,7 +4146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.GenericTypeParameterBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5139,7 +5139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Byte):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit2",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5155,7 +5155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Int16):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit3",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5171,7 +5171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Int64):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit4",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5187,7 +5187,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Single):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit5",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5203,7 +5203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Double):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit6",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5219,7 +5219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Int32):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit7",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5235,7 +5235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit8",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.MethodInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5267,7 +5267,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::EmitCalli(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[]):System.Void",
           "clrName": "EmitCalli",
-          "tsEmitName": "emitCalli2",
+          "tsEmitName": "emitCalli",
           "normalizedSignature": "EmitCalli|(System.Reflection.Emit.OpCode,System.Runtime.InteropServices.CallingConvention,System.Type,System.Type[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5299,7 +5299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit9",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.Emit.SignatureHelper):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5315,7 +5315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit10",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.ConstructorInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5331,7 +5331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Type):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit11",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5347,7 +5347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit12",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5363,7 +5363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[]):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit13",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.Emit.Label[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5379,7 +5379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit14",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.FieldInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5395,7 +5395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.String):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit15",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5411,7 +5411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit16",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.Reflection.Emit.LocalBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5587,7 +5587,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::EmitWriteLine(System.Reflection.Emit.LocalBuilder):System.Void",
           "clrName": "EmitWriteLine",
-          "tsEmitName": "emitWriteLine2",
+          "tsEmitName": "emitWriteLine",
           "normalizedSignature": "EmitWriteLine|(System.Reflection.Emit.LocalBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5603,7 +5603,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::EmitWriteLine(System.Reflection.FieldInfo):System.Void",
           "clrName": "EmitWriteLine",
-          "tsEmitName": "emitWriteLine3",
+          "tsEmitName": "emitWriteLine",
           "normalizedSignature": "EmitWriteLine|(System.Reflection.FieldInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5635,7 +5635,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::DeclareLocal(System.Type,System.Boolean):System.Reflection.Emit.LocalBuilder",
           "clrName": "DeclareLocal",
-          "tsEmitName": "declareLocal2",
+          "tsEmitName": "declareLocal",
           "normalizedSignature": "DeclareLocal|(System.Type,System.Boolean):System.Reflection.Emit.LocalBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5699,7 +5699,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ILGenerator::Emit(System.Reflection.Emit.OpCode,System.SByte):System.Void",
           "clrName": "Emit",
-          "tsEmitName": "emit17",
+          "tsEmitName": "emit",
           "normalizedSignature": "Emit|(System.Reflection.Emit.OpCode,System.SByte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5845,7 +5845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.MethodBuilder::GetILGenerator(System.Int32):System.Reflection.Emit.ILGenerator",
           "clrName": "GetILGenerator",
-          "tsEmitName": "getILGenerator2",
+          "tsEmitName": "getILGenerator",
           "normalizedSignature": "GetILGenerator|(System.Int32):System.Reflection.Emit.ILGenerator|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5877,7 +5877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.MethodBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6137,7 +6137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineDocument(System.String,System.Guid):System.Diagnostics.SymbolStore.ISymbolDocumentWriter",
           "clrName": "DefineDocument",
-          "tsEmitName": "defineDocument2",
+          "tsEmitName": "defineDocument",
           "normalizedSignature": "DefineDocument|(System.String,System.Guid):System.Diagnostics.SymbolStore.ISymbolDocumentWriter|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6169,7 +6169,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineGlobalMethod",
-          "tsEmitName": "defineGlobalMethod2",
+          "tsEmitName": "defineGlobalMethod",
           "normalizedSignature": "DefineGlobalMethod|(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6185,7 +6185,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineGlobalMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineGlobalMethod",
-          "tsEmitName": "defineGlobalMethod3",
+          "tsEmitName": "defineGlobalMethod",
           "normalizedSignature": "DefineGlobalMethod|(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6233,7 +6233,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefinePInvokeMethod(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefinePInvokeMethod",
-          "tsEmitName": "definePInvokeMethod2",
+          "tsEmitName": "definePInvokeMethod",
           "normalizedSignature": "DefinePInvokeMethod|(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6265,7 +6265,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType2",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6281,7 +6281,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes,System.Type):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType3",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes,System.Type):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6297,7 +6297,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[]):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType4",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[]):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6313,7 +6313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType5",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6329,7 +6329,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType6",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6345,7 +6345,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::DefineType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineType",
-          "tsEmitName": "defineType7",
+          "tsEmitName": "defineType",
           "normalizedSignature": "DefineType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6409,7 +6409,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6473,7 +6473,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ModuleBuilder::GetMethodMetadataToken(System.Reflection.ConstructorInfo):System.Int32",
           "clrName": "GetMethodMetadataToken",
-          "tsEmitName": "getMethodMetadataToken2",
+          "tsEmitName": "getMethodMetadataToken",
           "normalizedSignature": "GetMethodMetadataToken|(System.Reflection.ConstructorInfo):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8770,7 +8770,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.ParameterBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8910,7 +8910,7 @@
         {
           "stableId": "System.Reflection.Emit:System.Reflection.Emit.PersistedAssemblyBuilder::Save(System.String):System.Void",
           "clrName": "Save",
-          "tsEmitName": "save2",
+          "tsEmitName": "save",
           "normalizedSignature": "Save|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8942,7 +8942,7 @@
         {
           "stableId": "System.Reflection.Emit:System.Reflection.Emit.PersistedAssemblyBuilder::GenerateMetadata(System.Reflection.Metadata.BlobBuilder\u0026,System.Reflection.Metadata.BlobBuilder\u0026,System.Reflection.Metadata.Ecma335.MetadataBuilder\u0026):System.Reflection.Metadata.Ecma335.MetadataBuilder",
           "clrName": "GenerateMetadata",
-          "tsEmitName": "generateMetadata2",
+          "tsEmitName": "generateMetadata",
           "normalizedSignature": "GenerateMetadata|(System.Reflection.Metadata.BlobBuilder\u0026,System.Reflection.Metadata.BlobBuilder\u0026,System.Reflection.Metadata.Ecma335.MetadataBuilder\u0026):System.Reflection.Metadata.Ecma335.MetadataBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9224,7 +9224,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.PropertyBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9404,7 +9404,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::GetMethodSigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type):System.Reflection.Emit.SignatureHelper",
           "clrName": "GetMethodSigHelper",
-          "tsEmitName": "getMethodSigHelper2",
+          "tsEmitName": "getMethodSigHelper",
           "normalizedSignature": "GetMethodSigHelper|(System.Reflection.Module,System.Reflection.CallingConventions,System.Type):System.Reflection.Emit.SignatureHelper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9436,7 +9436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::GetMethodSigHelper(System.Reflection.CallingConventions,System.Type):System.Reflection.Emit.SignatureHelper",
           "clrName": "GetMethodSigHelper",
-          "tsEmitName": "getMethodSigHelper3",
+          "tsEmitName": "getMethodSigHelper",
           "normalizedSignature": "GetMethodSigHelper|(System.Reflection.CallingConventions,System.Type):System.Reflection.Emit.SignatureHelper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9452,7 +9452,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::GetLocalVarSigHelper(System.Reflection.Module):System.Reflection.Emit.SignatureHelper",
           "clrName": "GetLocalVarSigHelper",
-          "tsEmitName": "getLocalVarSigHelper2",
+          "tsEmitName": "getLocalVarSigHelper",
           "normalizedSignature": "GetLocalVarSigHelper|(System.Reflection.Module):System.Reflection.Emit.SignatureHelper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9500,7 +9500,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::GetPropertySigHelper(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.SignatureHelper",
           "clrName": "GetPropertySigHelper",
-          "tsEmitName": "getPropertySigHelper2",
+          "tsEmitName": "getPropertySigHelper",
           "normalizedSignature": "GetPropertySigHelper|(System.Reflection.Module,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.SignatureHelper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9516,7 +9516,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::GetPropertySigHelper(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.SignatureHelper",
           "clrName": "GetPropertySigHelper",
-          "tsEmitName": "getPropertySigHelper3",
+          "tsEmitName": "getPropertySigHelper",
           "normalizedSignature": "GetPropertySigHelper|(System.Reflection.Module,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.SignatureHelper|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9548,7 +9548,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::AddArgument(System.Type,System.Boolean):System.Void",
           "clrName": "AddArgument",
-          "tsEmitName": "addArgument2",
+          "tsEmitName": "addArgument",
           "normalizedSignature": "AddArgument|(System.Type,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9580,7 +9580,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.SignatureHelper::AddArgument(System.Type,System.Type[],System.Type[]):System.Void",
           "clrName": "AddArgument",
-          "tsEmitName": "addArgument3",
+          "tsEmitName": "addArgument",
           "normalizedSignature": "AddArgument|(System.Type,System.Type[],System.Type[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9757,7 +9757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineConstructor(System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.ConstructorBuilder",
           "clrName": "DefineConstructor",
-          "tsEmitName": "defineConstructor2",
+          "tsEmitName": "defineConstructor",
           "normalizedSignature": "DefineConstructor|(System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.ConstructorBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9821,7 +9821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineField(System.String,System.Type,System.Type[],System.Type[],System.Reflection.FieldAttributes):System.Reflection.Emit.FieldBuilder",
           "clrName": "DefineField",
-          "tsEmitName": "defineField2",
+          "tsEmitName": "defineField",
           "normalizedSignature": "DefineField|(System.String,System.Type,System.Type[],System.Type[],System.Reflection.FieldAttributes):System.Reflection.Emit.FieldBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9885,7 +9885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineMethod",
-          "tsEmitName": "defineMethod2",
+          "tsEmitName": "defineMethod",
           "normalizedSignature": "DefineMethod|(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9901,7 +9901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineMethod",
-          "tsEmitName": "defineMethod3",
+          "tsEmitName": "defineMethod",
           "normalizedSignature": "DefineMethod|(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9917,7 +9917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineMethod(System.String,System.Reflection.MethodAttributes,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineMethod",
-          "tsEmitName": "defineMethod4",
+          "tsEmitName": "defineMethod",
           "normalizedSignature": "DefineMethod|(System.String,System.Reflection.MethodAttributes,System.Type,System.Type[]):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9933,7 +9933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineMethod(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefineMethod",
-          "tsEmitName": "defineMethod5",
+          "tsEmitName": "defineMethod",
           "normalizedSignature": "DefineMethod|(System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9981,7 +9981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType2",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9997,7 +9997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes,System.Type):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType3",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes,System.Type):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10013,7 +10013,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[]):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType4",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Type[]):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10029,7 +10029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType5",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Int32):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10045,7 +10045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType6",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10061,7 +10061,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineNestedType(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32):System.Reflection.Emit.TypeBuilder",
           "clrName": "DefineNestedType",
-          "tsEmitName": "defineNestedType7",
+          "tsEmitName": "defineNestedType",
           "normalizedSignature": "DefineNestedType|(System.String,System.Reflection.TypeAttributes,System.Type,System.Reflection.Emit.PackingSize,System.Int32):System.Reflection.Emit.TypeBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10093,7 +10093,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefinePInvokeMethod(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefinePInvokeMethod",
-          "tsEmitName": "definePInvokeMethod2",
+          "tsEmitName": "definePInvokeMethod",
           "normalizedSignature": "DefinePInvokeMethod|(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10109,7 +10109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefinePInvokeMethod(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder",
           "clrName": "DefinePInvokeMethod",
-          "tsEmitName": "definePInvokeMethod3",
+          "tsEmitName": "definePInvokeMethod",
           "normalizedSignature": "DefinePInvokeMethod|(System.String,System.String,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][],System.Runtime.InteropServices.CallingConvention,System.Runtime.InteropServices.CharSet):System.Reflection.Emit.MethodBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10141,7 +10141,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineProperty(System.String,System.Reflection.PropertyAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.PropertyBuilder",
           "clrName": "DefineProperty",
-          "tsEmitName": "defineProperty2",
+          "tsEmitName": "defineProperty",
           "normalizedSignature": "DefineProperty|(System.String,System.Reflection.PropertyAttributes,System.Reflection.CallingConventions,System.Type,System.Type[]):System.Reflection.Emit.PropertyBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10157,7 +10157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineProperty(System.String,System.Reflection.PropertyAttributes,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.PropertyBuilder",
           "clrName": "DefineProperty",
-          "tsEmitName": "defineProperty3",
+          "tsEmitName": "defineProperty",
           "normalizedSignature": "DefineProperty|(System.String,System.Reflection.PropertyAttributes,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.PropertyBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10173,7 +10173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::DefineProperty(System.String,System.Reflection.PropertyAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.PropertyBuilder",
           "clrName": "DefineProperty",
-          "tsEmitName": "defineProperty4",
+          "tsEmitName": "defineProperty",
           "normalizedSignature": "DefineProperty|(System.String,System.Reflection.PropertyAttributes,System.Reflection.CallingConventions,System.Type,System.Type[],System.Type[],System.Type[],System.Type[][],System.Type[][]):System.Reflection.Emit.PropertyBuilder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10253,7 +10253,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder):System.Void",
           "clrName": "SetCustomAttribute",
-          "tsEmitName": "setCustomAttribute2",
+          "tsEmitName": "setCustomAttribute",
           "normalizedSignature": "SetCustomAttribute|(System.Reflection.Emit.CustomAttributeBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10333,7 +10333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.TypeBuilder::MakeArrayType(System.Int32):System.Type",
           "clrName": "MakeArrayType",
-          "tsEmitName": "makeArrayType2",
+          "tsEmitName": "makeArrayType",
           "normalizedSignature": "MakeArrayType|(System.Int32):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

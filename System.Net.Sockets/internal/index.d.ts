@@ -499,6 +499,7 @@ export class NetworkStream$instance extends System_IO_Internal.Stream$instance {
     writeTimeout: int;
     beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    close(timeout: TimeSpan): void;
     close(): void;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -993,16 +994,16 @@ export class UnixDomainSocketEndPoint$instance extends System_Net_Internal.EndPo
 export type UnixDomainSocketEndPoint = UnixDomainSocketEndPoint$instance;
 
 export abstract class SocketTaskExtensions$instance {
-    static acceptAsync2(socket: Socket, acceptSocket: Socket): Task_1<Socket>;
-    static acceptAsync2(socket: Socket): Task_1<Socket>;
-    static connectAsync2(socket: Socket, remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync2(socket: Socket, remoteEP: EndPoint): Task;
-    static connectAsync2(socket: Socket, address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync2(socket: Socket, address: IPAddress, port: int): Task;
-    static connectAsync2(socket: Socket, addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync2(socket: Socket, addresses: IPAddress[], port: int): Task;
-    static connectAsync2(socket: Socket, host: string, port: int, cancellationToken: CancellationToken): ValueTask;
-    static connectAsync2(socket: Socket, host: string, port: int): Task;
+    static acceptAsync(socket: Socket, acceptSocket: Socket): Task_1<Socket>;
+    static acceptAsync(socket: Socket): Task_1<Socket>;
+    static connectAsync(socket: Socket, remoteEP: EndPoint, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync(socket: Socket, remoteEP: EndPoint): Task;
+    static connectAsync(socket: Socket, address: IPAddress, port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync(socket: Socket, address: IPAddress, port: int): Task;
+    static connectAsync(socket: Socket, addresses: IPAddress[], port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync(socket: Socket, addresses: IPAddress[], port: int): Task;
+    static connectAsync(socket: Socket, host: string, port: int, cancellationToken: CancellationToken): ValueTask;
+    static connectAsync(socket: Socket, host: string, port: int): Task;
     static receiveAsync(socket: Socket, buffer: ArraySegment_1<CLROf<byte>>, socketFlags: SocketFlags): Task_1<CLROf<int>>;
     static receiveAsync(socket: Socket, buffers: IList_1<ArraySegment_1<CLROf<byte>>>, socketFlags: SocketFlags): Task_1<CLROf<int>>;
     static receiveAsync(socket: Socket, buffer: Memory_1<CLROf<byte>>, socketFlags: SocketFlags, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;

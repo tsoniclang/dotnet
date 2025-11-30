@@ -491,7 +491,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.IImmutableList\u00601::RemoveRange(System.Int32,System.Int32):IImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663417,
           "canonicalSignature": "(System.Int32,System.Int32):IImmutableList_1",
           "normalizedSignature": "RemoveRange|(System.Int32,System.Int32):IImmutableList_1|static=false",
@@ -684,7 +684,7 @@
           }
         },
         {
-          "tsName": "removeRange2",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(System.Int32,System.Int32):IImmutableList_1|static=false",
           "target": {
@@ -1367,7 +1367,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663635,
           "canonicalSignature": "(T,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -1381,7 +1381,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663636,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
@@ -1395,7 +1395,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663637,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -1409,7 +1409,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf5",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663638,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -1437,7 +1437,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663640,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
@@ -1451,7 +1451,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663641,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -1465,7 +1465,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663642,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -1493,7 +1493,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Contains(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "metadataToken": 100663644,
           "canonicalSignature": "(T,IEqualityComparer_1):System.Boolean",
           "normalizedSignature": "Contains|(T,IEqualityComparer_1):System.Boolean|static=false",
@@ -1535,7 +1535,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,ImmutableArray_1):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange2",
+          "tsEmitName": "insertRange",
           "metadataToken": 100663647,
           "canonicalSignature": "(System.Int32,ImmutableArray_1):ImmutableArray_1",
           "normalizedSignature": "InsertRange|(System.Int32,ImmutableArray_1):ImmutableArray_1|static=false",
@@ -1577,7 +1577,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(T[],System.Int32):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "metadataToken": 100663650,
           "canonicalSignature": "(T[],System.Int32):ImmutableArray_1",
           "normalizedSignature": "AddRange|(T[],System.Int32):ImmutableArray_1|static=false",
@@ -1591,7 +1591,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(TDerived[]):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange3",
+          "tsEmitName": "addRange",
           "metadataToken": 100663651,
           "canonicalSignature": "(TDerived[]):ImmutableArray_1",
           "normalizedSignature": "AddRange|(TDerived[]):ImmutableArray_1|static=false",
@@ -1605,7 +1605,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ImmutableArray_1,System.Int32):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange",
           "metadataToken": 100663652,
           "canonicalSignature": "(ImmutableArray_1,System.Int32):ImmutableArray_1",
           "normalizedSignature": "AddRange|(ImmutableArray_1,System.Int32):ImmutableArray_1|static=false",
@@ -1619,7 +1619,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ImmutableArray_1):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange5",
+          "tsEmitName": "addRange",
           "metadataToken": 100663653,
           "canonicalSignature": "(ImmutableArray_1):ImmutableArray_1",
           "normalizedSignature": "AddRange|(ImmutableArray_1):ImmutableArray_1|static=false",
@@ -1661,7 +1661,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Replace(T,T,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100663657,
           "canonicalSignature": "(T,T,IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -1689,7 +1689,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Remove(T,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100663659,
           "canonicalSignature": "(T,IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -1731,7 +1731,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(IEnumerable_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663662,
           "canonicalSignature": "(IEnumerable_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):ImmutableArray_1|static=false",
@@ -1745,7 +1745,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663663,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -1759,7 +1759,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ImmutableArray_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange4",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663664,
           "canonicalSignature": "(ImmutableArray_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(ImmutableArray_1):ImmutableArray_1|static=false",
@@ -1773,7 +1773,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange5",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663665,
           "canonicalSignature": "(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -1829,7 +1829,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(Comparison_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "metadataToken": 100663669,
           "canonicalSignature": "(Comparison_1):ImmutableArray_1",
           "normalizedSignature": "Sort|(Comparison_1):ImmutableArray_1|static=false",
@@ -1843,7 +1843,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(IComparer_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "metadataToken": 100663670,
           "canonicalSignature": "(IComparer_1):ImmutableArray_1",
           "normalizedSignature": "Sort|(IComparer_1):ImmutableArray_1|static=false",
@@ -1857,7 +1857,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(System.Int32,System.Int32,IComparer_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "metadataToken": 100663671,
           "canonicalSignature": "(System.Int32,System.Int32,IComparer_1):ImmutableArray_1",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableArray_1|static=false",
@@ -1885,7 +1885,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange6",
+          "tsEmitName": "addRange",
           "metadataToken": 100663673,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableArray_1",
           "normalizedSignature": "AddRange|(ReadOnlySpan_1):ImmutableArray_1|static=false",
@@ -1899,7 +1899,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(T[]):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange7",
+          "tsEmitName": "addRange",
           "metadataToken": 100663674,
           "canonicalSignature": "(T[]):ImmutableArray_1",
           "normalizedSignature": "AddRange|(T[]):ImmutableArray_1|static=false",
@@ -1913,7 +1913,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AsSpan(System.Int32,System.Int32):ReadOnlySpan_1",
           "clrName": "AsSpan",
-          "tsEmitName": "asSpan2",
+          "tsEmitName": "asSpan",
           "metadataToken": 100663675,
           "canonicalSignature": "(System.Int32,System.Int32):ReadOnlySpan_1",
           "normalizedSignature": "AsSpan|(System.Int32,System.Int32):ReadOnlySpan_1|static=false",
@@ -1941,7 +1941,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,T[]):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange3",
+          "tsEmitName": "insertRange",
           "metadataToken": 100663677,
           "canonicalSignature": "(System.Int32,T[]):ImmutableArray_1",
           "normalizedSignature": "InsertRange|(System.Int32,T[]):ImmutableArray_1|static=false",
@@ -1955,7 +1955,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange4",
+          "tsEmitName": "insertRange",
           "metadataToken": 100663678,
           "canonicalSignature": "(System.Int32,ReadOnlySpan_1):ImmutableArray_1",
           "normalizedSignature": "InsertRange|(System.Int32,ReadOnlySpan_1):ImmutableArray_1|static=false",
@@ -1969,7 +1969,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange6",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663679,
           "canonicalSignature": "(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -1983,7 +1983,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(T[],IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange7",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663680,
           "canonicalSignature": "(T[],IEqualityComparer_1):ImmutableArray_1",
           "normalizedSignature": "RemoveRange|(T[],IEqualityComparer_1):ImmutableArray_1|static=false",
@@ -2011,7 +2011,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AsSpan(System.Range):ReadOnlySpan_1",
           "clrName": "AsSpan",
-          "tsEmitName": "asSpan3",
+          "tsEmitName": "asSpan",
           "metadataToken": 100663720,
           "canonicalSignature": "(System.Range):ReadOnlySpan_1",
           "normalizedSignature": "AsSpan|(System.Range):ReadOnlySpan_1|static=false",
@@ -2039,7 +2039,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(T[]):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663734,
           "canonicalSignature": "(T[]):System.Void",
           "normalizedSignature": "CopyTo|(T[]):System.Void|static=false",
@@ -2053,7 +2053,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663735,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -2067,7 +2067,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo4",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663736,
           "canonicalSignature": "(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
@@ -2137,7 +2137,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Equals(ImmutableArray_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "metadataToken": 100663741,
           "canonicalSignature": "(ImmutableArray_1):System.Boolean",
           "normalizedSignature": "Equals|(ImmutableArray_1):System.Boolean|static=false",
@@ -2884,7 +2884,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -2894,7 +2894,7 @@
           }
         },
         {
-          "tsName": "indexOf3",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -2904,7 +2904,7 @@
           }
         },
         {
-          "tsName": "indexOf4",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -2914,7 +2914,7 @@
           }
         },
         {
-          "tsName": "indexOf5",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -2934,7 +2934,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf2",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -2944,7 +2944,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf3",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -2954,7 +2954,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf4",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -2974,7 +2974,7 @@
           }
         },
         {
-          "tsName": "contains2",
+          "tsName": "contains",
           "isStatic": false,
           "tsSignatureId": "Contains|(T,IEqualityComparer_1):System.Boolean|static=false",
           "target": {
@@ -3004,7 +3004,7 @@
           }
         },
         {
-          "tsName": "insertRange2",
+          "tsName": "insertRange",
           "isStatic": false,
           "tsSignatureId": "InsertRange|(System.Int32,ImmutableArray_1):ImmutableArray_1|static=false",
           "target": {
@@ -3034,7 +3034,7 @@
           }
         },
         {
-          "tsName": "addRange2",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(T[],System.Int32):ImmutableArray_1|static=false",
           "target": {
@@ -3044,7 +3044,7 @@
           }
         },
         {
-          "tsName": "addRange3",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(TDerived[]):ImmutableArray_1|static=false",
           "target": {
@@ -3054,7 +3054,7 @@
           }
         },
         {
-          "tsName": "addRange4",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ImmutableArray_1,System.Int32):ImmutableArray_1|static=false",
           "target": {
@@ -3064,7 +3064,7 @@
           }
         },
         {
-          "tsName": "addRange5",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ImmutableArray_1):ImmutableArray_1|static=false",
           "target": {
@@ -3094,7 +3094,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(T,T,IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3114,7 +3114,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T,IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3144,7 +3144,7 @@
           }
         },
         {
-          "tsName": "removeRange2",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1):ImmutableArray_1|static=false",
           "target": {
@@ -3154,7 +3154,7 @@
           }
         },
         {
-          "tsName": "removeRange3",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3164,7 +3164,7 @@
           }
         },
         {
-          "tsName": "removeRange4",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(ImmutableArray_1):ImmutableArray_1|static=false",
           "target": {
@@ -3174,7 +3174,7 @@
           }
         },
         {
-          "tsName": "removeRange5",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3214,7 +3214,7 @@
           }
         },
         {
-          "tsName": "sort2",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(Comparison_1):ImmutableArray_1|static=false",
           "target": {
@@ -3224,7 +3224,7 @@
           }
         },
         {
-          "tsName": "sort3",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(IComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3234,7 +3234,7 @@
           }
         },
         {
-          "tsName": "sort4",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3254,7 +3254,7 @@
           }
         },
         {
-          "tsName": "addRange6",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ReadOnlySpan_1):ImmutableArray_1|static=false",
           "target": {
@@ -3264,7 +3264,7 @@
           }
         },
         {
-          "tsName": "addRange7",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(T[]):ImmutableArray_1|static=false",
           "target": {
@@ -3274,7 +3274,7 @@
           }
         },
         {
-          "tsName": "asSpan2",
+          "tsName": "asSpan",
           "isStatic": false,
           "tsSignatureId": "AsSpan|(System.Int32,System.Int32):ReadOnlySpan_1|static=false",
           "target": {
@@ -3294,7 +3294,7 @@
           }
         },
         {
-          "tsName": "insertRange3",
+          "tsName": "insertRange",
           "isStatic": false,
           "tsSignatureId": "InsertRange|(System.Int32,T[]):ImmutableArray_1|static=false",
           "target": {
@@ -3304,7 +3304,7 @@
           }
         },
         {
-          "tsName": "insertRange4",
+          "tsName": "insertRange",
           "isStatic": false,
           "tsSignatureId": "InsertRange|(System.Int32,ReadOnlySpan_1):ImmutableArray_1|static=false",
           "target": {
@@ -3314,7 +3314,7 @@
           }
         },
         {
-          "tsName": "removeRange6",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3324,7 +3324,7 @@
           }
         },
         {
-          "tsName": "removeRange7",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(T[],IEqualityComparer_1):ImmutableArray_1|static=false",
           "target": {
@@ -3344,7 +3344,7 @@
           }
         },
         {
-          "tsName": "asSpan3",
+          "tsName": "asSpan",
           "isStatic": false,
           "tsSignatureId": "AsSpan|(System.Range):ReadOnlySpan_1|static=false",
           "target": {
@@ -3364,7 +3364,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[]):System.Void|static=false",
           "target": {
@@ -3374,7 +3374,7 @@
           }
         },
         {
-          "tsName": "copyTo3",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -3384,7 +3384,7 @@
           }
         },
         {
-          "tsName": "copyTo4",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -3434,7 +3434,7 @@
           }
         },
         {
-          "tsName": "equals2",
+          "tsName": "equals",
           "isStatic": false,
           "tsSignatureId": "Equals|(ImmutableArray_1):System.Boolean|static=false",
           "target": {
@@ -5945,7 +5945,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::InsertRange(System.Int32,ImmutableArray_1):System.Void",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange2",
+          "tsEmitName": "insertRange",
           "metadataToken": 100663767,
           "canonicalSignature": "(System.Int32,ImmutableArray_1):System.Void",
           "normalizedSignature": "InsertRange|(System.Int32,ImmutableArray_1):System.Void|static=false",
@@ -5987,7 +5987,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(T[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "metadataToken": 100663770,
           "canonicalSignature": "(T[]):System.Void",
           "normalizedSignature": "AddRange|(T[]):System.Void|static=false",
@@ -6001,7 +6001,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(TDerived[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange3",
+          "tsEmitName": "addRange",
           "metadataToken": 100663771,
           "canonicalSignature": "(TDerived[]):System.Void",
           "normalizedSignature": "AddRange|(TDerived[]):System.Void|static=false",
@@ -6015,7 +6015,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(T[],System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange",
           "metadataToken": 100663772,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "AddRange|(T[],System.Int32):System.Void|static=false",
@@ -6029,7 +6029,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ImmutableArray_1):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange5",
+          "tsEmitName": "addRange",
           "metadataToken": 100663773,
           "canonicalSignature": "(ImmutableArray_1):System.Void",
           "normalizedSignature": "AddRange|(ImmutableArray_1):System.Void|static=false",
@@ -6043,7 +6043,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ImmutableArray_1,System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange6",
+          "tsEmitName": "addRange",
           "metadataToken": 100663774,
           "canonicalSignature": "(ImmutableArray_1,System.Int32):System.Void",
           "normalizedSignature": "AddRange|(ImmutableArray_1,System.Int32):System.Void|static=false",
@@ -6057,7 +6057,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ReadOnlySpan_1):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange7",
+          "tsEmitName": "addRange",
           "metadataToken": 100663775,
           "canonicalSignature": "(ReadOnlySpan_1):System.Void",
           "normalizedSignature": "AddRange|(ReadOnlySpan_1):System.Void|static=false",
@@ -6071,7 +6071,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(Builder):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange8",
+          "tsEmitName": "addRange",
           "metadataToken": 100663778,
           "canonicalSignature": "(Builder):System.Void",
           "normalizedSignature": "AddRange|(Builder):System.Void|static=false",
@@ -6099,7 +6099,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Remove(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100663781,
           "canonicalSignature": "(T,IEqualityComparer_1):System.Boolean",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
@@ -6155,7 +6155,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::RemoveRange(IEnumerable_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663785,
           "canonicalSignature": "(IEnumerable_1):System.Void",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):System.Void|static=false",
@@ -6169,7 +6169,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::RemoveRange(IEnumerable_1,IEqualityComparer_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "metadataToken": 100663786,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):System.Void",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
@@ -6197,7 +6197,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Replace(T,T,IEqualityComparer_1):System.Void",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100663788,
           "canonicalSignature": "(T,T,IEqualityComparer_1):System.Void",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
@@ -6253,7 +6253,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(T[]):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663792,
           "canonicalSignature": "(T[]):System.Void",
           "normalizedSignature": "CopyTo|(T[]):System.Void|static=false",
@@ -6267,7 +6267,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663793,
           "canonicalSignature": "(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
@@ -6295,7 +6295,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663796,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
@@ -6309,7 +6309,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663797,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -6323,7 +6323,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663798,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -6337,7 +6337,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf5",
+          "tsEmitName": "indexOf",
           "metadataToken": 100663799,
           "canonicalSignature": "(T,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -6365,7 +6365,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663801,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
@@ -6379,7 +6379,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663802,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -6393,7 +6393,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100663803,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -6435,7 +6435,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(Comparison_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "metadataToken": 100663806,
           "canonicalSignature": "(Comparison_1):System.Void",
           "normalizedSignature": "Sort|(Comparison_1):System.Void|static=false",
@@ -6449,7 +6449,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "metadataToken": 100663807,
           "canonicalSignature": "(IComparer_1):System.Void",
           "normalizedSignature": "Sort|(IComparer_1):System.Void|static=false",
@@ -6463,7 +6463,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(System.Int32,System.Int32,IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "metadataToken": 100663808,
           "canonicalSignature": "(System.Int32,System.Int32,IComparer_1):System.Void",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
@@ -6477,7 +6477,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(Span_1):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo4",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663809,
           "canonicalSignature": "(Span_1):System.Void",
           "normalizedSignature": "CopyTo|(Span_1):System.Void|static=false",
@@ -6790,7 +6790,7 @@
           }
         },
         {
-          "tsName": "insertRange2",
+          "tsName": "insertRange",
           "isStatic": false,
           "tsSignatureId": "InsertRange|(System.Int32,ImmutableArray_1):System.Void|static=false",
           "target": {
@@ -6820,7 +6820,7 @@
           }
         },
         {
-          "tsName": "addRange2",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(T[]):System.Void|static=false",
           "target": {
@@ -6830,7 +6830,7 @@
           }
         },
         {
-          "tsName": "addRange3",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(TDerived[]):System.Void|static=false",
           "target": {
@@ -6840,7 +6840,7 @@
           }
         },
         {
-          "tsName": "addRange4",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -6850,7 +6850,7 @@
           }
         },
         {
-          "tsName": "addRange5",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ImmutableArray_1):System.Void|static=false",
           "target": {
@@ -6860,7 +6860,7 @@
           }
         },
         {
-          "tsName": "addRange6",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ImmutableArray_1,System.Int32):System.Void|static=false",
           "target": {
@@ -6870,7 +6870,7 @@
           }
         },
         {
-          "tsName": "addRange7",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(ReadOnlySpan_1):System.Void|static=false",
           "target": {
@@ -6880,7 +6880,7 @@
           }
         },
         {
-          "tsName": "addRange8",
+          "tsName": "addRange",
           "isStatic": false,
           "tsSignatureId": "AddRange|(Builder):System.Void|static=false",
           "target": {
@@ -6900,7 +6900,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
           "target": {
@@ -6940,7 +6940,7 @@
           }
         },
         {
-          "tsName": "removeRange2",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1):System.Void|static=false",
           "target": {
@@ -6950,7 +6950,7 @@
           }
         },
         {
-          "tsName": "removeRange3",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
           "target": {
@@ -6970,7 +6970,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
           "target": {
@@ -7010,7 +7010,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[]):System.Void|static=false",
           "target": {
@@ -7020,7 +7020,7 @@
           }
         },
         {
-          "tsName": "copyTo3",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -7040,7 +7040,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -7050,7 +7050,7 @@
           }
         },
         {
-          "tsName": "indexOf3",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -7060,7 +7060,7 @@
           }
         },
         {
-          "tsName": "indexOf4",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -7070,7 +7070,7 @@
           }
         },
         {
-          "tsName": "indexOf5",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -7090,7 +7090,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf2",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -7100,7 +7100,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf3",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -7110,7 +7110,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf4",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -7140,7 +7140,7 @@
           }
         },
         {
-          "tsName": "sort2",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(Comparison_1):System.Void|static=false",
           "target": {
@@ -7150,7 +7150,7 @@
           }
         },
         {
-          "tsName": "sort3",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(IComparer_1):System.Void|static=false",
           "target": {
@@ -7160,7 +7160,7 @@
           }
         },
         {
-          "tsName": "sort4",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
           "target": {
@@ -7170,7 +7170,7 @@
           }
         },
         {
-          "tsName": "copyTo4",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(Span_1):System.Void|static=false",
           "target": {
@@ -7595,7 +7595,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602::WithComparers(IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "WithComparers",
-          "tsEmitName": "withComparers2",
+          "tsEmitName": "withComparers",
           "metadataToken": 100663896,
           "canonicalSignature": "(IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "WithComparers|(IEqualityComparer_1):ImmutableDictionary_2|static=false",
@@ -8414,7 +8414,7 @@
           }
         },
         {
-          "tsName": "withComparers2",
+          "tsName": "withComparers",
           "isStatic": false,
           "tsSignatureId": "WithComparers|(IEqualityComparer_1):ImmutableDictionary_2|static=false",
           "target": {
@@ -9035,7 +9035,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::GetValueOrDefault(TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "metadataToken": 100663976,
           "canonicalSignature": "(TKey,TValue):TValue",
           "normalizedSignature": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
@@ -9147,7 +9147,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::Add(KeyValuePair_2):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "metadataToken": 100663984,
           "canonicalSignature": "(KeyValuePair_2):System.Void",
           "normalizedSignature": "Add|(KeyValuePair_2):System.Void|static=false",
@@ -9189,7 +9189,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::Remove(KeyValuePair_2):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100663988,
           "canonicalSignature": "(KeyValuePair_2):System.Boolean",
           "normalizedSignature": "Remove|(KeyValuePair_2):System.Boolean|static=false",
@@ -9766,7 +9766,7 @@
           }
         },
         {
-          "tsName": "getValueOrDefault2",
+          "tsName": "getValueOrDefault",
           "isStatic": false,
           "tsSignatureId": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
           "target": {
@@ -9846,7 +9846,7 @@
           }
         },
         {
-          "tsName": "add2",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(KeyValuePair_2):System.Void|static=false",
           "target": {
@@ -9876,7 +9876,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(KeyValuePair_2):System.Boolean|static=false",
           "target": {
@@ -12385,7 +12385,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::BinarySearch(T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100664168,
           "canonicalSignature": "(T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
@@ -12399,7 +12399,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::BinarySearch(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100664169,
           "canonicalSignature": "(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
@@ -12511,7 +12511,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Remove(T,IEqualityComparer_1):ImmutableList_1",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100664184,
           "canonicalSignature": "(T,IEqualityComparer_1):ImmutableList_1",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):ImmutableList_1|static=false",
@@ -12539,7 +12539,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::RemoveRange(IEnumerable_1):ImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "metadataToken": 100664186,
           "canonicalSignature": "(IEnumerable_1):ImmutableList_1",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):ImmutableList_1|static=false",
@@ -12553,7 +12553,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::RemoveRange(IEnumerable_1,IEqualityComparer_1):ImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "metadataToken": 100664187,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):ImmutableList_1",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableList_1|static=false",
@@ -12623,7 +12623,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Replace(T,T,IEqualityComparer_1):ImmutableList_1",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100664192,
           "canonicalSignature": "(T,T,IEqualityComparer_1):ImmutableList_1",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):ImmutableList_1|static=false",
@@ -12651,7 +12651,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Reverse(System.Int32,System.Int32):ImmutableList_1",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "metadataToken": 100664194,
           "canonicalSignature": "(System.Int32,System.Int32):ImmutableList_1",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):ImmutableList_1|static=false",
@@ -12679,7 +12679,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(Comparison_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "metadataToken": 100664196,
           "canonicalSignature": "(Comparison_1):ImmutableList_1",
           "normalizedSignature": "Sort|(Comparison_1):ImmutableList_1|static=false",
@@ -12693,7 +12693,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(IComparer_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "metadataToken": 100664197,
           "canonicalSignature": "(IComparer_1):ImmutableList_1",
           "normalizedSignature": "Sort|(IComparer_1):ImmutableList_1|static=false",
@@ -12707,7 +12707,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(System.Int32,System.Int32,IComparer_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "metadataToken": 100664198,
           "canonicalSignature": "(System.Int32,System.Int32,IComparer_1):ImmutableList_1",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableList_1|static=false",
@@ -12749,7 +12749,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100664201,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -12763,7 +12763,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "metadataToken": 100664202,
           "canonicalSignature": "(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
@@ -12861,7 +12861,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex2",
+          "tsEmitName": "findIndex",
           "metadataToken": 100664209,
           "canonicalSignature": "(System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
@@ -12875,7 +12875,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex3",
+          "tsEmitName": "findIndex",
           "metadataToken": 100664210,
           "canonicalSignature": "(System.Int32,System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
@@ -12917,7 +12917,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindLastIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex2",
+          "tsEmitName": "findLastIndex",
           "metadataToken": 100664213,
           "canonicalSignature": "(System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
@@ -12931,7 +12931,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindLastIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex3",
+          "tsEmitName": "findLastIndex",
           "metadataToken": 100664214,
           "canonicalSignature": "(System.Int32,System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
@@ -13001,7 +13001,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664219,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
@@ -13626,7 +13626,7 @@
           }
         },
         {
-          "tsName": "binarySearch2",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
           "target": {
@@ -13636,7 +13636,7 @@
           }
         },
         {
-          "tsName": "binarySearch3",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
           "target": {
@@ -13716,7 +13716,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T,IEqualityComparer_1):ImmutableList_1|static=false",
           "target": {
@@ -13736,7 +13736,7 @@
           }
         },
         {
-          "tsName": "removeRange2",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1):ImmutableList_1|static=false",
           "target": {
@@ -13746,7 +13746,7 @@
           }
         },
         {
-          "tsName": "removeRange3",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableList_1|static=false",
           "target": {
@@ -13796,7 +13796,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(T,T,IEqualityComparer_1):ImmutableList_1|static=false",
           "target": {
@@ -13816,7 +13816,7 @@
           }
         },
         {
-          "tsName": "reverse2",
+          "tsName": "reverse",
           "isStatic": false,
           "tsSignatureId": "Reverse|(System.Int32,System.Int32):ImmutableList_1|static=false",
           "target": {
@@ -13836,7 +13836,7 @@
           }
         },
         {
-          "tsName": "sort2",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(Comparison_1):ImmutableList_1|static=false",
           "target": {
@@ -13846,7 +13846,7 @@
           }
         },
         {
-          "tsName": "sort3",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(IComparer_1):ImmutableList_1|static=false",
           "target": {
@@ -13856,7 +13856,7 @@
           }
         },
         {
-          "tsName": "sort4",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableList_1|static=false",
           "target": {
@@ -13886,7 +13886,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -13896,7 +13896,7 @@
           }
         },
         {
-          "tsName": "copyTo3",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -13966,7 +13966,7 @@
           }
         },
         {
-          "tsName": "findIndex2",
+          "tsName": "findIndex",
           "isStatic": false,
           "tsSignatureId": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -13976,7 +13976,7 @@
           }
         },
         {
-          "tsName": "findIndex3",
+          "tsName": "findIndex",
           "isStatic": false,
           "tsSignatureId": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -14006,7 +14006,7 @@
           }
         },
         {
-          "tsName": "findLastIndex2",
+          "tsName": "findLastIndex",
           "isStatic": false,
           "tsSignatureId": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -14016,7 +14016,7 @@
           }
         },
         {
-          "tsName": "findLastIndex3",
+          "tsName": "findLastIndex",
           "isStatic": false,
           "tsSignatureId": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -14066,7 +14066,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T):System.Int32|static=false",
           "target": {
@@ -14725,7 +14725,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100664281,
           "canonicalSignature": "(T[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
@@ -14739,7 +14739,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "metadataToken": 100664282,
           "canonicalSignature": "(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
@@ -14837,7 +14837,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex2",
+          "tsEmitName": "findIndex",
           "metadataToken": 100664289,
           "canonicalSignature": "(System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
@@ -14851,7 +14851,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex3",
+          "tsEmitName": "findIndex",
           "metadataToken": 100664290,
           "canonicalSignature": "(System.Int32,System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
@@ -14893,7 +14893,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindLastIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex2",
+          "tsEmitName": "findLastIndex",
           "metadataToken": 100664293,
           "canonicalSignature": "(System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
@@ -14907,7 +14907,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindLastIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex3",
+          "tsEmitName": "findLastIndex",
           "metadataToken": 100664294,
           "canonicalSignature": "(System.Int32,System.Int32,Predicate_1):System.Int32",
           "normalizedSignature": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
@@ -14921,7 +14921,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664295,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
@@ -14935,7 +14935,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664296,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -14949,7 +14949,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664297,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -14977,7 +14977,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664299,
           "canonicalSignature": "(T,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
@@ -14991,7 +14991,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664300,
           "canonicalSignature": "(T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
@@ -15005,7 +15005,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664301,
           "canonicalSignature": "(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
@@ -15075,7 +15075,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Remove(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100664306,
           "canonicalSignature": "(T,IEqualityComparer_1):System.Boolean",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
@@ -15103,7 +15103,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::RemoveRange(IEnumerable_1,IEqualityComparer_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "metadataToken": 100664308,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):System.Void",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
@@ -15117,7 +15117,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::RemoveRange(IEnumerable_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "metadataToken": 100664309,
           "canonicalSignature": "(IEnumerable_1):System.Void",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):System.Void|static=false",
@@ -15145,7 +15145,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Replace(T,T,IEqualityComparer_1):System.Void",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100664311,
           "canonicalSignature": "(T,T,IEqualityComparer_1):System.Void",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
@@ -15173,7 +15173,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Reverse(System.Int32,System.Int32):System.Void",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "metadataToken": 100664313,
           "canonicalSignature": "(System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
@@ -15201,7 +15201,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(Comparison_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "metadataToken": 100664315,
           "canonicalSignature": "(Comparison_1):System.Void",
           "normalizedSignature": "Sort|(Comparison_1):System.Void|static=false",
@@ -15215,7 +15215,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "metadataToken": 100664316,
           "canonicalSignature": "(IComparer_1):System.Void",
           "normalizedSignature": "Sort|(IComparer_1):System.Void|static=false",
@@ -15229,7 +15229,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(System.Int32,System.Int32,IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "metadataToken": 100664317,
           "canonicalSignature": "(System.Int32,System.Int32,IComparer_1):System.Void",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
@@ -15257,7 +15257,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::BinarySearch(T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100664319,
           "canonicalSignature": "(T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
@@ -15271,7 +15271,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::BinarySearch(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100664320,
           "canonicalSignature": "(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
@@ -15778,7 +15778,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "target": {
@@ -15788,7 +15788,7 @@
           }
         },
         {
-          "tsName": "copyTo3",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -15858,7 +15858,7 @@
           }
         },
         {
-          "tsName": "findIndex2",
+          "tsName": "findIndex",
           "isStatic": false,
           "tsSignatureId": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -15868,7 +15868,7 @@
           }
         },
         {
-          "tsName": "findIndex3",
+          "tsName": "findIndex",
           "isStatic": false,
           "tsSignatureId": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -15898,7 +15898,7 @@
           }
         },
         {
-          "tsName": "findLastIndex2",
+          "tsName": "findLastIndex",
           "isStatic": false,
           "tsSignatureId": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -15908,7 +15908,7 @@
           }
         },
         {
-          "tsName": "findLastIndex3",
+          "tsName": "findLastIndex",
           "isStatic": false,
           "tsSignatureId": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "target": {
@@ -15918,7 +15918,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -15928,7 +15928,7 @@
           }
         },
         {
-          "tsName": "indexOf3",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -15938,7 +15938,7 @@
           }
         },
         {
-          "tsName": "indexOf4",
+          "tsName": "indexOf",
           "isStatic": false,
           "tsSignatureId": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -15958,7 +15958,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf2",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "target": {
@@ -15968,7 +15968,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf3",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "target": {
@@ -15978,7 +15978,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf4",
+          "tsName": "lastIndexOf",
           "isStatic": false,
           "tsSignatureId": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "target": {
@@ -16028,7 +16028,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
           "target": {
@@ -16048,7 +16048,7 @@
           }
         },
         {
-          "tsName": "removeRange2",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
           "target": {
@@ -16058,7 +16058,7 @@
           }
         },
         {
-          "tsName": "removeRange3",
+          "tsName": "removeRange",
           "isStatic": false,
           "tsSignatureId": "RemoveRange|(IEnumerable_1):System.Void|static=false",
           "target": {
@@ -16078,7 +16078,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
           "target": {
@@ -16098,7 +16098,7 @@
           }
         },
         {
-          "tsName": "reverse2",
+          "tsName": "reverse",
           "isStatic": false,
           "tsSignatureId": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
           "target": {
@@ -16118,7 +16118,7 @@
           }
         },
         {
-          "tsName": "sort2",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(Comparison_1):System.Void|static=false",
           "target": {
@@ -16128,7 +16128,7 @@
           }
         },
         {
-          "tsName": "sort3",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(IComparer_1):System.Void|static=false",
           "target": {
@@ -16138,7 +16138,7 @@
           }
         },
         {
-          "tsName": "sort4",
+          "tsName": "sort",
           "isStatic": false,
           "tsSignatureId": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
           "target": {
@@ -16158,7 +16158,7 @@
           }
         },
         {
-          "tsName": "binarySearch2",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
           "target": {
@@ -16168,7 +16168,7 @@
           }
         },
         {
-          "tsName": "binarySearch3",
+          "tsName": "binarySearch",
           "isStatic": false,
           "tsSignatureId": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
           "target": {
@@ -16591,7 +16591,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue\u00601::Dequeue(T\u0026):ImmutableQueue_1",
           "clrName": "Dequeue",
-          "tsEmitName": "dequeue2",
+          "tsEmitName": "dequeue",
           "metadataToken": 100664442,
           "canonicalSignature": "(T\u0026):ImmutableQueue_1",
           "normalizedSignature": "Dequeue|(T\u0026):ImmutableQueue_1|static=false",
@@ -16786,7 +16786,7 @@
           }
         },
         {
-          "tsName": "dequeue2",
+          "tsName": "dequeue",
           "isStatic": false,
           "tsSignatureId": "Dequeue|(T\u0026):ImmutableQueue_1|static=false",
           "target": {
@@ -17099,7 +17099,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602::WithComparers(IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "WithComparers",
-          "tsEmitName": "withComparers2",
+          "tsEmitName": "withComparers",
           "metadataToken": 100664501,
           "canonicalSignature": "(IComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "WithComparers|(IComparer_1):ImmutableSortedDictionary_2|static=false",
@@ -17944,7 +17944,7 @@
           }
         },
         {
-          "tsName": "withComparers2",
+          "tsName": "withComparers",
           "isStatic": false,
           "tsSignatureId": "WithComparers|(IComparer_1):ImmutableSortedDictionary_2|static=false",
           "target": {
@@ -18633,7 +18633,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::Add(KeyValuePair_2):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "metadataToken": 100664577,
           "canonicalSignature": "(KeyValuePair_2):System.Void",
           "normalizedSignature": "Add|(KeyValuePair_2):System.Void|static=false",
@@ -18675,7 +18675,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::Remove(KeyValuePair_2):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "metadataToken": 100664581,
           "canonicalSignature": "(KeyValuePair_2):System.Boolean",
           "normalizedSignature": "Remove|(KeyValuePair_2):System.Boolean|static=false",
@@ -18759,7 +18759,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::GetValueOrDefault(TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "metadataToken": 100664589,
           "canonicalSignature": "(TKey,TValue):TValue",
           "normalizedSignature": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
@@ -19370,7 +19370,7 @@
           }
         },
         {
-          "tsName": "add2",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(KeyValuePair_2):System.Void|static=false",
           "target": {
@@ -19400,7 +19400,7 @@
           }
         },
         {
-          "tsName": "remove2",
+          "tsName": "remove",
           "isStatic": false,
           "tsSignatureId": "Remove|(KeyValuePair_2):System.Boolean|static=false",
           "target": {
@@ -19460,7 +19460,7 @@
           }
         },
         {
-          "tsName": "getValueOrDefault2",
+          "tsName": "getValueOrDefault",
           "isStatic": false,
           "tsSignatureId": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
           "target": {
@@ -22669,7 +22669,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack\u00601::Pop(T\u0026):ImmutableStack_1",
           "clrName": "Pop",
-          "tsEmitName": "pop2",
+          "tsEmitName": "pop",
           "metadataToken": 100664843,
           "canonicalSignature": "(T\u0026):ImmutableStack_1",
           "normalizedSignature": "Pop|(T\u0026):ImmutableStack_1|static=false",
@@ -22864,7 +22864,7 @@
           }
         },
         {
-          "tsName": "pop2",
+          "tsName": "pop",
           "isStatic": false,
           "tsSignatureId": "Pop|(T\u0026):ImmutableStack_1|static=false",
           "target": {
@@ -23051,7 +23051,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100663601,
           "canonicalSignature": "(T):ImmutableArray_1",
           "normalizedSignature": "Create|(T):ImmutableArray_1|static=true",
@@ -23065,7 +23065,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100663602,
           "canonicalSignature": "(T,T):ImmutableArray_1",
           "normalizedSignature": "Create|(T,T):ImmutableArray_1|static=true",
@@ -23079,7 +23079,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100663603,
           "canonicalSignature": "(T,T,T):ImmutableArray_1",
           "normalizedSignature": "Create|(T,T,T):ImmutableArray_1|static=true",
@@ -23093,7 +23093,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T,T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "metadataToken": 100663604,
           "canonicalSignature": "(T,T,T,T):ImmutableArray_1",
           "normalizedSignature": "Create|(T,T,T,T):ImmutableArray_1|static=true",
@@ -23107,7 +23107,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "metadataToken": 100663605,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableArray_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableArray_1|static=true",
@@ -23121,7 +23121,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(Span_1):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "metadataToken": 100663606,
           "canonicalSignature": "(Span_1):ImmutableArray_1",
           "normalizedSignature": "Create|(Span_1):ImmutableArray_1|static=true",
@@ -23149,7 +23149,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(Span_1):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray2",
+          "tsEmitName": "toImmutableArray",
           "metadataToken": 100663608,
           "canonicalSignature": "(Span_1):ImmutableArray_1",
           "normalizedSignature": "ToImmutableArray|(Span_1):ImmutableArray_1|static=true",
@@ -23177,7 +23177,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T[]):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "metadataToken": 100663610,
           "canonicalSignature": "(T[]):ImmutableArray_1",
           "normalizedSignature": "Create|(T[]):ImmutableArray_1|static=true",
@@ -23191,7 +23191,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T[],System.Int32,System.Int32):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create9",
+          "tsEmitName": "create",
           "metadataToken": 100663611,
           "canonicalSignature": "(T[],System.Int32,System.Int32):ImmutableArray_1",
           "normalizedSignature": "Create|(T[],System.Int32,System.Int32):ImmutableArray_1|static=true",
@@ -23205,7 +23205,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create10",
+          "tsEmitName": "create",
           "metadataToken": 100663612,
           "canonicalSignature": "(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1",
           "normalizedSignature": "Create|(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1|static=true",
@@ -23219,7 +23219,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,Func_2):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "metadataToken": 100663613,
           "canonicalSignature": "(ImmutableArray_1,Func_2):ImmutableArray_1",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,Func_2):ImmutableArray_1|static=true",
@@ -23233,7 +23233,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "metadataToken": 100663614,
           "canonicalSignature": "(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1|static=true",
@@ -23247,7 +23247,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,Func_3,TArg):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange4",
+          "tsEmitName": "createRange",
           "metadataToken": 100663615,
           "canonicalSignature": "(ImmutableArray_1,Func_3,TArg):ImmutableArray_1",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,Func_3,TArg):ImmutableArray_1|static=true",
@@ -23261,7 +23261,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange5",
+          "tsEmitName": "createRange",
           "metadataToken": 100663616,
           "canonicalSignature": "(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1|static=true",
@@ -23289,7 +23289,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateBuilder(System.Int32):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100663618,
           "canonicalSignature": "(System.Int32):Builder",
           "normalizedSignature": "CreateBuilder|(System.Int32):Builder|static=true",
@@ -23303,7 +23303,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(IEnumerable_1):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray3",
+          "tsEmitName": "toImmutableArray",
           "metadataToken": 100663619,
           "canonicalSignature": "(IEnumerable_1):ImmutableArray_1",
           "normalizedSignature": "ToImmutableArray|(IEnumerable_1):ImmutableArray_1|static=true",
@@ -23317,7 +23317,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(Builder):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray4",
+          "tsEmitName": "toImmutableArray",
           "metadataToken": 100663620,
           "canonicalSignature": "(Builder):ImmutableArray_1",
           "normalizedSignature": "ToImmutableArray|(Builder):ImmutableArray_1|static=true",
@@ -23345,7 +23345,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100663622,
           "canonicalSignature": "(ImmutableArray_1,T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,T,IComparer_1):System.Int32|static=true",
@@ -23359,7 +23359,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100663623,
           "canonicalSignature": "(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32|static=true",
@@ -23373,7 +23373,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch4",
+          "tsEmitName": "binarySearch",
           "metadataToken": 100663624,
           "canonicalSignature": "(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32|static=true",
@@ -23401,7 +23401,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableArray_1|static=true",
           "target": {
@@ -23411,7 +23411,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T,T):ImmutableArray_1|static=true",
           "target": {
@@ -23421,7 +23421,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T,T,T):ImmutableArray_1|static=true",
           "target": {
@@ -23431,7 +23431,7 @@
           }
         },
         {
-          "tsName": "create5",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T,T,T,T):ImmutableArray_1|static=true",
           "target": {
@@ -23441,7 +23441,7 @@
           }
         },
         {
-          "tsName": "create6",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableArray_1|static=true",
           "target": {
@@ -23451,7 +23451,7 @@
           }
         },
         {
-          "tsName": "create7",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(Span_1):ImmutableArray_1|static=true",
           "target": {
@@ -23471,7 +23471,7 @@
           }
         },
         {
-          "tsName": "toImmutableArray2",
+          "tsName": "toImmutableArray",
           "isStatic": true,
           "tsSignatureId": "ToImmutableArray|(Span_1):ImmutableArray_1|static=true",
           "target": {
@@ -23491,7 +23491,7 @@
           }
         },
         {
-          "tsName": "create8",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableArray_1|static=true",
           "target": {
@@ -23501,7 +23501,7 @@
           }
         },
         {
-          "tsName": "create9",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[],System.Int32,System.Int32):ImmutableArray_1|static=true",
           "target": {
@@ -23511,7 +23511,7 @@
           }
         },
         {
-          "tsName": "create10",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1|static=true",
           "target": {
@@ -23521,7 +23521,7 @@
           }
         },
         {
-          "tsName": "createRange2",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(ImmutableArray_1,Func_2):ImmutableArray_1|static=true",
           "target": {
@@ -23531,7 +23531,7 @@
           }
         },
         {
-          "tsName": "createRange3",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1|static=true",
           "target": {
@@ -23541,7 +23541,7 @@
           }
         },
         {
-          "tsName": "createRange4",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(ImmutableArray_1,Func_3,TArg):ImmutableArray_1|static=true",
           "target": {
@@ -23551,7 +23551,7 @@
           }
         },
         {
-          "tsName": "createRange5",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1|static=true",
           "target": {
@@ -23571,7 +23571,7 @@
           }
         },
         {
-          "tsName": "createBuilder2",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(System.Int32):Builder|static=true",
           "target": {
@@ -23581,7 +23581,7 @@
           }
         },
         {
-          "tsName": "toImmutableArray3",
+          "tsName": "toImmutableArray",
           "isStatic": true,
           "tsSignatureId": "ToImmutableArray|(IEnumerable_1):ImmutableArray_1|static=true",
           "target": {
@@ -23591,7 +23591,7 @@
           }
         },
         {
-          "tsName": "toImmutableArray4",
+          "tsName": "toImmutableArray",
           "isStatic": true,
           "tsSignatureId": "ToImmutableArray|(Builder):ImmutableArray_1|static=true",
           "target": {
@@ -23611,7 +23611,7 @@
           }
         },
         {
-          "tsName": "binarySearch2",
+          "tsName": "binarySearch",
           "isStatic": true,
           "tsSignatureId": "BinarySearch|(ImmutableArray_1,T,IComparer_1):System.Int32|static=true",
           "target": {
@@ -23621,7 +23621,7 @@
           }
         },
         {
-          "tsName": "binarySearch3",
+          "tsName": "binarySearch",
           "isStatic": true,
           "tsSignatureId": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32|static=true",
           "target": {
@@ -23631,7 +23631,7 @@
           }
         },
         {
-          "tsName": "binarySearch4",
+          "tsName": "binarySearch",
           "isStatic": true,
           "tsSignatureId": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32|static=true",
           "target": {
@@ -23726,7 +23726,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::Create(IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100663836,
           "canonicalSignature": "(IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "Create|(IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23740,7 +23740,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::Create(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100663837,
           "canonicalSignature": "(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "Create|(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23782,7 +23782,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRange(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "metadataToken": 100663840,
           "canonicalSignature": "(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
@@ -23796,7 +23796,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRangeWithOverwrite(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2",
           "clrName": "CreateRangeWithOverwrite",
-          "tsEmitName": "createRangeWithOverwrite2",
+          "tsEmitName": "createRangeWithOverwrite",
           "metadataToken": 100663841,
           "canonicalSignature": "(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2",
           "normalizedSignature": "CreateRangeWithOverwrite|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2|static=true",
@@ -23810,7 +23810,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRange(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "metadataToken": 100663842,
           "canonicalSignature": "(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
@@ -23838,7 +23838,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateBuilder(IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100663844,
           "canonicalSignature": "(IEqualityComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
@@ -23852,7 +23852,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateBuilder(IEqualityComparer_1,IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder3",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100663845,
           "canonicalSignature": "(IEqualityComparer_1,IEqualityComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1,IEqualityComparer_1):Builder|static=true",
@@ -23880,7 +23880,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(Builder):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary2",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663847,
           "canonicalSignature": "(Builder):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(Builder):ImmutableDictionary_2|static=true",
@@ -23894,7 +23894,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary3",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663848,
           "canonicalSignature": "(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23908,7 +23908,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary4",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663849,
           "canonicalSignature": "(IEnumerable_1,Func_2):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2):ImmutableDictionary_2|static=true",
@@ -23922,7 +23922,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary5",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663850,
           "canonicalSignature": "(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23936,7 +23936,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary6",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663851,
           "canonicalSignature": "(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2|static=true",
@@ -23950,7 +23950,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary7",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663852,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23964,7 +23964,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary8",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663853,
           "canonicalSignature": "(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
@@ -23978,7 +23978,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary9",
+          "tsEmitName": "toImmutableDictionary",
           "metadataToken": 100663854,
           "canonicalSignature": "(IEnumerable_1):ImmutableDictionary_2",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1):ImmutableDictionary_2|static=true",
@@ -24020,7 +24020,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::GetValueOrDefault(IImmutableDictionary_2,TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "metadataToken": 100663857,
           "canonicalSignature": "(IImmutableDictionary_2,TKey,TValue):TValue",
           "normalizedSignature": "GetValueOrDefault|(IImmutableDictionary_2,TKey,TValue):TValue|static=true",
@@ -24048,7 +24048,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24058,7 +24058,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24088,7 +24088,7 @@
           }
         },
         {
-          "tsName": "createRange2",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24098,7 +24098,7 @@
           }
         },
         {
-          "tsName": "createRangeWithOverwrite2",
+          "tsName": "createRangeWithOverwrite",
           "isStatic": true,
           "tsSignatureId": "CreateRangeWithOverwrite|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24108,7 +24108,7 @@
           }
         },
         {
-          "tsName": "createRange3",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24128,7 +24128,7 @@
           }
         },
         {
-          "tsName": "createBuilder2",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
           "target": {
@@ -24138,7 +24138,7 @@
           }
         },
         {
-          "tsName": "createBuilder3",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IEqualityComparer_1,IEqualityComparer_1):Builder|static=true",
           "target": {
@@ -24158,7 +24158,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary2",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(Builder):ImmutableDictionary_2|static=true",
           "target": {
@@ -24168,7 +24168,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary3",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24178,7 +24178,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary4",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,Func_2):ImmutableDictionary_2|static=true",
           "target": {
@@ -24188,7 +24188,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary5",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24198,7 +24198,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary6",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2|static=true",
           "target": {
@@ -24208,7 +24208,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary7",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24218,7 +24218,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary8",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24228,7 +24228,7 @@
           }
         },
         {
-          "tsName": "toImmutableDictionary9",
+          "tsName": "toImmutableDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableDictionary|(IEnumerable_1):ImmutableDictionary_2|static=true",
           "target": {
@@ -24258,7 +24258,7 @@
           }
         },
         {
-          "tsName": "getValueOrDefault2",
+          "tsName": "getValueOrDefault",
           "isStatic": true,
           "tsSignatureId": "GetValueOrDefault|(IImmutableDictionary_2,TKey,TValue):TValue|static=true",
           "target": {
@@ -24353,7 +24353,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664112,
           "canonicalSignature": "(IEqualityComparer_1):ImmutableHashSet_1",
           "normalizedSignature": "Create|(IEqualityComparer_1):ImmutableHashSet_1|static=true",
@@ -24367,7 +24367,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(T):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664113,
           "canonicalSignature": "(T):ImmutableHashSet_1",
           "normalizedSignature": "Create|(T):ImmutableHashSet_1|static=true",
@@ -24381,7 +24381,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,T):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100664114,
           "canonicalSignature": "(IEqualityComparer_1,T):ImmutableHashSet_1",
           "normalizedSignature": "Create|(IEqualityComparer_1,T):ImmutableHashSet_1|static=true",
@@ -24409,7 +24409,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::CreateRange(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "metadataToken": 100664116,
           "canonicalSignature": "(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1|static=true",
@@ -24423,7 +24423,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(T[]):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "metadataToken": 100664117,
           "canonicalSignature": "(T[]):ImmutableHashSet_1",
           "normalizedSignature": "Create|(T[]):ImmutableHashSet_1|static=true",
@@ -24437,7 +24437,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(ReadOnlySpan_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "metadataToken": 100664118,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableHashSet_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableHashSet_1|static=true",
@@ -24451,7 +24451,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,T[]):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "metadataToken": 100664119,
           "canonicalSignature": "(IEqualityComparer_1,T[]):ImmutableHashSet_1",
           "normalizedSignature": "Create|(IEqualityComparer_1,T[]):ImmutableHashSet_1|static=true",
@@ -24465,7 +24465,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "metadataToken": 100664120,
           "canonicalSignature": "(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1",
           "normalizedSignature": "Create|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1|static=true",
@@ -24493,7 +24493,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::CreateBuilder(IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100664122,
           "canonicalSignature": "(IEqualityComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
@@ -24521,7 +24521,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::ToImmutableHashSet(Builder):ImmutableHashSet_1",
           "clrName": "ToImmutableHashSet",
-          "tsEmitName": "toImmutableHashSet2",
+          "tsEmitName": "toImmutableHashSet",
           "metadataToken": 100664124,
           "canonicalSignature": "(Builder):ImmutableHashSet_1",
           "normalizedSignature": "ToImmutableHashSet|(Builder):ImmutableHashSet_1|static=true",
@@ -24535,7 +24535,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::ToImmutableHashSet(IEnumerable_1):ImmutableHashSet_1",
           "clrName": "ToImmutableHashSet",
-          "tsEmitName": "toImmutableHashSet3",
+          "tsEmitName": "toImmutableHashSet",
           "metadataToken": 100664125,
           "canonicalSignature": "(IEnumerable_1):ImmutableHashSet_1",
           "normalizedSignature": "ToImmutableHashSet|(IEnumerable_1):ImmutableHashSet_1|static=true",
@@ -24563,7 +24563,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1):ImmutableHashSet_1|static=true",
           "target": {
@@ -24573,7 +24573,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableHashSet_1|static=true",
           "target": {
@@ -24583,7 +24583,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1,T):ImmutableHashSet_1|static=true",
           "target": {
@@ -24603,7 +24603,7 @@
           }
         },
         {
-          "tsName": "createRange2",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1|static=true",
           "target": {
@@ -24613,7 +24613,7 @@
           }
         },
         {
-          "tsName": "create5",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableHashSet_1|static=true",
           "target": {
@@ -24623,7 +24623,7 @@
           }
         },
         {
-          "tsName": "create6",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableHashSet_1|static=true",
           "target": {
@@ -24633,7 +24633,7 @@
           }
         },
         {
-          "tsName": "create7",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1,T[]):ImmutableHashSet_1|static=true",
           "target": {
@@ -24643,7 +24643,7 @@
           }
         },
         {
-          "tsName": "create8",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1|static=true",
           "target": {
@@ -24663,7 +24663,7 @@
           }
         },
         {
-          "tsName": "createBuilder2",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
           "target": {
@@ -24683,7 +24683,7 @@
           }
         },
         {
-          "tsName": "toImmutableHashSet2",
+          "tsName": "toImmutableHashSet",
           "isStatic": true,
           "tsSignatureId": "ToImmutableHashSet|(Builder):ImmutableHashSet_1|static=true",
           "target": {
@@ -24693,7 +24693,7 @@
           }
         },
         {
-          "tsName": "toImmutableHashSet3",
+          "tsName": "toImmutableHashSet",
           "isStatic": true,
           "tsSignatureId": "ToImmutableHashSet|(IEnumerable_1):ImmutableHashSet_1|static=true",
           "target": {
@@ -24788,7 +24788,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(T\u0026,Func_3,TArg):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update2",
+          "tsEmitName": "update",
           "metadataToken": 100664127,
           "canonicalSignature": "(T\u0026,Func_3,TArg):System.Boolean",
           "normalizedSignature": "Update|(T\u0026,Func_3,TArg):System.Boolean|static=true",
@@ -24802,7 +24802,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(ImmutableArray_1\u0026,Func_2):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update3",
+          "tsEmitName": "update",
           "metadataToken": 100664128,
           "canonicalSignature": "(ImmutableArray_1\u0026,Func_2):System.Boolean",
           "normalizedSignature": "Update|(ImmutableArray_1\u0026,Func_2):System.Boolean|static=true",
@@ -24816,7 +24816,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update4",
+          "tsEmitName": "update",
           "metadataToken": 100664129,
           "canonicalSignature": "(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean",
           "normalizedSignature": "Update|(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean|static=true",
@@ -24886,7 +24886,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::GetOrAdd(ImmutableDictionary_2\u0026,TKey,Func_2):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd2",
+          "tsEmitName": "getOrAdd",
           "metadataToken": 100664134,
           "canonicalSignature": "(ImmutableDictionary_2\u0026,TKey,Func_2):TValue",
           "normalizedSignature": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,Func_2):TValue|static=true",
@@ -24900,7 +24900,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::GetOrAdd(ImmutableDictionary_2\u0026,TKey,TValue):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd3",
+          "tsEmitName": "getOrAdd",
           "metadataToken": 100664135,
           "canonicalSignature": "(ImmutableDictionary_2\u0026,TKey,TValue):TValue",
           "normalizedSignature": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,TValue):TValue|static=true",
@@ -24928,7 +24928,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::AddOrUpdate(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue",
           "clrName": "AddOrUpdate",
-          "tsEmitName": "addOrUpdate2",
+          "tsEmitName": "addOrUpdate",
           "metadataToken": 100664137,
           "canonicalSignature": "(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue",
           "normalizedSignature": "AddOrUpdate|(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue|static=true",
@@ -25054,7 +25054,7 @@
           }
         },
         {
-          "tsName": "update2",
+          "tsName": "update",
           "isStatic": true,
           "tsSignatureId": "Update|(T\u0026,Func_3,TArg):System.Boolean|static=true",
           "target": {
@@ -25064,7 +25064,7 @@
           }
         },
         {
-          "tsName": "update3",
+          "tsName": "update",
           "isStatic": true,
           "tsSignatureId": "Update|(ImmutableArray_1\u0026,Func_2):System.Boolean|static=true",
           "target": {
@@ -25074,7 +25074,7 @@
           }
         },
         {
-          "tsName": "update4",
+          "tsName": "update",
           "isStatic": true,
           "tsSignatureId": "Update|(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean|static=true",
           "target": {
@@ -25124,7 +25124,7 @@
           }
         },
         {
-          "tsName": "getOrAdd2",
+          "tsName": "getOrAdd",
           "isStatic": true,
           "tsSignatureId": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,Func_2):TValue|static=true",
           "target": {
@@ -25134,7 +25134,7 @@
           }
         },
         {
-          "tsName": "getOrAdd3",
+          "tsName": "getOrAdd",
           "isStatic": true,
           "tsSignatureId": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,TValue):TValue|static=true",
           "target": {
@@ -25154,7 +25154,7 @@
           }
         },
         {
-          "tsName": "addOrUpdate2",
+          "tsName": "addOrUpdate",
           "isStatic": true,
           "tsSignatureId": "AddOrUpdate|(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue|static=true",
           "target": {
@@ -25319,7 +25319,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(T):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664146,
           "canonicalSignature": "(T):ImmutableList_1",
           "normalizedSignature": "Create|(T):ImmutableList_1|static=true",
@@ -25347,7 +25347,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(T[]):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664148,
           "canonicalSignature": "(T[]):ImmutableList_1",
           "normalizedSignature": "Create|(T[]):ImmutableList_1|static=true",
@@ -25361,7 +25361,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(ReadOnlySpan_1):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100664149,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableList_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableList_1|static=true",
@@ -25403,7 +25403,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::ToImmutableList(Builder):ImmutableList_1",
           "clrName": "ToImmutableList",
-          "tsEmitName": "toImmutableList2",
+          "tsEmitName": "toImmutableList",
           "metadataToken": 100664152,
           "canonicalSignature": "(Builder):ImmutableList_1",
           "normalizedSignature": "ToImmutableList|(Builder):ImmutableList_1|static=true",
@@ -25473,7 +25473,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664157,
           "canonicalSignature": "(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
@@ -25487,7 +25487,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664158,
           "canonicalSignature": "(IImmutableList_1,T,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
@@ -25501,7 +25501,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "metadataToken": 100664159,
           "canonicalSignature": "(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
@@ -25529,7 +25529,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664161,
           "canonicalSignature": "(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
@@ -25543,7 +25543,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664162,
           "canonicalSignature": "(IImmutableList_1,T,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
@@ -25557,7 +25557,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "metadataToken": 100664163,
           "canonicalSignature": "(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
@@ -25585,7 +25585,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableList_1|static=true",
           "target": {
@@ -25605,7 +25605,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableList_1|static=true",
           "target": {
@@ -25615,7 +25615,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableList_1|static=true",
           "target": {
@@ -25645,7 +25645,7 @@
           }
         },
         {
-          "tsName": "toImmutableList2",
+          "tsName": "toImmutableList",
           "isStatic": true,
           "tsSignatureId": "ToImmutableList|(Builder):ImmutableList_1|static=true",
           "target": {
@@ -25695,7 +25695,7 @@
           }
         },
         {
-          "tsName": "indexOf2",
+          "tsName": "indexOf",
           "isStatic": true,
           "tsSignatureId": "IndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
           "target": {
@@ -25705,7 +25705,7 @@
           }
         },
         {
-          "tsName": "indexOf3",
+          "tsName": "indexOf",
           "isStatic": true,
           "tsSignatureId": "IndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
           "target": {
@@ -25715,7 +25715,7 @@
           }
         },
         {
-          "tsName": "indexOf4",
+          "tsName": "indexOf",
           "isStatic": true,
           "tsSignatureId": "IndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
           "target": {
@@ -25735,7 +25735,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf2",
+          "tsName": "lastIndexOf",
           "isStatic": true,
           "tsSignatureId": "LastIndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
           "target": {
@@ -25745,7 +25745,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf3",
+          "tsName": "lastIndexOf",
           "isStatic": true,
           "tsSignatureId": "LastIndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
           "target": {
@@ -25755,7 +25755,7 @@
           }
         },
         {
-          "tsName": "lastIndexOf4",
+          "tsName": "lastIndexOf",
           "isStatic": true,
           "tsSignatureId": "LastIndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
           "target": {
@@ -25850,7 +25850,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(T):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664426,
           "canonicalSignature": "(T):ImmutableQueue_1",
           "normalizedSignature": "Create|(T):ImmutableQueue_1|static=true",
@@ -25878,7 +25878,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(T[]):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664428,
           "canonicalSignature": "(T[]):ImmutableQueue_1",
           "normalizedSignature": "Create|(T[]):ImmutableQueue_1|static=true",
@@ -25892,7 +25892,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(ReadOnlySpan_1):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100664429,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableQueue_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableQueue_1|static=true",
@@ -25934,7 +25934,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableQueue_1|static=true",
           "target": {
@@ -25954,7 +25954,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableQueue_1|static=true",
           "target": {
@@ -25964,7 +25964,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableQueue_1|static=true",
           "target": {
@@ -26069,7 +26069,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::Create(IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664459,
           "canonicalSignature": "(IComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "Create|(IComparer_1):ImmutableSortedDictionary_2|static=true",
@@ -26083,7 +26083,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::Create(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664460,
           "canonicalSignature": "(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "Create|(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
@@ -26111,7 +26111,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateRange(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "metadataToken": 100664462,
           "canonicalSignature": "(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
@@ -26125,7 +26125,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateRange(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "metadataToken": 100664463,
           "canonicalSignature": "(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "CreateRange|(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
@@ -26153,7 +26153,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateBuilder(IComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100664465,
           "canonicalSignature": "(IComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IComparer_1):Builder|static=true",
@@ -26167,7 +26167,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateBuilder(IComparer_1,IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder3",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100664466,
           "canonicalSignature": "(IComparer_1,IEqualityComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IComparer_1,IEqualityComparer_1):Builder|static=true",
@@ -26195,7 +26195,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(Builder):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary2",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664468,
           "canonicalSignature": "(Builder):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(Builder):ImmutableSortedDictionary_2|static=true",
@@ -26209,7 +26209,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary3",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664469,
           "canonicalSignature": "(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2|static=true",
@@ -26223,7 +26223,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary4",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664470,
           "canonicalSignature": "(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2|static=true",
@@ -26237,7 +26237,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary5",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664471,
           "canonicalSignature": "(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
@@ -26251,7 +26251,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary6",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664472,
           "canonicalSignature": "(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2|static=true",
@@ -26265,7 +26265,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary7",
+          "tsEmitName": "toImmutableSortedDictionary",
           "metadataToken": 100664473,
           "canonicalSignature": "(IEnumerable_1):ImmutableSortedDictionary_2",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1):ImmutableSortedDictionary_2|static=true",
@@ -26293,7 +26293,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26303,7 +26303,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26323,7 +26323,7 @@
           }
         },
         {
-          "tsName": "createRange2",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26333,7 +26333,7 @@
           }
         },
         {
-          "tsName": "createRange3",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26353,7 +26353,7 @@
           }
         },
         {
-          "tsName": "createBuilder2",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IComparer_1):Builder|static=true",
           "target": {
@@ -26363,7 +26363,7 @@
           }
         },
         {
-          "tsName": "createBuilder3",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IComparer_1,IEqualityComparer_1):Builder|static=true",
           "target": {
@@ -26383,7 +26383,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary2",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(Builder):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26393,7 +26393,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary3",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26403,7 +26403,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary4",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26413,7 +26413,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary5",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26423,7 +26423,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary6",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26433,7 +26433,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedDictionary7",
+          "tsName": "toImmutableSortedDictionary",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedDictionary|(IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "target": {
@@ -26528,7 +26528,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664646,
           "canonicalSignature": "(IComparer_1):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(IComparer_1):ImmutableSortedSet_1|static=true",
@@ -26542,7 +26542,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(T):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664647,
           "canonicalSignature": "(T):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(T):ImmutableSortedSet_1|static=true",
@@ -26556,7 +26556,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,T):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100664648,
           "canonicalSignature": "(IComparer_1,T):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(IComparer_1,T):ImmutableSortedSet_1|static=true",
@@ -26584,7 +26584,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::CreateRange(IComparer_1,IEnumerable_1):ImmutableSortedSet_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "metadataToken": 100664650,
           "canonicalSignature": "(IComparer_1,IEnumerable_1):ImmutableSortedSet_1",
           "normalizedSignature": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedSet_1|static=true",
@@ -26598,7 +26598,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(T[]):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "metadataToken": 100664651,
           "canonicalSignature": "(T[]):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(T[]):ImmutableSortedSet_1|static=true",
@@ -26612,7 +26612,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(ReadOnlySpan_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "metadataToken": 100664652,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
@@ -26626,7 +26626,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,T[]):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "metadataToken": 100664653,
           "canonicalSignature": "(IComparer_1,T[]):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(IComparer_1,T[]):ImmutableSortedSet_1|static=true",
@@ -26640,7 +26640,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "metadataToken": 100664654,
           "canonicalSignature": "(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1",
           "normalizedSignature": "Create|(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
@@ -26668,7 +26668,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::CreateBuilder(IComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "metadataToken": 100664656,
           "canonicalSignature": "(IComparer_1):Builder",
           "normalizedSignature": "CreateBuilder|(IComparer_1):Builder|static=true",
@@ -26696,7 +26696,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::ToImmutableSortedSet(IEnumerable_1):ImmutableSortedSet_1",
           "clrName": "ToImmutableSortedSet",
-          "tsEmitName": "toImmutableSortedSet2",
+          "tsEmitName": "toImmutableSortedSet",
           "metadataToken": 100664658,
           "canonicalSignature": "(IEnumerable_1):ImmutableSortedSet_1",
           "normalizedSignature": "ToImmutableSortedSet|(IEnumerable_1):ImmutableSortedSet_1|static=true",
@@ -26710,7 +26710,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::ToImmutableSortedSet(Builder):ImmutableSortedSet_1",
           "clrName": "ToImmutableSortedSet",
-          "tsEmitName": "toImmutableSortedSet3",
+          "tsEmitName": "toImmutableSortedSet",
           "metadataToken": 100664659,
           "canonicalSignature": "(Builder):ImmutableSortedSet_1",
           "normalizedSignature": "ToImmutableSortedSet|(Builder):ImmutableSortedSet_1|static=true",
@@ -26738,7 +26738,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26748,7 +26748,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26758,7 +26758,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1,T):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26778,7 +26778,7 @@
           }
         },
         {
-          "tsName": "createRange2",
+          "tsName": "createRange",
           "isStatic": true,
           "tsSignatureId": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26788,7 +26788,7 @@
           }
         },
         {
-          "tsName": "create5",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26798,7 +26798,7 @@
           }
         },
         {
-          "tsName": "create6",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26808,7 +26808,7 @@
           }
         },
         {
-          "tsName": "create7",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1,T[]):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26818,7 +26818,7 @@
           }
         },
         {
-          "tsName": "create8",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26838,7 +26838,7 @@
           }
         },
         {
-          "tsName": "createBuilder2",
+          "tsName": "createBuilder",
           "isStatic": true,
           "tsSignatureId": "CreateBuilder|(IComparer_1):Builder|static=true",
           "target": {
@@ -26858,7 +26858,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedSet2",
+          "tsName": "toImmutableSortedSet",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedSet|(IEnumerable_1):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26868,7 +26868,7 @@
           }
         },
         {
-          "tsName": "toImmutableSortedSet3",
+          "tsName": "toImmutableSortedSet",
           "isStatic": true,
           "tsSignatureId": "ToImmutableSortedSet|(Builder):ImmutableSortedSet_1|static=true",
           "target": {
@@ -26963,7 +26963,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(T):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "metadataToken": 100664827,
           "canonicalSignature": "(T):ImmutableStack_1",
           "normalizedSignature": "Create|(T):ImmutableStack_1|static=true",
@@ -26991,7 +26991,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(T[]):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "metadataToken": 100664829,
           "canonicalSignature": "(T[]):ImmutableStack_1",
           "normalizedSignature": "Create|(T[]):ImmutableStack_1|static=true",
@@ -27005,7 +27005,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(ReadOnlySpan_1):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "metadataToken": 100664830,
           "canonicalSignature": "(ReadOnlySpan_1):ImmutableStack_1",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableStack_1|static=true",
@@ -27047,7 +27047,7 @@
           }
         },
         {
-          "tsName": "create2",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T):ImmutableStack_1|static=true",
           "target": {
@@ -27067,7 +27067,7 @@
           }
         },
         {
-          "tsName": "create3",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(T[]):ImmutableStack_1|static=true",
           "target": {
@@ -27077,7 +27077,7 @@
           }
         },
         {
-          "tsName": "create4",
+          "tsName": "create",
           "isStatic": true,
           "tsSignatureId": "Create|(ReadOnlySpan_1):ImmutableStack_1|static=true",
           "target": {

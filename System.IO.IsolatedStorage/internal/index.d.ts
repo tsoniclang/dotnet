@@ -128,10 +128,10 @@ export class IsolatedStorageFile$instance extends IsolatedStorage$instance {
     static getMachineStoreForApplication(): IsolatedStorageFile;
     static getMachineStoreForAssembly(): IsolatedStorageFile;
     static getMachineStoreForDomain(): IsolatedStorageFile;
-    static getStore4(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
-    static getStore4(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
-    static getStore4(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
-    static getStore4(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
+    static getStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
+    static getStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
+    static getStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
+    static getStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
     static getUserStoreForApplication(): IsolatedStorageFile;
     static getUserStoreForAssembly(): IsolatedStorageFile;
     static getUserStoreForDomain(): IsolatedStorageFile;

@@ -5757,7 +5757,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::Parse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.NetworkInformation.PhysicalAddress",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Net.NetworkInformation.PhysicalAddress|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5789,7 +5789,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PhysicalAddress::TryParse(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.NetworkInformation.PhysicalAddress\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5854,7 +5854,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send2",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.String,System.Int32):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5870,7 +5870,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send3",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.IPAddress):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5886,7 +5886,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send4",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.IPAddress,System.Int32):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5902,7 +5902,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send5",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.String,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5918,7 +5918,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send6",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.IPAddress,System.Int32,System.Byte[]):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5934,7 +5934,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send7",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5950,7 +5950,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send8",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5966,7 +5966,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send9",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5982,7 +5982,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::Send(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply",
           "clrName": "Send",
-          "tsEmitName": "send10",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Net.NetworkInformation.PingReply|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6014,7 +6014,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.String,System.Int32,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6030,7 +6030,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.IPAddress,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6046,7 +6046,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync4",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6062,7 +6062,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync5",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.String,System.Int32,System.Byte[],System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6078,7 +6078,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync6",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6094,7 +6094,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync7",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6110,7 +6110,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync8",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6142,7 +6142,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync2",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.String):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6158,7 +6158,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync3",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6174,7 +6174,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync4",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6190,7 +6190,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync5",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6206,7 +6206,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync6",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.String,System.Int32,System.Byte[]):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6222,7 +6222,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync7",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6238,7 +6238,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync8",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.Net.IPAddress,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6254,7 +6254,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync9",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.String,System.Int32,System.Byte[],System.Net.NetworkInformation.PingOptions):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6270,7 +6270,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.Ping::SendPingAsync(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "SendPingAsync",
-          "tsEmitName": "sendPingAsync10",
+          "tsEmitName": "sendPingAsync",
           "normalizedSignature": "SendPingAsync|(System.String,System.TimeSpan,System.Byte[],System.Net.NetworkInformation.PingOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Net.NetworkInformation.PingReply,System.Net.Ping,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

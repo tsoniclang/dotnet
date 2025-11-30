@@ -230,7 +230,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToBoolean(System.Object):System.Boolean",
           "clrName": "ToBoolean",
-          "tsEmitName": "toBoolean2",
+          "tsEmitName": "toBoolean",
           "normalizedSignature": "ToBoolean|(System.Object):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -262,7 +262,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToByte(System.Object):System.Byte",
           "clrName": "ToByte",
-          "tsEmitName": "toByte2",
+          "tsEmitName": "toByte",
           "normalizedSignature": "ToByte|(System.Object):System.Byte|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -294,7 +294,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSByte(System.Object):System.SByte",
           "clrName": "ToSByte",
-          "tsEmitName": "toSByte2",
+          "tsEmitName": "toSByte",
           "normalizedSignature": "ToSByte|(System.Object):System.SByte|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -326,7 +326,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToShort(System.Object):System.Int16",
           "clrName": "ToShort",
-          "tsEmitName": "toShort2",
+          "tsEmitName": "toShort",
           "normalizedSignature": "ToShort|(System.Object):System.Int16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -358,7 +358,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUShort(System.Object):System.UInt16",
           "clrName": "ToUShort",
-          "tsEmitName": "toUShort2",
+          "tsEmitName": "toUShort",
           "normalizedSignature": "ToUShort|(System.Object):System.UInt16|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -390,7 +390,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToInteger(System.Object):System.Int32",
           "clrName": "ToInteger",
-          "tsEmitName": "toInteger2",
+          "tsEmitName": "toInteger",
           "normalizedSignature": "ToInteger|(System.Object):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -422,7 +422,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToUInteger(System.Object):System.UInt32",
           "clrName": "ToUInteger",
-          "tsEmitName": "toUInteger2",
+          "tsEmitName": "toUInteger",
           "normalizedSignature": "ToUInteger|(System.Object):System.UInt32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -454,7 +454,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToLong(System.Object):System.Int64",
           "clrName": "ToLong",
-          "tsEmitName": "toLong2",
+          "tsEmitName": "toLong",
           "normalizedSignature": "ToLong|(System.Object):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -486,7 +486,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToULong(System.Object):System.UInt64",
           "clrName": "ToULong",
-          "tsEmitName": "toULong2",
+          "tsEmitName": "toULong",
           "normalizedSignature": "ToULong|(System.Object):System.UInt64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -518,7 +518,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDecimal(System.String):System.Decimal",
           "clrName": "ToDecimal",
-          "tsEmitName": "toDecimal2",
+          "tsEmitName": "toDecimal",
           "normalizedSignature": "ToDecimal|(System.String):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -534,7 +534,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDecimal(System.Object):System.Decimal",
           "clrName": "ToDecimal",
-          "tsEmitName": "toDecimal3",
+          "tsEmitName": "toDecimal",
           "normalizedSignature": "ToDecimal|(System.Object):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -566,7 +566,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToSingle(System.Object):System.Single",
           "clrName": "ToSingle",
-          "tsEmitName": "toSingle2",
+          "tsEmitName": "toSingle",
           "normalizedSignature": "ToSingle|(System.Object):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -598,7 +598,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDouble(System.Object):System.Double",
           "clrName": "ToDouble",
-          "tsEmitName": "toDouble2",
+          "tsEmitName": "toDouble",
           "normalizedSignature": "ToDouble|(System.Object):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -630,7 +630,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToDate(System.Object):System.DateTime",
           "clrName": "ToDate",
-          "tsEmitName": "toDate2",
+          "tsEmitName": "toDate",
           "normalizedSignature": "ToDate|(System.Object):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -662,7 +662,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToChar(System.Object):System.Char",
           "clrName": "ToChar",
-          "tsEmitName": "toChar2",
+          "tsEmitName": "toChar",
           "normalizedSignature": "ToChar|(System.Object):System.Char|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -694,7 +694,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToCharArrayRankOne(System.Object):System.Char[]",
           "clrName": "ToCharArrayRankOne",
-          "tsEmitName": "toCharArrayRankOne2",
+          "tsEmitName": "toCharArrayRankOne",
           "normalizedSignature": "ToCharArrayRankOne|(System.Object):System.Char[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -726,7 +726,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Byte):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString2",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Byte):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -742,7 +742,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Char):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString3",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Char):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -806,7 +806,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int16):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString4",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -822,7 +822,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int32):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString5",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -838,7 +838,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.UInt32):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString6",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.UInt32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -854,7 +854,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Int64):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString7",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Int64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -870,7 +870,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.UInt64):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString8",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.UInt64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -886,7 +886,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Single):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString9",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Single):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -902,7 +902,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Double):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString10",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Double):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -918,7 +918,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Single,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString11",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Single,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -934,7 +934,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Double,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString12",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Double,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -950,7 +950,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.DateTime):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString13",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.DateTime):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -966,7 +966,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Decimal):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString14",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Decimal):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -982,7 +982,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Decimal,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString15",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Decimal,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -998,7 +998,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.Conversions::ToString(System.Object):System.String",
           "clrName": "ToString",
-          "tsEmitName": "toString16",
+          "tsEmitName": "toString",
           "normalizedSignature": "ToString|(System.Object):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1095,7 +1095,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DateType::FromString(System.String,System.Globalization.CultureInfo):System.DateTime",
           "clrName": "FromString",
-          "tsEmitName": "fromString2",
+          "tsEmitName": "fromString",
           "normalizedSignature": "FromString|(System.String,System.Globalization.CultureInfo):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1176,7 +1176,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Decimal",
           "clrName": "FromString",
-          "tsEmitName": "fromString2",
+          "tsEmitName": "fromString",
           "normalizedSignature": "FromString|(System.String,System.Globalization.NumberFormatInfo):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1208,7 +1208,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DecimalType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Decimal",
           "clrName": "FromObject",
-          "tsEmitName": "fromObject2",
+          "tsEmitName": "fromObject",
           "normalizedSignature": "FromObject|(System.Object,System.Globalization.NumberFormatInfo):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1295,7 +1295,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Double",
           "clrName": "FromString",
-          "tsEmitName": "fromString2",
+          "tsEmitName": "fromString",
           "normalizedSignature": "FromString|(System.String,System.Globalization.NumberFormatInfo):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1327,7 +1327,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Double",
           "clrName": "FromObject",
-          "tsEmitName": "fromObject2",
+          "tsEmitName": "fromObject",
           "normalizedSignature": "FromObject|(System.Object,System.Globalization.NumberFormatInfo):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1359,7 +1359,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.DoubleType::Parse(System.String,System.Globalization.NumberFormatInfo):System.Double",
           "clrName": "Parse",
-          "tsEmitName": "parse2",
+          "tsEmitName": "parse",
           "normalizedSignature": "Parse|(System.String,System.Globalization.NumberFormatInfo):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1996,7 +1996,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.NewLateBinding::LateSet(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean,Microsoft.VisualBasic.CallType):System.Void",
           "clrName": "LateSet",
-          "tsEmitName": "lateSet2",
+          "tsEmitName": "lateSet",
           "normalizedSignature": "LateSet|(System.Object,System.Type,System.String,System.Object[],System.String[],System.Type[],System.Boolean,System.Boolean,Microsoft.VisualBasic.CallType):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3075,7 +3075,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.ProjectData::SetProjectError(System.Exception,System.Int32):System.Void",
           "clrName": "SetProjectError",
-          "tsEmitName": "setProjectError2",
+          "tsEmitName": "setProjectError",
           "normalizedSignature": "SetProjectError|(System.Exception,System.Int32):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3205,7 +3205,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.SingleType::FromString(System.String,System.Globalization.NumberFormatInfo):System.Single",
           "clrName": "FromString",
-          "tsEmitName": "fromString2",
+          "tsEmitName": "fromString",
           "normalizedSignature": "FromString|(System.String,System.Globalization.NumberFormatInfo):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3237,7 +3237,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.SingleType::FromObject(System.Object,System.Globalization.NumberFormatInfo):System.Single",
           "clrName": "FromObject",
-          "tsEmitName": "fromObject2",
+          "tsEmitName": "fromObject",
           "normalizedSignature": "FromObject|(System.Object,System.Globalization.NumberFormatInfo):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3452,7 +3452,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromSingle(System.Single,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "FromSingle",
-          "tsEmitName": "fromSingle2",
+          "tsEmitName": "fromSingle",
           "normalizedSignature": "FromSingle|(System.Single,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3468,7 +3468,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDouble(System.Double,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "FromDouble",
-          "tsEmitName": "fromDouble2",
+          "tsEmitName": "fromDouble",
           "normalizedSignature": "FromDouble|(System.Double,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3516,7 +3516,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CompilerServices.StringType::FromDecimal(System.Decimal,System.Globalization.NumberFormatInfo):System.String",
           "clrName": "FromDecimal",
-          "tsEmitName": "fromDecimal2",
+          "tsEmitName": "fromDecimal",
           "normalizedSignature": "FromDecimal|(System.Decimal,System.Globalization.NumberFormatInfo):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

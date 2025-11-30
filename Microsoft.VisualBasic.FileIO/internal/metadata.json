@@ -346,7 +346,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::FindInFiles(System.String,System.String,System.Boolean,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "FindInFiles",
-          "tsEmitName": "findInFiles2",
+          "tsEmitName": "findInFiles",
           "normalizedSignature": "FindInFiles|(System.String,System.String,System.Boolean,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -378,7 +378,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetDirectories(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories2",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -458,7 +458,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::GetFiles(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles2",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,Microsoft.VisualBasic.FileIO.SearchOption,System.String[]):System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -538,7 +538,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFieldParser(System.String,System.String[]):Microsoft.VisualBasic.FileIO.TextFieldParser",
           "clrName": "OpenTextFieldParser",
-          "tsEmitName": "openTextFieldParser2",
+          "tsEmitName": "openTextFieldParser",
           "normalizedSignature": "OpenTextFieldParser|(System.String,System.String[]):Microsoft.VisualBasic.FileIO.TextFieldParser|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -554,7 +554,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFieldParser(System.String,System.Int32[]):Microsoft.VisualBasic.FileIO.TextFieldParser",
           "clrName": "OpenTextFieldParser",
-          "tsEmitName": "openTextFieldParser3",
+          "tsEmitName": "openTextFieldParser",
           "normalizedSignature": "OpenTextFieldParser|(System.String,System.Int32[]):Microsoft.VisualBasic.FileIO.TextFieldParser|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -586,7 +586,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileReader(System.String,System.Text.Encoding):System.IO.StreamReader",
           "clrName": "OpenTextFileReader",
-          "tsEmitName": "openTextFileReader2",
+          "tsEmitName": "openTextFileReader",
           "normalizedSignature": "OpenTextFileReader|(System.String,System.Text.Encoding):System.IO.StreamReader|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -618,7 +618,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::OpenTextFileWriter(System.String,System.Boolean,System.Text.Encoding):System.IO.StreamWriter",
           "clrName": "OpenTextFileWriter",
-          "tsEmitName": "openTextFileWriter2",
+          "tsEmitName": "openTextFileWriter",
           "normalizedSignature": "OpenTextFileWriter|(System.String,System.Boolean,System.Text.Encoding):System.IO.StreamWriter|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -666,7 +666,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::ReadAllText(System.String,System.Text.Encoding):System.String",
           "clrName": "ReadAllText",
-          "tsEmitName": "readAllText2",
+          "tsEmitName": "readAllText",
           "normalizedSignature": "ReadAllText|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -698,7 +698,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "CopyDirectory",
-          "tsEmitName": "copyDirectory2",
+          "tsEmitName": "copyDirectory",
           "normalizedSignature": "CopyDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -714,7 +714,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
           "clrName": "CopyDirectory",
-          "tsEmitName": "copyDirectory3",
+          "tsEmitName": "copyDirectory",
           "normalizedSignature": "CopyDirectory|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -730,7 +730,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "CopyDirectory",
-          "tsEmitName": "copyDirectory4",
+          "tsEmitName": "copyDirectory",
           "normalizedSignature": "CopyDirectory|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -762,7 +762,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,System.Boolean):System.Void",
           "clrName": "CopyFile",
-          "tsEmitName": "copyFile2",
+          "tsEmitName": "copyFile",
           "normalizedSignature": "CopyFile|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -778,7 +778,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
           "clrName": "CopyFile",
-          "tsEmitName": "copyFile3",
+          "tsEmitName": "copyFile",
           "normalizedSignature": "CopyFile|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -794,7 +794,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::CopyFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "CopyFile",
-          "tsEmitName": "copyFile4",
+          "tsEmitName": "copyFile",
           "normalizedSignature": "CopyFile|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -842,7 +842,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteDirectory(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void",
           "clrName": "DeleteDirectory",
-          "tsEmitName": "deleteDirectory2",
+          "tsEmitName": "deleteDirectory",
           "normalizedSignature": "DeleteDirectory|(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -858,7 +858,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteDirectory(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "DeleteDirectory",
-          "tsEmitName": "deleteDirectory3",
+          "tsEmitName": "deleteDirectory",
           "normalizedSignature": "DeleteDirectory|(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -890,7 +890,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteFile(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void",
           "clrName": "DeleteFile",
-          "tsEmitName": "deleteFile2",
+          "tsEmitName": "deleteFile",
           "normalizedSignature": "DeleteFile|(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -906,7 +906,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::DeleteFile(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "DeleteFile",
-          "tsEmitName": "deleteFile3",
+          "tsEmitName": "deleteFile",
           "normalizedSignature": "DeleteFile|(System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.RecycleOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -938,7 +938,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,System.Boolean):System.Void",
           "clrName": "MoveDirectory",
-          "tsEmitName": "moveDirectory2",
+          "tsEmitName": "moveDirectory",
           "normalizedSignature": "MoveDirectory|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -954,7 +954,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
           "clrName": "MoveDirectory",
-          "tsEmitName": "moveDirectory3",
+          "tsEmitName": "moveDirectory",
           "normalizedSignature": "MoveDirectory|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -970,7 +970,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveDirectory(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "MoveDirectory",
-          "tsEmitName": "moveDirectory4",
+          "tsEmitName": "moveDirectory",
           "normalizedSignature": "MoveDirectory|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1002,7 +1002,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,System.Boolean):System.Void",
           "clrName": "MoveFile",
-          "tsEmitName": "moveFile2",
+          "tsEmitName": "moveFile",
           "normalizedSignature": "MoveFile|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1018,7 +1018,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void",
           "clrName": "MoveFile",
-          "tsEmitName": "moveFile3",
+          "tsEmitName": "moveFile",
           "normalizedSignature": "MoveFile|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1034,7 +1034,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::MoveFile(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void",
           "clrName": "MoveFile",
-          "tsEmitName": "moveFile4",
+          "tsEmitName": "moveFile",
           "normalizedSignature": "MoveFile|(System.String,System.String,Microsoft.VisualBasic.FileIO.UIOption,Microsoft.VisualBasic.FileIO.UICancelOption):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1114,7 +1114,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FileSystem::WriteAllText(System.String,System.String,System.Boolean,System.Text.Encoding):System.Void",
           "clrName": "WriteAllText",
-          "tsEmitName": "writeAllText2",
+          "tsEmitName": "writeAllText",
           "normalizedSignature": "WriteAllText|(System.String,System.String,System.Boolean,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -52,19 +52,19 @@ export enum UltimateResourceFallbackLocation {
 
 export interface IResourceReader$instance extends IEnumerable, IDisposable {
     close(): void;
-    getEnumerator2(): IEnumerator;
-    getEnumerator2(): IDictionaryEnumerator;
+    getEnumerator(): IEnumerator;
+    getEnumerator(): IDictionaryEnumerator;
 }
 
 
-export interface IResourceReader$instance extends System_Internal.IDisposable$instance {}
+export interface IResourceReader$instance extends System_Collections_Internal.IEnumerable$instance, System_Internal.IDisposable$instance {}
 
 export type IResourceReader = IResourceReader$instance;
 
 export interface IResourceWriter$instance extends IDisposable {
-    addResource3(name: string, value: byte[]): void;
-    addResource3(name: string, value: unknown): void;
-    addResource3(name: string, value: string): void;
+    addResource(name: string, value: byte[]): void;
+    addResource(name: string, value: unknown): void;
+    addResource(name: string, value: string): void;
     close(): void;
 }
 

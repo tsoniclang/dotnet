@@ -103,7 +103,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.BinaryOperationBinder::FallbackBinaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackBinaryOperation",
-          "tsEmitName": "fallbackBinaryOperation2",
+          "tsEmitName": "fallbackBinaryOperation",
           "metadataToken": 100667611,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -188,7 +188,7 @@
           }
         },
         {
-          "tsName": "fallbackBinaryOperation2",
+          "tsName": "fallbackBinaryOperation",
           "isStatic": false,
           "tsSignatureId": "FallbackBinaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -248,7 +248,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -823,7 +823,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.ConvertBinder::FallbackConvert(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackConvert",
-          "tsEmitName": "fallbackConvert2",
+          "tsEmitName": "fallbackConvert",
           "metadataToken": 100667742,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -922,7 +922,7 @@
           }
         },
         {
-          "tsName": "fallbackConvert2",
+          "tsName": "fallbackConvert",
           "isStatic": false,
           "tsSignatureId": "FallbackConvert|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -982,7 +982,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1129,7 +1129,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.CreateInstanceBinder::FallbackCreateInstance(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackCreateInstance",
-          "tsEmitName": "fallbackCreateInstance2",
+          "tsEmitName": "fallbackCreateInstance",
           "metadataToken": 100667750,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1214,7 +1214,7 @@
           }
         },
         {
-          "tsName": "fallbackCreateInstance2",
+          "tsName": "fallbackCreateInstance",
           "isStatic": false,
           "tsSignatureId": "FallbackCreateInstance|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1274,7 +1274,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteIndexBinder::FallbackDeleteIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackDeleteIndex",
-          "tsEmitName": "fallbackDeleteIndex2",
+          "tsEmitName": "fallbackDeleteIndex",
           "metadataToken": 100667759,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1506,7 +1506,7 @@
           }
         },
         {
-          "tsName": "fallbackDeleteIndex2",
+          "tsName": "fallbackDeleteIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1556,7 +1556,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1693,7 +1693,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DeleteMemberBinder::FallbackDeleteMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackDeleteMember",
-          "tsEmitName": "fallbackDeleteMember2",
+          "tsEmitName": "fallbackDeleteMember",
           "metadataToken": 100667765,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -1792,7 +1792,7 @@
           }
         },
         {
-          "tsName": "fallbackDeleteMember2",
+          "tsName": "fallbackDeleteMember",
           "isStatic": false,
           "tsSignatureId": "FallbackDeleteMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -1852,7 +1852,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2622,7 +2622,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Bind(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Bind",
-          "tsEmitName": "bind3",
+          "tsEmitName": "bind2",
           "metadataToken": 100667542,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2664,7 +2664,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.DynamicMetaObjectBinder::Defer(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "clrName": "Defer",
-          "tsEmitName": "defer2",
+          "tsEmitName": "defer",
           "metadataToken": 100667545,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
@@ -2721,7 +2721,7 @@
           }
         },
         {
-          "tsName": "bind3",
+          "tsName": "bind2",
           "isStatic": false,
           "tsSignatureId": "Bind|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -2751,7 +2751,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3773,7 +3773,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetIndexBinder::FallbackGetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackGetIndex",
-          "tsEmitName": "fallbackGetIndex2",
+          "tsEmitName": "fallbackGetIndex",
           "metadataToken": 100667843,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -3854,7 +3854,7 @@
           }
         },
         {
-          "tsName": "fallbackGetIndex2",
+          "tsName": "fallbackGetIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackGetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -3904,7 +3904,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4041,7 +4041,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.GetMemberBinder::FallbackGetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackGetMember",
-          "tsEmitName": "fallbackGetMember2",
+          "tsEmitName": "fallbackGetMember",
           "metadataToken": 100667849,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4140,7 +4140,7 @@
           }
         },
         {
-          "tsName": "fallbackGetMember2",
+          "tsName": "fallbackGetMember",
           "isStatic": false,
           "tsSignatureId": "FallbackGetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4200,7 +4200,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4347,7 +4347,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeBinder::FallbackInvoke(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackInvoke",
-          "tsEmitName": "fallbackInvoke2",
+          "tsEmitName": "fallbackInvoke",
           "metadataToken": 100667856,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4432,7 +4432,7 @@
           }
         },
         {
-          "tsName": "fallbackInvoke2",
+          "tsName": "fallbackInvoke",
           "isStatic": false,
           "tsSignatureId": "FallbackInvoke|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4492,7 +4492,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4643,7 +4643,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.InvokeMemberBinder::FallbackInvokeMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackInvokeMember",
-          "tsEmitName": "fallbackInvokeMember2",
+          "tsEmitName": "fallbackInvokeMember",
           "metadataToken": 100667867,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -4766,7 +4766,7 @@
           }
         },
         {
-          "tsName": "fallbackInvokeMember2",
+          "tsName": "fallbackInvokeMember",
           "isStatic": false,
           "tsSignatureId": "FallbackInvokeMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4826,7 +4826,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -4997,7 +4997,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetIndexBinder::FallbackSetIndex(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackSetIndex",
-          "tsEmitName": "fallbackSetIndex2",
+          "tsEmitName": "fallbackSetIndex",
           "metadataToken": 100667875,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5078,7 +5078,7 @@
           }
         },
         {
-          "tsName": "fallbackSetIndex2",
+          "tsName": "fallbackSetIndex",
           "isStatic": false,
           "tsSignatureId": "FallbackSetIndex|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject[],System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5128,7 +5128,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5279,7 +5279,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.SetMemberBinder::FallbackSetMember(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackSetMember",
-          "tsEmitName": "fallbackSetMember2",
+          "tsEmitName": "fallbackSetMember",
           "metadataToken": 100667883,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5374,7 +5374,7 @@
           }
         },
         {
-          "tsName": "fallbackSetMember2",
+          "tsName": "fallbackSetMember",
           "isStatic": false,
           "tsSignatureId": "FallbackSetMember|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5424,7 +5424,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5571,7 +5571,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Dynamic.UnaryOperationBinder::FallbackUnaryOperation(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "clrName": "FallbackUnaryOperation",
-          "tsEmitName": "fallbackUnaryOperation2",
+          "tsEmitName": "fallbackUnaryOperation",
           "metadataToken": 100667888,
           "canonicalSignature": "(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject",
           "normalizedSignature": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
@@ -5656,7 +5656,7 @@
           }
         },
         {
-          "tsName": "fallbackUnaryOperation2",
+          "tsName": "fallbackUnaryOperation",
           "isStatic": false,
           "tsSignatureId": "FallbackUnaryOperation|(System.Dynamic.DynamicMetaObject,System.Dynamic.DynamicMetaObject):System.Dynamic.DynamicMetaObject|static=false",
           "target": {
@@ -5716,7 +5716,7 @@
           }
         },
         {
-          "tsName": "defer2",
+          "tsName": "defer",
           "isStatic": false,
           "tsSignatureId": "Defer|(System.Dynamic.DynamicMetaObject[]):System.Dynamic.DynamicMetaObject|static=false",
           "target": {

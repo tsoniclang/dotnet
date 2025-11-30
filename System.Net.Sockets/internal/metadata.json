@@ -2873,7 +2873,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.IPPacketInformation::Equals(System.Net.Sockets.IPPacketInformation):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Net.Sockets.IPPacketInformation):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3137,7 +3137,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpReceiveResult::Equals(System.Net.Sockets.UdpReceiveResult):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Net.Sockets.UdpReceiveResult):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3478,7 +3478,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3526,7 +3526,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3574,7 +3574,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::Close(System.TimeSpan):System.Void",
           "clrName": "Close",
-          "tsEmitName": "close3",
+          "tsEmitName": "close2",
           "normalizedSignature": "Close|(System.TimeSpan):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3670,7 +3670,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3702,7 +3702,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.NetworkStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4477,7 +4477,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Connect(System.Net.IPAddress,System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect2",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPAddress,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4493,7 +4493,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Connect(System.String,System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect3",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.String,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4509,7 +4509,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Connect(System.Net.IPAddress[],System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect4",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPAddress[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4541,7 +4541,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Close(System.Int32):System.Void",
           "clrName": "Close",
-          "tsEmitName": "close2",
+          "tsEmitName": "close",
           "normalizedSignature": "Close|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4573,7 +4573,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Listen(System.Int32):System.Void",
           "clrName": "Listen",
-          "tsEmitName": "listen2",
+          "tsEmitName": "listen",
           "normalizedSignature": "Listen|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4621,7 +4621,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Byte[],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send2",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4637,7 +4637,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Byte[]):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send3",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4653,7 +4653,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send4",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4669,7 +4669,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send5",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4685,7 +4685,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send6",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4701,7 +4701,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send7",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4717,7 +4717,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send8",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4733,7 +4733,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send9",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4749,7 +4749,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send10",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4765,7 +4765,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send11",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4797,7 +4797,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendFile(System.String,System.Byte[],System.Byte[],System.Net.Sockets.TransmitFileOptions):System.Void",
           "clrName": "SendFile",
-          "tsEmitName": "sendFile2",
+          "tsEmitName": "sendFile",
           "normalizedSignature": "SendFile|(System.String,System.Byte[],System.Byte[],System.Net.Sockets.TransmitFileOptions):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4813,7 +4813,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendFile(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.TransmitFileOptions):System.Void",
           "clrName": "SendFile",
-          "tsEmitName": "sendFile3",
+          "tsEmitName": "sendFile",
           "normalizedSignature": "SendFile|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.TransmitFileOptions):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4845,7 +4845,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.Byte[],System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo2",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.Byte[],System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4861,7 +4861,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.Byte[],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo3",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.Byte[],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4877,7 +4877,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.Byte[],System.Net.EndPoint):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo4",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.Byte[],System.Net.EndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4893,7 +4893,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo5",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4909,7 +4909,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo6",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4925,7 +4925,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendTo(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress):System.Int32",
           "clrName": "SendTo",
-          "tsEmitName": "sendTo7",
+          "tsEmitName": "sendTo",
           "normalizedSignature": "SendTo|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4957,7 +4957,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Byte[],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive2",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Byte[],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4973,7 +4973,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Byte[]):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive3",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Byte[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4989,7 +4989,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive4",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5005,7 +5005,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive5",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5021,7 +5021,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive6",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5037,7 +5037,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive7",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5053,7 +5053,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive8",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5069,7 +5069,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive9",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5085,7 +5085,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive10",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5101,7 +5101,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Receive(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "Receive",
-          "tsEmitName": "receive11",
+          "tsEmitName": "receive",
           "normalizedSignature": "Receive|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5133,7 +5133,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveMessageFrom(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags\u0026,System.Net.EndPoint\u0026,System.Net.Sockets.IPPacketInformation\u0026):System.Int32",
           "clrName": "ReceiveMessageFrom",
-          "tsEmitName": "receiveMessageFrom2",
+          "tsEmitName": "receiveMessageFrom",
           "normalizedSignature": "ReceiveMessageFrom|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags\u0026,System.Net.EndPoint\u0026,System.Net.Sockets.IPPacketInformation\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5165,7 +5165,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Byte[],System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom2",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Byte[],System.Int32,System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5181,7 +5181,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Byte[],System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom3",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Byte[],System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5197,7 +5197,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Byte[],System.Net.EndPoint\u0026):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom4",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Byte[],System.Net.EndPoint\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5213,7 +5213,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint\u0026):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom5",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5229,7 +5229,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom6",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5245,7 +5245,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFrom(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress):System.Int32",
           "clrName": "ReceiveFrom",
-          "tsEmitName": "receiveFrom7",
+          "tsEmitName": "receiveFrom",
           "normalizedSignature": "ReceiveFrom|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5277,7 +5277,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::IOControl(System.Net.Sockets.IOControlCode,System.Byte[],System.Byte[]):System.Int32",
           "clrName": "IOControl",
-          "tsEmitName": "ioControl2",
+          "tsEmitName": "ioControl",
           "normalizedSignature": "IOControl|(System.Net.Sockets.IOControlCode,System.Byte[],System.Byte[]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5309,7 +5309,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Byte[]):System.Void",
           "clrName": "SetSocketOption",
-          "tsEmitName": "setSocketOption2",
+          "tsEmitName": "setSocketOption",
           "normalizedSignature": "SetSocketOption|(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5325,7 +5325,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Boolean):System.Void",
           "clrName": "SetSocketOption",
-          "tsEmitName": "setSocketOption3",
+          "tsEmitName": "setSocketOption",
           "normalizedSignature": "SetSocketOption|(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5341,7 +5341,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Object):System.Void",
           "clrName": "SetSocketOption",
-          "tsEmitName": "setSocketOption4",
+          "tsEmitName": "setSocketOption",
           "normalizedSignature": "SetSocketOption|(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5389,7 +5389,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::GetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Byte[]):System.Void",
           "clrName": "GetSocketOption",
-          "tsEmitName": "getSocketOption2",
+          "tsEmitName": "getSocketOption",
           "normalizedSignature": "GetSocketOption|(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5405,7 +5405,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::GetSocketOption(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Int32):System.Byte[]",
           "clrName": "GetSocketOption",
-          "tsEmitName": "getSocketOption3",
+          "tsEmitName": "getSocketOption",
           "normalizedSignature": "GetSocketOption|(System.Net.Sockets.SocketOptionLevel,System.Net.Sockets.SocketOptionName,System.Int32):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5469,7 +5469,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Poll(System.TimeSpan,System.Net.Sockets.SelectMode):System.Boolean",
           "clrName": "Poll",
-          "tsEmitName": "poll2",
+          "tsEmitName": "poll",
           "normalizedSignature": "Poll|(System.TimeSpan,System.Net.Sockets.SelectMode):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5501,7 +5501,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::Select(System.Collections.IList,System.Collections.IList,System.Collections.IList,System.TimeSpan):System.Void",
           "clrName": "Select",
-          "tsEmitName": "select2",
+          "tsEmitName": "select",
           "normalizedSignature": "Select|(System.Collections.IList,System.Collections.IList,System.Collections.IList,System.TimeSpan):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5533,7 +5533,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginConnect(System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginConnect",
-          "tsEmitName": "beginConnect2",
+          "tsEmitName": "beginConnect",
           "normalizedSignature": "BeginConnect|(System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5549,7 +5549,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginConnect(System.Net.IPAddress,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginConnect",
-          "tsEmitName": "beginConnect3",
+          "tsEmitName": "beginConnect",
           "normalizedSignature": "BeginConnect|(System.Net.IPAddress,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5565,7 +5565,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginConnect(System.Net.IPAddress[],System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginConnect",
-          "tsEmitName": "beginConnect4",
+          "tsEmitName": "beginConnect",
           "normalizedSignature": "BeginConnect|(System.Net.IPAddress[],System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5661,7 +5661,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginSend(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSend",
-          "tsEmitName": "beginSend2",
+          "tsEmitName": "beginSend",
           "normalizedSignature": "BeginSend|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5677,7 +5677,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginSend(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSend",
-          "tsEmitName": "beginSend3",
+          "tsEmitName": "beginSend",
           "normalizedSignature": "BeginSend|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5693,7 +5693,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginSend(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSend",
-          "tsEmitName": "beginSend4",
+          "tsEmitName": "beginSend",
           "normalizedSignature": "BeginSend|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5725,7 +5725,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::EndSend(System.IAsyncResult,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "EndSend",
-          "tsEmitName": "endSend2",
+          "tsEmitName": "endSend",
           "normalizedSignature": "EndSend|(System.IAsyncResult,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5757,7 +5757,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginSendFile(System.String,System.Byte[],System.Byte[],System.Net.Sockets.TransmitFileOptions,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSendFile",
-          "tsEmitName": "beginSendFile2",
+          "tsEmitName": "beginSendFile",
           "normalizedSignature": "BeginSendFile|(System.String,System.Byte[],System.Byte[],System.Net.Sockets.TransmitFileOptions,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5837,7 +5837,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginReceive(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginReceive",
-          "tsEmitName": "beginReceive2",
+          "tsEmitName": "beginReceive",
           "normalizedSignature": "BeginReceive|(System.Byte[],System.Int32,System.Int32,System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5853,7 +5853,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginReceive(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginReceive",
-          "tsEmitName": "beginReceive3",
+          "tsEmitName": "beginReceive",
           "normalizedSignature": "BeginReceive|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5869,7 +5869,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginReceive(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginReceive",
-          "tsEmitName": "beginReceive4",
+          "tsEmitName": "beginReceive",
           "normalizedSignature": "BeginReceive|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.Sockets.SocketError\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5901,7 +5901,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::EndReceive(System.IAsyncResult,System.Net.Sockets.SocketError\u0026):System.Int32",
           "clrName": "EndReceive",
-          "tsEmitName": "endReceive2",
+          "tsEmitName": "endReceive",
           "normalizedSignature": "EndReceive|(System.IAsyncResult,System.Net.Sockets.SocketError\u0026):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6013,7 +6013,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginAccept(System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAccept",
-          "tsEmitName": "beginAccept2",
+          "tsEmitName": "beginAccept",
           "normalizedSignature": "BeginAccept|(System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6029,7 +6029,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::BeginAccept(System.Net.Sockets.Socket,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAccept",
-          "tsEmitName": "beginAccept3",
+          "tsEmitName": "beginAccept",
           "normalizedSignature": "BeginAccept|(System.Net.Sockets.Socket,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6045,7 +6045,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::EndAccept(System.Byte[]\u0026,System.IAsyncResult):System.Net.Sockets.Socket",
           "clrName": "EndAccept",
-          "tsEmitName": "endAccept2",
+          "tsEmitName": "endAccept",
           "normalizedSignature": "EndAccept|(System.Byte[]\u0026,System.IAsyncResult):System.Net.Sockets.Socket|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6061,7 +6061,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::EndAccept(System.Byte[]\u0026,System.Int32\u0026,System.IAsyncResult):System.Net.Sockets.Socket",
           "clrName": "EndAccept",
-          "tsEmitName": "endAccept3",
+          "tsEmitName": "endAccept",
           "normalizedSignature": "EndAccept|(System.Byte[]\u0026,System.Int32\u0026,System.IAsyncResult):System.Net.Sockets.Socket|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6285,7 +6285,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::AcceptAsync():System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptAsync",
-          "tsEmitName": "acceptAsync2",
+          "tsEmitName": "acceptAsync",
           "normalizedSignature": "AcceptAsync|():System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6301,7 +6301,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::AcceptAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptAsync",
-          "tsEmitName": "acceptAsync3",
+          "tsEmitName": "acceptAsync",
           "normalizedSignature": "AcceptAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6317,7 +6317,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::AcceptAsync(System.Net.Sockets.Socket):System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptAsync",
-          "tsEmitName": "acceptAsync4",
+          "tsEmitName": "acceptAsync",
           "normalizedSignature": "AcceptAsync|(System.Net.Sockets.Socket):System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6333,7 +6333,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::AcceptAsync(System.Net.Sockets.Socket,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptAsync",
-          "tsEmitName": "acceptAsync5",
+          "tsEmitName": "acceptAsync",
           "normalizedSignature": "AcceptAsync|(System.Net.Sockets.Socket,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6349,7 +6349,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.EndPoint):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync2",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.EndPoint):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6365,7 +6365,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync3",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6381,7 +6381,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync4",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6397,7 +6397,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync5",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6413,7 +6413,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync6",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6429,7 +6429,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync7",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6445,7 +6445,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.String,System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync8",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.String,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6461,7 +6461,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ConnectAsync(System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync9",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6477,7 +6477,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::DisconnectAsync(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "DisconnectAsync",
-          "tsEmitName": "disconnectAsync2",
+          "tsEmitName": "disconnectAsync",
           "normalizedSignature": "DisconnectAsync|(System.Boolean,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6493,7 +6493,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6509,7 +6509,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync3",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6525,7 +6525,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync4",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6541,7 +6541,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync5",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6557,7 +6557,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync6",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6573,7 +6573,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveAsync(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync7",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6589,7 +6589,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFromAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveFromAsync",
-          "tsEmitName": "receiveFromAsync2",
+          "tsEmitName": "receiveFromAsync",
           "normalizedSignature": "ReceiveFromAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6605,7 +6605,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFromAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveFromAsync",
-          "tsEmitName": "receiveFromAsync3",
+          "tsEmitName": "receiveFromAsync",
           "normalizedSignature": "ReceiveFromAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6621,7 +6621,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFromAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveFromAsync",
-          "tsEmitName": "receiveFromAsync4",
+          "tsEmitName": "receiveFromAsync",
           "normalizedSignature": "ReceiveFromAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6637,7 +6637,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFromAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveFromAsync",
-          "tsEmitName": "receiveFromAsync5",
+          "tsEmitName": "receiveFromAsync",
           "normalizedSignature": "ReceiveFromAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6653,7 +6653,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveFromAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveFromAsync",
-          "tsEmitName": "receiveFromAsync6",
+          "tsEmitName": "receiveFromAsync",
           "normalizedSignature": "ReceiveFromAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6669,7 +6669,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveMessageFromAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveMessageFromAsync",
-          "tsEmitName": "receiveMessageFromAsync2",
+          "tsEmitName": "receiveMessageFromAsync",
           "normalizedSignature": "ReceiveMessageFromAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6685,7 +6685,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveMessageFromAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveMessageFromAsync",
-          "tsEmitName": "receiveMessageFromAsync3",
+          "tsEmitName": "receiveMessageFromAsync",
           "normalizedSignature": "ReceiveMessageFromAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6701,7 +6701,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveMessageFromAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveMessageFromAsync",
-          "tsEmitName": "receiveMessageFromAsync4",
+          "tsEmitName": "receiveMessageFromAsync",
           "normalizedSignature": "ReceiveMessageFromAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6717,7 +6717,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::ReceiveMessageFromAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveMessageFromAsync",
-          "tsEmitName": "receiveMessageFromAsync5",
+          "tsEmitName": "receiveMessageFromAsync",
           "normalizedSignature": "ReceiveMessageFromAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.SocketReceiveMessageFromResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6733,7 +6733,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6749,7 +6749,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6765,7 +6765,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync4",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6781,7 +6781,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync5",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6797,7 +6797,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync6",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6813,7 +6813,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendAsync(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync7",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6829,7 +6829,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendToAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendToAsync",
-          "tsEmitName": "sendToAsync2",
+          "tsEmitName": "sendToAsync",
           "normalizedSignature": "SendToAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6845,7 +6845,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendToAsync(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendToAsync",
-          "tsEmitName": "sendToAsync3",
+          "tsEmitName": "sendToAsync",
           "normalizedSignature": "SendToAsync|(System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6861,7 +6861,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendToAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendToAsync",
-          "tsEmitName": "sendToAsync4",
+          "tsEmitName": "sendToAsync",
           "normalizedSignature": "SendToAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6877,7 +6877,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendToAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendToAsync",
-          "tsEmitName": "sendToAsync5",
+          "tsEmitName": "sendToAsync",
           "normalizedSignature": "SendToAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6893,7 +6893,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendToAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendToAsync",
-          "tsEmitName": "sendToAsync6",
+          "tsEmitName": "sendToAsync",
           "normalizedSignature": "SendToAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Net.SocketAddress,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6925,7 +6925,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.Socket::SendFileAsync(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.TransmitFileOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "SendFileAsync",
-          "tsEmitName": "sendFileAsync2",
+          "tsEmitName": "sendFileAsync",
           "normalizedSignature": "SendFileAsync|(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.TransmitFileOptions,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7464,7 +7464,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketAsyncEventArgs::SetBuffer(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "SetBuffer",
-          "tsEmitName": "setBuffer2",
+          "tsEmitName": "setBuffer",
           "normalizedSignature": "SetBuffer|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7480,7 +7480,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketAsyncEventArgs::SetBuffer(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "SetBuffer",
-          "tsEmitName": "setBuffer3",
+          "tsEmitName": "setBuffer",
           "normalizedSignature": "SetBuffer|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7979,7 +7979,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::Connect(System.Net.IPAddress,System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect2",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPAddress,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7995,7 +7995,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::Connect(System.Net.IPEndPoint):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect3",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPEndPoint):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8011,7 +8011,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::Connect(System.Net.IPAddress[],System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect4",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPAddress[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8043,7 +8043,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.String,System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync2",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.String,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8059,7 +8059,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync3",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8075,7 +8075,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.Net.IPEndPoint):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync4",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPEndPoint):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8091,7 +8091,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync5",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8107,7 +8107,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync6",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8123,7 +8123,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync7",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8139,7 +8139,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::ConnectAsync(System.Net.IPEndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync8",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.IPEndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8171,7 +8171,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::BeginConnect(System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginConnect",
-          "tsEmitName": "beginConnect2",
+          "tsEmitName": "beginConnect",
           "normalizedSignature": "BeginConnect|(System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8187,7 +8187,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpClient::BeginConnect(System.Net.IPAddress[],System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginConnect",
-          "tsEmitName": "beginConnect3",
+          "tsEmitName": "beginConnect",
           "normalizedSignature": "BeginConnect|(System.Net.IPAddress[],System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8505,7 +8505,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpListener::Start(System.Int32):System.Void",
           "clrName": "Start",
-          "tsEmitName": "start2",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8681,7 +8681,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpListener::AcceptSocketAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptSocketAsync",
-          "tsEmitName": "acceptSocketAsync2",
+          "tsEmitName": "acceptSocketAsync",
           "normalizedSignature": "AcceptSocketAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8713,7 +8713,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.TcpListener::AcceptTcpClientAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.TcpClient,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptTcpClientAsync",
-          "tsEmitName": "acceptTcpClientAsync2",
+          "tsEmitName": "acceptTcpClientAsync",
           "normalizedSignature": "AcceptTcpClientAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.TcpClient,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8889,7 +8889,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::BeginSend(System.Byte[],System.Int32,System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSend",
-          "tsEmitName": "beginSend2",
+          "tsEmitName": "beginSend",
           "normalizedSignature": "BeginSend|(System.Byte[],System.Int32,System.String,System.Int32,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8905,7 +8905,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::BeginSend(System.Byte[],System.Int32,System.Net.IPEndPoint,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginSend",
-          "tsEmitName": "beginSend3",
+          "tsEmitName": "beginSend",
           "normalizedSignature": "BeginSend|(System.Byte[],System.Int32,System.Net.IPEndPoint,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8985,7 +8985,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::JoinMulticastGroup(System.Net.IPAddress,System.Net.IPAddress):System.Void",
           "clrName": "JoinMulticastGroup",
-          "tsEmitName": "joinMulticastGroup2",
+          "tsEmitName": "joinMulticastGroup",
           "normalizedSignature": "JoinMulticastGroup|(System.Net.IPAddress,System.Net.IPAddress):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9001,7 +9001,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::JoinMulticastGroup(System.Int32,System.Net.IPAddress):System.Void",
           "clrName": "JoinMulticastGroup",
-          "tsEmitName": "joinMulticastGroup3",
+          "tsEmitName": "joinMulticastGroup",
           "normalizedSignature": "JoinMulticastGroup|(System.Int32,System.Net.IPAddress):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9017,7 +9017,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::JoinMulticastGroup(System.Net.IPAddress,System.Int32):System.Void",
           "clrName": "JoinMulticastGroup",
-          "tsEmitName": "joinMulticastGroup4",
+          "tsEmitName": "joinMulticastGroup",
           "normalizedSignature": "JoinMulticastGroup|(System.Net.IPAddress,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9049,7 +9049,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::DropMulticastGroup(System.Net.IPAddress,System.Int32):System.Void",
           "clrName": "DropMulticastGroup",
-          "tsEmitName": "dropMulticastGroup2",
+          "tsEmitName": "dropMulticastGroup",
           "normalizedSignature": "DropMulticastGroup|(System.Net.IPAddress,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9081,7 +9081,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9097,7 +9097,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::SendAsync(System.Byte[],System.Int32,System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Byte[],System.Int32,System.String,System.Int32):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9113,7 +9113,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync4",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9129,7 +9129,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::SendAsync(System.Byte[],System.Int32,System.Net.IPEndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync5",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Byte[],System.Int32,System.Net.IPEndPoint):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9145,7 +9145,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::SendAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync6",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9177,7 +9177,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::ReceiveAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.UdpReceiveResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Net.Sockets.UdpReceiveResult,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9225,7 +9225,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Connect(System.Net.IPAddress,System.Int32):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect2",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPAddress,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9241,7 +9241,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Connect(System.Net.IPEndPoint):System.Void",
           "clrName": "Connect",
-          "tsEmitName": "connect3",
+          "tsEmitName": "connect",
           "normalizedSignature": "Connect|(System.Net.IPEndPoint):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9289,7 +9289,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send2",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.IPEndPoint):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9305,7 +9305,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Send(System.Byte[],System.Int32,System.String,System.Int32):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send3",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[],System.Int32,System.String,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9321,7 +9321,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Int32):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send4",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9337,7 +9337,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Send(System.Byte[],System.Int32):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send5",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.Byte[],System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9353,7 +9353,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.UdpClient::Send(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Send",
-          "tsEmitName": "send6",
+          "tsEmitName": "send",
           "normalizedSignature": "Send|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9675,7 +9675,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::AcceptAsync(System.Net.Sockets.Socket,System.Net.Sockets.Socket):System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "AcceptAsync",
-          "tsEmitName": "acceptAsync2",
+          "tsEmitName": "acceptAsync",
           "normalizedSignature": "AcceptAsync|(System.Net.Sockets.Socket,System.Net.Sockets.Socket):System.Threading.Tasks.Task_1[[System.Net.Sockets.Socket,System.Net.Sockets,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9707,7 +9707,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync2",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.Net.EndPoint,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9723,7 +9723,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync3",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.Net.IPAddress,System.Int32):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9739,7 +9739,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync4",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.Net.IPAddress,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9755,7 +9755,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync5",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.Net.IPAddress[],System.Int32):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9771,7 +9771,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync6",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.Net.IPAddress[],System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9787,7 +9787,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.String,System.Int32):System.Threading.Tasks.Task",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync7",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.String,System.Int32):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9803,7 +9803,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ConnectAsync(System.Net.Sockets.Socket,System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ConnectAsync",
-          "tsEmitName": "connectAsync8",
+          "tsEmitName": "connectAsync",
           "normalizedSignature": "ConnectAsync|(System.Net.Sockets.Socket,System.String,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9835,7 +9835,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ReceiveAsync(System.Net.Sockets.Socket,System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync2",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Net.Sockets.Socket,System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9851,7 +9851,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::ReceiveAsync(System.Net.Sockets.Socket,System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReceiveAsync",
-          "tsEmitName": "receiveAsync3",
+          "tsEmitName": "receiveAsync",
           "normalizedSignature": "ReceiveAsync|(System.Net.Sockets.Socket,System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9915,7 +9915,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::SendAsync(System.Net.Sockets.Socket,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync2",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.Sockets.Socket,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9931,7 +9931,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketTaskExtensions::SendAsync(System.Net.Sockets.Socket,System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "SendAsync",
-          "tsEmitName": "sendAsync3",
+          "tsEmitName": "sendAsync",
           "normalizedSignature": "SendAsync|(System.Net.Sockets.Socket,System.Collections.Generic.IList_1[[System.ArraySegment_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Net.Sockets.SocketFlags):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

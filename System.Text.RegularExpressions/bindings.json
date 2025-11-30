@@ -157,7 +157,7 @@
           }
         },
         {
-          "tsName": "getName2",
+          "tsName": "getName",
           "isStatic": true,
           "tsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "target": {
@@ -177,7 +177,7 @@
           }
         },
         {
-          "tsName": "getNames2",
+          "tsName": "getNames",
           "isStatic": true,
           "tsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "target": {
@@ -207,7 +207,7 @@
           }
         },
         {
-          "tsName": "getValues2",
+          "tsName": "getValues",
           "isStatic": true,
           "tsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "target": {
@@ -227,7 +227,7 @@
           }
         },
         {
-          "tsName": "getValuesAsUnderlyingType2",
+          "tsName": "getValuesAsUnderlyingType",
           "isStatic": true,
           "tsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "target": {
@@ -257,7 +257,7 @@
           }
         },
         {
-          "tsName": "isDefined2",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "target": {
@@ -269,16 +269,6 @@
         {
           "tsName": "parse",
           "isStatic": true,
-          "tsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664308
-          }
-        },
-        {
-          "tsName": "parse2",
-          "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "target": {
             "declaringClrType": "System.Enum",
@@ -287,17 +277,7 @@
           }
         },
         {
-          "tsName": "parse3",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664310
-          }
-        },
-        {
-          "tsName": "parse4",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "target": {
@@ -307,17 +287,7 @@
           }
         },
         {
-          "tsName": "parse5",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.String):TEnum|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664312
-          }
-        },
-        {
-          "tsName": "parse6",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "target": {
@@ -327,17 +297,7 @@
           }
         },
         {
-          "tsName": "parse7",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664314
-          }
-        },
-        {
-          "tsName": "parse8",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "target": {
@@ -349,16 +309,6 @@
         {
           "tsName": "tryParse",
           "isStatic": true,
-          "tsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664316
-          }
-        },
-        {
-          "tsName": "tryParse2",
-          "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "target": {
             "declaringClrType": "System.Enum",
@@ -367,17 +317,7 @@
           }
         },
         {
-          "tsName": "tryParse3",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664318
-          }
-        },
-        {
-          "tsName": "tryParse4",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -387,17 +327,7 @@
           }
         },
         {
-          "tsName": "tryParse5",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664321
-          }
-        },
-        {
-          "tsName": "tryParse6",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -407,17 +337,7 @@
           }
         },
         {
-          "tsName": "tryParse7",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664323
-          }
-        },
-        {
-          "tsName": "tryParse8",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -467,17 +387,7 @@
           }
         },
         {
-          "tsName": "toString2",
-          "isStatic": false,
-          "tsSignatureId": "ToString|(System.String):System.String|static=false",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664335
-          }
-        },
-        {
-          "tsName": "toString3",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "target": {
@@ -487,7 +397,7 @@
           }
         },
         {
-          "tsName": "toString4",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "target": {
@@ -529,91 +439,11 @@
         {
           "tsName": "toObject",
           "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664377
-          }
-        },
-        {
-          "tsName": "toObject2",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664378
-          }
-        },
-        {
-          "tsName": "toObject3",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664379
-          }
-        },
-        {
-          "tsName": "toObject4",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664380
-          }
-        },
-        {
-          "tsName": "toObject5",
-          "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "target": {
             "declaringClrType": "System.Enum",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664381
-          }
-        },
-        {
-          "tsName": "toObject6",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664382
-          }
-        },
-        {
-          "tsName": "toObject7",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664383
-          }
-        },
-        {
-          "tsName": "toObject8",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664384
-          }
-        },
-        {
-          "tsName": "toObject9",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664385
           }
         },
         {
@@ -1357,7 +1187,7 @@
           }
         },
         {
-          "tsName": "getName2",
+          "tsName": "getName",
           "isStatic": true,
           "tsSignatureId": "GetName|(System.Type,System.Object):System.String|static=true",
           "target": {
@@ -1377,7 +1207,7 @@
           }
         },
         {
-          "tsName": "getNames2",
+          "tsName": "getNames",
           "isStatic": true,
           "tsSignatureId": "GetNames|(System.Type):System.String[]|static=true",
           "target": {
@@ -1407,7 +1237,7 @@
           }
         },
         {
-          "tsName": "getValues2",
+          "tsName": "getValues",
           "isStatic": true,
           "tsSignatureId": "GetValues|(System.Type):System.Array|static=true",
           "target": {
@@ -1427,7 +1257,7 @@
           }
         },
         {
-          "tsName": "getValuesAsUnderlyingType2",
+          "tsName": "getValuesAsUnderlyingType",
           "isStatic": true,
           "tsSignatureId": "GetValuesAsUnderlyingType|(System.Type):System.Array|static=true",
           "target": {
@@ -1457,7 +1287,7 @@
           }
         },
         {
-          "tsName": "isDefined2",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Type,System.Object):System.Boolean|static=true",
           "target": {
@@ -1469,16 +1299,6 @@
         {
           "tsName": "parse",
           "isStatic": true,
-          "tsSignatureId": "Parse|(System.Type,System.String):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664308
-          }
-        },
-        {
-          "tsName": "parse2",
-          "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=true",
           "target": {
             "declaringClrType": "System.Enum",
@@ -1487,17 +1307,7 @@
           }
         },
         {
-          "tsName": "parse3",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.Type,System.String,System.Boolean):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664310
-          }
-        },
-        {
-          "tsName": "parse4",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):System.Object|static=true",
           "target": {
@@ -1507,17 +1317,7 @@
           }
         },
         {
-          "tsName": "parse5",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.String):TEnum|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664312
-          }
-        },
-        {
-          "tsName": "parse6",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):TEnum|static=true",
           "target": {
@@ -1527,17 +1327,7 @@
           }
         },
         {
-          "tsName": "parse7",
-          "isStatic": true,
-          "tsSignatureId": "Parse|(System.String,System.Boolean):TEnum|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664314
-          }
-        },
-        {
-          "tsName": "parse8",
+          "tsName": "parse",
           "isStatic": true,
           "tsSignatureId": "Parse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean):TEnum|static=true",
           "target": {
@@ -1549,16 +1339,6 @@
         {
           "tsName": "tryParse",
           "isStatic": true,
-          "tsSignatureId": "TryParse|(System.Type,System.String,System.Object\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664316
-          }
-        },
-        {
-          "tsName": "tryParse2",
-          "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Object\u0026):System.Boolean|static=true",
           "target": {
             "declaringClrType": "System.Enum",
@@ -1567,17 +1347,7 @@
           }
         },
         {
-          "tsName": "tryParse3",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.Type,System.String,System.Boolean,System.Object\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664318
-          }
-        },
-        {
-          "tsName": "tryParse4",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.Type,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,System.Object\u0026):System.Boolean|static=true",
           "target": {
@@ -1587,17 +1357,7 @@
           }
         },
         {
-          "tsName": "tryParse5",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.String,TEnum\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664321
-          }
-        },
-        {
-          "tsName": "tryParse6",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -1607,17 +1367,7 @@
           }
         },
         {
-          "tsName": "tryParse7",
-          "isStatic": true,
-          "tsSignatureId": "TryParse|(System.String,System.Boolean,TEnum\u0026):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664323
-          }
-        },
-        {
-          "tsName": "tryParse8",
+          "tsName": "tryParse",
           "isStatic": true,
           "tsSignatureId": "TryParse|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean,TEnum\u0026):System.Boolean|static=true",
           "target": {
@@ -1667,17 +1417,7 @@
           }
         },
         {
-          "tsName": "toString2",
-          "isStatic": false,
-          "tsSignatureId": "ToString|(System.String):System.String|static=false",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664335
-          }
-        },
-        {
-          "tsName": "toString3",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.IFormatProvider):System.String|static=false",
           "target": {
@@ -1687,7 +1427,7 @@
           }
         },
         {
-          "tsName": "toString4",
+          "tsName": "toString",
           "isStatic": false,
           "tsSignatureId": "ToString|(System.String,System.IFormatProvider):System.String|static=false",
           "target": {
@@ -1729,91 +1469,11 @@
         {
           "tsName": "toObject",
           "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Object):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664377
-          }
-        },
-        {
-          "tsName": "toObject2",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.SByte):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664378
-          }
-        },
-        {
-          "tsName": "toObject3",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int16):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664379
-          }
-        },
-        {
-          "tsName": "toObject4",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int32):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664380
-          }
-        },
-        {
-          "tsName": "toObject5",
-          "isStatic": true,
           "tsSignatureId": "ToObject|(System.Type,System.Byte):System.Object|static=true",
           "target": {
             "declaringClrType": "System.Enum",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664381
-          }
-        },
-        {
-          "tsName": "toObject6",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt16):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664382
-          }
-        },
-        {
-          "tsName": "toObject7",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt32):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664383
-          }
-        },
-        {
-          "tsName": "toObject8",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.Int64):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664384
-          }
-        },
-        {
-          "tsName": "toObject9",
-          "isStatic": true,
-          "tsSignatureId": "ToObject|(System.Type,System.UInt64):System.Object|static=true",
-          "target": {
-            "declaringClrType": "System.Enum",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664385
           }
         },
         {
@@ -2422,7 +2082,7 @@
           "metadataToken": 100703951,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
@@ -2692,7 +2352,7 @@
           "metadataToken": 100703951,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
@@ -3271,7 +2931,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.CaptureCollection::CopyTo(System.Text.RegularExpressions.Capture[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663458,
           "canonicalSignature": "(System.Text.RegularExpressions.Capture[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Capture[],System.Int32):System.Void|static=false",
@@ -3716,7 +3376,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Text.RegularExpressions.Capture[],System.Int32):System.Void|static=false",
           "target": {
@@ -4202,256 +3862,6 @@
         {
           "tsName": "getCustomAttributes",
           "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663865
-          }
-        },
-        {
-          "tsName": "getCustomAttributes2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663866
-          }
-        },
-        {
-          "tsName": "getCustomAttributes3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663867
-          }
-        },
-        {
-          "tsName": "getCustomAttributes4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663868
-          }
-        },
-        {
-          "tsName": "isDefined",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663869
-          }
-        },
-        {
-          "tsName": "isDefined2",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663870
-          }
-        },
-        {
-          "tsName": "getCustomAttribute",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663871
-          }
-        },
-        {
-          "tsName": "getCustomAttribute2",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663872
-          }
-        },
-        {
-          "tsName": "getCustomAttributes5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663873
-          }
-        },
-        {
-          "tsName": "getCustomAttributes6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663874
-          }
-        },
-        {
-          "tsName": "getCustomAttributes7",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663875
-          }
-        },
-        {
-          "tsName": "getCustomAttributes8",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663876
-          }
-        },
-        {
-          "tsName": "isDefined3",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663877
-          }
-        },
-        {
-          "tsName": "isDefined4",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663878
-          }
-        },
-        {
-          "tsName": "getCustomAttribute3",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663879
-          }
-        },
-        {
-          "tsName": "getCustomAttribute4",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663880
-          }
-        },
-        {
-          "tsName": "getCustomAttributes9",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663881
-          }
-        },
-        {
-          "tsName": "getCustomAttributes10",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663882
-          }
-        },
-        {
-          "tsName": "getCustomAttributes11",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663883
-          }
-        },
-        {
-          "tsName": "getCustomAttributes12",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663884
-          }
-        },
-        {
-          "tsName": "isDefined5",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663885
-          }
-        },
-        {
-          "tsName": "isDefined6",
-          "isStatic": true,
-          "tsSignatureId": "IsDefined|(System.Reflection.Module,System.Type,System.Boolean):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663886
-          }
-        },
-        {
-          "tsName": "getCustomAttribute5",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663887
-          }
-        },
-        {
-          "tsName": "getCustomAttribute6",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttribute|(System.Reflection.Module,System.Type,System.Boolean):System.Attribute|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663888
-          }
-        },
-        {
-          "tsName": "getCustomAttributes13",
-          "isStatic": true,
-          "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Attribute[]|static=true",
-          "target": {
-            "declaringClrType": "System.Attribute",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100663889
-          }
-        },
-        {
-          "tsName": "getCustomAttributes14",
-          "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute[]|static=true",
           "target": {
             "declaringClrType": "System.Attribute",
@@ -4460,7 +3870,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes15",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly):System.Attribute[]|static=true",
           "target": {
@@ -4470,7 +3880,7 @@
           }
         },
         {
-          "tsName": "getCustomAttributes16",
+          "tsName": "getCustomAttributes",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttributes|(System.Reflection.Assembly,System.Boolean):System.Attribute[]|static=true",
           "target": {
@@ -4480,7 +3890,7 @@
           }
         },
         {
-          "tsName": "isDefined7",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type):System.Boolean|static=true",
           "target": {
@@ -4490,7 +3900,7 @@
           }
         },
         {
-          "tsName": "isDefined8",
+          "tsName": "isDefined",
           "isStatic": true,
           "tsSignatureId": "IsDefined|(System.Reflection.Assembly,System.Type,System.Boolean):System.Boolean|static=true",
           "target": {
@@ -4500,7 +3910,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute7",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type):System.Attribute|static=true",
           "target": {
@@ -4510,7 +3920,7 @@
           }
         },
         {
-          "tsName": "getCustomAttribute8",
+          "tsName": "getCustomAttribute",
           "isStatic": true,
           "tsSignatureId": "GetCustomAttribute|(System.Reflection.Assembly,System.Type,System.Boolean):System.Attribute|static=true",
           "target": {
@@ -4952,7 +4362,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::CopyTo(System.Text.RegularExpressions.Group[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663505,
           "canonicalSignature": "(System.Text.RegularExpressions.Group[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Group[],System.Int32):System.Void|static=false",
@@ -5523,7 +4933,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Text.RegularExpressions.Group[],System.Int32):System.Void|static=false",
           "target": {
@@ -6292,7 +5702,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchCollection::CopyTo(System.Text.RegularExpressions.Match[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "metadataToken": 100663585,
           "canonicalSignature": "(System.Text.RegularExpressions.Match[],System.Int32):System.Void",
           "normalizedSignature": "CopyTo|(System.Text.RegularExpressions.Match[],System.Int32):System.Void|static=false",
@@ -6737,7 +6147,7 @@
           }
         },
         {
-          "tsName": "copyTo2",
+          "tsName": "copyTo",
           "isStatic": false,
           "tsSignatureId": "CopyTo|(System.Text.RegularExpressions.Match[],System.Int32):System.Void|static=false",
           "target": {
@@ -7333,27 +6743,7 @@
           }
         },
         {
-          "tsName": "createDelegate2",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664227
-          }
-        },
-        {
-          "tsName": "createDelegate3",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664228
-          }
-        },
-        {
-          "tsName": "createDelegate4",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
           "target": {
@@ -7373,7 +6763,7 @@
           }
         },
         {
-          "tsName": "combine2",
+          "tsName": "combine",
           "isStatic": true,
           "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
           "target": {
@@ -7383,17 +6773,7 @@
           }
         },
         {
-          "tsName": "combine3",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.ReadOnlySpan_1[[System.Delegate,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664257
-          }
-        },
-        {
-          "tsName": "createDelegate5",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
@@ -7403,53 +6783,13 @@
           }
         },
         {
-          "tsName": "createDelegate6",
+          "tsName": "createDelegate",
           "isStatic": true,
           "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
           "target": {
             "declaringClrType": "System.Delegate",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "createDelegate7",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664260
-          }
-        },
-        {
-          "tsName": "createDelegate8",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664261
-          }
-        },
-        {
-          "tsName": "createDelegate9",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664262
-          }
-        },
-        {
-          "tsName": "createDelegate10",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Type,System.String,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664263
           }
         },
         {
@@ -7601,7 +6941,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void",
           "clrName": "CompileToAssembly",
-          "tsEmitName": "compileToAssembly2",
+          "tsEmitName": "compileToAssembly",
           "metadataToken": 100663629,
           "canonicalSignature": "(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void",
           "normalizedSignature": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void|static=true",
@@ -7615,7 +6955,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::CompileToAssembly(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void",
           "clrName": "CompileToAssembly",
-          "tsEmitName": "compileToAssembly3",
+          "tsEmitName": "compileToAssembly",
           "metadataToken": 100663630,
           "canonicalSignature": "(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void",
           "normalizedSignature": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void|static=true",
@@ -7741,7 +7081,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count2",
+          "tsEmitName": "count",
           "metadataToken": 100663654,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
@@ -7755,7 +7095,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count3",
+          "tsEmitName": "count",
           "metadataToken": 100663655,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32|static=false",
@@ -7783,7 +7123,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count2",
+          "tsEmitName": "count",
           "metadataToken": 100663657,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "normalizedSignature": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
@@ -7797,7 +7137,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count3",
+          "tsEmitName": "count",
           "metadataToken": 100663658,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "normalizedSignature": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
@@ -7811,7 +7151,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count4",
+          "tsEmitName": "count",
           "metadataToken": 100663659,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32|static=true",
@@ -7825,7 +7165,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count5",
+          "tsEmitName": "count",
           "metadataToken": 100663660,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
@@ -7839,7 +7179,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Count(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "clrName": "Count",
-          "tsEmitName": "count6",
+          "tsEmitName": "count",
           "metadataToken": 100663661,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32",
           "normalizedSignature": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
@@ -7867,7 +7207,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch2",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663663,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean|static=true",
@@ -7881,7 +7221,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch3",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663664,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "normalizedSignature": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
@@ -7895,7 +7235,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch4",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663665,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
@@ -7909,7 +7249,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch5",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663666,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "normalizedSignature": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
@@ -7923,7 +7263,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch6",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663667,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
@@ -7951,7 +7291,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.String,System.Int32):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch2",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663669,
           "canonicalSignature": "(System.String,System.Int32):System.Boolean",
           "normalizedSignature": "IsMatch|(System.String,System.Int32):System.Boolean|static=false",
@@ -7965,7 +7305,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch3",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663670,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
@@ -7979,7 +7319,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::IsMatch(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
           "clrName": "IsMatch",
-          "tsEmitName": "isMatch4",
+          "tsEmitName": "isMatch",
           "metadataToken": 100663671,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean",
           "normalizedSignature": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=false",
@@ -8007,7 +7347,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match2",
+          "tsEmitName": "match",
           "metadataToken": 100663673,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match|static=true",
@@ -8021,7 +7361,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match3",
+          "tsEmitName": "match",
           "metadataToken": 100663674,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match|static=true",
@@ -8049,7 +7389,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match2",
+          "tsEmitName": "match",
           "metadataToken": 100663676,
           "canonicalSignature": "(System.String,System.Int32):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Match|(System.String,System.Int32):System.Text.RegularExpressions.Match|static=false",
@@ -8063,7 +7403,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Match(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match",
           "clrName": "Match",
-          "tsEmitName": "match3",
+          "tsEmitName": "match",
           "metadataToken": 100663677,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match",
           "normalizedSignature": "Match|(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match|static=false",
@@ -8091,7 +7431,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches2",
+          "tsEmitName": "matches",
           "metadataToken": 100663679,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection",
           "normalizedSignature": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection|static=true",
@@ -8105,7 +7445,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches3",
+          "tsEmitName": "matches",
           "metadataToken": 100663680,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection",
           "normalizedSignature": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection|static=true",
@@ -8133,7 +7473,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Matches(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection",
           "clrName": "Matches",
-          "tsEmitName": "matches2",
+          "tsEmitName": "matches",
           "metadataToken": 100663682,
           "canonicalSignature": "(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection",
           "normalizedSignature": "Matches|(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection|static=false",
@@ -8161,7 +7501,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100663684,
           "canonicalSignature": "(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
@@ -8175,7 +7515,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace3",
+          "tsEmitName": "replace",
           "metadataToken": 100663685,
           "canonicalSignature": "(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
@@ -8203,7 +7543,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "metadataToken": 100663687,
           "canonicalSignature": "(System.String,System.String,System.Int32):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.Int32):System.String|static=false",
@@ -8217,7 +7557,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace3",
+          "tsEmitName": "replace",
           "metadataToken": 100663688,
           "canonicalSignature": "(System.String,System.String,System.Int32,System.Int32):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.Int32,System.Int32):System.String|static=false",
@@ -8231,7 +7571,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace4",
+          "tsEmitName": "replace",
           "metadataToken": 100663689,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=true",
@@ -8245,7 +7585,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace5",
+          "tsEmitName": "replace",
           "metadataToken": 100663690,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
@@ -8259,7 +7599,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace6",
+          "tsEmitName": "replace",
           "metadataToken": 100663691,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String",
           "normalizedSignature": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
@@ -8273,7 +7613,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace4",
+          "tsEmitName": "replace",
           "metadataToken": 100663692,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=false",
@@ -8287,7 +7627,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace5",
+          "tsEmitName": "replace",
           "metadataToken": 100663693,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String|static=false",
@@ -8301,7 +7641,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Replace(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String",
           "clrName": "Replace",
-          "tsEmitName": "replace6",
+          "tsEmitName": "replace",
           "metadataToken": 100663694,
           "canonicalSignature": "(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String",
           "normalizedSignature": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String|static=false",
@@ -8329,7 +7669,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split2",
+          "tsEmitName": "split",
           "metadataToken": 100663698,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]",
           "normalizedSignature": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]|static=true",
@@ -8343,7 +7683,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split3",
+          "tsEmitName": "split",
           "metadataToken": 100663699,
           "canonicalSignature": "(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]",
           "normalizedSignature": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]|static=true",
@@ -8371,7 +7711,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split2",
+          "tsEmitName": "split",
           "metadataToken": 100663701,
           "canonicalSignature": "(System.String,System.Int32):System.String[]",
           "normalizedSignature": "Split|(System.String,System.Int32):System.String[]|static=false",
@@ -8385,7 +7725,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::Split(System.String,System.Int32,System.Int32):System.String[]",
           "clrName": "Split",
-          "tsEmitName": "split3",
+          "tsEmitName": "split",
           "metadataToken": 100663702,
           "canonicalSignature": "(System.String,System.Int32,System.Int32):System.String[]",
           "normalizedSignature": "Split|(System.String,System.Int32,System.Int32):System.String[]|static=false",
@@ -8413,7 +7753,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches2",
+          "tsEmitName": "enumerateMatches",
           "metadataToken": 100663705,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
@@ -8427,7 +7767,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches3",
+          "tsEmitName": "enumerateMatches",
           "metadataToken": 100663706,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
@@ -8455,7 +7795,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateMatches(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "clrName": "EnumerateMatches",
-          "tsEmitName": "enumerateMatches2",
+          "tsEmitName": "enumerateMatches",
           "metadataToken": 100663708,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator",
           "normalizedSignature": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=false",
@@ -8483,7 +7823,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits2",
+          "tsEmitName": "enumerateSplits",
           "metadataToken": 100663710,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
@@ -8497,7 +7837,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits3",
+          "tsEmitName": "enumerateSplits",
           "metadataToken": 100663711,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
@@ -8525,7 +7865,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits2",
+          "tsEmitName": "enumerateSplits",
           "metadataToken": 100663713,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
@@ -8539,7 +7879,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex::EnumerateSplits(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "clrName": "EnumerateSplits",
-          "tsEmitName": "enumerateSplits3",
+          "tsEmitName": "enumerateSplits",
           "metadataToken": 100663714,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
           "normalizedSignature": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
@@ -8681,7 +8021,7 @@
           }
         },
         {
-          "tsName": "compileToAssembly2",
+          "tsName": "compileToAssembly",
           "isStatic": true,
           "tsSignatureId": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[]):System.Void|static=true",
           "target": {
@@ -8691,7 +8031,7 @@
           }
         },
         {
-          "tsName": "compileToAssembly3",
+          "tsName": "compileToAssembly",
           "isStatic": true,
           "tsSignatureId": "CompileToAssembly|(System.Text.RegularExpressions.RegexCompilationInfo[],System.Reflection.AssemblyName,System.Reflection.Emit.CustomAttributeBuilder[],System.String):System.Void|static=true",
           "target": {
@@ -8781,7 +8121,7 @@
           }
         },
         {
-          "tsName": "count2",
+          "tsName": "count",
           "isStatic": false,
           "tsSignatureId": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "target": {
@@ -8791,7 +8131,7 @@
           }
         },
         {
-          "tsName": "count3",
+          "tsName": "count",
           "isStatic": false,
           "tsSignatureId": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Int32|static=false",
           "target": {
@@ -8811,7 +8151,7 @@
           }
         },
         {
-          "tsName": "count2",
+          "tsName": "count",
           "isStatic": true,
           "tsSignatureId": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
           "target": {
@@ -8821,7 +8161,7 @@
           }
         },
         {
-          "tsName": "count3",
+          "tsName": "count",
           "isStatic": true,
           "tsSignatureId": "Count|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
           "target": {
@@ -8831,7 +8171,7 @@
           }
         },
         {
-          "tsName": "count4",
+          "tsName": "count",
           "isStatic": true,
           "tsSignatureId": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Int32|static=true",
           "target": {
@@ -8841,7 +8181,7 @@
           }
         },
         {
-          "tsName": "count5",
+          "tsName": "count",
           "isStatic": true,
           "tsSignatureId": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Int32|static=true",
           "target": {
@@ -8851,7 +8191,7 @@
           }
         },
         {
-          "tsName": "count6",
+          "tsName": "count",
           "isStatic": true,
           "tsSignatureId": "Count|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Int32|static=true",
           "target": {
@@ -8871,7 +8211,7 @@
           }
         },
         {
-          "tsName": "isMatch2",
+          "tsName": "isMatch",
           "isStatic": true,
           "tsSignatureId": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String):System.Boolean|static=true",
           "target": {
@@ -8881,7 +8221,7 @@
           }
         },
         {
-          "tsName": "isMatch3",
+          "tsName": "isMatch",
           "isStatic": true,
           "tsSignatureId": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
           "target": {
@@ -8891,7 +8231,7 @@
           }
         },
         {
-          "tsName": "isMatch4",
+          "tsName": "isMatch",
           "isStatic": true,
           "tsSignatureId": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Boolean|static=true",
           "target": {
@@ -8901,7 +8241,7 @@
           }
         },
         {
-          "tsName": "isMatch5",
+          "tsName": "isMatch",
           "isStatic": true,
           "tsSignatureId": "IsMatch|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
           "target": {
@@ -8911,7 +8251,7 @@
           }
         },
         {
-          "tsName": "isMatch6",
+          "tsName": "isMatch",
           "isStatic": true,
           "tsSignatureId": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Boolean|static=true",
           "target": {
@@ -8931,7 +8271,7 @@
           }
         },
         {
-          "tsName": "isMatch2",
+          "tsName": "isMatch",
           "isStatic": false,
           "tsSignatureId": "IsMatch|(System.String,System.Int32):System.Boolean|static=false",
           "target": {
@@ -8941,7 +8281,7 @@
           }
         },
         {
-          "tsName": "isMatch3",
+          "tsName": "isMatch",
           "isStatic": false,
           "tsSignatureId": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -8951,7 +8291,7 @@
           }
         },
         {
-          "tsName": "isMatch4",
+          "tsName": "isMatch",
           "isStatic": false,
           "tsSignatureId": "IsMatch|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Boolean|static=false",
           "target": {
@@ -8971,7 +8311,7 @@
           }
         },
         {
-          "tsName": "match2",
+          "tsName": "match",
           "isStatic": true,
           "tsSignatureId": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Match|static=true",
           "target": {
@@ -8981,7 +8321,7 @@
           }
         },
         {
-          "tsName": "match3",
+          "tsName": "match",
           "isStatic": true,
           "tsSignatureId": "Match|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Match|static=true",
           "target": {
@@ -9001,7 +8341,7 @@
           }
         },
         {
-          "tsName": "match2",
+          "tsName": "match",
           "isStatic": false,
           "tsSignatureId": "Match|(System.String,System.Int32):System.Text.RegularExpressions.Match|static=false",
           "target": {
@@ -9011,7 +8351,7 @@
           }
         },
         {
-          "tsName": "match3",
+          "tsName": "match",
           "isStatic": false,
           "tsSignatureId": "Match|(System.String,System.Int32,System.Int32):System.Text.RegularExpressions.Match|static=false",
           "target": {
@@ -9031,7 +8371,7 @@
           }
         },
         {
-          "tsName": "matches2",
+          "tsName": "matches",
           "isStatic": true,
           "tsSignatureId": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.MatchCollection|static=true",
           "target": {
@@ -9041,7 +8381,7 @@
           }
         },
         {
-          "tsName": "matches3",
+          "tsName": "matches",
           "isStatic": true,
           "tsSignatureId": "Matches|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.MatchCollection|static=true",
           "target": {
@@ -9061,7 +8401,7 @@
           }
         },
         {
-          "tsName": "matches2",
+          "tsName": "matches",
           "isStatic": false,
           "tsSignatureId": "Matches|(System.String,System.Int32):System.Text.RegularExpressions.MatchCollection|static=false",
           "target": {
@@ -9081,7 +8421,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": true,
           "tsSignatureId": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
           "target": {
@@ -9091,7 +8431,7 @@
           }
         },
         {
-          "tsName": "replace3",
+          "tsName": "replace",
           "isStatic": true,
           "tsSignatureId": "Replace|(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
           "target": {
@@ -9111,7 +8451,7 @@
           }
         },
         {
-          "tsName": "replace2",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(System.String,System.String,System.Int32):System.String|static=false",
           "target": {
@@ -9121,7 +8461,7 @@
           }
         },
         {
-          "tsName": "replace3",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(System.String,System.String,System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -9131,7 +8471,7 @@
           }
         },
         {
-          "tsName": "replace4",
+          "tsName": "replace",
           "isStatic": true,
           "tsSignatureId": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=true",
           "target": {
@@ -9141,7 +8481,7 @@
           }
         },
         {
-          "tsName": "replace5",
+          "tsName": "replace",
           "isStatic": true,
           "tsSignatureId": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions):System.String|static=true",
           "target": {
@@ -9151,7 +8491,7 @@
           }
         },
         {
-          "tsName": "replace6",
+          "tsName": "replace",
           "isStatic": true,
           "tsSignatureId": "Replace|(System.String,System.String,System.Text.RegularExpressions.MatchEvaluator,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String|static=true",
           "target": {
@@ -9161,7 +8501,7 @@
           }
         },
         {
-          "tsName": "replace4",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator):System.String|static=false",
           "target": {
@@ -9171,7 +8511,7 @@
           }
         },
         {
-          "tsName": "replace5",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32):System.String|static=false",
           "target": {
@@ -9181,7 +8521,7 @@
           }
         },
         {
-          "tsName": "replace6",
+          "tsName": "replace",
           "isStatic": false,
           "tsSignatureId": "Replace|(System.String,System.Text.RegularExpressions.MatchEvaluator,System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -9201,7 +8541,7 @@
           }
         },
         {
-          "tsName": "split2",
+          "tsName": "split",
           "isStatic": true,
           "tsSignatureId": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions):System.String[]|static=true",
           "target": {
@@ -9211,7 +8551,7 @@
           }
         },
         {
-          "tsName": "split3",
+          "tsName": "split",
           "isStatic": true,
           "tsSignatureId": "Split|(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.String[]|static=true",
           "target": {
@@ -9231,7 +8571,7 @@
           }
         },
         {
-          "tsName": "split2",
+          "tsName": "split",
           "isStatic": false,
           "tsSignatureId": "Split|(System.String,System.Int32):System.String[]|static=false",
           "target": {
@@ -9241,7 +8581,7 @@
           }
         },
         {
-          "tsName": "split3",
+          "tsName": "split",
           "isStatic": false,
           "tsSignatureId": "Split|(System.String,System.Int32,System.Int32):System.String[]|static=false",
           "target": {
@@ -9261,7 +8601,7 @@
           }
         },
         {
-          "tsName": "enumerateMatches2",
+          "tsName": "enumerateMatches",
           "isStatic": true,
           "tsSignatureId": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
           "target": {
@@ -9271,7 +8611,7 @@
           }
         },
         {
-          "tsName": "enumerateMatches3",
+          "tsName": "enumerateMatches",
           "isStatic": true,
           "tsSignatureId": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=true",
           "target": {
@@ -9291,7 +8631,7 @@
           }
         },
         {
-          "tsName": "enumerateMatches2",
+          "tsName": "enumerateMatches",
           "isStatic": false,
           "tsSignatureId": "EnumerateMatches|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueMatchEnumerator|static=false",
           "target": {
@@ -9311,7 +8651,7 @@
           }
         },
         {
-          "tsName": "enumerateSplits2",
+          "tsName": "enumerateSplits",
           "isStatic": true,
           "tsSignatureId": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
           "target": {
@@ -9321,7 +8661,7 @@
           }
         },
         {
-          "tsName": "enumerateSplits3",
+          "tsName": "enumerateSplits",
           "isStatic": true,
           "tsSignatureId": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=true",
           "target": {
@@ -9341,7 +8681,7 @@
           }
         },
         {
-          "tsName": "enumerateSplits2",
+          "tsName": "enumerateSplits",
           "isStatic": false,
           "tsSignatureId": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
           "target": {
@@ -9351,7 +8691,7 @@
           }
         },
         {
-          "tsName": "enumerateSplits3",
+          "tsName": "enumerateSplits",
           "isStatic": false,
           "tsSignatureId": "EnumerateSplits|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.Int32):System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator|static=false",
           "target": {

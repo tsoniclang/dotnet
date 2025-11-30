@@ -421,8 +421,8 @@ export interface IReflect$instance {
     getMethod(name: string, bindingAttr: BindingFlags): MethodInfo;
     getMethods(bindingAttr: BindingFlags): MethodInfo[];
     getProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    getProperty2(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
-    getProperty2(name: string, bindingAttr: BindingFlags): PropertyInfo;
+    getProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
+    getProperty(name: string, bindingAttr: BindingFlags): PropertyInfo;
     invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
 }
 
@@ -575,13 +575,13 @@ export abstract class Assembly$instance {
     static getCallingAssembly(): Assembly;
     static getEntryAssembly(): Assembly;
     static getExecutingAssembly(): Assembly;
-    static load4(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
-    static load4(rawAssembly: byte[]): Assembly;
-    static load4(assemblyRef: AssemblyName): Assembly;
-    static load4(assemblyString: string): Assembly;
+    static load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
+    static load(rawAssembly: byte[]): Assembly;
+    static load(assemblyRef: AssemblyName): Assembly;
+    static load(assemblyString: string): Assembly;
     static loadFile(path: string): Assembly;
-    static loadFrom2(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
-    static loadFrom2(assemblyFile: string): Assembly;
+    static loadFrom(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
+    static loadFrom(assemblyFile: string): Assembly;
     static loadWithPartialName(partialName: string): Assembly;
     static reflectionOnlyLoad(rawAssembly: byte[]): Assembly;
     static reflectionOnlyLoad(assemblyString: string): Assembly;
@@ -859,10 +859,10 @@ export class CustomAttributeData$instance {
     readonly constructorArguments: IList_1<CustomAttributeTypedArgument>;
     readonly namedArguments: IList_1<CustomAttributeNamedArgument>;
     toString(): string;
-    static getCustomAttributes3(target: Assembly): IList_1<CustomAttributeData>;
-    static getCustomAttributes3(target: MemberInfo): IList_1<CustomAttributeData>;
-    static getCustomAttributes3(target: Module): IList_1<CustomAttributeData>;
-    static getCustomAttributes3(target: ParameterInfo): IList_1<CustomAttributeData>;
+    static getCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
+    static getCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
+    static getCustomAttributes(target: Module): IList_1<CustomAttributeData>;
+    static getCustomAttributes(target: ParameterInfo): IList_1<CustomAttributeData>;
 }
 
 
@@ -981,8 +981,8 @@ export abstract class FieldInfo$instance extends MemberInfo$instance {
     setValue(obj: unknown, value: unknown): void;
     setValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
     setValueDirect(obj: TypedReference, value: unknown): void;
-    static getFieldFromHandle2(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
-    static getFieldFromHandle2(handle: RuntimeFieldHandle): FieldInfo;
+    static getFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
+    static getFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
 }
 
 
@@ -1111,8 +1111,8 @@ export abstract class MethodBase$instance extends MemberInfo$instance {
     invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
     abstract isDefined(attributeType: Type, inherit: boolean): boolean;
     static getCurrentMethod(): MethodBase;
-    static getMethodFromHandle2(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
-    static getMethodFromHandle2(handle: RuntimeMethodHandle): MethodBase;
+    static getMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
+    static getMethodFromHandle(handle: RuntimeMethodHandle): MethodBase;
 }
 
 
@@ -1703,24 +1703,24 @@ export abstract class CustomAttributeExtensions$instance {
     static getCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute;
     static getCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute;
     static getCustomAttribute<T extends Attribute>(element: ParameterInfo): T;
-    static getCustomAttributes7(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: Assembly): IEnumerable_1<T>;
-    static getCustomAttributes7(element: Assembly): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
-    static getCustomAttributes7(element: MemberInfo, inherit: boolean): IEnumerable_1<Attribute>;
-    static getCustomAttributes7(element: MemberInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
-    static getCustomAttributes7(element: MemberInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: MemberInfo): IEnumerable_1<T>;
-    static getCustomAttributes7(element: MemberInfo): IEnumerable_1<Attribute>;
-    static getCustomAttributes7(element: Module, attributeType: Type): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: Module): IEnumerable_1<T>;
-    static getCustomAttributes7(element: Module): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
-    static getCustomAttributes7(element: ParameterInfo, inherit: boolean): IEnumerable_1<Attribute>;
-    static getCustomAttributes7(element: ParameterInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
-    static getCustomAttributes7(element: ParameterInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static getCustomAttributes7<T extends Attribute>(element: ParameterInfo): IEnumerable_1<T>;
-    static getCustomAttributes7(element: ParameterInfo): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: Assembly): IEnumerable_1<T>;
+    static getCustomAttributes(element: Assembly): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
+    static getCustomAttributes(element: MemberInfo, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: MemberInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: MemberInfo, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: MemberInfo): IEnumerable_1<T>;
+    static getCustomAttributes(element: MemberInfo): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: Module, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: Module): IEnumerable_1<T>;
+    static getCustomAttributes(element: Module): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
+    static getCustomAttributes(element: ParameterInfo, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: ParameterInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes(element: ParameterInfo, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes<T extends Attribute>(element: ParameterInfo): IEnumerable_1<T>;
+    static getCustomAttributes(element: ParameterInfo): IEnumerable_1<Attribute>;
     static isDefined(element: Assembly, attributeType: Type): boolean;
     static isDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;
     static isDefined(element: MemberInfo, attributeType: Type): boolean;
@@ -1733,12 +1733,12 @@ export abstract class CustomAttributeExtensions$instance {
 export type CustomAttributeExtensions = CustomAttributeExtensions$instance;
 
 export abstract class EventInfoExtensions$instance {
-    static getAddMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static getAddMethod2(eventInfo: EventInfo): MethodInfo;
-    static getRaiseMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static getRaiseMethod2(eventInfo: EventInfo): MethodInfo;
-    static getRemoveMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static getRemoveMethod2(eventInfo: EventInfo): MethodInfo;
+    static getAddMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getAddMethod(eventInfo: EventInfo): MethodInfo;
+    static getRaiseMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getRaiseMethod(eventInfo: EventInfo): MethodInfo;
+    static getRemoveMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getRemoveMethod(eventInfo: EventInfo): MethodInfo;
 }
 
 
@@ -1775,12 +1775,12 @@ export abstract class ModuleExtensions$instance {
 export type ModuleExtensions = ModuleExtensions$instance;
 
 export abstract class PropertyInfoExtensions$instance {
-    static getAccessors2(property: PropertyInfo, nonPublic: boolean): MethodInfo[];
-    static getAccessors2(property: PropertyInfo): MethodInfo[];
-    static getGetMethod2(property: PropertyInfo, nonPublic: boolean): MethodInfo;
-    static getGetMethod2(property: PropertyInfo): MethodInfo;
-    static getSetMethod2(property: PropertyInfo, nonPublic: boolean): MethodInfo;
-    static getSetMethod2(property: PropertyInfo): MethodInfo;
+    static getAccessors(property: PropertyInfo, nonPublic: boolean): MethodInfo[];
+    static getAccessors(property: PropertyInfo): MethodInfo[];
+    static getGetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo;
+    static getGetMethod(property: PropertyInfo): MethodInfo;
+    static getSetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo;
+    static getSetMethod(property: PropertyInfo): MethodInfo;
 }
 
 
@@ -1805,36 +1805,36 @@ export type RuntimeReflectionExtensions = RuntimeReflectionExtensions$instance;
 
 export abstract class TypeExtensions$instance {
     static getConstructor(type_: Type, types: Type[]): ConstructorInfo;
-    static getConstructors2(type_: Type, bindingAttr: BindingFlags): ConstructorInfo[];
-    static getConstructors2(type_: Type): ConstructorInfo[];
+    static getConstructors(type_: Type, bindingAttr: BindingFlags): ConstructorInfo[];
+    static getConstructors(type_: Type): ConstructorInfo[];
     static getDefaultMembers(type_: Type): MemberInfo[];
-    static getEvent2(type_: Type, name: string, bindingAttr: BindingFlags): EventInfo;
-    static getEvent2(type_: Type, name: string): EventInfo;
-    static getEvents2(type_: Type, bindingAttr: BindingFlags): EventInfo[];
-    static getEvents2(type_: Type): EventInfo[];
-    static getField2(type_: Type, name: string, bindingAttr: BindingFlags): FieldInfo;
-    static getField2(type_: Type, name: string): FieldInfo;
-    static getFields2(type_: Type, bindingAttr: BindingFlags): FieldInfo[];
-    static getFields2(type_: Type): FieldInfo[];
+    static getEvent(type_: Type, name: string, bindingAttr: BindingFlags): EventInfo;
+    static getEvent(type_: Type, name: string): EventInfo;
+    static getEvents(type_: Type, bindingAttr: BindingFlags): EventInfo[];
+    static getEvents(type_: Type): EventInfo[];
+    static getField(type_: Type, name: string, bindingAttr: BindingFlags): FieldInfo;
+    static getField(type_: Type, name: string): FieldInfo;
+    static getFields(type_: Type, bindingAttr: BindingFlags): FieldInfo[];
+    static getFields(type_: Type): FieldInfo[];
     static getGenericArguments(type_: Type): Type[];
     static getInterfaces(type_: Type): Type[];
-    static getMember2(type_: Type, name: string, bindingAttr: BindingFlags): MemberInfo[];
-    static getMember2(type_: Type, name: string): MemberInfo[];
-    static getMembers2(type_: Type, bindingAttr: BindingFlags): MemberInfo[];
-    static getMembers2(type_: Type): MemberInfo[];
-    static getMethod2(type_: Type, name: string, bindingAttr: BindingFlags): MethodInfo;
-    static getMethod2(type_: Type, name: string, types: Type[]): MethodInfo;
-    static getMethod2(type_: Type, name: string): MethodInfo;
-    static getMethods2(type_: Type, bindingAttr: BindingFlags): MethodInfo[];
-    static getMethods2(type_: Type): MethodInfo[];
+    static getMember(type_: Type, name: string, bindingAttr: BindingFlags): MemberInfo[];
+    static getMember(type_: Type, name: string): MemberInfo[];
+    static getMembers(type_: Type, bindingAttr: BindingFlags): MemberInfo[];
+    static getMembers(type_: Type): MemberInfo[];
+    static getMethod(type_: Type, name: string, bindingAttr: BindingFlags): MethodInfo;
+    static getMethod(type_: Type, name: string, types: Type[]): MethodInfo;
+    static getMethod(type_: Type, name: string): MethodInfo;
+    static getMethods(type_: Type, bindingAttr: BindingFlags): MethodInfo[];
+    static getMethods(type_: Type): MethodInfo[];
     static getNestedType(type_: Type, name: string, bindingAttr: BindingFlags): Type;
     static getNestedTypes(type_: Type, bindingAttr: BindingFlags): Type[];
-    static getProperties2(type_: Type, bindingAttr: BindingFlags): PropertyInfo[];
-    static getProperties2(type_: Type): PropertyInfo[];
-    static getProperty2(type_: Type, name: string, bindingAttr: BindingFlags): PropertyInfo;
-    static getProperty2(type_: Type, name: string, returnType: Type, types: Type[]): PropertyInfo;
-    static getProperty2(type_: Type, name: string, returnType: Type): PropertyInfo;
-    static getProperty2(type_: Type, name: string): PropertyInfo;
+    static getProperties(type_: Type, bindingAttr: BindingFlags): PropertyInfo[];
+    static getProperties(type_: Type): PropertyInfo[];
+    static getProperty(type_: Type, name: string, bindingAttr: BindingFlags): PropertyInfo;
+    static getProperty(type_: Type, name: string, returnType: Type, types: Type[]): PropertyInfo;
+    static getProperty(type_: Type, name: string, returnType: Type): PropertyInfo;
+    static getProperty(type_: Type, name: string): PropertyInfo;
     static isAssignableFrom(type_: Type, c: Type): boolean;
     static isInstanceOfType(type_: Type, o: unknown): boolean;
 }

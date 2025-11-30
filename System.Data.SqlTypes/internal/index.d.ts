@@ -107,7 +107,7 @@ export interface __SqlBinary$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlBinary$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlBinary$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
 
@@ -166,7 +166,7 @@ export interface __SqlBoolean$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlBoolean$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlBoolean$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
 
@@ -226,7 +226,7 @@ export interface __SqlByte$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlByte$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlByte$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlByte = SqlByte$instance & __SqlByte$views;
 
@@ -279,7 +279,7 @@ export interface __SqlDateTime$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDateTime$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlDateTime$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
 
@@ -355,7 +355,7 @@ export interface __SqlDecimal$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDecimal$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlDecimal$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
 
@@ -409,7 +409,7 @@ export interface __SqlDouble$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlDouble$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlDouble$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
 
@@ -454,7 +454,7 @@ export interface __SqlGuid$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlGuid$instance extends INullable$instance, System_Internal.IComparable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlGuid$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
 
@@ -514,7 +514,7 @@ export interface __SqlInt16$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt16$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlInt16$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
 
@@ -574,7 +574,7 @@ export interface __SqlInt32$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt32$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlInt32$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
 
@@ -634,7 +634,7 @@ export interface __SqlInt64$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlInt64$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlInt64$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
 
@@ -697,7 +697,7 @@ export interface __SqlMoney$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlMoney$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlMoney$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
 
@@ -752,7 +752,7 @@ export interface __SqlSingle$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlSingle$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlSingle$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
 
@@ -822,7 +822,7 @@ export interface __SqlString$views {
     CompareTo(obj: unknown): int;
 }
 
-export interface SqlString$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
+export interface SqlString$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlString = SqlString$instance & __SqlString$views;
 

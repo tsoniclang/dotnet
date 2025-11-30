@@ -1413,7 +1413,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityContext::TryParse(System.String,System.String,System.Diagnostics.ActivityContext\u0026):System.Boolean",
           "clrName": "TryParse",
-          "tsEmitName": "tryParse2",
+          "tsEmitName": "tryParse",
           "normalizedSignature": "TryParse|(System.String,System.String,System.Diagnostics.ActivityContext\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1461,7 +1461,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityContext::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1867,7 +1867,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityLink::Equals(System.Diagnostics.ActivityLink):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Diagnostics.ActivityLink):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2098,7 +2098,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySpanId::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2215,7 +2215,7 @@
           "tsEmitName": "reset",
           "normalizedSignature": "Reset|():System.Void|static=false",
           "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "isStatic": false,
           "isAbstract": false,
           "isVirtual": true,
@@ -2223,7 +2223,6 @@
           "isSealed": false,
           "arity": 0,
           "parameterCount": 0,
-          "sourceInterface": "System.Collections.IEnumerator",
           "isExtensionMethod": false
         },
         {
@@ -2440,7 +2439,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTraceId::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2554,7 +2553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(T,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted2",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2570,7 +2569,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted3",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2586,7 +2585,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted4",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2602,7 +2601,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted5",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2618,7 +2617,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted6",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2634,7 +2633,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted7",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2650,7 +2649,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted8",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2666,7 +2665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted9",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2737,7 +2736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(T,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted2",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2753,7 +2752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted3",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2769,7 +2768,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted4",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2785,7 +2784,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted5",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2801,7 +2800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted6",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2817,7 +2816,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted7",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2833,7 +2832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted8",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2849,7 +2848,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Void",
           "clrName": "AppendFormatted",
-          "tsEmitName": "appendFormatted9",
+          "tsEmitName": "appendFormatted",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2904,7 +2903,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.TagList::Add(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2936,7 +2935,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.TagList::CopyTo(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]][],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3610,7 +3609,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Activity::AddTag(System.String,System.Object):System.Diagnostics.Activity",
           "clrName": "AddTag",
-          "tsEmitName": "addTag2",
+          "tsEmitName": "addTag",
           "normalizedSignature": "AddTag|(System.String,System.Object):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3738,7 +3737,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.Activity::SetParentId(System.Diagnostics.ActivityTraceId,System.Diagnostics.ActivitySpanId,System.Diagnostics.ActivityTraceFlags):System.Diagnostics.Activity",
           "clrName": "SetParentId",
-          "tsEmitName": "setParentId2",
+          "tsEmitName": "setParentId",
           "normalizedSignature": "SetParentId|(System.Diagnostics.ActivityTraceId,System.Diagnostics.ActivitySpanId,System.Diagnostics.ActivityTraceFlags):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4590,7 +4589,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySource::CreateActivity(System.String,System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Diagnostics.ActivityIdFormat):System.Diagnostics.Activity",
           "clrName": "CreateActivity",
-          "tsEmitName": "createActivity2",
+          "tsEmitName": "createActivity",
           "normalizedSignature": "CreateActivity|(System.String,System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Diagnostics.ActivityIdFormat):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4606,7 +4605,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySource::CreateActivity(System.String,System.Diagnostics.ActivityKind,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Diagnostics.ActivityIdFormat):System.Diagnostics.Activity",
           "clrName": "CreateActivity",
-          "tsEmitName": "createActivity3",
+          "tsEmitName": "createActivity",
           "normalizedSignature": "CreateActivity|(System.String,System.Diagnostics.ActivityKind,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.Diagnostics.ActivityIdFormat):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4638,7 +4637,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySource::StartActivity(System.String,System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset):System.Diagnostics.Activity",
           "clrName": "StartActivity",
-          "tsEmitName": "startActivity2",
+          "tsEmitName": "startActivity",
           "normalizedSignature": "StartActivity|(System.String,System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4654,7 +4653,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySource::StartActivity(System.String,System.Diagnostics.ActivityKind,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset):System.Diagnostics.Activity",
           "clrName": "StartActivity",
-          "tsEmitName": "startActivity3",
+          "tsEmitName": "startActivity",
           "normalizedSignature": "StartActivity|(System.String,System.Diagnostics.ActivityKind,System.String,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4670,7 +4669,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySource::StartActivity(System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset,System.String):System.Diagnostics.Activity",
           "clrName": "StartActivity",
-          "tsEmitName": "startActivity4",
+          "tsEmitName": "startActivity",
           "normalizedSignature": "StartActivity|(System.Diagnostics.ActivityKind,System.Diagnostics.ActivityContext,System.Collections.Generic.IEnumerable_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Collections.Generic.IEnumerable_1[[System.Diagnostics.ActivityLink,System.Diagnostics.DiagnosticSource,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]],System.DateTimeOffset,System.String):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4933,7 +4932,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTagsCollection::Add(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5045,7 +5044,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTagsCollection::Remove(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5588,7 +5587,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.CorrelationManager::StartLogicalOperation(System.Object):System.Void",
           "clrName": "StartLogicalOperation",
-          "tsEmitName": "startLogicalOperation2",
+          "tsEmitName": "startLogicalOperation",
           "normalizedSignature": "StartLogicalOperation|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6487,7 +6486,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.DefaultTraceListener::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail2",
+          "tsEmitName": "fail",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6734,7 +6733,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent3",
+          "tsEmitName": "traceEvent2",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6766,7 +6765,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.DelimitedListTraceListener::TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void",
           "clrName": "TraceData",
-          "tsEmitName": "traceData2",
+          "tsEmitName": "traceData",
           "normalizedSignature": "TraceData|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6943,7 +6942,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Subscribe(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Predicate_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable",
           "clrName": "Subscribe",
-          "tsEmitName": "subscribe2",
+          "tsEmitName": "subscribe",
           "normalizedSignature": "Subscribe|(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Predicate_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6959,7 +6958,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Subscribe(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Func_4[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable",
           "clrName": "Subscribe",
-          "tsEmitName": "subscribe3",
+          "tsEmitName": "subscribe",
           "normalizedSignature": "Subscribe|(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Func_4[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6975,7 +6974,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::Subscribe(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable",
           "clrName": "Subscribe",
-          "tsEmitName": "subscribe4",
+          "tsEmitName": "subscribe",
           "normalizedSignature": "Subscribe|(System.IObserver_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.IDisposable|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7039,7 +7038,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::IsEnabled(System.String):System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "isEnabled2",
+          "tsEmitName": "isEnabled",
           "normalizedSignature": "IsEnabled|(System.String):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7055,7 +7054,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticListener::IsEnabled(System.String,System.Object,System.Object):System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "isEnabled3",
+          "tsEmitName": "isEnabled",
           "normalizedSignature": "IsEnabled|(System.String,System.Object,System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7207,7 +7206,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DiagnosticMethodInfo::Create(System.Diagnostics.StackFrame):System.Diagnostics.DiagnosticMethodInfo",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Diagnostics.StackFrame):System.Diagnostics.DiagnosticMethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7302,7 +7301,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticSource::Write(System.String,T):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7334,7 +7333,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticSource::IsEnabled(System.String,System.Object,System.Object):System.Boolean",
           "clrName": "IsEnabled",
-          "tsEmitName": "isEnabled2",
+          "tsEmitName": "isEnabled",
           "normalizedSignature": "IsEnabled|(System.String,System.Object,System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7366,7 +7365,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticSource::StartActivity(System.Diagnostics.Activity,T):System.Diagnostics.Activity",
           "clrName": "StartActivity",
-          "tsEmitName": "startActivity2",
+          "tsEmitName": "startActivity",
           "normalizedSignature": "StartActivity|(System.Diagnostics.Activity,T):System.Diagnostics.Activity|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7398,7 +7397,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.DiagnosticSource::StopActivity(System.Diagnostics.Activity,T):System.Void",
           "clrName": "StopActivity",
-          "tsEmitName": "stopActivity2",
+          "tsEmitName": "stopActivity",
           "normalizedSignature": "StopActivity|(System.Diagnostics.Activity,T):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8721,7 +8720,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::WaitForInputIdle(System.Int32):System.Boolean",
           "clrName": "WaitForInputIdle",
-          "tsEmitName": "waitForInputIdle2",
+          "tsEmitName": "waitForInputIdle",
           "normalizedSignature": "WaitForInputIdle|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8737,7 +8736,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::WaitForInputIdle(System.TimeSpan):System.Boolean",
           "clrName": "WaitForInputIdle",
-          "tsEmitName": "waitForInputIdle3",
+          "tsEmitName": "waitForInputIdle",
           "normalizedSignature": "WaitForInputIdle|(System.TimeSpan):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8785,7 +8784,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::GetProcessById(System.Int32):System.Diagnostics.Process",
           "clrName": "GetProcessById",
-          "tsEmitName": "getProcessById2",
+          "tsEmitName": "getProcessById",
           "normalizedSignature": "GetProcessById|(System.Int32):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8833,7 +8832,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::GetProcesses(System.String):System.Diagnostics.Process[]",
           "clrName": "GetProcesses",
-          "tsEmitName": "getProcesses2",
+          "tsEmitName": "getProcesses",
           "normalizedSignature": "GetProcesses|(System.String):System.Diagnostics.Process[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8913,7 +8912,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Start(System.String,System.String):System.Diagnostics.Process",
           "clrName": "Start",
-          "tsEmitName": "start2",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.String,System.String):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8929,7 +8928,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Start(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Diagnostics.Process",
           "clrName": "Start",
-          "tsEmitName": "start3",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8945,7 +8944,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Start(System.Diagnostics.ProcessStartInfo):System.Diagnostics.Process",
           "clrName": "Start",
-          "tsEmitName": "start4",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.Diagnostics.ProcessStartInfo):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8993,7 +8992,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::WaitForExit(System.Int32):System.Boolean",
           "clrName": "WaitForExit",
-          "tsEmitName": "waitForExit2",
+          "tsEmitName": "waitForExit",
           "normalizedSignature": "WaitForExit|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9009,7 +9008,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::WaitForExit(System.TimeSpan):System.Boolean",
           "clrName": "WaitForExit",
-          "tsEmitName": "waitForExit3",
+          "tsEmitName": "waitForExit",
           "normalizedSignature": "WaitForExit|(System.TimeSpan):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9137,7 +9136,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Start(System.String,System.String,System.Security.SecureString,System.String):System.Diagnostics.Process",
           "clrName": "Start",
-          "tsEmitName": "start5",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.String,System.String,System.Security.SecureString,System.String):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9153,7 +9152,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Start(System.String,System.String,System.String,System.Security.SecureString,System.String):System.Diagnostics.Process",
           "clrName": "Start",
-          "tsEmitName": "start6",
+          "tsEmitName": "start",
           "normalizedSignature": "Start|(System.String,System.String,System.String,System.Security.SecureString,System.String):System.Diagnostics.Process|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9185,7 +9184,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::GetProcessesByName(System.String,System.String):System.Diagnostics.Process[]",
           "clrName": "GetProcessesByName",
-          "tsEmitName": "getProcessesByName2",
+          "tsEmitName": "getProcessesByName",
           "normalizedSignature": "GetProcessesByName|(System.String,System.String):System.Diagnostics.Process[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9201,7 +9200,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.Process::Kill(System.Boolean):System.Void",
           "clrName": "Kill",
-          "tsEmitName": "kill2",
+          "tsEmitName": "kill",
           "normalizedSignature": "Kill|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12104,7 +12103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Stopwatch::GetElapsedTime(System.Int64,System.Int64):System.TimeSpan",
           "clrName": "GetElapsedTime",
-          "tsEmitName": "getElapsedTime2",
+          "tsEmitName": "getElapsedTime",
           "normalizedSignature": "GetElapsedTime|(System.Int64,System.Int64):System.TimeSpan|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12789,7 +12788,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert2",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12805,7 +12804,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Assert(System.Boolean,System.String,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert3",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12837,7 +12836,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail2",
+          "tsEmitName": "fail",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12885,7 +12884,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::TraceInformation(System.String,System.Object[]):System.Void",
           "clrName": "TraceInformation",
-          "tsEmitName": "traceInformation2",
+          "tsEmitName": "traceInformation",
           "normalizedSignature": "TraceInformation|(System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12917,7 +12916,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::TraceWarning(System.String,System.Object[]):System.Void",
           "clrName": "TraceWarning",
-          "tsEmitName": "traceWarning2",
+          "tsEmitName": "traceWarning",
           "normalizedSignature": "TraceWarning|(System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12949,7 +12948,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::TraceError(System.String,System.Object[]):System.Void",
           "clrName": "TraceError",
-          "tsEmitName": "traceError2",
+          "tsEmitName": "traceError",
           "normalizedSignature": "TraceError|(System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12981,7 +12980,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12997,7 +12996,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13013,7 +13012,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13045,7 +13044,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13061,7 +13060,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine3",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13077,7 +13076,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine4",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13109,7 +13108,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteIf(System.Boolean,System.Object):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf2",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13125,7 +13124,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteIf(System.Boolean,System.String,System.String):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf3",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13141,7 +13140,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteIf(System.Boolean,System.Object,System.String):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf4",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13173,7 +13172,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLineIf(System.Boolean,System.Object):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf2",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13189,7 +13188,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLineIf(System.Boolean,System.String,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf3",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13205,7 +13204,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.Trace::WriteLineIf(System.Boolean,System.Object,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf4",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13595,7 +13594,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail2",
+          "tsEmitName": "fail",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13627,7 +13626,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13643,7 +13642,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13659,7 +13658,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13691,7 +13690,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13707,7 +13706,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine3",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13723,7 +13722,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine4",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13755,7 +13754,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void",
           "clrName": "TraceData",
-          "tsEmitName": "traceData2",
+          "tsEmitName": "traceData",
           "normalizedSignature": "TraceData|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13787,7 +13786,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13803,7 +13802,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent3",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13991,7 +13990,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::AddRange(System.Diagnostics.TraceListenerCollection):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(System.Diagnostics.TraceListenerCollection):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14119,7 +14118,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::Remove(System.String):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14496,7 +14495,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceSource::TraceEvent(System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent2",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14512,7 +14511,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceSource::TraceEvent(System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent3",
+          "tsEmitName": "traceEvent",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventType,System.Int32,System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14544,7 +14543,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceSource::TraceData(System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void",
           "clrName": "TraceData",
-          "tsEmitName": "traceData2",
+          "tsEmitName": "traceData",
           "normalizedSignature": "TraceData|(System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14576,7 +14575,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceSource::TraceInformation(System.String,System.Object[]):System.Void",
           "clrName": "TraceInformation",
-          "tsEmitName": "traceInformation2",
+          "tsEmitName": "traceInformation",
           "normalizedSignature": "TraceInformation|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14953,7 +14952,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceEvent(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void",
           "clrName": "TraceEvent",
-          "tsEmitName": "traceEvent3",
+          "tsEmitName": "traceEvent2",
           "normalizedSignature": "TraceEvent|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14985,7 +14984,7 @@
         {
           "stableId": "System.Diagnostics.TextWriterTraceListener:System.Diagnostics.XmlWriterTraceListener::TraceData(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void",
           "clrName": "TraceData",
-          "tsEmitName": "traceData2",
+          "tsEmitName": "traceData",
           "normalizedSignature": "TraceData|(System.Diagnostics.TraceEventCache,System.String,System.Diagnostics.TraceEventType,System.Int32,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15338,7 +15337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Print(System.String,System.Object[]):System.Void",
           "clrName": "Print",
-          "tsEmitName": "print2",
+          "tsEmitName": "print",
           "normalizedSignature": "Print|(System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15370,7 +15369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert2",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15386,7 +15385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Assert(System.Boolean,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert3",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15402,7 +15401,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Assert(System.Boolean,System.String,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert4",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15418,7 +15417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Assert(System.Boolean,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert5",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026,System.Diagnostics.Debug\u002BAssertInterpolatedStringHandler\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15434,7 +15433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Assert(System.Boolean,System.String,System.String,System.Object[]):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert6",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String,System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15466,7 +15465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Fail(System.String,System.String):System.Void",
           "clrName": "Fail",
-          "tsEmitName": "fail2",
+          "tsEmitName": "fail",
           "normalizedSignature": "Fail|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15514,7 +15513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15530,7 +15529,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLine(System.Object,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine3",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15546,7 +15545,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine4",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15562,7 +15561,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLine(System.String,System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine5",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15578,7 +15577,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15594,7 +15593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Write(System.String,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15610,7 +15609,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::Write(System.Object,System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15642,7 +15641,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteIf(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf2",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15658,7 +15657,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteIf(System.Boolean,System.Object):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf3",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Object):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15674,7 +15673,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteIf(System.Boolean,System.String,System.String):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf4",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15690,7 +15689,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteIf(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026,System.String):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf5",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15706,7 +15705,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteIf(System.Boolean,System.Object,System.String):System.Void",
           "clrName": "WriteIf",
-          "tsEmitName": "writeIf6",
+          "tsEmitName": "writeIf",
           "normalizedSignature": "WriteIf|(System.Boolean,System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15738,7 +15737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLineIf(System.Boolean,System.Object,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf2",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.Object,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15754,7 +15753,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLineIf(System.Boolean,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf3",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15770,7 +15769,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLineIf(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf4",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15786,7 +15785,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLineIf(System.Boolean,System.String,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf5",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.String,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15802,7 +15801,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debug::WriteLineIf(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026,System.String):System.Void",
           "clrName": "WriteLineIf",
-          "tsEmitName": "writeLineIf6",
+          "tsEmitName": "writeLineIf",
           "normalizedSignature": "WriteLineIf|(System.Boolean,System.Diagnostics.Debug\u002BWriteIfInterpolatedStringHandler\u0026,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

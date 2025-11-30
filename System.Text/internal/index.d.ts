@@ -100,10 +100,10 @@ export class Rune$instance {
     static toLowerInvariant(value: Rune): Rune;
     static toUpper(value: Rune, culture: CultureInfo): Rune;
     static toUpperInvariant(value: Rune): Rune;
-    static tryCreate2(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate2(ch: char, result: { value: ref<Rune> }): boolean;
-    static tryCreate2(value: int, result: { value: ref<Rune> }): boolean;
-    static tryCreate2(value: uint, result: { value: ref<Rune> }): boolean;
+    static tryCreate(highSurrogate: char, lowSurrogate: char, result: { value: ref<Rune> }): boolean;
+    static tryCreate(ch: char, result: { value: ref<Rune> }): boolean;
+    static tryCreate(value: int, result: { value: ref<Rune> }): boolean;
+    static tryCreate(value: uint, result: { value: ref<Rune> }): boolean;
     static tryGetRuneAt(input: string, index: int, value: { value: ref<Rune> }): boolean;
 }
 
@@ -131,6 +131,7 @@ export class SpanLineEnumerator$instance {
     readonly current: ReadOnlySpan_1<CLROf<char>>;
     getEnumerator(): SpanLineEnumerator;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -147,6 +148,7 @@ export class SpanRuneEnumerator$instance {
     readonly current: Rune;
     getEnumerator(): SpanRuneEnumerator;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -190,6 +192,7 @@ export class StringRuneEnumerator$instance {
     readonly current: Rune;
     getEnumerator(): StringRuneEnumerator;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -557,13 +560,13 @@ export abstract class Encoding$instance {
     static readonly UTF7: Encoding;
     static readonly UTF8: Encoding;
     static readonly UTF32: Encoding;
-    static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
-    static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
+    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
+    static convert(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
     static createTranscodingStream(innerStream: Stream, innerStreamEncoding: Encoding, outerStreamEncoding: Encoding, leaveOpen?: boolean): Stream;
-    static getEncoding2(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding2(codepage: int): Encoding;
-    static getEncoding2(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
-    static getEncoding2(name: string): Encoding;
+    static getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    static getEncoding(codepage: int): Encoding;
+    static getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding;
+    static getEncoding(name: string): Encoding;
     static getEncodings(): EncodingInfo[];
     static registerProvider(provider: EncodingProvider): void;
 }
@@ -932,10 +935,10 @@ export abstract class Ascii$instance {
     static equalsIgnoreCase(left: ReadOnlySpan_1<CLROf<char>>, right: ReadOnlySpan_1<CLROf<byte>>): boolean;
     static equalsIgnoreCase(left: ReadOnlySpan_1<CLROf<char>>, right: ReadOnlySpan_1<CLROf<char>>): boolean;
     static fromUtf16(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static isValid3(value: byte): boolean;
-    static isValid3(value: char): boolean;
-    static isValid3(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    static isValid3(value: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isValid(value: byte): boolean;
+    static isValid(value: char): boolean;
+    static isValid(value: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    static isValid(value: ReadOnlySpan_1<CLROf<char>>): boolean;
     static toLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
     static toLower(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): OperationStatus;
     static toLower(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
@@ -961,17 +964,17 @@ export abstract class Ascii$instance {
 export type Ascii = Ascii$instance;
 
 export abstract class EncodingExtensions$instance {
-    static convert4(decoder: Decoder, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert4(decoder: Decoder, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert4(encoder: Encoder, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static convert4(encoder: Encoder, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
-    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>): long;
-    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, bytes: Span_1<CLROf<byte>>): int;
-    static getBytes2(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }): byte[];
-    static getBytes2(encoding: Encoding, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>): long;
-    static getChars2(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>): long;
-    static getChars2(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, chars: Span_1<CLROf<char>>): int;
-    static getChars2(encoding: Encoding, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>): long;
+    static convert(decoder: Decoder, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert(decoder: Decoder, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>, flush: boolean, charsUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert(encoder: Encoder, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static convert(encoder: Encoder, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>, flush: boolean, bytesUsed: { value: ref<long> }, completed: { value: ref<boolean> }): void;
+    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, writer: IBufferWriter_1<CLROf<byte>>): long;
+    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }, bytes: Span_1<CLROf<byte>>): int;
+    static getBytes(encoding: Encoding, chars: { value: ref<ReadOnlySequence_1<CLROf<char>>> }): byte[];
+    static getBytes(encoding: Encoding, chars: ReadOnlySpan_1<CLROf<char>>, writer: IBufferWriter_1<CLROf<byte>>): long;
+    static getChars(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, writer: IBufferWriter_1<CLROf<char>>): long;
+    static getChars(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }, chars: Span_1<CLROf<char>>): int;
+    static getChars(encoding: Encoding, bytes: ReadOnlySpan_1<CLROf<byte>>, writer: IBufferWriter_1<CLROf<char>>): long;
     static getString(encoding: Encoding, bytes: { value: ref<ReadOnlySequence_1<CLROf<byte>>> }): string;
 }
 

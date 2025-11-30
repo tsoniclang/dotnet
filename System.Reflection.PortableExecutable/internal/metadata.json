@@ -1821,7 +1821,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetReader(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader",
           "clrName": "GetReader",
-          "tsEmitName": "getReader2",
+          "tsEmitName": "getReader",
           "normalizedSignature": "GetReader|(System.Int32,System.Int32):System.Reflection.Metadata.BlobReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1853,7 +1853,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMemoryBlock::GetContent(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetContent",
-          "tsEmitName": "getContent2",
+          "tsEmitName": "getContent",
           "normalizedSignature": "GetContent|(System.Int32,System.Int32):System.Collections.Immutable.ImmutableArray_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2457,7 +2457,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddEntry(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void",
           "clrName": "AddEntry",
-          "tsEmitName": "addEntry2",
+          "tsEmitName": "addEntry",
           "normalizedSignature": "AddEntry|(System.Reflection.PortableExecutable.DebugDirectoryEntryType,System.UInt32,System.UInt32,TData,Action_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2489,7 +2489,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryBuilder::AddCodeViewEntry(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void",
           "clrName": "AddCodeViewEntry",
-          "tsEmitName": "addCodeViewEntry2",
+          "tsEmitName": "addCodeViewEntry",
           "normalizedSignature": "AddCodeViewEntry|(System.String,System.Reflection.Metadata.BlobContentId,System.UInt16,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4289,7 +4289,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEReader::GetSectionData(System.String):System.Reflection.PortableExecutable.PEMemoryBlock",
           "clrName": "GetSectionData",
-          "tsEmitName": "getSectionData2",
+          "tsEmitName": "getSectionData",
           "normalizedSignature": "GetSectionData|(System.String):System.Reflection.PortableExecutable.PEMemoryBlock|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

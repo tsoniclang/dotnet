@@ -1522,7 +1522,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1538,7 +1538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1570,7 +1570,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryReader::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read4",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1586,7 +1586,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryReader::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read5",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1828,7 +1828,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Byte):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1844,7 +1844,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.SByte):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.SByte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1860,7 +1860,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Byte[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1876,7 +1876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1892,7 +1892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write6",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1908,7 +1908,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write7",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1924,7 +1924,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write8",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1940,7 +1940,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write9",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1956,7 +1956,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Decimal):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write10",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1972,7 +1972,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Int16):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write11",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1988,7 +1988,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.UInt16):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write12",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2004,7 +2004,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write13",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2020,7 +2020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.UInt32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write14",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2036,7 +2036,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write15",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2052,7 +2052,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.UInt64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write16",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2068,7 +2068,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write17",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2084,7 +2084,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.Half):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write18",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Half):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2100,7 +2100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write19",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2116,7 +2116,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write20",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2132,7 +2132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write21",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2337,7 +2337,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2369,7 +2369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2449,7 +2449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2481,7 +2481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BufferedStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3033,7 +3033,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFiles(System.String):System.IO.FileInfo[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles2",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String):System.IO.FileInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3049,7 +3049,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFiles(System.String,System.IO.SearchOption):System.IO.FileInfo[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles3",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,System.IO.SearchOption):System.IO.FileInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3065,7 +3065,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFiles(System.String,System.IO.EnumerationOptions):System.IO.FileInfo[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles4",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,System.IO.EnumerationOptions):System.IO.FileInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFileSystemInfos(System.String):System.IO.FileSystemInfo[]",
           "clrName": "GetFileSystemInfos",
-          "tsEmitName": "getFileSystemInfos2",
+          "tsEmitName": "getFileSystemInfos",
           "normalizedSignature": "GetFileSystemInfos|(System.String):System.IO.FileSystemInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3113,7 +3113,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFileSystemInfos(System.String,System.IO.SearchOption):System.IO.FileSystemInfo[]",
           "clrName": "GetFileSystemInfos",
-          "tsEmitName": "getFileSystemInfos3",
+          "tsEmitName": "getFileSystemInfos",
           "normalizedSignature": "GetFileSystemInfos|(System.String,System.IO.SearchOption):System.IO.FileSystemInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3129,7 +3129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetFileSystemInfos(System.String,System.IO.EnumerationOptions):System.IO.FileSystemInfo[]",
           "clrName": "GetFileSystemInfos",
-          "tsEmitName": "getFileSystemInfos4",
+          "tsEmitName": "getFileSystemInfos",
           "normalizedSignature": "GetFileSystemInfos|(System.String,System.IO.EnumerationOptions):System.IO.FileSystemInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3161,7 +3161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetDirectories(System.String):System.IO.DirectoryInfo[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories2",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String):System.IO.DirectoryInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3177,7 +3177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetDirectories(System.String,System.IO.SearchOption):System.IO.DirectoryInfo[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories3",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,System.IO.SearchOption):System.IO.DirectoryInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3193,7 +3193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::GetDirectories(System.String,System.IO.EnumerationOptions):System.IO.DirectoryInfo[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories4",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,System.IO.EnumerationOptions):System.IO.DirectoryInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3225,7 +3225,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateDirectories(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories2",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3241,7 +3241,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateDirectories(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories3",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3257,7 +3257,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateDirectories(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories4",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.DirectoryInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3289,7 +3289,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFiles(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles2",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3305,7 +3305,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFiles(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles3",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3321,7 +3321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFiles(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles4",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.FileInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3353,7 +3353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFileSystemInfos(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemInfos",
-          "tsEmitName": "enumerateFileSystemInfos2",
+          "tsEmitName": "enumerateFileSystemInfos",
           "normalizedSignature": "EnumerateFileSystemInfos|(System.String):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3369,7 +3369,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFileSystemInfos(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemInfos",
-          "tsEmitName": "enumerateFileSystemInfos3",
+          "tsEmitName": "enumerateFileSystemInfos",
           "normalizedSignature": "EnumerateFileSystemInfos|(System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3385,7 +3385,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::EnumerateFileSystemInfos(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemInfos",
-          "tsEmitName": "enumerateFileSystemInfos4",
+          "tsEmitName": "enumerateFileSystemInfos",
           "normalizedSignature": "EnumerateFileSystemInfos|(System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.IO.FileSystemInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3433,7 +3433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::Delete(System.Boolean):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_2",
+          "tsEmitName": "delete_",
           "normalizedSignature": "Delete|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4371,7 +4371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::CopyTo(System.String,System.Boolean):System.IO.FileInfo",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.String,System.Boolean):System.IO.FileInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4419,7 +4419,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::Open(System.IO.FileMode):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open2",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.IO.FileMode):System.IO.FileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4435,7 +4435,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::Open(System.IO.FileMode,System.IO.FileAccess):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open3",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.IO.FileMode,System.IO.FileAccess):System.IO.FileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4451,7 +4451,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::Open(System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open4",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.FileStream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4515,7 +4515,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::MoveTo(System.String,System.Boolean):System.Void",
           "clrName": "MoveTo",
-          "tsEmitName": "moveTo2",
+          "tsEmitName": "moveTo",
           "normalizedSignature": "MoveTo|(System.String,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4547,7 +4547,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::Replace(System.String,System.String,System.Boolean):System.IO.FileInfo",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.Boolean):System.IO.FileInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5082,7 +5082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5114,7 +5114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5146,7 +5146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5178,7 +5178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5210,7 +5210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileStream::Flush(System.Boolean):System.Void",
           "clrName": "Flush",
-          "tsEmitName": "flush2",
+          "tsEmitName": "flush",
           "normalizedSignature": "Flush|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6543,7 +6543,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::WaitForChanged(System.IO.WatcherChangeTypes,System.Int32):System.IO.WaitForChangedResult",
           "clrName": "WaitForChanged",
-          "tsEmitName": "waitForChanged2",
+          "tsEmitName": "waitForChanged",
           "normalizedSignature": "WaitForChanged|(System.IO.WatcherChangeTypes,System.Int32):System.IO.WaitForChangedResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6559,7 +6559,7 @@
         {
           "stableId": "System.IO.FileSystem.Watcher:System.IO.FileSystemWatcher::WaitForChanged(System.IO.WatcherChangeTypes,System.TimeSpan):System.IO.WaitForChangedResult",
           "clrName": "WaitForChanged",
-          "tsEmitName": "waitForChanged3",
+          "tsEmitName": "waitForChanged",
           "normalizedSignature": "WaitForChanged|(System.IO.WatcherChangeTypes,System.TimeSpan):System.IO.WaitForChangedResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7161,7 +7161,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7193,7 +7193,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7321,7 +7321,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7353,7 +7353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.MemoryStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8075,7 +8075,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::CopyTo(System.IO.Stream,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.IO.Stream,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8107,7 +8107,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::CopyToAsync(System.IO.Stream,System.Int32):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync2",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8123,7 +8123,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::CopyToAsync(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync3",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8139,7 +8139,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "CopyToAsync",
-          "tsEmitName": "copyToAsync4",
+          "tsEmitName": "copyToAsync",
           "normalizedSignature": "CopyToAsync|(System.IO.Stream,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8235,7 +8235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync2",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8299,7 +8299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8315,7 +8315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync3",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8347,7 +8347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::ReadExactlyAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "ReadExactlyAsync",
-          "tsEmitName": "readExactlyAsync2",
+          "tsEmitName": "readExactlyAsync",
           "normalizedSignature": "ReadExactlyAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8427,7 +8427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8443,7 +8443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync3",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8507,7 +8507,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8555,7 +8555,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::ReadExactly(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "ReadExactly",
-          "tsEmitName": "readExactly2",
+          "tsEmitName": "readExactly",
           "normalizedSignature": "ReadExactly|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8603,7 +8603,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8897,7 +8897,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8913,7 +8913,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read4",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8961,7 +8961,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlock(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "readBlock3",
+          "tsEmitName": "readBlock2",
           "normalizedSignature": "ReadBlock|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9009,7 +9009,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync4",
+          "tsEmitName": "readLineAsync3",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9041,7 +9041,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync4",
+          "tsEmitName": "readToEndAsync3",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9073,7 +9073,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync4",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9105,7 +9105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::ReadBlockAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync4",
+          "tsEmitName": "readBlockAsync3",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9517,7 +9517,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write14",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9533,7 +9533,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write15",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9549,7 +9549,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write16",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9565,7 +9565,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write17",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9597,7 +9597,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine18",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9613,7 +9613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write18",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9629,7 +9629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write19",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9645,7 +9645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write20",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9661,7 +9661,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write21",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9677,7 +9677,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write22",
+          "tsEmitName": "write13",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9693,7 +9693,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine19",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9709,7 +9709,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine20",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9725,7 +9725,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine21",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9741,7 +9741,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine22",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9757,7 +9757,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine23",
+          "tsEmitName": "writeLine17",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9789,7 +9789,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync5",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9805,7 +9805,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync6",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9821,7 +9821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync7",
+          "tsEmitName": "writeAsync4",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9853,7 +9853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9869,7 +9869,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync6",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9885,7 +9885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync7",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9901,7 +9901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync8",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9933,7 +9933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync2",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10715,7 +10715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10731,7 +10731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read4",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10811,7 +10811,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync4",
+          "tsEmitName": "readLineAsync3",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10843,7 +10843,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync4",
+          "tsEmitName": "readToEndAsync3",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10875,7 +10875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadBlockAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync4",
+          "tsEmitName": "readBlockAsync3",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10907,7 +10907,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringReader::ReadAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync4",
+          "tsEmitName": "readAsync3",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11203,7 +11203,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write18",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11219,7 +11219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write19",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11235,7 +11235,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write20",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11251,7 +11251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::Write(System.Text.StringBuilder):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write21",
+          "tsEmitName": "write17",
           "normalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11283,7 +11283,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLine(System.Text.StringBuilder):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine22",
+          "tsEmitName": "writeLine21",
           "normalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11315,7 +11315,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11331,7 +11331,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync5",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11347,7 +11347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync6",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11363,7 +11363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync7",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11395,7 +11395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11411,7 +11411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync6",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11427,7 +11427,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync7",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11443,7 +11443,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StringWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync8",
+          "tsEmitName": "writeLineAsync4",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12347,7 +12347,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::Read(System.Char[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Char[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12363,7 +12363,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::Read(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12411,7 +12411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::ReadBlock(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "ReadBlock",
-          "tsEmitName": "readBlock2",
+          "tsEmitName": "readBlock",
           "normalizedSignature": "ReadBlock|(System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12459,7 +12459,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::ReadLineAsync(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLineAsync",
-          "tsEmitName": "readLineAsync2",
+          "tsEmitName": "readLineAsync",
           "normalizedSignature": "ReadLineAsync|(System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12491,7 +12491,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::ReadToEndAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadToEndAsync",
-          "tsEmitName": "readToEndAsync2",
+          "tsEmitName": "readToEndAsync",
           "normalizedSignature": "ReadToEndAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12523,7 +12523,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::ReadAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12555,7 +12555,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::ReadBlockAsync(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadBlockAsync",
-          "tsEmitName": "readBlockAsync2",
+          "tsEmitName": "readBlockAsync",
           "normalizedSignature": "ReadBlockAsync|(System.Memory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12711,7 +12711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12727,7 +12727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12743,7 +12743,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12759,7 +12759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12775,7 +12775,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write6",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12791,7 +12791,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.UInt32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write7",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12807,7 +12807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write8",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12823,7 +12823,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.UInt64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write9",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12839,7 +12839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write10",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12855,7 +12855,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write11",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12871,7 +12871,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Decimal):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write12",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12887,7 +12887,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write13",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12903,7 +12903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write14",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12919,7 +12919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.Text.StringBuilder):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write15",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12935,7 +12935,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write16",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12951,7 +12951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write17",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12967,7 +12967,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write18",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12983,7 +12983,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write19",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12999,7 +12999,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write20",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13031,7 +13031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13047,7 +13047,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine3",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13063,7 +13063,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine4",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13079,7 +13079,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine5",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13095,7 +13095,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine6",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13111,7 +13111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine7",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13127,7 +13127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine8",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13143,7 +13143,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine9",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13159,7 +13159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.UInt64):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine10",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13175,7 +13175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine11",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13191,7 +13191,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine12",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13207,7 +13207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Decimal):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine13",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13223,7 +13223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine14",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13239,7 +13239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Text.StringBuilder):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine15",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Text.StringBuilder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13255,7 +13255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine16",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13271,7 +13271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine17",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13287,7 +13287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine18",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13303,7 +13303,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String,System.Object,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine19",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object,System.Object):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13319,7 +13319,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine20",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13335,7 +13335,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine21",
+          "tsEmitName": "writeLine",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13367,7 +13367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13383,7 +13383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync3",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13399,7 +13399,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13415,7 +13415,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync5",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13431,7 +13431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync6",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13463,7 +13463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync2",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13479,7 +13479,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync3",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13495,7 +13495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync(System.Char[]):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync4",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.Char[]):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13511,7 +13511,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync5",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13527,7 +13527,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync6",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13543,7 +13543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::WriteLineAsync():System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
-          "tsEmitName": "writeLineAsync7",
+          "tsEmitName": "writeLineAsync",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13575,7 +13575,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
-          "tsEmitName": "flushAsync2",
+          "tsEmitName": "flushAsync",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14002,7 +14002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Byte):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Byte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14018,7 +14018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Char):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Char):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14034,7 +14034,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Int16):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Int16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14050,7 +14050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write5",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14066,7 +14066,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write6",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Int64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14082,7 +14082,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Decimal):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write7",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Decimal):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14098,7 +14098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Single):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write8",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Single):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14114,7 +14114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.Double):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write9",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.Double):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14130,7 +14130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.SByte):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write10",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.SByte):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14146,7 +14146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.UInt16):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write11",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.UInt16):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14162,7 +14162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.UInt32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write12",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.UInt32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14178,7 +14178,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,System.UInt64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write13",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,System.UInt64):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14194,7 +14194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryAccessor::Write(System.Int64,T\u0026):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write14",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(System.Int64,T\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14365,7 +14365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Read(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14397,7 +14397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14477,7 +14477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::Write(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14509,7 +14509,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.UnmanagedMemoryStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14911,7 +14911,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::CreateDirectory(System.String,System.IO.UnixFileMode):System.IO.DirectoryInfo",
           "clrName": "CreateDirectory",
-          "tsEmitName": "createDirectory2",
+          "tsEmitName": "createDirectory",
           "normalizedSignature": "CreateDirectory|(System.String,System.IO.UnixFileMode):System.IO.DirectoryInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15167,7 +15167,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFiles(System.String,System.String):System.String[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles2",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,System.String):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15183,7 +15183,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFiles(System.String,System.String,System.IO.SearchOption):System.String[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles3",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,System.String,System.IO.SearchOption):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15199,7 +15199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFiles(System.String,System.String,System.IO.EnumerationOptions):System.String[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles4",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.String,System.String,System.IO.EnumerationOptions):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15231,7 +15231,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetDirectories(System.String,System.String):System.String[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories2",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,System.String):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15247,7 +15247,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetDirectories(System.String,System.String,System.IO.SearchOption):System.String[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories3",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,System.String,System.IO.SearchOption):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15263,7 +15263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetDirectories(System.String,System.String,System.IO.EnumerationOptions):System.String[]",
           "clrName": "GetDirectories",
-          "tsEmitName": "getDirectories4",
+          "tsEmitName": "getDirectories",
           "normalizedSignature": "GetDirectories|(System.String,System.String,System.IO.EnumerationOptions):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15295,7 +15295,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFileSystemEntries(System.String,System.String):System.String[]",
           "clrName": "GetFileSystemEntries",
-          "tsEmitName": "getFileSystemEntries2",
+          "tsEmitName": "getFileSystemEntries",
           "normalizedSignature": "GetFileSystemEntries|(System.String,System.String):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15311,7 +15311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFileSystemEntries(System.String,System.String,System.IO.SearchOption):System.String[]",
           "clrName": "GetFileSystemEntries",
-          "tsEmitName": "getFileSystemEntries3",
+          "tsEmitName": "getFileSystemEntries",
           "normalizedSignature": "GetFileSystemEntries|(System.String,System.String,System.IO.SearchOption):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15327,7 +15327,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::GetFileSystemEntries(System.String,System.String,System.IO.EnumerationOptions):System.String[]",
           "clrName": "GetFileSystemEntries",
-          "tsEmitName": "getFileSystemEntries4",
+          "tsEmitName": "getFileSystemEntries",
           "normalizedSignature": "GetFileSystemEntries|(System.String,System.String,System.IO.EnumerationOptions):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15359,7 +15359,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateDirectories(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories2",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15375,7 +15375,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateDirectories(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories3",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15391,7 +15391,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateDirectories(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateDirectories",
-          "tsEmitName": "enumerateDirectories4",
+          "tsEmitName": "enumerateDirectories",
           "normalizedSignature": "EnumerateDirectories|(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15423,7 +15423,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFiles(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles2",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15439,7 +15439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFiles(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles3",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15455,7 +15455,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFiles(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFiles",
-          "tsEmitName": "enumerateFiles4",
+          "tsEmitName": "enumerateFiles",
           "normalizedSignature": "EnumerateFiles|(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15487,7 +15487,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFileSystemEntries(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemEntries",
-          "tsEmitName": "enumerateFileSystemEntries2",
+          "tsEmitName": "enumerateFileSystemEntries",
           "normalizedSignature": "EnumerateFileSystemEntries|(System.String,System.String):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15503,7 +15503,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFileSystemEntries(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemEntries",
-          "tsEmitName": "enumerateFileSystemEntries3",
+          "tsEmitName": "enumerateFileSystemEntries",
           "normalizedSignature": "EnumerateFileSystemEntries|(System.String,System.String,System.IO.SearchOption):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15519,7 +15519,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::EnumerateFileSystemEntries(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "EnumerateFileSystemEntries",
-          "tsEmitName": "enumerateFileSystemEntries4",
+          "tsEmitName": "enumerateFileSystemEntries",
           "normalizedSignature": "EnumerateFileSystemEntries|(System.String,System.String,System.IO.EnumerationOptions):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15615,7 +15615,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::Delete(System.String,System.Boolean):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_2",
+          "tsEmitName": "delete_",
           "normalizedSignature": "Delete|(System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15760,7 +15760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Copy(System.String,System.String,System.Boolean):System.Void",
           "clrName": "Copy",
-          "tsEmitName": "copy2",
+          "tsEmitName": "copy",
           "normalizedSignature": "Copy|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15792,7 +15792,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Create(System.String,System.Int32):System.IO.FileStream",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Int32):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15808,7 +15808,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Create(System.String,System.Int32,System.IO.FileOptions):System.IO.FileStream",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.String,System.Int32,System.IO.FileOptions):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15872,7 +15872,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Open(System.String,System.IO.FileMode):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open2",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.String,System.IO.FileMode):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15888,7 +15888,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Open(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open3",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.String,System.IO.FileMode,System.IO.FileAccess):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15904,7 +15904,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Open(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.FileStream",
           "clrName": "Open",
-          "tsEmitName": "open4",
+          "tsEmitName": "open",
           "normalizedSignature": "Open|(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15952,7 +15952,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetCreationTime(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetCreationTime",
-          "tsEmitName": "setCreationTime2",
+          "tsEmitName": "setCreationTime",
           "normalizedSignature": "SetCreationTime|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15984,7 +15984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetCreationTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetCreationTimeUtc",
-          "tsEmitName": "setCreationTimeUtc2",
+          "tsEmitName": "setCreationTimeUtc",
           "normalizedSignature": "SetCreationTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16016,7 +16016,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetCreationTime(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetCreationTime",
-          "tsEmitName": "getCreationTime2",
+          "tsEmitName": "getCreationTime",
           "normalizedSignature": "GetCreationTime|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16048,7 +16048,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetCreationTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetCreationTimeUtc",
-          "tsEmitName": "getCreationTimeUtc2",
+          "tsEmitName": "getCreationTimeUtc",
           "normalizedSignature": "GetCreationTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16080,7 +16080,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetLastAccessTime(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetLastAccessTime",
-          "tsEmitName": "setLastAccessTime2",
+          "tsEmitName": "setLastAccessTime",
           "normalizedSignature": "SetLastAccessTime|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16112,7 +16112,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetLastAccessTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetLastAccessTimeUtc",
-          "tsEmitName": "setLastAccessTimeUtc2",
+          "tsEmitName": "setLastAccessTimeUtc",
           "normalizedSignature": "SetLastAccessTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16144,7 +16144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetLastAccessTime(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetLastAccessTime",
-          "tsEmitName": "getLastAccessTime2",
+          "tsEmitName": "getLastAccessTime",
           "normalizedSignature": "GetLastAccessTime|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16176,7 +16176,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetLastAccessTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetLastAccessTimeUtc",
-          "tsEmitName": "getLastAccessTimeUtc2",
+          "tsEmitName": "getLastAccessTimeUtc",
           "normalizedSignature": "GetLastAccessTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16208,7 +16208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetLastWriteTime(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetLastWriteTime",
-          "tsEmitName": "setLastWriteTime2",
+          "tsEmitName": "setLastWriteTime",
           "normalizedSignature": "SetLastWriteTime|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16240,7 +16240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetLastWriteTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void",
           "clrName": "SetLastWriteTimeUtc",
-          "tsEmitName": "setLastWriteTimeUtc2",
+          "tsEmitName": "setLastWriteTimeUtc",
           "normalizedSignature": "SetLastWriteTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.DateTime):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16272,7 +16272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetLastWriteTime(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetLastWriteTime",
-          "tsEmitName": "getLastWriteTime2",
+          "tsEmitName": "getLastWriteTime",
           "normalizedSignature": "GetLastWriteTime|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16304,7 +16304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetLastWriteTimeUtc(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime",
           "clrName": "GetLastWriteTimeUtc",
-          "tsEmitName": "getLastWriteTimeUtc2",
+          "tsEmitName": "getLastWriteTimeUtc",
           "normalizedSignature": "GetLastWriteTimeUtc|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16336,7 +16336,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetAttributes(Microsoft.Win32.SafeHandles.SafeFileHandle):System.IO.FileAttributes",
           "clrName": "GetAttributes",
-          "tsEmitName": "getAttributes2",
+          "tsEmitName": "getAttributes",
           "normalizedSignature": "GetAttributes|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.IO.FileAttributes|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16368,7 +16368,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetAttributes(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.FileAttributes):System.Void",
           "clrName": "SetAttributes",
-          "tsEmitName": "setAttributes2",
+          "tsEmitName": "setAttributes",
           "normalizedSignature": "SetAttributes|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.FileAttributes):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16400,7 +16400,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::GetUnixFileMode(Microsoft.Win32.SafeHandles.SafeFileHandle):System.IO.UnixFileMode",
           "clrName": "GetUnixFileMode",
-          "tsEmitName": "getUnixFileMode2",
+          "tsEmitName": "getUnixFileMode",
           "normalizedSignature": "GetUnixFileMode|(Microsoft.Win32.SafeHandles.SafeFileHandle):System.IO.UnixFileMode|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16432,7 +16432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::SetUnixFileMode(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.UnixFileMode):System.Void",
           "clrName": "SetUnixFileMode",
-          "tsEmitName": "setUnixFileMode2",
+          "tsEmitName": "setUnixFileMode",
           "normalizedSignature": "SetUnixFileMode|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.IO.UnixFileMode):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16496,7 +16496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadAllText(System.String,System.Text.Encoding):System.String",
           "clrName": "ReadAllText",
-          "tsEmitName": "readAllText2",
+          "tsEmitName": "readAllText",
           "normalizedSignature": "ReadAllText|(System.String,System.Text.Encoding):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16528,7 +16528,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllText(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteAllText",
-          "tsEmitName": "writeAllText2",
+          "tsEmitName": "writeAllText",
           "normalizedSignature": "WriteAllText|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16544,7 +16544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllText(System.String,System.String,System.Text.Encoding):System.Void",
           "clrName": "WriteAllText",
-          "tsEmitName": "writeAllText3",
+          "tsEmitName": "writeAllText",
           "normalizedSignature": "WriteAllText|(System.String,System.String,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16560,7 +16560,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllText(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void",
           "clrName": "WriteAllText",
-          "tsEmitName": "writeAllText4",
+          "tsEmitName": "writeAllText",
           "normalizedSignature": "WriteAllText|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16608,7 +16608,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllBytes(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteAllBytes",
-          "tsEmitName": "writeAllBytes2",
+          "tsEmitName": "writeAllBytes",
           "normalizedSignature": "WriteAllBytes|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16640,7 +16640,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllBytes(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AppendAllBytes",
-          "tsEmitName": "appendAllBytes2",
+          "tsEmitName": "appendAllBytes",
           "normalizedSignature": "AppendAllBytes|(System.String,System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16672,7 +16672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllBytesAsync(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AppendAllBytesAsync",
-          "tsEmitName": "appendAllBytesAsync2",
+          "tsEmitName": "appendAllBytesAsync",
           "normalizedSignature": "AppendAllBytesAsync|(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16704,7 +16704,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadAllLines(System.String,System.Text.Encoding):System.String[]",
           "clrName": "ReadAllLines",
-          "tsEmitName": "readAllLines2",
+          "tsEmitName": "readAllLines",
           "normalizedSignature": "ReadAllLines|(System.String,System.Text.Encoding):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16736,7 +16736,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadLines(System.String,System.Text.Encoding):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLines",
-          "tsEmitName": "readLines2",
+          "tsEmitName": "readLines",
           "normalizedSignature": "ReadLines|(System.String,System.Text.Encoding):System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16768,7 +16768,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadLinesAsync(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Collections.Generic.IAsyncEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadLinesAsync",
-          "tsEmitName": "readLinesAsync2",
+          "tsEmitName": "readLinesAsync",
           "normalizedSignature": "ReadLinesAsync|(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Collections.Generic.IAsyncEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16800,7 +16800,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllLines(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteAllLines",
-          "tsEmitName": "writeAllLines2",
+          "tsEmitName": "writeAllLines",
           "normalizedSignature": "WriteAllLines|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16816,7 +16816,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllLines(System.String,System.String[],System.Text.Encoding):System.Void",
           "clrName": "WriteAllLines",
-          "tsEmitName": "writeAllLines3",
+          "tsEmitName": "writeAllLines",
           "normalizedSignature": "WriteAllLines|(System.String,System.String[],System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16832,7 +16832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllLines(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void",
           "clrName": "WriteAllLines",
-          "tsEmitName": "writeAllLines4",
+          "tsEmitName": "writeAllLines",
           "normalizedSignature": "WriteAllLines|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16864,7 +16864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllText(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "AppendAllText",
-          "tsEmitName": "appendAllText2",
+          "tsEmitName": "appendAllText",
           "normalizedSignature": "AppendAllText|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16880,7 +16880,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllText(System.String,System.String,System.Text.Encoding):System.Void",
           "clrName": "AppendAllText",
-          "tsEmitName": "appendAllText3",
+          "tsEmitName": "appendAllText",
           "normalizedSignature": "AppendAllText|(System.String,System.String,System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16896,7 +16896,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllText(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void",
           "clrName": "AppendAllText",
-          "tsEmitName": "appendAllText4",
+          "tsEmitName": "appendAllText",
           "normalizedSignature": "AppendAllText|(System.String,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16928,7 +16928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllLines(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void",
           "clrName": "AppendAllLines",
-          "tsEmitName": "appendAllLines2",
+          "tsEmitName": "appendAllLines",
           "normalizedSignature": "AppendAllLines|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16960,7 +16960,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Replace(System.String,System.String,System.String,System.Boolean):System.Void",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(System.String,System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16992,7 +16992,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Move(System.String,System.String,System.Boolean):System.Void",
           "clrName": "Move",
-          "tsEmitName": "move2",
+          "tsEmitName": "move",
           "normalizedSignature": "Move|(System.String,System.String,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17056,7 +17056,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadAllTextAsync(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAllTextAsync",
-          "tsEmitName": "readAllTextAsync2",
+          "tsEmitName": "readAllTextAsync",
           "normalizedSignature": "ReadAllTextAsync|(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17088,7 +17088,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllTextAsync(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAllTextAsync",
-          "tsEmitName": "writeAllTextAsync2",
+          "tsEmitName": "writeAllTextAsync",
           "normalizedSignature": "WriteAllTextAsync|(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17104,7 +17104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllTextAsync(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAllTextAsync",
-          "tsEmitName": "writeAllTextAsync3",
+          "tsEmitName": "writeAllTextAsync",
           "normalizedSignature": "WriteAllTextAsync|(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17120,7 +17120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllTextAsync(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAllTextAsync",
-          "tsEmitName": "writeAllTextAsync4",
+          "tsEmitName": "writeAllTextAsync",
           "normalizedSignature": "WriteAllTextAsync|(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17168,7 +17168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllBytesAsync(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAllBytesAsync",
-          "tsEmitName": "writeAllBytesAsync2",
+          "tsEmitName": "writeAllBytesAsync",
           "normalizedSignature": "WriteAllBytesAsync|(System.String,System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17200,7 +17200,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::ReadAllLinesAsync(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAllLinesAsync",
-          "tsEmitName": "readAllLinesAsync2",
+          "tsEmitName": "readAllLinesAsync",
           "normalizedSignature": "ReadAllLinesAsync|(System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task_1[[System.String[],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17232,7 +17232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::WriteAllLinesAsync(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAllLinesAsync",
-          "tsEmitName": "writeAllLinesAsync2",
+          "tsEmitName": "writeAllLinesAsync",
           "normalizedSignature": "WriteAllLinesAsync|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17264,7 +17264,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllTextAsync(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AppendAllTextAsync",
-          "tsEmitName": "appendAllTextAsync2",
+          "tsEmitName": "appendAllTextAsync",
           "normalizedSignature": "AppendAllTextAsync|(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17280,7 +17280,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllTextAsync(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AppendAllTextAsync",
-          "tsEmitName": "appendAllTextAsync3",
+          "tsEmitName": "appendAllTextAsync",
           "normalizedSignature": "AppendAllTextAsync|(System.String,System.String,System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17296,7 +17296,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllTextAsync(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AppendAllTextAsync",
-          "tsEmitName": "appendAllTextAsync4",
+          "tsEmitName": "appendAllTextAsync",
           "normalizedSignature": "AppendAllTextAsync|(System.String,System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17328,7 +17328,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::AppendAllLinesAsync(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AppendAllLinesAsync",
-          "tsEmitName": "appendAllLinesAsync2",
+          "tsEmitName": "appendAllLinesAsync",
           "normalizedSignature": "AppendAllLinesAsync|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Encoding,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17409,7 +17409,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::Create(System.IO.FileInfo,System.IO.FileMode,System.Security.AccessControl.FileSystemRights,System.IO.FileShare,System.Int32,System.IO.FileOptions,System.Security.AccessControl.FileSecurity):System.IO.FileStream",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.IO.FileInfo,System.IO.FileMode,System.Security.AccessControl.FileSystemRights,System.IO.FileShare,System.Int32,System.IO.FileOptions,System.Security.AccessControl.FileSecurity):System.IO.FileStream|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17457,7 +17457,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::GetAccessControl(System.IO.DirectoryInfo,System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.DirectorySecurity",
           "clrName": "GetAccessControl",
-          "tsEmitName": "getAccessControl2",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.IO.DirectoryInfo,System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.DirectorySecurity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17473,7 +17473,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::GetAccessControl(System.IO.FileInfo):System.Security.AccessControl.FileSecurity",
           "clrName": "GetAccessControl",
-          "tsEmitName": "getAccessControl3",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.IO.FileInfo):System.Security.AccessControl.FileSecurity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17489,7 +17489,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::GetAccessControl(System.IO.FileInfo,System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.FileSecurity",
           "clrName": "GetAccessControl",
-          "tsEmitName": "getAccessControl4",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.IO.FileInfo,System.Security.AccessControl.AccessControlSections):System.Security.AccessControl.FileSecurity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17505,7 +17505,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::GetAccessControl(System.IO.FileStream):System.Security.AccessControl.FileSecurity",
           "clrName": "GetAccessControl",
-          "tsEmitName": "getAccessControl5",
+          "tsEmitName": "getAccessControl",
           "normalizedSignature": "GetAccessControl|(System.IO.FileStream):System.Security.AccessControl.FileSecurity|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17537,7 +17537,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::SetAccessControl(System.IO.FileInfo,System.Security.AccessControl.FileSecurity):System.Void",
           "clrName": "SetAccessControl",
-          "tsEmitName": "setAccessControl2",
+          "tsEmitName": "setAccessControl",
           "normalizedSignature": "SetAccessControl|(System.IO.FileInfo,System.Security.AccessControl.FileSecurity):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17553,7 +17553,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.IO.FileSystemAclExtensions::SetAccessControl(System.IO.FileStream,System.Security.AccessControl.FileSecurity):System.Void",
           "clrName": "SetAccessControl",
-          "tsEmitName": "setAccessControl3",
+          "tsEmitName": "setAccessControl",
           "normalizedSignature": "SetAccessControl|(System.IO.FileStream,System.Security.AccessControl.FileSecurity):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17634,7 +17634,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetDirectoryName(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetDirectoryName",
-          "tsEmitName": "getDirectoryName2",
+          "tsEmitName": "getDirectoryName",
           "normalizedSignature": "GetDirectoryName|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17666,7 +17666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetExtension(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetExtension",
-          "tsEmitName": "getExtension2",
+          "tsEmitName": "getExtension",
           "normalizedSignature": "GetExtension|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17698,7 +17698,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetFileName(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetFileName",
-          "tsEmitName": "getFileName2",
+          "tsEmitName": "getFileName",
           "normalizedSignature": "GetFileName|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17730,7 +17730,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetFileNameWithoutExtension(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetFileNameWithoutExtension",
-          "tsEmitName": "getFileNameWithoutExtension2",
+          "tsEmitName": "getFileNameWithoutExtension",
           "normalizedSignature": "GetFileNameWithoutExtension|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17778,7 +17778,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::IsPathFullyQualified(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsPathFullyQualified",
-          "tsEmitName": "isPathFullyQualified2",
+          "tsEmitName": "isPathFullyQualified",
           "normalizedSignature": "IsPathFullyQualified|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17810,7 +17810,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::HasExtension(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "HasExtension",
-          "tsEmitName": "hasExtension2",
+          "tsEmitName": "hasExtension",
           "normalizedSignature": "HasExtension|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17842,7 +17842,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Combine(System.String,System.String,System.String):System.String",
           "clrName": "Combine",
-          "tsEmitName": "combine2",
+          "tsEmitName": "combine",
           "normalizedSignature": "Combine|(System.String,System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17858,7 +17858,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Combine(System.String,System.String,System.String,System.String):System.String",
           "clrName": "Combine",
-          "tsEmitName": "combine3",
+          "tsEmitName": "combine",
           "normalizedSignature": "Combine|(System.String,System.String,System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17874,7 +17874,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Combine(System.String[]):System.String",
           "clrName": "Combine",
-          "tsEmitName": "combine4",
+          "tsEmitName": "combine",
           "normalizedSignature": "Combine|(System.String[]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17890,7 +17890,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Combine(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String",
           "clrName": "Combine",
-          "tsEmitName": "combine5",
+          "tsEmitName": "combine",
           "normalizedSignature": "Combine|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17922,7 +17922,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String",
           "clrName": "Join",
-          "tsEmitName": "join2",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17938,7 +17938,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String",
           "clrName": "Join",
-          "tsEmitName": "join3",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17954,7 +17954,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.String,System.String):System.String",
           "clrName": "Join",
-          "tsEmitName": "join4",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17970,7 +17970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.String,System.String,System.String):System.String",
           "clrName": "Join",
-          "tsEmitName": "join5",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.String,System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17986,7 +17986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.String,System.String,System.String,System.String):System.String",
           "clrName": "Join",
-          "tsEmitName": "join6",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.String,System.String,System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18002,7 +18002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.String[]):System.String",
           "clrName": "Join",
-          "tsEmitName": "join7",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.String[]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18018,7 +18018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::Join(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String",
           "clrName": "Join",
-          "tsEmitName": "join8",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.ReadOnlySpan_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18050,7 +18050,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::TryJoin(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean",
           "clrName": "TryJoin",
-          "tsEmitName": "tryJoin2",
+          "tsEmitName": "tryJoin",
           "normalizedSignature": "TryJoin|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18098,7 +18098,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::TrimEndingDirectorySeparator(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "TrimEndingDirectorySeparator",
-          "tsEmitName": "trimEndingDirectorySeparator2",
+          "tsEmitName": "trimEndingDirectorySeparator",
           "normalizedSignature": "TrimEndingDirectorySeparator|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18130,7 +18130,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::EndsInDirectorySeparator(System.String):System.Boolean",
           "clrName": "EndsInDirectorySeparator",
-          "tsEmitName": "endsInDirectorySeparator2",
+          "tsEmitName": "endsInDirectorySeparator",
           "normalizedSignature": "EndsInDirectorySeparator|(System.String):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18194,7 +18194,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetFullPath(System.String,System.String):System.String",
           "clrName": "GetFullPath",
-          "tsEmitName": "getFullPath2",
+          "tsEmitName": "getFullPath",
           "normalizedSignature": "GetFullPath|(System.String,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18258,7 +18258,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::IsPathRooted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsPathRooted",
-          "tsEmitName": "isPathRooted2",
+          "tsEmitName": "isPathRooted",
           "normalizedSignature": "IsPathRooted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18290,7 +18290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Path::GetPathRoot(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetPathRoot",
-          "tsEmitName": "getPathRoot2",
+          "tsEmitName": "getPathRoot",
           "normalizedSignature": "GetPathRoot|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18417,7 +18417,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.RandomAccess::Read(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Int64",
           "clrName": "Read",
-          "tsEmitName": "read2",
+          "tsEmitName": "read",
           "normalizedSignature": "Read|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18449,7 +18449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.RandomAccess::ReadAsync(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync2",
+          "tsEmitName": "readAsync",
           "normalizedSignature": "ReadAsync|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18481,7 +18481,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.RandomAccess::Write(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write2",
+          "tsEmitName": "write",
           "normalizedSignature": "Write|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18513,7 +18513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.RandomAccess::WriteAsync(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync2",
+          "tsEmitName": "writeAsync",
           "normalizedSignature": "WriteAsync|(Microsoft.Win32.SafeHandles.SafeFileHandle,System.Collections.Generic.IReadOnlyList_1[[System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int64,System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

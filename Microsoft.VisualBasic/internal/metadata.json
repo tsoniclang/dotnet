@@ -1674,7 +1674,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Collection::Remove(System.Int32):System.Void",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3171,7 +3171,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::ErrorToString(System.Int32):System.String",
           "clrName": "ErrorToString",
-          "tsEmitName": "errorToString2",
+          "tsEmitName": "errorToString",
           "normalizedSignature": "ErrorToString|(System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3203,7 +3203,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Int32):System.Int32",
           "clrName": "Fix",
-          "tsEmitName": "fix2",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3219,7 +3219,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Int64):System.Int64",
           "clrName": "Fix",
-          "tsEmitName": "fix3",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Int64):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3235,7 +3235,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Double):System.Double",
           "clrName": "Fix",
-          "tsEmitName": "fix4",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Double):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3251,7 +3251,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Single):System.Single",
           "clrName": "Fix",
-          "tsEmitName": "fix5",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Single):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3267,7 +3267,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Decimal):System.Decimal",
           "clrName": "Fix",
-          "tsEmitName": "fix6",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Decimal):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3283,7 +3283,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Fix(System.Object):System.Object",
           "clrName": "Fix",
-          "tsEmitName": "fix7",
+          "tsEmitName": "fix",
           "normalizedSignature": "Fix|(System.Object):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3315,7 +3315,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Int32):System.Int32",
           "clrName": "Int",
-          "tsEmitName": "int2",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3331,7 +3331,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Int64):System.Int64",
           "clrName": "Int",
-          "tsEmitName": "int3",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Int64):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3347,7 +3347,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Double):System.Double",
           "clrName": "Int",
-          "tsEmitName": "int4",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Double):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3363,7 +3363,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Single):System.Single",
           "clrName": "Int",
-          "tsEmitName": "int5",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Single):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3379,7 +3379,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Decimal):System.Decimal",
           "clrName": "Int",
-          "tsEmitName": "int6",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Decimal):System.Decimal|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3395,7 +3395,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Int(System.Object):System.Object",
           "clrName": "Int",
-          "tsEmitName": "int7",
+          "tsEmitName": "int",
           "normalizedSignature": "Int|(System.Object):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3427,7 +3427,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Byte):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex2",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.Byte):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3443,7 +3443,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int16):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex3",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.Int16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3459,7 +3459,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt16):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex4",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.UInt16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3475,7 +3475,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int32):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex5",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3491,7 +3491,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt32):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex6",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.UInt32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3507,7 +3507,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Int64):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex7",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.Int64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3523,7 +3523,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.UInt64):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex8",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.UInt64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3539,7 +3539,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Hex(System.Object):System.String",
           "clrName": "Hex",
-          "tsEmitName": "hex9",
+          "tsEmitName": "hex",
           "normalizedSignature": "Hex|(System.Object):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3571,7 +3571,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Byte):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct2",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.Byte):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3587,7 +3587,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int16):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct3",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.Int16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3603,7 +3603,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt16):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct4",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.UInt16):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3619,7 +3619,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int32):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct5",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3635,7 +3635,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt32):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct6",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.UInt32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3651,7 +3651,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Int64):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct7",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.Int64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3667,7 +3667,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.UInt64):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct8",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.UInt64):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3683,7 +3683,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Oct(System.Object):System.String",
           "clrName": "Oct",
-          "tsEmitName": "oct9",
+          "tsEmitName": "oct",
           "normalizedSignature": "Oct|(System.Object):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3731,7 +3731,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Val(System.Char):System.Int32",
           "clrName": "Val",
-          "tsEmitName": "val2",
+          "tsEmitName": "val",
           "normalizedSignature": "Val|(System.Char):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3747,7 +3747,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::Val(System.Object):System.Double",
           "clrName": "Val",
-          "tsEmitName": "val3",
+          "tsEmitName": "val",
           "normalizedSignature": "Val|(System.Object):System.Double|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3779,7 +3779,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Conversion::CTypeDynamic(System.Object):TargetType",
           "clrName": "CTypeDynamic",
-          "tsEmitName": "cTypeDynamic2",
+          "tsEmitName": "cTypeDynamic",
           "normalizedSignature": "CTypeDynamic|(System.Object):TargetType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3860,7 +3860,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateAdd(System.String,System.Double,System.Object):System.DateTime",
           "clrName": "DateAdd",
-          "tsEmitName": "dateAdd2",
+          "tsEmitName": "dateAdd",
           "normalizedSignature": "DateAdd|(System.String,System.Double,System.Object):System.DateTime|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3876,7 +3876,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DateDiff(System.String,System.Object,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int64",
           "clrName": "DateDiff",
-          "tsEmitName": "dateDiff2",
+          "tsEmitName": "dateDiff",
           "normalizedSignature": "DateDiff|(System.String,System.Object,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3892,7 +3892,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.DateAndTime::DatePart(System.String,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int32",
           "clrName": "DatePart",
-          "tsEmitName": "datePart2",
+          "tsEmitName": "datePart",
           "normalizedSignature": "DatePart|(System.String,System.Object,Microsoft.VisualBasic.FirstDayOfWeek,Microsoft.VisualBasic.FirstWeekOfYear):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4427,7 +4427,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::ChDrive(System.String):System.Void",
           "clrName": "ChDrive",
-          "tsEmitName": "chDrive2",
+          "tsEmitName": "chDrive",
           "normalizedSignature": "ChDrive|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4459,7 +4459,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::CurDir(System.Char):System.String",
           "clrName": "CurDir",
-          "tsEmitName": "curDir2",
+          "tsEmitName": "curDir",
           "normalizedSignature": "CurDir|(System.Char):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4491,7 +4491,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Dir(System.String,Microsoft.VisualBasic.FileAttribute):System.String",
           "clrName": "Dir",
-          "tsEmitName": "dir2",
+          "tsEmitName": "dir",
           "normalizedSignature": "Dir|(System.String,Microsoft.VisualBasic.FileAttribute):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4699,7 +4699,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Array\u0026,System.Int64,System.Boolean,System.Boolean):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet2",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Array\u0026,System.Int64,System.Boolean,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4715,7 +4715,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Boolean\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet3",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Boolean\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4731,7 +4731,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Byte\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet4",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Byte\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4747,7 +4747,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int16\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet5",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Int16\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4763,7 +4763,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int32\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet6",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Int32\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4779,7 +4779,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Int64\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet7",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Int64\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4795,7 +4795,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Char\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet8",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Char\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4811,7 +4811,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Single\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet9",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Single\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4827,7 +4827,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Double\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet10",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Double\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4843,7 +4843,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.Decimal\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet11",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.Decimal\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4859,7 +4859,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.String\u0026,System.Int64,System.Boolean):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet12",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.String\u0026,System.Int64,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4875,7 +4875,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FileGet(System.Int32,System.DateTime\u0026,System.Int64):System.Void",
           "clrName": "FileGet",
-          "tsEmitName": "fileGet13",
+          "tsEmitName": "fileGet",
           "normalizedSignature": "FileGet|(System.Int32,System.DateTime\u0026,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4923,7 +4923,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.ValueType,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut2",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.ValueType,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4939,7 +4939,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Array,System.Int64,System.Boolean,System.Boolean):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut3",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Array,System.Int64,System.Boolean,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4955,7 +4955,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Boolean,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut4",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Boolean,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4971,7 +4971,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Byte,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut5",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Byte,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4987,7 +4987,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int16,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut6",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Int16,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5003,7 +5003,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int32,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut7",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Int32,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5019,7 +5019,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Int64,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut8",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Int64,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5035,7 +5035,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Char,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut9",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Char,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5051,7 +5051,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Single,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut10",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Single,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5067,7 +5067,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Double,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut11",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Double,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5083,7 +5083,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.Decimal,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut12",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.Decimal,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5099,7 +5099,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.String,System.Int64,System.Boolean):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut13",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.String,System.Int64,System.Boolean):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5115,7 +5115,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::FilePut(System.Int32,System.DateTime,System.Int64):System.Void",
           "clrName": "FilePut",
-          "tsEmitName": "filePut14",
+          "tsEmitName": "filePut",
           "normalizedSignature": "FilePut|(System.Int32,System.DateTime,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5179,7 +5179,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Boolean\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input2",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Boolean\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5195,7 +5195,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Byte\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input3",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Byte\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5211,7 +5211,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int16\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input4",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Int16\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5227,7 +5227,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int32\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input5",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Int32\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5243,7 +5243,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Int64\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input6",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Int64\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5259,7 +5259,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Char\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input7",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Char\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5275,7 +5275,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Single\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input8",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Single\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5291,7 +5291,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Double\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input9",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Double\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5307,7 +5307,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.Decimal\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input10",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.Decimal\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5323,7 +5323,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.String\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input11",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.String\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5339,7 +5339,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Input(System.Int32,System.DateTime\u0026):System.Void",
           "clrName": "Input",
-          "tsEmitName": "input12",
+          "tsEmitName": "input",
           "normalizedSignature": "Input|(System.Int32,System.DateTime\u0026):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5435,7 +5435,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Lock(System.Int32,System.Int64):System.Void",
           "clrName": "Lock",
-          "tsEmitName": "lock2",
+          "tsEmitName": "lock",
           "normalizedSignature": "Lock|(System.Int32,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5451,7 +5451,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Lock(System.Int32,System.Int64,System.Int64):System.Void",
           "clrName": "Lock",
-          "tsEmitName": "lock3",
+          "tsEmitName": "lock",
           "normalizedSignature": "Lock|(System.Int32,System.Int64,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5483,7 +5483,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Unlock(System.Int32,System.Int64):System.Void",
           "clrName": "Unlock",
-          "tsEmitName": "unlock2",
+          "tsEmitName": "unlock",
           "normalizedSignature": "Unlock|(System.Int32,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5499,7 +5499,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Unlock(System.Int32,System.Int64,System.Int64):System.Void",
           "clrName": "Unlock",
-          "tsEmitName": "unlock3",
+          "tsEmitName": "unlock",
           "normalizedSignature": "Unlock|(System.Int32,System.Int64,System.Int64):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5563,7 +5563,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::Seek(System.Int32):System.Int64",
           "clrName": "Seek",
-          "tsEmitName": "seek2",
+          "tsEmitName": "seek",
           "normalizedSignature": "Seek|(System.Int32):System.Int64|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5643,7 +5643,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::TAB(System.Int16):Microsoft.VisualBasic.TabInfo",
           "clrName": "TAB",
-          "tsEmitName": "TAB2",
+          "tsEmitName": "TAB",
           "normalizedSignature": "TAB|(System.Int16):Microsoft.VisualBasic.TabInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6308,7 +6308,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::AppActivate(System.String):System.Void",
           "clrName": "AppActivate",
-          "tsEmitName": "appActivate2",
+          "tsEmitName": "appActivate",
           "normalizedSignature": "AppActivate|(System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6356,7 +6356,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Environ(System.String):System.String",
           "clrName": "Environ",
-          "tsEmitName": "environ2",
+          "tsEmitName": "environ",
           "normalizedSignature": "Environ|(System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6712,7 +6712,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Asc(System.String):System.Int32",
           "clrName": "Asc",
-          "tsEmitName": "asc2",
+          "tsEmitName": "asc",
           "normalizedSignature": "Asc|(System.String):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6744,7 +6744,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::AscW(System.Char):System.Int32",
           "clrName": "AscW",
-          "tsEmitName": "ascW2",
+          "tsEmitName": "ascW",
           "normalizedSignature": "AscW|(System.Char):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6808,7 +6808,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Filter(System.String[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod):System.String[]",
           "clrName": "Filter",
-          "tsEmitName": "filter2",
+          "tsEmitName": "filter",
           "normalizedSignature": "Filter|(System.String[],System.String,System.Boolean,Microsoft.VisualBasic.CompareMethod):System.String[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6840,7 +6840,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::InStr(System.Int32,System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Int32",
           "clrName": "InStr",
-          "tsEmitName": "inStr2",
+          "tsEmitName": "inStr",
           "normalizedSignature": "InStr|(System.Int32,System.String,System.String,Microsoft.VisualBasic.CompareMethod):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6888,7 +6888,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Join(System.String[],System.String):System.String",
           "clrName": "Join",
-          "tsEmitName": "join2",
+          "tsEmitName": "join",
           "normalizedSignature": "Join|(System.String[],System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6920,7 +6920,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::LCase(System.Char):System.Char",
           "clrName": "LCase",
-          "tsEmitName": "lCase2",
+          "tsEmitName": "lCase",
           "normalizedSignature": "LCase|(System.Char):System.Char|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6952,7 +6952,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.SByte):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len2",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.SByte):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6968,7 +6968,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Byte):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len3",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Byte):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6984,7 +6984,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int16):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len4",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Int16):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7000,7 +7000,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt16):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len5",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.UInt16):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7016,7 +7016,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int32):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len6",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7032,7 +7032,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt32):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len7",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.UInt32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7048,7 +7048,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Int64):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len8",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Int64):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7064,7 +7064,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.UInt64):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len9",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.UInt64):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7080,7 +7080,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Decimal):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len10",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Decimal):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7096,7 +7096,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Single):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len11",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Single):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7112,7 +7112,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Double):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len12",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Double):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7128,7 +7128,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.DateTime):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len13",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.DateTime):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7144,7 +7144,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Char):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len14",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Char):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7160,7 +7160,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.String):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len15",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.String):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7176,7 +7176,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Len(System.Object):System.Int32",
           "clrName": "Len",
-          "tsEmitName": "len16",
+          "tsEmitName": "len",
           "normalizedSignature": "Len|(System.Object):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7288,7 +7288,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrDup(System.Int32,System.Char):System.String",
           "clrName": "StrDup",
-          "tsEmitName": "strDup2",
+          "tsEmitName": "strDup",
           "normalizedSignature": "StrDup|(System.Int32,System.Char):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7304,7 +7304,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::StrDup(System.Int32,System.String):System.String",
           "clrName": "StrDup",
-          "tsEmitName": "strDup3",
+          "tsEmitName": "strDup",
           "normalizedSignature": "StrDup|(System.Int32,System.String):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7352,7 +7352,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::UCase(System.Char):System.Char",
           "clrName": "UCase",
-          "tsEmitName": "uCase2",
+          "tsEmitName": "uCase",
           "normalizedSignature": "UCase|(System.Char):System.Char|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7512,7 +7512,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Strings::Mid(System.String,System.Int32,System.Int32):System.String",
           "clrName": "Mid",
-          "tsEmitName": "mid2",
+          "tsEmitName": "mid",
           "normalizedSignature": "Mid|(System.String,System.Int32,System.Int32):System.String|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7737,7 +7737,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VBMath::Rnd(System.Single):System.Single",
           "clrName": "Rnd",
-          "tsEmitName": "rnd2",
+          "tsEmitName": "rnd",
           "normalizedSignature": "Rnd|(System.Single):System.Single|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7769,7 +7769,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VBMath::Randomize(System.Double):System.Void",
           "clrName": "Randomize",
-          "tsEmitName": "randomize2",
+          "tsEmitName": "randomize",
           "normalizedSignature": "Randomize|(System.Double):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

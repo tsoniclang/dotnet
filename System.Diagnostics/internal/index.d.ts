@@ -331,6 +331,7 @@ export class ActivityTagsCollection_Enumerator$instance implements IDisposable {
     readonly current: KeyValuePair_2<CLROf<string>, unknown>;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -1107,15 +1108,15 @@ export class Process$instance extends System_ComponentModel_Internal.Component$i
     static getProcessById(processId: int): Process;
     static getProcesses(): Process[];
     static getProcesses(machineName: string): Process[];
-    static getProcessesByName2(processName: string, machineName: string): Process[];
-    static getProcessesByName2(processName: string): Process[];
+    static getProcessesByName(processName: string, machineName: string): Process[];
+    static getProcessesByName(processName: string): Process[];
     static leaveDebugMode(): void;
-    static start4(startInfo: ProcessStartInfo): Process;
-    static start4(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
-    static start4(fileName: string, userName: string, password: SecureString, domain: string): Process;
-    static start4(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
-    static start4(fileName: string, arguments: string): Process;
-    static start4(fileName: string): Process;
+    static start(startInfo: ProcessStartInfo): Process;
+    static start(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
+    static start(fileName: string, userName: string, password: SecureString, domain: string): Process;
+    static start(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
+    static start(fileName: string, arguments: string): Process;
+    static start(fileName: string): Process;
 }
 
 
@@ -1358,8 +1359,8 @@ export class Stopwatch$instance {
     toString(): string;
     static readonly frequency: long;
     static readonly isHighResolution: boolean;
-    static getElapsedTime2(startingTimestamp: long, endingTimestamp: long): TimeSpan;
-    static getElapsedTime2(startingTimestamp: long): TimeSpan;
+    static getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
+    static getElapsedTime(startingTimestamp: long): TimeSpan;
     static getTimestamp(): long;
     static startNew(): Stopwatch;
 }
@@ -1435,38 +1436,38 @@ export class Trace$instance {
     static useGlobalLock: boolean;
     static indentLevel: int;
     static indentSize: int;
-    static assert3(condition: boolean, message: string, detailMessage: string): void;
-    static assert3(condition: boolean, message?: string): void;
-    static assert3(condition: boolean): void;
+    static assert(condition: boolean, message: string, detailMessage: string): void;
+    static assert(condition: boolean, message?: string): void;
+    static assert(condition: boolean): void;
     static close(): void;
-    static fail2(message: string, detailMessage: string): void;
-    static fail2(message: string): void;
+    static fail(message: string, detailMessage: string): void;
+    static fail(message: string): void;
     static flush(): void;
     static indent(): void;
     static refresh(): void;
-    static traceError2(format: string, args: unknown[]): void;
-    static traceError2(message: string): void;
-    static traceInformation2(format: string, args: unknown[]): void;
-    static traceInformation2(message: string): void;
-    static traceWarning2(format: string, args: unknown[]): void;
-    static traceWarning2(message: string): void;
+    static traceError(format: string, args: unknown[]): void;
+    static traceError(message: string): void;
+    static traceInformation(format: string, args: unknown[]): void;
+    static traceInformation(message: string): void;
+    static traceWarning(format: string, args: unknown[]): void;
+    static traceWarning(message: string): void;
     static unindent(): void;
-    static write4(value: unknown, category: string): void;
-    static write4(value: unknown): void;
-    static write4(message: string, category: string): void;
-    static write4(message: string): void;
-    static writeIf4(condition: boolean, value: unknown, category: string): void;
-    static writeIf4(condition: boolean, value: unknown): void;
-    static writeIf4(condition: boolean, message: string, category: string): void;
-    static writeIf4(condition: boolean, message: string): void;
-    static writeLine4(value: unknown, category: string): void;
-    static writeLine4(value: unknown): void;
-    static writeLine4(message: string, category: string): void;
-    static writeLine4(message: string): void;
-    static writeLineIf4(condition: boolean, value: unknown, category: string): void;
-    static writeLineIf4(condition: boolean, value: unknown): void;
-    static writeLineIf4(condition: boolean, message: string, category: string): void;
-    static writeLineIf4(condition: boolean, message: string): void;
+    static write(value: unknown, category: string): void;
+    static write(value: unknown): void;
+    static write(message: string, category: string): void;
+    static write(message: string): void;
+    static writeIf(condition: boolean, value: unknown, category: string): void;
+    static writeIf(condition: boolean, value: unknown): void;
+    static writeIf(condition: boolean, message: string, category: string): void;
+    static writeIf(condition: boolean, message: string): void;
+    static writeLine(value: unknown, category: string): void;
+    static writeLine(value: unknown): void;
+    static writeLine(message: string, category: string): void;
+    static writeLine(message: string): void;
+    static writeLineIf(condition: boolean, value: unknown, category: string): void;
+    static writeLineIf(condition: boolean, value: unknown): void;
+    static writeLineIf(condition: boolean, message: string, category: string): void;
+    static writeLineIf(condition: boolean, message: string): void;
 }
 
 
@@ -1650,42 +1651,42 @@ export abstract class Debug$instance {
     static autoFlush: boolean;
     static indentLevel: int;
     static indentSize: int;
-    static assert5(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }, detailMessage: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
-    static assert5(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
-    static assert5(condition: boolean, message: string, detailMessageFormat: string, args: unknown[]): void;
-    static assert5(condition: boolean, message: string, detailMessage: string): void;
-    static assert5(condition: boolean, message?: string): void;
-    static assert5(condition: boolean): void;
+    static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }, detailMessage: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
+    static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
+    static assert(condition: boolean, message: string, detailMessageFormat: string, args: unknown[]): void;
+    static assert(condition: boolean, message: string, detailMessage: string): void;
+    static assert(condition: boolean, message?: string): void;
+    static assert(condition: boolean): void;
     static close(): void;
-    static fail2(message: string, detailMessage: string): void;
-    static fail2(message: string): void;
+    static fail(message: string, detailMessage: string): void;
+    static fail(message: string): void;
     static flush(): void;
     static indent(): void;
-    static print2(format: string, args: unknown[]): void;
-    static print2(message: string): void;
+    static print(format: string, args: unknown[]): void;
+    static print(message: string): void;
     static setProvider(provider: DebugProvider): DebugProvider;
     static unindent(): void;
-    static write4(value: unknown, category: string): void;
-    static write4(value: unknown): void;
-    static write4(message: string, category: string): void;
-    static write4(message: string): void;
-    static writeIf5(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
-    static writeIf5(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
-    static writeIf5(condition: boolean, value: unknown, category: string): void;
-    static writeIf5(condition: boolean, value: unknown): void;
-    static writeIf5(condition: boolean, message: string, category: string): void;
-    static writeIf5(condition: boolean, message: string): void;
-    static writeLine3(value: unknown, category: string): void;
-    static writeLine3(value: unknown): void;
-    static writeLine3(format: string, args: unknown[]): void;
-    static writeLine3(message: string, category: string): void;
-    static writeLine3(message: string): void;
-    static writeLineIf6(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
-    static writeLineIf6(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
-    static writeLineIf6(condition: boolean, value: unknown, category: string): void;
-    static writeLineIf6(condition: boolean, value: unknown): void;
-    static writeLineIf6(condition: boolean, message: string, category: string): void;
-    static writeLineIf6(condition: boolean, message: string): void;
+    static write(value: unknown, category: string): void;
+    static write(value: unknown): void;
+    static write(message: string, category: string): void;
+    static write(message: string): void;
+    static writeIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
+    static writeIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
+    static writeIf(condition: boolean, value: unknown, category: string): void;
+    static writeIf(condition: boolean, value: unknown): void;
+    static writeIf(condition: boolean, message: string, category: string): void;
+    static writeIf(condition: boolean, message: string): void;
+    static writeLine(value: unknown, category: string): void;
+    static writeLine(value: unknown): void;
+    static writeLine(format: string, args: unknown[]): void;
+    static writeLine(message: string, category: string): void;
+    static writeLine(message: string): void;
+    static writeLineIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;
+    static writeLineIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }): void;
+    static writeLineIf(condition: boolean, value: unknown, category: string): void;
+    static writeLineIf(condition: boolean, value: unknown): void;
+    static writeLineIf(condition: boolean, message: string, category: string): void;
+    static writeLineIf(condition: boolean, message: string): void;
 }
 
 

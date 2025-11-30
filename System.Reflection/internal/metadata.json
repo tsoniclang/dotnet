@@ -2919,7 +2919,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ICustomAttributeProvider::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3017,7 +3017,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetMethod(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3097,7 +3097,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.IReflect::GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.PropertyInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3291,7 +3291,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeNamedArgument::Equals(System.Reflection.CustomAttributeNamedArgument):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Reflection.CustomAttributeNamedArgument):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3461,7 +3461,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeTypedArgument::Equals(System.Reflection.CustomAttributeTypedArgument):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Reflection.CustomAttributeTypedArgument):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3742,7 +3742,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::Load(System.Reflection.AssemblyName):System.Reflection.Assembly",
           "clrName": "Load",
-          "tsEmitName": "load2",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Reflection.AssemblyName):System.Reflection.Assembly|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3886,7 +3886,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetManifestResourceStream(System.Type,System.String):System.IO.Stream",
           "clrName": "GetManifestResourceStream",
-          "tsEmitName": "getManifestResourceStream2",
+          "tsEmitName": "getManifestResourceStream",
           "normalizedSignature": "GetManifestResourceStream|(System.Type,System.String):System.IO.Stream|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3918,7 +3918,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetName(System.Boolean):System.Reflection.AssemblyName",
           "clrName": "GetName",
-          "tsEmitName": "getName2",
+          "tsEmitName": "getName",
           "normalizedSignature": "GetName|(System.Boolean):System.Reflection.AssemblyName|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3950,7 +3950,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetType(System.String,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType2",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3966,7 +3966,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType3",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4030,7 +4030,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4062,7 +4062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::CreateInstance(System.String,System.Boolean):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance2",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.String,System.Boolean):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4078,7 +4078,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::CreateInstance(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[]):System.Object",
           "clrName": "CreateInstance",
-          "tsEmitName": "createInstance3",
+          "tsEmitName": "createInstance",
           "normalizedSignature": "CreateInstance|(System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4126,7 +4126,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetModules(System.Boolean):System.Reflection.Module[]",
           "clrName": "GetModules",
-          "tsEmitName": "getModules2",
+          "tsEmitName": "getModules",
           "normalizedSignature": "GetModules|(System.Boolean):System.Reflection.Module[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4158,7 +4158,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetLoadedModules(System.Boolean):System.Reflection.Module[]",
           "clrName": "GetLoadedModules",
-          "tsEmitName": "getLoadedModules2",
+          "tsEmitName": "getLoadedModules",
           "normalizedSignature": "GetLoadedModules|(System.Boolean):System.Reflection.Module[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4206,7 +4206,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version):System.Reflection.Assembly",
           "clrName": "GetSatelliteAssembly",
-          "tsEmitName": "getSatelliteAssembly2",
+          "tsEmitName": "getSatelliteAssembly",
           "normalizedSignature": "GetSatelliteAssembly|(System.Globalization.CultureInfo,System.Version):System.Reflection.Assembly|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4254,7 +4254,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::GetFiles(System.Boolean):System.IO.FileStream[]",
           "clrName": "GetFiles",
-          "tsEmitName": "getFiles2",
+          "tsEmitName": "getFiles",
           "normalizedSignature": "GetFiles|(System.Boolean):System.IO.FileStream[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4398,7 +4398,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::Load(System.Byte[]):System.Reflection.Assembly",
           "clrName": "Load",
-          "tsEmitName": "load3",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Byte[]):System.Reflection.Assembly|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4414,7 +4414,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::Load(System.Byte[],System.Byte[]):System.Reflection.Assembly",
           "clrName": "Load",
-          "tsEmitName": "load4",
+          "tsEmitName": "load",
           "normalizedSignature": "Load|(System.Byte[],System.Byte[]):System.Reflection.Assembly|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4462,7 +4462,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm):System.Reflection.Assembly",
           "clrName": "LoadFrom",
-          "tsEmitName": "loadFrom2",
+          "tsEmitName": "loadFrom",
           "normalizedSignature": "LoadFrom|(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm):System.Reflection.Assembly|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4510,7 +4510,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::LoadModule(System.String,System.Byte[],System.Byte[]):System.Reflection.Module",
           "clrName": "LoadModule",
-          "tsEmitName": "loadModule2",
+          "tsEmitName": "loadModule",
           "normalizedSignature": "LoadModule|(System.String,System.Byte[],System.Byte[]):System.Reflection.Module|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4542,7 +4542,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Assembly::ReflectionOnlyLoad(System.String):System.Reflection.Assembly",
           "clrName": "ReflectionOnlyLoad",
-          "tsEmitName": "reflectionOnlyLoad2",
+          "tsEmitName": "reflectionOnlyLoad",
           "normalizedSignature": "ReflectionOnlyLoad|(System.String):System.Reflection.Assembly|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6323,7 +6323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInfo::Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke4",
+          "tsEmitName": "invoke3",
           "normalizedSignature": "Invoke|(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6586,7 +6586,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker::Invoke(System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6602,7 +6602,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker::Invoke(System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke3",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6618,7 +6618,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker::Invoke(System.Object,System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke4",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6634,7 +6634,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker::Invoke(System.Object,System.Object,System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke5",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object,System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6650,7 +6650,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ConstructorInvoker::Invoke(System.Span_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke6",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Span_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6699,7 +6699,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeData::GetCustomAttributes(System.Reflection.Module):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Module):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6715,7 +6715,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeData::GetCustomAttributes(System.Reflection.Assembly):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes3",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Assembly):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6731,7 +6731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeData::GetCustomAttributes(System.Reflection.ParameterInfo):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes4",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Collections.Generic.IList_1[[System.Reflection.CustomAttributeData,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6961,7 +6961,7 @@
         {
           "stableId": "System.Reflection.DispatchProxy:System.Reflection.DispatchProxy::Create(System.Type,System.Type):System.Object",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Type,System.Type):System.Object|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7010,7 +7010,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetOtherMethods(System.Boolean):System.Reflection.MethodInfo[]",
           "clrName": "GetOtherMethods",
-          "tsEmitName": "getOtherMethods2",
+          "tsEmitName": "getOtherMethods",
           "normalizedSignature": "GetOtherMethods|(System.Boolean):System.Reflection.MethodInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7074,7 +7074,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetAddMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "getAddMethod2",
+          "tsEmitName": "getAddMethod",
           "normalizedSignature": "GetAddMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7090,7 +7090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetRemoveMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "getRemoveMethod2",
+          "tsEmitName": "getRemoveMethod",
           "normalizedSignature": "GetRemoveMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7106,7 +7106,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventInfo::GetRaiseMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "getRaiseMethod2",
+          "tsEmitName": "getRaiseMethod",
           "normalizedSignature": "GetRaiseMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7578,7 +7578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::GetFieldFromHandle(System.RuntimeFieldHandle,System.RuntimeTypeHandle):System.Reflection.FieldInfo",
           "clrName": "GetFieldFromHandle",
-          "tsEmitName": "getFieldFromHandle2",
+          "tsEmitName": "getFieldFromHandle",
           "normalizedSignature": "GetFieldFromHandle|(System.RuntimeFieldHandle,System.RuntimeTypeHandle):System.Reflection.FieldInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7658,7 +7658,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldInfo::SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "setValue2",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Globalization.CultureInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8570,7 +8570,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8839,7 +8839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::GetMethodFromHandle(System.RuntimeMethodHandle,System.RuntimeTypeHandle):System.Reflection.MethodBase",
           "clrName": "GetMethodFromHandle",
-          "tsEmitName": "getMethodFromHandle2",
+          "tsEmitName": "getMethodFromHandle",
           "normalizedSignature": "GetMethodFromHandle|(System.RuntimeMethodHandle,System.RuntimeTypeHandle):System.Reflection.MethodBase|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8951,7 +8951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodBase::Invoke(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9665,7 +9665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::CreateDelegate(System.Type,System.Object):System.Delegate",
           "clrName": "CreateDelegate",
-          "tsEmitName": "createDelegate2",
+          "tsEmitName": "createDelegate",
           "normalizedSignature": "CreateDelegate|(System.Type,System.Object):System.Delegate|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9681,7 +9681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::CreateDelegate():T",
           "clrName": "CreateDelegate",
-          "tsEmitName": "createDelegate3",
+          "tsEmitName": "createDelegate",
           "normalizedSignature": "CreateDelegate|():T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9697,7 +9697,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInfo::CreateDelegate(System.Object):T",
           "clrName": "CreateDelegate",
-          "tsEmitName": "createDelegate4",
+          "tsEmitName": "createDelegate",
           "normalizedSignature": "CreateDelegate|(System.Object):T|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9954,7 +9954,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker::Invoke(System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke2",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9970,7 +9970,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker::Invoke(System.Object,System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke3",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9986,7 +9986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker::Invoke(System.Object,System.Object,System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke4",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object,System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10002,7 +10002,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker::Invoke(System.Object,System.Object,System.Object,System.Object,System.Object):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke5",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Object,System.Object,System.Object,System.Object):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10018,7 +10018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodInvoker::Invoke(System.Object,System.Span_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object",
           "clrName": "Invoke",
-          "tsEmitName": "invoke6",
+          "tsEmitName": "invoke",
           "normalizedSignature": "Invoke|(System.Object,System.Span_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10175,7 +10175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10207,7 +10207,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetMethod(System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.String,System.Type[]):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10223,7 +10223,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod3",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[]):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10255,7 +10255,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetMethods(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods2",
+          "tsEmitName": "getMethods",
           "normalizedSignature": "GetMethods|(System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10287,7 +10287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetField(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField2",
+          "tsEmitName": "getField",
           "normalizedSignature": "GetField|(System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10319,7 +10319,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetFields(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields2",
+          "tsEmitName": "getFields",
           "normalizedSignature": "GetFields|(System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10367,7 +10367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetType(System.String,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType2",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10383,7 +10383,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::GetType(System.String,System.Boolean,System.Boolean):System.Type",
           "clrName": "GetType",
-          "tsEmitName": "getType3",
+          "tsEmitName": "getType",
           "normalizedSignature": "GetType|(System.String,System.Boolean,System.Boolean):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10431,7 +10431,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::ResolveField(System.Int32,System.Type[],System.Type[]):System.Reflection.FieldInfo",
           "clrName": "ResolveField",
-          "tsEmitName": "resolveField2",
+          "tsEmitName": "resolveField",
           "normalizedSignature": "ResolveField|(System.Int32,System.Type[],System.Type[]):System.Reflection.FieldInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10463,7 +10463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::ResolveMember(System.Int32,System.Type[],System.Type[]):System.Reflection.MemberInfo",
           "clrName": "ResolveMember",
-          "tsEmitName": "resolveMember2",
+          "tsEmitName": "resolveMember",
           "normalizedSignature": "ResolveMember|(System.Int32,System.Type[],System.Type[]):System.Reflection.MemberInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10495,7 +10495,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::ResolveMethod(System.Int32,System.Type[],System.Type[]):System.Reflection.MethodBase",
           "clrName": "ResolveMethod",
-          "tsEmitName": "resolveMethod2",
+          "tsEmitName": "resolveMethod",
           "normalizedSignature": "ResolveMethod|(System.Int32,System.Type[],System.Type[]):System.Reflection.MethodBase|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10559,7 +10559,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Module::ResolveType(System.Int32,System.Type[],System.Type[]):System.Type",
           "clrName": "ResolveType",
-          "tsEmitName": "resolveType2",
+          "tsEmitName": "resolveType",
           "normalizedSignature": "ResolveType|(System.Int32,System.Type[],System.Type[]):System.Type|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11124,7 +11124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityInfoContext::Create(System.Reflection.PropertyInfo):System.Reflection.NullabilityInfo",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Reflection.PropertyInfo):System.Reflection.NullabilityInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11140,7 +11140,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityInfoContext::Create(System.Reflection.EventInfo):System.Reflection.NullabilityInfo",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Reflection.EventInfo):System.Reflection.NullabilityInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11156,7 +11156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityInfoContext::Create(System.Reflection.FieldInfo):System.Reflection.NullabilityInfo",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Reflection.FieldInfo):System.Reflection.NullabilityInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11379,7 +11379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterInfo::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11916,7 +11916,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetAccessors(System.Boolean):System.Reflection.MethodInfo[]",
           "clrName": "GetAccessors",
-          "tsEmitName": "getAccessors2",
+          "tsEmitName": "getAccessors",
           "normalizedSignature": "GetAccessors|(System.Boolean):System.Reflection.MethodInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11948,7 +11948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetGetMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetGetMethod",
-          "tsEmitName": "getGetMethod2",
+          "tsEmitName": "getGetMethod",
           "normalizedSignature": "GetGetMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11980,7 +11980,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetSetMethod(System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetSetMethod",
-          "tsEmitName": "getSetMethod2",
+          "tsEmitName": "getSetMethod",
           "normalizedSignature": "GetSetMethod|(System.Boolean):System.Reflection.MethodInfo|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12060,7 +12060,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]):System.Object",
           "clrName": "GetValue",
-          "tsEmitName": "getValue2",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.Object,System.Object[]):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12076,7 +12076,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object",
           "clrName": "GetValue",
-          "tsEmitName": "getValue3",
+          "tsEmitName": "getValue",
           "normalizedSignature": "GetValue|(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Object|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12140,7 +12140,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Object[]):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "setValue2",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.Object,System.Object,System.Object[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12156,7 +12156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyInfo::SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Void",
           "clrName": "SetValue",
-          "tsEmitName": "setValue3",
+          "tsEmitName": "setValue",
           "normalizedSignature": "SetValue|(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13145,7 +13145,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetEvents(System.Reflection.BindingFlags):System.Reflection.EventInfo[]",
           "clrName": "GetEvents",
-          "tsEmitName": "getEvents2",
+          "tsEmitName": "getEvents",
           "normalizedSignature": "GetEvents|(System.Reflection.BindingFlags):System.Reflection.EventInfo[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13273,7 +13273,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GetCustomAttributes(System.Type,System.Boolean):System.Object[]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Type,System.Boolean):System.Object[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15885,7 +15885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.Module,System.Type):System.Attribute",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute2",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.Module,System.Type):System.Attribute|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15901,7 +15901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.MemberInfo,System.Type):System.Attribute",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute3",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type):System.Attribute|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15917,7 +15917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.ParameterInfo,System.Type):System.Attribute",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute4",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type):System.Attribute|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15933,7 +15933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.Assembly):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute5",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.Assembly):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15949,7 +15949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.Module):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute6",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.Module):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15965,7 +15965,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.MemberInfo):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute7",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.MemberInfo):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15981,7 +15981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.ParameterInfo):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute8",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.ParameterInfo):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15997,7 +15997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute9",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Attribute|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16013,7 +16013,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute10",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Attribute|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16029,7 +16029,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.MemberInfo,System.Boolean):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute11",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.MemberInfo,System.Boolean):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16045,7 +16045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttribute(System.Reflection.ParameterInfo,System.Boolean):T",
           "clrName": "GetCustomAttribute",
-          "tsEmitName": "getCustomAttribute12",
+          "tsEmitName": "getCustomAttribute",
           "normalizedSignature": "GetCustomAttribute|(System.Reflection.ParameterInfo,System.Boolean):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16077,7 +16077,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Module):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes2",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Module):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16093,7 +16093,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes3",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16109,7 +16109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes4",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16125,7 +16125,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes5",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16141,7 +16141,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes6",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16157,7 +16157,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Assembly,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes7",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Assembly,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16173,7 +16173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Module,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes8",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Module,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16189,7 +16189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes9",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16205,7 +16205,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes10",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16221,7 +16221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Assembly):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes11",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Assembly):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16237,7 +16237,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.Module):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes12",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.Module):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16253,7 +16253,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes13",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16269,7 +16269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes14",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16285,7 +16285,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes15",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16301,7 +16301,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes16",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Collections.Generic.IEnumerable_1[[System.Attribute,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16317,7 +16317,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.MemberInfo,System.Boolean):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes17",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.MemberInfo,System.Boolean):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16333,7 +16333,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::GetCustomAttributes(System.Reflection.ParameterInfo,System.Boolean):IEnumerable_1",
           "clrName": "GetCustomAttributes",
-          "tsEmitName": "getCustomAttributes18",
+          "tsEmitName": "getCustomAttributes",
           "normalizedSignature": "GetCustomAttributes|(System.Reflection.ParameterInfo,System.Boolean):IEnumerable_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16365,7 +16365,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::IsDefined(System.Reflection.Module,System.Type):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined2",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Reflection.Module,System.Type):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16381,7 +16381,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::IsDefined(System.Reflection.MemberInfo,System.Type):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined3",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Reflection.MemberInfo,System.Type):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16397,7 +16397,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::IsDefined(System.Reflection.ParameterInfo,System.Type):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined4",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Reflection.ParameterInfo,System.Type):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16413,7 +16413,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::IsDefined(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined5",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Reflection.MemberInfo,System.Type,System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16429,7 +16429,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeExtensions::IsDefined(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean",
           "clrName": "IsDefined",
-          "tsEmitName": "isDefined6",
+          "tsEmitName": "isDefined",
           "normalizedSignature": "IsDefined|(System.Reflection.ParameterInfo,System.Type,System.Boolean):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16478,7 +16478,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.EventInfoExtensions::GetAddMethod(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetAddMethod",
-          "tsEmitName": "getAddMethod2",
+          "tsEmitName": "getAddMethod",
           "normalizedSignature": "GetAddMethod|(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16510,7 +16510,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.EventInfoExtensions::GetRaiseMethod(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRaiseMethod",
-          "tsEmitName": "getRaiseMethod2",
+          "tsEmitName": "getRaiseMethod",
           "normalizedSignature": "GetRaiseMethod|(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16542,7 +16542,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.EventInfoExtensions::GetRemoveMethod(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetRemoveMethod",
-          "tsEmitName": "getRemoveMethod2",
+          "tsEmitName": "getRemoveMethod",
           "normalizedSignature": "GetRemoveMethod|(System.Reflection.EventInfo,System.Boolean):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16755,7 +16755,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.PropertyInfoExtensions::GetAccessors(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo[]",
           "clrName": "GetAccessors",
-          "tsEmitName": "getAccessors2",
+          "tsEmitName": "getAccessors",
           "normalizedSignature": "GetAccessors|(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16787,7 +16787,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.PropertyInfoExtensions::GetGetMethod(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetGetMethod",
-          "tsEmitName": "getGetMethod2",
+          "tsEmitName": "getGetMethod",
           "normalizedSignature": "GetGetMethod|(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16819,7 +16819,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.PropertyInfoExtensions::GetSetMethod(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo",
           "clrName": "GetSetMethod",
-          "tsEmitName": "getSetMethod2",
+          "tsEmitName": "getSetMethod",
           "normalizedSignature": "GetSetMethod|(System.Reflection.PropertyInfo,System.Boolean):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17077,7 +17077,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetConstructors(System.Type,System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]",
           "clrName": "GetConstructors",
-          "tsEmitName": "getConstructors2",
+          "tsEmitName": "getConstructors",
           "normalizedSignature": "GetConstructors|(System.Type,System.Reflection.BindingFlags):System.Reflection.ConstructorInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17125,7 +17125,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetEvent(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo",
           "clrName": "GetEvent",
-          "tsEmitName": "getEvent2",
+          "tsEmitName": "getEvent",
           "normalizedSignature": "GetEvent|(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.EventInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17157,7 +17157,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetEvents(System.Type,System.Reflection.BindingFlags):System.Reflection.EventInfo[]",
           "clrName": "GetEvents",
-          "tsEmitName": "getEvents2",
+          "tsEmitName": "getEvents",
           "normalizedSignature": "GetEvents|(System.Type,System.Reflection.BindingFlags):System.Reflection.EventInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17189,7 +17189,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetField(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo",
           "clrName": "GetField",
-          "tsEmitName": "getField2",
+          "tsEmitName": "getField",
           "normalizedSignature": "GetField|(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.FieldInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17221,7 +17221,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetFields(System.Type,System.Reflection.BindingFlags):System.Reflection.FieldInfo[]",
           "clrName": "GetFields",
-          "tsEmitName": "getFields2",
+          "tsEmitName": "getFields",
           "normalizedSignature": "GetFields|(System.Type,System.Reflection.BindingFlags):System.Reflection.FieldInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17285,7 +17285,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetMember(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMember",
-          "tsEmitName": "getMember2",
+          "tsEmitName": "getMember",
           "normalizedSignature": "GetMember|(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17317,7 +17317,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetMembers(System.Type,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]",
           "clrName": "GetMembers",
-          "tsEmitName": "getMembers2",
+          "tsEmitName": "getMembers",
           "normalizedSignature": "GetMembers|(System.Type,System.Reflection.BindingFlags):System.Reflection.MemberInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17349,7 +17349,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetMethod(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod2",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17365,7 +17365,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetMethod(System.Type,System.String,System.Type[]):System.Reflection.MethodInfo",
           "clrName": "GetMethod",
-          "tsEmitName": "getMethod3",
+          "tsEmitName": "getMethod",
           "normalizedSignature": "GetMethod|(System.Type,System.String,System.Type[]):System.Reflection.MethodInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17397,7 +17397,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetMethods(System.Type,System.Reflection.BindingFlags):System.Reflection.MethodInfo[]",
           "clrName": "GetMethods",
-          "tsEmitName": "getMethods2",
+          "tsEmitName": "getMethods",
           "normalizedSignature": "GetMethods|(System.Type,System.Reflection.BindingFlags):System.Reflection.MethodInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17461,7 +17461,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetProperties(System.Type,System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]",
           "clrName": "GetProperties",
-          "tsEmitName": "getProperties2",
+          "tsEmitName": "getProperties",
           "normalizedSignature": "GetProperties|(System.Type,System.Reflection.BindingFlags):System.Reflection.PropertyInfo[]|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17493,7 +17493,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetProperty(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty2",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.Type,System.String,System.Reflection.BindingFlags):System.Reflection.PropertyInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17509,7 +17509,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetProperty(System.Type,System.String,System.Type):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty3",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.Type,System.String,System.Type):System.Reflection.PropertyInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17525,7 +17525,7 @@
         {
           "stableId": "System.Reflection.TypeExtensions:System.Reflection.TypeExtensions::GetProperty(System.Type,System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo",
           "clrName": "GetProperty",
-          "tsEmitName": "getProperty4",
+          "tsEmitName": "getProperty",
           "normalizedSignature": "GetProperty|(System.Type,System.String,System.Type,System.Type[]):System.Reflection.PropertyInfo|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

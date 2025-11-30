@@ -61,6 +61,7 @@ export class HeaderStringValues_Enumerator$instance implements IDisposable {
     readonly current: string;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -95,6 +96,7 @@ export class HttpHeadersNonValidated_Enumerator$instance implements IDisposable 
     readonly current: KeyValuePair_2<CLROf<string>, HeaderStringValues>;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 

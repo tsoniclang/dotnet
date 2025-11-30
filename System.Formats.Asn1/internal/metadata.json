@@ -656,7 +656,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.Asn1Tag::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1284,7 +1284,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnReader::ReadEnumeratedValue(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum",
           "clrName": "ReadEnumeratedValue",
-          "tsEmitName": "readEnumeratedValue2",
+          "tsEmitName": "readEnumeratedValue",
           "normalizedSignature": "ReadEnumeratedValue|(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1428,7 +1428,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnReader::ReadNamedBitListValue(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum",
           "clrName": "ReadNamedBitListValue",
-          "tsEmitName": "readNamedBitListValue2",
+          "tsEmitName": "readNamedBitListValue",
           "normalizedSignature": "ReadNamedBitListValue|(System.Type,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1572,7 +1572,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnReader::ReadSetOf(System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnReader",
           "clrName": "ReadSetOf",
-          "tsEmitName": "readSetOf2",
+          "tsEmitName": "readSetOf",
           "normalizedSignature": "ReadSetOf|(System.Boolean,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Formats.Asn1.AsnReader|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1668,7 +1668,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnReader::ReadUtcTime(System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset",
           "clrName": "ReadUtcTime",
-          "tsEmitName": "readUtcTime2",
+          "tsEmitName": "readUtcTime",
           "normalizedSignature": "ReadUtcTime|(System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.DateTimeOffset|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1802,7 +1802,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::Encode():System.Byte[]",
           "clrName": "Encode",
-          "tsEmitName": "encode2",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|():System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1818,7 +1818,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::Encode(Func_2):TReturn",
           "clrName": "Encode",
-          "tsEmitName": "encode3",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|(Func_2):TReturn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1834,7 +1834,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::Encode(TState,Func_3):TReturn",
           "clrName": "Encode",
-          "tsEmitName": "encode4",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|(TState,Func_3):TReturn|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1850,7 +1850,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::Encode(TState,Action_2):System.Void",
           "clrName": "Encode",
-          "tsEmitName": "encode5",
+          "tsEmitName": "encode",
           "normalizedSignature": "Encode|(TState,Action_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1882,7 +1882,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::EncodedValueEquals(System.Formats.Asn1.AsnWriter):System.Boolean",
           "clrName": "EncodedValueEquals",
-          "tsEmitName": "encodedValueEquals2",
+          "tsEmitName": "encodedValueEquals",
           "normalizedSignature": "EncodedValueEquals|(System.Formats.Asn1.AsnWriter):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1978,7 +1978,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteEnumeratedValue(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteEnumeratedValue",
-          "tsEmitName": "writeEnumeratedValue2",
+          "tsEmitName": "writeEnumeratedValue",
           "normalizedSignature": "WriteEnumeratedValue|(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2026,7 +2026,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteInteger(System.UInt64,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteInteger",
-          "tsEmitName": "writeInteger2",
+          "tsEmitName": "writeInteger",
           "normalizedSignature": "WriteInteger|(System.UInt64,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2042,7 +2042,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteInteger(System.Numerics.BigInteger,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteInteger",
-          "tsEmitName": "writeInteger3",
+          "tsEmitName": "writeInteger",
           "normalizedSignature": "WriteInteger|(System.Numerics.BigInteger,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2058,7 +2058,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteInteger(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteInteger",
-          "tsEmitName": "writeInteger4",
+          "tsEmitName": "writeInteger",
           "normalizedSignature": "WriteInteger|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2106,7 +2106,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteNamedBitList(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteNamedBitList",
-          "tsEmitName": "writeNamedBitList2",
+          "tsEmitName": "writeNamedBitList",
           "normalizedSignature": "WriteNamedBitList|(TEnum,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2122,7 +2122,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteNamedBitList(System.Collections.BitArray,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteNamedBitList",
-          "tsEmitName": "writeNamedBitList3",
+          "tsEmitName": "writeNamedBitList",
           "normalizedSignature": "WriteNamedBitList|(System.Collections.BitArray,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2218,7 +2218,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteObjectIdentifier(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteObjectIdentifier",
-          "tsEmitName": "writeObjectIdentifier2",
+          "tsEmitName": "writeObjectIdentifier",
           "normalizedSignature": "WriteObjectIdentifier|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2314,7 +2314,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteCharacterString(System.Formats.Asn1.UniversalTagNumber,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteCharacterString",
-          "tsEmitName": "writeCharacterString2",
+          "tsEmitName": "writeCharacterString",
           "normalizedSignature": "WriteCharacterString|(System.Formats.Asn1.UniversalTagNumber,System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2346,7 +2346,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnWriter::WriteUtcTime(System.DateTimeOffset,System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void",
           "clrName": "WriteUtcTime",
-          "tsEmitName": "writeUtcTime2",
+          "tsEmitName": "writeUtcTime",
           "normalizedSignature": "WriteUtcTime|(System.DateTimeOffset,System.Int32,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2566,7 +2566,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnDecoder::ReadEnumeratedValue(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum",
           "clrName": "ReadEnumeratedValue",
-          "tsEmitName": "readEnumeratedValue2",
+          "tsEmitName": "readEnumeratedValue",
           "normalizedSignature": "ReadEnumeratedValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2710,7 +2710,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnDecoder::ReadNamedBitListValue(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum",
           "clrName": "ReadNamedBitListValue",
-          "tsEmitName": "readNamedBitListValue2",
+          "tsEmitName": "readNamedBitListValue",
           "normalizedSignature": "ReadNamedBitListValue|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32\u0026,System.Nullable_1[[System.Formats.Asn1.Asn1Tag,System.Formats.Asn1,Version=10.0.0.0,Culture=neutral,PublicKeyToken=cc7b13ffcd2ddd51]]):System.Enum|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

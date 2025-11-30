@@ -220,8 +220,8 @@ export abstract class AssemblyBuilder$instance extends System_Reflection_Interna
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
-    static defineDynamicAssembly2(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
-    static defineDynamicAssembly2(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
+    static defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
+    static defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 }
 
 
@@ -914,12 +914,12 @@ export class SignatureHelper$instance {
     static getFieldSigHelper(mod: Module): SignatureHelper;
     static getLocalVarSigHelper(): SignatureHelper;
     static getLocalVarSigHelper(mod: Module): SignatureHelper;
-    static getMethodSigHelper3(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static getMethodSigHelper3(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static getMethodSigHelper3(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
-    static getPropertySigHelper3(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static getPropertySigHelper3(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static getPropertySigHelper3(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    static getMethodSigHelper(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    static getMethodSigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    static getMethodSigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    static getPropertySigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    static getPropertySigHelper(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    static getPropertySigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
 }
 
 

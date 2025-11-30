@@ -3485,7 +3485,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslApplicationProtocol::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4056,7 +4056,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::GetOutgoingBlob(System.String,System.Net.Security.NegotiateAuthenticationStatusCode\u0026):System.String",
           "clrName": "GetOutgoingBlob",
-          "tsEmitName": "getOutgoingBlob2",
+          "tsEmitName": "getOutgoingBlob",
           "normalizedSignature": "GetOutgoingBlob|(System.String,System.Net.Security.NegotiateAuthenticationStatusCode\u0026):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4621,7 +4621,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient2",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.Net.NetworkCredential,System.String,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4637,7 +4637,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient3",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4653,7 +4653,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient4",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4669,7 +4669,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient5",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4717,7 +4717,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer2",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4733,7 +4733,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer3",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4749,7 +4749,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer4",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4781,7 +4781,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsServer",
-          "tsEmitName": "beginAuthenticateAsServer2",
+          "tsEmitName": "beginAuthenticateAsServer",
           "normalizedSignature": "BeginAuthenticateAsServer|(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4797,7 +4797,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsServer",
-          "tsEmitName": "beginAuthenticateAsServer3",
+          "tsEmitName": "beginAuthenticateAsServer",
           "normalizedSignature": "BeginAuthenticateAsServer|(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4813,7 +4813,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::BeginAuthenticateAsServer(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsServer",
-          "tsEmitName": "beginAuthenticateAsServer4",
+          "tsEmitName": "beginAuthenticateAsServer",
           "normalizedSignature": "BeginAuthenticateAsServer|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4861,7 +4861,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.String):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient2",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.Net.NetworkCredential,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4877,7 +4877,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient3",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4893,7 +4893,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient4",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4909,7 +4909,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClient(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient5",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4941,7 +4941,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync2",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.Net.NetworkCredential,System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4957,7 +4957,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync3",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4973,7 +4973,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync4",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4989,7 +4989,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsClientAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync5",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ChannelBinding,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5021,7 +5021,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync2",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5037,7 +5037,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync3",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5053,7 +5053,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync4",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5165,7 +5165,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5213,7 +5213,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6697,7 +6697,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient2",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6713,7 +6713,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsClient",
-          "tsEmitName": "beginAuthenticateAsClient3",
+          "tsEmitName": "beginAuthenticateAsClient",
           "normalizedSignature": "BeginAuthenticateAsClient|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6761,7 +6761,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsServer",
-          "tsEmitName": "beginAuthenticateAsServer2",
+          "tsEmitName": "beginAuthenticateAsServer",
           "normalizedSignature": "BeginAuthenticateAsServer|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6777,7 +6777,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::BeginAuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult",
           "clrName": "BeginAuthenticateAsServer",
-          "tsEmitName": "beginAuthenticateAsServer3",
+          "tsEmitName": "beginAuthenticateAsServer",
           "normalizedSignature": "BeginAuthenticateAsServer|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6825,7 +6825,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient2",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6841,7 +6841,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient3",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6857,7 +6857,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClient(System.Net.Security.SslClientAuthenticationOptions):System.Void",
           "clrName": "AuthenticateAsClient",
-          "tsEmitName": "authenticateAsClient4",
+          "tsEmitName": "authenticateAsClient",
           "normalizedSignature": "AuthenticateAsClient|(System.Net.Security.SslClientAuthenticationOptions):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6889,7 +6889,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer2",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6905,7 +6905,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer3",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6921,7 +6921,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServer(System.Net.Security.SslServerAuthenticationOptions):System.Void",
           "clrName": "AuthenticateAsServer",
-          "tsEmitName": "authenticateAsServer4",
+          "tsEmitName": "authenticateAsServer",
           "normalizedSignature": "AuthenticateAsServer|(System.Net.Security.SslServerAuthenticationOptions):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6953,7 +6953,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync2",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6969,7 +6969,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync3",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.String,System.Security.Cryptography.X509Certificates.X509CertificateCollection,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6985,7 +6985,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsClientAsync(System.Net.Security.SslClientAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsClientAsync",
-          "tsEmitName": "authenticateAsClientAsync4",
+          "tsEmitName": "authenticateAsClientAsync",
           "normalizedSignature": "AuthenticateAsClientAsync|(System.Net.Security.SslClientAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7017,7 +7017,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync2",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7033,7 +7033,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync3",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Security.Cryptography.X509Certificates.X509Certificate,System.Boolean,System.Security.Authentication.SslProtocols,System.Boolean):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7049,7 +7049,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Net.Security.SslServerAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync4",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Net.Security.SslServerAuthenticationOptions,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7065,7 +7065,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::AuthenticateAsServerAsync(System.Net.Security.ServerOptionsSelectionCallback,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "AuthenticateAsServerAsync",
-          "tsEmitName": "authenticateAsServerAsync5",
+          "tsEmitName": "authenticateAsServerAsync",
           "normalizedSignature": "AuthenticateAsServerAsync|(System.Net.Security.ServerOptionsSelectionCallback,System.Object,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7225,7 +7225,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Read(System.Byte[],System.Int32,System.Int32):System.Int32",
           "clrName": "Read",
-          "tsEmitName": "read3",
+          "tsEmitName": "read2",
           "normalizedSignature": "Read|(System.Byte[],System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7273,7 +7273,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.Byte[]):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write3",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7289,7 +7289,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::Write(System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
-          "tsEmitName": "write4",
+          "tsEmitName": "write2",
           "normalizedSignature": "Write|(System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7385,7 +7385,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::WriteAsync(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask",
           "clrName": "WriteAsync",
-          "tsEmitName": "writeAsync4",
+          "tsEmitName": "writeAsync3",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7417,7 +7417,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStream::ReadAsync(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "ReadAsync",
-          "tsEmitName": "readAsync5",
+          "tsEmitName": "readAsync4",
           "normalizedSignature": "ReadAsync|(System.Memory_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.ValueTask_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8076,7 +8076,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.SslStreamCertificateContext::Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean,System.Net.Security.SslCertificateTrust):System.Net.Security.SslStreamCertificateContext",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean,System.Net.Security.SslCertificateTrust):System.Net.Security.SslStreamCertificateContext|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

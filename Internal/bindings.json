@@ -25,7 +25,7 @@
         {
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
-          "tsEmitName": "writeLine2",
+          "tsEmitName": "writeLine",
           "metadataToken": 100704903,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
@@ -67,7 +67,7 @@
           }
         },
         {
-          "tsName": "writeLine2",
+          "tsName": "writeLine",
           "isStatic": true,
           "tsSignatureId": "WriteLine|():System.Void|static=true",
           "target": {

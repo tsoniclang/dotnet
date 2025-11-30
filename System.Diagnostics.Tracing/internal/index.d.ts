@@ -292,14 +292,14 @@ export class EventSource$instance {
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, data: { value: ref<T> }): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, activityId: { value: ref<Guid> }, relatedActivityId: { value: ref<Guid> }, data: { value: ref<T> }): void;
     static readonly currentThreadActivityId: Guid;
-    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
-    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
+    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
+    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
     static getGuid(eventSourceType: Type): Guid;
     static getName(eventSourceType: Type): string;
     static getSources(): IEnumerable_1<EventSource>;
     static sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
-    static setCurrentThreadActivityId2(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
-    static setCurrentThreadActivityId2(activityId: Guid): void;
+    static setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
+    static setCurrentThreadActivityId(activityId: Guid): void;
 }
 
 

@@ -255,7 +255,7 @@
           "metadataToken": 100703951,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
@@ -891,7 +891,7 @@
           "metadataToken": 100703951,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Reset|():System.Void|static=false",
-          "emitScope": "ViewOnly",
+          "emitScope": "ClassSurface",
           "arity": 0,
           "parameterCount": 0,
           "declaringClrType": "System.Collections.IEnumerator",
@@ -3396,16 +3396,6 @@
         {
           "tsName": "add",
           "isStatic": false,
-          "tsSignatureId": "Add|(System.String,System.String):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665979
-          }
-        },
-        {
-          "tsName": "add2",
-          "isStatic": false,
           "tsSignatureId": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
             "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
@@ -3415,16 +3405,6 @@
         },
         {
           "tsName": "tryAddWithoutValidation",
-          "isStatic": false,
-          "tsSignatureId": "TryAddWithoutValidation|(System.String,System.String):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665983
-          }
-        },
-        {
-          "tsName": "tryAddWithoutValidation2",
           "isStatic": false,
           "tsSignatureId": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -3701,7 +3681,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::Add(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "metadataToken": 100665981,
           "canonicalSignature": "(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -3729,7 +3709,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpHeaders::TryAddWithoutValidation(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "TryAddWithoutValidation",
-          "tsEmitName": "tryAddWithoutValidation2",
+          "tsEmitName": "tryAddWithoutValidation",
           "metadataToken": 100665985,
           "canonicalSignature": "(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
@@ -3898,7 +3878,7 @@
           }
         },
         {
-          "tsName": "add2",
+          "tsName": "add",
           "isStatic": false,
           "tsSignatureId": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -3918,7 +3898,7 @@
           }
         },
         {
-          "tsName": "tryAddWithoutValidation2",
+          "tsName": "tryAddWithoutValidation",
           "isStatic": false,
           "tsSignatureId": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -5166,16 +5146,6 @@
         {
           "tsName": "add",
           "isStatic": false,
-          "tsSignatureId": "Add|(System.String,System.String):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665979
-          }
-        },
-        {
-          "tsName": "add2",
-          "isStatic": false,
           "tsSignatureId": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
             "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
@@ -5185,16 +5155,6 @@
         },
         {
           "tsName": "tryAddWithoutValidation",
-          "isStatic": false,
-          "tsSignatureId": "TryAddWithoutValidation|(System.String,System.String):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665983
-          }
-        },
-        {
-          "tsName": "tryAddWithoutValidation2",
           "isStatic": false,
           "tsSignatureId": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {
@@ -6050,16 +6010,6 @@
         {
           "tsName": "add",
           "isStatic": false,
-          "tsSignatureId": "Add|(System.String,System.String):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665979
-          }
-        },
-        {
-          "tsName": "add2",
-          "isStatic": false,
           "tsSignatureId": "Add|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
             "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
@@ -6069,16 +6019,6 @@
         },
         {
           "tsName": "tryAddWithoutValidation",
-          "isStatic": false,
-          "tsSignatureId": "TryAddWithoutValidation|(System.String,System.String):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.Net.Http.Headers.HttpHeaders",
-            "declaringAssemblyName": "System.Net.Http",
-            "metadataToken": 100665983
-          }
-        },
-        {
-          "tsName": "tryAddWithoutValidation2",
           "isStatic": false,
           "tsSignatureId": "TryAddWithoutValidation|(System.String,System.Collections.Generic.IEnumerable_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "target": {

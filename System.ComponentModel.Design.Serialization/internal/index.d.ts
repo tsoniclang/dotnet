@@ -49,12 +49,12 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     readonly rootComponent: IComponent;
     readonly rootComponentClassName: string;
     readonly transactionDescription: string;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService4(serviceType: Type, serviceInstance: unknown): void;
-    createComponent2(componentClass: Type, name: string): IComponent;
-    createComponent2(componentClass: Type): IComponent;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    createComponent(componentClass: Type, name: string): IComponent;
+    createComponent(componentClass: Type): IComponent;
     createTransaction(): DesignerTransaction;
     createTransaction(description: string): DesignerTransaction;
     destroyComponent(component: IComponent): void;
@@ -63,8 +63,8 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     getService(serviceType: Type): unknown;
     getType(typeName: string): Type;
     reload(): void;
-    removeService2(serviceType: Type, promote: boolean): void;
-    removeService2(serviceType: Type): void;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 
@@ -79,12 +79,12 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     readonly rootComponent: IComponent;
     readonly rootComponentClassName: string;
     readonly transactionDescription: string;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
-    addService4(serviceType: Type, callback: ServiceCreatorCallback): void;
-    addService4(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
-    addService4(serviceType: Type, serviceInstance: unknown): void;
-    createComponent2(componentClass: Type, name: string): IComponent;
-    createComponent2(componentClass: Type): IComponent;
+    addService(serviceType: Type, callback: ServiceCreatorCallback, promote: boolean): void;
+    addService(serviceType: Type, callback: ServiceCreatorCallback): void;
+    addService(serviceType: Type, serviceInstance: unknown, promote: boolean): void;
+    addService(serviceType: Type, serviceInstance: unknown): void;
+    createComponent(componentClass: Type, name: string): IComponent;
+    createComponent(componentClass: Type): IComponent;
     createTransaction(): DesignerTransaction;
     createTransaction(description: string): DesignerTransaction;
     destroyComponent(component: IComponent): void;
@@ -93,8 +93,8 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     getService(serviceType: Type): unknown;
     getType(typeName: string): Type;
     reload(): void;
-    removeService2(serviceType: Type, promote: boolean): void;
-    removeService2(serviceType: Type): void;
+    removeService(serviceType: Type, promote: boolean): void;
+    removeService(serviceType: Type): void;
 }
 
 

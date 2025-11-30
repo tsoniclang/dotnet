@@ -932,6 +932,7 @@ export class DataRowCollection$instance extends InternalDataCollectionBase$insta
     contains(key: unknown): boolean;
     contains(keys: unknown[]): boolean;
     copyTo(ar: ClrArray, index: int): void;
+    copyTo(array: DataRow[], index: int): void;
     find(key: unknown): DataRow;
     find(keys: unknown[]): DataRow;
     getEnumerator(): IEnumerator;
@@ -2020,27 +2021,27 @@ export abstract class DataRowComparer$instance {
 export type DataRowComparer = DataRowComparer$instance;
 
 export abstract class DataRowExtensions$instance {
-    static field6<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T;
-    static field6<T>(row: DataRow, column: DataColumn): T;
-    static field6<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T;
-    static field6<T>(row: DataRow, columnIndex: int): T;
-    static field6<T>(row: DataRow, columnName: string, version: DataRowVersion): T;
-    static field6<T>(row: DataRow, columnName: string): T;
-    static setField3<T>(row: DataRow, column: DataColumn, value: T): void;
-    static setField3<T>(row: DataRow, columnIndex: int, value: T): void;
-    static setField3<T>(row: DataRow, columnName: string, value: T): void;
+    static field<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T;
+    static field<T>(row: DataRow, column: DataColumn): T;
+    static field<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T;
+    static field<T>(row: DataRow, columnIndex: int): T;
+    static field<T>(row: DataRow, columnName: string, version: DataRowVersion): T;
+    static field<T>(row: DataRow, columnName: string): T;
+    static setField<T>(row: DataRow, column: DataColumn, value: T): void;
+    static setField<T>(row: DataRow, columnIndex: int, value: T): void;
+    static setField<T>(row: DataRow, columnName: string, value: T): void;
 }
 
 
 export type DataRowExtensions = DataRowExtensions$instance;
 
 export abstract class DataTableExtensions$instance {
-    static asDataView2<T extends DataRow>(source: EnumerableRowCollection_1<T>): DataView;
-    static asDataView2(table: DataTable): DataView;
+    static asDataView<T extends DataRow>(source: EnumerableRowCollection_1<T>): DataView;
+    static asDataView(table: DataTable): DataView;
     static asEnumerable(source: DataTable): EnumerableRowCollection_1<DataRow>;
-    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler): void;
-    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
-    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>): DataTable;
+    static copyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler): void;
+    static copyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
+    static copyToDataTable<T extends DataRow>(source: IEnumerable_1<T>): DataTable;
 }
 
 
@@ -2048,15 +2049,15 @@ export type DataTableExtensions = DataTableExtensions$instance;
 
 export abstract class EnumerableRowCollectionExtensions$instance {
     static cast<TResult>(source: EnumerableRowCollection): EnumerableRowCollection_1<TResult>;
-    static orderBy2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderBy2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderByDescending2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderByDescending2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
     static select<TRow, S>(source: EnumerableRowCollection_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
-    static thenBy2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static thenBy2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static thenByDescending2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static thenByDescending2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
     static where<TRow>(source: EnumerableRowCollection_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
 }
 
@@ -2066,10 +2067,10 @@ export type EnumerableRowCollectionExtensions = EnumerableRowCollectionExtension
 export abstract class TypedTableBaseExtensions$instance {
     static asEnumerable<TRow extends DataRow>(source: TypedTableBase_1<TRow>): EnumerableRowCollection_1<TRow>;
     static elementAtOrDefault<TRow extends DataRow>(source: TypedTableBase_1<TRow>, index: int): TRow;
-    static orderBy2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderBy2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderByDescending2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static orderByDescending2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
     static select<TRow extends DataRow, S>(source: TypedTableBase_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
     static where<TRow extends DataRow>(source: TypedTableBase_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
 }

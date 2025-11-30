@@ -400,7 +400,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.IImmutableList\u00601::RemoveRange(System.Int32,System.Int32):IImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(System.Int32,System.Int32):IImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -963,7 +963,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -979,7 +979,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -995,7 +995,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1011,7 +1011,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf5",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1043,7 +1043,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1059,7 +1059,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1075,7 +1075,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1107,7 +1107,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Contains(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Contains",
-          "tsEmitName": "contains2",
+          "tsEmitName": "contains",
           "normalizedSignature": "Contains|(T,IEqualityComparer_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1155,7 +1155,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,ImmutableArray_1):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange2",
+          "tsEmitName": "insertRange",
           "normalizedSignature": "InsertRange|(System.Int32,ImmutableArray_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1203,7 +1203,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(T[],System.Int32):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(T[],System.Int32):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1219,7 +1219,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(TDerived[]):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange3",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(TDerived[]):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1235,7 +1235,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ImmutableArray_1,System.Int32):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ImmutableArray_1,System.Int32):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1251,7 +1251,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ImmutableArray_1):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange5",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ImmutableArray_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1299,7 +1299,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Replace(T,T,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1331,7 +1331,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Remove(T,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1379,7 +1379,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(IEnumerable_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1395,7 +1395,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1411,7 +1411,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ImmutableArray_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange4",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(ImmutableArray_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1427,7 +1427,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange5",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(ImmutableArray_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1491,7 +1491,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(Comparison_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(Comparison_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1507,7 +1507,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(IComparer_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(IComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1523,7 +1523,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Sort(System.Int32,System.Int32,IComparer_1):ImmutableArray_1",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1555,7 +1555,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange6",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ReadOnlySpan_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1571,7 +1571,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AddRange(T[]):ImmutableArray_1",
           "clrName": "AddRange",
-          "tsEmitName": "addRange7",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(T[]):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1587,7 +1587,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AsSpan(System.Int32,System.Int32):ReadOnlySpan_1",
           "clrName": "AsSpan",
-          "tsEmitName": "asSpan2",
+          "tsEmitName": "asSpan",
           "normalizedSignature": "AsSpan|(System.Int32,System.Int32):ReadOnlySpan_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1619,7 +1619,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,T[]):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange3",
+          "tsEmitName": "insertRange",
           "normalizedSignature": "InsertRange|(System.Int32,T[]):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1635,7 +1635,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::InsertRange(System.Int32,ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange4",
+          "tsEmitName": "insertRange",
           "normalizedSignature": "InsertRange|(System.Int32,ReadOnlySpan_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1651,7 +1651,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange6",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(ReadOnlySpan_1,IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1667,7 +1667,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::RemoveRange(T[],IEqualityComparer_1):ImmutableArray_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange7",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(T[],IEqualityComparer_1):ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1699,7 +1699,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::AsSpan(System.Range):ReadOnlySpan_1",
           "clrName": "AsSpan",
-          "tsEmitName": "asSpan3",
+          "tsEmitName": "asSpan",
           "normalizedSignature": "AsSpan|(System.Range):ReadOnlySpan_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1731,7 +1731,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(T[]):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1747,7 +1747,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1763,7 +1763,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo4",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1843,7 +1843,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::Equals(ImmutableArray_1):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(ImmutableArray_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3778,7 +3778,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::InsertRange(System.Int32,ImmutableArray_1):System.Void",
           "clrName": "InsertRange",
-          "tsEmitName": "insertRange2",
+          "tsEmitName": "insertRange",
           "normalizedSignature": "InsertRange|(System.Int32,ImmutableArray_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3826,7 +3826,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(T[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange2",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(T[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3842,7 +3842,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(TDerived[]):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange3",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(TDerived[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3858,7 +3858,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(T[],System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange4",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3874,7 +3874,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ImmutableArray_1):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange5",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ImmutableArray_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3890,7 +3890,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ImmutableArray_1,System.Int32):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange6",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ImmutableArray_1,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3906,7 +3906,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(ReadOnlySpan_1):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange7",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(ReadOnlySpan_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3922,7 +3922,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::AddRange(Builder):System.Void",
           "clrName": "AddRange",
-          "tsEmitName": "addRange8",
+          "tsEmitName": "addRange",
           "normalizedSignature": "AddRange|(Builder):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3954,7 +3954,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Remove(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4018,7 +4018,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::RemoveRange(IEnumerable_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4034,7 +4034,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::RemoveRange(IEnumerable_1,IEqualityComparer_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4066,7 +4066,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Replace(T,T,IEqualityComparer_1):System.Void",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4130,7 +4130,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(T[]):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4146,7 +4146,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4178,7 +4178,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4194,7 +4194,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4210,7 +4210,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4226,7 +4226,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::IndexOf(T,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf5",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4258,7 +4258,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4274,7 +4274,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4290,7 +4290,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4338,7 +4338,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(Comparison_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(Comparison_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4354,7 +4354,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(IComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4370,7 +4370,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::Sort(System.Int32,System.Int32,IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4386,7 +4386,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BBuilder::CopyTo(Span_1):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo4",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(Span_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4890,7 +4890,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602::WithComparers(IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "WithComparers",
-          "tsEmitName": "withComparers2",
+          "tsEmitName": "withComparers",
           "normalizedSignature": "WithComparers|(IEqualityComparer_1):ImmutableDictionary_2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5767,7 +5767,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::GetValueOrDefault(TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "normalizedSignature": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5895,7 +5895,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::Add(KeyValuePair_2):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(KeyValuePair_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5943,7 +5943,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602\u002BBuilder::Remove(KeyValuePair_2):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(KeyValuePair_2):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7913,7 +7913,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::BinarySearch(T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7929,7 +7929,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::BinarySearch(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8057,7 +8057,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Remove(T,IEqualityComparer_1):ImmutableList_1",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8089,7 +8089,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::RemoveRange(IEnumerable_1):ImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8105,7 +8105,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::RemoveRange(IEnumerable_1,IEqualityComparer_1):ImmutableList_1",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8185,7 +8185,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Replace(T,T,IEqualityComparer_1):ImmutableList_1",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8217,7 +8217,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Reverse(System.Int32,System.Int32):ImmutableList_1",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8249,7 +8249,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(Comparison_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(Comparison_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8265,7 +8265,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(IComparer_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(IComparer_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8281,7 +8281,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::Sort(System.Int32,System.Int32,IComparer_1):ImmutableList_1",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):ImmutableList_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8329,7 +8329,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8345,7 +8345,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8457,7 +8457,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex2",
+          "tsEmitName": "findIndex",
           "normalizedSignature": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8473,7 +8473,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex3",
+          "tsEmitName": "findIndex",
           "normalizedSignature": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8521,7 +8521,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindLastIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex2",
+          "tsEmitName": "findLastIndex",
           "normalizedSignature": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8537,7 +8537,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::FindLastIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex3",
+          "tsEmitName": "findLastIndex",
           "normalizedSignature": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8617,7 +8617,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601::IndexOf(T):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9519,7 +9519,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::CopyTo(T[],System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo2",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(T[],System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9535,7 +9535,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::CopyTo(System.Int32,T[],System.Int32,System.Int32):System.Void",
           "clrName": "CopyTo",
-          "tsEmitName": "copyTo3",
+          "tsEmitName": "copyTo",
           "normalizedSignature": "CopyTo|(System.Int32,T[],System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9647,7 +9647,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex2",
+          "tsEmitName": "findIndex",
           "normalizedSignature": "FindIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9663,7 +9663,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindIndex",
-          "tsEmitName": "findIndex3",
+          "tsEmitName": "findIndex",
           "normalizedSignature": "FindIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9711,7 +9711,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindLastIndex(System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex2",
+          "tsEmitName": "findLastIndex",
           "normalizedSignature": "FindLastIndex|(System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9727,7 +9727,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::FindLastIndex(System.Int32,System.Int32,Predicate_1):System.Int32",
           "clrName": "FindLastIndex",
-          "tsEmitName": "findLastIndex3",
+          "tsEmitName": "findLastIndex",
           "normalizedSignature": "FindLastIndex|(System.Int32,System.Int32,Predicate_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9743,7 +9743,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9759,7 +9759,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9775,7 +9775,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::IndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9807,7 +9807,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9823,7 +9823,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9839,7 +9839,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::LastIndexOf(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(T,System.Int32,System.Int32,IEqualityComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9919,7 +9919,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Remove(T,IEqualityComparer_1):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(T,IEqualityComparer_1):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9951,7 +9951,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::RemoveRange(IEnumerable_1,IEqualityComparer_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange2",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1,IEqualityComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9967,7 +9967,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::RemoveRange(IEnumerable_1):System.Void",
           "clrName": "RemoveRange",
-          "tsEmitName": "removeRange3",
+          "tsEmitName": "removeRange",
           "normalizedSignature": "RemoveRange|(IEnumerable_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9999,7 +9999,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Replace(T,T,IEqualityComparer_1):System.Void",
           "clrName": "Replace",
-          "tsEmitName": "replace2",
+          "tsEmitName": "replace",
           "normalizedSignature": "Replace|(T,T,IEqualityComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10031,7 +10031,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Reverse(System.Int32,System.Int32):System.Void",
           "clrName": "Reverse",
-          "tsEmitName": "reverse2",
+          "tsEmitName": "reverse",
           "normalizedSignature": "Reverse|(System.Int32,System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10063,7 +10063,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(Comparison_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort2",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(Comparison_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10079,7 +10079,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort3",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(IComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10095,7 +10095,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::Sort(System.Int32,System.Int32,IComparer_1):System.Void",
           "clrName": "Sort",
-          "tsEmitName": "sort4",
+          "tsEmitName": "sort",
           "normalizedSignature": "Sort|(System.Int32,System.Int32,IComparer_1):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10127,7 +10127,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::BinarySearch(T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(T,IComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10143,7 +10143,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder::BinarySearch(System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(System.Int32,System.Int32,T,IComparer_1):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10703,7 +10703,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue\u00601::Dequeue(T\u0026):ImmutableQueue_1",
           "clrName": "Dequeue",
-          "tsEmitName": "dequeue2",
+          "tsEmitName": "dequeue",
           "normalizedSignature": "Dequeue|(T\u0026):ImmutableQueue_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11044,7 +11044,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602::WithComparers(IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "WithComparers",
-          "tsEmitName": "withComparers2",
+          "tsEmitName": "withComparers",
           "normalizedSignature": "WithComparers|(IComparer_1):ImmutableSortedDictionary_2|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12017,7 +12017,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::Add(KeyValuePair_2):System.Void",
           "clrName": "Add",
-          "tsEmitName": "add2",
+          "tsEmitName": "add",
           "normalizedSignature": "Add|(KeyValuePair_2):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12065,7 +12065,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::Remove(KeyValuePair_2):System.Boolean",
           "clrName": "Remove",
-          "tsEmitName": "remove2",
+          "tsEmitName": "remove",
           "normalizedSignature": "Remove|(KeyValuePair_2):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12161,7 +12161,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary\u00602\u002BBuilder::GetValueOrDefault(TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "normalizedSignature": "GetValueOrDefault|(TKey,TValue):TValue|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14631,7 +14631,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack\u00601::Pop(T\u0026):ImmutableStack_1",
           "clrName": "Pop",
-          "tsEmitName": "pop2",
+          "tsEmitName": "pop",
           "normalizedSignature": "Pop|(T\u0026):ImmutableStack_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14828,7 +14828,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14844,7 +14844,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T,T):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14860,7 +14860,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T,T,T):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14876,7 +14876,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T,T,T,T):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T,T,T,T):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14892,7 +14892,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(ReadOnlySpan_1):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14908,7 +14908,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(Span_1):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(Span_1):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14940,7 +14940,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(Span_1):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray2",
+          "tsEmitName": "toImmutableArray",
           "normalizedSignature": "ToImmutableArray|(Span_1):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14972,7 +14972,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T[]):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14988,7 +14988,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(T[],System.Int32,System.Int32):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create9",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[],System.Int32,System.Int32):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15004,7 +15004,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::Create(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1",
           "clrName": "Create",
-          "tsEmitName": "create10",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ImmutableArray_1,System.Int32,System.Int32):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15020,7 +15020,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,Func_2):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,Func_2):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15036,7 +15036,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_2):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15052,7 +15052,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,Func_3,TArg):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange4",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,Func_3,TArg):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15068,7 +15068,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateRange(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange5",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(ImmutableArray_1,System.Int32,System.Int32,Func_3,TArg):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15100,7 +15100,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::CreateBuilder(System.Int32):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(System.Int32):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15116,7 +15116,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(IEnumerable_1):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray3",
+          "tsEmitName": "toImmutableArray",
           "normalizedSignature": "ToImmutableArray|(IEnumerable_1):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15132,7 +15132,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::ToImmutableArray(Builder):ImmutableArray_1",
           "clrName": "ToImmutableArray",
-          "tsEmitName": "toImmutableArray4",
+          "tsEmitName": "toImmutableArray",
           "normalizedSignature": "ToImmutableArray|(Builder):ImmutableArray_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15164,7 +15164,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch2",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,T,IComparer_1):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15180,7 +15180,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch3",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15196,7 +15196,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray::BinarySearch(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32",
           "clrName": "BinarySearch",
-          "tsEmitName": "binarySearch4",
+          "tsEmitName": "binarySearch",
           "normalizedSignature": "BinarySearch|(ImmutableArray_1,System.Int32,System.Int32,T,IComparer_1):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15245,7 +15245,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::Create(IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15261,7 +15261,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::Create(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15309,7 +15309,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRange(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15325,7 +15325,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRangeWithOverwrite(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2",
           "clrName": "CreateRangeWithOverwrite",
-          "tsEmitName": "createRangeWithOverwrite2",
+          "tsEmitName": "createRangeWithOverwrite",
           "normalizedSignature": "CreateRangeWithOverwrite|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15341,7 +15341,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateRange(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15373,7 +15373,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateBuilder(IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15389,7 +15389,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::CreateBuilder(IEqualityComparer_1,IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder3",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1,IEqualityComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15421,7 +15421,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(Builder):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary2",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(Builder):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15437,7 +15437,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary3",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15453,7 +15453,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary4",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15469,7 +15469,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary5",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15485,7 +15485,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary6",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15501,7 +15501,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary7",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15517,7 +15517,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary8",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1,IEqualityComparer_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15533,7 +15533,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::ToImmutableDictionary(IEnumerable_1):ImmutableDictionary_2",
           "clrName": "ToImmutableDictionary",
-          "tsEmitName": "toImmutableDictionary9",
+          "tsEmitName": "toImmutableDictionary",
           "normalizedSignature": "ToImmutableDictionary|(IEnumerable_1):ImmutableDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15581,7 +15581,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary::GetValueOrDefault(IImmutableDictionary_2,TKey,TValue):TValue",
           "clrName": "GetValueOrDefault",
-          "tsEmitName": "getValueOrDefault2",
+          "tsEmitName": "getValueOrDefault",
           "normalizedSignature": "GetValueOrDefault|(IImmutableDictionary_2,TKey,TValue):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15630,7 +15630,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15646,7 +15646,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(T):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15662,7 +15662,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,T):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1,T):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15694,7 +15694,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::CreateRange(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IEqualityComparer_1,IEnumerable_1):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15710,7 +15710,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(T[]):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15726,7 +15726,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(ReadOnlySpan_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15742,7 +15742,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,T[]):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1,T[]):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15758,7 +15758,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::Create(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IEqualityComparer_1,ReadOnlySpan_1):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15790,7 +15790,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::CreateBuilder(IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IEqualityComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15822,7 +15822,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::ToImmutableHashSet(Builder):ImmutableHashSet_1",
           "clrName": "ToImmutableHashSet",
-          "tsEmitName": "toImmutableHashSet2",
+          "tsEmitName": "toImmutableHashSet",
           "normalizedSignature": "ToImmutableHashSet|(Builder):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15838,7 +15838,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableHashSet::ToImmutableHashSet(IEnumerable_1):ImmutableHashSet_1",
           "clrName": "ToImmutableHashSet",
-          "tsEmitName": "toImmutableHashSet3",
+          "tsEmitName": "toImmutableHashSet",
           "normalizedSignature": "ToImmutableHashSet|(IEnumerable_1):ImmutableHashSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15887,7 +15887,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(T\u0026,Func_3,TArg):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update2",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(T\u0026,Func_3,TArg):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15903,7 +15903,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(ImmutableArray_1\u0026,Func_2):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update3",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(ImmutableArray_1\u0026,Func_2):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15919,7 +15919,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::Update(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean",
           "clrName": "Update",
-          "tsEmitName": "update4",
+          "tsEmitName": "update",
           "normalizedSignature": "Update|(ImmutableArray_1\u0026,Func_3,TArg):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15999,7 +15999,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::GetOrAdd(ImmutableDictionary_2\u0026,TKey,Func_2):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd2",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,Func_2):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16015,7 +16015,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::GetOrAdd(ImmutableDictionary_2\u0026,TKey,TValue):TValue",
           "clrName": "GetOrAdd",
-          "tsEmitName": "getOrAdd3",
+          "tsEmitName": "getOrAdd",
           "normalizedSignature": "GetOrAdd|(ImmutableDictionary_2\u0026,TKey,TValue):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16047,7 +16047,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableInterlocked::AddOrUpdate(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue",
           "clrName": "AddOrUpdate",
-          "tsEmitName": "addOrUpdate2",
+          "tsEmitName": "addOrUpdate",
           "normalizedSignature": "AddOrUpdate|(ImmutableDictionary_2\u0026,TKey,TValue,Func_3):TValue|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16208,7 +16208,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(T):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableList_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16240,7 +16240,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(T[]):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableList_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16256,7 +16256,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::Create(ReadOnlySpan_1):ImmutableList_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableList_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16304,7 +16304,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::ToImmutableList(Builder):ImmutableList_1",
           "clrName": "ToImmutableList",
-          "tsEmitName": "toImmutableList2",
+          "tsEmitName": "toImmutableList",
           "normalizedSignature": "ToImmutableList|(Builder):ImmutableList_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16384,7 +16384,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf2",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16400,7 +16400,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf3",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16416,7 +16416,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::IndexOf(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "clrName": "IndexOf",
-          "tsEmitName": "indexOf4",
+          "tsEmitName": "indexOf",
           "normalizedSignature": "IndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16448,7 +16448,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,IEqualityComparer_1):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf2",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,IEqualityComparer_1):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16464,7 +16464,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf3",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16480,7 +16480,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList::LastIndexOf(IImmutableList_1,T,System.Int32,System.Int32):System.Int32",
           "clrName": "LastIndexOf",
-          "tsEmitName": "lastIndexOf4",
+          "tsEmitName": "lastIndexOf",
           "normalizedSignature": "LastIndexOf|(IImmutableList_1,T,System.Int32,System.Int32):System.Int32|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16529,7 +16529,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(T):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableQueue_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16561,7 +16561,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(T[]):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableQueue_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16577,7 +16577,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue::Create(ReadOnlySpan_1):ImmutableQueue_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableQueue_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16642,7 +16642,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::Create(IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16658,7 +16658,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::Create(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16690,7 +16690,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateRange(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16706,7 +16706,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateRange(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange3",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IComparer_1,IEqualityComparer_1,IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16738,7 +16738,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateBuilder(IComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16754,7 +16754,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::CreateBuilder(IComparer_1,IEqualityComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder3",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IComparer_1,IEqualityComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16786,7 +16786,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(Builder):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary2",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(Builder):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16802,7 +16802,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary3",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2,IComparer_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16818,7 +16818,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary4",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,Func_2,Func_2):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16834,7 +16834,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary5",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1,IEqualityComparer_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16850,7 +16850,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary6",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1,IComparer_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16866,7 +16866,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedDictionary::ToImmutableSortedDictionary(IEnumerable_1):ImmutableSortedDictionary_2",
           "clrName": "ToImmutableSortedDictionary",
-          "tsEmitName": "toImmutableSortedDictionary7",
+          "tsEmitName": "toImmutableSortedDictionary",
           "normalizedSignature": "ToImmutableSortedDictionary|(IEnumerable_1):ImmutableSortedDictionary_2|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16915,7 +16915,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16931,7 +16931,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(T):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16947,7 +16947,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,T):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1,T):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16979,7 +16979,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::CreateRange(IComparer_1,IEnumerable_1):ImmutableSortedSet_1",
           "clrName": "CreateRange",
-          "tsEmitName": "createRange2",
+          "tsEmitName": "createRange",
           "normalizedSignature": "CreateRange|(IComparer_1,IEnumerable_1):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16995,7 +16995,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(T[]):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create5",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17011,7 +17011,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(ReadOnlySpan_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create6",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17027,7 +17027,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,T[]):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create7",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1,T[]):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17043,7 +17043,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::Create(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1",
           "clrName": "Create",
-          "tsEmitName": "create8",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(IComparer_1,ReadOnlySpan_1):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17075,7 +17075,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::CreateBuilder(IComparer_1):Builder",
           "clrName": "CreateBuilder",
-          "tsEmitName": "createBuilder2",
+          "tsEmitName": "createBuilder",
           "normalizedSignature": "CreateBuilder|(IComparer_1):Builder|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17107,7 +17107,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::ToImmutableSortedSet(IEnumerable_1):ImmutableSortedSet_1",
           "clrName": "ToImmutableSortedSet",
-          "tsEmitName": "toImmutableSortedSet2",
+          "tsEmitName": "toImmutableSortedSet",
           "normalizedSignature": "ToImmutableSortedSet|(IEnumerable_1):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17123,7 +17123,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet::ToImmutableSortedSet(Builder):ImmutableSortedSet_1",
           "clrName": "ToImmutableSortedSet",
-          "tsEmitName": "toImmutableSortedSet3",
+          "tsEmitName": "toImmutableSortedSet",
           "normalizedSignature": "ToImmutableSortedSet|(Builder):ImmutableSortedSet_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17172,7 +17172,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(T):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create2",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T):ImmutableStack_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17204,7 +17204,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(T[]):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create3",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(T[]):ImmutableStack_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17220,7 +17220,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableStack::Create(ReadOnlySpan_1):ImmutableStack_1",
           "clrName": "Create",
-          "tsEmitName": "create4",
+          "tsEmitName": "create",
           "normalizedSignature": "Create|(ReadOnlySpan_1):ImmutableStack_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

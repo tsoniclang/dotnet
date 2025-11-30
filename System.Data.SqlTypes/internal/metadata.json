@@ -368,7 +368,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBinary::CompareTo(System.Data.SqlTypes.SqlBinary):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlBinary):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -400,7 +400,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBinary::Equals(System.Data.SqlTypes.SqlBinary):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlBinary):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1011,7 +1011,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBoolean::CompareTo(System.Data.SqlTypes.SqlBoolean):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlBoolean):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1043,7 +1043,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBoolean::Equals(System.Data.SqlTypes.SqlBoolean):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlBoolean):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1790,7 +1790,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlByte::CompareTo(System.Data.SqlTypes.SqlByte):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlByte):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlByte::Equals(System.Data.SqlTypes.SqlByte):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlByte):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2254,7 +2254,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDateTime::CompareTo(System.Data.SqlTypes.SqlDateTime):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlDateTime):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2286,7 +2286,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDateTime::Equals(System.Data.SqlTypes.SqlDateTime):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlDateTime):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3127,7 +3127,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDecimal::CompareTo(System.Data.SqlTypes.SqlDecimal):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlDecimal):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3159,7 +3159,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDecimal::Equals(System.Data.SqlTypes.SqlDecimal):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlDecimal):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3860,7 +3860,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDouble::CompareTo(System.Data.SqlTypes.SqlDouble):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlDouble):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3892,7 +3892,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDouble::Equals(System.Data.SqlTypes.SqlDouble):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlDouble):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4324,7 +4324,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlGuid::CompareTo(System.Data.SqlTypes.SqlGuid):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlGuid):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4356,7 +4356,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlGuid::Equals(System.Data.SqlTypes.SqlGuid):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlGuid):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5049,7 +5049,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt16::CompareTo(System.Data.SqlTypes.SqlInt16):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlInt16):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5081,7 +5081,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt16::Equals(System.Data.SqlTypes.SqlInt16):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlInt16):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5769,7 +5769,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt32::CompareTo(System.Data.SqlTypes.SqlInt32):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlInt32):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5801,7 +5801,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt32::Equals(System.Data.SqlTypes.SqlInt32):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlInt32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6489,7 +6489,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt64::CompareTo(System.Data.SqlTypes.SqlInt64):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlInt64):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6521,7 +6521,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt64::Equals(System.Data.SqlTypes.SqlInt64):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlInt64):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7209,7 +7209,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlMoney::CompareTo(System.Data.SqlTypes.SqlMoney):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlMoney):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7241,7 +7241,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlMoney::Equals(System.Data.SqlTypes.SqlMoney):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlMoney):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7848,7 +7848,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlSingle::CompareTo(System.Data.SqlTypes.SqlSingle):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlSingle):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7880,7 +7880,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlSingle::Equals(System.Data.SqlTypes.SqlSingle):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlSingle):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8525,7 +8525,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::CompareTo(System.Data.SqlTypes.SqlString):System.Int32",
           "clrName": "CompareTo",
-          "tsEmitName": "compareTo2",
+          "tsEmitName": "compareTo",
           "normalizedSignature": "CompareTo|(System.Data.SqlTypes.SqlString):System.Int32|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8557,7 +8557,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::Equals(System.Data.SqlTypes.SqlString):System.Boolean",
           "clrName": "Equals",
-          "tsEmitName": "equals2",
+          "tsEmitName": "equals",
           "normalizedSignature": "Equals|(System.Data.SqlTypes.SqlString):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

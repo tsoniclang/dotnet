@@ -872,8 +872,8 @@ export type SslStream = SslStream$instance & __SslStream$views;
 export class SslStreamCertificateContext$instance {
     readonly intermediateCertificates: ReadOnlyCollection_1<X509Certificate2>;
     readonly targetCertificate: X509Certificate2;
-    static create2(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
-    static create2(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
+    static create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline?: boolean, trust?: SslCertificateTrust): SslStreamCertificateContext;
+    static create(target: X509Certificate2, additionalCertificates: X509Certificate2Collection, offline: boolean): SslStreamCertificateContext;
 }
 
 

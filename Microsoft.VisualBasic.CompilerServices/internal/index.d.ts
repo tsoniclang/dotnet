@@ -81,32 +81,32 @@ export class Conversions$instance {
     static fromCharAndCount(Value: char, Count: int): string;
     static fromCharArray(Value: char[]): string;
     static fromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
-    static toBoolean2(Value: unknown): boolean;
-    static toBoolean2(Value: string): boolean;
-    static toByte2(Value: unknown): byte;
-    static toByte2(Value: string): byte;
-    static toChar2(Value: unknown): char;
-    static toChar2(Value: string): char;
-    static toCharArrayRankOne2(Value: unknown): char[];
-    static toCharArrayRankOne2(Value: string): char[];
-    static toDate2(Value: unknown): DateTime;
-    static toDate2(Value: string): DateTime;
+    static toBoolean(Value: unknown): boolean;
+    static toBoolean(Value: string): boolean;
+    static toByte(Value: unknown): byte;
+    static toByte(Value: string): byte;
+    static toChar(Value: unknown): char;
+    static toChar(Value: string): char;
+    static toCharArrayRankOne(Value: unknown): char[];
+    static toCharArrayRankOne(Value: string): char[];
+    static toDate(Value: unknown): DateTime;
+    static toDate(Value: string): DateTime;
     static toDecimal(Value: boolean): decimal;
     static toDecimal(Value: unknown): decimal;
     static toDecimal(Value: string): decimal;
-    static toDouble2(Value: unknown): double;
-    static toDouble2(Value: string): double;
+    static toDouble(Value: unknown): double;
+    static toDouble(Value: string): double;
     static toGenericParameter<T>(Value: unknown): T;
-    static toInteger2(Value: unknown): int;
-    static toInteger2(Value: string): int;
-    static toLong2(Value: unknown): long;
-    static toLong2(Value: string): long;
-    static toSByte2(Value: unknown): sbyte;
-    static toSByte2(Value: string): sbyte;
-    static toShort2(Value: unknown): short;
-    static toShort2(Value: string): short;
-    static toSingle2(Value: unknown): float;
-    static toSingle2(Value: string): float;
+    static toInteger(Value: unknown): int;
+    static toInteger(Value: string): int;
+    static toLong(Value: unknown): long;
+    static toLong(Value: string): long;
+    static toSByte(Value: unknown): sbyte;
+    static toSByte(Value: string): sbyte;
+    static toShort(Value: unknown): short;
+    static toShort(Value: string): short;
+    static toSingle(Value: unknown): float;
+    static toSingle(Value: string): float;
     static toString(Value: boolean): string;
     static toString(Value: byte): string;
     static toString(Value: char): string;
@@ -123,12 +123,12 @@ export class Conversions$instance {
     static toString(Value: float): string;
     static toString(Value: uint): string;
     static toString(Value: ulong): string;
-    static toUInteger2(Value: unknown): uint;
-    static toUInteger2(Value: string): uint;
-    static toULong2(Value: unknown): ulong;
-    static toULong2(Value: string): ulong;
-    static toUShort2(Value: unknown): ushort;
-    static toUShort2(Value: string): ushort;
+    static toUInteger(Value: unknown): uint;
+    static toUInteger(Value: string): uint;
+    static toULong(Value: unknown): ulong;
+    static toULong(Value: string): ulong;
+    static toUShort(Value: unknown): ushort;
+    static toUShort(Value: string): ushort;
 }
 
 
@@ -136,8 +136,8 @@ export type Conversions = Conversions$instance;
 
 export class DateType$instance {
     static fromObject(Value: unknown): DateTime;
-    static fromString2(Value: string, culture: CultureInfo): DateTime;
-    static fromString2(Value: string): DateTime;
+    static fromString(Value: string, culture: CultureInfo): DateTime;
+    static fromString(Value: string): DateTime;
 }
 
 
@@ -145,10 +145,10 @@ export type DateType = DateType$instance;
 
 export class DecimalType$instance {
     static fromBoolean(Value: boolean): decimal;
-    static fromObject2(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
-    static fromObject2(Value: unknown): decimal;
-    static fromString2(Value: string, NumberFormat: NumberFormatInfo): decimal;
-    static fromString2(Value: string): decimal;
+    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
+    static fromObject(Value: unknown): decimal;
+    static fromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
+    static fromString(Value: string): decimal;
     static parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
 }
 
@@ -163,12 +163,12 @@ export class DesignerGeneratedAttribute$instance extends System_Internal.Attribu
 export type DesignerGeneratedAttribute = DesignerGeneratedAttribute$instance;
 
 export class DoubleType$instance {
-    static fromObject2(Value: unknown, NumberFormat: NumberFormatInfo): double;
-    static fromObject2(Value: unknown): double;
-    static fromString2(Value: string, NumberFormat: NumberFormatInfo): double;
-    static fromString2(Value: string): double;
-    static parse2(Value: string, NumberFormat: NumberFormatInfo): double;
-    static parse2(Value: string): double;
+    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
+    static fromObject(Value: unknown): double;
+    static fromString(Value: string, NumberFormat: NumberFormatInfo): double;
+    static fromString(Value: string): double;
+    static parse(Value: string, NumberFormat: NumberFormatInfo): double;
+    static parse(Value: string): double;
 }
 
 
@@ -240,8 +240,8 @@ export class NewLateBinding$instance {
     static lateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
     static lateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
     static lateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    static lateSet2(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
-    static lateSet2(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
+    static lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
+    static lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
     static lateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
 }
 
@@ -347,8 +347,8 @@ export class ProjectData$instance {
     static clearProjectError(): void;
     static createProjectError(hr: int): Exception;
     static endApp(): void;
-    static setProjectError2(ex: Exception, lErl: int): void;
-    static setProjectError2(ex: Exception): void;
+    static setProjectError(ex: Exception, lErl: int): void;
+    static setProjectError(ex: Exception): void;
 }
 
 
@@ -363,10 +363,10 @@ export class ShortType$instance {
 export type ShortType = ShortType$instance;
 
 export class SingleType$instance {
-    static fromObject2(Value: unknown, NumberFormat: NumberFormatInfo): float;
-    static fromObject2(Value: unknown): float;
-    static fromString2(Value: string, NumberFormat: NumberFormatInfo): float;
-    static fromString2(Value: string): float;
+    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
+    static fromObject(Value: unknown): float;
+    static fromString(Value: string, NumberFormat: NumberFormatInfo): float;
+    static fromString(Value: string): float;
 }
 
 
@@ -392,16 +392,16 @@ export class StringType$instance {
     static fromByte(Value: byte): string;
     static fromChar(Value: char): string;
     static fromDate(Value: DateTime): string;
-    static fromDecimal2(Value: decimal, NumberFormat: NumberFormatInfo): string;
-    static fromDecimal2(Value: decimal): string;
-    static fromDouble2(Value: double, NumberFormat: NumberFormatInfo): string;
-    static fromDouble2(Value: double): string;
+    static fromDecimal(Value: decimal, NumberFormat: NumberFormatInfo): string;
+    static fromDecimal(Value: decimal): string;
+    static fromDouble(Value: double, NumberFormat: NumberFormatInfo): string;
+    static fromDouble(Value: double): string;
     static fromInteger(Value: int): string;
     static fromLong(Value: long): string;
     static fromObject(Value: unknown): string;
     static fromShort(Value: short): string;
-    static fromSingle2(Value: float, NumberFormat: NumberFormatInfo): string;
-    static fromSingle2(Value: float): string;
+    static fromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
+    static fromSingle(Value: float): string;
     static midStmtStr(sDest: { value: ref<string> }, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
     static strCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
     static strLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;

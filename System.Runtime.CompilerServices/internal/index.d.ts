@@ -1385,14 +1385,14 @@ export class UnsafeValueTypeAttribute$instance extends System_Internal.Attribute
 export type UnsafeValueTypeAttribute = UnsafeValueTypeAttribute$instance;
 
 export abstract class AsyncHelpers$instance {
-    static await_7<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
-    static await_7<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
-    static await_7(configuredAwaitable: ConfiguredTaskAwaitable): void;
-    static await_7(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
-    static await_7(task: Task): void;
-    static await_7(task: ValueTask): void;
-    static await_7<T>(task: Task_1<T>): T;
-    static await_7<T>(task: ValueTask_1<T>): T;
+    static await_<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
+    static await_<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
+    static await_(configuredAwaitable: ConfiguredTaskAwaitable): void;
+    static await_(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
+    static await_(task: Task): void;
+    static await_(task: ValueTask): void;
+    static await_<T>(task: Task_1<T>): T;
+    static await_<T>(task: ValueTask_1<T>): T;
     static awaitAwaiter<TAwaiter extends INotifyCompletion>(awaiter: TAwaiter): void;
     static unsafeAwaitAwaiter<TAwaiter extends ICriticalNotifyCompletion>(awaiter: TAwaiter): void;
 }
@@ -1558,8 +1558,8 @@ export abstract class RuntimeHelpers$instance {
     static prepareConstrainedRegionsNoOP(): void;
     static prepareContractedDelegate(d: Function): void;
     static prepareDelegate(d: Function): void;
-    static prepareMethod2(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
-    static prepareMethod2(method: RuntimeMethodHandle): void;
+    static prepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
+    static prepareMethod(method: RuntimeMethodHandle): void;
     static probeForSufficientStack(): void;
     static runClassConstructor(type_: RuntimeTypeHandle): void;
     static runModuleConstructor(module_: ModuleHandle): void;
@@ -1571,8 +1571,8 @@ export abstract class RuntimeHelpers$instance {
 export type RuntimeHelpers = RuntimeHelpers$instance;
 
 export abstract class RuntimeOps$instance {
-    static createRuntimeVariables2(): IRuntimeVariables;
-    static createRuntimeVariables2(data: unknown[], indexes: long[]): IRuntimeVariables;
+    static createRuntimeVariables(): IRuntimeVariables;
+    static createRuntimeVariables(data: unknown[], indexes: long[]): IRuntimeVariables;
     static expandoCheckVersion(expando: ExpandoObject, version: unknown): boolean;
     static expandoPromoteClass(expando: ExpandoObject, oldClass: unknown, newClass: unknown): void;
     static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean): boolean;
@@ -1586,12 +1586,12 @@ export abstract class RuntimeOps$instance {
 export type RuntimeOps = RuntimeOps$instance;
 
 export abstract class Unsafe$instance {
-    static add3<T>(source: ptr<void>, elementOffset: int): ptr<void>;
-    static add3<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
-    static add3<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
-    static add3<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
-    static addByteOffset2<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
-    static addByteOffset2<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
+    static add<T>(source: ptr<void>, elementOffset: int): ptr<void>;
+    static add<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
+    static add<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
+    static add<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
+    static addByteOffset<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
+    static addByteOffset<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
     static areSame<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
     static as_<T>(o: unknown): T;
     static as_<TFrom, TTo>(source: { value: ref<TFrom> }): ref<TTo>;
@@ -1602,14 +1602,14 @@ export abstract class Unsafe$instance {
     static byteOffset<T>(origin: { value: ref<T> }, target: { value: ref<T> }): nint;
     static copy<T>(destination: ptr<void>, source: { value: ref<T> }): void;
     static copy<T>(destination: { value: ref<T> }, source: ptr<void>): void;
-    static copyBlock2(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
-    static copyBlock2(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
-    static copyBlockUnaligned2(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
-    static copyBlockUnaligned2(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
-    static initBlock2(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
-    static initBlock2(startAddress: ptr<void>, value: byte, byteCount: uint): void;
-    static initBlockUnaligned2(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
-    static initBlockUnaligned2(startAddress: ptr<void>, value: byte, byteCount: uint): void;
+    static copyBlock(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
+    static copyBlock(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
+    static copyBlockUnaligned(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
+    static copyBlockUnaligned(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
+    static initBlock(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
+    static initBlock(startAddress: ptr<void>, value: byte, byteCount: uint): void;
+    static initBlockUnaligned(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
+    static initBlockUnaligned(startAddress: ptr<void>, value: byte, byteCount: uint): void;
     static isAddressGreaterThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
     static isAddressGreaterThanOrEqualTo<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
     static isAddressLessThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
@@ -1617,20 +1617,20 @@ export abstract class Unsafe$instance {
     static isNullRef<T>(source: { value: ref<T> }): boolean;
     static nullRef<T>(): ref<T>;
     static read<T>(source: ptr<void>): T;
-    static readUnaligned2<T>(source: { value: ref<byte> }): T;
-    static readUnaligned2<T>(source: ptr<void>): T;
+    static readUnaligned<T>(source: { value: ref<byte> }): T;
+    static readUnaligned<T>(source: ptr<void>): T;
     static sizeOf<T>(): int;
     static skipInit<T>(value: { value: ref<T> }): void;
-    static subtract2<T>(source: ptr<void>, elementOffset: int): ptr<void>;
-    static subtract2<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
-    static subtract2<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
-    static subtract2<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
+    static subtract<T>(source: ptr<void>, elementOffset: int): ptr<void>;
+    static subtract<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
+    static subtract<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
+    static subtract<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
     static subtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
     static subtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
     static unbox<T extends unknown>(box: unknown): ref<T>;
     static write<T>(destination: ptr<void>, value: T): void;
-    static writeUnaligned2<T>(destination: { value: ref<byte> }, value: T): void;
-    static writeUnaligned2<T>(destination: ptr<void>, value: T): void;
+    static writeUnaligned<T>(destination: { value: ref<byte> }, value: T): void;
+    static writeUnaligned<T>(destination: ptr<void>, value: T): void;
 }
 
 

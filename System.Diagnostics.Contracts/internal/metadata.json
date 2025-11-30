@@ -749,7 +749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
           "clrName": "Assume",
-          "tsEmitName": "assume2",
+          "tsEmitName": "assume",
           "normalizedSignature": "Assume|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -781,7 +781,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
-          "tsEmitName": "assert2",
+          "tsEmitName": "assert",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -813,7 +813,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
           "clrName": "Requires",
-          "tsEmitName": "requires2",
+          "tsEmitName": "requires",
           "normalizedSignature": "Requires|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -845,7 +845,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
           "clrName": "Ensures",
-          "tsEmitName": "ensures2",
+          "tsEmitName": "ensures",
           "normalizedSignature": "Ensures|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
           "clrName": "EnsuresOnThrow",
-          "tsEmitName": "ensuresOnThrow2",
+          "tsEmitName": "ensuresOnThrow",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -957,7 +957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
           "clrName": "Invariant",
-          "tsEmitName": "invariant2",
+          "tsEmitName": "invariant",
           "normalizedSignature": "Invariant|(System.Boolean,System.String):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -989,7 +989,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "ForAll",
-          "tsEmitName": "forAll2",
+          "tsEmitName": "forAll",
           "normalizedSignature": "ForAll|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1021,7 +1021,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "Exists",
-          "tsEmitName": "exists2",
+          "tsEmitName": "exists",
           "normalizedSignature": "Exists|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
