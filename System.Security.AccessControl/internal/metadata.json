@@ -23,7 +23,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlActions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -76,7 +76,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlModification::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -156,7 +156,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlSections::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -236,7 +236,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -280,7 +280,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceFlags::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -396,7 +396,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceQualifier::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -458,7 +458,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AceType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -646,7 +646,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AuditFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -699,7 +699,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.CompoundAceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -734,7 +734,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ControlFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -913,7 +913,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1002,7 +1002,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1235,7 +1235,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.InheritanceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1288,7 +1288,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1377,7 +1377,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ObjectAceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1430,7 +1430,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.PropagationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1483,7 +1483,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistryRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1635,7 +1635,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ResourceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1778,7 +1778,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.SecurityInfos::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1840,7 +1840,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreRights::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

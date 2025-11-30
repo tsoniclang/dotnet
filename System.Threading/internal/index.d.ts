@@ -51,8 +51,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum ApartmentState {
-    sta = 0,
-    mta = 1,
+    STA = 0,
+    MTA = 1,
     unknown_ = 2
 }
 

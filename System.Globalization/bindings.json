@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarAlgorithmType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110939,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarWeekRule::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110984,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1583,7 +1583,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111013,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2461,7 +2461,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2584,7 +2584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111188,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3387,7 +3387,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3490,7 +3490,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111307,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4315,7 +4315,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4438,7 +4438,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DigitShapes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111324,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5186,7 +5186,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5239,7 +5239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendarTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111347,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6020,7 +6020,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6103,7 +6103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111486,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7027,7 +7027,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7240,7 +7240,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TimeSpanStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111614,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7977,7 +7977,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8020,7 +8020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UnicodeCategory::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111623,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9065,7 +9065,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12168,7 +12168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878350,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -12867,7 +12867,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {
@@ -13226,7 +13226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878423,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -13822,7 +13822,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {
@@ -14942,7 +14942,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeFormatInfo::RFC1123Pattern:System.String",
           "clrName": "RFC1123Pattern",
-          "tsEmitName": "rfc1123Pattern",
+          "tsEmitName": "rfC1123Pattern",
           "metadataToken": 385878472,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RFC1123Pattern|:System.String|static=false|accessor=get",
@@ -15532,7 +15532,7 @@
           }
         },
         {
-          "tsName": "rfc1123Pattern",
+          "tsName": "rfC1123Pattern",
           "isStatic": false,
           "tsSignatureId": "RFC1123Pattern|:System.String|static=false|accessor=get",
           "target": {
@@ -30282,7 +30282,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TextInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878689,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -30547,7 +30547,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {

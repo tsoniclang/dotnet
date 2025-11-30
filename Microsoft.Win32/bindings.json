@@ -13,7 +13,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryHive::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108871,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -877,7 +877,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKeyPermissionCheck::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108878,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1625,7 +1625,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1678,7 +1678,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108882,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2415,7 +2415,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2458,7 +2458,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108885,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3261,7 +3261,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3364,7 +3364,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108894,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4101,7 +4101,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4144,7 +4144,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryView::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108897,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4892,7 +4892,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

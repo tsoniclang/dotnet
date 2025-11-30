@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67113235,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -772,7 +772,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -835,7 +835,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67113253,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1627,7 +1627,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

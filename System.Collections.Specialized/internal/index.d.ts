@@ -66,15 +66,15 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem(index: int): unknown;
-    getItem(key: unknown): unknown;
+    get_Item(index: int): unknown;
+    get_Item(key: unknown): unknown;
     getEnumerator(): IDictionaryEnumerator;
     getEnumerator(): IEnumerator;
     insert(index: int, key: unknown, value: unknown): void;
     remove(key: unknown): void;
     removeAt(index: int): void;
-    setItem(index: int, value: unknown): void;
-    setItem(key: unknown, value: unknown): void;
+    set_Item(index: int, value: unknown): void;
+    set_Item(key: unknown, value: unknown): void;
 }
 
 
@@ -86,11 +86,11 @@ export class BitVector32$instance {
     readonly data: int;
     equals(o: unknown): boolean;
     equals(other: BitVector32): boolean;
-    getItem(bit: int): boolean;
-    getItem(section: BitVector32_Section): int;
+    get_Item(bit: int): boolean;
+    get_Item(section: BitVector32_Section): int;
     getHashCode(): int;
-    setItem(bit: int, value: boolean): void;
-    setItem(section: BitVector32_Section, value: int): void;
+    set_Item(bit: int, value: boolean): void;
+    set_Item(section: BitVector32_Section, value: int): void;
     toString(): string;
     static createMask(): int;
     static createMask(previous: int): int;
@@ -265,8 +265,8 @@ export class NameValueCollection$instance extends NameObjectCollectionBase$insta
     copyTo(dest: ClrArray, index: int): void;
     get_(name: string): string;
     get_(index: int): string;
-    getItem(name: string): string;
-    getItem(index: int): string;
+    get_Item(name: string): string;
+    get_Item(index: int): string;
     getEnumerator(): IEnumerator;
     getKey(index: int): string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -276,7 +276,7 @@ export class NameValueCollection$instance extends NameObjectCollectionBase$insta
     onDeserialization(sender: unknown): void;
     remove(name: string): void;
     set_(name: string, value: string): void;
-    setItem(name: string, value: string): void;
+    set_Item(name: string, value: string): void;
 }
 
 
@@ -346,15 +346,15 @@ export class OrderedDictionary$instance {
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem(index: int): unknown;
-    getItem(key: unknown): unknown;
+    get_Item(index: int): unknown;
+    get_Item(key: unknown): unknown;
     getEnumerator(): IDictionaryEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     insert(index: int, key: unknown, value: unknown): void;
     remove(key: unknown): void;
     removeAt(index: int): void;
-    setItem(index: int, value: unknown): void;
-    setItem(key: unknown, value: unknown): void;
+    set_Item(index: int, value: unknown): void;
+    set_Item(key: unknown, value: unknown): void;
 }
 
 

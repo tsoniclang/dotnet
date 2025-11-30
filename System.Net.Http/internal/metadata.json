@@ -20,7 +20,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.ClientCertificateOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpCompletionOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -108,7 +108,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpKeepAlivePingPolicy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -152,7 +152,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestError::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -286,7 +286,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpVersionPolicy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

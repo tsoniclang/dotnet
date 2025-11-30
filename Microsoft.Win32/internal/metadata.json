@@ -20,7 +20,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryHive::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKeyPermissionCheck::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -197,7 +197,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -295,7 +295,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryView::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

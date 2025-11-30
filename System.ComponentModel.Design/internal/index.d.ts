@@ -390,7 +390,7 @@ export type CheckoutException = CheckoutException$instance & __CheckoutException
 export class CommandID$instance {
     constructor(menuGroup: Guid, commandID: int);
     readonly guid: Guid;
-    readonly id: int;
+    readonly ID: int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
@@ -572,8 +572,8 @@ export class DesignerOptionService_DesignerOptionCollection$instance {
     readonly parent: DesignerOptionService_DesignerOptionCollection;
     readonly properties: PropertyDescriptorCollection;
     copyTo(array: ClrArray, index: int): void;
-    getItem(index: int): DesignerOptionService_DesignerOptionCollection;
-    getItem(name: string): DesignerOptionService_DesignerOptionCollection;
+    get_Item(index: int): DesignerOptionService_DesignerOptionCollection;
+    get_Item(name: string): DesignerOptionService_DesignerOptionCollection;
     getEnumerator(): IEnumerator;
     indexOf(value: DesignerOptionService_DesignerOptionCollection): int;
     showDialog(): boolean;

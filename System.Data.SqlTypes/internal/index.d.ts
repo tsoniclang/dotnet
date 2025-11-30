@@ -768,7 +768,7 @@ export class SqlString$instance {
     readonly compareInfo: CompareInfo;
     readonly cultureInfo: CultureInfo;
     readonly isNull: boolean;
-    readonly lcid: int;
+    readonly LCID: int;
     readonly sqlCompareOptions: SqlCompareOptions;
     readonly value: string;
     clone(): SqlString;

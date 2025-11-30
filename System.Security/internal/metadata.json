@@ -21,7 +21,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

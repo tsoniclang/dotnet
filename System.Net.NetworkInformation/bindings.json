@@ -13,7 +13,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.DuplicateAddressDetectionState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108995,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -783,7 +783,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -856,7 +856,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.IPStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108972,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1835,7 +1835,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2098,7 +2098,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetBiosNodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109004,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2868,7 +2868,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2941,7 +2941,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterfaceComponent::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109028,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3678,7 +3678,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3721,7 +3721,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterfaceType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109031,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4744,7 +4744,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5047,7 +5047,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.OperationalStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109060,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5839,7 +5839,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5932,7 +5932,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.PrefixOrigin::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109071,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -6702,7 +6702,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6775,7 +6775,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.ScopeLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109077,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7578,7 +7578,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7681,7 +7681,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.SuffixOrigin::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109086,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8462,7 +8462,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -8545,7 +8545,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109093,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9403,7 +9403,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

@@ -550,13 +550,13 @@ export abstract class Encoding$instance {
     tryGetBytes(chars: ReadOnlySpan_1<CLROf<char>>, bytes: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
     tryGetChars(bytes: ReadOnlySpan_1<CLROf<byte>>, chars: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
     static readonly default_: Encoding;
-    static readonly ascii: Encoding;
+    static readonly ASCII: Encoding;
     static readonly latin1: Encoding;
     static readonly unicode: Encoding;
     static readonly bigEndianUnicode: Encoding;
-    static readonly utf7: Encoding;
-    static readonly utf8: Encoding;
-    static readonly utf32: Encoding;
+    static readonly UTF7: Encoding;
+    static readonly UTF8: Encoding;
+    static readonly UTF32: Encoding;
     static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[], index: int, count: int): byte[];
     static convert2(srcEncoding: Encoding, dstEncoding: Encoding, bytes: byte[]): byte[];
     static createTranscodingStream(innerStream: Stream, innerStreamEncoding: Encoding, outerStreamEncoding: Encoding, leaveOpen?: boolean): Stream;

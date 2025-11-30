@@ -20,7 +20,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailPriority::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -188,7 +188,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpDeliveryMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -241,7 +241,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.SmtpStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -4165,7 +4165,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::CC:System.Net.Mail.MailAddressCollection",
           "clrName": "CC",
-          "tsEmitName": "cc",
+          "tsEmitName": "CC",
           "normalizedSignature": "CC|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

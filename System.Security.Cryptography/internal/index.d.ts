@@ -55,11 +55,11 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum CipherMode {
-    cbc = 1,
-    ecb = 2,
-    ofb = 3,
-    cfb = 4,
-    cts = 5
+    CBC = 1,
+    ECB = 2,
+    OFB = 3,
+    CFB = 4,
+    CTS = 5
 }
 
 
@@ -195,10 +195,10 @@ export enum OidGroup {
 
 export enum PaddingMode {
     none = 1,
-    pkcs7 = 2,
+    PKCS7 = 2,
     zeros = 3,
-    ansix923 = 4,
-    iso10126 = 5
+    ANSIX923 = 4,
+    ISO10126 = 5
 }
 
 
@@ -269,12 +269,12 @@ export type CngProperty = CngProperty$instance & __CngProperty$views;
 
 
 export class DSAParameters$instance {
-    p: byte[];
-    q: byte[];
-    g: byte[];
-    y: byte[];
-    j: byte[];
-    x: byte[];
+    P: byte[];
+    Q: byte[];
+    G: byte[];
+    Y: byte[];
+    J: byte[];
+    X: byte[];
     seed: byte[];
     counter: int;
 }
@@ -283,9 +283,9 @@ export class DSAParameters$instance {
 export type DSAParameters = DSAParameters$instance;
 
 export class ECCurve$instance {
-    a: byte[];
-    b: byte[];
-    g: ECPoint;
+    A: byte[];
+    B: byte[];
+    G: ECPoint;
     order: byte[];
     cofactor: byte[];
     seed: byte[];
@@ -308,8 +308,8 @@ export class ECCurve$instance {
 export type ECCurve = ECCurve$instance;
 
 export class ECParameters$instance {
-    q: ECPoint;
-    d: byte[];
+    Q: ECPoint;
+    D: byte[];
     curve: ECCurve;
     validate(): void;
 }
@@ -318,8 +318,8 @@ export class ECParameters$instance {
 export type ECParameters = ECParameters$instance;
 
 export class ECPoint$instance {
-    x: byte[];
-    y: byte[];
+    X: byte[];
+    Y: byte[];
 }
 
 
@@ -332,14 +332,14 @@ export class HashAlgorithmName$instance {
     equals(other: HashAlgorithmName): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly md5: HashAlgorithmName;
-    static readonly sha1: HashAlgorithmName;
-    static readonly sha256: HashAlgorithmName;
-    static readonly sha384: HashAlgorithmName;
-    static readonly sha512: HashAlgorithmName;
-    static readonly sha3256: HashAlgorithmName;
-    static readonly sha3384: HashAlgorithmName;
-    static readonly sha3512: HashAlgorithmName;
+    static readonly MD5: HashAlgorithmName;
+    static readonly SHA1: HashAlgorithmName;
+    static readonly SHA256: HashAlgorithmName;
+    static readonly SHA384: HashAlgorithmName;
+    static readonly SHA512: HashAlgorithmName;
+    static readonly SHA3_256: HashAlgorithmName;
+    static readonly SHA3_384: HashAlgorithmName;
+    static readonly SHA3_512: HashAlgorithmName;
     static fromOid(oidValue: string): HashAlgorithmName;
     static tryFromOid(oidValue: string, value: { value: ref<HashAlgorithmName> }): boolean;
 }
@@ -366,14 +366,14 @@ export class PemFields$instance {
 export type PemFields = PemFields$instance;
 
 export class RSAParameters$instance {
-    d: byte[];
-    dp: byte[];
-    dq: byte[];
+    D: byte[];
+    DP: byte[];
+    DQ: byte[];
     exponent: byte[];
     inverseQ: byte[];
     modulus: byte[];
-    p: byte[];
-    q: byte[];
+    P: byte[];
+    Q: byte[];
 }
 
 
@@ -449,7 +449,7 @@ export class AesCryptoServiceProvider$instance extends Aes$instance {
     constructor();
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];
@@ -503,7 +503,7 @@ export class AesManaged$instance extends Aes$instance {
     constructor();
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];
@@ -717,7 +717,7 @@ export class CngAlgorithm$instance {
     static readonly ecDsaP256: CngAlgorithm;
     static readonly ecDsaP384: CngAlgorithm;
     static readonly ecDsaP521: CngAlgorithm;
-    static readonly md5: CngAlgorithm;
+    static readonly MD5: CngAlgorithm;
     static readonly sha1: CngAlgorithm;
     static readonly sha256: CngAlgorithm;
     static readonly sha384: CngAlgorithm;
@@ -1217,7 +1217,7 @@ export class DESCryptoServiceProvider$instance extends DES$instance {
     constructor();
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];
@@ -2585,8 +2585,8 @@ export class OidCollection$instance {
     readonly syncRoot: unknown;
     add(oid: Oid): int;
     copyTo(array: Oid[], index: int): void;
-    getItem(index: int): Oid;
-    getItem(oid: string): Oid;
+    get_Item(index: int): Oid;
+    get_Item(oid: string): Oid;
     getEnumerator(): OidEnumerator;
 }
 
@@ -2708,7 +2708,7 @@ export class RC2CryptoServiceProvider$instance extends RC2$instance {
     blockSize: int;
     effectiveKeySize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];
@@ -2781,7 +2781,7 @@ export class RijndaelManaged$instance extends Rijndael$instance {
     constructor();
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalKeySizes: KeySizes[];
@@ -2997,9 +2997,9 @@ export class RSAEncryptionPadding$instance {
     static readonly oaepSHA256: RSAEncryptionPadding;
     static readonly oaepSHA384: RSAEncryptionPadding;
     static readonly oaepSHA512: RSAEncryptionPadding;
-    static readonly oaepsha3256: RSAEncryptionPadding;
-    static readonly oaepsha3384: RSAEncryptionPadding;
-    static readonly oaepsha3512: RSAEncryptionPadding;
+    static readonly OaepSHA3_256: RSAEncryptionPadding;
+    static readonly OaepSHA3_384: RSAEncryptionPadding;
+    static readonly OaepSHA3_512: RSAEncryptionPadding;
     static createOaep(hashAlgorithm: HashAlgorithmName): RSAEncryptionPadding;
 }
 
@@ -3106,7 +3106,7 @@ export class RSAPKCS1KeyExchangeDeformatter$instance extends AsymmetricKeyExchan
     constructor();
     constructor(key: AsymmetricAlgorithm);
     parameters: string;
-    rng: RandomNumberGenerator;
+    RNG: RandomNumberGenerator;
     decryptKeyExchange(rgbIn: byte[]): byte[];
     setKey(key: AsymmetricAlgorithm): void;
 }
@@ -3657,17 +3657,17 @@ export class SlhDsaAlgorithm$instance {
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly slhdsasha2128s: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_128s: SlhDsaAlgorithm;
     static readonly slhDsaShake128s: SlhDsaAlgorithm;
-    static readonly slhdsasha2128f: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_128f: SlhDsaAlgorithm;
     static readonly slhDsaShake128f: SlhDsaAlgorithm;
-    static readonly slhdsasha2192s: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_192s: SlhDsaAlgorithm;
     static readonly slhDsaShake192s: SlhDsaAlgorithm;
-    static readonly slhdsasha2192f: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_192f: SlhDsaAlgorithm;
     static readonly slhDsaShake192f: SlhDsaAlgorithm;
-    static readonly slhdsasha2256s: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_256s: SlhDsaAlgorithm;
     static readonly slhDsaShake256s: SlhDsaAlgorithm;
-    static readonly slhdsasha2256f: SlhDsaAlgorithm;
+    static readonly SlhDsaSha2_256f: SlhDsaAlgorithm;
     static readonly slhDsaShake256f: SlhDsaAlgorithm;
 }
 
@@ -3741,7 +3741,7 @@ export type SP800108HmacCounterKdf = SP800108HmacCounterKdf$instance & __SP80010
 export abstract class SymmetricAlgorithm$instance {
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];
@@ -3860,7 +3860,7 @@ export class TripleDESCryptoServiceProvider$instance extends TripleDES$instance 
     constructor();
     blockSize: int;
     feedbackSize: int;
-    iv: byte[];
+    IV: byte[];
     key: byte[];
     keySize: int;
     readonly legalBlockSizes: KeySizes[];

@@ -64,7 +64,7 @@ export enum AssemblyFlags {
 
 export enum AssemblyHashAlgorithm {
     none = 0,
-    md5 = 32771,
+    MD5 = 32771,
     sha1 = 32772,
     sha256 = 32780,
     sha384 = 32781,
@@ -182,10 +182,10 @@ export enum GenericParameterAttributes {
 
 
 export enum ImageFileMachine {
-    i386 = 332,
-    ia64 = 512,
-    amd64 = 34404,
-    arm = 452
+    I386 = 332,
+    IA64 = 512,
+    AMD64 = 34404,
+    ARM = 452
 }
 
 
@@ -239,9 +239,9 @@ export enum MethodAttributes {
 
 export enum MethodImplAttributes {
     codeTypeMask = 3,
-    il = 0,
+    IL = 0,
     native = 1,
-    optil = 2,
+    OPTIL = 2,
     runtime = 3,
     managedMask = 4,
     unmanaged = 4,
@@ -318,7 +318,7 @@ export enum PortableExecutableKinds {
     notAPortableExecutableImage = 0,
     ilOnly = 1,
     required32Bit = 2,
-    pe32Plus = 4,
+    pE32Plus = 4,
     unmanaged32Bit = 8,
     preferred32Bit = 16
 }
@@ -326,9 +326,9 @@ export enum PortableExecutableKinds {
 
 export enum ProcessorArchitecture {
     none = 0,
-    msil = 1,
-    x86 = 2,
-    ia64 = 3,
+    MSIL = 1,
+    X86 = 2,
+    IA64 = 3,
     amd64 = 4,
     arm = 5
 }
@@ -1501,7 +1501,7 @@ export class TypeDelegator$instance extends TypeInfo$instance {
     readonly assemblyQualifiedName: string;
     readonly baseType: Type;
     readonly fullName: string;
-    readonly guid: Guid;
+    readonly GUID: Guid;
     readonly isByRefLike: boolean;
     readonly isCollectible: boolean;
     readonly isConstructedGenericType: boolean;

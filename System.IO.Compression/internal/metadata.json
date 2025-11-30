@@ -22,7 +22,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.CompressionLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -84,7 +84,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.CompressionMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZipArchiveMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -181,7 +181,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibCompressionStrategy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

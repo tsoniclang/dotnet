@@ -60,7 +60,7 @@ export enum FlowControl {
     branch = 0,
     break_ = 1,
     call = 2,
-    condBranch = 3,
+    Cond_Branch = 3,
     meta = 4,
     next = 5,
     phi = 6,
@@ -124,25 +124,25 @@ export enum PEFileKinds {
 export enum StackBehaviour {
     pop0 = 0,
     pop1 = 1,
-    pop1Pop1 = 2,
+    Pop1_pop1 = 2,
     popi = 3,
-    popiPop1 = 4,
-    popiPopi = 5,
-    popiPopi8 = 6,
-    popiPopiPopi = 7,
-    popiPopr4 = 8,
-    popiPopr8 = 9,
+    Popi_pop1 = 4,
+    Popi_popi = 5,
+    Popi_popi8 = 6,
+    Popi_popi_popi = 7,
+    Popi_popr4 = 8,
+    Popi_popr8 = 9,
     popref = 10,
-    poprefPop1 = 11,
-    poprefPopi = 12,
-    poprefPopiPopi = 13,
-    poprefPopiPopi8 = 14,
-    poprefPopiPopr4 = 15,
-    poprefPopiPopr8 = 16,
-    poprefPopiPopref = 17,
+    Popref_pop1 = 11,
+    Popref_popi = 12,
+    Popref_popi_popi = 13,
+    Popref_popi_popi8 = 14,
+    Popref_popi_popr4 = 15,
+    Popref_popi_popr8 = 16,
+    Popref_popi_popref = 17,
     push0 = 18,
     push1 = 19,
-    push1Push1 = 20,
+    Push1_push1 = 20,
     pushi = 21,
     pushi8 = 22,
     pushr4 = 23,
@@ -150,7 +150,7 @@ export enum StackBehaviour {
     pushref = 25,
     varpop = 26,
     varpush = 27,
-    poprefPopiPop1 = 28
+    Popref_popi_pop1 = 28
 }
 
 
@@ -611,59 +611,59 @@ export type ModuleBuilder = ModuleBuilder$instance & __ModuleBuilder$views;
 export class OpCodes$instance {
     static readonly nop: OpCode;
     static readonly break_: OpCode;
-    static readonly ldarg0: OpCode;
-    static readonly ldarg1: OpCode;
-    static readonly ldarg2: OpCode;
-    static readonly ldarg3: OpCode;
-    static readonly ldloc0: OpCode;
-    static readonly ldloc1: OpCode;
-    static readonly ldloc2: OpCode;
-    static readonly ldloc3: OpCode;
-    static readonly stloc0: OpCode;
-    static readonly stloc1: OpCode;
-    static readonly stloc2: OpCode;
-    static readonly stloc3: OpCode;
-    static readonly ldargS: OpCode;
-    static readonly ldargaS: OpCode;
-    static readonly stargS: OpCode;
-    static readonly ldlocS: OpCode;
-    static readonly ldlocaS: OpCode;
-    static readonly stlocS: OpCode;
+    static readonly Ldarg_0: OpCode;
+    static readonly Ldarg_1: OpCode;
+    static readonly Ldarg_2: OpCode;
+    static readonly Ldarg_3: OpCode;
+    static readonly Ldloc_0: OpCode;
+    static readonly Ldloc_1: OpCode;
+    static readonly Ldloc_2: OpCode;
+    static readonly Ldloc_3: OpCode;
+    static readonly Stloc_0: OpCode;
+    static readonly Stloc_1: OpCode;
+    static readonly Stloc_2: OpCode;
+    static readonly Stloc_3: OpCode;
+    static readonly Ldarg_S: OpCode;
+    static readonly Ldarga_S: OpCode;
+    static readonly Starg_S: OpCode;
+    static readonly Ldloc_S: OpCode;
+    static readonly Ldloca_S: OpCode;
+    static readonly Stloc_S: OpCode;
     static readonly ldnull: OpCode;
-    static readonly ldcI4M1: OpCode;
-    static readonly ldcI40: OpCode;
-    static readonly ldcI41: OpCode;
-    static readonly ldcI42: OpCode;
-    static readonly ldcI43: OpCode;
-    static readonly ldcI44: OpCode;
-    static readonly ldcI45: OpCode;
-    static readonly ldcI46: OpCode;
-    static readonly ldcI47: OpCode;
-    static readonly ldcI48: OpCode;
-    static readonly ldcI4S: OpCode;
-    static readonly ldcI4: OpCode;
-    static readonly ldcI8: OpCode;
-    static readonly ldcR4: OpCode;
-    static readonly ldcR8: OpCode;
+    static readonly Ldc_I4_M1: OpCode;
+    static readonly Ldc_I4_0: OpCode;
+    static readonly Ldc_I4_1: OpCode;
+    static readonly Ldc_I4_2: OpCode;
+    static readonly Ldc_I4_3: OpCode;
+    static readonly Ldc_I4_4: OpCode;
+    static readonly Ldc_I4_5: OpCode;
+    static readonly Ldc_I4_6: OpCode;
+    static readonly Ldc_I4_7: OpCode;
+    static readonly Ldc_I4_8: OpCode;
+    static readonly Ldc_I4_S: OpCode;
+    static readonly Ldc_I4: OpCode;
+    static readonly Ldc_I8: OpCode;
+    static readonly Ldc_R4: OpCode;
+    static readonly Ldc_R8: OpCode;
     static readonly dup: OpCode;
     static readonly pop: OpCode;
     static readonly jmp: OpCode;
     static readonly call: OpCode;
     static readonly calli: OpCode;
     static readonly ret: OpCode;
-    static readonly brS: OpCode;
-    static readonly brfalseS: OpCode;
-    static readonly brtrueS: OpCode;
-    static readonly beqS: OpCode;
-    static readonly bgeS: OpCode;
-    static readonly bgtS: OpCode;
-    static readonly bleS: OpCode;
-    static readonly bltS: OpCode;
-    static readonly bneUnS: OpCode;
-    static readonly bgeUnS: OpCode;
-    static readonly bgtUnS: OpCode;
-    static readonly bleUnS: OpCode;
-    static readonly bltUnS: OpCode;
+    static readonly Br_S: OpCode;
+    static readonly Brfalse_S: OpCode;
+    static readonly Brtrue_S: OpCode;
+    static readonly Beq_S: OpCode;
+    static readonly Bge_S: OpCode;
+    static readonly Bgt_S: OpCode;
+    static readonly Ble_S: OpCode;
+    static readonly Blt_S: OpCode;
+    static readonly Bne_Un_S: OpCode;
+    static readonly Bge_Un_S: OpCode;
+    static readonly Bgt_Un_S: OpCode;
+    static readonly Ble_Un_S: OpCode;
+    static readonly Blt_Un_S: OpCode;
     static readonly br: OpCode;
     static readonly brfalse: OpCode;
     static readonly brtrue: OpCode;
@@ -672,53 +672,53 @@ export class OpCodes$instance {
     static readonly bgt: OpCode;
     static readonly ble: OpCode;
     static readonly blt: OpCode;
-    static readonly bneUn: OpCode;
-    static readonly bgeUn: OpCode;
-    static readonly bgtUn: OpCode;
-    static readonly bleUn: OpCode;
-    static readonly bltUn: OpCode;
+    static readonly Bne_Un: OpCode;
+    static readonly Bge_Un: OpCode;
+    static readonly Bgt_Un: OpCode;
+    static readonly Ble_Un: OpCode;
+    static readonly Blt_Un: OpCode;
     static readonly switch_: OpCode;
-    static readonly ldindI1: OpCode;
-    static readonly ldindU1: OpCode;
-    static readonly ldindI2: OpCode;
-    static readonly ldindU2: OpCode;
-    static readonly ldindI4: OpCode;
-    static readonly ldindU4: OpCode;
-    static readonly ldindI8: OpCode;
-    static readonly ldindI: OpCode;
-    static readonly ldindR4: OpCode;
-    static readonly ldindR8: OpCode;
-    static readonly ldindRef: OpCode;
-    static readonly stindRef: OpCode;
-    static readonly stindI1: OpCode;
-    static readonly stindI2: OpCode;
-    static readonly stindI4: OpCode;
-    static readonly stindI8: OpCode;
-    static readonly stindR4: OpCode;
-    static readonly stindR8: OpCode;
+    static readonly Ldind_I1: OpCode;
+    static readonly Ldind_U1: OpCode;
+    static readonly Ldind_I2: OpCode;
+    static readonly Ldind_U2: OpCode;
+    static readonly Ldind_I4: OpCode;
+    static readonly Ldind_U4: OpCode;
+    static readonly Ldind_I8: OpCode;
+    static readonly Ldind_I: OpCode;
+    static readonly Ldind_R4: OpCode;
+    static readonly Ldind_R8: OpCode;
+    static readonly Ldind_Ref: OpCode;
+    static readonly Stind_Ref: OpCode;
+    static readonly Stind_I1: OpCode;
+    static readonly Stind_I2: OpCode;
+    static readonly Stind_I4: OpCode;
+    static readonly Stind_I8: OpCode;
+    static readonly Stind_R4: OpCode;
+    static readonly Stind_R8: OpCode;
     static readonly add: OpCode;
     static readonly sub: OpCode;
     static readonly mul: OpCode;
     static readonly div: OpCode;
-    static readonly divUn: OpCode;
+    static readonly Div_Un: OpCode;
     static readonly rem: OpCode;
-    static readonly remUn: OpCode;
+    static readonly Rem_Un: OpCode;
     static readonly and: OpCode;
     static readonly or: OpCode;
     static readonly xor: OpCode;
     static readonly shl: OpCode;
     static readonly shr: OpCode;
-    static readonly shrUn: OpCode;
+    static readonly Shr_Un: OpCode;
     static readonly neg: OpCode;
     static readonly not: OpCode;
-    static readonly convI1: OpCode;
-    static readonly convI2: OpCode;
-    static readonly convI4: OpCode;
-    static readonly convI8: OpCode;
-    static readonly convR4: OpCode;
-    static readonly convR8: OpCode;
-    static readonly convU4: OpCode;
-    static readonly convU8: OpCode;
+    static readonly Conv_I1: OpCode;
+    static readonly Conv_I2: OpCode;
+    static readonly Conv_I4: OpCode;
+    static readonly Conv_I8: OpCode;
+    static readonly Conv_R4: OpCode;
+    static readonly Conv_R8: OpCode;
+    static readonly Conv_U4: OpCode;
+    static readonly Conv_U8: OpCode;
     static readonly callvirt: OpCode;
     static readonly cpobj: OpCode;
     static readonly ldobj: OpCode;
@@ -726,7 +726,7 @@ export class OpCodes$instance {
     static readonly newobj: OpCode;
     static readonly castclass: OpCode;
     static readonly isinst: OpCode;
-    static readonly convRUn: OpCode;
+    static readonly Conv_R_Un: OpCode;
     static readonly unbox: OpCode;
     static readonly throw_: OpCode;
     static readonly ldfld: OpCode;
@@ -736,70 +736,70 @@ export class OpCodes$instance {
     static readonly ldsflda: OpCode;
     static readonly stsfld: OpCode;
     static readonly stobj: OpCode;
-    static readonly convOvfI1Un: OpCode;
-    static readonly convOvfI2Un: OpCode;
-    static readonly convOvfI4Un: OpCode;
-    static readonly convOvfI8Un: OpCode;
-    static readonly convOvfU1Un: OpCode;
-    static readonly convOvfU2Un: OpCode;
-    static readonly convOvfU4Un: OpCode;
-    static readonly convOvfU8Un: OpCode;
-    static readonly convOvfIUn: OpCode;
-    static readonly convOvfUUn: OpCode;
+    static readonly Conv_Ovf_I1_Un: OpCode;
+    static readonly Conv_Ovf_I2_Un: OpCode;
+    static readonly Conv_Ovf_I4_Un: OpCode;
+    static readonly Conv_Ovf_I8_Un: OpCode;
+    static readonly Conv_Ovf_U1_Un: OpCode;
+    static readonly Conv_Ovf_U2_Un: OpCode;
+    static readonly Conv_Ovf_U4_Un: OpCode;
+    static readonly Conv_Ovf_U8_Un: OpCode;
+    static readonly Conv_Ovf_I_Un: OpCode;
+    static readonly Conv_Ovf_U_Un: OpCode;
     static readonly box: OpCode;
     static readonly newarr: OpCode;
     static readonly ldlen: OpCode;
     static readonly ldelema: OpCode;
-    static readonly ldelemI1: OpCode;
-    static readonly ldelemU1: OpCode;
-    static readonly ldelemI2: OpCode;
-    static readonly ldelemU2: OpCode;
-    static readonly ldelemI4: OpCode;
-    static readonly ldelemU4: OpCode;
-    static readonly ldelemI8: OpCode;
-    static readonly ldelemI: OpCode;
-    static readonly ldelemR4: OpCode;
-    static readonly ldelemR8: OpCode;
-    static readonly ldelemRef: OpCode;
-    static readonly stelemI: OpCode;
-    static readonly stelemI1: OpCode;
-    static readonly stelemI2: OpCode;
-    static readonly stelemI4: OpCode;
-    static readonly stelemI8: OpCode;
-    static readonly stelemR4: OpCode;
-    static readonly stelemR8: OpCode;
-    static readonly stelemRef: OpCode;
+    static readonly Ldelem_I1: OpCode;
+    static readonly Ldelem_U1: OpCode;
+    static readonly Ldelem_I2: OpCode;
+    static readonly Ldelem_U2: OpCode;
+    static readonly Ldelem_I4: OpCode;
+    static readonly Ldelem_U4: OpCode;
+    static readonly Ldelem_I8: OpCode;
+    static readonly Ldelem_I: OpCode;
+    static readonly Ldelem_R4: OpCode;
+    static readonly Ldelem_R8: OpCode;
+    static readonly Ldelem_Ref: OpCode;
+    static readonly Stelem_I: OpCode;
+    static readonly Stelem_I1: OpCode;
+    static readonly Stelem_I2: OpCode;
+    static readonly Stelem_I4: OpCode;
+    static readonly Stelem_I8: OpCode;
+    static readonly Stelem_R4: OpCode;
+    static readonly Stelem_R8: OpCode;
+    static readonly Stelem_Ref: OpCode;
     static readonly ldelem: OpCode;
     static readonly stelem: OpCode;
-    static readonly unboxAny: OpCode;
-    static readonly convOvfI1: OpCode;
-    static readonly convOvfU1: OpCode;
-    static readonly convOvfI2: OpCode;
-    static readonly convOvfU2: OpCode;
-    static readonly convOvfI4: OpCode;
-    static readonly convOvfU4: OpCode;
-    static readonly convOvfI8: OpCode;
-    static readonly convOvfU8: OpCode;
+    static readonly Unbox_Any: OpCode;
+    static readonly Conv_Ovf_I1: OpCode;
+    static readonly Conv_Ovf_U1: OpCode;
+    static readonly Conv_Ovf_I2: OpCode;
+    static readonly Conv_Ovf_U2: OpCode;
+    static readonly Conv_Ovf_I4: OpCode;
+    static readonly Conv_Ovf_U4: OpCode;
+    static readonly Conv_Ovf_I8: OpCode;
+    static readonly Conv_Ovf_U8: OpCode;
     static readonly refanyval: OpCode;
     static readonly ckfinite: OpCode;
     static readonly mkrefany: OpCode;
     static readonly ldtoken: OpCode;
-    static readonly convU2: OpCode;
-    static readonly convU1: OpCode;
-    static readonly convI: OpCode;
-    static readonly convOvfI: OpCode;
-    static readonly convOvfU: OpCode;
-    static readonly addOvf: OpCode;
-    static readonly addOvfUn: OpCode;
-    static readonly mulOvf: OpCode;
-    static readonly mulOvfUn: OpCode;
-    static readonly subOvf: OpCode;
-    static readonly subOvfUn: OpCode;
+    static readonly Conv_U2: OpCode;
+    static readonly Conv_U1: OpCode;
+    static readonly Conv_I: OpCode;
+    static readonly Conv_Ovf_I: OpCode;
+    static readonly Conv_Ovf_U: OpCode;
+    static readonly Add_Ovf: OpCode;
+    static readonly Add_Ovf_Un: OpCode;
+    static readonly Mul_Ovf: OpCode;
+    static readonly Mul_Ovf_Un: OpCode;
+    static readonly Sub_Ovf: OpCode;
+    static readonly Sub_Ovf_Un: OpCode;
     static readonly endfinally: OpCode;
     static readonly leave: OpCode;
-    static readonly leaveS: OpCode;
-    static readonly stindI: OpCode;
-    static readonly convU: OpCode;
+    static readonly Leave_S: OpCode;
+    static readonly Stind_I: OpCode;
+    static readonly Conv_U: OpCode;
     static readonly prefix7: OpCode;
     static readonly prefix6: OpCode;
     static readonly prefix5: OpCode;
@@ -811,9 +811,9 @@ export class OpCodes$instance {
     static readonly arglist: OpCode;
     static readonly ceq: OpCode;
     static readonly cgt: OpCode;
-    static readonly cgtUn: OpCode;
+    static readonly Cgt_Un: OpCode;
     static readonly clt: OpCode;
-    static readonly cltUn: OpCode;
+    static readonly Clt_Un: OpCode;
     static readonly ldftn: OpCode;
     static readonly ldvirtftn: OpCode;
     static readonly ldarg: OpCode;

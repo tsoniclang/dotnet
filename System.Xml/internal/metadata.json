@@ -22,7 +22,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ConformanceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.DtdProcessing::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.EntityHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -172,7 +172,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Formatting::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NamespaceHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NewLineHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -313,7 +313,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ReadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -384,7 +384,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ValidationType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -411,7 +411,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ValidationType::DTDSystem.Xml.ValidationType",
           "clrName": "DTD",
-          "tsEmitName": "dtd",
+          "tsEmitName": "DTD",
           "normalizedSignature": "DTD|System.Xml.ValidationType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -420,7 +420,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.ValidationType::XDRSystem.Xml.ValidationType",
           "clrName": "XDR",
-          "tsEmitName": "xdr",
+          "tsEmitName": "XDR",
           "normalizedSignature": "XDR|System.Xml.ValidationType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.WhitespaceHandling::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -508,7 +508,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.WriteState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -597,7 +597,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlDateTimeSerializationMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -659,7 +659,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Xml.XmlDictionaryReaderQuotaTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -730,7 +730,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNamespaceScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -783,7 +783,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeChangedAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -836,7 +836,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeOrder::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -943,7 +943,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeType::CDATASystem.Xml.XmlNodeType",
           "clrName": "CDATA",
-          "tsEmitName": "cdata",
+          "tsEmitName": "CDATA",
           "normalizedSignature": "CDATA|System.Xml.XmlNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1086,7 +1086,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlOutputMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1148,7 +1148,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSpace::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1201,7 +1201,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1210,7 +1210,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::CDATASystem.Xml.XmlTokenizedType",
           "clrName": "CDATA",
-          "tsEmitName": "cdata",
+          "tsEmitName": "CDATA",
           "normalizedSignature": "CDATA|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1219,7 +1219,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::IDSystem.Xml.XmlTokenizedType",
           "clrName": "ID",
-          "tsEmitName": "id",
+          "tsEmitName": "ID",
           "normalizedSignature": "ID|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1228,7 +1228,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::IDREFSystem.Xml.XmlTokenizedType",
           "clrName": "IDREF",
-          "tsEmitName": "idref",
+          "tsEmitName": "IDREF",
           "normalizedSignature": "IDREF|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1237,7 +1237,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::IDREFSSystem.Xml.XmlTokenizedType",
           "clrName": "IDREFS",
-          "tsEmitName": "idrefs",
+          "tsEmitName": "IDREFS",
           "normalizedSignature": "IDREFS|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1246,7 +1246,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::ENTITYSystem.Xml.XmlTokenizedType",
           "clrName": "ENTITY",
-          "tsEmitName": "entity",
+          "tsEmitName": "ENTITY",
           "normalizedSignature": "ENTITY|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1255,7 +1255,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::ENTITIESSystem.Xml.XmlTokenizedType",
           "clrName": "ENTITIES",
-          "tsEmitName": "entities",
+          "tsEmitName": "ENTITIES",
           "normalizedSignature": "ENTITIES|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1264,7 +1264,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::NMTOKENSystem.Xml.XmlTokenizedType",
           "clrName": "NMTOKEN",
-          "tsEmitName": "nmtoken",
+          "tsEmitName": "NMTOKEN",
           "normalizedSignature": "NMTOKEN|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1273,7 +1273,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::NMTOKENSSystem.Xml.XmlTokenizedType",
           "clrName": "NMTOKENS",
-          "tsEmitName": "nmtokens",
+          "tsEmitName": "NMTOKENS",
           "normalizedSignature": "NMTOKENS|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1282,7 +1282,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::NOTATIONSystem.Xml.XmlTokenizedType",
           "clrName": "NOTATION",
-          "tsEmitName": "notation",
+          "tsEmitName": "NOTATION",
           "normalizedSignature": "NOTATION|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1291,7 +1291,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTokenizedType::ENUMERATIONSystem.Xml.XmlTokenizedType",
           "clrName": "ENUMERATION",
-          "tsEmitName": "enumeration",
+          "tsEmitName": "ENUMERATION",
           "normalizedSignature": "ENUMERATION|System.Xml.XmlTokenizedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2960,7 +2960,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.Int32):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2976,7 +2976,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.String):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2992,7 +2992,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlAttributeCollection::get_Item(System.String,System.String):System.Xml.XmlAttribute",
           "clrName": "get_Item",
-          "tsEmitName": "getItem3",
+          "tsEmitName": "get_Item3",
           "normalizedSignature": "get_Item|(System.String,System.String):System.Xml.XmlAttribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13960,7 +13960,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::get_Item(System.String):System.Xml.XmlElement",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.String):System.Xml.XmlElement|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -13976,7 +13976,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNode::get_Item(System.String,System.String):System.Xml.XmlElement",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String,System.String):System.Xml.XmlElement|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -15350,7 +15350,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeReader::EOF:System.Boolean",
           "clrName": "EOF",
-          "tsEmitName": "eof",
+          "tsEmitName": "EOF",
           "normalizedSignature": "EOF|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18056,7 +18056,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18072,7 +18072,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18088,7 +18088,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::get_Item(System.String,System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem3",
+          "tsEmitName": "get_Item3",
           "normalizedSignature": "get_Item|(System.String,System.String):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -18376,7 +18376,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReader::EOF:System.Boolean",
           "clrName": "EOF",
-          "tsEmitName": "eof",
+          "tsEmitName": "EOF",
           "normalizedSignature": "EOF|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20379,7 +20379,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlTextReader::EOF:System.Boolean",
           "clrName": "EOF",
-          "tsEmitName": "eof",
+          "tsEmitName": "EOF",
           "normalizedSignature": "EOF|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22272,7 +22272,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlValidatingReader::EOF:System.Boolean",
           "clrName": "EOF",
-          "tsEmitName": "eof",
+          "tsEmitName": "EOF",
           "normalizedSignature": "EOF|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

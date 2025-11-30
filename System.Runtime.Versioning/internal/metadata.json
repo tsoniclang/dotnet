@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

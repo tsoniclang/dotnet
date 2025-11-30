@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeGenerationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlMappingAccess::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -804,7 +804,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.SoapAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Type):System.Xml.Serialization.SoapAttributes|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -820,7 +820,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.SoapAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Type,System.String):System.Xml.Serialization.SoapAttributes|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3318,7 +3318,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.XmlAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Type):System.Xml.Serialization.XmlAttributes|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3334,7 +3334,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.XmlAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Type,System.String):System.Xml.Serialization.XmlAttributes|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -6646,7 +6646,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.Int32):System.Xml.Schema.XmlSchema",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -6662,7 +6662,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::set_Item(System.Int32,System.Xml.Schema.XmlSchema):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Xml.Schema.XmlSchema):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -6678,7 +6678,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.String):System.Xml.Schema.XmlSchema",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Xml.Schema.XmlSchema|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

@@ -13,7 +13,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108893,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -24,7 +24,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::BERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "BER",
-          "tsEmitName": "ber",
+          "tsEmitName": "BER",
           "metadataToken": 67108894,
           "normalizedSignature": "BER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
@@ -35,7 +35,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::CERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "CER",
-          "tsEmitName": "cer",
+          "tsEmitName": "CER",
           "metadataToken": 67108895,
           "normalizedSignature": "CER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
@@ -46,7 +46,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::DERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "DER",
-          "tsEmitName": "der",
+          "tsEmitName": "DER",
           "metadataToken": 67108896,
           "normalizedSignature": "DER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -771,7 +771,7 @@
           }
         },
         {
-          "tsName": "ber",
+          "tsName": "BER",
           "isStatic": true,
           "tsSignatureId": "BER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "target": {
@@ -781,7 +781,7 @@
           }
         },
         {
-          "tsName": "cer",
+          "tsName": "CER",
           "isStatic": true,
           "tsSignatureId": "CER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "target": {
@@ -791,7 +791,7 @@
           }
         },
         {
-          "tsName": "der",
+          "tsName": "DER",
           "isStatic": true,
           "tsSignatureId": "DER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.TagClass::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108928,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1573,7 +1573,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108933,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1790,7 +1790,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::UTF8StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "UTF8String",
-          "tsEmitName": "utf8String",
+          "tsEmitName": "utF8String",
           "metadataToken": 67108947,
           "normalizedSignature": "UTF8String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -1922,7 +1922,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::IA5StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "IA5String",
-          "tsEmitName": "ia5String",
+          "tsEmitName": "iA5String",
           "metadataToken": 67108959,
           "normalizedSignature": "IA5String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -1977,7 +1977,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::ISO646StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "ISO646String",
-          "tsEmitName": "iso646String",
+          "tsEmitName": "isO646String",
           "metadataToken": 67108964,
           "normalizedSignature": "ISO646String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -2802,7 +2802,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2942,7 +2942,7 @@
           }
         },
         {
-          "tsName": "utf8String",
+          "tsName": "utF8String",
           "isStatic": true,
           "tsSignatureId": "UTF8String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {
@@ -3062,7 +3062,7 @@
           }
         },
         {
-          "tsName": "ia5String",
+          "tsName": "iA5String",
           "isStatic": true,
           "tsSignatureId": "IA5String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {
@@ -3112,7 +3112,7 @@
           }
         },
         {
-          "tsName": "iso646String",
+          "tsName": "isO646String",
           "isStatic": true,
           "tsSignatureId": "ISO646String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {

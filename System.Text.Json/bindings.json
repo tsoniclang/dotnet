@@ -13,7 +13,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonCommentHandling::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108886,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializerDefaults::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108911,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1562,7 +1562,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1615,7 +1615,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108996,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -2462,7 +2462,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {
@@ -2605,7 +2605,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108980,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -3408,7 +3408,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {

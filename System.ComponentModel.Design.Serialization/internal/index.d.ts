@@ -195,8 +195,8 @@ export class ContextStack$instance {
     constructor();
     readonly current: unknown;
     append(context: unknown): void;
-    getItem(level: int): unknown;
-    getItem(type_: Type): unknown;
+    get_Item(level: int): unknown;
+    get_Item(type_: Type): unknown;
     pop(): unknown;
     push(context: unknown): void;
 }
@@ -248,10 +248,10 @@ export class InstanceDescriptor$instance {
 export type InstanceDescriptor = InstanceDescriptor$instance;
 
 export abstract class MemberRelationshipService$instance {
-    getItem(source: MemberRelationship): MemberRelationship;
-    getItem(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
-    setItem(source: MemberRelationship, value: MemberRelationship): void;
-    setItem(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
+    get_Item(source: MemberRelationship): MemberRelationship;
+    get_Item(sourceOwner: unknown, sourceMember: MemberDescriptor): MemberRelationship;
+    set_Item(source: MemberRelationship, value: MemberRelationship): void;
+    set_Item(sourceOwner: unknown, sourceMember: MemberDescriptor, value: MemberRelationship): void;
     abstract supportsRelationship(source: MemberRelationship, relationship: MemberRelationship): boolean;
 }
 

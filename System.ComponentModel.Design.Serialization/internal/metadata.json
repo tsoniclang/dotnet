@@ -1611,7 +1611,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -1627,7 +1627,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.ContextStack::get_Item(System.Type):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Type):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -1990,7 +1990,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.ComponentModel.Design.Serialization.MemberRelationship):System.ComponentModel.Design.Serialization.MemberRelationship|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2006,7 +2006,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.ComponentModel.Design.Serialization.MemberRelationship,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2022,7 +2022,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::get_Item(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Object,System.ComponentModel.MemberDescriptor):System.ComponentModel.Design.Serialization.MemberRelationship|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2038,7 +2038,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.Serialization.MemberRelationshipService::set_Item(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Object,System.ComponentModel.MemberDescriptor,System.ComponentModel.Design.Serialization.MemberRelationship):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

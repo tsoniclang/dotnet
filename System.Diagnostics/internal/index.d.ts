@@ -57,7 +57,7 @@ export type CLROf<T> =
 export enum ActivityIdFormat {
     unknown_ = 0,
     hierarchical = 1,
-    w3c = 2
+    W3C = 2
 }
 
 
@@ -1311,7 +1311,7 @@ export class StackFrame$instance {
     getMethod(): MethodBase;
     getNativeOffset(): int;
     toString(): string;
-    static readonly offsetUnknown: int;
+    static readonly OFFSET_UNKNOWN: int;
 }
 
 
@@ -1332,7 +1332,7 @@ export class StackTrace$instance {
     getFrame(index: int): StackFrame;
     getFrames(): StackFrame[];
     toString(): string;
-    static readonly methodsToSkip: int;
+    static readonly METHODS_TO_SKIP: int;
 }
 
 
@@ -1539,15 +1539,15 @@ export class TraceListenerCollection$instance {
     clear(): void;
     contains(listener: TraceListener): boolean;
     copyTo(listeners: TraceListener[], index: int): void;
-    getItem(i: int): TraceListener;
-    getItem(name: string): TraceListener;
+    get_Item(i: int): TraceListener;
+    get_Item(name: string): TraceListener;
     getEnumerator(): IEnumerator;
     indexOf(listener: TraceListener): int;
     insert(index: int, listener: TraceListener): void;
     remove(listener: TraceListener): void;
     remove(name: string): void;
     removeAt(index: int): void;
-    setItem(i: int, value: TraceListener): void;
+    set_Item(i: int, value: TraceListener): void;
 }
 
 

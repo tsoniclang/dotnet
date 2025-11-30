@@ -21,7 +21,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaContentProcessing::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -83,7 +83,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDatatypeVariety::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -198,7 +198,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaDerivationMethod::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -296,7 +296,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaForm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -349,7 +349,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaInference\u002BInferenceOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -393,7 +393,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaUse::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -535,7 +535,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaValidity::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -588,7 +588,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSeverityType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -632,7 +632,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

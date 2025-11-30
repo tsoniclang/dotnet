@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -304,7 +304,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldTags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::value__System.Int64",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int64|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -535,7 +535,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -606,7 +606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -731,7 +731,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -793,7 +793,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -828,7 +828,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTask::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

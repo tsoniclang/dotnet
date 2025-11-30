@@ -21,7 +21,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymAddressKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -251,7 +251,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolDocument::URL:System.String",
           "clrName": "URL",
-          "tsEmitName": "url",
+          "tsEmitName": "URL",
           "normalizedSignature": "URL|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1529,7 +1529,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymLanguageType::CSystem.Guid",
           "clrName": "C",
-          "tsEmitName": "c",
+          "tsEmitName": "C",
           "normalizedSignature": "C|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1610,7 +1610,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymLanguageType::SMCSystem.Guid",
           "clrName": "SMC",
-          "tsEmitName": "smc",
+          "tsEmitName": "SMC",
           "normalizedSignature": "SMC|System.Guid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

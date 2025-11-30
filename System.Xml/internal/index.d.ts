@@ -103,8 +103,8 @@ export enum ReadState {
 export enum ValidationType {
     none = 0,
     auto = 1,
-    dtd = 2,
-    xdr = 3,
+    DTD = 2,
+    XDR = 3,
     schema = 4
 }
 
@@ -171,7 +171,7 @@ export enum XmlNodeType {
     element = 1,
     attribute = 2,
     text = 3,
-    cdata = 4,
+    CDATA = 4,
     entityReference = 5,
     entity = 6,
     processingInstruction = 7,
@@ -204,16 +204,16 @@ export enum XmlSpace {
 
 
 export enum XmlTokenizedType {
-    cdata = 0,
-    id = 1,
-    idref = 2,
-    idrefs = 3,
-    entity = 4,
-    entities = 5,
-    nmtoken = 6,
-    nmtokens = 7,
-    notation = 8,
-    enumeration = 9,
+    CDATA = 0,
+    ID = 1,
+    IDREF = 2,
+    IDREFS = 3,
+    ENTITY = 4,
+    ENTITIES = 5,
+    NMTOKEN = 6,
+    NMTOKENS = 7,
+    NOTATION = 8,
+    ENUMERATION = 9,
     qName = 10,
     ncName = 11,
     none = 12
@@ -400,9 +400,9 @@ export type XmlAttribute = XmlAttribute$instance & __XmlAttribute$views;
 export class XmlAttributeCollection$instance extends XmlNamedNodeMap$instance {
     append(node: XmlAttribute): XmlAttribute;
     copyTo(array: XmlAttribute[], index: int): void;
-    getItem(i: int): XmlAttribute;
-    getItem(name: string): XmlAttribute;
-    getItem(localName: string, namespaceURI: string): XmlAttribute;
+    get_Item(i: int): XmlAttribute;
+    get_Item(name: string): XmlAttribute;
+    get_Item(localName: string, namespaceURI: string): XmlAttribute;
     getEnumerator(): IEnumerator;
     insertAfter(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
     insertBefore(newNode: XmlAttribute, refNode: XmlAttribute): XmlAttribute;
@@ -1292,8 +1292,8 @@ export abstract class XmlNode$instance {
     clone(): XmlNode;
     abstract cloneNode(deep: boolean): XmlNode;
     createNavigator(): XPathNavigator;
-    getItem(name: string): XmlElement;
-    getItem(localname: string, ns: string): XmlElement;
+    get_Item(name: string): XmlElement;
+    get_Item(localname: string, ns: string): XmlElement;
     getEnumerator(): IEnumerator;
     getNamespaceOfPrefix(prefix: string): string;
     getPrefixOfNamespace(namespaceURI: string): string;
@@ -1381,7 +1381,7 @@ export class XmlNodeReader$instance extends XmlReader$instance {
     readonly canReadBinaryContent: boolean;
     readonly canResolveEntity: boolean;
     readonly depth: int;
-    readonly eof: boolean;
+    readonly EOF: boolean;
     readonly hasAttributes: boolean;
     readonly hasValue: boolean;
     readonly isDefault: boolean;
@@ -1528,7 +1528,7 @@ export abstract class XmlReader$instance {
     readonly canReadValueChunk: boolean;
     readonly canResolveEntity: boolean;
     readonly depth: int;
-    readonly eof: boolean;
+    readonly EOF: boolean;
     readonly hasAttributes: boolean;
     readonly hasValue: boolean;
     readonly isDefault: boolean;
@@ -1549,9 +1549,9 @@ export abstract class XmlReader$instance {
     readonly xmlSpace: XmlSpace;
     close(): void;
     dispose(): void;
-    getItem(i: int): string;
-    getItem(name: string): string;
-    getItem(name: string, namespaceURI: string): string;
+    get_Item(i: int): string;
+    get_Item(name: string): string;
+    get_Item(name: string, namespaceURI: string): string;
     abstract getAttribute(name: string): string;
     abstract getAttribute(name: string, namespaceURI: string): string;
     abstract getAttribute(i: int): string;
@@ -1793,7 +1793,7 @@ export class XmlTextReader$instance extends XmlReader$instance {
     dtdProcessing: DtdProcessing;
     readonly encoding: Encoding;
     entityHandling: EntityHandling;
-    readonly eof: boolean;
+    readonly EOF: boolean;
     readonly hasValue: boolean;
     readonly isDefault: boolean;
     readonly isEmptyElement: boolean;
@@ -1940,7 +1940,7 @@ export class XmlValidatingReader$instance extends XmlReader$instance {
     readonly depth: int;
     readonly encoding: Encoding;
     entityHandling: EntityHandling;
-    readonly eof: boolean;
+    readonly EOF: boolean;
     readonly hasValue: boolean;
     readonly isDefault: boolean;
     readonly isEmptyElement: boolean;

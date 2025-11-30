@@ -942,7 +942,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -952,7 +952,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -962,7 +962,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -972,7 +972,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -1418,7 +1418,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.Int32):System.Text.Json.Nodes.JsonNode",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Text.Json.Nodes.JsonNode",
           "normalizedSignature": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
@@ -1432,7 +1432,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
@@ -1446,7 +1446,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::get_Item(System.String):System.Text.Json.Nodes.JsonNode",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Text.Json.Nodes.JsonNode",
           "normalizedSignature": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
@@ -1460,7 +1460,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Nodes.JsonNode::set_Item(System.String,System.Text.Json.Nodes.JsonNode):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Text.Json.Nodes.JsonNode):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
@@ -1711,7 +1711,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -1721,7 +1721,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -1731,7 +1731,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -1741,7 +1741,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -2840,7 +2840,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -2850,7 +2850,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -2860,7 +2860,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -2870,7 +2870,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -4149,7 +4149,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -4159,7 +4159,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {
@@ -4169,7 +4169,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Text.Json.Nodes.JsonNode|static=false",
           "target": {
@@ -4179,7 +4179,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Text.Json.Nodes.JsonNode):System.Void|static=false",
           "target": {

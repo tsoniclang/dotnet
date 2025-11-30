@@ -356,8 +356,8 @@ export interface IColumnMappingCollection$instance extends IList, ICollection, I
     contains(sourceColumnName: string): boolean;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem2(index: int): unknown;
-    getItem2(index: string): unknown;
+    get_Item2(index: int): unknown;
+    get_Item2(index: string): unknown;
     getByDataSetColumn(dataSetColumnName: string): IColumnMapping;
     getEnumerator(): IEnumerator;
     indexOf(sourceColumnName: string): int;
@@ -365,8 +365,8 @@ export interface IColumnMappingCollection$instance extends IList, ICollection, I
     remove(value: unknown): void;
     removeAt(sourceColumnName: string): void;
     removeAt(index: int): void;
-    setItem2(index: int, value: unknown): void;
-    setItem2(index: string, value: unknown): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
@@ -408,16 +408,16 @@ export interface IDataParameterCollection$instance extends IList, ICollection, I
     contains(parameterName: string): boolean;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem2(index: int): unknown;
-    getItem2(parameterName: string): unknown;
+    get_Item2(index: int): unknown;
+    get_Item2(parameterName: string): unknown;
     getEnumerator(): IEnumerator;
     indexOf(parameterName: string): int;
     insert(index: int, value: unknown): void;
     remove(value: unknown): void;
     removeAt(parameterName: string): void;
     removeAt(index: int): void;
-    setItem2(index: int, value: unknown): void;
-    setItem2(parameterName: string, value: unknown): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(parameterName: string, value: unknown): void;
 }
 
 
@@ -429,8 +429,8 @@ export interface IDataReader$instance extends IDisposable, IDataRecord {
     readonly recordsAffected: int;
     readonly fieldCount: int;
     close(): void;
-    getItem(i: int): unknown;
-    getItem(name: string): unknown;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     getBoolean(i: int): boolean;
     getByte(i: int): byte;
     getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
@@ -461,8 +461,8 @@ export type IDataReader = IDataReader$instance;
 
 export interface IDataRecord$instance {
     readonly fieldCount: int;
-    getItem(i: int): unknown;
-    getItem(name: string): unknown;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     getBoolean(i: int): boolean;
     getByte(i: int): byte;
     getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
@@ -593,8 +593,8 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
     contains(sourceTableName: string): boolean;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem2(index: int): unknown;
-    getItem2(index: string): unknown;
+    get_Item2(index: int): unknown;
+    get_Item2(index: string): unknown;
     getByDataSetTable(dataSetTableName: string): ITableMapping;
     getEnumerator(): IEnumerator;
     indexOf(sourceTableName: string): int;
@@ -602,8 +602,8 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
     remove(value: unknown): void;
     removeAt(sourceTableName: string): void;
     removeAt(index: int): void;
-    setItem2(index: int, value: unknown): void;
-    setItem2(index: string, value: unknown): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
@@ -630,8 +630,8 @@ export class ConstraintCollection$instance extends InternalDataCollectionBase$in
     clear(): void;
     contains(name: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
-    getItem(index: int): Constraint;
-    getItem(name: string): Constraint;
+    get_Item(index: int): Constraint;
+    get_Item(name: string): Constraint;
     getEnumerator(): IEnumerator;
     indexOf(constraint: Constraint): int;
     indexOf(constraintName: string): int;
@@ -746,8 +746,8 @@ export class DataColumnCollection$instance extends InternalDataCollectionBase$in
     clear(): void;
     contains(name: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
-    getItem(index: int): DataColumn;
-    getItem(name: string): DataColumn;
+    get_Item(index: int): DataColumn;
+    get_Item(name: string): DataColumn;
     getEnumerator(): IEnumerator;
     indexOf(column: DataColumn): int;
     indexOf(columnName: string): int;
@@ -816,8 +816,8 @@ export abstract class DataRelationCollection$instance extends InternalDataCollec
     clear(): void;
     contains(name: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
-    getItem(index: int): DataRelation;
-    getItem(name: string): DataRelation;
+    get_Item(index: int): DataRelation;
+    get_Item(name: string): DataRelation;
     getEnumerator(): IEnumerator;
     indexOf(relation: DataRelation): int;
     indexOf(relationName: string): int;
@@ -847,12 +847,12 @@ export class DataRow$instance {
     clearErrors(): void;
     delete_(): void;
     endEdit(): void;
-    getItem(columnIndex: int): unknown;
-    getItem(columnName: string): unknown;
-    getItem(column: DataColumn): unknown;
-    getItem(columnIndex: int, version: DataRowVersion): unknown;
-    getItem(columnName: string, version: DataRowVersion): unknown;
-    getItem(column: DataColumn, version: DataRowVersion): unknown;
+    get_Item(columnIndex: int): unknown;
+    get_Item(columnName: string): unknown;
+    get_Item(column: DataColumn): unknown;
+    get_Item(columnIndex: int, version: DataRowVersion): unknown;
+    get_Item(columnName: string, version: DataRowVersion): unknown;
+    get_Item(column: DataColumn, version: DataRowVersion): unknown;
     getChildRows(relationName: string): DataRow[];
     getChildRows(relationName: string, version: DataRowVersion): DataRow[];
     getChildRows(relation: DataRelation): DataRow[];
@@ -875,9 +875,9 @@ export class DataRow$instance {
     isNull(column: DataColumn): boolean;
     isNull(column: DataColumn, version: DataRowVersion): boolean;
     rejectChanges(): void;
-    setItem(columnIndex: int, value: unknown): void;
-    setItem(columnName: string, value: unknown): void;
-    setItem(column: DataColumn, value: unknown): void;
+    set_Item(columnIndex: int, value: unknown): void;
+    set_Item(columnName: string, value: unknown): void;
+    set_Item(column: DataColumn, value: unknown): void;
     setAdded(): void;
     setColumnError(columnIndex: int, error: string): void;
     setColumnError(columnName: string, error: string): void;
@@ -979,11 +979,11 @@ export class DataRowView$instance implements System_ComponentModel_Internal.INot
     delete_(): void;
     endEdit(): void;
     equals(other: unknown): boolean;
-    getItem(ndx: int): unknown;
-    getItem(property: string): unknown;
+    get_Item(ndx: int): unknown;
+    get_Item(property: string): unknown;
     getHashCode(): int;
-    setItem(ndx: int, value: unknown): void;
-    setItem(property: string, value: unknown): void;
+    set_Item(ndx: int, value: unknown): void;
+    set_Item(property: string, value: unknown): void;
 }
 
 
@@ -1253,9 +1253,9 @@ export class DataTableCollection$instance extends InternalDataCollectionBase$ins
     contains(name: string): boolean;
     contains(name: string, tableNamespace: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
-    getItem(index: int): DataTable;
-    getItem(name: string): DataTable;
-    getItem(name: string, tableNamespace: string): DataTable;
+    get_Item(index: int): DataTable;
+    get_Item(name: string): DataTable;
+    get_Item(name: string, tableNamespace: string): DataTable;
     getEnumerator(): IEnumerator;
     indexOf(table: DataTable): int;
     indexOf(tableName: string): int;
@@ -1312,8 +1312,8 @@ export class DataTableReader$instance extends System_Data_Common_Internal.DbData
     close(): void;
     dispose(): void;
     disposeAsync(): ValueTask;
-    getItem(ordinal: int): unknown;
-    getItem(name: string): unknown;
+    get_Item(ordinal: int): unknown;
+    get_Item(name: string): unknown;
     getBoolean(ordinal: int): boolean;
     getByte(ordinal: int): byte;
     getBytes(ordinal: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
@@ -1461,12 +1461,12 @@ export class DataViewSettingCollection$instance {
     readonly syncRoot: unknown;
     copyTo(ar: ClrArray, index: int): void;
     copyTo(ar: DataViewSetting[], index: int): void;
-    getItem(table: DataTable): DataViewSetting;
-    getItem(tableName: string): DataViewSetting;
-    getItem(index: int): DataViewSetting;
+    get_Item(table: DataTable): DataViewSetting;
+    get_Item(tableName: string): DataViewSetting;
+    get_Item(index: int): DataViewSetting;
     getEnumerator(): IEnumerator;
-    setItem(table: DataTable, value: DataViewSetting): void;
-    setItem(index: int, value: DataViewSetting): void;
+    set_Item(table: DataTable, value: DataViewSetting): void;
+    set_Item(index: int, value: DataViewSetting): void;
 }
 
 

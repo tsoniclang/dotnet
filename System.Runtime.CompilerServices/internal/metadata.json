@@ -23,7 +23,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.CompilationRelaxations::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.LoadHint::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -111,7 +111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -120,7 +120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::ILSystem.Runtime.CompilerServices.MethodCodeType",
           "clrName": "IL",
-          "tsEmitName": "il",
+          "tsEmitName": "IL",
           "normalizedSignature": "IL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -138,7 +138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::OPTILSystem.Runtime.CompilerServices.MethodCodeType",
           "clrName": "OPTIL",
-          "tsEmitName": "optil",
+          "tsEmitName": "OPTIL",
           "normalizedSignature": "OPTIL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -173,7 +173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodImplOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -289,7 +289,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.UnsafeAccessorKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

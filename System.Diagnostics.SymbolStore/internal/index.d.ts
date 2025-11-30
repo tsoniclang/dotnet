@@ -64,7 +64,7 @@ export interface ISymbolBinder1$instance {
 export type ISymbolBinder1 = ISymbolBinder1$instance;
 
 export interface ISymbolDocument$instance {
-    readonly url: string;
+    readonly URL: string;
     readonly documentType: Guid;
     readonly language: Guid;
     readonly languageVendor: Guid;
@@ -207,7 +207,7 @@ export type SymDocumentType = SymDocumentType$instance;
 
 export class SymLanguageType$instance {
     constructor();
-    static readonly c: Guid;
+    static readonly C: Guid;
     static readonly cPlusPlus: Guid;
     static readonly cSharp: Guid;
     static readonly basic: Guid;
@@ -216,7 +216,7 @@ export class SymLanguageType$instance {
     static readonly pascal: Guid;
     static readonly ilAssembly: Guid;
     static readonly jScript: Guid;
-    static readonly smc: Guid;
+    static readonly SMC: Guid;
     static readonly mcPlusPlus: Guid;
 }
 

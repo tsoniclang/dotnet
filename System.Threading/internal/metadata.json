@@ -22,7 +22,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -31,7 +31,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::STASystem.Threading.ApartmentState",
           "clrName": "STA",
-          "tsEmitName": "sta",
+          "tsEmitName": "STA",
           "normalizedSignature": "STA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -40,7 +40,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::MTASystem.Threading.ApartmentState",
           "clrName": "MTA",
-          "tsEmitName": "mta",
+          "tsEmitName": "MTA",
           "normalizedSignature": "MTA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.EventResetMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -119,7 +119,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.LazyThreadSafetyMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -172,7 +172,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.LockRecursionPolicy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -287,7 +287,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

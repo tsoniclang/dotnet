@@ -25,7 +25,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -52,7 +52,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::W3CSystem.Diagnostics.ActivityIdFormat",
           "clrName": "W3C",
-          "tsEmitName": "w3c",
+          "tsEmitName": "W3C",
           "normalizedSignature": "W3C|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -78,7 +78,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -149,7 +149,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivitySamplingResult::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -211,7 +211,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -264,7 +264,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityTraceFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -308,7 +308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggableAttribute\u002BDebuggingModes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -379,7 +379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggerBrowsableState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -432,7 +432,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessPriorityClass::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -512,7 +512,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ProcessWindowStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -574,7 +574,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.SourceLevels::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -672,7 +672,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadPriorityLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -761,7 +761,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -859,7 +859,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadWaitReason::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1011,7 +1011,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceEventType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1127,7 +1127,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1198,7 +1198,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11773,7 +11773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackFrame::OFFSET_UNKNOWNSystem.Int32",
           "clrName": "OFFSET_UNKNOWN",
-          "tsEmitName": "offsetUnknown",
+          "tsEmitName": "OFFSET_UNKNOWN",
           "normalizedSignature": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -11895,7 +11895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackTrace::METHODS_TO_SKIPSystem.Int32",
           "clrName": "METHODS_TO_SKIP",
-          "tsEmitName": "methodsToSkip",
+          "tsEmitName": "METHODS_TO_SKIP",
           "normalizedSignature": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -14287,7 +14287,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.Int32):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Diagnostics.TraceListener|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14303,7 +14303,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::set_Item(System.Int32,System.Diagnostics.TraceListener):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Diagnostics.TraceListener):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -14319,7 +14319,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceListenerCollection::get_Item(System.String):System.Diagnostics.TraceListener",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Diagnostics.TraceListener|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

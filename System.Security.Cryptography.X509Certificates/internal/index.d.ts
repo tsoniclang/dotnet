@@ -912,8 +912,8 @@ export class X509ExtensionCollection$instance {
     readonly syncRoot: unknown;
     add(extension: X509Extension): int;
     copyTo(array: X509Extension[], index: int): void;
-    getItem(index: int): X509Extension;
-    getItem(oid: string): X509Extension;
+    get_Item(index: int): X509Extension;
+    get_Item(oid: string): X509Extension;
     getEnumerator(): X509ExtensionEnumerator;
 }
 

@@ -249,9 +249,9 @@ export class Collection$instance {
     add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
     clear(): void;
     contains(Key: string): boolean;
-    getItem(Index: int): unknown;
-    getItem(Key: string): unknown;
-    getItem(Index: unknown): unknown;
+    get_Item(Index: int): unknown;
+    get_Item(Key: string): unknown;
+    get_Item(Index: unknown): unknown;
     getEnumerator(): IEnumerator;
     remove(Key: string): void;
     remove(Index: int): void;
@@ -507,7 +507,7 @@ export class FileSystem$instance {
     static curDir(Drive: char): string;
     static dir(): string;
     static dir(PathName: string, Attributes?: FileAttribute): string;
-    static eof(FileNumber: int): boolean;
+    static EOF(FileNumber: int): boolean;
     static fileAttr(FileNumber: int): OpenMode;
     static fileClose(FileNumbers: int[]): void;
     static fileCopy(Source: string, Destination: string): void;
@@ -565,7 +565,7 @@ export class FileSystem$instance {
     static lock3(FileNumber: int, FromRecord: long, ToRecord: long): void;
     static lock3(FileNumber: int, Record: long): void;
     static lock3(FileNumber: int): void;
-    static lof(FileNumber: int): long;
+    static LOF(FileNumber: int): long;
     static mkDir(Path: string): void;
     static print(FileNumber: int, Output: unknown[]): void;
     static printLine(FileNumber: int, Output: unknown[]): void;
@@ -575,9 +575,9 @@ export class FileSystem$instance {
     static seek(FileNumber: int, Position: long): void;
     static seek(FileNumber: int): long;
     static setAttr(PathName: string, Attributes: FileAttribute): void;
-    static spc(Count: short): SpcInfo;
-    static tab(): TabInfo;
-    static tab(Column: short): TabInfo;
+    static SPC(Count: short): SpcInfo;
+    static TAB(): TabInfo;
+    static TAB(Column: short): TabInfo;
     static unlock3(FileNumber: int, FromRecord: long, ToRecord: long): void;
     static unlock3(FileNumber: int, Record: long): void;
     static unlock3(FileNumber: int): void;
@@ -589,19 +589,19 @@ export class FileSystem$instance {
 export type FileSystem = FileSystem$instance;
 
 export class Financial$instance {
-    static ddb(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
-    static fv(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
+    static DDB(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
+    static FV(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
     static iPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    static irr(ValueArray: { value: ref<double[]> }, Guess?: double): double;
-    static mirr(ValueArray: { value: ref<double[]> }, FinanceRate: double, ReinvestRate: double): double;
+    static IRR(ValueArray: { value: ref<double[]> }, Guess?: double): double;
+    static MIRR(ValueArray: { value: ref<double[]> }, FinanceRate: double, ReinvestRate: double): double;
     static nPer(Rate: double, Pmt: double, PV: double, FV?: double, Due?: DueDate): double;
-    static npv(Rate: double, ValueArray: { value: ref<double[]> }): double;
+    static NPV(Rate: double, ValueArray: { value: ref<double[]> }): double;
     static pmt(Rate: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
     static pPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    static pv(Rate: double, NPer: double, Pmt: double, FV?: double, Due?: DueDate): double;
+    static PV(Rate: double, NPer: double, Pmt: double, FV?: double, Due?: DueDate): double;
     static rate(NPer: double, Pmt: double, PV: double, FV?: double, Due?: DueDate, Guess?: double): double;
-    static sln(Cost: double, Salvage: double, Life: double): double;
-    static syd(Cost: double, Salvage: double, Life: double, Period: double): double;
+    static SLN(Cost: double, Salvage: double, Life: double): double;
+    static SYD(Cost: double, Salvage: double, Life: double, Period: double): double;
 }
 
 
@@ -626,7 +626,7 @@ export class Information$instance {
     static isReference(Expression: unknown): boolean;
     static lBound(Array: ClrArray, Rank?: int): int;
     static qbColor(Color: int): int;
-    static rgb(Red: int, Green: int, Blue: int): int;
+    static RGB(Red: int, Green: int, Blue: int): int;
     static systemTypeName(VbName: string): string;
     static typeName(VarName: unknown): string;
     static uBound(Array: ClrArray, Rank?: int): int;

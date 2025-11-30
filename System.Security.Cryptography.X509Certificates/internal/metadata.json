@@ -20,7 +20,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.CertificateRequestLoadOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.OpenFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.Pkcs12ExportPbeParameters::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -197,7 +197,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.StoreLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -241,7 +241,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.StoreName::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -339,7 +339,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -455,7 +455,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainStatusFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -715,7 +715,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ChainTrustMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -759,7 +759,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -857,7 +857,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509FindType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1018,7 +1018,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509IncludeOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1080,7 +1080,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyStorageFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1169,7 +1169,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509KeyUsageFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1285,7 +1285,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509NameType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1365,7 +1365,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationFlag::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1418,7 +1418,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1471,7 +1471,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509RevocationReason::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1596,7 +1596,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1703,7 +1703,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509VerificationFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8913,7 +8913,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Item(System.Int32):System.Security.Cryptography.X509Certificates.X509Extension",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Security.Cryptography.X509Certificates.X509Extension|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8929,7 +8929,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Item(System.String):System.Security.Cryptography.X509Certificates.X509Extension",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Security.Cryptography.X509Certificates.X509Extension|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

@@ -40,7 +40,7 @@ export type CLROf<T> =
 
 export enum TarEntryFormat {
     unknown_ = 0,
-    v7 = 1,
+    V7 = 1,
     ustar = 2,
     pax = 3,
     gnu = 4

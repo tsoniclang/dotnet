@@ -150,8 +150,8 @@ export class SoapAttributeOverrides$instance {
     constructor();
     add(type_: Type, attributes: SoapAttributes): void;
     add(type_: Type, member: string, attributes: SoapAttributes): void;
-    getItem(type_: Type): SoapAttributes;
-    getItem(type_: Type, member: string): SoapAttributes;
+    get_Item(type_: Type): SoapAttributes;
+    get_Item(type_: Type, member: string): SoapAttributes;
 }
 
 
@@ -417,8 +417,8 @@ export class XmlAttributeOverrides$instance {
     constructor();
     add(type_: Type, attributes: XmlAttributes): void;
     add(type_: Type, member: string, attributes: XmlAttributes): void;
-    getItem(type_: Type): XmlAttributes;
-    getItem(type_: Type, member: string): XmlAttributes;
+    get_Item(type_: Type): XmlAttributes;
+    get_Item(type_: Type, member: string): XmlAttributes;
 }
 
 
@@ -735,15 +735,15 @@ export class XmlSchemas$instance extends System_Collections_Internal.CollectionB
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(name: XmlQualifiedName, type_: Type): unknown;
-    getItem(index: int): XmlSchema;
-    getItem(ns: string): XmlSchema;
+    get_Item(index: int): XmlSchema;
+    get_Item(ns: string): XmlSchema;
     getEnumerator(): IEnumerator;
     getSchemas(ns: string): IList;
     indexOf(schema: XmlSchema): int;
     insert(index: int, value: unknown): void;
     remove(value: unknown): void;
     removeAt(index: int): void;
-    setItem(index: int, value: XmlSchema): void;
+    set_Item(index: int, value: XmlSchema): void;
     static isDataSet(schema: XmlSchema): boolean;
 }
 

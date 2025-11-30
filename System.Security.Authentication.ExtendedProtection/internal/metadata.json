@@ -22,7 +22,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.ExtendedProtection.ChannelBindingKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -75,7 +75,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.PolicyEnforcement::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -128,7 +128,7 @@
         {
           "stableId": "System.Net.Security:System.Security.Authentication.ExtendedProtection.ProtectionScenario::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

@@ -20,7 +20,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonCommentHandling::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializerDefaults::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -126,7 +126,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -260,7 +260,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

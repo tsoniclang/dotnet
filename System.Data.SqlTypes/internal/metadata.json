@@ -20,7 +20,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlCompareOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -109,7 +109,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.StorageState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -8722,7 +8722,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

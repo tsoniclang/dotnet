@@ -43,9 +43,9 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum AsnEncodingRules {
-    ber = 0,
-    cer = 1,
-    der = 2
+    BER = 0,
+    CER = 1,
+    DER = 2
 }
 
 
@@ -71,7 +71,7 @@ export enum UniversalTagNumber {
     real = 9,
     enumerated = 10,
     embedded = 11,
-    utf8String = 12,
+    utF8String = 12,
     relativeObjectIdentifier = 13,
     time = 14,
     sequence = 16,
@@ -83,12 +83,12 @@ export enum UniversalTagNumber {
     teletexString = 20,
     t61String = 20,
     videotexString = 21,
-    ia5String = 22,
+    iA5String = 22,
     utcTime = 23,
     generalizedTime = 24,
     graphicString = 25,
     visibleString = 26,
-    iso646String = 26,
+    isO646String = 26,
     generalString = 27,
     universalString = 28,
     unrestrictedCharacterString = 29,

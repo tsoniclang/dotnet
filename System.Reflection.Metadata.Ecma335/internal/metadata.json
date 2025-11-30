@@ -20,7 +20,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.EditAndContinueOperation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.FunctionPointerAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.HeapIndex::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.MethodBodyAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.TableIndex::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

@@ -133,42 +133,42 @@ export enum ConsoleKey {
     insert = 45,
     delete_ = 46,
     help = 47,
-    d0 = 48,
-    d1 = 49,
-    d2 = 50,
-    d3 = 51,
-    d4 = 52,
-    d5 = 53,
-    d6 = 54,
-    d7 = 55,
-    d8 = 56,
-    d9 = 57,
-    a = 65,
-    b = 66,
-    c = 67,
-    d = 68,
-    e = 69,
-    f = 70,
-    g = 71,
-    h = 72,
-    i = 73,
-    j = 74,
-    k = 75,
-    l = 76,
-    m = 77,
-    n = 78,
-    o = 79,
-    p = 80,
-    q = 81,
-    r = 82,
-    s = 83,
-    t = 84,
-    u = 85,
-    v = 86,
-    w = 87,
-    x = 88,
-    y = 89,
-    z = 90,
+    D0 = 48,
+    D1 = 49,
+    D2 = 50,
+    D3 = 51,
+    D4 = 52,
+    D5 = 53,
+    D6 = 54,
+    D7 = 55,
+    D8 = 56,
+    D9 = 57,
+    A = 65,
+    B = 66,
+    C = 67,
+    D = 68,
+    E = 69,
+    F = 70,
+    G = 71,
+    H = 72,
+    I = 73,
+    J = 74,
+    K = 75,
+    L = 76,
+    M = 77,
+    N = 78,
+    O = 79,
+    P = 80,
+    Q = 81,
+    R = 82,
+    S = 83,
+    T = 84,
+    U = 85,
+    V = 86,
+    W = 87,
+    X = 88,
+    Y = 89,
+    Z = 90,
     leftWindows = 91,
     rightWindows = 92,
     applications = 93,
@@ -189,30 +189,30 @@ export enum ConsoleKey {
     subtract = 109,
     decimal = 110,
     divide = 111,
-    f1 = 112,
-    f2 = 113,
-    f3 = 114,
-    f4 = 115,
-    f5 = 116,
-    f6 = 117,
-    f7 = 118,
-    f8 = 119,
-    f9 = 120,
-    f10 = 121,
-    f11 = 122,
-    f12 = 123,
-    f13 = 124,
-    f14 = 125,
-    f15 = 126,
-    f16 = 127,
-    f17 = 128,
-    f18 = 129,
-    f19 = 130,
-    f20 = 131,
-    f21 = 132,
-    f22 = 133,
-    f23 = 134,
-    f24 = 135,
+    F1 = 112,
+    F2 = 113,
+    F3 = 114,
+    F4 = 115,
+    F5 = 116,
+    F6 = 117,
+    F7 = 118,
+    F8 = 119,
+    F9 = 120,
+    F10 = 121,
+    F11 = 122,
+    F12 = 123,
+    F13 = 124,
+    F14 = 125,
+    F15 = 126,
+    F16 = 127,
+    F17 = 128,
+    F18 = 129,
+    F19 = 130,
+    F20 = 131,
+    F21 = 132,
+    F22 = 133,
+    F23 = 134,
+    F24 = 135,
     browserBack = 166,
     browserForward = 167,
     browserRefresh = 168,
@@ -1484,7 +1484,7 @@ export class Double$instance implements IBitwiseOperators_3<CLROf<double>, CLROf
     static readonly positiveInfinity: double;
     static readonly naN: double;
     static readonly negativeZero: double;
-    static readonly e: double;
+    static readonly E: double;
     static readonly pi: double;
     static readonly tau: double;
     static abs(value: double): double;
@@ -1765,7 +1765,7 @@ export class Half$instance implements IBitwiseOperators_3<CLROf<half>, CLROf<hal
     static readonly naN: half;
     static readonly minValue: half;
     static readonly maxValue: half;
-    static readonly e: half;
+    static readonly E: half;
     static readonly pi: half;
     static readonly tau: half;
     static readonly negativeZero: half;
@@ -2856,7 +2856,7 @@ export class Single$instance implements IBitwiseOperators_3<CLROf<float>, CLROf<
     static readonly positiveInfinity: float;
     static readonly naN: float;
     static readonly negativeZero: float;
-    static readonly e: float;
+    static readonly E: float;
     static readonly pi: float;
     static readonly tau: float;
     static abs(value: float): float;
@@ -7071,7 +7071,7 @@ export abstract class Type$instance extends System_Reflection_Internal.MemberInf
     readonly genericParameterAttributes: GenericParameterAttributes;
     readonly genericParameterPosition: int;
     readonly genericTypeArguments: Type[];
-    readonly guid: Guid;
+    readonly GUID: Guid;
     readonly hasElementType: boolean;
     readonly isAbstract: boolean;
     readonly isAnsiClass: boolean;
@@ -8279,8 +8279,8 @@ export abstract class GC$instance {
 export type GC = GC$instance;
 
 export abstract class Math$instance {
-    static readonly e: double;
-    static readonly pi: double;
+    static readonly E: double;
+    static readonly PI: double;
     static readonly tau: double;
     static abs6(value: decimal): decimal;
     static abs6(value: double): double;
@@ -8408,8 +8408,8 @@ export abstract class Math$instance {
 export type Math = Math$instance;
 
 export abstract class MathF$instance {
-    static readonly e: float;
-    static readonly pi: float;
+    static readonly E: float;
+    static readonly PI: float;
     static readonly tau: float;
     static abs(x: float): float;
     static acos(x: float): float;

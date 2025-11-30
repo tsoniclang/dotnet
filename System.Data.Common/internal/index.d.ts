@@ -158,8 +158,8 @@ export class DataColumnMappingCollection$instance extends System_Internal.Marsha
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: DataColumnMapping[], index: int): void;
-    getItem(index: int): DataColumnMapping;
-    getItem(sourceColumn: string): DataColumnMapping;
+    get_Item(index: int): DataColumnMapping;
+    get_Item(sourceColumn: string): DataColumnMapping;
     getByDataSetColumn(value: string): DataColumnMapping;
     getEnumerator(): IEnumerator;
     indexOf(value: unknown): int;
@@ -171,8 +171,8 @@ export class DataColumnMappingCollection$instance extends System_Internal.Marsha
     remove(value: DataColumnMapping): void;
     removeAt(index: int): void;
     removeAt(sourceColumn: string): void;
-    setItem(index: int, value: DataColumnMapping): void;
-    setItem(sourceColumn: string, value: DataColumnMapping): void;
+    set_Item(index: int, value: DataColumnMapping): void;
+    set_Item(sourceColumn: string, value: DataColumnMapping): void;
     static getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
     static getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
 }
@@ -224,8 +224,8 @@ export class DataTableMappingCollection$instance extends System_Internal.Marshal
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: DataTableMapping[], index: int): void;
-    getItem(index: int): DataTableMapping;
-    getItem(sourceTable: string): DataTableMapping;
+    get_Item(index: int): DataTableMapping;
+    get_Item(sourceTable: string): DataTableMapping;
     getByDataSetTable(dataSetTable: string): DataTableMapping;
     getEnumerator(): IEnumerator;
     indexOf(value: unknown): int;
@@ -237,8 +237,8 @@ export class DataTableMappingCollection$instance extends System_Internal.Marshal
     remove(value: DataTableMapping): void;
     removeAt(index: int): void;
     removeAt(sourceTable: string): void;
-    setItem(index: int, value: DataTableMapping): void;
-    setItem(sourceTable: string, value: DataTableMapping): void;
+    set_Item(index: int, value: DataTableMapping): void;
+    set_Item(sourceTable: string, value: DataTableMapping): void;
     static getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping;
 }
 
@@ -546,8 +546,8 @@ export abstract class DbDataReader$instance extends System_Internal.MarshalByRef
     closeAsync(): Task;
     dispose(): void;
     disposeAsync(): ValueTask;
-    getItem(ordinal: int): unknown;
-    getItem(name: string): unknown;
+    get_Item(ordinal: int): unknown;
+    get_Item(name: string): unknown;
     abstract getBoolean(ordinal: int): boolean;
     abstract getByte(ordinal: int): byte;
     abstract getBytes(ordinal: int, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
@@ -608,8 +608,8 @@ export type DbDataReader = DbDataReader$instance & __DbDataReader$views;
 
 export abstract class DbDataRecord$instance {
     readonly fieldCount: int;
-    getItem(i: int): unknown;
-    getItem(name: string): unknown;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
     abstract getBoolean(i: int): boolean;
     abstract getByte(i: int): byte;
     abstract getBytes(i: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
@@ -745,8 +745,8 @@ export abstract class DbParameterCollection$instance extends System_Internal.Mar
     abstract contains(value: unknown): boolean;
     abstract contains(value: string): boolean;
     abstract copyTo(array: ClrArray, index: int): void;
-    getItem(index: int): DbParameter;
-    getItem(parameterName: string): DbParameter;
+    get_Item(index: int): DbParameter;
+    get_Item(parameterName: string): DbParameter;
     abstract getEnumerator(): IEnumerator;
     abstract indexOf(value: unknown): int;
     abstract indexOf(parameterName: string): int;
@@ -754,8 +754,8 @@ export abstract class DbParameterCollection$instance extends System_Internal.Mar
     abstract remove(value: unknown): void;
     abstract removeAt(index: int): void;
     abstract removeAt(parameterName: string): void;
-    setItem(index: int, value: DbParameter): void;
-    setItem(parameterName: string, value: DbParameter): void;
+    set_Item(index: int, value: DbParameter): void;
+    set_Item(parameterName: string, value: DbParameter): void;
 }
 
 

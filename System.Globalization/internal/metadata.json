@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarAlgorithmType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarWeekRule::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -135,7 +135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -251,7 +251,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -349,7 +349,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -465,7 +465,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DigitShapes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -518,7 +518,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.GregorianCalendarTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -598,7 +598,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -795,7 +795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TimeSpanStyles::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -839,7 +839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.UnicodeCategory::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3045,7 +3045,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3457,7 +3457,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4387,7 +4387,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeFormatInfo::RFC1123Pattern:System.String",
           "clrName": "RFC1123Pattern",
-          "tsEmitName": "rfc1123Pattern",
+          "tsEmitName": "rfC1123Pattern",
           "normalizedSignature": "RFC1123Pattern|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11928,7 +11928,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TextInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

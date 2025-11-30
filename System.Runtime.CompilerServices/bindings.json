@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.CompilationRelaxations::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114317,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -739,7 +739,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -772,7 +772,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.LoadHint::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114390,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1520,7 +1520,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1573,7 +1573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114394,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1584,7 +1584,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::ILSystem.Runtime.CompilerServices.MethodCodeType",
           "clrName": "IL",
-          "tsEmitName": "il",
+          "tsEmitName": "IL",
           "metadataToken": 67114395,
           "normalizedSignature": "IL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "isStatic": true,
@@ -1606,7 +1606,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodCodeType::OPTILSystem.Runtime.CompilerServices.MethodCodeType",
           "clrName": "OPTIL",
-          "tsEmitName": "optil",
+          "tsEmitName": "OPTIL",
           "metadataToken": 67114397,
           "normalizedSignature": "OPTIL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "isStatic": true,
@@ -2332,7 +2332,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2342,7 +2342,7 @@
           }
         },
         {
-          "tsName": "il",
+          "tsName": "IL",
           "isStatic": true,
           "tsSignatureId": "IL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "target": {
@@ -2362,7 +2362,7 @@
           }
         },
         {
-          "tsName": "optil",
+          "tsName": "OPTIL",
           "isStatic": true,
           "tsSignatureId": "OPTIL|System.Runtime.CompilerServices.MethodCodeType|static=true|const=true",
           "target": {
@@ -2395,7 +2395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodImplOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114401,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3220,7 +3220,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3343,7 +3343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.UnsafeAccessorKind::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114458,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4113,7 +4113,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

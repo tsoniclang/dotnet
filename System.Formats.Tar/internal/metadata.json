@@ -20,7 +20,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::V7System.Formats.Tar.TarEntryFormat",
           "clrName": "V7",
-          "tsEmitName": "v7",
+          "tsEmitName": "V7",
           "normalizedSignature": "V7|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -91,7 +91,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryType::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

@@ -216,7 +216,7 @@ export enum HttpStatusCode {
     switchingProtocols = 101,
     processing = 102,
     earlyHints = 103,
-    ok = 200,
+    OK = 200,
     created = 201,
     accepted = 202,
     nonAuthoritativeInformation = 203,
@@ -514,8 +514,8 @@ export class CookieCollection$instance {
     contains(cookie: Cookie): boolean;
     copyTo(array: ClrArray, index: int): void;
     copyTo(array: Cookie[], index: int): void;
-    getItem(index: int): Cookie;
-    getItem(name: string): Cookie;
+    get_Item(index: int): Cookie;
+    get_Item(name: string): Cookie;
     getEnumerator(): IEnumerator;
     remove(cookie: Cookie): boolean;
 }

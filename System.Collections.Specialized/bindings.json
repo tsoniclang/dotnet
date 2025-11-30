@@ -13,7 +13,7 @@
         {
           "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108894,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -783,7 +783,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1015,7 +1015,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -1029,7 +1029,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -1043,7 +1043,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -1057,7 +1057,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -1264,7 +1264,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -1274,7 +1274,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -1284,7 +1284,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Object):System.Object|static=false",
           "target": {
@@ -1294,7 +1294,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "target": {
@@ -1527,7 +1527,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Int32):System.Boolean",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "get_Item|(System.Int32):System.Boolean|static=false",
@@ -1541,7 +1541,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Int32,System.Boolean):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Boolean):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
@@ -1555,7 +1555,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "normalizedSignature": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
@@ -1569,7 +1569,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "normalizedSignature": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
@@ -1723,7 +1723,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -1733,7 +1733,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
           "target": {
@@ -1743,7 +1743,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
           "target": {
@@ -1753,7 +1753,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
           "target": {
@@ -4977,7 +4977,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
@@ -4991,7 +4991,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::set_Item(System.String,System.String):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.String):System.Void|static=false",
@@ -5005,7 +5005,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.String",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
@@ -5351,7 +5351,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.String|static=false",
           "target": {
@@ -5361,7 +5361,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -5371,7 +5371,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.String|static=false",
           "target": {
@@ -6772,7 +6772,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -6786,7 +6786,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
@@ -6800,7 +6800,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object):System.Object",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
@@ -6814,7 +6814,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Object,System.Object):System.Void",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
@@ -7248,7 +7248,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -7258,7 +7258,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "target": {
@@ -7268,7 +7268,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Object):System.Object|static=false",
           "target": {
@@ -7278,7 +7278,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "target": {

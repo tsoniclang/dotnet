@@ -13,7 +13,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.KnownColor::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67108896,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2653,7 +2653,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -6638,7 +6638,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::R:System.Byte",
           "clrName": "R",
-          "tsEmitName": "r",
+          "tsEmitName": "R",
           "metadataToken": 385876149,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "R|:System.Byte|static=false|accessor=get",
@@ -6652,7 +6652,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::G:System.Byte",
           "clrName": "G",
-          "tsEmitName": "g",
+          "tsEmitName": "G",
           "metadataToken": 385876150,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "G|:System.Byte|static=false|accessor=get",
@@ -6666,7 +6666,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::B:System.Byte",
           "clrName": "B",
-          "tsEmitName": "b",
+          "tsEmitName": "B",
           "metadataToken": 385876151,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "B|:System.Byte|static=false|accessor=get",
@@ -6680,7 +6680,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::A:System.Byte",
           "clrName": "A",
-          "tsEmitName": "a",
+          "tsEmitName": "A",
           "metadataToken": 385876152,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "A|:System.Byte|static=false|accessor=get",
@@ -8391,7 +8391,7 @@
           }
         },
         {
-          "tsName": "r",
+          "tsName": "R",
           "isStatic": false,
           "tsSignatureId": "R|:System.Byte|static=false|accessor=get",
           "target": {
@@ -8401,7 +8401,7 @@
           }
         },
         {
-          "tsName": "g",
+          "tsName": "G",
           "isStatic": false,
           "tsSignatureId": "G|:System.Byte|static=false|accessor=get",
           "target": {
@@ -8411,7 +8411,7 @@
           }
         },
         {
-          "tsName": "b",
+          "tsName": "B",
           "isStatic": false,
           "tsSignatureId": "B|:System.Byte|static=false|accessor=get",
           "target": {
@@ -8421,7 +8421,7 @@
           }
         },
         {
-          "tsName": "a",
+          "tsName": "A",
           "isStatic": false,
           "tsSignatureId": "A|:System.Byte|static=false|accessor=get",
           "target": {
@@ -8688,7 +8688,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::X:System.Int32",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "metadataToken": 385875974,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "X|:System.Int32|static=false|accessor=getset",
@@ -8702,7 +8702,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Y:System.Int32",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "metadataToken": 385875975,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
@@ -8924,7 +8924,7 @@
           }
         },
         {
-          "tsName": "x",
+          "tsName": "X",
           "isStatic": false,
           "tsSignatureId": "X|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -8934,7 +8934,7 @@
           }
         },
         {
-          "tsName": "y",
+          "tsName": "Y",
           "isStatic": false,
           "tsSignatureId": "Y|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -9152,7 +9152,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::X:System.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "metadataToken": 385875977,
           "canonicalSignature": ":System.Single",
           "normalizedSignature": "X|:System.Single|static=false|accessor=getset",
@@ -9166,7 +9166,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Y:System.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "metadataToken": 385875978,
           "canonicalSignature": ":System.Single",
           "normalizedSignature": "Y|:System.Single|static=false|accessor=getset",
@@ -9358,7 +9358,7 @@
           }
         },
         {
-          "tsName": "x",
+          "tsName": "X",
           "isStatic": false,
           "tsSignatureId": "X|:System.Single|static=false|accessor=getset",
           "target": {
@@ -9368,7 +9368,7 @@
           }
         },
         {
-          "tsName": "y",
+          "tsName": "Y",
           "isStatic": false,
           "tsSignatureId": "Y|:System.Single|static=false|accessor=getset",
           "target": {
@@ -9745,7 +9745,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::X:System.Int32",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "metadataToken": 385875981,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "X|:System.Int32|static=false|accessor=getset",
@@ -9759,7 +9759,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Y:System.Int32",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "metadataToken": 385875982,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
@@ -10169,7 +10169,7 @@
           }
         },
         {
-          "tsName": "x",
+          "tsName": "X",
           "isStatic": false,
           "tsSignatureId": "X|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -10179,7 +10179,7 @@
           }
         },
         {
-          "tsName": "y",
+          "tsName": "Y",
           "isStatic": false,
           "tsSignatureId": "Y|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -10598,7 +10598,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::X:System.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "metadataToken": 385875992,
           "canonicalSignature": ":System.Single",
           "normalizedSignature": "X|:System.Single|static=false|accessor=getset",
@@ -10612,7 +10612,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Y:System.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "metadataToken": 385875993,
           "canonicalSignature": ":System.Single",
           "normalizedSignature": "Y|:System.Single|static=false|accessor=getset",
@@ -11012,7 +11012,7 @@
           }
         },
         {
-          "tsName": "x",
+          "tsName": "X",
           "isStatic": false,
           "tsSignatureId": "X|:System.Single|static=false|accessor=getset",
           "target": {
@@ -11022,7 +11022,7 @@
           }
         },
         {
-          "tsName": "y",
+          "tsName": "Y",
           "isStatic": false,
           "tsSignatureId": "Y|:System.Single|static=false|accessor=getset",
           "target": {

@@ -60,7 +60,7 @@ export enum AddressFamily {
     impLink = 3,
     pup = 4,
     chaos = 5,
-    ns = 6,
+    NS = 6,
     ipx = 6,
     iso = 7,
     osi = 7,
@@ -143,7 +143,7 @@ export enum ProtocolFamily {
     impLink = 3,
     pup = 4,
     chaos = 5,
-    ns = 6,
+    NS = 6,
     ipx = 6,
     iso = 7,
     osi = 7,
@@ -173,7 +173,7 @@ export enum ProtocolFamily {
 
 
 export enum ProtocolType {
-    ip = 0,
+    IP = 0,
     iPv6HopByHopOptions = 0,
     icmp = 1,
     igmp = 2,
@@ -191,7 +191,7 @@ export enum ProtocolType {
     icmpV6 = 58,
     iPv6NoNextHeader = 59,
     iPv6DestinationOptions = 60,
-    nd = 77,
+    ND = 77,
     raw = 255,
     unspecified = 0,
     ipx = 1000,
@@ -296,7 +296,7 @@ export enum SocketInformationOptions {
 
 export enum SocketOptionLevel {
     socket = 65535,
-    ip = 0,
+    IP = 0,
     iPv6 = 41,
     tcp = 6,
     udp = 17

@@ -20,7 +20,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.DeleteDirectoryOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.FieldType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -108,7 +108,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.RecycleOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -152,7 +152,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.SearchOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -196,7 +196,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.UICancelOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -240,7 +240,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileIO.UIOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

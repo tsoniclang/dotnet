@@ -20,7 +20,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.FormatterTypeStyle::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Runtime.Serialization.Formatters:System.Runtime.Serialization.Formatters.TypeFilterLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

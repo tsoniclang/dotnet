@@ -579,8 +579,8 @@ export class AttributeCollection$instance {
     contains(attribute: Attribute): boolean;
     contains(attributes: Attribute[]): boolean;
     copyTo(array: ClrArray, index: int): void;
-    getItem(index: int): Attribute;
-    getItem(attributeType: Type): Attribute;
+    get_Item(index: int): Attribute;
+    get_Item(attributeType: Type): Attribute;
     getEnumerator(): IEnumerator;
     matches(attribute: Attribute): boolean;
     matches(attributes: Attribute[]): boolean;
@@ -890,8 +890,8 @@ export type Component = Component$instance & __Component$views;
 export class ComponentCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
     constructor(components: IComponent[]);
     copyTo(array: ClrArray, index: int): void;
-    getItem(name: string): IComponent;
-    getItem(index: int): IComponent;
+    get_Item(name: string): IComponent;
+    get_Item(index: int): IComponent;
     getEnumerator(): IEnumerator;
 }
 
@@ -1383,8 +1383,8 @@ export class EventDescriptorCollection$instance {
     clear(): void;
     contains(value: EventDescriptor): boolean;
     find(name: string, ignoreCase: boolean): EventDescriptor;
-    getItem(index: int): EventDescriptor;
-    getItem(name: string): EventDescriptor;
+    get_Item(index: int): EventDescriptor;
+    get_Item(name: string): EventDescriptor;
     getEnumerator(): IEnumerator;
     indexOf(value: EventDescriptor): int;
     insert(index: int, value: EventDescriptor): void;
@@ -2187,8 +2187,8 @@ export class PropertyDescriptorCollection$instance {
     contains(value: PropertyDescriptor): boolean;
     copyTo(array: ClrArray, index: int): void;
     find(name: string, ignoreCase: boolean): PropertyDescriptor;
-    getItem(index: int): PropertyDescriptor;
-    getItem(name: string): PropertyDescriptor;
+    get_Item(index: int): PropertyDescriptor;
+    get_Item(name: string): PropertyDescriptor;
     getEnumerator(): IEnumerator;
     indexOf(value: PropertyDescriptor): int;
     insert(index: int, value: PropertyDescriptor): void;

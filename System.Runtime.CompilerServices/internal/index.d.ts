@@ -63,9 +63,9 @@ export enum LoadHint {
 
 
 export enum MethodCodeType {
-    il = 0,
+    IL = 0,
     native = 1,
-    optil = 2,
+    OPTIL = 2,
     runtime = 3
 }
 

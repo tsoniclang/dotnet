@@ -372,7 +372,7 @@ export class MailMessage$instance {
     body: string;
     bodyEncoding: Encoding;
     bodyTransferEncoding: TransferEncoding;
-    readonly cc: MailAddressCollection;
+    readonly CC: MailAddressCollection;
     deliveryNotificationOptions: DeliveryNotificationOptions;
     from_: MailAddress;
     readonly headers: NameValueCollection;

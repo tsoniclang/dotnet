@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114818,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -750,7 +750,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -793,7 +793,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109052,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1574,7 +1574,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1657,7 +1657,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109045,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1679,7 +1679,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::MD5System.Reflection.AssemblyHashAlgorithm",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "metadataToken": 67109047,
           "normalizedSignature": "MD5|System.Reflection.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -2438,7 +2438,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2458,7 +2458,7 @@
           }
         },
         {
-          "tsName": "md5",
+          "tsName": "MD5",
           "isStatic": true,
           "tsSignatureId": "MD5|System.Reflection.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -2521,7 +2521,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114833,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3291,7 +3291,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3364,7 +3364,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114845,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4310,7 +4310,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4543,7 +4543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CallingConventions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114867,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -5313,7 +5313,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -5386,7 +5386,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.DeclarativeSecurityAction::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109010,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
@@ -6211,7 +6211,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int16|static=false|const=false",
           "target": {
@@ -6334,7 +6334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114913,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7093,7 +7093,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7156,7 +7156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClauseOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114918,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -7915,7 +7915,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -7978,7 +7978,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114946,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -8902,7 +8902,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -9115,7 +9115,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.GenericParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114966,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -9929,7 +9929,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10042,7 +10042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67114976,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -10053,7 +10053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::I386System.Reflection.ImageFileMachine",
           "clrName": "I386",
-          "tsEmitName": "i386",
+          "tsEmitName": "I386",
           "metadataToken": 67114977,
           "normalizedSignature": "I386|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
@@ -10064,7 +10064,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::IA64System.Reflection.ImageFileMachine",
           "clrName": "IA64",
-          "tsEmitName": "ia64",
+          "tsEmitName": "IA64",
           "metadataToken": 67114978,
           "normalizedSignature": "IA64|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
@@ -10075,7 +10075,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::AMD64System.Reflection.ImageFileMachine",
           "clrName": "AMD64",
-          "tsEmitName": "amd64",
+          "tsEmitName": "AMD64",
           "metadataToken": 67114979,
           "normalizedSignature": "AMD64|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
@@ -10086,7 +10086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::ARMSystem.Reflection.ImageFileMachine",
           "clrName": "ARM",
-          "tsEmitName": "arm",
+          "tsEmitName": "ARM",
           "metadataToken": 67114980,
           "normalizedSignature": "ARM|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
@@ -10801,7 +10801,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -10811,7 +10811,7 @@
           }
         },
         {
-          "tsName": "i386",
+          "tsName": "I386",
           "isStatic": true,
           "tsSignatureId": "I386|System.Reflection.ImageFileMachine|static=true|const=true",
           "target": {
@@ -10821,7 +10821,7 @@
           }
         },
         {
-          "tsName": "ia64",
+          "tsName": "IA64",
           "isStatic": true,
           "tsSignatureId": "IA64|System.Reflection.ImageFileMachine|static=true|const=true",
           "target": {
@@ -10831,7 +10831,7 @@
           }
         },
         {
-          "tsName": "amd64",
+          "tsName": "AMD64",
           "isStatic": true,
           "tsSignatureId": "AMD64|System.Reflection.ImageFileMachine|static=true|const=true",
           "target": {
@@ -10841,7 +10841,7 @@
           }
         },
         {
-          "tsName": "arm",
+          "tsName": "ARM",
           "isStatic": true,
           "tsSignatureId": "ARM|System.Reflection.ImageFileMachine|static=true|const=true",
           "target": {
@@ -10864,7 +10864,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109041,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -11612,7 +11612,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -11665,7 +11665,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115006,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -12479,7 +12479,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -12592,7 +12592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115016,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13571,7 +13571,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -13834,7 +13834,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115041,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -13856,7 +13856,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::ILSystem.Reflection.MethodImplAttributes",
           "clrName": "IL",
-          "tsEmitName": "il",
+          "tsEmitName": "IL",
           "metadataToken": 67115043,
           "normalizedSignature": "IL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "isStatic": true,
@@ -13878,7 +13878,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::OPTILSystem.Reflection.MethodImplAttributes",
           "clrName": "OPTIL",
-          "tsEmitName": "optil",
+          "tsEmitName": "OPTIL",
           "metadataToken": 67115045,
           "normalizedSignature": "OPTIL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "isStatic": true,
@@ -14747,7 +14747,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -14767,7 +14767,7 @@
           }
         },
         {
-          "tsName": "il",
+          "tsName": "IL",
           "isStatic": true,
           "tsSignatureId": "IL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "target": {
@@ -14787,7 +14787,7 @@
           }
         },
         {
-          "tsName": "optil",
+          "tsName": "OPTIL",
           "isStatic": true,
           "tsSignatureId": "OPTIL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "target": {
@@ -14950,7 +14950,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodImportAttributes::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109021,
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
@@ -15874,7 +15874,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int16|static=false|const=false",
           "target": {
@@ -16087,7 +16087,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodSemanticsAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67109003,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -16868,7 +16868,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -16951,7 +16951,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115073,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -17699,7 +17699,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -17752,7 +17752,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115091,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -18588,7 +18588,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -18721,7 +18721,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115112,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -18765,7 +18765,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::PE32PlusSystem.Reflection.PortableExecutableKinds",
           "clrName": "PE32Plus",
-          "tsEmitName": "pe32Plus",
+          "tsEmitName": "pE32Plus",
           "metadataToken": 67115116,
           "normalizedSignature": "PE32Plus|System.Reflection.PortableExecutableKinds|static=true|const=true",
           "isStatic": true,
@@ -19502,7 +19502,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -19542,7 +19542,7 @@
           }
         },
         {
-          "tsName": "pe32Plus",
+          "tsName": "pE32Plus",
           "isStatic": true,
           "tsSignatureId": "PE32Plus|System.Reflection.PortableExecutableKinds|static=true|const=true",
           "target": {
@@ -19585,7 +19585,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115119,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -19607,7 +19607,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::MSILSystem.Reflection.ProcessorArchitecture",
           "clrName": "MSIL",
-          "tsEmitName": "msil",
+          "tsEmitName": "MSIL",
           "metadataToken": 67115121,
           "normalizedSignature": "MSIL|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
@@ -19618,7 +19618,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::X86System.Reflection.ProcessorArchitecture",
           "clrName": "X86",
-          "tsEmitName": "x86",
+          "tsEmitName": "X86",
           "metadataToken": 67115122,
           "normalizedSignature": "X86|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
@@ -19629,7 +19629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::IA64System.Reflection.ProcessorArchitecture",
           "clrName": "IA64",
-          "tsEmitName": "ia64",
+          "tsEmitName": "IA64",
           "metadataToken": 67115123,
           "normalizedSignature": "IA64|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
@@ -20366,7 +20366,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -20386,7 +20386,7 @@
           }
         },
         {
-          "tsName": "msil",
+          "tsName": "MSIL",
           "isStatic": true,
           "tsSignatureId": "MSIL|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "target": {
@@ -20396,7 +20396,7 @@
           }
         },
         {
-          "tsName": "x86",
+          "tsName": "X86",
           "isStatic": true,
           "tsSignatureId": "X86|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "target": {
@@ -20406,7 +20406,7 @@
           }
         },
         {
-          "tsName": "ia64",
+          "tsName": "IA64",
           "isStatic": true,
           "tsSignatureId": "IA64|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "target": {
@@ -20449,7 +20449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115126,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -21252,7 +21252,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -21355,7 +21355,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115137,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -22092,7 +22092,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -22135,7 +22135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115140,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -22883,7 +22883,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -22936,7 +22936,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67115157,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -24003,7 +24003,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -54171,7 +54171,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GUID:System.Guid",
           "clrName": "GUID",
-          "tsEmitName": "guid",
+          "tsEmitName": "GUID",
           "metadataToken": 385880368,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "GUID|:System.Guid|static=false|accessor=get",
@@ -55895,7 +55895,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "guid",
+          "tsName": "GUID",
           "isStatic": false,
           "tsSignatureId": "GUID|:System.Guid|static=false|accessor=get",
           "target": {
@@ -60369,7 +60369,7 @@
           }
         },
         {
-          "tsName": "guid",
+          "tsName": "GUID",
           "isStatic": false,
           "tsSignatureId": "GUID|:System.Guid|static=false|accessor=get",
           "target": {

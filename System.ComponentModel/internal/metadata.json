@@ -25,7 +25,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindableSupport::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -78,7 +78,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.BindingDirection::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -122,7 +122,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.CollectionChangeAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -175,7 +175,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.DataObjectMethodType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -246,7 +246,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.DesignerSerializationVisibility::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.ComponentModel.EditorBrowsableState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -352,7 +352,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.InheritanceLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -405,7 +405,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.LicenseUsageMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -449,7 +449,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListChangedType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -547,7 +547,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ListSortDirection::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -591,7 +591,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.MaskedTextResultHint::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -752,7 +752,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyTabScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -814,7 +814,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.RefreshProperties::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -867,7 +867,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.ToolboxItemFilterType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -4421,7 +4421,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::get_Item(System.Int32):System.Attribute",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Attribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4437,7 +4437,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.AttributeCollection::get_Item(System.Type):System.Attribute",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Type):System.Attribute|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7753,7 +7753,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::get_Item(System.String):System.ComponentModel.IComponent",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.IComponent|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7769,7 +7769,7 @@
         {
           "stableId": "System.ComponentModel.Primitives:System.ComponentModel.ComponentCollection::get_Item(System.Int32):System.ComponentModel.IComponent",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.IComponent|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12286,7 +12286,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::get_Item(System.Int32):System.ComponentModel.EventDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.EventDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -12302,7 +12302,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.EventDescriptorCollection::get_Item(System.String):System.ComponentModel.EventDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.EventDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -19516,7 +19516,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::get_Item(System.Int32):System.ComponentModel.PropertyDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.PropertyDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -19532,7 +19532,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.PropertyDescriptorCollection::get_Item(System.String):System.ComponentModel.PropertyDescriptor",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.PropertyDescriptor|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

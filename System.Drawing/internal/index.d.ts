@@ -219,15 +219,15 @@ export enum KnownColor {
 
 
 export class Color$instance {
-    readonly a: byte;
-    readonly b: byte;
-    readonly g: byte;
+    readonly A: byte;
+    readonly B: byte;
+    readonly G: byte;
     readonly isEmpty: boolean;
     readonly isKnownColor: boolean;
     readonly isNamedColor: boolean;
     readonly isSystemColor: boolean;
     readonly name: string;
-    readonly r: byte;
+    readonly R: byte;
     equals(obj: unknown): boolean;
     equals(other: Color): boolean;
     getBrightness(): float;
@@ -404,8 +404,8 @@ export class Point$instance {
     constructor(sz: Size);
     constructor(dw: int);
     readonly isEmpty: boolean;
-    x: int;
-    y: int;
+    X: int;
+    Y: int;
     equals(obj: unknown): boolean;
     equals(other: Point): boolean;
     getHashCode(): int;
@@ -435,8 +435,8 @@ export class PointF$instance {
     constructor(x: float, y: float);
     constructor(vector: Vector2);
     readonly isEmpty: boolean;
-    x: float;
-    y: float;
+    X: float;
+    Y: float;
     equals(obj: unknown): boolean;
     equals(other: PointF): boolean;
     getHashCode(): int;
@@ -472,8 +472,8 @@ export class Rectangle$instance {
     size: Size;
     readonly top: int;
     width: int;
-    x: int;
-    y: int;
+    X: int;
+    Y: int;
     contains(x: int, y: int): boolean;
     contains(pt: Point): boolean;
     contains(rect: Rectangle): boolean;
@@ -521,8 +521,8 @@ export class RectangleF$instance {
     size: SizeF;
     readonly top: float;
     width: float;
-    x: float;
-    y: float;
+    X: float;
+    Y: float;
     contains(x: float, y: float): boolean;
     contains(pt: PointF): boolean;
     contains(rect: RectangleF): boolean;

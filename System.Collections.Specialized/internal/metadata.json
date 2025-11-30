@@ -22,7 +22,7 @@
         {
           "stableId": "System.ObjectModel:System.Collections.Specialized.NotifyCollectionChangedAction::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -259,7 +259,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -275,7 +275,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -291,7 +291,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -307,7 +307,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.IOrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -607,7 +607,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Int32):System.Boolean",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Boolean|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -623,7 +623,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Int32,System.Boolean):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Boolean):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -639,7 +639,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::get_Item(System.Collections.Specialized.BitVector32\u002BSection):System.Int32",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Collections.Specialized.BitVector32\u002BSection):System.Int32|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -655,7 +655,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.BitVector32::set_Item(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Collections.Specialized.BitVector32\u002BSection,System.Int32):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2641,7 +2641,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.String):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.String):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2657,7 +2657,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::set_Item(System.String,System.String):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.String,System.String):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2673,7 +2673,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::get_Item(System.Int32):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Int32):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3460,7 +3460,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3476,7 +3476,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Int32,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3492,7 +3492,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::get_Item(System.Object):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Object):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -3508,7 +3508,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.OrderedDictionary::set_Item(System.Object,System.Object):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Object,System.Object):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

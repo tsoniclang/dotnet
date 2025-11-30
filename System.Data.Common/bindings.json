@@ -13,7 +13,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.CatalogLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110135,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -750,7 +750,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -793,7 +793,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.GroupByBehavior::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110555,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1563,7 +1563,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1636,7 +1636,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.IdentifierCase::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110561,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2384,7 +2384,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2437,7 +2437,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.SupportedJoinOperators::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110637,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3207,7 +3207,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4845,7 +4845,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.Int32):System.Data.Common.DataColumnMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Data.Common.DataColumnMapping",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DataColumnMapping|static=false",
@@ -4859,7 +4859,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DataColumnMapping):System.Void|static=false",
@@ -4873,7 +4873,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.String):System.Data.Common.DataColumnMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Data.Common.DataColumnMapping",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DataColumnMapping|static=false",
@@ -4887,7 +4887,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.String,System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Data.Common.DataColumnMapping):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DataColumnMapping):System.Void|static=false",
@@ -5351,7 +5351,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Data.Common.DataColumnMapping|static=false",
           "target": {
@@ -5361,7 +5361,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Data.Common.DataColumnMapping):System.Void|static=false",
           "target": {
@@ -5371,7 +5371,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Data.Common.DataColumnMapping|static=false",
           "target": {
@@ -5381,7 +5381,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Data.Common.DataColumnMapping):System.Void|static=false",
           "target": {
@@ -6443,7 +6443,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.Int32):System.Data.Common.DataTableMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Data.Common.DataTableMapping",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DataTableMapping|static=false",
@@ -6457,7 +6457,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.Int32,System.Data.Common.DataTableMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Data.Common.DataTableMapping):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DataTableMapping):System.Void|static=false",
@@ -6471,7 +6471,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.String):System.Data.Common.DataTableMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Data.Common.DataTableMapping",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DataTableMapping|static=false",
@@ -6485,7 +6485,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.String,System.Data.Common.DataTableMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Data.Common.DataTableMapping):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DataTableMapping):System.Void|static=false",
@@ -6939,7 +6939,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Data.Common.DataTableMapping|static=false",
           "target": {
@@ -6949,7 +6949,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Data.Common.DataTableMapping):System.Void|static=false",
           "target": {
@@ -6959,7 +6959,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Data.Common.DataTableMapping|static=false",
           "target": {
@@ -6969,7 +6969,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Data.Common.DataTableMapping):System.Void|static=false",
           "target": {
@@ -15206,7 +15206,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -15220,7 +15220,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
@@ -16089,7 +16089,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -16099,7 +16099,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Object|static=false",
           "target": {
@@ -17030,7 +17030,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Object",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
@@ -17044,7 +17044,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Object",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
@@ -17625,7 +17625,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Object|static=false",
           "target": {
@@ -17635,7 +17635,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Object|static=false",
           "target": {
@@ -19726,7 +19726,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.Int32):System.Data.Common.DbParameter",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Data.Common.DbParameter",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DbParameter|static=false",
@@ -19740,7 +19740,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.Int32,System.Data.Common.DbParameter):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Data.Common.DbParameter):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DbParameter):System.Void|static=false",
@@ -19754,7 +19754,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.String):System.Data.Common.DbParameter",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Data.Common.DbParameter",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DbParameter|static=false",
@@ -19768,7 +19768,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.String,System.Data.Common.DbParameter):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String,System.Data.Common.DbParameter):System.Void",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DbParameter):System.Void|static=false",
@@ -20167,7 +20167,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Data.Common.DbParameter|static=false",
           "target": {
@@ -20177,7 +20177,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Data.Common.DbParameter):System.Void|static=false",
           "target": {
@@ -20187,7 +20187,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Data.Common.DbParameter|static=false",
           "target": {
@@ -20197,7 +20197,7 @@
           }
         },
         {
-          "tsName": "setItem2",
+          "tsName": "set_Item2",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.String,System.Data.Common.DbParameter):System.Void|static=false",
           "target": {

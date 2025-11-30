@@ -20,7 +20,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::MD5System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "normalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA1System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA1",
-          "tsEmitName": "sha1",
+          "tsEmitName": "SHA1",
           "normalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -56,7 +56,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA256System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA256",
-          "tsEmitName": "sha256",
+          "tsEmitName": "SHA256",
           "normalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -65,7 +65,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA384System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA384",
-          "tsEmitName": "sha384",
+          "tsEmitName": "SHA384",
           "normalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -74,7 +74,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA512System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA512",
-          "tsEmitName": "sha512",
+          "tsEmitName": "SHA512",
           "normalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -100,7 +100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

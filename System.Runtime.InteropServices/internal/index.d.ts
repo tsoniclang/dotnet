@@ -57,8 +57,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export enum Architecture {
-    x86 = 0,
-    x64 = 1,
+    X86 = 0,
+    X64 = 1,
     arm = 2,
     arm64 = 3,
     wasm = 4,
@@ -163,9 +163,9 @@ export enum DllImportSearchPath {
 
 
 export enum ExporterEventKind {
-    notifTypeconverted = 0,
-    notifConvertwarning = 1,
-    errorReftoinvalidassembly = 2
+    NOTIF_TYPECONVERTED = 0,
+    NOTIF_CONVERTWARNING = 1,
+    ERROR_REFTOINVALIDASSEMBLY = 2
 }
 
 
@@ -185,16 +185,16 @@ export enum LayoutKind {
 
 
 export enum PosixSignal {
-    sighup = -1,
-    sigint = -2,
-    sigquit = -3,
-    sigterm = -4,
-    sigchld = -5,
-    sigcont = -6,
-    sigwinch = -7,
-    sigttin = -8,
-    sigttou = -9,
-    sigtstp = -10
+    SIGHUP = -1,
+    SIGINT = -2,
+    SIGQUIT = -3,
+    SIGTERM = -4,
+    SIGCHLD = -5,
+    SIGCONT = -6,
+    SIGWINCH = -7,
+    SIGTTIN = -8,
+    SIGTTOU = -9,
+    SIGTSTP = -10
 }
 
 
@@ -290,16 +290,16 @@ export enum TypeLibVarFlags {
 
 export enum UnmanagedType {
     bool = 2,
-    i1 = 3,
-    u1 = 4,
-    i2 = 5,
-    u2 = 6,
-    i4 = 7,
-    u4 = 8,
-    i8 = 9,
-    u8 = 10,
-    r4 = 11,
-    r8 = 12,
+    I1 = 3,
+    U1 = 4,
+    I2 = 5,
+    U2 = 6,
+    I4 = 7,
+    U4 = 8,
+    I8 = 9,
+    U8 = 10,
+    R4 = 11,
+    R8 = 12,
     currency = 15,
     bStr = 19,
     lpStr = 20,
@@ -326,55 +326,55 @@ export enum UnmanagedType {
     error = 45,
     iInspectable = 46,
     hString = 47,
-    lputf8Str = 48
+    lputF8Str = 48
 }
 
 
 export enum VarEnum {
-    vtEmpty = 0,
-    vtNull = 1,
-    vtI2 = 2,
-    vtI4 = 3,
-    vtR4 = 4,
-    vtR8 = 5,
-    vtCy = 6,
-    vtDate = 7,
-    vtBstr = 8,
-    vtDispatch = 9,
-    vtError = 10,
-    vtBool = 11,
-    vtVariant = 12,
-    vtUnknown = 13,
-    vtDecimal = 14,
-    vtI1 = 16,
-    vtUi1 = 17,
-    vtUi2 = 18,
-    vtUi4 = 19,
-    vtI8 = 20,
-    vtUi8 = 21,
-    vtInt = 22,
-    vtUint = 23,
-    vtVoid = 24,
-    vtHresult = 25,
-    vtPtr = 26,
-    vtSafearray = 27,
-    vtCarray = 28,
-    vtUserdefined = 29,
-    vtLpstr = 30,
-    vtLpwstr = 31,
-    vtRecord = 36,
-    vtFiletime = 64,
-    vtBlob = 65,
-    vtStream = 66,
-    vtStorage = 67,
-    vtStreamedObject = 68,
-    vtStoredObject = 69,
-    vtBlobObject = 70,
-    vtCf = 71,
-    vtClsid = 72,
-    vtVector = 4096,
-    vtArray = 8192,
-    vtByref = 16384
+    VT_EMPTY = 0,
+    VT_NULL = 1,
+    VT_I2 = 2,
+    VT_I4 = 3,
+    VT_R4 = 4,
+    VT_R8 = 5,
+    VT_CY = 6,
+    VT_DATE = 7,
+    VT_BSTR = 8,
+    VT_DISPATCH = 9,
+    VT_ERROR = 10,
+    VT_BOOL = 11,
+    VT_VARIANT = 12,
+    VT_UNKNOWN = 13,
+    VT_DECIMAL = 14,
+    VT_I1 = 16,
+    VT_UI1 = 17,
+    VT_UI2 = 18,
+    VT_UI4 = 19,
+    VT_I8 = 20,
+    VT_UI8 = 21,
+    VT_INT = 22,
+    VT_UINT = 23,
+    VT_VOID = 24,
+    VT_HRESULT = 25,
+    VT_PTR = 26,
+    VT_SAFEARRAY = 27,
+    VT_CARRAY = 28,
+    VT_USERDEFINED = 29,
+    VT_LPSTR = 30,
+    VT_LPWSTR = 31,
+    VT_RECORD = 36,
+    VT_FILETIME = 64,
+    VT_BLOB = 65,
+    VT_STREAM = 66,
+    VT_STORAGE = 67,
+    VT_STREAMED_OBJECT = 68,
+    VT_STORED_OBJECT = 69,
+    VT_BLOB_OBJECT = 70,
+    VT_CF = 71,
+    VT_CLSID = 72,
+    VT_VECTOR = 4096,
+    VT_ARRAY = 8192,
+    VT_BYREF = 16384
 }
 
 
@@ -468,7 +468,7 @@ export class ComWrappers_ComInterfaceDispatch$instance {
 export type ComWrappers_ComInterfaceDispatch = ComWrappers_ComInterfaceDispatch$instance;
 
 export class ComWrappers_ComInterfaceEntry$instance {
-    iid: Guid;
+    IID: Guid;
     vtable: nint;
 }
 
@@ -579,7 +579,7 @@ export class NFloat$instance implements IBitwiseOperators_3<NFloat, NFloat, NFlo
     static readonly negativeInfinity: NFloat;
     static readonly positiveInfinity: NFloat;
     static readonly size: int;
-    static readonly e: NFloat;
+    static readonly E: NFloat;
     static readonly pi: NFloat;
     static readonly tau: NFloat;
     static readonly negativeZero: NFloat;
@@ -738,7 +738,7 @@ export class OSPlatform$instance {
     toString(): string;
     static readonly freeBSD: OSPlatform;
     static readonly linux: OSPlatform;
-    static readonly osx: OSPlatform;
+    static readonly OSX: OSPlatform;
     static readonly windows: OSPlatform;
     static create(osPlatform: string): OSPlatform;
 }

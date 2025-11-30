@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyContentType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -68,7 +68,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -148,7 +148,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -166,7 +166,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.AssemblyHashAlgorithm::MD5System.Reflection.AssemblyHashAlgorithm",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "normalizedSignature": "MD5|System.Reflection.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -228,7 +228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyNameFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -299,7 +299,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -514,7 +514,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CallingConventions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -585,7 +585,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.DeclarativeSecurityAction::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -701,7 +701,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.EventAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -763,7 +763,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClauseOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -825,7 +825,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1022,7 +1022,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.GenericParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1129,7 +1129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::I386System.Reflection.ImageFileMachine",
           "clrName": "I386",
-          "tsEmitName": "i386",
+          "tsEmitName": "I386",
           "normalizedSignature": "I386|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1147,7 +1147,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::IA64System.Reflection.ImageFileMachine",
           "clrName": "IA64",
-          "tsEmitName": "ia64",
+          "tsEmitName": "IA64",
           "normalizedSignature": "IA64|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1156,7 +1156,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::AMD64System.Reflection.ImageFileMachine",
           "clrName": "AMD64",
-          "tsEmitName": "amd64",
+          "tsEmitName": "AMD64",
           "normalizedSignature": "AMD64|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1165,7 +1165,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ImageFileMachine::ARMSystem.Reflection.ImageFileMachine",
           "clrName": "ARM",
-          "tsEmitName": "arm",
+          "tsEmitName": "ARM",
           "normalizedSignature": "ARM|System.Reflection.ImageFileMachine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1191,7 +1191,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1244,7 +1244,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1593,7 +1593,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1611,7 +1611,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::ILSystem.Reflection.MethodImplAttributes",
           "clrName": "IL",
-          "tsEmitName": "il",
+          "tsEmitName": "IL",
           "normalizedSignature": "IL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1629,7 +1629,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::OPTILSystem.Reflection.MethodImplAttributes",
           "clrName": "OPTIL",
-          "tsEmitName": "optil",
+          "tsEmitName": "OPTIL",
           "normalizedSignature": "OPTIL|System.Reflection.MethodImplAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1781,7 +1781,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodImportAttributes::value__System.Int16",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int16|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1978,7 +1978,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.MethodSemanticsAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2058,7 +2058,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2111,7 +2111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2236,7 +2236,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2272,7 +2272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PortableExecutableKinds::PE32PlusSystem.Reflection.PortableExecutableKinds",
           "clrName": "PE32Plus",
-          "tsEmitName": "pe32Plus",
+          "tsEmitName": "pE32Plus",
           "normalizedSignature": "PE32Plus|System.Reflection.PortableExecutableKinds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2316,7 +2316,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2334,7 +2334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::MSILSystem.Reflection.ProcessorArchitecture",
           "clrName": "MSIL",
-          "tsEmitName": "msil",
+          "tsEmitName": "MSIL",
           "normalizedSignature": "MSIL|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2343,7 +2343,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::X86System.Reflection.ProcessorArchitecture",
           "clrName": "X86",
-          "tsEmitName": "x86",
+          "tsEmitName": "X86",
           "normalizedSignature": "X86|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2352,7 +2352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ProcessorArchitecture::IA64System.Reflection.ProcessorArchitecture",
           "clrName": "IA64",
-          "tsEmitName": "ia64",
+          "tsEmitName": "IA64",
           "normalizedSignature": "IA64|System.Reflection.ProcessorArchitecture|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2396,7 +2396,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.PropertyAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2494,7 +2494,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2538,7 +2538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2591,7 +2591,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -14138,7 +14138,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::GUID:System.Guid",
           "clrName": "GUID",
-          "tsEmitName": "guid",
+          "tsEmitName": "GUID",
           "normalizedSignature": "GUID|:System.Guid|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -20,7 +20,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.DependentCloneOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnlistmentOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -108,7 +108,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.EnterpriseServicesInteropOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -161,7 +161,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.IsolationLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -250,7 +250,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeAsyncFlowOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -294,7 +294,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionScopeOption::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -347,7 +347,7 @@
         {
           "stableId": "System.Transactions.Local:System.Transactions.TransactionStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

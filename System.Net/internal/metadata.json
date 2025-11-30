@@ -27,7 +27,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.AuthenticationSchemes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -116,7 +116,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieVariant::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -187,7 +187,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.DecompressionMethods::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -258,7 +258,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.FtpStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -617,7 +617,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.HttpRequestHeader::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1012,7 +1012,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.HttpResponseHeader::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1308,7 +1308,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1353,7 +1353,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::OKSystem.Net.HttpStatusCode",
           "clrName": "OK",
-          "tsEmitName": "ok",
+          "tsEmitName": "OK",
           "normalizedSignature": "OK|System.Net.HttpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1937,7 +1937,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.SecurityProtocolType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2017,7 +2017,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.WebExceptionStatus::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -4073,7 +4073,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieCollection::get_Item(System.Int32):System.Net.Cookie",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Net.Cookie|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4089,7 +4089,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieCollection::get_Item(System.String):System.Net.Cookie",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Net.Cookie|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16029,7 +16029,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::get_Item(System.Net.HttpRequestHeader):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Net.HttpRequestHeader):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16045,7 +16045,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::set_Item(System.Net.HttpRequestHeader,System.String):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Net.HttpRequestHeader,System.String):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16061,7 +16061,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::get_Item(System.Net.HttpResponseHeader):System.String",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.Net.HttpResponseHeader):System.String|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -16077,7 +16077,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::set_Item(System.Net.HttpResponseHeader,System.String):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

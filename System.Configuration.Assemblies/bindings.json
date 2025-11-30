@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111654,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -35,7 +35,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::MD5System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "metadataToken": 67111656,
           "normalizedSignature": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -46,7 +46,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA1System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA1",
-          "tsEmitName": "sha1",
+          "tsEmitName": "SHA1",
           "metadataToken": 67111657,
           "normalizedSignature": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA256System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA256",
-          "tsEmitName": "sha256",
+          "tsEmitName": "SHA256",
           "metadataToken": 67111658,
           "normalizedSignature": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -68,7 +68,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA384System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA384",
-          "tsEmitName": "sha384",
+          "tsEmitName": "SHA384",
           "metadataToken": 67111659,
           "normalizedSignature": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyHashAlgorithm::SHA512System.Configuration.Assemblies.AssemblyHashAlgorithm",
           "clrName": "SHA512",
-          "tsEmitName": "sha512",
+          "tsEmitName": "SHA512",
           "metadataToken": 67111660,
           "normalizedSignature": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -814,7 +814,7 @@
           }
         },
         {
-          "tsName": "md5",
+          "tsName": "MD5",
           "isStatic": true,
           "tsSignatureId": "MD5|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -824,7 +824,7 @@
           }
         },
         {
-          "tsName": "sha1",
+          "tsName": "SHA1",
           "isStatic": true,
           "tsSignatureId": "SHA1|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -834,7 +834,7 @@
           }
         },
         {
-          "tsName": "sha256",
+          "tsName": "SHA256",
           "isStatic": true,
           "tsSignatureId": "SHA256|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -844,7 +844,7 @@
           }
         },
         {
-          "tsName": "sha384",
+          "tsName": "SHA384",
           "isStatic": true,
           "tsSignatureId": "SHA384|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -854,7 +854,7 @@
           }
         },
         {
-          "tsName": "sha512",
+          "tsName": "SHA512",
           "isStatic": true,
           "tsSignatureId": "SHA512|System.Configuration.Assemblies.AssemblyHashAlgorithm|static=true|const=true",
           "target": {
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Configuration.Assemblies.AssemblyVersionCompatibility::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111661,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1625,7 +1625,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {

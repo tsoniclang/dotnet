@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.CodeGenerationOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67117105,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -794,7 +794,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -877,7 +877,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlMappingAccess::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67117578,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1625,7 +1625,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3364,7 +3364,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.SoapAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Xml.Serialization.SoapAttributes",
           "normalizedSignature": "get_Item|(System.Type):System.Xml.Serialization.SoapAttributes|static=false",
@@ -3378,7 +3378,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.SoapAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.SoapAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.String):System.Xml.Serialization.SoapAttributes",
           "normalizedSignature": "get_Item|(System.Type,System.String):System.Xml.Serialization.SoapAttributes|static=false",
@@ -3427,7 +3427,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Type):System.Xml.Serialization.SoapAttributes|static=false",
           "target": {
@@ -3437,7 +3437,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Type,System.String):System.Xml.Serialization.SoapAttributes|static=false",
           "target": {
@@ -12581,7 +12581,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type):System.Xml.Serialization.XmlAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type):System.Xml.Serialization.XmlAttributes",
           "normalizedSignature": "get_Item|(System.Type):System.Xml.Serialization.XmlAttributes|static=false",
@@ -12595,7 +12595,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlAttributeOverrides::get_Item(System.Type,System.String):System.Xml.Serialization.XmlAttributes",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.Type,System.String):System.Xml.Serialization.XmlAttributes",
           "normalizedSignature": "get_Item|(System.Type,System.String):System.Xml.Serialization.XmlAttributes|static=false",
@@ -12644,7 +12644,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Type):System.Xml.Serialization.XmlAttributes|static=false",
           "target": {
@@ -12654,7 +12654,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Type,System.String):System.Xml.Serialization.XmlAttributes|static=false",
           "target": {
@@ -22154,7 +22154,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.Int32):System.Xml.Schema.XmlSchema",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32):System.Xml.Schema.XmlSchema",
           "normalizedSignature": "get_Item|(System.Int32):System.Xml.Schema.XmlSchema|static=false",
@@ -22168,7 +22168,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::set_Item(System.Int32,System.Xml.Schema.XmlSchema):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "metadataToken": 0,
           "canonicalSignature": "(System.Int32,System.Xml.Schema.XmlSchema):System.Void",
           "normalizedSignature": "set_Item|(System.Int32,System.Xml.Schema.XmlSchema):System.Void|static=false",
@@ -22182,7 +22182,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Serialization.XmlSchemas::get_Item(System.String):System.Xml.Schema.XmlSchema",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "metadataToken": 0,
           "canonicalSignature": "(System.String):System.Xml.Schema.XmlSchema",
           "normalizedSignature": "get_Item|(System.String):System.Xml.Schema.XmlSchema|static=false",
@@ -22606,7 +22606,7 @@
           }
         },
         {
-          "tsName": "getItem",
+          "tsName": "get_Item",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.Int32):System.Xml.Schema.XmlSchema|static=false",
           "target": {
@@ -22616,7 +22616,7 @@
           }
         },
         {
-          "tsName": "setItem",
+          "tsName": "set_Item",
           "isStatic": false,
           "tsSignatureId": "set_Item|(System.Int32,System.Xml.Schema.XmlSchema):System.Void|static=false",
           "target": {
@@ -22626,7 +22626,7 @@
           }
         },
         {
-          "tsName": "getItem2",
+          "tsName": "get_Item2",
           "isStatic": false,
           "tsSignatureId": "get_Item|(System.String):System.Xml.Schema.XmlSchema|static=false",
           "target": {

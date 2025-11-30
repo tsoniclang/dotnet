@@ -13,7 +13,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlCompareOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110046,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -805,7 +805,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -898,7 +898,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.StorageState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110074,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1646,7 +1646,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -15096,7 +15096,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385877038,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -15720,7 +15720,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {

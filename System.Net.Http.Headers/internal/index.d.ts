@@ -339,7 +339,7 @@ export class HttpRequestHeaders$instance extends HttpHeaders$instance {
     proxyAuthorization: AuthenticationHeaderValue;
     range: RangeHeaderValue;
     referrer: Uri;
-    readonly te: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
+    readonly TE: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
     readonly trailer: HttpHeaderValueCollection_1<CLROf<string>>;
     readonly transferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
     transferEncodingChunked: Nullable_1<CLROf<boolean>>;

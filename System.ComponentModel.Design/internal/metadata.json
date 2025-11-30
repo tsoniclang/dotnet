@@ -20,7 +20,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpContextType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -82,7 +82,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordType::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -135,7 +135,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.SelectionTypes::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -260,7 +260,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2748,7 +2748,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::ID:System.Int32",
           "clrName": "ID",
-          "tsEmitName": "id",
+          "tsEmitName": "ID",
           "normalizedSignature": "ID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4189,7 +4189,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::get_Item(System.Int32):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -4205,7 +4205,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection::get_Item(System.String):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.ComponentModel.Design.DesignerOptionService\u002BDesignerOptionCollection|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

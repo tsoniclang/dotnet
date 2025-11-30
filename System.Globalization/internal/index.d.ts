@@ -255,7 +255,7 @@ export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __Chi
 
 
 export class CompareInfo$instance {
-    readonly lcid: int;
+    readonly LCID: int;
     readonly name: string;
     readonly version: SortVersion;
     compare(string1: string, string2: string): int;
@@ -347,7 +347,7 @@ export class CultureInfo$instance {
     readonly isNeutralCulture: boolean;
     readonly isReadOnly: boolean;
     readonly keyboardLayoutId: int;
-    readonly lcid: int;
+    readonly LCID: int;
     readonly name: string;
     readonly nativeName: string;
     numberFormat: NumberFormatInfo;
@@ -435,7 +435,7 @@ export class DateTimeFormatInfo$instance {
     monthNames: string[];
     readonly nativeCalendarName: string;
     pmDesignator: string;
-    readonly rfc1123Pattern: string;
+    readonly rfC1123Pattern: string;
     shortDatePattern: string;
     shortestDayNames: string[];
     shortTimePattern: string;
@@ -1102,7 +1102,7 @@ export class TextInfo$instance {
     readonly ebcdicCodePage: int;
     readonly isReadOnly: boolean;
     readonly isRightToLeft: boolean;
-    readonly lcid: int;
+    readonly LCID: int;
     listSeparator: string;
     readonly macCodePage: int;
     readonly oemCodePage: int;

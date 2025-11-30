@@ -205,8 +205,8 @@ export class GroupCollection$instance {
     containsKey(key: string): boolean;
     copyTo(array: ClrArray, arrayIndex: int): void;
     copyTo(array: Group[], arrayIndex: int): void;
-    getItem(groupnum: int): Group;
-    getItem(groupname: string): Group;
+    get_Item(groupnum: int): Group;
+    get_Item(groupname: string): Group;
     getEnumerator(): IEnumerator;
     tryGetValue(key: string, value: { value: ref<Group> }): boolean;
 }

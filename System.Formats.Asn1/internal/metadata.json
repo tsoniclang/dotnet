@@ -20,7 +20,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -29,7 +29,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::BERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "BER",
-          "tsEmitName": "ber",
+          "tsEmitName": "BER",
           "normalizedSignature": "BER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -38,7 +38,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::CERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "CER",
-          "tsEmitName": "cer",
+          "tsEmitName": "CER",
           "normalizedSignature": "CER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.AsnEncodingRules::DERSystem.Formats.Asn1.AsnEncodingRules",
           "clrName": "DER",
-          "tsEmitName": "der",
+          "tsEmitName": "DER",
           "normalizedSignature": "DER|System.Formats.Asn1.AsnEncodingRules|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -73,7 +73,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.TagClass::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -135,7 +135,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -261,7 +261,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::UTF8StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "UTF8String",
-          "tsEmitName": "utf8String",
+          "tsEmitName": "utF8String",
           "normalizedSignature": "UTF8String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -369,7 +369,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::IA5StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "IA5String",
-          "tsEmitName": "ia5String",
+          "tsEmitName": "iA5String",
           "normalizedSignature": "IA5String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -414,7 +414,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::ISO646StringSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "ISO646String",
-          "tsEmitName": "iso646String",
+          "tsEmitName": "isO646String",
           "normalizedSignature": "ISO646String|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

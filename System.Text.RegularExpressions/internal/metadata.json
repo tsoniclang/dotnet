@@ -20,7 +20,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexOptions::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -145,7 +145,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexParseError::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2003,7 +2003,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::get_Item(System.Int32):System.Text.RegularExpressions.Group",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Text.RegularExpressions.Group|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2019,7 +2019,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GroupCollection::get_Item(System.String):System.Text.RegularExpressions.Group",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Text.RegularExpressions.Group|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

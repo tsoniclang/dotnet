@@ -2962,7 +2962,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpRequestHeaders::TE:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.TransferCodingWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "TE",
-          "tsEmitName": "te",
+          "tsEmitName": "TE",
           "normalizedSignature": "TE|:System.Net.Http.Headers.HttpHeaderValueCollection_1[[System.Net.Http.Headers.TransferCodingWithQualityHeaderValue,System.Net.Http,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

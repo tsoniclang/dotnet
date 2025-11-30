@@ -20,7 +20,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.CatalogLocation::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -64,7 +64,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.GroupByBehavior::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -135,7 +135,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.IdentifierCase::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -188,7 +188,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.SupportedJoinOperators::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1425,7 +1425,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.Int32):System.Data.Common.DataColumnMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DataColumnMapping|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -1441,7 +1441,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.Int32,System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DataColumnMapping):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -1457,7 +1457,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::get_Item(System.String):System.Data.Common.DataColumnMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DataColumnMapping|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -1473,7 +1473,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataColumnMappingCollection::set_Item(System.String,System.Data.Common.DataColumnMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DataColumnMapping):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2373,7 +2373,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.Int32):System.Data.Common.DataTableMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DataTableMapping|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2389,7 +2389,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.Int32,System.Data.Common.DataTableMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DataTableMapping):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2405,7 +2405,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::get_Item(System.String):System.Data.Common.DataTableMapping",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DataTableMapping|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -2421,7 +2421,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DataTableMappingCollection::set_Item(System.String,System.Data.Common.DataTableMapping):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DataTableMapping):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7901,7 +7901,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -7917,7 +7917,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataReader::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8967,7 +8967,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.Int32):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -8983,7 +8983,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbDataRecord::get_Item(System.String):System.Object",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Object|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -10262,7 +10262,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.Int32):System.Data.Common.DbParameter",
           "clrName": "get_Item",
-          "tsEmitName": "getItem",
+          "tsEmitName": "get_Item",
           "normalizedSignature": "get_Item|(System.Int32):System.Data.Common.DbParameter|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -10278,7 +10278,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.Int32,System.Data.Common.DbParameter):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem",
+          "tsEmitName": "set_Item",
           "normalizedSignature": "set_Item|(System.Int32,System.Data.Common.DbParameter):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -10294,7 +10294,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::get_Item(System.String):System.Data.Common.DbParameter",
           "clrName": "get_Item",
-          "tsEmitName": "getItem2",
+          "tsEmitName": "get_Item2",
           "normalizedSignature": "get_Item|(System.String):System.Data.Common.DbParameter|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",
@@ -10310,7 +10310,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.DbParameterCollection::set_Item(System.String,System.Data.Common.DbParameter):System.Void",
           "clrName": "set_Item",
-          "tsEmitName": "setItem2",
+          "tsEmitName": "set_Item2",
           "normalizedSignature": "set_Item|(System.String,System.Data.Common.DbParameter):System.Void|static=false",
           "provenance": "IndexerNormalized",
           "emitScope": "ClassSurface",

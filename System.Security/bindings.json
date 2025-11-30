@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.PartialTrustVisibilityLevel::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110695,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -750,7 +750,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -793,7 +793,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityCriticalScope::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110705,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1530,7 +1530,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1573,7 +1573,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Security.SecurityRuleSet::value__System.Byte",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67110727,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
@@ -2321,7 +2321,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Byte|static=false|const=false",
           "target": {

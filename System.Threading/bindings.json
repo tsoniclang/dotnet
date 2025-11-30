@@ -13,7 +13,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67111979,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::STASystem.Threading.ApartmentState",
           "clrName": "STA",
-          "tsEmitName": "sta",
+          "tsEmitName": "STA",
           "metadataToken": 67111980,
           "normalizedSignature": "STA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
@@ -35,7 +35,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::MTASystem.Threading.ApartmentState",
           "clrName": "MTA",
-          "tsEmitName": "mta",
+          "tsEmitName": "MTA",
           "metadataToken": 67111981,
           "normalizedSignature": "MTA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
@@ -761,7 +761,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -771,7 +771,7 @@
           }
         },
         {
-          "tsName": "sta",
+          "tsName": "STA",
           "isStatic": true,
           "tsSignatureId": "STA|System.Threading.ApartmentState|static=true|const=true",
           "target": {
@@ -781,7 +781,7 @@
           }
         },
         {
-          "tsName": "mta",
+          "tsName": "MTA",
           "isStatic": true,
           "tsSignatureId": "MTA|System.Threading.ApartmentState|static=true|const=true",
           "target": {
@@ -814,7 +814,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.EventResetMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67112053,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -1551,7 +1551,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -1594,7 +1594,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.LazyThreadSafetyMode::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67112065,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -2342,7 +2342,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -2395,7 +2395,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.LockRecursionPolicy::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67112113,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3132,7 +3132,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -3175,7 +3175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadPriority::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67112299,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -3945,7 +3945,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
@@ -4018,7 +4018,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ThreadState::value__System.Int32",
           "clrName": "value__",
-          "tsEmitName": "value",
+          "tsEmitName": "value__",
           "metadataToken": 67112305,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -4843,7 +4843,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "value",
+          "tsName": "value__",
           "isStatic": false,
           "tsSignatureId": "value__|System.Int32|static=false|const=false",
           "target": {
