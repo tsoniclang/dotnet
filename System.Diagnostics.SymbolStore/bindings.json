@@ -1081,7 +1081,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.ISymbolDocument::URL:System.String",
           "clrName": "URL",
-          "tsEmitName": "url",
+          "tsEmitName": "URL",
           "metadataToken": 385875969,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "URL|:System.String|static=false|accessor=get",
@@ -1214,7 +1214,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "url",
+          "tsName": "URL",
           "isStatic": false,
           "tsSignatureId": "URL|:System.String|static=false|accessor=get",
           "target": {
@@ -3102,7 +3102,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymLanguageType::CSystem.Guid",
           "clrName": "C",
-          "tsEmitName": "c",
+          "tsEmitName": "C",
           "metadataToken": 67108880,
           "normalizedSignature": "C|System.Guid|static=true|const=false",
           "isStatic": true,
@@ -3201,7 +3201,7 @@
         {
           "stableId": "System.Diagnostics.StackTrace:System.Diagnostics.SymbolStore.SymLanguageType::SMCSystem.Guid",
           "clrName": "SMC",
-          "tsEmitName": "smc",
+          "tsEmitName": "SMC",
           "metadataToken": 67108889,
           "normalizedSignature": "SMC|System.Guid|static=true|const=false",
           "isStatic": true,
@@ -3298,7 +3298,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "c",
+          "tsName": "C",
           "isStatic": true,
           "tsSignatureId": "C|System.Guid|static=true|const=false",
           "target": {
@@ -3388,7 +3388,7 @@
           }
         },
         {
-          "tsName": "smc",
+          "tsName": "SMC",
           "isStatic": true,
           "tsSignatureId": "SMC|System.Guid|static=true|const=false",
           "target": {

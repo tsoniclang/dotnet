@@ -101,7 +101,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.AddressFamily::NSSystem.Net.Sockets.AddressFamily",
           "clrName": "NS",
-          "tsEmitName": "ns",
+          "tsEmitName": "NS",
           "metadataToken": 67109258,
           "normalizedSignature": "NS|System.Net.Sockets.AddressFamily|static=true|const=true",
           "isStatic": true,
@@ -1171,7 +1171,7 @@
           }
         },
         {
-          "tsName": "ns",
+          "tsName": "NS",
           "isStatic": true,
           "tsSignatureId": "NS|System.Net.Sockets.AddressFamily|static=true|const=true",
           "target": {
@@ -3806,7 +3806,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolFamily::NSSystem.Net.Sockets.ProtocolFamily",
           "clrName": "NS",
-          "tsEmitName": "ns",
+          "tsEmitName": "NS",
           "metadataToken": 67109442,
           "normalizedSignature": "NS|System.Net.Sockets.ProtocolFamily|static=true|const=true",
           "isStatic": true,
@@ -4876,7 +4876,7 @@
           }
         },
         {
-          "tsName": "ns",
+          "tsName": "NS",
           "isStatic": true,
           "tsSignatureId": "NS|System.Net.Sockets.ProtocolFamily|static=true|const=true",
           "target": {
@@ -5160,7 +5160,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolType::IPSystem.Net.Sockets.ProtocolType",
           "clrName": "IP",
-          "tsEmitName": "ip",
+          "tsEmitName": "IP",
           "metadataToken": 67109469,
           "normalizedSignature": "IP|System.Net.Sockets.ProtocolType|static=true|const=true",
           "isStatic": true,
@@ -5358,7 +5358,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolType::NDSystem.Net.Sockets.ProtocolType",
           "clrName": "ND",
-          "tsEmitName": "nd",
+          "tsEmitName": "ND",
           "metadataToken": 67109487,
           "normalizedSignature": "ND|System.Net.Sockets.ProtocolType|static=true|const=true",
           "isStatic": true,
@@ -6149,7 +6149,7 @@
           }
         },
         {
-          "tsName": "ip",
+          "tsName": "IP",
           "isStatic": true,
           "tsSignatureId": "IP|System.Net.Sockets.ProtocolType|static=true|const=true",
           "target": {
@@ -6329,7 +6329,7 @@
           }
         },
         {
-          "tsName": "nd",
+          "tsName": "ND",
           "isStatic": true,
           "tsSignatureId": "ND|System.Net.Sockets.ProtocolType|static=true|const=true",
           "target": {
@@ -11657,7 +11657,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketOptionLevel::IPSystem.Net.Sockets.SocketOptionLevel",
           "clrName": "IP",
-          "tsEmitName": "ip",
+          "tsEmitName": "IP",
           "metadataToken": 67109320,
           "normalizedSignature": "IP|System.Net.Sockets.SocketOptionLevel|static=true|const=true",
           "isStatic": true,
@@ -12425,7 +12425,7 @@
           }
         },
         {
-          "tsName": "ip",
+          "tsName": "IP",
           "isStatic": true,
           "tsSignatureId": "IP|System.Net.Sockets.SocketOptionLevel|static=true|const=true",
           "target": {

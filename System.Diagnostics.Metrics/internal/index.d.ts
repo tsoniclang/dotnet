@@ -42,60 +42,62 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export interface IMeterFactory$instance {
-    Create(options: MeterOptions): Meter;
-    Dispose(): void;
+export interface IMeterFactory$instance extends IDisposable {
+    create(options: MeterOptions): Meter;
+    dispose(): void;
 }
 
 
+export interface IMeterFactory$instance extends System_Internal.IDisposable$instance {}
+
 export type IMeterFactory = IMeterFactory$instance;
 
-export class Measurement_1$instance<T extends any> {
+export class Measurement_1$instance<T extends unknown> {
     constructor(value: T);
-    constructor(value: T, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>);
-    constructor(value: T, tags: KeyValuePair_2<CLROf<string>, any>[]);
-    constructor(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>);
+    constructor(value: T, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>);
+    constructor(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]);
+    constructor(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>);
     constructor(value: T, tags: ref<TagList>);
-    readonly tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>;
+    readonly tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly value: T;
 }
 
 
 export type Measurement_1<T> = Measurement_1$instance<T>;
 
-export class Counter_1$instance<T extends any> extends Instrument_1$instance<T> {
+export class Counter_1$instance<T extends unknown> extends Instrument_1$instance<T> {
     add(delta: T): void;
-    add(delta: T, tag: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>, tag3: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>): void;
-    add(delta: T, tags: KeyValuePair_2<CLROf<string>, any>[]): void;
+    add(delta: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>, tag3: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): void;
+    add(delta: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     add(delta: T, tagList: { value: ref<TagList> }): void;
 }
 
 
 export type Counter_1<T> = Counter_1$instance<T>;
 
-export class Gauge_1$instance<T extends any> extends Instrument_1$instance<T> {
+export class Gauge_1$instance<T extends unknown> extends Instrument_1$instance<T> {
     record(value: T): void;
-    record(value: T, tag: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>, tag3: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>): void;
-    record(value: T, tags: KeyValuePair_2<CLROf<string>, any>[]): void;
+    record(value: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>, tag3: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): void;
+    record(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     record(value: T, tagList: { value: ref<TagList> }): void;
 }
 
 
 export type Gauge_1<T> = Gauge_1$instance<T>;
 
-export class Histogram_1$instance<T extends any> extends Instrument_1$instance<T> {
+export class Histogram_1$instance<T extends unknown> extends Instrument_1$instance<T> {
     record(value: T): void;
-    record(value: T, tag: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>, tag3: KeyValuePair_2<CLROf<string>, any>): void;
-    record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>): void;
-    record(value: T, tags: KeyValuePair_2<CLROf<string>, any>[]): void;
+    record(value: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>, tag3: KeyValuePair_2<CLROf<string>, unknown>): void;
+    record(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): void;
+    record(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     record(value: T, tagList: { value: ref<TagList> }): void;
 }
 
@@ -108,21 +110,21 @@ export abstract class Instrument$instance {
     readonly isObservable: boolean;
     readonly meter: Meter;
     readonly name: string;
-    readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>;
+    readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly unit: string;
 }
 
 
 export type Instrument = Instrument$instance;
 
-export abstract class Instrument_1$instance<T extends any> extends Instrument$instance {
+export abstract class Instrument_1$instance<T extends unknown> extends Instrument$instance {
     readonly advice: InstrumentAdvice_1<T>;
 }
 
 
 export type Instrument_1<T> = Instrument_1$instance<T>;
 
-export class InstrumentAdvice_1$instance<T extends any> {
+export class InstrumentAdvice_1$instance<T extends unknown> {
     constructor();
     histogramBucketBoundaries: IReadOnlyList_1<T>;
 }
@@ -130,19 +132,19 @@ export class InstrumentAdvice_1$instance<T extends any> {
 
 export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 
-export class MeasurementCallback_1$instance<T extends any> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>, state: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+export class MeasurementCallback_1$instance<T extends unknown> extends Function {
+    constructor(object_: unknown, method: nint);
+    beginInvoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>, state: any): void;
+    invoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown): void;
 }
 
 
-export interface __MeasurementCallback_1$views<T extends any> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+export interface __MeasurementCallback_1$views<T extends unknown> {
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MeasurementCallback_1<T> = MeasurementCallback_1$instance<T> & __MeasurementCallback_1$views<T>;
@@ -152,35 +154,37 @@ export class Meter$instance {
     constructor(options: MeterOptions);
     constructor(name: string);
     constructor(name: string, version: string);
-    constructor(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>, scope: any);
+    constructor(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, scope: unknown);
     readonly name: string;
-    readonly scope: any;
-    readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>;
+    readonly scope: unknown;
+    readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly telemetrySchemaUrl: string;
     readonly version: string;
-    createCounter<T extends any>(name: string, unit?: string, description?: string): Counter_1<T>;
-    createCounter<T extends any>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): Counter_1<T>;
-    createGauge<T extends any>(name: string): Gauge_1<T>;
-    createGauge<T extends any>(name: string, unit?: string, description?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): Gauge_1<T>;
-    createHistogram<T extends any>(name: string): Histogram_1<T>;
-    createHistogram<T extends any>(name: string, unit: string, description: string): Histogram_1<T>;
-    createHistogram<T extends any>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): Histogram_1<T>;
-    createHistogram<T extends any>(name: string, unit?: string, description?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>, advice?: InstrumentAdvice_1<T>): Histogram_1<T>;
-    createObservableCounter<T extends any>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableCounter_1<T>;
-    createObservableCounter<T extends any>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): ObservableCounter_1<T>;
-    createObservableGauge<T extends any>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableGauge_1<T>;
-    createObservableGauge<T extends any>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): ObservableGauge_1<T>;
-    createObservableUpDownCounter<T extends any>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableUpDownCounter_1<T>;
-    createObservableUpDownCounter<T extends any>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): ObservableUpDownCounter_1<T>;
-    createUpDownCounter<T extends any>(name: string, unit?: string, description?: string): UpDownCounter_1<T>;
-    createUpDownCounter<T extends any>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): UpDownCounter_1<T>;
+    createCounter<T extends unknown>(name: string, unit?: string, description?: string): Counter_1<T>;
+    createCounter<T extends unknown>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): Counter_1<T>;
+    createGauge<T extends unknown>(name: string): Gauge_1<T>;
+    createGauge<T extends unknown>(name: string, unit?: string, description?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): Gauge_1<T>;
+    createHistogram<T extends unknown>(name: string): Histogram_1<T>;
+    createHistogram<T extends unknown>(name: string, unit: string, description: string): Histogram_1<T>;
+    createHistogram<T extends unknown>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): Histogram_1<T>;
+    createHistogram<T extends unknown>(name: string, unit?: string, description?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, advice?: InstrumentAdvice_1<T>): Histogram_1<T>;
+    createObservableCounter<T extends unknown>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableCounter_1<T>;
+    createObservableCounter<T extends unknown>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): ObservableCounter_1<T>;
+    createObservableGauge<T extends unknown>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableGauge_1<T>;
+    createObservableGauge<T extends unknown>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): ObservableGauge_1<T>;
+    createObservableUpDownCounter<T extends unknown>(name: string, observeValue: Func_1<T>, unit?: string, description?: string): ObservableUpDownCounter_1<T>;
+    createObservableUpDownCounter<T extends unknown>(name: string, observeValue: Func_1<T>, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): ObservableUpDownCounter_1<T>;
+    createUpDownCounter<T extends unknown>(name: string, unit?: string, description?: string): UpDownCounter_1<T>;
+    createUpDownCounter<T extends unknown>(name: string, unit: string, description: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): UpDownCounter_1<T>;
     dispose(): void;
 }
 
 
 export interface __Meter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface Meter$instance extends System_Internal.IDisposable$instance {}
 
 export type Meter = Meter$instance & __Meter$views;
 
@@ -188,19 +192,21 @@ export type Meter = Meter$instance & __Meter$views;
 export class MeterListener$instance {
     constructor();
     instrumentPublished: Action_2<Instrument, MeterListener>;
-    measurementsCompleted: Action_2<Instrument, any>;
-    disableMeasurementEvents(instrument: Instrument): any;
+    measurementsCompleted: Action_2<Instrument, unknown>;
+    disableMeasurementEvents(instrument: Instrument): unknown;
     dispose(): void;
-    enableMeasurementEvents(instrument: Instrument, state?: any): void;
+    enableMeasurementEvents(instrument: Instrument, state?: unknown): void;
     recordObservableInstruments(): void;
-    setMeasurementEventCallback<T extends any>(measurementCallback: MeasurementCallback_1<T>): void;
+    setMeasurementEventCallback<T extends unknown>(measurementCallback: MeasurementCallback_1<T>): void;
     start(): void;
 }
 
 
 export interface __MeterListener$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MeterListener$instance extends System_Internal.IDisposable$instance {}
 
 export type MeterListener = MeterListener$instance & __MeterListener$views;
 
@@ -208,8 +214,8 @@ export type MeterListener = MeterListener$instance & __MeterListener$views;
 export class MeterOptions$instance {
     constructor(name: string);
     name: string;
-    scope: any;
-    tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>;
+    scope: unknown;
+    tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     telemetrySchemaUrl: string;
     version: string;
 }
@@ -217,38 +223,38 @@ export class MeterOptions$instance {
 
 export type MeterOptions = MeterOptions$instance;
 
-export class ObservableCounter_1$instance<T extends any> extends ObservableInstrument_1$instance<T> {
+export class ObservableCounter_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
 }
 
 
 export type ObservableCounter_1<T> = ObservableCounter_1$instance<T>;
 
-export class ObservableGauge_1$instance<T extends any> extends ObservableInstrument_1$instance<T> {
+export class ObservableGauge_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
 }
 
 
 export type ObservableGauge_1<T> = ObservableGauge_1$instance<T>;
 
-export abstract class ObservableInstrument_1$instance<T extends any> extends Instrument$instance {
+export abstract class ObservableInstrument_1$instance<T extends unknown> extends Instrument$instance {
     readonly isObservable: boolean;
 }
 
 
 export type ObservableInstrument_1<T> = ObservableInstrument_1$instance<T>;
 
-export class ObservableUpDownCounter_1$instance<T extends any> extends ObservableInstrument_1$instance<T> {
+export class ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
 }
 
 
 export type ObservableUpDownCounter_1<T> = ObservableUpDownCounter_1$instance<T>;
 
-export class UpDownCounter_1$instance<T extends any> extends Instrument_1$instance<T> {
+export class UpDownCounter_1$instance<T extends unknown> extends Instrument_1$instance<T> {
     add(delta: T): void;
-    add(delta: T, tag: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, any>, tag2: KeyValuePair_2<CLROf<string>, any>, tag3: KeyValuePair_2<CLROf<string>, any>): void;
-    add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, any>>): void;
-    add(delta: T, tags: KeyValuePair_2<CLROf<string>, any>[]): void;
+    add(delta: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>, tag3: KeyValuePair_2<CLROf<string>, unknown>): void;
+    add(delta: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): void;
+    add(delta: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     add(delta: T, tagList: { value: ref<TagList> }): void;
 }
 
@@ -256,7 +262,7 @@ export class UpDownCounter_1$instance<T extends any> extends Instrument_1$instan
 export type UpDownCounter_1<T> = UpDownCounter_1$instance<T>;
 
 export abstract class MeterFactoryExtensions$instance {
-    static Create(meterFactory: IMeterFactory, name: string, version?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, any>>): Meter;
+    static create(meterFactory: IMeterFactory, name: string, version?: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): Meter;
 }
 
 

@@ -59,8 +59,8 @@ export class FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __FrozenDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enumerator$instance<TKey, TValue> & __FrozenDictionary_2_Enumerator$views<TKey, TValue>;
@@ -82,8 +82,8 @@ export class FrozenSet_1_Enumerator$instance<T> {
 
 
 export interface __FrozenSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __FrozenSet_1_Enumerator$views<T>;
@@ -103,19 +103,19 @@ export abstract class FrozenDictionary_2$instance<TKey, TValue> {
     getValueRefOrNullRef(key: TKey): ref<TValue>;
     tryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __FrozenDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey, TValue> & __FrozenDictionary_2$views<TKey, TValue>;
@@ -138,38 +138,38 @@ export abstract class FrozenSet_1$instance<T> {
     setEquals(other: IEnumerable_1<T>): boolean;
     tryGetAlternateLookup<TAlternate>(lookup: { value: ref<FrozenSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __FrozenSet_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type FrozenSet_1<T> = FrozenSet_1$instance<T> & __FrozenSet_1$views<T>;
 
 
 export abstract class FrozenDictionary$instance {
-    static Create<TKey, TValue>(comparer: IEqualityComparer_1<TKey>, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
-    static Create<TKey, TValue>(source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
-    static ToFrozenDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TElement>;
-    static ToFrozenDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TSource>;
-    static ToFrozenDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TValue>;
+    static create2<TKey, TValue>(comparer: IEqualityComparer_1<TKey>, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
+    static create2<TKey, TValue>(source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
+    static toFrozenDictionary3<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TElement>;
+    static toFrozenDictionary3<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TSource>;
+    static toFrozenDictionary3<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TValue>;
 }
 
 
 export type FrozenDictionary = FrozenDictionary$instance;
 
 export abstract class FrozenSet$instance {
-    static Create<T>(equalityComparer: IEqualityComparer_1<T>, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
-    static Create<T>(source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
-    static ToFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T>): FrozenSet_1<T>;
+    static create2<T>(equalityComparer: IEqualityComparer_1<T>, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
+    static create2<T>(source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
+    static toFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T>): FrozenSet_1<T>;
 }
 
 

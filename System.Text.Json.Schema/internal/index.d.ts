@@ -51,15 +51,15 @@ export class JsonSchemaExporterOptions$instance {
     constructor();
     transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
     treatNullObliviousAsNonNullable: boolean;
-    static readonly Default: JsonSchemaExporterOptions;
+    static readonly default_: JsonSchemaExporterOptions;
 }
 
 
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static GetJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
-    static GetJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
 }
 
 

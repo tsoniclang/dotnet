@@ -50,8 +50,8 @@ export class JSMarshalerArgument$instance {
     toJS(value: byte): void;
     toJS(value: Nullable_1<CLROf<byte>>): void;
     toJS(value: byte[]): void;
-    toJS(value: string): void;
-    toJS(value: Nullable_1<CLROf<string>>): void;
+    toJS(value: char): void;
+    toJS(value: Nullable_1<CLROf<char>>): void;
     toJS(value: short): void;
     toJS(value: Nullable_1<CLROf<short>>): void;
     toJS(value: int): void;
@@ -73,8 +73,8 @@ export class JSMarshalerArgument$instance {
     toJS(value: string): void;
     toJS(value: string[]): void;
     toJS(value: Exception): void;
-    toJS(value: any): void;
-    toJS(value: any[]): void;
+    toJS(value: unknown): void;
+    toJS(value: unknown[]): void;
     toJS(value: JSObject): void;
     toJS(value: JSObject[]): void;
     toJS(value: Task): void;
@@ -101,8 +101,8 @@ export class JSMarshalerArgument$instance {
     toManaged(value: { value: ref<byte> }): void;
     toManaged(value: { value: ref<Nullable_1<CLROf<byte>>> }): void;
     toManaged(value: { value: ref<byte[]> }): void;
-    toManaged(value: { value: ref<string> }): void;
-    toManaged(value: { value: ref<Nullable_1<CLROf<string>>> }): void;
+    toManaged(value: { value: ref<char> }): void;
+    toManaged(value: { value: ref<Nullable_1<CLROf<char>>> }): void;
     toManaged(value: { value: ref<short> }): void;
     toManaged(value: { value: ref<Nullable_1<CLROf<short>>> }): void;
     toManaged(value: { value: ref<int> }): void;
@@ -124,8 +124,8 @@ export class JSMarshalerArgument$instance {
     toManaged(value: { value: ref<string> }): void;
     toManaged(value: { value: ref<string[]> }): void;
     toManaged(value: { value: ref<Exception> }): void;
-    toManaged(value: { value: ref<any> }): void;
-    toManaged(value: { value: ref<any[]> }): void;
+    toManaged(value: { value: ref<unknown> }): void;
+    toManaged(value: { value: ref<unknown[]> }): void;
     toManaged(value: { value: ref<JSObject> }): void;
     toManaged(value: { value: ref<JSObject[]> }): void;
     toManaged(value: { value: ref<Task> }): void;
@@ -159,7 +159,7 @@ export class JSException$instance extends System_Internal.Exception$instance {
 
 
 export interface __JSException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type JSException = JSException$instance & __JSException$views;
@@ -173,9 +173,9 @@ export class JSExportAttribute$instance extends System_Internal.Attribute$instan
 export type JSExportAttribute = JSExportAttribute$instance;
 
 export class JSFunctionBinding$instance {
-    static BindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static BindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
-    static InvokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
+    static bindJSFunction(functionName: string, moduleName: string, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    static bindManagedFunction(fullyQualifiedName: string, signatureHash: int, signatures: ReadOnlySpan_1<JSMarshalerType>): JSFunctionBinding;
+    static invokeJS(signature: JSFunctionBinding, arguments: Span_1<JSMarshalerArgument>): void;
 }
 
 
@@ -199,9 +199,9 @@ export class JSMarshalAsAttribute_1$instance<T extends JSType> extends System_In
 export type JSMarshalAsAttribute_1<T extends JSType> = JSMarshalAsAttribute_1$instance<T>;
 
 export class JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: T, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(arg: { value: ref<JSMarshalerArgument> }, result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(arg: { value: ref<JSMarshalerArgument> }, value: T): void;
@@ -209,17 +209,17 @@ export class JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> extends Func
 
 
 export interface __JSMarshalerArgument_ArgumentToJSCallback_1$views<T> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = JSMarshalerArgument_ArgumentToJSCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToJSCallback_1$views<T>;
 
 
 export class JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }, result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(arg: { value: ref<JSMarshalerArgument> }, value: { value: ref<T> }): void;
@@ -227,46 +227,46 @@ export class JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> extends
 
 
 export interface __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = JSMarshalerArgument_ArgumentToManagedCallback_1$instance<T> & __JSMarshalerArgument_ArgumentToManagedCallback_1$views<T>;
 
 
 export class JSMarshalerType$instance {
-    static readonly Void: JSMarshalerType;
-    static readonly Discard: JSMarshalerType;
-    static readonly Boolean: JSMarshalerType;
-    static readonly Byte: JSMarshalerType;
-    static readonly Char: JSMarshalerType;
-    static readonly Int16: JSMarshalerType;
-    static readonly Int32: JSMarshalerType;
-    static readonly Int52: JSMarshalerType;
-    static readonly BigInt64: JSMarshalerType;
-    static readonly Double: JSMarshalerType;
-    static readonly Single: JSMarshalerType;
-    static readonly IntPtr: JSMarshalerType;
-    static readonly JSObject: JSMarshalerType;
-    static readonly Object: JSMarshalerType;
-    static readonly String: JSMarshalerType;
-    static readonly Exception: JSMarshalerType;
-    static readonly DateTime: JSMarshalerType;
-    static readonly DateTimeOffset: JSMarshalerType;
-    static Action(): JSMarshalerType;
-    static Action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
-    static Action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
-    static Action(arg1: JSMarshalerType): JSMarshalerType;
-    static Array(element: JSMarshalerType): JSMarshalerType;
-    static ArraySegment(element: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    static Function(result: JSMarshalerType): JSMarshalerType;
-    static Nullable(primitive: JSMarshalerType): JSMarshalerType;
-    static Span(element: JSMarshalerType): JSMarshalerType;
-    static Task(): JSMarshalerType;
-    static Task(result: JSMarshalerType): JSMarshalerType;
+    static readonly void_: JSMarshalerType;
+    static readonly discard: JSMarshalerType;
+    static readonly boolean_: JSMarshalerType;
+    static readonly byte: JSMarshalerType;
+    static readonly char: JSMarshalerType;
+    static readonly int16: JSMarshalerType;
+    static readonly int32: JSMarshalerType;
+    static readonly int52: JSMarshalerType;
+    static readonly bigInt64: JSMarshalerType;
+    static readonly double: JSMarshalerType;
+    static readonly single: JSMarshalerType;
+    static readonly intPtr: JSMarshalerType;
+    static readonly jsObject: JSMarshalerType;
+    static readonly object_: JSMarshalerType;
+    static readonly string_: JSMarshalerType;
+    static readonly exception: JSMarshalerType;
+    static readonly dateTime: JSMarshalerType;
+    static readonly dateTimeOffset: JSMarshalerType;
+    static action(): JSMarshalerType;
+    static action(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType): JSMarshalerType;
+    static action(arg1: JSMarshalerType, arg2: JSMarshalerType): JSMarshalerType;
+    static action(arg1: JSMarshalerType): JSMarshalerType;
+    static array(element: JSMarshalerType): JSMarshalerType;
+    static arraySegment(element: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    static function_4(result: JSMarshalerType): JSMarshalerType;
+    static nullable(primitive: JSMarshalerType): JSMarshalerType;
+    static span(element: JSMarshalerType): JSMarshalerType;
+    static task(): JSMarshalerType;
+    static task(result: JSMarshalerType): JSMarshalerType;
 }
 
 
@@ -293,8 +293,10 @@ export class JSObject$instance {
 
 
 export interface __JSObject$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface JSObject$instance extends System_Internal.IDisposable$instance {}
 
 export type JSObject = JSObject$instance & __JSObject$views;
 
@@ -414,9 +416,9 @@ export class JSType_Void$instance extends JSType$instance {
 export type JSType_Void = JSType_Void$instance;
 
 export abstract class JSHost$instance {
-    static readonly GlobalThis: JSObject;
-    static readonly DotnetInstance: JSObject;
-    static ImportAsync(moduleName: string, moduleUrl: string, cancellationToken?: CancellationToken): Task_1<JSObject>;
+    static readonly globalThis: JSObject;
+    static readonly dotnetInstance: JSObject;
+    static importAsync(moduleName: string, moduleUrl: string, cancellationToken?: CancellationToken): Task_1<JSObject>;
 }
 
 

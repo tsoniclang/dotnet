@@ -39,8 +39,8 @@ export class HttpMetricsEnrichmentContext$instance {
     readonly exception: Exception;
     readonly request: HttpRequestMessage;
     readonly response: HttpResponseMessage;
-    addCustomTag(name: string, value: any): void;
-    static AddCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
+    addCustomTag(name: string, value: unknown): void;
+    static addCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
 }
 
 

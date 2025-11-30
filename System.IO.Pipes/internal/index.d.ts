@@ -100,8 +100,8 @@ export class AnonymousPipeClientStream$instance extends PipeStream$instance {
 
 
 export interface __AnonymousPipeClientStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type AnonymousPipeClientStream = AnonymousPipeClientStream$instance & __AnonymousPipeClientStream$views;
@@ -124,8 +124,8 @@ export class AnonymousPipeServerStream$instance extends PipeStream$instance {
 
 
 export interface __AnonymousPipeServerStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type AnonymousPipeServerStream = AnonymousPipeServerStream$instance & __AnonymousPipeServerStream$views;
@@ -157,8 +157,8 @@ export class NamedPipeClientStream$instance extends PipeStream$instance {
 
 
 export interface __NamedPipeClientStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type NamedPipeClientStream = NamedPipeClientStream$instance & __NamedPipeClientStream$views;
@@ -174,7 +174,7 @@ export class NamedPipeServerStream$instance extends PipeStream$instance {
     constructor(direction: PipeDirection, isAsync: boolean, isConnected: boolean, safePipeHandle: SafePipeHandle);
     readonly inBufferSize: int;
     readonly outBufferSize: int;
-    beginWaitForConnection(callback: AsyncCallback, state: any): IAsyncResult;
+    beginWaitForConnection(callback: AsyncCallback, state: unknown): IAsyncResult;
     disconnect(): void;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -184,13 +184,13 @@ export class NamedPipeServerStream$instance extends PipeStream$instance {
     waitForConnection(): void;
     waitForConnectionAsync(): Task;
     waitForConnectionAsync(cancellationToken: CancellationToken): Task;
-    static readonly MaxAllowedServerInstances: int;
+    static readonly maxAllowedServerInstances: int;
 }
 
 
 export interface __NamedPipeServerStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type NamedPipeServerStream = NamedPipeServerStream$instance & __NamedPipeServerStream$views;
@@ -250,8 +250,8 @@ export abstract class PipeStream$instance extends System_IO_Internal.Stream$inst
     readMode: PipeTransmissionMode;
     readonly safePipeHandle: SafePipeHandle;
     readonly transmissionMode: PipeTransmissionMode;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
@@ -283,17 +283,17 @@ export abstract class PipeStream$instance extends System_IO_Internal.Stream$inst
 
 
 export interface __PipeStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type PipeStream = PipeStream$instance & __PipeStream$views;
 
 
 export class PipeStreamImpersonationWorker$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(): void;
@@ -301,30 +301,30 @@ export class PipeStreamImpersonationWorker$instance extends Function {
 
 
 export interface __PipeStreamImpersonationWorker$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PipeStreamImpersonationWorker = PipeStreamImpersonationWorker$instance & __PipeStreamImpersonationWorker$views;
 
 
 export abstract class AnonymousPipeServerStreamAcl$instance {
-    static Create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity): AnonymousPipeServerStream;
+    static create(direction: PipeDirection, inheritability: HandleInheritability, bufferSize: int, pipeSecurity: PipeSecurity): AnonymousPipeServerStream;
 }
 
 
 export type AnonymousPipeServerStreamAcl = AnonymousPipeServerStreamAcl$instance;
 
 export abstract class NamedPipeServerStreamAcl$instance {
-    static Create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
+    static create(pipeName: string, direction: PipeDirection, maxNumberOfServerInstances: int, transmissionMode: PipeTransmissionMode, options: PipeOptions, inBufferSize: int, outBufferSize: int, pipeSecurity: PipeSecurity, inheritability?: HandleInheritability, additionalAccessRights?: PipeAccessRights): NamedPipeServerStream;
 }
 
 
 export type NamedPipeServerStreamAcl = NamedPipeServerStreamAcl$instance;
 
 export abstract class PipesAclExtensions$instance {
-    static GetAccessControl(stream: PipeStream): PipeSecurity;
-    static SetAccessControl(stream: PipeStream, pipeSecurity: PipeSecurity): void;
+    static getAccessControl(stream: PipeStream): PipeSecurity;
+    static setAccessControl(stream: PipeStream, pipeSecurity: PipeSecurity): void;
 }
 
 

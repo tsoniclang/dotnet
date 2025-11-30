@@ -589,14 +589,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Regex\u002BValueSplitEnumerator",
@@ -744,14 +737,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.ValueMatch",
@@ -1433,14 +1419,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.GeneratedRegexAttribute",
@@ -2308,14 +2287,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.Match",
@@ -2952,14 +2924,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.MatchEvaluator",

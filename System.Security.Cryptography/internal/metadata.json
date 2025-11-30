@@ -30,7 +30,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CipherMode::CBCSystem.Security.Cryptography.CipherMode",
           "clrName": "CBC",
-          "tsEmitName": "cbc",
+          "tsEmitName": "CBC",
           "normalizedSignature": "CBC|System.Security.Cryptography.CipherMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -39,7 +39,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CipherMode::ECBSystem.Security.Cryptography.CipherMode",
           "clrName": "ECB",
-          "tsEmitName": "ecb",
+          "tsEmitName": "ECB",
           "normalizedSignature": "ECB|System.Security.Cryptography.CipherMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -48,7 +48,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CipherMode::OFBSystem.Security.Cryptography.CipherMode",
           "clrName": "OFB",
-          "tsEmitName": "ofb",
+          "tsEmitName": "OFB",
           "normalizedSignature": "OFB|System.Security.Cryptography.CipherMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CipherMode::CFBSystem.Security.Cryptography.CipherMode",
           "clrName": "CFB",
-          "tsEmitName": "cfb",
+          "tsEmitName": "CFB",
           "normalizedSignature": "CFB|System.Security.Cryptography.CipherMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -66,7 +66,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CipherMode::CTSSystem.Security.Cryptography.CipherMode",
           "clrName": "CTS",
-          "tsEmitName": "cts",
+          "tsEmitName": "CTS",
           "normalizedSignature": "CTS|System.Security.Cryptography.CipherMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1120,7 +1120,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.PaddingMode::PKCS7System.Security.Cryptography.PaddingMode",
           "clrName": "PKCS7",
-          "tsEmitName": "pkcs7",
+          "tsEmitName": "PKCS7",
           "normalizedSignature": "PKCS7|System.Security.Cryptography.PaddingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1138,7 +1138,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.PaddingMode::ANSIX923System.Security.Cryptography.PaddingMode",
           "clrName": "ANSIX923",
-          "tsEmitName": "ansix923",
+          "tsEmitName": "ANSIX923",
           "normalizedSignature": "ANSIX923|System.Security.Cryptography.PaddingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1147,7 +1147,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.PaddingMode::ISO10126System.Security.Cryptography.PaddingMode",
           "clrName": "ISO10126",
-          "tsEmitName": "iso10126",
+          "tsEmitName": "ISO10126",
           "normalizedSignature": "ISO10126|System.Security.Cryptography.PaddingMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1658,7 +1658,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::PSystem.Byte[]",
           "clrName": "P",
-          "tsEmitName": "p",
+          "tsEmitName": "P",
           "normalizedSignature": "P|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1667,7 +1667,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::QSystem.Byte[]",
           "clrName": "Q",
-          "tsEmitName": "q",
+          "tsEmitName": "Q",
           "normalizedSignature": "Q|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1676,7 +1676,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::GSystem.Byte[]",
           "clrName": "G",
-          "tsEmitName": "g",
+          "tsEmitName": "G",
           "normalizedSignature": "G|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1685,7 +1685,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::YSystem.Byte[]",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1694,7 +1694,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::JSystem.Byte[]",
           "clrName": "J",
-          "tsEmitName": "j",
+          "tsEmitName": "J",
           "normalizedSignature": "J|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1703,7 +1703,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DSAParameters::XSystem.Byte[]",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1888,7 +1888,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECCurve::ASystem.Byte[]",
           "clrName": "A",
-          "tsEmitName": "a",
+          "tsEmitName": "A",
           "normalizedSignature": "A|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1897,7 +1897,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECCurve::BSystem.Byte[]",
           "clrName": "B",
-          "tsEmitName": "b",
+          "tsEmitName": "B",
           "normalizedSignature": "B|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1906,7 +1906,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECCurve::GSystem.Security.Cryptography.ECPoint",
           "clrName": "G",
-          "tsEmitName": "g",
+          "tsEmitName": "G",
           "normalizedSignature": "G|System.Security.Cryptography.ECPoint|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2012,7 +2012,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECParameters::QSystem.Security.Cryptography.ECPoint",
           "clrName": "Q",
-          "tsEmitName": "q",
+          "tsEmitName": "Q",
           "normalizedSignature": "Q|System.Security.Cryptography.ECPoint|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2021,7 +2021,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECParameters::DSystem.Byte[]",
           "clrName": "D",
-          "tsEmitName": "d",
+          "tsEmitName": "D",
           "normalizedSignature": "D|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2056,7 +2056,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECPoint::XSystem.Byte[]",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2065,7 +2065,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECPoint::YSystem.Byte[]",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2204,7 +2204,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::MD5:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "normalizedSignature": "MD5|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2219,7 +2219,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA1:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA1",
-          "tsEmitName": "sha1",
+          "tsEmitName": "SHA1",
           "normalizedSignature": "SHA1|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2234,7 +2234,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA256:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA256",
-          "tsEmitName": "sha256",
+          "tsEmitName": "SHA256",
           "normalizedSignature": "SHA256|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2249,7 +2249,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA384:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA384",
-          "tsEmitName": "sha384",
+          "tsEmitName": "SHA384",
           "normalizedSignature": "SHA384|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2264,7 +2264,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA512:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA512",
-          "tsEmitName": "sha512",
+          "tsEmitName": "SHA512",
           "normalizedSignature": "SHA512|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2279,7 +2279,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA3_256:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA3_256",
-          "tsEmitName": "sha3_256",
+          "tsEmitName": "SHA3_256",
           "normalizedSignature": "SHA3_256|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2294,7 +2294,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA3_384:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA3_384",
-          "tsEmitName": "sha3_384",
+          "tsEmitName": "SHA3_384",
           "normalizedSignature": "SHA3_384|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2309,7 +2309,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.HashAlgorithmName::SHA3_512:System.Security.Cryptography.HashAlgorithmName",
           "clrName": "SHA3_512",
-          "tsEmitName": "sha3_512",
+          "tsEmitName": "SHA3_512",
           "normalizedSignature": "SHA3_512|:System.Security.Cryptography.HashAlgorithmName|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2440,7 +2440,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAParameters::DSystem.Byte[]",
           "clrName": "D",
-          "tsEmitName": "d",
+          "tsEmitName": "D",
           "normalizedSignature": "D|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2449,7 +2449,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAParameters::DPSystem.Byte[]",
           "clrName": "DP",
-          "tsEmitName": "dp",
+          "tsEmitName": "DP",
           "normalizedSignature": "DP|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2458,7 +2458,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAParameters::DQSystem.Byte[]",
           "clrName": "DQ",
-          "tsEmitName": "dq",
+          "tsEmitName": "DQ",
           "normalizedSignature": "DQ|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2494,7 +2494,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAParameters::PSystem.Byte[]",
           "clrName": "P",
-          "tsEmitName": "p",
+          "tsEmitName": "P",
           "normalizedSignature": "P|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2503,7 +2503,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAParameters::QSystem.Byte[]",
           "clrName": "Q",
-          "tsEmitName": "q",
+          "tsEmitName": "Q",
           "normalizedSignature": "Q|System.Byte[]|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3241,7 +3241,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.AesCryptoServiceProvider::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3725,7 +3725,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.AesManaged::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5625,7 +5625,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngAlgorithm::MD5:System.Security.Cryptography.CngAlgorithm",
           "clrName": "MD5",
-          "tsEmitName": "md5",
+          "tsEmitName": "MD5",
           "normalizedSignature": "MD5|:System.Security.Cryptography.CngAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7645,13 +7645,6 @@
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
           "parameterCount": 0
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
         }
       ]
     },
@@ -10915,7 +10908,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.DESCryptoServiceProvider::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -27894,7 +27887,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RC2CryptoServiceProvider::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -28560,7 +28553,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RijndaelManaged::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -31242,7 +31235,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAEncryptionPadding::OaepSHA3_256:System.Security.Cryptography.RSAEncryptionPadding",
           "clrName": "OaepSHA3_256",
-          "tsEmitName": "oaepSHA3_256",
+          "tsEmitName": "OaepSHA3_256",
           "normalizedSignature": "OaepSHA3_256|:System.Security.Cryptography.RSAEncryptionPadding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -31257,7 +31250,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAEncryptionPadding::OaepSHA3_384:System.Security.Cryptography.RSAEncryptionPadding",
           "clrName": "OaepSHA3_384",
-          "tsEmitName": "oaepSHA3_384",
+          "tsEmitName": "OaepSHA3_384",
           "normalizedSignature": "OaepSHA3_384|:System.Security.Cryptography.RSAEncryptionPadding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -31272,7 +31265,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAEncryptionPadding::OaepSHA3_512:System.Security.Cryptography.RSAEncryptionPadding",
           "clrName": "OaepSHA3_512",
-          "tsEmitName": "oaepSHA3_512",
+          "tsEmitName": "OaepSHA3_512",
           "normalizedSignature": "OaepSHA3_512|:System.Security.Cryptography.RSAEncryptionPadding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -32376,7 +32369,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.RSAPKCS1KeyExchangeDeformatter::RNG:System.Security.Cryptography.RandomNumberGenerator",
           "clrName": "RNG",
-          "tsEmitName": "rng",
+          "tsEmitName": "RNG",
           "normalizedSignature": "RNG|:System.Security.Cryptography.RandomNumberGenerator|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -38934,7 +38927,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_128s:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_128s",
-          "tsEmitName": "slhDsaSha2_128s",
+          "tsEmitName": "SlhDsaSha2_128s",
           "normalizedSignature": "SlhDsaSha2_128s|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -38964,7 +38957,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_128f:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_128f",
-          "tsEmitName": "slhDsaSha2_128f",
+          "tsEmitName": "SlhDsaSha2_128f",
           "normalizedSignature": "SlhDsaSha2_128f|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -38994,7 +38987,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_192s:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_192s",
-          "tsEmitName": "slhDsaSha2_192s",
+          "tsEmitName": "SlhDsaSha2_192s",
           "normalizedSignature": "SlhDsaSha2_192s|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -39024,7 +39017,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_192f:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_192f",
-          "tsEmitName": "slhDsaSha2_192f",
+          "tsEmitName": "SlhDsaSha2_192f",
           "normalizedSignature": "SlhDsaSha2_192f|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -39054,7 +39047,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_256s:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_256s",
-          "tsEmitName": "slhDsaSha2_256s",
+          "tsEmitName": "SlhDsaSha2_256s",
           "normalizedSignature": "SlhDsaSha2_256s|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -39084,7 +39077,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SlhDsaAlgorithm::SlhDsaSha2_256f:System.Security.Cryptography.SlhDsaAlgorithm",
           "clrName": "SlhDsaSha2_256f",
-          "tsEmitName": "slhDsaSha2_256f",
+          "tsEmitName": "SlhDsaSha2_256f",
           "normalizedSignature": "SlhDsaSha2_256f|:System.Security.Cryptography.SlhDsaAlgorithm|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -40200,7 +40193,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.SymmetricAlgorithm::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -41026,7 +41019,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.TripleDESCryptoServiceProvider::IV:System.Byte[]",
           "clrName": "IV",
-          "tsEmitName": "iv",
+          "tsEmitName": "IV",
           "normalizedSignature": "IV|:System.Byte[]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

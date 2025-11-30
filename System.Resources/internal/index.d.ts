@@ -50,22 +50,26 @@ export enum UltimateResourceFallbackLocation {
 }
 
 
-export interface IResourceReader$instance {
-    Close(): void;
-    GetEnumerator(): IEnumerator;
-    GetEnumerator(): IDictionaryEnumerator;
+export interface IResourceReader$instance extends IEnumerable, IDisposable {
+    close(): void;
+    getEnumerator2(): IEnumerator;
+    getEnumerator2(): IDictionaryEnumerator;
 }
 
+
+export interface IResourceReader$instance extends System_Internal.IDisposable$instance {}
 
 export type IResourceReader = IResourceReader$instance;
 
-export interface IResourceWriter$instance {
-    AddResource(name: string, value: byte[]): void;
-    AddResource(name: string, value: any): void;
-    AddResource(name: string, value: string): void;
-    Close(): void;
+export interface IResourceWriter$instance extends IDisposable {
+    addResource3(name: string, value: byte[]): void;
+    addResource3(name: string, value: unknown): void;
+    addResource3(name: string, value: string): void;
+    close(): void;
 }
 
+
+export interface IResourceWriter$instance extends System_Internal.IDisposable$instance {}
 
 export type IResourceWriter = IResourceWriter$instance;
 
@@ -78,7 +82,7 @@ export class MissingManifestResourceException$instance extends System_Internal.S
 
 
 export interface __MissingManifestResourceException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingManifestResourceException = MissingManifestResourceException$instance & __MissingManifestResourceException$views;
@@ -95,7 +99,7 @@ export class MissingSatelliteAssemblyException$instance extends System_Internal.
 
 
 export interface __MissingSatelliteAssemblyException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingSatelliteAssemblyException = MissingSatelliteAssemblyException$instance & __MissingSatelliteAssemblyException$views;
@@ -118,8 +122,8 @@ export class ResourceManager$instance {
     readonly baseName: string;
     ignoreCase: boolean;
     readonly resourceSetType: Type;
-    getObject(name: string): any;
-    getObject(name: string, culture: CultureInfo): any;
+    getObject(name: string): unknown;
+    getObject(name: string, culture: CultureInfo): unknown;
     getResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet;
     getStream(name: string): UnmanagedMemoryStream;
     getStream(name: string, culture: CultureInfo): UnmanagedMemoryStream;
@@ -128,7 +132,7 @@ export class ResourceManager$instance {
     releaseAllResources(): void;
     static readonly magicNumber: int;
     static readonly headerVersionNumber: int;
-    static CreateFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
+    static createFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
 }
 
 
@@ -145,9 +149,9 @@ export class ResourceReader$instance {
 
 
 export interface __ResourceReader$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
-    readonly As_IResourceReader: IResourceReader$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
+    As_IResourceReader(): IResourceReader$instance;
 }
 
 export type ResourceReader = ResourceReader$instance & __ResourceReader$views;
@@ -162,17 +166,19 @@ export class ResourceSet$instance {
     getDefaultReader(): Type;
     getDefaultWriter(): Type;
     getEnumerator(): IDictionaryEnumerator;
-    getObject(name: string): any;
-    getObject(name: string, ignoreCase: boolean): any;
+    getObject(name: string): unknown;
+    getObject(name: string, ignoreCase: boolean): unknown;
     getString(name: string): string;
     getString(name: string, ignoreCase: boolean): string;
 }
 
 
 export interface __ResourceSet$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface ResourceSet$instance extends System_Internal.IDisposable$instance {}
 
 export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 
@@ -183,7 +189,7 @@ export class ResourceWriter$instance {
     typeNameConverter: Func_2<Type, CLROf<string>>;
     addResource(name: string, value: Stream): void;
     addResource(name: string, value: string): void;
-    addResource(name: string, value: any): void;
+    addResource(name: string, value: unknown): void;
     addResource(name: string, value: Stream, closeAfterWrite?: boolean): void;
     addResource(name: string, value: byte[]): void;
     addResourceData(name: string, typeName: string, serializedData: byte[]): void;
@@ -194,8 +200,8 @@ export class ResourceWriter$instance {
 
 
 export interface __ResourceWriter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
-    readonly As_IResourceWriter: IResourceWriter$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
+    As_IResourceWriter(): IResourceWriter$instance;
 }
 
 export type ResourceWriter = ResourceWriter$instance & __ResourceWriter$views;

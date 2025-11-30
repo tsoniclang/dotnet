@@ -57,12 +57,12 @@ export abstract class DataContract$instance {
     readonly topLevelElementNamespace: XmlDictionaryString;
     readonly underlyingType: Type;
     readonly xmlName: XmlQualifiedName;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getArrayTypeName(isNullable: boolean): XmlQualifiedName;
     getHashCode(): int;
     isDictionaryLike(keyName: { value: ref<string> }, valueName: { value: ref<string> }, itemName: { value: ref<string> }): boolean;
-    static GetBuiltInDataContract(name: string, ns: string): DataContract;
-    static GetXmlName(type_: Type): XmlQualifiedName;
+    static getBuiltInDataContract(name: string, ns: string): DataContract;
+    static getXmlName(type_: Type): XmlQualifiedName;
 }
 
 
@@ -73,11 +73,11 @@ export class DataContractSet$instance {
     constructor(dataContractSet: DataContractSet);
     readonly contracts: Dictionary_2<XmlQualifiedName, DataContract>;
     readonly knownTypesForObject: Dictionary_2<XmlQualifiedName, DataContract>;
-    readonly processedContracts: Dictionary_2<DataContract, any>;
+    readonly processedContracts: Dictionary_2<DataContract, unknown>;
     readonly surrogateData: Hashtable;
     getDataContract(type_: Type): DataContract;
     getDataContract(key: XmlQualifiedName): DataContract;
-    getReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: { value: ref<DataContract> }, genericParameters: { value: ref<any[]> }, supportGenericTypes?: Nullable_1<CLROf<boolean>>): Type;
+    getReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: { value: ref<DataContract> }, genericParameters: { value: ref<unknown[]> }, supportGenericTypes?: Nullable_1<CLROf<boolean>>): Type;
     importSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName>, importXmlDataType: boolean): void;
     importSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
 }

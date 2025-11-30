@@ -219,16 +219,16 @@ export enum KnownColor {
 
 
 export class Color$instance {
-    readonly a: byte;
-    readonly b: byte;
-    readonly g: byte;
+    readonly A: byte;
+    readonly B: byte;
+    readonly G: byte;
     readonly isEmpty: boolean;
     readonly isKnownColor: boolean;
     readonly isNamedColor: boolean;
     readonly isSystemColor: boolean;
     readonly name: string;
-    readonly r: byte;
-    equals(obj: any): boolean;
+    readonly R: byte;
+    equals(obj: unknown): boolean;
     equals(other: Color): boolean;
     getBrightness(): float;
     getHashCode(): int;
@@ -238,159 +238,159 @@ export class Color$instance {
     toKnownColor(): KnownColor;
     toString(): string;
     static readonly empty: Color;
-    static readonly Transparent: Color;
-    static readonly AliceBlue: Color;
-    static readonly AntiqueWhite: Color;
-    static readonly Aqua: Color;
-    static readonly Aquamarine: Color;
-    static readonly Azure: Color;
-    static readonly Beige: Color;
-    static readonly Bisque: Color;
-    static readonly Black: Color;
-    static readonly BlanchedAlmond: Color;
-    static readonly Blue: Color;
-    static readonly BlueViolet: Color;
-    static readonly Brown: Color;
-    static readonly BurlyWood: Color;
-    static readonly CadetBlue: Color;
-    static readonly Chartreuse: Color;
-    static readonly Chocolate: Color;
-    static readonly Coral: Color;
-    static readonly CornflowerBlue: Color;
-    static readonly Cornsilk: Color;
-    static readonly Crimson: Color;
-    static readonly Cyan: Color;
-    static readonly DarkBlue: Color;
-    static readonly DarkCyan: Color;
-    static readonly DarkGoldenrod: Color;
-    static readonly DarkGray: Color;
-    static readonly DarkGreen: Color;
-    static readonly DarkKhaki: Color;
-    static readonly DarkMagenta: Color;
-    static readonly DarkOliveGreen: Color;
-    static readonly DarkOrange: Color;
-    static readonly DarkOrchid: Color;
-    static readonly DarkRed: Color;
-    static readonly DarkSalmon: Color;
-    static readonly DarkSeaGreen: Color;
-    static readonly DarkSlateBlue: Color;
-    static readonly DarkSlateGray: Color;
-    static readonly DarkTurquoise: Color;
-    static readonly DarkViolet: Color;
-    static readonly DeepPink: Color;
-    static readonly DeepSkyBlue: Color;
-    static readonly DimGray: Color;
-    static readonly DodgerBlue: Color;
-    static readonly Firebrick: Color;
-    static readonly FloralWhite: Color;
-    static readonly ForestGreen: Color;
-    static readonly Fuchsia: Color;
-    static readonly Gainsboro: Color;
-    static readonly GhostWhite: Color;
-    static readonly Gold: Color;
-    static readonly Goldenrod: Color;
-    static readonly Gray: Color;
-    static readonly Green: Color;
-    static readonly GreenYellow: Color;
-    static readonly Honeydew: Color;
-    static readonly HotPink: Color;
-    static readonly IndianRed: Color;
-    static readonly Indigo: Color;
-    static readonly Ivory: Color;
-    static readonly Khaki: Color;
-    static readonly Lavender: Color;
-    static readonly LavenderBlush: Color;
-    static readonly LawnGreen: Color;
-    static readonly LemonChiffon: Color;
-    static readonly LightBlue: Color;
-    static readonly LightCoral: Color;
-    static readonly LightCyan: Color;
-    static readonly LightGoldenrodYellow: Color;
-    static readonly LightGreen: Color;
-    static readonly LightGray: Color;
-    static readonly LightPink: Color;
-    static readonly LightSalmon: Color;
-    static readonly LightSeaGreen: Color;
-    static readonly LightSkyBlue: Color;
-    static readonly LightSlateGray: Color;
-    static readonly LightSteelBlue: Color;
-    static readonly LightYellow: Color;
-    static readonly Lime: Color;
-    static readonly LimeGreen: Color;
-    static readonly Linen: Color;
-    static readonly Magenta: Color;
-    static readonly Maroon: Color;
-    static readonly MediumAquamarine: Color;
-    static readonly MediumBlue: Color;
-    static readonly MediumOrchid: Color;
-    static readonly MediumPurple: Color;
-    static readonly MediumSeaGreen: Color;
-    static readonly MediumSlateBlue: Color;
-    static readonly MediumSpringGreen: Color;
-    static readonly MediumTurquoise: Color;
-    static readonly MediumVioletRed: Color;
-    static readonly MidnightBlue: Color;
-    static readonly MintCream: Color;
-    static readonly MistyRose: Color;
-    static readonly Moccasin: Color;
-    static readonly NavajoWhite: Color;
-    static readonly Navy: Color;
-    static readonly OldLace: Color;
-    static readonly Olive: Color;
-    static readonly OliveDrab: Color;
-    static readonly Orange: Color;
-    static readonly OrangeRed: Color;
-    static readonly Orchid: Color;
-    static readonly PaleGoldenrod: Color;
-    static readonly PaleGreen: Color;
-    static readonly PaleTurquoise: Color;
-    static readonly PaleVioletRed: Color;
-    static readonly PapayaWhip: Color;
-    static readonly PeachPuff: Color;
-    static readonly Peru: Color;
-    static readonly Pink: Color;
-    static readonly Plum: Color;
-    static readonly PowderBlue: Color;
-    static readonly Purple: Color;
-    static readonly RebeccaPurple: Color;
-    static readonly Red: Color;
-    static readonly RosyBrown: Color;
-    static readonly RoyalBlue: Color;
-    static readonly SaddleBrown: Color;
-    static readonly Salmon: Color;
-    static readonly SandyBrown: Color;
-    static readonly SeaGreen: Color;
-    static readonly SeaShell: Color;
-    static readonly Sienna: Color;
-    static readonly Silver: Color;
-    static readonly SkyBlue: Color;
-    static readonly SlateBlue: Color;
-    static readonly SlateGray: Color;
-    static readonly Snow: Color;
-    static readonly SpringGreen: Color;
-    static readonly SteelBlue: Color;
-    static readonly Tan: Color;
-    static readonly Teal: Color;
-    static readonly Thistle: Color;
-    static readonly Tomato: Color;
-    static readonly Turquoise: Color;
-    static readonly Violet: Color;
-    static readonly Wheat: Color;
-    static readonly White: Color;
-    static readonly WhiteSmoke: Color;
-    static readonly Yellow: Color;
-    static readonly YellowGreen: Color;
-    static FromArgb(alpha: int, baseColor: Color): Color;
-    static FromArgb(alpha: int, red: int, green: int, blue: int): Color;
-    static FromArgb(red: int, green: int, blue: int): Color;
-    static FromArgb(argb: int): Color;
-    static FromKnownColor(color: KnownColor): Color;
-    static FromName(name: string): Color;
+    static readonly transparent: Color;
+    static readonly aliceBlue: Color;
+    static readonly antiqueWhite: Color;
+    static readonly aqua: Color;
+    static readonly aquamarine: Color;
+    static readonly azure: Color;
+    static readonly beige: Color;
+    static readonly bisque: Color;
+    static readonly black: Color;
+    static readonly blanchedAlmond: Color;
+    static readonly blue: Color;
+    static readonly blueViolet: Color;
+    static readonly brown: Color;
+    static readonly burlyWood: Color;
+    static readonly cadetBlue: Color;
+    static readonly chartreuse: Color;
+    static readonly chocolate: Color;
+    static readonly coral: Color;
+    static readonly cornflowerBlue: Color;
+    static readonly cornsilk: Color;
+    static readonly crimson: Color;
+    static readonly cyan: Color;
+    static readonly darkBlue: Color;
+    static readonly darkCyan: Color;
+    static readonly darkGoldenrod: Color;
+    static readonly darkGray: Color;
+    static readonly darkGreen: Color;
+    static readonly darkKhaki: Color;
+    static readonly darkMagenta: Color;
+    static readonly darkOliveGreen: Color;
+    static readonly darkOrange: Color;
+    static readonly darkOrchid: Color;
+    static readonly darkRed: Color;
+    static readonly darkSalmon: Color;
+    static readonly darkSeaGreen: Color;
+    static readonly darkSlateBlue: Color;
+    static readonly darkSlateGray: Color;
+    static readonly darkTurquoise: Color;
+    static readonly darkViolet: Color;
+    static readonly deepPink: Color;
+    static readonly deepSkyBlue: Color;
+    static readonly dimGray: Color;
+    static readonly dodgerBlue: Color;
+    static readonly firebrick: Color;
+    static readonly floralWhite: Color;
+    static readonly forestGreen: Color;
+    static readonly fuchsia: Color;
+    static readonly gainsboro: Color;
+    static readonly ghostWhite: Color;
+    static readonly gold: Color;
+    static readonly goldenrod: Color;
+    static readonly gray: Color;
+    static readonly green: Color;
+    static readonly greenYellow: Color;
+    static readonly honeydew: Color;
+    static readonly hotPink: Color;
+    static readonly indianRed: Color;
+    static readonly indigo: Color;
+    static readonly ivory: Color;
+    static readonly khaki: Color;
+    static readonly lavender: Color;
+    static readonly lavenderBlush: Color;
+    static readonly lawnGreen: Color;
+    static readonly lemonChiffon: Color;
+    static readonly lightBlue: Color;
+    static readonly lightCoral: Color;
+    static readonly lightCyan: Color;
+    static readonly lightGoldenrodYellow: Color;
+    static readonly lightGreen: Color;
+    static readonly lightGray: Color;
+    static readonly lightPink: Color;
+    static readonly lightSalmon: Color;
+    static readonly lightSeaGreen: Color;
+    static readonly lightSkyBlue: Color;
+    static readonly lightSlateGray: Color;
+    static readonly lightSteelBlue: Color;
+    static readonly lightYellow: Color;
+    static readonly lime: Color;
+    static readonly limeGreen: Color;
+    static readonly linen: Color;
+    static readonly magenta: Color;
+    static readonly maroon: Color;
+    static readonly mediumAquamarine: Color;
+    static readonly mediumBlue: Color;
+    static readonly mediumOrchid: Color;
+    static readonly mediumPurple: Color;
+    static readonly mediumSeaGreen: Color;
+    static readonly mediumSlateBlue: Color;
+    static readonly mediumSpringGreen: Color;
+    static readonly mediumTurquoise: Color;
+    static readonly mediumVioletRed: Color;
+    static readonly midnightBlue: Color;
+    static readonly mintCream: Color;
+    static readonly mistyRose: Color;
+    static readonly moccasin: Color;
+    static readonly navajoWhite: Color;
+    static readonly navy: Color;
+    static readonly oldLace: Color;
+    static readonly olive: Color;
+    static readonly oliveDrab: Color;
+    static readonly orange: Color;
+    static readonly orangeRed: Color;
+    static readonly orchid: Color;
+    static readonly paleGoldenrod: Color;
+    static readonly paleGreen: Color;
+    static readonly paleTurquoise: Color;
+    static readonly paleVioletRed: Color;
+    static readonly papayaWhip: Color;
+    static readonly peachPuff: Color;
+    static readonly peru: Color;
+    static readonly pink: Color;
+    static readonly plum: Color;
+    static readonly powderBlue: Color;
+    static readonly purple: Color;
+    static readonly rebeccaPurple: Color;
+    static readonly red: Color;
+    static readonly rosyBrown: Color;
+    static readonly royalBlue: Color;
+    static readonly saddleBrown: Color;
+    static readonly salmon: Color;
+    static readonly sandyBrown: Color;
+    static readonly seaGreen: Color;
+    static readonly seaShell: Color;
+    static readonly sienna: Color;
+    static readonly silver: Color;
+    static readonly skyBlue: Color;
+    static readonly slateBlue: Color;
+    static readonly slateGray: Color;
+    static readonly snow: Color;
+    static readonly springGreen: Color;
+    static readonly steelBlue: Color;
+    static readonly tan: Color;
+    static readonly teal: Color;
+    static readonly thistle: Color;
+    static readonly tomato: Color;
+    static readonly turquoise: Color;
+    static readonly violet: Color;
+    static readonly wheat: Color;
+    static readonly white: Color;
+    static readonly whiteSmoke: Color;
+    static readonly yellow: Color;
+    static readonly yellowGreen: Color;
+    static fromArgb3(alpha: int, baseColor: Color): Color;
+    static fromArgb3(alpha: int, red: int, green: int, blue: int): Color;
+    static fromArgb3(red: int, green: int, blue: int): Color;
+    static fromArgb3(argb: int): Color;
+    static fromKnownColor(color: KnownColor): Color;
+    static fromName(name: string): Color;
 }
 
 
 export interface __Color$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Color>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Color>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Color): boolean;
@@ -404,25 +404,25 @@ export class Point$instance {
     constructor(sz: Size);
     constructor(dw: int);
     readonly isEmpty: boolean;
-    x: int;
-    y: int;
-    equals(obj: any): boolean;
+    X: int;
+    Y: int;
+    equals(obj: unknown): boolean;
     equals(other: Point): boolean;
     getHashCode(): int;
     offset(dx: int, dy: int): void;
     offset(p: Point): void;
     toString(): string;
     static readonly empty: Point;
-    static Add(pt: Point, sz: Size): Point;
-    static Ceiling(value: PointF): Point;
-    static Round(value: PointF): Point;
-    static Subtract(pt: Point, sz: Size): Point;
-    static Truncate(value: PointF): Point;
+    static add(pt: Point, sz: Size): Point;
+    static ceiling(value: PointF): Point;
+    static round(value: PointF): Point;
+    static subtract(pt: Point, sz: Size): Point;
+    static truncate(value: PointF): Point;
 }
 
 
 export interface __Point$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Point>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Point>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Point): boolean;
@@ -435,23 +435,23 @@ export class PointF$instance {
     constructor(x: float, y: float);
     constructor(vector: Vector2);
     readonly isEmpty: boolean;
-    x: float;
-    y: float;
-    equals(obj: any): boolean;
+    X: float;
+    Y: float;
+    equals(obj: unknown): boolean;
     equals(other: PointF): boolean;
     getHashCode(): int;
     toString(): string;
     toVector2(): Vector2;
     static readonly empty: PointF;
-    static Add(pt: PointF, sz: Size): PointF;
-    static Add(pt: PointF, sz: SizeF): PointF;
-    static Subtract(pt: PointF, sz: Size): PointF;
-    static Subtract(pt: PointF, sz: SizeF): PointF;
+    static add(pt: PointF, sz: Size): PointF;
+    static add(pt: PointF, sz: SizeF): PointF;
+    static subtract(pt: PointF, sz: Size): PointF;
+    static subtract(pt: PointF, sz: SizeF): PointF;
 }
 
 
 export interface __PointF$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<PointF>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<PointF>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: PointF): boolean;
@@ -472,12 +472,12 @@ export class Rectangle$instance {
     size: Size;
     readonly top: int;
     width: int;
-    x: int;
-    y: int;
+    X: int;
+    Y: int;
     contains(x: int, y: int): boolean;
     contains(pt: Point): boolean;
     contains(rect: Rectangle): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Rectangle): boolean;
     getHashCode(): int;
     inflate(width: int, height: int): void;
@@ -488,18 +488,18 @@ export class Rectangle$instance {
     offset(x: int, y: int): void;
     toString(): string;
     static readonly empty: Rectangle;
-    static Ceiling(value: RectangleF): Rectangle;
-    static FromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
-    static Inflate(rect: Rectangle, x: int, y: int): Rectangle;
-    static Intersect(a: Rectangle, b: Rectangle): Rectangle;
-    static Round(value: RectangleF): Rectangle;
-    static Truncate(value: RectangleF): Rectangle;
-    static Union(a: Rectangle, b: Rectangle): Rectangle;
+    static ceiling(value: RectangleF): Rectangle;
+    static fromLTRB(left: int, top: int, right: int, bottom: int): Rectangle;
+    static inflate(rect: Rectangle, x: int, y: int): Rectangle;
+    static intersect(a: Rectangle, b: Rectangle): Rectangle;
+    static round(value: RectangleF): Rectangle;
+    static truncate(value: RectangleF): Rectangle;
+    static union(a: Rectangle, b: Rectangle): Rectangle;
 }
 
 
 export interface __Rectangle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Rectangle>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Rectangle>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Rectangle): boolean;
@@ -521,12 +521,12 @@ export class RectangleF$instance {
     size: SizeF;
     readonly top: float;
     width: float;
-    x: float;
-    y: float;
+    X: float;
+    Y: float;
     contains(x: float, y: float): boolean;
     contains(pt: PointF): boolean;
     contains(rect: RectangleF): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: RectangleF): boolean;
     getHashCode(): int;
     inflate(x: float, y: float): void;
@@ -538,15 +538,15 @@ export class RectangleF$instance {
     toString(): string;
     toVector4(): Vector4;
     static readonly empty: RectangleF;
-    static FromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
-    static Inflate(rect: RectangleF, x: float, y: float): RectangleF;
-    static Intersect(a: RectangleF, b: RectangleF): RectangleF;
-    static Union(a: RectangleF, b: RectangleF): RectangleF;
+    static fromLTRB(left: float, top: float, right: float, bottom: float): RectangleF;
+    static inflate(rect: RectangleF, x: float, y: float): RectangleF;
+    static intersect(a: RectangleF, b: RectangleF): RectangleF;
+    static union(a: RectangleF, b: RectangleF): RectangleF;
 }
 
 
 export interface __RectangleF$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<RectangleF>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<RectangleF>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: RectangleF): boolean;
@@ -561,21 +561,21 @@ export class Size$instance {
     height: int;
     readonly isEmpty: boolean;
     width: int;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Size): boolean;
     getHashCode(): int;
     toString(): string;
     static readonly empty: Size;
-    static Add(sz1: Size, sz2: Size): Size;
-    static Ceiling(value: SizeF): Size;
-    static Round(value: SizeF): Size;
-    static Subtract(sz1: Size, sz2: Size): Size;
-    static Truncate(value: SizeF): Size;
+    static add(sz1: Size, sz2: Size): Size;
+    static ceiling(value: SizeF): Size;
+    static round(value: SizeF): Size;
+    static subtract(sz1: Size, sz2: Size): Size;
+    static truncate(value: SizeF): Size;
 }
 
 
 export interface __Size$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Size>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Size>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Size): boolean;
@@ -592,7 +592,7 @@ export class SizeF$instance {
     height: float;
     readonly isEmpty: boolean;
     width: float;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: SizeF): boolean;
     getHashCode(): int;
     toPointF(): PointF;
@@ -600,13 +600,13 @@ export class SizeF$instance {
     toString(): string;
     toVector2(): Vector2;
     static readonly empty: SizeF;
-    static Add(sz1: SizeF, sz2: SizeF): SizeF;
-    static Subtract(sz1: SizeF, sz2: SizeF): SizeF;
+    static add(sz1: SizeF, sz2: SizeF): SizeF;
+    static subtract(sz1: SizeF, sz2: SizeF): SizeF;
 }
 
 
 export interface __SizeF$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SizeF>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SizeF>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SizeF): boolean;
@@ -621,10 +621,10 @@ export class ColorConverter$instance extends System_ComponentModel_Internal.Type
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
     getStandardValues(context: ITypeDescriptorContext): TypeConverter_StandardValuesCollection;
     getStandardValues(): ICollection;
     getStandardValuesSupported(context: ITypeDescriptorContext): boolean;
@@ -640,17 +640,17 @@ export class PointConverter$instance extends System_ComponentModel_Internal.Type
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    createInstance(propertyValues: IDictionary): unknown;
     getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
     getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
@@ -664,17 +664,17 @@ export class RectangleConverter$instance extends System_ComponentModel_Internal.
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    createInstance(propertyValues: IDictionary): unknown;
     getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
     getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
@@ -688,17 +688,17 @@ export class SizeConverter$instance extends System_ComponentModel_Internal.TypeC
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    createInstance(propertyValues: IDictionary): unknown;
     getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
     getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
@@ -712,17 +712,17 @@ export class SizeFConverter$instance extends System_ComponentModel_Internal.Type
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
-    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: any): any;
-    convertFrom(value: any): any;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: any, destinationType: Type): any;
-    convertTo(value: any, destinationType: Type): any;
-    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): any;
-    createInstance(propertyValues: IDictionary): any;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
+    convertFrom(value: unknown): unknown;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, propertyValues: IDictionary): unknown;
+    createInstance(propertyValues: IDictionary): unknown;
     getCreateInstanceSupported(context: ITypeDescriptorContext): boolean;
     getCreateInstanceSupported(): boolean;
-    getProperties(context: ITypeDescriptorContext, value: any, attributes: Attribute[]): PropertyDescriptorCollection;
-    getProperties(value: any): PropertyDescriptorCollection;
-    getProperties(context: ITypeDescriptorContext, value: any): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(value: unknown): PropertyDescriptorCollection;
+    getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
     getPropertiesSupported(context: ITypeDescriptorContext): boolean;
     getPropertiesSupported(): boolean;
 }
@@ -731,52 +731,52 @@ export class SizeFConverter$instance extends System_ComponentModel_Internal.Type
 export type SizeFConverter = SizeFConverter$instance;
 
 export abstract class ColorTranslator$instance {
-    static FromHtml(htmlColor: string): Color;
-    static FromOle(oleColor: int): Color;
-    static FromWin32(win32Color: int): Color;
-    static ToHtml(c: Color): string;
-    static ToOle(c: Color): int;
-    static ToWin32(c: Color): int;
+    static fromHtml(htmlColor: string): Color;
+    static fromOle(oleColor: int): Color;
+    static fromWin32(win32Color: int): Color;
+    static toHtml(c: Color): string;
+    static toOle(c: Color): int;
+    static toWin32(c: Color): int;
 }
 
 
 export type ColorTranslator = ColorTranslator$instance;
 
 export abstract class SystemColors$instance {
-    static readonly ActiveBorder: Color;
-    static readonly ActiveCaption: Color;
-    static readonly ActiveCaptionText: Color;
-    static readonly AppWorkspace: Color;
-    static readonly ButtonFace: Color;
-    static readonly ButtonHighlight: Color;
-    static readonly ButtonShadow: Color;
-    static readonly Control: Color;
-    static readonly ControlDark: Color;
-    static readonly ControlDarkDark: Color;
-    static readonly ControlLight: Color;
-    static readonly ControlLightLight: Color;
-    static readonly ControlText: Color;
-    static readonly Desktop: Color;
-    static readonly GradientActiveCaption: Color;
-    static readonly GradientInactiveCaption: Color;
-    static readonly GrayText: Color;
-    static readonly Highlight: Color;
-    static readonly HighlightText: Color;
-    static readonly HotTrack: Color;
-    static readonly InactiveBorder: Color;
-    static readonly InactiveCaption: Color;
-    static readonly InactiveCaptionText: Color;
-    static readonly Info: Color;
-    static readonly InfoText: Color;
-    static readonly Menu: Color;
-    static readonly MenuBar: Color;
-    static readonly MenuHighlight: Color;
-    static readonly MenuText: Color;
-    static readonly ScrollBar: Color;
-    static readonly Window: Color;
-    static readonly WindowFrame: Color;
-    static readonly WindowText: Color;
-    static UseAlternativeColorSet: boolean;
+    static readonly activeBorder: Color;
+    static readonly activeCaption: Color;
+    static readonly activeCaptionText: Color;
+    static readonly appWorkspace: Color;
+    static readonly buttonFace: Color;
+    static readonly buttonHighlight: Color;
+    static readonly buttonShadow: Color;
+    static readonly control: Color;
+    static readonly controlDark: Color;
+    static readonly controlDarkDark: Color;
+    static readonly controlLight: Color;
+    static readonly controlLightLight: Color;
+    static readonly controlText: Color;
+    static readonly desktop: Color;
+    static readonly gradientActiveCaption: Color;
+    static readonly gradientInactiveCaption: Color;
+    static readonly grayText: Color;
+    static readonly highlight: Color;
+    static readonly highlightText: Color;
+    static readonly hotTrack: Color;
+    static readonly inactiveBorder: Color;
+    static readonly inactiveCaption: Color;
+    static readonly inactiveCaptionText: Color;
+    static readonly info: Color;
+    static readonly infoText: Color;
+    static readonly menu: Color;
+    static readonly menuBar: Color;
+    static readonly menuHighlight: Color;
+    static readonly menuText: Color;
+    static readonly scrollBar: Color;
+    static readonly window: Color;
+    static readonly windowFrame: Color;
+    static readonly windowText: Color;
+    static useAlternativeColorSet: boolean;
 }
 
 

@@ -213,14 +213,14 @@ export class EditAndContinueLogEntry$instance {
     constructor(handle: EntityHandle, operation: EditAndContinueOperation);
     readonly handle: EntityHandle;
     readonly operation: EditAndContinueOperation;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: EditAndContinueLogEntry): boolean;
     getHashCode(): int;
 }
 
 
 export interface __EditAndContinueLogEntry$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<EditAndContinueLogEntry>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<EditAndContinueLogEntry>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: EditAndContinueLogEntry): boolean;
@@ -237,8 +237,8 @@ export class ExceptionRegionEncoder$instance {
     addFault(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int): ExceptionRegionEncoder;
     addFilter(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int, filterOffset: int): ExceptionRegionEncoder;
     addFinally(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int): ExceptionRegionEncoder;
-    static IsSmallExceptionRegion(startOffset: int, length: int): boolean;
-    static IsSmallRegionCount(exceptionRegionCount: int): boolean;
+    static isSmallExceptionRegion(startOffset: int, length: int): boolean;
+    static isSmallRegionCount(exceptionRegionCount: int): boolean;
 }
 
 
@@ -310,13 +310,13 @@ export class LabelHandle$instance {
     readonly id: int;
     readonly isNil: boolean;
     equals(other: LabelHandle): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export interface __LabelHandle$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<LabelHandle>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<LabelHandle>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: LabelHandle): boolean;
@@ -477,7 +477,7 @@ export type ReturnTypeEncoder = ReturnTypeEncoder$instance;
 export class ScalarEncoder$instance {
     constructor(builder: BlobBuilder);
     readonly builder: BlobBuilder;
-    constant(value: any): void;
+    constant(value: unknown): void;
     nullArray(): void;
     systemType(serializedTypeName: string): void;
 }
@@ -576,7 +576,7 @@ export class MetadataBuilder$instance {
     addAssembly(name: StringHandle, version: Version, culture: StringHandle, publicKey: BlobHandle, flags: AssemblyFlags, hashAlgorithm: AssemblyHashAlgorithm): AssemblyDefinitionHandle;
     addAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     addAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
-    addConstant(parent: EntityHandle, value: any): ConstantHandle;
+    addConstant(parent: EntityHandle, value: unknown): ConstantHandle;
     addCustomAttribute(parent: EntityHandle, constructor_: EntityHandle, value: BlobHandle): CustomAttributeHandle;
     addCustomDebugInformation(parent: EntityHandle, kind: GuidHandle, value: BlobHandle): CustomDebugInformationHandle;
     addDeclarativeSecurityAttribute(parent: EntityHandle, action: DeclarativeSecurityAction, permissionSet: BlobHandle): DeclarativeSecurityAttributeHandle;
@@ -622,7 +622,7 @@ export class MetadataBuilder$instance {
     getOrAddBlob(value: ImmutableArray_1<CLROf<byte>>): BlobHandle;
     getOrAddBlobUTF16(value: string): BlobHandle;
     getOrAddBlobUTF8(value: string, allowUnpairedSurrogates?: boolean): BlobHandle;
-    getOrAddConstantBlob(value: any): BlobHandle;
+    getOrAddConstantBlob(value: unknown): BlobHandle;
     getOrAddDocumentName(value: string): BlobHandle;
     getOrAddGuid(guid: Guid): GuidHandle;
     getOrAddString(value: string): StringHandle;
@@ -671,47 +671,47 @@ export class PortablePdbBuilder$instance {
 export type PortablePdbBuilder = PortablePdbBuilder$instance;
 
 export abstract class CodedIndex$instance {
-    static CustomAttributeType(handle: EntityHandle): int;
-    static HasConstant(handle: EntityHandle): int;
-    static HasCustomAttribute(handle: EntityHandle): int;
-    static HasCustomDebugInformation(handle: EntityHandle): int;
-    static HasDeclSecurity(handle: EntityHandle): int;
-    static HasFieldMarshal(handle: EntityHandle): int;
-    static HasSemantics(handle: EntityHandle): int;
-    static Implementation(handle: EntityHandle): int;
-    static MemberForwarded(handle: EntityHandle): int;
-    static MemberRefParent(handle: EntityHandle): int;
-    static MethodDefOrRef(handle: EntityHandle): int;
-    static ResolutionScope(handle: EntityHandle): int;
-    static TypeDefOrRef(handle: EntityHandle): int;
-    static TypeDefOrRefOrSpec(handle: EntityHandle): int;
-    static TypeOrMethodDef(handle: EntityHandle): int;
+    static customAttributeType(handle: EntityHandle): int;
+    static hasConstant(handle: EntityHandle): int;
+    static hasCustomAttribute(handle: EntityHandle): int;
+    static hasCustomDebugInformation(handle: EntityHandle): int;
+    static hasDeclSecurity(handle: EntityHandle): int;
+    static hasFieldMarshal(handle: EntityHandle): int;
+    static hasSemantics(handle: EntityHandle): int;
+    static implementation(handle: EntityHandle): int;
+    static memberForwarded(handle: EntityHandle): int;
+    static memberRefParent(handle: EntityHandle): int;
+    static methodDefOrRef(handle: EntityHandle): int;
+    static resolutionScope(handle: EntityHandle): int;
+    static typeDefOrRef(handle: EntityHandle): int;
+    static typeDefOrRefOrSpec(handle: EntityHandle): int;
+    static typeOrMethodDef(handle: EntityHandle): int;
 }
 
 
 export type CodedIndex = CodedIndex$instance;
 
 export abstract class ExportedTypeExtensions$instance {
-    static GetTypeDefinitionId(exportedType: ExportedType): int;
+    static getTypeDefinitionId(exportedType: ExportedType): int;
 }
 
 
 export type ExportedTypeExtensions = ExportedTypeExtensions$instance;
 
 export abstract class MetadataReaderExtensions$instance {
-    static GetEditAndContinueLogEntries(reader: MetadataReader): IEnumerable_1<EditAndContinueLogEntry>;
-    static GetEditAndContinueMapEntries(reader: MetadataReader): IEnumerable_1<EntityHandle>;
-    static GetHeapMetadataOffset(reader: MetadataReader, heapIndex: HeapIndex): int;
-    static GetHeapSize(reader: MetadataReader, heapIndex: HeapIndex): int;
-    static GetNextHandle(reader: MetadataReader, handle: BlobHandle): BlobHandle;
-    static GetNextHandle(reader: MetadataReader, handle: StringHandle): StringHandle;
-    static GetNextHandle(reader: MetadataReader, handle: UserStringHandle): UserStringHandle;
-    static GetTableMetadataOffset(reader: MetadataReader, tableIndex: TableIndex): int;
-    static GetTableRowCount(reader: MetadataReader, tableIndex: TableIndex): int;
-    static GetTableRowSize(reader: MetadataReader, tableIndex: TableIndex): int;
-    static GetTypesWithEvents(reader: MetadataReader): IEnumerable_1<TypeDefinitionHandle>;
-    static GetTypesWithProperties(reader: MetadataReader): IEnumerable_1<TypeDefinitionHandle>;
-    static ResolveSignatureTypeKind(reader: MetadataReader, typeHandle: EntityHandle, rawTypeKind: byte): SignatureTypeKind;
+    static getEditAndContinueLogEntries(reader: MetadataReader): IEnumerable_1<EditAndContinueLogEntry>;
+    static getEditAndContinueMapEntries(reader: MetadataReader): IEnumerable_1<EntityHandle>;
+    static getHeapMetadataOffset(reader: MetadataReader, heapIndex: HeapIndex): int;
+    static getHeapSize(reader: MetadataReader, heapIndex: HeapIndex): int;
+    static getNextHandle2(reader: MetadataReader, handle: BlobHandle): BlobHandle;
+    static getNextHandle2(reader: MetadataReader, handle: StringHandle): StringHandle;
+    static getNextHandle2(reader: MetadataReader, handle: UserStringHandle): UserStringHandle;
+    static getTableMetadataOffset(reader: MetadataReader, tableIndex: TableIndex): int;
+    static getTableRowCount(reader: MetadataReader, tableIndex: TableIndex): int;
+    static getTableRowSize(reader: MetadataReader, tableIndex: TableIndex): int;
+    static getTypesWithEvents(reader: MetadataReader): IEnumerable_1<TypeDefinitionHandle>;
+    static getTypesWithProperties(reader: MetadataReader): IEnumerable_1<TypeDefinitionHandle>;
+    static resolveSignatureTypeKind(reader: MetadataReader, typeHandle: EntityHandle, rawTypeKind: byte): SignatureTypeKind;
 }
 
 
@@ -720,59 +720,59 @@ export type MetadataReaderExtensions = MetadataReaderExtensions$instance;
 export abstract class MetadataTokens$instance {
     static readonly tableCount: int;
     static readonly heapCount: int;
-    static AssemblyFileHandle(rowNumber: int): AssemblyFileHandle;
-    static AssemblyReferenceHandle(rowNumber: int): AssemblyReferenceHandle;
-    static BlobHandle(offset: int): BlobHandle;
-    static ConstantHandle(rowNumber: int): ConstantHandle;
-    static CustomAttributeHandle(rowNumber: int): CustomAttributeHandle;
-    static CustomDebugInformationHandle(rowNumber: int): CustomDebugInformationHandle;
-    static DeclarativeSecurityAttributeHandle(rowNumber: int): DeclarativeSecurityAttributeHandle;
-    static DocumentHandle(rowNumber: int): DocumentHandle;
-    static DocumentNameBlobHandle(offset: int): DocumentNameBlobHandle;
-    static EntityHandle(token: int): EntityHandle;
-    static EntityHandle(tableIndex: TableIndex, rowNumber: int): EntityHandle;
-    static EventDefinitionHandle(rowNumber: int): EventDefinitionHandle;
-    static ExportedTypeHandle(rowNumber: int): ExportedTypeHandle;
-    static FieldDefinitionHandle(rowNumber: int): FieldDefinitionHandle;
-    static GenericParameterConstraintHandle(rowNumber: int): GenericParameterConstraintHandle;
-    static GenericParameterHandle(rowNumber: int): GenericParameterHandle;
-    static GetHeapOffset(handle: BlobHandle): int;
-    static GetHeapOffset(handle: GuidHandle): int;
-    static GetHeapOffset(handle: Handle): int;
-    static GetHeapOffset(reader: MetadataReader, handle: Handle): int;
-    static GetHeapOffset(handle: StringHandle): int;
-    static GetHeapOffset(handle: UserStringHandle): int;
-    static GetRowNumber(handle: EntityHandle): int;
-    static GetRowNumber(reader: MetadataReader, handle: EntityHandle): int;
-    static GetToken(handle: EntityHandle): int;
-    static GetToken(handle: Handle): int;
-    static GetToken(reader: MetadataReader, handle: EntityHandle): int;
-    static GetToken(reader: MetadataReader, handle: Handle): int;
-    static GuidHandle(offset: int): GuidHandle;
-    static Handle(token: int): Handle;
-    static Handle(tableIndex: TableIndex, rowNumber: int): EntityHandle;
-    static ImportScopeHandle(rowNumber: int): ImportScopeHandle;
-    static InterfaceImplementationHandle(rowNumber: int): InterfaceImplementationHandle;
-    static LocalConstantHandle(rowNumber: int): LocalConstantHandle;
-    static LocalScopeHandle(rowNumber: int): LocalScopeHandle;
-    static LocalVariableHandle(rowNumber: int): LocalVariableHandle;
-    static ManifestResourceHandle(rowNumber: int): ManifestResourceHandle;
-    static MemberReferenceHandle(rowNumber: int): MemberReferenceHandle;
-    static MethodDebugInformationHandle(rowNumber: int): MethodDebugInformationHandle;
-    static MethodDefinitionHandle(rowNumber: int): MethodDefinitionHandle;
-    static MethodImplementationHandle(rowNumber: int): MethodImplementationHandle;
-    static MethodSpecificationHandle(rowNumber: int): MethodSpecificationHandle;
-    static ModuleReferenceHandle(rowNumber: int): ModuleReferenceHandle;
-    static ParameterHandle(rowNumber: int): ParameterHandle;
-    static PropertyDefinitionHandle(rowNumber: int): PropertyDefinitionHandle;
-    static StandaloneSignatureHandle(rowNumber: int): StandaloneSignatureHandle;
-    static StringHandle(offset: int): StringHandle;
-    static TryGetHeapIndex(type_: HandleKind, index: { value: ref<HeapIndex> }): boolean;
-    static TryGetTableIndex(type_: HandleKind, index: { value: ref<TableIndex> }): boolean;
-    static TypeDefinitionHandle(rowNumber: int): TypeDefinitionHandle;
-    static TypeReferenceHandle(rowNumber: int): TypeReferenceHandle;
-    static TypeSpecificationHandle(rowNumber: int): TypeSpecificationHandle;
-    static UserStringHandle(offset: int): UserStringHandle;
+    static assemblyFileHandle(rowNumber: int): AssemblyFileHandle;
+    static assemblyReferenceHandle(rowNumber: int): AssemblyReferenceHandle;
+    static blobHandle(offset: int): BlobHandle;
+    static constantHandle(rowNumber: int): ConstantHandle;
+    static customAttributeHandle(rowNumber: int): CustomAttributeHandle;
+    static customDebugInformationHandle(rowNumber: int): CustomDebugInformationHandle;
+    static declarativeSecurityAttributeHandle(rowNumber: int): DeclarativeSecurityAttributeHandle;
+    static documentHandle(rowNumber: int): DocumentHandle;
+    static documentNameBlobHandle(offset: int): DocumentNameBlobHandle;
+    static entityHandle(token: int): EntityHandle;
+    static entityHandle(tableIndex: TableIndex, rowNumber: int): EntityHandle;
+    static eventDefinitionHandle(rowNumber: int): EventDefinitionHandle;
+    static exportedTypeHandle(rowNumber: int): ExportedTypeHandle;
+    static fieldDefinitionHandle(rowNumber: int): FieldDefinitionHandle;
+    static genericParameterConstraintHandle(rowNumber: int): GenericParameterConstraintHandle;
+    static genericParameterHandle(rowNumber: int): GenericParameterHandle;
+    static getHeapOffset3(handle: BlobHandle): int;
+    static getHeapOffset3(handle: GuidHandle): int;
+    static getHeapOffset3(handle: Handle): int;
+    static getHeapOffset3(reader: MetadataReader, handle: Handle): int;
+    static getHeapOffset3(handle: StringHandle): int;
+    static getHeapOffset3(handle: UserStringHandle): int;
+    static getRowNumber2(handle: EntityHandle): int;
+    static getRowNumber2(reader: MetadataReader, handle: EntityHandle): int;
+    static getToken4(handle: EntityHandle): int;
+    static getToken4(handle: Handle): int;
+    static getToken4(reader: MetadataReader, handle: EntityHandle): int;
+    static getToken4(reader: MetadataReader, handle: Handle): int;
+    static guidHandle(offset: int): GuidHandle;
+    static handle(token: int): Handle;
+    static handle(tableIndex: TableIndex, rowNumber: int): EntityHandle;
+    static importScopeHandle(rowNumber: int): ImportScopeHandle;
+    static interfaceImplementationHandle(rowNumber: int): InterfaceImplementationHandle;
+    static localConstantHandle(rowNumber: int): LocalConstantHandle;
+    static localScopeHandle(rowNumber: int): LocalScopeHandle;
+    static localVariableHandle(rowNumber: int): LocalVariableHandle;
+    static manifestResourceHandle(rowNumber: int): ManifestResourceHandle;
+    static memberReferenceHandle(rowNumber: int): MemberReferenceHandle;
+    static methodDebugInformationHandle(rowNumber: int): MethodDebugInformationHandle;
+    static methodDefinitionHandle(rowNumber: int): MethodDefinitionHandle;
+    static methodImplementationHandle(rowNumber: int): MethodImplementationHandle;
+    static methodSpecificationHandle(rowNumber: int): MethodSpecificationHandle;
+    static moduleReferenceHandle(rowNumber: int): ModuleReferenceHandle;
+    static parameterHandle(rowNumber: int): ParameterHandle;
+    static propertyDefinitionHandle(rowNumber: int): PropertyDefinitionHandle;
+    static standaloneSignatureHandle(rowNumber: int): StandaloneSignatureHandle;
+    static stringHandle(offset: int): StringHandle;
+    static tryGetHeapIndex(type_: HandleKind, index: { value: ref<HeapIndex> }): boolean;
+    static tryGetTableIndex(type_: HandleKind, index: { value: ref<TableIndex> }): boolean;
+    static typeDefinitionHandle(rowNumber: int): TypeDefinitionHandle;
+    static typeReferenceHandle(rowNumber: int): TypeReferenceHandle;
+    static typeSpecificationHandle(rowNumber: int): TypeSpecificationHandle;
+    static userStringHandle(offset: int): UserStringHandle;
 }
 
 

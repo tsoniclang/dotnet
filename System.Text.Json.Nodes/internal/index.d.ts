@@ -73,15 +73,15 @@ export class JsonArray$instance extends JsonNode$instance {
     removeAt(index: int): void;
     removeRange(index: int, count: int): void;
     writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static Create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonArray;
+    static create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonArray;
 }
 
 
 export interface __JsonArray$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<JsonNode>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<JsonNode>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<JsonNode>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<JsonNode>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<JsonNode>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<JsonNode>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type JsonArray = JsonArray$instance & __JsonArray$views;
@@ -108,12 +108,12 @@ export abstract class JsonNode$instance {
     toJsonString(options?: JsonSerializerOptions): string;
     toString(): string;
     abstract writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static DeepEquals(node1: JsonNode, node2: JsonNode): boolean;
-    static Parse(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static Parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static Parse(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
-    static Parse(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
-    static ParseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
+    static deepEquals(node1: JsonNode, node2: JsonNode): boolean;
+    static parse4(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(utf8Json: ReadOnlySpan_1<CLROf<byte>>, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(json: string, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions): JsonNode;
+    static parse4(reader: { value: ref<Utf8JsonReader> }, nodeOptions?: Nullable_1<JsonNodeOptions>): JsonNode;
+    static parseAsync(utf8Json: Stream, nodeOptions?: Nullable_1<JsonNodeOptions>, documentOptions?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonNode>;
 }
 
 
@@ -140,16 +140,16 @@ export class JsonObject$instance extends JsonNode$instance {
     tryGetPropertyValue(propertyName: string, jsonNode: { value: ref<JsonNode> }): boolean;
     tryGetPropertyValue(propertyName: string, jsonNode: { value: ref<JsonNode> }, index: { value: ref<int> }): boolean;
     writeTo(writer: Utf8JsonWriter, options?: JsonSerializerOptions): void;
-    static Create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonObject;
+    static create(element: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonObject;
 }
 
 
 export interface __JsonObject$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<CLROf<string>, JsonNode>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<CLROf<string>, JsonNode>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<KeyValuePair_2<CLROf<string>, JsonNode>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type JsonObject = JsonObject$instance & __JsonObject$views;
@@ -157,43 +157,43 @@ export type JsonObject = JsonObject$instance & __JsonObject$views;
 
 export abstract class JsonValue$instance extends JsonNode$instance {
     abstract tryGetValue<T>(value: { value: ref<T> }): boolean;
-    static Create(value: boolean, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: byte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: DateTime, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: DateTimeOffset, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: decimal, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: double, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Guid, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: short, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: int, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: long, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<boolean>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<byte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<string>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<DateTime>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<DateTimeOffset>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<decimal>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<double>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<Guid>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<short>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<int>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<long>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<sbyte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<float>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<JsonElement>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<ushort>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<uint>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: Nullable_1<CLROf<ulong>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: sbyte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: float, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: ushort, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: uint, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create(value: ulong, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create<T>(value: T, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
-    static Create<T>(value: T, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: boolean, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: byte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: char, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: DateTime, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: DateTimeOffset, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: decimal, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: double, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Guid, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: short, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: int, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: long, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<boolean>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<byte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<char>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<DateTime>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<DateTimeOffset>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<decimal>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<double>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<Guid>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<short>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<int>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<long>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<sbyte>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<float>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<JsonElement>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<ushort>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<uint>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: Nullable_1<CLROf<ulong>>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: sbyte, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: float, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: string, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: JsonElement, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: ushort, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: uint, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create(value: ulong, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create<T>(value: T, jsonTypeInfo: JsonTypeInfo_1<T>, options?: Nullable_1<JsonNodeOptions>): JsonValue;
+    static create<T>(value: T, options?: Nullable_1<JsonNodeOptions>): JsonValue;
 }
 
 

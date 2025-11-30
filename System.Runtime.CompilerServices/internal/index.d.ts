@@ -63,9 +63,9 @@ export enum LoadHint {
 
 
 export enum MethodCodeType {
-    il = 0,
+    IL = 0,
     native = 1,
-    optil = 2,
+    OPTIL = 2,
     runtime = 3
 }
 
@@ -94,45 +94,47 @@ export enum UnsafeAccessorKind {
 
 
 export interface IAsyncStateMachine$instance {
-    MoveNext(): void;
-    SetStateMachine(stateMachine: IAsyncStateMachine): void;
+    moveNext(): void;
+    setStateMachine(stateMachine: IAsyncStateMachine): void;
 }
 
 
 export type IAsyncStateMachine = IAsyncStateMachine$instance;
 
-export interface ICriticalNotifyCompletion$instance {
-    UnsafeOnCompleted(continuation: Action): void;
+export interface ICriticalNotifyCompletion$instance extends INotifyCompletion {
+    unsafeOnCompleted(continuation: Action): void;
 }
 
+
+export interface ICriticalNotifyCompletion$instance extends INotifyCompletion$instance {}
 
 export type ICriticalNotifyCompletion = ICriticalNotifyCompletion$instance;
 
 export interface INotifyCompletion$instance {
-    OnCompleted(continuation: Action): void;
+    onCompleted(continuation: Action): void;
 }
 
 
 export type INotifyCompletion = INotifyCompletion$instance;
 
 export interface IRuntimeVariables$instance {
-    readonly Count: int;
-    Item: any;
+    readonly count: int;
+    item: unknown;
 }
 
 
 export type IRuntimeVariables = IRuntimeVariables$instance;
 
 export interface IStrongBox$instance {
-    Value: any;
+    value: unknown;
 }
 
 
 export type IStrongBox = IStrongBox$instance;
 
 export interface ITuple$instance {
-    readonly Length: int;
-    readonly Item: any;
+    readonly length: int;
+    readonly item: unknown;
 }
 
 
@@ -143,7 +145,7 @@ export class AsyncIteratorMethodBuilder$instance {
     awaitUnsafeOnCompleted<TAwaiter extends ICriticalNotifyCompletion, TStateMachine extends IAsyncStateMachine>(awaiter: { value: ref<TAwaiter> }, stateMachine: { value: ref<TStateMachine> }): void;
     complete(): void;
     moveNext<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create(): AsyncIteratorMethodBuilder;
+    static create(): AsyncIteratorMethodBuilder;
 }
 
 
@@ -157,7 +159,7 @@ export class AsyncTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create(): AsyncTaskMethodBuilder;
+    static create(): AsyncTaskMethodBuilder;
 }
 
 
@@ -171,7 +173,7 @@ export class AsyncTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create<TResult>(): AsyncTaskMethodBuilder_1<TResult>;
+    static create<TResult>(): AsyncTaskMethodBuilder_1<TResult>;
 }
 
 
@@ -185,7 +187,7 @@ export class AsyncValueTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create(): AsyncValueTaskMethodBuilder;
+    static create(): AsyncValueTaskMethodBuilder;
 }
 
 
@@ -199,7 +201,7 @@ export class AsyncValueTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create<TResult>(): AsyncValueTaskMethodBuilder_1<TResult>;
+    static create<TResult>(): AsyncValueTaskMethodBuilder_1<TResult>;
 }
 
 
@@ -212,7 +214,7 @@ export class AsyncVoidMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create(): AsyncVoidMethodBuilder;
+    static create(): AsyncVoidMethodBuilder;
 }
 
 
@@ -257,7 +259,7 @@ export class ConfiguredTaskAwaitable_1$instance<TResult> {
 
 export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$instance<TResult>;
 
-export class ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> {
+export class ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
@@ -266,13 +268,15 @@ export class ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> {
 
 
 export interface __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult> {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> = ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> & __ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$views<TResult>;
 
 
-export class ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance {
+export class ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
@@ -281,8 +285,10 @@ export class ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance {
 
 
 export interface __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredTaskAwaitable_ConfiguredTaskAwaiter = ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$instance & __ConfiguredTaskAwaitable_ConfiguredTaskAwaiter$views;
 
@@ -301,7 +307,7 @@ export class ConfiguredValueTaskAwaitable_1$instance<TResult> {
 
 export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitable_1$instance<TResult>;
 
-export class ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> {
+export class ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
@@ -310,13 +316,15 @@ export class ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<
 
 
 export interface __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult> {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter<TResult> = ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> & __ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$views<TResult>;
 
 
-export class ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance {
+export class ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
@@ -325,8 +333,10 @@ export class ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance {
 
 
 export interface __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$instance & __ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter$views;
 
@@ -334,17 +344,17 @@ export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = Configured
 export class DefaultInterpolatedStringHandler$instance {
     constructor(literalLength: int, formattedCount: int);
     constructor(literalLength: int, formattedCount: int, provider: IFormatProvider);
-    constructor(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<CLROf<string>>);
-    readonly text: ReadOnlySpan_1<CLROf<string>>;
+    constructor(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<CLROf<char>>);
+    readonly text: ReadOnlySpan_1<CLROf<char>>;
     appendFormatted<T>(value: T): void;
     appendFormatted<T>(value: T, format: string): void;
     appendFormatted<T>(value: T, alignment: int): void;
     appendFormatted<T>(value: T, alignment: int, format: string): void;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>): void;
-    appendFormatted(value: ReadOnlySpan_1<CLROf<string>>, alignment?: int, format?: string): void;
+    appendFormatted(value: ReadOnlySpan_1<CLROf<char>>): void;
+    appendFormatted(value: ReadOnlySpan_1<CLROf<char>>, alignment?: int, format?: string): void;
     appendFormatted(value: string): void;
     appendFormatted(value: string, alignment?: int, format?: string): void;
-    appendFormatted(value: any, alignment?: int, format?: string): void;
+    appendFormatted(value: unknown, alignment?: int, format?: string): void;
     appendLiteral(value: string): void;
     clear(): void;
     toString(): string;
@@ -452,7 +462,7 @@ export class PoolingAsyncValueTaskMethodBuilder$instance {
     setResult(): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create(): PoolingAsyncValueTaskMethodBuilder;
+    static create(): PoolingAsyncValueTaskMethodBuilder;
 }
 
 
@@ -466,13 +476,13 @@ export class PoolingAsyncValueTaskMethodBuilder_1$instance<TResult> {
     setResult(result: TResult): void;
     setStateMachine(stateMachine: IAsyncStateMachine): void;
     start<TStateMachine extends IAsyncStateMachine>(stateMachine: { value: ref<TStateMachine> }): void;
-    static Create<TResult>(): PoolingAsyncValueTaskMethodBuilder_1<TResult>;
+    static create<TResult>(): PoolingAsyncValueTaskMethodBuilder_1<TResult>;
 }
 
 
 export type PoolingAsyncValueTaskMethodBuilder_1<TResult> = PoolingAsyncValueTaskMethodBuilder_1$instance<TResult>;
 
-export class TaskAwaiter$instance {
+export class TaskAwaiter$instance implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
@@ -481,13 +491,15 @@ export class TaskAwaiter$instance {
 
 
 export interface __TaskAwaiter$views {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface TaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 
-export class TaskAwaiter_1$instance<TResult> {
+export class TaskAwaiter_1$instance<TResult> implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
@@ -496,13 +508,15 @@ export class TaskAwaiter_1$instance<TResult> {
 
 
 export interface __TaskAwaiter_1$views<TResult> {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion$instance {}
 
 export type TaskAwaiter_1<TResult> = TaskAwaiter_1$instance<TResult> & __TaskAwaiter_1$views<TResult>;
 
 
-export class ValueTaskAwaiter$instance {
+export class ValueTaskAwaiter$instance implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
@@ -511,13 +525,15 @@ export class ValueTaskAwaiter$instance {
 
 
 export interface __ValueTaskAwaiter$views {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ValueTaskAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$views;
 
 
-export class ValueTaskAwaiter_1$instance<TResult> {
+export class ValueTaskAwaiter_1$instance<TResult> implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): TResult;
     onCompleted(continuation: Action): void;
@@ -526,8 +542,10 @@ export class ValueTaskAwaiter_1$instance<TResult> {
 
 
 export interface __ValueTaskAwaiter_1$views<TResult> {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion$instance {}
 
 export type ValueTaskAwaiter_1<TResult> = ValueTaskAwaiter_1$instance<TResult> & __ValueTaskAwaiter_1$views<TResult>;
 
@@ -539,7 +557,7 @@ export class YieldAwaitable$instance {
 
 export type YieldAwaitable = YieldAwaitable$instance;
 
-export class YieldAwaitable_YieldAwaiter$instance {
+export class YieldAwaitable_YieldAwaiter$instance implements ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
     getResult(): void;
     onCompleted(continuation: Action): void;
@@ -548,8 +566,10 @@ export class YieldAwaitable_YieldAwaiter$instance {
 
 
 export interface __YieldAwaitable_YieldAwaiter$views {
-    readonly As_INotifyCompletion: INotifyCompletion$instance;
+    As_INotifyCompletion(): INotifyCompletion$instance;
 }
+
+export interface YieldAwaitable_YieldAwaiter$instance extends ICriticalNotifyCompletion$instance {}
 
 export type YieldAwaitable_YieldAwaiter = YieldAwaitable_YieldAwaiter$instance & __YieldAwaitable_YieldAwaiter$views;
 
@@ -664,14 +684,14 @@ export type CallerMemberNameAttribute = CallerMemberNameAttribute$instance;
 
 export class CallSite$instance {
     readonly binder: CallSiteBinder;
-    static Create(delegateType: Type, binder: CallSiteBinder): CallSite;
+    static create(delegateType: Type, binder: CallSiteBinder): CallSite;
 }
 
 
 export type CallSite = CallSite$instance;
 
 export class CallSite_1$instance<T> extends CallSite$instance {
-    Target: T;
+    target: T;
     readonly update: T;
 }
 
@@ -679,18 +699,18 @@ export class CallSite_1$instance<T> extends CallSite$instance {
 export type CallSite_1<T> = CallSite_1$instance<T>;
 
 export abstract class CallSiteBinder$instance {
-    abstract bind(args: any[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    bindDelegate<T>(site: CallSite_1<T>, args: any[]): T;
-    static readonly UpdateLabel: LabelTarget;
+    abstract bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
+    bindDelegate<T>(site: CallSite_1<T>, args: unknown[]): T;
+    static readonly updateLabel: LabelTarget;
 }
 
 
 export type CallSiteBinder = CallSiteBinder$instance;
 
 export class Closure$instance {
-    constructor(constants: any[], locals: any[]);
-    readonly Constants: any[];
-    readonly Locals: any[];
+    constructor(constants: unknown[], locals: unknown[]);
+    readonly constants: unknown[];
+    readonly locals: unknown[];
 }
 
 
@@ -718,8 +738,8 @@ export class CompilerFeatureRequiredAttribute$instance extends System_Internal.A
     constructor(featureName: string);
     readonly featureName: string;
     isOptional: boolean;
-    static readonly RefStructs: string;
-    static readonly RequiredMembers: string;
+    static readonly refStructs: string;
+    static readonly requiredMembers: string;
 }
 
 
@@ -764,17 +784,19 @@ export class ConditionalWeakTable_2$instance<TKey, TValue> {
 
 
 export interface __ConditionalWeakTable_2$views<TKey, TValue> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface ConditionalWeakTable_2$instance<TKey, TValue> extends System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>> {}
 
 export type ConditionalWeakTable_2<TKey, TValue> = ConditionalWeakTable_2$instance<TKey, TValue> & __ConditionalWeakTable_2$views<TKey, TValue>;
 
 
 export class ConditionalWeakTable_2_CreateValueCallback$instance<TKey, TValue> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(key: TKey, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(key: TKey, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): TValue;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(key: TKey): TValue;
@@ -782,8 +804,8 @@ export class ConditionalWeakTable_2_CreateValueCallback$instance<TKey, TValue> e
 
 
 export interface __ConditionalWeakTable_2_CreateValueCallback$views<TKey, TValue> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = ConditionalWeakTable_2_CreateValueCallback$instance<TKey, TValue> & __ConditionalWeakTable_2_CreateValueCallback$views<TKey, TValue>;
@@ -804,7 +826,7 @@ export class CreateNewOnMetadataUpdateAttribute$instance extends System_Internal
 export type CreateNewOnMetadataUpdateAttribute = CreateNewOnMetadataUpdateAttribute$instance;
 
 export abstract class CustomConstantAttribute$instance extends System_Internal.Attribute$instance {
-    readonly value: any;
+    readonly value: unknown;
 }
 
 
@@ -812,7 +834,7 @@ export type CustomConstantAttribute = CustomConstantAttribute$instance;
 
 export class DateTimeConstantAttribute$instance extends CustomConstantAttribute$instance {
     constructor(ticks: long);
-    readonly value: any;
+    readonly value: unknown;
 }
 
 
@@ -820,7 +842,7 @@ export type DateTimeConstantAttribute = DateTimeConstantAttribute$instance;
 
 export abstract class DebugInfoGenerator$instance {
     abstract markSequencePoint(method: LambdaExpression, ilOffset: int, sequencePoint: DebugInfoExpression): void;
-    static CreatePdbGenerator(): DebugInfoGenerator;
+    static createPdbGenerator(): DebugInfoGenerator;
 }
 
 
@@ -929,7 +951,7 @@ export type HasCopySemanticsAttribute = HasCopySemanticsAttribute$instance;
 
 export class IDispatchConstantAttribute$instance extends CustomConstantAttribute$instance {
     constructor();
-    readonly value: any;
+    readonly value: unknown;
 }
 
 
@@ -1005,7 +1027,7 @@ export type IteratorStateMachineAttribute = IteratorStateMachineAttribute$instan
 
 export class IUnknownConstantAttribute$instance extends CustomConstantAttribute$instance {
     constructor();
-    readonly value: any;
+    readonly value: unknown;
 }
 
 
@@ -1023,7 +1045,7 @@ export class MethodImplAttribute$instance extends System_Internal.Attribute$inst
     constructor(methodImplOptions: MethodImplOptions);
     constructor(value: short);
     constructor();
-    MethodCodeType: MethodCodeType;
+    methodCodeType: MethodCodeType;
     readonly value: MethodImplOptions;
 }
 
@@ -1047,7 +1069,7 @@ export type NativeCppClassAttribute = NativeCppClassAttribute$instance;
 export class NullableAttribute$instance extends System_Internal.Attribute$instance {
     constructor(value: byte);
     constructor(value: byte[]);
-    readonly NullableFlags: byte[];
+    readonly nullableFlags: byte[];
 }
 
 
@@ -1055,7 +1077,7 @@ export type NullableAttribute = NullableAttribute$instance;
 
 export class NullableContextAttribute$instance extends System_Internal.Attribute$instance {
     constructor(value: byte);
-    readonly Flag: byte;
+    readonly flag: byte;
 }
 
 
@@ -1063,7 +1085,7 @@ export type NullableContextAttribute = NullableContextAttribute$instance;
 
 export class NullablePublicOnlyAttribute$instance extends System_Internal.Attribute$instance {
     constructor(value: boolean);
-    readonly IncludesInternals: boolean;
+    readonly includesInternals: boolean;
 }
 
 
@@ -1115,12 +1137,12 @@ export class ReadOnlyCollectionBuilder_1$instance<T> {
 
 
 export interface __ReadOnlyCollectionBuilder_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type ReadOnlyCollectionBuilder_1<T> = ReadOnlyCollectionBuilder_1$instance<T> & __ReadOnlyCollectionBuilder_1$views<T>;
@@ -1180,50 +1202,50 @@ export class RuntimeCompatibilityAttribute$instance extends System_Internal.Attr
 export type RuntimeCompatibilityAttribute = RuntimeCompatibilityAttribute$instance;
 
 export class RuntimeHelpers_CleanupCode$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(userData: any, exceptionThrown: boolean, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(userData: unknown, exceptionThrown: boolean, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(userData: any, exceptionThrown: boolean): void;
+    invoke(userData: unknown, exceptionThrown: boolean): void;
 }
 
 
 export interface __RuntimeHelpers_CleanupCode$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RuntimeHelpers_CleanupCode = RuntimeHelpers_CleanupCode$instance & __RuntimeHelpers_CleanupCode$views;
 
 
 export class RuntimeHelpers_TryCode$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(userData: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(userData: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(userData: any): void;
+    invoke(userData: unknown): void;
 }
 
 
 export interface __RuntimeHelpers_TryCode$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RuntimeHelpers_TryCode = RuntimeHelpers_TryCode$instance & __RuntimeHelpers_TryCode$views;
 
 
 export class RuntimeWrappedException$instance extends System_Internal.Exception$instance {
-    constructor(thrownObject: any);
-    readonly wrappedException: any;
+    constructor(thrownObject: unknown);
+    readonly wrappedException: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __RuntimeWrappedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RuntimeWrappedException = RuntimeWrappedException$instance & __RuntimeWrappedException$views;
@@ -1275,13 +1297,15 @@ export type StringFreezingAttribute = StringFreezingAttribute$instance;
 export class StrongBox_1$instance<T> {
     constructor();
     constructor(value: T);
-    Value: T;
+    value: T;
 }
 
 
 export interface __StrongBox_1$views<T> {
-    readonly As_IStrongBox: IStrongBox$instance;
+    As_IStrongBox(): IStrongBox$instance;
 }
+
+export interface StrongBox_1$instance<T> extends IStrongBox$instance {}
 
 export type StrongBox_1<T> = StrongBox_1$instance<T> & __StrongBox_1$views<T>;
 
@@ -1296,17 +1320,17 @@ export type SuppressIldasmAttribute = SuppressIldasmAttribute$instance;
 export class SwitchExpressionException$instance extends System_Internal.InvalidOperationException$instance {
     constructor();
     constructor(innerException: Exception);
-    constructor(unmatchedValue: any);
+    constructor(unmatchedValue: unknown);
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     readonly message: string;
-    readonly unmatchedValue: any;
+    readonly unmatchedValue: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __SwitchExpressionException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SwitchExpressionException = SwitchExpressionException$instance & __SwitchExpressionException$views;
@@ -1361,40 +1385,40 @@ export class UnsafeValueTypeAttribute$instance extends System_Internal.Attribute
 export type UnsafeValueTypeAttribute = UnsafeValueTypeAttribute$instance;
 
 export abstract class AsyncHelpers$instance {
-    static Await<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
-    static Await<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
-    static Await(configuredAwaitable: ConfiguredTaskAwaitable): void;
-    static Await(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
-    static Await(task: Task): void;
-    static Await(task: ValueTask): void;
-    static Await<T>(task: Task_1<T>): T;
-    static Await<T>(task: ValueTask_1<T>): T;
-    static AwaitAwaiter<TAwaiter extends INotifyCompletion>(awaiter: TAwaiter): void;
-    static UnsafeAwaitAwaiter<TAwaiter extends ICriticalNotifyCompletion>(awaiter: TAwaiter): void;
+    static await_7<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
+    static await_7<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
+    static await_7(configuredAwaitable: ConfiguredTaskAwaitable): void;
+    static await_7(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
+    static await_7(task: Task): void;
+    static await_7(task: ValueTask): void;
+    static await_7<T>(task: Task_1<T>): T;
+    static await_7<T>(task: ValueTask_1<T>): T;
+    static awaitAwaiter<TAwaiter extends INotifyCompletion>(awaiter: TAwaiter): void;
+    static unsafeAwaitAwaiter<TAwaiter extends ICriticalNotifyCompletion>(awaiter: TAwaiter): void;
 }
 
 
 export type AsyncHelpers = AsyncHelpers$instance;
 
 export abstract class CallSiteHelpers$instance {
-    static IsInternalFrame(mb: MethodBase): boolean;
+    static isInternalFrame(mb: MethodBase): boolean;
 }
 
 
 export type CallSiteHelpers = CallSiteHelpers$instance;
 
 export abstract class CallSiteOps$instance {
-    static AddRule<T>(site: CallSite_1<T>, rule: T): void;
-    static Bind<T>(binder: CallSiteBinder, site: CallSite_1<T>, args: any[]): T;
-    static ClearMatch(site: CallSite): void;
-    static CreateMatchmaker<T>(site: CallSite_1<T>): CallSite_1<T>;
-    static GetCachedRules<T>(cache: RuleCache_1<T>): T[];
-    static GetMatch(site: CallSite): boolean;
-    static GetRuleCache<T>(site: CallSite_1<T>): RuleCache_1<T>;
-    static GetRules<T>(site: CallSite_1<T>): T[];
-    static MoveRule<T>(cache: RuleCache_1<T>, rule: T, i: int): void;
-    static SetNotMatched(site: CallSite): boolean;
-    static UpdateRules<T>(this_: CallSite_1<T>, matched: int): void;
+    static addRule<T>(site: CallSite_1<T>, rule: T): void;
+    static bind<T>(binder: CallSiteBinder, site: CallSite_1<T>, args: unknown[]): T;
+    static clearMatch(site: CallSite): void;
+    static createMatchmaker<T>(site: CallSite_1<T>): CallSite_1<T>;
+    static getCachedRules<T>(cache: RuleCache_1<T>): T[];
+    static getMatch(site: CallSite): boolean;
+    static getRuleCache<T>(site: CallSite_1<T>): RuleCache_1<T>;
+    static getRules<T>(site: CallSite_1<T>): T[];
+    static moveRule<T>(cache: RuleCache_1<T>, rule: T, i: int): void;
+    static setNotMatched(site: CallSite): boolean;
+    static updateRules<T>(this_: CallSite_1<T>, matched: int): void;
 }
 
 
@@ -1407,15 +1431,15 @@ export abstract class CompilerMarshalOverride$instance {
 export type CompilerMarshalOverride = CompilerMarshalOverride$instance;
 
 export abstract class ContractHelper$instance {
-    static RaiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string, conditionText: string, innerException: Exception): string;
-    static TriggerFailure(kind: ContractFailureKind, displayMessage: string, userMessage: string, conditionText: string, innerException: Exception): void;
+    static raiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string, conditionText: string, innerException: Exception): string;
+    static triggerFailure(kind: ContractFailureKind, displayMessage: string, userMessage: string, conditionText: string, innerException: Exception): void;
 }
 
 
 export type ContractHelper = ContractHelper$instance;
 
 export abstract class FormattableStringFactory$instance {
-    static Create(format: string, arguments: any[]): FormattableString;
+    static create(format: string, arguments: unknown[]): FormattableString;
 }
 
 
@@ -1500,113 +1524,113 @@ export abstract class IsVolatile$instance {
 export type IsVolatile = IsVolatile$instance;
 
 export abstract class RuntimeFeature$instance {
-    static readonly PortablePdb: string;
-    static readonly DefaultImplementationsOfInterfaces: string;
-    static readonly UnmanagedSignatureCallingConvention: string;
-    static readonly CovariantReturnsOfClasses: string;
-    static readonly ByRefFields: string;
-    static readonly ByRefLikeGenerics: string;
-    static readonly VirtualStaticsInInterfaces: string;
-    static readonly NumericIntPtr: string;
-    static readonly IsDynamicCodeSupported: boolean;
-    static readonly IsDynamicCodeCompiled: boolean;
-    static IsSupported(feature: string): boolean;
+    static readonly portablePdb: string;
+    static readonly defaultImplementationsOfInterfaces: string;
+    static readonly unmanagedSignatureCallingConvention: string;
+    static readonly covariantReturnsOfClasses: string;
+    static readonly byRefFields: string;
+    static readonly byRefLikeGenerics: string;
+    static readonly virtualStaticsInInterfaces: string;
+    static readonly numericIntPtr: string;
+    static readonly isDynamicCodeSupported: boolean;
+    static readonly isDynamicCodeCompiled: boolean;
+    static isSupported(feature: string): boolean;
 }
 
 
 export type RuntimeFeature = RuntimeFeature$instance;
 
 export abstract class RuntimeHelpers$instance {
-    static readonly OffsetToStringData: int;
-    static AllocateTypeAssociatedMemory(type_: Type, size: int): nint;
-    static Box(target: { value: ref<byte> }, type_: RuntimeTypeHandle): any;
-    static CreateSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
-    static EnsureSufficientExecutionStack(): void;
-    static Equals(o1: any, o2: any): boolean;
-    static ExecuteCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: any): void;
-    static GetHashCode(o: any): int;
-    static GetObjectValue(obj: any): any;
-    static GetSubArray<T>(array: T[], range: Range): T[];
-    static GetUninitializedObject(type_: Type): any;
-    static InitializeArray(array: ClrArray, fldHandle: RuntimeFieldHandle): void;
-    static IsReferenceOrContainsReferences<T>(): boolean;
-    static PrepareConstrainedRegions(): void;
-    static PrepareConstrainedRegionsNoOP(): void;
-    static PrepareContractedDelegate(d: Function): void;
-    static PrepareDelegate(d: Function): void;
-    static PrepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
-    static PrepareMethod(method: RuntimeMethodHandle): void;
-    static ProbeForSufficientStack(): void;
-    static RunClassConstructor(type_: RuntimeTypeHandle): void;
-    static RunModuleConstructor(module_: ModuleHandle): void;
-    static SizeOf(type_: RuntimeTypeHandle): int;
-    static TryEnsureSufficientExecutionStack(): boolean;
+    static readonly offsetToStringData: int;
+    static allocateTypeAssociatedMemory(type_: Type, size: int): nint;
+    static box(target: { value: ref<byte> }, type_: RuntimeTypeHandle): unknown;
+    static createSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
+    static ensureSufficientExecutionStack(): void;
+    static equals(o1: unknown, o2: unknown): boolean;
+    static executeCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown): void;
+    static getHashCode(o: unknown): int;
+    static getObjectValue(obj: unknown): unknown;
+    static getSubArray<T>(array: T[], range: Range): T[];
+    static getUninitializedObject(type_: Type): unknown;
+    static initializeArray(array: ClrArray, fldHandle: RuntimeFieldHandle): void;
+    static isReferenceOrContainsReferences<T>(): boolean;
+    static prepareConstrainedRegions(): void;
+    static prepareConstrainedRegionsNoOP(): void;
+    static prepareContractedDelegate(d: Function): void;
+    static prepareDelegate(d: Function): void;
+    static prepareMethod2(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
+    static prepareMethod2(method: RuntimeMethodHandle): void;
+    static probeForSufficientStack(): void;
+    static runClassConstructor(type_: RuntimeTypeHandle): void;
+    static runModuleConstructor(module_: ModuleHandle): void;
+    static sizeOf(type_: RuntimeTypeHandle): int;
+    static tryEnsureSufficientExecutionStack(): boolean;
 }
 
 
 export type RuntimeHelpers = RuntimeHelpers$instance;
 
 export abstract class RuntimeOps$instance {
-    static CreateRuntimeVariables(): IRuntimeVariables;
-    static CreateRuntimeVariables(data: any[], indexes: long[]): IRuntimeVariables;
-    static ExpandoCheckVersion(expando: ExpandoObject, version: any): boolean;
-    static ExpandoPromoteClass(expando: ExpandoObject, oldClass: any, newClass: any): void;
-    static ExpandoTryDeleteValue(expando: ExpandoObject, indexClass: any, index: int, name: string, ignoreCase: boolean): boolean;
-    static ExpandoTryGetValue(expando: ExpandoObject, indexClass: any, index: int, name: string, ignoreCase: boolean, value: { value: ref<any> }): boolean;
-    static ExpandoTrySetValue(expando: ExpandoObject, indexClass: any, index: int, value: any, name: string, ignoreCase: boolean): any;
-    static MergeRuntimeVariables(first: IRuntimeVariables, second: IRuntimeVariables, indexes: int[]): IRuntimeVariables;
-    static Quote(expression: Expression, hoistedLocals: any, locals: any[]): Expression;
+    static createRuntimeVariables2(): IRuntimeVariables;
+    static createRuntimeVariables2(data: unknown[], indexes: long[]): IRuntimeVariables;
+    static expandoCheckVersion(expando: ExpandoObject, version: unknown): boolean;
+    static expandoPromoteClass(expando: ExpandoObject, oldClass: unknown, newClass: unknown): void;
+    static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean): boolean;
+    static expandoTryGetValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean, value: { value: ref<unknown> }): boolean;
+    static expandoTrySetValue(expando: ExpandoObject, indexClass: unknown, index: int, value: unknown, name: string, ignoreCase: boolean): unknown;
+    static mergeRuntimeVariables(first: IRuntimeVariables, second: IRuntimeVariables, indexes: int[]): IRuntimeVariables;
+    static quote(expression: Expression, hoistedLocals: unknown, locals: unknown[]): Expression;
 }
 
 
 export type RuntimeOps = RuntimeOps$instance;
 
 export abstract class Unsafe$instance {
-    static Add<T>(source: ptr<void>, elementOffset: int): ptr<void>;
-    static Add<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
-    static Add<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
-    static Add<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
-    static AddByteOffset<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
-    static AddByteOffset<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
-    static AreSame<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
-    static As<T>(o: any): T;
-    static As<TFrom, TTo>(source: { value: ref<TFrom> }): ref<TTo>;
-    static AsPointer<T>(value: { value: ref<T> }): ptr<void>;
-    static AsRef<T>(source: ptr<void>): ref<T>;
-    static AsRef<T>(source: { value: ref<T> }): ref<T>;
-    static BitCast<TFrom, TTo>(source: TFrom): TTo;
-    static ByteOffset<T>(origin: { value: ref<T> }, target: { value: ref<T> }): nint;
-    static Copy<T>(destination: ptr<void>, source: { value: ref<T> }): void;
-    static Copy<T>(destination: { value: ref<T> }, source: ptr<void>): void;
-    static CopyBlock(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
-    static CopyBlock(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
-    static CopyBlockUnaligned(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
-    static CopyBlockUnaligned(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
-    static InitBlock(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
-    static InitBlock(startAddress: ptr<void>, value: byte, byteCount: uint): void;
-    static InitBlockUnaligned(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
-    static InitBlockUnaligned(startAddress: ptr<void>, value: byte, byteCount: uint): void;
-    static IsAddressGreaterThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
-    static IsAddressGreaterThanOrEqualTo<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
-    static IsAddressLessThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
-    static IsAddressLessThanOrEqualTo<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
-    static IsNullRef<T>(source: { value: ref<T> }): boolean;
-    static NullRef<T>(): ref<T>;
-    static Read<T>(source: ptr<void>): T;
-    static ReadUnaligned<T>(source: { value: ref<byte> }): T;
-    static ReadUnaligned<T>(source: ptr<void>): T;
-    static SizeOf<T>(): int;
-    static SkipInit<T>(value: { value: ref<T> }): void;
-    static Subtract<T>(source: ptr<void>, elementOffset: int): ptr<void>;
-    static Subtract<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
-    static Subtract<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
-    static Subtract<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
-    static SubtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
-    static SubtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
-    static Unbox<T extends any>(box: any): ref<T>;
-    static Write<T>(destination: ptr<void>, value: T): void;
-    static WriteUnaligned<T>(destination: { value: ref<byte> }, value: T): void;
-    static WriteUnaligned<T>(destination: ptr<void>, value: T): void;
+    static add3<T>(source: ptr<void>, elementOffset: int): ptr<void>;
+    static add3<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
+    static add3<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
+    static add3<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
+    static addByteOffset2<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
+    static addByteOffset2<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
+    static areSame<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
+    static as_<T>(o: unknown): T;
+    static as_<TFrom, TTo>(source: { value: ref<TFrom> }): ref<TTo>;
+    static asPointer<T>(value: { value: ref<T> }): ptr<void>;
+    static asRef<T>(source: ptr<void>): ref<T>;
+    static asRef<T>(source: { value: ref<T> }): ref<T>;
+    static bitCast<TFrom, TTo>(source: TFrom): TTo;
+    static byteOffset<T>(origin: { value: ref<T> }, target: { value: ref<T> }): nint;
+    static copy<T>(destination: ptr<void>, source: { value: ref<T> }): void;
+    static copy<T>(destination: { value: ref<T> }, source: ptr<void>): void;
+    static copyBlock2(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
+    static copyBlock2(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
+    static copyBlockUnaligned2(destination: { value: ref<byte> }, source: { value: ref<byte> }, byteCount: uint): void;
+    static copyBlockUnaligned2(destination: ptr<void>, source: ptr<void>, byteCount: uint): void;
+    static initBlock2(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
+    static initBlock2(startAddress: ptr<void>, value: byte, byteCount: uint): void;
+    static initBlockUnaligned2(startAddress: { value: ref<byte> }, value: byte, byteCount: uint): void;
+    static initBlockUnaligned2(startAddress: ptr<void>, value: byte, byteCount: uint): void;
+    static isAddressGreaterThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
+    static isAddressGreaterThanOrEqualTo<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
+    static isAddressLessThan<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
+    static isAddressLessThanOrEqualTo<T>(left: { value: ref<T> }, right: { value: ref<T> }): boolean;
+    static isNullRef<T>(source: { value: ref<T> }): boolean;
+    static nullRef<T>(): ref<T>;
+    static read<T>(source: ptr<void>): T;
+    static readUnaligned2<T>(source: { value: ref<byte> }): T;
+    static readUnaligned2<T>(source: ptr<void>): T;
+    static sizeOf<T>(): int;
+    static skipInit<T>(value: { value: ref<T> }): void;
+    static subtract2<T>(source: ptr<void>, elementOffset: int): ptr<void>;
+    static subtract2<T>(source: { value: ref<T> }, elementOffset: int): ref<T>;
+    static subtract2<T>(source: { value: ref<T> }, elementOffset: nint): ref<T>;
+    static subtract2<T>(source: { value: ref<T> }, elementOffset: nuint): ref<T>;
+    static subtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nint): ref<T>;
+    static subtractByteOffset<T>(source: { value: ref<T> }, byteOffset: nuint): ref<T>;
+    static unbox<T extends unknown>(box: unknown): ref<T>;
+    static write<T>(destination: ptr<void>, value: T): void;
+    static writeUnaligned2<T>(destination: { value: ref<byte> }, value: T): void;
+    static writeUnaligned2<T>(destination: ptr<void>, value: T): void;
 }
 
 

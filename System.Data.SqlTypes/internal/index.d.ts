@@ -63,7 +63,7 @@ export enum StorageState {
 
 
 export interface INullable$instance {
-    readonly IsNull: boolean;
+    readonly isNull: boolean;
 }
 
 
@@ -75,37 +75,39 @@ export class SqlBinary$instance {
     readonly item: byte;
     readonly length: int;
     readonly value: byte[];
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlBinary): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlBinary): boolean;
     getHashCode(): int;
     toSqlGuid(): SqlGuid;
     toString(): string;
     static readonly null_: SqlBinary;
-    static Add(x: SqlBinary, y: SqlBinary): SqlBinary;
-    static Concat(x: SqlBinary, y: SqlBinary): SqlBinary;
-    static Equals(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static LessThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static LessThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static NotEquals(x: SqlBinary, y: SqlBinary): SqlBoolean;
-    static WrapBytes(bytes: byte[]): SqlBinary;
+    static add(x: SqlBinary, y: SqlBinary): SqlBinary;
+    static concat(x: SqlBinary, y: SqlBinary): SqlBinary;
+    static equals(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static greaterThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static lessThan(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static lessThanOrEqual(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static notEquals(x: SqlBinary, y: SqlBinary): SqlBoolean;
+    static wrapBytes(bytes: byte[]): SqlBinary;
 }
 
 
 export interface __SqlBinary$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlBinary>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlBinary>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlBinary): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlBinary$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlBinary = SqlBinary$instance & __SqlBinary$views;
 
@@ -118,9 +120,9 @@ export class SqlBoolean$instance {
     readonly isNull: boolean;
     readonly isTrue: boolean;
     readonly value: boolean;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlBoolean): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlBoolean): boolean;
     getHashCode(): int;
     toSqlByte(): SqlByte;
@@ -138,31 +140,33 @@ export class SqlBoolean$instance {
     static readonly null_: SqlBoolean;
     static readonly zero: SqlBoolean;
     static readonly one: SqlBoolean;
-    static And(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static Equals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static GreaterThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static LessThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static LessThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static NotEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static OnesComplement(x: SqlBoolean): SqlBoolean;
-    static Or(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
-    static Parse(s: string): SqlBoolean;
-    static Xor(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static and(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static equals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static greaterThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static lessThan(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static lessThanOrEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static notEquals(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static onesComplement(x: SqlBoolean): SqlBoolean;
+    static or(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
+    static parse(s: string): SqlBoolean;
+    static xor(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
 }
 
 
 export interface __SqlBoolean$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlBoolean>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlBoolean>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlBoolean): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlBoolean$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlBoolean = SqlBoolean$instance & __SqlBoolean$views;
 
@@ -171,9 +175,9 @@ export class SqlByte$instance {
     constructor(value: byte);
     readonly isNull: boolean;
     readonly value: byte;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlByte): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlByte): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -190,37 +194,39 @@ export class SqlByte$instance {
     static readonly zero: SqlByte;
     static readonly minValue: SqlByte;
     static readonly maxValue: SqlByte;
-    static Add(x: SqlByte, y: SqlByte): SqlByte;
-    static BitwiseAnd(x: SqlByte, y: SqlByte): SqlByte;
-    static BitwiseOr(x: SqlByte, y: SqlByte): SqlByte;
-    static Divide(x: SqlByte, y: SqlByte): SqlByte;
-    static Equals(x: SqlByte, y: SqlByte): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlByte, y: SqlByte): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
-    static LessThan(x: SqlByte, y: SqlByte): SqlBoolean;
-    static LessThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
-    static Mod(x: SqlByte, y: SqlByte): SqlByte;
-    static Modulus(x: SqlByte, y: SqlByte): SqlByte;
-    static Multiply(x: SqlByte, y: SqlByte): SqlByte;
-    static NotEquals(x: SqlByte, y: SqlByte): SqlBoolean;
-    static OnesComplement(x: SqlByte): SqlByte;
-    static Parse(s: string): SqlByte;
-    static Subtract(x: SqlByte, y: SqlByte): SqlByte;
-    static Xor(x: SqlByte, y: SqlByte): SqlByte;
+    static add(x: SqlByte, y: SqlByte): SqlByte;
+    static bitwiseAnd(x: SqlByte, y: SqlByte): SqlByte;
+    static bitwiseOr(x: SqlByte, y: SqlByte): SqlByte;
+    static divide(x: SqlByte, y: SqlByte): SqlByte;
+    static equals(x: SqlByte, y: SqlByte): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlByte, y: SqlByte): SqlBoolean;
+    static greaterThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
+    static lessThan(x: SqlByte, y: SqlByte): SqlBoolean;
+    static lessThanOrEqual(x: SqlByte, y: SqlByte): SqlBoolean;
+    static mod(x: SqlByte, y: SqlByte): SqlByte;
+    static modulus(x: SqlByte, y: SqlByte): SqlByte;
+    static multiply(x: SqlByte, y: SqlByte): SqlByte;
+    static notEquals(x: SqlByte, y: SqlByte): SqlBoolean;
+    static onesComplement(x: SqlByte): SqlByte;
+    static parse(s: string): SqlByte;
+    static subtract(x: SqlByte, y: SqlByte): SqlByte;
+    static xor(x: SqlByte, y: SqlByte): SqlByte;
 }
 
 
 export interface __SqlByte$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlByte>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlByte>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlByte): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlByte$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlByte = SqlByte$instance & __SqlByte$views;
 
@@ -236,9 +242,9 @@ export class SqlDateTime$instance {
     readonly isNull: boolean;
     readonly timeTicks: int;
     readonly value: DateTime;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlDateTime): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlDateTime): boolean;
     getHashCode(): int;
     toSqlString(): SqlString;
@@ -249,29 +255,31 @@ export class SqlDateTime$instance {
     static readonly minValue: SqlDateTime;
     static readonly maxValue: SqlDateTime;
     static readonly null_: SqlDateTime;
-    static Add(x: SqlDateTime, t: TimeSpan): SqlDateTime;
-    static Equals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static LessThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static LessThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static NotEquals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
-    static Parse(s: string): SqlDateTime;
-    static Subtract(x: SqlDateTime, t: TimeSpan): SqlDateTime;
+    static add(x: SqlDateTime, t: TimeSpan): SqlDateTime;
+    static equals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static greaterThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static lessThan(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static lessThanOrEqual(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static notEquals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
+    static parse(s: string): SqlDateTime;
+    static subtract(x: SqlDateTime, t: TimeSpan): SqlDateTime;
 }
 
 
 export interface __SqlDateTime$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlDateTime>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlDateTime>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDateTime): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlDateTime$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDateTime = SqlDateTime$instance & __SqlDateTime$views;
 
@@ -290,9 +298,9 @@ export class SqlDecimal$instance {
     readonly precision: byte;
     readonly scale: byte;
     readonly value: decimal;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlDecimal): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlDecimal): boolean;
     getHashCode(): int;
     toDouble(): double;
@@ -312,40 +320,42 @@ export class SqlDecimal$instance {
     static readonly null_: SqlDecimal;
     static readonly minValue: SqlDecimal;
     static readonly maxValue: SqlDecimal;
-    static Abs(n: SqlDecimal): SqlDecimal;
-    static Add(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static AdjustScale(n: SqlDecimal, digits: int, fRound: boolean): SqlDecimal;
-    static Ceiling(n: SqlDecimal): SqlDecimal;
-    static ConvertToPrecScale(n: SqlDecimal, precision: int, scale: int): SqlDecimal;
-    static Divide(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static Equals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static Floor(n: SqlDecimal): SqlDecimal;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static LessThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static LessThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static Multiply(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static NotEquals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
-    static Parse(s: string): SqlDecimal;
-    static Power(n: SqlDecimal, exp: double): SqlDecimal;
-    static Round(n: SqlDecimal, position: int): SqlDecimal;
-    static Sign(n: SqlDecimal): SqlInt32;
-    static Subtract(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
-    static Truncate(n: SqlDecimal, position: int): SqlDecimal;
+    static abs(n: SqlDecimal): SqlDecimal;
+    static add(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    static adjustScale(n: SqlDecimal, digits: int, fRound: boolean): SqlDecimal;
+    static ceiling(n: SqlDecimal): SqlDecimal;
+    static convertToPrecScale(n: SqlDecimal, precision: int, scale: int): SqlDecimal;
+    static divide(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    static equals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static floor(n: SqlDecimal): SqlDecimal;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static greaterThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static lessThan(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static lessThanOrEqual(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static multiply(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    static notEquals(x: SqlDecimal, y: SqlDecimal): SqlBoolean;
+    static parse(s: string): SqlDecimal;
+    static power(n: SqlDecimal, exp: double): SqlDecimal;
+    static round(n: SqlDecimal, position: int): SqlDecimal;
+    static sign(n: SqlDecimal): SqlInt32;
+    static subtract(x: SqlDecimal, y: SqlDecimal): SqlDecimal;
+    static truncate(n: SqlDecimal, position: int): SqlDecimal;
 }
 
 
 export interface __SqlDecimal$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlDecimal>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlDecimal>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDecimal): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlDecimal$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDecimal = SqlDecimal$instance & __SqlDecimal$views;
 
@@ -354,9 +364,9 @@ export class SqlDouble$instance {
     constructor(value: double);
     readonly isNull: boolean;
     readonly value: double;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlDouble): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlDouble): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -373,31 +383,33 @@ export class SqlDouble$instance {
     static readonly zero: SqlDouble;
     static readonly minValue: SqlDouble;
     static readonly maxValue: SqlDouble;
-    static Add(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static Divide(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static Equals(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static LessThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static LessThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static Multiply(x: SqlDouble, y: SqlDouble): SqlDouble;
-    static NotEquals(x: SqlDouble, y: SqlDouble): SqlBoolean;
-    static Parse(s: string): SqlDouble;
-    static Subtract(x: SqlDouble, y: SqlDouble): SqlDouble;
+    static add(x: SqlDouble, y: SqlDouble): SqlDouble;
+    static divide(x: SqlDouble, y: SqlDouble): SqlDouble;
+    static equals(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static greaterThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static lessThan(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static lessThanOrEqual(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static multiply(x: SqlDouble, y: SqlDouble): SqlDouble;
+    static notEquals(x: SqlDouble, y: SqlDouble): SqlBoolean;
+    static parse(s: string): SqlDouble;
+    static subtract(x: SqlDouble, y: SqlDouble): SqlDouble;
 }
 
 
 export interface __SqlDouble$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlDouble>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlDouble>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlDouble): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlDouble$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlDouble = SqlDouble$instance & __SqlDouble$views;
 
@@ -409,9 +421,9 @@ export class SqlGuid$instance {
     constructor(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte);
     readonly isNull: boolean;
     readonly value: Guid;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlGuid): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlGuid): boolean;
     getHashCode(): int;
     toByteArray(): byte[];
@@ -419,28 +431,30 @@ export class SqlGuid$instance {
     toSqlString(): SqlString;
     toString(): string;
     static readonly null_: SqlGuid;
-    static Equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static LessThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static LessThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static NotEquals(x: SqlGuid, y: SqlGuid): SqlBoolean;
-    static Parse(s: string): SqlGuid;
+    static equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static greaterThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static lessThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static lessThanOrEqual(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static notEquals(x: SqlGuid, y: SqlGuid): SqlBoolean;
+    static parse(s: string): SqlGuid;
 }
 
 
 export interface __SqlGuid$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlGuid>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlGuid>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlGuid): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlGuid$instance extends INullable$instance, System_Internal.IComparable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlGuid = SqlGuid$instance & __SqlGuid$views;
 
@@ -449,9 +463,9 @@ export class SqlInt16$instance {
     constructor(value: short);
     readonly isNull: boolean;
     readonly value: short;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlInt16): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlInt16): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -468,37 +482,39 @@ export class SqlInt16$instance {
     static readonly zero: SqlInt16;
     static readonly minValue: SqlInt16;
     static readonly maxValue: SqlInt16;
-    static Add(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static BitwiseAnd(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static BitwiseOr(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static Divide(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static Equals(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static LessThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static LessThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static Mod(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static Modulus(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static Multiply(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static NotEquals(x: SqlInt16, y: SqlInt16): SqlBoolean;
-    static OnesComplement(x: SqlInt16): SqlInt16;
-    static Parse(s: string): SqlInt16;
-    static Subtract(x: SqlInt16, y: SqlInt16): SqlInt16;
-    static Xor(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static add(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static bitwiseAnd(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static bitwiseOr(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static divide(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static equals(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static greaterThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static lessThan(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static lessThanOrEqual(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static mod(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static modulus(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static multiply(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static notEquals(x: SqlInt16, y: SqlInt16): SqlBoolean;
+    static onesComplement(x: SqlInt16): SqlInt16;
+    static parse(s: string): SqlInt16;
+    static subtract(x: SqlInt16, y: SqlInt16): SqlInt16;
+    static xor(x: SqlInt16, y: SqlInt16): SqlInt16;
 }
 
 
 export interface __SqlInt16$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlInt16>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlInt16>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt16): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlInt16$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt16 = SqlInt16$instance & __SqlInt16$views;
 
@@ -507,9 +523,9 @@ export class SqlInt32$instance {
     constructor(value: int);
     readonly isNull: boolean;
     readonly value: int;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlInt32): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlInt32): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -526,37 +542,39 @@ export class SqlInt32$instance {
     static readonly zero: SqlInt32;
     static readonly minValue: SqlInt32;
     static readonly maxValue: SqlInt32;
-    static Add(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static BitwiseAnd(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static BitwiseOr(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static Divide(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static Equals(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static LessThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static LessThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static Mod(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static Modulus(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static Multiply(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static NotEquals(x: SqlInt32, y: SqlInt32): SqlBoolean;
-    static OnesComplement(x: SqlInt32): SqlInt32;
-    static Parse(s: string): SqlInt32;
-    static Subtract(x: SqlInt32, y: SqlInt32): SqlInt32;
-    static Xor(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static add(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static bitwiseAnd(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static bitwiseOr(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static divide(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static equals(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static greaterThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static lessThan(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static lessThanOrEqual(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static mod(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static modulus(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static multiply(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static notEquals(x: SqlInt32, y: SqlInt32): SqlBoolean;
+    static onesComplement(x: SqlInt32): SqlInt32;
+    static parse(s: string): SqlInt32;
+    static subtract(x: SqlInt32, y: SqlInt32): SqlInt32;
+    static xor(x: SqlInt32, y: SqlInt32): SqlInt32;
 }
 
 
 export interface __SqlInt32$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlInt32>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlInt32>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt32): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlInt32$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt32 = SqlInt32$instance & __SqlInt32$views;
 
@@ -565,9 +583,9 @@ export class SqlInt64$instance {
     constructor(value: long);
     readonly isNull: boolean;
     readonly value: long;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlInt64): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlInt64): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -584,37 +602,39 @@ export class SqlInt64$instance {
     static readonly zero: SqlInt64;
     static readonly minValue: SqlInt64;
     static readonly maxValue: SqlInt64;
-    static Add(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static BitwiseAnd(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static BitwiseOr(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static Divide(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static Equals(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static LessThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static LessThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static Mod(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static Modulus(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static Multiply(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static NotEquals(x: SqlInt64, y: SqlInt64): SqlBoolean;
-    static OnesComplement(x: SqlInt64): SqlInt64;
-    static Parse(s: string): SqlInt64;
-    static Subtract(x: SqlInt64, y: SqlInt64): SqlInt64;
-    static Xor(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static add(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static bitwiseAnd(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static bitwiseOr(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static divide(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static equals(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static greaterThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static lessThan(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static lessThanOrEqual(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static mod(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static modulus(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static multiply(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static notEquals(x: SqlInt64, y: SqlInt64): SqlBoolean;
+    static onesComplement(x: SqlInt64): SqlInt64;
+    static parse(s: string): SqlInt64;
+    static subtract(x: SqlInt64, y: SqlInt64): SqlInt64;
+    static xor(x: SqlInt64, y: SqlInt64): SqlInt64;
 }
 
 
 export interface __SqlInt64$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlInt64>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlInt64>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlInt64): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlInt64$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlInt64 = SqlInt64$instance & __SqlInt64$views;
 
@@ -626,9 +646,9 @@ export class SqlMoney$instance {
     constructor(value: double);
     readonly isNull: boolean;
     readonly value: decimal;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlMoney): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlMoney): boolean;
     getHashCode(): int;
     getTdsValue(): long;
@@ -650,32 +670,34 @@ export class SqlMoney$instance {
     static readonly zero: SqlMoney;
     static readonly minValue: SqlMoney;
     static readonly maxValue: SqlMoney;
-    static Add(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static Divide(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static Equals(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static FromTdsValue(value: long): SqlMoney;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static LessThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static LessThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static Multiply(x: SqlMoney, y: SqlMoney): SqlMoney;
-    static NotEquals(x: SqlMoney, y: SqlMoney): SqlBoolean;
-    static Parse(s: string): SqlMoney;
-    static Subtract(x: SqlMoney, y: SqlMoney): SqlMoney;
+    static add(x: SqlMoney, y: SqlMoney): SqlMoney;
+    static divide(x: SqlMoney, y: SqlMoney): SqlMoney;
+    static equals(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static fromTdsValue(value: long): SqlMoney;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static greaterThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static lessThan(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static lessThanOrEqual(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static multiply(x: SqlMoney, y: SqlMoney): SqlMoney;
+    static notEquals(x: SqlMoney, y: SqlMoney): SqlBoolean;
+    static parse(s: string): SqlMoney;
+    static subtract(x: SqlMoney, y: SqlMoney): SqlMoney;
 }
 
 
 export interface __SqlMoney$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlMoney>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlMoney>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlMoney): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlMoney$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlMoney = SqlMoney$instance & __SqlMoney$views;
 
@@ -685,9 +707,9 @@ export class SqlSingle$instance {
     constructor(value: double);
     readonly isNull: boolean;
     readonly value: float;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlSingle): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlSingle): boolean;
     getHashCode(): int;
     toSqlBoolean(): SqlBoolean;
@@ -704,31 +726,33 @@ export class SqlSingle$instance {
     static readonly zero: SqlSingle;
     static readonly minValue: SqlSingle;
     static readonly maxValue: SqlSingle;
-    static Add(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static Divide(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static Equals(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static LessThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static LessThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static Multiply(x: SqlSingle, y: SqlSingle): SqlSingle;
-    static NotEquals(x: SqlSingle, y: SqlSingle): SqlBoolean;
-    static Parse(s: string): SqlSingle;
-    static Subtract(x: SqlSingle, y: SqlSingle): SqlSingle;
+    static add(x: SqlSingle, y: SqlSingle): SqlSingle;
+    static divide(x: SqlSingle, y: SqlSingle): SqlSingle;
+    static equals(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static greaterThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static lessThan(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static lessThanOrEqual(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static multiply(x: SqlSingle, y: SqlSingle): SqlSingle;
+    static notEquals(x: SqlSingle, y: SqlSingle): SqlBoolean;
+    static parse(s: string): SqlSingle;
+    static subtract(x: SqlSingle, y: SqlSingle): SqlSingle;
 }
 
 
 export interface __SqlSingle$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlSingle>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlSingle>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlSingle): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlSingle$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlSingle = SqlSingle$instance & __SqlSingle$views;
 
@@ -744,13 +768,13 @@ export class SqlString$instance {
     readonly compareInfo: CompareInfo;
     readonly cultureInfo: CultureInfo;
     readonly isNull: boolean;
-    readonly lcid: int;
+    readonly LCID: int;
     readonly sqlCompareOptions: SqlCompareOptions;
     readonly value: string;
     clone(): SqlString;
-    compareTo(value: any): int;
+    compareTo(value: unknown): int;
     compareTo(value: SqlString): int;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     equals(other: SqlString): boolean;
     getHashCode(): int;
     getNonUnicodeBytes(): byte[];
@@ -774,29 +798,31 @@ export class SqlString$instance {
     static readonly ignoreKanaType: int;
     static readonly binarySort: int;
     static readonly binarySort2: int;
-    static Add(x: SqlString, y: SqlString): SqlString;
-    static CompareOptionsFromSqlCompareOptions(compareOptions: SqlCompareOptions): CompareOptions;
-    static Concat(x: SqlString, y: SqlString): SqlString;
-    static Equals(x: SqlString, y: SqlString): SqlBoolean;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
-    static GreaterThan(x: SqlString, y: SqlString): SqlBoolean;
-    static GreaterThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
-    static LessThan(x: SqlString, y: SqlString): SqlBoolean;
-    static LessThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
-    static NotEquals(x: SqlString, y: SqlString): SqlBoolean;
+    static add(x: SqlString, y: SqlString): SqlString;
+    static compareOptionsFromSqlCompareOptions(compareOptions: SqlCompareOptions): CompareOptions;
+    static concat(x: SqlString, y: SqlString): SqlString;
+    static equals(x: SqlString, y: SqlString): SqlBoolean;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static greaterThan(x: SqlString, y: SqlString): SqlBoolean;
+    static greaterThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
+    static lessThan(x: SqlString, y: SqlString): SqlBoolean;
+    static lessThanOrEqual(x: SqlString, y: SqlString): SqlBoolean;
+    static notEquals(x: SqlString, y: SqlString): SqlBoolean;
 }
 
 
 export interface __SqlString$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SqlString>;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SqlString>;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SqlString): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
 }
+
+export interface SqlString$instance extends INullable$instance, System_Internal.IComparable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlString = SqlString$instance & __SqlString$views;
 
@@ -810,7 +836,7 @@ export class SqlAlreadyFilledException$instance extends SqlTypeException$instanc
 
 
 export interface __SqlAlreadyFilledException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SqlAlreadyFilledException = SqlAlreadyFilledException$instance & __SqlAlreadyFilledException$views;
@@ -834,46 +860,50 @@ export class SqlBytes$instance {
     setNull(): void;
     toSqlBinary(): SqlBinary;
     write(offset: long, buffer: byte[], offsetInBuffer: int, count: int): void;
-    static readonly Null: SqlBytes;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static readonly null_: SqlBytes;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 
 
 export interface __SqlBytes$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface SqlBytes$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlBytes = SqlBytes$instance & __SqlBytes$views;
 
 
 export class SqlChars$instance {
     constructor();
-    constructor(buffer: string[]);
+    constructor(buffer: char[]);
     constructor(value: SqlString);
-    readonly buffer: string[];
+    readonly buffer: char[];
     readonly isNull: boolean;
-    item: string;
+    item: char;
     readonly length: long;
     readonly maxLength: long;
     readonly storage: StorageState;
-    readonly value: string[];
-    read(offset: long, buffer: string[], offsetInBuffer: int, count: int): long;
+    readonly value: char[];
+    read(offset: long, buffer: char[], offsetInBuffer: int, count: int): long;
     setLength(value: long): void;
     setNull(): void;
     toSqlString(): SqlString;
-    write(offset: long, buffer: string[], offsetInBuffer: int, count: int): void;
-    static readonly Null: SqlChars;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    write(offset: long, buffer: char[], offsetInBuffer: int, count: int): void;
+    static readonly null_: SqlChars;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 
 
 export interface __SqlChars$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface SqlChars$instance extends INullable$instance, System_Runtime_Serialization_Internal.ISerializable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlChars = SqlChars$instance & __SqlChars$views;
 
@@ -887,7 +917,7 @@ export class SqlNotFilledException$instance extends SqlTypeException$instance {
 
 
 export interface __SqlNotFilledException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SqlNotFilledException = SqlNotFilledException$instance & __SqlNotFilledException$views;
@@ -902,7 +932,7 @@ export class SqlNullValueException$instance extends SqlTypeException$instance {
 
 
 export interface __SqlNullValueException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SqlNullValueException = SqlNullValueException$instance & __SqlNullValueException$views;
@@ -917,7 +947,7 @@ export class SqlTruncateException$instance extends SqlTypeException$instance {
 
 
 export interface __SqlTruncateException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SqlTruncateException = SqlTruncateException$instance & __SqlTruncateException$views;
@@ -932,7 +962,7 @@ export class SqlTypeException$instance extends System_Internal.SystemException$i
 
 
 export interface __SqlTypeException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SqlTypeException = SqlTypeException$instance & __SqlTypeException$views;
@@ -945,15 +975,17 @@ export class SqlXml$instance {
     readonly isNull: boolean;
     readonly value: string;
     createReader(): XmlReader;
-    static readonly Null: SqlXml;
-    static GetXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
+    static readonly null_: SqlXml;
+    static getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 }
 
 
 export interface __SqlXml$views {
-    readonly As_INullable: INullable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_INullable(): INullable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface SqlXml$instance extends INullable$instance, System_Xml_Serialization_Internal.IXmlSerializable$instance {}
 
 export type SqlXml = SqlXml$instance & __SqlXml$views;
 

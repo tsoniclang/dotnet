@@ -55,7 +55,7 @@ export class ContentDisposition$instance {
     readonly parameters: StringDictionary;
     readDate: DateTime;
     size: long;
-    equals(rparam: any): boolean;
+    equals(rparam: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -71,7 +71,7 @@ export class ContentType$instance {
     mediaType: string;
     name: string;
     readonly parameters: StringDictionary;
-    equals(rparam: any): boolean;
+    equals(rparam: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -80,8 +80,8 @@ export class ContentType$instance {
 export type ContentType = ContentType$instance;
 
 export abstract class DispositionTypeNames$instance {
-    static readonly Inline: string;
-    static readonly Attachment: string;
+    static readonly inline: string;
+    static readonly attachment: string;
 }
 
 
@@ -94,77 +94,77 @@ export abstract class MediaTypeNames$instance {
 export type MediaTypeNames = MediaTypeNames$instance;
 
 export abstract class MediaTypeNames_Application$instance {
-    static readonly FormUrlEncoded: string;
-    static readonly GZip: string;
-    static readonly Json: string;
-    static readonly JsonPatch: string;
-    static readonly JsonSequence: string;
-    static readonly Manifest: string;
-    static readonly Octet: string;
-    static readonly Pdf: string;
-    static readonly ProblemJson: string;
-    static readonly ProblemXml: string;
-    static readonly Rtf: string;
-    static readonly Soap: string;
-    static readonly Wasm: string;
-    static readonly Xml: string;
-    static readonly XmlDtd: string;
-    static readonly XmlPatch: string;
-    static readonly Yaml: string;
-    static readonly Zip: string;
+    static readonly formUrlEncoded: string;
+    static readonly gZip: string;
+    static readonly json: string;
+    static readonly jsonPatch: string;
+    static readonly jsonSequence: string;
+    static readonly manifest: string;
+    static readonly octet: string;
+    static readonly pdf: string;
+    static readonly problemJson: string;
+    static readonly problemXml: string;
+    static readonly rtf: string;
+    static readonly soap: string;
+    static readonly wasm: string;
+    static readonly xml: string;
+    static readonly xmlDtd: string;
+    static readonly xmlPatch: string;
+    static readonly yaml: string;
+    static readonly zip: string;
 }
 
 
 export type MediaTypeNames_Application = MediaTypeNames_Application$instance;
 
 export abstract class MediaTypeNames_Font$instance {
-    static readonly Collection: string;
-    static readonly Otf: string;
-    static readonly Sfnt: string;
-    static readonly Ttf: string;
-    static readonly Woff: string;
-    static readonly Woff2: string;
+    static readonly collection: string;
+    static readonly otf: string;
+    static readonly sfnt: string;
+    static readonly ttf: string;
+    static readonly woff: string;
+    static readonly woff2: string;
 }
 
 
 export type MediaTypeNames_Font = MediaTypeNames_Font$instance;
 
 export abstract class MediaTypeNames_Image$instance {
-    static readonly Avif: string;
-    static readonly Bmp: string;
-    static readonly Gif: string;
-    static readonly Icon: string;
-    static readonly Jpeg: string;
-    static readonly Png: string;
-    static readonly Svg: string;
-    static readonly Tiff: string;
-    static readonly Webp: string;
+    static readonly avif: string;
+    static readonly bmp: string;
+    static readonly gif: string;
+    static readonly icon: string;
+    static readonly jpeg: string;
+    static readonly png: string;
+    static readonly svg: string;
+    static readonly tiff: string;
+    static readonly webp: string;
 }
 
 
 export type MediaTypeNames_Image = MediaTypeNames_Image$instance;
 
 export abstract class MediaTypeNames_Multipart$instance {
-    static readonly ByteRanges: string;
-    static readonly FormData: string;
-    static readonly Mixed: string;
-    static readonly Related: string;
+    static readonly byteRanges: string;
+    static readonly formData: string;
+    static readonly mixed: string;
+    static readonly related: string;
 }
 
 
 export type MediaTypeNames_Multipart = MediaTypeNames_Multipart$instance;
 
 export abstract class MediaTypeNames_Text$instance {
-    static readonly Css: string;
-    static readonly Csv: string;
-    static readonly EventStream: string;
-    static readonly Html: string;
-    static readonly JavaScript: string;
-    static readonly Markdown: string;
-    static readonly Plain: string;
-    static readonly RichText: string;
-    static readonly Rtf: string;
-    static readonly Xml: string;
+    static readonly css: string;
+    static readonly csv: string;
+    static readonly eventStream: string;
+    static readonly html: string;
+    static readonly javaScript: string;
+    static readonly markdown: string;
+    static readonly plain: string;
+    static readonly richText: string;
+    static readonly rtf: string;
+    static readonly xml: string;
 }
 
 

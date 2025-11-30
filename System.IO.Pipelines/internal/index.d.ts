@@ -43,8 +43,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface IDuplexPipe$instance {
-    readonly Input: PipeReader;
-    readonly Output: PipeWriter;
+    readonly input: PipeReader;
+    readonly output: PipeWriter;
 }
 
 
@@ -89,7 +89,7 @@ export class PipeOptions$instance {
     readonly resumeWriterThreshold: long;
     readonly useSynchronizationContext: boolean;
     readonly writerScheduler: PipeScheduler;
-    static readonly Default: PipeOptions;
+    static readonly default_: PipeOptions;
 }
 
 
@@ -104,21 +104,21 @@ export abstract class PipeReader$instance {
     completeAsync(exception?: Exception): ValueTask;
     copyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
     copyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
-    onWriterCompleted(callback: Action_2<Exception, any>, state: any): void;
+    onWriterCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
     abstract readAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     readAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     abstract tryRead(result: { value: ref<ReadResult> }): boolean;
-    static Create(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
-    static Create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+    static create2(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
+    static create2(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
 }
 
 
 export type PipeReader = PipeReader$instance;
 
 export abstract class PipeScheduler$instance {
-    abstract schedule(action: Action_1<any>, state: any): void;
-    static readonly ThreadPool: PipeScheduler;
-    static readonly Inline: PipeScheduler;
+    abstract schedule(action: Action_1<unknown>, state: unknown): void;
+    static readonly threadPool: PipeScheduler;
+    static readonly inline: PipeScheduler;
 }
 
 
@@ -135,15 +135,17 @@ export abstract class PipeWriter$instance {
     abstract flushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
     abstract getMemory(sizeHint?: int): Memory_1<CLROf<byte>>;
     abstract getSpan(sizeHint?: int): Span_1<CLROf<byte>>;
-    onReaderCompleted(callback: Action_2<Exception, any>, state: any): void;
+    onReaderCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
     writeAsync(source: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
-    static Create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
+    static create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
 }
 
 
 export interface __PipeWriter$views {
-    readonly As_IBufferWriter_1: System_Buffers_Internal.IBufferWriter_1$instance<CLROf<byte>>;
+    As_IBufferWriter_1(): System_Buffers_Internal.IBufferWriter_1$instance<CLROf<byte>>;
 }
+
+export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWriter_1$instance<CLROf<byte>> {}
 
 export type PipeWriter = PipeWriter$instance & __PipeWriter$views;
 
@@ -172,7 +174,7 @@ export class StreamPipeWriterOptions$instance {
 export type StreamPipeWriterOptions = StreamPipeWriterOptions$instance;
 
 export abstract class StreamPipeExtensions$instance {
-    static CopyToAsync(source: Stream, destination: PipeWriter, cancellationToken?: CancellationToken): Task;
+    static copyToAsync(source: Stream, destination: PipeWriter, cancellationToken?: CancellationToken): Task;
 }
 
 

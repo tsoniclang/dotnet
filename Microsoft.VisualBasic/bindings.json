@@ -22164,7 +22164,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::EOF(System.Int32):System.Boolean",
           "clrName": "EOF",
-          "tsEmitName": "eof",
+          "tsEmitName": "EOF",
           "metadataToken": 100664845,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "EOF|(System.Int32):System.Boolean|static=true",
@@ -22192,7 +22192,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::LOF(System.Int32):System.Int64",
           "clrName": "LOF",
-          "tsEmitName": "lof",
+          "tsEmitName": "LOF",
           "metadataToken": 100664847,
           "canonicalSignature": "(System.Int32):System.Int64",
           "normalizedSignature": "LOF|(System.Int32):System.Int64|static=true",
@@ -22206,7 +22206,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::TAB():Microsoft.VisualBasic.TabInfo",
           "clrName": "TAB",
-          "tsEmitName": "tab",
+          "tsEmitName": "TAB",
           "metadataToken": 100664848,
           "canonicalSignature": "():Microsoft.VisualBasic.TabInfo",
           "normalizedSignature": "TAB|():Microsoft.VisualBasic.TabInfo|static=true",
@@ -22220,7 +22220,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::TAB(System.Int16):Microsoft.VisualBasic.TabInfo",
           "clrName": "TAB",
-          "tsEmitName": "tab2",
+          "tsEmitName": "TAB2",
           "metadataToken": 100664849,
           "canonicalSignature": "(System.Int16):Microsoft.VisualBasic.TabInfo",
           "normalizedSignature": "TAB|(System.Int16):Microsoft.VisualBasic.TabInfo|static=true",
@@ -22234,7 +22234,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.FileSystem::SPC(System.Int16):Microsoft.VisualBasic.SpcInfo",
           "clrName": "SPC",
-          "tsEmitName": "spc",
+          "tsEmitName": "SPC",
           "metadataToken": 100664850,
           "canonicalSignature": "(System.Int16):Microsoft.VisualBasic.SpcInfo",
           "normalizedSignature": "SPC|(System.Int16):Microsoft.VisualBasic.SpcInfo|static=true",
@@ -23034,7 +23034,7 @@
           }
         },
         {
-          "tsName": "eof",
+          "tsName": "EOF",
           "isStatic": true,
           "tsSignatureId": "EOF|(System.Int32):System.Boolean|static=true",
           "target": {
@@ -23054,7 +23054,7 @@
           }
         },
         {
-          "tsName": "lof",
+          "tsName": "LOF",
           "isStatic": true,
           "tsSignatureId": "LOF|(System.Int32):System.Int64|static=true",
           "target": {
@@ -23064,7 +23064,7 @@
           }
         },
         {
-          "tsName": "tab",
+          "tsName": "TAB",
           "isStatic": true,
           "tsSignatureId": "TAB|():Microsoft.VisualBasic.TabInfo|static=true",
           "target": {
@@ -23074,7 +23074,7 @@
           }
         },
         {
-          "tsName": "tab2",
+          "tsName": "TAB2",
           "isStatic": true,
           "tsSignatureId": "TAB|(System.Int16):Microsoft.VisualBasic.TabInfo|static=true",
           "target": {
@@ -23084,7 +23084,7 @@
           }
         },
         {
-          "tsName": "spc",
+          "tsName": "SPC",
           "isStatic": true,
           "tsSignatureId": "SPC|(System.Int16):Microsoft.VisualBasic.SpcInfo|static=true",
           "target": {
@@ -23195,7 +23195,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::DDB(System.Double,System.Double,System.Double,System.Double,System.Double):System.Double",
           "clrName": "DDB",
-          "tsEmitName": "ddb",
+          "tsEmitName": "DDB",
           "metadataToken": 100664867,
           "canonicalSignature": "(System.Double,System.Double,System.Double,System.Double,System.Double):System.Double",
           "normalizedSignature": "DDB|(System.Double,System.Double,System.Double,System.Double,System.Double):System.Double|static=true",
@@ -23209,7 +23209,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::FV(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
           "clrName": "FV",
-          "tsEmitName": "fv",
+          "tsEmitName": "FV",
           "metadataToken": 100664868,
           "canonicalSignature": "(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
           "normalizedSignature": "FV|(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double|static=true",
@@ -23237,7 +23237,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::IRR(System.Double[]\u0026,System.Double):System.Double",
           "clrName": "IRR",
-          "tsEmitName": "irr",
+          "tsEmitName": "IRR",
           "metadataToken": 100664871,
           "canonicalSignature": "(System.Double[]\u0026,System.Double):System.Double",
           "normalizedSignature": "IRR|(System.Double[]\u0026,System.Double):System.Double|static=true",
@@ -23251,7 +23251,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::MIRR(System.Double[]\u0026,System.Double,System.Double):System.Double",
           "clrName": "MIRR",
-          "tsEmitName": "mirr",
+          "tsEmitName": "MIRR",
           "metadataToken": 100664872,
           "canonicalSignature": "(System.Double[]\u0026,System.Double,System.Double):System.Double",
           "normalizedSignature": "MIRR|(System.Double[]\u0026,System.Double,System.Double):System.Double|static=true",
@@ -23279,7 +23279,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::NPV(System.Double,System.Double[]\u0026):System.Double",
           "clrName": "NPV",
-          "tsEmitName": "npv",
+          "tsEmitName": "NPV",
           "metadataToken": 100664874,
           "canonicalSignature": "(System.Double,System.Double[]\u0026):System.Double",
           "normalizedSignature": "NPV|(System.Double,System.Double[]\u0026):System.Double|static=true",
@@ -23321,7 +23321,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::PV(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
           "clrName": "PV",
-          "tsEmitName": "pv",
+          "tsEmitName": "PV",
           "metadataToken": 100664878,
           "canonicalSignature": "(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double",
           "normalizedSignature": "PV|(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double|static=true",
@@ -23349,7 +23349,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::SLN(System.Double,System.Double,System.Double):System.Double",
           "clrName": "SLN",
-          "tsEmitName": "sln",
+          "tsEmitName": "SLN",
           "metadataToken": 100664880,
           "canonicalSignature": "(System.Double,System.Double,System.Double):System.Double",
           "normalizedSignature": "SLN|(System.Double,System.Double,System.Double):System.Double|static=true",
@@ -23363,7 +23363,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Financial::SYD(System.Double,System.Double,System.Double,System.Double):System.Double",
           "clrName": "SYD",
-          "tsEmitName": "syd",
+          "tsEmitName": "SYD",
           "metadataToken": 100664881,
           "canonicalSignature": "(System.Double,System.Double,System.Double,System.Double):System.Double",
           "normalizedSignature": "SYD|(System.Double,System.Double,System.Double,System.Double):System.Double|static=true",
@@ -23381,7 +23381,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "ddb",
+          "tsName": "DDB",
           "isStatic": true,
           "tsSignatureId": "DDB|(System.Double,System.Double,System.Double,System.Double,System.Double):System.Double|static=true",
           "target": {
@@ -23391,7 +23391,7 @@
           }
         },
         {
-          "tsName": "fv",
+          "tsName": "FV",
           "isStatic": true,
           "tsSignatureId": "FV|(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double|static=true",
           "target": {
@@ -23411,7 +23411,7 @@
           }
         },
         {
-          "tsName": "irr",
+          "tsName": "IRR",
           "isStatic": true,
           "tsSignatureId": "IRR|(System.Double[]\u0026,System.Double):System.Double|static=true",
           "target": {
@@ -23421,7 +23421,7 @@
           }
         },
         {
-          "tsName": "mirr",
+          "tsName": "MIRR",
           "isStatic": true,
           "tsSignatureId": "MIRR|(System.Double[]\u0026,System.Double,System.Double):System.Double|static=true",
           "target": {
@@ -23441,7 +23441,7 @@
           }
         },
         {
-          "tsName": "npv",
+          "tsName": "NPV",
           "isStatic": true,
           "tsSignatureId": "NPV|(System.Double,System.Double[]\u0026):System.Double|static=true",
           "target": {
@@ -23471,7 +23471,7 @@
           }
         },
         {
-          "tsName": "pv",
+          "tsName": "PV",
           "isStatic": true,
           "tsSignatureId": "PV|(System.Double,System.Double,System.Double,System.Double,Microsoft.VisualBasic.DueDate):System.Double|static=true",
           "target": {
@@ -23491,7 +23491,7 @@
           }
         },
         {
-          "tsName": "sln",
+          "tsName": "SLN",
           "isStatic": true,
           "tsSignatureId": "SLN|(System.Double,System.Double,System.Double):System.Double|static=true",
           "target": {
@@ -23501,7 +23501,7 @@
           }
         },
         {
-          "tsName": "syd",
+          "tsName": "SYD",
           "isStatic": true,
           "tsSignatureId": "SYD|(System.Double,System.Double,System.Double,System.Double):System.Double|static=true",
           "target": {
@@ -24184,7 +24184,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Information::RGB(System.Int32,System.Int32,System.Int32):System.Int32",
           "clrName": "RGB",
-          "tsEmitName": "rgb",
+          "tsEmitName": "RGB",
           "metadataToken": 100664906,
           "canonicalSignature": "(System.Int32,System.Int32,System.Int32):System.Int32",
           "normalizedSignature": "RGB|(System.Int32,System.Int32,System.Int32):System.Int32|static=true",
@@ -24382,7 +24382,7 @@
           }
         },
         {
-          "tsName": "rgb",
+          "tsName": "RGB",
           "isStatic": true,
           "tsSignatureId": "RGB|(System.Int32,System.Int32,System.Int32):System.Int32|static=true",
           "target": {

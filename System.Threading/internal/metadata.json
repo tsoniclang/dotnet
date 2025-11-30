@@ -31,7 +31,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::STASystem.Threading.ApartmentState",
           "clrName": "STA",
-          "tsEmitName": "sta",
+          "tsEmitName": "STA",
           "normalizedSignature": "STA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -40,7 +40,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::MTASystem.Threading.ApartmentState",
           "clrName": "MTA",
-          "tsEmitName": "mta",
+          "tsEmitName": "MTA",
           "normalizedSignature": "MTA|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

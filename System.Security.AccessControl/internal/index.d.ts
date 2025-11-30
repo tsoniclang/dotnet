@@ -284,7 +284,7 @@ export abstract class AccessRule$instance extends AuthorizationRule$instance {
 
 export type AccessRule = AccessRule$instance;
 
-export class AccessRule_1$instance<T extends any> extends AccessRule$instance {
+export class AccessRule_1$instance<T extends unknown> extends AccessRule$instance {
     constructor(identity: IdentityReference, rights: T, type_: AccessControlType);
     constructor(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType);
     constructor(identity: string, rights: T, type_: AccessControlType);
@@ -296,14 +296,14 @@ export class AccessRule_1$instance<T extends any> extends AccessRule$instance {
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
 export class AceEnumerator$instance {
-    readonly current: any | GenericAce;
+    readonly current: GenericAce | unknown;
     moveNext(): boolean;
     reset(): void;
 }
 
 
 export interface __AceEnumerator$views {
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type AceEnumerator = AceEnumerator$instance & __AceEnumerator$views;
@@ -316,7 +316,7 @@ export abstract class AuditRule$instance extends AuthorizationRule$instance {
 
 export type AuditRule = AuditRule$instance;
 
-export class AuditRule_1$instance<T extends any> extends AuditRule$instance {
+export class AuditRule_1$instance<T extends unknown> extends AuditRule$instance {
     constructor(identity: IdentityReference, rights: T, flags: AuditFlags);
     constructor(identity: IdentityReference, rights: T, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags);
     constructor(identity: string, rights: T, flags: AuditFlags);
@@ -347,9 +347,11 @@ export class AuthorizationRuleCollection$instance extends System_Collections_Int
 
 
 export interface __AuthorizationRuleCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface AuthorizationRuleCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type AuthorizationRuleCollection = AuthorizationRuleCollection$instance & __AuthorizationRuleCollection$views;
 
@@ -358,7 +360,7 @@ export class CommonAce$instance extends QualifiedAce$instance {
     constructor(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]);
     readonly binaryLength: int;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    static MaxOpaqueLength(isCallback: boolean): int;
+    static maxOpaqueLength(isCallback: boolean): int;
 }
 
 
@@ -383,8 +385,8 @@ export abstract class CommonAcl$instance extends GenericAcl$instance {
 
 
 export interface __CommonAcl$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type CommonAcl = CommonAcl$instance & __CommonAcl$views;
@@ -490,8 +492,8 @@ export class DiscretionaryAcl$instance extends CommonAcl$instance {
 
 
 export interface __DiscretionaryAcl$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DiscretionaryAcl = DiscretionaryAcl$instance & __DiscretionaryAcl$views;
@@ -598,10 +600,10 @@ export abstract class GenericAce$instance {
     readonly isInherited: boolean;
     readonly propagationFlags: PropagationFlags;
     copy(): GenericAce;
-    equals(o: any): boolean;
+    equals(o: unknown): boolean;
     abstract getBinaryForm(binaryForm: byte[], offset: int): void;
     getHashCode(): int;
-    static CreateFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
+    static createFromBinaryForm(binaryForm: byte[], offset: int): GenericAce;
 }
 
 
@@ -613,7 +615,7 @@ export abstract class GenericAcl$instance {
     readonly isSynchronized: boolean;
     item: GenericAce;
     readonly revision: byte;
-    readonly syncRoot: any;
+    readonly syncRoot: unknown;
     copyTo(array: GenericAce[], index: int): void;
     abstract getBinaryForm(binaryForm: byte[], offset: int): void;
     getEnumerator(): AceEnumerator;
@@ -624,8 +626,8 @@ export abstract class GenericAcl$instance {
 
 
 export interface __GenericAcl$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type GenericAcl = GenericAcl$instance & __GenericAcl$views;
@@ -638,8 +640,8 @@ export abstract class GenericSecurityDescriptor$instance {
     owner: SecurityIdentifier;
     getBinaryForm(binaryForm: byte[], offset: int): void;
     getSddlForm(includeSections: AccessControlSections): string;
-    static readonly Revision: byte;
-    static IsSddlConversionSupported(): boolean;
+    static readonly revision: byte;
+    static isSddlConversionSupported(): boolean;
 }
 
 
@@ -716,7 +718,7 @@ export class ObjectAce$instance extends QualifiedAce$instance {
     objectAceFlags: ObjectAceFlags;
     objectAceType: Guid;
     getBinaryForm(binaryForm: byte[], offset: int): void;
-    static MaxOpaqueLength(isCallback: boolean): int;
+    static maxOpaqueLength(isCallback: boolean): int;
 }
 
 
@@ -757,13 +759,13 @@ export abstract class ObjectSecurity$instance {
     setSecurityDescriptorBinaryForm(binaryForm: byte[], includeSections: AccessControlSections): void;
     setSecurityDescriptorSddlForm(sddlForm: string): void;
     setSecurityDescriptorSddlForm(sddlForm: string, includeSections: AccessControlSections): void;
-    static IsSddlConversionSupported(): boolean;
+    static isSddlConversionSupported(): boolean;
 }
 
 
 export type ObjectSecurity = ObjectSecurity$instance;
 
-export abstract class ObjectSecurity_1$instance<T extends any> extends NativeObjectSecurity$instance {
+export abstract class ObjectSecurity_1$instance<T extends unknown> extends NativeObjectSecurity$instance {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
@@ -795,7 +797,7 @@ export class PrivilegeNotHeldException$instance extends System_Internal.Unauthor
 
 
 export interface __PrivilegeNotHeldException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PrivilegeNotHeldException = PrivilegeNotHeldException$instance & __PrivilegeNotHeldException$views;
@@ -830,8 +832,8 @@ export class RawAcl$instance extends GenericAcl$instance {
 
 
 export interface __RawAcl$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type RawAcl = RawAcl$instance & __RawAcl$views;
@@ -961,8 +963,8 @@ export class SystemAcl$instance extends CommonAcl$instance {
 
 
 export interface __SystemAcl$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SystemAcl = SystemAcl$instance & __SystemAcl$views;

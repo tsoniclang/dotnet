@@ -214,9 +214,9 @@ export class GatewayIPAddressInformationCollection$instance {
 
 
 export interface __GatewayIPAddressInformationCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<GatewayIPAddressInformation>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<GatewayIPAddressInformation>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<GatewayIPAddressInformation>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<GatewayIPAddressInformation>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationCollection$instance & __GatewayIPAddressInformationCollection$views;
@@ -306,9 +306,9 @@ export class IPAddressCollection$instance {
 
 
 export interface __IPAddressCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<IPAddress>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddress>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<IPAddress>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddress>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type IPAddressCollection = IPAddressCollection$instance & __IPAddressCollection$views;
@@ -337,9 +337,9 @@ export class IPAddressInformationCollection$instance {
 
 
 export interface __IPAddressInformationCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<IPAddressInformation>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddressInformation>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<IPAddressInformation>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddressInformation>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type IPAddressInformationCollection = IPAddressInformationCollection$instance & __IPAddressInformationCollection$views;
@@ -351,7 +351,7 @@ export abstract class IPGlobalProperties$instance {
     readonly hostName: string;
     readonly isWinsProxy: boolean;
     readonly nodeType: NetBiosNodeType;
-    beginGetUnicastAddresses(callback: AsyncCallback, state: any): IAsyncResult;
+    beginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
     endGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
     abstract getActiveTcpConnections(): TcpConnectionInformation[];
     abstract getActiveTcpListeners(): IPEndPoint[];
@@ -366,7 +366,7 @@ export abstract class IPGlobalProperties$instance {
     abstract getUdpIPv6Statistics(): UdpStatistics;
     getUnicastAddresses(): UnicastIPAddressInformationCollection;
     getUnicastAddressesAsync(): Task_1<UnicastIPAddressInformationCollection>;
-    static GetIPGlobalProperties(): IPGlobalProperties;
+    static getIPGlobalProperties(): IPGlobalProperties;
 }
 
 
@@ -502,45 +502,45 @@ export class MulticastIPAddressInformationCollection$instance {
 
 
 export interface __MulticastIPAddressInformationCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<MulticastIPAddressInformation>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<MulticastIPAddressInformation>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<MulticastIPAddressInformation>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<MulticastIPAddressInformation>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type MulticastIPAddressInformationCollection = MulticastIPAddressInformationCollection$instance & __MulticastIPAddressInformationCollection$views;
 
 
 export class NetworkAddressChangedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: EventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: EventArgs): void;
+    invoke(sender: unknown, e: EventArgs): void;
 }
 
 
 export interface __NetworkAddressChangedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NetworkAddressChangedEventHandler = NetworkAddressChangedEventHandler$instance & __NetworkAddressChangedEventHandler$views;
 
 
 export class NetworkAvailabilityChangedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: NetworkAvailabilityEventArgs): void;
+    invoke(sender: unknown, e: NetworkAvailabilityEventArgs): void;
 }
 
 
 export interface __NetworkAvailabilityChangedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NetworkAvailabilityChangedEventHandler = NetworkAvailabilityChangedEventHandler$instance & __NetworkAvailabilityChangedEventHandler$views;
@@ -555,7 +555,7 @@ export type NetworkAvailabilityEventArgs = NetworkAvailabilityEventArgs$instance
 
 export class NetworkChange$instance {
     constructor();
-    static RegisterNetworkChange(nc: NetworkChange): void;
+    static registerNetworkChange(nc: NetworkChange): void;
 }
 
 
@@ -570,7 +570,7 @@ export class NetworkInformationException$instance extends System_ComponentModel_
 
 
 export interface __NetworkInformationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NetworkInformationException = NetworkInformationException$instance & __NetworkInformationException$views;
@@ -590,10 +590,10 @@ export abstract class NetworkInterface$instance {
     getIPv4Statistics(): IPv4InterfaceStatistics;
     getPhysicalAddress(): PhysicalAddress;
     supports(networkInterfaceComponent: NetworkInterfaceComponent): boolean;
-    static readonly IPv6LoopbackInterfaceIndex: int;
-    static readonly LoopbackInterfaceIndex: int;
-    static GetAllNetworkInterfaces(): NetworkInterface[];
-    static GetIsNetworkAvailable(): boolean;
+    static readonly iPv6LoopbackInterfaceIndex: int;
+    static readonly loopbackInterfaceIndex: int;
+    static getAllNetworkInterfaces(): NetworkInterface[];
+    static getIsNetworkAvailable(): boolean;
 }
 
 
@@ -601,15 +601,15 @@ export type NetworkInterface = NetworkInterface$instance;
 
 export class PhysicalAddress$instance {
     constructor(address: byte[]);
-    equals(comparand: any): boolean;
+    equals(comparand: unknown): boolean;
     getAddressBytes(): byte[];
     getHashCode(): int;
     toString(): string;
     static readonly none: PhysicalAddress;
-    static Parse(address: ReadOnlySpan_1<CLROf<string>>): PhysicalAddress;
-    static Parse(address: string): PhysicalAddress;
-    static TryParse(address: ReadOnlySpan_1<CLROf<string>>, value: { value: ref<PhysicalAddress> }): boolean;
-    static TryParse(address: string, value: { value: ref<PhysicalAddress> }): boolean;
+    static parse2(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
+    static parse2(address: string): PhysicalAddress;
+    static tryParse2(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
+    static tryParse2(address: string, value: { value: ref<PhysicalAddress> }): boolean;
 }
 
 
@@ -628,14 +628,14 @@ export class Ping$instance extends System_ComponentModel_Internal.Component$inst
     send(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions): PingReply;
     send(address: IPAddress, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
     send(hostNameOrAddress: string, timeout: TimeSpan, buffer?: byte[], options?: PingOptions): PingReply;
-    sendAsync(hostNameOrAddress: string, userToken: any): void;
-    sendAsync(hostNameOrAddress: string, timeout: int, userToken: any): void;
-    sendAsync(address: IPAddress, userToken: any): void;
-    sendAsync(address: IPAddress, timeout: int, userToken: any): void;
-    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: any): void;
-    sendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: any): void;
-    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions, userToken: any): void;
-    sendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions, userToken: any): void;
+    sendAsync(hostNameOrAddress: string, userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, userToken: unknown): void;
+    sendAsync(address: IPAddress, userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, buffer: byte[], userToken: unknown): void;
+    sendAsync(hostNameOrAddress: string, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
+    sendAsync(address: IPAddress, timeout: int, buffer: byte[], options: PingOptions, userToken: unknown): void;
     sendAsyncCancel(): void;
     sendPingAsync(address: IPAddress): Task_1<PingReply>;
     sendPingAsync(hostNameOrAddress: string): Task_1<PingReply>;
@@ -651,9 +651,11 @@ export class Ping$instance extends System_ComponentModel_Internal.Component$inst
 
 
 export interface __Ping$views {
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface Ping$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type Ping = Ping$instance & __Ping$views;
 
@@ -666,18 +668,18 @@ export class PingCompletedEventArgs$instance extends System_ComponentModel_Inter
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
 export class PingCompletedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: PingCompletedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: PingCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: PingCompletedEventArgs): void;
+    invoke(sender: unknown, e: PingCompletedEventArgs): void;
 }
 
 
 export interface __PingCompletedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PingCompletedEventHandler = PingCompletedEventHandler$instance & __PingCompletedEventHandler$views;
@@ -691,7 +693,7 @@ export class PingException$instance extends System_Internal.InvalidOperationExce
 
 
 export interface __PingException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PingException = PingException$instance & __PingException$views;
@@ -786,9 +788,9 @@ export class UnicastIPAddressInformationCollection$instance {
 
 
 export interface __UnicastIPAddressInformationCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<UnicastIPAddressInformation>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<UnicastIPAddressInformation>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<UnicastIPAddressInformation>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<UnicastIPAddressInformation>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type UnicastIPAddressInformationCollection = UnicastIPAddressInformationCollection$instance & __UnicastIPAddressInformationCollection$views;

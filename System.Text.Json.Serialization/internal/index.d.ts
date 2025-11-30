@@ -108,28 +108,28 @@ export enum JsonUnmappedMemberHandling {
 
 
 export interface IJsonOnDeserialized$instance {
-    OnDeserialized(): void;
+    onDeserialized(): void;
 }
 
 
 export type IJsonOnDeserialized = IJsonOnDeserialized$instance;
 
 export interface IJsonOnDeserializing$instance {
-    OnDeserializing(): void;
+    onDeserializing(): void;
 }
 
 
 export type IJsonOnDeserializing = IJsonOnDeserializing$instance;
 
 export interface IJsonOnSerialized$instance {
-    OnSerialized(): void;
+    onSerialized(): void;
 }
 
 
 export type IJsonOnSerialized = IJsonOnSerialized$instance;
 
 export interface IJsonOnSerializing$instance {
-    OnSerializing(): void;
+    onSerializing(): void;
 }
 
 
@@ -191,7 +191,7 @@ export class JsonDerivedTypeAttribute$instance extends JsonAttribute$instance {
     constructor(derivedType: Type, typeDiscriminator: string);
     constructor(derivedType: Type, typeDiscriminator: int);
     readonly derivedType: Type;
-    readonly typeDiscriminator: any;
+    readonly typeDiscriminator: unknown;
 }
 
 
@@ -293,7 +293,7 @@ export abstract class JsonSerializerContext$instance {
 
 
 export interface __JsonSerializerContext$views {
-    readonly As_IJsonTypeInfoResolver: System_Text_Json_Serialization_Metadata_Internal.IJsonTypeInfoResolver$instance;
+    As_IJsonTypeInfoResolver(): System_Text_Json_Serialization_Metadata_Internal.IJsonTypeInfoResolver$instance;
 }
 
 export type JsonSerializerContext = JsonSerializerContext$instance & __JsonSerializerContext$views;
@@ -313,7 +313,7 @@ export class JsonSourceGenerationOptionsAttribute$instance extends JsonAttribute
     ignoreReadOnlyFields: boolean;
     ignoreReadOnlyProperties: boolean;
     includeFields: boolean;
-    indentCharacter: string;
+    indentCharacter: char;
     indentSize: int;
     maxDepth: int;
     newLine: string;
@@ -372,8 +372,8 @@ export type JsonUnmappedMemberHandlingAttribute = JsonUnmappedMemberHandlingAttr
 
 export abstract class ReferenceHandler$instance {
     abstract createResolver(): ReferenceResolver;
-    static readonly Preserve: ReferenceHandler;
-    static readonly IgnoreCycles: ReferenceHandler;
+    static readonly preserve: ReferenceHandler;
+    static readonly ignoreCycles: ReferenceHandler;
 }
 
 
@@ -388,9 +388,9 @@ export class ReferenceHandler_1$instance<T extends ReferenceResolver> extends Re
 export type ReferenceHandler_1<T extends ReferenceResolver> = ReferenceHandler_1$instance<T>;
 
 export abstract class ReferenceResolver$instance {
-    abstract addReference(referenceId: string, value: any): void;
-    abstract getReference(value: any, alreadyExists: { value: ref<boolean> }): string;
-    abstract resolveReference(referenceId: string): any;
+    abstract addReference(referenceId: string, value: unknown): void;
+    abstract getReference(value: unknown, alreadyExists: { value: ref<boolean> }): string;
+    abstract resolveReference(referenceId: string): unknown;
 }
 
 

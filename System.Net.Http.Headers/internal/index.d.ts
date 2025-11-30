@@ -49,15 +49,15 @@ export class HeaderStringValues$instance {
 
 
 export interface __HeaderStringValues$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<CLROf<string>>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<CLROf<string>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<CLROf<string>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<CLROf<string>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HeaderStringValues = HeaderStringValues$instance & __HeaderStringValues$views;
 
 
-export class HeaderStringValues_Enumerator$instance {
+export class HeaderStringValues_Enumerator$instance implements IDisposable {
     readonly current: string;
     dispose(): void;
     moveNext(): boolean;
@@ -65,8 +65,8 @@ export class HeaderStringValues_Enumerator$instance {
 
 
 export interface __HeaderStringValues_Enumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<CLROf<string>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<CLROf<string>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type HeaderStringValues_Enumerator = HeaderStringValues_Enumerator$instance & __HeaderStringValues_Enumerator$views;
@@ -82,16 +82,16 @@ export class HttpHeadersNonValidated$instance {
 
 
 export interface __HttpHeadersNonValidated$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, HeaderStringValues>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, HeaderStringValues>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpHeadersNonValidated = HttpHeadersNonValidated$instance & __HttpHeadersNonValidated$views;
 
 
-export class HttpHeadersNonValidated_Enumerator$instance {
+export class HttpHeadersNonValidated_Enumerator$instance implements IDisposable {
     readonly current: KeyValuePair_2<CLROf<string>, HeaderStringValues>;
     dispose(): void;
     moveNext(): boolean;
@@ -99,8 +99,8 @@ export class HttpHeadersNonValidated_Enumerator$instance {
 
 
 export interface __HttpHeadersNonValidated_Enumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<CLROf<string>, HeaderStringValues>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type HttpHeadersNonValidated_Enumerator = HttpHeadersNonValidated_Enumerator$instance & __HttpHeadersNonValidated_Enumerator$views;
@@ -111,17 +111,19 @@ export class AuthenticationHeaderValue$instance {
     constructor(scheme: string, parameter: string);
     readonly parameter: string;
     readonly scheme: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): AuthenticationHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<AuthenticationHeaderValue> }): boolean;
+    static parse(input: string): AuthenticationHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<AuthenticationHeaderValue> }): boolean;
 }
 
 
 export interface __AuthenticationHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface AuthenticationHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type AuthenticationHeaderValue = AuthenticationHeaderValue$instance & __AuthenticationHeaderValue$views;
 
@@ -144,17 +146,19 @@ export class CacheControlHeaderValue$instance {
     proxyRevalidate: boolean;
     public_: boolean;
     sharedMaxAge: Nullable_1<TimeSpan>;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): CacheControlHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<CacheControlHeaderValue> }): boolean;
+    static parse(input: string): CacheControlHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<CacheControlHeaderValue> }): boolean;
 }
 
 
 export interface __CacheControlHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface CacheControlHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type CacheControlHeaderValue = CacheControlHeaderValue$instance & __CacheControlHeaderValue$views;
 
@@ -170,17 +174,19 @@ export class ContentDispositionHeaderValue$instance {
     readonly parameters: ICollection_1<NameValueHeaderValue>;
     readDate: Nullable_1<DateTimeOffset>;
     size: Nullable_1<CLROf<long>>;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): ContentDispositionHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<ContentDispositionHeaderValue> }): boolean;
+    static parse(input: string): ContentDispositionHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<ContentDispositionHeaderValue> }): boolean;
 }
 
 
 export interface __ContentDispositionHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface ContentDispositionHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type ContentDispositionHeaderValue = ContentDispositionHeaderValue$instance & __ContentDispositionHeaderValue$views;
 
@@ -195,17 +201,19 @@ export class ContentRangeHeaderValue$instance {
     readonly length: Nullable_1<CLROf<long>>;
     readonly to: Nullable_1<CLROf<long>>;
     unit: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): ContentRangeHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<ContentRangeHeaderValue> }): boolean;
+    static parse(input: string): ContentRangeHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<ContentRangeHeaderValue> }): boolean;
 }
 
 
 export interface __ContentRangeHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface ContentRangeHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type ContentRangeHeaderValue = ContentRangeHeaderValue$instance & __ContentRangeHeaderValue$views;
 
@@ -215,18 +223,20 @@ export class EntityTagHeaderValue$instance {
     constructor(tag: string, isWeak: boolean);
     readonly isWeak: boolean;
     readonly tag: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly Any: EntityTagHeaderValue;
-    static Parse(input: string): EntityTagHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<EntityTagHeaderValue> }): boolean;
+    static readonly any_: EntityTagHeaderValue;
+    static parse(input: string): EntityTagHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<EntityTagHeaderValue> }): boolean;
 }
 
 
 export interface __EntityTagHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface EntityTagHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type EntityTagHeaderValue = EntityTagHeaderValue$instance & __EntityTagHeaderValue$views;
 
@@ -249,8 +259,8 @@ export class HttpContentHeaders$instance extends HttpHeaders$instance {
 
 
 export interface __HttpContentHeaders$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpContentHeaders = HttpContentHeaders$instance & __HttpContentHeaders$views;
@@ -273,8 +283,8 @@ export abstract class HttpHeaders$instance {
 
 
 export interface __HttpHeaders$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpHeaders = HttpHeaders$instance & __HttpHeaders$views;
@@ -296,9 +306,9 @@ export class HttpHeaderValueCollection_1$instance<T> {
 
 
 export interface __HttpHeaderValueCollection_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpHeaderValueCollection_1<T> = HttpHeaderValueCollection_1$instance<T> & __HttpHeaderValueCollection_1$views<T>;
@@ -329,7 +339,7 @@ export class HttpRequestHeaders$instance extends HttpHeaders$instance {
     proxyAuthorization: AuthenticationHeaderValue;
     range: RangeHeaderValue;
     referrer: Uri;
-    readonly te: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
+    readonly TE: HttpHeaderValueCollection_1<TransferCodingWithQualityHeaderValue>;
     readonly trailer: HttpHeaderValueCollection_1<CLROf<string>>;
     readonly transferEncoding: HttpHeaderValueCollection_1<TransferCodingHeaderValue>;
     transferEncodingChunked: Nullable_1<CLROf<boolean>>;
@@ -343,8 +353,8 @@ export class HttpRequestHeaders$instance extends HttpHeaders$instance {
 
 
 export interface __HttpRequestHeaders$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpRequestHeaders = HttpRequestHeaders$instance & __HttpRequestHeaders$views;
@@ -377,8 +387,8 @@ export class HttpResponseHeaders$instance extends HttpHeaders$instance {
 
 
 export interface __HttpResponseHeaders$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, IEnumerable_1<CLROf<string>>>>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpResponseHeaders = HttpResponseHeaders$instance & __HttpResponseHeaders$views;
@@ -390,17 +400,19 @@ export class MediaTypeHeaderValue$instance {
     charSet: string;
     mediaType: string;
     readonly parameters: ICollection_1<NameValueHeaderValue>;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): MediaTypeHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<MediaTypeHeaderValue> }): boolean;
+    static parse(input: string): MediaTypeHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<MediaTypeHeaderValue> }): boolean;
 }
 
 
 export interface __MediaTypeHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface MediaTypeHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type MediaTypeHeaderValue = MediaTypeHeaderValue$instance & __MediaTypeHeaderValue$views;
 
@@ -409,13 +421,15 @@ export class MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeaderVal
     constructor(mediaType: string);
     constructor(mediaType: string, quality: double);
     quality: Nullable_1<CLROf<double>>;
-    clone(): any;
+    clone(): unknown;
 }
 
 
 export interface __MediaTypeWithQualityHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface MediaTypeWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type MediaTypeWithQualityHeaderValue = MediaTypeWithQualityHeaderValue$instance & __MediaTypeWithQualityHeaderValue$views;
 
@@ -425,17 +439,19 @@ export class NameValueHeaderValue$instance {
     constructor(name: string, value: string);
     readonly name: string;
     value: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): NameValueHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<NameValueHeaderValue> }): boolean;
+    static parse(input: string): NameValueHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<NameValueHeaderValue> }): boolean;
 }
 
 
 export interface __NameValueHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface NameValueHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type NameValueHeaderValue = NameValueHeaderValue$instance & __NameValueHeaderValue$views;
 
@@ -444,16 +460,18 @@ export class NameValueWithParametersHeaderValue$instance extends NameValueHeader
     constructor(name: string);
     constructor(name: string, value: string);
     readonly parameters: ICollection_1<NameValueHeaderValue>;
-    clone(): any;
-    equals(obj: any): boolean;
+    clone(): unknown;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
 
 
 export interface __NameValueWithParametersHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface NameValueWithParametersHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type NameValueWithParametersHeaderValue = NameValueWithParametersHeaderValue$instance & __NameValueWithParametersHeaderValue$views;
 
@@ -463,17 +481,19 @@ export class ProductHeaderValue$instance {
     constructor(name: string, version: string);
     readonly name: string;
     readonly version: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): ProductHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<ProductHeaderValue> }): boolean;
+    static parse(input: string): ProductHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<ProductHeaderValue> }): boolean;
 }
 
 
 export interface __ProductHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface ProductHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type ProductHeaderValue = ProductHeaderValue$instance & __ProductHeaderValue$views;
 
@@ -484,17 +504,19 @@ export class ProductInfoHeaderValue$instance {
     constructor(comment: string);
     readonly comment: string;
     readonly product: ProductHeaderValue;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): ProductInfoHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<ProductInfoHeaderValue> }): boolean;
+    static parse(input: string): ProductInfoHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<ProductInfoHeaderValue> }): boolean;
 }
 
 
 export interface __ProductInfoHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface ProductInfoHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type ProductInfoHeaderValue = ProductInfoHeaderValue$instance & __ProductInfoHeaderValue$views;
 
@@ -505,17 +527,19 @@ export class RangeConditionHeaderValue$instance {
     constructor(entityTag: string);
     readonly date: Nullable_1<DateTimeOffset>;
     readonly entityTag: EntityTagHeaderValue;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): RangeConditionHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<RangeConditionHeaderValue> }): boolean;
+    static parse(input: string): RangeConditionHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<RangeConditionHeaderValue> }): boolean;
 }
 
 
 export interface __RangeConditionHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface RangeConditionHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type RangeConditionHeaderValue = RangeConditionHeaderValue$instance & __RangeConditionHeaderValue$views;
 
@@ -525,17 +549,19 @@ export class RangeHeaderValue$instance {
     constructor(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>);
     readonly ranges: ICollection_1<RangeItemHeaderValue>;
     unit: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): RangeHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<RangeHeaderValue> }): boolean;
+    static parse(input: string): RangeHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<RangeHeaderValue> }): boolean;
 }
 
 
 export interface __RangeHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface RangeHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type RangeHeaderValue = RangeHeaderValue$instance & __RangeHeaderValue$views;
 
@@ -544,15 +570,17 @@ export class RangeItemHeaderValue$instance {
     constructor(from_: Nullable_1<CLROf<long>>, to: Nullable_1<CLROf<long>>);
     readonly from_: Nullable_1<CLROf<long>>;
     readonly to: Nullable_1<CLROf<long>>;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
 
 
 export interface __RangeItemHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface RangeItemHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type RangeItemHeaderValue = RangeItemHeaderValue$instance & __RangeItemHeaderValue$views;
 
@@ -562,17 +590,19 @@ export class RetryConditionHeaderValue$instance {
     constructor(delta: TimeSpan);
     readonly date: Nullable_1<DateTimeOffset>;
     readonly delta: Nullable_1<TimeSpan>;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): RetryConditionHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<RetryConditionHeaderValue> }): boolean;
+    static parse(input: string): RetryConditionHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<RetryConditionHeaderValue> }): boolean;
 }
 
 
 export interface __RetryConditionHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface RetryConditionHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type RetryConditionHeaderValue = RetryConditionHeaderValue$instance & __RetryConditionHeaderValue$views;
 
@@ -582,17 +612,19 @@ export class StringWithQualityHeaderValue$instance {
     constructor(value: string, quality: double);
     readonly quality: Nullable_1<CLROf<double>>;
     readonly value: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): StringWithQualityHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<StringWithQualityHeaderValue> }): boolean;
+    static parse(input: string): StringWithQualityHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<StringWithQualityHeaderValue> }): boolean;
 }
 
 
 export interface __StringWithQualityHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface StringWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type StringWithQualityHeaderValue = StringWithQualityHeaderValue$instance & __StringWithQualityHeaderValue$views;
 
@@ -601,17 +633,19 @@ export class TransferCodingHeaderValue$instance {
     constructor(value: string);
     readonly parameters: ICollection_1<NameValueHeaderValue>;
     readonly value: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): TransferCodingHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<TransferCodingHeaderValue> }): boolean;
+    static parse(input: string): TransferCodingHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<TransferCodingHeaderValue> }): boolean;
 }
 
 
 export interface __TransferCodingHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface TransferCodingHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type TransferCodingHeaderValue = TransferCodingHeaderValue$instance & __TransferCodingHeaderValue$views;
 
@@ -620,13 +654,15 @@ export class TransferCodingWithQualityHeaderValue$instance extends TransferCodin
     constructor(value: string);
     constructor(value: string, quality: double);
     quality: Nullable_1<CLROf<double>>;
-    clone(): any;
+    clone(): unknown;
 }
 
 
 export interface __TransferCodingWithQualityHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface TransferCodingWithQualityHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type TransferCodingWithQualityHeaderValue = TransferCodingWithQualityHeaderValue$instance & __TransferCodingWithQualityHeaderValue$views;
 
@@ -639,17 +675,19 @@ export class ViaHeaderValue$instance {
     readonly protocolName: string;
     readonly protocolVersion: string;
     readonly receivedBy: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): ViaHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<ViaHeaderValue> }): boolean;
+    static parse(input: string): ViaHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<ViaHeaderValue> }): boolean;
 }
 
 
 export interface __ViaHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface ViaHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type ViaHeaderValue = ViaHeaderValue$instance & __ViaHeaderValue$views;
 
@@ -661,17 +699,19 @@ export class WarningHeaderValue$instance {
     readonly code: int;
     readonly date: Nullable_1<DateTimeOffset>;
     readonly text: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Parse(input: string): WarningHeaderValue;
-    static TryParse(input: string, parsedValue: { value: ref<WarningHeaderValue> }): boolean;
+    static parse(input: string): WarningHeaderValue;
+    static tryParse(input: string, parsedValue: { value: ref<WarningHeaderValue> }): boolean;
 }
 
 
 export interface __WarningHeaderValue$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface WarningHeaderValue$instance extends System_Internal.ICloneable$instance {}
 
 export type WarningHeaderValue = WarningHeaderValue$instance & __WarningHeaderValue$views;
 

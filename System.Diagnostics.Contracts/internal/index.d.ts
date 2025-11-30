@@ -93,7 +93,7 @@ export class ContractException$instance extends System_Internal.Exception$instan
 
 
 export interface __ContractException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ContractException = ContractException$instance & __ContractException$views;
@@ -171,26 +171,26 @@ export class PureAttribute$instance extends System_Internal.Attribute$instance {
 export type PureAttribute = PureAttribute$instance;
 
 export abstract class Contract$instance {
-    static Assert(condition: boolean, userMessage: string): void;
-    static Assert(condition: boolean): void;
-    static Assume(condition: boolean, userMessage: string): void;
-    static Assume(condition: boolean): void;
-    static EndContractBlock(): void;
-    static Ensures(condition: boolean, userMessage: string): void;
-    static Ensures(condition: boolean): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
-    static EnsuresOnThrow<TException extends Exception>(condition: boolean): void;
-    static Exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static Exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static ForAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
-    static ForAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
-    static Invariant(condition: boolean, userMessage: string): void;
-    static Invariant(condition: boolean): void;
-    static OldValue<T>(value: T): T;
-    static Requires(condition: boolean, userMessage: string): void;
-    static Requires(condition: boolean): void;
-    static Result<T>(): T;
-    static ValueAtReturn<T>(value: { value: ref<T> }): T;
+    static assert2(condition: boolean, userMessage: string): void;
+    static assert2(condition: boolean): void;
+    static assume2(condition: boolean, userMessage: string): void;
+    static assume2(condition: boolean): void;
+    static endContractBlock(): void;
+    static ensures2(condition: boolean, userMessage: string): void;
+    static ensures2(condition: boolean): void;
+    static ensuresOnThrow2<TException extends Exception>(condition: boolean, userMessage: string): void;
+    static ensuresOnThrow2<TException extends Exception>(condition: boolean): void;
+    static exists2<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static exists2(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static forAll2<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
+    static forAll2(fromInclusive: int, toExclusive: int, predicate: Predicate_1<CLROf<int>>): boolean;
+    static invariant2(condition: boolean, userMessage: string): void;
+    static invariant2(condition: boolean): void;
+    static oldValue<T>(value: T): T;
+    static requires2(condition: boolean, userMessage: string): void;
+    static requires2(condition: boolean): void;
+    static result<T>(): T;
+    static valueAtReturn<T>(value: { value: ref<T> }): T;
 }
 
 

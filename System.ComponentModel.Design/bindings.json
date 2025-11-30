@@ -7453,7 +7453,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.CommandID::ID:System.Int32",
           "clrName": "ID",
-          "tsEmitName": "id",
+          "tsEmitName": "ID",
           "metadataToken": 385876356,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "ID|:System.Int32|static=false|accessor=get",
@@ -7557,7 +7557,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "id",
+          "tsName": "ID",
           "isStatic": false,
           "tsSignatureId": "ID|:System.Int32|static=false|accessor=get",
           "target": {

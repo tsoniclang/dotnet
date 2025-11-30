@@ -141,7 +141,7 @@ export class ClientWebSocket$instance extends WebSocket$instance {
 
 
 export interface __ClientWebSocket$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type ClientWebSocket = ClientWebSocket$instance & __ClientWebSocket$views;
@@ -201,20 +201,22 @@ export abstract class WebSocket$instance {
     sendAsync(buffer: ArraySegment_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
     sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
     sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
-    static readonly DefaultKeepAliveInterval: TimeSpan;
-    static CreateClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<CLROf<byte>>;
-    static CreateClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<CLROf<byte>>): WebSocket;
-    static CreateFromStream(stream: Stream, isServer: boolean, subProtocol: string, keepAliveInterval: TimeSpan): WebSocket;
-    static CreateFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
-    static CreateServerBuffer(receiveBufferSize: int): ArraySegment_1<CLROf<byte>>;
-    static IsApplicationTargeting45(): boolean;
-    static RegisterPrefixes(): void;
+    static readonly defaultKeepAliveInterval: TimeSpan;
+    static createClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<CLROf<byte>>;
+    static createClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<CLROf<byte>>): WebSocket;
+    static createFromStream(stream: Stream, isServer: boolean, subProtocol: string, keepAliveInterval: TimeSpan): WebSocket;
+    static createFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
+    static createServerBuffer(receiveBufferSize: int): ArraySegment_1<CLROf<byte>>;
+    static isApplicationTargeting45(): boolean;
+    static registerPrefixes(): void;
 }
 
 
 export interface __WebSocket$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface WebSocket$instance extends System_Internal.IDisposable$instance {}
 
 export type WebSocket = WebSocket$instance & __WebSocket$views;
 
@@ -282,7 +284,7 @@ export class WebSocketException$instance extends System_ComponentModel_Internal.
 
 
 export interface __WebSocketException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type WebSocketException = WebSocketException$instance & __WebSocketException$views;
@@ -308,8 +310,8 @@ export class WebSocketStream$instance extends System_IO_Internal.Stream$instance
     readonly length: long;
     position: long;
     readonly webSocket: WebSocket;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
@@ -332,16 +334,16 @@ export class WebSocketStream$instance extends System_IO_Internal.Stream$instance
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
-    static Create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, ownsWebSocket?: boolean): WebSocketStream;
-    static Create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, closeTimeout: TimeSpan): WebSocketStream;
-    static CreateReadableMessageStream(webSocket: WebSocket): WebSocketStream;
-    static CreateWritableMessageStream(webSocket: WebSocket, writeMessageType: WebSocketMessageType): WebSocketStream;
+    static create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, ownsWebSocket?: boolean): WebSocketStream;
+    static create(webSocket: WebSocket, writeMessageType: WebSocketMessageType, closeTimeout: TimeSpan): WebSocketStream;
+    static createReadableMessageStream(webSocket: WebSocket): WebSocketStream;
+    static createWritableMessageStream(webSocket: WebSocket, writeMessageType: WebSocketMessageType): WebSocketStream;
 }
 
 
 export interface __WebSocketStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type WebSocketStream = WebSocketStream$instance & __WebSocketStream$views;

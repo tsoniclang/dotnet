@@ -7,12 +7,12 @@ import * as Internal from './internal/index.js';
 
 // Cross-namespace type imports for constraints
 import type { ICollection } from '../System.Collections/internal/index.js';
-import type { DesignerTransaction, DesignerTransactionCloseEventHandler, IDesigner, ServiceCreatorCallback } from '../System.ComponentModel.Design/internal/index.js';
+import type { DesignerTransaction, DesignerTransactionCloseEventHandler, IDesigner, IDesignerHost, IServiceContainer, ServiceCreatorCallback } from '../System.ComponentModel.Design/internal/index.js';
 import type { IComponent, IContainer, MemberDescriptor, PropertyDescriptorCollection } from '../System.ComponentModel/internal/index.js';
 import type { Stream } from '../System.IO/internal/index.js';
 import type { MemberInfo, MethodInfo } from '../System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from '../System.Runtime.Serialization/internal/index.js';
-import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, EventArgs, EventHandler, IAsyncResult, ICloneable, IDisposable, IEquatable_1, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, Type, ValueType, Void } from '../System/internal/index.js';
+import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, EventArgs, EventHandler, IAsyncResult, ICloneable, IDisposable, IEquatable_1, Int32, IntPtr, IServiceProvider, MulticastDelegate, Object as ClrObject, String as ClrString, Type, ValueType, Void } from '../System/internal/index.js';
 
 export * from './internal/index.js';
 

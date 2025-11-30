@@ -50,25 +50,27 @@ export enum OperationStatus {
 
 
 export interface IBufferWriter_1$instance<T> {
-    Advance(count: int): void;
-    GetMemory(sizeHint?: int): Memory_1<T>;
-    GetSpan(sizeHint?: int): Span_1<T>;
+    advance(count: int): void;
+    getMemory(sizeHint?: int): Memory_1<T>;
+    getSpan(sizeHint?: int): Span_1<T>;
 }
 
 
 export type IBufferWriter_1<T> = IBufferWriter_1$instance<T>;
 
-export interface IMemoryOwner_1$instance<T> {
-    readonly Memory: Memory_1<T>;
-    Dispose(): void;
+export interface IMemoryOwner_1$instance<T> extends IDisposable {
+    readonly memory: Memory_1<T>;
+    dispose(): void;
 }
 
+
+export interface IMemoryOwner_1$instance<T> extends System_Internal.IDisposable$instance {}
 
 export type IMemoryOwner_1<T> = IMemoryOwner_1$instance<T>;
 
 export interface IPinnable$instance {
-    Pin(elementIndex: int): MemoryHandle;
-    Unpin(): void;
+    pin(elementIndex: int): MemoryHandle;
+    unpin(): void;
 }
 
 
@@ -82,8 +84,10 @@ export class MemoryHandle$instance {
 
 
 export interface __MemoryHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryHandle = MemoryHandle$instance & __MemoryHandle$views;
 
@@ -173,25 +177,25 @@ export class SequenceReader_1$instance<T extends IEquatable_1<T>> {
 export type SequenceReader_1<T extends IEquatable_1<T>> = SequenceReader_1$instance<T>;
 
 export class StandardFormat$instance {
-    constructor(symbol_: string, precision: byte);
+    constructor(symbol_: char, precision: byte);
     readonly hasPrecision: boolean;
     readonly isDefault: boolean;
     readonly precision: byte;
-    readonly symbol_: string;
-    equals(obj: any): boolean;
+    readonly symbol_: char;
+    equals(obj: unknown): boolean;
     equals(other: StandardFormat): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly NoPrecision: byte;
-    static readonly MaxPrecision: byte;
-    static Parse(format: ReadOnlySpan_1<CLROf<string>>): StandardFormat;
-    static Parse(format: string): StandardFormat;
-    static TryParse(format: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<StandardFormat> }): boolean;
+    static readonly noPrecision: byte;
+    static readonly maxPrecision: byte;
+    static parse(format: ReadOnlySpan_1<CLROf<char>>): StandardFormat;
+    static parse(format: string): StandardFormat;
+    static tryParse(format: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<StandardFormat> }): boolean;
 }
 
 
 export interface __StandardFormat$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<StandardFormat>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<StandardFormat>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: StandardFormat): boolean;
@@ -217,8 +221,10 @@ export class ArrayBufferWriter_1$instance<T> {
 
 
 export interface __ArrayBufferWriter_1$views<T> {
-    readonly As_IBufferWriter_1: IBufferWriter_1$instance<T>;
+    As_IBufferWriter_1(): IBufferWriter_1$instance<T>;
 }
+
+export interface ArrayBufferWriter_1$instance<T> extends IBufferWriter_1$instance<T> {}
 
 export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBufferWriter_1$views<T>;
 
@@ -226,9 +232,9 @@ export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBu
 export abstract class ArrayPool_1$instance<T> {
     abstract rent(minimumLength: int): T[];
     abstract return_(array: T[], clearArray?: boolean): void;
-    static readonly Shared: unknown;
-    static Create<T>(): ArrayPool_1<T>;
-    static Create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
+    static readonly shared: unknown;
+    static create<T>(): ArrayPool_1<T>;
+    static create<T>(maxArrayLength: int, maxArraysPerBucket: int): ArrayPool_1<T>;
 }
 
 
@@ -243,10 +249,12 @@ export abstract class MemoryManager_1$instance<T> {
 
 
 export interface __MemoryManager_1$views<T> {
-    readonly As_IMemoryOwner_1: IMemoryOwner_1$instance<T>;
-    readonly As_IPinnable: IPinnable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IMemoryOwner_1(): IMemoryOwner_1$instance<T>;
+    As_IPinnable(): IPinnable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryManager_1$instance<T> extends IMemoryOwner_1$instance<T> {}
 
 export type MemoryManager_1<T> = MemoryManager_1$instance<T> & __MemoryManager_1$views<T>;
 
@@ -255,13 +263,15 @@ export abstract class MemoryPool_1$instance<T> {
     readonly maxBufferSize: int;
     dispose(): void;
     abstract rent(minBufferSize?: int): IMemoryOwner_1<T>;
-    static readonly Shared: unknown;
+    static readonly shared: unknown;
 }
 
 
 export interface __MemoryPool_1$views<T> {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryPool_1$instance<T> extends System_Internal.IDisposable$instance {}
 
 export type MemoryPool_1<T> = MemoryPool_1$instance<T> & __MemoryPool_1$views<T>;
 
@@ -276,9 +286,9 @@ export abstract class ReadOnlySequenceSegment_1$instance<T> {
 export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
 
 export class ReadOnlySpanAction_2$instance<T, TArg> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(span: ReadOnlySpan_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(span: ReadOnlySpan_1<T>, arg: TArg): void;
@@ -286,8 +296,8 @@ export class ReadOnlySpanAction_2$instance<T, TArg> extends Function {
 
 
 export interface __ReadOnlySpanAction_2$views<T, TArg> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ReadOnlySpanAction_2<T, TArg> = ReadOnlySpanAction_2$instance<T, TArg> & __ReadOnlySpanAction_2$views<T, TArg>;
@@ -301,9 +311,9 @@ export class SearchValues_1$instance<T extends IEquatable_1<T>> {
 export type SearchValues_1<T extends IEquatable_1<T>> = SearchValues_1$instance<T>;
 
 export class SpanAction_2$instance<T, TArg> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(span: Span_1<T>, arg: TArg, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(span: Span_1<T>, arg: TArg): void;
@@ -311,39 +321,39 @@ export class SpanAction_2$instance<T, TArg> extends Function {
 
 
 export interface __SpanAction_2$views<T, TArg> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SpanAction_2<T, TArg> = SpanAction_2$instance<T, TArg> & __SpanAction_2$views<T, TArg>;
 
 
 export abstract class BuffersExtensions$instance {
-    static CopyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;
-    static PositionOf<T extends IEquatable_1<T>>(source: { value: ref<ReadOnlySequence_1<T>> }, value: T): Nullable_1<SequencePosition>;
-    static ToArray<T>(sequence: { value: ref<ReadOnlySequence_1<T>> }): T[];
-    static Write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
+    static copyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;
+    static positionOf<T extends IEquatable_1<T>>(source: { value: ref<ReadOnlySequence_1<T>> }, value: T): Nullable_1<SequencePosition>;
+    static toArray<T>(sequence: { value: ref<ReadOnlySequence_1<T>> }): T[];
+    static write<T>(writer: IBufferWriter_1<T>, value: ReadOnlySpan_1<T>): void;
 }
 
 
 export type BuffersExtensions = BuffersExtensions$instance;
 
 export abstract class SearchValues$instance {
-    static Create(values: ReadOnlySpan_1<CLROf<byte>>): SearchValues_1<CLROf<byte>>;
-    static Create(values: ReadOnlySpan_1<CLROf<string>>): SearchValues_1<CLROf<string>>;
-    static Create(values: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): SearchValues_1<CLROf<string>>;
+    static create(values: ReadOnlySpan_1<CLROf<byte>>): SearchValues_1<CLROf<byte>>;
+    static create(values: ReadOnlySpan_1<CLROf<char>>): SearchValues_1<CLROf<char>>;
+    static create(values: ReadOnlySpan_1<CLROf<string>>, comparisonType: StringComparison): SearchValues_1<CLROf<string>>;
 }
 
 
 export type SearchValues = SearchValues$instance;
 
 export abstract class SequenceReaderExtensions$instance {
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
-    static TryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
-    static TryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
+    static tryReadBigEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<short> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<int> }): boolean;
+    static tryReadLittleEndian(reader: { value: ref<SequenceReader_1<CLROf<byte>>> }, value: { value: ref<long> }): boolean;
 }
 
 

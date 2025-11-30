@@ -38,7 +38,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::V7System.Formats.Tar.TarEntryFormat",
           "clrName": "V7",
-          "tsEmitName": "v7",
+          "tsEmitName": "V7",
           "normalizedSignature": "V7|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

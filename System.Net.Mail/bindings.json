@@ -10692,7 +10692,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::CC:System.Net.Mail.MailAddressCollection",
           "clrName": "CC",
-          "tsEmitName": "cc",
+          "tsEmitName": "CC",
           "metadataToken": 385876088,
           "canonicalSignature": ":System.Net.Mail.MailAddressCollection",
           "normalizedSignature": "CC|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
@@ -11060,7 +11060,7 @@
           }
         },
         {
-          "tsName": "cc",
+          "tsName": "CC",
           "isStatic": false,
           "tsSignatureId": "CC|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "target": {

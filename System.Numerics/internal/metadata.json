@@ -666,7 +666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2000,7 +2000,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2554,7 +2554,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2947,7 +2947,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3592,7 +3592,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3985,7 +3985,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4379,7 +4379,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5915,7 +5915,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6689,7 +6689,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPointConstants\u00601::E:TSelf",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:TSelf|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9188,23 +9188,6 @@
           "isStatic": false,
           "parameterCount": 3
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Numerics.IBinaryNumber\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 19
-        },
-        {
-          "interfaceClrName": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.Numerics.ISignedNumber\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 18
-        }
       ]
     },
     {
@@ -10874,23 +10857,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.ISpanFormattable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.Numerics.IMultiplicativeIdentity\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        },
-        {
-          "interfaceClrName": "System.Numerics.ISignedNumber\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 20
-        }
       ]
     },
     {
@@ -11547,7 +11513,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::X:System.Numerics.Vector2",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Numerics.Vector2|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11562,7 +11528,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::Y:System.Numerics.Vector2",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Numerics.Vector2|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11577,7 +11543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::Z:System.Numerics.Vector2",
           "clrName": "Z",
-          "tsEmitName": "z",
+          "tsEmitName": "Z",
           "normalizedSignature": "Z|:System.Numerics.Vector2|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11594,7 +11560,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M11System.Single",
           "clrName": "M11",
-          "tsEmitName": "m11",
+          "tsEmitName": "M11",
           "normalizedSignature": "M11|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11603,7 +11569,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M12System.Single",
           "clrName": "M12",
-          "tsEmitName": "m12",
+          "tsEmitName": "M12",
           "normalizedSignature": "M12|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11612,7 +11578,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M21System.Single",
           "clrName": "M21",
-          "tsEmitName": "m21",
+          "tsEmitName": "M21",
           "normalizedSignature": "M21|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11621,7 +11587,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M22System.Single",
           "clrName": "M22",
-          "tsEmitName": "m22",
+          "tsEmitName": "M22",
           "normalizedSignature": "M22|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11630,7 +11596,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M31System.Single",
           "clrName": "M31",
-          "tsEmitName": "m31",
+          "tsEmitName": "M31",
           "normalizedSignature": "M31|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -11639,7 +11605,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix3x2::M32System.Single",
           "clrName": "M32",
-          "tsEmitName": "m32",
+          "tsEmitName": "M32",
           "normalizedSignature": "M32|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12821,7 +12787,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::X:System.Numerics.Vector4",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Numerics.Vector4|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12836,7 +12802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::Y:System.Numerics.Vector4",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Numerics.Vector4|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12851,7 +12817,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::Z:System.Numerics.Vector4",
           "clrName": "Z",
-          "tsEmitName": "z",
+          "tsEmitName": "Z",
           "normalizedSignature": "Z|:System.Numerics.Vector4|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12866,7 +12832,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::W:System.Numerics.Vector4",
           "clrName": "W",
-          "tsEmitName": "w",
+          "tsEmitName": "W",
           "normalizedSignature": "W|:System.Numerics.Vector4|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12883,7 +12849,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M11System.Single",
           "clrName": "M11",
-          "tsEmitName": "m11",
+          "tsEmitName": "M11",
           "normalizedSignature": "M11|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12892,7 +12858,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M12System.Single",
           "clrName": "M12",
-          "tsEmitName": "m12",
+          "tsEmitName": "M12",
           "normalizedSignature": "M12|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12901,7 +12867,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M13System.Single",
           "clrName": "M13",
-          "tsEmitName": "m13",
+          "tsEmitName": "M13",
           "normalizedSignature": "M13|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12910,7 +12876,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M14System.Single",
           "clrName": "M14",
-          "tsEmitName": "m14",
+          "tsEmitName": "M14",
           "normalizedSignature": "M14|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12919,7 +12885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M21System.Single",
           "clrName": "M21",
-          "tsEmitName": "m21",
+          "tsEmitName": "M21",
           "normalizedSignature": "M21|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12928,7 +12894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M22System.Single",
           "clrName": "M22",
-          "tsEmitName": "m22",
+          "tsEmitName": "M22",
           "normalizedSignature": "M22|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12937,7 +12903,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M23System.Single",
           "clrName": "M23",
-          "tsEmitName": "m23",
+          "tsEmitName": "M23",
           "normalizedSignature": "M23|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12946,7 +12912,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M24System.Single",
           "clrName": "M24",
-          "tsEmitName": "m24",
+          "tsEmitName": "M24",
           "normalizedSignature": "M24|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12955,7 +12921,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M31System.Single",
           "clrName": "M31",
-          "tsEmitName": "m31",
+          "tsEmitName": "M31",
           "normalizedSignature": "M31|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12964,7 +12930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M32System.Single",
           "clrName": "M32",
-          "tsEmitName": "m32",
+          "tsEmitName": "M32",
           "normalizedSignature": "M32|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12973,7 +12939,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M33System.Single",
           "clrName": "M33",
-          "tsEmitName": "m33",
+          "tsEmitName": "M33",
           "normalizedSignature": "M33|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12982,7 +12948,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M34System.Single",
           "clrName": "M34",
-          "tsEmitName": "m34",
+          "tsEmitName": "M34",
           "normalizedSignature": "M34|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -12991,7 +12957,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M41System.Single",
           "clrName": "M41",
-          "tsEmitName": "m41",
+          "tsEmitName": "M41",
           "normalizedSignature": "M41|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13000,7 +12966,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M42System.Single",
           "clrName": "M42",
-          "tsEmitName": "m42",
+          "tsEmitName": "M42",
           "normalizedSignature": "M42|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13009,7 +12975,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M43System.Single",
           "clrName": "M43",
-          "tsEmitName": "m43",
+          "tsEmitName": "M43",
           "normalizedSignature": "M43|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13018,7 +12984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Matrix4x4::M44System.Single",
           "clrName": "M44",
-          "tsEmitName": "m44",
+          "tsEmitName": "M44",
           "normalizedSignature": "M44|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13306,7 +13272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Plane::DSystem.Single",
           "clrName": "D",
-          "tsEmitName": "d",
+          "tsEmitName": "D",
           "normalizedSignature": "D|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13811,7 +13777,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Quaternion::XSystem.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13820,7 +13786,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Quaternion::YSystem.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13829,7 +13795,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Quaternion::ZSystem.Single",
           "clrName": "Z",
-          "tsEmitName": "z",
+          "tsEmitName": "Z",
           "normalizedSignature": "Z|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -13838,7 +13804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Quaternion::WSystem.Single",
           "clrName": "W",
-          "tsEmitName": "w",
+          "tsEmitName": "W",
           "normalizedSignature": "W|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -16405,7 +16371,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector2::E:System.Numerics.Vector2",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:System.Numerics.Vector2|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16602,7 +16568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector2::XSystem.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -16611,7 +16577,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector2::YSystem.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -18606,7 +18572,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::E:System.Numerics.Vector3",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:System.Numerics.Vector3|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18818,7 +18784,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::XSystem.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -18827,7 +18793,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::YSystem.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -18836,7 +18802,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::ZSystem.Single",
           "clrName": "Z",
-          "tsEmitName": "z",
+          "tsEmitName": "Z",
           "normalizedSignature": "Z|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -20884,7 +20850,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::E:System.Numerics.Vector4",
           "clrName": "E",
-          "tsEmitName": "e",
+          "tsEmitName": "E",
           "normalizedSignature": "E|:System.Numerics.Vector4|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21111,7 +21077,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::XSystem.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -21120,7 +21086,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::YSystem.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -21129,7 +21095,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::ZSystem.Single",
           "clrName": "Z",
-          "tsEmitName": "z",
+          "tsEmitName": "Z",
           "normalizedSignature": "Z|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -21138,7 +21104,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::WSystem.Single",
           "clrName": "W",
-          "tsEmitName": "w",
+          "tsEmitName": "W",
           "normalizedSignature": "W|System.Single|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

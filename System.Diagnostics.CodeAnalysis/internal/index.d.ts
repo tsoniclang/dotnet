@@ -77,8 +77,8 @@ export type AllowNullAttribute = AllowNullAttribute$instance;
 
 export class ConstantExpectedAttribute$instance extends System_Internal.Attribute$instance {
     constructor();
-    max: any;
-    min: any;
+    max: unknown;
+    min: unknown;
 }
 
 
@@ -261,21 +261,21 @@ export type SetsRequiredMembersAttribute = SetsRequiredMembersAttribute$instance
 
 export class StringSyntaxAttribute$instance extends System_Internal.Attribute$instance {
     constructor(syntax: string);
-    constructor(syntax: string, arguments: any[]);
-    readonly arguments: any[];
+    constructor(syntax: string, arguments: unknown[]);
+    readonly arguments: unknown[];
     readonly syntax: string;
-    static readonly CompositeFormat: string;
-    static readonly DateOnlyFormat: string;
-    static readonly DateTimeFormat: string;
-    static readonly EnumFormat: string;
-    static readonly GuidFormat: string;
-    static readonly Json: string;
-    static readonly NumericFormat: string;
-    static readonly Regex: string;
-    static readonly TimeOnlyFormat: string;
-    static readonly TimeSpanFormat: string;
-    static readonly Uri: string;
-    static readonly Xml: string;
+    static readonly compositeFormat: string;
+    static readonly dateOnlyFormat: string;
+    static readonly dateTimeFormat: string;
+    static readonly enumFormat: string;
+    static readonly guidFormat: string;
+    static readonly json: string;
+    static readonly numericFormat: string;
+    static readonly regex: string;
+    static readonly timeOnlyFormat: string;
+    static readonly timeSpanFormat: string;
+    static readonly uri: string;
+    static readonly xml: string;
 }
 
 

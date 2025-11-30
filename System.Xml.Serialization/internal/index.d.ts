@@ -64,17 +64,17 @@ export enum XmlMappingAccess {
 
 
 export interface IXmlSerializable$instance {
-    GetSchema(): XmlSchema;
-    ReadXml(reader: XmlReader): void;
-    WriteXml(writer: XmlWriter): void;
+    getSchema(): XmlSchema;
+    readXml(reader: XmlReader): void;
+    writeXml(writer: XmlWriter): void;
 }
 
 
 export type IXmlSerializable = IXmlSerializable$instance;
 
 export interface IXmlTextParser$instance {
-    Normalized: boolean;
-    WhitespaceHandling: WhitespaceHandling;
+    normalized: boolean;
+    whitespaceHandling: WhitespaceHandling;
 }
 
 
@@ -92,9 +92,9 @@ export type XmlDeserializationEvents = XmlDeserializationEvents$instance;
 
 export class CodeIdentifier$instance {
     constructor();
-    static MakeCamel(identifier: string): string;
-    static MakePascal(identifier: string): string;
-    static MakeValid(identifier: string): string;
+    static makeCamel(identifier: string): string;
+    static makePascal(identifier: string): string;
+    static makeValid(identifier: string): string;
 }
 
 
@@ -104,16 +104,16 @@ export class CodeIdentifiers$instance {
     constructor();
     constructor(caseSensitive: boolean);
     useCamelCasing: boolean;
-    add(identifier: string, value: any): void;
+    add(identifier: string, value: unknown): void;
     addReserved(identifier: string): void;
-    addUnique(identifier: string, value: any): string;
+    addUnique(identifier: string, value: unknown): string;
     clear(): void;
     isInUse(identifier: string): boolean;
     makeRightCase(identifier: string): string;
     makeUnique(identifier: string): string;
     remove(identifier: string): void;
     removeReserved(identifier: string): void;
-    toArray(type_: Type): any;
+    toArray(type_: Type): unknown;
 }
 
 
@@ -161,7 +161,7 @@ export class SoapAttributes$instance {
     constructor();
     constructor(provider: ICustomAttributeProvider);
     soapAttribute: SoapAttributeAttribute;
-    soapDefaultValue: any;
+    soapDefaultValue: unknown;
     soapElement: SoapElementAttribute;
     soapEnum: SoapEnumAttribute;
     soapIgnore: boolean;
@@ -246,27 +246,27 @@ export class SoapTypeAttribute$instance extends System_Internal.Attribute$instan
 export type SoapTypeAttribute = SoapTypeAttribute$instance;
 
 export class UnreferencedObjectEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(o: any, id: string);
+    constructor(o: unknown, id: string);
     readonly unreferencedId: string;
-    readonly unreferencedObject: any;
+    readonly unreferencedObject: unknown;
 }
 
 
 export type UnreferencedObjectEventArgs = UnreferencedObjectEventArgs$instance;
 
 export class UnreferencedObjectEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: UnreferencedObjectEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: UnreferencedObjectEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: UnreferencedObjectEventArgs): void;
+    invoke(sender: unknown, e: UnreferencedObjectEventArgs): void;
 }
 
 
 export interface __UnreferencedObjectEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type UnreferencedObjectEventHandler = UnreferencedObjectEventHandler$instance & __UnreferencedObjectEventHandler$views;
@@ -294,22 +294,22 @@ export type XmlAnyElementAttribute = XmlAnyElementAttribute$instance;
 export class XmlAnyElementAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     item: XmlAnyElementAttribute;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     indexOf(attribute: XmlAnyElementAttribute): int;
-    insert(index: int, value: any): void;
-    remove(value: any): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __XmlAnyElementAttributes$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlAnyElementAttributes = XmlAnyElementAttributes$instance & __XmlAnyElementAttributes$views;
@@ -348,22 +348,22 @@ export type XmlArrayItemAttribute = XmlArrayItemAttribute$instance;
 export class XmlArrayItemAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     item: XmlArrayItemAttribute;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     indexOf(attribute: XmlArrayItemAttribute): int;
-    insert(index: int, value: any): void;
-    remove(value: any): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __XmlArrayItemAttributes$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlArrayItemAttributes = XmlArrayItemAttributes$instance & __XmlArrayItemAttributes$views;
@@ -389,25 +389,25 @@ export class XmlAttributeEventArgs$instance extends System_Internal.EventArgs$in
     readonly expectedAttributes: string;
     readonly lineNumber: int;
     readonly linePosition: int;
-    readonly objectBeingDeserialized: any;
+    readonly objectBeingDeserialized: unknown;
 }
 
 
 export type XmlAttributeEventArgs = XmlAttributeEventArgs$instance;
 
 export class XmlAttributeEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: XmlAttributeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: XmlAttributeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: XmlAttributeEventArgs): void;
+    invoke(sender: unknown, e: XmlAttributeEventArgs): void;
 }
 
 
 export interface __XmlAttributeEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlAttributeEventHandler = XmlAttributeEventHandler$instance & __XmlAttributeEventHandler$views;
@@ -433,7 +433,7 @@ export class XmlAttributes$instance {
     readonly xmlArrayItems: XmlArrayItemAttributes;
     xmlAttribute: XmlAttributeAttribute;
     readonly xmlChoiceIdentifier: XmlChoiceIdentifierAttribute;
-    xmlDefaultValue: any;
+    xmlDefaultValue: unknown;
     readonly xmlElements: XmlElementAttributes;
     xmlEnum: XmlEnumAttribute;
     xmlIgnore: boolean;
@@ -475,22 +475,22 @@ export type XmlElementAttribute = XmlElementAttribute$instance;
 export class XmlElementAttributes$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     item: XmlElementAttribute;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     indexOf(attribute: XmlElementAttribute): int;
-    insert(index: int, value: any): void;
-    remove(value: any): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __XmlElementAttributes$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlElementAttributes = XmlElementAttributes$instance & __XmlElementAttributes$views;
@@ -501,25 +501,25 @@ export class XmlElementEventArgs$instance extends System_Internal.EventArgs$inst
     readonly expectedElements: string;
     readonly lineNumber: int;
     readonly linePosition: int;
-    readonly objectBeingDeserialized: any;
+    readonly objectBeingDeserialized: unknown;
 }
 
 
 export type XmlElementEventArgs = XmlElementEventArgs$instance;
 
 export class XmlElementEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: XmlElementEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: XmlElementEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: XmlElementEventArgs): void;
+    invoke(sender: unknown, e: XmlElementEventArgs): void;
 }
 
 
 export interface __XmlElementEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlElementEventHandler = XmlElementEventHandler$instance & __XmlElementEventHandler$views;
@@ -598,7 +598,7 @@ export class XmlNodeEventArgs$instance extends System_Internal.EventArgs$instanc
     readonly name: string;
     readonly namespaceURI: string;
     readonly nodeType: XmlNodeType;
-    readonly objectBeingDeserialized: any;
+    readonly objectBeingDeserialized: unknown;
     readonly text: string;
 }
 
@@ -606,18 +606,18 @@ export class XmlNodeEventArgs$instance extends System_Internal.EventArgs$instanc
 export type XmlNodeEventArgs = XmlNodeEventArgs$instance;
 
 export class XmlNodeEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: XmlNodeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: XmlNodeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: XmlNodeEventArgs): void;
+    invoke(sender: unknown, e: XmlNodeEventArgs): void;
 }
 
 
 export interface __XmlNodeEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlNodeEventHandler = XmlNodeEventHandler$instance & __XmlNodeEventHandler$views;
@@ -668,7 +668,7 @@ export class XmlRootAttribute$instance extends System_Internal.Attribute$instanc
 
 export type XmlRootAttribute = XmlRootAttribute$instance;
 
-export class XmlSchemaEnumerator$instance {
+export class XmlSchemaEnumerator$instance implements System_Internal.IDisposable$instance {
     constructor(list: XmlSchemas);
     readonly current: XmlSchema;
     dispose(): void;
@@ -677,8 +677,8 @@ export class XmlSchemaEnumerator$instance {
 
 
 export interface __XmlSchemaEnumerator$views {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<XmlSchema>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<XmlSchema>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type XmlSchemaEnumerator = XmlSchemaEnumerator$instance & __XmlSchemaEnumerator$views;
@@ -728,67 +728,67 @@ export type XmlSchemaProviderAttribute = XmlSchemaProviderAttribute$instance;
 export class XmlSchemas$instance extends System_Collections_Internal.CollectionBase$instance {
     constructor();
     readonly isCompiled: boolean;
-    add(value: any): int;
+    add(value: unknown): int;
     addReference(schema: XmlSchema): void;
     clear(): void;
     compile(handler: ValidationEventHandler, fullCompile: boolean): void;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
-    find(name: XmlQualifiedName, type_: Type): any;
+    find(name: XmlQualifiedName, type_: Type): unknown;
     get_Item(index: int): XmlSchema;
     get_Item(ns: string): XmlSchema;
     getEnumerator(): IEnumerator;
     getSchemas(ns: string): IList;
     indexOf(schema: XmlSchema): int;
-    insert(index: int, value: any): void;
-    remove(value: any): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
     set_Item(index: int, value: XmlSchema): void;
-    static IsDataSet(schema: XmlSchema): boolean;
+    static isDataSet(schema: XmlSchema): boolean;
 }
 
 
 export interface __XmlSchemas$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<XmlSchema>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<XmlSchema>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlSchemas = XmlSchemas$instance & __XmlSchemas$views;
 
 
 export class XmlSerializationCollectionFixupCallback$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(collection: any, collectionItems: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(collection: unknown, collectionItems: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(collection: any, collectionItems: any): void;
+    invoke(collection: unknown, collectionItems: unknown): void;
 }
 
 
 export interface __XmlSerializationCollectionFixupCallback$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlSerializationCollectionFixupCallback = XmlSerializationCollectionFixupCallback$instance & __XmlSerializationCollectionFixupCallback$views;
 
 
 export class XmlSerializationFixupCallback$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(fixup: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(fixup: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(fixup: any): void;
+    invoke(fixup: unknown): void;
 }
 
 
 export interface __XmlSerializationFixupCallback$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlSerializationFixupCallback = XmlSerializationFixupCallback$instance & __XmlSerializationFixupCallback$views;
@@ -801,18 +801,18 @@ export abstract class XmlSerializationGeneratedCode$instance {
 export type XmlSerializationGeneratedCode = XmlSerializationGeneratedCode$instance;
 
 export class XmlSerializationReadCallback$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
-    endInvoke(result: IAsyncResult): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
+    endInvoke(result: IAsyncResult): unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): any;
+    invoke(): unknown;
 }
 
 
 export interface __XmlSerializationReadCallback$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlSerializationReadCallback = XmlSerializationReadCallback$instance & __XmlSerializationReadCallback$views;
@@ -825,18 +825,18 @@ export abstract class XmlSerializationReader$instance extends XmlSerializationGe
 export type XmlSerializationReader = XmlSerializationReader$instance;
 
 export class XmlSerializationWriteCallback$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(o: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(o: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(o: any): void;
+    invoke(o: unknown): void;
 }
 
 
 export interface __XmlSerializationWriteCallback$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XmlSerializationWriteCallback = XmlSerializationWriteCallback$instance & __XmlSerializationWriteCallback$views;
@@ -858,25 +858,25 @@ export class XmlSerializer$instance {
     constructor(type_: Type, defaultNamespace: string);
     constructor(type_: Type, overrides: XmlAttributeOverrides, extraTypes: Type[], root: XmlRootAttribute, defaultNamespace: string, location: string);
     canDeserialize(xmlReader: XmlReader): boolean;
-    deserialize(stream: Stream): any;
-    deserialize(textReader: TextReader): any;
-    deserialize(xmlReader: XmlReader): any;
-    deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): any;
-    deserialize(xmlReader: XmlReader, encodingStyle: string): any;
-    deserialize(xmlReader: XmlReader, encodingStyle: string, events: XmlDeserializationEvents): any;
-    serialize(textWriter: TextWriter, o: any): void;
-    serialize(textWriter: TextWriter, o: any, namespaces: XmlSerializerNamespaces): void;
-    serialize(stream: Stream, o: any): void;
-    serialize(stream: Stream, o: any, namespaces: XmlSerializerNamespaces): void;
-    serialize(xmlWriter: XmlWriter, o: any): void;
-    serialize(xmlWriter: XmlWriter, o: any, namespaces: XmlSerializerNamespaces): void;
-    serialize(xmlWriter: XmlWriter, o: any, namespaces: XmlSerializerNamespaces, encodingStyle: string): void;
-    serialize(xmlWriter: XmlWriter, o: any, namespaces: XmlSerializerNamespaces, encodingStyle: string, id: string): void;
-    static FromMappings(mappings: XmlMapping[], type_: Type): XmlSerializer[];
-    static FromMappings(mappings: XmlMapping[]): XmlSerializer[];
-    static FromTypes(types: Type[]): XmlSerializer[];
-    static GetXmlSerializerAssemblyName(type_: Type, defaultNamespace: string): string;
-    static GetXmlSerializerAssemblyName(type_: Type): string;
+    deserialize(stream: Stream): unknown;
+    deserialize(textReader: TextReader): unknown;
+    deserialize(xmlReader: XmlReader): unknown;
+    deserialize(xmlReader: XmlReader, events: XmlDeserializationEvents): unknown;
+    deserialize(xmlReader: XmlReader, encodingStyle: string): unknown;
+    deserialize(xmlReader: XmlReader, encodingStyle: string, events: XmlDeserializationEvents): unknown;
+    serialize(textWriter: TextWriter, o: unknown): void;
+    serialize(textWriter: TextWriter, o: unknown, namespaces: XmlSerializerNamespaces): void;
+    serialize(stream: Stream, o: unknown): void;
+    serialize(stream: Stream, o: unknown, namespaces: XmlSerializerNamespaces): void;
+    serialize(xmlWriter: XmlWriter, o: unknown): void;
+    serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces): void;
+    serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces, encodingStyle: string): void;
+    serialize(xmlWriter: XmlWriter, o: unknown, namespaces: XmlSerializerNamespaces, encodingStyle: string, id: string): void;
+    static fromMappings2(mappings: XmlMapping[], type_: Type): XmlSerializer[];
+    static fromMappings2(mappings: XmlMapping[]): XmlSerializer[];
+    static fromTypes(types: Type[]): XmlSerializer[];
+    static getXmlSerializerAssemblyName2(type_: Type, defaultNamespace: string): string;
+    static getXmlSerializerAssemblyName2(type_: Type): string;
 }
 
 

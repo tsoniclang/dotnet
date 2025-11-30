@@ -64,7 +64,7 @@ export enum AssemblyFlags {
 
 export enum AssemblyHashAlgorithm {
     none = 0,
-    md5 = 32771,
+    MD5 = 32771,
     sha1 = 32772,
     sha256 = 32780,
     sha384 = 32781,
@@ -182,10 +182,10 @@ export enum GenericParameterAttributes {
 
 
 export enum ImageFileMachine {
-    i386 = 332,
-    ia64 = 512,
-    amd64 = 34404,
-    arm = 452
+    I386 = 332,
+    IA64 = 512,
+    AMD64 = 34404,
+    ARM = 452
 }
 
 
@@ -239,9 +239,9 @@ export enum MethodAttributes {
 
 export enum MethodImplAttributes {
     codeTypeMask = 3,
-    il = 0,
+    IL = 0,
     native = 1,
-    optil = 2,
+    OPTIL = 2,
     runtime = 3,
     managedMask = 4,
     unmanaged = 4,
@@ -318,7 +318,7 @@ export enum PortableExecutableKinds {
     notAPortableExecutableImage = 0,
     ilOnly = 1,
     required32Bit = 2,
-    pe32Plus = 4,
+    pE32Plus = 4,
     unmanaged32Bit = 8,
     preferred32Bit = 16
 }
@@ -326,9 +326,9 @@ export enum PortableExecutableKinds {
 
 export enum ProcessorArchitecture {
     none = 0,
-    msil = 1,
-    x86 = 2,
-    ia64 = 3,
+    MSIL = 1,
+    X86 = 2,
+    IA64 = 3,
     amd64 = 4,
     arm = 5
 }
@@ -396,54 +396,54 @@ export enum TypeAttributes {
 
 
 export interface ICustomAttributeProvider$instance {
-    GetCustomAttributes(inherit: boolean): any[];
-    GetCustomAttributes(attributeType: Type, inherit: boolean): any[];
-    IsDefined(attributeType: Type, inherit: boolean): boolean;
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    isDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
 
 export type ICustomAttributeProvider = ICustomAttributeProvider$instance;
 
 export interface ICustomTypeProvider$instance {
-    GetCustomType(): Type;
+    getCustomType(): Type;
 }
 
 
 export type ICustomTypeProvider = ICustomTypeProvider$instance;
 
 export interface IReflect$instance {
-    readonly UnderlyingSystemType: Type;
-    GetField(name: string, bindingAttr: BindingFlags): FieldInfo;
-    GetFields(bindingAttr: BindingFlags): FieldInfo[];
-    GetMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    GetMembers(bindingAttr: BindingFlags): MemberInfo[];
-    GetMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
-    GetMethod(name: string, bindingAttr: BindingFlags): MethodInfo;
-    GetMethods(bindingAttr: BindingFlags): MethodInfo[];
-    GetProperties(bindingAttr: BindingFlags): PropertyInfo[];
-    GetProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
-    GetProperty(name: string, bindingAttr: BindingFlags): PropertyInfo;
-    InvokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
+    readonly underlyingSystemType: Type;
+    getField(name: string, bindingAttr: BindingFlags): FieldInfo;
+    getFields(bindingAttr: BindingFlags): FieldInfo[];
+    getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
+    getMembers(bindingAttr: BindingFlags): MemberInfo[];
+    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo;
+    getMethod(name: string, bindingAttr: BindingFlags): MethodInfo;
+    getMethods(bindingAttr: BindingFlags): MethodInfo[];
+    getProperties(bindingAttr: BindingFlags): PropertyInfo[];
+    getProperty2(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
+    getProperty2(name: string, bindingAttr: BindingFlags): PropertyInfo;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
 }
 
 
 export type IReflect = IReflect$instance;
 
 export interface IReflectableType$instance {
-    GetTypeInfo(): TypeInfo;
+    getTypeInfo(): TypeInfo;
 }
 
 
 export type IReflectableType = IReflectableType$instance;
 
 export class CustomAttributeNamedArgument$instance {
-    constructor(memberInfo: MemberInfo, value: any);
+    constructor(memberInfo: MemberInfo, value: unknown);
     constructor(memberInfo: MemberInfo, typedArgument: CustomAttributeTypedArgument);
     readonly isField: boolean;
     readonly memberInfo: MemberInfo;
     readonly memberName: string;
     readonly typedValue: CustomAttributeTypedArgument;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: CustomAttributeNamedArgument): boolean;
     getHashCode(): int;
     toString(): string;
@@ -451,7 +451,7 @@ export class CustomAttributeNamedArgument$instance {
 
 
 export interface __CustomAttributeNamedArgument$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<CustomAttributeNamedArgument>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<CustomAttributeNamedArgument>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: CustomAttributeNamedArgument): boolean;
@@ -461,11 +461,11 @@ export type CustomAttributeNamedArgument = CustomAttributeNamedArgument$instance
 
 
 export class CustomAttributeTypedArgument$instance {
-    constructor(argumentType: Type, value: any);
-    constructor(value: any);
+    constructor(argumentType: Type, value: unknown);
+    constructor(value: unknown);
     readonly argumentType: Type;
-    readonly value: any;
-    equals(obj: any): boolean;
+    readonly value: unknown;
+    equals(obj: unknown): boolean;
     equals(other: CustomAttributeTypedArgument): boolean;
     getHashCode(): int;
     toString(): string;
@@ -473,7 +473,7 @@ export class CustomAttributeTypedArgument$instance {
 
 
 export interface __CustomAttributeTypedArgument$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<CustomAttributeTypedArgument>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<CustomAttributeTypedArgument>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: CustomAttributeTypedArgument): boolean;
@@ -483,10 +483,10 @@ export type CustomAttributeTypedArgument = CustomAttributeTypedArgument$instance
 
 
 export class InterfaceMapping$instance {
-    TargetType: Type;
-    InterfaceType: Type;
-    TargetMethods: MethodInfo[];
-    InterfaceMethods: MethodInfo[];
+    targetType: Type;
+    interfaceType: Type;
+    targetMethods: MethodInfo[];
+    interfaceMethods: MethodInfo[];
 }
 
 
@@ -509,7 +509,7 @@ export class AmbiguousMatchException$instance extends System_Internal.SystemExce
 
 
 export interface __AmbiguousMatchException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AmbiguousMatchException = AmbiguousMatchException$instance & __AmbiguousMatchException$views;
@@ -534,12 +534,12 @@ export abstract class Assembly$instance {
     readonly modules: IEnumerable_1<Module>;
     readonly reflectionOnly: boolean;
     readonly securityRuleSet: SecurityRuleSet;
-    createInstance(typeName: string): any;
-    createInstance(typeName: string, ignoreCase: boolean): any;
-    createInstance(typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: any[], culture: CultureInfo, activationAttributes: any[]): any;
-    equals(o: any): boolean;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    createInstance(typeName: string): unknown;
+    createInstance(typeName: string, ignoreCase: boolean): unknown;
+    createInstance(typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown;
+    equals(o: unknown): boolean;
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getExportedTypes(): Type[];
     getFile(name: string): FileStream;
@@ -570,31 +570,33 @@ export abstract class Assembly$instance {
     loadModule(moduleName: string, rawModule: byte[]): Module;
     loadModule(moduleName: string, rawModule: byte[], rawSymbolStore: byte[]): Module;
     toString(): string;
-    static CreateQualifiedName(assemblyName: string, typeName: string): string;
-    static GetAssembly(type_: Type): Assembly;
-    static GetCallingAssembly(): Assembly;
-    static GetEntryAssembly(): Assembly;
-    static GetExecutingAssembly(): Assembly;
-    static Load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
-    static Load(rawAssembly: byte[]): Assembly;
-    static Load(assemblyRef: AssemblyName): Assembly;
-    static Load(assemblyString: string): Assembly;
-    static LoadFile(path: string): Assembly;
-    static LoadFrom(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
-    static LoadFrom(assemblyFile: string): Assembly;
-    static LoadWithPartialName(partialName: string): Assembly;
-    static ReflectionOnlyLoad(rawAssembly: byte[]): Assembly;
-    static ReflectionOnlyLoad(assemblyString: string): Assembly;
-    static ReflectionOnlyLoadFrom(assemblyFile: string): Assembly;
-    static SetEntryAssembly(assembly: Assembly): void;
-    static UnsafeLoadFrom(assemblyFile: string): Assembly;
+    static createQualifiedName(assemblyName: string, typeName: string): string;
+    static getAssembly(type_: Type): Assembly;
+    static getCallingAssembly(): Assembly;
+    static getEntryAssembly(): Assembly;
+    static getExecutingAssembly(): Assembly;
+    static load4(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
+    static load4(rawAssembly: byte[]): Assembly;
+    static load4(assemblyRef: AssemblyName): Assembly;
+    static load4(assemblyString: string): Assembly;
+    static loadFile(path: string): Assembly;
+    static loadFrom2(assemblyFile: string, hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm_Assemblies): Assembly;
+    static loadFrom2(assemblyFile: string): Assembly;
+    static loadWithPartialName(partialName: string): Assembly;
+    static reflectionOnlyLoad(rawAssembly: byte[]): Assembly;
+    static reflectionOnlyLoad(assemblyString: string): Assembly;
+    static reflectionOnlyLoadFrom(assemblyFile: string): Assembly;
+    static setEntryAssembly(assembly: Assembly): void;
+    static unsafeLoadFrom(assemblyFile: string): Assembly;
 }
 
 
 export interface __Assembly$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Assembly$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Assembly = Assembly$instance & __Assembly$views;
 
@@ -732,24 +734,26 @@ export class AssemblyName$instance {
     processorArchitecture: ProcessorArchitecture;
     version: Version;
     versionCompatibility: AssemblyVersionCompatibility;
-    clone(): any;
+    clone(): unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getPublicKey(): byte[];
     getPublicKeyToken(): byte[];
-    onDeserialization(sender: any): void;
+    onDeserialization(sender: unknown): void;
     setPublicKey(publicKey: byte[]): void;
     setPublicKeyToken(publicKeyToken: byte[]): void;
     toString(): string;
-    static GetAssemblyName(assemblyFile: string): AssemblyName;
-    static ReferenceMatchesDefinition(reference: AssemblyName, definition: AssemblyName): boolean;
+    static getAssemblyName(assemblyFile: string): AssemblyName;
+    static referenceMatchesDefinition(reference: AssemblyName, definition: AssemblyName): boolean;
 }
 
 
 export interface __AssemblyName$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface AssemblyName$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type AssemblyName = AssemblyName$instance & __AssemblyName$views;
 
@@ -804,10 +808,10 @@ export class AssemblyVersionAttribute$instance extends System_Internal.Attribute
 export type AssemblyVersionAttribute = AssemblyVersionAttribute$instance;
 
 export abstract class Binder$instance {
-    abstract bindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: any, culture: CultureInfo): FieldInfo;
-    abstract bindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: { value: ref<any[]> }, modifiers: ParameterModifier[], culture: CultureInfo, names: string[], state: { value: ref<any> }): MethodBase;
-    abstract changeType(value: any, type_: Type, culture: CultureInfo): any;
-    abstract reorderArgumentArray(args: { value: ref<any[]> }, state: any): void;
+    abstract bindToField(bindingAttr: BindingFlags, match: FieldInfo[], value: unknown, culture: CultureInfo): FieldInfo;
+    abstract bindToMethod(bindingAttr: BindingFlags, match: MethodBase[], args: { value: ref<unknown[]> }, modifiers: ParameterModifier[], culture: CultureInfo, names: string[], state: { value: ref<unknown> }): MethodBase;
+    abstract changeType(value: unknown, type_: Type, culture: CultureInfo): unknown;
+    abstract reorderArgumentArray(args: { value: ref<unknown[]> }, state: unknown): void;
     abstract selectMethod(bindingAttr: BindingFlags, match: MethodBase[], types: Type[], modifiers: ParameterModifier[]): MethodBase;
     abstract selectProperty(bindingAttr: BindingFlags, match: PropertyInfo[], returnType: Type, indexes: Type[], modifiers: ParameterModifier[]): PropertyInfo;
 }
@@ -817,12 +821,12 @@ export type Binder = Binder$instance;
 
 export abstract class ConstructorInfo$instance extends MethodBase$instance {
     readonly memberType: MemberTypes;
-    equals(obj: any): boolean;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    equals(obj: unknown): boolean;
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getHashCode(): int;
-    invoke(obj: any, parameters: any[]): any;
-    invoke(obj: any, invokeAttr: BindingFlags, binder: Binder, parameters: any[], culture: CultureInfo): any;
+    invoke(obj: unknown, parameters: unknown[]): unknown;
+    invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     static readonly constructorName: string;
     static readonly typeConstructorName: string;
@@ -830,20 +834,20 @@ export abstract class ConstructorInfo$instance extends MethodBase$instance {
 
 
 export interface __ConstructorInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type ConstructorInfo = ConstructorInfo$instance & __ConstructorInfo$views;
 
 
 export class ConstructorInvoker$instance {
-    invoke(): any;
-    invoke(arg1: any): any;
-    invoke(arg1: any, arg2: any): any;
-    invoke(arg1: any, arg2: any, arg3: any): any;
-    invoke(arg1: any, arg2: any, arg3: any, arg4: any): any;
-    invoke(arguments: Span_1<any>): any;
-    static Create(constructor_: ConstructorInfo): ConstructorInvoker;
+    invoke(): unknown;
+    invoke(arg1: unknown): unknown;
+    invoke(arg1: unknown, arg2: unknown): unknown;
+    invoke(arg1: unknown, arg2: unknown, arg3: unknown): unknown;
+    invoke(arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown;
+    invoke(arguments: Span_1<unknown>): unknown;
+    static create(constructor_: ConstructorInfo): ConstructorInvoker;
 }
 
 
@@ -855,10 +859,10 @@ export class CustomAttributeData$instance {
     readonly constructorArguments: IList_1<CustomAttributeTypedArgument>;
     readonly namedArguments: IList_1<CustomAttributeNamedArgument>;
     toString(): string;
-    static GetCustomAttributes(target: Assembly): IList_1<CustomAttributeData>;
-    static GetCustomAttributes(target: MemberInfo): IList_1<CustomAttributeData>;
-    static GetCustomAttributes(target: Module): IList_1<CustomAttributeData>;
-    static GetCustomAttributes(target: ParameterInfo): IList_1<CustomAttributeData>;
+    static getCustomAttributes3(target: Assembly): IList_1<CustomAttributeData>;
+    static getCustomAttributes3(target: MemberInfo): IList_1<CustomAttributeData>;
+    static getCustomAttributes3(target: Module): IList_1<CustomAttributeData>;
+    static getCustomAttributes3(target: ParameterInfo): IList_1<CustomAttributeData>;
 }
 
 
@@ -873,7 +877,7 @@ export class CustomAttributeFormatException$instance extends System_Internal.For
 
 
 export interface __CustomAttributeFormatException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type CustomAttributeFormatException = CustomAttributeFormatException$instance & __CustomAttributeFormatException$views;
@@ -888,8 +892,8 @@ export class DefaultMemberAttribute$instance extends System_Internal.Attribute$i
 export type DefaultMemberAttribute = DefaultMemberAttribute$instance;
 
 export abstract class DispatchProxy$instance {
-    static Create<T, TProxy extends DispatchProxy>(): T;
-    static Create(interfaceType: Type, proxyType: Type): any;
+    static create<T, TProxy extends DispatchProxy>(): T;
+    static create(interfaceType: Type, proxyType: Type): unknown;
 }
 
 
@@ -904,12 +908,12 @@ export abstract class EventInfo$instance extends MemberInfo$instance {
     readonly memberType: MemberTypes;
     readonly raiseMethod: MethodInfo;
     readonly removeMethod: MethodInfo;
-    addEventHandler(target: any, handler: Function): void;
-    equals(obj: any): boolean;
+    addEventHandler(target: unknown, handler: Function): void;
+    equals(obj: unknown): boolean;
     getAddMethod(): MethodInfo;
     getAddMethod(nonPublic: boolean): MethodInfo;
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    abstract getCustomAttributes(inherit: boolean): unknown[];
+    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getHashCode(): int;
     getOtherMethods(): MethodInfo[];
     getOtherMethods(nonPublic: boolean): MethodInfo[];
@@ -918,12 +922,12 @@ export abstract class EventInfo$instance extends MemberInfo$instance {
     getRemoveMethod(): MethodInfo;
     getRemoveMethod(nonPublic: boolean): MethodInfo;
     abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    removeEventHandler(target: any, handler: Function): void;
+    removeEventHandler(target: unknown, handler: Function): void;
 }
 
 
 export interface __EventInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type EventInfo = EventInfo$instance & __EventInfo$views;
@@ -963,27 +967,27 @@ export abstract class FieldInfo$instance extends MemberInfo$instance {
     readonly isSpecialName: boolean;
     readonly isStatic: boolean;
     readonly memberType: MemberTypes;
-    equals(obj: any): boolean;
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    equals(obj: unknown): boolean;
+    abstract getCustomAttributes(inherit: boolean): unknown[];
+    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getHashCode(): int;
     getModifiedFieldType(): Type;
     getOptionalCustomModifiers(): Type[];
-    getRawConstantValue(): any;
+    getRawConstantValue(): unknown;
     getRequiredCustomModifiers(): Type[];
-    abstract getValue(obj: any): any;
-    getValueDirect(obj: TypedReference): any;
+    abstract getValue(obj: unknown): unknown;
+    getValueDirect(obj: TypedReference): unknown;
     abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    setValue(obj: any, value: any): void;
-    setValue(obj: any, value: any, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
-    setValueDirect(obj: TypedReference, value: any): void;
-    static GetFieldFromHandle(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
-    static GetFieldFromHandle(handle: RuntimeFieldHandle): FieldInfo;
+    setValue(obj: unknown, value: unknown): void;
+    setValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, culture: CultureInfo): void;
+    setValueDirect(obj: TypedReference, value: unknown): void;
+    static getFieldFromHandle2(handle: RuntimeFieldHandle, declaringType: RuntimeTypeHandle): FieldInfo;
+    static getFieldFromHandle2(handle: RuntimeFieldHandle): FieldInfo;
 }
 
 
 export interface __FieldInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type FieldInfo = FieldInfo$instance & __FieldInfo$views;
@@ -998,7 +1002,7 @@ export class InvalidFilterCriteriaException$instance extends System_Internal.App
 
 
 export interface __InvalidFilterCriteriaException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidFilterCriteriaException = InvalidFilterCriteriaException$instance & __InvalidFilterCriteriaException$views;
@@ -1025,18 +1029,18 @@ export class ManifestResourceInfo$instance {
 export type ManifestResourceInfo = ManifestResourceInfo$instance;
 
 export class MemberFilter$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(m: MemberInfo, filterCriteria: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(m: MemberInfo, filterCriteria: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): boolean;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(m: MemberInfo, filterCriteria: any): boolean;
+    invoke(m: MemberInfo, filterCriteria: unknown): boolean;
 }
 
 
 export interface __MemberFilter$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MemberFilter = MemberFilter$instance & __MemberFilter$views;
@@ -1051,9 +1055,9 @@ export abstract class MemberInfo$instance {
     readonly module_: Module;
     readonly name: string;
     readonly reflectedType: Type;
-    equals(obj: any): boolean;
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    equals(obj: unknown): boolean;
+    abstract getCustomAttributes(inherit: boolean): unknown[];
+    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getHashCode(): int;
     hasSameMetadataDefinitionAs(other: MemberInfo): boolean;
@@ -1062,8 +1066,10 @@ export abstract class MemberInfo$instance {
 
 
 export interface __MemberInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
+
+export interface MemberInfo$instance extends ICustomAttributeProvider$instance {}
 
 export type MemberInfo = MemberInfo$instance & __MemberInfo$views;
 
@@ -1093,25 +1099,25 @@ export abstract class MethodBase$instance extends MemberInfo$instance {
     readonly isVirtual: boolean;
     readonly methodHandle: RuntimeMethodHandle;
     readonly methodImplementationFlags: MethodImplAttributes;
-    equals(obj: any): boolean;
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    equals(obj: unknown): boolean;
+    abstract getCustomAttributes(inherit: boolean): unknown[];
+    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGenericArguments(): Type[];
     getHashCode(): int;
     getMethodBody(): MethodBody;
     abstract getMethodImplementationFlags(): MethodImplAttributes;
     abstract getParameters(): ParameterInfo[];
-    invoke(obj: any, parameters: any[]): any;
-    invoke(obj: any, invokeAttr: BindingFlags, binder: Binder, parameters: any[], culture: CultureInfo): any;
+    invoke(obj: unknown, parameters: unknown[]): unknown;
+    invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
     abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    static GetCurrentMethod(): MethodBase;
-    static GetMethodFromHandle(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
-    static GetMethodFromHandle(handle: RuntimeMethodHandle): MethodBase;
+    static getCurrentMethod(): MethodBase;
+    static getMethodFromHandle2(handle: RuntimeMethodHandle, declaringType: RuntimeTypeHandle): MethodBase;
+    static getMethodFromHandle2(handle: RuntimeMethodHandle): MethodBase;
 }
 
 
 export interface __MethodBase$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type MethodBase = MethodBase$instance & __MethodBase$views;
@@ -1135,13 +1141,13 @@ export abstract class MethodInfo$instance extends MethodBase$instance {
     readonly returnType: Type;
     readonly returnTypeCustomAttributes: ICustomAttributeProvider;
     createDelegate(delegateType: Type): Function;
-    createDelegate(delegateType: Type, target: any): Function;
+    createDelegate(delegateType: Type, target: unknown): Function;
     createDelegate<T extends Function>(): T;
-    createDelegate<T extends Function>(target: any): T;
-    equals(obj: any): boolean;
+    createDelegate<T extends Function>(target: unknown): T;
+    equals(obj: unknown): boolean;
     abstract getBaseDefinition(): MethodInfo;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGenericArguments(): Type[];
     getGenericMethodDefinition(): MethodInfo;
     getHashCode(): int;
@@ -1151,20 +1157,20 @@ export abstract class MethodInfo$instance extends MethodBase$instance {
 
 
 export interface __MethodInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type MethodInfo = MethodInfo$instance & __MethodInfo$views;
 
 
 export class MethodInvoker$instance {
-    invoke(obj: any): any;
-    invoke(obj: any, arg1: any): any;
-    invoke(obj: any, arg1: any, arg2: any): any;
-    invoke(obj: any, arg1: any, arg2: any, arg3: any): any;
-    invoke(obj: any, arg1: any, arg2: any, arg3: any, arg4: any): any;
-    invoke(obj: any, arguments: Span_1<any>): any;
-    static Create(method: MethodBase): MethodInvoker;
+    invoke(obj: unknown): unknown;
+    invoke(obj: unknown, arg1: unknown): unknown;
+    invoke(obj: unknown, arg1: unknown, arg2: unknown): unknown;
+    invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown): unknown;
+    invoke(obj: unknown, arg1: unknown, arg2: unknown, arg3: unknown, arg4: unknown): unknown;
+    invoke(obj: unknown, arguments: Span_1<unknown>): unknown;
+    static create(method: MethodBase): MethodInvoker;
 }
 
 
@@ -1176,8 +1182,10 @@ export class Missing$instance {
 
 
 export interface __Missing$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Missing$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Missing = Missing$instance & __Missing$views;
 
@@ -1192,10 +1200,10 @@ export abstract class Module$instance {
     readonly moduleVersionId: Guid;
     readonly name: string;
     readonly scopeName: string;
-    equals(o: any): boolean;
-    findTypes(filter: TypeFilter, filterCriteria: any): Type[];
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    equals(o: unknown): boolean;
+    findTypes(filter: TypeFilter, filterCriteria: unknown): Type[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getField(name: string): FieldInfo;
     getField(name: string, bindingAttr: BindingFlags): FieldInfo;
@@ -1232,26 +1240,28 @@ export abstract class Module$instance {
 
 
 export interface __Module$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Module$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Module = Module$instance & __Module$views;
 
 
 export class ModuleResolveEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: ResolveEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: ResolveEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): Module;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: ResolveEventArgs): Module;
+    invoke(sender: unknown, e: ResolveEventArgs): Module;
 }
 
 
 export interface __ModuleResolveEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ModuleResolveEventHandler = ModuleResolveEventHandler$instance & __ModuleResolveEventHandler$views;
@@ -1302,7 +1312,7 @@ export type ObfuscationAttribute = ObfuscationAttribute$instance;
 export class ParameterInfo$instance {
     readonly attributes: ParameterAttributes;
     readonly customAttributes: IEnumerable_1<CustomAttributeData>;
-    readonly defaultValue: any;
+    readonly defaultValue: unknown;
     readonly hasDefaultValue: boolean;
     readonly isIn: boolean;
     readonly isLcid: boolean;
@@ -1314,13 +1324,13 @@ export class ParameterInfo$instance {
     readonly name: string;
     readonly parameterType: Type;
     readonly position: int;
-    readonly rawDefaultValue: any;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    readonly rawDefaultValue: unknown;
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getModifiedParameterType(): Type;
     getOptionalCustomModifiers(): Type[];
-    getRealObject(context: StreamingContext): any;
+    getRealObject(context: StreamingContext): unknown;
     getRequiredCustomModifiers(): Type[];
     isDefined(attributeType: Type, inherit: boolean): boolean;
     toString(): string;
@@ -1328,24 +1338,28 @@ export class ParameterInfo$instance {
 
 
 export interface __ParameterInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
-    readonly As_IObjectReference: System_Runtime_Serialization_Internal.IObjectReference$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
+    As_IObjectReference(): System_Runtime_Serialization_Internal.IObjectReference$instance;
 }
+
+export interface ParameterInfo$instance extends ICustomAttributeProvider$instance, System_Runtime_Serialization_Internal.IObjectReference$instance {}
 
 export type ParameterInfo = ParameterInfo$instance & __ParameterInfo$views;
 
 
 export class Pointer$instance {
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
-    static Box(ptr: ptr<void>, type_: Type): any;
-    static Unbox(ptr: any): ptr<void>;
+    static box(ptr: ptr<void>, type_: Type): unknown;
+    static unbox(ptr: unknown): ptr<void>;
 }
 
 
 export interface __Pointer$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Pointer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Pointer = Pointer$instance & __Pointer$views;
 
@@ -1359,41 +1373,41 @@ export abstract class PropertyInfo$instance extends MemberInfo$instance {
     readonly memberType: MemberTypes;
     readonly propertyType: Type;
     readonly setMethod: MethodInfo;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getAccessors(): MethodInfo[];
     getAccessors(nonPublic: boolean): MethodInfo[];
-    getConstantValue(): any;
-    abstract getCustomAttributes(inherit: boolean): any[];
-    abstract getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getConstantValue(): unknown;
+    abstract getCustomAttributes(inherit: boolean): unknown[];
+    abstract getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getGetMethod(): MethodInfo;
     getGetMethod(nonPublic: boolean): MethodInfo;
     getHashCode(): int;
     abstract getIndexParameters(): ParameterInfo[];
     getModifiedPropertyType(): Type;
     getOptionalCustomModifiers(): Type[];
-    getRawConstantValue(): any;
+    getRawConstantValue(): unknown;
     getRequiredCustomModifiers(): Type[];
     getSetMethod(): MethodInfo;
     getSetMethod(nonPublic: boolean): MethodInfo;
-    getValue(obj: any): any;
-    getValue(obj: any, index: any[]): any;
-    getValue(obj: any, invokeAttr: BindingFlags, binder: Binder, index: any[], culture: CultureInfo): any;
+    getValue(obj: unknown): unknown;
+    getValue(obj: unknown, index: unknown[]): unknown;
+    getValue(obj: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): unknown;
     abstract isDefined(attributeType: Type, inherit: boolean): boolean;
-    setValue(obj: any, value: any): void;
-    setValue(obj: any, value: any, index: any[]): void;
-    setValue(obj: any, value: any, invokeAttr: BindingFlags, binder: Binder, index: any[], culture: CultureInfo): void;
+    setValue(obj: unknown, value: unknown): void;
+    setValue(obj: unknown, value: unknown, index: unknown[]): void;
+    setValue(obj: unknown, value: unknown, invokeAttr: BindingFlags, binder: Binder, index: unknown[], culture: CultureInfo): void;
 }
 
 
 export interface __PropertyInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
 }
 
 export type PropertyInfo = PropertyInfo$instance & __PropertyInfo$views;
 
 
 export abstract class ReflectionContext$instance {
-    getTypeForObject(value: any): TypeInfo;
+    getTypeForObject(value: unknown): TypeInfo;
     abstract mapAssembly(assembly: Assembly): Assembly;
     abstract mapType(type_: TypeInfo): TypeInfo;
 }
@@ -1413,7 +1427,7 @@ export class ReflectionTypeLoadException$instance extends System_Internal.System
 
 
 export interface __ReflectionTypeLoadException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ReflectionTypeLoadException = ReflectionTypeLoadException$instance & __ReflectionTypeLoadException$views;
@@ -1428,9 +1442,11 @@ export class StrongNameKeyPair$instance {
 
 
 export interface __StrongNameKeyPair$views {
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface StrongNameKeyPair$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type StrongNameKeyPair = StrongNameKeyPair$instance & __StrongNameKeyPair$views;
 
@@ -1444,7 +1460,7 @@ export class TargetException$instance extends System_Internal.ApplicationExcepti
 
 
 export interface __TargetException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TargetException = TargetException$instance & __TargetException$views;
@@ -1458,7 +1474,7 @@ export class TargetInvocationException$instance extends System_Internal.Applicat
 
 
 export interface __TargetInvocationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TargetInvocationException = TargetInvocationException$instance & __TargetInvocationException$views;
@@ -1473,7 +1489,7 @@ export class TargetParameterCountException$instance extends System_Internal.Appl
 
 
 export interface __TargetParameterCountException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TargetParameterCountException = TargetParameterCountException$instance & __TargetParameterCountException$views;
@@ -1485,7 +1501,7 @@ export class TypeDelegator$instance extends TypeInfo$instance {
     readonly assemblyQualifiedName: string;
     readonly baseType: Type;
     readonly fullName: string;
-    readonly guid: Guid;
+    readonly GUID: Guid;
     readonly isByRefLike: boolean;
     readonly isCollectible: boolean;
     readonly isConstructedGenericType: boolean;
@@ -1505,8 +1521,8 @@ export class TypeDelegator$instance extends TypeInfo$instance {
     getArrayRank(): int;
     getConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
     getConstructors(): ConstructorInfo[];
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getElementType(): Type;
     getEvent(name: string, bindingAttr: BindingFlags): EventInfo;
     getEvent(name: string): EventInfo;
@@ -1557,9 +1573,9 @@ export class TypeDelegator$instance extends TypeInfo$instance {
     getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
     getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
     getTypeInfo(): TypeInfo;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
     isAssignableFrom(typeInfo: TypeInfo): boolean;
     isAssignableFrom(c: Type): boolean;
     isDefined(attributeType: Type, inherit: boolean): boolean;
@@ -1567,27 +1583,29 @@ export class TypeDelegator$instance extends TypeInfo$instance {
 
 
 export interface __TypeDelegator$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
-    readonly As_IReflect: IReflect$instance;
-    readonly As_IReflectableType: IReflectableType$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
+    As_IReflect(): IReflect$instance;
+    As_IReflectableType(): IReflectableType$instance;
 }
+
+export interface TypeDelegator$instance extends IReflectableType$instance {}
 
 export type TypeDelegator = TypeDelegator$instance & __TypeDelegator$views;
 
 
 export class TypeFilter$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(m: Type, filterCriteria: any, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(m: Type, filterCriteria: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): boolean;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(m: Type, filterCriteria: any): boolean;
+    invoke(m: Type, filterCriteria: unknown): boolean;
 }
 
 
 export interface __TypeFilter$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type TypeFilter = TypeFilter$instance & __TypeFilter$views;
@@ -1604,8 +1622,8 @@ export abstract class TypeInfo$instance extends System_Internal.Type$instance {
     readonly genericTypeParameters: Type[];
     readonly implementedInterfaces: IEnumerable_1<Type>;
     asType(): Type;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getDeclaredEvent(name: string): EventInfo;
     getDeclaredField(name: string): FieldInfo;
     getDeclaredMethod(name: string): MethodInfo;
@@ -1644,179 +1662,181 @@ export abstract class TypeInfo$instance extends System_Internal.Type$instance {
     getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
     getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
     getProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
     isAssignableFrom(c: Type): boolean;
     isDefined(attributeType: Type, inherit: boolean): boolean;
 }
 
 
 export interface __TypeInfo$views {
-    readonly As_ICustomAttributeProvider: ICustomAttributeProvider$instance;
-    readonly As_IReflect: IReflect$instance;
-    readonly As_IReflectableType: IReflectableType$instance;
+    As_ICustomAttributeProvider(): ICustomAttributeProvider$instance;
+    As_IReflect(): IReflect$instance;
+    As_IReflectableType(): IReflectableType$instance;
 }
+
+export interface TypeInfo$instance extends IReflectableType$instance {}
 
 export type TypeInfo = TypeInfo$instance & __TypeInfo$views;
 
 
 export abstract class AssemblyExtensions$instance {
-    static GetExportedTypes(assembly: Assembly): Type[];
-    static GetModules(assembly: Assembly): Module[];
-    static GetTypes(assembly: Assembly): Type[];
+    static getExportedTypes(assembly: Assembly): Type[];
+    static getModules(assembly: Assembly): Module[];
+    static getTypes(assembly: Assembly): Type[];
 }
 
 
 export type AssemblyExtensions = AssemblyExtensions$instance;
 
 export abstract class CustomAttributeExtensions$instance {
-    static GetCustomAttribute(element: Assembly, attributeType: Type): Attribute;
-    static GetCustomAttribute<T extends Attribute>(element: Assembly): T;
-    static GetCustomAttribute<T extends Attribute>(element: MemberInfo, inherit: boolean): T;
-    static GetCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute;
-    static GetCustomAttribute(element: MemberInfo, attributeType: Type): Attribute;
-    static GetCustomAttribute<T extends Attribute>(element: MemberInfo): T;
-    static GetCustomAttribute(element: Module, attributeType: Type): Attribute;
-    static GetCustomAttribute<T extends Attribute>(element: Module): T;
-    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo, inherit: boolean): T;
-    static GetCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute;
-    static GetCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute;
-    static GetCustomAttribute<T extends Attribute>(element: ParameterInfo): T;
-    static GetCustomAttributes(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: Assembly): IEnumerable_1<T>;
-    static GetCustomAttributes(element: Assembly): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
-    static GetCustomAttributes(element: MemberInfo, inherit: boolean): IEnumerable_1<Attribute>;
-    static GetCustomAttributes(element: MemberInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
-    static GetCustomAttributes(element: MemberInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: MemberInfo): IEnumerable_1<T>;
-    static GetCustomAttributes(element: MemberInfo): IEnumerable_1<Attribute>;
-    static GetCustomAttributes(element: Module, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: Module): IEnumerable_1<T>;
-    static GetCustomAttributes(element: Module): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
-    static GetCustomAttributes(element: ParameterInfo, inherit: boolean): IEnumerable_1<Attribute>;
-    static GetCustomAttributes(element: ParameterInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
-    static GetCustomAttributes(element: ParameterInfo, attributeType: Type): IEnumerable_1<Attribute>;
-    static GetCustomAttributes<T extends Attribute>(element: ParameterInfo): IEnumerable_1<T>;
-    static GetCustomAttributes(element: ParameterInfo): IEnumerable_1<Attribute>;
-    static IsDefined(element: Assembly, attributeType: Type): boolean;
-    static IsDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;
-    static IsDefined(element: MemberInfo, attributeType: Type): boolean;
-    static IsDefined(element: Module, attributeType: Type): boolean;
-    static IsDefined(element: ParameterInfo, attributeType: Type, inherit: boolean): boolean;
-    static IsDefined(element: ParameterInfo, attributeType: Type): boolean;
+    static getCustomAttribute(element: Assembly, attributeType: Type): Attribute;
+    static getCustomAttribute<T extends Attribute>(element: Assembly): T;
+    static getCustomAttribute<T extends Attribute>(element: MemberInfo, inherit: boolean): T;
+    static getCustomAttribute(element: MemberInfo, attributeType: Type, inherit: boolean): Attribute;
+    static getCustomAttribute(element: MemberInfo, attributeType: Type): Attribute;
+    static getCustomAttribute<T extends Attribute>(element: MemberInfo): T;
+    static getCustomAttribute(element: Module, attributeType: Type): Attribute;
+    static getCustomAttribute<T extends Attribute>(element: Module): T;
+    static getCustomAttribute<T extends Attribute>(element: ParameterInfo, inherit: boolean): T;
+    static getCustomAttribute(element: ParameterInfo, attributeType: Type, inherit: boolean): Attribute;
+    static getCustomAttribute(element: ParameterInfo, attributeType: Type): Attribute;
+    static getCustomAttribute<T extends Attribute>(element: ParameterInfo): T;
+    static getCustomAttributes7(element: Assembly, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: Assembly): IEnumerable_1<T>;
+    static getCustomAttributes7(element: Assembly): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: MemberInfo, inherit: boolean): IEnumerable_1<T>;
+    static getCustomAttributes7(element: MemberInfo, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes7(element: MemberInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes7(element: MemberInfo, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: MemberInfo): IEnumerable_1<T>;
+    static getCustomAttributes7(element: MemberInfo): IEnumerable_1<Attribute>;
+    static getCustomAttributes7(element: Module, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: Module): IEnumerable_1<T>;
+    static getCustomAttributes7(element: Module): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: ParameterInfo, inherit: boolean): IEnumerable_1<T>;
+    static getCustomAttributes7(element: ParameterInfo, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes7(element: ParameterInfo, attributeType: Type, inherit: boolean): IEnumerable_1<Attribute>;
+    static getCustomAttributes7(element: ParameterInfo, attributeType: Type): IEnumerable_1<Attribute>;
+    static getCustomAttributes7<T extends Attribute>(element: ParameterInfo): IEnumerable_1<T>;
+    static getCustomAttributes7(element: ParameterInfo): IEnumerable_1<Attribute>;
+    static isDefined(element: Assembly, attributeType: Type): boolean;
+    static isDefined(element: MemberInfo, attributeType: Type, inherit: boolean): boolean;
+    static isDefined(element: MemberInfo, attributeType: Type): boolean;
+    static isDefined(element: Module, attributeType: Type): boolean;
+    static isDefined(element: ParameterInfo, attributeType: Type, inherit: boolean): boolean;
+    static isDefined(element: ParameterInfo, attributeType: Type): boolean;
 }
 
 
 export type CustomAttributeExtensions = CustomAttributeExtensions$instance;
 
 export abstract class EventInfoExtensions$instance {
-    static GetAddMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static GetAddMethod(eventInfo: EventInfo): MethodInfo;
-    static GetRaiseMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static GetRaiseMethod(eventInfo: EventInfo): MethodInfo;
-    static GetRemoveMethod(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
-    static GetRemoveMethod(eventInfo: EventInfo): MethodInfo;
+    static getAddMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getAddMethod2(eventInfo: EventInfo): MethodInfo;
+    static getRaiseMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getRaiseMethod2(eventInfo: EventInfo): MethodInfo;
+    static getRemoveMethod2(eventInfo: EventInfo, nonPublic: boolean): MethodInfo;
+    static getRemoveMethod2(eventInfo: EventInfo): MethodInfo;
 }
 
 
 export type EventInfoExtensions = EventInfoExtensions$instance;
 
 export abstract class IntrospectionExtensions$instance {
-    static GetTypeInfo(type_: Type): TypeInfo;
+    static getTypeInfo(type_: Type): TypeInfo;
 }
 
 
 export type IntrospectionExtensions = IntrospectionExtensions$instance;
 
 export abstract class MemberInfoExtensions$instance {
-    static GetMetadataToken(member: MemberInfo): int;
-    static HasMetadataToken(member: MemberInfo): boolean;
+    static getMetadataToken(member: MemberInfo): int;
+    static hasMetadataToken(member: MemberInfo): boolean;
 }
 
 
 export type MemberInfoExtensions = MemberInfoExtensions$instance;
 
 export abstract class MethodInfoExtensions$instance {
-    static GetBaseDefinition(method: MethodInfo): MethodInfo;
+    static getBaseDefinition(method: MethodInfo): MethodInfo;
 }
 
 
 export type MethodInfoExtensions = MethodInfoExtensions$instance;
 
 export abstract class ModuleExtensions$instance {
-    static GetModuleVersionId(module_: Module): Guid;
-    static HasModuleVersionId(module_: Module): boolean;
+    static getModuleVersionId(module_: Module): Guid;
+    static hasModuleVersionId(module_: Module): boolean;
 }
 
 
 export type ModuleExtensions = ModuleExtensions$instance;
 
 export abstract class PropertyInfoExtensions$instance {
-    static GetAccessors(property: PropertyInfo, nonPublic: boolean): MethodInfo[];
-    static GetAccessors(property: PropertyInfo): MethodInfo[];
-    static GetGetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo;
-    static GetGetMethod(property: PropertyInfo): MethodInfo;
-    static GetSetMethod(property: PropertyInfo, nonPublic: boolean): MethodInfo;
-    static GetSetMethod(property: PropertyInfo): MethodInfo;
+    static getAccessors2(property: PropertyInfo, nonPublic: boolean): MethodInfo[];
+    static getAccessors2(property: PropertyInfo): MethodInfo[];
+    static getGetMethod2(property: PropertyInfo, nonPublic: boolean): MethodInfo;
+    static getGetMethod2(property: PropertyInfo): MethodInfo;
+    static getSetMethod2(property: PropertyInfo, nonPublic: boolean): MethodInfo;
+    static getSetMethod2(property: PropertyInfo): MethodInfo;
 }
 
 
 export type PropertyInfoExtensions = PropertyInfoExtensions$instance;
 
 export abstract class RuntimeReflectionExtensions$instance {
-    static GetMethodInfo(del: Function): MethodInfo;
-    static GetRuntimeBaseDefinition(method: MethodInfo): MethodInfo;
-    static GetRuntimeEvent(type_: Type, name: string): EventInfo;
-    static GetRuntimeEvents(type_: Type): IEnumerable_1<EventInfo>;
-    static GetRuntimeField(type_: Type, name: string): FieldInfo;
-    static GetRuntimeFields(type_: Type): IEnumerable_1<FieldInfo>;
-    static GetRuntimeInterfaceMap(typeInfo: TypeInfo, interfaceType: Type): InterfaceMapping;
-    static GetRuntimeMethod(type_: Type, name: string, parameters: Type[]): MethodInfo;
-    static GetRuntimeMethods(type_: Type): IEnumerable_1<MethodInfo>;
-    static GetRuntimeProperties(type_: Type): IEnumerable_1<PropertyInfo>;
-    static GetRuntimeProperty(type_: Type, name: string): PropertyInfo;
+    static getMethodInfo(del: Function): MethodInfo;
+    static getRuntimeBaseDefinition(method: MethodInfo): MethodInfo;
+    static getRuntimeEvent(type_: Type, name: string): EventInfo;
+    static getRuntimeEvents(type_: Type): IEnumerable_1<EventInfo>;
+    static getRuntimeField(type_: Type, name: string): FieldInfo;
+    static getRuntimeFields(type_: Type): IEnumerable_1<FieldInfo>;
+    static getRuntimeInterfaceMap(typeInfo: TypeInfo, interfaceType: Type): InterfaceMapping;
+    static getRuntimeMethod(type_: Type, name: string, parameters: Type[]): MethodInfo;
+    static getRuntimeMethods(type_: Type): IEnumerable_1<MethodInfo>;
+    static getRuntimeProperties(type_: Type): IEnumerable_1<PropertyInfo>;
+    static getRuntimeProperty(type_: Type, name: string): PropertyInfo;
 }
 
 
 export type RuntimeReflectionExtensions = RuntimeReflectionExtensions$instance;
 
 export abstract class TypeExtensions$instance {
-    static GetConstructor(type_: Type, types: Type[]): ConstructorInfo;
-    static GetConstructors(type_: Type, bindingAttr: BindingFlags): ConstructorInfo[];
-    static GetConstructors(type_: Type): ConstructorInfo[];
-    static GetDefaultMembers(type_: Type): MemberInfo[];
-    static GetEvent(type_: Type, name: string, bindingAttr: BindingFlags): EventInfo;
-    static GetEvent(type_: Type, name: string): EventInfo;
-    static GetEvents(type_: Type, bindingAttr: BindingFlags): EventInfo[];
-    static GetEvents(type_: Type): EventInfo[];
-    static GetField(type_: Type, name: string, bindingAttr: BindingFlags): FieldInfo;
-    static GetField(type_: Type, name: string): FieldInfo;
-    static GetFields(type_: Type, bindingAttr: BindingFlags): FieldInfo[];
-    static GetFields(type_: Type): FieldInfo[];
-    static GetGenericArguments(type_: Type): Type[];
-    static GetInterfaces(type_: Type): Type[];
-    static GetMember(type_: Type, name: string, bindingAttr: BindingFlags): MemberInfo[];
-    static GetMember(type_: Type, name: string): MemberInfo[];
-    static GetMembers(type_: Type, bindingAttr: BindingFlags): MemberInfo[];
-    static GetMembers(type_: Type): MemberInfo[];
-    static GetMethod(type_: Type, name: string, bindingAttr: BindingFlags): MethodInfo;
-    static GetMethod(type_: Type, name: string, types: Type[]): MethodInfo;
-    static GetMethod(type_: Type, name: string): MethodInfo;
-    static GetMethods(type_: Type, bindingAttr: BindingFlags): MethodInfo[];
-    static GetMethods(type_: Type): MethodInfo[];
-    static GetNestedType(type_: Type, name: string, bindingAttr: BindingFlags): Type;
-    static GetNestedTypes(type_: Type, bindingAttr: BindingFlags): Type[];
-    static GetProperties(type_: Type, bindingAttr: BindingFlags): PropertyInfo[];
-    static GetProperties(type_: Type): PropertyInfo[];
-    static GetProperty(type_: Type, name: string, bindingAttr: BindingFlags): PropertyInfo;
-    static GetProperty(type_: Type, name: string, returnType: Type, types: Type[]): PropertyInfo;
-    static GetProperty(type_: Type, name: string, returnType: Type): PropertyInfo;
-    static GetProperty(type_: Type, name: string): PropertyInfo;
-    static IsAssignableFrom(type_: Type, c: Type): boolean;
-    static IsInstanceOfType(type_: Type, o: any): boolean;
+    static getConstructor(type_: Type, types: Type[]): ConstructorInfo;
+    static getConstructors2(type_: Type, bindingAttr: BindingFlags): ConstructorInfo[];
+    static getConstructors2(type_: Type): ConstructorInfo[];
+    static getDefaultMembers(type_: Type): MemberInfo[];
+    static getEvent2(type_: Type, name: string, bindingAttr: BindingFlags): EventInfo;
+    static getEvent2(type_: Type, name: string): EventInfo;
+    static getEvents2(type_: Type, bindingAttr: BindingFlags): EventInfo[];
+    static getEvents2(type_: Type): EventInfo[];
+    static getField2(type_: Type, name: string, bindingAttr: BindingFlags): FieldInfo;
+    static getField2(type_: Type, name: string): FieldInfo;
+    static getFields2(type_: Type, bindingAttr: BindingFlags): FieldInfo[];
+    static getFields2(type_: Type): FieldInfo[];
+    static getGenericArguments(type_: Type): Type[];
+    static getInterfaces(type_: Type): Type[];
+    static getMember2(type_: Type, name: string, bindingAttr: BindingFlags): MemberInfo[];
+    static getMember2(type_: Type, name: string): MemberInfo[];
+    static getMembers2(type_: Type, bindingAttr: BindingFlags): MemberInfo[];
+    static getMembers2(type_: Type): MemberInfo[];
+    static getMethod2(type_: Type, name: string, bindingAttr: BindingFlags): MethodInfo;
+    static getMethod2(type_: Type, name: string, types: Type[]): MethodInfo;
+    static getMethod2(type_: Type, name: string): MethodInfo;
+    static getMethods2(type_: Type, bindingAttr: BindingFlags): MethodInfo[];
+    static getMethods2(type_: Type): MethodInfo[];
+    static getNestedType(type_: Type, name: string, bindingAttr: BindingFlags): Type;
+    static getNestedTypes(type_: Type, bindingAttr: BindingFlags): Type[];
+    static getProperties2(type_: Type, bindingAttr: BindingFlags): PropertyInfo[];
+    static getProperties2(type_: Type): PropertyInfo[];
+    static getProperty2(type_: Type, name: string, bindingAttr: BindingFlags): PropertyInfo;
+    static getProperty2(type_: Type, name: string, returnType: Type, types: Type[]): PropertyInfo;
+    static getProperty2(type_: Type, name: string, returnType: Type): PropertyInfo;
+    static getProperty2(type_: Type, name: string): PropertyInfo;
+    static isAssignableFrom(type_: Type, c: Type): boolean;
+    static isInstanceOfType(type_: Type, o: unknown): boolean;
 }
 
 

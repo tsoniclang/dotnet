@@ -81,13 +81,15 @@ export enum ZLibCompressionStrategy {
 export class BrotliDecoder$instance {
     decompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }): OperationStatus;
     dispose(): void;
-    static TryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static tryDecompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
 export interface __BrotliDecoder$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface BrotliDecoder$instance extends System_Internal.IDisposable$instance {}
 
 export type BrotliDecoder = BrotliDecoder$instance & __BrotliDecoder$views;
 
@@ -97,15 +99,17 @@ export class BrotliEncoder$instance {
     compress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }, bytesWritten: { value: ref<int> }, isFinalBlock: boolean): OperationStatus;
     dispose(): void;
     flush(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): OperationStatus;
-    static GetMaxCompressedLength(inputSize: int): int;
-    static TryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
-    static TryCompress(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    static getMaxCompressedLength(inputSize: int): int;
+    static tryCompress2(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, quality: int, window: int): boolean;
+    static tryCompress2(source: ReadOnlySpan_1<CLROf<byte>>, destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
 }
 
 
 export interface __BrotliEncoder$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface BrotliEncoder$instance extends System_Internal.IDisposable$instance {}
 
 export type BrotliEncoder = BrotliEncoder$instance & __BrotliEncoder$views;
 
@@ -130,8 +134,8 @@ export class BrotliStream$instance extends System_IO_Internal.Stream$instance {
     readonly canWrite: boolean;
     readonly length: long;
     position: long;
-    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
@@ -162,8 +166,8 @@ export class BrotliStream$instance extends System_IO_Internal.Stream$instance {
 
 
 export interface __BrotliStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type BrotliStream = BrotliStream$instance & __BrotliStream$views;
@@ -181,8 +185,8 @@ export class DeflateStream$instance extends System_IO_Internal.Stream$instance {
     readonly canWrite: boolean;
     readonly length: long;
     position: long;
-    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     copyTo(destination: Stream, bufferSize: int): void;
     copyTo(destination: Stream): void;
     copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -219,8 +223,8 @@ export class DeflateStream$instance extends System_IO_Internal.Stream$instance {
 
 
 export interface __DeflateStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type DeflateStream = DeflateStream$instance & __DeflateStream$views;
@@ -238,8 +242,8 @@ export class GZipStream$instance extends System_IO_Internal.Stream$instance {
     readonly canWrite: boolean;
     readonly length: long;
     position: long;
-    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     copyTo(destination: Stream, bufferSize: int): void;
     copyTo(destination: Stream): void;
     copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -276,8 +280,8 @@ export class GZipStream$instance extends System_IO_Internal.Stream$instance {
 
 
 export interface __GZipStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type GZipStream = GZipStream$instance & __GZipStream$views;
@@ -296,14 +300,16 @@ export class ZipArchive$instance {
     dispose(): void;
     disposeAsync(): ValueTask;
     getEntry(entryName: string): ZipArchiveEntry;
-    static CreateAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static createAsync(stream: Stream, mode: ZipArchiveMode, leaveOpen: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 }
 
 
 export interface __ZipArchive$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface ZipArchive$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type ZipArchive = ZipArchive$instance & __ZipArchive$views;
 
@@ -346,7 +352,7 @@ export class ZLibException$instance extends System_IO_Internal.IOException$insta
 
 
 export interface __ZLibException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ZLibException = ZLibException$instance & __ZLibException$views;
@@ -364,8 +370,8 @@ export class ZLibStream$instance extends System_IO_Internal.Stream$instance {
     readonly canWrite: boolean;
     readonly length: long;
     position: long;
-    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
     copyTo(destination: Stream, bufferSize: int): void;
     copyTo(destination: Stream): void;
     copyToAsync(destination: Stream, bufferSize: int, cancellationToken: CancellationToken): Task;
@@ -402,66 +408,66 @@ export class ZLibStream$instance extends System_IO_Internal.Stream$instance {
 
 
 export interface __ZLibStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type ZLibStream = ZLibStream$instance & __ZLibStream$views;
 
 
 export abstract class ZipFile$instance {
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationArchiveFileName: string): void;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationArchiveFileName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
-    static ExtractToDirectory(sourceArchiveFileName: string, destinationDirectoryName: string): void;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceArchiveFileName: string, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static Open(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding): ZipArchive;
-    static Open(archiveFileName: string, mode: ZipArchiveMode): ZipArchive;
-    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
-    static OpenAsync(archiveFileName: string, mode: ZipArchiveMode, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
-    static OpenRead(archiveFileName: string): ZipArchive;
-    static OpenReadAsync(archiveFileName: string, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static createFromDirectory6(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static createFromDirectory6(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
+    static createFromDirectory6(sourceDirectoryName: string, destination: Stream): void;
+    static createFromDirectory6(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding): void;
+    static createFromDirectory6(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean): void;
+    static createFromDirectory6(sourceDirectoryName: string, destinationArchiveFileName: string): void;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destination: Stream, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destination: Stream, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destinationArchiveFileName: string, compressionLevel: CompressionLevel, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync6(sourceDirectoryName: string, destinationArchiveFileName: string, cancellationToken?: CancellationToken): Task;
+    static extractToDirectory6(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory6(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
+    static extractToDirectory6(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static extractToDirectory6(source: Stream, destinationDirectoryName: string): void;
+    static extractToDirectory6(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory6(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean): void;
+    static extractToDirectory6(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding): void;
+    static extractToDirectory6(sourceArchiveFileName: string, destinationDirectoryName: string): void;
+    static extractToDirectoryAsync6(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(source: Stream, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(source: Stream, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(sourceArchiveFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(sourceArchiveFileName: string, destinationDirectoryName: string, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync6(sourceArchiveFileName: string, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static open2(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding): ZipArchive;
+    static open2(archiveFileName: string, mode: ZipArchiveMode): ZipArchive;
+    static openAsync2(archiveFileName: string, mode: ZipArchiveMode, entryNameEncoding: Encoding, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static openAsync2(archiveFileName: string, mode: ZipArchiveMode, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
+    static openRead(archiveFileName: string): ZipArchive;
+    static openReadAsync(archiveFileName: string, cancellationToken?: CancellationToken): Task_1<ZipArchive>;
 }
 
 
 export type ZipFile = ZipFile$instance;
 
 export abstract class ZipFileExtensions$instance {
-    static CreateEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
-    static CreateEntryFromFile(destination: ZipArchive, sourceFileName: string, entryName: string): ZipArchiveEntry;
-    static CreateEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
-    static CreateEntryFromFileAsync(destination: ZipArchive, sourceFileName: string, entryName: string, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
-    static ExtractToDirectory(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(source: ZipArchive, destinationDirectoryName: string): void;
-    static ExtractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(source: ZipArchive, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
-    static ExtractToFile(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean): void;
-    static ExtractToFile(source: ZipArchiveEntry, destinationFileName: string): void;
-    static ExtractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToFileAsync(source: ZipArchiveEntry, destinationFileName: string, cancellationToken?: CancellationToken): Task;
+    static createEntryFromFile2(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel): ZipArchiveEntry;
+    static createEntryFromFile2(destination: ZipArchive, sourceFileName: string, entryName: string): ZipArchiveEntry;
+    static createEntryFromFileAsync2(destination: ZipArchive, sourceFileName: string, entryName: string, compressionLevel: CompressionLevel, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
+    static createEntryFromFileAsync2(destination: ZipArchive, sourceFileName: string, entryName: string, cancellationToken?: CancellationToken): Task_1<ZipArchiveEntry>;
+    static extractToDirectory2(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory2(source: ZipArchive, destinationDirectoryName: string): void;
+    static extractToDirectoryAsync2(source: ZipArchive, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync2(source: ZipArchive, destinationDirectoryName: string, cancellationToken?: CancellationToken): Task;
+    static extractToFile2(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean): void;
+    static extractToFile2(source: ZipArchiveEntry, destinationFileName: string): void;
+    static extractToFileAsync2(source: ZipArchiveEntry, destinationFileName: string, overwrite: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToFileAsync2(source: ZipArchiveEntry, destinationFileName: string, cancellationToken?: CancellationToken): Task;
 }
 
 

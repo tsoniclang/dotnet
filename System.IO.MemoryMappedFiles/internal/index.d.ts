@@ -81,28 +81,30 @@ export class MemoryMappedFile$instance {
     createViewStream(offset: long, size: long): MemoryMappedViewStream;
     createViewStream(offset: long, size: long, access: MemoryMappedFileAccess): MemoryMappedViewStream;
     dispose(): void;
-    static CreateFromFile(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    static CreateFromFile(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
-    static CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    static CreateFromFile(path: string, mode: FileMode, mapName: string, capacity: long): MemoryMappedFile;
-    static CreateFromFile(path: string, mode: FileMode, mapName: string): MemoryMappedFile;
-    static CreateFromFile(path: string, mode: FileMode): MemoryMappedFile;
-    static CreateFromFile(path: string): MemoryMappedFile;
-    static CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
-    static CreateNew(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    static CreateNew(mapName: string, capacity: long): MemoryMappedFile;
-    static CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
-    static CreateOrOpen(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
-    static CreateOrOpen(mapName: string, capacity: long): MemoryMappedFile;
-    static OpenExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights, inheritability: HandleInheritability): MemoryMappedFile;
-    static OpenExisting(mapName: string, desiredAccessRights: MemoryMappedFileRights): MemoryMappedFile;
-    static OpenExisting(mapName: string): MemoryMappedFile;
+    static createFromFile6(fileHandle: SafeFileHandle, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    static createFromFile6(fileStream: FileStream, mapName: string, capacity: long, access: MemoryMappedFileAccess, inheritability: HandleInheritability, leaveOpen: boolean): MemoryMappedFile;
+    static createFromFile6(path: string, mode: FileMode, mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    static createFromFile6(path: string, mode: FileMode, mapName: string, capacity: long): MemoryMappedFile;
+    static createFromFile6(path: string, mode: FileMode, mapName: string): MemoryMappedFile;
+    static createFromFile6(path: string, mode: FileMode): MemoryMappedFile;
+    static createFromFile6(path: string): MemoryMappedFile;
+    static createNew3(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
+    static createNew3(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    static createNew3(mapName: string, capacity: long): MemoryMappedFile;
+    static createOrOpen3(mapName: string, capacity: long, access: MemoryMappedFileAccess, options: MemoryMappedFileOptions, inheritability: HandleInheritability): MemoryMappedFile;
+    static createOrOpen3(mapName: string, capacity: long, access: MemoryMappedFileAccess): MemoryMappedFile;
+    static createOrOpen3(mapName: string, capacity: long): MemoryMappedFile;
+    static openExisting3(mapName: string, desiredAccessRights: MemoryMappedFileRights, inheritability: HandleInheritability): MemoryMappedFile;
+    static openExisting3(mapName: string, desiredAccessRights: MemoryMappedFileRights): MemoryMappedFile;
+    static openExisting3(mapName: string): MemoryMappedFile;
 }
 
 
 export interface __MemoryMappedFile$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryMappedFile$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryMappedFile = MemoryMappedFile$instance & __MemoryMappedFile$views;
 
@@ -116,7 +118,7 @@ export class MemoryMappedViewAccessor$instance extends System_IO_Internal.Unmana
 
 
 export interface __MemoryMappedViewAccessor$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MemoryMappedViewAccessor = MemoryMappedViewAccessor$instance & __MemoryMappedViewAccessor$views;
@@ -133,8 +135,8 @@ export class MemoryMappedViewStream$instance extends System_IO_Internal.Unmanage
 
 
 export interface __MemoryMappedViewStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MemoryMappedViewStream = MemoryMappedViewStream$instance & __MemoryMappedViewStream$views;

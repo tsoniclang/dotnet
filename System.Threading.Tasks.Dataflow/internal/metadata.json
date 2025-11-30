@@ -1296,13 +1296,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 6
-        }
       ]
     },
     {
@@ -2267,13 +2260,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 6
-        }
       ]
     },
     {
@@ -2581,13 +2567,6 @@
           "normalizedSignature": "constructor|(System.Threading.Tasks.Dataflow.DataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 1
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 6
         }
       ]
     },
@@ -3866,13 +3845,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 5
-        }
       ]
     },
     {
@@ -4196,13 +4168,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 5
-        }
       ]
     },
     {
@@ -4479,13 +4444,6 @@
           "normalizedSignature": "constructor|(Func_2,System.Threading.Tasks.Dataflow.DataflowBlockOptions):void|static=false",
           "isStatic": false,
           "parameterCount": 2
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Threading.Tasks.Dataflow.IPropagatorBlock\u00602",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 6
         }
       ]
     },

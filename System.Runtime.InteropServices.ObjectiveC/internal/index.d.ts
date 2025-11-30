@@ -51,9 +51,9 @@ export enum ObjectiveCMarshal_MessageSendFunction {
 
 
 export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(context: { value: ref<nint> }, result: IAsyncResult): unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(exception: Exception, lastMethod: RuntimeMethodHandle, context: { value: ref<nint> }): unknown;
@@ -61,8 +61,8 @@ export class ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance ext
 
 
 export interface __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance & __ObjectiveCMarshal_UnhandledExceptionPropagationHandler$views;
@@ -76,10 +76,10 @@ export class ObjectiveCTrackedTypeAttribute$instance extends System_Internal.Att
 export type ObjectiveCTrackedTypeAttribute = ObjectiveCTrackedTypeAttribute$instance;
 
 export abstract class ObjectiveCMarshal$instance {
-    static CreateReferenceTrackingHandle(obj: any, taggedMemory: { value: ref<Span_1<CLROf<nint>>> }): GCHandle;
-    static Initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
-    static SetMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
-    static SetMessageSendPendingException(exception: Exception): void;
+    static createReferenceTrackingHandle(obj: unknown, taggedMemory: { value: ref<Span_1<CLROf<nint>>> }): GCHandle;
+    static initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
+    static setMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
+    static setMessageSendPendingException(exception: Exception): void;
 }
 
 

@@ -113,7 +113,7 @@ export class ByteArrayContent$instance extends HttpContent$instance {
 
 
 export interface __ByteArrayContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type ByteArrayContent = ByteArrayContent$instance & __ByteArrayContent$views;
@@ -126,7 +126,7 @@ export abstract class DelegatingHandler$instance extends HttpMessageHandler$inst
 
 
 export interface __DelegatingHandler$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type DelegatingHandler = DelegatingHandler$instance & __DelegatingHandler$views;
@@ -139,16 +139,16 @@ export class FormUrlEncodedContent$instance extends ByteArrayContent$instance {
 
 
 export interface __FormUrlEncodedContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type FormUrlEncodedContent = FormUrlEncodedContent$instance & __FormUrlEncodedContent$views;
 
 
 export class HeaderEncodingSelector_1$instance<TContext> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(headerName: string, context: TContext, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(headerName: string, context: TContext, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): Encoding;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(headerName: string, context: TContext): Encoding;
@@ -156,8 +156,8 @@ export class HeaderEncodingSelector_1$instance<TContext> extends Function {
 
 
 export interface __HeaderEncodingSelector_1$views<TContext> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type HeaderEncodingSelector_1<TContext> = HeaderEncodingSelector_1$instance<TContext> & __HeaderEncodingSelector_1$views<TContext>;
@@ -214,12 +214,12 @@ export class HttpClient$instance extends HttpMessageInvoker$instance {
     send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static DefaultProxy: IWebProxy;
+    static defaultProxy: IWebProxy;
 }
 
 
 export interface __HttpClient$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type HttpClient = HttpClient$instance & __HttpClient$views;
@@ -241,7 +241,7 @@ export class HttpClientHandler$instance extends HttpMessageHandler$instance {
     maxResponseHeadersLength: int;
     meterFactory: IMeterFactory;
     preAuthenticate: boolean;
-    readonly properties: IDictionary_2<CLROf<string>, any>;
+    readonly properties: IDictionary_2<CLROf<string>, unknown>;
     proxy: IWebProxy;
     serverCertificateCustomValidationCallback: Func_5<HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, CLROf<boolean>>;
     sslProtocols: SslProtocols;
@@ -252,12 +252,12 @@ export class HttpClientHandler$instance extends HttpMessageHandler$instance {
     useDefaultCredentials: boolean;
     useProxy: boolean;
     dispose(): void;
-    static readonly DangerousAcceptAnyServerCertificateValidator: Func_5<HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, CLROf<boolean>>;
+    static readonly dangerousAcceptAnyServerCertificateValidator: Func_5<HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, CLROf<boolean>>;
 }
 
 
 export interface __HttpClientHandler$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type HttpClientHandler = HttpClientHandler$instance & __HttpClientHandler$views;
@@ -287,8 +287,10 @@ export abstract class HttpContent$instance {
 
 
 export interface __HttpContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface HttpContent$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpContent = HttpContent$instance & __HttpContent$views;
 
@@ -302,7 +304,7 @@ export class HttpIOException$instance extends System_IO_Internal.IOException$ins
 
 
 export interface __HttpIOException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type HttpIOException = HttpIOException$instance & __HttpIOException$views;
@@ -314,8 +316,10 @@ export abstract class HttpMessageHandler$instance {
 
 
 export interface __HttpMessageHandler$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface HttpMessageHandler$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpMessageHandler = HttpMessageHandler$instance & __HttpMessageHandler$views;
 
@@ -330,8 +334,10 @@ export class HttpMessageInvoker$instance {
 
 
 export interface __HttpMessageInvoker$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface HttpMessageInvoker$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpMessageInvoker = HttpMessageInvoker$instance & __HttpMessageInvoker$views;
 
@@ -340,25 +346,25 @@ export class HttpMethod$instance {
     constructor(method: string);
     readonly method: string;
     equals(other: HttpMethod): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly Get: HttpMethod;
-    static readonly Put: HttpMethod;
-    static readonly Post: HttpMethod;
-    static readonly Delete: HttpMethod;
-    static readonly Head: HttpMethod;
-    static readonly Options: HttpMethod;
-    static readonly Trace: HttpMethod;
-    static readonly Patch: HttpMethod;
-    static readonly Query: HttpMethod;
-    static readonly Connect: HttpMethod;
-    static Parse(method: ReadOnlySpan_1<CLROf<string>>): HttpMethod;
+    static readonly get_: HttpMethod;
+    static readonly put: HttpMethod;
+    static readonly post: HttpMethod;
+    static readonly delete_: HttpMethod;
+    static readonly head: HttpMethod;
+    static readonly options: HttpMethod;
+    static readonly trace: HttpMethod;
+    static readonly patch: HttpMethod;
+    static readonly query: HttpMethod;
+    static readonly connect: HttpMethod;
+    static parse(method: ReadOnlySpan_1<CLROf<char>>): HttpMethod;
 }
 
 
 export interface __HttpMethod$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<HttpMethod>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<HttpMethod>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: HttpMethod): boolean;
@@ -375,7 +381,7 @@ export class HttpProtocolException$instance extends HttpIOException$instance {
 
 
 export interface __HttpProtocolException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type HttpProtocolException = HttpProtocolException$instance & __HttpProtocolException$views;
@@ -394,7 +400,7 @@ export class HttpRequestException$instance extends System_Internal.Exception$ins
 
 
 export interface __HttpRequestException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type HttpRequestException = HttpRequestException$instance & __HttpRequestException$views;
@@ -408,7 +414,7 @@ export class HttpRequestMessage$instance {
     readonly headers: HttpRequestHeaders;
     method: HttpMethod;
     readonly options: HttpRequestOptions;
-    readonly properties: IDictionary_2<CLROf<string>, any>;
+    readonly properties: IDictionary_2<CLROf<string>, unknown>;
     requestUri: Uri;
     version: Version;
     versionPolicy: HttpVersionPolicy;
@@ -418,8 +424,10 @@ export class HttpRequestMessage$instance {
 
 
 export interface __HttpRequestMessage$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface HttpRequestMessage$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpRequestMessage = HttpRequestMessage$instance & __HttpRequestMessage$views;
 
@@ -432,12 +440,12 @@ export class HttpRequestOptions$instance {
 
 
 export interface __HttpRequestOptions$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, any>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<CLROf<string>, any>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, any>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<CLROf<string>, any>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, any>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<CLROf<string>, unknown>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, unknown>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type HttpRequestOptions = HttpRequestOptions$instance & __HttpRequestOptions$views;
@@ -461,8 +469,10 @@ export class HttpResponseMessage$instance {
 
 
 export interface __HttpResponseMessage$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface HttpResponseMessage$instance extends System_Internal.IDisposable$instance {}
 
 export type HttpResponseMessage = HttpResponseMessage$instance & __HttpResponseMessage$views;
 
@@ -473,7 +483,7 @@ export abstract class MessageProcessingHandler$instance extends DelegatingHandle
 
 
 export interface __MessageProcessingHandler$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MessageProcessingHandler = MessageProcessingHandler$instance & __MessageProcessingHandler$views;
@@ -491,9 +501,9 @@ export class MultipartContent$instance extends HttpContent$instance {
 
 
 export interface __MultipartContent$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<HttpContent>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<HttpContent>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MultipartContent = MultipartContent$instance & __MultipartContent$views;
@@ -510,9 +520,9 @@ export class MultipartFormDataContent$instance extends MultipartContent$instance
 
 
 export interface __MultipartFormDataContent$views {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<HttpContent>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<HttpContent>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type MultipartFormDataContent = MultipartFormDataContent$instance & __MultipartFormDataContent$views;
@@ -525,7 +535,7 @@ export class ReadOnlyMemoryContent$instance extends HttpContent$instance {
 
 
 export interface __ReadOnlyMemoryContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type ReadOnlyMemoryContent = ReadOnlyMemoryContent$instance & __ReadOnlyMemoryContent$views;
@@ -565,7 +575,7 @@ export class SocketsHttpHandler$instance extends HttpMessageHandler$instance {
     pooledConnectionIdleTimeout: TimeSpan;
     pooledConnectionLifetime: TimeSpan;
     preAuthenticate: boolean;
-    readonly properties: IDictionary_2<CLROf<string>, any>;
+    readonly properties: IDictionary_2<CLROf<string>, unknown>;
     proxy: IWebProxy;
     requestHeaderEncodingSelector: HeaderEncodingSelector_1<HttpRequestMessage>;
     responseDrainTimeout: TimeSpan;
@@ -574,12 +584,12 @@ export class SocketsHttpHandler$instance extends HttpMessageHandler$instance {
     useCookies: boolean;
     useProxy: boolean;
     dispose(): void;
-    static readonly IsSupported: boolean;
+    static readonly isSupported: boolean;
 }
 
 
 export interface __SocketsHttpHandler$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SocketsHttpHandler = SocketsHttpHandler$instance & __SocketsHttpHandler$views;
@@ -602,7 +612,7 @@ export class StreamContent$instance extends HttpContent$instance {
 
 
 export interface __StreamContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type StreamContent = StreamContent$instance & __StreamContent$views;
@@ -619,7 +629,7 @@ export class StringContent$instance extends ByteArrayContent$instance {
 
 
 export interface __StringContent$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type StringContent = StringContent$instance & __StringContent$views;

@@ -69,7 +69,7 @@ export class FrameworkName$instance {
     readonly identifier: string;
     readonly profile: string;
     readonly version: Version;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: FrameworkName): boolean;
     getHashCode(): int;
     toString(): string;
@@ -77,7 +77,7 @@ export class FrameworkName$instance {
 
 
 export interface __FrameworkName$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<FrameworkName>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<FrameworkName>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: FrameworkName): boolean;
@@ -178,8 +178,8 @@ export class UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttr
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static MakeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
-    static MakeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope): string;
+    static makeVersionSafeName2(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
+    static makeVersionSafeName2(name: string, from_: ResourceScope, to: ResourceScope): string;
 }
 
 

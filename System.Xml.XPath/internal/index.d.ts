@@ -97,7 +97,7 @@ export enum XPathResultType {
 
 
 export interface IXPathNavigable$instance {
-    CreateNavigator(): XPathNavigator;
+    createNavigator(): XPathNavigator;
 }
 
 
@@ -115,8 +115,10 @@ export class XPathDocument$instance {
 
 
 export interface __XPathDocument$views {
-    readonly As_IXPathNavigable: IXPathNavigable$instance;
+    As_IXPathNavigable(): IXPathNavigable$instance;
 }
+
+export interface XPathDocument$instance extends IXPathNavigable$instance {}
 
 export type XPathDocument = XPathDocument$instance & __XPathDocument$views;
 
@@ -131,7 +133,7 @@ export class XPathException$instance extends System_Internal.SystemException$ins
 
 
 export interface __XPathException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XPathException = XPathException$instance & __XPathException$views;
@@ -140,13 +142,13 @@ export type XPathException = XPathException$instance & __XPathException$views;
 export abstract class XPathExpression$instance {
     readonly expression: string;
     readonly returnType: XPathResultType;
-    abstract addSort(expr: any, comparer: IComparer): void;
-    abstract addSort(expr: any, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
+    abstract addSort(expr: unknown, comparer: IComparer): void;
+    abstract addSort(expr: unknown, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
     abstract clone(): XPathExpression;
     abstract setContext(nsManager: XmlNamespaceManager): void;
     abstract setContext(nsResolver: IXmlNamespaceResolver): void;
-    static Compile(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
-    static Compile(xpath: string): XPathExpression;
+    static compile2(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
+    static compile2(xpath: string): XPathExpression;
 }
 
 
@@ -154,7 +156,7 @@ export type XPathExpression = XPathExpression$instance;
 
 export abstract class XPathItem$instance {
     readonly isNode: boolean;
-    readonly typedValue: any;
+    readonly typedValue: unknown;
     readonly value: string;
     readonly valueAsBoolean: boolean;
     readonly valueAsDateTime: DateTime;
@@ -163,8 +165,8 @@ export abstract class XPathItem$instance {
     readonly valueAsLong: long;
     readonly valueType: Type;
     readonly xmlType: XmlSchemaType;
-    valueAs(returnType: Type): any;
-    valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): any;
+    valueAs(returnType: Type): unknown;
+    valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
 }
 
 
@@ -186,8 +188,8 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     outerXml: string;
     readonly prefix: string;
     readonly schemaInfo: IXmlSchemaInfo;
-    readonly typedValue: any;
-    readonly underlyingObject: any;
+    readonly typedValue: unknown;
+    readonly underlyingObject: unknown;
     readonly valueAsBoolean: boolean;
     readonly valueAsDateTime: DateTime;
     readonly valueAsDouble: double;
@@ -210,10 +212,10 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     createNavigator(): XPathNavigator;
     deleteRange(lastSiblingToDelete: XPathNavigator): void;
     deleteSelf(): void;
-    evaluate(xpath: string): any;
-    evaluate(xpath: string, resolver: IXmlNamespaceResolver): any;
-    evaluate(expr: XPathExpression): any;
-    evaluate(expr: XPathExpression, context: XPathNodeIterator): any;
+    evaluate(xpath: string): unknown;
+    evaluate(xpath: string, resolver: IXmlNamespaceResolver): unknown;
+    evaluate(expr: XPathExpression): unknown;
+    evaluate(expr: XPathExpression, context: XPathNodeIterator): unknown;
     getAttribute(localName: string, namespaceURI: string): string;
     getNamespace(name: string): string;
     getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
@@ -279,21 +281,23 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     selectSingleNode(xpath: string): XPathNavigator;
     selectSingleNode(xpath: string, resolver: IXmlNamespaceResolver): XPathNavigator;
     selectSingleNode(expression: XPathExpression): XPathNavigator;
-    setTypedValue(typedValue: any): void;
+    setTypedValue(typedValue: unknown): void;
     setValue(value: string): void;
     toString(): string;
-    valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): any;
-    valueAs(returnType: Type): any;
+    valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
+    valueAs(returnType: Type): unknown;
     writeSubtree(writer: XmlWriter): void;
-    static readonly NavigatorComparer: IEqualityComparer;
+    static readonly navigatorComparer: IEqualityComparer;
 }
 
 
 export interface __XPathNavigator$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IXmlNamespaceResolver: System_Xml_Internal.IXmlNamespaceResolver$instance;
-    readonly As_IXPathNavigable: IXPathNavigable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IXmlNamespaceResolver(): System_Xml_Internal.IXmlNamespaceResolver$instance;
+    As_IXPathNavigable(): IXPathNavigable$instance;
 }
+
+export interface XPathNavigator$instance extends System_Xml_Internal.IXmlNamespaceResolver$instance, IXPathNavigable$instance {}
 
 export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 
@@ -309,29 +313,31 @@ export abstract class XPathNodeIterator$instance {
 
 
 export interface __XPathNodeIterator$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface XPathNodeIterator$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type XPathNodeIterator = XPathNodeIterator$instance & __XPathNodeIterator$views;
 
 
 export abstract class Extensions$instance {
-    static CreateNavigator(node: XNode, nameTable: XmlNameTable): XPathNavigator;
-    static CreateNavigator(node: XNode): XPathNavigator;
-    static XPathEvaluate(node: XNode, expression: string, resolver: IXmlNamespaceResolver): any;
-    static XPathEvaluate(node: XNode, expression: string): any;
-    static XPathSelectElement(node: XNode, expression: string, resolver: IXmlNamespaceResolver): XElement;
-    static XPathSelectElement(node: XNode, expression: string): XElement;
-    static XPathSelectElements(node: XNode, expression: string, resolver: IXmlNamespaceResolver): IEnumerable_1<XElement>;
-    static XPathSelectElements(node: XNode, expression: string): IEnumerable_1<XElement>;
+    static createNavigator2(node: XNode, nameTable: XmlNameTable): XPathNavigator;
+    static createNavigator2(node: XNode): XPathNavigator;
+    static xPathEvaluate2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): unknown;
+    static xPathEvaluate2(node: XNode, expression: string): unknown;
+    static xPathSelectElement2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): XElement;
+    static xPathSelectElement2(node: XNode, expression: string): XElement;
+    static xPathSelectElements2(node: XNode, expression: string, resolver: IXmlNamespaceResolver): IEnumerable_1<XElement>;
+    static xPathSelectElements2(node: XNode, expression: string): IEnumerable_1<XElement>;
 }
 
 
 export type Extensions = Extensions$instance;
 
 export abstract class XDocumentExtensions$instance {
-    static ToXPathNavigable(node: XNode): IXPathNavigable;
+    static toXPathNavigable(node: XNode): IXPathNavigable;
 }
 
 

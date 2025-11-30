@@ -107,14 +107,16 @@ export class QuicConnection$instance {
     disposeAsync(): ValueTask;
     openOutboundStreamAsync(type_: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
     toString(): string;
-    static readonly IsSupported: boolean;
-    static ConnectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
+    static readonly isSupported: boolean;
+    static connectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
 }
 
 
 export interface __QuicConnection$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
 }
+
+export interface QuicConnection$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
@@ -144,7 +146,7 @@ export class QuicException$instance extends System_IO_Internal.IOException$insta
 
 
 export interface __QuicException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type QuicException = QuicException$instance & __QuicException$views;
@@ -155,14 +157,16 @@ export class QuicListener$instance {
     acceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
     disposeAsync(): ValueTask;
     toString(): string;
-    static readonly IsSupported: boolean;
-    static ListenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
+    static readonly isSupported: boolean;
+    static listenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
 }
 
 
 export interface __QuicListener$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
 }
+
+export interface QuicListener$instance extends System_Internal.IAsyncDisposable$instance {}
 
 export type QuicListener = QuicListener$instance & __QuicListener$views;
 
@@ -211,8 +215,8 @@ export class QuicStream$instance extends System_IO_Internal.Stream$instance {
     readonly writesClosed: Task;
     writeTimeout: int;
     abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: any): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     completeWrites(): void;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -245,8 +249,8 @@ export class QuicStream$instance extends System_IO_Internal.Stream$instance {
 
 
 export interface __QuicStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type QuicStream = QuicStream$instance & __QuicStream$views;

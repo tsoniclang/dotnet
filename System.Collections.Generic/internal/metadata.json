@@ -2987,14 +2987,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections:System.Collections.Generic.OrderedDictionary\u00602\u002BKeyCollection\u002BEnumerator",
@@ -3126,14 +3119,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections:System.Collections.Generic.OrderedDictionary\u00602\u002BValueCollection\u002BEnumerator",
@@ -3265,14 +3251,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections:System.Collections.Generic.PriorityQueue\u00602\u002BUnorderedItemsCollection\u002BEnumerator",
@@ -9790,13 +9769,6 @@
           "isStatic": false,
           "parameterCount": 1
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
       ]
     },
     {
@@ -11826,13 +11798,6 @@
           "isStatic": false,
           "parameterCount": 2
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
       ]
     },
     {
@@ -12314,14 +12279,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections:System.Collections.Generic.OrderedDictionary\u00602\u002BValueCollection",
@@ -12786,14 +12744,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections:System.Collections.Generic.PriorityQueue\u00602",

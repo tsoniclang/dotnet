@@ -77,7 +77,7 @@ export class ClaimsIdentity$instance {
     constructor(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison);
     actor: ClaimsIdentity;
     readonly authenticationType: string;
-    bootstrapContext: any;
+    bootstrapContext: unknown;
     readonly claims: IEnumerable_1<Claim>;
     readonly isAuthenticated: boolean;
     label: string;
@@ -96,15 +96,17 @@ export class ClaimsIdentity$instance {
     removeClaim(claim: Claim): void;
     tryRemoveClaim(claim: Claim): boolean;
     writeTo(writer: BinaryWriter): void;
-    static readonly DefaultIssuer: string;
-    static readonly DefaultNameClaimType: string;
-    static readonly DefaultRoleClaimType: string;
+    static readonly defaultIssuer: string;
+    static readonly defaultNameClaimType: string;
+    static readonly defaultRoleClaimType: string;
 }
 
 
 export interface __ClaimsIdentity$views {
-    readonly As_IIdentity: System_Security_Principal_Internal.IIdentity$instance;
+    As_IIdentity(): System_Security_Principal_Internal.IIdentity$instance;
 }
+
+export interface ClaimsIdentity$instance extends System_Security_Principal_Internal.IIdentity$instance {}
 
 export type ClaimsIdentity = ClaimsIdentity$instance & __ClaimsIdentity$views;
 
@@ -129,107 +131,109 @@ export class ClaimsPrincipal$instance {
     hasClaim(type_: string, value: string): boolean;
     isInRole(role: string): boolean;
     writeTo(writer: BinaryWriter): void;
-    static PrimaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity>;
-    static ClaimsPrincipalSelector: Func_1<ClaimsPrincipal>;
-    static readonly Current: ClaimsPrincipal;
+    static primaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity>;
+    static claimsPrincipalSelector: Func_1<ClaimsPrincipal>;
+    static readonly current: ClaimsPrincipal;
 }
 
 
 export interface __ClaimsPrincipal$views {
-    readonly As_IPrincipal: System_Security_Principal_Internal.IPrincipal$instance;
+    As_IPrincipal(): System_Security_Principal_Internal.IPrincipal$instance;
 }
+
+export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {}
 
 export type ClaimsPrincipal = ClaimsPrincipal$instance & __ClaimsPrincipal$views;
 
 
 export abstract class ClaimTypes$instance {
-    static readonly AuthenticationInstant: string;
-    static readonly AuthenticationMethod: string;
-    static readonly CookiePath: string;
-    static readonly DenyOnlyPrimarySid: string;
-    static readonly DenyOnlyPrimaryGroupSid: string;
-    static readonly DenyOnlyWindowsDeviceGroup: string;
-    static readonly Dsa: string;
-    static readonly Expiration: string;
-    static readonly Expired: string;
-    static readonly GroupSid: string;
-    static readonly IsPersistent: string;
-    static readonly PrimaryGroupSid: string;
-    static readonly PrimarySid: string;
-    static readonly Role: string;
-    static readonly SerialNumber: string;
-    static readonly UserData: string;
-    static readonly Version: string;
-    static readonly WindowsAccountName: string;
-    static readonly WindowsDeviceClaim: string;
-    static readonly WindowsDeviceGroup: string;
-    static readonly WindowsUserClaim: string;
-    static readonly WindowsFqbnVersion: string;
-    static readonly WindowsSubAuthority: string;
-    static readonly Anonymous: string;
-    static readonly Authentication: string;
-    static readonly AuthorizationDecision: string;
-    static readonly Country: string;
-    static readonly DateOfBirth: string;
-    static readonly Dns: string;
-    static readonly DenyOnlySid: string;
-    static readonly Email: string;
-    static readonly Gender: string;
-    static readonly GivenName: string;
-    static readonly Hash: string;
-    static readonly HomePhone: string;
-    static readonly Locality: string;
-    static readonly MobilePhone: string;
-    static readonly Name: string;
-    static readonly NameIdentifier: string;
-    static readonly OtherPhone: string;
-    static readonly PostalCode: string;
-    static readonly Rsa: string;
-    static readonly Sid: string;
-    static readonly Spn: string;
-    static readonly StateOrProvince: string;
-    static readonly StreetAddress: string;
-    static readonly Surname: string;
-    static readonly System: string;
-    static readonly Thumbprint: string;
-    static readonly Upn: string;
-    static readonly Uri: string;
-    static readonly Webpage: string;
-    static readonly X500DistinguishedName: string;
-    static readonly Actor: string;
+    static readonly authenticationInstant: string;
+    static readonly authenticationMethod: string;
+    static readonly cookiePath: string;
+    static readonly denyOnlyPrimarySid: string;
+    static readonly denyOnlyPrimaryGroupSid: string;
+    static readonly denyOnlyWindowsDeviceGroup: string;
+    static readonly dsa: string;
+    static readonly expiration: string;
+    static readonly expired: string;
+    static readonly groupSid: string;
+    static readonly isPersistent: string;
+    static readonly primaryGroupSid: string;
+    static readonly primarySid: string;
+    static readonly role: string;
+    static readonly serialNumber: string;
+    static readonly userData: string;
+    static readonly version: string;
+    static readonly windowsAccountName: string;
+    static readonly windowsDeviceClaim: string;
+    static readonly windowsDeviceGroup: string;
+    static readonly windowsUserClaim: string;
+    static readonly windowsFqbnVersion: string;
+    static readonly windowsSubAuthority: string;
+    static readonly anonymous: string;
+    static readonly authentication: string;
+    static readonly authorizationDecision: string;
+    static readonly country: string;
+    static readonly dateOfBirth: string;
+    static readonly dns: string;
+    static readonly denyOnlySid: string;
+    static readonly email: string;
+    static readonly gender: string;
+    static readonly givenName: string;
+    static readonly hash: string;
+    static readonly homePhone: string;
+    static readonly locality: string;
+    static readonly mobilePhone: string;
+    static readonly name: string;
+    static readonly nameIdentifier: string;
+    static readonly otherPhone: string;
+    static readonly postalCode: string;
+    static readonly rsa: string;
+    static readonly sid: string;
+    static readonly spn: string;
+    static readonly stateOrProvince: string;
+    static readonly streetAddress: string;
+    static readonly surname: string;
+    static readonly system: string;
+    static readonly thumbprint: string;
+    static readonly upn: string;
+    static readonly uri: string;
+    static readonly webpage: string;
+    static readonly x500DistinguishedName: string;
+    static readonly actor: string;
 }
 
 
 export type ClaimTypes = ClaimTypes$instance;
 
 export abstract class ClaimValueTypes$instance {
-    static readonly Base64Binary: string;
-    static readonly Base64Octet: string;
-    static readonly Boolean: string;
-    static readonly Date: string;
-    static readonly DateTime: string;
-    static readonly Double: string;
-    static readonly Fqbn: string;
-    static readonly HexBinary: string;
-    static readonly Integer: string;
-    static readonly Integer32: string;
-    static readonly Integer64: string;
-    static readonly Sid: string;
-    static readonly String: string;
-    static readonly Time: string;
-    static readonly UInteger32: string;
-    static readonly UInteger64: string;
-    static readonly DnsName: string;
-    static readonly Email: string;
-    static readonly Rsa: string;
-    static readonly UpnName: string;
-    static readonly DsaKeyValue: string;
-    static readonly KeyInfo: string;
-    static readonly RsaKeyValue: string;
-    static readonly DaytimeDuration: string;
-    static readonly YearMonthDuration: string;
-    static readonly Rfc822Name: string;
-    static readonly X500Name: string;
+    static readonly base64Binary: string;
+    static readonly base64Octet: string;
+    static readonly boolean_: string;
+    static readonly date: string;
+    static readonly dateTime: string;
+    static readonly double: string;
+    static readonly fqbn: string;
+    static readonly hexBinary: string;
+    static readonly integer: string;
+    static readonly integer32: string;
+    static readonly integer64: string;
+    static readonly sid: string;
+    static readonly string_: string;
+    static readonly time: string;
+    static readonly uInteger32: string;
+    static readonly uInteger64: string;
+    static readonly dnsName: string;
+    static readonly email: string;
+    static readonly rsa: string;
+    static readonly upnName: string;
+    static readonly dsaKeyValue: string;
+    static readonly keyInfo: string;
+    static readonly rsaKeyValue: string;
+    static readonly daytimeDuration: string;
+    static readonly yearMonthDuration: string;
+    static readonly rfc822Name: string;
+    static readonly x500Name: string;
 }
 
 

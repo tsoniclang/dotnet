@@ -178,8 +178,10 @@ export abstract class DiagnosticCounter$instance {
 
 
 export interface __DiagnosticCounter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DiagnosticCounter$instance extends System_Internal.IDisposable$instance {}
 
 export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter$views;
 
@@ -221,7 +223,7 @@ export class EventCounter$instance extends DiagnosticCounter$instance {
 
 
 export interface __EventCounter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type EventCounter = EventCounter$instance & __EventCounter$views;
@@ -261,8 +263,10 @@ export abstract class EventListener$instance {
 
 
 export interface __EventListener$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface EventListener$instance extends System_Internal.IDisposable$instance {}
 
 export type EventListener = EventListener$instance & __EventListener$views;
 
@@ -287,21 +291,23 @@ export class EventSource$instance {
     write<T>(eventName: string, options: EventSourceOptions, data: T): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, data: { value: ref<T> }): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, activityId: { value: ref<Guid> }, relatedActivityId: { value: ref<Guid> }, data: { value: ref<T> }): void;
-    static readonly CurrentThreadActivityId: Guid;
-    static GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
-    static GenerateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
-    static GetGuid(eventSourceType: Type): Guid;
-    static GetName(eventSourceType: Type): string;
-    static GetSources(): IEnumerable_1<EventSource>;
-    static SendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
-    static SetCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
-    static SetCurrentThreadActivityId(activityId: Guid): void;
+    static readonly currentThreadActivityId: Guid;
+    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
+    static generateManifest2(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
+    static getGuid(eventSourceType: Type): Guid;
+    static getName(eventSourceType: Type): string;
+    static getSources(): IEnumerable_1<EventSource>;
+    static sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
+    static setCurrentThreadActivityId2(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
+    static setCurrentThreadActivityId2(activityId: Guid): void;
 }
 
 
 export interface __EventSource$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface EventSource$instance extends System_Internal.IDisposable$instance {}
 
 export type EventSource = EventSource$instance & __EventSource$views;
 
@@ -333,7 +339,7 @@ export class EventSourceException$instance extends System_Internal.Exception$ins
 
 
 export interface __EventSourceException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EventSourceException = EventSourceException$instance & __EventSourceException$views;
@@ -350,7 +356,7 @@ export class EventWrittenEventArgs$instance extends System_Internal.EventArgs$in
     readonly message: string;
     readonly opcode: EventOpcode;
     readonly osThreadId: long;
-    readonly payload: ReadOnlyCollection_1<any>;
+    readonly payload: ReadOnlyCollection_1<unknown>;
     readonly payloadNames: ReadOnlyCollection_1<CLROf<string>>;
     readonly relatedActivityId: Guid;
     readonly tags: EventTags;
@@ -372,7 +378,7 @@ export class IncrementingEventCounter$instance extends DiagnosticCounter$instanc
 
 
 export interface __IncrementingEventCounter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type IncrementingEventCounter = IncrementingEventCounter$instance & __IncrementingEventCounter$views;
@@ -387,7 +393,7 @@ export class IncrementingPollingCounter$instance extends DiagnosticCounter$insta
 
 
 export interface __IncrementingPollingCounter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type IncrementingPollingCounter = IncrementingPollingCounter$instance & __IncrementingPollingCounter$views;
@@ -408,7 +414,7 @@ export class PollingCounter$instance extends DiagnosticCounter$instance {
 
 
 export interface __PollingCounter$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type PollingCounter = PollingCounter$instance & __PollingCounter$views;

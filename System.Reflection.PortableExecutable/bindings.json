@@ -3890,7 +3890,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::I386System.Reflection.PortableExecutable.Machine",
           "clrName": "I386",
-          "tsEmitName": "i386",
+          "tsEmitName": "I386",
           "metadataToken": 67109237,
           "normalizedSignature": "I386|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -3923,7 +3923,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3System.Reflection.PortableExecutable.Machine",
           "clrName": "SH3",
-          "tsEmitName": "sh3",
+          "tsEmitName": "SH3",
           "metadataToken": 67109240,
           "normalizedSignature": "SH3|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -3934,7 +3934,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3DspSystem.Reflection.PortableExecutable.Machine",
           "clrName": "SH3Dsp",
-          "tsEmitName": "sh3Dsp",
+          "tsEmitName": "sH3Dsp",
           "metadataToken": 67109241,
           "normalizedSignature": "SH3Dsp|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -3945,7 +3945,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH3ESystem.Reflection.PortableExecutable.Machine",
           "clrName": "SH3E",
-          "tsEmitName": "sh3e",
+          "tsEmitName": "SH3E",
           "metadataToken": 67109242,
           "normalizedSignature": "SH3E|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -3956,7 +3956,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH4System.Reflection.PortableExecutable.Machine",
           "clrName": "SH4",
-          "tsEmitName": "sh4",
+          "tsEmitName": "SH4",
           "metadataToken": 67109243,
           "normalizedSignature": "SH4|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -3967,7 +3967,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::SH5System.Reflection.PortableExecutable.Machine",
           "clrName": "SH5",
-          "tsEmitName": "sh5",
+          "tsEmitName": "SH5",
           "metadataToken": 67109244,
           "normalizedSignature": "SH5|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4011,7 +4011,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::AM33System.Reflection.PortableExecutable.Machine",
           "clrName": "AM33",
-          "tsEmitName": "am33",
+          "tsEmitName": "AM33",
           "metadataToken": 67109248,
           "normalizedSignature": "AM33|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4044,7 +4044,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::IA64System.Reflection.PortableExecutable.Machine",
           "clrName": "IA64",
-          "tsEmitName": "ia64",
+          "tsEmitName": "IA64",
           "metadataToken": 67109251,
           "normalizedSignature": "IA64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4055,7 +4055,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::MIPS16System.Reflection.PortableExecutable.Machine",
           "clrName": "MIPS16",
-          "tsEmitName": "mips16",
+          "tsEmitName": "MIPS16",
           "metadataToken": 67109252,
           "normalizedSignature": "MIPS16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4132,7 +4132,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::M32RSystem.Reflection.PortableExecutable.Machine",
           "clrName": "M32R",
-          "tsEmitName": "m32r",
+          "tsEmitName": "M32R",
           "metadataToken": 67109259,
           "normalizedSignature": "M32R|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4933,7 +4933,7 @@
           }
         },
         {
-          "tsName": "i386",
+          "tsName": "I386",
           "isStatic": true,
           "tsSignatureId": "I386|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -4963,7 +4963,7 @@
           }
         },
         {
-          "tsName": "sh3",
+          "tsName": "SH3",
           "isStatic": true,
           "tsSignatureId": "SH3|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -4973,7 +4973,7 @@
           }
         },
         {
-          "tsName": "sh3Dsp",
+          "tsName": "sH3Dsp",
           "isStatic": true,
           "tsSignatureId": "SH3Dsp|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -4983,7 +4983,7 @@
           }
         },
         {
-          "tsName": "sh3e",
+          "tsName": "SH3E",
           "isStatic": true,
           "tsSignatureId": "SH3E|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -4993,7 +4993,7 @@
           }
         },
         {
-          "tsName": "sh4",
+          "tsName": "SH4",
           "isStatic": true,
           "tsSignatureId": "SH4|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5003,7 +5003,7 @@
           }
         },
         {
-          "tsName": "sh5",
+          "tsName": "SH5",
           "isStatic": true,
           "tsSignatureId": "SH5|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5043,7 +5043,7 @@
           }
         },
         {
-          "tsName": "am33",
+          "tsName": "AM33",
           "isStatic": true,
           "tsSignatureId": "AM33|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5073,7 +5073,7 @@
           }
         },
         {
-          "tsName": "ia64",
+          "tsName": "IA64",
           "isStatic": true,
           "tsSignatureId": "IA64|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5083,7 +5083,7 @@
           }
         },
         {
-          "tsName": "mips16",
+          "tsName": "MIPS16",
           "isStatic": true,
           "tsSignatureId": "MIPS16|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5153,7 +5153,7 @@
           }
         },
         {
-          "tsName": "m32r",
+          "tsName": "M32R",
           "isStatic": true,
           "tsSignatureId": "M32R|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5247,7 +5247,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMagic::PE32System.Reflection.PortableExecutable.PEMagic",
           "clrName": "PE32",
-          "tsEmitName": "pe32",
+          "tsEmitName": "PE32",
           "metadataToken": 67109286,
           "normalizedSignature": "PE32|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
@@ -5258,7 +5258,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEMagic::PE32PlusSystem.Reflection.PortableExecutable.PEMagic",
           "clrName": "PE32Plus",
-          "tsEmitName": "pe32Plus",
+          "tsEmitName": "pE32Plus",
           "metadataToken": 67109287,
           "normalizedSignature": "PE32Plus|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "isStatic": true,
@@ -5983,7 +5983,7 @@
           }
         },
         {
-          "tsName": "pe32",
+          "tsName": "PE32",
           "isStatic": true,
           "tsSignatureId": "PE32|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "target": {
@@ -5993,7 +5993,7 @@
           }
         },
         {
-          "tsName": "pe32Plus",
+          "tsName": "pE32Plus",
           "isStatic": true,
           "tsSignatureId": "PE32Plus|System.Reflection.PortableExecutable.PEMagic|static=true|const=true",
           "target": {
@@ -8618,7 +8618,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::OS2CuiSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "OS2Cui",
-          "tsEmitName": "os2Cui",
+          "tsEmitName": "oS2Cui",
           "metadataToken": 67109293,
           "normalizedSignature": "OS2Cui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
@@ -9482,7 +9482,7 @@
           }
         },
         {
-          "tsName": "os2Cui",
+          "tsName": "oS2Cui",
           "isStatic": true,
           "tsSignatureId": "OS2Cui|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "target": {

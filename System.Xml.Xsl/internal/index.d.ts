@@ -45,21 +45,21 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface IXsltContextFunction$instance {
-    readonly Minargs: int;
-    readonly Maxargs: int;
-    readonly ReturnType: XPathResultType;
-    readonly ArgTypes: XPathResultType[];
-    Invoke(xsltContext: XsltContext, args: any[], docContext: XPathNavigator): any;
+    readonly minargs: int;
+    readonly maxargs: int;
+    readonly returnType: XPathResultType;
+    readonly argTypes: XPathResultType[];
+    invoke(xsltContext: XsltContext, args: unknown[], docContext: XPathNavigator): unknown;
 }
 
 
 export type IXsltContextFunction = IXsltContextFunction$instance;
 
 export interface IXsltContextVariable$instance {
-    readonly IsLocal: boolean;
-    readonly IsParam: boolean;
-    readonly VariableType: XPathResultType;
-    Evaluate(xsltContext: XsltContext): any;
+    readonly isLocal: boolean;
+    readonly isParam: boolean;
+    readonly variableType: XPathResultType;
+    evaluate(xsltContext: XsltContext): unknown;
 }
 
 
@@ -99,13 +99,13 @@ export type XslCompiledTransform = XslCompiledTransform$instance;
 
 export class XsltArgumentList$instance {
     constructor();
-    addExtensionObject(namespaceUri: string, extension: any): void;
-    addParam(name: string, namespaceUri: string, parameter: any): void;
+    addExtensionObject(namespaceUri: string, extension: unknown): void;
+    addParam(name: string, namespaceUri: string, parameter: unknown): void;
     clear(): void;
-    getExtensionObject(namespaceUri: string): any;
-    getParam(name: string, namespaceUri: string): any;
-    removeExtensionObject(namespaceUri: string): any;
-    removeParam(name: string, namespaceUri: string): any;
+    getExtensionObject(namespaceUri: string): unknown;
+    getParam(name: string, namespaceUri: string): unknown;
+    removeExtensionObject(namespaceUri: string): unknown;
+    removeParam(name: string, namespaceUri: string): unknown;
 }
 
 
@@ -121,7 +121,7 @@ export class XsltCompileException$instance extends XsltException$instance {
 
 
 export interface __XsltCompileException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltCompileException = XsltCompileException$instance & __XsltCompileException$views;
@@ -140,8 +140,8 @@ export abstract class XsltContext$instance extends System_Xml_Internal.XmlNamesp
 
 
 export interface __XsltContext$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IXmlNamespaceResolver: System_Xml_Internal.IXmlNamespaceResolver$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IXmlNamespaceResolver(): System_Xml_Internal.IXmlNamespaceResolver$instance;
 }
 
 export type XsltContext = XsltContext$instance & __XsltContext$views;
@@ -160,7 +160,7 @@ export class XsltException$instance extends System_Internal.SystemException$inst
 
 
 export interface __XsltException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltException = XsltException$instance & __XsltException$views;
@@ -174,18 +174,18 @@ export abstract class XsltMessageEncounteredEventArgs$instance extends System_In
 export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$instance;
 
 export class XsltMessageEncounteredEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: XsltMessageEncounteredEventArgs): void;
+    invoke(sender: unknown, e: XsltMessageEncounteredEventArgs): void;
 }
 
 
 export interface __XsltMessageEncounteredEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type XsltMessageEncounteredEventHandler = XsltMessageEncounteredEventHandler$instance & __XsltMessageEncounteredEventHandler$views;
@@ -230,8 +230,8 @@ export class XsltSettings$instance {
     constructor(enableDocumentFunction: boolean, enableScript: boolean);
     enableDocumentFunction: boolean;
     enableScript: boolean;
-    static readonly Default: XsltSettings;
-    static readonly TrustedXslt: XsltSettings;
+    static readonly default_: XsltSettings;
+    static readonly trustedXslt: XsltSettings;
 }
 
 

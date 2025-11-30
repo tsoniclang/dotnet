@@ -406,7 +406,7 @@ export class XPathPrecedingMergeIterator$instance {
 export type XPathPrecedingMergeIterator = XPathPrecedingMergeIterator$instance;
 
 export class XmlCollation$instance {
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -438,8 +438,8 @@ export class XmlQueryContext$instance {
     readonly defaultNameTable: XmlNameTable;
     readonly queryNameTable: XmlNameTable;
     getDataSource(uriRelative: string, uriBase: string): XPathNavigator;
-    getLateBoundObject(namespaceUri: string): any;
-    getParameter(localName: string, namespaceUri: string): any;
+    getLateBoundObject(namespaceUri: string): unknown;
+    getParameter(localName: string, namespaceUri: string): unknown;
     invokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
     lateBoundFunctionExists(name: string, namespaceUri: string): boolean;
     onXsltMessageEncountered(message: string): void;
@@ -453,31 +453,31 @@ export class XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<X
     constructor(capacity: int);
     constructor(item: XPathItem);
     add(value: XPathItem): void;
-    add(value: any): int;
+    add(value: unknown): int;
     addClone(item: XPathItem): void;
     clear(): void;
     contains(value: XPathItem): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: XPathItem[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<XPathItem>;
     getEnumerator(): IEnumerator;
     indexOf(value: XPathItem): int;
     insert(index: int, item: XPathItem): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: XPathItem): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __XmlQueryItemSequence$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<XPathItem>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<XPathItem>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<XPathItem>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<XPathItem>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<XPathItem>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<XPathItem>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryItemSequence$views;
@@ -491,11 +491,11 @@ export class XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<X
     constructor(navigator: XPathNavigator);
     isDocOrderDistinct: boolean;
     add(value: XPathNavigator): void;
-    add(value: any): int;
+    add(value: unknown): int;
     addClone(navigator: XPathNavigator): void;
     clear(): void;
     contains(value: XPathNavigator): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: XPathNavigator[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     docOrderDistinct(comparer: IComparer_1<XPathNavigator>): XmlQueryNodeSequence;
@@ -503,20 +503,20 @@ export class XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<X
     getEnumerator(): IEnumerator;
     indexOf(value: XPathNavigator): int;
     insert(index: int, item: XPathNavigator): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: XPathNavigator): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __XmlQueryNodeSequence$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<XPathNavigator>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<XPathNavigator>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<XPathNavigator>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<XPathNavigator>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<XPathNavigator>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<XPathNavigator>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlQueryNodeSequence = XmlQueryNodeSequence$instance & __XmlQueryNodeSequence$views;
@@ -538,8 +538,8 @@ export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$insta
     startTree(rootType: XPathNodeType): void;
     writeBase64(buffer: byte[], index: int, count: int): void;
     writeCData(text: string): void;
-    writeCharEntity(ch: string): void;
-    writeChars(buffer: string[], index: int, count: int): void;
+    writeCharEntity(ch: char): void;
+    writeChars(buffer: char[], index: int, count: int): void;
     writeComment(text: string): void;
     writeCommentString(text: string): void;
     writeDocType(name: string, pubid: string, sysid: string, subset: string): void;
@@ -561,7 +561,7 @@ export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$insta
     writeNamespaceString(text: string): void;
     writeProcessingInstruction(target: string, text: string): void;
     writeProcessingInstructionString(text: string): void;
-    writeRaw(buffer: string[], index: int, count: int): void;
+    writeRaw(buffer: char[], index: int, count: int): void;
     writeRaw(data: string): void;
     writeRawUnchecked(text: string): void;
     writeStartAttribute(prefix: string, localName: string, ns: string): void;
@@ -592,15 +592,15 @@ export class XmlQueryOutput$instance extends System_Xml_Internal.XmlWriter$insta
     writeStartRoot(): void;
     writeString(text: string): void;
     writeStringUnchecked(text: string): void;
-    writeSurrogateCharEntity(lowChar: string, highChar: string): void;
+    writeSurrogateCharEntity(lowChar: char, highChar: char): void;
     writeWhitespace(ws: string): void;
     xsltCopyOf(navigator: XPathNavigator): void;
 }
 
 
 export interface __XmlQueryOutput$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type XmlQueryOutput = XmlQueryOutput$instance & __XmlQueryOutput$views;
@@ -612,14 +612,14 @@ export class XmlQueryRuntime$instance {
     readonly output: XmlQueryOutput;
     readonly xsltFunctions: XsltLibrary;
     addNewIndex(context: XPathNavigator, indexId: int, index: XmlILIndex): void;
-    changeTypeXsltArgument(indexType: int, value: any, destinationType: Type): any;
-    changeTypeXsltResult(indexType: int, value: any): any;
+    changeTypeXsltArgument(indexType: int, value: unknown, destinationType: Type): unknown;
+    changeTypeXsltResult(indexType: int, value: unknown): unknown;
     comparePosition(navigatorThis: XPathNavigator, navigatorThat: XPathNavigator): int;
     createCollation(collation: string): XmlCollation;
     debugGetGlobalNames(): string[];
     debugGetGlobalValue(name: string): IList;
-    debugGetXsltValue(seq: IList): any;
-    debugSetGlobalValue(name: string, value: any): void;
+    debugGetXsltValue(seq: IList): unknown;
+    debugSetGlobalValue(name: string, value: unknown): void;
     docOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
     earlyBoundFunctionExists(name: string, namespaceUri: string): boolean;
     endRtfConstruction(output: { value: ref<XmlQueryOutput> }): XPathNavigator;
@@ -628,8 +628,8 @@ export class XmlQueryRuntime$instance {
     generateId(navigator: XPathNavigator): string;
     getAtomizedName(index: int): string;
     getCollation(index: int): XmlCollation;
-    getEarlyBoundObject(index: int): any;
-    getGlobalValue(index: int): any;
+    getEarlyBoundObject(index: int): unknown;
+    getGlobalValue(index: int): unknown;
     getNameFilter(index: int): XmlNavigatorFilter;
     getTypeFilter(nodeType: XPathNodeType): XmlNavigatorFilter;
     isGlobalComputed(index: int): boolean;
@@ -642,12 +642,12 @@ export class XmlQueryRuntime$instance {
     parseTagName(tagName: string, indexPrefixMappings: int): XmlQualifiedName;
     parseTagName(tagName: string, ns: string): XmlQualifiedName;
     sendMessage(message: string): void;
-    setGlobalValue(index: int, value: any): void;
+    setGlobalValue(index: int, value: unknown): void;
     startRtfConstruction(baseUri: string, output: { value: ref<XmlQueryOutput> }): void;
     startSequenceConstruction(output: { value: ref<XmlQueryOutput> }): void;
     textRtfConstruction(text: string, baseUri: string): XPathNavigator;
     throwException(text: string): void;
-    static OnCurrentNodeChanged(currentNode: XPathNavigator): int;
+    static onCurrentNodeChanged(currentNode: XPathNavigator): int;
 }
 
 
@@ -668,18 +668,18 @@ export class XmlQuerySequence_1$instance<T> {
     indexOf(value: T): int;
     sortByKeys(keys: ClrArray): void;
     static readonly empty: unknown;
-    static CreateOrReuse<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
-    static CreateOrReuse<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
+    static createOrReuse2<T>(seq: XmlQuerySequence_1<T>, item: T): XmlQuerySequence_1<T>;
+    static createOrReuse2<T>(seq: XmlQuerySequence_1<T>): XmlQuerySequence_1<T>;
 }
 
 
 export interface __XmlQuerySequence_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type XmlQuerySequence_1<T> = XmlQuerySequence_1$instance<T> & __XmlQuerySequence_1$views<T>;
@@ -705,72 +705,72 @@ export class XsltLibrary$instance {
 export type XsltLibrary = XsltLibrary$instance;
 
 export abstract class XmlILStorageConverter$instance {
-    static BooleanToAtomicValue(value: boolean, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static BytesToAtomicValue(value: byte[], index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DateTimeToAtomicValue(value: DateTime, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DecimalToAtomicValue(value: decimal, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static DoubleToAtomicValue(value: double, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static Int32ToAtomicValue(value: int, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static Int64ToAtomicValue(value: long, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static ItemsToNavigators(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static NavigatorsToItems(listNavigators: IList_1<XPathNavigator>): IList_1<XPathItem>;
-    static SingleToAtomicValue(value: float, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static StringToAtomicValue(value: string, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static TimeSpanToAtomicValue(value: TimeSpan, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
-    static XmlQualifiedNameToAtomicValue(value: XmlQualifiedName, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static booleanToAtomicValue(value: boolean, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static bytesToAtomicValue(value: byte[], index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static dateTimeToAtomicValue(value: DateTime, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static decimalToAtomicValue(value: decimal, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static doubleToAtomicValue(value: double, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static int32ToAtomicValue(value: int, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static int64ToAtomicValue(value: long, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static itemsToNavigators(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static navigatorsToItems(listNavigators: IList_1<XPathNavigator>): IList_1<XPathItem>;
+    static singleToAtomicValue(value: float, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static stringToAtomicValue(value: string, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static timeSpanToAtomicValue(value: TimeSpan, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
+    static xmlQualifiedNameToAtomicValue(value: XmlQualifiedName, index: int, runtime: XmlQueryRuntime): XmlAtomicValue;
 }
 
 
 export type XmlILStorageConverter = XmlILStorageConverter$instance;
 
 export abstract class XsltConvert$instance {
-    static EnsureNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static ToBoolean(listItems: IList_1<XPathItem>): boolean;
-    static ToBoolean(item: XPathItem): boolean;
-    static ToDateTime(value: string): DateTime;
-    static ToDecimal(value: double): decimal;
-    static ToDouble(listItems: IList_1<XPathItem>): double;
-    static ToDouble(value: decimal): double;
-    static ToDouble(value: int): double;
-    static ToDouble(value: long): double;
-    static ToDouble(value: string): double;
-    static ToDouble(item: XPathItem): double;
-    static ToInt(value: double): int;
-    static ToLong(value: double): long;
-    static ToNode(listItems: IList_1<XPathItem>): XPathNavigator;
-    static ToNode(item: XPathItem): XPathNavigator;
-    static ToNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
-    static ToNodeSet(item: XPathItem): IList_1<XPathNavigator>;
-    static ToString(listItems: IList_1<XPathItem>): string;
-    static ToString(value: DateTime): string;
-    static ToString(value: double): string;
-    static ToString(item: XPathItem): string;
+    static ensureNodeSet(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static toBoolean2(listItems: IList_1<XPathItem>): boolean;
+    static toBoolean2(item: XPathItem): boolean;
+    static toDateTime(value: string): DateTime;
+    static toDecimal(value: double): decimal;
+    static toDouble3(listItems: IList_1<XPathItem>): double;
+    static toDouble3(value: decimal): double;
+    static toDouble3(value: int): double;
+    static toDouble3(value: long): double;
+    static toDouble3(value: string): double;
+    static toDouble3(item: XPathItem): double;
+    static toInt(value: double): int;
+    static toLong(value: double): long;
+    static toNode2(listItems: IList_1<XPathItem>): XPathNavigator;
+    static toNode2(item: XPathItem): XPathNavigator;
+    static toNodeSet2(listItems: IList_1<XPathItem>): IList_1<XPathNavigator>;
+    static toNodeSet2(item: XPathItem): IList_1<XPathNavigator>;
+    static toString3(listItems: IList_1<XPathItem>): string;
+    static toString3(value: DateTime): string;
+    static toString3(value: double): string;
+    static toString3(item: XPathItem): string;
 }
 
 
 export type XsltConvert = XsltConvert$instance;
 
 export abstract class XsltFunctions$instance {
-    static BaseUri(navigator: XPathNavigator): string;
-    static Contains(s1: string, s2: string): boolean;
-    static EXslObjectType(value: IList_1<XPathItem>): string;
-    static Lang(value: string, context: XPathNavigator): boolean;
-    static MSFormatDateTime(dateTime: string, format: string, lang: string, isDate: boolean): string;
-    static MSLocalName(name: string): string;
-    static MSNamespaceUri(name: string, currentNode: XPathNavigator): string;
-    static MSNumber(value: IList_1<XPathItem>): double;
-    static MSStringCompare(s1: string, s2: string, lang: string, options: string): double;
-    static MSUtc(dateTime: string): string;
-    static NormalizeSpace(value: string): string;
-    static OuterXml(navigator: XPathNavigator): string;
-    static Round(value: double): double;
-    static StartsWith(s1: string, s2: string): boolean;
-    static Substring(value: string, startIndex: double, length: double): string;
-    static Substring(value: string, startIndex: double): string;
-    static SubstringAfter(s1: string, s2: string): string;
-    static SubstringBefore(s1: string, s2: string): string;
-    static SystemProperty(name: XmlQualifiedName): XPathItem;
-    static Translate(arg: string, mapString: string, transString: string): string;
+    static baseUri(navigator: XPathNavigator): string;
+    static contains(s1: string, s2: string): boolean;
+    static eXslObjectType(value: IList_1<XPathItem>): string;
+    static lang(value: string, context: XPathNavigator): boolean;
+    static msFormatDateTime(dateTime: string, format: string, lang: string, isDate: boolean): string;
+    static msLocalName(name: string): string;
+    static msNamespaceUri(name: string, currentNode: XPathNavigator): string;
+    static msNumber(value: IList_1<XPathItem>): double;
+    static msStringCompare(s1: string, s2: string, lang: string, options: string): double;
+    static msUtc(dateTime: string): string;
+    static normalizeSpace(value: string): string;
+    static outerXml(navigator: XPathNavigator): string;
+    static round(value: double): double;
+    static startsWith(s1: string, s2: string): boolean;
+    static substring2(value: string, startIndex: double, length: double): string;
+    static substring2(value: string, startIndex: double): string;
+    static substringAfter(s1: string, s2: string): string;
+    static substringBefore(s1: string, s2: string): string;
+    static systemProperty(name: XmlQualifiedName): XPathItem;
+    static translate(arg: string, mapString: string, transString: string): string;
 }
 
 

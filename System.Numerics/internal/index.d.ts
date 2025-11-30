@@ -52,40 +52,44 @@ export interface IAdditiveIdentity_2$instance<TSelf extends IAdditiveIdentity_2<
 
 export type IAdditiveIdentity_2<TSelf extends IAdditiveIdentity_2<TSelf, TResult>, TResult> = IAdditiveIdentity_2$instance<TSelf, TResult>;
 
-export interface IBinaryFloatingPointIeee754_1$instance<TSelf extends IBinaryFloatingPointIeee754_1<TSelf>> {
-    CompareTo(obj: any): int;
-    GetExponentByteCount(): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
-    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
-    WriteExponentBigEndian(destination: byte[]): int;
-    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
+export interface IBinaryFloatingPointIeee754_1$instance<TSelf extends IBinaryFloatingPointIeee754_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPointIeee754_1<TSelf>, IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, IFloatingPoint_1<TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
+    compareTo(obj: unknown): int;
+    getExponentByteCount(): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
+    tryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    writeExponentBigEndian2(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian2(destination: byte[]): int;
+    writeExponentBigEndian2(destination: Span_1<CLROf<byte>>): int;
 }
 
 
 export type IBinaryFloatingPointIeee754_1<TSelf extends IBinaryFloatingPointIeee754_1<TSelf>> = IBinaryFloatingPointIeee754_1$instance<TSelf>;
 
-export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>> {
-    CompareTo(obj: any): int;
-    GetByteCount(): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
-    TryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    WriteBigEndian(destination: byte[], startIndex: int): int;
-    WriteBigEndian(destination: byte[]): int;
-    WriteBigEndian(destination: Span_1<CLROf<byte>>): int;
+export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>> extends IBinaryNumber_1<TSelf>, IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IShiftOperators_3<TSelf, CLROf<int>, TSelf> {
+    compareTo(obj: unknown): int;
+    getByteCount(): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
+    tryWriteBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    writeBigEndian2(destination: byte[], startIndex: int): int;
+    writeBigEndian2(destination: byte[]): int;
+    writeBigEndian2(destination: Span_1<CLROf<byte>>): int;
 }
 
+
+export interface IBinaryInteger_1$instance<TSelf extends IBinaryInteger_1<TSelf>> extends IShiftOperators_3$instance<TSelf, CLROf<int>, TSelf> {}
 
 export type IBinaryInteger_1<TSelf extends IBinaryInteger_1<TSelf>> = IBinaryInteger_1$instance<TSelf>;
 
-export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> {
-    CompareTo(obj: any): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3<TSelf, TSelf, TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
+
+export interface IBinaryNumber_1$instance<TSelf extends IBinaryNumber_1<TSelf>> extends IBitwiseOperators_3$instance<TSelf, TSelf, TSelf> {}
 
 export type IBinaryNumber_1<TSelf extends IBinaryNumber_1<TSelf>> = IBinaryNumber_1$instance<TSelf>;
 
@@ -95,9 +99,11 @@ export interface IBitwiseOperators_3$instance<TSelf extends IBitwiseOperators_3<
 
 export type IBitwiseOperators_3<TSelf extends IBitwiseOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IBitwiseOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IComparisonOperators_3$instance<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> {
+export interface IComparisonOperators_3$instance<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> extends IEqualityOperators_3<TSelf, TOther, TResult> {
 }
 
+
+export interface IComparisonOperators_3$instance<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> extends IEqualityOperators_3$instance<TSelf, TOther, TResult> {}
 
 export type IComparisonOperators_3<TSelf extends IComparisonOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IComparisonOperators_3$instance<TSelf, TOther, TResult>;
 
@@ -119,53 +125,53 @@ export interface IEqualityOperators_3$instance<TSelf extends IEqualityOperators_
 
 export type IEqualityOperators_3<TSelf extends IEqualityOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IEqualityOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface IExponentialFunctions_1$instance<TSelf extends IExponentialFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IExponentialFunctions_1$instance<TSelf extends IExponentialFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
 export type IExponentialFunctions_1<TSelf extends IExponentialFunctions_1<TSelf>> = IExponentialFunctions_1$instance<TSelf>;
 
-export interface IFloatingPoint_1$instance<TSelf extends IFloatingPoint_1<TSelf>> {
-    CompareTo(obj: any): int;
-    GetExponentByteCount(): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
-    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
-    WriteExponentBigEndian(destination: byte[]): int;
-    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
+export interface IFloatingPoint_1$instance<TSelf extends IFloatingPoint_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf> {
+    compareTo(obj: unknown): int;
+    getExponentByteCount(): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
+    tryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    writeExponentBigEndian2(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian2(destination: byte[]): int;
+    writeExponentBigEndian2(destination: Span_1<CLROf<byte>>): int;
 }
 
 
 export type IFloatingPoint_1<TSelf extends IFloatingPoint_1<TSelf>> = IFloatingPoint_1$instance<TSelf>;
 
-export interface IFloatingPointConstants_1$instance<TSelf extends IFloatingPointConstants_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IFloatingPointConstants_1$instance<TSelf extends IFloatingPointConstants_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
 export type IFloatingPointConstants_1<TSelf extends IFloatingPointConstants_1<TSelf>> = IFloatingPointConstants_1$instance<TSelf>;
 
-export interface IFloatingPointIeee754_1$instance<TSelf extends IFloatingPointIeee754_1<TSelf>> {
-    CompareTo(obj: any): int;
-    GetExponentByteCount(): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
-    TryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    WriteExponentBigEndian(destination: byte[], startIndex: int): int;
-    WriteExponentBigEndian(destination: byte[]): int;
-    WriteExponentBigEndian(destination: Span_1<CLROf<byte>>): int;
+export interface IFloatingPointIeee754_1$instance<TSelf extends IFloatingPointIeee754_1<TSelf>> extends IExponentialFunctions_1<TSelf>, IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf>, IFloatingPoint_1<TSelf>, INumber_1<TSelf>, IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, ISignedNumber_1<TSelf>, IHyperbolicFunctions_1<TSelf>, ILogarithmicFunctions_1<TSelf>, IPowerFunctions_1<TSelf>, IRootFunctions_1<TSelf>, ITrigonometricFunctions_1<TSelf> {
+    compareTo(obj: unknown): int;
+    getExponentByteCount(): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
+    tryWriteExponentBigEndian(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    writeExponentBigEndian2(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian2(destination: byte[]): int;
+    writeExponentBigEndian2(destination: Span_1<CLROf<byte>>): int;
 }
 
 
 export type IFloatingPointIeee754_1<TSelf extends IFloatingPointIeee754_1<TSelf>> = IFloatingPointIeee754_1$instance<TSelf>;
 
-export interface IHyperbolicFunctions_1$instance<TSelf extends IHyperbolicFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IHyperbolicFunctions_1$instance<TSelf extends IHyperbolicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -177,9 +183,9 @@ export interface IIncrementOperators_1$instance<TSelf extends IIncrementOperator
 
 export type IIncrementOperators_1<TSelf extends IIncrementOperators_1<TSelf>> = IIncrementOperators_1$instance<TSelf>;
 
-export interface ILogarithmicFunctions_1$instance<TSelf extends ILogarithmicFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface ILogarithmicFunctions_1$instance<TSelf extends ILogarithmicFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -209,34 +215,38 @@ export interface IMultiplyOperators_3$instance<TSelf extends IMultiplyOperators_
 
 export type IMultiplyOperators_3<TSelf extends IMultiplyOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IMultiplyOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> {
-    CompareTo(obj: any): int;
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> extends IComparable, IComparable_1<TSelf>, IComparisonOperators_3<TSelf, TSelf, CLROf<boolean>>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3<TSelf, TSelf, TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
+
+export interface INumber_1$instance<TSelf extends INumber_1<TSelf>> extends System_Internal.IComparable$instance, IComparisonOperators_3$instance<TSelf, TSelf, CLROf<boolean>>, IModulusOperators_3$instance<TSelf, TSelf, TSelf> {}
 
 export type INumber_1<TSelf extends INumber_1<TSelf>> = INumber_1$instance<TSelf>;
 
-export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> extends IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
+export interface INumberBase_1$instance<TSelf extends INumberBase_1<TSelf>> extends System_Internal.IEquatable_1$instance<TSelf>, System_Internal.ISpanParsable_1$instance<TSelf>, IAdditionOperators_3$instance<TSelf, TSelf, TSelf>, IAdditiveIdentity_2$instance<TSelf, TSelf>, IDecrementOperators_1$instance<TSelf>, IDivisionOperators_3$instance<TSelf, TSelf, TSelf>, IEqualityOperators_3$instance<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1$instance<TSelf>, IMultiplicativeIdentity_2$instance<TSelf, TSelf>, IMultiplyOperators_3$instance<TSelf, TSelf, TSelf>, ISubtractionOperators_3$instance<TSelf, TSelf, TSelf>, IUnaryNegationOperators_2$instance<TSelf, TSelf>, IUnaryPlusOperators_2$instance<TSelf, TSelf> {}
+
 export type INumberBase_1<TSelf extends INumberBase_1<TSelf>> = INumberBase_1$instance<TSelf>;
 
-export interface IPowerFunctions_1$instance<TSelf extends IPowerFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IPowerFunctions_1$instance<TSelf extends IPowerFunctions_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
 export type IPowerFunctions_1<TSelf extends IPowerFunctions_1<TSelf>> = IPowerFunctions_1$instance<TSelf>;
 
-export interface IRootFunctions_1$instance<TSelf extends IRootFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IRootFunctions_1$instance<TSelf extends IRootFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -248,9 +258,9 @@ export interface IShiftOperators_3$instance<TSelf extends IShiftOperators_3<TSel
 
 export type IShiftOperators_3<TSelf extends IShiftOperators_3<TSelf, TOther, TResult>, TOther, TResult> = IShiftOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface ISignedNumber_1$instance<TSelf extends ISignedNumber_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface ISignedNumber_1$instance<TSelf extends ISignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -262,9 +272,9 @@ export interface ISubtractionOperators_3$instance<TSelf extends ISubtractionOper
 
 export type ISubtractionOperators_3<TSelf extends ISubtractionOperators_3<TSelf, TOther, TResult>, TOther, TResult> = ISubtractionOperators_3$instance<TSelf, TOther, TResult>;
 
-export interface ITrigonometricFunctions_1$instance<TSelf extends ITrigonometricFunctions_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface ITrigonometricFunctions_1$instance<TSelf extends ITrigonometricFunctions_1<TSelf>> extends IFloatingPointConstants_1<TSelf>, INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
@@ -282,15 +292,15 @@ export interface IUnaryPlusOperators_2$instance<TSelf extends IUnaryPlusOperator
 
 export type IUnaryPlusOperators_2<TSelf extends IUnaryPlusOperators_2<TSelf, TResult>, TResult> = IUnaryPlusOperators_2$instance<TSelf, TResult>;
 
-export interface IUnsignedNumber_1$instance<TSelf extends IUnsignedNumber_1<TSelf>> {
-    ToString(format: string, formatProvider: IFormatProvider): string;
-    TryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): boolean;
+export interface IUnsignedNumber_1$instance<TSelf extends IUnsignedNumber_1<TSelf>> extends INumberBase_1<TSelf>, IAdditionOperators_3<TSelf, TSelf, TSelf>, IAdditiveIdentity_2<TSelf, TSelf>, IDecrementOperators_1<TSelf>, IDivisionOperators_3<TSelf, TSelf, TSelf>, IEquatable_1<TSelf>, IEqualityOperators_3<TSelf, TSelf, CLROf<boolean>>, IIncrementOperators_1<TSelf>, IMultiplicativeIdentity_2<TSelf, TSelf>, IMultiplyOperators_3<TSelf, TSelf, TSelf>, ISpanFormattable, IFormattable, ISpanParsable_1<TSelf>, IParsable_1<TSelf>, ISubtractionOperators_3<TSelf, TSelf, TSelf>, IUnaryPlusOperators_2<TSelf, TSelf>, IUnaryNegationOperators_2<TSelf, TSelf>, IUtf8SpanFormattable, IUtf8SpanParsable_1<TSelf> {
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): boolean;
 }
 
 
 export type IUnsignedNumber_1<TSelf extends IUnsignedNumber_1<TSelf>> = IUnsignedNumber_1$instance<TSelf>;
 
-export class BigInteger$instance {
+export class BigInteger$instance implements IAdditionOperators_3<BigInteger, BigInteger, BigInteger>, IBitwiseOperators_3<BigInteger, BigInteger, BigInteger>, IComparisonOperators_3<BigInteger, BigInteger, CLROf<boolean>>, IEqualityOperators_3<BigInteger, BigInteger, CLROf<boolean>>, IDecrementOperators_1<BigInteger>, IDivisionOperators_3<BigInteger, BigInteger, BigInteger>, IIncrementOperators_1<BigInteger>, IModulusOperators_3<BigInteger, BigInteger, BigInteger>, IMultiplyOperators_3<BigInteger, BigInteger, BigInteger>, ISubtractionOperators_3<BigInteger, BigInteger, BigInteger>, IUnaryNegationOperators_2<BigInteger, BigInteger>, IUnaryPlusOperators_2<BigInteger, BigInteger>, IShiftOperators_3<BigInteger, CLROf<int>, BigInteger> {
     constructor(value: int);
     constructor(value: uint);
     constructor(value: long);
@@ -308,8 +318,8 @@ export class BigInteger$instance {
     compareTo(other: long): int;
     compareTo(other: ulong): int;
     compareTo(other: BigInteger): int;
-    compareTo(obj: any): int;
-    equals(obj: any): boolean;
+    compareTo(obj: unknown): int;
+    equals(obj: unknown): boolean;
     equals(other: long): boolean;
     equals(other: ulong): boolean;
     equals(other: BigInteger): boolean;
@@ -322,186 +332,190 @@ export class BigInteger$instance {
     toString(provider: IFormatProvider): string;
     toString(format: string): string;
     toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     tryWriteBytes(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, isUnsigned?: boolean, isBigEndian?: boolean): boolean;
-    static readonly Zero: BigInteger;
-    static readonly One: BigInteger;
-    static readonly MinusOne: BigInteger;
-    static Abs(value: BigInteger): BigInteger;
-    static Add(left: BigInteger, right: BigInteger): BigInteger;
-    static Clamp(value: BigInteger, min: BigInteger, max: BigInteger): BigInteger;
-    static Compare(left: BigInteger, right: BigInteger): int;
-    static CopySign(value: BigInteger, sign: BigInteger): BigInteger;
-    static CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
-    static CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
-    static CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
-    static Divide(dividend: BigInteger, divisor: BigInteger): BigInteger;
-    static DivRem(dividend: BigInteger, divisor: BigInteger, remainder: { value: ref<BigInteger> }): BigInteger;
-    static DivRem(left: BigInteger, right: BigInteger): ValueTuple_2<BigInteger, BigInteger>;
-    static GreatestCommonDivisor(left: BigInteger, right: BigInteger): BigInteger;
-    static IsEvenInteger(value: BigInteger): boolean;
-    static IsNegative(value: BigInteger): boolean;
-    static IsOddInteger(value: BigInteger): boolean;
-    static IsPositive(value: BigInteger): boolean;
-    static IsPow2(value: BigInteger): boolean;
-    static LeadingZeroCount(value: BigInteger): BigInteger;
-    static Log(value: BigInteger, baseValue: double): double;
-    static Log(value: BigInteger): double;
-    static Log10(value: BigInteger): double;
-    static Log2(value: BigInteger): BigInteger;
-    static Max(left: BigInteger, right: BigInteger): BigInteger;
-    static MaxMagnitude(x: BigInteger, y: BigInteger): BigInteger;
-    static Min(left: BigInteger, right: BigInteger): BigInteger;
-    static MinMagnitude(x: BigInteger, y: BigInteger): BigInteger;
-    static ModPow(value: BigInteger, exponent: BigInteger, modulus: BigInteger): BigInteger;
-    static Multiply(left: BigInteger, right: BigInteger): BigInteger;
-    static Negate(value: BigInteger): BigInteger;
-    static Parse(value: ReadOnlySpan_1<CLROf<string>>, style?: NumberStyles, provider?: IFormatProvider): BigInteger;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): BigInteger;
-    static Parse(value: string, style: NumberStyles, provider: IFormatProvider): BigInteger;
-    static Parse(value: string, style: NumberStyles): BigInteger;
-    static Parse(value: string, provider: IFormatProvider): BigInteger;
-    static Parse(value: string): BigInteger;
-    static PopCount(value: BigInteger): BigInteger;
-    static Pow(value: BigInteger, exponent: int): BigInteger;
-    static Remainder(dividend: BigInteger, divisor: BigInteger): BigInteger;
-    static RotateLeft(value: BigInteger, rotateAmount: int): BigInteger;
-    static RotateRight(value: BigInteger, rotateAmount: int): BigInteger;
-    static Subtract(left: BigInteger, right: BigInteger): BigInteger;
-    static TrailingZeroCount(value: BigInteger): BigInteger;
-    static TryParse(value: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
-    static TryParse(value: ReadOnlySpan_1<CLROf<string>>, result: { value: ref<BigInteger> }): boolean;
-    static TryParse(value: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
-    static TryParse(s: string, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
-    static TryParse(value: string, result: { value: ref<BigInteger> }): boolean;
+    static readonly zero: BigInteger;
+    static readonly one: BigInteger;
+    static readonly minusOne: BigInteger;
+    static abs(value: BigInteger): BigInteger;
+    static add(left: BigInteger, right: BigInteger): BigInteger;
+    static clamp(value: BigInteger, min: BigInteger, max: BigInteger): BigInteger;
+    static compare(left: BigInteger, right: BigInteger): int;
+    static copySign(value: BigInteger, sign: BigInteger): BigInteger;
+    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
+    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
+    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): BigInteger;
+    static divide(dividend: BigInteger, divisor: BigInteger): BigInteger;
+    static divRem(dividend: BigInteger, divisor: BigInteger, remainder: { value: ref<BigInteger> }): BigInteger;
+    static divRem(left: BigInteger, right: BigInteger): ValueTuple_2<BigInteger, BigInteger>;
+    static greatestCommonDivisor(left: BigInteger, right: BigInteger): BigInteger;
+    static isEvenInteger(value: BigInteger): boolean;
+    static isNegative(value: BigInteger): boolean;
+    static isOddInteger(value: BigInteger): boolean;
+    static isPositive(value: BigInteger): boolean;
+    static isPow2(value: BigInteger): boolean;
+    static leadingZeroCount(value: BigInteger): BigInteger;
+    static log2(value: BigInteger, baseValue: double): double;
+    static log2(value: BigInteger): double;
+    static log10(value: BigInteger): double;
+    static log22(value: BigInteger): BigInteger;
+    static max(left: BigInteger, right: BigInteger): BigInteger;
+    static maxMagnitude(x: BigInteger, y: BigInteger): BigInteger;
+    static min(left: BigInteger, right: BigInteger): BigInteger;
+    static minMagnitude(x: BigInteger, y: BigInteger): BigInteger;
+    static modPow(value: BigInteger, exponent: BigInteger, modulus: BigInteger): BigInteger;
+    static multiply(left: BigInteger, right: BigInteger): BigInteger;
+    static negate(value: BigInteger): BigInteger;
+    static parse5(value: ReadOnlySpan_1<CLROf<char>>, style?: NumberStyles, provider?: IFormatProvider): BigInteger;
+    static parse5(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): BigInteger;
+    static parse5(value: string, style: NumberStyles, provider: IFormatProvider): BigInteger;
+    static parse5(value: string, style: NumberStyles): BigInteger;
+    static parse5(value: string, provider: IFormatProvider): BigInteger;
+    static parse5(value: string): BigInteger;
+    static popCount(value: BigInteger): BigInteger;
+    static pow(value: BigInteger, exponent: int): BigInteger;
+    static remainder(dividend: BigInteger, divisor: BigInteger): BigInteger;
+    static rotateLeft(value: BigInteger, rotateAmount: int): BigInteger;
+    static rotateRight(value: BigInteger, rotateAmount: int): BigInteger;
+    static subtract(left: BigInteger, right: BigInteger): BigInteger;
+    static trailingZeroCount(value: BigInteger): BigInteger;
+    static tryParse4(value: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
+    static tryParse4(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
+    static tryParse4(value: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<BigInteger> }): boolean;
+    static tryParse4(value: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
+    static tryParse4(s: string, provider: IFormatProvider, result: { value: ref<BigInteger> }): boolean;
+    static tryParse4(value: string, result: { value: ref<BigInteger> }): boolean;
 }
 
 
 export interface __BigInteger$views {
-    readonly As_IComparable: System_Internal.IComparable$instance;
-    readonly As_IComparable_1_of_Decimal: System_Internal.IComparable_1$instance<BigInteger>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<BigInteger>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: System_Internal.IParsable_1$instance<any>;
-    readonly As_ISpanFormattable: System_Internal.ISpanFormattable$instance;
-    readonly As_ISpanParsable_1_of_Decimal: System_Internal.ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: System_Internal.IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: System_Internal.IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: IAdditiveIdentity_2$instance<any, any>;
-    readonly As_IBinaryInteger_1: IBinaryInteger_1$instance<any>;
-    readonly As_INumber_1: INumber_1$instance<any>;
-    readonly As_INumberBase_1: INumberBase_1$instance<any>;
+    As_IComparable(): System_Internal.IComparable$instance;
+    As_IComparable_1(): System_Internal.IComparable_1$instance<BigInteger>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<BigInteger>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
+    As_IParsable_1(): System_Internal.IParsable_1$instance<BigInteger>;
+    As_ISpanFormattable(): System_Internal.ISpanFormattable$instance;
+    As_ISpanParsable_1(): System_Internal.ISpanParsable_1$instance<BigInteger>;
+    As_IUtf8SpanFormattable(): System_Internal.IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): System_Internal.IUtf8SpanParsable_1$instance<BigInteger>;
+    As_IAdditiveIdentity_2(): IAdditiveIdentity_2$instance<BigInteger, BigInteger>;
+    As_IBinaryInteger_1(): IBinaryInteger_1$instance<BigInteger>;
+    As_INumber_1(): INumber_1$instance<BigInteger>;
+    As_INumberBase_1(): INumberBase_1$instance<BigInteger>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: BigInteger): boolean;
-    CompareTo(obj: any): int;
+    CompareTo(obj: unknown): int;
     ToString(format: string, formatProvider: import("../../System/internal/index").IFormatProvider): string;
-    TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<string>>, charsWritten: { value: ref<int> }, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").CLROf<string>>, provider: import("../../System/internal/index").IFormatProvider): boolean;
+    TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<char>>, charsWritten: { value: ref<int> }, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").CLROf<char>>, provider: import("../../System/internal/index").IFormatProvider): boolean;
     GetByteCount(): int;
+    TryWriteBigEndian(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
+    WriteBigEndian(destination: byte[], startIndex: int): int;
+    WriteBigEndian(destination: byte[]): int;
+    WriteBigEndian(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<byte>>): int;
 }
 
 export type BigInteger = BigInteger$instance & __BigInteger$views;
 
 
-export class Complex$instance {
+export class Complex$instance implements IAdditionOperators_3<Complex, Complex, Complex>, IDecrementOperators_1<Complex>, IDivisionOperators_3<Complex, Complex, Complex>, IEqualityOperators_3<Complex, Complex, CLROf<boolean>>, IIncrementOperators_1<Complex>, IMultiplyOperators_3<Complex, Complex, Complex>, ISubtractionOperators_3<Complex, Complex, Complex>, IUnaryNegationOperators_2<Complex, Complex>, IUnaryPlusOperators_2<Complex, Complex> {
     constructor(real: double, imaginary: double);
     readonly imaginary: double;
     readonly magnitude: double;
     readonly phase: double;
     readonly real: double;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(value: Complex): boolean;
     getHashCode(): int;
     toString(): string;
     toString(format: string): string;
     toString(provider: IFormatProvider): string;
     toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<CLROf<string>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<string>>, provider?: IFormatProvider): boolean;
+    tryFormat(destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }, format?: ReadOnlySpan_1<CLROf<char>>, provider?: IFormatProvider): boolean;
     static readonly zero: Complex;
     static readonly one: Complex;
     static readonly imaginaryOne: Complex;
     static readonly naN: Complex;
     static readonly infinity: Complex;
-    static Abs(value: Complex): double;
-    static Acos(value: Complex): Complex;
-    static Add(left: double, right: Complex): Complex;
-    static Add(left: Complex, right: double): Complex;
-    static Add(left: Complex, right: Complex): Complex;
-    static Asin(value: Complex): Complex;
-    static Atan(value: Complex): Complex;
-    static Conjugate(value: Complex): Complex;
-    static Cos(value: Complex): Complex;
-    static Cosh(value: Complex): Complex;
-    static CreateChecked<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
-    static CreateSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
-    static CreateTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
-    static Divide(dividend: double, divisor: Complex): Complex;
-    static Divide(dividend: Complex, divisor: double): Complex;
-    static Divide(dividend: Complex, divisor: Complex): Complex;
-    static Exp(value: Complex): Complex;
-    static FromPolarCoordinates(magnitude: double, phase: double): Complex;
-    static IsComplexNumber(value: Complex): boolean;
-    static IsEvenInteger(value: Complex): boolean;
-    static IsFinite(value: Complex): boolean;
-    static IsImaginaryNumber(value: Complex): boolean;
-    static IsInfinity(value: Complex): boolean;
-    static IsInteger(value: Complex): boolean;
-    static IsNaN(value: Complex): boolean;
-    static IsNegative(value: Complex): boolean;
-    static IsNegativeInfinity(value: Complex): boolean;
-    static IsNormal(value: Complex): boolean;
-    static IsOddInteger(value: Complex): boolean;
-    static IsPositive(value: Complex): boolean;
-    static IsPositiveInfinity(value: Complex): boolean;
-    static IsRealNumber(value: Complex): boolean;
-    static IsSubnormal(value: Complex): boolean;
-    static Log(value: Complex, baseValue: double): Complex;
-    static Log(value: Complex): Complex;
-    static Log10(value: Complex): Complex;
-    static MaxMagnitude(x: Complex, y: Complex): Complex;
-    static MinMagnitude(x: Complex, y: Complex): Complex;
-    static Multiply(left: double, right: Complex): Complex;
-    static Multiply(left: Complex, right: double): Complex;
-    static Multiply(left: Complex, right: Complex): Complex;
-    static Negate(value: Complex): Complex;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider): Complex;
-    static Parse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider): Complex;
-    static Parse(s: string, style: NumberStyles, provider: IFormatProvider): Complex;
-    static Parse(s: string, provider: IFormatProvider): Complex;
-    static Pow(value: Complex, power: double): Complex;
-    static Pow(value: Complex, power: Complex): Complex;
-    static Reciprocal(value: Complex): Complex;
-    static Sin(value: Complex): Complex;
-    static Sinh(value: Complex): Complex;
-    static Sqrt(value: Complex): Complex;
-    static Subtract(left: double, right: Complex): Complex;
-    static Subtract(left: Complex, right: double): Complex;
-    static Subtract(left: Complex, right: Complex): Complex;
-    static Tan(value: Complex): Complex;
-    static Tanh(value: Complex): Complex;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
-    static TryParse(s: ReadOnlySpan_1<CLROf<string>>, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
-    static TryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
-    static TryParse(s: string, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
+    static abs(value: Complex): double;
+    static acos(value: Complex): Complex;
+    static add3(left: double, right: Complex): Complex;
+    static add3(left: Complex, right: double): Complex;
+    static add3(left: Complex, right: Complex): Complex;
+    static asin(value: Complex): Complex;
+    static atan(value: Complex): Complex;
+    static conjugate(value: Complex): Complex;
+    static cos(value: Complex): Complex;
+    static cosh(value: Complex): Complex;
+    static createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
+    static createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
+    static createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): Complex;
+    static divide3(dividend: double, divisor: Complex): Complex;
+    static divide3(dividend: Complex, divisor: double): Complex;
+    static divide3(dividend: Complex, divisor: Complex): Complex;
+    static exp(value: Complex): Complex;
+    static fromPolarCoordinates(magnitude: double, phase: double): Complex;
+    static isComplexNumber(value: Complex): boolean;
+    static isEvenInteger(value: Complex): boolean;
+    static isFinite(value: Complex): boolean;
+    static isImaginaryNumber(value: Complex): boolean;
+    static isInfinity(value: Complex): boolean;
+    static isInteger(value: Complex): boolean;
+    static isNaN(value: Complex): boolean;
+    static isNegative(value: Complex): boolean;
+    static isNegativeInfinity(value: Complex): boolean;
+    static isNormal(value: Complex): boolean;
+    static isOddInteger(value: Complex): boolean;
+    static isPositive(value: Complex): boolean;
+    static isPositiveInfinity(value: Complex): boolean;
+    static isRealNumber(value: Complex): boolean;
+    static isSubnormal(value: Complex): boolean;
+    static log2(value: Complex, baseValue: double): Complex;
+    static log2(value: Complex): Complex;
+    static log10(value: Complex): Complex;
+    static maxMagnitude(x: Complex, y: Complex): Complex;
+    static minMagnitude(x: Complex, y: Complex): Complex;
+    static multiply3(left: double, right: Complex): Complex;
+    static multiply3(left: Complex, right: double): Complex;
+    static multiply3(left: Complex, right: Complex): Complex;
+    static negate(value: Complex): Complex;
+    static parse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider): Complex;
+    static parse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider): Complex;
+    static parse(s: string, style: NumberStyles, provider: IFormatProvider): Complex;
+    static parse(s: string, provider: IFormatProvider): Complex;
+    static pow2(value: Complex, power: double): Complex;
+    static pow2(value: Complex, power: Complex): Complex;
+    static reciprocal(value: Complex): Complex;
+    static sin(value: Complex): Complex;
+    static sinh(value: Complex): Complex;
+    static sqrt(value: Complex): Complex;
+    static subtract3(left: double, right: Complex): Complex;
+    static subtract3(left: Complex, right: double): Complex;
+    static subtract3(left: Complex, right: Complex): Complex;
+    static tan(value: Complex): Complex;
+    static tanh(value: Complex): Complex;
+    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, style: NumberStyles, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
+    static tryParse(s: ReadOnlySpan_1<CLROf<char>>, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
+    static tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
+    static tryParse(s: string, provider: IFormatProvider, result: { value: ref<Complex> }): boolean;
 }
 
 
 export interface __Complex$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Complex>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
-    readonly As_IParsable_1_of_Decimal: System_Internal.IParsable_1$instance<any>;
-    readonly As_ISpanParsable_1_of_Decimal: System_Internal.ISpanParsable_1$instance<any>;
-    readonly As_IUtf8SpanFormattable: System_Internal.IUtf8SpanFormattable$instance;
-    readonly As_IUtf8SpanParsable_1_of_Decimal: System_Internal.IUtf8SpanParsable_1$instance<any>;
-    readonly As_IAdditiveIdentity_2: IAdditiveIdentity_2$instance<any, any>;
-    readonly As_INumberBase_1: INumberBase_1$instance<any>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Complex>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
+    As_IParsable_1(): System_Internal.IParsable_1$instance<Complex>;
+    As_ISpanParsable_1(): System_Internal.ISpanParsable_1$instance<Complex>;
+    As_IUtf8SpanFormattable(): System_Internal.IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): System_Internal.IUtf8SpanParsable_1$instance<Complex>;
+    As_IAdditiveIdentity_2(): IAdditiveIdentity_2$instance<Complex, Complex>;
+    As_INumberBase_1(): INumberBase_1$instance<Complex>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Complex): boolean;
     ToString(format: string, formatProvider: import("../../System/internal/index").IFormatProvider): string;
-    TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<string>>, charsWritten: { value: ref<int> }, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").CLROf<string>>, provider: import("../../System/internal/index").IFormatProvider): boolean;
+    TryFormat(destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<char>>, charsWritten: { value: ref<int> }, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").CLROf<char>>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
 
 export type Complex = Complex$instance & __Complex$views;
@@ -517,10 +531,10 @@ export class Matrix3x2$instance {
     M32: float;
     readonly isIdentity: boolean;
     translation: Vector2;
-    x: Vector2;
-    y: Vector2;
-    z: Vector2;
-    equals(obj: any): boolean;
+    X: Vector2;
+    Y: Vector2;
+    Z: Vector2;
+    equals(obj: unknown): boolean;
     equals(other: Matrix3x2): boolean;
     get_Item(row: int): Vector2;
     get_Item(row: int, column: int): float;
@@ -533,35 +547,35 @@ export class Matrix3x2$instance {
     toString(): string;
     withElement(row: int, column: int, value: float): Matrix3x2;
     withRow(index: int, value: Vector2): Matrix3x2;
-    static readonly Identity: Matrix3x2;
-    static Add(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
-    static Create(x: Vector2, y: Vector2, z: Vector2): Matrix3x2;
-    static Create(value: Vector2): Matrix3x2;
-    static Create(m11: float, m12: float, m21: float, m22: float, m31: float, m32: float): Matrix3x2;
-    static Create(value: float): Matrix3x2;
-    static CreateRotation(radians: float, centerPoint: Vector2): Matrix3x2;
-    static CreateRotation(radians: float): Matrix3x2;
-    static CreateScale(scales: Vector2, centerPoint: Vector2): Matrix3x2;
-    static CreateScale(scales: Vector2): Matrix3x2;
-    static CreateScale(scale: float, centerPoint: Vector2): Matrix3x2;
-    static CreateScale(xScale: float, yScale: float, centerPoint: Vector2): Matrix3x2;
-    static CreateScale(xScale: float, yScale: float): Matrix3x2;
-    static CreateScale(scale: float): Matrix3x2;
-    static CreateSkew(radiansX: float, radiansY: float, centerPoint: Vector2): Matrix3x2;
-    static CreateSkew(radiansX: float, radiansY: float): Matrix3x2;
-    static CreateTranslation(position: Vector2): Matrix3x2;
-    static CreateTranslation(xPosition: float, yPosition: float): Matrix3x2;
-    static Invert(matrix: Matrix3x2, result: { value: ref<Matrix3x2> }): boolean;
-    static Lerp(matrix1: Matrix3x2, matrix2: Matrix3x2, amount: float): Matrix3x2;
-    static Multiply(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
-    static Multiply(value1: Matrix3x2, value2: float): Matrix3x2;
-    static Negate(value: Matrix3x2): Matrix3x2;
-    static Subtract(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
+    static readonly identity: Matrix3x2;
+    static add(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
+    static create3(x: Vector2, y: Vector2, z: Vector2): Matrix3x2;
+    static create3(value: Vector2): Matrix3x2;
+    static create3(m11: float, m12: float, m21: float, m22: float, m31: float, m32: float): Matrix3x2;
+    static create3(value: float): Matrix3x2;
+    static createRotation2(radians: float, centerPoint: Vector2): Matrix3x2;
+    static createRotation2(radians: float): Matrix3x2;
+    static createScale4(scales: Vector2, centerPoint: Vector2): Matrix3x2;
+    static createScale4(scales: Vector2): Matrix3x2;
+    static createScale4(scale: float, centerPoint: Vector2): Matrix3x2;
+    static createScale4(xScale: float, yScale: float, centerPoint: Vector2): Matrix3x2;
+    static createScale4(xScale: float, yScale: float): Matrix3x2;
+    static createScale4(scale: float): Matrix3x2;
+    static createSkew2(radiansX: float, radiansY: float, centerPoint: Vector2): Matrix3x2;
+    static createSkew2(radiansX: float, radiansY: float): Matrix3x2;
+    static createTranslation(position: Vector2): Matrix3x2;
+    static createTranslation(xPosition: float, yPosition: float): Matrix3x2;
+    static invert(matrix: Matrix3x2, result: { value: ref<Matrix3x2> }): boolean;
+    static lerp(matrix1: Matrix3x2, matrix2: Matrix3x2, amount: float): Matrix3x2;
+    static multiply(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
+    static multiply(value1: Matrix3x2, value2: float): Matrix3x2;
+    static negate(value: Matrix3x2): Matrix3x2;
+    static subtract(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
 }
 
 
 export interface __Matrix3x2$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Matrix3x2>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Matrix3x2>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Matrix3x2): boolean;
@@ -591,11 +605,11 @@ export class Matrix4x4$instance {
     M44: float;
     readonly isIdentity: boolean;
     translation: Vector3;
-    w: Vector4;
-    x: Vector4;
-    y: Vector4;
-    z: Vector4;
-    equals(obj: any): boolean;
+    W: Vector4;
+    X: Vector4;
+    Y: Vector4;
+    Z: Vector4;
+    equals(obj: unknown): boolean;
     equals(other: Matrix4x4): boolean;
     get_Item(row: int): Vector4;
     get_Item(row: int, column: int): float;
@@ -608,67 +622,67 @@ export class Matrix4x4$instance {
     toString(): string;
     withElement(row: int, column: int, value: float): Matrix4x4;
     withRow(index: int, value: Vector4): Matrix4x4;
-    static readonly Identity: Matrix4x4;
-    static Add(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
-    static Create(value: Matrix3x2): Matrix4x4;
-    static Create(x: Vector4, y: Vector4, z: Vector4, w: Vector4): Matrix4x4;
-    static Create(value: Vector4): Matrix4x4;
-    static Create(m11: float, m12: float, m13: float, m14: float, m21: float, m22: float, m23: float, m24: float, m31: float, m32: float, m33: float, m34: float, m41: float, m42: float, m43: float, m44: float): Matrix4x4;
-    static Create(value: float): Matrix4x4;
-    static CreateBillboard(objectPosition: Vector3, cameraPosition: Vector3, cameraUpVector: Vector3, cameraForwardVector: Vector3): Matrix4x4;
-    static CreateBillboardLeftHanded(objectPosition: Vector3, cameraPosition: Vector3, cameraUpVector: Vector3, cameraForwardVector: Vector3): Matrix4x4;
-    static CreateConstrainedBillboard(objectPosition: Vector3, cameraPosition: Vector3, rotateAxis: Vector3, cameraForwardVector: Vector3, objectForwardVector: Vector3): Matrix4x4;
-    static CreateConstrainedBillboardLeftHanded(objectPosition: Vector3, cameraPosition: Vector3, rotateAxis: Vector3, cameraForwardVector: Vector3, objectForwardVector: Vector3): Matrix4x4;
-    static CreateFromAxisAngle(axis: Vector3, angle: float): Matrix4x4;
-    static CreateFromQuaternion(quaternion: Quaternion): Matrix4x4;
-    static CreateFromYawPitchRoll(yaw: float, pitch: float, roll: float): Matrix4x4;
-    static CreateLookAt(cameraPosition: Vector3, cameraTarget: Vector3, cameraUpVector: Vector3): Matrix4x4;
-    static CreateLookAtLeftHanded(cameraPosition: Vector3, cameraTarget: Vector3, cameraUpVector: Vector3): Matrix4x4;
-    static CreateLookTo(cameraPosition: Vector3, cameraDirection: Vector3, cameraUpVector: Vector3): Matrix4x4;
-    static CreateLookToLeftHanded(cameraPosition: Vector3, cameraDirection: Vector3, cameraUpVector: Vector3): Matrix4x4;
-    static CreateOrthographic(width: float, height: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
-    static CreateOrthographicLeftHanded(width: float, height: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
-    static CreateOrthographicOffCenter(left: float, right: float, bottom: float, top: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
-    static CreateOrthographicOffCenterLeftHanded(left: float, right: float, bottom: float, top: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
-    static CreatePerspective(width: float, height: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreatePerspectiveFieldOfView(fieldOfView: float, aspectRatio: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreatePerspectiveFieldOfViewLeftHanded(fieldOfView: float, aspectRatio: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreatePerspectiveLeftHanded(width: float, height: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreatePerspectiveOffCenter(left: float, right: float, bottom: float, top: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreatePerspectiveOffCenterLeftHanded(left: float, right: float, bottom: float, top: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
-    static CreateReflection(value: Plane): Matrix4x4;
-    static CreateRotationX(radians: float, centerPoint: Vector3): Matrix4x4;
-    static CreateRotationX(radians: float): Matrix4x4;
-    static CreateRotationY(radians: float, centerPoint: Vector3): Matrix4x4;
-    static CreateRotationY(radians: float): Matrix4x4;
-    static CreateRotationZ(radians: float, centerPoint: Vector3): Matrix4x4;
-    static CreateRotationZ(radians: float): Matrix4x4;
-    static CreateScale(scales: Vector3, centerPoint: Vector3): Matrix4x4;
-    static CreateScale(scales: Vector3): Matrix4x4;
-    static CreateScale(scale: float, centerPoint: Vector3): Matrix4x4;
-    static CreateScale(xScale: float, yScale: float, zScale: float, centerPoint: Vector3): Matrix4x4;
-    static CreateScale(xScale: float, yScale: float, zScale: float): Matrix4x4;
-    static CreateScale(scale: float): Matrix4x4;
-    static CreateShadow(lightDirection: Vector3, plane: Plane): Matrix4x4;
-    static CreateTranslation(position: Vector3): Matrix4x4;
-    static CreateTranslation(xPosition: float, yPosition: float, zPosition: float): Matrix4x4;
-    static CreateViewport(x: float, y: float, width: float, height: float, minDepth: float, maxDepth: float): Matrix4x4;
-    static CreateViewportLeftHanded(x: float, y: float, width: float, height: float, minDepth: float, maxDepth: float): Matrix4x4;
-    static CreateWorld(position: Vector3, forward: Vector3, up: Vector3): Matrix4x4;
-    static Decompose(matrix: Matrix4x4, scale: { value: ref<Vector3> }, rotation: { value: ref<Quaternion> }, translation: { value: ref<Vector3> }): boolean;
-    static Invert(matrix: Matrix4x4, result: { value: ref<Matrix4x4> }): boolean;
-    static Lerp(matrix1: Matrix4x4, matrix2: Matrix4x4, amount: float): Matrix4x4;
-    static Multiply(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
-    static Multiply(value1: Matrix4x4, value2: float): Matrix4x4;
-    static Negate(value: Matrix4x4): Matrix4x4;
-    static Subtract(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
-    static Transform(value: Matrix4x4, rotation: Quaternion): Matrix4x4;
-    static Transpose(matrix: Matrix4x4): Matrix4x4;
+    static readonly identity: Matrix4x4;
+    static add(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
+    static create2(value: Matrix3x2): Matrix4x4;
+    static create2(x: Vector4, y: Vector4, z: Vector4, w: Vector4): Matrix4x4;
+    static create2(value: Vector4): Matrix4x4;
+    static create2(m11: float, m12: float, m13: float, m14: float, m21: float, m22: float, m23: float, m24: float, m31: float, m32: float, m33: float, m34: float, m41: float, m42: float, m43: float, m44: float): Matrix4x4;
+    static create2(value: float): Matrix4x4;
+    static createBillboard(objectPosition: Vector3, cameraPosition: Vector3, cameraUpVector: Vector3, cameraForwardVector: Vector3): Matrix4x4;
+    static createBillboardLeftHanded(objectPosition: Vector3, cameraPosition: Vector3, cameraUpVector: Vector3, cameraForwardVector: Vector3): Matrix4x4;
+    static createConstrainedBillboard(objectPosition: Vector3, cameraPosition: Vector3, rotateAxis: Vector3, cameraForwardVector: Vector3, objectForwardVector: Vector3): Matrix4x4;
+    static createConstrainedBillboardLeftHanded(objectPosition: Vector3, cameraPosition: Vector3, rotateAxis: Vector3, cameraForwardVector: Vector3, objectForwardVector: Vector3): Matrix4x4;
+    static createFromAxisAngle(axis: Vector3, angle: float): Matrix4x4;
+    static createFromQuaternion(quaternion: Quaternion): Matrix4x4;
+    static createFromYawPitchRoll(yaw: float, pitch: float, roll: float): Matrix4x4;
+    static createLookAt(cameraPosition: Vector3, cameraTarget: Vector3, cameraUpVector: Vector3): Matrix4x4;
+    static createLookAtLeftHanded(cameraPosition: Vector3, cameraTarget: Vector3, cameraUpVector: Vector3): Matrix4x4;
+    static createLookTo(cameraPosition: Vector3, cameraDirection: Vector3, cameraUpVector: Vector3): Matrix4x4;
+    static createLookToLeftHanded(cameraPosition: Vector3, cameraDirection: Vector3, cameraUpVector: Vector3): Matrix4x4;
+    static createOrthographic(width: float, height: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
+    static createOrthographicLeftHanded(width: float, height: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
+    static createOrthographicOffCenter(left: float, right: float, bottom: float, top: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
+    static createOrthographicOffCenterLeftHanded(left: float, right: float, bottom: float, top: float, zNearPlane: float, zFarPlane: float): Matrix4x4;
+    static createPerspective(width: float, height: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createPerspectiveFieldOfView(fieldOfView: float, aspectRatio: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createPerspectiveFieldOfViewLeftHanded(fieldOfView: float, aspectRatio: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createPerspectiveLeftHanded(width: float, height: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createPerspectiveOffCenter(left: float, right: float, bottom: float, top: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createPerspectiveOffCenterLeftHanded(left: float, right: float, bottom: float, top: float, nearPlaneDistance: float, farPlaneDistance: float): Matrix4x4;
+    static createReflection(value: Plane): Matrix4x4;
+    static createRotationX2(radians: float, centerPoint: Vector3): Matrix4x4;
+    static createRotationX2(radians: float): Matrix4x4;
+    static createRotationY2(radians: float, centerPoint: Vector3): Matrix4x4;
+    static createRotationY2(radians: float): Matrix4x4;
+    static createRotationZ2(radians: float, centerPoint: Vector3): Matrix4x4;
+    static createRotationZ2(radians: float): Matrix4x4;
+    static createScale4(scales: Vector3, centerPoint: Vector3): Matrix4x4;
+    static createScale4(scales: Vector3): Matrix4x4;
+    static createScale4(scale: float, centerPoint: Vector3): Matrix4x4;
+    static createScale4(xScale: float, yScale: float, zScale: float, centerPoint: Vector3): Matrix4x4;
+    static createScale4(xScale: float, yScale: float, zScale: float): Matrix4x4;
+    static createScale4(scale: float): Matrix4x4;
+    static createShadow(lightDirection: Vector3, plane: Plane): Matrix4x4;
+    static createTranslation(position: Vector3): Matrix4x4;
+    static createTranslation(xPosition: float, yPosition: float, zPosition: float): Matrix4x4;
+    static createViewport(x: float, y: float, width: float, height: float, minDepth: float, maxDepth: float): Matrix4x4;
+    static createViewportLeftHanded(x: float, y: float, width: float, height: float, minDepth: float, maxDepth: float): Matrix4x4;
+    static createWorld(position: Vector3, forward: Vector3, up: Vector3): Matrix4x4;
+    static decompose(matrix: Matrix4x4, scale: { value: ref<Vector3> }, rotation: { value: ref<Quaternion> }, translation: { value: ref<Vector3> }): boolean;
+    static invert(matrix: Matrix4x4, result: { value: ref<Matrix4x4> }): boolean;
+    static lerp(matrix1: Matrix4x4, matrix2: Matrix4x4, amount: float): Matrix4x4;
+    static multiply(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
+    static multiply(value1: Matrix4x4, value2: float): Matrix4x4;
+    static negate(value: Matrix4x4): Matrix4x4;
+    static subtract(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
+    static transform(value: Matrix4x4, rotation: Quaternion): Matrix4x4;
+    static transpose(matrix: Matrix4x4): Matrix4x4;
 }
 
 
 export interface __Matrix4x4$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Matrix4x4>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Matrix4x4>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Matrix4x4): boolean;
@@ -681,27 +695,27 @@ export class Plane$instance {
     constructor(x: float, y: float, z: float, d: float);
     constructor(normal: Vector3, d: float);
     constructor(value: Vector4);
-    Normal: Vector3;
+    normal: Vector3;
     D: float;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Plane): boolean;
     getHashCode(): int;
     toString(): string;
-    static Create(normal: Vector3, d: float): Plane;
-    static Create(value: Vector4): Plane;
-    static Create(x: float, y: float, z: float, d: float): Plane;
-    static CreateFromVertices(point1: Vector3, point2: Vector3, point3: Vector3): Plane;
-    static Dot(plane: Plane, value: Vector4): float;
-    static DotCoordinate(plane: Plane, value: Vector3): float;
-    static DotNormal(plane: Plane, value: Vector3): float;
-    static Normalize(value: Plane): Plane;
-    static Transform(plane: Plane, matrix: Matrix4x4): Plane;
-    static Transform(plane: Plane, rotation: Quaternion): Plane;
+    static create2(normal: Vector3, d: float): Plane;
+    static create2(value: Vector4): Plane;
+    static create2(x: float, y: float, z: float, d: float): Plane;
+    static createFromVertices(point1: Vector3, point2: Vector3, point3: Vector3): Plane;
+    static dot(plane: Plane, value: Vector4): float;
+    static dotCoordinate(plane: Plane, value: Vector3): float;
+    static dotNormal(plane: Plane, value: Vector3): float;
+    static normalize(value: Plane): Plane;
+    static transform(plane: Plane, matrix: Matrix4x4): Plane;
+    static transform(plane: Plane, rotation: Quaternion): Plane;
 }
 
 
 export interface __Plane$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Plane>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Plane>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Plane): boolean;
@@ -719,37 +733,37 @@ export class Quaternion$instance {
     W: float;
     readonly isIdentity: boolean;
     item: float;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Quaternion): boolean;
     getHashCode(): int;
     length(): float;
     lengthSquared(): float;
     toString(): string;
-    static readonly Zero: Quaternion;
-    static readonly Identity: Quaternion;
-    static Add(value1: Quaternion, value2: Quaternion): Quaternion;
-    static Concatenate(value1: Quaternion, value2: Quaternion): Quaternion;
-    static Conjugate(value: Quaternion): Quaternion;
-    static Create(vectorPart: Vector3, scalarPart: float): Quaternion;
-    static Create(x: float, y: float, z: float, w: float): Quaternion;
-    static CreateFromAxisAngle(axis: Vector3, angle: float): Quaternion;
-    static CreateFromRotationMatrix(matrix: Matrix4x4): Quaternion;
-    static CreateFromYawPitchRoll(yaw: float, pitch: float, roll: float): Quaternion;
-    static Divide(value1: Quaternion, value2: Quaternion): Quaternion;
-    static Dot(quaternion1: Quaternion, quaternion2: Quaternion): float;
-    static Inverse(value: Quaternion): Quaternion;
-    static Lerp(quaternion1: Quaternion, quaternion2: Quaternion, amount: float): Quaternion;
-    static Multiply(value1: Quaternion, value2: Quaternion): Quaternion;
-    static Multiply(value1: Quaternion, value2: float): Quaternion;
-    static Negate(value: Quaternion): Quaternion;
-    static Normalize(value: Quaternion): Quaternion;
-    static Slerp(quaternion1: Quaternion, quaternion2: Quaternion, amount: float): Quaternion;
-    static Subtract(value1: Quaternion, value2: Quaternion): Quaternion;
+    static readonly zero: Quaternion;
+    static readonly identity: Quaternion;
+    static add(value1: Quaternion, value2: Quaternion): Quaternion;
+    static concatenate(value1: Quaternion, value2: Quaternion): Quaternion;
+    static conjugate(value: Quaternion): Quaternion;
+    static create2(vectorPart: Vector3, scalarPart: float): Quaternion;
+    static create2(x: float, y: float, z: float, w: float): Quaternion;
+    static createFromAxisAngle(axis: Vector3, angle: float): Quaternion;
+    static createFromRotationMatrix(matrix: Matrix4x4): Quaternion;
+    static createFromYawPitchRoll(yaw: float, pitch: float, roll: float): Quaternion;
+    static divide(value1: Quaternion, value2: Quaternion): Quaternion;
+    static dot(quaternion1: Quaternion, quaternion2: Quaternion): float;
+    static inverse(value: Quaternion): Quaternion;
+    static lerp(quaternion1: Quaternion, quaternion2: Quaternion, amount: float): Quaternion;
+    static multiply(value1: Quaternion, value2: Quaternion): Quaternion;
+    static multiply(value1: Quaternion, value2: float): Quaternion;
+    static negate(value: Quaternion): Quaternion;
+    static normalize(value: Quaternion): Quaternion;
+    static slerp(quaternion1: Quaternion, quaternion2: Quaternion, amount: float): Quaternion;
+    static subtract(value1: Quaternion, value2: Quaternion): Quaternion;
 }
 
 
 export interface __Quaternion$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Quaternion>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Quaternion>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Quaternion): boolean;
@@ -762,25 +776,27 @@ export class TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee75
     compare(x: T, y: T): int;
     equals(x: T, y: T): boolean;
     equals(other: TotalOrderIeee754Comparer_1<T>): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(obj: T): int;
     getHashCode(): int;
 }
 
 
 export interface __TotalOrderIeee754Comparer_1$views<T extends IFloatingPointIeee754_1<T>> {
-    readonly As_IComparer_1_of_String: System_Collections_Generic_Internal.IComparer_1$instance<T>;
-    readonly As_IEqualityComparer_1_of_String: System_Collections_Generic_Internal.IEqualityComparer_1$instance<T>;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<TotalOrderIeee754Comparer_1<T>>;
+    As_IComparer_1(): System_Collections_Generic_Internal.IComparer_1$instance<T>;
+    As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<T>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<TotalOrderIeee754Comparer_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: TotalOrderIeee754Comparer_1<T>): boolean;
 }
 
+export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIeee754_1<T>> extends System_Collections_Generic_Internal.IComparer_1$instance<T> {}
+
 export type TotalOrderIeee754Comparer_1<T extends IFloatingPointIeee754_1<T>> = TotalOrderIeee754Comparer_1$instance<T> & __TotalOrderIeee754Comparer_1$views<T>;
 
 
-export class Vector_1$instance<T> {
+export class Vector_1$instance<T> implements IAdditionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3<Vector_1<T>, Vector_1<T>, CLROf<boolean>>, IMultiplyOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3<Vector_1<T>, CLROf<int>, Vector_1<T>>, ISubtractionOperators_3<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2<Vector_1<T>, Vector_1<T>> {
     constructor(value: T);
     constructor(values: T[]);
     constructor(values: T[], index: int);
@@ -792,7 +808,7 @@ export class Vector_1$instance<T> {
     copyTo(destination: T[], startIndex: int): void;
     copyTo(destination: Span_1<CLROf<byte>>): void;
     copyTo(destination: Span_1<T>): void;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Vector_1<T>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -800,22 +816,24 @@ export class Vector_1$instance<T> {
     toString(format: string, formatProvider: IFormatProvider): string;
     tryCopyTo(destination: Span_1<CLROf<byte>>): boolean;
     tryCopyTo(destination: Span_1<T>): boolean;
-    static readonly AllBitsSet: unknown;
-    static readonly Count: int;
-    static readonly Indices: unknown;
-    static readonly IsSupported: boolean;
-    static readonly One: unknown;
-    static readonly Zero: unknown;
+    static readonly allBitsSet: unknown;
+    static readonly count: int;
+    static readonly indices: unknown;
+    static readonly isSupported: boolean;
+    static readonly one: unknown;
+    static readonly zero: unknown;
 }
 
 
 export interface __Vector_1$views<T> {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector_1<T>>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector_1<T>>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector_1<T>): boolean;
 }
+
+export interface Vector_1$instance<T> extends IAdditionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IBitwiseOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IDivisionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IEqualityOperators_3$instance<Vector_1<T>, Vector_1<T>, CLROf<boolean>>, IMultiplyOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IShiftOperators_3$instance<Vector_1<T>, CLROf<int>, Vector_1<T>>, ISubtractionOperators_3$instance<Vector_1<T>, Vector_1<T>, Vector_1<T>>, IUnaryNegationOperators_2$instance<Vector_1<T>, Vector_1<T>>, IUnaryPlusOperators_2$instance<Vector_1<T>, Vector_1<T>> {}
 
 export type Vector_1<T> = Vector_1$instance<T> & __Vector_1$views<T>;
 
@@ -830,7 +848,7 @@ export class Vector2$instance {
     copyTo(array: float[]): void;
     copyTo(array: float[], index: int): void;
     copyTo(destination: Span_1<CLROf<float>>): void;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Vector2): boolean;
     getHashCode(): int;
     length(): float;
@@ -839,133 +857,133 @@ export class Vector2$instance {
     toString(format: string): string;
     toString(format: string, formatProvider: IFormatProvider): string;
     tryCopyTo(destination: Span_1<CLROf<float>>): boolean;
-    static readonly AllBitsSet: Vector2;
+    static readonly allBitsSet: Vector2;
     static readonly E: Vector2;
-    static readonly Epsilon: Vector2;
-    static readonly NaN: Vector2;
-    static readonly NegativeInfinity: Vector2;
-    static readonly NegativeZero: Vector2;
-    static readonly One: Vector2;
-    static readonly Pi: Vector2;
-    static readonly PositiveInfinity: Vector2;
-    static readonly Tau: Vector2;
-    static readonly UnitX: Vector2;
-    static readonly UnitY: Vector2;
-    static readonly Zero: Vector2;
-    static Abs(value: Vector2): Vector2;
-    static Add(left: Vector2, right: Vector2): Vector2;
-    static All(vector: Vector2, value: float): boolean;
-    static AllWhereAllBitsSet(vector: Vector2): boolean;
-    static AndNot(left: Vector2, right: Vector2): Vector2;
-    static Any(vector: Vector2, value: float): boolean;
-    static AnyWhereAllBitsSet(vector: Vector2): boolean;
-    static BitwiseAnd(left: Vector2, right: Vector2): Vector2;
-    static BitwiseOr(left: Vector2, right: Vector2): Vector2;
-    static Clamp(value1: Vector2, min: Vector2, max: Vector2): Vector2;
-    static ClampNative(value1: Vector2, min: Vector2, max: Vector2): Vector2;
-    static ConditionalSelect(condition: Vector2, left: Vector2, right: Vector2): Vector2;
-    static CopySign(value: Vector2, sign: Vector2): Vector2;
-    static Cos(vector: Vector2): Vector2;
-    static Count(vector: Vector2, value: float): int;
-    static CountWhereAllBitsSet(vector: Vector2): int;
-    static Create(values: ReadOnlySpan_1<CLROf<float>>): Vector2;
-    static Create(x: float, y: float): Vector2;
-    static Create(value: float): Vector2;
-    static CreateScalar(x: float): Vector2;
-    static CreateScalarUnsafe(x: float): Vector2;
-    static Cross(value1: Vector2, value2: Vector2): float;
-    static DegreesToRadians(degrees: Vector2): Vector2;
-    static Distance(value1: Vector2, value2: Vector2): float;
-    static DistanceSquared(value1: Vector2, value2: Vector2): float;
-    static Divide(left: Vector2, right: Vector2): Vector2;
-    static Divide(left: Vector2, divisor: float): Vector2;
-    static Dot(value1: Vector2, value2: Vector2): float;
-    static Equals(left: Vector2, right: Vector2): Vector2;
-    static EqualsAll(left: Vector2, right: Vector2): boolean;
-    static EqualsAny(left: Vector2, right: Vector2): boolean;
-    static Exp(vector: Vector2): Vector2;
-    static FusedMultiplyAdd(left: Vector2, right: Vector2, addend: Vector2): Vector2;
-    static GreaterThan(left: Vector2, right: Vector2): Vector2;
-    static GreaterThanAll(left: Vector2, right: Vector2): boolean;
-    static GreaterThanAny(left: Vector2, right: Vector2): boolean;
-    static GreaterThanOrEqual(left: Vector2, right: Vector2): Vector2;
-    static GreaterThanOrEqualAll(left: Vector2, right: Vector2): boolean;
-    static GreaterThanOrEqualAny(left: Vector2, right: Vector2): boolean;
-    static Hypot(x: Vector2, y: Vector2): Vector2;
-    static IndexOf(vector: Vector2, value: float): int;
-    static IndexOfWhereAllBitsSet(vector: Vector2): int;
-    static IsEvenInteger(vector: Vector2): Vector2;
-    static IsFinite(vector: Vector2): Vector2;
-    static IsInfinity(vector: Vector2): Vector2;
-    static IsInteger(vector: Vector2): Vector2;
-    static IsNaN(vector: Vector2): Vector2;
-    static IsNegative(vector: Vector2): Vector2;
-    static IsNegativeInfinity(vector: Vector2): Vector2;
-    static IsNormal(vector: Vector2): Vector2;
-    static IsOddInteger(vector: Vector2): Vector2;
-    static IsPositive(vector: Vector2): Vector2;
-    static IsPositiveInfinity(vector: Vector2): Vector2;
-    static IsSubnormal(vector: Vector2): Vector2;
-    static IsZero(vector: Vector2): Vector2;
-    static LastIndexOf(vector: Vector2, value: float): int;
-    static LastIndexOfWhereAllBitsSet(vector: Vector2): int;
-    static Lerp(value1: Vector2, value2: Vector2, amount: Vector2): Vector2;
-    static Lerp(value1: Vector2, value2: Vector2, amount: float): Vector2;
-    static LessThan(left: Vector2, right: Vector2): Vector2;
-    static LessThanAll(left: Vector2, right: Vector2): boolean;
-    static LessThanAny(left: Vector2, right: Vector2): boolean;
-    static LessThanOrEqual(left: Vector2, right: Vector2): Vector2;
-    static LessThanOrEqualAll(left: Vector2, right: Vector2): boolean;
-    static LessThanOrEqualAny(left: Vector2, right: Vector2): boolean;
-    static Load(source: ptr<float>): Vector2;
-    static LoadAligned(source: ptr<float>): Vector2;
-    static LoadAlignedNonTemporal(source: ptr<float>): Vector2;
-    static LoadUnsafe(source: { value: ref<float> }, elementOffset: nuint): Vector2;
-    static LoadUnsafe(source: { value: ref<float> }): Vector2;
-    static Log(vector: Vector2): Vector2;
-    static Log2(vector: Vector2): Vector2;
-    static Max(value1: Vector2, value2: Vector2): Vector2;
-    static MaxMagnitude(value1: Vector2, value2: Vector2): Vector2;
-    static MaxMagnitudeNumber(value1: Vector2, value2: Vector2): Vector2;
-    static MaxNative(value1: Vector2, value2: Vector2): Vector2;
-    static MaxNumber(value1: Vector2, value2: Vector2): Vector2;
-    static Min(value1: Vector2, value2: Vector2): Vector2;
-    static MinMagnitude(value1: Vector2, value2: Vector2): Vector2;
-    static MinMagnitudeNumber(value1: Vector2, value2: Vector2): Vector2;
-    static MinNative(value1: Vector2, value2: Vector2): Vector2;
-    static MinNumber(value1: Vector2, value2: Vector2): Vector2;
-    static Multiply(left: Vector2, right: Vector2): Vector2;
-    static Multiply(left: Vector2, right: float): Vector2;
-    static Multiply(left: float, right: Vector2): Vector2;
-    static MultiplyAddEstimate(left: Vector2, right: Vector2, addend: Vector2): Vector2;
-    static Negate(value: Vector2): Vector2;
-    static None(vector: Vector2, value: float): boolean;
-    static NoneWhereAllBitsSet(vector: Vector2): boolean;
-    static Normalize(value: Vector2): Vector2;
-    static OnesComplement(value: Vector2): Vector2;
-    static RadiansToDegrees(radians: Vector2): Vector2;
-    static Reflect(vector: Vector2, normal: Vector2): Vector2;
-    static Round(vector: Vector2, mode: MidpointRounding): Vector2;
-    static Round(vector: Vector2): Vector2;
-    static Shuffle(vector: Vector2, xIndex: byte, yIndex: byte): Vector2;
-    static Sin(vector: Vector2): Vector2;
-    static SinCos(vector: Vector2): ValueTuple_2<Vector2, Vector2>;
-    static SquareRoot(value: Vector2): Vector2;
-    static Subtract(left: Vector2, right: Vector2): Vector2;
-    static Sum(value: Vector2): float;
-    static Transform(position: Vector2, matrix: Matrix3x2): Vector2;
-    static Transform(position: Vector2, matrix: Matrix4x4): Vector2;
-    static Transform(value: Vector2, rotation: Quaternion): Vector2;
-    static TransformNormal(normal: Vector2, matrix: Matrix3x2): Vector2;
-    static TransformNormal(normal: Vector2, matrix: Matrix4x4): Vector2;
-    static Truncate(vector: Vector2): Vector2;
-    static Xor(left: Vector2, right: Vector2): Vector2;
+    static readonly epsilon: Vector2;
+    static readonly naN: Vector2;
+    static readonly negativeInfinity: Vector2;
+    static readonly negativeZero: Vector2;
+    static readonly one: Vector2;
+    static readonly pi: Vector2;
+    static readonly positiveInfinity: Vector2;
+    static readonly tau: Vector2;
+    static readonly unitX: Vector2;
+    static readonly unitY: Vector2;
+    static readonly zero: Vector2;
+    static abs(value: Vector2): Vector2;
+    static add(left: Vector2, right: Vector2): Vector2;
+    static all(vector: Vector2, value: float): boolean;
+    static allWhereAllBitsSet(vector: Vector2): boolean;
+    static andNot(left: Vector2, right: Vector2): Vector2;
+    static any_(vector: Vector2, value: float): boolean;
+    static anyWhereAllBitsSet(vector: Vector2): boolean;
+    static bitwiseAnd(left: Vector2, right: Vector2): Vector2;
+    static bitwiseOr(left: Vector2, right: Vector2): Vector2;
+    static clamp(value1: Vector2, min: Vector2, max: Vector2): Vector2;
+    static clampNative(value1: Vector2, min: Vector2, max: Vector2): Vector2;
+    static conditionalSelect(condition: Vector2, left: Vector2, right: Vector2): Vector2;
+    static copySign(value: Vector2, sign: Vector2): Vector2;
+    static cos(vector: Vector2): Vector2;
+    static count(vector: Vector2, value: float): int;
+    static countWhereAllBitsSet(vector: Vector2): int;
+    static create3(values: ReadOnlySpan_1<CLROf<float>>): Vector2;
+    static create3(x: float, y: float): Vector2;
+    static create3(value: float): Vector2;
+    static createScalar(x: float): Vector2;
+    static createScalarUnsafe(x: float): Vector2;
+    static cross(value1: Vector2, value2: Vector2): float;
+    static degreesToRadians(degrees: Vector2): Vector2;
+    static distance(value1: Vector2, value2: Vector2): float;
+    static distanceSquared(value1: Vector2, value2: Vector2): float;
+    static divide(left: Vector2, right: Vector2): Vector2;
+    static divide(left: Vector2, divisor: float): Vector2;
+    static dot(value1: Vector2, value2: Vector2): float;
+    static equals(left: Vector2, right: Vector2): Vector2;
+    static equalsAll(left: Vector2, right: Vector2): boolean;
+    static equalsAny(left: Vector2, right: Vector2): boolean;
+    static exp(vector: Vector2): Vector2;
+    static fusedMultiplyAdd(left: Vector2, right: Vector2, addend: Vector2): Vector2;
+    static greaterThan(left: Vector2, right: Vector2): Vector2;
+    static greaterThanAll(left: Vector2, right: Vector2): boolean;
+    static greaterThanAny(left: Vector2, right: Vector2): boolean;
+    static greaterThanOrEqual(left: Vector2, right: Vector2): Vector2;
+    static greaterThanOrEqualAll(left: Vector2, right: Vector2): boolean;
+    static greaterThanOrEqualAny(left: Vector2, right: Vector2): boolean;
+    static hypot(x: Vector2, y: Vector2): Vector2;
+    static indexOf(vector: Vector2, value: float): int;
+    static indexOfWhereAllBitsSet(vector: Vector2): int;
+    static isEvenInteger(vector: Vector2): Vector2;
+    static isFinite(vector: Vector2): Vector2;
+    static isInfinity(vector: Vector2): Vector2;
+    static isInteger(vector: Vector2): Vector2;
+    static isNaN(vector: Vector2): Vector2;
+    static isNegative(vector: Vector2): Vector2;
+    static isNegativeInfinity(vector: Vector2): Vector2;
+    static isNormal(vector: Vector2): Vector2;
+    static isOddInteger(vector: Vector2): Vector2;
+    static isPositive(vector: Vector2): Vector2;
+    static isPositiveInfinity(vector: Vector2): Vector2;
+    static isSubnormal(vector: Vector2): Vector2;
+    static isZero(vector: Vector2): Vector2;
+    static lastIndexOf(vector: Vector2, value: float): int;
+    static lastIndexOfWhereAllBitsSet(vector: Vector2): int;
+    static lerp2(value1: Vector2, value2: Vector2, amount: Vector2): Vector2;
+    static lerp2(value1: Vector2, value2: Vector2, amount: float): Vector2;
+    static lessThan(left: Vector2, right: Vector2): Vector2;
+    static lessThanAll(left: Vector2, right: Vector2): boolean;
+    static lessThanAny(left: Vector2, right: Vector2): boolean;
+    static lessThanOrEqual(left: Vector2, right: Vector2): Vector2;
+    static lessThanOrEqualAll(left: Vector2, right: Vector2): boolean;
+    static lessThanOrEqualAny(left: Vector2, right: Vector2): boolean;
+    static load(source: ptr<float>): Vector2;
+    static loadAligned(source: ptr<float>): Vector2;
+    static loadAlignedNonTemporal(source: ptr<float>): Vector2;
+    static loadUnsafe2(source: { value: ref<float> }, elementOffset: nuint): Vector2;
+    static loadUnsafe2(source: { value: ref<float> }): Vector2;
+    static log(vector: Vector2): Vector2;
+    static log2(vector: Vector2): Vector2;
+    static max(value1: Vector2, value2: Vector2): Vector2;
+    static maxMagnitude(value1: Vector2, value2: Vector2): Vector2;
+    static maxMagnitudeNumber(value1: Vector2, value2: Vector2): Vector2;
+    static maxNative(value1: Vector2, value2: Vector2): Vector2;
+    static maxNumber(value1: Vector2, value2: Vector2): Vector2;
+    static min(value1: Vector2, value2: Vector2): Vector2;
+    static minMagnitude(value1: Vector2, value2: Vector2): Vector2;
+    static minMagnitudeNumber(value1: Vector2, value2: Vector2): Vector2;
+    static minNative(value1: Vector2, value2: Vector2): Vector2;
+    static minNumber(value1: Vector2, value2: Vector2): Vector2;
+    static multiply(left: Vector2, right: Vector2): Vector2;
+    static multiply(left: Vector2, right: float): Vector2;
+    static multiply(left: float, right: Vector2): Vector2;
+    static multiplyAddEstimate(left: Vector2, right: Vector2, addend: Vector2): Vector2;
+    static negate(value: Vector2): Vector2;
+    static none(vector: Vector2, value: float): boolean;
+    static noneWhereAllBitsSet(vector: Vector2): boolean;
+    static normalize(value: Vector2): Vector2;
+    static onesComplement(value: Vector2): Vector2;
+    static radiansToDegrees(radians: Vector2): Vector2;
+    static reflect(vector: Vector2, normal: Vector2): Vector2;
+    static round2(vector: Vector2, mode: MidpointRounding): Vector2;
+    static round2(vector: Vector2): Vector2;
+    static shuffle(vector: Vector2, xIndex: byte, yIndex: byte): Vector2;
+    static sin(vector: Vector2): Vector2;
+    static sinCos(vector: Vector2): ValueTuple_2<Vector2, Vector2>;
+    static squareRoot(value: Vector2): Vector2;
+    static subtract(left: Vector2, right: Vector2): Vector2;
+    static sum(value: Vector2): float;
+    static transform(position: Vector2, matrix: Matrix3x2): Vector2;
+    static transform(position: Vector2, matrix: Matrix4x4): Vector2;
+    static transform(value: Vector2, rotation: Quaternion): Vector2;
+    static transformNormal(normal: Vector2, matrix: Matrix3x2): Vector2;
+    static transformNormal(normal: Vector2, matrix: Matrix4x4): Vector2;
+    static truncate(vector: Vector2): Vector2;
+    static xor(left: Vector2, right: Vector2): Vector2;
 }
 
 
 export interface __Vector2$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector2>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector2>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector2): boolean;
@@ -986,7 +1004,7 @@ export class Vector3$instance {
     copyTo(array: float[]): void;
     copyTo(array: float[], index: int): void;
     copyTo(destination: Span_1<CLROf<float>>): void;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Vector3): boolean;
     getHashCode(): int;
     length(): float;
@@ -995,133 +1013,133 @@ export class Vector3$instance {
     toString(format: string): string;
     toString(format: string, formatProvider: IFormatProvider): string;
     tryCopyTo(destination: Span_1<CLROf<float>>): boolean;
-    static readonly AllBitsSet: Vector3;
+    static readonly allBitsSet: Vector3;
     static readonly E: Vector3;
-    static readonly Epsilon: Vector3;
-    static readonly NaN: Vector3;
-    static readonly NegativeInfinity: Vector3;
-    static readonly NegativeZero: Vector3;
-    static readonly One: Vector3;
-    static readonly Pi: Vector3;
-    static readonly PositiveInfinity: Vector3;
-    static readonly Tau: Vector3;
-    static readonly UnitX: Vector3;
-    static readonly UnitY: Vector3;
-    static readonly UnitZ: Vector3;
-    static readonly Zero: Vector3;
-    static Abs(value: Vector3): Vector3;
-    static Add(left: Vector3, right: Vector3): Vector3;
-    static All(vector: Vector3, value: float): boolean;
-    static AllWhereAllBitsSet(vector: Vector3): boolean;
-    static AndNot(left: Vector3, right: Vector3): Vector3;
-    static Any(vector: Vector3, value: float): boolean;
-    static AnyWhereAllBitsSet(vector: Vector3): boolean;
-    static BitwiseAnd(left: Vector3, right: Vector3): Vector3;
-    static BitwiseOr(left: Vector3, right: Vector3): Vector3;
-    static Clamp(value1: Vector3, min: Vector3, max: Vector3): Vector3;
-    static ClampNative(value1: Vector3, min: Vector3, max: Vector3): Vector3;
-    static ConditionalSelect(condition: Vector3, left: Vector3, right: Vector3): Vector3;
-    static CopySign(value: Vector3, sign: Vector3): Vector3;
-    static Cos(vector: Vector3): Vector3;
-    static Count(vector: Vector3, value: float): int;
-    static CountWhereAllBitsSet(vector: Vector3): int;
-    static Create(vector: Vector2, z: float): Vector3;
-    static Create(values: ReadOnlySpan_1<CLROf<float>>): Vector3;
-    static Create(x: float, y: float, z: float): Vector3;
-    static Create(value: float): Vector3;
-    static CreateScalar(x: float): Vector3;
-    static CreateScalarUnsafe(x: float): Vector3;
-    static Cross(vector1: Vector3, vector2: Vector3): Vector3;
-    static DegreesToRadians(degrees: Vector3): Vector3;
-    static Distance(value1: Vector3, value2: Vector3): float;
-    static DistanceSquared(value1: Vector3, value2: Vector3): float;
-    static Divide(left: Vector3, right: Vector3): Vector3;
-    static Divide(left: Vector3, divisor: float): Vector3;
-    static Dot(vector1: Vector3, vector2: Vector3): float;
-    static Equals(left: Vector3, right: Vector3): Vector3;
-    static EqualsAll(left: Vector3, right: Vector3): boolean;
-    static EqualsAny(left: Vector3, right: Vector3): boolean;
-    static Exp(vector: Vector3): Vector3;
-    static FusedMultiplyAdd(left: Vector3, right: Vector3, addend: Vector3): Vector3;
-    static GreaterThan(left: Vector3, right: Vector3): Vector3;
-    static GreaterThanAll(left: Vector3, right: Vector3): boolean;
-    static GreaterThanAny(left: Vector3, right: Vector3): boolean;
-    static GreaterThanOrEqual(left: Vector3, right: Vector3): Vector3;
-    static GreaterThanOrEqualAll(left: Vector3, right: Vector3): boolean;
-    static GreaterThanOrEqualAny(left: Vector3, right: Vector3): boolean;
-    static Hypot(x: Vector3, y: Vector3): Vector3;
-    static IndexOf(vector: Vector3, value: float): int;
-    static IndexOfWhereAllBitsSet(vector: Vector3): int;
-    static IsEvenInteger(vector: Vector3): Vector3;
-    static IsFinite(vector: Vector3): Vector3;
-    static IsInfinity(vector: Vector3): Vector3;
-    static IsInteger(vector: Vector3): Vector3;
-    static IsNaN(vector: Vector3): Vector3;
-    static IsNegative(vector: Vector3): Vector3;
-    static IsNegativeInfinity(vector: Vector3): Vector3;
-    static IsNormal(vector: Vector3): Vector3;
-    static IsOddInteger(vector: Vector3): Vector3;
-    static IsPositive(vector: Vector3): Vector3;
-    static IsPositiveInfinity(vector: Vector3): Vector3;
-    static IsSubnormal(vector: Vector3): Vector3;
-    static IsZero(vector: Vector3): Vector3;
-    static LastIndexOf(vector: Vector3, value: float): int;
-    static LastIndexOfWhereAllBitsSet(vector: Vector3): int;
-    static Lerp(value1: Vector3, value2: Vector3, amount: Vector3): Vector3;
-    static Lerp(value1: Vector3, value2: Vector3, amount: float): Vector3;
-    static LessThan(left: Vector3, right: Vector3): Vector3;
-    static LessThanAll(left: Vector3, right: Vector3): boolean;
-    static LessThanAny(left: Vector3, right: Vector3): boolean;
-    static LessThanOrEqual(left: Vector3, right: Vector3): Vector3;
-    static LessThanOrEqualAll(left: Vector3, right: Vector3): boolean;
-    static LessThanOrEqualAny(left: Vector3, right: Vector3): boolean;
-    static Load(source: ptr<float>): Vector3;
-    static LoadAligned(source: ptr<float>): Vector3;
-    static LoadAlignedNonTemporal(source: ptr<float>): Vector3;
-    static LoadUnsafe(source: { value: ref<float> }, elementOffset: nuint): Vector3;
-    static LoadUnsafe(source: { value: ref<float> }): Vector3;
-    static Log(vector: Vector3): Vector3;
-    static Log2(vector: Vector3): Vector3;
-    static Max(value1: Vector3, value2: Vector3): Vector3;
-    static MaxMagnitude(value1: Vector3, value2: Vector3): Vector3;
-    static MaxMagnitudeNumber(value1: Vector3, value2: Vector3): Vector3;
-    static MaxNative(value1: Vector3, value2: Vector3): Vector3;
-    static MaxNumber(value1: Vector3, value2: Vector3): Vector3;
-    static Min(value1: Vector3, value2: Vector3): Vector3;
-    static MinMagnitude(value1: Vector3, value2: Vector3): Vector3;
-    static MinMagnitudeNumber(value1: Vector3, value2: Vector3): Vector3;
-    static MinNative(value1: Vector3, value2: Vector3): Vector3;
-    static MinNumber(value1: Vector3, value2: Vector3): Vector3;
-    static Multiply(left: Vector3, right: Vector3): Vector3;
-    static Multiply(left: Vector3, right: float): Vector3;
-    static Multiply(left: float, right: Vector3): Vector3;
-    static MultiplyAddEstimate(left: Vector3, right: Vector3, addend: Vector3): Vector3;
-    static Negate(value: Vector3): Vector3;
-    static None(vector: Vector3, value: float): boolean;
-    static NoneWhereAllBitsSet(vector: Vector3): boolean;
-    static Normalize(value: Vector3): Vector3;
-    static OnesComplement(value: Vector3): Vector3;
-    static RadiansToDegrees(radians: Vector3): Vector3;
-    static Reflect(vector: Vector3, normal: Vector3): Vector3;
-    static Round(vector: Vector3, mode: MidpointRounding): Vector3;
-    static Round(vector: Vector3): Vector3;
-    static Shuffle(vector: Vector3, xIndex: byte, yIndex: byte, zIndex: byte): Vector3;
-    static Sin(vector: Vector3): Vector3;
-    static SinCos(vector: Vector3): ValueTuple_2<Vector3, Vector3>;
-    static SquareRoot(value: Vector3): Vector3;
-    static Subtract(left: Vector3, right: Vector3): Vector3;
-    static Sum(value: Vector3): float;
-    static Transform(position: Vector3, matrix: Matrix4x4): Vector3;
-    static Transform(value: Vector3, rotation: Quaternion): Vector3;
-    static TransformNormal(normal: Vector3, matrix: Matrix4x4): Vector3;
-    static Truncate(vector: Vector3): Vector3;
-    static Xor(left: Vector3, right: Vector3): Vector3;
+    static readonly epsilon: Vector3;
+    static readonly naN: Vector3;
+    static readonly negativeInfinity: Vector3;
+    static readonly negativeZero: Vector3;
+    static readonly one: Vector3;
+    static readonly pi: Vector3;
+    static readonly positiveInfinity: Vector3;
+    static readonly tau: Vector3;
+    static readonly unitX: Vector3;
+    static readonly unitY: Vector3;
+    static readonly unitZ: Vector3;
+    static readonly zero: Vector3;
+    static abs(value: Vector3): Vector3;
+    static add(left: Vector3, right: Vector3): Vector3;
+    static all(vector: Vector3, value: float): boolean;
+    static allWhereAllBitsSet(vector: Vector3): boolean;
+    static andNot(left: Vector3, right: Vector3): Vector3;
+    static any_(vector: Vector3, value: float): boolean;
+    static anyWhereAllBitsSet(vector: Vector3): boolean;
+    static bitwiseAnd(left: Vector3, right: Vector3): Vector3;
+    static bitwiseOr(left: Vector3, right: Vector3): Vector3;
+    static clamp(value1: Vector3, min: Vector3, max: Vector3): Vector3;
+    static clampNative(value1: Vector3, min: Vector3, max: Vector3): Vector3;
+    static conditionalSelect(condition: Vector3, left: Vector3, right: Vector3): Vector3;
+    static copySign(value: Vector3, sign: Vector3): Vector3;
+    static cos(vector: Vector3): Vector3;
+    static count(vector: Vector3, value: float): int;
+    static countWhereAllBitsSet(vector: Vector3): int;
+    static create2(vector: Vector2, z: float): Vector3;
+    static create2(values: ReadOnlySpan_1<CLROf<float>>): Vector3;
+    static create2(x: float, y: float, z: float): Vector3;
+    static create2(value: float): Vector3;
+    static createScalar(x: float): Vector3;
+    static createScalarUnsafe(x: float): Vector3;
+    static cross(vector1: Vector3, vector2: Vector3): Vector3;
+    static degreesToRadians(degrees: Vector3): Vector3;
+    static distance(value1: Vector3, value2: Vector3): float;
+    static distanceSquared(value1: Vector3, value2: Vector3): float;
+    static divide(left: Vector3, right: Vector3): Vector3;
+    static divide(left: Vector3, divisor: float): Vector3;
+    static dot(vector1: Vector3, vector2: Vector3): float;
+    static equals(left: Vector3, right: Vector3): Vector3;
+    static equalsAll(left: Vector3, right: Vector3): boolean;
+    static equalsAny(left: Vector3, right: Vector3): boolean;
+    static exp(vector: Vector3): Vector3;
+    static fusedMultiplyAdd(left: Vector3, right: Vector3, addend: Vector3): Vector3;
+    static greaterThan(left: Vector3, right: Vector3): Vector3;
+    static greaterThanAll(left: Vector3, right: Vector3): boolean;
+    static greaterThanAny(left: Vector3, right: Vector3): boolean;
+    static greaterThanOrEqual(left: Vector3, right: Vector3): Vector3;
+    static greaterThanOrEqualAll(left: Vector3, right: Vector3): boolean;
+    static greaterThanOrEqualAny(left: Vector3, right: Vector3): boolean;
+    static hypot(x: Vector3, y: Vector3): Vector3;
+    static indexOf(vector: Vector3, value: float): int;
+    static indexOfWhereAllBitsSet(vector: Vector3): int;
+    static isEvenInteger(vector: Vector3): Vector3;
+    static isFinite(vector: Vector3): Vector3;
+    static isInfinity(vector: Vector3): Vector3;
+    static isInteger(vector: Vector3): Vector3;
+    static isNaN(vector: Vector3): Vector3;
+    static isNegative(vector: Vector3): Vector3;
+    static isNegativeInfinity(vector: Vector3): Vector3;
+    static isNormal(vector: Vector3): Vector3;
+    static isOddInteger(vector: Vector3): Vector3;
+    static isPositive(vector: Vector3): Vector3;
+    static isPositiveInfinity(vector: Vector3): Vector3;
+    static isSubnormal(vector: Vector3): Vector3;
+    static isZero(vector: Vector3): Vector3;
+    static lastIndexOf(vector: Vector3, value: float): int;
+    static lastIndexOfWhereAllBitsSet(vector: Vector3): int;
+    static lerp2(value1: Vector3, value2: Vector3, amount: Vector3): Vector3;
+    static lerp2(value1: Vector3, value2: Vector3, amount: float): Vector3;
+    static lessThan(left: Vector3, right: Vector3): Vector3;
+    static lessThanAll(left: Vector3, right: Vector3): boolean;
+    static lessThanAny(left: Vector3, right: Vector3): boolean;
+    static lessThanOrEqual(left: Vector3, right: Vector3): Vector3;
+    static lessThanOrEqualAll(left: Vector3, right: Vector3): boolean;
+    static lessThanOrEqualAny(left: Vector3, right: Vector3): boolean;
+    static load(source: ptr<float>): Vector3;
+    static loadAligned(source: ptr<float>): Vector3;
+    static loadAlignedNonTemporal(source: ptr<float>): Vector3;
+    static loadUnsafe2(source: { value: ref<float> }, elementOffset: nuint): Vector3;
+    static loadUnsafe2(source: { value: ref<float> }): Vector3;
+    static log(vector: Vector3): Vector3;
+    static log2(vector: Vector3): Vector3;
+    static max(value1: Vector3, value2: Vector3): Vector3;
+    static maxMagnitude(value1: Vector3, value2: Vector3): Vector3;
+    static maxMagnitudeNumber(value1: Vector3, value2: Vector3): Vector3;
+    static maxNative(value1: Vector3, value2: Vector3): Vector3;
+    static maxNumber(value1: Vector3, value2: Vector3): Vector3;
+    static min(value1: Vector3, value2: Vector3): Vector3;
+    static minMagnitude(value1: Vector3, value2: Vector3): Vector3;
+    static minMagnitudeNumber(value1: Vector3, value2: Vector3): Vector3;
+    static minNative(value1: Vector3, value2: Vector3): Vector3;
+    static minNumber(value1: Vector3, value2: Vector3): Vector3;
+    static multiply(left: Vector3, right: Vector3): Vector3;
+    static multiply(left: Vector3, right: float): Vector3;
+    static multiply(left: float, right: Vector3): Vector3;
+    static multiplyAddEstimate(left: Vector3, right: Vector3, addend: Vector3): Vector3;
+    static negate(value: Vector3): Vector3;
+    static none(vector: Vector3, value: float): boolean;
+    static noneWhereAllBitsSet(vector: Vector3): boolean;
+    static normalize(value: Vector3): Vector3;
+    static onesComplement(value: Vector3): Vector3;
+    static radiansToDegrees(radians: Vector3): Vector3;
+    static reflect(vector: Vector3, normal: Vector3): Vector3;
+    static round2(vector: Vector3, mode: MidpointRounding): Vector3;
+    static round2(vector: Vector3): Vector3;
+    static shuffle(vector: Vector3, xIndex: byte, yIndex: byte, zIndex: byte): Vector3;
+    static sin(vector: Vector3): Vector3;
+    static sinCos(vector: Vector3): ValueTuple_2<Vector3, Vector3>;
+    static squareRoot(value: Vector3): Vector3;
+    static subtract(left: Vector3, right: Vector3): Vector3;
+    static sum(value: Vector3): float;
+    static transform(position: Vector3, matrix: Matrix4x4): Vector3;
+    static transform(value: Vector3, rotation: Quaternion): Vector3;
+    static transformNormal(normal: Vector3, matrix: Matrix4x4): Vector3;
+    static truncate(vector: Vector3): Vector3;
+    static xor(left: Vector3, right: Vector3): Vector3;
 }
 
 
 export interface __Vector3$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector3>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector3>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector3): boolean;
@@ -1145,7 +1163,7 @@ export class Vector4$instance {
     copyTo(array: float[], index: int): void;
     copyTo(destination: Span_1<CLROf<float>>): void;
     equals(other: Vector4): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     length(): float;
     lengthSquared(): float;
@@ -1153,137 +1171,137 @@ export class Vector4$instance {
     toString(format: string): string;
     toString(format: string, formatProvider: IFormatProvider): string;
     tryCopyTo(destination: Span_1<CLROf<float>>): boolean;
-    static readonly AllBitsSet: Vector4;
+    static readonly allBitsSet: Vector4;
     static readonly E: Vector4;
-    static readonly Epsilon: Vector4;
-    static readonly NaN: Vector4;
-    static readonly NegativeInfinity: Vector4;
-    static readonly NegativeZero: Vector4;
-    static readonly One: Vector4;
-    static readonly Pi: Vector4;
-    static readonly PositiveInfinity: Vector4;
-    static readonly Tau: Vector4;
-    static readonly UnitX: Vector4;
-    static readonly UnitY: Vector4;
-    static readonly UnitZ: Vector4;
-    static readonly UnitW: Vector4;
-    static readonly Zero: Vector4;
-    static Abs(value: Vector4): Vector4;
-    static Add(left: Vector4, right: Vector4): Vector4;
-    static All(vector: Vector4, value: float): boolean;
-    static AllWhereAllBitsSet(vector: Vector4): boolean;
-    static AndNot(left: Vector4, right: Vector4): Vector4;
-    static Any(vector: Vector4, value: float): boolean;
-    static AnyWhereAllBitsSet(vector: Vector4): boolean;
-    static BitwiseAnd(left: Vector4, right: Vector4): Vector4;
-    static BitwiseOr(left: Vector4, right: Vector4): Vector4;
-    static Clamp(value1: Vector4, min: Vector4, max: Vector4): Vector4;
-    static ClampNative(value1: Vector4, min: Vector4, max: Vector4): Vector4;
-    static ConditionalSelect(condition: Vector4, left: Vector4, right: Vector4): Vector4;
-    static CopySign(value: Vector4, sign: Vector4): Vector4;
-    static Cos(vector: Vector4): Vector4;
-    static Count(vector: Vector4, value: float): int;
-    static CountWhereAllBitsSet(vector: Vector4): int;
-    static Create(vector: Vector2, z: float, w: float): Vector4;
-    static Create(vector: Vector3, w: float): Vector4;
-    static Create(values: ReadOnlySpan_1<CLROf<float>>): Vector4;
-    static Create(x: float, y: float, z: float, w: float): Vector4;
-    static Create(value: float): Vector4;
-    static CreateScalar(x: float): Vector4;
-    static CreateScalarUnsafe(x: float): Vector4;
-    static Cross(vector1: Vector4, vector2: Vector4): Vector4;
-    static DegreesToRadians(degrees: Vector4): Vector4;
-    static Distance(value1: Vector4, value2: Vector4): float;
-    static DistanceSquared(value1: Vector4, value2: Vector4): float;
-    static Divide(left: Vector4, right: Vector4): Vector4;
-    static Divide(left: Vector4, divisor: float): Vector4;
-    static Dot(vector1: Vector4, vector2: Vector4): float;
-    static Equals(left: Vector4, right: Vector4): Vector4;
-    static EqualsAll(left: Vector4, right: Vector4): boolean;
-    static EqualsAny(left: Vector4, right: Vector4): boolean;
-    static Exp(vector: Vector4): Vector4;
-    static FusedMultiplyAdd(left: Vector4, right: Vector4, addend: Vector4): Vector4;
-    static GreaterThan(left: Vector4, right: Vector4): Vector4;
-    static GreaterThanAll(left: Vector4, right: Vector4): boolean;
-    static GreaterThanAny(left: Vector4, right: Vector4): boolean;
-    static GreaterThanOrEqual(left: Vector4, right: Vector4): Vector4;
-    static GreaterThanOrEqualAll(left: Vector4, right: Vector4): boolean;
-    static GreaterThanOrEqualAny(left: Vector4, right: Vector4): boolean;
-    static Hypot(x: Vector4, y: Vector4): Vector4;
-    static IndexOf(vector: Vector4, value: float): int;
-    static IndexOfWhereAllBitsSet(vector: Vector4): int;
-    static IsEvenInteger(vector: Vector4): Vector4;
-    static IsFinite(vector: Vector4): Vector4;
-    static IsInfinity(vector: Vector4): Vector4;
-    static IsInteger(vector: Vector4): Vector4;
-    static IsNaN(vector: Vector4): Vector4;
-    static IsNegative(vector: Vector4): Vector4;
-    static IsNegativeInfinity(vector: Vector4): Vector4;
-    static IsNormal(vector: Vector4): Vector4;
-    static IsOddInteger(vector: Vector4): Vector4;
-    static IsPositive(vector: Vector4): Vector4;
-    static IsPositiveInfinity(vector: Vector4): Vector4;
-    static IsSubnormal(vector: Vector4): Vector4;
-    static IsZero(vector: Vector4): Vector4;
-    static LastIndexOf(vector: Vector4, value: float): int;
-    static LastIndexOfWhereAllBitsSet(vector: Vector4): int;
-    static Lerp(value1: Vector4, value2: Vector4, amount: Vector4): Vector4;
-    static Lerp(value1: Vector4, value2: Vector4, amount: float): Vector4;
-    static LessThan(left: Vector4, right: Vector4): Vector4;
-    static LessThanAll(left: Vector4, right: Vector4): boolean;
-    static LessThanAny(left: Vector4, right: Vector4): boolean;
-    static LessThanOrEqual(left: Vector4, right: Vector4): Vector4;
-    static LessThanOrEqualAll(left: Vector4, right: Vector4): boolean;
-    static LessThanOrEqualAny(left: Vector4, right: Vector4): boolean;
-    static Load(source: ptr<float>): Vector4;
-    static LoadAligned(source: ptr<float>): Vector4;
-    static LoadAlignedNonTemporal(source: ptr<float>): Vector4;
-    static LoadUnsafe(source: { value: ref<float> }, elementOffset: nuint): Vector4;
-    static LoadUnsafe(source: { value: ref<float> }): Vector4;
-    static Log(vector: Vector4): Vector4;
-    static Log2(vector: Vector4): Vector4;
-    static Max(value1: Vector4, value2: Vector4): Vector4;
-    static MaxMagnitude(value1: Vector4, value2: Vector4): Vector4;
-    static MaxMagnitudeNumber(value1: Vector4, value2: Vector4): Vector4;
-    static MaxNative(value1: Vector4, value2: Vector4): Vector4;
-    static MaxNumber(value1: Vector4, value2: Vector4): Vector4;
-    static Min(value1: Vector4, value2: Vector4): Vector4;
-    static MinMagnitude(value1: Vector4, value2: Vector4): Vector4;
-    static MinMagnitudeNumber(value1: Vector4, value2: Vector4): Vector4;
-    static MinNative(value1: Vector4, value2: Vector4): Vector4;
-    static MinNumber(value1: Vector4, value2: Vector4): Vector4;
-    static Multiply(left: Vector4, right: Vector4): Vector4;
-    static Multiply(left: Vector4, right: float): Vector4;
-    static Multiply(left: float, right: Vector4): Vector4;
-    static MultiplyAddEstimate(left: Vector4, right: Vector4, addend: Vector4): Vector4;
-    static Negate(value: Vector4): Vector4;
-    static None(vector: Vector4, value: float): boolean;
-    static NoneWhereAllBitsSet(vector: Vector4): boolean;
-    static Normalize(vector: Vector4): Vector4;
-    static OnesComplement(value: Vector4): Vector4;
-    static RadiansToDegrees(radians: Vector4): Vector4;
-    static Round(vector: Vector4, mode: MidpointRounding): Vector4;
-    static Round(vector: Vector4): Vector4;
-    static Shuffle(vector: Vector4, xIndex: byte, yIndex: byte, zIndex: byte, wIndex: byte): Vector4;
-    static Sin(vector: Vector4): Vector4;
-    static SinCos(vector: Vector4): ValueTuple_2<Vector4, Vector4>;
-    static SquareRoot(value: Vector4): Vector4;
-    static Subtract(left: Vector4, right: Vector4): Vector4;
-    static Sum(value: Vector4): float;
-    static Transform(position: Vector2, matrix: Matrix4x4): Vector4;
-    static Transform(value: Vector2, rotation: Quaternion): Vector4;
-    static Transform(position: Vector3, matrix: Matrix4x4): Vector4;
-    static Transform(value: Vector3, rotation: Quaternion): Vector4;
-    static Transform(vector: Vector4, matrix: Matrix4x4): Vector4;
-    static Transform(value: Vector4, rotation: Quaternion): Vector4;
-    static Truncate(vector: Vector4): Vector4;
-    static Xor(left: Vector4, right: Vector4): Vector4;
+    static readonly epsilon: Vector4;
+    static readonly naN: Vector4;
+    static readonly negativeInfinity: Vector4;
+    static readonly negativeZero: Vector4;
+    static readonly one: Vector4;
+    static readonly pi: Vector4;
+    static readonly positiveInfinity: Vector4;
+    static readonly tau: Vector4;
+    static readonly unitX: Vector4;
+    static readonly unitY: Vector4;
+    static readonly unitZ: Vector4;
+    static readonly unitW: Vector4;
+    static readonly zero: Vector4;
+    static abs(value: Vector4): Vector4;
+    static add(left: Vector4, right: Vector4): Vector4;
+    static all(vector: Vector4, value: float): boolean;
+    static allWhereAllBitsSet(vector: Vector4): boolean;
+    static andNot(left: Vector4, right: Vector4): Vector4;
+    static any_(vector: Vector4, value: float): boolean;
+    static anyWhereAllBitsSet(vector: Vector4): boolean;
+    static bitwiseAnd(left: Vector4, right: Vector4): Vector4;
+    static bitwiseOr(left: Vector4, right: Vector4): Vector4;
+    static clamp(value1: Vector4, min: Vector4, max: Vector4): Vector4;
+    static clampNative(value1: Vector4, min: Vector4, max: Vector4): Vector4;
+    static conditionalSelect(condition: Vector4, left: Vector4, right: Vector4): Vector4;
+    static copySign(value: Vector4, sign: Vector4): Vector4;
+    static cos(vector: Vector4): Vector4;
+    static count(vector: Vector4, value: float): int;
+    static countWhereAllBitsSet(vector: Vector4): int;
+    static create2(vector: Vector2, z: float, w: float): Vector4;
+    static create2(vector: Vector3, w: float): Vector4;
+    static create2(values: ReadOnlySpan_1<CLROf<float>>): Vector4;
+    static create2(x: float, y: float, z: float, w: float): Vector4;
+    static create2(value: float): Vector4;
+    static createScalar(x: float): Vector4;
+    static createScalarUnsafe(x: float): Vector4;
+    static cross(vector1: Vector4, vector2: Vector4): Vector4;
+    static degreesToRadians(degrees: Vector4): Vector4;
+    static distance(value1: Vector4, value2: Vector4): float;
+    static distanceSquared(value1: Vector4, value2: Vector4): float;
+    static divide(left: Vector4, right: Vector4): Vector4;
+    static divide(left: Vector4, divisor: float): Vector4;
+    static dot(vector1: Vector4, vector2: Vector4): float;
+    static equals(left: Vector4, right: Vector4): Vector4;
+    static equalsAll(left: Vector4, right: Vector4): boolean;
+    static equalsAny(left: Vector4, right: Vector4): boolean;
+    static exp(vector: Vector4): Vector4;
+    static fusedMultiplyAdd(left: Vector4, right: Vector4, addend: Vector4): Vector4;
+    static greaterThan(left: Vector4, right: Vector4): Vector4;
+    static greaterThanAll(left: Vector4, right: Vector4): boolean;
+    static greaterThanAny(left: Vector4, right: Vector4): boolean;
+    static greaterThanOrEqual(left: Vector4, right: Vector4): Vector4;
+    static greaterThanOrEqualAll(left: Vector4, right: Vector4): boolean;
+    static greaterThanOrEqualAny(left: Vector4, right: Vector4): boolean;
+    static hypot(x: Vector4, y: Vector4): Vector4;
+    static indexOf(vector: Vector4, value: float): int;
+    static indexOfWhereAllBitsSet(vector: Vector4): int;
+    static isEvenInteger(vector: Vector4): Vector4;
+    static isFinite(vector: Vector4): Vector4;
+    static isInfinity(vector: Vector4): Vector4;
+    static isInteger(vector: Vector4): Vector4;
+    static isNaN(vector: Vector4): Vector4;
+    static isNegative(vector: Vector4): Vector4;
+    static isNegativeInfinity(vector: Vector4): Vector4;
+    static isNormal(vector: Vector4): Vector4;
+    static isOddInteger(vector: Vector4): Vector4;
+    static isPositive(vector: Vector4): Vector4;
+    static isPositiveInfinity(vector: Vector4): Vector4;
+    static isSubnormal(vector: Vector4): Vector4;
+    static isZero(vector: Vector4): Vector4;
+    static lastIndexOf(vector: Vector4, value: float): int;
+    static lastIndexOfWhereAllBitsSet(vector: Vector4): int;
+    static lerp2(value1: Vector4, value2: Vector4, amount: Vector4): Vector4;
+    static lerp2(value1: Vector4, value2: Vector4, amount: float): Vector4;
+    static lessThan(left: Vector4, right: Vector4): Vector4;
+    static lessThanAll(left: Vector4, right: Vector4): boolean;
+    static lessThanAny(left: Vector4, right: Vector4): boolean;
+    static lessThanOrEqual(left: Vector4, right: Vector4): Vector4;
+    static lessThanOrEqualAll(left: Vector4, right: Vector4): boolean;
+    static lessThanOrEqualAny(left: Vector4, right: Vector4): boolean;
+    static load(source: ptr<float>): Vector4;
+    static loadAligned(source: ptr<float>): Vector4;
+    static loadAlignedNonTemporal(source: ptr<float>): Vector4;
+    static loadUnsafe2(source: { value: ref<float> }, elementOffset: nuint): Vector4;
+    static loadUnsafe2(source: { value: ref<float> }): Vector4;
+    static log(vector: Vector4): Vector4;
+    static log2(vector: Vector4): Vector4;
+    static max(value1: Vector4, value2: Vector4): Vector4;
+    static maxMagnitude(value1: Vector4, value2: Vector4): Vector4;
+    static maxMagnitudeNumber(value1: Vector4, value2: Vector4): Vector4;
+    static maxNative(value1: Vector4, value2: Vector4): Vector4;
+    static maxNumber(value1: Vector4, value2: Vector4): Vector4;
+    static min(value1: Vector4, value2: Vector4): Vector4;
+    static minMagnitude(value1: Vector4, value2: Vector4): Vector4;
+    static minMagnitudeNumber(value1: Vector4, value2: Vector4): Vector4;
+    static minNative(value1: Vector4, value2: Vector4): Vector4;
+    static minNumber(value1: Vector4, value2: Vector4): Vector4;
+    static multiply(left: Vector4, right: Vector4): Vector4;
+    static multiply(left: Vector4, right: float): Vector4;
+    static multiply(left: float, right: Vector4): Vector4;
+    static multiplyAddEstimate(left: Vector4, right: Vector4, addend: Vector4): Vector4;
+    static negate(value: Vector4): Vector4;
+    static none(vector: Vector4, value: float): boolean;
+    static noneWhereAllBitsSet(vector: Vector4): boolean;
+    static normalize(vector: Vector4): Vector4;
+    static onesComplement(value: Vector4): Vector4;
+    static radiansToDegrees(radians: Vector4): Vector4;
+    static round2(vector: Vector4, mode: MidpointRounding): Vector4;
+    static round2(vector: Vector4): Vector4;
+    static shuffle(vector: Vector4, xIndex: byte, yIndex: byte, zIndex: byte, wIndex: byte): Vector4;
+    static sin(vector: Vector4): Vector4;
+    static sinCos(vector: Vector4): ValueTuple_2<Vector4, Vector4>;
+    static squareRoot(value: Vector4): Vector4;
+    static subtract(left: Vector4, right: Vector4): Vector4;
+    static sum(value: Vector4): float;
+    static transform(position: Vector2, matrix: Matrix4x4): Vector4;
+    static transform(value: Vector2, rotation: Quaternion): Vector4;
+    static transform(position: Vector3, matrix: Matrix4x4): Vector4;
+    static transform(value: Vector3, rotation: Quaternion): Vector4;
+    static transform(vector: Vector4, matrix: Matrix4x4): Vector4;
+    static transform(value: Vector4, rotation: Quaternion): Vector4;
+    static truncate(vector: Vector4): Vector4;
+    static xor(left: Vector4, right: Vector4): Vector4;
 }
 
 
 export interface __Vector4$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Vector4>;
-    readonly As_IFormattable: System_Internal.IFormattable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Vector4>;
+    As_IFormattable(): System_Internal.IFormattable$instance;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Vector4): boolean;
@@ -1293,133 +1311,133 @@ export type Vector4 = Vector4$instance & __Vector4$views;
 
 
 export abstract class BitOperations$instance {
-    static Crc32C(crc: uint, data: byte): uint;
-    static Crc32C(crc: uint, data: ushort): uint;
-    static Crc32C(crc: uint, data: uint): uint;
-    static Crc32C(crc: uint, data: ulong): uint;
-    static IsPow2(value: int): boolean;
-    static IsPow2(value: long): boolean;
-    static IsPow2(value: nint): boolean;
-    static IsPow2(value: uint): boolean;
-    static IsPow2(value: ulong): boolean;
-    static IsPow2(value: nuint): boolean;
-    static LeadingZeroCount(value: uint): int;
-    static LeadingZeroCount(value: ulong): int;
-    static LeadingZeroCount(value: nuint): int;
-    static Log2(value: uint): int;
-    static Log2(value: ulong): int;
-    static Log2(value: nuint): int;
-    static PopCount(value: uint): int;
-    static PopCount(value: ulong): int;
-    static PopCount(value: nuint): int;
-    static RotateLeft(value: uint, offset: int): uint;
-    static RotateLeft(value: ulong, offset: int): ulong;
-    static RotateLeft(value: nuint, offset: int): nuint;
-    static RotateRight(value: uint, offset: int): uint;
-    static RotateRight(value: ulong, offset: int): ulong;
-    static RotateRight(value: nuint, offset: int): nuint;
-    static RoundUpToPowerOf2(value: uint): uint;
-    static RoundUpToPowerOf2(value: ulong): ulong;
-    static RoundUpToPowerOf2(value: nuint): nuint;
-    static TrailingZeroCount(value: int): int;
-    static TrailingZeroCount(value: long): int;
-    static TrailingZeroCount(value: nint): int;
-    static TrailingZeroCount(value: uint): int;
-    static TrailingZeroCount(value: ulong): int;
-    static TrailingZeroCount(value: nuint): int;
+    static crc32C(crc: uint, data: byte): uint;
+    static crc32C(crc: uint, data: ushort): uint;
+    static crc32C(crc: uint, data: uint): uint;
+    static crc32C(crc: uint, data: ulong): uint;
+    static isPow2(value: int): boolean;
+    static isPow2(value: long): boolean;
+    static isPow2(value: nint): boolean;
+    static isPow2(value: uint): boolean;
+    static isPow2(value: ulong): boolean;
+    static isPow2(value: nuint): boolean;
+    static leadingZeroCount(value: uint): int;
+    static leadingZeroCount(value: ulong): int;
+    static leadingZeroCount(value: nuint): int;
+    static log2(value: uint): int;
+    static log2(value: ulong): int;
+    static log2(value: nuint): int;
+    static popCount(value: uint): int;
+    static popCount(value: ulong): int;
+    static popCount(value: nuint): int;
+    static rotateLeft(value: uint, offset: int): uint;
+    static rotateLeft(value: ulong, offset: int): ulong;
+    static rotateLeft(value: nuint, offset: int): nuint;
+    static rotateRight(value: uint, offset: int): uint;
+    static rotateRight(value: ulong, offset: int): ulong;
+    static rotateRight(value: nuint, offset: int): nuint;
+    static roundUpToPowerOf2(value: uint): uint;
+    static roundUpToPowerOf2(value: ulong): ulong;
+    static roundUpToPowerOf2(value: nuint): nuint;
+    static trailingZeroCount(value: int): int;
+    static trailingZeroCount(value: long): int;
+    static trailingZeroCount(value: nint): int;
+    static trailingZeroCount(value: uint): int;
+    static trailingZeroCount(value: ulong): int;
+    static trailingZeroCount(value: nuint): int;
 }
 
 
 export type BitOperations = BitOperations$instance;
 
 export abstract class Vector$instance {
-    static readonly IsHardwareAccelerated: boolean;
-    static Abs<T>(value: Vector_1<T>): Vector_1<T>;
-    static Add<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static AddSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static All<T>(vector: Vector_1<T>, value: T): boolean;
-    static AllWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static AndNot<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Any<T>(vector: Vector_1<T>, value: T): boolean;
-    static AnyWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static As<TFrom, TTo>(vector: Vector_1<TFrom>): Vector_1<TTo>;
-    static AsPlane(value: Vector4): Plane;
-    static AsQuaternion(value: Vector4): Quaternion;
-    static AsVector2(value: Vector3): Vector2;
-    static AsVector2(value: Vector4): Vector2;
-    static AsVector3(value: Vector2): Vector3;
-    static AsVector3(value: Vector4): Vector3;
-    static AsVector3Unsafe(value: Vector2): Vector3;
-    static AsVector4(value: Plane): Vector4;
-    static AsVector4(value: Quaternion): Vector4;
-    static AsVector4(value: Vector2): Vector4;
-    static AsVector4(value: Vector3): Vector4;
-    static AsVector4Unsafe(value: Vector2): Vector4;
-    static AsVector4Unsafe(value: Vector3): Vector4;
-    static AsVectorByte<T>(value: Vector_1<T>): Vector_1<CLROf<byte>>;
-    static AsVectorDouble<T>(value: Vector_1<T>): Vector_1<CLROf<double>>;
-    static AsVectorInt16<T>(value: Vector_1<T>): Vector_1<CLROf<short>>;
-    static AsVectorInt32<T>(value: Vector_1<T>): Vector_1<CLROf<int>>;
-    static AsVectorInt64<T>(value: Vector_1<T>): Vector_1<CLROf<long>>;
-    static AsVectorNInt<T>(value: Vector_1<T>): Vector_1<CLROf<nint>>;
-    static AsVectorNUInt<T>(value: Vector_1<T>): Vector_1<CLROf<nuint>>;
-    static AsVectorSByte<T>(value: Vector_1<T>): Vector_1<CLROf<sbyte>>;
-    static AsVectorSingle<T>(value: Vector_1<T>): Vector_1<CLROf<float>>;
-    static AsVectorUInt16<T>(value: Vector_1<T>): Vector_1<CLROf<ushort>>;
-    static AsVectorUInt32<T>(value: Vector_1<T>): Vector_1<CLROf<uint>>;
-    static AsVectorUInt64<T>(value: Vector_1<T>): Vector_1<CLROf<ulong>>;
-    static BitwiseAnd<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static BitwiseOr<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Ceiling(value: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Ceiling(value: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Clamp<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
-    static ClampNative<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
-    static ConditionalSelect(condition: Vector_1<CLROf<int>>, left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static ConditionalSelect(condition: Vector_1<CLROf<long>>, left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static ConditionalSelect<T>(condition: Vector_1<T>, left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static ConvertToDouble(value: Vector_1<CLROf<long>>): Vector_1<CLROf<double>>;
-    static ConvertToDouble(value: Vector_1<CLROf<ulong>>): Vector_1<CLROf<double>>;
-    static ConvertToInt32(value: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static ConvertToInt32Native(value: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static ConvertToInt64(value: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static ConvertToInt64Native(value: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static ConvertToSingle(value: Vector_1<CLROf<int>>): Vector_1<CLROf<float>>;
-    static ConvertToSingle(value: Vector_1<CLROf<uint>>): Vector_1<CLROf<float>>;
-    static ConvertToUInt32(value: Vector_1<CLROf<float>>): Vector_1<CLROf<uint>>;
-    static ConvertToUInt32Native(value: Vector_1<CLROf<float>>): Vector_1<CLROf<uint>>;
-    static ConvertToUInt64(value: Vector_1<CLROf<double>>): Vector_1<CLROf<ulong>>;
-    static ConvertToUInt64Native(value: Vector_1<CLROf<double>>): Vector_1<CLROf<ulong>>;
-    static CopySign<T>(value: Vector_1<T>, sign: Vector_1<T>): Vector_1<T>;
-    static Cos(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Cos(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Count<T>(vector: Vector_1<T>, value: T): int;
-    static CountWhereAllBitsSet<T>(vector: Vector_1<T>): int;
-    static Create<T>(values: ReadOnlySpan_1<T>): Vector_1<T>;
-    static Create<T>(value: T): Vector_1<T>;
-    static CreateScalar<T>(value: T): Vector_1<T>;
-    static CreateScalarUnsafe<T>(value: T): Vector_1<T>;
-    static CreateSequence<T>(start: T, step: T): Vector_1<T>;
-    static DegreesToRadians(degrees: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static DegreesToRadians(degrees: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Divide<T>(left: Vector_1<T>, right: T): Vector_1<T>;
-    static Divide<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Dot<T>(left: Vector_1<T>, right: Vector_1<T>): T;
-    static Equals(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static Equals(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
-    static Equals(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
-    static Equals(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static Equals<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static EqualsAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static EqualsAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static Exp(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Exp(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static ExtractMostSignificantBits(vector: Vector2): uint;
-    static ExtractMostSignificantBits(vector: Vector3): uint;
-    static ExtractMostSignificantBits(vector: Vector4): uint;
-    static Floor(value: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Floor(value: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static FusedMultiplyAdd(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>, addend: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static FusedMultiplyAdd(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>, addend: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static readonly isHardwareAccelerated: boolean;
+    static abs<T>(value: Vector_1<T>): Vector_1<T>;
+    static add<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static addSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static all<T>(vector: Vector_1<T>, value: T): boolean;
+    static allWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
+    static andNot<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static any_<T>(vector: Vector_1<T>, value: T): boolean;
+    static anyWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
+    static as_<TFrom, TTo>(vector: Vector_1<TFrom>): Vector_1<TTo>;
+    static asPlane(value: Vector4): Plane;
+    static asQuaternion(value: Vector4): Quaternion;
+    static asVector2(value: Vector3): Vector2;
+    static asVector2(value: Vector4): Vector2;
+    static asVector3(value: Vector2): Vector3;
+    static asVector3(value: Vector4): Vector3;
+    static asVector3Unsafe(value: Vector2): Vector3;
+    static asVector4(value: Plane): Vector4;
+    static asVector4(value: Quaternion): Vector4;
+    static asVector4(value: Vector2): Vector4;
+    static asVector4(value: Vector3): Vector4;
+    static asVector4Unsafe(value: Vector2): Vector4;
+    static asVector4Unsafe(value: Vector3): Vector4;
+    static asVectorByte<T>(value: Vector_1<T>): Vector_1<CLROf<byte>>;
+    static asVectorDouble<T>(value: Vector_1<T>): Vector_1<CLROf<double>>;
+    static asVectorInt16<T>(value: Vector_1<T>): Vector_1<CLROf<short>>;
+    static asVectorInt32<T>(value: Vector_1<T>): Vector_1<CLROf<int>>;
+    static asVectorInt64<T>(value: Vector_1<T>): Vector_1<CLROf<long>>;
+    static asVectorNInt<T>(value: Vector_1<T>): Vector_1<CLROf<nint>>;
+    static asVectorNUInt<T>(value: Vector_1<T>): Vector_1<CLROf<nuint>>;
+    static asVectorSByte<T>(value: Vector_1<T>): Vector_1<CLROf<sbyte>>;
+    static asVectorSingle<T>(value: Vector_1<T>): Vector_1<CLROf<float>>;
+    static asVectorUInt16<T>(value: Vector_1<T>): Vector_1<CLROf<ushort>>;
+    static asVectorUInt32<T>(value: Vector_1<T>): Vector_1<CLROf<uint>>;
+    static asVectorUInt64<T>(value: Vector_1<T>): Vector_1<CLROf<ulong>>;
+    static bitwiseAnd<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static bitwiseOr<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static ceiling(value: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static ceiling(value: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static clamp<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
+    static clampNative<T>(value: Vector_1<T>, min: Vector_1<T>, max: Vector_1<T>): Vector_1<T>;
+    static conditionalSelect2(condition: Vector_1<CLROf<int>>, left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static conditionalSelect2(condition: Vector_1<CLROf<long>>, left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static conditionalSelect2<T>(condition: Vector_1<T>, left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static convertToDouble(value: Vector_1<CLROf<long>>): Vector_1<CLROf<double>>;
+    static convertToDouble(value: Vector_1<CLROf<ulong>>): Vector_1<CLROf<double>>;
+    static convertToInt32(value: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static convertToInt32Native(value: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static convertToInt64(value: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static convertToInt64Native(value: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static convertToSingle(value: Vector_1<CLROf<int>>): Vector_1<CLROf<float>>;
+    static convertToSingle(value: Vector_1<CLROf<uint>>): Vector_1<CLROf<float>>;
+    static convertToUInt32(value: Vector_1<CLROf<float>>): Vector_1<CLROf<uint>>;
+    static convertToUInt32Native(value: Vector_1<CLROf<float>>): Vector_1<CLROf<uint>>;
+    static convertToUInt64(value: Vector_1<CLROf<double>>): Vector_1<CLROf<ulong>>;
+    static convertToUInt64Native(value: Vector_1<CLROf<double>>): Vector_1<CLROf<ulong>>;
+    static copySign<T>(value: Vector_1<T>, sign: Vector_1<T>): Vector_1<T>;
+    static cos(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static cos(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static count<T>(vector: Vector_1<T>, value: T): int;
+    static countWhereAllBitsSet<T>(vector: Vector_1<T>): int;
+    static create2<T>(values: ReadOnlySpan_1<T>): Vector_1<T>;
+    static create2<T>(value: T): Vector_1<T>;
+    static createScalar<T>(value: T): Vector_1<T>;
+    static createScalarUnsafe<T>(value: T): Vector_1<T>;
+    static createSequence<T>(start: T, step: T): Vector_1<T>;
+    static degreesToRadians(degrees: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static degreesToRadians(degrees: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static divide2<T>(left: Vector_1<T>, right: T): Vector_1<T>;
+    static divide2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static dot<T>(left: Vector_1<T>, right: Vector_1<T>): T;
+    static equals2(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static equals2(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
+    static equals2(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
+    static equals2(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static equals2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static equalsAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static equalsAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static exp(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static exp(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static extractMostSignificantBits(vector: Vector2): uint;
+    static extractMostSignificantBits(vector: Vector3): uint;
+    static extractMostSignificantBits(vector: Vector4): uint;
+    static floor(value: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static floor(value: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static fusedMultiplyAdd(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>, addend: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static fusedMultiplyAdd(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>, addend: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
     static get_E<T extends IFloatingPointConstants_1<T>>(): Vector_1<T>;
     static get_Epsilon<T extends IFloatingPointIeee754_1<T>>(): Vector_1<T>;
     static get_NaN<T extends IFloatingPointIeee754_1<T>>(): Vector_1<T>;
@@ -1429,192 +1447,192 @@ export abstract class Vector$instance {
     static get_Pi<T extends IFloatingPointConstants_1<T>>(): Vector_1<T>;
     static get_PositiveInfinity<T extends IFloatingPointIeee754_1<T>>(): Vector_1<T>;
     static get_Tau<T extends IFloatingPointConstants_1<T>>(): Vector_1<T>;
-    static GetElement(vector: Vector2, index: int): float;
-    static GetElement(vector: Vector3, index: int): float;
-    static GetElement(vector: Vector4, index: int): float;
-    static GetElement<T>(vector: Vector_1<T>, index: int): T;
-    static GreaterThan(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static GreaterThan(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
-    static GreaterThan(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
-    static GreaterThan(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static GreaterThan<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static GreaterThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static GreaterThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static GreaterThanOrEqual(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static GreaterThanOrEqual(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
-    static GreaterThanOrEqual(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
-    static GreaterThanOrEqual(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static GreaterThanOrEqual<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static GreaterThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static GreaterThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static Hypot(x: Vector_1<CLROf<double>>, y: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Hypot(x: Vector_1<CLROf<float>>, y: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static IndexOf<T>(vector: Vector_1<T>, value: T): int;
-    static IndexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
-    static IsEvenInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsFinite<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNaN<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNegative<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNegativeInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsNormal<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsOddInteger<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsPositive<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsPositiveInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsSubnormal<T>(vector: Vector_1<T>): Vector_1<T>;
-    static IsZero<T>(vector: Vector_1<T>): Vector_1<T>;
-    static LastIndexOf<T>(vector: Vector_1<T>, value: T): int;
-    static LastIndexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
-    static Lerp(x: Vector_1<CLROf<double>>, y: Vector_1<CLROf<double>>, amount: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Lerp(x: Vector_1<CLROf<float>>, y: Vector_1<CLROf<float>>, amount: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static LessThan(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static LessThan(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
-    static LessThan(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
-    static LessThan(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static LessThan<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static LessThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static LessThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static LessThanOrEqual(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
-    static LessThanOrEqual(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
-    static LessThanOrEqual(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
-    static LessThanOrEqual(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
-    static LessThanOrEqual<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static LessThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static LessThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
-    static Load<T>(source: ptr<T>): Vector_1<T>;
-    static LoadAligned<T>(source: ptr<T>): Vector_1<T>;
-    static LoadAlignedNonTemporal<T>(source: ptr<T>): Vector_1<T>;
-    static LoadUnsafe<T>(source: { value: ref<T> }, elementOffset: nuint): Vector_1<T>;
-    static LoadUnsafe<T>(source: { value: ref<T> }): Vector_1<T>;
-    static Log(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Log(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Log2(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Log2(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Max<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MaxNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Min<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MinNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Multiply<T>(left: T, right: Vector_1<T>): Vector_1<T>;
-    static Multiply<T>(left: Vector_1<T>, right: T): Vector_1<T>;
-    static Multiply<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static MultiplyAddEstimate(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>, addend: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static MultiplyAddEstimate(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>, addend: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Narrow(low: Vector_1<CLROf<double>>, high: Vector_1<CLROf<double>>): Vector_1<CLROf<float>>;
-    static Narrow(low: Vector_1<CLROf<short>>, high: Vector_1<CLROf<short>>): Vector_1<CLROf<sbyte>>;
-    static Narrow(low: Vector_1<CLROf<int>>, high: Vector_1<CLROf<int>>): Vector_1<CLROf<short>>;
-    static Narrow(low: Vector_1<CLROf<long>>, high: Vector_1<CLROf<long>>): Vector_1<CLROf<int>>;
-    static Narrow(low: Vector_1<CLROf<ushort>>, high: Vector_1<CLROf<ushort>>): Vector_1<CLROf<byte>>;
-    static Narrow(low: Vector_1<CLROf<uint>>, high: Vector_1<CLROf<uint>>): Vector_1<CLROf<ushort>>;
-    static Narrow(low: Vector_1<CLROf<ulong>>, high: Vector_1<CLROf<ulong>>): Vector_1<CLROf<uint>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<double>>, high: Vector_1<CLROf<double>>): Vector_1<CLROf<float>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<short>>, high: Vector_1<CLROf<short>>): Vector_1<CLROf<sbyte>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<int>>, high: Vector_1<CLROf<int>>): Vector_1<CLROf<short>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<long>>, high: Vector_1<CLROf<long>>): Vector_1<CLROf<int>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<ushort>>, high: Vector_1<CLROf<ushort>>): Vector_1<CLROf<byte>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<uint>>, high: Vector_1<CLROf<uint>>): Vector_1<CLROf<ushort>>;
-    static NarrowWithSaturation(low: Vector_1<CLROf<ulong>>, high: Vector_1<CLROf<ulong>>): Vector_1<CLROf<uint>>;
-    static Negate<T>(value: Vector_1<T>): Vector_1<T>;
-    static None<T>(vector: Vector_1<T>, value: T): boolean;
-    static NoneWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static OnesComplement<T>(value: Vector_1<T>): Vector_1<T>;
-    static RadiansToDegrees(radians: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static RadiansToDegrees(radians: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Round(vector: Vector_1<CLROf<double>>, mode: MidpointRounding): Vector_1<CLROf<double>>;
-    static Round(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Round(vector: Vector_1<CLROf<float>>, mode: MidpointRounding): Vector_1<CLROf<float>>;
-    static Round(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static ShiftLeft(value: Vector_1<CLROf<byte>>, shiftCount: int): Vector_1<CLROf<byte>>;
-    static ShiftLeft(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
-    static ShiftLeft(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
-    static ShiftLeft(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
-    static ShiftLeft(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
-    static ShiftLeft(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
-    static ShiftLeft(value: Vector_1<CLROf<ushort>>, shiftCount: int): Vector_1<CLROf<ushort>>;
-    static ShiftLeft(value: Vector_1<CLROf<uint>>, shiftCount: int): Vector_1<CLROf<uint>>;
-    static ShiftLeft(value: Vector_1<CLROf<ulong>>, shiftCount: int): Vector_1<CLROf<ulong>>;
-    static ShiftLeft(value: Vector_1<CLROf<nuint>>, shiftCount: int): Vector_1<CLROf<nuint>>;
-    static ShiftRightArithmetic(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
-    static ShiftRightArithmetic(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
-    static ShiftRightArithmetic(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
-    static ShiftRightArithmetic(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
-    static ShiftRightArithmetic(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<byte>>, shiftCount: int): Vector_1<CLROf<byte>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<ushort>>, shiftCount: int): Vector_1<CLROf<ushort>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<uint>>, shiftCount: int): Vector_1<CLROf<uint>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<ulong>>, shiftCount: int): Vector_1<CLROf<ulong>>;
-    static ShiftRightLogical(value: Vector_1<CLROf<nuint>>, shiftCount: int): Vector_1<CLROf<nuint>>;
-    static Sin(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Sin(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static SinCos(vector: Vector_1<CLROf<double>>): ValueTuple_2<Vector_1<CLROf<double>>, Vector_1<CLROf<double>>>;
-    static SinCos(vector: Vector_1<CLROf<float>>): ValueTuple_2<Vector_1<CLROf<float>>, Vector_1<CLROf<float>>>;
-    static SquareRoot<T>(value: Vector_1<T>): Vector_1<T>;
-    static Store(source: Vector2, destination: ptr<float>): void;
-    static Store(source: Vector3, destination: ptr<float>): void;
-    static Store(source: Vector4, destination: ptr<float>): void;
-    static Store<T>(source: Vector_1<T>, destination: ptr<T>): void;
-    static StoreAligned(source: Vector2, destination: ptr<float>): void;
-    static StoreAligned(source: Vector3, destination: ptr<float>): void;
-    static StoreAligned(source: Vector4, destination: ptr<float>): void;
-    static StoreAligned<T>(source: Vector_1<T>, destination: ptr<T>): void;
-    static StoreAlignedNonTemporal(source: Vector2, destination: ptr<float>): void;
-    static StoreAlignedNonTemporal(source: Vector3, destination: ptr<float>): void;
-    static StoreAlignedNonTemporal(source: Vector4, destination: ptr<float>): void;
-    static StoreAlignedNonTemporal<T>(source: Vector_1<T>, destination: ptr<T>): void;
-    static StoreUnsafe(source: Vector2, destination: { value: ref<float> }, elementOffset: nuint): void;
-    static StoreUnsafe(source: Vector2, destination: { value: ref<float> }): void;
-    static StoreUnsafe(source: Vector3, destination: { value: ref<float> }, elementOffset: nuint): void;
-    static StoreUnsafe(source: Vector3, destination: { value: ref<float> }): void;
-    static StoreUnsafe(source: Vector4, destination: { value: ref<float> }, elementOffset: nuint): void;
-    static StoreUnsafe(source: Vector4, destination: { value: ref<float> }): void;
-    static StoreUnsafe<T>(source: Vector_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
-    static StoreUnsafe<T>(source: Vector_1<T>, destination: { value: ref<T> }): void;
-    static Subtract<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static SubtractSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static Sum<T>(value: Vector_1<T>): T;
-    static ToScalar(vector: Vector2): float;
-    static ToScalar(vector: Vector3): float;
-    static ToScalar(vector: Vector4): float;
-    static ToScalar<T>(vector: Vector_1<T>): T;
-    static Truncate(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
-    static Truncate(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
-    static Widen(source: Vector_1<CLROf<byte>>, low: { value: ref<Vector_1<CLROf<ushort>>> }, high: { value: ref<Vector_1<CLROf<ushort>>> }): void;
-    static Widen(source: Vector_1<CLROf<short>>, low: { value: ref<Vector_1<CLROf<int>>> }, high: { value: ref<Vector_1<CLROf<int>>> }): void;
-    static Widen(source: Vector_1<CLROf<int>>, low: { value: ref<Vector_1<CLROf<long>>> }, high: { value: ref<Vector_1<CLROf<long>>> }): void;
-    static Widen(source: Vector_1<CLROf<sbyte>>, low: { value: ref<Vector_1<CLROf<short>>> }, high: { value: ref<Vector_1<CLROf<short>>> }): void;
-    static Widen(source: Vector_1<CLROf<float>>, low: { value: ref<Vector_1<CLROf<double>>> }, high: { value: ref<Vector_1<CLROf<double>>> }): void;
-    static Widen(source: Vector_1<CLROf<ushort>>, low: { value: ref<Vector_1<CLROf<uint>>> }, high: { value: ref<Vector_1<CLROf<uint>>> }): void;
-    static Widen(source: Vector_1<CLROf<uint>>, low: { value: ref<Vector_1<CLROf<ulong>>> }, high: { value: ref<Vector_1<CLROf<ulong>>> }): void;
-    static WidenLower(source: Vector_1<CLROf<byte>>): Vector_1<CLROf<ushort>>;
-    static WidenLower(source: Vector_1<CLROf<short>>): Vector_1<CLROf<int>>;
-    static WidenLower(source: Vector_1<CLROf<int>>): Vector_1<CLROf<long>>;
-    static WidenLower(source: Vector_1<CLROf<sbyte>>): Vector_1<CLROf<short>>;
-    static WidenLower(source: Vector_1<CLROf<float>>): Vector_1<CLROf<double>>;
-    static WidenLower(source: Vector_1<CLROf<ushort>>): Vector_1<CLROf<uint>>;
-    static WidenLower(source: Vector_1<CLROf<uint>>): Vector_1<CLROf<ulong>>;
-    static WidenUpper(source: Vector_1<CLROf<byte>>): Vector_1<CLROf<ushort>>;
-    static WidenUpper(source: Vector_1<CLROf<short>>): Vector_1<CLROf<int>>;
-    static WidenUpper(source: Vector_1<CLROf<int>>): Vector_1<CLROf<long>>;
-    static WidenUpper(source: Vector_1<CLROf<sbyte>>): Vector_1<CLROf<short>>;
-    static WidenUpper(source: Vector_1<CLROf<float>>): Vector_1<CLROf<double>>;
-    static WidenUpper(source: Vector_1<CLROf<ushort>>): Vector_1<CLROf<uint>>;
-    static WidenUpper(source: Vector_1<CLROf<uint>>): Vector_1<CLROf<ulong>>;
-    static WithElement(vector: Vector2, index: int, value: float): Vector2;
-    static WithElement(vector: Vector3, index: int, value: float): Vector3;
-    static WithElement(vector: Vector4, index: int, value: float): Vector4;
-    static WithElement<T>(vector: Vector_1<T>, index: int, value: T): Vector_1<T>;
-    static Xor<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static getElement2(vector: Vector2, index: int): float;
+    static getElement2(vector: Vector3, index: int): float;
+    static getElement2(vector: Vector4, index: int): float;
+    static getElement2<T>(vector: Vector_1<T>, index: int): T;
+    static greaterThan2(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static greaterThan2(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
+    static greaterThan2(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
+    static greaterThan2(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static greaterThan2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static greaterThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static greaterThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static greaterThanOrEqual2(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static greaterThanOrEqual2(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
+    static greaterThanOrEqual2(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
+    static greaterThanOrEqual2(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static greaterThanOrEqual2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static greaterThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static greaterThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static hypot(x: Vector_1<CLROf<double>>, y: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static hypot(x: Vector_1<CLROf<float>>, y: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static indexOf<T>(vector: Vector_1<T>, value: T): int;
+    static indexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
+    static isEvenInteger<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isFinite<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isInteger<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isNaN<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isNegative<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isNegativeInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isNormal<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isOddInteger<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isPositive<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isPositiveInfinity<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isSubnormal<T>(vector: Vector_1<T>): Vector_1<T>;
+    static isZero<T>(vector: Vector_1<T>): Vector_1<T>;
+    static lastIndexOf<T>(vector: Vector_1<T>, value: T): int;
+    static lastIndexOfWhereAllBitsSet<T>(vector: Vector_1<T>): int;
+    static lerp(x: Vector_1<CLROf<double>>, y: Vector_1<CLROf<double>>, amount: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static lerp(x: Vector_1<CLROf<float>>, y: Vector_1<CLROf<float>>, amount: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static lessThan2(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static lessThan2(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
+    static lessThan2(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
+    static lessThan2(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static lessThan2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static lessThanAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static lessThanAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static lessThanOrEqual2(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>): Vector_1<CLROf<long>>;
+    static lessThanOrEqual2(left: Vector_1<CLROf<int>>, right: Vector_1<CLROf<int>>): Vector_1<CLROf<int>>;
+    static lessThanOrEqual2(left: Vector_1<CLROf<long>>, right: Vector_1<CLROf<long>>): Vector_1<CLROf<long>>;
+    static lessThanOrEqual2(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>): Vector_1<CLROf<int>>;
+    static lessThanOrEqual2<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static lessThanOrEqualAll<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static lessThanOrEqualAny<T>(left: Vector_1<T>, right: Vector_1<T>): boolean;
+    static load<T>(source: ptr<T>): Vector_1<T>;
+    static loadAligned<T>(source: ptr<T>): Vector_1<T>;
+    static loadAlignedNonTemporal<T>(source: ptr<T>): Vector_1<T>;
+    static loadUnsafe2<T>(source: { value: ref<T> }, elementOffset: nuint): Vector_1<T>;
+    static loadUnsafe2<T>(source: { value: ref<T> }): Vector_1<T>;
+    static log(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static log(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static log22(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static log22(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static max<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static maxMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static maxMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static maxNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static maxNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static min<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static minMagnitude<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static minMagnitudeNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static minNative<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static minNumber<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static multiply3<T>(left: T, right: Vector_1<T>): Vector_1<T>;
+    static multiply3<T>(left: Vector_1<T>, right: T): Vector_1<T>;
+    static multiply3<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static multiplyAddEstimate(left: Vector_1<CLROf<double>>, right: Vector_1<CLROf<double>>, addend: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static multiplyAddEstimate(left: Vector_1<CLROf<float>>, right: Vector_1<CLROf<float>>, addend: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static narrow(low: Vector_1<CLROf<double>>, high: Vector_1<CLROf<double>>): Vector_1<CLROf<float>>;
+    static narrow(low: Vector_1<CLROf<short>>, high: Vector_1<CLROf<short>>): Vector_1<CLROf<sbyte>>;
+    static narrow(low: Vector_1<CLROf<int>>, high: Vector_1<CLROf<int>>): Vector_1<CLROf<short>>;
+    static narrow(low: Vector_1<CLROf<long>>, high: Vector_1<CLROf<long>>): Vector_1<CLROf<int>>;
+    static narrow(low: Vector_1<CLROf<ushort>>, high: Vector_1<CLROf<ushort>>): Vector_1<CLROf<byte>>;
+    static narrow(low: Vector_1<CLROf<uint>>, high: Vector_1<CLROf<uint>>): Vector_1<CLROf<ushort>>;
+    static narrow(low: Vector_1<CLROf<ulong>>, high: Vector_1<CLROf<ulong>>): Vector_1<CLROf<uint>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<double>>, high: Vector_1<CLROf<double>>): Vector_1<CLROf<float>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<short>>, high: Vector_1<CLROf<short>>): Vector_1<CLROf<sbyte>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<int>>, high: Vector_1<CLROf<int>>): Vector_1<CLROf<short>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<long>>, high: Vector_1<CLROf<long>>): Vector_1<CLROf<int>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<ushort>>, high: Vector_1<CLROf<ushort>>): Vector_1<CLROf<byte>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<uint>>, high: Vector_1<CLROf<uint>>): Vector_1<CLROf<ushort>>;
+    static narrowWithSaturation(low: Vector_1<CLROf<ulong>>, high: Vector_1<CLROf<ulong>>): Vector_1<CLROf<uint>>;
+    static negate<T>(value: Vector_1<T>): Vector_1<T>;
+    static none<T>(vector: Vector_1<T>, value: T): boolean;
+    static noneWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
+    static onesComplement<T>(value: Vector_1<T>): Vector_1<T>;
+    static radiansToDegrees(radians: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static radiansToDegrees(radians: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static round3(vector: Vector_1<CLROf<double>>, mode: MidpointRounding): Vector_1<CLROf<double>>;
+    static round3(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static round3(vector: Vector_1<CLROf<float>>, mode: MidpointRounding): Vector_1<CLROf<float>>;
+    static round3(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static shiftLeft(value: Vector_1<CLROf<byte>>, shiftCount: int): Vector_1<CLROf<byte>>;
+    static shiftLeft(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
+    static shiftLeft(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
+    static shiftLeft(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
+    static shiftLeft(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
+    static shiftLeft(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
+    static shiftLeft(value: Vector_1<CLROf<ushort>>, shiftCount: int): Vector_1<CLROf<ushort>>;
+    static shiftLeft(value: Vector_1<CLROf<uint>>, shiftCount: int): Vector_1<CLROf<uint>>;
+    static shiftLeft(value: Vector_1<CLROf<ulong>>, shiftCount: int): Vector_1<CLROf<ulong>>;
+    static shiftLeft(value: Vector_1<CLROf<nuint>>, shiftCount: int): Vector_1<CLROf<nuint>>;
+    static shiftRightArithmetic(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
+    static shiftRightArithmetic(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
+    static shiftRightArithmetic(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
+    static shiftRightArithmetic(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
+    static shiftRightArithmetic(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
+    static shiftRightLogical(value: Vector_1<CLROf<byte>>, shiftCount: int): Vector_1<CLROf<byte>>;
+    static shiftRightLogical(value: Vector_1<CLROf<short>>, shiftCount: int): Vector_1<CLROf<short>>;
+    static shiftRightLogical(value: Vector_1<CLROf<int>>, shiftCount: int): Vector_1<CLROf<int>>;
+    static shiftRightLogical(value: Vector_1<CLROf<long>>, shiftCount: int): Vector_1<CLROf<long>>;
+    static shiftRightLogical(value: Vector_1<CLROf<nint>>, shiftCount: int): Vector_1<CLROf<nint>>;
+    static shiftRightLogical(value: Vector_1<CLROf<sbyte>>, shiftCount: int): Vector_1<CLROf<sbyte>>;
+    static shiftRightLogical(value: Vector_1<CLROf<ushort>>, shiftCount: int): Vector_1<CLROf<ushort>>;
+    static shiftRightLogical(value: Vector_1<CLROf<uint>>, shiftCount: int): Vector_1<CLROf<uint>>;
+    static shiftRightLogical(value: Vector_1<CLROf<ulong>>, shiftCount: int): Vector_1<CLROf<ulong>>;
+    static shiftRightLogical(value: Vector_1<CLROf<nuint>>, shiftCount: int): Vector_1<CLROf<nuint>>;
+    static sin(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static sin(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static sinCos(vector: Vector_1<CLROf<double>>): ValueTuple_2<Vector_1<CLROf<double>>, Vector_1<CLROf<double>>>;
+    static sinCos(vector: Vector_1<CLROf<float>>): ValueTuple_2<Vector_1<CLROf<float>>, Vector_1<CLROf<float>>>;
+    static squareRoot<T>(value: Vector_1<T>): Vector_1<T>;
+    static store2(source: Vector2, destination: ptr<float>): void;
+    static store2(source: Vector3, destination: ptr<float>): void;
+    static store2(source: Vector4, destination: ptr<float>): void;
+    static store2<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static storeAligned2(source: Vector2, destination: ptr<float>): void;
+    static storeAligned2(source: Vector3, destination: ptr<float>): void;
+    static storeAligned2(source: Vector4, destination: ptr<float>): void;
+    static storeAligned2<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static storeAlignedNonTemporal2(source: Vector2, destination: ptr<float>): void;
+    static storeAlignedNonTemporal2(source: Vector3, destination: ptr<float>): void;
+    static storeAlignedNonTemporal2(source: Vector4, destination: ptr<float>): void;
+    static storeAlignedNonTemporal2<T>(source: Vector_1<T>, destination: ptr<T>): void;
+    static storeUnsafe4(source: Vector2, destination: { value: ref<float> }, elementOffset: nuint): void;
+    static storeUnsafe4(source: Vector2, destination: { value: ref<float> }): void;
+    static storeUnsafe4(source: Vector3, destination: { value: ref<float> }, elementOffset: nuint): void;
+    static storeUnsafe4(source: Vector3, destination: { value: ref<float> }): void;
+    static storeUnsafe4(source: Vector4, destination: { value: ref<float> }, elementOffset: nuint): void;
+    static storeUnsafe4(source: Vector4, destination: { value: ref<float> }): void;
+    static storeUnsafe4<T>(source: Vector_1<T>, destination: { value: ref<T> }, elementOffset: nuint): void;
+    static storeUnsafe4<T>(source: Vector_1<T>, destination: { value: ref<T> }): void;
+    static subtract<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static subtractSaturate<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
+    static sum<T>(value: Vector_1<T>): T;
+    static toScalar2(vector: Vector2): float;
+    static toScalar2(vector: Vector3): float;
+    static toScalar2(vector: Vector4): float;
+    static toScalar2<T>(vector: Vector_1<T>): T;
+    static truncate(vector: Vector_1<CLROf<double>>): Vector_1<CLROf<double>>;
+    static truncate(vector: Vector_1<CLROf<float>>): Vector_1<CLROf<float>>;
+    static widen(source: Vector_1<CLROf<byte>>, low: { value: ref<Vector_1<CLROf<ushort>>> }, high: { value: ref<Vector_1<CLROf<ushort>>> }): void;
+    static widen(source: Vector_1<CLROf<short>>, low: { value: ref<Vector_1<CLROf<int>>> }, high: { value: ref<Vector_1<CLROf<int>>> }): void;
+    static widen(source: Vector_1<CLROf<int>>, low: { value: ref<Vector_1<CLROf<long>>> }, high: { value: ref<Vector_1<CLROf<long>>> }): void;
+    static widen(source: Vector_1<CLROf<sbyte>>, low: { value: ref<Vector_1<CLROf<short>>> }, high: { value: ref<Vector_1<CLROf<short>>> }): void;
+    static widen(source: Vector_1<CLROf<float>>, low: { value: ref<Vector_1<CLROf<double>>> }, high: { value: ref<Vector_1<CLROf<double>>> }): void;
+    static widen(source: Vector_1<CLROf<ushort>>, low: { value: ref<Vector_1<CLROf<uint>>> }, high: { value: ref<Vector_1<CLROf<uint>>> }): void;
+    static widen(source: Vector_1<CLROf<uint>>, low: { value: ref<Vector_1<CLROf<ulong>>> }, high: { value: ref<Vector_1<CLROf<ulong>>> }): void;
+    static widenLower(source: Vector_1<CLROf<byte>>): Vector_1<CLROf<ushort>>;
+    static widenLower(source: Vector_1<CLROf<short>>): Vector_1<CLROf<int>>;
+    static widenLower(source: Vector_1<CLROf<int>>): Vector_1<CLROf<long>>;
+    static widenLower(source: Vector_1<CLROf<sbyte>>): Vector_1<CLROf<short>>;
+    static widenLower(source: Vector_1<CLROf<float>>): Vector_1<CLROf<double>>;
+    static widenLower(source: Vector_1<CLROf<ushort>>): Vector_1<CLROf<uint>>;
+    static widenLower(source: Vector_1<CLROf<uint>>): Vector_1<CLROf<ulong>>;
+    static widenUpper(source: Vector_1<CLROf<byte>>): Vector_1<CLROf<ushort>>;
+    static widenUpper(source: Vector_1<CLROf<short>>): Vector_1<CLROf<int>>;
+    static widenUpper(source: Vector_1<CLROf<int>>): Vector_1<CLROf<long>>;
+    static widenUpper(source: Vector_1<CLROf<sbyte>>): Vector_1<CLROf<short>>;
+    static widenUpper(source: Vector_1<CLROf<float>>): Vector_1<CLROf<double>>;
+    static widenUpper(source: Vector_1<CLROf<ushort>>): Vector_1<CLROf<uint>>;
+    static widenUpper(source: Vector_1<CLROf<uint>>): Vector_1<CLROf<ulong>>;
+    static withElement2(vector: Vector2, index: int, value: float): Vector2;
+    static withElement2(vector: Vector3, index: int, value: float): Vector3;
+    static withElement2(vector: Vector4, index: int, value: float): Vector4;
+    static withElement2<T>(vector: Vector_1<T>, index: int, value: T): Vector_1<T>;
+    static xor<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
 }
 
 

@@ -37,10 +37,10 @@ export type CLROf<T> =
 export class ExceptionDispatchInfo$instance {
     readonly sourceException: Exception;
     throw_(): void;
-    static Capture(source: Exception): ExceptionDispatchInfo;
-    static SetCurrentStackTrace(source: Exception): Exception;
-    static SetRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    static Throw(source: Exception): void;
+    static capture(source: Exception): ExceptionDispatchInfo;
+    static setCurrentStackTrace(source: Exception): Exception;
+    static setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
+    static throw_(source: Exception): void;
 }
 
 
@@ -62,8 +62,8 @@ export class HandleProcessCorruptedStateExceptionsAttribute$instance extends Sys
 export type HandleProcessCorruptedStateExceptionsAttribute = HandleProcessCorruptedStateExceptionsAttribute$instance;
 
 export abstract class ExceptionHandling$instance {
-    static RaiseAppDomainUnhandledExceptionEvent(exception: any): void;
-    static SetUnhandledExceptionHandler(handler: Func_2<Exception, CLROf<boolean>>): void;
+    static raiseAppDomainUnhandledExceptionEvent(exception: unknown): void;
+    static setUnhandledExceptionHandler(handler: Func_2<Exception, CLROf<boolean>>): void;
 }
 
 

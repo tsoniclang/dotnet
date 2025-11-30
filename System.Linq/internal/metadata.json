@@ -1082,23 +1082,6 @@
           "isStatic": false,
           "parameterCount": 1
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Linq.IOrderedQueryable\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 5
-        },
-        {
-          "interfaceClrName": "System.Linq.IOrderedQueryable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 4
-        },
-        {
-          "interfaceClrName": "System.Linq.IQueryable\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 5
-        }
       ]
     },
     {

@@ -60,9 +60,9 @@ export class XmlPreloadedResolver$instance extends System_Xml_Internal.XmlResolv
     add(uri: Uri, value: byte[], offset: int, count: int): void;
     add(uri: Uri, value: Stream): void;
     add(uri: Uri, value: string): void;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): any;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<any>;
-    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<any>;
+    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown;
+    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
+    getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
     remove(uri: Uri): void;
     resolveUri(baseUri: Uri, relativeUri: string): Uri;
     supportsType(absoluteUri: Uri, type_: Type): boolean;

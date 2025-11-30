@@ -8722,7 +8722,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

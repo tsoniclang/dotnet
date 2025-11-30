@@ -24,7 +24,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_NODATASystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_NODATA",
-          "tsEmitName": "advf_nodata",
+          "tsEmitName": "ADVF_NODATA",
           "metadataToken": 67109009,
           "normalizedSignature": "ADVF_NODATA|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -35,7 +35,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_PRIMEFIRSTSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_PRIMEFIRST",
-          "tsEmitName": "advf_primefirst",
+          "tsEmitName": "ADVF_PRIMEFIRST",
           "metadataToken": 67109010,
           "normalizedSignature": "ADVF_PRIMEFIRST|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -46,7 +46,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_ONLYONCESystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_ONLYONCE",
-          "tsEmitName": "advf_onlyonce",
+          "tsEmitName": "ADVF_ONLYONCE",
           "metadataToken": 67109011,
           "normalizedSignature": "ADVF_ONLYONCE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -57,7 +57,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVF_DATAONSTOPSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVF_DATAONSTOP",
-          "tsEmitName": "advf_dataonstop",
+          "tsEmitName": "ADVF_DATAONSTOP",
           "metadataToken": 67109012,
           "normalizedSignature": "ADVF_DATAONSTOP|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -68,7 +68,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_NOHANDLERSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_NOHANDLER",
-          "tsEmitName": "advfcache_nohandler",
+          "tsEmitName": "ADVFCACHE_NOHANDLER",
           "metadataToken": 67109013,
           "normalizedSignature": "ADVFCACHE_NOHANDLER|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_FORCEBUILTINSystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_FORCEBUILTIN",
-          "tsEmitName": "advfcache_forcebuiltin",
+          "tsEmitName": "ADVFCACHE_FORCEBUILTIN",
           "metadataToken": 67109014,
           "normalizedSignature": "ADVFCACHE_FORCEBUILTIN|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -90,7 +90,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.ADVF::ADVFCACHE_ONSAVESystem.Runtime.InteropServices.ComTypes.ADVF",
           "clrName": "ADVFCACHE_ONSAVE",
-          "tsEmitName": "advfcache_onsave",
+          "tsEmitName": "ADVFCACHE_ONSAVE",
           "metadataToken": 67109015,
           "normalizedSignature": "ADVFCACHE_ONSAVE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "isStatic": true,
@@ -815,7 +815,7 @@
           }
         },
         {
-          "tsName": "advf_nodata",
+          "tsName": "ADVF_NODATA",
           "isStatic": true,
           "tsSignatureId": "ADVF_NODATA|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -825,7 +825,7 @@
           }
         },
         {
-          "tsName": "advf_primefirst",
+          "tsName": "ADVF_PRIMEFIRST",
           "isStatic": true,
           "tsSignatureId": "ADVF_PRIMEFIRST|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -835,7 +835,7 @@
           }
         },
         {
-          "tsName": "advf_onlyonce",
+          "tsName": "ADVF_ONLYONCE",
           "isStatic": true,
           "tsSignatureId": "ADVF_ONLYONCE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -845,7 +845,7 @@
           }
         },
         {
-          "tsName": "advf_dataonstop",
+          "tsName": "ADVF_DATAONSTOP",
           "isStatic": true,
           "tsSignatureId": "ADVF_DATAONSTOP|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -855,7 +855,7 @@
           }
         },
         {
-          "tsName": "advfcache_nohandler",
+          "tsName": "ADVFCACHE_NOHANDLER",
           "isStatic": true,
           "tsSignatureId": "ADVFCACHE_NOHANDLER|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -865,7 +865,7 @@
           }
         },
         {
-          "tsName": "advfcache_forcebuiltin",
+          "tsName": "ADVFCACHE_FORCEBUILTIN",
           "isStatic": true,
           "tsSignatureId": "ADVFCACHE_FORCEBUILTIN|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -875,7 +875,7 @@
           }
         },
         {
-          "tsName": "advfcache_onsave",
+          "tsName": "ADVFCACHE_ONSAVE",
           "isStatic": true,
           "tsSignatureId": "ADVFCACHE_ONSAVE|System.Runtime.InteropServices.ComTypes.ADVF|static=true|const=true",
           "target": {
@@ -909,7 +909,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_CDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_CDECL",
-          "tsEmitName": "cc_cdecl",
+          "tsEmitName": "CC_CDECL",
           "metadataToken": 67114128,
           "normalizedSignature": "CC_CDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -920,7 +920,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MSCPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MSCPASCAL",
-          "tsEmitName": "cc_mscpascal",
+          "tsEmitName": "CC_MSCPASCAL",
           "metadataToken": 67114129,
           "normalizedSignature": "CC_MSCPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -931,7 +931,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_PASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_PASCAL",
-          "tsEmitName": "cc_pascal",
+          "tsEmitName": "CC_PASCAL",
           "metadataToken": 67114130,
           "normalizedSignature": "CC_PASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -942,7 +942,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MACPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MACPASCAL",
-          "tsEmitName": "cc_macpascal",
+          "tsEmitName": "CC_MACPASCAL",
           "metadataToken": 67114131,
           "normalizedSignature": "CC_MACPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -953,7 +953,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_STDCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_STDCALL",
-          "tsEmitName": "cc_stdcall",
+          "tsEmitName": "CC_STDCALL",
           "metadataToken": 67114132,
           "normalizedSignature": "CC_STDCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -964,7 +964,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_RESERVEDSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_RESERVED",
-          "tsEmitName": "cc_reserved",
+          "tsEmitName": "CC_RESERVED",
           "metadataToken": 67114133,
           "normalizedSignature": "CC_RESERVED|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -975,7 +975,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_SYSCALLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_SYSCALL",
-          "tsEmitName": "cc_syscall",
+          "tsEmitName": "CC_SYSCALL",
           "metadataToken": 67114134,
           "normalizedSignature": "CC_SYSCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -986,7 +986,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWCDECLSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWCDECL",
-          "tsEmitName": "cc_mpwcdecl",
+          "tsEmitName": "CC_MPWCDECL",
           "metadataToken": 67114135,
           "normalizedSignature": "CC_MPWCDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -997,7 +997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MPWPASCALSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MPWPASCAL",
-          "tsEmitName": "cc_mpwpascal",
+          "tsEmitName": "CC_MPWPASCAL",
           "metadataToken": 67114136,
           "normalizedSignature": "CC_MPWPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -1008,7 +1008,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.CALLCONV::CC_MAXSystem.Runtime.InteropServices.ComTypes.CALLCONV",
           "clrName": "CC_MAX",
-          "tsEmitName": "cc_max",
+          "tsEmitName": "CC_MAX",
           "metadataToken": 67114137,
           "normalizedSignature": "CC_MAX|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "isStatic": true,
@@ -1733,7 +1733,7 @@
           }
         },
         {
-          "tsName": "cc_cdecl",
+          "tsName": "CC_CDECL",
           "isStatic": true,
           "tsSignatureId": "CC_CDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1743,7 +1743,7 @@
           }
         },
         {
-          "tsName": "cc_mscpascal",
+          "tsName": "CC_MSCPASCAL",
           "isStatic": true,
           "tsSignatureId": "CC_MSCPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1753,7 +1753,7 @@
           }
         },
         {
-          "tsName": "cc_pascal",
+          "tsName": "CC_PASCAL",
           "isStatic": true,
           "tsSignatureId": "CC_PASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1763,7 +1763,7 @@
           }
         },
         {
-          "tsName": "cc_macpascal",
+          "tsName": "CC_MACPASCAL",
           "isStatic": true,
           "tsSignatureId": "CC_MACPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1773,7 +1773,7 @@
           }
         },
         {
-          "tsName": "cc_stdcall",
+          "tsName": "CC_STDCALL",
           "isStatic": true,
           "tsSignatureId": "CC_STDCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1783,7 +1783,7 @@
           }
         },
         {
-          "tsName": "cc_reserved",
+          "tsName": "CC_RESERVED",
           "isStatic": true,
           "tsSignatureId": "CC_RESERVED|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1793,7 +1793,7 @@
           }
         },
         {
-          "tsName": "cc_syscall",
+          "tsName": "CC_SYSCALL",
           "isStatic": true,
           "tsSignatureId": "CC_SYSCALL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1803,7 +1803,7 @@
           }
         },
         {
-          "tsName": "cc_mpwcdecl",
+          "tsName": "CC_MPWCDECL",
           "isStatic": true,
           "tsSignatureId": "CC_MPWCDECL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1813,7 +1813,7 @@
           }
         },
         {
-          "tsName": "cc_mpwpascal",
+          "tsName": "CC_MPWPASCAL",
           "isStatic": true,
           "tsSignatureId": "CC_MPWPASCAL|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1823,7 +1823,7 @@
           }
         },
         {
-          "tsName": "cc_max",
+          "tsName": "CC_MAX",
           "isStatic": true,
           "tsSignatureId": "CC_MAX|System.Runtime.InteropServices.ComTypes.CALLCONV|static=true|const=true",
           "target": {
@@ -1857,7 +1857,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DATADIR::DATADIR_GETSystem.Runtime.InteropServices.ComTypes.DATADIR",
           "clrName": "DATADIR_GET",
-          "tsEmitName": "datadir_get",
+          "tsEmitName": "DATADIR_GET",
           "metadataToken": 67109017,
           "normalizedSignature": "DATADIR_GET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "isStatic": true,
@@ -1868,7 +1868,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DATADIR::DATADIR_SETSystem.Runtime.InteropServices.ComTypes.DATADIR",
           "clrName": "DATADIR_SET",
-          "tsEmitName": "datadir_set",
+          "tsEmitName": "DATADIR_SET",
           "metadataToken": 67109018,
           "normalizedSignature": "DATADIR_SET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "isStatic": true,
@@ -2593,7 +2593,7 @@
           }
         },
         {
-          "tsName": "datadir_get",
+          "tsName": "DATADIR_GET",
           "isStatic": true,
           "tsSignatureId": "DATADIR_GET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "target": {
@@ -2603,7 +2603,7 @@
           }
         },
         {
-          "tsName": "datadir_set",
+          "tsName": "DATADIR_SET",
           "isStatic": true,
           "tsSignatureId": "DATADIR_SET|System.Runtime.InteropServices.ComTypes.DATADIR|static=true|const=true",
           "target": {
@@ -2637,7 +2637,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_NONESystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_NONE",
-          "tsEmitName": "desckind_none",
+          "tsEmitName": "DESCKIND_NONE",
           "metadataToken": 67113994,
           "normalizedSignature": "DESCKIND_NONE|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -2648,7 +2648,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_FUNCDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_FUNCDESC",
-          "tsEmitName": "desckind_funcdesc",
+          "tsEmitName": "DESCKIND_FUNCDESC",
           "metadataToken": 67113995,
           "normalizedSignature": "DESCKIND_FUNCDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -2659,7 +2659,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_VARDESCSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_VARDESC",
-          "tsEmitName": "desckind_vardesc",
+          "tsEmitName": "DESCKIND_VARDESC",
           "metadataToken": 67113996,
           "normalizedSignature": "DESCKIND_VARDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -2670,7 +2670,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_TYPECOMPSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_TYPECOMP",
-          "tsEmitName": "desckind_typecomp",
+          "tsEmitName": "DESCKIND_TYPECOMP",
           "metadataToken": 67113997,
           "normalizedSignature": "DESCKIND_TYPECOMP|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -2681,7 +2681,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_IMPLICITAPPOBJSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_IMPLICITAPPOBJ",
-          "tsEmitName": "desckind_implicitappobj",
+          "tsEmitName": "DESCKIND_IMPLICITAPPOBJ",
           "metadataToken": 67113998,
           "normalizedSignature": "DESCKIND_IMPLICITAPPOBJ|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -2692,7 +2692,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.DESCKIND::DESCKIND_MAXSystem.Runtime.InteropServices.ComTypes.DESCKIND",
           "clrName": "DESCKIND_MAX",
-          "tsEmitName": "desckind_max",
+          "tsEmitName": "DESCKIND_MAX",
           "metadataToken": 67113999,
           "normalizedSignature": "DESCKIND_MAX|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "isStatic": true,
@@ -3417,7 +3417,7 @@
           }
         },
         {
-          "tsName": "desckind_none",
+          "tsName": "DESCKIND_NONE",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_NONE|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3427,7 +3427,7 @@
           }
         },
         {
-          "tsName": "desckind_funcdesc",
+          "tsName": "DESCKIND_FUNCDESC",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_FUNCDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3437,7 +3437,7 @@
           }
         },
         {
-          "tsName": "desckind_vardesc",
+          "tsName": "DESCKIND_VARDESC",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_VARDESC|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3447,7 +3447,7 @@
           }
         },
         {
-          "tsName": "desckind_typecomp",
+          "tsName": "DESCKIND_TYPECOMP",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_TYPECOMP|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3457,7 +3457,7 @@
           }
         },
         {
-          "tsName": "desckind_implicitappobj",
+          "tsName": "DESCKIND_IMPLICITAPPOBJ",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_IMPLICITAPPOBJ|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3467,7 +3467,7 @@
           }
         },
         {
-          "tsName": "desckind_max",
+          "tsName": "DESCKIND_MAX",
           "isStatic": true,
           "tsSignatureId": "DESCKIND_MAX|System.Runtime.InteropServices.ComTypes.DESCKIND|static=true|const=true",
           "target": {
@@ -3501,7 +3501,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_CONTENTSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_CONTENT",
-          "tsEmitName": "dvaspect_content",
+          "tsEmitName": "DVASPECT_CONTENT",
           "metadataToken": 67109020,
           "normalizedSignature": "DVASPECT_CONTENT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
@@ -3512,7 +3512,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_THUMBNAILSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_THUMBNAIL",
-          "tsEmitName": "dvaspect_thumbnail",
+          "tsEmitName": "DVASPECT_THUMBNAIL",
           "metadataToken": 67109021,
           "normalizedSignature": "DVASPECT_THUMBNAIL|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
@@ -3523,7 +3523,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_ICONSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_ICON",
-          "tsEmitName": "dvaspect_icon",
+          "tsEmitName": "DVASPECT_ICON",
           "metadataToken": 67109022,
           "normalizedSignature": "DVASPECT_ICON|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
@@ -3534,7 +3534,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.DVASPECT::DVASPECT_DOCPRINTSystem.Runtime.InteropServices.ComTypes.DVASPECT",
           "clrName": "DVASPECT_DOCPRINT",
-          "tsEmitName": "dvaspect_docprint",
+          "tsEmitName": "DVASPECT_DOCPRINT",
           "metadataToken": 67109023,
           "normalizedSignature": "DVASPECT_DOCPRINT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "isStatic": true,
@@ -4259,7 +4259,7 @@
           }
         },
         {
-          "tsName": "dvaspect_content",
+          "tsName": "DVASPECT_CONTENT",
           "isStatic": true,
           "tsSignatureId": "DVASPECT_CONTENT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "target": {
@@ -4269,7 +4269,7 @@
           }
         },
         {
-          "tsName": "dvaspect_thumbnail",
+          "tsName": "DVASPECT_THUMBNAIL",
           "isStatic": true,
           "tsSignatureId": "DVASPECT_THUMBNAIL|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "target": {
@@ -4279,7 +4279,7 @@
           }
         },
         {
-          "tsName": "dvaspect_icon",
+          "tsName": "DVASPECT_ICON",
           "isStatic": true,
           "tsSignatureId": "DVASPECT_ICON|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "target": {
@@ -4289,7 +4289,7 @@
           }
         },
         {
-          "tsName": "dvaspect_docprint",
+          "tsName": "DVASPECT_DOCPRINT",
           "isStatic": true,
           "tsSignatureId": "DVASPECT_DOCPRINT|System.Runtime.InteropServices.ComTypes.DVASPECT|static=true|const=true",
           "target": {
@@ -4323,7 +4323,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FRESTRICTED",
-          "tsEmitName": "funcflag_frestricted",
+          "tsEmitName": "FUNCFLAG_FRESTRICTED",
           "metadataToken": 67114139,
           "normalizedSignature": "FUNCFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4334,7 +4334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FSOURCE",
-          "tsEmitName": "funcflag_fsource",
+          "tsEmitName": "FUNCFLAG_FSOURCE",
           "metadataToken": 67114140,
           "normalizedSignature": "FUNCFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4345,7 +4345,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FBINDABLE",
-          "tsEmitName": "funcflag_fbindable",
+          "tsEmitName": "FUNCFLAG_FBINDABLE",
           "metadataToken": 67114141,
           "normalizedSignature": "FUNCFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4356,7 +4356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREQUESTEDIT",
-          "tsEmitName": "funcflag_frequestedit",
+          "tsEmitName": "FUNCFLAG_FREQUESTEDIT",
           "metadataToken": 67114142,
           "normalizedSignature": "FUNCFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4367,7 +4367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDISPLAYBIND",
-          "tsEmitName": "funcflag_fdisplaybind",
+          "tsEmitName": "FUNCFLAG_FDISPLAYBIND",
           "metadataToken": 67114143,
           "normalizedSignature": "FUNCFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4378,7 +4378,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTBIND",
-          "tsEmitName": "funcflag_fdefaultbind",
+          "tsEmitName": "FUNCFLAG_FDEFAULTBIND",
           "metadataToken": 67114144,
           "normalizedSignature": "FUNCFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4389,7 +4389,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FHIDDEN",
-          "tsEmitName": "funcflag_fhidden",
+          "tsEmitName": "FUNCFLAG_FHIDDEN",
           "metadataToken": 67114145,
           "normalizedSignature": "FUNCFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4400,7 +4400,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUSESGETLASTERRORSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUSESGETLASTERROR",
-          "tsEmitName": "funcflag_fusesgetlasterror",
+          "tsEmitName": "FUNCFLAG_FUSESGETLASTERROR",
           "metadataToken": 67114146,
           "normalizedSignature": "FUNCFLAG_FUSESGETLASTERROR|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4411,7 +4411,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FDEFAULTCOLLELEM",
-          "tsEmitName": "funcflag_fdefaultcollelem",
+          "tsEmitName": "FUNCFLAG_FDEFAULTCOLLELEM",
           "metadataToken": 67114147,
           "normalizedSignature": "FUNCFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4422,7 +4422,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FUIDEFAULT",
-          "tsEmitName": "funcflag_fuidefault",
+          "tsEmitName": "FUNCFLAG_FUIDEFAULT",
           "metadataToken": 67114148,
           "normalizedSignature": "FUNCFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4433,7 +4433,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FNONBROWSABLE",
-          "tsEmitName": "funcflag_fnonbrowsable",
+          "tsEmitName": "FUNCFLAG_FNONBROWSABLE",
           "metadataToken": 67114149,
           "normalizedSignature": "FUNCFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4444,7 +4444,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FREPLACEABLE",
-          "tsEmitName": "funcflag_freplaceable",
+          "tsEmitName": "FUNCFLAG_FREPLACEABLE",
           "metadataToken": 67114150,
           "normalizedSignature": "FUNCFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -4455,7 +4455,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCFLAGS::FUNCFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.FUNCFLAGS",
           "clrName": "FUNCFLAG_FIMMEDIATEBIND",
-          "tsEmitName": "funcflag_fimmediatebind",
+          "tsEmitName": "FUNCFLAG_FIMMEDIATEBIND",
           "metadataToken": 67114151,
           "normalizedSignature": "FUNCFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "isStatic": true,
@@ -5180,7 +5180,7 @@
           }
         },
         {
-          "tsName": "funcflag_frestricted",
+          "tsName": "FUNCFLAG_FRESTRICTED",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5190,7 +5190,7 @@
           }
         },
         {
-          "tsName": "funcflag_fsource",
+          "tsName": "FUNCFLAG_FSOURCE",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5200,7 +5200,7 @@
           }
         },
         {
-          "tsName": "funcflag_fbindable",
+          "tsName": "FUNCFLAG_FBINDABLE",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5210,7 +5210,7 @@
           }
         },
         {
-          "tsName": "funcflag_frequestedit",
+          "tsName": "FUNCFLAG_FREQUESTEDIT",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5220,7 +5220,7 @@
           }
         },
         {
-          "tsName": "funcflag_fdisplaybind",
+          "tsName": "FUNCFLAG_FDISPLAYBIND",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5230,7 +5230,7 @@
           }
         },
         {
-          "tsName": "funcflag_fdefaultbind",
+          "tsName": "FUNCFLAG_FDEFAULTBIND",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5240,7 +5240,7 @@
           }
         },
         {
-          "tsName": "funcflag_fhidden",
+          "tsName": "FUNCFLAG_FHIDDEN",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5250,7 +5250,7 @@
           }
         },
         {
-          "tsName": "funcflag_fusesgetlasterror",
+          "tsName": "FUNCFLAG_FUSESGETLASTERROR",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FUSESGETLASTERROR|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5260,7 +5260,7 @@
           }
         },
         {
-          "tsName": "funcflag_fdefaultcollelem",
+          "tsName": "FUNCFLAG_FDEFAULTCOLLELEM",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5270,7 +5270,7 @@
           }
         },
         {
-          "tsName": "funcflag_fuidefault",
+          "tsName": "FUNCFLAG_FUIDEFAULT",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5280,7 +5280,7 @@
           }
         },
         {
-          "tsName": "funcflag_fnonbrowsable",
+          "tsName": "FUNCFLAG_FNONBROWSABLE",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5290,7 +5290,7 @@
           }
         },
         {
-          "tsName": "funcflag_freplaceable",
+          "tsName": "FUNCFLAG_FREPLACEABLE",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5300,7 +5300,7 @@
           }
         },
         {
-          "tsName": "funcflag_fimmediatebind",
+          "tsName": "FUNCFLAG_FIMMEDIATEBIND",
           "isStatic": true,
           "tsSignatureId": "FUNCFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.FUNCFLAGS|static=true|const=true",
           "target": {
@@ -5334,7 +5334,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_VIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_VIRTUAL",
-          "tsEmitName": "func_virtual",
+          "tsEmitName": "FUNC_VIRTUAL",
           "metadataToken": 67114117,
           "normalizedSignature": "FUNC_VIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
@@ -5345,7 +5345,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_PUREVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_PUREVIRTUAL",
-          "tsEmitName": "func_purevirtual",
+          "tsEmitName": "FUNC_PUREVIRTUAL",
           "metadataToken": 67114118,
           "normalizedSignature": "FUNC_PUREVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
@@ -5356,7 +5356,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_NONVIRTUALSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_NONVIRTUAL",
-          "tsEmitName": "func_nonvirtual",
+          "tsEmitName": "FUNC_NONVIRTUAL",
           "metadataToken": 67114119,
           "normalizedSignature": "FUNC_NONVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
@@ -5367,7 +5367,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_STATICSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_STATIC",
-          "tsEmitName": "func_static",
+          "tsEmitName": "FUNC_STATIC",
           "metadataToken": 67114120,
           "normalizedSignature": "FUNC_STATIC|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
@@ -5378,7 +5378,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.FUNCKIND::FUNC_DISPATCHSystem.Runtime.InteropServices.ComTypes.FUNCKIND",
           "clrName": "FUNC_DISPATCH",
-          "tsEmitName": "func_dispatch",
+          "tsEmitName": "FUNC_DISPATCH",
           "metadataToken": 67114121,
           "normalizedSignature": "FUNC_DISPATCH|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "isStatic": true,
@@ -6103,7 +6103,7 @@
           }
         },
         {
-          "tsName": "func_virtual",
+          "tsName": "FUNC_VIRTUAL",
           "isStatic": true,
           "tsSignatureId": "FUNC_VIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "target": {
@@ -6113,7 +6113,7 @@
           }
         },
         {
-          "tsName": "func_purevirtual",
+          "tsName": "FUNC_PUREVIRTUAL",
           "isStatic": true,
           "tsSignatureId": "FUNC_PUREVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "target": {
@@ -6123,7 +6123,7 @@
           }
         },
         {
-          "tsName": "func_nonvirtual",
+          "tsName": "FUNC_NONVIRTUAL",
           "isStatic": true,
           "tsSignatureId": "FUNC_NONVIRTUAL|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "target": {
@@ -6133,7 +6133,7 @@
           }
         },
         {
-          "tsName": "func_static",
+          "tsName": "FUNC_STATIC",
           "isStatic": true,
           "tsSignatureId": "FUNC_STATIC|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "target": {
@@ -6143,7 +6143,7 @@
           }
         },
         {
-          "tsName": "func_dispatch",
+          "tsName": "FUNC_DISPATCH",
           "isStatic": true,
           "tsSignatureId": "FUNC_DISPATCH|System.Runtime.InteropServices.ComTypes.FUNCKIND|static=true|const=true",
           "target": {
@@ -6177,7 +6177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_NONESystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_NONE",
-          "tsEmitName": "idlflag_none",
+          "tsEmitName": "IDLFLAG_NONE",
           "metadataToken": 67114066,
           "normalizedSignature": "IDLFLAG_NONE|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
@@ -6188,7 +6188,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FINSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FIN",
-          "tsEmitName": "idlflag_fin",
+          "tsEmitName": "IDLFLAG_FIN",
           "metadataToken": 67114067,
           "normalizedSignature": "IDLFLAG_FIN|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
@@ -6199,7 +6199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FOUT",
-          "tsEmitName": "idlflag_fout",
+          "tsEmitName": "IDLFLAG_FOUT",
           "metadataToken": 67114068,
           "normalizedSignature": "IDLFLAG_FOUT|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
@@ -6210,7 +6210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FLCID",
-          "tsEmitName": "idlflag_flcid",
+          "tsEmitName": "IDLFLAG_FLCID",
           "metadataToken": 67114069,
           "normalizedSignature": "IDLFLAG_FLCID|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
@@ -6221,7 +6221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IDLFLAG::IDLFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.IDLFLAG",
           "clrName": "IDLFLAG_FRETVAL",
-          "tsEmitName": "idlflag_fretval",
+          "tsEmitName": "IDLFLAG_FRETVAL",
           "metadataToken": 67114070,
           "normalizedSignature": "IDLFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "isStatic": true,
@@ -6946,7 +6946,7 @@
           }
         },
         {
-          "tsName": "idlflag_none",
+          "tsName": "IDLFLAG_NONE",
           "isStatic": true,
           "tsSignatureId": "IDLFLAG_NONE|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "target": {
@@ -6956,7 +6956,7 @@
           }
         },
         {
-          "tsName": "idlflag_fin",
+          "tsName": "IDLFLAG_FIN",
           "isStatic": true,
           "tsSignatureId": "IDLFLAG_FIN|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "target": {
@@ -6966,7 +6966,7 @@
           }
         },
         {
-          "tsName": "idlflag_fout",
+          "tsName": "IDLFLAG_FOUT",
           "isStatic": true,
           "tsSignatureId": "IDLFLAG_FOUT|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "target": {
@@ -6976,7 +6976,7 @@
           }
         },
         {
-          "tsName": "idlflag_flcid",
+          "tsName": "IDLFLAG_FLCID",
           "isStatic": true,
           "tsSignatureId": "IDLFLAG_FLCID|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "target": {
@@ -6986,7 +6986,7 @@
           }
         },
         {
-          "tsName": "idlflag_fretval",
+          "tsName": "IDLFLAG_FRETVAL",
           "isStatic": true,
           "tsSignatureId": "IDLFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.IDLFLAG|static=true|const=true",
           "target": {
@@ -7020,7 +7020,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULT",
-          "tsEmitName": "impltypeflag_fdefault",
+          "tsEmitName": "IMPLTYPEFLAG_FDEFAULT",
           "metadataToken": 67114030,
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULT|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -7031,7 +7031,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FSOURCE",
-          "tsEmitName": "impltypeflag_fsource",
+          "tsEmitName": "IMPLTYPEFLAG_FSOURCE",
           "metadataToken": 67114031,
           "normalizedSignature": "IMPLTYPEFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -7042,7 +7042,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FRESTRICTED",
-          "tsEmitName": "impltypeflag_frestricted",
+          "tsEmitName": "IMPLTYPEFLAG_FRESTRICTED",
           "metadataToken": 67114032,
           "normalizedSignature": "IMPLTYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -7053,7 +7053,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS::IMPLTYPEFLAG_FDEFAULTVTABLESystem.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS",
           "clrName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
-          "tsEmitName": "impltypeflag_fdefaultvtable",
+          "tsEmitName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
           "metadataToken": 67114033,
           "normalizedSignature": "IMPLTYPEFLAG_FDEFAULTVTABLE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -7778,7 +7778,7 @@
           }
         },
         {
-          "tsName": "impltypeflag_fdefault",
+          "tsName": "IMPLTYPEFLAG_FDEFAULT",
           "isStatic": true,
           "tsSignatureId": "IMPLTYPEFLAG_FDEFAULT|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "target": {
@@ -7788,7 +7788,7 @@
           }
         },
         {
-          "tsName": "impltypeflag_fsource",
+          "tsName": "IMPLTYPEFLAG_FSOURCE",
           "isStatic": true,
           "tsSignatureId": "IMPLTYPEFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "target": {
@@ -7798,7 +7798,7 @@
           }
         },
         {
-          "tsName": "impltypeflag_frestricted",
+          "tsName": "IMPLTYPEFLAG_FRESTRICTED",
           "isStatic": true,
           "tsSignatureId": "IMPLTYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "target": {
@@ -7808,7 +7808,7 @@
           }
         },
         {
-          "tsName": "impltypeflag_fdefaultvtable",
+          "tsName": "IMPLTYPEFLAG_FDEFAULTVTABLE",
           "isStatic": true,
           "tsSignatureId": "IMPLTYPEFLAG_FDEFAULTVTABLE|System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS|static=true|const=true",
           "target": {
@@ -7842,7 +7842,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_FUNCSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_FUNC",
-          "tsEmitName": "invoke_func",
+          "tsEmitName": "INVOKE_FUNC",
           "metadataToken": 67114123,
           "normalizedSignature": "INVOKE_FUNC|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
@@ -7853,7 +7853,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYGETSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYGET",
-          "tsEmitName": "invoke_propertyget",
+          "tsEmitName": "INVOKE_PROPERTYGET",
           "metadataToken": 67114124,
           "normalizedSignature": "INVOKE_PROPERTYGET|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
@@ -7864,7 +7864,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUT",
-          "tsEmitName": "invoke_propertyput",
+          "tsEmitName": "INVOKE_PROPERTYPUT",
           "metadataToken": 67114125,
           "normalizedSignature": "INVOKE_PROPERTYPUT|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
@@ -7875,7 +7875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.INVOKEKIND::INVOKE_PROPERTYPUTREFSystem.Runtime.InteropServices.ComTypes.INVOKEKIND",
           "clrName": "INVOKE_PROPERTYPUTREF",
-          "tsEmitName": "invoke_propertyputref",
+          "tsEmitName": "INVOKE_PROPERTYPUTREF",
           "metadataToken": 67114126,
           "normalizedSignature": "INVOKE_PROPERTYPUTREF|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "isStatic": true,
@@ -8600,7 +8600,7 @@
           }
         },
         {
-          "tsName": "invoke_func",
+          "tsName": "INVOKE_FUNC",
           "isStatic": true,
           "tsSignatureId": "INVOKE_FUNC|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "target": {
@@ -8610,7 +8610,7 @@
           }
         },
         {
-          "tsName": "invoke_propertyget",
+          "tsName": "INVOKE_PROPERTYGET",
           "isStatic": true,
           "tsSignatureId": "INVOKE_PROPERTYGET|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "target": {
@@ -8620,7 +8620,7 @@
           }
         },
         {
-          "tsName": "invoke_propertyput",
+          "tsName": "INVOKE_PROPERTYPUT",
           "isStatic": true,
           "tsSignatureId": "INVOKE_PROPERTYPUT|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "target": {
@@ -8630,7 +8630,7 @@
           }
         },
         {
-          "tsName": "invoke_propertyputref",
+          "tsName": "INVOKE_PROPERTYPUTREF",
           "isStatic": true,
           "tsSignatureId": "INVOKE_PROPERTYPUTREF|System.Runtime.InteropServices.ComTypes.INVOKEKIND|static=true|const=true",
           "target": {
@@ -8664,7 +8664,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FRESTRICTED",
-          "tsEmitName": "libflag_frestricted",
+          "tsEmitName": "LIBFLAG_FRESTRICTED",
           "metadataToken": 67114172,
           "normalizedSignature": "LIBFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
@@ -8675,7 +8675,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FCONTROL",
-          "tsEmitName": "libflag_fcontrol",
+          "tsEmitName": "LIBFLAG_FCONTROL",
           "metadataToken": 67114173,
           "normalizedSignature": "LIBFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
@@ -8686,7 +8686,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHIDDEN",
-          "tsEmitName": "libflag_fhidden",
+          "tsEmitName": "LIBFLAG_FHIDDEN",
           "metadataToken": 67114174,
           "normalizedSignature": "LIBFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
@@ -8697,7 +8697,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.LIBFLAGS::LIBFLAG_FHASDISKIMAGESystem.Runtime.InteropServices.ComTypes.LIBFLAGS",
           "clrName": "LIBFLAG_FHASDISKIMAGE",
-          "tsEmitName": "libflag_fhasdiskimage",
+          "tsEmitName": "LIBFLAG_FHASDISKIMAGE",
           "metadataToken": 67114175,
           "normalizedSignature": "LIBFLAG_FHASDISKIMAGE|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "isStatic": true,
@@ -9422,7 +9422,7 @@
           }
         },
         {
-          "tsName": "libflag_frestricted",
+          "tsName": "LIBFLAG_FRESTRICTED",
           "isStatic": true,
           "tsSignatureId": "LIBFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "target": {
@@ -9432,7 +9432,7 @@
           }
         },
         {
-          "tsName": "libflag_fcontrol",
+          "tsName": "LIBFLAG_FCONTROL",
           "isStatic": true,
           "tsSignatureId": "LIBFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "target": {
@@ -9442,7 +9442,7 @@
           }
         },
         {
-          "tsName": "libflag_fhidden",
+          "tsName": "LIBFLAG_FHIDDEN",
           "isStatic": true,
           "tsSignatureId": "LIBFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "target": {
@@ -9452,7 +9452,7 @@
           }
         },
         {
-          "tsName": "libflag_fhasdiskimage",
+          "tsName": "LIBFLAG_FHASDISKIMAGE",
           "isStatic": true,
           "tsSignatureId": "LIBFLAG_FHASDISKIMAGE|System.Runtime.InteropServices.ComTypes.LIBFLAGS|static=true|const=true",
           "target": {
@@ -9486,7 +9486,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_NONESystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_NONE",
-          "tsEmitName": "paramflag_none",
+          "tsEmitName": "PARAMFLAG_NONE",
           "metadataToken": 67114074,
           "normalizedSignature": "PARAMFLAG_NONE|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9497,7 +9497,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FINSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FIN",
-          "tsEmitName": "paramflag_fin",
+          "tsEmitName": "PARAMFLAG_FIN",
           "metadataToken": 67114075,
           "normalizedSignature": "PARAMFLAG_FIN|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9508,7 +9508,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOUTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOUT",
-          "tsEmitName": "paramflag_fout",
+          "tsEmitName": "PARAMFLAG_FOUT",
           "metadataToken": 67114076,
           "normalizedSignature": "PARAMFLAG_FOUT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9519,7 +9519,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FLCIDSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FLCID",
-          "tsEmitName": "paramflag_flcid",
+          "tsEmitName": "PARAMFLAG_FLCID",
           "metadataToken": 67114077,
           "normalizedSignature": "PARAMFLAG_FLCID|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9530,7 +9530,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FRETVALSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FRETVAL",
-          "tsEmitName": "paramflag_fretval",
+          "tsEmitName": "PARAMFLAG_FRETVAL",
           "metadataToken": 67114078,
           "normalizedSignature": "PARAMFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9541,7 +9541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FOPTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FOPT",
-          "tsEmitName": "paramflag_fopt",
+          "tsEmitName": "PARAMFLAG_FOPT",
           "metadataToken": 67114079,
           "normalizedSignature": "PARAMFLAG_FOPT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9552,7 +9552,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASDEFAULTSystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASDEFAULT",
-          "tsEmitName": "paramflag_fhasdefault",
+          "tsEmitName": "PARAMFLAG_FHASDEFAULT",
           "metadataToken": 67114080,
           "normalizedSignature": "PARAMFLAG_FHASDEFAULT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -9563,7 +9563,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.PARAMFLAG::PARAMFLAG_FHASCUSTDATASystem.Runtime.InteropServices.ComTypes.PARAMFLAG",
           "clrName": "PARAMFLAG_FHASCUSTDATA",
-          "tsEmitName": "paramflag_fhascustdata",
+          "tsEmitName": "PARAMFLAG_FHASCUSTDATA",
           "metadataToken": 67114081,
           "normalizedSignature": "PARAMFLAG_FHASCUSTDATA|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "isStatic": true,
@@ -10288,7 +10288,7 @@
           }
         },
         {
-          "tsName": "paramflag_none",
+          "tsName": "PARAMFLAG_NONE",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_NONE|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10298,7 +10298,7 @@
           }
         },
         {
-          "tsName": "paramflag_fin",
+          "tsName": "PARAMFLAG_FIN",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FIN|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10308,7 +10308,7 @@
           }
         },
         {
-          "tsName": "paramflag_fout",
+          "tsName": "PARAMFLAG_FOUT",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FOUT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10318,7 +10318,7 @@
           }
         },
         {
-          "tsName": "paramflag_flcid",
+          "tsName": "PARAMFLAG_FLCID",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FLCID|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10328,7 +10328,7 @@
           }
         },
         {
-          "tsName": "paramflag_fretval",
+          "tsName": "PARAMFLAG_FRETVAL",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FRETVAL|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10338,7 +10338,7 @@
           }
         },
         {
-          "tsName": "paramflag_fopt",
+          "tsName": "PARAMFLAG_FOPT",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FOPT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10348,7 +10348,7 @@
           }
         },
         {
-          "tsName": "paramflag_fhasdefault",
+          "tsName": "PARAMFLAG_FHASDEFAULT",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FHASDEFAULT|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10358,7 +10358,7 @@
           }
         },
         {
-          "tsName": "paramflag_fhascustdata",
+          "tsName": "PARAMFLAG_FHASCUSTDATA",
           "isStatic": true,
           "tsSignatureId": "PARAMFLAG_FHASCUSTDATA|System.Runtime.InteropServices.ComTypes.PARAMFLAG|static=true|const=true",
           "target": {
@@ -10392,7 +10392,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN16System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN16",
-          "tsEmitName": "sys_win16",
+          "tsEmitName": "SYS_WIN16",
           "metadataToken": 67114167,
           "normalizedSignature": "SYS_WIN16|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
@@ -10403,7 +10403,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN32System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN32",
-          "tsEmitName": "sys_win32",
+          "tsEmitName": "SYS_WIN32",
           "metadataToken": 67114168,
           "normalizedSignature": "SYS_WIN32|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
@@ -10414,7 +10414,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_MACSystem.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_MAC",
-          "tsEmitName": "sys_mac",
+          "tsEmitName": "SYS_MAC",
           "metadataToken": 67114169,
           "normalizedSignature": "SYS_MAC|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
@@ -10425,7 +10425,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.SYSKIND::SYS_WIN64System.Runtime.InteropServices.ComTypes.SYSKIND",
           "clrName": "SYS_WIN64",
-          "tsEmitName": "sys_win64",
+          "tsEmitName": "SYS_WIN64",
           "metadataToken": 67114170,
           "normalizedSignature": "SYS_WIN64|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "isStatic": true,
@@ -11150,7 +11150,7 @@
           }
         },
         {
-          "tsName": "sys_win16",
+          "tsName": "SYS_WIN16",
           "isStatic": true,
           "tsSignatureId": "SYS_WIN16|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "target": {
@@ -11160,7 +11160,7 @@
           }
         },
         {
-          "tsName": "sys_win32",
+          "tsName": "SYS_WIN32",
           "isStatic": true,
           "tsSignatureId": "SYS_WIN32|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "target": {
@@ -11170,7 +11170,7 @@
           }
         },
         {
-          "tsName": "sys_mac",
+          "tsName": "SYS_MAC",
           "isStatic": true,
           "tsSignatureId": "SYS_MAC|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "target": {
@@ -11180,7 +11180,7 @@
           }
         },
         {
-          "tsName": "sys_win64",
+          "tsName": "SYS_WIN64",
           "isStatic": true,
           "tsSignatureId": "SYS_WIN64|System.Runtime.InteropServices.ComTypes.SYSKIND|static=true|const=true",
           "target": {
@@ -11214,7 +11214,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_HGLOBALSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_HGLOBAL",
-          "tsEmitName": "tymed_hglobal",
+          "tsEmitName": "TYMED_HGLOBAL",
           "metadataToken": 67109037,
           "normalizedSignature": "TYMED_HGLOBAL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11225,7 +11225,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_FILESystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_FILE",
-          "tsEmitName": "tymed_file",
+          "tsEmitName": "TYMED_FILE",
           "metadataToken": 67109038,
           "normalizedSignature": "TYMED_FILE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11236,7 +11236,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ISTREAMSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ISTREAM",
-          "tsEmitName": "tymed_istream",
+          "tsEmitName": "TYMED_ISTREAM",
           "metadataToken": 67109039,
           "normalizedSignature": "TYMED_ISTREAM|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11247,7 +11247,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ISTORAGESystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ISTORAGE",
-          "tsEmitName": "tymed_istorage",
+          "tsEmitName": "TYMED_ISTORAGE",
           "metadataToken": 67109040,
           "normalizedSignature": "TYMED_ISTORAGE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11258,7 +11258,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_GDISystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_GDI",
-          "tsEmitName": "tymed_gdi",
+          "tsEmitName": "TYMED_GDI",
           "metadataToken": 67109041,
           "normalizedSignature": "TYMED_GDI|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11269,7 +11269,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_MFPICTSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_MFPICT",
-          "tsEmitName": "tymed_mfpict",
+          "tsEmitName": "TYMED_MFPICT",
           "metadataToken": 67109042,
           "normalizedSignature": "TYMED_MFPICT|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11280,7 +11280,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_ENHMFSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_ENHMF",
-          "tsEmitName": "tymed_enhmf",
+          "tsEmitName": "TYMED_ENHMF",
           "metadataToken": 67109043,
           "normalizedSignature": "TYMED_ENHMF|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -11291,7 +11291,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComTypes.TYMED::TYMED_NULLSystem.Runtime.InteropServices.ComTypes.TYMED",
           "clrName": "TYMED_NULL",
-          "tsEmitName": "tymed_null",
+          "tsEmitName": "TYMED_NULL",
           "metadataToken": 67109044,
           "normalizedSignature": "TYMED_NULL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "isStatic": true,
@@ -12016,7 +12016,7 @@
           }
         },
         {
-          "tsName": "tymed_hglobal",
+          "tsName": "TYMED_HGLOBAL",
           "isStatic": true,
           "tsSignatureId": "TYMED_HGLOBAL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12026,7 +12026,7 @@
           }
         },
         {
-          "tsName": "tymed_file",
+          "tsName": "TYMED_FILE",
           "isStatic": true,
           "tsSignatureId": "TYMED_FILE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12036,7 +12036,7 @@
           }
         },
         {
-          "tsName": "tymed_istream",
+          "tsName": "TYMED_ISTREAM",
           "isStatic": true,
           "tsSignatureId": "TYMED_ISTREAM|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12046,7 +12046,7 @@
           }
         },
         {
-          "tsName": "tymed_istorage",
+          "tsName": "TYMED_ISTORAGE",
           "isStatic": true,
           "tsSignatureId": "TYMED_ISTORAGE|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12056,7 +12056,7 @@
           }
         },
         {
-          "tsName": "tymed_gdi",
+          "tsName": "TYMED_GDI",
           "isStatic": true,
           "tsSignatureId": "TYMED_GDI|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12066,7 +12066,7 @@
           }
         },
         {
-          "tsName": "tymed_mfpict",
+          "tsName": "TYMED_MFPICT",
           "isStatic": true,
           "tsSignatureId": "TYMED_MFPICT|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12076,7 +12076,7 @@
           }
         },
         {
-          "tsName": "tymed_enhmf",
+          "tsName": "TYMED_ENHMF",
           "isStatic": true,
           "tsSignatureId": "TYMED_ENHMF|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12086,7 +12086,7 @@
           }
         },
         {
-          "tsName": "tymed_null",
+          "tsName": "TYMED_NULL",
           "isStatic": true,
           "tsSignatureId": "TYMED_NULL|System.Runtime.InteropServices.ComTypes.TYMED|static=true|const=true",
           "target": {
@@ -12120,7 +12120,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAPPOBJECTSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAPPOBJECT",
-          "tsEmitName": "typeflag_fappobject",
+          "tsEmitName": "TYPEFLAG_FAPPOBJECT",
           "metadataToken": 67114014,
           "normalizedSignature": "TYPEFLAG_FAPPOBJECT|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12131,7 +12131,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCANCREATESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCANCREATE",
-          "tsEmitName": "typeflag_fcancreate",
+          "tsEmitName": "TYPEFLAG_FCANCREATE",
           "metadataToken": 67114015,
           "normalizedSignature": "TYPEFLAG_FCANCREATE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12142,7 +12142,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FLICENSEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FLICENSED",
-          "tsEmitName": "typeflag_flicensed",
+          "tsEmitName": "TYPEFLAG_FLICENSED",
           "metadataToken": 67114016,
           "normalizedSignature": "TYPEFLAG_FLICENSED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12153,7 +12153,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPREDECLIDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPREDECLID",
-          "tsEmitName": "typeflag_fpredeclid",
+          "tsEmitName": "TYPEFLAG_FPREDECLID",
           "metadataToken": 67114017,
           "normalizedSignature": "TYPEFLAG_FPREDECLID|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12164,7 +12164,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FHIDDEN",
-          "tsEmitName": "typeflag_fhidden",
+          "tsEmitName": "TYPEFLAG_FHIDDEN",
           "metadataToken": 67114018,
           "normalizedSignature": "TYPEFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12175,7 +12175,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FCONTROLSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FCONTROL",
-          "tsEmitName": "typeflag_fcontrol",
+          "tsEmitName": "TYPEFLAG_FCONTROL",
           "metadataToken": 67114019,
           "normalizedSignature": "TYPEFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12186,7 +12186,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDUALSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDUAL",
-          "tsEmitName": "typeflag_fdual",
+          "tsEmitName": "TYPEFLAG_FDUAL",
           "metadataToken": 67114020,
           "normalizedSignature": "TYPEFLAG_FDUAL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12197,7 +12197,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FNONEXTENSIBLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FNONEXTENSIBLE",
-          "tsEmitName": "typeflag_fnonextensible",
+          "tsEmitName": "TYPEFLAG_FNONEXTENSIBLE",
           "metadataToken": 67114021,
           "normalizedSignature": "TYPEFLAG_FNONEXTENSIBLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12208,7 +12208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FOLEAUTOMATIONSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FOLEAUTOMATION",
-          "tsEmitName": "typeflag_foleautomation",
+          "tsEmitName": "TYPEFLAG_FOLEAUTOMATION",
           "metadataToken": 67114022,
           "normalizedSignature": "TYPEFLAG_FOLEAUTOMATION|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12219,7 +12219,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FRESTRICTED",
-          "tsEmitName": "typeflag_frestricted",
+          "tsEmitName": "TYPEFLAG_FRESTRICTED",
           "metadataToken": 67114023,
           "normalizedSignature": "TYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12230,7 +12230,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FAGGREGATABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FAGGREGATABLE",
-          "tsEmitName": "typeflag_faggregatable",
+          "tsEmitName": "TYPEFLAG_FAGGREGATABLE",
           "metadataToken": 67114024,
           "normalizedSignature": "TYPEFLAG_FAGGREGATABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12241,7 +12241,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREPLACEABLE",
-          "tsEmitName": "typeflag_freplaceable",
+          "tsEmitName": "TYPEFLAG_FREPLACEABLE",
           "metadataToken": 67114025,
           "normalizedSignature": "TYPEFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12252,7 +12252,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FDISPATCHABLESystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FDISPATCHABLE",
-          "tsEmitName": "typeflag_fdispatchable",
+          "tsEmitName": "TYPEFLAG_FDISPATCHABLE",
           "metadataToken": 67114026,
           "normalizedSignature": "TYPEFLAG_FDISPATCHABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12263,7 +12263,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FREVERSEBINDSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FREVERSEBIND",
-          "tsEmitName": "typeflag_freversebind",
+          "tsEmitName": "TYPEFLAG_FREVERSEBIND",
           "metadataToken": 67114027,
           "normalizedSignature": "TYPEFLAG_FREVERSEBIND|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12274,7 +12274,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEFLAGS::TYPEFLAG_FPROXYSystem.Runtime.InteropServices.ComTypes.TYPEFLAGS",
           "clrName": "TYPEFLAG_FPROXY",
-          "tsEmitName": "typeflag_fproxy",
+          "tsEmitName": "TYPEFLAG_FPROXY",
           "metadataToken": 67114028,
           "normalizedSignature": "TYPEFLAG_FPROXY|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "isStatic": true,
@@ -12999,7 +12999,7 @@
           }
         },
         {
-          "tsName": "typeflag_fappobject",
+          "tsName": "TYPEFLAG_FAPPOBJECT",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FAPPOBJECT|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13009,7 +13009,7 @@
           }
         },
         {
-          "tsName": "typeflag_fcancreate",
+          "tsName": "TYPEFLAG_FCANCREATE",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FCANCREATE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13019,7 +13019,7 @@
           }
         },
         {
-          "tsName": "typeflag_flicensed",
+          "tsName": "TYPEFLAG_FLICENSED",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FLICENSED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13029,7 +13029,7 @@
           }
         },
         {
-          "tsName": "typeflag_fpredeclid",
+          "tsName": "TYPEFLAG_FPREDECLID",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FPREDECLID|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13039,7 +13039,7 @@
           }
         },
         {
-          "tsName": "typeflag_fhidden",
+          "tsName": "TYPEFLAG_FHIDDEN",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13049,7 +13049,7 @@
           }
         },
         {
-          "tsName": "typeflag_fcontrol",
+          "tsName": "TYPEFLAG_FCONTROL",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FCONTROL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13059,7 +13059,7 @@
           }
         },
         {
-          "tsName": "typeflag_fdual",
+          "tsName": "TYPEFLAG_FDUAL",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FDUAL|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13069,7 +13069,7 @@
           }
         },
         {
-          "tsName": "typeflag_fnonextensible",
+          "tsName": "TYPEFLAG_FNONEXTENSIBLE",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FNONEXTENSIBLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13079,7 +13079,7 @@
           }
         },
         {
-          "tsName": "typeflag_foleautomation",
+          "tsName": "TYPEFLAG_FOLEAUTOMATION",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FOLEAUTOMATION|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13089,7 +13089,7 @@
           }
         },
         {
-          "tsName": "typeflag_frestricted",
+          "tsName": "TYPEFLAG_FRESTRICTED",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13099,7 +13099,7 @@
           }
         },
         {
-          "tsName": "typeflag_faggregatable",
+          "tsName": "TYPEFLAG_FAGGREGATABLE",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FAGGREGATABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13109,7 +13109,7 @@
           }
         },
         {
-          "tsName": "typeflag_freplaceable",
+          "tsName": "TYPEFLAG_FREPLACEABLE",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13119,7 +13119,7 @@
           }
         },
         {
-          "tsName": "typeflag_fdispatchable",
+          "tsName": "TYPEFLAG_FDISPATCHABLE",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FDISPATCHABLE|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13129,7 +13129,7 @@
           }
         },
         {
-          "tsName": "typeflag_freversebind",
+          "tsName": "TYPEFLAG_FREVERSEBIND",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FREVERSEBIND|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13139,7 +13139,7 @@
           }
         },
         {
-          "tsName": "typeflag_fproxy",
+          "tsName": "TYPEFLAG_FPROXY",
           "isStatic": true,
           "tsSignatureId": "TYPEFLAG_FPROXY|System.Runtime.InteropServices.ComTypes.TYPEFLAGS|static=true|const=true",
           "target": {
@@ -13173,7 +13173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ENUMSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ENUM",
-          "tsEmitName": "tkind_enum",
+          "tsEmitName": "TKIND_ENUM",
           "metadataToken": 67114004,
           "normalizedSignature": "TKIND_ENUM|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13184,7 +13184,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_RECORDSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_RECORD",
-          "tsEmitName": "tkind_record",
+          "tsEmitName": "TKIND_RECORD",
           "metadataToken": 67114005,
           "normalizedSignature": "TKIND_RECORD|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13195,7 +13195,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MODULESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MODULE",
-          "tsEmitName": "tkind_module",
+          "tsEmitName": "TKIND_MODULE",
           "metadataToken": 67114006,
           "normalizedSignature": "TKIND_MODULE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13206,7 +13206,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_INTERFACESystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_INTERFACE",
-          "tsEmitName": "tkind_interface",
+          "tsEmitName": "TKIND_INTERFACE",
           "metadataToken": 67114007,
           "normalizedSignature": "TKIND_INTERFACE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13217,7 +13217,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_DISPATCHSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_DISPATCH",
-          "tsEmitName": "tkind_dispatch",
+          "tsEmitName": "TKIND_DISPATCH",
           "metadataToken": 67114008,
           "normalizedSignature": "TKIND_DISPATCH|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13228,7 +13228,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_COCLASSSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_COCLASS",
-          "tsEmitName": "tkind_coclass",
+          "tsEmitName": "TKIND_COCLASS",
           "metadataToken": 67114009,
           "normalizedSignature": "TKIND_COCLASS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13239,7 +13239,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_ALIASSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_ALIAS",
-          "tsEmitName": "tkind_alias",
+          "tsEmitName": "TKIND_ALIAS",
           "metadataToken": 67114010,
           "normalizedSignature": "TKIND_ALIAS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13250,7 +13250,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_UNIONSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_UNION",
-          "tsEmitName": "tkind_union",
+          "tsEmitName": "TKIND_UNION",
           "metadataToken": 67114011,
           "normalizedSignature": "TKIND_UNION|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13261,7 +13261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEKIND::TKIND_MAXSystem.Runtime.InteropServices.ComTypes.TYPEKIND",
           "clrName": "TKIND_MAX",
-          "tsEmitName": "tkind_max",
+          "tsEmitName": "TKIND_MAX",
           "metadataToken": 67114012,
           "normalizedSignature": "TKIND_MAX|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "isStatic": true,
@@ -13986,7 +13986,7 @@
           }
         },
         {
-          "tsName": "tkind_enum",
+          "tsName": "TKIND_ENUM",
           "isStatic": true,
           "tsSignatureId": "TKIND_ENUM|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -13996,7 +13996,7 @@
           }
         },
         {
-          "tsName": "tkind_record",
+          "tsName": "TKIND_RECORD",
           "isStatic": true,
           "tsSignatureId": "TKIND_RECORD|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14006,7 +14006,7 @@
           }
         },
         {
-          "tsName": "tkind_module",
+          "tsName": "TKIND_MODULE",
           "isStatic": true,
           "tsSignatureId": "TKIND_MODULE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14016,7 +14016,7 @@
           }
         },
         {
-          "tsName": "tkind_interface",
+          "tsName": "TKIND_INTERFACE",
           "isStatic": true,
           "tsSignatureId": "TKIND_INTERFACE|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14026,7 +14026,7 @@
           }
         },
         {
-          "tsName": "tkind_dispatch",
+          "tsName": "TKIND_DISPATCH",
           "isStatic": true,
           "tsSignatureId": "TKIND_DISPATCH|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14036,7 +14036,7 @@
           }
         },
         {
-          "tsName": "tkind_coclass",
+          "tsName": "TKIND_COCLASS",
           "isStatic": true,
           "tsSignatureId": "TKIND_COCLASS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14046,7 +14046,7 @@
           }
         },
         {
-          "tsName": "tkind_alias",
+          "tsName": "TKIND_ALIAS",
           "isStatic": true,
           "tsSignatureId": "TKIND_ALIAS|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14056,7 +14056,7 @@
           }
         },
         {
-          "tsName": "tkind_union",
+          "tsName": "TKIND_UNION",
           "isStatic": true,
           "tsSignatureId": "TKIND_UNION|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14066,7 +14066,7 @@
           }
         },
         {
-          "tsName": "tkind_max",
+          "tsName": "TKIND_MAX",
           "isStatic": true,
           "tsSignatureId": "TKIND_MAX|System.Runtime.InteropServices.ComTypes.TYPEKIND|static=true|const=true",
           "target": {
@@ -14100,7 +14100,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREADONLYSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREADONLY",
-          "tsEmitName": "varflag_freadonly",
+          "tsEmitName": "VARFLAG_FREADONLY",
           "metadataToken": 67114153,
           "normalizedSignature": "VARFLAG_FREADONLY|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14111,7 +14111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FSOURCESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FSOURCE",
-          "tsEmitName": "varflag_fsource",
+          "tsEmitName": "VARFLAG_FSOURCE",
           "metadataToken": 67114154,
           "normalizedSignature": "VARFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14122,7 +14122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FBINDABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FBINDABLE",
-          "tsEmitName": "varflag_fbindable",
+          "tsEmitName": "VARFLAG_FBINDABLE",
           "metadataToken": 67114155,
           "normalizedSignature": "VARFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14133,7 +14133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREQUESTEDITSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREQUESTEDIT",
-          "tsEmitName": "varflag_frequestedit",
+          "tsEmitName": "VARFLAG_FREQUESTEDIT",
           "metadataToken": 67114156,
           "normalizedSignature": "VARFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14144,7 +14144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDISPLAYBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDISPLAYBIND",
-          "tsEmitName": "varflag_fdisplaybind",
+          "tsEmitName": "VARFLAG_FDISPLAYBIND",
           "metadataToken": 67114157,
           "normalizedSignature": "VARFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14155,7 +14155,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTBIND",
-          "tsEmitName": "varflag_fdefaultbind",
+          "tsEmitName": "VARFLAG_FDEFAULTBIND",
           "metadataToken": 67114158,
           "normalizedSignature": "VARFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14166,7 +14166,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FHIDDENSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FHIDDEN",
-          "tsEmitName": "varflag_fhidden",
+          "tsEmitName": "VARFLAG_FHIDDEN",
           "metadataToken": 67114159,
           "normalizedSignature": "VARFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14177,7 +14177,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FRESTRICTEDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FRESTRICTED",
-          "tsEmitName": "varflag_frestricted",
+          "tsEmitName": "VARFLAG_FRESTRICTED",
           "metadataToken": 67114160,
           "normalizedSignature": "VARFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14188,7 +14188,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FDEFAULTCOLLELEMSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FDEFAULTCOLLELEM",
-          "tsEmitName": "varflag_fdefaultcollelem",
+          "tsEmitName": "VARFLAG_FDEFAULTCOLLELEM",
           "metadataToken": 67114161,
           "normalizedSignature": "VARFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14199,7 +14199,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FUIDEFAULTSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FUIDEFAULT",
-          "tsEmitName": "varflag_fuidefault",
+          "tsEmitName": "VARFLAG_FUIDEFAULT",
           "metadataToken": 67114162,
           "normalizedSignature": "VARFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14210,7 +14210,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FNONBROWSABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FNONBROWSABLE",
-          "tsEmitName": "varflag_fnonbrowsable",
+          "tsEmitName": "VARFLAG_FNONBROWSABLE",
           "metadataToken": 67114163,
           "normalizedSignature": "VARFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14221,7 +14221,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FREPLACEABLESystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FREPLACEABLE",
-          "tsEmitName": "varflag_freplaceable",
+          "tsEmitName": "VARFLAG_FREPLACEABLE",
           "metadataToken": 67114164,
           "normalizedSignature": "VARFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14232,7 +14232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARFLAGS::VARFLAG_FIMMEDIATEBINDSystem.Runtime.InteropServices.ComTypes.VARFLAGS",
           "clrName": "VARFLAG_FIMMEDIATEBIND",
-          "tsEmitName": "varflag_fimmediatebind",
+          "tsEmitName": "VARFLAG_FIMMEDIATEBIND",
           "metadataToken": 67114165,
           "normalizedSignature": "VARFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "isStatic": true,
@@ -14957,7 +14957,7 @@
           }
         },
         {
-          "tsName": "varflag_freadonly",
+          "tsName": "VARFLAG_FREADONLY",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FREADONLY|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -14967,7 +14967,7 @@
           }
         },
         {
-          "tsName": "varflag_fsource",
+          "tsName": "VARFLAG_FSOURCE",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FSOURCE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -14977,7 +14977,7 @@
           }
         },
         {
-          "tsName": "varflag_fbindable",
+          "tsName": "VARFLAG_FBINDABLE",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FBINDABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -14987,7 +14987,7 @@
           }
         },
         {
-          "tsName": "varflag_frequestedit",
+          "tsName": "VARFLAG_FREQUESTEDIT",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FREQUESTEDIT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -14997,7 +14997,7 @@
           }
         },
         {
-          "tsName": "varflag_fdisplaybind",
+          "tsName": "VARFLAG_FDISPLAYBIND",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FDISPLAYBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15007,7 +15007,7 @@
           }
         },
         {
-          "tsName": "varflag_fdefaultbind",
+          "tsName": "VARFLAG_FDEFAULTBIND",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FDEFAULTBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15017,7 +15017,7 @@
           }
         },
         {
-          "tsName": "varflag_fhidden",
+          "tsName": "VARFLAG_FHIDDEN",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FHIDDEN|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15027,7 +15027,7 @@
           }
         },
         {
-          "tsName": "varflag_frestricted",
+          "tsName": "VARFLAG_FRESTRICTED",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FRESTRICTED|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15037,7 +15037,7 @@
           }
         },
         {
-          "tsName": "varflag_fdefaultcollelem",
+          "tsName": "VARFLAG_FDEFAULTCOLLELEM",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FDEFAULTCOLLELEM|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15047,7 +15047,7 @@
           }
         },
         {
-          "tsName": "varflag_fuidefault",
+          "tsName": "VARFLAG_FUIDEFAULT",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FUIDEFAULT|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15057,7 +15057,7 @@
           }
         },
         {
-          "tsName": "varflag_fnonbrowsable",
+          "tsName": "VARFLAG_FNONBROWSABLE",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FNONBROWSABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15067,7 +15067,7 @@
           }
         },
         {
-          "tsName": "varflag_freplaceable",
+          "tsName": "VARFLAG_FREPLACEABLE",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FREPLACEABLE|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15077,7 +15077,7 @@
           }
         },
         {
-          "tsName": "varflag_fimmediatebind",
+          "tsName": "VARFLAG_FIMMEDIATEBIND",
           "isStatic": true,
           "tsSignatureId": "VARFLAG_FIMMEDIATEBIND|System.Runtime.InteropServices.ComTypes.VARFLAGS|static=true|const=true",
           "target": {
@@ -15111,7 +15111,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_PERINSTANCESystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_PERINSTANCE",
-          "tsEmitName": "var_perinstance",
+          "tsEmitName": "VAR_PERINSTANCE",
           "metadataToken": 67114091,
           "normalizedSignature": "VAR_PERINSTANCE|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
@@ -15122,7 +15122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_STATICSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_STATIC",
-          "tsEmitName": "var_static",
+          "tsEmitName": "VAR_STATIC",
           "metadataToken": 67114092,
           "normalizedSignature": "VAR_STATIC|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
@@ -15133,7 +15133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_CONSTSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_CONST",
-          "tsEmitName": "var_const",
+          "tsEmitName": "VAR_CONST",
           "metadataToken": 67114093,
           "normalizedSignature": "VAR_CONST|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
@@ -15144,7 +15144,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.VARKIND::VAR_DISPATCHSystem.Runtime.InteropServices.ComTypes.VARKIND",
           "clrName": "VAR_DISPATCH",
-          "tsEmitName": "var_dispatch",
+          "tsEmitName": "VAR_DISPATCH",
           "metadataToken": 67114094,
           "normalizedSignature": "VAR_DISPATCH|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "isStatic": true,
@@ -15869,7 +15869,7 @@
           }
         },
         {
-          "tsName": "var_perinstance",
+          "tsName": "VAR_PERINSTANCE",
           "isStatic": true,
           "tsSignatureId": "VAR_PERINSTANCE|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "target": {
@@ -15879,7 +15879,7 @@
           }
         },
         {
-          "tsName": "var_static",
+          "tsName": "VAR_STATIC",
           "isStatic": true,
           "tsSignatureId": "VAR_STATIC|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "target": {
@@ -15889,7 +15889,7 @@
           }
         },
         {
-          "tsName": "var_const",
+          "tsName": "VAR_CONST",
           "isStatic": true,
           "tsSignatureId": "VAR_CONST|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "target": {
@@ -15899,7 +15899,7 @@
           }
         },
         {
-          "tsName": "var_dispatch",
+          "tsName": "VAR_DISPATCH",
           "isStatic": true,
           "tsSignatureId": "VAR_DISPATCH|System.Runtime.InteropServices.ComTypes.VARKIND|static=true|const=true",
           "target": {
@@ -22663,7 +22663,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.TYPEATTR::MEMBER_ID_NILSystem.Int32",
           "clrName": "MEMBER_ID_NIL",
-          "tsEmitName": "member_id_nil",
+          "tsEmitName": "MEMBER_ID_NIL",
           "metadataToken": 67114034,
           "normalizedSignature": "MEMBER_ID_NIL|System.Int32|static=true|const=true",
           "isStatic": true,
@@ -22936,7 +22936,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "member_id_nil",
+          "tsName": "MEMBER_ID_NIL",
           "isStatic": true,
           "tsSignatureId": "MEMBER_ID_NIL|System.Int32|static=true|const=true",
           "target": {

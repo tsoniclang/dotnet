@@ -63,16 +63,16 @@ export enum DataType {
 
 
 export interface IValidatableObject$instance {
-    Validate(validationContext: ValidationContext): IEnumerable_1<ValidationResult>;
+    validate(validationContext: ValidationContext): IEnumerable_1<ValidationResult>;
 }
 
 
 export type IValidatableObject = IValidatableObject$instance;
 
 export class AllowedValuesAttribute$instance extends ValidationAttribute$instance {
-    constructor(values: any[]);
-    readonly values: any[];
-    isValid(value: any): boolean;
+    constructor(values: unknown[]);
+    readonly values: unknown[];
+    isValid(value: unknown): boolean;
 }
 
 
@@ -81,9 +81,9 @@ export type AllowedValuesAttribute = AllowedValuesAttribute$instance;
 export class AssociatedMetadataTypeTypeDescriptionProvider$instance extends System_ComponentModel_Internal.TypeDescriptionProvider$instance {
     constructor(type_: Type);
     constructor(type_: Type, associatedMetadataType: Type);
-    getTypeDescriptor(objectType: Type, instance: any): ICustomTypeDescriptor;
+    getTypeDescriptor(objectType: Type, instance: unknown): ICustomTypeDescriptor;
     getTypeDescriptor(objectType: Type): ICustomTypeDescriptor;
-    getTypeDescriptor(instance: any): ICustomTypeDescriptor;
+    getTypeDescriptor(instance: unknown): ICustomTypeDescriptor;
 }
 
 
@@ -104,7 +104,7 @@ export type AssociationAttribute = AssociationAttribute$instance;
 
 export class Base64StringAttribute$instance extends ValidationAttribute$instance {
     constructor();
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -130,7 +130,7 @@ export type ConcurrencyCheckAttribute = ConcurrencyCheckAttribute$instance;
 
 export class CreditCardAttribute$instance extends DataTypeAttribute$instance {
     constructor();
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -140,7 +140,7 @@ export class CustomValidationAttribute$instance extends ValidationAttribute$inst
     constructor(validatorType: Type, method: string);
     readonly method: string;
     readonly requiresValidationContext: boolean;
-    readonly typeId: any;
+    readonly typeId: unknown;
     readonly validatorType: Type;
     formatErrorMessage(name: string): string;
 }
@@ -155,16 +155,16 @@ export class DataTypeAttribute$instance extends ValidationAttribute$instance {
     readonly dataType: DataType;
     readonly displayFormat: DisplayFormatAttribute;
     getDataTypeName(): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
 export type DataTypeAttribute = DataTypeAttribute$instance;
 
 export class DeniedValuesAttribute$instance extends ValidationAttribute$instance {
-    constructor(values: any[]);
-    readonly values: any[];
-    isValid(value: any): boolean;
+    constructor(values: unknown[]);
+    readonly values: unknown[];
+    isValid(value: unknown): boolean;
 }
 
 
@@ -231,7 +231,7 @@ export type EditableAttribute = EditableAttribute$instance;
 
 export class EmailAddressAttribute$instance extends DataTypeAttribute$instance {
     constructor();
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -240,7 +240,7 @@ export type EmailAddressAttribute = EmailAddressAttribute$instance;
 export class EnumDataTypeAttribute$instance extends DataTypeAttribute$instance {
     constructor(enumType: Type);
     readonly enumType: Type;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -250,7 +250,7 @@ export class FileExtensionsAttribute$instance extends DataTypeAttribute$instance
     constructor();
     extensions: string;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -259,11 +259,11 @@ export type FileExtensionsAttribute = FileExtensionsAttribute$instance;
 export class FilterUIHintAttribute$instance extends System_Internal.Attribute$instance {
     constructor(filterUIHint: string);
     constructor(filterUIHint: string, presentationLayer: string);
-    constructor(filterUIHint: string, presentationLayer: string, controlParameters: any[]);
-    readonly controlParameters: IDictionary_2<CLROf<string>, any>;
+    constructor(filterUIHint: string, presentationLayer: string, controlParameters: unknown[]);
+    readonly controlParameters: IDictionary_2<CLROf<string>, unknown>;
     readonly filterUIHint: string;
     readonly presentationLayer: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -282,7 +282,7 @@ export class LengthAttribute$instance extends ValidationAttribute$instance {
     readonly maximumLength: int;
     readonly minimumLength: int;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -293,7 +293,7 @@ export class MaxLengthAttribute$instance extends ValidationAttribute$instance {
     constructor();
     readonly length: int;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -311,7 +311,7 @@ export class MinLengthAttribute$instance extends ValidationAttribute$instance {
     constructor(length: int);
     readonly length: int;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -319,7 +319,7 @@ export type MinLengthAttribute = MinLengthAttribute$instance;
 
 export class PhoneAttribute$instance extends DataTypeAttribute$instance {
     constructor();
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -330,14 +330,14 @@ export class RangeAttribute$instance extends ValidationAttribute$instance {
     constructor(minimum: double, maximum: double);
     constructor(type_: Type, minimum: string, maximum: string);
     convertValueInInvariantCulture: boolean;
-    readonly maximum: any;
+    readonly maximum: unknown;
     maximumIsExclusive: boolean;
-    readonly minimum: any;
+    readonly minimum: unknown;
     minimumIsExclusive: boolean;
     readonly operandType: Type;
     parseLimitsInInvariantCulture: boolean;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -349,7 +349,7 @@ export class RegularExpressionAttribute$instance extends ValidationAttribute$ins
     matchTimeoutInMilliseconds: int;
     readonly pattern: string;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -358,7 +358,7 @@ export type RegularExpressionAttribute = RegularExpressionAttribute$instance;
 export class RequiredAttribute$instance extends ValidationAttribute$instance {
     constructor();
     allowEmptyStrings: boolean;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -377,7 +377,7 @@ export class StringLengthAttribute$instance extends ValidationAttribute$instance
     readonly maximumLength: int;
     minimumLength: int;
     formatErrorMessage(name: string): string;
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -393,11 +393,11 @@ export type TimestampAttribute = TimestampAttribute$instance;
 export class UIHintAttribute$instance extends System_Internal.Attribute$instance {
     constructor(uiHint: string);
     constructor(uiHint: string, presentationLayer: string);
-    constructor(uiHint: string, presentationLayer: string, controlParameters: any[]);
-    readonly controlParameters: IDictionary_2<CLROf<string>, any>;
+    constructor(uiHint: string, presentationLayer: string, controlParameters: unknown[]);
+    readonly controlParameters: IDictionary_2<CLROf<string>, unknown>;
     readonly presentationLayer: string;
     readonly uiHint: string;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -406,7 +406,7 @@ export type UIHintAttribute = UIHintAttribute$instance;
 
 export class UrlAttribute$instance extends DataTypeAttribute$instance {
     constructor();
-    isValid(value: any): boolean;
+    isValid(value: unknown): boolean;
 }
 
 
@@ -418,52 +418,54 @@ export abstract class ValidationAttribute$instance extends System_Internal.Attri
     errorMessageResourceType: Type;
     readonly requiresValidationContext: boolean;
     formatErrorMessage(name: string): string;
-    getValidationResult(value: any, validationContext: ValidationContext): ValidationResult;
-    isValid(value: any): boolean;
-    validate(value: any, name: string): void;
-    validate(value: any, validationContext: ValidationContext): void;
+    getValidationResult(value: unknown, validationContext: ValidationContext): ValidationResult;
+    isValid(value: unknown): boolean;
+    validate(value: unknown, name: string): void;
+    validate(value: unknown, validationContext: ValidationContext): void;
 }
 
 
 export type ValidationAttribute = ValidationAttribute$instance;
 
 export class ValidationContext$instance {
-    constructor(instance: any);
-    constructor(instance: any, items: IDictionary_2<any, any>);
-    constructor(instance: any, serviceProvider: IServiceProvider, items: IDictionary_2<any, any>);
-    constructor(instance: any, displayName: string, serviceProvider: IServiceProvider, items: IDictionary_2<any, any>);
+    constructor(instance: unknown);
+    constructor(instance: unknown, items: IDictionary_2<unknown, unknown>);
+    constructor(instance: unknown, serviceProvider: IServiceProvider, items: IDictionary_2<unknown, unknown>);
+    constructor(instance: unknown, displayName: string, serviceProvider: IServiceProvider, items: IDictionary_2<unknown, unknown>);
     displayName: string;
-    readonly items: IDictionary_2<any, any>;
+    readonly items: IDictionary_2<unknown, unknown>;
     memberName: string;
-    readonly objectInstance: any;
+    readonly objectInstance: unknown;
     readonly objectType: Type;
-    getService(serviceType: Type): any;
-    initializeServiceProvider(serviceProvider: Func_2<Type, any>): void;
+    getService(serviceType: Type): unknown;
+    initializeServiceProvider(serviceProvider: Func_2<Type, unknown>): void;
 }
 
 
 export interface __ValidationContext$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
 }
+
+export interface ValidationContext$instance extends System_Internal.IServiceProvider$instance {}
 
 export type ValidationContext = ValidationContext$instance & __ValidationContext$views;
 
 
 export class ValidationException$instance extends System_Internal.Exception$instance {
-    constructor(validationResult: ValidationResult, validatingAttribute: ValidationAttribute, value: any);
-    constructor(errorMessage: string, validatingAttribute: ValidationAttribute, value: any);
+    constructor(validationResult: ValidationResult, validatingAttribute: ValidationAttribute, value: unknown);
+    constructor(errorMessage: string, validatingAttribute: ValidationAttribute, value: unknown);
     constructor();
     constructor(message: string);
     constructor(message: string, innerException: Exception);
     readonly validationAttribute: ValidationAttribute;
     readonly validationResult: ValidationResult;
-    readonly value: any;
+    readonly value: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export interface __ValidationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ValidationException = ValidationException$instance & __ValidationException$views;
@@ -482,14 +484,14 @@ export class ValidationResult$instance {
 export type ValidationResult = ValidationResult$instance;
 
 export abstract class Validator$instance {
-    static TryValidateObject(instance: any, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validateAllProperties: boolean): boolean;
-    static TryValidateObject(instance: any, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
-    static TryValidateProperty(value: any, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
-    static TryValidateValue(value: any, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validationAttributes: IEnumerable_1<ValidationAttribute>): boolean;
-    static ValidateObject(instance: any, validationContext: ValidationContext, validateAllProperties: boolean): void;
-    static ValidateObject(instance: any, validationContext: ValidationContext): void;
-    static ValidateProperty(value: any, validationContext: ValidationContext): void;
-    static ValidateValue(value: any, validationContext: ValidationContext, validationAttributes: IEnumerable_1<ValidationAttribute>): void;
+    static tryValidateObject2(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validateAllProperties: boolean): boolean;
+    static tryValidateObject2(instance: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
+    static tryValidateProperty(value: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>): boolean;
+    static tryValidateValue(value: unknown, validationContext: ValidationContext, validationResults: ICollection_1<ValidationResult>, validationAttributes: IEnumerable_1<ValidationAttribute>): boolean;
+    static validateObject2(instance: unknown, validationContext: ValidationContext, validateAllProperties: boolean): void;
+    static validateObject2(instance: unknown, validationContext: ValidationContext): void;
+    static validateProperty(value: unknown, validationContext: ValidationContext): void;
+    static validateValue(value: unknown, validationContext: ValidationContext, validationAttributes: IEnumerable_1<ValidationAttribute>): void;
 }
 
 

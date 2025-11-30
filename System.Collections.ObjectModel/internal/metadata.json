@@ -606,13 +606,6 @@
           "isStatic": false,
           "parameterCount": 1
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
       ]
     },
     {
@@ -1349,14 +1342,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.ObjectModel:System.Collections.ObjectModel.ObservableCollection\u00601",
@@ -2054,13 +2040,6 @@
           "isStatic": false,
           "parameterCount": 1
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
       ]
     },
     {
@@ -2610,13 +2589,6 @@
           "normalizedSignature": "constructor|(IList_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
         }
       ]
     },
@@ -4549,13 +4521,6 @@
           "normalizedSignature": "constructor|(ObservableCollection_1):void|static=false",
           "isStatic": false,
           "parameterCount": 1
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
         }
       ]
     },

@@ -193,7 +193,7 @@ export abstract class Calendar$instance {
     addSeconds(time: DateTime, seconds: int): DateTime;
     addWeeks(time: DateTime, weeks: int): DateTime;
     abstract addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     abstract getDayOfMonth(time: DateTime): int;
     abstract getDayOfWeek(time: DateTime): DayOfWeek;
     abstract getDayOfYear(time: DateTime): int;
@@ -222,14 +222,16 @@ export abstract class Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly CurrentEra: int;
-    static ReadOnly(calendar: Calendar): Calendar;
+    static readonly currentEra: int;
+    static readOnly(calendar: Calendar): Calendar;
 }
 
 
 export interface __Calendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
+
+export interface Calendar$instance extends System_Internal.ICloneable$instance {}
 
 export type Calendar = Calendar$instance & __Calendar$views;
 
@@ -239,21 +241,21 @@ export class ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalenda
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    clone(): any;
+    clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly ChineseEra: int;
+    static readonly chineseEra: int;
 }
 
 
 export interface __ChineseLunisolarCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __ChineseLunisolarCalendar$views;
 
 
 export class CompareInfo$instance {
-    readonly lcid: int;
+    readonly LCID: int;
     readonly name: string;
     readonly version: SortVersion;
     compare(string1: string, string2: string): int;
@@ -262,68 +264,70 @@ export class CompareInfo$instance {
     compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
     compare(string1: string, offset1: int, string2: string, offset2: int): int;
     compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
-    compare(string1: ReadOnlySpan_1<CLROf<string>>, string2: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): int;
-    equals(value: any): boolean;
+    compare(string1: ReadOnlySpan_1<CLROf<char>>, string2: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     getHashCode(source: string, options: CompareOptions): int;
-    getHashCode(source: ReadOnlySpan_1<CLROf<string>>, options: CompareOptions): int;
+    getHashCode(source: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions): int;
     getSortKey(source: string, options: CompareOptions): SortKey;
     getSortKey(source: string): SortKey;
-    getSortKey(source: ReadOnlySpan_1<CLROf<string>>, destination: Span_1<CLROf<byte>>, options?: CompareOptions): int;
-    getSortKeyLength(source: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): int;
+    getSortKey(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, options?: CompareOptions): int;
+    getSortKeyLength(source: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    indexOf(source: string, value: char): int;
     indexOf(source: string, value: string): int;
-    indexOf(source: string, value: string): int;
+    indexOf(source: string, value: char, options: CompareOptions): int;
     indexOf(source: string, value: string, options: CompareOptions): int;
-    indexOf(source: string, value: string, options: CompareOptions): int;
+    indexOf(source: string, value: char, startIndex: int): int;
     indexOf(source: string, value: string, startIndex: int): int;
-    indexOf(source: string, value: string, startIndex: int): int;
+    indexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
     indexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
-    indexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
+    indexOf(source: string, value: char, startIndex: int, count: int): int;
     indexOf(source: string, value: string, startIndex: int, count: int): int;
-    indexOf(source: string, value: string, startIndex: int, count: int): int;
+    indexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
     indexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    indexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<string>>, value: Rune, options?: CompareOptions): int;
+    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
+    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: Rune, options?: CompareOptions): int;
     isPrefix(source: string, prefix: string, options: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<CLROf<string>>, prefix: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<CLROf<string>>, prefix: ReadOnlySpan_1<CLROf<string>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
+    isPrefix(source: ReadOnlySpan_1<CLROf<char>>, prefix: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): boolean;
+    isPrefix(source: ReadOnlySpan_1<CLROf<char>>, prefix: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
     isPrefix(source: string, prefix: string): boolean;
     isSuffix(source: string, suffix: string, options: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<CLROf<string>>, suffix: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<CLROf<string>>, suffix: ReadOnlySpan_1<CLROf<string>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
+    isSuffix(source: ReadOnlySpan_1<CLROf<char>>, suffix: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): boolean;
+    isSuffix(source: ReadOnlySpan_1<CLROf<char>>, suffix: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
     isSuffix(source: string, suffix: string): boolean;
+    lastIndexOf(source: string, value: char): int;
     lastIndexOf(source: string, value: string): int;
-    lastIndexOf(source: string, value: string): int;
+    lastIndexOf(source: string, value: char, options: CompareOptions): int;
     lastIndexOf(source: string, value: string, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, options: CompareOptions): int;
+    lastIndexOf(source: string, value: char, startIndex: int): int;
     lastIndexOf(source: string, value: string, startIndex: int): int;
-    lastIndexOf(source: string, value: string, startIndex: int): int;
+    lastIndexOf(source: string, value: char, startIndex: int, options: CompareOptions): int;
     lastIndexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, startIndex: int, options: CompareOptions): int;
+    lastIndexOf(source: string, value: char, startIndex: int, count: int): int;
     lastIndexOf(source: string, value: string, startIndex: int, count: int): int;
-    lastIndexOf(source: string, value: string, startIndex: int, count: int): int;
+    lastIndexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
     lastIndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    lastIndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, options?: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<string>>, value: ReadOnlySpan_1<CLROf<string>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<string>>, value: Rune, options?: CompareOptions): int;
+    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
+    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: Rune, options?: CompareOptions): int;
     toString(): string;
-    static GetCompareInfo(culture: int, assembly: Assembly): CompareInfo;
-    static GetCompareInfo(culture: int): CompareInfo;
-    static GetCompareInfo(name: string, assembly: Assembly): CompareInfo;
-    static GetCompareInfo(name: string): CompareInfo;
-    static IsSortable(ch: string): boolean;
-    static IsSortable(text: ReadOnlySpan_1<CLROf<string>>): boolean;
-    static IsSortable(text: string): boolean;
-    static IsSortable(value: Rune): boolean;
+    static getCompareInfo(culture: int, assembly: Assembly): CompareInfo;
+    static getCompareInfo(culture: int): CompareInfo;
+    static getCompareInfo(name: string, assembly: Assembly): CompareInfo;
+    static getCompareInfo(name: string): CompareInfo;
+    static isSortable(ch: char): boolean;
+    static isSortable(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isSortable(text: string): boolean;
+    static isSortable(value: Rune): boolean;
 }
 
 
 export interface __CompareInfo$views {
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
 }
+
+export interface CompareInfo$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
 
 export type CompareInfo = CompareInfo$instance & __CompareInfo$views;
 
@@ -343,7 +347,7 @@ export class CultureInfo$instance {
     readonly isNeutralCulture: boolean;
     readonly isReadOnly: boolean;
     readonly keyboardLayoutId: int;
-    readonly lcid: int;
+    readonly LCID: int;
     readonly name: string;
     readonly nativeName: string;
     numberFormat: NumberFormatInfo;
@@ -355,33 +359,35 @@ export class CultureInfo$instance {
     readonly twoLetterISOLanguageName: string;
     readonly useUserOverride: boolean;
     clearCachedData(): void;
-    clone(): any;
-    equals(value: any): boolean;
+    clone(): unknown;
+    equals(value: unknown): boolean;
     getConsoleFallbackUICulture(): CultureInfo;
-    getFormat(formatType: Type): any;
+    getFormat(formatType: Type): unknown;
     getHashCode(): int;
     toString(): string;
-    static CurrentCulture: CultureInfo;
-    static CurrentUICulture: CultureInfo;
-    static readonly InstalledUICulture: CultureInfo;
-    static DefaultThreadCurrentCulture: CultureInfo;
-    static DefaultThreadCurrentUICulture: CultureInfo;
-    static readonly InvariantCulture: CultureInfo;
-    static CreateSpecificCulture(name: string): CultureInfo;
-    static GetCultureInfo(culture: int): CultureInfo;
-    static GetCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
-    static GetCultureInfo(name: string, altName: string): CultureInfo;
-    static GetCultureInfo(name: string): CultureInfo;
-    static GetCultureInfoByIetfLanguageTag(name: string): CultureInfo;
-    static GetCultures(types: CultureTypes): CultureInfo[];
-    static ReadOnly(ci: CultureInfo): CultureInfo;
+    static currentCulture: CultureInfo;
+    static currentUICulture: CultureInfo;
+    static readonly installedUICulture: CultureInfo;
+    static defaultThreadCurrentCulture: CultureInfo;
+    static defaultThreadCurrentUICulture: CultureInfo;
+    static readonly invariantCulture: CultureInfo;
+    static createSpecificCulture(name: string): CultureInfo;
+    static getCultureInfo(culture: int): CultureInfo;
+    static getCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
+    static getCultureInfo(name: string, altName: string): CultureInfo;
+    static getCultureInfo(name: string): CultureInfo;
+    static getCultureInfoByIetfLanguageTag(name: string): CultureInfo;
+    static getCultures(types: CultureTypes): CultureInfo[];
+    static readOnly(ci: CultureInfo): CultureInfo;
 }
 
 
 export interface __CultureInfo$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IFormatProvider: System_Internal.IFormatProvider$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
+
+export interface CultureInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
@@ -403,7 +409,7 @@ export class CultureNotFoundException$instance extends System_Internal.ArgumentE
 
 
 export interface __CultureNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type CultureNotFoundException = CultureNotFoundException$instance & __CultureNotFoundException$views;
@@ -429,7 +435,7 @@ export class DateTimeFormatInfo$instance {
     monthNames: string[];
     readonly nativeCalendarName: string;
     pmDesignator: string;
-    readonly rfc1123Pattern: string;
+    readonly rfC1123Pattern: string;
     shortDatePattern: string;
     shortestDayNames: string[];
     shortTimePattern: string;
@@ -437,30 +443,32 @@ export class DateTimeFormatInfo$instance {
     timeSeparator: string;
     readonly universalSortableDateTimePattern: string;
     yearMonthPattern: string;
-    clone(): any;
+    clone(): unknown;
     getAbbreviatedDayName(dayofweek: DayOfWeek): string;
     getAbbreviatedEraName(era: int): string;
     getAbbreviatedMonthName(month: int): string;
     getAllDateTimePatterns(): string[];
-    getAllDateTimePatterns(format: string): string[];
+    getAllDateTimePatterns(format: char): string[];
     getDayName(dayofweek: DayOfWeek): string;
     getEra(eraName: string): int;
     getEraName(era: int): string;
-    getFormat(formatType: Type): any;
+    getFormat(formatType: Type): unknown;
     getMonthName(month: int): string;
     getShortestDayName(dayOfWeek: DayOfWeek): string;
-    setAllDateTimePatterns(patterns: string[], format: string): void;
-    static readonly InvariantInfo: DateTimeFormatInfo;
-    static readonly CurrentInfo: DateTimeFormatInfo;
-    static GetInstance(provider: IFormatProvider): DateTimeFormatInfo;
-    static ReadOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
+    setAllDateTimePatterns(patterns: string[], format: char): void;
+    static readonly invariantInfo: DateTimeFormatInfo;
+    static readonly currentInfo: DateTimeFormatInfo;
+    static getInstance(provider: IFormatProvider): DateTimeFormatInfo;
+    static readOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
 }
 
 
 export interface __DateTimeFormatInfo$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IFormatProvider: System_Internal.IFormatProvider$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
+
+export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatInfo$views;
 
@@ -480,7 +488,7 @@ export abstract class EastAsianLunisolarCalendar$instance extends Calendar$insta
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getCelestialStem(sexagenaryYear: int): int;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
@@ -510,7 +518,7 @@ export abstract class EastAsianLunisolarCalendar$instance extends Calendar$insta
 
 
 export interface __EastAsianLunisolarCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & __EastAsianLunisolarCalendar$views;
@@ -527,7 +535,7 @@ export class GregorianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -551,12 +559,12 @@ export class GregorianCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly ADEra: int;
+    static readonly adEra: int;
 }
 
 
 export interface __GregorianCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar$views;
@@ -571,7 +579,7 @@ export class HebrewCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -600,7 +608,7 @@ export class HebrewCalendar$instance extends Calendar$instance {
 
 
 export interface __HebrewCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
@@ -616,7 +624,7 @@ export class HijriCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -645,7 +653,7 @@ export class HijriCalendar$instance extends Calendar$instance {
 
 
 export interface __HijriCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
@@ -655,7 +663,7 @@ export class IdnMapping$instance {
     constructor();
     allowUnassigned: boolean;
     useStd3AsciiRules: boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getAscii(unicode: string): string;
     getAscii(unicode: string, index: int): string;
     getAscii(unicode: string, index: int, count: int): string;
@@ -677,7 +685,7 @@ export class JapaneseCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -706,7 +714,7 @@ export class JapaneseCalendar$instance extends Calendar$instance {
 
 
 export interface __JapaneseCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$views;
@@ -717,14 +725,14 @@ export class JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalend
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    clone(): any;
+    clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly JapaneseEra: int;
+    static readonly japaneseEra: int;
 }
 
 
 export interface __JapaneseLunisolarCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __JapaneseLunisolarCalendar$views;
@@ -739,7 +747,7 @@ export class JulianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -768,7 +776,7 @@ export class JulianCalendar$instance extends Calendar$instance {
 
 
 export interface __JulianCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
@@ -783,7 +791,7 @@ export class KoreanCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -808,12 +816,12 @@ export class KoreanCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly KoreanEra: int;
+    static readonly koreanEra: int;
 }
 
 
 export interface __KoreanCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
@@ -824,14 +832,14 @@ export class KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    clone(): any;
+    clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly GregorianEra: int;
+    static readonly gregorianEra: int;
 }
 
 
 export interface __KoreanLunisolarCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __KoreanLunisolarCalendar$views;
@@ -867,19 +875,21 @@ export class NumberFormatInfo$instance {
     perMilleSymbol: string;
     positiveInfinitySymbol: string;
     positiveSign: string;
-    clone(): any;
-    getFormat(formatType: Type): any;
-    static readonly InvariantInfo: NumberFormatInfo;
-    static readonly CurrentInfo: NumberFormatInfo;
-    static GetInstance(formatProvider: IFormatProvider): NumberFormatInfo;
-    static ReadOnly(nfi: NumberFormatInfo): NumberFormatInfo;
+    clone(): unknown;
+    getFormat(formatType: Type): unknown;
+    static readonly invariantInfo: NumberFormatInfo;
+    static readonly currentInfo: NumberFormatInfo;
+    static getInstance(formatProvider: IFormatProvider): NumberFormatInfo;
+    static readOnly(nfi: NumberFormatInfo): NumberFormatInfo;
 }
 
 
 export interface __NumberFormatInfo$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IFormatProvider: System_Internal.IFormatProvider$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
+
+export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$views;
 
@@ -893,7 +903,7 @@ export class PersianCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -922,7 +932,7 @@ export class PersianCalendar$instance extends Calendar$instance {
 
 
 export interface __PersianCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type PersianCalendar = PersianCalendar$instance & __PersianCalendar$views;
@@ -944,10 +954,10 @@ export class RegionInfo$instance {
     readonly threeLetterISORegionName: string;
     readonly threeLetterWindowsRegionName: string;
     readonly twoLetterISORegionName: string;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly CurrentRegion: RegionInfo;
+    static readonly currentRegion: RegionInfo;
 }
 
 
@@ -956,10 +966,10 @@ export type RegionInfo = RegionInfo$instance;
 export class SortKey$instance {
     readonly keyData: byte[];
     readonly originalString: string;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static Compare(sortkey1: SortKey, sortkey2: SortKey): int;
+    static compare(sortkey1: SortKey, sortkey2: SortKey): int;
 }
 
 
@@ -969,14 +979,14 @@ export class SortVersion$instance {
     constructor(fullVersion: int, sortId: Guid);
     readonly fullVersion: int;
     readonly sortId: Guid;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: SortVersion): boolean;
     getHashCode(): int;
 }
 
 
 export interface __SortVersion$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<SortVersion>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<SortVersion>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: SortVersion): boolean;
@@ -990,18 +1000,18 @@ export class StringInfo$instance {
     constructor(value: string);
     readonly lengthInTextElements: int;
     string_: string;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
-    static GetNextTextElement(str: string, index: int): string;
-    static GetNextTextElement(str: string): string;
-    static GetNextTextElementLength(str: ReadOnlySpan_1<CLROf<string>>): int;
-    static GetNextTextElementLength(str: string, index: int): int;
-    static GetNextTextElementLength(str: string): int;
-    static GetTextElementEnumerator(str: string, index: int): TextElementEnumerator;
-    static GetTextElementEnumerator(str: string): TextElementEnumerator;
-    static ParseCombiningCharacters(str: string): int[];
+    static getNextTextElement2(str: string, index: int): string;
+    static getNextTextElement2(str: string): string;
+    static getNextTextElementLength3(str: ReadOnlySpan_1<CLROf<char>>): int;
+    static getNextTextElementLength3(str: string, index: int): int;
+    static getNextTextElementLength3(str: string): int;
+    static getTextElementEnumerator2(str: string, index: int): TextElementEnumerator;
+    static getTextElementEnumerator2(str: string): TextElementEnumerator;
+    static parseCombiningCharacters(str: string): int[];
 }
 
 
@@ -1016,7 +1026,7 @@ export class TaiwanCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -1045,7 +1055,7 @@ export class TaiwanCalendar$instance extends Calendar$instance {
 
 
 export interface __TaiwanCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
@@ -1056,20 +1066,20 @@ export class TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
-    clone(): any;
+    clone(): unknown;
     getEra(time: DateTime): int;
 }
 
 
 export interface __TaiwanLunisolarCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type TaiwanLunisolarCalendar = TaiwanLunisolarCalendar$instance & __TaiwanLunisolarCalendar$views;
 
 
 export class TextElementEnumerator$instance {
-    readonly current: any;
+    readonly current: unknown;
     readonly elementIndex: int;
     getTextElement(): string;
     moveNext(): boolean;
@@ -1078,8 +1088,10 @@ export class TextElementEnumerator$instance {
 
 
 export interface __TextElementEnumerator$views {
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
+
+export interface TextElementEnumerator$instance extends System_Collections_Internal.IEnumerator$instance {}
 
 export type TextElementEnumerator = TextElementEnumerator$instance & __TextElementEnumerator$views;
 
@@ -1090,27 +1102,29 @@ export class TextInfo$instance {
     readonly ebcdicCodePage: int;
     readonly isReadOnly: boolean;
     readonly isRightToLeft: boolean;
-    readonly lcid: int;
+    readonly LCID: int;
     listSeparator: string;
     readonly macCodePage: int;
     readonly oemCodePage: int;
-    clone(): any;
-    equals(obj: any): boolean;
+    clone(): unknown;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
-    toLower(c: string): string;
+    toLower(c: char): char;
     toLower(str: string): string;
     toString(): string;
     toTitleCase(str: string): string;
-    toUpper(c: string): string;
+    toUpper(c: char): char;
     toUpper(str: string): string;
-    static ReadOnly(textInfo: TextInfo): TextInfo;
+    static readOnly(textInfo: TextInfo): TextInfo;
 }
 
 
 export interface __TextInfo$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
 }
+
+export interface TextInfo$instance extends System_Internal.ICloneable$instance, System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
 
 export type TextInfo = TextInfo$instance & __TextInfo$views;
 
@@ -1124,7 +1138,7 @@ export class ThaiBuddhistCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -1149,12 +1163,12 @@ export class ThaiBuddhistCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly ThaiBuddhistEra: int;
+    static readonly thaiBuddhistEra: int;
 }
 
 
 export interface __ThaiBuddhistCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhistCalendar$views;
@@ -1169,7 +1183,7 @@ export class UmAlQuraCalendar$instance extends Calendar$instance {
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
     addYears(time: DateTime, years: int): DateTime;
-    clone(): any;
+    clone(): unknown;
     getDayOfMonth(time: DateTime): int;
     getDayOfWeek(time: DateTime): DayOfWeek;
     getDayOfYear(time: DateTime): int;
@@ -1193,49 +1207,49 @@ export class UmAlQuraCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly UmAlQuraEra: int;
+    static readonly umAlQuraEra: int;
 }
 
 
 export interface __UmAlQuraCalendar$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
 }
 
 export type UmAlQuraCalendar = UmAlQuraCalendar$instance & __UmAlQuraCalendar$views;
 
 
 export abstract class CharUnicodeInfo$instance {
-    static GetDecimalDigitValue(ch: string): int;
-    static GetDecimalDigitValue(s: string, index: int): int;
-    static GetDigitValue(ch: string): int;
-    static GetDigitValue(s: string, index: int): int;
-    static GetNumericValue(ch: string): double;
-    static GetNumericValue(s: string, index: int): double;
-    static GetUnicodeCategory(ch: string): UnicodeCategory;
-    static GetUnicodeCategory(codePoint: int): UnicodeCategory;
-    static GetUnicodeCategory(s: string, index: int): UnicodeCategory;
+    static getDecimalDigitValue(ch: char): int;
+    static getDecimalDigitValue(s: string, index: int): int;
+    static getDigitValue(ch: char): int;
+    static getDigitValue(s: string, index: int): int;
+    static getNumericValue(ch: char): double;
+    static getNumericValue(s: string, index: int): double;
+    static getUnicodeCategory(ch: char): UnicodeCategory;
+    static getUnicodeCategory(codePoint: int): UnicodeCategory;
+    static getUnicodeCategory(s: string, index: int): UnicodeCategory;
 }
 
 
 export type CharUnicodeInfo = CharUnicodeInfo$instance;
 
 export abstract class GlobalizationExtensions$instance {
-    static GetStringComparer(compareInfo: CompareInfo, options: CompareOptions): StringComparer;
+    static getStringComparer(compareInfo: CompareInfo, options: CompareOptions): StringComparer;
 }
 
 
 export type GlobalizationExtensions = GlobalizationExtensions$instance;
 
 export abstract class ISOWeek$instance {
-    static GetWeekOfYear(date: DateOnly): int;
-    static GetWeekOfYear(date: DateTime): int;
-    static GetWeeksInYear(year: int): int;
-    static GetYear(date: DateOnly): int;
-    static GetYear(date: DateTime): int;
-    static GetYearEnd(year: int): DateTime;
-    static GetYearStart(year: int): DateTime;
-    static ToDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;
-    static ToDateTime(year: int, week: int, dayOfWeek: DayOfWeek): DateTime;
+    static getWeekOfYear2(date: DateOnly): int;
+    static getWeekOfYear2(date: DateTime): int;
+    static getWeeksInYear(year: int): int;
+    static getYear2(date: DateOnly): int;
+    static getYear2(date: DateTime): int;
+    static getYearEnd(year: int): DateTime;
+    static getYearStart(year: int): DateTime;
+    static toDateOnly(year: int, week: int, dayOfWeek: DayOfWeek): DateOnly;
+    static toDateTime(year: int, week: int, dayOfWeek: DayOfWeek): DateTime;
 }
 
 

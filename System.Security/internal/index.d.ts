@@ -62,28 +62,30 @@ export enum SecurityRuleSet {
 }
 
 
-export interface IPermission$instance {
-    Copy(): IPermission;
-    Demand(): void;
-    FromXml(e: SecurityElement): void;
-    Intersect(target: IPermission): IPermission;
-    IsSubsetOf(target: IPermission): boolean;
-    ToXml(): SecurityElement;
+export interface IPermission$instance extends ISecurityEncodable {
+    copy(): IPermission;
+    demand(): void;
+    fromXml(e: SecurityElement): void;
+    intersect(target: IPermission): IPermission;
+    isSubsetOf(target: IPermission): boolean;
+    toXml(): SecurityElement;
 }
 
+
+export interface IPermission$instance extends ISecurityEncodable$instance {}
 
 export type IPermission = IPermission$instance;
 
 export interface ISecurityEncodable$instance {
-    FromXml(e: SecurityElement): void;
-    ToXml(): SecurityElement;
+    fromXml(e: SecurityElement): void;
+    toXml(): SecurityElement;
 }
 
 
 export type ISecurityEncodable = ISecurityEncodable$instance;
 
 export interface IStackWalk$instance {
-    Assert(): void;
+    assert(): void;
 }
 
 
@@ -103,7 +105,7 @@ export class PermissionSet$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    readonly syncRoot: any;
+    readonly syncRoot: unknown;
     addPermission(perm: IPermission): IPermission;
     assert(): void;
     containsNonCodeAccessPermissions(): boolean;
@@ -111,7 +113,7 @@ export class PermissionSet$instance {
     copyTo(array: ClrArray, index: int): void;
     demand(): void;
     deny(): void;
-    equals(o: any): boolean;
+    equals(o: unknown): boolean;
     fromXml(et: SecurityElement): void;
     getEnumerator(): IEnumerator;
     getHashCode(): int;
@@ -126,41 +128,45 @@ export class PermissionSet$instance {
     toString(): string;
     toXml(): SecurityElement;
     union(other: PermissionSet): PermissionSet;
-    static ConvertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
-    static RevertAssert(): void;
+    static convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
+    static revertAssert(): void;
 }
 
 
 export interface __PermissionSet$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISecurityEncodable: ISecurityEncodable$instance;
-    readonly As_IStackWalk: IStackWalk$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISecurityEncodable(): ISecurityEncodable$instance;
+    As_IStackWalk(): IStackWalk$instance;
 }
+
+export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {}
 
 export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
 export class SecureString$instance {
     constructor();
-    constructor(value: ptr<string>, length: int);
+    constructor(value: ptr<char>, length: int);
     readonly length: int;
-    appendChar(c: string): void;
+    appendChar(c: char): void;
     clear(): void;
     copy(): SecureString;
     dispose(): void;
-    insertAt(index: int, c: string): void;
+    insertAt(index: int, c: char): void;
     isReadOnly(): boolean;
     makeReadOnly(): void;
     removeAt(index: int): void;
-    setAt(index: int, c: string): void;
+    setAt(index: int, c: char): void;
 }
 
 
 export interface __SecureString$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface SecureString$instance extends System_Internal.IDisposable$instance {}
 
 export type SecureString = SecureString$instance & __SecureString$views;
 
@@ -189,12 +195,12 @@ export class SecurityElement$instance {
     searchForChildByTag(tag: string): SecurityElement;
     searchForTextOfTag(tag: string): string;
     toString(): string;
-    static Escape(str: string): string;
-    static FromString(xml: string): SecurityElement;
-    static IsValidAttributeName(name: string): boolean;
-    static IsValidAttributeValue(value: string): boolean;
-    static IsValidTag(tag: string): boolean;
-    static IsValidText(text: string): boolean;
+    static escape(str: string): string;
+    static fromString(xml: string): SecurityElement;
+    static isValidAttributeName(name: string): boolean;
+    static isValidAttributeValue(value: string): boolean;
+    static isValidTag(tag: string): boolean;
+    static isValidText(text: string): boolean;
 }
 
 
@@ -206,14 +212,14 @@ export class SecurityException$instance extends System_Internal.SystemException$
     constructor(message: string, inner: Exception);
     constructor(message: string, type_: Type);
     constructor(message: string, type_: Type, state: string);
-    demanded: any;
-    denySetInstance: any;
+    demanded: unknown;
+    denySetInstance: unknown;
     failedAssemblyInfo: AssemblyName;
     grantedSet: string;
     method: MethodInfo;
     permissionState: string;
     permissionType: Type;
-    permitOnlySetInstance: any;
+    permitOnlySetInstance: unknown;
     refusedSet: string;
     url: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -222,7 +228,7 @@ export class SecurityException$instance extends System_Internal.SystemException$
 
 
 export interface __SecurityException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SecurityException = SecurityException$instance & __SecurityException$views;
@@ -281,17 +287,17 @@ export class VerificationException$instance extends System_Internal.SystemExcept
 
 
 export interface __VerificationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type VerificationException = VerificationException$instance & __VerificationException$views;
 
 
 export abstract class SecureStringMarshal$instance {
-    static SecureStringToCoTaskMemAnsi(s: SecureString): nint;
-    static SecureStringToCoTaskMemUnicode(s: SecureString): nint;
-    static SecureStringToGlobalAllocAnsi(s: SecureString): nint;
-    static SecureStringToGlobalAllocUnicode(s: SecureString): nint;
+    static secureStringToCoTaskMemAnsi(s: SecureString): nint;
+    static secureStringToCoTaskMemUnicode(s: SecureString): nint;
+    static secureStringToGlobalAllocAnsi(s: SecureString): nint;
+    static secureStringToGlobalAllocUnicode(s: SecureString): nint;
 }
 
 

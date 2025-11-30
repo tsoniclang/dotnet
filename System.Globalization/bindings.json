@@ -12168,7 +12168,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CompareInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878350,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -12867,7 +12867,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {
@@ -13226,7 +13226,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CultureInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878423,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -13822,7 +13822,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {
@@ -14942,7 +14942,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.DateTimeFormatInfo::RFC1123Pattern:System.String",
           "clrName": "RFC1123Pattern",
-          "tsEmitName": "rfc1123Pattern",
+          "tsEmitName": "rfC1123Pattern",
           "metadataToken": 385878472,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "RFC1123Pattern|:System.String|static=false|accessor=get",
@@ -15532,7 +15532,7 @@
           }
         },
         {
-          "tsName": "rfc1123Pattern",
+          "tsName": "rfC1123Pattern",
           "isStatic": false,
           "tsSignatureId": "RFC1123Pattern|:System.String|static=false|accessor=get",
           "target": {
@@ -30282,7 +30282,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.TextInfo::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385878689,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -30547,7 +30547,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {

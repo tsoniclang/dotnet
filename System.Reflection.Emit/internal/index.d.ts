@@ -60,7 +60,7 @@ export enum FlowControl {
     branch = 0,
     break_ = 1,
     call = 2,
-    cond_Branch = 3,
+    Cond_Branch = 3,
     meta = 4,
     next = 5,
     phi = 6,
@@ -124,25 +124,25 @@ export enum PEFileKinds {
 export enum StackBehaviour {
     pop0 = 0,
     pop1 = 1,
-    pop1_pop1 = 2,
+    Pop1_pop1 = 2,
     popi = 3,
-    popi_pop1 = 4,
-    popi_popi = 5,
-    popi_popi8 = 6,
-    popi_popi_popi = 7,
-    popi_popr4 = 8,
-    popi_popr8 = 9,
+    Popi_pop1 = 4,
+    Popi_popi = 5,
+    Popi_popi8 = 6,
+    Popi_popi_popi = 7,
+    Popi_popr4 = 8,
+    Popi_popr8 = 9,
     popref = 10,
-    popref_pop1 = 11,
-    popref_popi = 12,
-    popref_popi_popi = 13,
-    popref_popi_popi8 = 14,
-    popref_popi_popr4 = 15,
-    popref_popi_popr8 = 16,
-    popref_popi_popref = 17,
+    Popref_pop1 = 11,
+    Popref_popi = 12,
+    Popref_popi_popi = 13,
+    Popref_popi_popi8 = 14,
+    Popref_popi_popr4 = 15,
+    Popref_popi_popr8 = 16,
+    Popref_popi_popref = 17,
     push0 = 18,
     push1 = 19,
-    push1_push1 = 20,
+    Push1_push1 = 20,
     pushi = 21,
     pushi8 = 22,
     pushr4 = 23,
@@ -150,20 +150,20 @@ export enum StackBehaviour {
     pushref = 25,
     varpop = 26,
     varpush = 27,
-    popref_popi_pop1 = 28
+    Popref_popi_pop1 = 28
 }
 
 
 export class Label$instance {
     readonly id: int;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: Label): boolean;
     getHashCode(): int;
 }
 
 
 export interface __Label$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<Label>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<Label>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: Label): boolean;
@@ -182,7 +182,7 @@ export class OpCode$instance {
     readonly stackBehaviourPop: StackBehaviour;
     readonly stackBehaviourPush: StackBehaviour;
     readonly value: short;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: OpCode): boolean;
     getHashCode(): int;
     toString(): string;
@@ -190,7 +190,7 @@ export class OpCode$instance {
 
 
 export interface __OpCode$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<OpCode>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<OpCode>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: OpCode): boolean;
@@ -205,8 +205,8 @@ export abstract class AssemblyBuilder$instance extends System_Reflection_Interna
     readonly isDynamic: boolean;
     readonly location: string;
     defineDynamicModule(name: string): ModuleBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getDynamicModule(name: string): ModuleBuilder;
     getExportedTypes(): Type[];
     getFile(name: string): FileStream;
@@ -220,14 +220,14 @@ export abstract class AssemblyBuilder$instance extends System_Reflection_Interna
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
-    static DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
-    static DefineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
+    static defineDynamicAssembly2(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
+    static defineDynamicAssembly2(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 }
 
 
 export interface __AssemblyBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views;
@@ -236,8 +236,8 @@ export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views
 export abstract class ConstructorBuilder$instance extends System_Reflection_Internal.ConstructorInfo$instance {
     initLocals: boolean;
     defineParameter(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getILGenerator(): ILGenerator;
     getILGenerator(streamSize: int): ILGenerator;
     isDefined(attributeType: Type, inherit: boolean): boolean;
@@ -248,17 +248,17 @@ export abstract class ConstructorBuilder$instance extends System_Reflection_Inte
 
 
 export interface __ConstructorBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
 
 export type ConstructorBuilder = ConstructorBuilder$instance & __ConstructorBuilder$views;
 
 
 export class CustomAttributeBuilder$instance {
-    constructor(con: ConstructorInfo, constructorArgs: any[]);
-    constructor(con: ConstructorInfo, constructorArgs: any[], namedProperties: PropertyInfo[], propertyValues: any[]);
-    constructor(con: ConstructorInfo, constructorArgs: any[], namedFields: FieldInfo[], fieldValues: any[]);
-    constructor(con: ConstructorInfo, constructorArgs: any[], namedProperties: PropertyInfo[], propertyValues: any[], namedFields: FieldInfo[], fieldValues: any[]);
+    constructor(con: ConstructorInfo, constructorArgs: unknown[]);
+    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[]);
+    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]);
+    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]);
 }
 
 
@@ -309,27 +309,27 @@ export class DynamicMethod$instance extends System_Reflection_Internal.MethodInf
     readonly returnType: Type;
     readonly returnTypeCustomAttributes: ICustomAttributeProvider;
     createDelegate(delegateType: Type): Function;
-    createDelegate(delegateType: Type, target: any): Function;
+    createDelegate(delegateType: Type, target: unknown): Function;
     createDelegate<T extends Function>(): T;
-    createDelegate<T extends Function>(target: any): T;
+    createDelegate<T extends Function>(target: unknown): T;
     defineParameter(position: int, attributes: ParameterAttributes, parameterName: string): ParameterBuilder;
     getBaseDefinition(): MethodInfo;
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
-    getCustomAttributes(inherit: boolean): any[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
+    getCustomAttributes(inherit: boolean): unknown[];
     getDynamicILInfo(): DynamicILInfo;
     getILGenerator(streamSize: int): ILGenerator;
     getILGenerator(): ILGenerator;
     getMethodImplementationFlags(): MethodImplAttributes;
     getParameters(): ParameterInfo[];
-    invoke(obj: any, invokeAttr: BindingFlags, binder: Binder, parameters: any[], culture: CultureInfo): any;
-    invoke(obj: any, parameters: any[]): any;
+    invoke(obj: unknown, invokeAttr: BindingFlags, binder: Binder, parameters: unknown[], culture: CultureInfo): unknown;
+    invoke(obj: unknown, parameters: unknown[]): unknown;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     toString(): string;
 }
 
 
 export interface __DynamicMethod$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
 
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
@@ -339,9 +339,9 @@ export abstract class EnumBuilder$instance extends System_Reflection_Internal.Ty
     readonly underlyingField: FieldBuilder;
     createType(): Type;
     createTypeInfo(): TypeInfo;
-    defineLiteral(literalName: string, literalValue: any): FieldBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    defineLiteral(literalName: string, literalValue: unknown): FieldBuilder;
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getField3(name: string, bindingAttr: BindingFlags): FieldInfo;
     getField3(name: string): FieldInfo;
     getFields3(bindingAttr: BindingFlags): FieldInfo[];
@@ -375,9 +375,9 @@ export abstract class EnumBuilder$instance extends System_Reflection_Internal.Ty
     getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
     getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
     getTypeInfo(): TypeInfo;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     makeArrayType(): Type;
     makeArrayType(rank: int): Type;
@@ -389,10 +389,12 @@ export abstract class EnumBuilder$instance extends System_Reflection_Internal.Ty
 
 
 export interface __EnumBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_IReflect: System_Reflection_Internal.IReflect$instance;
-    readonly As_IReflectableType: System_Reflection_Internal.IReflectableType$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_IReflect(): System_Reflection_Internal.IReflect$instance;
+    As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
+
+export interface EnumBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
 
 export type EnumBuilder = EnumBuilder$instance & __EnumBuilder$views;
 
@@ -410,10 +412,10 @@ export abstract class EventBuilder$instance {
 export type EventBuilder = EventBuilder$instance;
 
 export abstract class FieldBuilder$instance extends System_Reflection_Internal.FieldInfo$instance {
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     isDefined(attributeType: Type, inherit: boolean): boolean;
-    setConstant(defaultValue: any): void;
+    setConstant(defaultValue: unknown): void;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     setOffset(iOffset: int): void;
@@ -421,15 +423,15 @@ export abstract class FieldBuilder$instance extends System_Reflection_Internal.F
 
 
 export interface __FieldBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
 
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
 export abstract class GenericTypeParameterBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getField3(name: string, bindingAttr: BindingFlags): FieldInfo;
     getField3(name: string): FieldInfo;
     getFields3(bindingAttr: BindingFlags): FieldInfo[];
@@ -463,9 +465,9 @@ export abstract class GenericTypeParameterBuilder$instance extends System_Reflec
     getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
     getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
     getTypeInfo(): TypeInfo;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setBaseTypeConstraint(baseTypeConstraint: Type): void;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -476,10 +478,12 @@ export abstract class GenericTypeParameterBuilder$instance extends System_Reflec
 
 
 export interface __GenericTypeParameterBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_IReflect: System_Reflection_Internal.IReflect$instance;
-    readonly As_IReflectableType: System_Reflection_Internal.IReflectableType$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_IReflect(): System_Reflection_Internal.IReflect$instance;
+    As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
+
+export interface GenericTypeParameterBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
 
 export type GenericTypeParameterBuilder = GenericTypeParameterBuilder$instance & __GenericTypeParameterBuilder$views;
 
@@ -540,8 +544,8 @@ export abstract class MethodBuilder$instance extends System_Reflection_Internal.
     initLocals: boolean;
     defineGenericParameters(names: string[]): GenericTypeParameterBuilder[];
     defineParameter(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getILGenerator(): ILGenerator;
     getILGenerator(size: int): ILGenerator;
     isDefined(attributeType: Type, inherit: boolean): boolean;
@@ -555,7 +559,7 @@ export abstract class MethodBuilder$instance extends System_Reflection_Internal.
 
 
 export interface __MethodBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
 
 export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
@@ -581,8 +585,8 @@ export abstract class ModuleBuilder$instance extends System_Reflection_Internal.
     defineType(name: string, attr: TypeAttributes, parent: Type, packingSize: PackingSize, typesize: int): TypeBuilder;
     defineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
     getArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     abstract getFieldMetadataToken(field: FieldInfo): int;
     abstract getMethodMetadataToken(method: MethodInfo): int;
     abstract getMethodMetadataToken(constructor_: ConstructorInfo): int;
@@ -597,8 +601,8 @@ export abstract class ModuleBuilder$instance extends System_Reflection_Internal.
 
 
 export interface __ModuleBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ModuleBuilder = ModuleBuilder$instance & __ModuleBuilder$views;
@@ -607,59 +611,59 @@ export type ModuleBuilder = ModuleBuilder$instance & __ModuleBuilder$views;
 export class OpCodes$instance {
     static readonly nop: OpCode;
     static readonly break_: OpCode;
-    static readonly ldarg_0: OpCode;
-    static readonly ldarg_1: OpCode;
-    static readonly ldarg_2: OpCode;
-    static readonly ldarg_3: OpCode;
-    static readonly ldloc_0: OpCode;
-    static readonly ldloc_1: OpCode;
-    static readonly ldloc_2: OpCode;
-    static readonly ldloc_3: OpCode;
-    static readonly stloc_0: OpCode;
-    static readonly stloc_1: OpCode;
-    static readonly stloc_2: OpCode;
-    static readonly stloc_3: OpCode;
-    static readonly ldarg_S: OpCode;
-    static readonly ldarga_S: OpCode;
-    static readonly starg_S: OpCode;
-    static readonly ldloc_S: OpCode;
-    static readonly ldloca_S: OpCode;
-    static readonly stloc_S: OpCode;
+    static readonly Ldarg_0: OpCode;
+    static readonly Ldarg_1: OpCode;
+    static readonly Ldarg_2: OpCode;
+    static readonly Ldarg_3: OpCode;
+    static readonly Ldloc_0: OpCode;
+    static readonly Ldloc_1: OpCode;
+    static readonly Ldloc_2: OpCode;
+    static readonly Ldloc_3: OpCode;
+    static readonly Stloc_0: OpCode;
+    static readonly Stloc_1: OpCode;
+    static readonly Stloc_2: OpCode;
+    static readonly Stloc_3: OpCode;
+    static readonly Ldarg_S: OpCode;
+    static readonly Ldarga_S: OpCode;
+    static readonly Starg_S: OpCode;
+    static readonly Ldloc_S: OpCode;
+    static readonly Ldloca_S: OpCode;
+    static readonly Stloc_S: OpCode;
     static readonly ldnull: OpCode;
-    static readonly ldc_I4_M1: OpCode;
-    static readonly ldc_I4_0: OpCode;
-    static readonly ldc_I4_1: OpCode;
-    static readonly ldc_I4_2: OpCode;
-    static readonly ldc_I4_3: OpCode;
-    static readonly ldc_I4_4: OpCode;
-    static readonly ldc_I4_5: OpCode;
-    static readonly ldc_I4_6: OpCode;
-    static readonly ldc_I4_7: OpCode;
-    static readonly ldc_I4_8: OpCode;
-    static readonly ldc_I4_S: OpCode;
-    static readonly ldc_I4: OpCode;
-    static readonly ldc_I8: OpCode;
-    static readonly ldc_R4: OpCode;
-    static readonly ldc_R8: OpCode;
+    static readonly Ldc_I4_M1: OpCode;
+    static readonly Ldc_I4_0: OpCode;
+    static readonly Ldc_I4_1: OpCode;
+    static readonly Ldc_I4_2: OpCode;
+    static readonly Ldc_I4_3: OpCode;
+    static readonly Ldc_I4_4: OpCode;
+    static readonly Ldc_I4_5: OpCode;
+    static readonly Ldc_I4_6: OpCode;
+    static readonly Ldc_I4_7: OpCode;
+    static readonly Ldc_I4_8: OpCode;
+    static readonly Ldc_I4_S: OpCode;
+    static readonly Ldc_I4: OpCode;
+    static readonly Ldc_I8: OpCode;
+    static readonly Ldc_R4: OpCode;
+    static readonly Ldc_R8: OpCode;
     static readonly dup: OpCode;
     static readonly pop: OpCode;
     static readonly jmp: OpCode;
     static readonly call: OpCode;
     static readonly calli: OpCode;
     static readonly ret: OpCode;
-    static readonly br_S: OpCode;
-    static readonly brfalse_S: OpCode;
-    static readonly brtrue_S: OpCode;
-    static readonly beq_S: OpCode;
-    static readonly bge_S: OpCode;
-    static readonly bgt_S: OpCode;
-    static readonly ble_S: OpCode;
-    static readonly blt_S: OpCode;
-    static readonly bne_Un_S: OpCode;
-    static readonly bge_Un_S: OpCode;
-    static readonly bgt_Un_S: OpCode;
-    static readonly ble_Un_S: OpCode;
-    static readonly blt_Un_S: OpCode;
+    static readonly Br_S: OpCode;
+    static readonly Brfalse_S: OpCode;
+    static readonly Brtrue_S: OpCode;
+    static readonly Beq_S: OpCode;
+    static readonly Bge_S: OpCode;
+    static readonly Bgt_S: OpCode;
+    static readonly Ble_S: OpCode;
+    static readonly Blt_S: OpCode;
+    static readonly Bne_Un_S: OpCode;
+    static readonly Bge_Un_S: OpCode;
+    static readonly Bgt_Un_S: OpCode;
+    static readonly Ble_Un_S: OpCode;
+    static readonly Blt_Un_S: OpCode;
     static readonly br: OpCode;
     static readonly brfalse: OpCode;
     static readonly brtrue: OpCode;
@@ -668,53 +672,53 @@ export class OpCodes$instance {
     static readonly bgt: OpCode;
     static readonly ble: OpCode;
     static readonly blt: OpCode;
-    static readonly bne_Un: OpCode;
-    static readonly bge_Un: OpCode;
-    static readonly bgt_Un: OpCode;
-    static readonly ble_Un: OpCode;
-    static readonly blt_Un: OpCode;
+    static readonly Bne_Un: OpCode;
+    static readonly Bge_Un: OpCode;
+    static readonly Bgt_Un: OpCode;
+    static readonly Ble_Un: OpCode;
+    static readonly Blt_Un: OpCode;
     static readonly switch_: OpCode;
-    static readonly ldind_I1: OpCode;
-    static readonly ldind_U1: OpCode;
-    static readonly ldind_I2: OpCode;
-    static readonly ldind_U2: OpCode;
-    static readonly ldind_I4: OpCode;
-    static readonly ldind_U4: OpCode;
-    static readonly ldind_I8: OpCode;
-    static readonly ldind_I: OpCode;
-    static readonly ldind_R4: OpCode;
-    static readonly ldind_R8: OpCode;
-    static readonly ldind_Ref: OpCode;
-    static readonly stind_Ref: OpCode;
-    static readonly stind_I1: OpCode;
-    static readonly stind_I2: OpCode;
-    static readonly stind_I4: OpCode;
-    static readonly stind_I8: OpCode;
-    static readonly stind_R4: OpCode;
-    static readonly stind_R8: OpCode;
+    static readonly Ldind_I1: OpCode;
+    static readonly Ldind_U1: OpCode;
+    static readonly Ldind_I2: OpCode;
+    static readonly Ldind_U2: OpCode;
+    static readonly Ldind_I4: OpCode;
+    static readonly Ldind_U4: OpCode;
+    static readonly Ldind_I8: OpCode;
+    static readonly Ldind_I: OpCode;
+    static readonly Ldind_R4: OpCode;
+    static readonly Ldind_R8: OpCode;
+    static readonly Ldind_Ref: OpCode;
+    static readonly Stind_Ref: OpCode;
+    static readonly Stind_I1: OpCode;
+    static readonly Stind_I2: OpCode;
+    static readonly Stind_I4: OpCode;
+    static readonly Stind_I8: OpCode;
+    static readonly Stind_R4: OpCode;
+    static readonly Stind_R8: OpCode;
     static readonly add: OpCode;
     static readonly sub: OpCode;
     static readonly mul: OpCode;
     static readonly div: OpCode;
-    static readonly div_Un: OpCode;
+    static readonly Div_Un: OpCode;
     static readonly rem: OpCode;
-    static readonly rem_Un: OpCode;
+    static readonly Rem_Un: OpCode;
     static readonly and: OpCode;
     static readonly or: OpCode;
     static readonly xor: OpCode;
     static readonly shl: OpCode;
     static readonly shr: OpCode;
-    static readonly shr_Un: OpCode;
+    static readonly Shr_Un: OpCode;
     static readonly neg: OpCode;
     static readonly not: OpCode;
-    static readonly conv_I1: OpCode;
-    static readonly conv_I2: OpCode;
-    static readonly conv_I4: OpCode;
-    static readonly conv_I8: OpCode;
-    static readonly conv_R4: OpCode;
-    static readonly conv_R8: OpCode;
-    static readonly conv_U4: OpCode;
-    static readonly conv_U8: OpCode;
+    static readonly Conv_I1: OpCode;
+    static readonly Conv_I2: OpCode;
+    static readonly Conv_I4: OpCode;
+    static readonly Conv_I8: OpCode;
+    static readonly Conv_R4: OpCode;
+    static readonly Conv_R8: OpCode;
+    static readonly Conv_U4: OpCode;
+    static readonly Conv_U8: OpCode;
     static readonly callvirt: OpCode;
     static readonly cpobj: OpCode;
     static readonly ldobj: OpCode;
@@ -722,7 +726,7 @@ export class OpCodes$instance {
     static readonly newobj: OpCode;
     static readonly castclass: OpCode;
     static readonly isinst: OpCode;
-    static readonly conv_R_Un: OpCode;
+    static readonly Conv_R_Un: OpCode;
     static readonly unbox: OpCode;
     static readonly throw_: OpCode;
     static readonly ldfld: OpCode;
@@ -732,70 +736,70 @@ export class OpCodes$instance {
     static readonly ldsflda: OpCode;
     static readonly stsfld: OpCode;
     static readonly stobj: OpCode;
-    static readonly conv_Ovf_I1_Un: OpCode;
-    static readonly conv_Ovf_I2_Un: OpCode;
-    static readonly conv_Ovf_I4_Un: OpCode;
-    static readonly conv_Ovf_I8_Un: OpCode;
-    static readonly conv_Ovf_U1_Un: OpCode;
-    static readonly conv_Ovf_U2_Un: OpCode;
-    static readonly conv_Ovf_U4_Un: OpCode;
-    static readonly conv_Ovf_U8_Un: OpCode;
-    static readonly conv_Ovf_I_Un: OpCode;
-    static readonly conv_Ovf_U_Un: OpCode;
+    static readonly Conv_Ovf_I1_Un: OpCode;
+    static readonly Conv_Ovf_I2_Un: OpCode;
+    static readonly Conv_Ovf_I4_Un: OpCode;
+    static readonly Conv_Ovf_I8_Un: OpCode;
+    static readonly Conv_Ovf_U1_Un: OpCode;
+    static readonly Conv_Ovf_U2_Un: OpCode;
+    static readonly Conv_Ovf_U4_Un: OpCode;
+    static readonly Conv_Ovf_U8_Un: OpCode;
+    static readonly Conv_Ovf_I_Un: OpCode;
+    static readonly Conv_Ovf_U_Un: OpCode;
     static readonly box: OpCode;
     static readonly newarr: OpCode;
     static readonly ldlen: OpCode;
     static readonly ldelema: OpCode;
-    static readonly ldelem_I1: OpCode;
-    static readonly ldelem_U1: OpCode;
-    static readonly ldelem_I2: OpCode;
-    static readonly ldelem_U2: OpCode;
-    static readonly ldelem_I4: OpCode;
-    static readonly ldelem_U4: OpCode;
-    static readonly ldelem_I8: OpCode;
-    static readonly ldelem_I: OpCode;
-    static readonly ldelem_R4: OpCode;
-    static readonly ldelem_R8: OpCode;
-    static readonly ldelem_Ref: OpCode;
-    static readonly stelem_I: OpCode;
-    static readonly stelem_I1: OpCode;
-    static readonly stelem_I2: OpCode;
-    static readonly stelem_I4: OpCode;
-    static readonly stelem_I8: OpCode;
-    static readonly stelem_R4: OpCode;
-    static readonly stelem_R8: OpCode;
-    static readonly stelem_Ref: OpCode;
+    static readonly Ldelem_I1: OpCode;
+    static readonly Ldelem_U1: OpCode;
+    static readonly Ldelem_I2: OpCode;
+    static readonly Ldelem_U2: OpCode;
+    static readonly Ldelem_I4: OpCode;
+    static readonly Ldelem_U4: OpCode;
+    static readonly Ldelem_I8: OpCode;
+    static readonly Ldelem_I: OpCode;
+    static readonly Ldelem_R4: OpCode;
+    static readonly Ldelem_R8: OpCode;
+    static readonly Ldelem_Ref: OpCode;
+    static readonly Stelem_I: OpCode;
+    static readonly Stelem_I1: OpCode;
+    static readonly Stelem_I2: OpCode;
+    static readonly Stelem_I4: OpCode;
+    static readonly Stelem_I8: OpCode;
+    static readonly Stelem_R4: OpCode;
+    static readonly Stelem_R8: OpCode;
+    static readonly Stelem_Ref: OpCode;
     static readonly ldelem: OpCode;
     static readonly stelem: OpCode;
-    static readonly unbox_Any: OpCode;
-    static readonly conv_Ovf_I1: OpCode;
-    static readonly conv_Ovf_U1: OpCode;
-    static readonly conv_Ovf_I2: OpCode;
-    static readonly conv_Ovf_U2: OpCode;
-    static readonly conv_Ovf_I4: OpCode;
-    static readonly conv_Ovf_U4: OpCode;
-    static readonly conv_Ovf_I8: OpCode;
-    static readonly conv_Ovf_U8: OpCode;
+    static readonly Unbox_Any: OpCode;
+    static readonly Conv_Ovf_I1: OpCode;
+    static readonly Conv_Ovf_U1: OpCode;
+    static readonly Conv_Ovf_I2: OpCode;
+    static readonly Conv_Ovf_U2: OpCode;
+    static readonly Conv_Ovf_I4: OpCode;
+    static readonly Conv_Ovf_U4: OpCode;
+    static readonly Conv_Ovf_I8: OpCode;
+    static readonly Conv_Ovf_U8: OpCode;
     static readonly refanyval: OpCode;
     static readonly ckfinite: OpCode;
     static readonly mkrefany: OpCode;
     static readonly ldtoken: OpCode;
-    static readonly conv_U2: OpCode;
-    static readonly conv_U1: OpCode;
-    static readonly conv_I: OpCode;
-    static readonly conv_Ovf_I: OpCode;
-    static readonly conv_Ovf_U: OpCode;
-    static readonly add_Ovf: OpCode;
-    static readonly add_Ovf_Un: OpCode;
-    static readonly mul_Ovf: OpCode;
-    static readonly mul_Ovf_Un: OpCode;
-    static readonly sub_Ovf: OpCode;
-    static readonly sub_Ovf_Un: OpCode;
+    static readonly Conv_U2: OpCode;
+    static readonly Conv_U1: OpCode;
+    static readonly Conv_I: OpCode;
+    static readonly Conv_Ovf_I: OpCode;
+    static readonly Conv_Ovf_U: OpCode;
+    static readonly Add_Ovf: OpCode;
+    static readonly Add_Ovf_Un: OpCode;
+    static readonly Mul_Ovf: OpCode;
+    static readonly Mul_Ovf_Un: OpCode;
+    static readonly Sub_Ovf: OpCode;
+    static readonly Sub_Ovf_Un: OpCode;
     static readonly endfinally: OpCode;
     static readonly leave: OpCode;
-    static readonly leave_S: OpCode;
-    static readonly stind_I: OpCode;
-    static readonly conv_U: OpCode;
+    static readonly Leave_S: OpCode;
+    static readonly Stind_I: OpCode;
+    static readonly Conv_U: OpCode;
     static readonly prefix7: OpCode;
     static readonly prefix6: OpCode;
     static readonly prefix5: OpCode;
@@ -807,9 +811,9 @@ export class OpCodes$instance {
     static readonly arglist: OpCode;
     static readonly ceq: OpCode;
     static readonly cgt: OpCode;
-    static readonly cgt_Un: OpCode;
+    static readonly Cgt_Un: OpCode;
     static readonly clt: OpCode;
-    static readonly clt_Un: OpCode;
+    static readonly Clt_Un: OpCode;
     static readonly ldftn: OpCode;
     static readonly ldvirtftn: OpCode;
     static readonly ldarg: OpCode;
@@ -831,7 +835,7 @@ export class OpCodes$instance {
     static readonly sizeof: OpCode;
     static readonly refanytype: OpCode;
     static readonly readonly_: OpCode;
-    static TakesSingleByteArgument(inst: OpCode): boolean;
+    static takesSingleByteArgument(inst: OpCode): boolean;
 }
 
 
@@ -844,7 +848,7 @@ export abstract class ParameterBuilder$instance {
     readonly isOut: boolean;
     readonly name: string;
     readonly position: int;
-    setConstant(defaultValue: any): void;
+    setConstant(defaultValue: unknown): void;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
 }
@@ -858,8 +862,8 @@ export class PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance 
     readonly manifestModule: Module;
     generateMetadata(ilStream: { value: ref<BlobBuilder> }, mappedFieldData: { value: ref<BlobBuilder> }): MetadataBuilder;
     generateMetadata(ilStream: { value: ref<BlobBuilder> }, mappedFieldData: { value: ref<BlobBuilder> }, pdbBuilder: { value: ref<MetadataBuilder> }): MetadataBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getName(copiedName: boolean): AssemblyName;
     getName(): AssemblyName;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -870,8 +874,8 @@ export class PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance 
 
 
 export interface __PersistedAssemblyBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __PersistedAssemblyBuilder$views;
@@ -879,10 +883,10 @@ export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __Per
 
 export abstract class PropertyBuilder$instance extends System_Reflection_Internal.PropertyInfo$instance {
     addOtherMethod(mdBuilder: MethodBuilder): void;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     isDefined(attributeType: Type, inherit: boolean): boolean;
-    setConstant(defaultValue: any): void;
+    setConstant(defaultValue: unknown): void;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     setGetMethod(mdBuilder: MethodBuilder): void;
@@ -891,7 +895,7 @@ export abstract class PropertyBuilder$instance extends System_Reflection_Interna
 
 
 export interface __PropertyBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
 
 export type PropertyBuilder = PropertyBuilder$instance & __PropertyBuilder$views;
@@ -903,19 +907,19 @@ export class SignatureHelper$instance {
     addArgument(argument: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[]): void;
     addArguments(arguments: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): void;
     addSentinel(): void;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getSignature(): byte[];
     toString(): string;
-    static GetFieldSigHelper(mod: Module): SignatureHelper;
-    static GetLocalVarSigHelper(): SignatureHelper;
-    static GetLocalVarSigHelper(mod: Module): SignatureHelper;
-    static GetMethodSigHelper(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static GetMethodSigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static GetMethodSigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
-    static GetPropertySigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static GetPropertySigHelper(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static GetPropertySigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    static getFieldSigHelper(mod: Module): SignatureHelper;
+    static getLocalVarSigHelper(): SignatureHelper;
+    static getLocalVarSigHelper(mod: Module): SignatureHelper;
+    static getMethodSigHelper3(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    static getMethodSigHelper3(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    static getMethodSigHelper3(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    static getPropertySigHelper3(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    static getPropertySigHelper3(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    static getPropertySigHelper3(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
 }
 
 
@@ -957,8 +961,8 @@ export abstract class TypeBuilder$instance extends System_Reflection_Internal.Ty
     defineProperty(name: string, attributes: PropertyAttributes, callingConvention: CallingConventions, returnType: Type, returnTypeRequiredCustomModifiers: Type[], returnTypeOptionalCustomModifiers: Type[], parameterTypes: Type[], parameterTypeRequiredCustomModifiers: Type[][], parameterTypeOptionalCustomModifiers: Type[][]): PropertyBuilder;
     defineTypeInitializer(): ConstructorBuilder;
     defineUninitializedData(name: string, size: int, attributes: FieldAttributes): FieldBuilder;
-    getCustomAttributes(inherit: boolean): any[];
-    getCustomAttributes(attributeType: Type, inherit: boolean): any[];
+    getCustomAttributes(inherit: boolean): unknown[];
+    getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getField3(name: string, bindingAttr: BindingFlags): FieldInfo;
     getField3(name: string): FieldInfo;
     getFields3(bindingAttr: BindingFlags): FieldInfo[];
@@ -992,9 +996,9 @@ export abstract class TypeBuilder$instance extends System_Reflection_Internal.Ty
     getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo;
     getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo;
     getTypeInfo(): TypeInfo;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[]): any;
-    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: any, args: any[], culture: CultureInfo): any;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown;
+    invokeMember4(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown;
     isCreated(): boolean;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     makeArrayType(): Type;
@@ -1005,18 +1009,20 @@ export abstract class TypeBuilder$instance extends System_Reflection_Internal.Ty
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     setParent(parent: Type): void;
-    static readonly UnspecifiedTypeSize: int;
-    static GetConstructor(type_: Type, constructor_: ConstructorInfo): ConstructorInfo;
-    static GetField(type_: Type, field: FieldInfo): FieldInfo;
-    static GetMethod(type_: Type, method: MethodInfo): MethodInfo;
+    static readonly unspecifiedTypeSize: int;
+    static getConstructor(type_: Type, constructor_: ConstructorInfo): ConstructorInfo;
+    static getField(type_: Type, field: FieldInfo): FieldInfo;
+    static getMethod(type_: Type, method: MethodInfo): MethodInfo;
 }
 
 
 export interface __TypeBuilder$views {
-    readonly As_ICustomAttributeProvider: System_Reflection_Internal.ICustomAttributeProvider$instance;
-    readonly As_IReflect: System_Reflection_Internal.IReflect$instance;
-    readonly As_IReflectableType: System_Reflection_Internal.IReflectableType$instance;
+    As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
+    As_IReflect(): System_Reflection_Internal.IReflect$instance;
+    As_IReflectableType(): System_Reflection_Internal.IReflectableType$instance;
 }
+
+export interface TypeBuilder$instance extends System_Reflection_Internal.IReflectableType$instance {}
 
 export type TypeBuilder = TypeBuilder$instance & __TypeBuilder$views;
 

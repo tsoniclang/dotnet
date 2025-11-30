@@ -43,8 +43,10 @@ export class AssemblyLoadContext_ContextualReflectionScope$instance {
 
 
 export interface __AssemblyLoadContext_ContextualReflectionScope$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AssemblyLoadContext_ContextualReflectionScope$instance extends System_Internal.IDisposable$instance {}
 
 export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_ContextualReflectionScope$instance & __AssemblyLoadContext_ContextualReflectionScope$views;
 
@@ -73,12 +75,12 @@ export class AssemblyLoadContext$instance {
     startProfileOptimization(profile: string): void;
     toString(): string;
     unload(): void;
-    static readonly Default: AssemblyLoadContext;
-    static readonly All: IEnumerable_1<AssemblyLoadContext>;
-    static readonly CurrentContextualReflectionContext: AssemblyLoadContext;
-    static EnterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
-    static GetAssemblyName(assemblyPath: string): AssemblyName;
-    static GetLoadContext(assembly: Assembly): AssemblyLoadContext;
+    static readonly default_: AssemblyLoadContext;
+    static readonly all: IEnumerable_1<AssemblyLoadContext>;
+    static readonly currentContextualReflectionContext: AssemblyLoadContext;
+    static enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
+    static getAssemblyName(assemblyPath: string): AssemblyName;
+    static getLoadContext(assembly: Assembly): AssemblyLoadContext;
 }
 
 

@@ -35,8 +35,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface ICommand$instance {
-    CanExecute(parameter: any): boolean;
-    Execute(parameter: any): void;
+    canExecute(parameter: unknown): boolean;
+    execute(parameter: unknown): void;
 }
 
 

@@ -47,14 +47,16 @@ export class BinaryFormatter$instance {
     filterLevel: TypeFilterLevel;
     surrogateSelector: ISurrogateSelector;
     typeFormat: FormatterTypeStyle;
-    deserialize(serializationStream: Stream): any;
-    serialize(serializationStream: Stream, graph: any): void;
+    deserialize(serializationStream: Stream): unknown;
+    serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 
 export interface __BinaryFormatter$views {
-    readonly As_IFormatter: System_Runtime_Serialization_Internal.IFormatter$instance;
+    As_IFormatter(): System_Runtime_Serialization_Internal.IFormatter$instance;
 }
+
+export interface BinaryFormatter$instance extends System_Runtime_Serialization_Internal.IFormatter$instance {}
 
 export type BinaryFormatter = BinaryFormatter$instance & __BinaryFormatter$views;
 

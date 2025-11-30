@@ -38,17 +38,17 @@ export type CLROf<T> =
 
 export class Evidence$instance {
     constructor();
-    constructor(hostEvidence: any[], assemblyEvidence: any[]);
+    constructor(hostEvidence: unknown[], assemblyEvidence: unknown[]);
     constructor(evidence: Evidence);
     constructor(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]);
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
     locked: boolean;
-    readonly syncRoot: any;
-    addAssembly(id: any): void;
+    readonly syncRoot: unknown;
+    addAssembly(id: unknown): void;
     addAssemblyEvidence<T extends EvidenceBase>(evidence: T): void;
-    addHost(id: any): void;
+    addHost(id: unknown): void;
     addHostEvidence<T extends EvidenceBase>(evidence: T): void;
     clear(): void;
     clone(): Evidence;
@@ -64,8 +64,8 @@ export class Evidence$instance {
 
 
 export interface __Evidence$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Evidence = Evidence$instance & __Evidence$views;

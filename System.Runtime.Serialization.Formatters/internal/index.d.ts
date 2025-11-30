@@ -54,8 +54,8 @@ export enum TypeFilterLevel {
 
 
 export interface IFieldInfo$instance {
-    FieldNames: string[];
-    FieldTypes: Type[];
+    fieldNames: string[];
+    fieldTypes: Type[];
 }
 
 

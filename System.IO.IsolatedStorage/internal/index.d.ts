@@ -55,18 +55,18 @@ export enum IsolatedStorageScope {
 
 
 export interface INormalizeForIsolatedStorage$instance {
-    Normalize(): any;
+    normalize(): unknown;
 }
 
 
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
 export abstract class IsolatedStorage$instance extends System_Internal.MarshalByRefObject$instance {
-    readonly applicationIdentity: any;
-    readonly assemblyIdentity: any;
+    readonly applicationIdentity: unknown;
+    readonly assemblyIdentity: unknown;
     readonly availableFreeSpace: long;
     readonly currentSize: ulong;
-    readonly domainIdentity: any;
+    readonly domainIdentity: unknown;
     readonly maximumSize: ulong;
     readonly quota: long;
     readonly scope: IsolatedStorageScope;
@@ -87,7 +87,7 @@ export class IsolatedStorageException$instance extends System_Internal.Exception
 
 
 export interface __IsolatedStorageException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type IsolatedStorageException = IsolatedStorageException$instance & __IsolatedStorageException$views;
@@ -123,26 +123,28 @@ export class IsolatedStorageFile$instance extends IsolatedStorage$instance {
     openFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
     openFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
     remove(): void;
-    static readonly IsEnabled: boolean;
-    static GetEnumerator(scope: IsolatedStorageScope): IEnumerator;
-    static GetMachineStoreForApplication(): IsolatedStorageFile;
-    static GetMachineStoreForAssembly(): IsolatedStorageFile;
-    static GetMachineStoreForDomain(): IsolatedStorageFile;
-    static GetStore(scope: IsolatedStorageScope, domainIdentity: any, assemblyIdentity: any): IsolatedStorageFile;
-    static GetStore(scope: IsolatedStorageScope, applicationIdentity: any): IsolatedStorageFile;
-    static GetStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
-    static GetStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
-    static GetUserStoreForApplication(): IsolatedStorageFile;
-    static GetUserStoreForAssembly(): IsolatedStorageFile;
-    static GetUserStoreForDomain(): IsolatedStorageFile;
-    static GetUserStoreForSite(): IsolatedStorageFile;
-    static Remove(scope: IsolatedStorageScope): void;
+    static readonly isEnabled: boolean;
+    static getEnumerator(scope: IsolatedStorageScope): IEnumerator;
+    static getMachineStoreForApplication(): IsolatedStorageFile;
+    static getMachineStoreForAssembly(): IsolatedStorageFile;
+    static getMachineStoreForDomain(): IsolatedStorageFile;
+    static getStore4(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
+    static getStore4(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
+    static getStore4(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
+    static getStore4(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
+    static getUserStoreForApplication(): IsolatedStorageFile;
+    static getUserStoreForAssembly(): IsolatedStorageFile;
+    static getUserStoreForDomain(): IsolatedStorageFile;
+    static getUserStoreForSite(): IsolatedStorageFile;
+    static remove(scope: IsolatedStorageScope): void;
 }
 
 
 export interface __IsolatedStorageFile$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface IsolatedStorageFile$instance extends System_Internal.IDisposable$instance {}
 
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 
@@ -164,8 +166,8 @@ export class IsolatedStorageFileStream$instance extends System_IO_Internal.FileS
     readonly length: long;
     position: long;
     readonly safeFileHandle: SafeFileHandle;
-    beginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
-    beginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: any): IAsyncResult;
+    beginRead(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
+    beginWrite(array: byte[], offset: int, numBytes: int, userCallback: AsyncCallback, stateObject: unknown): IAsyncResult;
     dispose(): void;
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
@@ -199,8 +201,8 @@ export class IsolatedStorageFileStream$instance extends System_IO_Internal.FileS
 
 
 export interface __IsolatedStorageFileStream$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type IsolatedStorageFileStream = IsolatedStorageFileStream$instance & __IsolatedStorageFileStream$views;

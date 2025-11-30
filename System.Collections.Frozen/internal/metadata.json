@@ -214,14 +214,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenSet\u00601\u002BAlternateLookup\u00601",
@@ -418,14 +411,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.IDisposable",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Frozen.FrozenDictionary\u00602",

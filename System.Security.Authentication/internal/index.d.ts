@@ -91,7 +91,7 @@ export class AuthenticationException$instance extends System_Internal.SystemExce
 
 
 export interface __AuthenticationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AuthenticationException = AuthenticationException$instance & __AuthenticationException$views;
@@ -106,7 +106,7 @@ export class InvalidCredentialException$instance extends AuthenticationException
 
 
 export interface __InvalidCredentialException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidCredentialException = InvalidCredentialException$instance & __InvalidCredentialException$views;

@@ -12,7 +12,7 @@ import type { MethodBase } from '../System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from '../System.Runtime.Serialization/internal/index.js';
 import type { ValueTask, ValueTask_1 } from '../System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from '../System.Threading/internal/index.js';
-import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Byte, Comparison_1, Converter_2, Enum, Exception, Func_2, Func_3, IComparable_1, IDisposable, IEquatable_1, Int32, Nullable_1, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, ValueTuple_2, ValueType, Void } from '../System/internal/index.js';
+import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Byte, Comparison_1, Converter_2, Enum, Exception, Func_2, Func_3, IAsyncDisposable, IComparable_1, IDisposable, IEquatable_1, Int32, Nullable_1, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, ValueTuple_2, ValueType, Void } from '../System/internal/index.js';
 
 export * from './internal/index.js';
 

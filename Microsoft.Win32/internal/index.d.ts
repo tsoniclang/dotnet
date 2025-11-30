@@ -109,9 +109,9 @@ export class RegistryKey$instance extends System_Internal.MarshalByRefObject$ins
     getAccessControl(): RegistrySecurity;
     getAccessControl(includeSections: AccessControlSections): RegistrySecurity;
     getSubKeyNames(): string[];
-    getValue(name: string): any;
-    getValue(name: string, defaultValue: any): any;
-    getValue(name: string, defaultValue: any, options: RegistryValueOptions): any;
+    getValue(name: string): unknown;
+    getValue(name: string, defaultValue: unknown): unknown;
+    getValue(name: string, defaultValue: unknown, options: RegistryValueOptions): unknown;
     getValueKind(name: string): RegistryValueKind;
     getValueNames(): string[];
     openSubKey(name: string): RegistryKey;
@@ -120,20 +120,22 @@ export class RegistryKey$instance extends System_Internal.MarshalByRefObject$ins
     openSubKey(name: string, writable: boolean): RegistryKey;
     openSubKey(name: string, rights: RegistryRights): RegistryKey;
     setAccessControl(registrySecurity: RegistrySecurity): void;
-    setValue(name: string, value: any): void;
-    setValue(name: string, value: any, valueKind: RegistryValueKind): void;
+    setValue(name: string, value: unknown): void;
+    setValue(name: string, value: unknown, valueKind: RegistryValueKind): void;
     toString(): string;
-    static FromHandle(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
-    static FromHandle(handle: SafeRegistryHandle): RegistryKey;
-    static OpenBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
-    static OpenRemoteBaseKey(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
-    static OpenRemoteBaseKey(hKey: RegistryHive, machineName: string): RegistryKey;
+    static fromHandle2(handle: SafeRegistryHandle, view: RegistryView): RegistryKey;
+    static fromHandle2(handle: SafeRegistryHandle): RegistryKey;
+    static openBaseKey(hKey: RegistryHive, view: RegistryView): RegistryKey;
+    static openRemoteBaseKey2(hKey: RegistryHive, machineName: string, view: RegistryView): RegistryKey;
+    static openRemoteBaseKey2(hKey: RegistryHive, machineName: string): RegistryKey;
 }
 
 
 export interface __RegistryKey$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface RegistryKey$instance extends System_Internal.IDisposable$instance {}
 
 export type RegistryKey = RegistryKey$instance & __RegistryKey$views;
 
@@ -145,9 +147,9 @@ export abstract class Registry$instance {
     static readonly localMachine: RegistryKey;
     static readonly performanceData: RegistryKey;
     static readonly users: RegistryKey;
-    static GetValue(keyName: string, valueName: string, defaultValue: any): any;
-    static SetValue(keyName: string, valueName: string, value: any, valueKind: RegistryValueKind): void;
-    static SetValue(keyName: string, valueName: string, value: any): void;
+    static getValue(keyName: string, valueName: string, defaultValue: unknown): unknown;
+    static setValue2(keyName: string, valueName: string, value: unknown, valueKind: RegistryValueKind): void;
+    static setValue2(keyName: string, valueName: string, value: unknown): void;
 }
 
 

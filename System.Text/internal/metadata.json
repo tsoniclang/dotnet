@@ -5463,7 +5463,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::ASCII:System.Text.Encoding",
           "clrName": "ASCII",
-          "tsEmitName": "ascii",
+          "tsEmitName": "ASCII",
           "normalizedSignature": "ASCII|:System.Text.Encoding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5538,7 +5538,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::UTF7:System.Text.Encoding",
           "clrName": "UTF7",
-          "tsEmitName": "utf7",
+          "tsEmitName": "UTF7",
           "normalizedSignature": "UTF7|:System.Text.Encoding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5553,7 +5553,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::UTF8:System.Text.Encoding",
           "clrName": "UTF8",
-          "tsEmitName": "utf8",
+          "tsEmitName": "UTF8",
           "normalizedSignature": "UTF8|:System.Text.Encoding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5568,7 +5568,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::UTF32:System.Text.Encoding",
           "clrName": "UTF32",
-          "tsEmitName": "utf32",
+          "tsEmitName": "UTF32",
           "normalizedSignature": "UTF32|:System.Text.Encoding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

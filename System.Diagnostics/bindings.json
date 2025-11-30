@@ -46,7 +46,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::W3CSystem.Diagnostics.ActivityIdFormat",
           "clrName": "W3C",
-          "tsEmitName": "w3c",
+          "tsEmitName": "W3C",
           "metadataToken": 67108947,
           "normalizedSignature": "W3C|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "isStatic": true,
@@ -791,7 +791,7 @@
           }
         },
         {
-          "tsName": "w3c",
+          "tsName": "W3C",
           "isStatic": true,
           "tsSignatureId": "W3C|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "target": {
@@ -39654,7 +39654,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackFrame::OFFSET_UNKNOWNSystem.Int32",
           "clrName": "OFFSET_UNKNOWN",
-          "tsEmitName": "offset_unknown",
+          "tsEmitName": "OFFSET_UNKNOWN",
           "metadataToken": 67116802,
           "normalizedSignature": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "isStatic": true,
@@ -39850,7 +39850,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "offset_unknown",
+          "tsName": "OFFSET_UNKNOWN",
           "isStatic": true,
           "tsSignatureId": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "target": {
@@ -39987,7 +39987,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackTrace::METHODS_TO_SKIPSystem.Int32",
           "clrName": "METHODS_TO_SKIP",
-          "tsEmitName": "methods_to_skip",
+          "tsEmitName": "METHODS_TO_SKIP",
           "metadataToken": 67116823,
           "normalizedSignature": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "isStatic": true,
@@ -40195,7 +40195,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "methods_to_skip",
+          "tsName": "METHODS_TO_SKIP",
           "isStatic": true,
           "tsSignatureId": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "target": {

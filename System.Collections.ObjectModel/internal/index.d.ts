@@ -63,13 +63,13 @@ export class Collection_1$instance<T> {
 
 
 export interface __Collection_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>;
@@ -78,69 +78,71 @@ export type Collection_1<T> = Collection_1$instance<T> & __Collection_1$views<T>
 export abstract class KeyedCollection_2$instance<TKey, TItem> extends Collection_1$instance<TItem> {
     readonly comparer: IEqualityComparer_1<TKey>;
     add(item: TItem): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: TItem): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: TItem[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<TItem>;
     getEnumerator(): IEnumerator;
     indexOf(item: TItem): int;
     insert(index: int, item: TItem): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: TItem): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
     tryGetValue(key: TKey, item: { value: ref<TItem> }): boolean;
 }
 
 
 export interface __KeyedCollection_2$views<TKey, TItem> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<TItem>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TItem>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<TItem>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TItem>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<TItem>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TItem>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<TItem>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TItem>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type KeyedCollection_2<TKey, TItem> = KeyedCollection_2$instance<TKey, TItem> & __KeyedCollection_2$views<TKey, TItem>;
 
 
-export class ObservableCollection_1$instance<T> extends Collection_1$instance<T> {
+export class ObservableCollection_1$instance<T> extends Collection_1$instance<T> implements System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     constructor();
     constructor(collection: IEnumerable_1<T>);
     constructor(list: List_1<T>);
     add(item: T): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: T): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: T[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
     indexOf(item: T): int;
     insert(index: int, item: T): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     move(oldIndex: int, newIndex: int): void;
     remove(item: T): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __ObservableCollection_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
+
+export interface ObservableCollection_1$instance<T> extends System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
 
 export type ObservableCollection_1<T> = ObservableCollection_1$instance<T> & __ObservableCollection_1$views<T>;
 
@@ -153,18 +155,18 @@ export class ReadOnlyCollection_1$instance<T> {
     copyTo(array: T[], index: int): void;
     getEnumerator(): IEnumerator_1<T>;
     indexOf(value: T): int;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __ReadOnlyCollection_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type ReadOnlyCollection_1<T> = ReadOnlyCollection_1$instance<T> & __ReadOnlyCollection_1$views<T>;
@@ -179,19 +181,19 @@ export class ReadOnlyDictionary_2$instance<TKey, TValue> {
     containsKey(key: TKey): boolean;
     getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __ReadOnlyDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ReadOnlyDictionary_2<TKey, TValue> = ReadOnlyDictionary_2$instance<TKey, TValue> & __ReadOnlyDictionary_2$views<TKey, TValue>;
@@ -206,11 +208,11 @@ export class ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue> {
 
 
 export interface __ReadOnlyDictionary_2_KeyCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<TKey>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TKey>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TKey>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<TKey>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TKey>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TKey>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ReadOnlyDictionary_2_KeyCollection<TKey, TValue> = ReadOnlyDictionary_2_KeyCollection$instance<TKey, TValue> & __ReadOnlyDictionary_2_KeyCollection$views<TKey, TValue>;
@@ -224,45 +226,47 @@ export class ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> {
 
 
 export interface __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TValue>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TValue>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ReadOnlyDictionary_2_ValueCollection<TKey, TValue> = ReadOnlyDictionary_2_ValueCollection$instance<TKey, TValue> & __ReadOnlyDictionary_2_ValueCollection$views<TKey, TValue>;
 
 
-export class ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T> {
+export class ReadOnlyObservableCollection_1$instance<T> extends ReadOnlyCollection_1$instance<T> implements System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     constructor(list: ObservableCollection_1<T>);
     add(item: T): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(value: T): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: T[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
     indexOf(value: T): int;
     insert(index: int, item: T): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: T): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __ReadOnlyObservableCollection_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
+
+export interface ReadOnlyObservableCollection_1$instance<T> extends System_Collections_Specialized_Internal.INotifyCollectionChanged$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
 
 export type ReadOnlyObservableCollection_1<T> = ReadOnlyObservableCollection_1$instance<T> & __ReadOnlyObservableCollection_1$views<T>;
 
@@ -278,26 +282,26 @@ export class ReadOnlySet_1$instance<T> {
     isSupersetOf(other: IEnumerable_1<T>): boolean;
     overlaps(other: IEnumerable_1<T>): boolean;
     setEquals(other: IEnumerable_1<T>): boolean;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __ReadOnlySet_1$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ReadOnlySet_1<T> = ReadOnlySet_1$instance<T> & __ReadOnlySet_1$views<T>;
 
 
 export abstract class ReadOnlyCollection$instance {
-    static CreateCollection<T>(values: ReadOnlySpan_1<T>): ReadOnlyCollection_1<T>;
-    static CreateSet<T>(values: ReadOnlySpan_1<T>): ReadOnlySet_1<T>;
+    static createCollection<T>(values: ReadOnlySpan_1<T>): ReadOnlyCollection_1<T>;
+    static createSet<T>(values: ReadOnlySpan_1<T>): ReadOnlySet_1<T>;
 }
 
 

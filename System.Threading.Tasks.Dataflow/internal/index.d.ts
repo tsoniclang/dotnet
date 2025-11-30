@@ -51,63 +51,67 @@ export enum DataflowMessageStatus {
 
 
 export interface IDataflowBlock$instance {
-    readonly Completion: Task;
-    Complete(): void;
-    Fault(exception: Exception): void;
+    readonly completion: Task;
+    complete(): void;
+    fault(exception: Exception): void;
 }
 
 
 export type IDataflowBlock = IDataflowBlock$instance;
 
-export interface IPropagatorBlock_2$instance<TInput, TOutput> {
-    readonly Completion: Task;
-    Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
-    Fault(exception: Exception): void;
-    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
-    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+export interface IPropagatorBlock_2$instance<TInput, TOutput> extends ITargetBlock_1<TInput>, IDataflowBlock, ISourceBlock_1<TOutput> {
+    readonly completion: Task;
+    complete(): void;
+    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
+    fault(exception: Exception): void;
+    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    offerMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
 }
 
 
 export type IPropagatorBlock_2<TInput, TOutput> = IPropagatorBlock_2$instance<TInput, TOutput>;
 
-export interface IReceivableSourceBlock_1$instance<TOutput> {
-    readonly Completion: Task;
-    Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
-    Fault(exception: Exception): void;
-    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
-    TryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
-    TryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
+export interface IReceivableSourceBlock_1$instance<TOutput> extends ISourceBlock_1<TOutput>, IDataflowBlock {
+    readonly completion: Task;
+    complete(): void;
+    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
+    fault(exception: Exception): void;
+    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+    tryReceive(filter: Predicate_1<TOutput>, item: { value: ref<TOutput> }): boolean;
+    tryReceiveAll(items: { value: ref<IList_1<TOutput>> }): boolean;
 }
 
 
 export type IReceivableSourceBlock_1<TOutput> = IReceivableSourceBlock_1$instance<TOutput>;
 
-export interface ISourceBlock_1$instance<TOutput> {
-    readonly Completion: Task;
-    Complete(): void;
-    ConsumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
-    Fault(exception: Exception): void;
-    LinkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
-    ReleaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
-    ReserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
+export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock {
+    readonly completion: Task;
+    complete(): void;
+    consumeMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>, messageConsumed: { value: ref<boolean> }): TOutput;
+    fault(exception: Exception): void;
+    linkTo(target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions): IDisposable;
+    releaseReservation(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): void;
+    reserveMessage(messageHeader: DataflowMessageHeader, target: ITargetBlock_1<TOutput>): boolean;
 }
 
+
+export interface ISourceBlock_1$instance<TOutput> extends IDataflowBlock$instance {}
 
 export type ISourceBlock_1<TOutput> = ISourceBlock_1$instance<TOutput>;
 
-export interface ITargetBlock_1$instance<TInput> {
-    readonly Completion: Task;
-    Complete(): void;
-    Fault(exception: Exception): void;
-    OfferMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
+export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock {
+    readonly completion: Task;
+    complete(): void;
+    fault(exception: Exception): void;
+    offerMessage(messageHeader: DataflowMessageHeader, messageValue: TInput, source: ISourceBlock_1<TInput>, consumeToAccept: boolean): DataflowMessageStatus;
 }
 
+
+export interface ITargetBlock_1$instance<TInput> extends IDataflowBlock$instance {}
 
 export type ITargetBlock_1<TInput> = ITargetBlock_1$instance<TInput>;
 
@@ -116,13 +120,13 @@ export class DataflowMessageHeader$instance {
     readonly id: long;
     readonly isValid: boolean;
     equals(other: DataflowMessageHeader): boolean;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export interface __DataflowMessageHeader$views {
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<DataflowMessageHeader>;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<DataflowMessageHeader>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: DataflowMessageHeader): boolean;
@@ -145,8 +149,8 @@ export class ActionBlock_1$instance<TInput> {
 
 
 export interface __ActionBlock_1$views<TInput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type ActionBlock_1<TInput> = ActionBlock_1$instance<TInput> & __ActionBlock_1$views<TInput>;
@@ -168,10 +172,10 @@ export class BatchBlock_1$instance<T> {
 
 
 export interface __BatchBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T[]>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T[]>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T[]>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T[]>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BatchBlock_1<T> = BatchBlock_1$instance<T> & __BatchBlock_1$views<T>;
@@ -194,9 +198,9 @@ export class BatchedJoinBlock_2$instance<T1, T2> {
 
 
 export interface __BatchedJoinBlock_2$views<T1, T2> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_2<IList_1<T1>, IList_1<T2>>>;
 }
 
 export type BatchedJoinBlock_2<T1, T2> = BatchedJoinBlock_2$instance<T1, T2> & __BatchedJoinBlock_2$views<T1, T2>;
@@ -220,9 +224,9 @@ export class BatchedJoinBlock_3$instance<T1, T2, T3> {
 
 
 export interface __BatchedJoinBlock_3$views<T1, T2, T3> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_3<IList_1<T1>, IList_1<T2>, IList_1<T3>>>;
 }
 
 export type BatchedJoinBlock_3<T1, T2, T3> = BatchedJoinBlock_3$instance<T1, T2, T3> & __BatchedJoinBlock_3$views<T1, T2, T3>;
@@ -240,10 +244,10 @@ export class BroadcastBlock_1$instance<T> {
 
 
 export interface __BroadcastBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BroadcastBlock_1<T> = BroadcastBlock_1$instance<T> & __BroadcastBlock_1$views<T>;
@@ -263,10 +267,10 @@ export class BufferBlock_1$instance<T> {
 
 
 export interface __BufferBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type BufferBlock_1<T> = BufferBlock_1$instance<T> & __BufferBlock_1$views<T>;
@@ -280,7 +284,7 @@ export class DataflowBlockOptions$instance {
     maxMessagesPerTask: int;
     nameFormat: string;
     taskScheduler: TaskScheduler;
-    static readonly Unbounded: int;
+    static readonly unbounded: int;
 }
 
 
@@ -330,9 +334,9 @@ export class JoinBlock_2$instance<T1, T2> {
 
 
 export interface __JoinBlock_2$views<T1, T2> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_2<T1, T2>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_2<T1, T2>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_2<T1, T2>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_2<T1, T2>>;
 }
 
 export type JoinBlock_2<T1, T2> = JoinBlock_2$instance<T1, T2> & __JoinBlock_2$views<T1, T2>;
@@ -355,9 +359,9 @@ export class JoinBlock_3$instance<T1, T2, T3> {
 
 
 export interface __JoinBlock_3$views<T1, T2, T3> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<Tuple_3<T1, T2, T3>>;
 }
 
 export type JoinBlock_3<T1, T2, T3> = JoinBlock_3$instance<T1, T2, T3> & __JoinBlock_3$views<T1, T2, T3>;
@@ -378,10 +382,10 @@ export class TransformBlock_2$instance<TInput, TOutput> {
 
 
 export interface __TransformBlock_2$views<TInput, TOutput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<TOutput>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<TOutput>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<TOutput>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<TOutput>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type TransformBlock_2<TInput, TOutput> = TransformBlock_2$instance<TInput, TOutput> & __TransformBlock_2$views<TInput, TOutput>;
@@ -402,10 +406,10 @@ export class TransformManyBlock_2$instance<TInput, TOutput> {
 
 
 export interface __TransformManyBlock_2$views<TInput, TOutput> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<TOutput>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<TOutput>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<TInput>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<TOutput>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<TOutput>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<TInput>;
 }
 
 export type TransformManyBlock_2<TInput, TOutput> = TransformManyBlock_2$instance<TInput, TOutput> & __TransformManyBlock_2$views<TInput, TOutput>;
@@ -423,42 +427,42 @@ export class WriteOnceBlock_1$instance<T> {
 
 
 export interface __WriteOnceBlock_1$views<T> {
-    readonly As_IDataflowBlock: IDataflowBlock$instance;
-    readonly As_IReceivableSourceBlock_1_of__array: IReceivableSourceBlock_1$instance<T>;
-    readonly As_ISourceBlock_1_of__array: ISourceBlock_1$instance<T>;
-    readonly As_ITargetBlock_1: ITargetBlock_1$instance<T>;
+    As_IDataflowBlock(): IDataflowBlock$instance;
+    As_IReceivableSourceBlock_1(): IReceivableSourceBlock_1$instance<T>;
+    As_ISourceBlock_1(): ISourceBlock_1$instance<T>;
+    As_ITargetBlock_1(): ITargetBlock_1$instance<T>;
 }
 
 export type WriteOnceBlock_1<T> = WriteOnceBlock_1$instance<T> & __WriteOnceBlock_1$views<T>;
 
 
 export abstract class DataflowBlock$instance {
-    static AsObservable<TOutput>(source: ISourceBlock_1<TOutput>): IObservable_1<TOutput>;
-    static AsObserver<TInput>(target: ITargetBlock_1<TInput>): IObserver_1<TInput>;
-    static Choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
-    static Choose<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<CLROf<int>>;
-    static Choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
-    static Choose<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<CLROf<int>>;
-    static Encapsulate<TInput, TOutput>(target: ITargetBlock_1<TInput>, source: ISourceBlock_1<TOutput>): IPropagatorBlock_2<TInput, TOutput>;
-    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
-    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
-    static LinkTo<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
-    static NullTarget<TInput>(): ITargetBlock_1<TInput>;
-    static OutputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    static OutputAvailableAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<CLROf<boolean>>;
-    static Post<TInput>(target: ITargetBlock_1<TInput>, item: TInput): boolean;
-    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
-    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
-    static Receive<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
-    static Receive<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
-    static ReceiveAllAsync<TOutput>(source: IReceivableSourceBlock_1<TOutput>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TOutput>;
-    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
-    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
-    static ReceiveAsync<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
-    static SendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
-    static SendAsync<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<CLROf<boolean>>;
-    static TryReceive<TOutput>(source: IReceivableSourceBlock_1<TOutput>, item: { value: ref<TOutput> }): boolean;
+    static asObservable<TOutput>(source: ISourceBlock_1<TOutput>): IObservable_1<TOutput>;
+    static asObserver<TInput>(target: ITargetBlock_1<TInput>): IObserver_1<TInput>;
+    static choose4<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
+    static choose4<T1, T2, T3>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, source3: ISourceBlock_1<T3>, action3: Action_1<T3>): Task_1<CLROf<int>>;
+    static choose4<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>, dataflowBlockOptions: DataflowBlockOptions): Task_1<CLROf<int>>;
+    static choose4<T1, T2>(source1: ISourceBlock_1<T1>, action1: Action_1<T1>, source2: ISourceBlock_1<T2>, action2: Action_1<T2>): Task_1<CLROf<int>>;
+    static encapsulate<TInput, TOutput>(target: ITargetBlock_1<TInput>, source: ISourceBlock_1<TOutput>): IPropagatorBlock_2<TInput, TOutput>;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, predicate: Predicate_1<TOutput>): IDisposable;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>, linkOptions: DataflowLinkOptions, predicate: Predicate_1<TOutput>): IDisposable;
+    static linkTo2<TOutput>(source: ISourceBlock_1<TOutput>, target: ITargetBlock_1<TOutput>): IDisposable;
+    static nullTarget<TInput>(): ITargetBlock_1<TInput>;
+    static outputAvailableAsync2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    static outputAvailableAsync2<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<CLROf<boolean>>;
+    static post<TInput>(target: ITargetBlock_1<TInput>, item: TInput): boolean;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): TOutput;
+    static receive2<TOutput>(source: ISourceBlock_1<TOutput>): TOutput;
+    static receiveAllAsync<TOutput>(source: IReceivableSourceBlock_1<TOutput>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan, cancellationToken: CancellationToken): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>, timeout: TimeSpan): Task_1<TOutput>;
+    static receiveAsync2<TOutput>(source: ISourceBlock_1<TOutput>): Task_1<TOutput>;
+    static sendAsync2<TInput>(target: ITargetBlock_1<TInput>, item: TInput, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    static sendAsync2<TInput>(target: ITargetBlock_1<TInput>, item: TInput): Task_1<CLROf<boolean>>;
+    static tryReceive<TOutput>(source: IReceivableSourceBlock_1<TOutput>, item: { value: ref<TOutput> }): boolean;
 }
 
 

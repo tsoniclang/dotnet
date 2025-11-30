@@ -61,7 +61,7 @@ export class SwiftSelf$instance {
 
 export type SwiftSelf = SwiftSelf$instance;
 
-export class SwiftSelf_1$instance<T extends any> {
+export class SwiftSelf_1$instance<T extends unknown> {
     constructor(value: T);
     readonly value: T;
 }

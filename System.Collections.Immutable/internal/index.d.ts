@@ -41,82 +41,82 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export interface IImmutableDictionary_2$instance<TKey, TValue> {
-    readonly Item: TValue;
-    readonly Keys: IEnumerable_1<TKey>;
-    readonly Values: IEnumerable_1<TValue>;
-    readonly Count: int;
-    Add(key: TKey, value: TValue): IImmutableDictionary_2<TKey, TValue>;
-    AddRange(pairs: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): IImmutableDictionary_2<TKey, TValue>;
-    Clear(): IImmutableDictionary_2<TKey, TValue>;
-    Contains(pair: KeyValuePair_2<TKey, TValue>): boolean;
-    ContainsKey(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetEnumerator(): IEnumerator;
-    Remove(key: TKey): IImmutableDictionary_2<TKey, TValue>;
-    TryGetKey(equalKey: TKey, actualKey: { value: ref<TKey> }): boolean;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+export interface IImmutableDictionary_2$instance<TKey, TValue> extends IReadOnlyDictionary_2<TKey, TValue>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable, IReadOnlyCollection_1<KeyValuePair_2<TKey, TValue>> {
+    readonly item: TValue;
+    readonly keys: IEnumerable_1<TKey>;
+    readonly values: IEnumerable_1<TValue>;
+    readonly count: int;
+    add(key: TKey, value: TValue): IImmutableDictionary_2<TKey, TValue>;
+    addRange(pairs: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): IImmutableDictionary_2<TKey, TValue>;
+    clear(): IImmutableDictionary_2<TKey, TValue>;
+    contains(pair: KeyValuePair_2<TKey, TValue>): boolean;
+    containsKey(key: TKey): boolean;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getEnumerator(): IEnumerator;
+    remove(key: TKey): IImmutableDictionary_2<TKey, TValue>;
+    tryGetKey(equalKey: TKey, actualKey: { value: ref<TKey> }): boolean;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type IImmutableDictionary_2<TKey, TValue> = IImmutableDictionary_2$instance<TKey, TValue>;
 
-export interface IImmutableList_1$instance<T> {
-    readonly Item: T;
-    readonly Count: int;
-    Add(value: T): IImmutableList_1<T>;
-    AddRange(items: IEnumerable_1<T>): IImmutableList_1<T>;
-    Clear(): IImmutableList_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
-    Insert(index: int, element: T): IImmutableList_1<T>;
-    InsertRange(index: int, items: IEnumerable_1<T>): IImmutableList_1<T>;
-    Remove(value: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
-    RemoveAll(match: Predicate_1<T>): IImmutableList_1<T>;
-    RemoveAt(index: int): IImmutableList_1<T>;
-    RemoveRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
-    RemoveRange(index: int, count: int): IImmutableList_1<T>;
-    Replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+export interface IImmutableList_1$instance<T> extends IReadOnlyList_1<T>, IEnumerable_1<T>, IEnumerable, IReadOnlyCollection_1<T> {
+    readonly item: T;
+    readonly count: int;
+    add(value: T): IImmutableList_1<T>;
+    addRange(items: IEnumerable_1<T>): IImmutableList_1<T>;
+    clear(): IImmutableList_1<T>;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    insert(index: int, element: T): IImmutableList_1<T>;
+    insertRange(index: int, items: IEnumerable_1<T>): IImmutableList_1<T>;
+    remove(value: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+    removeAll(match: Predicate_1<T>): IImmutableList_1<T>;
+    removeAt(index: int): IImmutableList_1<T>;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+    removeRange(index: int, count: int): IImmutableList_1<T>;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
 }
 
 
 export type IImmutableList_1<T> = IImmutableList_1$instance<T>;
 
-export interface IImmutableQueue_1$instance<T> {
-    readonly IsEmpty: boolean;
-    Clear(): IImmutableQueue_1<T>;
-    Enqueue(value: T): IImmutableQueue_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    Peek(): T;
+export interface IImmutableQueue_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
+    readonly isEmpty: boolean;
+    clear(): IImmutableQueue_1<T>;
+    enqueue(value: T): IImmutableQueue_1<T>;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    peek(): T;
 }
 
 
 export type IImmutableQueue_1<T> = IImmutableQueue_1$instance<T>;
 
-export interface IImmutableSet_1$instance<T> {
-    readonly Count: int;
-    Add(value: T): IImmutableSet_1<T>;
-    Clear(): IImmutableSet_1<T>;
-    Contains(value: T): boolean;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    Intersect(other: IEnumerable_1<T>): IImmutableSet_1<T>;
-    SetEquals(other: IEnumerable_1<T>): boolean;
-    TryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+export interface IImmutableSet_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
+    readonly count: int;
+    add(value: T): IImmutableSet_1<T>;
+    clear(): IImmutableSet_1<T>;
+    contains(value: T): boolean;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    intersect(other: IEnumerable_1<T>): IImmutableSet_1<T>;
+    setEquals(other: IEnumerable_1<T>): boolean;
+    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
 }
 
 
 export type IImmutableSet_1<T> = IImmutableSet_1$instance<T>;
 
-export interface IImmutableStack_1$instance<T> {
-    readonly IsEmpty: boolean;
-    Clear(): IImmutableStack_1<T>;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    Peek(): T;
-    Push(value: T): IImmutableStack_1<T>;
+export interface IImmutableStack_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
+    readonly isEmpty: boolean;
+    clear(): IImmutableStack_1<T>;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    peek(): T;
+    push(value: T): IImmutableStack_1<T>;
 }
 
 
@@ -149,7 +149,7 @@ export class ImmutableArray_1$instance<T> {
     copyTo(destination: T[]): void;
     copyTo(destination: T[], destinationIndex: int): void;
     copyTo(sourceIndex: int, destination: T[], destinationIndex: int, length: int): void;
-    equals(obj: any): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ImmutableArray_1<T>): boolean;
     getEnumerator(): ImmutableArray_1_Enumerator<T>;
     getHashCode(): int;
@@ -190,26 +190,28 @@ export class ImmutableArray_1$instance<T> {
     sort(index: int, count: int, comparer: IComparer_1<T>): ImmutableArray_1<T>;
     toBuilder(): ImmutableArray_1_Builder<T>;
     static readonly empty: unknown;
-    static CastUp<T, TDerived extends T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
+    static castUp<T, TDerived extends T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
 }
 
 
 export interface __ImmutableArray_1$views<T> {
-    readonly As_IImmutableList_1: IImmutableList_1$instance<T>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IStructuralComparable: System_Collections_Internal.IStructuralComparable$instance;
-    readonly As_IStructuralEquatable: System_Collections_Internal.IStructuralEquatable$instance;
-    readonly As_IEquatable_1_of_ConsoleKeyInfo: System_Internal.IEquatable_1$instance<ImmutableArray_1<T>>;
+    As_IImmutableList_1(): IImmutableList_1$instance<T>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IStructuralComparable(): System_Collections_Internal.IStructuralComparable$instance;
+    As_IStructuralEquatable(): System_Collections_Internal.IStructuralEquatable$instance;
+    As_IEquatable_1(): System_Internal.IEquatable_1$instance<ImmutableArray_1<T>>;
 
     // Structural method bridges for numeric interface constraints
     Equals(other: ImmutableArray_1<T>): boolean;
 }
+
+export interface ImmutableArray_1$instance<T> extends System_Collections_Internal.IStructuralComparable$instance {}
 
 export type ImmutableArray_1<T> = ImmutableArray_1$instance<T> & __ImmutableArray_1$views<T>;
 
@@ -222,7 +224,7 @@ export class ImmutableArray_1_Enumerator$instance<T> {
 
 export type ImmutableArray_1_Enumerator<T> = ImmutableArray_1_Enumerator$instance<T>;
 
-export class ImmutableDictionary_2_Enumerator$instance<TKey, TValue> {
+export class ImmutableDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
@@ -231,14 +233,14 @@ export class ImmutableDictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __ImmutableDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ImmutableDictionary_2_Enumerator<TKey, TValue> = ImmutableDictionary_2_Enumerator$instance<TKey, TValue> & __ImmutableDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class ImmutableHashSet_1_Enumerator$instance<T> {
+export class ImmutableHashSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -247,14 +249,14 @@ export class ImmutableHashSet_1_Enumerator$instance<T> {
 
 
 export interface __ImmutableHashSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ImmutableHashSet_1_Enumerator<T> = ImmutableHashSet_1_Enumerator$instance<T> & __ImmutableHashSet_1_Enumerator$views<T>;
 
 
-export class ImmutableList_1_Enumerator$instance<T> {
+export class ImmutableList_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -263,8 +265,8 @@ export class ImmutableList_1_Enumerator$instance<T> {
 
 
 export interface __ImmutableList_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ImmutableList_1_Enumerator<T> = ImmutableList_1_Enumerator$instance<T> & __ImmutableList_1_Enumerator$views<T>;
@@ -278,7 +280,7 @@ export class ImmutableQueue_1_Enumerator$instance<T> {
 
 export type ImmutableQueue_1_Enumerator<T> = ImmutableQueue_1_Enumerator$instance<T>;
 
-export class ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> {
+export class ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
@@ -287,14 +289,14 @@ export class ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __ImmutableSortedDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ImmutableSortedDictionary_2_Enumerator<TKey, TValue> = ImmutableSortedDictionary_2_Enumerator$instance<TKey, TValue> & __ImmutableSortedDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class ImmutableSortedSet_1_Enumerator$instance<T> {
+export class ImmutableSortedSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -303,8 +305,8 @@ export class ImmutableSortedSet_1_Enumerator$instance<T> {
 
 
 export interface __ImmutableSortedSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type ImmutableSortedSet_1_Enumerator<T> = ImmutableSortedSet_1_Enumerator$instance<T> & __ImmutableSortedSet_1_Enumerator$views<T>;
@@ -373,11 +375,11 @@ export class ImmutableArray_1_Builder$instance<T> {
 
 
 export interface __ImmutableArray_1_Builder$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableArray_1_Builder<T> = ImmutableArray_1_Builder$instance<T> & __ImmutableArray_1_Builder$views<T>;
@@ -412,15 +414,15 @@ export class ImmutableDictionary_2$instance<TKey, TValue> {
 
 
 export interface __ImmutableDictionary_2$views<TKey, TValue> {
-    readonly As_IImmutableDictionary_2: IImmutableDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IImmutableDictionary_2(): IImmutableDictionary_2$instance<TKey, TValue>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableDictionary_2<TKey, TValue> = ImmutableDictionary_2$instance<TKey, TValue> & __ImmutableDictionary_2$views<TKey, TValue>;
@@ -453,14 +455,14 @@ export class ImmutableDictionary_2_Builder$instance<TKey, TValue> {
 
 
 export interface __ImmutableDictionary_2_Builder$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableDictionary_2_Builder<TKey, TValue> = ImmutableDictionary_2_Builder$instance<TKey, TValue> & __ImmutableDictionary_2_Builder$views<TKey, TValue>;
@@ -493,14 +495,14 @@ export class ImmutableHashSet_1$instance<T> {
 
 
 export interface __ImmutableHashSet_1$views<T> {
-    readonly As_IImmutableSet_1: IImmutableSet_1$instance<T>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IImmutableSet_1(): IImmutableSet_1$instance<T>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableHashSet_1<T> = ImmutableHashSet_1$instance<T> & __ImmutableHashSet_1$views<T>;
@@ -530,11 +532,11 @@ export class ImmutableHashSet_1_Builder$instance<T> {
 
 
 export interface __ImmutableHashSet_1_Builder$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableHashSet_1_Builder<T> = ImmutableHashSet_1_Builder$instance<T> & __ImmutableHashSet_1_Builder$views<T>;
@@ -597,14 +599,14 @@ export class ImmutableList_1$instance<T> {
 
 
 export interface __ImmutableList_1$views<T> {
-    readonly As_IImmutableList_1: IImmutableList_1$instance<T>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_IImmutableList_1(): IImmutableList_1$instance<T>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type ImmutableList_1<T> = ImmutableList_1$instance<T> & __ImmutableList_1$views<T>;
@@ -669,13 +671,13 @@ export class ImmutableList_1_Builder$instance<T> {
 
 
 export interface __ImmutableList_1_Builder$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type ImmutableList_1_Builder<T> = ImmutableList_1_Builder$instance<T> & __ImmutableList_1_Builder$views<T>;
@@ -690,14 +692,14 @@ export class ImmutableQueue_1$instance<T> {
     getEnumerator(): ImmutableQueue_1_Enumerator<T>;
     peek(): T;
     peekRef(): ref<T>;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __ImmutableQueue_1$views<T> {
-    readonly As_IImmutableQueue_1: IImmutableQueue_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IImmutableQueue_1(): IImmutableQueue_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableQueue_1<T> = ImmutableQueue_1$instance<T> & __ImmutableQueue_1$views<T>;
@@ -733,15 +735,15 @@ export class ImmutableSortedDictionary_2$instance<TKey, TValue> {
 
 
 export interface __ImmutableSortedDictionary_2$views<TKey, TValue> {
-    readonly As_IImmutableDictionary_2: IImmutableDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IImmutableDictionary_2(): IImmutableDictionary_2$instance<TKey, TValue>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableSortedDictionary_2<TKey, TValue> = ImmutableSortedDictionary_2$instance<TKey, TValue> & __ImmutableSortedDictionary_2$views<TKey, TValue>;
@@ -775,14 +777,14 @@ export class ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
 
 
 export interface __ImmutableSortedDictionary_2_Builder$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableSortedDictionary_2_Builder<TKey, TValue> = ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> & __ImmutableSortedDictionary_2_Builder$views<TKey, TValue>;
@@ -821,16 +823,16 @@ export class ImmutableSortedSet_1$instance<T> {
 
 
 export interface __ImmutableSortedSet_1$views<T> {
-    readonly As_IImmutableSet_1: IImmutableSet_1$instance<T>;
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_IImmutableSet_1(): IImmutableSet_1$instance<T>;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): System_Collections_Generic_Internal.IReadOnlySet_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type ImmutableSortedSet_1<T> = ImmutableSortedSet_1$instance<T> & __ImmutableSortedSet_1$views<T>;
@@ -866,12 +868,12 @@ export class ImmutableSortedSet_1_Builder$instance<T> {
 
 
 export interface __ImmutableSortedSet_1_Builder$views<T> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ISet_1: System_Collections_Generic_Internal.ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ISet_1(): System_Collections_Generic_Internal.ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableSortedSet_1_Builder<T> = ImmutableSortedSet_1_Builder$instance<T> & __ImmutableSortedSet_1_Builder$views<T>;
@@ -886,212 +888,212 @@ export class ImmutableStack_1$instance<T> {
     pop(): ImmutableStack_1<T>;
     pop(value: { value: ref<T> }): ImmutableStack_1<T>;
     push(value: T): ImmutableStack_1<T>;
-    static readonly Empty: unknown;
+    static readonly empty: unknown;
 }
 
 
 export interface __ImmutableStack_1$views<T> {
-    readonly As_IImmutableStack_1: IImmutableStack_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IImmutableStack_1(): IImmutableStack_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ImmutableStack_1<T> = ImmutableStack_1$instance<T> & __ImmutableStack_1$views<T>;
 
 
 export abstract class ImmutableArray$instance {
-    static BinarySearch<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T, comparer: IComparer_1<T>): int;
-    static BinarySearch<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T): int;
-    static BinarySearch<T>(array: ImmutableArray_1<T>, value: T, comparer: IComparer_1<T>): int;
-    static BinarySearch<T>(array: ImmutableArray_1<T>, value: T): int;
-    static Create<T>(): ImmutableArray_1<T>;
-    static Create<T>(items: ImmutableArray_1<T>, start: int, length: int): ImmutableArray_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
-    static Create<T>(items: Span_1<T>): ImmutableArray_1<T>;
-    static Create<T>(item1: T, item2: T, item3: T, item4: T): ImmutableArray_1<T>;
-    static Create<T>(item1: T, item2: T, item3: T): ImmutableArray_1<T>;
-    static Create<T>(item1: T, item2: T): ImmutableArray_1<T>;
-    static Create<T>(item: T): ImmutableArray_1<T>;
-    static Create<T>(items: T[], start: int, length: int): ImmutableArray_1<T>;
-    static Create<T>(items: T[]): ImmutableArray_1<T>;
-    static CreateBuilder<T>(): ImmutableArray_1_Builder<T>;
-    static CreateBuilder<T>(initialCapacity: int): ImmutableArray_1_Builder<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableArray_1<T>;
-    static CreateRange<TSource, TResult>(items: ImmutableArray_1<TSource>, selector: Func_2<TSource, TResult>): ImmutableArray_1<TResult>;
-    static CreateRange<TSource, TArg, TResult>(items: ImmutableArray_1<TSource>, selector: Func_3<TSource, TArg, TResult>, arg: TArg): ImmutableArray_1<TResult>;
-    static CreateRange<TSource, TResult>(items: ImmutableArray_1<TSource>, start: int, length: int, selector: Func_2<TSource, TResult>): ImmutableArray_1<TResult>;
-    static CreateRange<TSource, TArg, TResult>(items: ImmutableArray_1<TSource>, start: int, length: int, selector: Func_3<TSource, TArg, TResult>, arg: TArg): ImmutableArray_1<TResult>;
-    static ToImmutableArray<TSource>(builder: ImmutableArray_1_Builder<TSource>): ImmutableArray_1<TSource>;
-    static ToImmutableArray<TSource>(items: IEnumerable_1<TSource>): ImmutableArray_1<TSource>;
-    static ToImmutableArray<T>(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
-    static ToImmutableArray<T>(items: Span_1<T>): ImmutableArray_1<T>;
+    static binarySearch4<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T, comparer: IComparer_1<T>): int;
+    static binarySearch4<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T): int;
+    static binarySearch4<T>(array: ImmutableArray_1<T>, value: T, comparer: IComparer_1<T>): int;
+    static binarySearch4<T>(array: ImmutableArray_1<T>, value: T): int;
+    static create<T>(): ImmutableArray_1<T>;
+    static create<T>(items: ImmutableArray_1<T>, start: int, length: int): ImmutableArray_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
+    static create<T>(items: Span_1<T>): ImmutableArray_1<T>;
+    static create<T>(item1: T, item2: T, item3: T, item4: T): ImmutableArray_1<T>;
+    static create<T>(item1: T, item2: T, item3: T): ImmutableArray_1<T>;
+    static create<T>(item1: T, item2: T): ImmutableArray_1<T>;
+    static create<T>(item: T): ImmutableArray_1<T>;
+    static create<T>(items: T[], start: int, length: int): ImmutableArray_1<T>;
+    static create<T>(items: T[]): ImmutableArray_1<T>;
+    static createBuilder<T>(): ImmutableArray_1_Builder<T>;
+    static createBuilder<T>(initialCapacity: int): ImmutableArray_1_Builder<T>;
+    static createRange<T>(items: IEnumerable_1<T>): ImmutableArray_1<T>;
+    static createRange<TSource, TResult>(items: ImmutableArray_1<TSource>, selector: Func_2<TSource, TResult>): ImmutableArray_1<TResult>;
+    static createRange<TSource, TArg, TResult>(items: ImmutableArray_1<TSource>, selector: Func_3<TSource, TArg, TResult>, arg: TArg): ImmutableArray_1<TResult>;
+    static createRange<TSource, TResult>(items: ImmutableArray_1<TSource>, start: int, length: int, selector: Func_2<TSource, TResult>): ImmutableArray_1<TResult>;
+    static createRange<TSource, TArg, TResult>(items: ImmutableArray_1<TSource>, start: int, length: int, selector: Func_3<TSource, TArg, TResult>, arg: TArg): ImmutableArray_1<TResult>;
+    static toImmutableArray4<TSource>(builder: ImmutableArray_1_Builder<TSource>): ImmutableArray_1<TSource>;
+    static toImmutableArray4<TSource>(items: IEnumerable_1<TSource>): ImmutableArray_1<TSource>;
+    static toImmutableArray4<T>(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
+    static toImmutableArray4<T>(items: Span_1<T>): ImmutableArray_1<T>;
 }
 
 
 export type ImmutableArray = ImmutableArray$instance;
 
 export abstract class ImmutableDictionary$instance {
-    static Contains<TKey, TValue>(map: IImmutableDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
-    static Create<TKey, TValue>(): ImmutableDictionary_2<TKey, TValue>;
-    static Create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static Create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(): ImmutableDictionary_2_Builder<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2_Builder<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2_Builder<TKey, TValue>;
-    static CreateRange<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static CreateRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static CreateRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static CreateRangeWithOverwrite<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static CreateRangeWithOverwrite<TKey, TValue>(items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey): TValue;
-    static ToImmutableDictionary<TKey, TValue>(builder: ImmutableDictionary_2_Builder<TKey, TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TSource>;
-    static ToImmutableDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): ImmutableDictionary_2<TKey, TSource>;
-    static ToImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
-    static ToImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static contains<TKey, TValue>(map: IImmutableDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
+    static create<TKey, TValue>(): ImmutableDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static createBuilder<TKey, TValue>(): ImmutableDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2_Builder<TKey, TValue>;
+    static createRange<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRangeWithOverwrite2<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRangeWithOverwrite2<TKey, TValue>(items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static toImmutableDictionary2<TKey, TValue>(builder: ImmutableDictionary_2_Builder<TKey, TValue>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TSource>;
+    static toImmutableDictionary2<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): ImmutableDictionary_2<TKey, TSource>;
+    static toImmutableDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
 }
 
 
 export type ImmutableDictionary = ImmutableDictionary$instance;
 
 export abstract class ImmutableHashSet$instance {
-    static Create<T>(): ImmutableHashSet_1<T>;
-    static Create<T>(equalityComparer: IEqualityComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
-    static Create<T>(equalityComparer: IEqualityComparer_1<T>, item: T): ImmutableHashSet_1<T>;
-    static Create<T>(equalityComparer: IEqualityComparer_1<T>, items: T[]): ImmutableHashSet_1<T>;
-    static Create<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
-    static Create<T>(item: T): ImmutableHashSet_1<T>;
-    static Create<T>(items: T[]): ImmutableHashSet_1<T>;
-    static CreateBuilder<T>(): ImmutableHashSet_1_Builder<T>;
-    static CreateBuilder<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1_Builder<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
-    static CreateRange<T>(equalityComparer: IEqualityComparer_1<T>, items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
-    static ToImmutableHashSet<TSource>(builder: ImmutableHashSet_1_Builder<TSource>): ImmutableHashSet_1<TSource>;
-    static ToImmutableHashSet<TSource>(source: IEnumerable_1<TSource>, equalityComparer: IEqualityComparer_1<TSource>): ImmutableHashSet_1<TSource>;
-    static ToImmutableHashSet<TSource>(source: IEnumerable_1<TSource>): ImmutableHashSet_1<TSource>;
+    static create<T>(): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T>, item: T): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T>, items: T[]): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
+    static create<T>(item: T): ImmutableHashSet_1<T>;
+    static create<T>(items: T[]): ImmutableHashSet_1<T>;
+    static createBuilder<T>(): ImmutableHashSet_1_Builder<T>;
+    static createBuilder<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1_Builder<T>;
+    static createRange<T>(items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
+    static createRange<T>(equalityComparer: IEqualityComparer_1<T>, items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
+    static toImmutableHashSet2<TSource>(builder: ImmutableHashSet_1_Builder<TSource>): ImmutableHashSet_1<TSource>;
+    static toImmutableHashSet2<TSource>(source: IEnumerable_1<TSource>, equalityComparer: IEqualityComparer_1<TSource>): ImmutableHashSet_1<TSource>;
+    static toImmutableHashSet2<TSource>(source: IEnumerable_1<TSource>): ImmutableHashSet_1<TSource>;
 }
 
 
 export type ImmutableHashSet = ImmutableHashSet$instance;
 
 export abstract class ImmutableInterlocked$instance {
-    static AddOrUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
-    static AddOrUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
-    static Enqueue<T>(location: { value: ref<ImmutableQueue_1<T>> }, value: T): void;
-    static GetOrAdd<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
-    static GetOrAdd<TKey, TValue, TArg>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
-    static GetOrAdd<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: TValue): TValue;
-    static InterlockedCompareExchange<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>, comparand: ImmutableArray_1<T>): ImmutableArray_1<T>;
-    static InterlockedExchange<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>): ImmutableArray_1<T>;
-    static InterlockedInitialize<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>): boolean;
-    static Push<T>(location: { value: ref<ImmutableStack_1<T>> }, value: T): void;
-    static TryAdd<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: TValue): boolean;
-    static TryDequeue<T>(location: { value: ref<ImmutableQueue_1<T>> }, value: { value: ref<T> }): boolean;
-    static TryPop<T>(location: { value: ref<ImmutableStack_1<T>> }, value: { value: ref<T> }): boolean;
-    static TryRemove<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: { value: ref<TValue> }): boolean;
-    static TryUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, newValue: TValue, comparisonValue: TValue): boolean;
-    static Update<T>(location: { value: ref<ImmutableArray_1<T>> }, transformer: Func_2<ImmutableArray_1<T>, ImmutableArray_1<T>>): boolean;
-    static Update<T, TArg>(location: { value: ref<ImmutableArray_1<T>> }, transformer: Func_3<ImmutableArray_1<T>, TArg, ImmutableArray_1<T>>, transformerArgument: TArg): boolean;
-    static Update<T>(location: { value: ref<T> }, transformer: Func_2<T, T>): boolean;
-    static Update<T, TArg>(location: { value: ref<T> }, transformer: Func_3<T, TArg, T>, transformerArgument: TArg): boolean;
+    static addOrUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, addValueFactory: Func_2<TKey, TValue>, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    static addOrUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, addValue: TValue, updateValueFactory: Func_3<TKey, TValue, TValue>): TValue;
+    static enqueue<T>(location: { value: ref<ImmutableQueue_1<T>> }, value: T): void;
+    static getOrAdd2<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, valueFactory: Func_2<TKey, TValue>): TValue;
+    static getOrAdd2<TKey, TValue, TArg>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, valueFactory: Func_3<TKey, TArg, TValue>, factoryArgument: TArg): TValue;
+    static getOrAdd2<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: TValue): TValue;
+    static interlockedCompareExchange<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>, comparand: ImmutableArray_1<T>): ImmutableArray_1<T>;
+    static interlockedExchange<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>): ImmutableArray_1<T>;
+    static interlockedInitialize<T>(location: { value: ref<ImmutableArray_1<T>> }, value: ImmutableArray_1<T>): boolean;
+    static push<T>(location: { value: ref<ImmutableStack_1<T>> }, value: T): void;
+    static tryAdd<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: TValue): boolean;
+    static tryDequeue<T>(location: { value: ref<ImmutableQueue_1<T>> }, value: { value: ref<T> }): boolean;
+    static tryPop<T>(location: { value: ref<ImmutableStack_1<T>> }, value: { value: ref<T> }): boolean;
+    static tryRemove<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, value: { value: ref<TValue> }): boolean;
+    static tryUpdate<TKey, TValue>(location: { value: ref<ImmutableDictionary_2<TKey, TValue>> }, key: TKey, newValue: TValue, comparisonValue: TValue): boolean;
+    static update3<T>(location: { value: ref<ImmutableArray_1<T>> }, transformer: Func_2<ImmutableArray_1<T>, ImmutableArray_1<T>>): boolean;
+    static update3<T, TArg>(location: { value: ref<ImmutableArray_1<T>> }, transformer: Func_3<ImmutableArray_1<T>, TArg, ImmutableArray_1<T>>, transformerArgument: TArg): boolean;
+    static update3<T>(location: { value: ref<T> }, transformer: Func_2<T, T>): boolean;
+    static update3<T, TArg>(location: { value: ref<T> }, transformer: Func_3<T, TArg, T>, transformerArgument: TArg): boolean;
 }
 
 
 export type ImmutableInterlocked = ImmutableInterlocked$instance;
 
 export abstract class ImmutableList$instance {
-    static Create<T>(): ImmutableList_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableList_1<T>;
-    static Create<T>(item: T): ImmutableList_1<T>;
-    static Create<T>(items: T[]): ImmutableList_1<T>;
-    static CreateBuilder<T>(): ImmutableList_1_Builder<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableList_1<T>;
-    static IndexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
-    static IndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
-    static IndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
-    static IndexOf<T>(list: IImmutableList_1<T>, item: T): int;
-    static LastIndexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
-    static LastIndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
-    static LastIndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
-    static LastIndexOf<T>(list: IImmutableList_1<T>, item: T): int;
-    static Remove<T>(list: IImmutableList_1<T>, value: T): IImmutableList_1<T>;
-    static RemoveRange<T>(list: IImmutableList_1<T>, items: IEnumerable_1<T>): IImmutableList_1<T>;
-    static Replace<T>(list: IImmutableList_1<T>, oldValue: T, newValue: T): IImmutableList_1<T>;
-    static ToImmutableList<TSource>(builder: ImmutableList_1_Builder<TSource>): ImmutableList_1<TSource>;
-    static ToImmutableList<TSource>(source: IEnumerable_1<TSource>): ImmutableList_1<TSource>;
+    static create<T>(): ImmutableList_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableList_1<T>;
+    static create<T>(item: T): ImmutableList_1<T>;
+    static create<T>(items: T[]): ImmutableList_1<T>;
+    static createBuilder<T>(): ImmutableList_1_Builder<T>;
+    static createRange<T>(items: IEnumerable_1<T>): ImmutableList_1<T>;
+    static indexOf2<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
+    static indexOf2<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
+    static indexOf2<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
+    static indexOf2<T>(list: IImmutableList_1<T>, item: T): int;
+    static lastIndexOf2<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
+    static lastIndexOf2<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
+    static lastIndexOf2<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
+    static lastIndexOf2<T>(list: IImmutableList_1<T>, item: T): int;
+    static remove<T>(list: IImmutableList_1<T>, value: T): IImmutableList_1<T>;
+    static removeRange<T>(list: IImmutableList_1<T>, items: IEnumerable_1<T>): IImmutableList_1<T>;
+    static replace<T>(list: IImmutableList_1<T>, oldValue: T, newValue: T): IImmutableList_1<T>;
+    static toImmutableList2<TSource>(builder: ImmutableList_1_Builder<TSource>): ImmutableList_1<TSource>;
+    static toImmutableList2<TSource>(source: IEnumerable_1<TSource>): ImmutableList_1<TSource>;
 }
 
 
 export type ImmutableList = ImmutableList$instance;
 
 export abstract class ImmutableQueue$instance {
-    static Create<T>(): ImmutableQueue_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableQueue_1<T>;
-    static Create<T>(item: T): ImmutableQueue_1<T>;
-    static Create<T>(items: T[]): ImmutableQueue_1<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableQueue_1<T>;
-    static Dequeue<T>(queue: IImmutableQueue_1<T>, value: { value: ref<T> }): IImmutableQueue_1<T>;
+    static create<T>(): ImmutableQueue_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableQueue_1<T>;
+    static create<T>(item: T): ImmutableQueue_1<T>;
+    static create<T>(items: T[]): ImmutableQueue_1<T>;
+    static createRange<T>(items: IEnumerable_1<T>): ImmutableQueue_1<T>;
+    static dequeue<T>(queue: IImmutableQueue_1<T>, value: { value: ref<T> }): IImmutableQueue_1<T>;
 }
 
 
 export type ImmutableQueue = ImmutableQueue$instance;
 
 export abstract class ImmutableSortedDictionary$instance {
-    static Create<TKey, TValue>(): ImmutableSortedDictionary_2<TKey, TValue>;
-    static Create<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static Create<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static CreateBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static CreateRange<TKey, TValue>(keyComparer: IComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static CreateRange<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static CreateRange<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TKey, TValue>(builder: ImmutableSortedDictionary_2_Builder<TKey, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static ToImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(): ImmutableSortedDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static createBuilder<TKey, TValue>(): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
+    static createRange2<TKey, TValue>(keyComparer: IComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static createRange2<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static createRange2<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TKey, TValue>(builder: ImmutableSortedDictionary_2_Builder<TKey, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary2<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
 }
 
 
 export type ImmutableSortedDictionary = ImmutableSortedDictionary$instance;
 
 export abstract class ImmutableSortedSet$instance {
-    static Create<T>(): ImmutableSortedSet_1<T>;
-    static Create<T>(comparer: IComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
-    static Create<T>(comparer: IComparer_1<T>, item: T): ImmutableSortedSet_1<T>;
-    static Create<T>(comparer: IComparer_1<T>, items: T[]): ImmutableSortedSet_1<T>;
-    static Create<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
-    static Create<T>(item: T): ImmutableSortedSet_1<T>;
-    static Create<T>(items: T[]): ImmutableSortedSet_1<T>;
-    static CreateBuilder<T>(): ImmutableSortedSet_1_Builder<T>;
-    static CreateBuilder<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1_Builder<T>;
-    static CreateRange<T>(comparer: IComparer_1<T>, items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
-    static ToImmutableSortedSet<TSource>(builder: ImmutableSortedSet_1_Builder<TSource>): ImmutableSortedSet_1<TSource>;
-    static ToImmutableSortedSet<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource>): ImmutableSortedSet_1<TSource>;
-    static ToImmutableSortedSet<TSource>(source: IEnumerable_1<TSource>): ImmutableSortedSet_1<TSource>;
+    static create<T>(): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T>, item: T): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T>, items: T[]): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
+    static create<T>(item: T): ImmutableSortedSet_1<T>;
+    static create<T>(items: T[]): ImmutableSortedSet_1<T>;
+    static createBuilder<T>(): ImmutableSortedSet_1_Builder<T>;
+    static createBuilder<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1_Builder<T>;
+    static createRange2<T>(comparer: IComparer_1<T>, items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
+    static createRange2<T>(items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
+    static toImmutableSortedSet3<TSource>(builder: ImmutableSortedSet_1_Builder<TSource>): ImmutableSortedSet_1<TSource>;
+    static toImmutableSortedSet3<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource>): ImmutableSortedSet_1<TSource>;
+    static toImmutableSortedSet3<TSource>(source: IEnumerable_1<TSource>): ImmutableSortedSet_1<TSource>;
 }
 
 
 export type ImmutableSortedSet = ImmutableSortedSet$instance;
 
 export abstract class ImmutableStack$instance {
-    static Create<T>(): ImmutableStack_1<T>;
-    static Create<T>(items: ReadOnlySpan_1<T>): ImmutableStack_1<T>;
-    static Create<T>(item: T): ImmutableStack_1<T>;
-    static Create<T>(items: T[]): ImmutableStack_1<T>;
-    static CreateRange<T>(items: IEnumerable_1<T>): ImmutableStack_1<T>;
-    static Pop<T>(stack: IImmutableStack_1<T>, value: { value: ref<T> }): IImmutableStack_1<T>;
+    static create<T>(): ImmutableStack_1<T>;
+    static create<T>(items: ReadOnlySpan_1<T>): ImmutableStack_1<T>;
+    static create<T>(item: T): ImmutableStack_1<T>;
+    static create<T>(items: T[]): ImmutableStack_1<T>;
+    static createRange<T>(items: IEnumerable_1<T>): ImmutableStack_1<T>;
+    static pop<T>(stack: IImmutableStack_1<T>, value: { value: ref<T> }): IImmutableStack_1<T>;
 }
 
 

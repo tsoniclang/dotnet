@@ -7121,7 +7121,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::OKSystem.Net.HttpStatusCode",
           "clrName": "OK",
-          "tsEmitName": "ok",
+          "tsEmitName": "OK",
           "metadataToken": 67109085,
           "normalizedSignature": "OK|System.Net.HttpStatusCode|static=true|const=true",
           "isStatic": true,
@@ -8568,7 +8568,7 @@
           }
         },
         {
-          "tsName": "ok",
+          "tsName": "OK",
           "isStatic": true,
           "tsSignatureId": "OK|System.Net.HttpStatusCode|static=true|const=true",
           "target": {

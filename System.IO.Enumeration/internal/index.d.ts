@@ -50,15 +50,15 @@ export type CLROf<T> =
 export class FileSystemEntry$instance {
     readonly attributes: FileAttributes;
     readonly creationTimeUtc: DateTimeOffset;
-    readonly directory: ReadOnlySpan_1<CLROf<string>>;
-    readonly fileName: ReadOnlySpan_1<CLROf<string>>;
+    readonly directory: ReadOnlySpan_1<CLROf<char>>;
+    readonly fileName: ReadOnlySpan_1<CLROf<char>>;
     readonly isDirectory: boolean;
     readonly isHidden: boolean;
     readonly lastAccessTimeUtc: DateTimeOffset;
     readonly lastWriteTimeUtc: DateTimeOffset;
     readonly length: long;
-    readonly originalRootDirectory: ReadOnlySpan_1<CLROf<string>>;
-    readonly rootDirectory: ReadOnlySpan_1<CLROf<string>>;
+    readonly originalRootDirectory: ReadOnlySpan_1<CLROf<char>>;
+    readonly rootDirectory: ReadOnlySpan_1<CLROf<char>>;
     toFileSystemInfo(): FileSystemInfo;
     toFullPath(): string;
     toSpecifiedFullPath(): string;
@@ -76,17 +76,17 @@ export class FileSystemEnumerable_1$instance<TResult> {
 
 
 export interface __FileSystemEnumerable_1$views<TResult> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TResult>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TResult>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
 
 
 export class FileSystemEnumerable_1_FindPredicate$instance<TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): boolean;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(entry: { value: ref<FileSystemEntry> }): boolean;
@@ -94,17 +94,17 @@ export class FileSystemEnumerable_1_FindPredicate$instance<TResult> extends Func
 
 
 export interface __FileSystemEnumerable_1_FindPredicate$views<TResult> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type FileSystemEnumerable_1_FindPredicate<TResult> = FileSystemEnumerable_1_FindPredicate$instance<TResult> & __FileSystemEnumerable_1_FindPredicate$views<TResult>;
 
 
 export class FileSystemEnumerable_1_FindTransform$instance<TResult> extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): TResult;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     invoke(entry: { value: ref<FileSystemEntry> }): TResult;
@@ -112,14 +112,14 @@ export class FileSystemEnumerable_1_FindTransform$instance<TResult> extends Func
 
 
 export interface __FileSystemEnumerable_1_FindTransform$views<TResult> {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type FileSystemEnumerable_1_FindTransform<TResult> = FileSystemEnumerable_1_FindTransform$instance<TResult> & __FileSystemEnumerable_1_FindTransform$views<TResult>;
 
 
-export abstract class FileSystemEnumerator_1$instance<TResult> extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
+export abstract class FileSystemEnumerator_1$instance<TResult> extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance implements System_Internal.IDisposable$instance {
     constructor(directory: string, options: EnumerationOptions);
     readonly current: TResult;
     dispose(): void;
@@ -129,17 +129,17 @@ export abstract class FileSystemEnumerator_1$instance<TResult> extends System_Ru
 
 
 export interface __FileSystemEnumerator_1$views<TResult> {
-    readonly As_IEnumerator_1: System_Collections_Generic_Internal.IEnumerator_1$instance<TResult>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): System_Collections_Generic_Internal.IEnumerator_1$instance<TResult>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TResult> & __FileSystemEnumerator_1$views<TResult>;
 
 
 export abstract class FileSystemName$instance {
-    static MatchesSimpleExpression(expression: ReadOnlySpan_1<CLROf<string>>, name: ReadOnlySpan_1<CLROf<string>>, ignoreCase?: boolean): boolean;
-    static MatchesWin32Expression(expression: ReadOnlySpan_1<CLROf<string>>, name: ReadOnlySpan_1<CLROf<string>>, ignoreCase?: boolean): boolean;
-    static TranslateWin32Expression(expression: string): string;
+    static matchesSimpleExpression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
+    static matchesWin32Expression(expression: ReadOnlySpan_1<CLROf<char>>, name: ReadOnlySpan_1<CLROf<char>>, ignoreCase?: boolean): boolean;
+    static translateWin32Expression(expression: string): string;
 }
 
 

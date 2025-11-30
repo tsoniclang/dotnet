@@ -18,7 +18,7 @@ import type { IDeserializationCallback, ISerializable, SerializationInfo, Stream
 import type { ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/internal/index.js";
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
-import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Byte, Comparison_1, Converter_2, Enum, Exception, Func_2, Func_3, IComparable_1, IDisposable, IEquatable_1, Int32, Nullable_1, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
+import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Byte, Comparison_1, Converter_2, Enum, Exception, Func_2, Func_3, IAsyncDisposable, IComparable_1, IDisposable, IEquatable_1, Int32, Nullable_1, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
 // CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
 // This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
@@ -46,169 +46,173 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export interface IAlternateEqualityComparer_2$instance<TAlternate, T> {
-    Create(alternate: TAlternate): T;
-    Equals(alternate: TAlternate, other: T): boolean;
-    GetHashCode(alternate: TAlternate): int;
+    create(alternate: TAlternate): T;
+    equals(alternate: TAlternate, other: T): boolean;
+    getHashCode(alternate: TAlternate): int;
 }
 
 
 export type IAlternateEqualityComparer_2<TAlternate, T> = IAlternateEqualityComparer_2$instance<TAlternate, T>;
 
 export interface IAsyncEnumerable_1$instance<T> {
-    GetAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<T>;
+    getAsyncEnumerator(cancellationToken?: CancellationToken): IAsyncEnumerator_1<T>;
 }
 
 
 export type IAsyncEnumerable_1<T> = IAsyncEnumerable_1$instance<T>;
 
-export interface IAsyncEnumerator_1$instance<T> {
-    readonly Current: T;
-    DisposeAsync(): ValueTask;
-    MoveNextAsync(): ValueTask_1<CLROf<boolean>>;
+export interface IAsyncEnumerator_1$instance<T> extends IAsyncDisposable {
+    readonly current: T;
+    disposeAsync(): ValueTask;
+    moveNextAsync(): ValueTask_1<CLROf<boolean>>;
 }
 
 
+export interface IAsyncEnumerator_1$instance<T> extends System_Internal.IAsyncDisposable$instance {}
+
 export type IAsyncEnumerator_1<T> = IAsyncEnumerator_1$instance<T>;
 
-export interface ICollection_1$instance<T> {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+export interface ICollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type ICollection_1<T> = ICollection_1$instance<T>;
 
 export interface IComparer_1$instance<T> {
-    Compare(x: T, y: T): int;
+    compare(x: T, y: T): int;
 }
 
 
 export type IComparer_1<T> = IComparer_1$instance<T>;
 
-export interface IDictionary_2$instance<TKey, TValue> {
-    Item: TValue;
-    readonly Keys: ICollection_1<TKey>;
-    readonly Values: ICollection_1<TValue>;
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: KeyValuePair_2<TKey, TValue>): void;
-    Add(key: TKey, value: TValue): void;
-    Clear(): void;
-    Contains(item: KeyValuePair_2<TKey, TValue>): boolean;
-    ContainsKey(key: TKey): boolean;
-    CopyTo(array: KeyValuePair_2<TKey, TValue>[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetEnumerator(): IEnumerator;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyValuePair_2<TKey, TValue>>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable {
+    item: TValue;
+    readonly keys: ICollection_1<TKey>;
+    readonly values: ICollection_1<TValue>;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add2(item: KeyValuePair_2<TKey, TValue>): void;
+    add2(key: TKey, value: TValue): void;
+    clear(): void;
+    contains(item: KeyValuePair_2<TKey, TValue>): boolean;
+    containsKey(key: TKey): boolean;
+    copyTo(array: KeyValuePair_2<TKey, TValue>[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getEnumerator(): IEnumerator;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type IDictionary_2<TKey, TValue> = IDictionary_2$instance<TKey, TValue>;
 
-export interface IEnumerable_1$instance<T> {
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+export interface IEnumerable_1$instance<T> extends IEnumerable {
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IEnumerable_1<T> = IEnumerable_1$instance<T>;
 
-export interface IEnumerator_1$instance<T> {
-    readonly Current: T;
-    Dispose(): void;
-    MoveNext(): boolean;
+export interface IEnumerator_1$instance<T> extends IDisposable, IEnumerator {
+    readonly current: T;
+    dispose(): void;
+    moveNext(): boolean;
 }
 
+
+export interface IEnumerator_1$instance<T> extends System_Internal.IDisposable$instance {}
 
 export type IEnumerator_1<T> = IEnumerator_1$instance<T>;
 
 export interface IEqualityComparer_1$instance<T> {
-    Equals(x: T, y: T): boolean;
-    GetHashCode(obj: T): int;
+    equals(x: T, y: T): boolean;
+    getHashCode(obj: T): int;
 }
 
 
 export type IEqualityComparer_1<T> = IEqualityComparer_1$instance<T>;
 
-export interface IList_1$instance<T> {
-    Item: T;
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Clear(): void;
-    Contains(item: T): boolean;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IndexOf(item: T): int;
-    Insert(index: int, item: T): void;
-    RemoveAt(index: int): void;
+export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
+    item: T;
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add(item: T): void;
+    clear(): void;
+    contains(item: T): boolean;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    indexOf(item: T): int;
+    insert(index: int, item: T): void;
+    removeAt(index: int): void;
 }
 
 
 export type IList_1<T> = IList_1$instance<T>;
 
-export interface IReadOnlyCollection_1$instance<T> {
-    readonly Count: int;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+export interface IReadOnlyCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable {
+    readonly count: int;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IReadOnlyCollection_1<T> = IReadOnlyCollection_1$instance<T>;
 
-export interface IReadOnlyDictionary_2$instance<TKey, TValue> {
-    readonly Item: TValue;
-    readonly Keys: IEnumerable_1<TKey>;
-    readonly Values: IEnumerable_1<TValue>;
-    readonly Count: int;
-    ContainsKey(key: TKey): boolean;
-    GetEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
-    GetEnumerator(): IEnumerator;
-    TryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+export interface IReadOnlyDictionary_2$instance<TKey, TValue> extends IReadOnlyCollection_1<KeyValuePair_2<TKey, TValue>>, IEnumerable_1<KeyValuePair_2<TKey, TValue>>, IEnumerable {
+    readonly item: TValue;
+    readonly keys: IEnumerable_1<TKey>;
+    readonly values: IEnumerable_1<TValue>;
+    readonly count: int;
+    containsKey(key: TKey): boolean;
+    getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
+    getEnumerator(): IEnumerator;
+    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
 }
 
 
 export type IReadOnlyDictionary_2<TKey, TValue> = IReadOnlyDictionary_2$instance<TKey, TValue>;
 
-export interface IReadOnlyList_1$instance<T> {
-    readonly Item: T;
-    readonly Count: int;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
+export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
+    readonly item: T;
+    readonly count: int;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
 }
 
 
 export type IReadOnlyList_1<T> = IReadOnlyList_1$instance<T>;
 
-export interface IReadOnlySet_1$instance<T> {
-    readonly Count: int;
-    Contains(item: T): boolean;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IsProperSubsetOf(other: IEnumerable_1<T>): boolean;
+export interface IReadOnlySet_1$instance<T> extends IReadOnlyCollection_1<T>, IEnumerable_1<T>, IEnumerable {
+    readonly count: int;
+    contains(item: T): boolean;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    isProperSubsetOf(other: IEnumerable_1<T>): boolean;
 }
 
 
 export type IReadOnlySet_1<T> = IReadOnlySet_1$instance<T>;
 
-export interface ISet_1$instance<T> {
-    readonly Count: int;
-    readonly IsReadOnly: boolean;
-    Add(item: T): void;
-    Add(item: T): boolean;
-    Clear(): void;
-    CopyTo(array: T[], arrayIndex: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    IsSubsetOf(other: IEnumerable_1<T>): boolean;
-    UnionWith(other: IEnumerable_1<T>): void;
+export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, IEnumerable {
+    readonly count: int;
+    readonly isReadOnly: boolean;
+    add2(item: T): void;
+    add2(item: T): boolean;
+    clear(): void;
+    copyTo(array: T[], arrayIndex: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    isSubsetOf(other: IEnumerable_1<T>): boolean;
+    unionWith(other: IEnumerable_1<T>): void;
 }
 
 
@@ -228,7 +232,7 @@ export class Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey
 
 export type Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export class Dictionary_2_Enumerator$instance<TKey, TValue> {
+export class Dictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
@@ -236,15 +240,15 @@ export class Dictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionaryEnumerator: System_Collections_Internal.IDictionaryEnumerator$instance;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionaryEnumerator(): System_Collections_Internal.IDictionaryEnumerator$instance;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Dictionary_2_Enumerator<TKey, TValue> = Dictionary_2_Enumerator$instance<TKey, TValue> & __Dictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
+export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
@@ -252,14 +256,14 @@ export class Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TKey>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TKey>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Dictionary_2_KeyCollection_Enumerator<TKey, TValue> = Dictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __Dictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
 
 
-export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
+export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
@@ -267,8 +271,8 @@ export class Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TValue>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TValue>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Dictionary_2_ValueCollection_Enumerator<TKey, TValue> = Dictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __Dictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
@@ -285,7 +289,7 @@ export class HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
 
 export type HashSet_1_AlternateLookup_1<T, TAlternate> = HashSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
-export class HashSet_1_Enumerator$instance<T> {
+export class HashSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -293,8 +297,8 @@ export class HashSet_1_Enumerator$instance<T> {
 
 
 export interface __HashSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type HashSet_1_Enumerator<T> = HashSet_1_Enumerator$instance<T> & __HashSet_1_Enumerator$views<T>;
@@ -311,7 +315,7 @@ export class KeyValuePair_2$instance<TKey, TValue> {
 
 export type KeyValuePair_2<TKey, TValue> = KeyValuePair_2$instance<TKey, TValue>;
 
-export class LinkedList_1_Enumerator$instance<T> {
+export class LinkedList_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -319,16 +323,18 @@ export class LinkedList_1_Enumerator$instance<T> {
 
 
 export interface __LinkedList_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface LinkedList_1_Enumerator$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type LinkedList_1_Enumerator<T> = LinkedList_1_Enumerator$instance<T> & __LinkedList_1_Enumerator$views<T>;
 
 
-export class List_1_Enumerator$instance<T> {
+export class List_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -336,8 +342,8 @@ export class List_1_Enumerator$instance<T> {
 
 
 export interface __List_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type List_1_Enumerator<T> = List_1_Enumerator$instance<T> & __List_1_Enumerator$views<T>;
@@ -350,9 +356,9 @@ export class OrderedDictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __OrderedDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionaryEnumerator: System_Collections_Internal.IDictionaryEnumerator$instance;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionaryEnumerator(): System_Collections_Internal.IDictionaryEnumerator$instance;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type OrderedDictionary_2_Enumerator<TKey, TValue> = OrderedDictionary_2_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_Enumerator$views<TKey, TValue>;
@@ -365,8 +371,8 @@ export class OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue>
 
 
 export interface __OrderedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TKey>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TKey>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type OrderedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = OrderedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
@@ -379,14 +385,14 @@ export class OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValu
 
 
 export interface __OrderedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TValue>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TValue>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type OrderedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = OrderedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __OrderedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> {
+export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> implements IDisposable {
     readonly current: ValueTuple_2<TElement, TPriority>;
     dispose(): void;
     moveNext(): boolean;
@@ -394,14 +400,14 @@ export class PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TEleme
 
 
 export interface __PriorityQueue_2_UnorderedItemsCollection_Enumerator$views<TElement, TPriority> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<ValueTuple_2<TElement, TPriority>>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<ValueTuple_2<TElement, TPriority>>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type PriorityQueue_2_UnorderedItemsCollection_Enumerator<TElement, TPriority> = PriorityQueue_2_UnorderedItemsCollection_Enumerator$instance<TElement, TPriority> & __PriorityQueue_2_UnorderedItemsCollection_Enumerator$views<TElement, TPriority>;
 
 
-export class Queue_1_Enumerator$instance<T> {
+export class Queue_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -409,14 +415,14 @@ export class Queue_1_Enumerator$instance<T> {
 
 
 export interface __Queue_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Queue_1_Enumerator<T> = Queue_1_Enumerator$instance<T> & __Queue_1_Enumerator$views<T>;
 
 
-export class SortedDictionary_2_Enumerator$instance<TKey, TValue> {
+export class SortedDictionary_2_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: KeyValuePair_2<TKey, TValue>;
     dispose(): void;
     moveNext(): boolean;
@@ -424,15 +430,15 @@ export class SortedDictionary_2_Enumerator$instance<TKey, TValue> {
 
 
 export interface __SortedDictionary_2_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionaryEnumerator: System_Collections_Internal.IDictionaryEnumerator$instance;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionaryEnumerator(): System_Collections_Internal.IDictionaryEnumerator$instance;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type SortedDictionary_2_Enumerator<TKey, TValue> = SortedDictionary_2_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> {
+export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: TKey;
     dispose(): void;
     moveNext(): boolean;
@@ -440,14 +446,14 @@ export class SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> 
 
 
 export interface __SortedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TKey>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TKey>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type SortedDictionary_2_KeyCollection_Enumerator<TKey, TValue> = SortedDictionary_2_KeyCollection_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_KeyCollection_Enumerator$views<TKey, TValue>;
 
 
-export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> {
+export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> implements IDisposable {
     readonly current: TValue;
     dispose(): void;
     moveNext(): boolean;
@@ -455,14 +461,14 @@ export class SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue
 
 
 export interface __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<TValue>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<TValue>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type SortedDictionary_2_ValueCollection_Enumerator<TKey, TValue> = SortedDictionary_2_ValueCollection_Enumerator$instance<TKey, TValue> & __SortedDictionary_2_ValueCollection_Enumerator$views<TKey, TValue>;
 
 
-export class SortedSet_1_Enumerator$instance<T> {
+export class SortedSet_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -470,16 +476,18 @@ export class SortedSet_1_Enumerator$instance<T> {
 
 
 export interface __SortedSet_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface SortedSet_1_Enumerator$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SortedSet_1_Enumerator<T> = SortedSet_1_Enumerator$instance<T> & __SortedSet_1_Enumerator$views<T>;
 
 
-export class Stack_1_Enumerator$instance<T> {
+export class Stack_1_Enumerator$instance<T> implements IDisposable {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
@@ -487,8 +495,8 @@ export class Stack_1_Enumerator$instance<T> {
 
 
 export interface __Stack_1_Enumerator$views<T> {
-    readonly As_IEnumerator_1: IEnumerator_1$instance<T>;
-    readonly As_IEnumerator: System_Collections_Internal.IEnumerator$instance;
+    As_IEnumerator_1(): IEnumerator_1$instance<T>;
+    As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
 
 export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_Enumerator$views<T>;
@@ -496,14 +504,14 @@ export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_E
 
 export class ByteEqualityComparer$instance extends EqualityComparer_1$instance<CLROf<byte>> {
     constructor();
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
 export interface __ByteEqualityComparer$views {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<CLROf<byte>>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<CLROf<byte>>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualityComparer$views;
@@ -511,15 +519,17 @@ export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualit
 
 export abstract class Comparer_1$instance<T> {
     abstract compare(x: T, y: T): int;
-    static readonly Default: unknown;
-    static Create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
+    static readonly default_: unknown;
+    static create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
 }
 
 
 export interface __Comparer_1$views<T> {
-    readonly As_IComparer_1_of_String: IComparer_1$instance<T>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
+    As_IComparer_1(): IComparer_1$instance<T>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
+
+export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {}
 
 export type Comparer_1<T> = Comparer_1$instance<T> & __Comparer_1$views<T>;
 
@@ -547,7 +557,7 @@ export class Dictionary_2$instance<TKey, TValue> {
     getAlternateLookup<TAlternateKey>(): Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
     getEnumerator(): Dictionary_2_Enumerator<TKey, TValue>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: any): void;
+    onDeserialization(sender: unknown): void;
     remove(key: TKey): boolean;
     remove(key: TKey, value: { value: ref<TValue> }): boolean;
     trimExcess(): void;
@@ -559,17 +569,19 @@ export class Dictionary_2$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & __Dictionary_2$views<TKey, TValue>;
 
@@ -584,11 +596,11 @@ export class Dictionary_2_KeyCollection$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2_KeyCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TKey>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TKey>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TKey>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TKey>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TKey>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TKey>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Dictionary_2_KeyCollection<TKey, TValue> = Dictionary_2_KeyCollection$instance<TKey, TValue> & __Dictionary_2_KeyCollection$views<TKey, TValue>;
@@ -603,11 +615,11 @@ export class Dictionary_2_ValueCollection$instance<TKey, TValue> {
 
 
 export interface __Dictionary_2_ValueCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TValue>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TValue>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueCollection$instance<TKey, TValue> & __Dictionary_2_ValueCollection$views<TKey, TValue>;
@@ -615,17 +627,19 @@ export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueColle
 
 export class EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
     constructor();
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
-export interface __EnumEqualityComparer_1$views<T extends number & any> {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<T>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+export interface __EnumEqualityComparer_1$views<T extends number & unknown> {
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<T>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface EnumEqualityComparer_1$instance<T extends number & unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$instance<T> & __EnumEqualityComparer_1$views<T>;
 
@@ -633,14 +647,14 @@ export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$in
 export abstract class EqualityComparer_1$instance<T> {
     abstract equals(x: T, y: T): boolean;
     abstract getHashCode(obj: T): int;
-    static readonly Default: unknown;
-    static Create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
+    static readonly default_: unknown;
+    static create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
 }
 
 
 export interface __EqualityComparer_1$views<T> {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<T>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<T>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityComparer_1$views<T>;
@@ -648,15 +662,15 @@ export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityC
 
 export class GenericComparer_1$instance<T extends IComparable_1<T>> extends Comparer_1$instance<T> {
     constructor();
-    compare(x: any, y: any): int;
-    equals(obj: any): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export interface __GenericComparer_1$views<T extends IComparable_1<T>> {
-    readonly As_IComparer_1_of_String: IComparer_1$instance<T>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
+    As_IComparer_1(): IComparer_1$instance<T>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
 
 export type GenericComparer_1<T extends IComparable_1<T>> = GenericComparer_1$instance<T> & __GenericComparer_1$views<T>;
@@ -664,14 +678,14 @@ export type GenericComparer_1<T extends IComparable_1<T>> = GenericComparer_1$in
 
 export class GenericEqualityComparer_1$instance<T extends IEquatable_1<T>> extends EqualityComparer_1$instance<T> {
     constructor();
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
 export interface __GenericEqualityComparer_1$views<T extends IEquatable_1<T>> {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<T>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<T>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type GenericEqualityComparer_1<T extends IEquatable_1<T>> = GenericEqualityComparer_1$instance<T> & __GenericEqualityComparer_1$views<T>;
@@ -703,7 +717,7 @@ export class HashSet_1$instance<T> {
     isProperSupersetOf(other: IEnumerable_1<T>): boolean;
     isSubsetOf(other: IEnumerable_1<T>): boolean;
     isSupersetOf(other: IEnumerable_1<T>): boolean;
-    onDeserialization(sender: any): void;
+    onDeserialization(sender: unknown): void;
     overlaps(other: IEnumerable_1<T>): boolean;
     remove(item: T): boolean;
     removeWhere(match: Predicate_1<T>): int;
@@ -714,20 +728,22 @@ export class HashSet_1$instance<T> {
     tryGetAlternateLookup<TAlternate>(lookup: { value: ref<HashSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     unionWith(other: IEnumerable_1<T>): void;
-    static CreateSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
+    static createSetComparer<T>(): IEqualityComparer_1<HashSet_1<T>>;
 }
 
 
 export interface __HashSet_1$views<T> {
-    readonly As_ICollection_1: ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: ISet_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection_1(): ICollection_1$instance<T>;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): IReadOnlySet_1$instance<T>;
+    As_ISet_1(): ISet_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
@@ -741,7 +757,7 @@ export class KeyNotFoundException$instance extends System_Internal.SystemExcepti
 
 
 export interface __KeyNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type KeyNotFoundException = KeyNotFoundException$instance & __KeyNotFoundException$views;
@@ -768,7 +784,7 @@ export class LinkedList_1$instance<T> {
     findLast(value: T): LinkedListNode_1<T>;
     getEnumerator(): LinkedList_1_Enumerator<T>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: any): void;
+    onDeserialization(sender: unknown): void;
     remove(value: T): boolean;
     remove(node: LinkedListNode_1<T>): void;
     removeFirst(): void;
@@ -777,14 +793,16 @@ export class LinkedList_1$instance<T> {
 
 
 export interface __LinkedList_1$views<T> {
-    readonly As_ICollection_1: ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection_1(): ICollection_1$instance<T>;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>;
 
@@ -860,13 +878,13 @@ export class List_1$instance<T> {
 
 
 export interface __List_1$views<T> {
-    readonly As_ICollection_1: ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IList_1: IList_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): ICollection_1$instance<T>;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IList_1(): IList_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
@@ -876,64 +894,70 @@ export class NonRandomizedStringEqualityComparer$instance {
     equals(x: string, y: string): boolean;
     getHashCode(obj: string): int;
     getUnderlyingEqualityComparer(): IEqualityComparer_1<CLROf<string>>;
-    static GetStringComparer(comparer: any): IEqualityComparer_1<CLROf<string>>;
+    static getStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
 }
 
 
 export interface __NonRandomizedStringEqualityComparer$views {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<CLROf<string>>;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<CLROf<string>>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface NonRandomizedStringEqualityComparer$instance extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityComparer$instance & __NonRandomizedStringEqualityComparer$views;
 
 
-export class NullableComparer_1$instance<T extends any> extends Comparer_1$instance<Nullable_1<T>> {
+export class NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
     constructor();
-    compare(x: any, y: any): int;
-    equals(obj: any): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
-export interface __NullableComparer_1$views<T extends any> {
-    readonly As_IComparer_1_of_String: IComparer_1$instance<Nullable_1<T>>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+export interface __NullableComparer_1$views<T extends unknown> {
+    As_IComparer_1(): IComparer_1$instance<Nullable_1<T>>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface NullableComparer_1$instance<T extends unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableComparer_1$views<T>;
 
 
-export class NullableEqualityComparer_1$instance<T extends any> extends EqualityComparer_1$instance<Nullable_1<T>> {
+export class NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
     constructor();
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
-export interface __NullableEqualityComparer_1$views<T extends any> {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<Nullable_1<T>>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+export interface __NullableEqualityComparer_1$views<T extends unknown> {
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<Nullable_1<T>>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface NullableEqualityComparer_1$instance<T extends unknown> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NullableEqualityComparer_1<T> = NullableEqualityComparer_1$instance<T> & __NullableEqualityComparer_1$views<T>;
 
 
 export class ObjectComparer_1$instance<T> extends Comparer_1$instance<T> {
     constructor();
-    compare(x: any, y: any): int;
-    equals(obj: any): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export interface __ObjectComparer_1$views<T> {
-    readonly As_IComparer_1_of_String: IComparer_1$instance<T>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
+    As_IComparer_1(): IComparer_1$instance<T>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
 
 export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectComparer_1$views<T>;
@@ -941,14 +965,14 @@ export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectCompare
 
 export class ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
     constructor();
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
 }
 
 
 export interface __ObjectEqualityComparer_1$views<T> {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<T>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<T>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type ObjectEqualityComparer_1<T> = ObjectEqualityComparer_1$instance<T> & __ObjectEqualityComparer_1$views<T>;
@@ -993,16 +1017,16 @@ export class OrderedDictionary_2$instance<TKey, TValue> {
 
 
 export interface __OrderedDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IList_1: IList_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IList_1(): IList_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type OrderedDictionary_2<TKey, TValue> = OrderedDictionary_2$instance<TKey, TValue> & __OrderedDictionary_2$views<TKey, TValue>;
@@ -1017,13 +1041,13 @@ export class OrderedDictionary_2_KeyCollection$instance<TKey, TValue> {
 
 
 export interface __OrderedDictionary_2_KeyCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TKey>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TKey>;
-    readonly As_IList_1: IList_1$instance<TKey>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TKey>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): ICollection_1$instance<TKey>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TKey>;
+    As_IList_1(): IList_1$instance<TKey>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TKey>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type OrderedDictionary_2_KeyCollection<TKey, TValue> = OrderedDictionary_2_KeyCollection$instance<TKey, TValue> & __OrderedDictionary_2_KeyCollection$views<TKey, TValue>;
@@ -1037,13 +1061,13 @@ export class OrderedDictionary_2_ValueCollection$instance<TKey, TValue> {
 
 
 export interface __OrderedDictionary_2_ValueCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TValue>;
-    readonly As_IList_1: IList_1$instance<TValue>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): ICollection_1$instance<TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TValue>;
+    As_IList_1(): IList_1$instance<TValue>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type OrderedDictionary_2_ValueCollection<TKey, TValue> = OrderedDictionary_2_ValueCollection$instance<TKey, TValue> & __OrderedDictionary_2_ValueCollection$views<TKey, TValue>;
@@ -1085,10 +1109,10 @@ export class PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriori
 
 
 export interface __PriorityQueue_2_UnorderedItemsCollection$views<TElement, TPriority> {
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<ValueTuple_2<TElement, TPriority>>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<ValueTuple_2<TElement, TPriority>>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): IEnumerable_1$instance<ValueTuple_2<TElement, TPriority>>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<ValueTuple_2<TElement, TPriority>>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type PriorityQueue_2_UnorderedItemsCollection<TElement, TPriority> = PriorityQueue_2_UnorderedItemsCollection$instance<TElement, TPriority> & __PriorityQueue_2_UnorderedItemsCollection$views<TElement, TPriority>;
@@ -1117,25 +1141,25 @@ export class Queue_1$instance<T> {
 
 
 export interface __Queue_1$views<T> {
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Queue_1<T> = Queue_1$instance<T> & __Queue_1$views<T>;
 
 
 export class ReferenceEqualityComparer$instance {
-    equals(x: any, y: any): boolean;
-    getHashCode(obj: any): int;
-    static readonly Instance: ReferenceEqualityComparer;
+    equals(x: unknown, y: unknown): boolean;
+    getHashCode(obj: unknown): int;
+    static readonly instance: ReferenceEqualityComparer;
 }
 
 
 export interface __ReferenceEqualityComparer$views {
-    readonly As_IEqualityComparer_1_of_String: IEqualityComparer_1$instance<any>;
-    readonly As_IEqualityComparer: System_Collections_Internal.IEqualityComparer$instance;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<unknown>;
+    As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
 export type ReferenceEqualityComparer = ReferenceEqualityComparer$instance & __ReferenceEqualityComparer$views;
@@ -1163,14 +1187,14 @@ export class SortedDictionary_2$instance<TKey, TValue> {
 
 
 export interface __SortedDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedDictionary_2<TKey, TValue> = SortedDictionary_2$instance<TKey, TValue> & __SortedDictionary_2$views<TKey, TValue>;
@@ -1186,11 +1210,11 @@ export class SortedDictionary_2_KeyCollection$instance<TKey, TValue> {
 
 
 export interface __SortedDictionary_2_KeyCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TKey>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TKey>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TKey>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TKey>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TKey>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TKey>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedDictionary_2_KeyCollection<TKey, TValue> = SortedDictionary_2_KeyCollection$instance<TKey, TValue> & __SortedDictionary_2_KeyCollection$views<TKey, TValue>;
@@ -1198,15 +1222,15 @@ export type SortedDictionary_2_KeyCollection<TKey, TValue> = SortedDictionary_2_
 
 export class SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> extends Comparer_1$instance<KeyValuePair_2<TKey, TValue>> {
     constructor(keyComparer: IComparer_1<TKey>);
-    compare(x: any, y: any): int;
-    equals(obj: any): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export interface __SortedDictionary_2_KeyValuePairComparer$views<TKey, TValue> {
-    readonly As_IComparer_1_of_String: IComparer_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IComparer: System_Collections_Internal.IComparer$instance;
+    As_IComparer_1(): IComparer_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
 
 export type SortedDictionary_2_KeyValuePairComparer<TKey, TValue> = SortedDictionary_2_KeyValuePairComparer$instance<TKey, TValue> & __SortedDictionary_2_KeyValuePairComparer$views<TKey, TValue>;
@@ -1221,11 +1245,11 @@ export class SortedDictionary_2_ValueCollection$instance<TKey, TValue> {
 
 
 export interface __SortedDictionary_2_ValueCollection$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TValue>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TValue>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedDictionary_2_ValueCollection<TKey, TValue> = SortedDictionary_2_ValueCollection$instance<TKey, TValue> & __SortedDictionary_2_ValueCollection$views<TKey, TValue>;
@@ -1262,14 +1286,14 @@ export class SortedList_2$instance<TKey, TValue> {
 
 
 export interface __SortedList_2$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedList_2<TKey, TValue> = SortedList_2$instance<TKey, TValue> & __SortedList_2$views<TKey, TValue>;
@@ -1292,11 +1316,11 @@ export class SortedList_2_KeyList$instance<TKey, TValue> {
 
 
 export interface __SortedList_2_KeyList$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TKey>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TKey>;
-    readonly As_IList_1: IList_1$instance<TKey>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TKey>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TKey>;
+    As_IList_1(): IList_1$instance<TKey>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedList_2_KeyList<TKey, TValue> = SortedList_2_KeyList$instance<TKey, TValue> & __SortedList_2_KeyList$views<TKey, TValue>;
@@ -1319,11 +1343,11 @@ export class SortedList_2_ValueList$instance<TKey, TValue> {
 
 
 export interface __SortedList_2_ValueList$views<TKey, TValue> {
-    readonly As_ICollection_1: ICollection_1$instance<TValue>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<TValue>;
-    readonly As_IList_1: IList_1$instance<TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): ICollection_1$instance<TValue>;
+    As_IEnumerable_1(): IEnumerable_1$instance<TValue>;
+    As_IList_1(): IList_1$instance<TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type SortedList_2_ValueList<TKey, TValue> = SortedList_2_ValueList$instance<TKey, TValue> & __SortedList_2_ValueList$views<TKey, TValue>;
@@ -1360,22 +1384,24 @@ export class SortedSet_1$instance<T> {
     symmetricExceptWith(other: IEnumerable_1<T>): void;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
     unionWith(other: IEnumerable_1<T>): void;
-    static CreateSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
-    static CreateSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
+    static createSetComparer<T>(): IEqualityComparer_1<SortedSet_1<T>>;
+    static createSetComparer<T>(memberEqualityComparer: IEqualityComparer_1<T>): IEqualityComparer_1<SortedSet_1<T>>;
 }
 
 
 export interface __SortedSet_1$views<T> {
-    readonly As_ICollection_1: ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection_1(): ICollection_1$instance<T>;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): IReadOnlySet_1$instance<T>;
+    As_ISet_1(): ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface SortedSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type SortedSet_1<T> = SortedSet_1$instance<T> & __SortedSet_1$views<T>;
 
@@ -1403,10 +1429,10 @@ export class Stack_1$instance<T> {
 
 
 export interface __Stack_1$views<T> {
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type Stack_1<T> = Stack_1$instance<T> & __Stack_1$views<T>;
@@ -1429,44 +1455,46 @@ export class TreeSet_1$instance<T> extends SortedSet_1$instance<T> {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     isProperSubsetOf(other: IEnumerable_1<T>): boolean;
     isSubsetOf(other: IEnumerable_1<T>): boolean;
-    onDeserialization(sender: any): void;
+    onDeserialization(sender: unknown): void;
     unionWith(other: IEnumerable_1<T>): void;
 }
 
 
 export interface __TreeSet_1$views<T> {
-    readonly As_ICollection_1: ICollection_1$instance<T>;
-    readonly As_IEnumerable_1_of_Char: IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: IReadOnlyCollection_1$instance<T>;
-    readonly As_IReadOnlySet_1: IReadOnlySet_1$instance<T>;
-    readonly As_ISet_1: ISet_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection_1(): ICollection_1$instance<T>;
+    As_IEnumerable_1(): IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): IReadOnlyCollection_1$instance<T>;
+    As_IReadOnlySet_1(): IReadOnlySet_1$instance<T>;
+    As_ISet_1(): ISet_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface TreeSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type TreeSet_1<T> = TreeSet_1$instance<T> & __TreeSet_1$views<T>;
 
 
 export abstract class CollectionExtensions$instance {
-    static AddRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
-    static AsReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
-    static AsReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    static AsReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
-    static CopyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static GetValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
-    static InsertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
-    static Remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
-    static TryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
+    static addRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
+    static asReadOnly3<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
+    static asReadOnly3<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
+    static asReadOnly3<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
+    static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
+    static getValueOrDefault2<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
+    static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
+    static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
 }
 
 
 export type CollectionExtensions = CollectionExtensions$instance;
 
 export abstract class KeyValuePair$instance {
-    static Create<TKey, TValue>(key: TKey, value: TValue): KeyValuePair_2<TKey, TValue>;
+    static create<TKey, TValue>(key: TKey, value: TValue): KeyValuePair_2<TKey, TValue>;
 }
 
 

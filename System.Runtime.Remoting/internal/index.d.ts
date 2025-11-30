@@ -35,8 +35,8 @@ export type CLROf<T> =
     T; // Identity fallback for non-primitive types
 
 export class ObjectHandle$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor(o: any);
-    unwrap(): any;
+    constructor(o: unknown);
+    unwrap(): unknown;
 }
 
 

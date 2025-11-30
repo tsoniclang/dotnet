@@ -337,261 +337,273 @@ export enum XmlWriteMode {
 
 
 export interface IColumnMapping$instance {
-    DataSetColumn: string;
-    SourceColumn: string;
+    dataSetColumn: string;
+    sourceColumn: string;
 }
 
 
 export type IColumnMapping = IColumnMapping$instance;
 
-export interface IColumnMappingCollection$instance {
-    readonly IsReadOnly: boolean;
-    readonly IsFixedSize: boolean;
-    readonly Count: int;
-    readonly SyncRoot: any;
-    readonly IsSynchronized: boolean;
-    Add(sourceColumnName: string, dataSetColumnName: string): IColumnMapping;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(sourceColumnName: string): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): any;
-    get_Item(index: string): any;
-    GetByDataSetColumn(dataSetColumnName: string): IColumnMapping;
-    GetEnumerator(): IEnumerator;
-    IndexOf(sourceColumnName: string): int;
-    Insert(index: int, value: any): void;
-    Remove(value: any): void;
-    RemoveAt(sourceColumnName: string): void;
-    RemoveAt(index: int): void;
-    set_Item(index: int, value: any): void;
-    set_Item(index: string, value: any): void;
+export interface IColumnMappingCollection$instance extends IList, ICollection, IEnumerable {
+    readonly isReadOnly: boolean;
+    readonly isFixedSize: boolean;
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    add(sourceColumnName: string, dataSetColumnName: string): IColumnMapping;
+    add(value: unknown): int;
+    clear(): void;
+    contains(sourceColumnName: string): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    get_Item2(index: int): unknown;
+    get_Item2(index: string): unknown;
+    getByDataSetColumn(dataSetColumnName: string): IColumnMapping;
+    getEnumerator(): IEnumerator;
+    indexOf(sourceColumnName: string): int;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(sourceColumnName: string): void;
+    removeAt(index: int): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
 export type IColumnMappingCollection = IColumnMappingCollection$instance;
 
 export interface IDataAdapter$instance {
-    MissingMappingAction: MissingMappingAction;
-    MissingSchemaAction: MissingSchemaAction;
-    readonly TableMappings: ITableMappingCollection;
-    Fill(dataSet: DataSet): int;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
-    GetFillParameters(): IDataParameter[];
+    missingMappingAction: MissingMappingAction;
+    missingSchemaAction: MissingSchemaAction;
+    readonly tableMappings: ITableMappingCollection;
+    fill(dataSet: DataSet): int;
+    fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    getFillParameters(): IDataParameter[];
 }
 
 
 export type IDataAdapter = IDataAdapter$instance;
 
 export interface IDataParameter$instance {
-    DbType: DbType;
-    Direction: ParameterDirection;
-    readonly IsNullable: boolean;
-    ParameterName: string;
-    SourceColumn: string;
-    SourceVersion: DataRowVersion;
-    Value: any;
+    dbType: DbType;
+    direction: ParameterDirection;
+    readonly isNullable: boolean;
+    parameterName: string;
+    sourceColumn: string;
+    sourceVersion: DataRowVersion;
+    value: unknown;
 }
 
 
 export type IDataParameter = IDataParameter$instance;
 
-export interface IDataParameterCollection$instance {
-    readonly IsReadOnly: boolean;
-    readonly IsFixedSize: boolean;
-    readonly Count: int;
-    readonly SyncRoot: any;
-    readonly IsSynchronized: boolean;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(parameterName: string): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): any;
-    get_Item(parameterName: string): any;
-    GetEnumerator(): IEnumerator;
-    IndexOf(parameterName: string): int;
-    Insert(index: int, value: any): void;
-    Remove(value: any): void;
-    RemoveAt(parameterName: string): void;
-    RemoveAt(index: int): void;
-    set_Item(index: int, value: any): void;
-    set_Item(parameterName: string, value: any): void;
+export interface IDataParameterCollection$instance extends IList, ICollection, IEnumerable {
+    readonly isReadOnly: boolean;
+    readonly isFixedSize: boolean;
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    add(value: unknown): int;
+    clear(): void;
+    contains(parameterName: string): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    get_Item2(index: int): unknown;
+    get_Item2(parameterName: string): unknown;
+    getEnumerator(): IEnumerator;
+    indexOf(parameterName: string): int;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(parameterName: string): void;
+    removeAt(index: int): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(parameterName: string, value: unknown): void;
 }
 
 
 export type IDataParameterCollection = IDataParameterCollection$instance;
 
-export interface IDataReader$instance {
-    readonly Depth: int;
-    readonly IsClosed: boolean;
-    readonly RecordsAffected: int;
-    readonly FieldCount: int;
-    Close(): void;
-    get_Item(i: int): any;
-    get_Item(name: string): any;
-    GetBoolean(i: int): boolean;
-    GetByte(i: int): byte;
-    GetBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
-    GetChar(i: int): string;
-    GetChars(i: int, fieldoffset: long, buffer: string[], bufferoffset: int, length: int): long;
-    GetData(i: int): IDataReader;
-    GetDateTime(i: int): DateTime;
-    GetDecimal(i: int): decimal;
-    GetDouble(i: int): double;
-    GetFieldType(i: int): Type;
-    GetFloat(i: int): float;
-    GetGuid(i: int): Guid;
-    GetInt16(i: int): short;
-    GetInt32(i: int): int;
-    GetInt64(i: int): long;
-    GetName(i: int): string;
-    GetOrdinal(name: string): int;
-    GetSchemaTable(): DataTable;
-    GetValue(i: int): any;
-    GetValues(values: any[]): int;
-    NextResult(): boolean;
+export interface IDataReader$instance extends IDisposable, IDataRecord {
+    readonly depth: int;
+    readonly isClosed: boolean;
+    readonly recordsAffected: int;
+    readonly fieldCount: int;
+    close(): void;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
+    getBoolean(i: int): boolean;
+    getByte(i: int): byte;
+    getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
+    getChar(i: int): char;
+    getChars(i: int, fieldoffset: long, buffer: char[], bufferoffset: int, length: int): long;
+    getData(i: int): IDataReader;
+    getDateTime(i: int): DateTime;
+    getDecimal(i: int): decimal;
+    getDouble(i: int): double;
+    getFieldType(i: int): Type;
+    getFloat(i: int): float;
+    getGuid(i: int): Guid;
+    getInt16(i: int): short;
+    getInt32(i: int): int;
+    getInt64(i: int): long;
+    getName(i: int): string;
+    getOrdinal(name: string): int;
+    getSchemaTable(): DataTable;
+    getValue(i: int): unknown;
+    getValues(values: unknown[]): int;
+    nextResult(): boolean;
 }
 
+
+export interface IDataReader$instance extends IDataRecord$instance, System_Internal.IDisposable$instance {}
 
 export type IDataReader = IDataReader$instance;
 
 export interface IDataRecord$instance {
-    readonly FieldCount: int;
-    get_Item(i: int): any;
-    get_Item(name: string): any;
-    GetBoolean(i: int): boolean;
-    GetByte(i: int): byte;
-    GetBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
-    GetChar(i: int): string;
-    GetChars(i: int, fieldoffset: long, buffer: string[], bufferoffset: int, length: int): long;
-    GetData(i: int): IDataReader;
-    GetDateTime(i: int): DateTime;
-    GetDecimal(i: int): decimal;
-    GetDouble(i: int): double;
-    GetFieldType(i: int): Type;
-    GetFloat(i: int): float;
-    GetGuid(i: int): Guid;
-    GetInt16(i: int): short;
-    GetInt32(i: int): int;
-    GetInt64(i: int): long;
-    GetName(i: int): string;
-    GetOrdinal(name: string): int;
-    GetValue(i: int): any;
-    GetValues(values: any[]): int;
+    readonly fieldCount: int;
+    get_Item(i: int): unknown;
+    get_Item(name: string): unknown;
+    getBoolean(i: int): boolean;
+    getByte(i: int): byte;
+    getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
+    getChar(i: int): char;
+    getChars(i: int, fieldoffset: long, buffer: char[], bufferoffset: int, length: int): long;
+    getData(i: int): IDataReader;
+    getDateTime(i: int): DateTime;
+    getDecimal(i: int): decimal;
+    getDouble(i: int): double;
+    getFieldType(i: int): Type;
+    getFloat(i: int): float;
+    getGuid(i: int): Guid;
+    getInt16(i: int): short;
+    getInt32(i: int): int;
+    getInt64(i: int): long;
+    getName(i: int): string;
+    getOrdinal(name: string): int;
+    getValue(i: int): unknown;
+    getValues(values: unknown[]): int;
 }
 
 
 export type IDataRecord = IDataRecord$instance;
 
-export interface IDbCommand$instance {
-    Connection: IDbConnection;
-    Transaction: IDbTransaction;
-    CommandText: string;
-    CommandTimeout: int;
-    CommandType: CommandType;
-    readonly Parameters: IDataParameterCollection;
-    UpdatedRowSource: UpdateRowSource;
-    CreateParameter(): IDbDataParameter;
-    ExecuteNonQuery(): int;
-    ExecuteReader(): IDataReader;
-    ExecuteReader(behavior: CommandBehavior): IDataReader;
-    ExecuteScalar(): any;
-    Prepare(): void;
+export interface IDbCommand$instance extends IDisposable {
+    connection: IDbConnection;
+    transaction: IDbTransaction;
+    commandText: string;
+    commandTimeout: int;
+    commandType: CommandType;
+    readonly parameters: IDataParameterCollection;
+    updatedRowSource: UpdateRowSource;
+    createParameter(): IDbDataParameter;
+    executeNonQuery(): int;
+    executeReader(): IDataReader;
+    executeReader(behavior: CommandBehavior): IDataReader;
+    executeScalar(): unknown;
+    prepare(): void;
 }
 
+
+export interface IDbCommand$instance extends System_Internal.IDisposable$instance {}
 
 export type IDbCommand = IDbCommand$instance;
 
-export interface IDbConnection$instance {
-    ConnectionString: string;
-    readonly ConnectionTimeout: int;
-    readonly Database: string;
-    readonly State: ConnectionState;
-    BeginTransaction(): IDbTransaction;
-    BeginTransaction(il: IsolationLevel): IDbTransaction;
-    ChangeDatabase(databaseName: string): void;
-    Close(): void;
-    CreateCommand(): IDbCommand;
+export interface IDbConnection$instance extends IDisposable {
+    connectionString: string;
+    readonly connectionTimeout: int;
+    readonly database: string;
+    readonly state: ConnectionState;
+    beginTransaction(): IDbTransaction;
+    beginTransaction(il: IsolationLevel): IDbTransaction;
+    changeDatabase(databaseName: string): void;
+    close(): void;
+    createCommand(): IDbCommand;
 }
 
+
+export interface IDbConnection$instance extends System_Internal.IDisposable$instance {}
 
 export type IDbConnection = IDbConnection$instance;
 
-export interface IDbDataAdapter$instance {
-    SelectCommand: IDbCommand;
-    InsertCommand: IDbCommand;
-    UpdateCommand: IDbCommand;
-    DeleteCommand: IDbCommand;
-    MissingMappingAction: MissingMappingAction;
-    MissingSchemaAction: MissingSchemaAction;
-    readonly TableMappings: ITableMappingCollection;
-    Fill(dataSet: DataSet): int;
-    FillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
-    GetFillParameters(): IDataParameter[];
+export interface IDbDataAdapter$instance extends IDataAdapter {
+    selectCommand: IDbCommand;
+    insertCommand: IDbCommand;
+    updateCommand: IDbCommand;
+    deleteCommand: IDbCommand;
+    missingMappingAction: MissingMappingAction;
+    missingSchemaAction: MissingSchemaAction;
+    readonly tableMappings: ITableMappingCollection;
+    fill(dataSet: DataSet): int;
+    fillSchema(dataSet: DataSet, schemaType: SchemaType): DataTable[];
+    getFillParameters(): IDataParameter[];
 }
 
+
+export interface IDbDataAdapter$instance extends IDataAdapter$instance {}
 
 export type IDbDataAdapter = IDbDataAdapter$instance;
 
-export interface IDbDataParameter$instance {
-    Precision: byte;
-    Scale: byte;
-    Size: int;
-    DbType: DbType;
-    Direction: ParameterDirection;
-    readonly IsNullable: boolean;
-    ParameterName: string;
-    SourceColumn: string;
-    SourceVersion: DataRowVersion;
-    Value: any;
+export interface IDbDataParameter$instance extends IDataParameter {
+    precision: byte;
+    scale: byte;
+    size: int;
+    dbType: DbType;
+    direction: ParameterDirection;
+    readonly isNullable: boolean;
+    parameterName: string;
+    sourceColumn: string;
+    sourceVersion: DataRowVersion;
+    value: unknown;
 }
 
+
+export interface IDbDataParameter$instance extends IDataParameter$instance {}
 
 export type IDbDataParameter = IDbDataParameter$instance;
 
-export interface IDbTransaction$instance {
-    readonly Connection: IDbConnection;
-    readonly IsolationLevel: IsolationLevel;
-    Commit(): void;
+export interface IDbTransaction$instance extends IDisposable {
+    readonly connection: IDbConnection;
+    readonly isolationLevel: IsolationLevel;
+    commit(): void;
 }
 
+
+export interface IDbTransaction$instance extends System_Internal.IDisposable$instance {}
 
 export type IDbTransaction = IDbTransaction$instance;
 
 export interface ITableMapping$instance {
-    readonly ColumnMappings: IColumnMappingCollection;
-    DataSetTable: string;
-    SourceTable: string;
+    readonly columnMappings: IColumnMappingCollection;
+    dataSetTable: string;
+    sourceTable: string;
 }
 
 
 export type ITableMapping = ITableMapping$instance;
 
-export interface ITableMappingCollection$instance {
-    readonly IsReadOnly: boolean;
-    readonly IsFixedSize: boolean;
-    readonly Count: int;
-    readonly SyncRoot: any;
-    readonly IsSynchronized: boolean;
-    Add(sourceTableName: string, dataSetTableName: string): ITableMapping;
-    Add(value: any): int;
-    Clear(): void;
-    Contains(sourceTableName: string): boolean;
-    Contains(value: any): boolean;
-    CopyTo(array: ClrArray, index: int): void;
-    get_Item(index: int): any;
-    get_Item(index: string): any;
-    GetByDataSetTable(dataSetTableName: string): ITableMapping;
-    GetEnumerator(): IEnumerator;
-    IndexOf(sourceTableName: string): int;
-    Insert(index: int, value: any): void;
-    Remove(value: any): void;
-    RemoveAt(sourceTableName: string): void;
-    RemoveAt(index: int): void;
-    set_Item(index: int, value: any): void;
-    set_Item(index: string, value: any): void;
+export interface ITableMappingCollection$instance extends IList, ICollection, IEnumerable {
+    readonly isReadOnly: boolean;
+    readonly isFixedSize: boolean;
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    add(sourceTableName: string, dataSetTableName: string): ITableMapping;
+    add(value: unknown): int;
+    clear(): void;
+    contains(sourceTableName: string): boolean;
+    contains(value: unknown): boolean;
+    copyTo(array: ClrArray, index: int): void;
+    get_Item2(index: int): unknown;
+    get_Item2(index: string): unknown;
+    getByDataSetTable(dataSetTableName: string): ITableMapping;
+    getEnumerator(): IEnumerator;
+    indexOf(sourceTableName: string): int;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
+    removeAt(sourceTableName: string): void;
+    removeAt(index: int): void;
+    set_Item2(index: int, value: unknown): void;
+    set_Item2(index: string, value: unknown): void;
 }
 
 
@@ -630,8 +642,8 @@ export class ConstraintCollection$instance extends InternalDataCollectionBase$in
 
 
 export interface __ConstraintCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ConstraintCollection = ConstraintCollection$instance & __ConstraintCollection$views;
@@ -646,7 +658,7 @@ export class ConstraintException$instance extends DataException$instance {
 
 
 export interface __ConstraintException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ConstraintException = ConstraintException$instance & __ConstraintException$views;
@@ -667,7 +679,7 @@ export class DataColumn$instance extends System_ComponentModel_Internal.MarshalB
     columnName: string;
     dataType: Type;
     dateTimeMode: DataSetDateTime;
-    defaultValue: any;
+    defaultValue: unknown;
     expression: string;
     readonly extendedProperties: PropertyCollection;
     maxLength: int;
@@ -678,25 +690,27 @@ export class DataColumn$instance extends System_ComponentModel_Internal.MarshalB
     readonly table: DataTable;
     unique: boolean;
     dispose(): void;
-    getService(service: Type): any;
+    getService(service: Type): unknown;
     setOrdinal(ordinal: int): void;
     toString(): string;
 }
 
 
 export interface __DataColumn$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DataColumn$instance extends System_ComponentModel_Internal.IComponent$instance {}
 
 export type DataColumn = DataColumn$instance & __DataColumn$views;
 
 
 export class DataColumnChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(row: DataRow, column: DataColumn, value: any);
+    constructor(row: DataRow, column: DataColumn, value: unknown);
     readonly column: DataColumn;
-    proposedValue: any;
+    proposedValue: unknown;
     readonly row: DataRow;
 }
 
@@ -704,18 +718,18 @@ export class DataColumnChangeEventArgs$instance extends System_Internal.EventArg
 export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
 export class DataColumnChangeEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataColumnChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: DataColumnChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataColumnChangeEventArgs): void;
+    invoke(sender: unknown, e: DataColumnChangeEventArgs): void;
 }
 
 
 export interface __DataColumnChangeEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataColumnChangeEventHandler = DataColumnChangeEventHandler$instance & __DataColumnChangeEventHandler$views;
@@ -744,8 +758,8 @@ export class DataColumnCollection$instance extends InternalDataCollectionBase$in
 
 
 export interface __DataColumnCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DataColumnCollection = DataColumnCollection$instance & __DataColumnCollection$views;
@@ -760,7 +774,7 @@ export class DataException$instance extends System_Internal.SystemException$inst
 
 
 export interface __DataException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataException = DataException$instance & __DataException$views;
@@ -814,8 +828,8 @@ export abstract class DataRelationCollection$instance extends InternalDataCollec
 
 
 export interface __DataRelationCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DataRelationCollection = DataRelationCollection$instance & __DataRelationCollection$views;
@@ -823,7 +837,7 @@ export type DataRelationCollection = DataRelationCollection$instance & __DataRel
 
 export class DataRow$instance {
     readonly hasErrors: boolean;
-    itemArray: any[];
+    itemArray: unknown[];
     rowError: string;
     readonly rowState: DataRowState;
     readonly table: DataTable;
@@ -833,12 +847,12 @@ export class DataRow$instance {
     clearErrors(): void;
     delete_(): void;
     endEdit(): void;
-    get_Item(columnIndex: int): any;
-    get_Item(columnName: string): any;
-    get_Item(column: DataColumn): any;
-    get_Item(columnIndex: int, version: DataRowVersion): any;
-    get_Item(columnName: string, version: DataRowVersion): any;
-    get_Item(column: DataColumn, version: DataRowVersion): any;
+    get_Item(columnIndex: int): unknown;
+    get_Item(columnName: string): unknown;
+    get_Item(column: DataColumn): unknown;
+    get_Item(columnIndex: int, version: DataRowVersion): unknown;
+    get_Item(columnName: string, version: DataRowVersion): unknown;
+    get_Item(column: DataColumn, version: DataRowVersion): unknown;
     getChildRows(relationName: string): DataRow[];
     getChildRows(relationName: string, version: DataRowVersion): DataRow[];
     getChildRows(relation: DataRelation): DataRow[];
@@ -861,9 +875,9 @@ export class DataRow$instance {
     isNull(column: DataColumn): boolean;
     isNull(column: DataColumn, version: DataRowVersion): boolean;
     rejectChanges(): void;
-    set_Item(columnIndex: int, value: any): void;
-    set_Item(columnName: string, value: any): void;
-    set_Item(column: DataColumn, value: any): void;
+    set_Item(columnIndex: int, value: unknown): void;
+    set_Item(columnName: string, value: unknown): void;
+    set_Item(column: DataColumn, value: unknown): void;
     setAdded(): void;
     setColumnError(columnIndex: int, error: string): void;
     setColumnError(columnName: string, error: string): void;
@@ -892,18 +906,18 @@ export class DataRowChangeEventArgs$instance extends System_Internal.EventArgs$i
 export type DataRowChangeEventArgs = DataRowChangeEventArgs$instance;
 
 export class DataRowChangeEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataRowChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: DataRowChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataRowChangeEventArgs): void;
+    invoke(sender: unknown, e: DataRowChangeEventArgs): void;
 }
 
 
 export interface __DataRowChangeEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataRowChangeEventHandler = DataRowChangeEventHandler$instance & __DataRowChangeEventHandler$views;
@@ -913,13 +927,13 @@ export class DataRowCollection$instance extends InternalDataCollectionBase$insta
     readonly count: int;
     readonly item: DataRow;
     add(row: DataRow): void;
-    add(values: any[]): DataRow;
+    add(values: unknown[]): DataRow;
     clear(): void;
-    contains(key: any): boolean;
-    contains(keys: any[]): boolean;
+    contains(key: unknown): boolean;
+    contains(keys: unknown[]): boolean;
     copyTo(ar: ClrArray, index: int): void;
-    find(key: any): DataRow;
-    find(keys: any[]): DataRow;
+    find(key: unknown): DataRow;
+    find(keys: unknown[]): DataRow;
     getEnumerator(): IEnumerator;
     indexOf(row: DataRow): int;
     insertAt(row: DataRow, pos: int): void;
@@ -929,8 +943,8 @@ export class DataRowCollection$instance extends InternalDataCollectionBase$insta
 
 
 export interface __DataRowCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DataRowCollection = DataRowCollection$instance & __DataRowCollection$views;
@@ -939,18 +953,18 @@ export type DataRowCollection = DataRowCollection$instance & __DataRowCollection
 export class DataRowComparer_1$instance<TRow extends DataRow> {
     equals(leftRow: TRow, rightRow: TRow): boolean;
     getHashCode(row: TRow): int;
-    static readonly Default: unknown;
+    static readonly default_: unknown;
 }
 
 
 export interface __DataRowComparer_1$views<TRow extends DataRow> {
-    readonly As_IEqualityComparer_1_of_String: System_Collections_Generic_Internal.IEqualityComparer_1$instance<TRow>;
+    As_IEqualityComparer_1(): System_Collections_Generic_Internal.IEqualityComparer_1$instance<TRow>;
 }
 
 export type DataRowComparer_1<TRow extends DataRow> = DataRowComparer_1$instance<TRow> & __DataRowComparer_1$views<TRow>;
 
 
-export class DataRowView$instance {
+export class DataRowView$instance implements System_ComponentModel_Internal.INotifyPropertyChanged$instance {
     readonly dataView: DataView;
     readonly isEdit: boolean;
     readonly isNew: boolean;
@@ -964,20 +978,22 @@ export class DataRowView$instance {
     createChildView(relationName: string): DataView;
     delete_(): void;
     endEdit(): void;
-    equals(other: any): boolean;
-    get_Item(ndx: int): any;
-    get_Item(property: string): any;
+    equals(other: unknown): boolean;
+    get_Item(ndx: int): unknown;
+    get_Item(property: string): unknown;
     getHashCode(): int;
-    set_Item(ndx: int, value: any): void;
-    set_Item(property: string, value: any): void;
+    set_Item(ndx: int, value: unknown): void;
+    set_Item(property: string, value: unknown): void;
 }
 
 
 export interface __DataRowView$views {
-    readonly As_IEditableObject: System_ComponentModel_Internal.IEditableObject$instance;
-    readonly As_ICustomTypeDescriptor: System_ComponentModel_Internal.ICustomTypeDescriptor$instance;
-    readonly As_IDataErrorInfo: System_ComponentModel_Internal.IDataErrorInfo$instance;
+    As_IEditableObject(): System_ComponentModel_Internal.IEditableObject$instance;
+    As_ICustomTypeDescriptor(): System_ComponentModel_Internal.ICustomTypeDescriptor$instance;
+    As_IDataErrorInfo(): System_ComponentModel_Internal.IDataErrorInfo$instance;
 }
+
+export interface DataRowView$instance extends System_ComponentModel_Internal.ICustomTypeDescriptor$instance, System_ComponentModel_Internal.IDataErrorInfo$instance, System_ComponentModel_Internal.IEditableObject$instance, System_ComponentModel_Internal.INotifyPropertyChanged$instance {}
 
 export type DataRowView = DataRowView$instance & __DataRowView$views;
 
@@ -1012,7 +1028,7 @@ export class DataSet$instance extends System_ComponentModel_Internal.MarshalByVa
     getChanges(): DataSet;
     getChanges(rowStates: DataRowState): DataSet;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type): any;
+    getService(service: Type): unknown;
     getXml(): string;
     getXmlSchema(): string;
     hasChanges(): boolean;
@@ -1061,20 +1077,22 @@ export class DataSet$instance extends System_ComponentModel_Internal.MarshalByVa
     writeXmlSchema(writer: TextWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
     writeXmlSchema(writer: XmlWriter): void;
     writeXmlSchema(writer: XmlWriter, multipleTargetConverter: Converter_2<Type, CLROf<string>>): void;
-    static GetDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
+    static getDataSetSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
 
 
 export interface __DataSet$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_ISupportInitialize: System_ComponentModel_Internal.ISupportInitialize$instance;
-    readonly As_IListSource: System_ComponentModel_Internal.IListSource$instance;
-    readonly As_ISupportInitializeNotification: System_ComponentModel_Internal.ISupportInitializeNotification$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
+    As_IListSource(): System_ComponentModel_Internal.IListSource$instance;
+    As_ISupportInitializeNotification(): System_ComponentModel_Internal.ISupportInitializeNotification$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface DataSet$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DataSet = DataSet$instance & __DataSet$views;
 
@@ -1116,7 +1134,7 @@ export class DataTable$instance extends System_ComponentModel_Internal.MarshalBy
     beginLoadData(): void;
     clear(): void;
     clone(): DataTable;
-    compute(expression: string, filter: string): any;
+    compute(expression: string, filter: string): unknown;
     copy(): DataTable;
     createDataReader(): DataTableReader;
     dispose(): void;
@@ -1126,13 +1144,13 @@ export class DataTable$instance extends System_ComponentModel_Internal.MarshalBy
     getChanges(rowStates: DataRowState): DataTable;
     getErrors(): DataRow[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type): any;
+    getService(service: Type): unknown;
     importRow(row: DataRow): void;
     load(reader: IDataReader): void;
     load(reader: IDataReader, loadOption: LoadOption): void;
     load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler): void;
-    loadDataRow(values: any[], fAcceptChanges: boolean): DataRow;
-    loadDataRow(values: any[], loadOption: LoadOption): DataRow;
+    loadDataRow(values: unknown[], fAcceptChanges: boolean): DataRow;
+    loadDataRow(values: unknown[], loadOption: LoadOption): DataRow;
     merge(table: DataTable): void;
     merge(table: DataTable, preserveChanges: boolean): void;
     merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
@@ -1176,20 +1194,22 @@ export class DataTable$instance extends System_ComponentModel_Internal.MarshalBy
     writeXmlSchema(writer: XmlWriter, writeHierarchy: boolean): void;
     writeXmlSchema(fileName: string): void;
     writeXmlSchema(fileName: string, writeHierarchy: boolean): void;
-    static GetDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
+    static getDataTableSchema(schemaSet: XmlSchemaSet): XmlSchemaComplexType;
 }
 
 
 export interface __DataTable$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_ISupportInitialize: System_ComponentModel_Internal.ISupportInitialize$instance;
-    readonly As_IListSource: System_ComponentModel_Internal.IListSource$instance;
-    readonly As_ISupportInitializeNotification: System_ComponentModel_Internal.ISupportInitializeNotification$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
+    As_IListSource(): System_ComponentModel_Internal.IListSource$instance;
+    As_ISupportInitializeNotification(): System_ComponentModel_Internal.ISupportInitializeNotification$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface DataTable$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.IListSource$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type DataTable = DataTable$instance & __DataTable$views;
 
@@ -1205,18 +1225,18 @@ export class DataTableClearEventArgs$instance extends System_Internal.EventArgs$
 export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
 export class DataTableClearEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataTableClearEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: DataTableClearEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataTableClearEventArgs): void;
+    invoke(sender: unknown, e: DataTableClearEventArgs): void;
 }
 
 
 export interface __DataTableClearEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataTableClearEventHandler = DataTableClearEventHandler$instance & __DataTableClearEventHandler$views;
@@ -1248,8 +1268,8 @@ export class DataTableCollection$instance extends InternalDataCollectionBase$ins
 
 
 export interface __DataTableCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DataTableCollection = DataTableCollection$instance & __DataTableCollection$views;
@@ -1264,18 +1284,18 @@ export class DataTableNewRowEventArgs$instance extends System_Internal.EventArgs
 export type DataTableNewRowEventArgs = DataTableNewRowEventArgs$instance;
 
 export class DataTableNewRowEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: DataTableNewRowEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: DataTableNewRowEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: DataTableNewRowEventArgs): void;
+    invoke(sender: unknown, e: DataTableNewRowEventArgs): void;
 }
 
 
 export interface __DataTableNewRowEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DataTableNewRowEventHandler = DataTableNewRowEventHandler$instance & __DataTableNewRowEventHandler$views;
@@ -1292,13 +1312,13 @@ export class DataTableReader$instance extends System_Data_Common_Internal.DbData
     close(): void;
     dispose(): void;
     disposeAsync(): ValueTask;
-    get_Item(ordinal: int): any;
-    get_Item(name: string): any;
+    get_Item(ordinal: int): unknown;
+    get_Item(name: string): unknown;
     getBoolean(ordinal: int): boolean;
     getByte(ordinal: int): byte;
     getBytes(ordinal: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
-    getChar(ordinal: int): string;
-    getChars(ordinal: int, dataIndex: long, buffer: string[], bufferIndex: int, length: int): long;
+    getChar(ordinal: int): char;
+    getChars(ordinal: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
     getData(ordinal: int): DbDataReader;
     getData(i: int): IDataReader;
     getDataTypeName(ordinal: int): string;
@@ -1315,12 +1335,12 @@ export class DataTableReader$instance extends System_Data_Common_Internal.DbData
     getName(ordinal: int): string;
     getOrdinal(name: string): int;
     getProviderSpecificFieldType(ordinal: int): Type;
-    getProviderSpecificValue(ordinal: int): any;
-    getProviderSpecificValues(values: any[]): int;
+    getProviderSpecificValue(ordinal: int): unknown;
+    getProviderSpecificValues(values: unknown[]): int;
     getSchemaTable(): DataTable;
     getString(ordinal: int): string;
-    getValue(ordinal: int): any;
-    getValues(values: any[]): int;
+    getValue(ordinal: int): unknown;
+    getValues(values: unknown[]): int;
     isDBNull(ordinal: int): boolean;
     nextResult(): boolean;
     read(): boolean;
@@ -1328,11 +1348,11 @@ export class DataTableReader$instance extends System_Data_Common_Internal.DbData
 
 
 export interface __DataTableReader$views {
-    readonly As_IDataReader: IDataReader$instance;
-    readonly As_IDataRecord: IDataRecord$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDataReader(): IDataReader$instance;
+    As_IDataRecord(): IDataRecord$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type DataTableReader = DataTableReader$instance & __DataTableReader$views;
@@ -1361,13 +1381,13 @@ export class DataView$instance extends System_ComponentModel_Internal.MarshalByV
     dispose(): void;
     endInit(): void;
     equals(view: DataView): boolean;
-    equals(obj: any): boolean;
-    find(key: any): int;
-    find(key: any[]): int;
-    findRows(key: any): DataRowView[];
-    findRows(key: any[]): DataRowView[];
+    equals(obj: unknown): boolean;
+    find(key: unknown): int;
+    find(key: unknown[]): int;
+    findRows(key: unknown): DataRowView[];
+    findRows(key: unknown[]): DataRowView[];
     getEnumerator(): IEnumerator;
-    getService(service: Type): any;
+    getService(service: Type): unknown;
     toTable(): DataTable;
     toTable(tableName: string): DataTable;
     toTable(distinct: boolean, columnNames: string[]): DataTable;
@@ -1376,18 +1396,20 @@ export class DataView$instance extends System_ComponentModel_Internal.MarshalByV
 
 
 export interface __DataView$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_ISupportInitialize: System_ComponentModel_Internal.ISupportInitialize$instance;
-    readonly As_IBindingList: System_ComponentModel_Internal.IBindingList$instance;
-    readonly As_IBindingListView: System_ComponentModel_Internal.IBindingListView$instance;
-    readonly As_ISupportInitializeNotification: System_ComponentModel_Internal.ISupportInitializeNotification$instance;
-    readonly As_ITypedList: System_ComponentModel_Internal.ITypedList$instance;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
+    As_IBindingList(): System_ComponentModel_Internal.IBindingList$instance;
+    As_IBindingListView(): System_ComponentModel_Internal.IBindingListView$instance;
+    As_ISupportInitializeNotification(): System_ComponentModel_Internal.ISupportInitializeNotification$instance;
+    As_ITypedList(): System_ComponentModel_Internal.ITypedList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DataView$instance extends System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ITypedList$instance {}
 
 export type DataView = DataView$instance & __DataView$views;
 
@@ -1400,20 +1422,22 @@ export class DataViewManager$instance extends System_ComponentModel_Internal.Mar
     readonly dataViewSettings: DataViewSettingCollection;
     createDataView(table: DataTable): DataView;
     dispose(): void;
-    getService(service: Type): any;
+    getService(service: Type): unknown;
 }
 
 
 export interface __DataViewManager$views {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_IBindingList: System_ComponentModel_Internal.IBindingList$instance;
-    readonly As_ITypedList: System_ComponentModel_Internal.ITypedList$instance;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_IBindingList(): System_ComponentModel_Internal.IBindingList$instance;
+    As_ITypedList(): System_ComponentModel_Internal.ITypedList$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DataViewManager$instance extends System_ComponentModel_Internal.IBindingList$instance, System_ComponentModel_Internal.IComponent$instance, System_ComponentModel_Internal.ITypedList$instance {}
 
 export type DataViewManager = DataViewManager$instance & __DataViewManager$views;
 
@@ -1434,7 +1458,7 @@ export class DataViewSettingCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    readonly syncRoot: any;
+    readonly syncRoot: unknown;
     copyTo(ar: ClrArray, index: int): void;
     copyTo(ar: DataViewSetting[], index: int): void;
     get_Item(table: DataTable): DataViewSetting;
@@ -1447,8 +1471,8 @@ export class DataViewSettingCollection$instance {
 
 
 export interface __DataViewSettingCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type DataViewSettingCollection = DataViewSettingCollection$instance & __DataViewSettingCollection$views;
@@ -1468,7 +1492,7 @@ export class DBConcurrencyException$instance extends System_Internal.SystemExcep
 
 
 export interface __DBConcurrencyException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DBConcurrencyException = DBConcurrencyException$instance & __DBConcurrencyException$views;
@@ -1483,7 +1507,7 @@ export class DeletedRowInaccessibleException$instance extends DataException$inst
 
 
 export interface __DeletedRowInaccessibleException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DeletedRowInaccessibleException = DeletedRowInaccessibleException$instance & __DeletedRowInaccessibleException$views;
@@ -1498,7 +1522,7 @@ export class DuplicateNameException$instance extends DataException$instance {
 
 
 export interface __DuplicateNameException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type DuplicateNameException = DuplicateNameException$instance & __DuplicateNameException$views;
@@ -1509,8 +1533,10 @@ export abstract class EnumerableRowCollection$instance {
 
 
 export interface __EnumerableRowCollection$views {
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
+
+export interface EnumerableRowCollection$instance extends System_Collections_Internal.IEnumerable$instance {}
 
 export type EnumerableRowCollection = EnumerableRowCollection$instance & __EnumerableRowCollection$views;
 
@@ -1521,8 +1547,8 @@ export class EnumerableRowCollection_1$instance<TRow> extends EnumerableRowColle
 
 
 export interface __EnumerableRowCollection_1$views<TRow> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type EnumerableRowCollection_1<TRow> = EnumerableRowCollection_1$instance<TRow> & __EnumerableRowCollection_1$views<TRow>;
@@ -1537,36 +1563,36 @@ export class EvaluateException$instance extends InvalidExpressionException$insta
 
 
 export interface __EvaluateException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type EvaluateException = EvaluateException$instance & __EvaluateException$views;
 
 
 export class FillErrorEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(dataTable: DataTable, values: any[]);
+    constructor(dataTable: DataTable, values: unknown[]);
     continue_: boolean;
     readonly dataTable: DataTable;
     errors: Exception;
-    readonly values: any[];
+    readonly values: unknown[];
 }
 
 
 export type FillErrorEventArgs = FillErrorEventArgs$instance;
 
 export class FillErrorEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: FillErrorEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: FillErrorEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: FillErrorEventArgs): void;
+    invoke(sender: unknown, e: FillErrorEventArgs): void;
 }
 
 
 export interface __FillErrorEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type FillErrorEventHandler = FillErrorEventHandler$instance & __FillErrorEventHandler$views;
@@ -1586,7 +1612,7 @@ export class ForeignKeyConstraint$instance extends Constraint$instance {
     readonly relatedTable: DataTable;
     readonly table: DataTable;
     updateRule: Rule;
-    equals(key: any): boolean;
+    equals(key: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -1602,7 +1628,7 @@ export class InRowChangingEventException$instance extends DataException$instance
 
 
 export interface __InRowChangingEventException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InRowChangingEventException = InRowChangingEventException$instance & __InRowChangingEventException$views;
@@ -1613,15 +1639,15 @@ export class InternalDataCollectionBase$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    readonly syncRoot: any;
+    readonly syncRoot: unknown;
     copyTo(ar: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
 }
 
 
 export interface __InternalDataCollectionBase$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type InternalDataCollectionBase = InternalDataCollectionBase$instance & __InternalDataCollectionBase$views;
@@ -1636,7 +1662,7 @@ export class InvalidConstraintException$instance extends DataException$instance 
 
 
 export interface __InvalidConstraintException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidConstraintException = InvalidConstraintException$instance & __InvalidConstraintException$views;
@@ -1651,7 +1677,7 @@ export class InvalidExpressionException$instance extends DataException$instance 
 
 
 export interface __InvalidExpressionException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type InvalidExpressionException = InvalidExpressionException$instance & __InvalidExpressionException$views;
@@ -1667,18 +1693,18 @@ export class MergeFailedEventArgs$instance extends System_Internal.EventArgs$ins
 export type MergeFailedEventArgs = MergeFailedEventArgs$instance;
 
 export class MergeFailedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: MergeFailedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: MergeFailedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: MergeFailedEventArgs): void;
+    invoke(sender: unknown, e: MergeFailedEventArgs): void;
 }
 
 
 export interface __MergeFailedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MergeFailedEventHandler = MergeFailedEventHandler$instance & __MergeFailedEventHandler$views;
@@ -1693,7 +1719,7 @@ export class MissingPrimaryKeyException$instance extends DataException$instance 
 
 
 export interface __MissingPrimaryKeyException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type MissingPrimaryKeyException = MissingPrimaryKeyException$instance & __MissingPrimaryKeyException$views;
@@ -1708,7 +1734,7 @@ export class NoNullAllowedException$instance extends DataException$instance {
 
 
 export interface __NoNullAllowedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type NoNullAllowedException = NoNullAllowedException$instance & __NoNullAllowedException$views;
@@ -1721,8 +1747,8 @@ export class OrderedEnumerableRowCollection_1$instance<TRow> extends EnumerableR
 
 
 export interface __OrderedEnumerableRowCollection_1$views<TRow> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<TRow>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollection_1$instance<TRow> & __OrderedEnumerableRowCollection_1$views<TRow>;
@@ -1730,26 +1756,26 @@ export type OrderedEnumerableRowCollection_1<TRow> = OrderedEnumerableRowCollect
 
 export class PropertyCollection$instance extends System_Collections_Internal.Hashtable$instance {
     constructor();
-    add(key: any, value: any): void;
+    add(key: unknown, value: unknown): void;
     clear(): void;
-    clone(): any;
-    contains(key: any): boolean;
+    clone(): unknown;
+    contains(key: unknown): boolean;
     copyTo(array: ClrArray, arrayIndex: int): void;
     getEnumerator(): IDictionaryEnumerator;
     getEnumerator(): IEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: any): void;
-    remove(key: any): void;
+    onDeserialization(sender: unknown): void;
+    remove(key: unknown): void;
 }
 
 
 export interface __PropertyCollection$views {
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_IDeserializationCallback: System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type PropertyCollection = PropertyCollection$instance & __PropertyCollection$views;
@@ -1764,7 +1790,7 @@ export class ReadOnlyException$instance extends DataException$instance {
 
 
 export interface __ReadOnlyException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ReadOnlyException = ReadOnlyException$instance & __ReadOnlyException$views;
@@ -1779,7 +1805,7 @@ export class RowNotInTableException$instance extends DataException$instance {
 
 
 export interface __RowNotInTableException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type RowNotInTableException = RowNotInTableException$instance & __RowNotInTableException$views;
@@ -1795,18 +1821,18 @@ export class StateChangeEventArgs$instance extends System_Internal.EventArgs$ins
 export type StateChangeEventArgs = StateChangeEventArgs$instance;
 
 export class StateChangeEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: StateChangeEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: StateChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: StateChangeEventArgs): void;
+    invoke(sender: unknown, e: StateChangeEventArgs): void;
 }
 
 
 export interface __StateChangeEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type StateChangeEventHandler = StateChangeEventHandler$instance & __StateChangeEventHandler$views;
@@ -1821,18 +1847,18 @@ export class StatementCompletedEventArgs$instance extends System_Internal.EventA
 export type StatementCompletedEventArgs = StatementCompletedEventArgs$instance;
 
 export class StatementCompletedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: StatementCompletedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: StatementCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: StatementCompletedEventArgs): void;
+    invoke(sender: unknown, e: StatementCompletedEventArgs): void;
 }
 
 
 export interface __StatementCompletedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type StatementCompletedEventHandler = StatementCompletedEventHandler$instance & __StatementCompletedEventHandler$views;
@@ -1847,7 +1873,7 @@ export class StrongTypingException$instance extends DataException$instance {
 
 
 export interface __StrongTypingException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type StrongTypingException = StrongTypingException$instance & __StrongTypingException$views;
@@ -1862,7 +1888,7 @@ export class SyntaxErrorException$instance extends InvalidExpressionException$in
 
 
 export interface __SyntaxErrorException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SyntaxErrorException = SyntaxErrorException$instance & __SyntaxErrorException$views;
@@ -1876,7 +1902,7 @@ export abstract class TypedTableBase_1$instance<T extends DataRow> extends DataT
     getList(): IList;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getSchema(): XmlSchema;
-    getService(serviceType: Type): any;
+    getService(serviceType: Type): unknown;
     readXml(stream: Stream): XmlReadMode;
     readXml(reader: TextReader): XmlReadMode;
     readXml(fileName: string): XmlReadMode;
@@ -1902,17 +1928,19 @@ export abstract class TypedTableBase_1$instance<T extends DataRow> extends DataT
 
 
 export interface __TypedTableBase_1$views<T extends DataRow> {
-    readonly As_IServiceProvider: System_Internal.IServiceProvider$instance;
-    readonly As_IComponent: System_ComponentModel_Internal.IComponent$instance;
-    readonly As_ISupportInitialize: System_ComponentModel_Internal.ISupportInitialize$instance;
-    readonly As_IListSource: System_ComponentModel_Internal.IListSource$instance;
-    readonly As_ISupportInitializeNotification: System_ComponentModel_Internal.ISupportInitializeNotification$instance;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
-    readonly As_IXmlSerializable: System_Xml_Serialization_Internal.IXmlSerializable$instance;
+    As_IServiceProvider(): System_Internal.IServiceProvider$instance;
+    As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
+    As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
+    As_IListSource(): System_ComponentModel_Internal.IListSource$instance;
+    As_ISupportInitializeNotification(): System_ComponentModel_Internal.ISupportInitializeNotification$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_IXmlSerializable(): System_Xml_Serialization_Internal.IXmlSerializable$instance;
 }
+
+export interface TypedTableBase_1$instance<T extends DataRow> extends System_ComponentModel_Internal.IListSource$instance, System_ComponentModel_Internal.ISupportInitializeNotification$instance {}
 
 export type TypedTableBase_1<T extends DataRow> = TypedTableBase_1$instance<T> & __TypedTableBase_1$views<T>;
 
@@ -1930,7 +1958,7 @@ export class UniqueConstraint$instance extends Constraint$instance {
     readonly columns: DataColumn[];
     readonly isPrimaryKey: boolean;
     readonly table: DataTable;
-    equals(key2: any): boolean;
+    equals(key2: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -1946,104 +1974,104 @@ export class VersionNotFoundException$instance extends DataException$instance {
 
 
 export interface __VersionNotFoundException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type VersionNotFoundException = VersionNotFoundException$instance & __VersionNotFoundException$views;
 
 
 export abstract class DataReaderExtensions$instance {
-    static GetBoolean(reader: DbDataReader, name: string): boolean;
-    static GetByte(reader: DbDataReader, name: string): byte;
-    static GetBytes(reader: DbDataReader, name: string, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
-    static GetChar(reader: DbDataReader, name: string): string;
-    static GetChars(reader: DbDataReader, name: string, dataOffset: long, buffer: string[], bufferOffset: int, length: int): long;
-    static GetData(reader: DbDataReader, name: string): DbDataReader;
-    static GetDataTypeName(reader: DbDataReader, name: string): string;
-    static GetDateTime(reader: DbDataReader, name: string): DateTime;
-    static GetDecimal(reader: DbDataReader, name: string): decimal;
-    static GetDouble(reader: DbDataReader, name: string): double;
-    static GetFieldType(reader: DbDataReader, name: string): Type;
-    static GetFieldValue<T>(reader: DbDataReader, name: string): T;
-    static GetFieldValueAsync<T>(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<T>;
-    static GetFloat(reader: DbDataReader, name: string): float;
-    static GetGuid(reader: DbDataReader, name: string): Guid;
-    static GetInt16(reader: DbDataReader, name: string): short;
-    static GetInt32(reader: DbDataReader, name: string): int;
-    static GetInt64(reader: DbDataReader, name: string): long;
-    static GetProviderSpecificFieldType(reader: DbDataReader, name: string): Type;
-    static GetProviderSpecificValue(reader: DbDataReader, name: string): any;
-    static GetStream(reader: DbDataReader, name: string): Stream;
-    static GetString(reader: DbDataReader, name: string): string;
-    static GetTextReader(reader: DbDataReader, name: string): TextReader;
-    static GetValue(reader: DbDataReader, name: string): any;
-    static IsDBNull(reader: DbDataReader, name: string): boolean;
-    static IsDBNullAsync(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<CLROf<boolean>>;
+    static getBoolean(reader: DbDataReader, name: string): boolean;
+    static getByte(reader: DbDataReader, name: string): byte;
+    static getBytes(reader: DbDataReader, name: string, dataOffset: long, buffer: byte[], bufferOffset: int, length: int): long;
+    static getChar(reader: DbDataReader, name: string): char;
+    static getChars(reader: DbDataReader, name: string, dataOffset: long, buffer: char[], bufferOffset: int, length: int): long;
+    static getData(reader: DbDataReader, name: string): DbDataReader;
+    static getDataTypeName(reader: DbDataReader, name: string): string;
+    static getDateTime(reader: DbDataReader, name: string): DateTime;
+    static getDecimal(reader: DbDataReader, name: string): decimal;
+    static getDouble(reader: DbDataReader, name: string): double;
+    static getFieldType(reader: DbDataReader, name: string): Type;
+    static getFieldValue<T>(reader: DbDataReader, name: string): T;
+    static getFieldValueAsync<T>(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<T>;
+    static getFloat(reader: DbDataReader, name: string): float;
+    static getGuid(reader: DbDataReader, name: string): Guid;
+    static getInt16(reader: DbDataReader, name: string): short;
+    static getInt32(reader: DbDataReader, name: string): int;
+    static getInt64(reader: DbDataReader, name: string): long;
+    static getProviderSpecificFieldType(reader: DbDataReader, name: string): Type;
+    static getProviderSpecificValue(reader: DbDataReader, name: string): unknown;
+    static getStream(reader: DbDataReader, name: string): Stream;
+    static getString(reader: DbDataReader, name: string): string;
+    static getTextReader(reader: DbDataReader, name: string): TextReader;
+    static getValue(reader: DbDataReader, name: string): unknown;
+    static isDBNull(reader: DbDataReader, name: string): boolean;
+    static isDBNullAsync(reader: DbDataReader, name: string, cancellationToken?: CancellationToken): Task_1<CLROf<boolean>>;
 }
 
 
 export type DataReaderExtensions = DataReaderExtensions$instance;
 
 export abstract class DataRowComparer$instance {
-    static readonly Default: DataRowComparer_1<DataRow>;
+    static readonly default_: DataRowComparer_1<DataRow>;
 }
 
 
 export type DataRowComparer = DataRowComparer$instance;
 
 export abstract class DataRowExtensions$instance {
-    static Field<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T;
-    static Field<T>(row: DataRow, column: DataColumn): T;
-    static Field<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T;
-    static Field<T>(row: DataRow, columnIndex: int): T;
-    static Field<T>(row: DataRow, columnName: string, version: DataRowVersion): T;
-    static Field<T>(row: DataRow, columnName: string): T;
-    static SetField<T>(row: DataRow, column: DataColumn, value: T): void;
-    static SetField<T>(row: DataRow, columnIndex: int, value: T): void;
-    static SetField<T>(row: DataRow, columnName: string, value: T): void;
+    static field6<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T;
+    static field6<T>(row: DataRow, column: DataColumn): T;
+    static field6<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T;
+    static field6<T>(row: DataRow, columnIndex: int): T;
+    static field6<T>(row: DataRow, columnName: string, version: DataRowVersion): T;
+    static field6<T>(row: DataRow, columnName: string): T;
+    static setField3<T>(row: DataRow, column: DataColumn, value: T): void;
+    static setField3<T>(row: DataRow, columnIndex: int, value: T): void;
+    static setField3<T>(row: DataRow, columnName: string, value: T): void;
 }
 
 
 export type DataRowExtensions = DataRowExtensions$instance;
 
 export abstract class DataTableExtensions$instance {
-    static AsDataView<T extends DataRow>(source: EnumerableRowCollection_1<T>): DataView;
-    static AsDataView(table: DataTable): DataView;
-    static AsEnumerable(source: DataTable): EnumerableRowCollection_1<DataRow>;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler): void;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
-    static CopyToDataTable<T extends DataRow>(source: IEnumerable_1<T>): DataTable;
+    static asDataView2<T extends DataRow>(source: EnumerableRowCollection_1<T>): DataView;
+    static asDataView2(table: DataTable): DataView;
+    static asEnumerable(source: DataTable): EnumerableRowCollection_1<DataRow>;
+    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption, errorHandler: FillErrorEventHandler): void;
+    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>, table: DataTable, options: LoadOption): void;
+    static copyToDataTable3<T extends DataRow>(source: IEnumerable_1<T>): DataTable;
 }
 
 
 export type DataTableExtensions = DataTableExtensions$instance;
 
 export abstract class EnumerableRowCollectionExtensions$instance {
-    static Cast<TResult>(source: EnumerableRowCollection): EnumerableRowCollection_1<TResult>;
-    static OrderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderBy<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Select<TRow, S>(source: EnumerableRowCollection_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
-    static ThenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenBy<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static ThenByDescending<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Where<TRow>(source: EnumerableRowCollection_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
+    static cast<TResult>(source: EnumerableRowCollection): EnumerableRowCollection_1<TResult>;
+    static orderBy2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending2<TRow, TKey>(source: EnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static select<TRow, S>(source: EnumerableRowCollection_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
+    static thenBy2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenBy2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenByDescending2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static thenByDescending2<TRow, TKey>(source: OrderedEnumerableRowCollection_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static where<TRow>(source: EnumerableRowCollection_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
 }
 
 
 export type EnumerableRowCollectionExtensions = EnumerableRowCollectionExtensions$instance;
 
 export abstract class TypedTableBaseExtensions$instance {
-    static AsEnumerable<TRow extends DataRow>(source: TypedTableBase_1<TRow>): EnumerableRowCollection_1<TRow>;
-    static ElementAtOrDefault<TRow extends DataRow>(source: TypedTableBase_1<TRow>, index: int): TRow;
-    static OrderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderBy<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static OrderByDescending<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
-    static Select<TRow extends DataRow, S>(source: TypedTableBase_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
-    static Where<TRow extends DataRow>(source: TypedTableBase_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
+    static asEnumerable<TRow extends DataRow>(source: TypedTableBase_1<TRow>): EnumerableRowCollection_1<TRow>;
+    static elementAtOrDefault<TRow extends DataRow>(source: TypedTableBase_1<TRow>, index: int): TRow;
+    static orderBy2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderBy2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>, comparer: IComparer_1<TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static orderByDescending2<TRow extends DataRow, TKey>(source: TypedTableBase_1<TRow>, keySelector: Func_2<TRow, TKey>): OrderedEnumerableRowCollection_1<TRow>;
+    static select<TRow extends DataRow, S>(source: TypedTableBase_1<TRow>, selector: Func_2<TRow, S>): EnumerableRowCollection_1<S>;
+    static where<TRow extends DataRow>(source: TypedTableBase_1<TRow>, predicate: Func_2<TRow, CLROf<boolean>>): EnumerableRowCollection_1<TRow>;
 }
 
 

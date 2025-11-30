@@ -123,14 +123,14 @@ export class AlternateView$instance extends AttachmentBase$instance {
     baseUri: Uri;
     readonly linkedResources: LinkedResourceCollection;
     dispose(): void;
-    static CreateAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
-    static CreateAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
-    static CreateAlternateViewFromString(content: string): AlternateView;
+    static createAlternateViewFromString3(content: string, contentType: ContentType): AlternateView;
+    static createAlternateViewFromString3(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
+    static createAlternateViewFromString3(content: string): AlternateView;
 }
 
 
 export interface __AlternateView$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type AlternateView = AlternateView$instance & __AlternateView$views;
@@ -138,10 +138,10 @@ export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 export class AlternateViewCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<AlternateView> {
     add(item: AlternateView): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: AlternateView): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: AlternateView[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -149,23 +149,25 @@ export class AlternateViewCollection$instance extends System_Collections_ObjectM
     getEnumerator(): IEnumerator;
     indexOf(item: AlternateView): int;
     insert(index: int, item: AlternateView): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: AlternateView): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __AlternateViewCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<AlternateView>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<AlternateView>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<AlternateView>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<AlternateView>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<AlternateView>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<AlternateView>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<AlternateView>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<AlternateView>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AlternateViewCollection$instance extends System_Internal.IDisposable$instance {}
 
 export type AlternateViewCollection = AlternateViewCollection$instance & __AlternateViewCollection$views;
 
@@ -181,14 +183,14 @@ export class Attachment$instance extends AttachmentBase$instance {
     name: string;
     nameEncoding: Encoding;
     dispose(): void;
-    static CreateAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    static CreateAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
-    static CreateAttachmentFromString(content: string, name: string): Attachment;
+    static createAttachmentFromString3(content: string, contentType: ContentType): Attachment;
+    static createAttachmentFromString3(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    static createAttachmentFromString3(content: string, name: string): Attachment;
 }
 
 
 export interface __Attachment$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type Attachment = Attachment$instance & __Attachment$views;
@@ -204,18 +206,20 @@ export abstract class AttachmentBase$instance {
 
 
 export interface __AttachmentBase$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AttachmentBase$instance extends System_Internal.IDisposable$instance {}
 
 export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 
 export class AttachmentCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<Attachment> {
     add(item: Attachment): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: Attachment): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: Attachment[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -223,23 +227,25 @@ export class AttachmentCollection$instance extends System_Collections_ObjectMode
     getEnumerator(): IEnumerator;
     indexOf(item: Attachment): int;
     insert(index: int, item: Attachment): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: Attachment): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __AttachmentCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<Attachment>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<Attachment>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<Attachment>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Attachment>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<Attachment>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Attachment>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<Attachment>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Attachment>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface AttachmentCollection$instance extends System_Internal.IDisposable$instance {}
 
 export type AttachmentCollection = AttachmentCollection$instance & __AttachmentCollection$views;
 
@@ -253,14 +259,14 @@ export class LinkedResource$instance extends AttachmentBase$instance {
     constructor(contentStream: Stream, contentType: ContentType);
     contentLink: Uri;
     dispose(): void;
-    static CreateLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
-    static CreateLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
-    static CreateLinkedResourceFromString(content: string): LinkedResource;
+    static createLinkedResourceFromString3(content: string, contentType: ContentType): LinkedResource;
+    static createLinkedResourceFromString3(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
+    static createLinkedResourceFromString3(content: string): LinkedResource;
 }
 
 
 export interface __LinkedResource$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
@@ -268,10 +274,10 @@ export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 export class LinkedResourceCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<LinkedResource> {
     add(item: LinkedResource): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: LinkedResource): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: LinkedResource[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -279,23 +285,25 @@ export class LinkedResourceCollection$instance extends System_Collections_Object
     getEnumerator(): IEnumerator;
     indexOf(item: LinkedResource): int;
     insert(index: int, item: LinkedResource): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: LinkedResource): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
 
 export interface __LinkedResourceCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<LinkedResource>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<LinkedResource>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<LinkedResource>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<LinkedResource>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<LinkedResource>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<LinkedResource>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<LinkedResource>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<LinkedResource>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface LinkedResourceCollection$instance extends System_Internal.IDisposable$instance {}
 
 export type LinkedResourceCollection = LinkedResourceCollection$instance & __LinkedResourceCollection$views;
 
@@ -308,12 +316,12 @@ export class MailAddress$instance {
     readonly displayName: string;
     readonly host: string;
     readonly user: string;
-    equals(value: any): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static TryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
-    static TryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
-    static TryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
+    static tryCreate(address: string, result: { value: ref<MailAddress> }): boolean;
+    static tryCreate(address: string, displayName: string, result: { value: ref<MailAddress> }): boolean;
+    static tryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: { value: ref<MailAddress> }): boolean;
 }
 
 
@@ -322,32 +330,32 @@ export type MailAddress = MailAddress$instance;
 export class MailAddressCollection$instance extends System_Collections_ObjectModel_Internal.Collection_1$instance<MailAddress> {
     constructor();
     add(item: MailAddress): void;
-    add(value: any): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: MailAddress): boolean;
-    contains(value: any): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: MailAddress[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<MailAddress>;
     getEnumerator(): IEnumerator;
     indexOf(item: MailAddress): int;
     insert(index: int, item: MailAddress): void;
-    insert(index: int, value: any): void;
+    insert(index: int, value: unknown): void;
     remove(item: MailAddress): boolean;
-    remove(value: any): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
     toString(): string;
 }
 
 
 export interface __MailAddressCollection$views {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<MailAddress>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<MailAddress>;
-    readonly As_IList_1: System_Collections_Generic_Internal.IList_1$instance<MailAddress>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<MailAddress>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IList: System_Collections_Internal.IList$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<MailAddress>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<MailAddress>;
+    As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<MailAddress>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<MailAddress>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IList(): System_Collections_Internal.IList$instance;
 }
 
 export type MailAddressCollection = MailAddressCollection$instance & __MailAddressCollection$views;
@@ -364,7 +372,7 @@ export class MailMessage$instance {
     body: string;
     bodyEncoding: Encoding;
     bodyTransferEncoding: TransferEncoding;
-    readonly cc: MailAddressCollection;
+    readonly CC: MailAddressCollection;
     deliveryNotificationOptions: DeliveryNotificationOptions;
     from_: MailAddress;
     readonly headers: NameValueCollection;
@@ -382,25 +390,27 @@ export class MailMessage$instance {
 
 
 export interface __MailMessage$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MailMessage$instance extends System_Internal.IDisposable$instance {}
 
 export type MailMessage = MailMessage$instance & __MailMessage$views;
 
 
 export class SendCompletedEventHandler$instance extends Function {
-    constructor(object_: any, method: nint);
-    beginInvoke(sender: any, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: any): IAsyncResult;
-    clone(): any;
+    constructor(object_: unknown, method: nint);
+    beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
+    clone(): unknown;
     endInvoke(result: IAsyncResult): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: any, e: AsyncCompletedEventArgs): void;
+    invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
 }
 
 
 export interface __SendCompletedEventHandler$views {
-    readonly As_ICloneable: System_Internal.ICloneable$instance;
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ICloneable(): System_Internal.ICloneable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SendCompletedEventHandler = SendCompletedEventHandler$instance & __SendCompletedEventHandler$views;
@@ -425,8 +435,8 @@ export class SmtpClient$instance {
     dispose(): void;
     send(from_: string, recipients: string, subject: string, body: string): void;
     send(message: MailMessage): void;
-    sendAsync(from_: string, recipients: string, subject: string, body: string, userToken: any): void;
-    sendAsync(message: MailMessage, userToken: any): void;
+    sendAsync(from_: string, recipients: string, subject: string, body: string, userToken: unknown): void;
+    sendAsync(message: MailMessage, userToken: unknown): void;
     sendAsyncCancel(): void;
     sendMailAsync(from_: string, recipients: string, subject: string, body: string): Task;
     sendMailAsync(message: MailMessage): Task;
@@ -436,8 +446,10 @@ export class SmtpClient$instance {
 
 
 export interface __SmtpClient$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface SmtpClient$instance extends System_Internal.IDisposable$instance {}
 
 export type SmtpClient = SmtpClient$instance & __SmtpClient$views;
 
@@ -454,7 +466,7 @@ export class SmtpException$instance extends System_Internal.Exception$instance {
 
 
 export interface __SmtpException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SmtpException = SmtpException$instance & __SmtpException$views;
@@ -473,7 +485,7 @@ export class SmtpFailedRecipientException$instance extends SmtpException$instanc
 
 
 export interface __SmtpFailedRecipientException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SmtpFailedRecipientException = SmtpFailedRecipientException$instance & __SmtpFailedRecipientException$views;
@@ -490,7 +502,7 @@ export class SmtpFailedRecipientsException$instance extends SmtpFailedRecipientE
 
 
 export interface __SmtpFailedRecipientsException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type SmtpFailedRecipientsException = SmtpFailedRecipientsException$instance & __SmtpFailedRecipientsException$views;

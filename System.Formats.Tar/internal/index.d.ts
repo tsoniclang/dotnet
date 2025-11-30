@@ -40,7 +40,7 @@ export type CLROf<T> =
 
 export enum TarEntryFormat {
     unknown_ = 0,
-    v7 = 1,
+    V7 = 1,
     ustar = 2,
     pax = 3,
     gnu = 4
@@ -138,9 +138,11 @@ export class TarReader$instance {
 
 
 export interface __TarReader$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface TarReader$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type TarReader = TarReader$instance & __TarReader$views;
 
@@ -160,9 +162,11 @@ export class TarWriter$instance {
 
 
 export interface __TarWriter$views {
-    readonly As_IAsyncDisposable: System_Internal.IAsyncDisposable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface TarWriter$instance extends System_Internal.IAsyncDisposable$instance, System_Internal.IDisposable$instance {}
 
 export type TarWriter = TarWriter$instance & __TarWriter$views;
 
@@ -184,14 +188,14 @@ export class V7TarEntry$instance extends TarEntry$instance {
 export type V7TarEntry = V7TarEntry$instance;
 
 export abstract class TarFile$instance {
-    static CreateFromDirectory(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean): void;
-    static CreateFromDirectory(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean): void;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static CreateFromDirectoryAsync(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectory(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
-    static ExtractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
-    static ExtractToDirectoryAsync(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectory(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean): void;
+    static createFromDirectory(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean): void;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destination: Stream, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static createFromDirectoryAsync(sourceDirectoryName: string, destinationFileName: string, includeBaseDirectory: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectory(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectory(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean): void;
+    static extractToDirectoryAsync(source: Stream, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
+    static extractToDirectoryAsync(sourceFileName: string, destinationDirectoryName: string, overwriteFiles: boolean, cancellationToken?: CancellationToken): Task;
 }
 
 

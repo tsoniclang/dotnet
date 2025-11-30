@@ -1353,7 +1353,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::OKSystem.Net.HttpStatusCode",
           "clrName": "OK",
-          "tsEmitName": "ok",
+          "tsEmitName": "OK",
           "normalizedSignature": "OK|System.Net.HttpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -57,18 +57,20 @@ export enum GCLatencyMode {
 
 
 export class DependentHandle$instance {
-    constructor(target: any, dependent: any);
-    dependent: any;
+    constructor(target: unknown, dependent: unknown);
+    dependent: unknown;
     readonly isAllocated: boolean;
-    target: any;
-    readonly targetAndDependent: ValueTuple_2<any, any>;
+    target: unknown;
+    readonly targetAndDependent: ValueTuple_2<unknown, unknown>;
     dispose(): void;
 }
 
 
 export interface __DependentHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface DependentHandle$instance extends System_Internal.IDisposable$instance {}
 
 export type DependentHandle = DependentHandle$instance & __DependentHandle$views;
 
@@ -82,7 +84,7 @@ export class AmbiguousImplementationException$instance extends System_Internal.E
 
 
 export interface __AmbiguousImplementationException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type AmbiguousImplementationException = AmbiguousImplementationException$instance & __AmbiguousImplementationException$views;
@@ -103,8 +105,10 @@ export class MemoryFailPoint$instance extends System_Runtime_ConstrainedExecutio
 
 
 export interface __MemoryFailPoint$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface MemoryFailPoint$instance extends System_Internal.IDisposable$instance {}
 
 export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views;
 
@@ -118,33 +122,33 @@ export class TargetedPatchingOptOutAttribute$instance extends System_Internal.At
 export type TargetedPatchingOptOutAttribute = TargetedPatchingOptOutAttribute$instance;
 
 export abstract class ControlledExecution$instance {
-    static Run(action: Action, cancellationToken: CancellationToken): void;
+    static run(action: Action, cancellationToken: CancellationToken): void;
 }
 
 
 export type ControlledExecution = ControlledExecution$instance;
 
 export abstract class GCSettings$instance {
-    static readonly IsServerGC: boolean;
-    static LatencyMode: GCLatencyMode;
-    static LargeObjectHeapCompactionMode: GCLargeObjectHeapCompactionMode;
+    static readonly isServerGC: boolean;
+    static latencyMode: GCLatencyMode;
+    static largeObjectHeapCompactionMode: GCLargeObjectHeapCompactionMode;
 }
 
 
 export type GCSettings = GCSettings$instance;
 
 export abstract class JitInfo$instance {
-    static GetCompilationTime(currentThread?: boolean): TimeSpan;
-    static GetCompiledILBytes(currentThread?: boolean): long;
-    static GetCompiledMethodCount(currentThread?: boolean): long;
+    static getCompilationTime(currentThread?: boolean): TimeSpan;
+    static getCompiledILBytes(currentThread?: boolean): long;
+    static getCompiledMethodCount(currentThread?: boolean): long;
 }
 
 
 export type JitInfo = JitInfo$instance;
 
 export abstract class ProfileOptimization$instance {
-    static SetProfileRoot(directoryPath: string): void;
-    static StartProfile(profile: string): void;
+    static setProfileRoot(directoryPath: string): void;
+    static startProfile(profile: string): void;
 }
 
 

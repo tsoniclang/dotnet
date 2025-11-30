@@ -15096,7 +15096,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::LCID:System.Int32",
           "clrName": "LCID",
-          "tsEmitName": "lcid",
+          "tsEmitName": "LCID",
           "metadataToken": 385877038,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LCID|:System.Int32|static=false|accessor=get",
@@ -15720,7 +15720,7 @@
           }
         },
         {
-          "tsName": "lcid",
+          "tsName": "LCID",
           "isStatic": false,
           "tsSignatureId": "LCID|:System.Int32|static=false|accessor=get",
           "target": {

@@ -43,7 +43,7 @@ export abstract class CriticalHandleMinusOneIsInvalid$instance extends System_Ru
 
 
 export interface __CriticalHandleMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$instance & __CriticalHandleMinusOneIsInvalid$views;
@@ -56,7 +56,7 @@ export abstract class CriticalHandleZeroOrMinusOneIsInvalid$instance extends Sys
 
 
 export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOneIsInvalid$instance & __CriticalHandleZeroOrMinusOneIsInvalid$views;
@@ -67,12 +67,12 @@ export class SafeAccessTokenHandle$instance extends System_Runtime_InteropServic
     constructor(handle: nint);
     readonly isInvalid: boolean;
     dispose(): void;
-    static readonly InvalidHandle: SafeAccessTokenHandle;
+    static readonly invalidHandle: SafeAccessTokenHandle;
 }
 
 
 export interface __SafeAccessTokenHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAccessTokenHandle$views;
@@ -88,7 +88,7 @@ export class SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$i
 
 
 export interface __SafeFileHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
@@ -101,7 +101,7 @@ export abstract class SafeHandleMinusOneIsInvalid$instance extends System_Runtim
 
 
 export interface __SafeHandleMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance & __SafeHandleMinusOneIsInvalid$views;
@@ -114,7 +114,7 @@ export abstract class SafeHandleZeroOrMinusOneIsInvalid$instance extends System_
 
 
 export interface __SafeHandleZeroOrMinusOneIsInvalid$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvalid$instance & __SafeHandleZeroOrMinusOneIsInvalid$views;
@@ -128,7 +128,7 @@ export class SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOn
 
 
 export interface __SafeMemoryMappedFileHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & __SafeMemoryMappedFileHandle$views;
@@ -141,7 +141,7 @@ export class SafeMemoryMappedViewHandle$instance extends System_Runtime_InteropS
 
 
 export interface __SafeMemoryMappedViewHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & __SafeMemoryMappedViewHandle$views;
@@ -153,7 +153,7 @@ export abstract class SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOne
 
 
 export interface __SafeNCryptHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$views;
@@ -167,7 +167,7 @@ export class SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
 
 
 export interface __SafeNCryptKeyHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKeyHandle$views;
@@ -180,7 +180,7 @@ export class SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance
 
 
 export interface __SafeNCryptProviderHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __SafeNCryptProviderHandle$views;
@@ -193,7 +193,7 @@ export class SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
 
 
 export interface __SafeNCryptSecretHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCryptSecretHandle$views;
@@ -208,7 +208,7 @@ export class SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$i
 
 
 export interface __SafePipeHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
@@ -222,7 +222,7 @@ export class SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvali
 
 
 export interface __SafeProcessHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle$views;
@@ -236,7 +236,7 @@ export class SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInval
 
 
 export interface __SafeRegistryHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHandle$views;
@@ -250,7 +250,7 @@ export class SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$i
 
 
 export interface __SafeWaitHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
@@ -263,7 +263,7 @@ export class SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInva
 
 
 export interface __SafeX509ChainHandle$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
 
 export type SafeX509ChainHandle = SafeX509ChainHandle$instance & __SafeX509ChainHandle$views;

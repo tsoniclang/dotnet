@@ -52,7 +52,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::W3CSystem.Diagnostics.ActivityIdFormat",
           "clrName": "W3C",
-          "tsEmitName": "w3c",
+          "tsEmitName": "W3C",
           "normalizedSignature": "W3C|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3317,13 +3317,6 @@
           "normalizedSignature": "constructor|(System.ReadOnlySpan_1[[System.Collections.Generic.KeyValuePair_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
           "parameterCount": 1
-        }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
         }
       ]
     },
@@ -11780,7 +11773,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackFrame::OFFSET_UNKNOWNSystem.Int32",
           "clrName": "OFFSET_UNKNOWN",
-          "tsEmitName": "offset_unknown",
+          "tsEmitName": "OFFSET_UNKNOWN",
           "normalizedSignature": "OFFSET_UNKNOWN|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -11902,7 +11895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.StackTrace::METHODS_TO_SKIPSystem.Int32",
           "clrName": "METHODS_TO_SKIP",
-          "tsEmitName": "methods_to_skip",
+          "tsEmitName": "METHODS_TO_SKIP",
           "normalizedSignature": "METHODS_TO_SKIP|System.Int32|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

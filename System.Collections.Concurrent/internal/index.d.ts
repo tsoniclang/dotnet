@@ -48,17 +48,17 @@ export enum EnumerablePartitionerOptions {
 }
 
 
-export interface IProducerConsumerCollection_1$instance<T> {
-    readonly Count: int;
-    readonly SyncRoot: any;
-    readonly IsSynchronized: boolean;
-    CopyTo(array: T[], index: int): void;
-    CopyTo(array: ClrArray, index: int): void;
-    GetEnumerator(): IEnumerator_1<T>;
-    GetEnumerator(): IEnumerator;
-    ToArray(): T[];
-    TryAdd(item: T): boolean;
-    TryTake(item: { value: ref<T> }): boolean;
+export interface IProducerConsumerCollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable, ICollection {
+    readonly count: int;
+    readonly syncRoot: unknown;
+    readonly isSynchronized: boolean;
+    copyTo(array: T[], index: int): void;
+    copyTo(array: ClrArray, index: int): void;
+    getEnumerator(): IEnumerator_1<T>;
+    getEnumerator(): IEnumerator;
+    toArray(): T[];
+    tryAdd(item: T): boolean;
+    tryTake(item: { value: ref<T> }): boolean;
 }
 
 
@@ -105,28 +105,30 @@ export class BlockingCollection_1$instance<T> {
     tryTake(item: { value: ref<T> }, timeout: TimeSpan): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int): boolean;
     tryTake(item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    static AddToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
-    static AddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
-    static TakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
-    static TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
-    static TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
-    static TryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    static TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
-    static TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
-    static TryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+    static addToAny2<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    static addToAny2<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    static takeFromAny2<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, cancellationToken: CancellationToken): int;
+    static takeFromAny2<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
+    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    static tryAddToAny4<T>(collections: BlockingCollection_1<T>[], item: T): int;
+    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, millisecondsTimeout: int): int;
+    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }, timeout: TimeSpan): int;
+    static tryTakeFromAny4<T>(collections: BlockingCollection_1<T>[], item: { value: ref<T> }): int;
 }
 
 
 export interface __BlockingCollection_1$views<T> {
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface BlockingCollection_1$instance<T> extends System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>, System_Internal.IDisposable$instance {}
 
 export type BlockingCollection_1<T> = BlockingCollection_1$instance<T> & __BlockingCollection_1$views<T>;
 
@@ -147,11 +149,11 @@ export class ConcurrentBag_1$instance<T> {
 
 
 export interface __ConcurrentBag_1$views<T> {
-    readonly As_IProducerConsumerCollection_1: IProducerConsumerCollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ConcurrentBag_1<T> = ConcurrentBag_1$instance<T> & __ConcurrentBag_1$views<T>;
@@ -192,14 +194,14 @@ export class ConcurrentDictionary_2$instance<TKey, TValue> {
 
 
 export interface __ConcurrentDictionary_2$views<TKey, TValue> {
-    readonly As_ICollection_1: System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IDictionary_2: System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
-    readonly As_IEnumerable_1_of_Char: System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyCollection_1_of_KeyValuePair_2: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
-    readonly As_IReadOnlyDictionary_2: System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IDictionary: System_Collections_Internal.IDictionary$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<TKey, TValue>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<KeyValuePair_2<TKey, TValue>>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<TKey, TValue>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IDictionary(): System_Collections_Internal.IDictionary$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ConcurrentDictionary_2<TKey, TValue> = ConcurrentDictionary_2$instance<TKey, TValue> & __ConcurrentDictionary_2$views<TKey, TValue>;
@@ -221,11 +223,11 @@ export class ConcurrentQueue_1$instance<T> {
 
 
 export interface __ConcurrentQueue_1$views<T> {
-    readonly As_IProducerConsumerCollection_1: IProducerConsumerCollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ConcurrentQueue_1<T> = ConcurrentQueue_1$instance<T> & __ConcurrentQueue_1$views<T>;
@@ -251,11 +253,11 @@ export class ConcurrentStack_1$instance<T> {
 
 
 export interface __ConcurrentStack_1$views<T> {
-    readonly As_IProducerConsumerCollection_1: IProducerConsumerCollection_1$instance<T>;
-    readonly As_IEnumerable_1: System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
-    readonly As_IReadOnlyCollection_1: System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
-    readonly As_ICollection: System_Collections_Internal.ICollection$instance;
-    readonly As_IEnumerable: System_Collections_Internal.IEnumerable$instance;
+    As_IProducerConsumerCollection_1(): IProducerConsumerCollection_1$instance<T>;
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<T>;
+    As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<T>;
+    As_ICollection(): System_Collections_Internal.ICollection$instance;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
 
 export type ConcurrentStack_1<T> = ConcurrentStack_1$instance<T> & __ConcurrentStack_1$views<T>;
@@ -286,14 +288,14 @@ export abstract class Partitioner_1$instance<TSource> {
 export type Partitioner_1<TSource> = Partitioner_1$instance<TSource>;
 
 export abstract class Partitioner$instance {
-    static Create<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
-    static Create<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
-    static Create<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
-    static Create(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
-    static Create(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
-    static Create(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
-    static Create(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
-    static Create<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static create4<TSource>(source: IEnumerable_1<TSource>, partitionerOptions: EnumerablePartitionerOptions): OrderablePartitioner_1<TSource>;
+    static create4<TSource>(source: IEnumerable_1<TSource>): OrderablePartitioner_1<TSource>;
+    static create4<TSource>(list: IList_1<TSource>, loadBalance: boolean): OrderablePartitioner_1<TSource>;
+    static create4(fromInclusive: int, toExclusive: int, rangeSize: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
+    static create4(fromInclusive: int, toExclusive: int): OrderablePartitioner_1<Tuple_2<CLROf<int>, CLROf<int>>>;
+    static create4(fromInclusive: long, toExclusive: long, rangeSize: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
+    static create4(fromInclusive: long, toExclusive: long): OrderablePartitioner_1<Tuple_2<CLROf<long>, CLROf<long>>>;
+    static create4<TSource>(array: TSource[], loadBalance: boolean): OrderablePartitioner_1<TSource>;
 }
 
 

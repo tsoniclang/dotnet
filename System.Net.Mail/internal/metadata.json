@@ -1325,14 +1325,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Net.Mail:System.Net.Mail.Attachment",
@@ -2309,14 +2302,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Net.Mail:System.Net.Mail.LinkedResource",
@@ -3152,14 +3138,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Net.Mail:System.Net.Mail.MailAddress",
@@ -4045,13 +4024,6 @@
           "isStatic": false,
           "parameterCount": 0
         }
-      ],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
       ]
     },
     {
@@ -4193,7 +4165,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::CC:System.Net.Mail.MailAddressCollection",
           "clrName": "CC",
-          "tsEmitName": "cc",
+          "tsEmitName": "CC",
           "normalizedSignature": "CC|:System.Net.Mail.MailAddressCollection|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

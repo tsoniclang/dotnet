@@ -2683,14 +2683,7 @@
         }
       ],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 3
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601\u002BEnumerator",
@@ -4673,14 +4666,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 1
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableDictionary\u00602",
@@ -9341,14 +9327,7 @@
         }
       ],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableList\u00601\u002BBuilder",
@@ -10628,14 +10607,7 @@
       ],
       "fields": [],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableQueue\u00601",
@@ -13884,14 +13856,7 @@
         }
       ],
       "events": [],
-      "constructors": [],
-      "unsatisfiableInterfaces": [
-        {
-          "interfaceClrName": "System.Collections.Generic.IReadOnlyList\u00601",
-          "reason": "MissingOrIncompatibleMembers",
-          "issueCount": 2
-        }
-      ]
+      "constructors": []
     },
     {
       "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableSortedSet\u00601\u002BBuilder",

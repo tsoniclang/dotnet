@@ -85,7 +85,7 @@ export class ChannelClosedException$instance extends System_Internal.InvalidOper
 
 
 export interface __ChannelClosedException$views {
-    readonly As_ISerializable: System_Runtime_Serialization_Internal.ISerializable$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
 export type ChannelClosedException = ChannelClosedException$instance & __ChannelClosedException$views;
@@ -142,13 +142,13 @@ export class UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOpt
 export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChannelOptions_1$instance<T>;
 
 export abstract class Channel$instance {
-    static CreateBounded<T>(capacity: int): Channel_1<T>;
-    static CreateBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
-    static CreateBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
-    static CreateUnbounded<T>(): Channel_1<T>;
-    static CreateUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;
-    static CreateUnboundedPrioritized<T>(): Channel_1<T>;
-    static CreateUnboundedPrioritized<T>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
+    static createBounded<T>(capacity: int): Channel_1<T>;
+    static createBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
+    static createBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
+    static createUnbounded<T>(): Channel_1<T>;
+    static createUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;
+    static createUnboundedPrioritized<T>(): Channel_1<T>;
+    static createUnboundedPrioritized<T>(options: UnboundedPrioritizedChannelOptions_1<T>): Channel_1<T>;
 }
 
 

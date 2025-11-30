@@ -4009,7 +4009,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::R:System.Byte",
           "clrName": "R",
-          "tsEmitName": "r",
+          "tsEmitName": "R",
           "normalizedSignature": "R|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4024,7 +4024,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::G:System.Byte",
           "clrName": "G",
-          "tsEmitName": "g",
+          "tsEmitName": "G",
           "normalizedSignature": "G|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4039,7 +4039,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::B:System.Byte",
           "clrName": "B",
-          "tsEmitName": "b",
+          "tsEmitName": "B",
           "normalizedSignature": "B|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4054,7 +4054,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Color::A:System.Byte",
           "clrName": "A",
-          "tsEmitName": "a",
+          "tsEmitName": "A",
           "normalizedSignature": "A|:System.Byte|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4380,7 +4380,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::X:System.Int32",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4395,7 +4395,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Point::Y:System.Int32",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4630,7 +4630,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::X:System.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Single|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4645,7 +4645,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.PointF::Y:System.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Single|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5066,7 +5066,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::X:System.Int32",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5081,7 +5081,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.Rectangle::Y:System.Int32",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Int32|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5575,7 +5575,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::X:System.Single",
           "clrName": "X",
-          "tsEmitName": "x",
+          "tsEmitName": "X",
           "normalizedSignature": "X|:System.Single|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5590,7 +5590,7 @@
         {
           "stableId": "System.Drawing.Primitives:System.Drawing.RectangleF::Y:System.Single",
           "clrName": "Y",
-          "tsEmitName": "y",
+          "tsEmitName": "Y",
           "normalizedSignature": "Y|:System.Single|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

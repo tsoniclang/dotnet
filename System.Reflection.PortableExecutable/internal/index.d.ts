@@ -103,29 +103,29 @@ export enum DllCharacteristics {
 
 export enum Machine {
     unknown_ = 0,
-    i386 = 332,
+    I386 = 332,
     wceMipsV2 = 361,
     alpha = 388,
-    sh3 = 418,
-    sh3Dsp = 419,
-    sh3e = 420,
-    sh4 = 422,
-    sh5 = 424,
+    SH3 = 418,
+    sH3Dsp = 419,
+    SH3E = 420,
+    SH4 = 422,
+    SH5 = 424,
     arm = 448,
     thumb = 450,
     armThumb2 = 452,
-    am33 = 467,
+    AM33 = 467,
     powerPC = 496,
     powerPCFP = 497,
-    ia64 = 512,
-    mips16 = 614,
+    IA64 = 512,
+    MIPS16 = 614,
     alpha64 = 644,
     mipsFpu = 870,
     mipsFpu16 = 1126,
     tricore = 1312,
     ebc = 3772,
     amd64 = 34404,
-    m32r = 36929,
+    M32R = 36929,
     arm64 = 43620,
     loongArch32 = 25138,
     loongArch64 = 25188,
@@ -136,8 +136,8 @@ export enum Machine {
 
 
 export enum PEMagic {
-    pe32 = 267,
-    pe32Plus = 523
+    PE32 = 267,
+    pE32Plus = 523
 }
 
 
@@ -205,7 +205,7 @@ export enum Subsystem {
     native = 1,
     windowsGui = 2,
     windowsCui = 3,
-    os2Cui = 5,
+    oS2Cui = 5,
     posixCui = 7,
     nativeWindows = 8,
     windowsCEGui = 9,
@@ -244,8 +244,8 @@ export type DebugDirectoryEntry = DebugDirectoryEntry$instance;
 
 export class DirectoryEntry$instance {
     constructor(relativeVirtualAddress: int, size: int);
-    readonly RelativeVirtualAddress: int;
-    readonly Size: int;
+    readonly relativeVirtualAddress: int;
+    readonly size: int;
 }
 
 
@@ -343,8 +343,8 @@ export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 export class ManagedPEBuilder$instance extends PEBuilder$instance {
     constructor(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>);
     sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
-    static readonly ManagedResourcesDataAlignment: int;
-    static readonly MappedFieldDataAlignment: int;
+    static readonly managedResourcesDataAlignment: int;
+    static readonly mappedFieldDataAlignment: int;
 }
 
 
@@ -452,8 +452,8 @@ export class PEHeaderBuilder$instance {
     readonly sizeOfStackCommit: ulong;
     readonly sizeOfStackReserve: ulong;
     readonly subsystem: Subsystem;
-    static CreateExecutableHeader(): PEHeaderBuilder;
-    static CreateLibraryHeader(): PEHeaderBuilder;
+    static createExecutableHeader(): PEHeaderBuilder;
+    static createLibraryHeader(): PEHeaderBuilder;
 }
 
 
@@ -508,8 +508,10 @@ export class PEReader$instance {
 
 
 export interface __PEReader$views {
-    readonly As_IDisposable: System_Internal.IDisposable$instance;
+    As_IDisposable(): System_Internal.IDisposable$instance;
 }
+
+export interface PEReader$instance extends System_Internal.IDisposable$instance {}
 
 export type PEReader = PEReader$instance & __PEReader$views;
 
