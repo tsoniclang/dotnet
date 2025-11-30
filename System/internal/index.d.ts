@@ -931,7 +931,7 @@ export interface __Boolean$views {
 
 export interface Boolean$instance extends ISpanParsable_1$instance<CLROf<boolean>> {}
 
-export type Boolean = Boolean$instance & __Boolean$views;
+export type Boolean = boolean | (Boolean$instance & __Boolean$views);
 
 
 export interface Byte$instance extends IBitwiseOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IComparisonOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IEqualityOperators_3<CLROf<byte>, CLROf<byte>, CLROf<boolean>>, IModulusOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IAdditionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IDecrementOperators_1<CLROf<byte>>, IDivisionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IIncrementOperators_1<CLROf<byte>>, IMultiplyOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, ISubtractionOperators_3<CLROf<byte>, CLROf<byte>, CLROf<byte>>, IUnaryPlusOperators_2<CLROf<byte>, CLROf<byte>>, IUnaryNegationOperators_2<CLROf<byte>, CLROf<byte>>, IShiftOperators_3<CLROf<byte>, CLROf<int>, CLROf<byte>> {
