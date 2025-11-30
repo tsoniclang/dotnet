@@ -15,23 +15,23 @@ import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, E
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { AllowPartiallyTrustedCallersAttribute$instance as AllowPartiallyTrustedCallersAttribute } from './internal/index.js';
+export { AllowPartiallyTrustedCallersAttribute as AllowPartiallyTrustedCallersAttribute } from './internal/index.js';
 export type IPermission = Internal.IPermission;
 export type ISecurityEncodable = Internal.ISecurityEncodable;
 export type IStackWalk = Internal.IStackWalk;
 export { PartialTrustVisibilityLevel as PartialTrustVisibilityLevel } from './internal/index.js';
-export { PermissionSet$instance as PermissionSet } from './internal/index.js';
-export { SecureString$instance as SecureString } from './internal/index.js';
-export { SecurityCriticalAttribute$instance as SecurityCriticalAttribute } from './internal/index.js';
+export { PermissionSet as PermissionSet } from './internal/index.js';
+export { SecureString as SecureString } from './internal/index.js';
+export { SecurityCriticalAttribute as SecurityCriticalAttribute } from './internal/index.js';
 export { SecurityCriticalScope as SecurityCriticalScope } from './internal/index.js';
-export { SecurityElement$instance as SecurityElement } from './internal/index.js';
-export { SecurityException$instance as SecurityException } from './internal/index.js';
-export { SecurityRulesAttribute$instance as SecurityRulesAttribute } from './internal/index.js';
+export { SecurityElement as SecurityElement } from './internal/index.js';
+export { SecurityException as SecurityException } from './internal/index.js';
+export { SecurityRulesAttribute as SecurityRulesAttribute } from './internal/index.js';
 export { SecurityRuleSet as SecurityRuleSet } from './internal/index.js';
-export { SecuritySafeCriticalAttribute$instance as SecuritySafeCriticalAttribute } from './internal/index.js';
-export { SecurityTransparentAttribute$instance as SecurityTransparentAttribute } from './internal/index.js';
-export { SecurityTreatAsSafeAttribute$instance as SecurityTreatAsSafeAttribute } from './internal/index.js';
-export { SuppressUnmanagedCodeSecurityAttribute$instance as SuppressUnmanagedCodeSecurityAttribute } from './internal/index.js';
-export { UnverifiableCodeAttribute$instance as UnverifiableCodeAttribute } from './internal/index.js';
-export { VerificationException$instance as VerificationException } from './internal/index.js';
+export { SecuritySafeCriticalAttribute as SecuritySafeCriticalAttribute } from './internal/index.js';
+export { SecurityTransparentAttribute as SecurityTransparentAttribute } from './internal/index.js';
+export { SecurityTreatAsSafeAttribute as SecurityTreatAsSafeAttribute } from './internal/index.js';
+export { SuppressUnmanagedCodeSecurityAttribute as SuppressUnmanagedCodeSecurityAttribute } from './internal/index.js';
+export { UnverifiableCodeAttribute as UnverifiableCodeAttribute } from './internal/index.js';
+export { VerificationException as VerificationException } from './internal/index.js';
 export { SecureStringMarshal$instance as SecureStringMarshal } from './internal/index.js';

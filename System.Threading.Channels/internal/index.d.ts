@@ -52,36 +52,52 @@ export enum BoundedChannelFullMode {
 }
 
 
-export class BoundedChannelOptions$instance extends ChannelOptions$instance {
-    constructor(capacity: int);
+export interface BoundedChannelOptions$instance extends ChannelOptions {
     capacity: int;
     fullMode: BoundedChannelFullMode;
 }
 
 
+export const BoundedChannelOptions: {
+    new(capacity: int): BoundedChannelOptions$instance;
+};
+
+
 export type BoundedChannelOptions = BoundedChannelOptions$instance;
 
-export abstract class Channel_1$instance<T> extends Channel_2$instance<T, T> {
+export interface Channel_1$instance<T> extends Channel_2<T, T> {
 }
+
+
+export const Channel_1: {
+};
 
 
 export type Channel_1<T> = Channel_1$instance<T>;
 
-export abstract class Channel_2$instance<TWrite, TRead> {
+export interface Channel_2$instance<TWrite, TRead> {
     readonly reader: ChannelReader_1<TRead>;
     readonly writer: ChannelWriter_1<TWrite>;
 }
 
 
+export const Channel_2: {
+};
+
+
 export type Channel_2<TWrite, TRead> = Channel_2$instance<TWrite, TRead>;
 
-export class ChannelClosedException$instance extends System_Internal.InvalidOperationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(innerException: Exception);
-    constructor(message: string, innerException: Exception);
+export interface ChannelClosedException$instance extends InvalidOperationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ChannelClosedException: {
+    new(): ChannelClosedException$instance;
+    new(message: string): ChannelClosedException$instance;
+    new(innerException: Exception): ChannelClosedException$instance;
+    new(message: string, innerException: Exception): ChannelClosedException$instance;
+};
 
 
 export interface __ChannelClosedException$views {
@@ -91,16 +107,20 @@ export interface __ChannelClosedException$views {
 export type ChannelClosedException = ChannelClosedException$instance & __ChannelClosedException$views;
 
 
-export abstract class ChannelOptions$instance {
+export interface ChannelOptions$instance {
     allowSynchronousContinuations: boolean;
     singleReader: boolean;
     singleWriter: boolean;
 }
 
 
+export const ChannelOptions: {
+};
+
+
 export type ChannelOptions = ChannelOptions$instance;
 
-export abstract class ChannelReader_1$instance<T> {
+export interface ChannelReader_1$instance<T> {
     readonly canCount: boolean;
     readonly canPeek: boolean;
     readonly completion: Task;
@@ -108,35 +128,51 @@ export abstract class ChannelReader_1$instance<T> {
     readAllAsync(cancellationToken?: CancellationToken): IAsyncEnumerable_1<T>;
     readAsync(cancellationToken?: CancellationToken): ValueTask_1<T>;
     tryPeek(item: { value: ref<T> }): boolean;
-    abstract tryRead(item: { value: ref<T> }): boolean;
-    abstract waitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
+    tryRead(item: { value: ref<T> }): boolean;
+    waitToReadAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
 }
+
+
+export const ChannelReader_1: {
+};
 
 
 export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 
-export abstract class ChannelWriter_1$instance<T> {
+export interface ChannelWriter_1$instance<T> {
     complete(error?: Exception): void;
     tryComplete(error?: Exception): boolean;
-    abstract tryWrite(item: T): boolean;
-    abstract waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
+    tryWrite(item: T): boolean;
+    waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
     writeAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
+export const ChannelWriter_1: {
+};
+
+
 export type ChannelWriter_1<T> = ChannelWriter_1$instance<T>;
 
-export class UnboundedChannelOptions$instance extends ChannelOptions$instance {
-    constructor();
+export interface UnboundedChannelOptions$instance extends ChannelOptions {
 }
+
+
+export const UnboundedChannelOptions: {
+    new(): UnboundedChannelOptions$instance;
+};
 
 
 export type UnboundedChannelOptions = UnboundedChannelOptions$instance;
 
-export class UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions$instance {
-    constructor();
+export interface UnboundedPrioritizedChannelOptions_1$instance<T> extends ChannelOptions {
     comparer: IComparer_1<T>;
 }
+
+
+export const UnboundedPrioritizedChannelOptions_1: {
+    new<T>(): UnboundedPrioritizedChannelOptions_1$instance<T>;
+};
 
 
 export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChannelOptions_1$instance<T>;

@@ -23,4 +23,4 @@ export * from './internal/index.js';
 // Individual type exports for convenience
 export { HttpClientJsonExtensions$instance as HttpClientJsonExtensions } from './internal/index.js';
 export { HttpContentJsonExtensions$instance as HttpContentJsonExtensions } from './internal/index.js';
-export { JsonContent$instance as JsonContent } from './internal/index.js';
+export { JsonContent as JsonContent } from './internal/index.js';

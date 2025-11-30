@@ -61,7 +61,7 @@ export interface INormalizeForIsolatedStorage$instance {
 
 export type INormalizeForIsolatedStorage = INormalizeForIsolatedStorage$instance;
 
-export abstract class IsolatedStorage$instance extends System_Internal.MarshalByRefObject$instance {
+export interface IsolatedStorage$instance extends MarshalByRefObject {
     readonly applicationIdentity: unknown;
     readonly assemblyIdentity: unknown;
     readonly availableFreeSpace: long;
@@ -72,18 +72,26 @@ export abstract class IsolatedStorage$instance extends System_Internal.MarshalBy
     readonly scope: IsolatedStorageScope;
     readonly usedSize: long;
     increaseQuotaTo(newQuotaSize: long): boolean;
-    abstract remove(): void;
+    remove(): void;
 }
+
+
+export const IsolatedStorage: {
+};
 
 
 export type IsolatedStorage = IsolatedStorage$instance;
 
-export class IsolatedStorageException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface IsolatedStorageException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const IsolatedStorageException: {
+    new(): IsolatedStorageException$instance;
+    new(message: string): IsolatedStorageException$instance;
+    new(message: string, inner: Exception): IsolatedStorageException$instance;
+};
 
 
 export interface __IsolatedStorageException$views {
@@ -93,7 +101,7 @@ export interface __IsolatedStorageException$views {
 export type IsolatedStorageException = IsolatedStorageException$instance & __IsolatedStorageException$views;
 
 
-export class IsolatedStorageFile$instance extends IsolatedStorage$instance {
+export interface IsolatedStorageFile$instance extends IsolatedStorage {
     readonly availableFreeSpace: long;
     readonly currentSize: ulong;
     readonly maximumSize: ulong;
@@ -123,21 +131,26 @@ export class IsolatedStorageFile$instance extends IsolatedStorage$instance {
     openFile(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream;
     openFile(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream;
     remove(): void;
-    static readonly isEnabled: boolean;
-    static getEnumerator(scope: IsolatedStorageScope): IEnumerator;
-    static getMachineStoreForApplication(): IsolatedStorageFile;
-    static getMachineStoreForAssembly(): IsolatedStorageFile;
-    static getMachineStoreForDomain(): IsolatedStorageFile;
-    static getStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
-    static getStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
-    static getStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
-    static getStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
-    static getUserStoreForApplication(): IsolatedStorageFile;
-    static getUserStoreForAssembly(): IsolatedStorageFile;
-    static getUserStoreForDomain(): IsolatedStorageFile;
-    static getUserStoreForSite(): IsolatedStorageFile;
-    static remove(scope: IsolatedStorageScope): void;
 }
+
+
+export const IsolatedStorageFile: {
+    new(): IsolatedStorageFile$instance;
+    readonly isEnabled: boolean;
+    getEnumerator(scope: IsolatedStorageScope): IEnumerator;
+    getMachineStoreForApplication(): IsolatedStorageFile;
+    getMachineStoreForAssembly(): IsolatedStorageFile;
+    getMachineStoreForDomain(): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, applicationIdentity: unknown): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, applicationEvidenceType: Type): IsolatedStorageFile;
+    getUserStoreForApplication(): IsolatedStorageFile;
+    getUserStoreForAssembly(): IsolatedStorageFile;
+    getUserStoreForDomain(): IsolatedStorageFile;
+    getUserStoreForSite(): IsolatedStorageFile;
+    remove(scope: IsolatedStorageScope): void;
+};
 
 
 export interface __IsolatedStorageFile$views {
@@ -149,15 +162,7 @@ export interface IsolatedStorageFile$instance extends System_Internal.IDisposabl
 export type IsolatedStorageFile = IsolatedStorageFile$instance & __IsolatedStorageFile$views;
 
 
-export class IsolatedStorageFileStream$instance extends System_IO_Internal.FileStream$instance {
-    constructor(path: string, mode: FileMode);
-    constructor(path: string, mode: FileMode, isf: IsolatedStorageFile);
-    constructor(path: string, mode: FileMode, access: FileAccess);
-    constructor(path: string, mode: FileMode, access: FileAccess, isf: IsolatedStorageFile);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, isf: IsolatedStorageFile);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, isf: IsolatedStorageFile);
+export interface IsolatedStorageFileStream$instance extends FileStream {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canWrite: boolean;
@@ -198,6 +203,18 @@ export class IsolatedStorageFileStream$instance extends System_IO_Internal.FileS
     writeAsync(buffer: byte[], offset: int, count: int): Task;
     writeByte(value: byte): void;
 }
+
+
+export const IsolatedStorageFileStream: {
+    new(path: string, mode: FileMode): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, isf: IsolatedStorageFile): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, isf: IsolatedStorageFile): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, isf: IsolatedStorageFile): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int): IsolatedStorageFileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, isf: IsolatedStorageFile): IsolatedStorageFileStream$instance;
+};
 
 
 export interface __IsolatedStorageFileStream$views {

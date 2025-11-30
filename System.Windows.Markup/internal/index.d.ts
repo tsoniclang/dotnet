@@ -34,12 +34,16 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class ValueSerializerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(valueSerializerType: Type);
-    constructor(valueSerializerTypeName: string);
+export interface ValueSerializerAttribute$instance extends Attribute {
     readonly valueSerializerType: Type;
     readonly valueSerializerTypeName: string;
 }
+
+
+export const ValueSerializerAttribute: {
+    new(valueSerializerType: Type): ValueSerializerAttribute$instance;
+    new(valueSerializerTypeName: string): ValueSerializerAttribute$instance;
+};
 
 
 export type ValueSerializerAttribute = ValueSerializerAttribute$instance;

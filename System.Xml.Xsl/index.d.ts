@@ -18,14 +18,14 @@ import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, EventArgs, E
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { XslCompiledTransform$instance as XslCompiledTransform } from './internal/index.js';
-export { XsltMessageEncounteredEventArgs$instance as XsltMessageEncounteredEventArgs } from './internal/index.js';
-export { XsltMessageEncounteredEventHandler$instance as XsltMessageEncounteredEventHandler } from './internal/index.js';
-export { XsltArgumentList$instance as XsltArgumentList } from './internal/index.js';
+export { XslCompiledTransform as XslCompiledTransform } from './internal/index.js';
+export { XsltMessageEncounteredEventArgs as XsltMessageEncounteredEventArgs } from './internal/index.js';
+export type XsltMessageEncounteredEventHandler = Internal.XsltMessageEncounteredEventHandler;
+export { XsltArgumentList as XsltArgumentList } from './internal/index.js';
 export type IXsltContextFunction = Internal.IXsltContextFunction;
 export type IXsltContextVariable = Internal.IXsltContextVariable;
-export { XsltContext$instance as XsltContext } from './internal/index.js';
-export { XsltException$instance as XsltException } from './internal/index.js';
-export { XsltCompileException$instance as XsltCompileException } from './internal/index.js';
-export { XslTransform$instance as XslTransform } from './internal/index.js';
-export { XsltSettings$instance as XsltSettings } from './internal/index.js';
+export { XsltContext as XsltContext } from './internal/index.js';
+export { XsltException as XsltException } from './internal/index.js';
+export { XsltCompileException as XsltCompileException } from './internal/index.js';
+export { XslTransform as XslTransform } from './internal/index.js';
+export { XsltSettings as XsltSettings } from './internal/index.js';

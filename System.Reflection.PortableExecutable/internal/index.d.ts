@@ -218,17 +218,21 @@ export enum Subsystem {
 }
 
 
-export class CodeViewDebugDirectoryData$instance {
+export interface CodeViewDebugDirectoryData$instance {
     readonly age: int;
     readonly guid: Guid;
     readonly path: string;
 }
 
 
+export const CodeViewDebugDirectoryData: {
+    new(): CodeViewDebugDirectoryData$instance;
+};
+
+
 export type CodeViewDebugDirectoryData = CodeViewDebugDirectoryData$instance;
 
-export class DebugDirectoryEntry$instance {
-    constructor(stamp: uint, majorVersion: ushort, minorVersion: ushort, type_: DebugDirectoryEntryType, dataSize: int, dataRelativeVirtualAddress: int, dataPointer: int);
+export interface DebugDirectoryEntry$instance {
     readonly dataPointer: int;
     readonly dataRelativeVirtualAddress: int;
     readonly dataSize: int;
@@ -240,26 +244,40 @@ export class DebugDirectoryEntry$instance {
 }
 
 
+export const DebugDirectoryEntry: {
+    new(stamp: uint, majorVersion: ushort, minorVersion: ushort, type_: DebugDirectoryEntryType, dataSize: int, dataRelativeVirtualAddress: int, dataPointer: int): DebugDirectoryEntry$instance;
+};
+
+
 export type DebugDirectoryEntry = DebugDirectoryEntry$instance;
 
-export class DirectoryEntry$instance {
-    constructor(relativeVirtualAddress: int, size: int);
+export interface DirectoryEntry$instance {
     readonly relativeVirtualAddress: int;
     readonly size: int;
 }
 
 
+export const DirectoryEntry: {
+    new(relativeVirtualAddress: int, size: int): DirectoryEntry$instance;
+};
+
+
 export type DirectoryEntry = DirectoryEntry$instance;
 
-export class PdbChecksumDebugDirectoryData$instance {
+export interface PdbChecksumDebugDirectoryData$instance {
     readonly algorithmName: string;
     readonly checksum: ImmutableArray_1<CLROf<byte>>;
 }
 
 
+export const PdbChecksumDebugDirectoryData: {
+    new(): PdbChecksumDebugDirectoryData$instance;
+};
+
+
 export type PdbChecksumDebugDirectoryData = PdbChecksumDebugDirectoryData$instance;
 
-export class PEMemoryBlock$instance {
+export interface PEMemoryBlock$instance {
     readonly length: int;
     readonly pointer: ptr<byte>;
     getContent(): ImmutableArray_1<CLROf<byte>>;
@@ -269,9 +287,14 @@ export class PEMemoryBlock$instance {
 }
 
 
+export const PEMemoryBlock: {
+    new(): PEMemoryBlock$instance;
+};
+
+
 export type PEMemoryBlock = PEMemoryBlock$instance;
 
-export class SectionHeader$instance {
+export interface SectionHeader$instance {
     readonly name: string;
     readonly numberOfLineNumbers: ushort;
     readonly numberOfRelocations: ushort;
@@ -285,18 +308,27 @@ export class SectionHeader$instance {
 }
 
 
+export const SectionHeader: {
+    new(): SectionHeader$instance;
+};
+
+
 export type SectionHeader = SectionHeader$instance;
 
-export class SectionLocation$instance {
-    constructor(relativeVirtualAddress: int, pointerToRawData: int);
+export interface SectionLocation$instance {
     readonly pointerToRawData: int;
     readonly relativeVirtualAddress: int;
 }
 
 
+export const SectionLocation: {
+    new(relativeVirtualAddress: int, pointerToRawData: int): SectionLocation$instance;
+};
+
+
 export type SectionLocation = SectionLocation$instance;
 
-export class CoffHeader$instance {
+export interface CoffHeader$instance {
     readonly characteristics: Characteristics;
     readonly machine: Machine;
     readonly numberOfSections: short;
@@ -307,9 +339,14 @@ export class CoffHeader$instance {
 }
 
 
+export const CoffHeader: {
+    new(): CoffHeader$instance;
+};
+
+
 export type CoffHeader = CoffHeader$instance;
 
-export class CorHeader$instance {
+export interface CorHeader$instance {
     readonly codeManagerTableDirectory: DirectoryEntry;
     readonly entryPointTokenOrRelativeVirtualAddress: int;
     readonly exportAddressTableJumpsDirectory: DirectoryEntry;
@@ -324,10 +361,14 @@ export class CorHeader$instance {
 }
 
 
+export const CorHeader: {
+    new(): CorHeader$instance;
+};
+
+
 export type CorHeader = CorHeader$instance;
 
-export class DebugDirectoryBuilder$instance {
-    constructor();
+export interface DebugDirectoryBuilder$instance {
     addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort): void;
     addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
     addEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
@@ -338,19 +379,28 @@ export class DebugDirectoryBuilder$instance {
 }
 
 
+export const DebugDirectoryBuilder: {
+    new(): DebugDirectoryBuilder$instance;
+};
+
+
 export type DebugDirectoryBuilder = DebugDirectoryBuilder$instance;
 
-export class ManagedPEBuilder$instance extends PEBuilder$instance {
-    constructor(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>);
+export interface ManagedPEBuilder$instance extends PEBuilder {
     sign(peImage: BlobBuilder, signatureProvider: Func_2<IEnumerable_1<Blob>, byte[]>): void;
-    static readonly managedResourcesDataAlignment: int;
-    static readonly mappedFieldDataAlignment: int;
 }
+
+
+export const ManagedPEBuilder: {
+    new(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): ManagedPEBuilder$instance;
+    readonly managedResourcesDataAlignment: int;
+    readonly mappedFieldDataAlignment: int;
+};
 
 
 export type ManagedPEBuilder = ManagedPEBuilder$instance;
 
-export abstract class PEBuilder$instance {
+export interface PEBuilder$instance {
     readonly header: PEHeaderBuilder;
     readonly idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
     readonly isDeterministic: boolean;
@@ -358,10 +408,13 @@ export abstract class PEBuilder$instance {
 }
 
 
+export const PEBuilder: {
+};
+
+
 export type PEBuilder = PEBuilder$instance;
 
-export class PEDirectoriesBuilder$instance {
-    constructor();
+export interface PEDirectoriesBuilder$instance {
     addressOfEntryPoint: int;
     baseRelocationTable: DirectoryEntry;
     boundImportTable: DirectoryEntry;
@@ -380,9 +433,14 @@ export class PEDirectoriesBuilder$instance {
 }
 
 
+export const PEDirectoriesBuilder: {
+    new(): PEDirectoriesBuilder$instance;
+};
+
+
 export type PEDirectoriesBuilder = PEDirectoriesBuilder$instance;
 
-export class PEHeader$instance {
+export interface PEHeader$instance {
     readonly addressOfEntryPoint: int;
     readonly baseOfCode: int;
     readonly baseOfData: int;
@@ -429,10 +487,14 @@ export class PEHeader$instance {
 }
 
 
+export const PEHeader: {
+    new(): PEHeader$instance;
+};
+
+
 export type PEHeader = PEHeader$instance;
 
-export class PEHeaderBuilder$instance {
-    constructor(machine: Machine, sectionAlignment: int, fileAlignment: int, imageBase: ulong, majorLinkerVersion: byte, minorLinkerVersion: byte, majorOperatingSystemVersion: ushort, minorOperatingSystemVersion: ushort, majorImageVersion: ushort, minorImageVersion: ushort, majorSubsystemVersion: ushort, minorSubsystemVersion: ushort, subsystem: Subsystem, dllCharacteristics: DllCharacteristics, imageCharacteristics: Characteristics, sizeOfStackReserve: ulong, sizeOfStackCommit: ulong, sizeOfHeapReserve: ulong, sizeOfHeapCommit: ulong);
+export interface PEHeaderBuilder$instance {
     readonly dllCharacteristics: DllCharacteristics;
     readonly fileAlignment: int;
     readonly imageBase: ulong;
@@ -452,17 +514,19 @@ export class PEHeaderBuilder$instance {
     readonly sizeOfStackCommit: ulong;
     readonly sizeOfStackReserve: ulong;
     readonly subsystem: Subsystem;
-    static createExecutableHeader(): PEHeaderBuilder;
-    static createLibraryHeader(): PEHeaderBuilder;
 }
+
+
+export const PEHeaderBuilder: {
+    new(machine: Machine, sectionAlignment: int, fileAlignment: int, imageBase: ulong, majorLinkerVersion: byte, minorLinkerVersion: byte, majorOperatingSystemVersion: ushort, minorOperatingSystemVersion: ushort, majorImageVersion: ushort, minorImageVersion: ushort, majorSubsystemVersion: ushort, minorSubsystemVersion: ushort, subsystem: Subsystem, dllCharacteristics: DllCharacteristics, imageCharacteristics: Characteristics, sizeOfStackReserve: ulong, sizeOfStackCommit: ulong, sizeOfHeapReserve: ulong, sizeOfHeapCommit: ulong): PEHeaderBuilder$instance;
+    createExecutableHeader(): PEHeaderBuilder;
+    createLibraryHeader(): PEHeaderBuilder;
+};
 
 
 export type PEHeaderBuilder = PEHeaderBuilder$instance;
 
-export class PEHeaders$instance {
-    constructor(peStream: Stream);
-    constructor(peStream: Stream, size: int);
-    constructor(peStream: Stream, size: int, isLoadedImage: boolean);
+export interface PEHeaders$instance {
     readonly coffHeader: CoffHeader;
     readonly coffHeaderStartOffset: int;
     readonly corHeader: CorHeader;
@@ -481,15 +545,16 @@ export class PEHeaders$instance {
 }
 
 
+export const PEHeaders: {
+    new(peStream: Stream): PEHeaders$instance;
+    new(peStream: Stream, size: int): PEHeaders$instance;
+    new(peStream: Stream, size: int, isLoadedImage: boolean): PEHeaders$instance;
+};
+
+
 export type PEHeaders = PEHeaders$instance;
 
-export class PEReader$instance {
-    constructor(peImage: ptr<byte>, size: int);
-    constructor(peImage: ptr<byte>, size: int, isLoadedImage: boolean);
-    constructor(peStream: Stream);
-    constructor(peStream: Stream, options: PEStreamOptions);
-    constructor(peStream: Stream, options: PEStreamOptions, size: int);
-    constructor(peImage: ImmutableArray_1<CLROf<byte>>);
+export interface PEReader$instance {
     readonly hasMetadata: boolean;
     readonly isEntireImageAvailable: boolean;
     readonly isLoadedImage: boolean;
@@ -507,6 +572,16 @@ export class PEReader$instance {
 }
 
 
+export const PEReader: {
+    new(peImage: ptr<byte>, size: int): PEReader$instance;
+    new(peImage: ptr<byte>, size: int, isLoadedImage: boolean): PEReader$instance;
+    new(peStream: Stream): PEReader$instance;
+    new(peStream: Stream, options: PEStreamOptions): PEReader$instance;
+    new(peStream: Stream, options: PEStreamOptions, size: int): PEReader$instance;
+    new(peImage: ImmutableArray_1<CLROf<byte>>): PEReader$instance;
+};
+
+
 export interface __PEReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -516,8 +591,12 @@ export interface PEReader$instance extends System_Internal.IDisposable$instance 
 export type PEReader = PEReader$instance & __PEReader$views;
 
 
-export abstract class ResourceSectionBuilder$instance {
+export interface ResourceSectionBuilder$instance {
 }
+
+
+export const ResourceSectionBuilder: {
+};
 
 
 export type ResourceSectionBuilder = ResourceSectionBuilder$instance;

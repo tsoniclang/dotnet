@@ -38,9 +38,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class BinaryFormatter$instance {
-    constructor();
-    constructor(selector: ISurrogateSelector, context: StreamingContext);
+export interface BinaryFormatter$instance {
     assemblyFormat: FormatterAssemblyStyle;
     binder: SerializationBinder;
     context: StreamingContext;
@@ -50,6 +48,12 @@ export class BinaryFormatter$instance {
     deserialize(serializationStream: Stream): unknown;
     serialize(serializationStream: Stream, graph: unknown): void;
 }
+
+
+export const BinaryFormatter: {
+    new(): BinaryFormatter$instance;
+    new(selector: ISurrogateSelector, context: StreamingContext): BinaryFormatter$instance;
+};
 
 
 export interface __BinaryFormatter$views {

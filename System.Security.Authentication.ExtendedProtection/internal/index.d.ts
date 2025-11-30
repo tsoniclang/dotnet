@@ -63,10 +63,14 @@ export enum ProtectionScenario {
 }
 
 
-export abstract class ChannelBinding$instance extends Microsoft_Win32_SafeHandles_Internal.SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface ChannelBinding$instance extends SafeHandleZeroOrMinusOneIsInvalid {
     readonly size: int;
     dispose(): void;
 }
+
+
+export const ChannelBinding: {
+};
 
 
 export interface __ChannelBinding$views {
@@ -76,18 +80,22 @@ export interface __ChannelBinding$views {
 export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
-export class ExtendedProtectionPolicy$instance {
-    constructor(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection);
-    constructor(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection);
-    constructor(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding);
-    constructor(policyEnforcement: PolicyEnforcement);
+export interface ExtendedProtectionPolicy$instance {
     readonly customChannelBinding: ChannelBinding;
     readonly customServiceNames: ServiceNameCollection;
     readonly policyEnforcement: PolicyEnforcement;
     readonly protectionScenario: ProtectionScenario;
     toString(): string;
-    static readonly osSupportsExtendedProtection: boolean;
 }
+
+
+export const ExtendedProtectionPolicy: {
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection): ExtendedProtectionPolicy$instance;
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy$instance;
+    new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy$instance;
+    new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy$instance;
+    readonly osSupportsExtendedProtection: boolean;
+};
 
 
 export interface __ExtendedProtectionPolicy$views {
@@ -99,8 +107,7 @@ export interface ExtendedProtectionPolicy$instance extends System_Runtime_Serial
 export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __ExtendedProtectionPolicy$views;
 
 
-export class ExtendedProtectionPolicyTypeConverter$instance extends System_ComponentModel_Internal.TypeConverter$instance {
-    constructor();
+export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
@@ -108,16 +115,25 @@ export class ExtendedProtectionPolicyTypeConverter$instance extends System_Compo
 }
 
 
+export const ExtendedProtectionPolicyTypeConverter: {
+    new(): ExtendedProtectionPolicyTypeConverter$instance;
+};
+
+
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
-export class ServiceNameCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
-    constructor(items: ICollection);
+export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
     contains(searchServiceName: string): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     merge(serviceName: string): ServiceNameCollection;
     merge(serviceNames: IEnumerable): ServiceNameCollection;
 }
+
+
+export const ServiceNameCollection: {
+    new(items: ICollection): ServiceNameCollection$instance;
+};
 
 
 export interface __ServiceNameCollection$views {

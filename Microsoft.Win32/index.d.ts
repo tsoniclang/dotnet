@@ -15,7 +15,7 @@ export * from './internal/index.js';
 // Individual type exports for convenience
 export { Registry$instance as Registry } from './internal/index.js';
 export { RegistryHive as RegistryHive } from './internal/index.js';
-export { RegistryKey$instance as RegistryKey } from './internal/index.js';
+export { RegistryKey as RegistryKey } from './internal/index.js';
 export { RegistryKeyPermissionCheck as RegistryKeyPermissionCheck } from './internal/index.js';
 export { RegistryOptions as RegistryOptions } from './internal/index.js';
 export { RegistryValueKind as RegistryValueKind } from './internal/index.js';

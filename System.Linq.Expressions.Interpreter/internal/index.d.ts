@@ -34,10 +34,15 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class LightLambda$instance {
+export interface LightLambda$instance {
     run(arguments: unknown[]): unknown;
     runVoid(arguments: unknown[]): unknown;
 }
+
+
+export const LightLambda: {
+    new(): LightLambda$instance;
+};
 
 
 export type LightLambda = LightLambda$instance;

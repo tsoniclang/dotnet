@@ -56,14 +56,18 @@ export enum GCLatencyMode {
 }
 
 
-export class DependentHandle$instance {
-    constructor(target: unknown, dependent: unknown);
+export interface DependentHandle$instance {
     dependent: unknown;
     readonly isAllocated: boolean;
     target: unknown;
     readonly targetAndDependent: ValueTuple_2<unknown, unknown>;
     dispose(): void;
 }
+
+
+export const DependentHandle: {
+    new(target: unknown, dependent: unknown): DependentHandle$instance;
+};
 
 
 export interface __DependentHandle$views {
@@ -75,12 +79,16 @@ export interface DependentHandle$instance extends System_Internal.IDisposable$in
 export type DependentHandle = DependentHandle$instance & __DependentHandle$views;
 
 
-export class AmbiguousImplementationException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface AmbiguousImplementationException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AmbiguousImplementationException: {
+    new(): AmbiguousImplementationException$instance;
+    new(message: string): AmbiguousImplementationException$instance;
+    new(message: string, innerException: Exception): AmbiguousImplementationException$instance;
+};
 
 
 export interface __AmbiguousImplementationException$views {
@@ -90,18 +98,26 @@ export interface __AmbiguousImplementationException$views {
 export type AmbiguousImplementationException = AmbiguousImplementationException$instance & __AmbiguousImplementationException$views;
 
 
-export class AssemblyTargetedPatchBandAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(targetedPatchBand: string);
+export interface AssemblyTargetedPatchBandAttribute$instance extends Attribute {
     readonly targetedPatchBand: string;
 }
 
 
+export const AssemblyTargetedPatchBandAttribute: {
+    new(targetedPatchBand: string): AssemblyTargetedPatchBandAttribute$instance;
+};
+
+
 export type AssemblyTargetedPatchBandAttribute = AssemblyTargetedPatchBandAttribute$instance;
 
-export class MemoryFailPoint$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
-    constructor(sizeInMegabytes: int);
+export interface MemoryFailPoint$instance extends CriticalFinalizerObject {
     dispose(): void;
 }
+
+
+export const MemoryFailPoint: {
+    new(sizeInMegabytes: int): MemoryFailPoint$instance;
+};
 
 
 export interface __MemoryFailPoint$views {
@@ -113,10 +129,14 @@ export interface MemoryFailPoint$instance extends System_Internal.IDisposable$in
 export type MemoryFailPoint = MemoryFailPoint$instance & __MemoryFailPoint$views;
 
 
-export class TargetedPatchingOptOutAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(reason: string);
+export interface TargetedPatchingOptOutAttribute$instance extends Attribute {
     readonly reason: string;
 }
+
+
+export const TargetedPatchingOptOutAttribute: {
+    new(reason: string): TargetedPatchingOptOutAttribute$instance;
+};
 
 
 export type TargetedPatchingOptOutAttribute = TargetedPatchingOptOutAttribute$instance;

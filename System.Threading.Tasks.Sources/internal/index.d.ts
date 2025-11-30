@@ -67,7 +67,7 @@ export interface IValueTaskSource_1$instance<TResult> {
 
 export type IValueTaskSource_1<TResult> = IValueTaskSource_1$instance<TResult>;
 
-export class ManualResetValueTaskSourceCore_1$instance<TResult> {
+export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
     runContinuationsAsynchronously: boolean;
     readonly version: short;
     getResult(token: short): TResult;
@@ -77,6 +77,11 @@ export class ManualResetValueTaskSourceCore_1$instance<TResult> {
     setException(error: Exception): void;
     setResult(result: TResult): void;
 }
+
+
+export const ManualResetValueTaskSourceCore_1: {
+    new<TResult>(): ManualResetValueTaskSourceCore_1$instance<TResult>;
+};
 
 
 export type ManualResetValueTaskSourceCore_1<TResult> = ManualResetValueTaskSourceCore_1$instance<TResult>;

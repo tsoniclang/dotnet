@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67110872,
+          "metadataToken": 67110871,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::MainAssemblySystem.Resources.UltimateResourceFallbackLocation",
           "clrName": "MainAssembly",
           "tsEmitName": "mainAssembly",
-          "metadataToken": 67110873,
+          "metadataToken": 67110872,
           "normalizedSignature": "MainAssembly|System.Resources.UltimateResourceFallbackLocation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.UltimateResourceFallbackLocation::SatelliteSystem.Resources.UltimateResourceFallbackLocation",
           "clrName": "Satellite",
           "tsEmitName": "satellite",
-          "metadataToken": 67110874,
+          "metadataToken": 67110873,
           "normalizedSignature": "Satellite|System.Resources.UltimateResourceFallbackLocation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -586,7 +586,7 @@
           "target": {
             "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110872
+            "metadataToken": 67110871
           }
         },
         {
@@ -596,7 +596,7 @@
           "target": {
             "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110873
+            "metadataToken": 67110872
           }
         },
         {
@@ -606,7 +606,7 @@
           "target": {
             "declaringClrType": "System.Resources.UltimateResourceFallbackLocation",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110874
+            "metadataToken": 67110873
           }
         }
       ]
@@ -650,7 +650,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ClassSurface",
@@ -693,7 +693,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         }
       ]
@@ -820,7 +820,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -888,7 +888,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -980,7 +980,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -990,7 +990,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -1000,7 +1000,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -1010,7 +1010,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -1020,7 +1020,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -1030,7 +1030,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -1040,7 +1040,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -1050,7 +1050,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -1095,7 +1095,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1125,7 +1125,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.MissingSatelliteAssemblyException::CultureName:System.String",
           "clrName": "CultureName",
           "tsEmitName": "cultureName",
-          "metadataToken": 385878158,
+          "metadataToken": 385878159,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CultureName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1188,7 +1188,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -1280,7 +1280,7 @@
           "target": {
             "declaringClrType": "System.Resources.MissingSatelliteAssemblyException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878158
+            "metadataToken": 385878159
           }
         },
         {
@@ -1290,7 +1290,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -1300,7 +1300,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -1310,7 +1310,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -1320,7 +1320,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -1330,7 +1330,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -1340,7 +1340,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -1350,7 +1350,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -1360,7 +1360,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -1415,7 +1415,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute::CultureName:System.String",
           "clrName": "CultureName",
           "tsEmitName": "cultureName",
-          "metadataToken": 385878159,
+          "metadataToken": 385878160,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "CultureName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1429,7 +1429,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.NeutralResourcesLanguageAttribute::Location:System.Resources.UltimateResourceFallbackLocation",
           "clrName": "Location",
           "tsEmitName": "location",
-          "metadataToken": 385878160,
+          "metadataToken": 385878161,
           "canonicalSignature": ":System.Resources.UltimateResourceFallbackLocation",
           "normalizedSignature": "Location|:System.Resources.UltimateResourceFallbackLocation|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1624,7 +1624,7 @@
           "target": {
             "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878159
+            "metadataToken": 385878160
           }
         },
         {
@@ -1634,7 +1634,7 @@
           "target": {
             "declaringClrType": "System.Resources.NeutralResourcesLanguageAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878160
+            "metadataToken": 385878161
           }
         },
         {
@@ -1808,7 +1808,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::BaseName:System.String",
           "clrName": "BaseName",
           "tsEmitName": "baseName",
-          "metadataToken": 385878163,
+          "metadataToken": 385878164,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "BaseName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1822,7 +1822,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::IgnoreCase:System.Boolean",
           "clrName": "IgnoreCase",
           "tsEmitName": "ignoreCase",
-          "metadataToken": 385878164,
+          "metadataToken": 385878165,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "IgnoreCase|:System.Boolean|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1836,7 +1836,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::ResourceSetType:System.Type",
           "clrName": "ResourceSetType",
           "tsEmitName": "resourceSetType",
-          "metadataToken": 385878165,
+          "metadataToken": 385878166,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "ResourceSetType|:System.Type|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1852,7 +1852,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::MagicNumberSystem.Int32",
           "clrName": "MagicNumber",
           "tsEmitName": "magicNumber",
-          "metadataToken": 67110815,
+          "metadataToken": 67110814,
           "normalizedSignature": "MagicNumber|System.Int32|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1863,7 +1863,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.ResourceManager::HeaderVersionNumberSystem.Int32",
           "clrName": "HeaderVersionNumber",
           "tsEmitName": "headerVersionNumber",
-          "metadataToken": 67110816,
+          "metadataToken": 67110815,
           "normalizedSignature": "HeaderVersionNumber|System.Int32|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2064,7 +2064,7 @@
           "target": {
             "declaringClrType": "System.Resources.ResourceManager",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878163
+            "metadataToken": 385878164
           }
         },
         {
@@ -2074,7 +2074,7 @@
           "target": {
             "declaringClrType": "System.Resources.ResourceManager",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878164
+            "metadataToken": 385878165
           }
         },
         {
@@ -2084,7 +2084,7 @@
           "target": {
             "declaringClrType": "System.Resources.ResourceManager",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878165
+            "metadataToken": 385878166
           }
         }
       ],
@@ -2096,7 +2096,7 @@
           "target": {
             "declaringClrType": "System.Resources.ResourceManager",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110815
+            "metadataToken": 67110814
           }
         },
         {
@@ -2106,7 +2106,7 @@
           "target": {
             "declaringClrType": "System.Resources.ResourceManager",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67110816
+            "metadataToken": 67110815
           }
         }
       ],
@@ -2207,7 +2207,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -2333,7 +2333,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -2585,7 +2585,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEnumerable::GetEnumerator():System.Collections.IEnumerator",
           "clrName": "GetEnumerator",
           "tsEmitName": "getEnumerator$view",
-          "metadataToken": 100703948,
+          "metadataToken": 100703845,
           "canonicalSignature": "():System.Collections.IEnumerator",
           "normalizedSignature": "GetEnumerator|():System.Collections.IEnumerator|static=false",
           "emitScope": "ViewOnly",
@@ -2743,7 +2743,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEnumerable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703948
+            "metadataToken": 100703845
           }
         },
         {
@@ -3338,7 +3338,7 @@
           "stableId": "System.Private.CoreLib:System.Resources.SatelliteContractVersionAttribute::Version:System.String",
           "clrName": "Version",
           "tsEmitName": "version",
-          "metadataToken": 385878185,
+          "metadataToken": 385878186,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -3523,7 +3523,7 @@
           "target": {
             "declaringClrType": "System.Resources.SatelliteContractVersionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878185
+            "metadataToken": 385878186
           }
         },
         {

@@ -14,7 +14,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117087,
+          "metadataToken": 67117089,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::NoneSystem.Xml.Resolvers.XmlKnownDtds",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117088,
+          "metadataToken": 67117090,
           "normalizedSignature": "None|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::Xhtml10System.Xml.Resolvers.XmlKnownDtds",
           "clrName": "Xhtml10",
           "tsEmitName": "xhtml10",
-          "metadataToken": 67117089,
+          "metadataToken": 67117091,
           "normalizedSignature": "Xhtml10|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::Rss091System.Xml.Resolvers.XmlKnownDtds",
           "clrName": "Rss091",
           "tsEmitName": "rss091",
-          "metadataToken": 67117090,
+          "metadataToken": 67117092,
           "normalizedSignature": "Rss091|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlKnownDtds::AllSystem.Xml.Resolvers.XmlKnownDtds",
           "clrName": "All",
           "tsEmitName": "all",
-          "metadataToken": 67117091,
+          "metadataToken": 67117093,
           "normalizedSignature": "All|System.Xml.Resolvers.XmlKnownDtds|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -608,7 +608,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 67117087
+            "metadataToken": 67117089
           }
         },
         {
@@ -618,7 +618,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 67117088
+            "metadataToken": 67117090
           }
         },
         {
@@ -628,7 +628,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 67117089
+            "metadataToken": 67117091
           }
         },
         {
@@ -638,7 +638,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 67117090
+            "metadataToken": 67117092
           }
         },
         {
@@ -648,7 +648,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlKnownDtds",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 67117091
+            "metadataToken": 67117093
           }
         }
       ]
@@ -664,7 +664,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::ResolveUri(System.Uri,System.String):System.Uri",
           "clrName": "ResolveUri",
           "tsEmitName": "resolveUri",
-          "metadataToken": 100678345,
+          "metadataToken": 100678348,
           "canonicalSignature": "(System.Uri,System.String):System.Uri",
           "normalizedSignature": "ResolveUri|(System.Uri,System.String):System.Uri|static=false",
           "emitScope": "ClassSurface",
@@ -678,7 +678,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntity(System.Uri,System.String,System.Type):System.Object",
           "clrName": "GetEntity",
           "tsEmitName": "getEntity",
-          "metadataToken": 100678346,
+          "metadataToken": 100678349,
           "canonicalSignature": "(System.Uri,System.String,System.Type):System.Object",
           "normalizedSignature": "GetEntity|(System.Uri,System.String,System.Type):System.Object|static=false",
           "emitScope": "ClassSurface",
@@ -692,7 +692,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::SupportsType(System.Uri,System.Type):System.Boolean",
           "clrName": "SupportsType",
           "tsEmitName": "supportsType",
-          "metadataToken": 100678348,
+          "metadataToken": 100678351,
           "canonicalSignature": "(System.Uri,System.Type):System.Boolean",
           "normalizedSignature": "SupportsType|(System.Uri,System.Type):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -706,7 +706,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[]):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100678349,
+          "metadataToken": 100678352,
           "canonicalSignature": "(System.Uri,System.Byte[]):System.Void",
           "normalizedSignature": "Add|(System.Uri,System.Byte[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -720,7 +720,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100678350,
+          "metadataToken": 100678353,
           "canonicalSignature": "(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Add|(System.Uri,System.Byte[],System.Int32,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -734,7 +734,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.IO.Stream):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100678351,
+          "metadataToken": 100678354,
           "canonicalSignature": "(System.Uri,System.IO.Stream):System.Void",
           "normalizedSignature": "Add|(System.Uri,System.IO.Stream):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -748,7 +748,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Add(System.Uri,System.String):System.Void",
           "clrName": "Add",
           "tsEmitName": "add",
-          "metadataToken": 100678352,
+          "metadataToken": 100678355,
           "canonicalSignature": "(System.Uri,System.String):System.Void",
           "normalizedSignature": "Add|(System.Uri,System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -762,7 +762,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Remove(System.Uri):System.Void",
           "clrName": "Remove",
           "tsEmitName": "remove",
-          "metadataToken": 100678354,
+          "metadataToken": 100678357,
           "canonicalSignature": "(System.Uri):System.Void",
           "normalizedSignature": "Remove|(System.Uri):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -776,7 +776,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::GetEntityAsync(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetEntityAsync",
           "tsEmitName": "getEntityAsync2",
-          "metadataToken": 100678357,
+          "metadataToken": 100678360,
           "canonicalSignature": "(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetEntityAsync|(System.Uri,System.String,System.Type):System.Threading.Tasks.Task_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false",
           "emitScope": "ClassSurface",
@@ -806,7 +806,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::Credentials:System.Net.ICredentials",
           "clrName": "Credentials",
           "tsEmitName": "credentials",
-          "metadataToken": 385879738,
+          "metadataToken": 385879741,
           "canonicalSignature": ":System.Net.ICredentials",
           "normalizedSignature": "Credentials|:System.Net.ICredentials|static=false|accessor=set",
           "emitScope": "ClassSurface",
@@ -820,7 +820,7 @@
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::PreloadedUris:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "PreloadedUris",
           "tsEmitName": "preloadedUris",
-          "metadataToken": 385879739,
+          "metadataToken": 385879742,
           "canonicalSignature": ":System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "normalizedSignature": "PreloadedUris|:System.Collections.Generic.IEnumerable_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -836,7 +836,7 @@
       "constructors": [
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::.ctor():void",
-          "metadataToken": 100678340,
+          "metadataToken": 100678343,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -846,7 +846,7 @@
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::.ctor(System.Xml.Resolvers.XmlKnownDtds):void",
-          "metadataToken": 100678341,
+          "metadataToken": 100678344,
           "canonicalSignature": "(System.Xml.Resolvers.XmlKnownDtds):void",
           "normalizedSignature": "constructor|(System.Xml.Resolvers.XmlKnownDtds):void|static=false",
           "isStatic": false,
@@ -856,7 +856,7 @@
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::.ctor(System.Xml.XmlResolver):void",
-          "metadataToken": 100678342,
+          "metadataToken": 100678345,
           "canonicalSignature": "(System.Xml.XmlResolver):void",
           "normalizedSignature": "constructor|(System.Xml.XmlResolver):void|static=false",
           "isStatic": false,
@@ -866,7 +866,7 @@
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::.ctor(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds):void",
-          "metadataToken": 100678343,
+          "metadataToken": 100678346,
           "canonicalSignature": "(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds):void",
           "normalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds):void|static=false",
           "isStatic": false,
@@ -876,7 +876,7 @@
         },
         {
           "stableId": "System.Private.Xml:System.Xml.Resolvers.XmlPreloadedResolver::.ctor(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds,System.Collections.Generic.IEqualityComparer_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
-          "metadataToken": 100678344,
+          "metadataToken": 100678347,
           "canonicalSignature": "(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds,System.Collections.Generic.IEqualityComparer_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void",
           "normalizedSignature": "constructor|(System.Xml.XmlResolver,System.Xml.Resolvers.XmlKnownDtds,System.Collections.Generic.IEqualityComparer_1[[System.Uri,System.Private.Uri,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):void|static=false",
           "isStatic": false,
@@ -893,7 +893,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678345
+            "metadataToken": 100678348
           }
         },
         {
@@ -903,7 +903,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678346
+            "metadataToken": 100678349
           }
         },
         {
@@ -913,7 +913,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678348
+            "metadataToken": 100678351
           }
         },
         {
@@ -923,7 +923,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678349
+            "metadataToken": 100678352
           }
         },
         {
@@ -933,7 +933,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678350
+            "metadataToken": 100678353
           }
         },
         {
@@ -943,7 +943,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678351
+            "metadataToken": 100678354
           }
         },
         {
@@ -953,7 +953,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678352
+            "metadataToken": 100678355
           }
         },
         {
@@ -963,7 +963,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678354
+            "metadataToken": 100678357
           }
         },
         {
@@ -973,7 +973,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678357
+            "metadataToken": 100678360
           }
         },
         {
@@ -1055,7 +1055,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385879738
+            "metadataToken": 385879741
           }
         },
         {
@@ -1065,7 +1065,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385879739
+            "metadataToken": 385879742
           }
         },
         {
@@ -1075,7 +1075,7 @@
           "target": {
             "declaringClrType": "System.Xml.XmlResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877332
+            "metadataToken": 385877333
           }
         },
         {
@@ -1085,7 +1085,7 @@
           "target": {
             "declaringClrType": "System.Xml.XmlResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877333
+            "metadataToken": 385877334
           }
         }
       ],
@@ -1096,7 +1096,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678340
+            "metadataToken": 100678343
           }
         },
         {
@@ -1105,7 +1105,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678341
+            "metadataToken": 100678344
           }
         },
         {
@@ -1114,7 +1114,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678342
+            "metadataToken": 100678345
           }
         },
         {
@@ -1123,7 +1123,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678343
+            "metadataToken": 100678346
           }
         },
         {
@@ -1132,7 +1132,7 @@
           "target": {
             "declaringClrType": "System.Xml.Resolvers.XmlPreloadedResolver",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678344
+            "metadataToken": 100678347
           }
         }
       ]

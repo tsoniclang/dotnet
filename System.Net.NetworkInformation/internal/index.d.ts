@@ -193,14 +193,27 @@ export enum TcpState {
 }
 
 
-export abstract class GatewayIPAddressInformation$instance {
+export type NetworkAddressChangedEventHandler = (sender: unknown, e: EventArgs) => void;
+
+
+export type NetworkAvailabilityChangedEventHandler = (sender: unknown, e: NetworkAvailabilityEventArgs) => void;
+
+
+export type PingCompletedEventHandler = (sender: unknown, e: PingCompletedEventArgs) => void;
+
+
+export interface GatewayIPAddressInformation$instance {
     readonly address: IPAddress;
 }
 
 
+export const GatewayIPAddressInformation: {
+};
+
+
 export type GatewayIPAddressInformation = GatewayIPAddressInformation$instance;
 
-export class GatewayIPAddressInformationCollection$instance {
+export interface GatewayIPAddressInformationCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly item: GatewayIPAddressInformation;
@@ -213,6 +226,11 @@ export class GatewayIPAddressInformationCollection$instance {
 }
 
 
+export const GatewayIPAddressInformationCollection: {
+    new(): GatewayIPAddressInformationCollection$instance;
+};
+
+
 export interface __GatewayIPAddressInformationCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<GatewayIPAddressInformation>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<GatewayIPAddressInformation>;
@@ -222,7 +240,7 @@ export interface __GatewayIPAddressInformationCollection$views {
 export type GatewayIPAddressInformationCollection = GatewayIPAddressInformationCollection$instance & __GatewayIPAddressInformationCollection$views;
 
 
-export abstract class IcmpV4Statistics$instance {
+export interface IcmpV4Statistics$instance {
     readonly addressMaskRepliesReceived: long;
     readonly addressMaskRepliesSent: long;
     readonly addressMaskRequestsReceived: long;
@@ -252,9 +270,13 @@ export abstract class IcmpV4Statistics$instance {
 }
 
 
+export const IcmpV4Statistics: {
+};
+
+
 export type IcmpV4Statistics = IcmpV4Statistics$instance;
 
-export abstract class IcmpV6Statistics$instance {
+export interface IcmpV6Statistics$instance {
     readonly destinationUnreachableMessagesReceived: long;
     readonly destinationUnreachableMessagesSent: long;
     readonly echoRepliesReceived: long;
@@ -290,9 +312,13 @@ export abstract class IcmpV6Statistics$instance {
 }
 
 
+export const IcmpV6Statistics: {
+};
+
+
 export type IcmpV6Statistics = IcmpV6Statistics$instance;
 
-export class IPAddressCollection$instance {
+export interface IPAddressCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly item: IPAddress;
@@ -305,6 +331,11 @@ export class IPAddressCollection$instance {
 }
 
 
+export const IPAddressCollection: {
+    new(): IPAddressCollection$instance;
+};
+
+
 export interface __IPAddressCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<IPAddress>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddress>;
@@ -314,16 +345,20 @@ export interface __IPAddressCollection$views {
 export type IPAddressCollection = IPAddressCollection$instance & __IPAddressCollection$views;
 
 
-export abstract class IPAddressInformation$instance {
+export interface IPAddressInformation$instance {
     readonly address: IPAddress;
     readonly isDnsEligible: boolean;
     readonly isTransient: boolean;
 }
 
 
+export const IPAddressInformation: {
+};
+
+
 export type IPAddressInformation = IPAddressInformation$instance;
 
-export class IPAddressInformationCollection$instance {
+export interface IPAddressInformationCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly item: IPAddressInformation;
@@ -336,6 +371,11 @@ export class IPAddressInformationCollection$instance {
 }
 
 
+export const IPAddressInformationCollection: {
+    new(): IPAddressInformationCollection$instance;
+};
+
+
 export interface __IPAddressInformationCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<IPAddressInformation>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<IPAddressInformation>;
@@ -345,7 +385,7 @@ export interface __IPAddressInformationCollection$views {
 export type IPAddressInformationCollection = IPAddressInformationCollection$instance & __IPAddressInformationCollection$views;
 
 
-export abstract class IPGlobalProperties$instance {
+export interface IPGlobalProperties$instance {
     readonly dhcpScopeName: string;
     readonly domainName: string;
     readonly hostName: string;
@@ -353,26 +393,30 @@ export abstract class IPGlobalProperties$instance {
     readonly nodeType: NetBiosNodeType;
     beginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
     endGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
-    abstract getActiveTcpConnections(): TcpConnectionInformation[];
-    abstract getActiveTcpListeners(): IPEndPoint[];
-    abstract getActiveUdpListeners(): IPEndPoint[];
-    abstract getIcmpV4Statistics(): IcmpV4Statistics;
-    abstract getIcmpV6Statistics(): IcmpV6Statistics;
-    abstract getIPv4GlobalStatistics(): IPGlobalStatistics;
-    abstract getIPv6GlobalStatistics(): IPGlobalStatistics;
-    abstract getTcpIPv4Statistics(): TcpStatistics;
-    abstract getTcpIPv6Statistics(): TcpStatistics;
-    abstract getUdpIPv4Statistics(): UdpStatistics;
-    abstract getUdpIPv6Statistics(): UdpStatistics;
+    getActiveTcpConnections(): TcpConnectionInformation[];
+    getActiveTcpListeners(): IPEndPoint[];
+    getActiveUdpListeners(): IPEndPoint[];
+    getIcmpV4Statistics(): IcmpV4Statistics;
+    getIcmpV6Statistics(): IcmpV6Statistics;
+    getIPv4GlobalStatistics(): IPGlobalStatistics;
+    getIPv6GlobalStatistics(): IPGlobalStatistics;
+    getTcpIPv4Statistics(): TcpStatistics;
+    getTcpIPv6Statistics(): TcpStatistics;
+    getUdpIPv4Statistics(): UdpStatistics;
+    getUdpIPv6Statistics(): UdpStatistics;
     getUnicastAddresses(): UnicastIPAddressInformationCollection;
     getUnicastAddressesAsync(): Task_1<UnicastIPAddressInformationCollection>;
-    static getIPGlobalProperties(): IPGlobalProperties;
 }
+
+
+export const IPGlobalProperties: {
+    getIPGlobalProperties(): IPGlobalProperties;
+};
 
 
 export type IPGlobalProperties = IPGlobalProperties$instance;
 
-export abstract class IPGlobalStatistics$instance {
+export interface IPGlobalStatistics$instance {
     readonly defaultTtl: int;
     readonly forwardingEnabled: boolean;
     readonly numberOfInterfaces: int;
@@ -398,9 +442,13 @@ export abstract class IPGlobalStatistics$instance {
 }
 
 
+export const IPGlobalStatistics: {
+};
+
+
 export type IPGlobalStatistics = IPGlobalStatistics$instance;
 
-export abstract class IPInterfaceProperties$instance {
+export interface IPInterfaceProperties$instance {
     readonly anycastAddresses: IPAddressInformationCollection;
     readonly dhcpServerAddresses: IPAddressCollection;
     readonly dnsAddresses: IPAddressCollection;
@@ -411,14 +459,18 @@ export abstract class IPInterfaceProperties$instance {
     readonly multicastAddresses: MulticastIPAddressInformationCollection;
     readonly unicastAddresses: UnicastIPAddressInformationCollection;
     readonly winsServersAddresses: IPAddressCollection;
-    abstract getIPv4Properties(): IPv4InterfaceProperties;
-    abstract getIPv6Properties(): IPv6InterfaceProperties;
+    getIPv4Properties(): IPv4InterfaceProperties;
+    getIPv6Properties(): IPv6InterfaceProperties;
 }
+
+
+export const IPInterfaceProperties: {
+};
 
 
 export type IPInterfaceProperties = IPInterfaceProperties$instance;
 
-export abstract class IPInterfaceStatistics$instance {
+export interface IPInterfaceStatistics$instance {
     readonly bytesReceived: long;
     readonly bytesSent: long;
     readonly incomingPacketsDiscarded: long;
@@ -434,9 +486,13 @@ export abstract class IPInterfaceStatistics$instance {
 }
 
 
+export const IPInterfaceStatistics: {
+};
+
+
 export type IPInterfaceStatistics = IPInterfaceStatistics$instance;
 
-export abstract class IPv4InterfaceProperties$instance {
+export interface IPv4InterfaceProperties$instance {
     readonly index: int;
     readonly isAutomaticPrivateAddressingActive: boolean;
     readonly isAutomaticPrivateAddressingEnabled: boolean;
@@ -447,9 +503,13 @@ export abstract class IPv4InterfaceProperties$instance {
 }
 
 
+export const IPv4InterfaceProperties: {
+};
+
+
 export type IPv4InterfaceProperties = IPv4InterfaceProperties$instance;
 
-export abstract class IPv4InterfaceStatistics$instance {
+export interface IPv4InterfaceStatistics$instance {
     readonly bytesReceived: long;
     readonly bytesSent: long;
     readonly incomingPacketsDiscarded: long;
@@ -465,18 +525,26 @@ export abstract class IPv4InterfaceStatistics$instance {
 }
 
 
+export const IPv4InterfaceStatistics: {
+};
+
+
 export type IPv4InterfaceStatistics = IPv4InterfaceStatistics$instance;
 
-export abstract class IPv6InterfaceProperties$instance {
+export interface IPv6InterfaceProperties$instance {
     readonly index: int;
     readonly mtu: int;
     getScopeId(scopeLevel: ScopeLevel): long;
 }
 
 
+export const IPv6InterfaceProperties: {
+};
+
+
 export type IPv6InterfaceProperties = IPv6InterfaceProperties$instance;
 
-export abstract class MulticastIPAddressInformation$instance extends IPAddressInformation$instance {
+export interface MulticastIPAddressInformation$instance extends IPAddressInformation {
     readonly addressPreferredLifetime: long;
     readonly addressValidLifetime: long;
     readonly dhcpLeaseLifetime: long;
@@ -486,9 +554,13 @@ export abstract class MulticastIPAddressInformation$instance extends IPAddressIn
 }
 
 
+export const MulticastIPAddressInformation: {
+};
+
+
 export type MulticastIPAddressInformation = MulticastIPAddressInformation$instance;
 
-export class MulticastIPAddressInformationCollection$instance {
+export interface MulticastIPAddressInformationCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly item: MulticastIPAddressInformation;
@@ -501,6 +573,11 @@ export class MulticastIPAddressInformationCollection$instance {
 }
 
 
+export const MulticastIPAddressInformationCollection: {
+    new(): MulticastIPAddressInformationCollection$instance;
+};
+
+
 export interface __MulticastIPAddressInformationCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<MulticastIPAddressInformation>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<MulticastIPAddressInformation>;
@@ -510,63 +587,40 @@ export interface __MulticastIPAddressInformationCollection$views {
 export type MulticastIPAddressInformationCollection = MulticastIPAddressInformationCollection$instance & __MulticastIPAddressInformationCollection$views;
 
 
-export class NetworkAddressChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: EventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: EventArgs): void;
-}
-
-
-export interface __NetworkAddressChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type NetworkAddressChangedEventHandler = NetworkAddressChangedEventHandler$instance & __NetworkAddressChangedEventHandler$views;
-
-
-export class NetworkAvailabilityChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: NetworkAvailabilityEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: NetworkAvailabilityEventArgs): void;
-}
-
-
-export interface __NetworkAvailabilityChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type NetworkAvailabilityChangedEventHandler = NetworkAvailabilityChangedEventHandler$instance & __NetworkAvailabilityChangedEventHandler$views;
-
-
-export class NetworkAvailabilityEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface NetworkAvailabilityEventArgs$instance extends EventArgs {
     readonly isAvailable: boolean;
 }
 
 
+export const NetworkAvailabilityEventArgs: {
+    new(): NetworkAvailabilityEventArgs$instance;
+};
+
+
 export type NetworkAvailabilityEventArgs = NetworkAvailabilityEventArgs$instance;
 
-export class NetworkChange$instance {
-    constructor();
-    static registerNetworkChange(nc: NetworkChange): void;
+export interface NetworkChange$instance {
 }
+
+
+export const NetworkChange: {
+    new(): NetworkChange$instance;
+    registerNetworkChange(nc: NetworkChange): void;
+};
 
 
 export type NetworkChange = NetworkChange$instance;
 
-export class NetworkInformationException$instance extends System_ComponentModel_Internal.Win32Exception$instance {
-    constructor();
-    constructor(errorCode: int);
+export interface NetworkInformationException$instance extends Win32Exception {
     readonly errorCode: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const NetworkInformationException: {
+    new(): NetworkInformationException$instance;
+    new(errorCode: int): NetworkInformationException$instance;
+};
 
 
 export interface __NetworkInformationException$views {
@@ -576,7 +630,7 @@ export interface __NetworkInformationException$views {
 export type NetworkInformationException = NetworkInformationException$instance & __NetworkInformationException$views;
 
 
-export abstract class NetworkInterface$instance {
+export interface NetworkInterface$instance {
     readonly description: string;
     readonly id: string;
     readonly isReceiveOnly: boolean;
@@ -590,33 +644,40 @@ export abstract class NetworkInterface$instance {
     getIPv4Statistics(): IPv4InterfaceStatistics;
     getPhysicalAddress(): PhysicalAddress;
     supports(networkInterfaceComponent: NetworkInterfaceComponent): boolean;
-    static readonly iPv6LoopbackInterfaceIndex: int;
-    static readonly loopbackInterfaceIndex: int;
-    static getAllNetworkInterfaces(): NetworkInterface[];
-    static getIsNetworkAvailable(): boolean;
 }
+
+
+export const NetworkInterface: {
+    readonly iPv6LoopbackInterfaceIndex: int;
+    readonly loopbackInterfaceIndex: int;
+    getAllNetworkInterfaces(): NetworkInterface[];
+    getIsNetworkAvailable(): boolean;
+};
 
 
 export type NetworkInterface = NetworkInterface$instance;
 
-export class PhysicalAddress$instance {
-    constructor(address: byte[]);
+export interface PhysicalAddress$instance {
     equals(comparand: unknown): boolean;
     getAddressBytes(): byte[];
     getHashCode(): int;
     toString(): string;
-    static readonly none: PhysicalAddress;
-    static parse(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
-    static parse(address: string): PhysicalAddress;
-    static tryParse(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
-    static tryParse(address: string, value: { value: ref<PhysicalAddress> }): boolean;
 }
+
+
+export const PhysicalAddress: {
+    new(address: byte[]): PhysicalAddress$instance;
+    readonly none: PhysicalAddress;
+    parse(address: ReadOnlySpan_1<CLROf<char>>): PhysicalAddress;
+    parse(address: string): PhysicalAddress;
+    tryParse(address: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<PhysicalAddress> }): boolean;
+    tryParse(address: string, value: { value: ref<PhysicalAddress> }): boolean;
+};
 
 
 export type PhysicalAddress = PhysicalAddress$instance;
 
-export class Ping$instance extends System_ComponentModel_Internal.Component$instance {
-    constructor();
+export interface Ping$instance extends Component {
     dispose(): void;
     send(hostNameOrAddress: string): PingReply;
     send(hostNameOrAddress: string, timeout: int): PingReply;
@@ -650,6 +711,11 @@ export class Ping$instance extends System_ComponentModel_Internal.Component$inst
 }
 
 
+export const Ping: {
+    new(): Ping$instance;
+};
+
+
 export interface __Ping$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -660,36 +726,27 @@ export interface Ping$instance extends System_ComponentModel_Internal.IComponent
 export type Ping = Ping$instance & __Ping$views;
 
 
-export class PingCompletedEventArgs$instance extends System_ComponentModel_Internal.AsyncCompletedEventArgs$instance {
+export interface PingCompletedEventArgs$instance extends AsyncCompletedEventArgs {
     readonly reply: PingReply;
 }
 
 
+export const PingCompletedEventArgs: {
+    new(): PingCompletedEventArgs$instance;
+};
+
+
 export type PingCompletedEventArgs = PingCompletedEventArgs$instance;
 
-export class PingCompletedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: PingCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: PingCompletedEventArgs): void;
-}
-
-
-export interface __PingCompletedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type PingCompletedEventHandler = PingCompletedEventHandler$instance & __PingCompletedEventHandler$views;
-
-
-export class PingException$instance extends System_Internal.InvalidOperationException$instance {
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface PingException$instance extends InvalidOperationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const PingException: {
+    new(message: string): PingException$instance;
+    new(message: string, innerException: Exception): PingException$instance;
+};
 
 
 export interface __PingException$views {
@@ -699,17 +756,21 @@ export interface __PingException$views {
 export type PingException = PingException$instance & __PingException$views;
 
 
-export class PingOptions$instance {
-    constructor();
-    constructor(ttl: int, dontFragment: boolean);
+export interface PingOptions$instance {
     dontFragment: boolean;
     ttl: int;
 }
 
 
+export const PingOptions: {
+    new(): PingOptions$instance;
+    new(ttl: int, dontFragment: boolean): PingOptions$instance;
+};
+
+
 export type PingOptions = PingOptions$instance;
 
-export class PingReply$instance {
+export interface PingReply$instance {
     readonly address: IPAddress;
     readonly buffer: byte[];
     readonly options: PingOptions;
@@ -718,18 +779,27 @@ export class PingReply$instance {
 }
 
 
+export const PingReply: {
+    new(): PingReply$instance;
+};
+
+
 export type PingReply = PingReply$instance;
 
-export abstract class TcpConnectionInformation$instance {
+export interface TcpConnectionInformation$instance {
     readonly localEndPoint: IPEndPoint;
     readonly remoteEndPoint: IPEndPoint;
     readonly state: TcpState;
 }
 
 
+export const TcpConnectionInformation: {
+};
+
+
 export type TcpConnectionInformation = TcpConnectionInformation$instance;
 
-export abstract class TcpStatistics$instance {
+export interface TcpStatistics$instance {
     readonly connectionsAccepted: long;
     readonly connectionsInitiated: long;
     readonly cumulativeConnections: long;
@@ -747,9 +817,13 @@ export abstract class TcpStatistics$instance {
 }
 
 
+export const TcpStatistics: {
+};
+
+
 export type TcpStatistics = TcpStatistics$instance;
 
-export abstract class UdpStatistics$instance {
+export interface UdpStatistics$instance {
     readonly datagramsReceived: long;
     readonly datagramsSent: long;
     readonly incomingDatagramsDiscarded: long;
@@ -758,9 +832,13 @@ export abstract class UdpStatistics$instance {
 }
 
 
+export const UdpStatistics: {
+};
+
+
 export type UdpStatistics = UdpStatistics$instance;
 
-export abstract class UnicastIPAddressInformation$instance extends IPAddressInformation$instance {
+export interface UnicastIPAddressInformation$instance extends IPAddressInformation {
     readonly addressPreferredLifetime: long;
     readonly addressValidLifetime: long;
     readonly dhcpLeaseLifetime: long;
@@ -772,9 +850,13 @@ export abstract class UnicastIPAddressInformation$instance extends IPAddressInfo
 }
 
 
+export const UnicastIPAddressInformation: {
+};
+
+
 export type UnicastIPAddressInformation = UnicastIPAddressInformation$instance;
 
-export class UnicastIPAddressInformationCollection$instance {
+export interface UnicastIPAddressInformationCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly item: UnicastIPAddressInformation;
@@ -785,6 +867,11 @@ export class UnicastIPAddressInformationCollection$instance {
     getEnumerator(): IEnumerator_1<UnicastIPAddressInformation>;
     remove(address: UnicastIPAddressInformation): boolean;
 }
+
+
+export const UnicastIPAddressInformationCollection: {
+    new(): UnicastIPAddressInformationCollection$instance;
+};
 
 
 export interface __UnicastIPAddressInformationCollection$views {

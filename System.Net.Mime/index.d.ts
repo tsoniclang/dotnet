@@ -13,8 +13,8 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { TransferEncoding as TransferEncoding } from './internal/index.js';
-export { ContentDisposition$instance as ContentDisposition } from './internal/index.js';
-export { ContentType$instance as ContentType } from './internal/index.js';
+export { ContentDisposition as ContentDisposition } from './internal/index.js';
+export { ContentType as ContentType } from './internal/index.js';
 export { DispositionTypeNames$instance as DispositionTypeNames } from './internal/index.js';
 export { MediaTypeNames$instance as MediaTypeNames } from './internal/index.js';
 export { MediaTypeNames_Application$instance as MediaTypeNames_Application } from './internal/index.js';

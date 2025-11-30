@@ -39,36 +39,22 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class ElapsedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(signalTime: DateTime);
+export type ElapsedEventHandler = (sender: unknown, e: ElapsedEventArgs) => void;
+
+
+export interface ElapsedEventArgs$instance extends EventArgs {
     readonly signalTime: DateTime;
 }
 
 
+export const ElapsedEventArgs: {
+    new(signalTime: DateTime): ElapsedEventArgs$instance;
+};
+
+
 export type ElapsedEventArgs = ElapsedEventArgs$instance;
 
-export class ElapsedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ElapsedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ElapsedEventArgs): void;
-}
-
-
-export interface __ElapsedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ElapsedEventHandler = ElapsedEventHandler$instance & __ElapsedEventHandler$views;
-
-
-export class Timer$instance extends System_ComponentModel_Internal.Component$instance {
-    constructor();
-    constructor(interval: double);
-    constructor(interval: TimeSpan);
+export interface Timer$instance extends Component {
     autoReset: boolean;
     enabled: boolean;
     interval: double;
@@ -83,6 +69,13 @@ export class Timer$instance extends System_ComponentModel_Internal.Component$ins
 }
 
 
+export const Timer: {
+    new(): Timer$instance;
+    new(interval: double): Timer$instance;
+    new(interval: TimeSpan): Timer$instance;
+};
+
+
 export interface __Timer$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
@@ -94,10 +87,14 @@ export interface Timer$instance extends System_ComponentModel_Internal.IComponen
 export type Timer = Timer$instance & __Timer$views;
 
 
-export class TimersDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
-    constructor(description: string);
+export interface TimersDescriptionAttribute$instance extends DescriptionAttribute {
     readonly description: string;
 }
+
+
+export const TimersDescriptionAttribute: {
+    new(description: string): TimersDescriptionAttribute$instance;
+};
 
 
 export type TimersDescriptionAttribute = TimersDescriptionAttribute$instance;

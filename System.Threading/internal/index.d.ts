@@ -99,6 +99,33 @@ export enum ThreadState {
 }
 
 
+export type ContextCallback = (state: unknown) => void;
+
+
+export type IOCompletionCallback = (errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>) => void;
+
+
+export type ParameterizedThreadStart = (obj: unknown) => void;
+
+
+export type SendOrPostCallback = (state: unknown) => void;
+
+
+export type ThreadExceptionEventHandler = (sender: unknown, e: ThreadExceptionEventArgs) => void;
+
+
+export type ThreadStart = () => void;
+
+
+export type TimerCallback = (state: unknown) => void;
+
+
+export type WaitCallback = (state: unknown) => void;
+
+
+export type WaitOrTimerCallback = (state: unknown, timedOut: boolean) => void;
+
+
 export interface IThreadPoolWorkItem$instance {
     execute(): void;
 }
@@ -117,13 +144,18 @@ export interface ITimer$instance extends System_Internal.IAsyncDisposable$instan
 
 export type ITimer = ITimer$instance;
 
-export class AsyncFlowControl$instance {
+export interface AsyncFlowControl$instance {
     dispose(): void;
     equals(obj: unknown): boolean;
     equals(obj: AsyncFlowControl): boolean;
     getHashCode(): int;
     undo(): void;
 }
+
+
+export const AsyncFlowControl: {
+    new(): AsyncFlowControl$instance;
+};
 
 
 export interface __AsyncFlowControl$views {
@@ -139,17 +171,21 @@ export interface AsyncFlowControl$instance extends System_Internal.IDisposable$i
 export type AsyncFlowControl = AsyncFlowControl$instance & __AsyncFlowControl$views;
 
 
-export class AsyncLocalValueChangedArgs_1$instance<T> {
+export interface AsyncLocalValueChangedArgs_1$instance<T> {
     readonly currentValue: T;
     readonly previousValue: T;
     readonly threadContextChanged: boolean;
 }
 
 
+export const AsyncLocalValueChangedArgs_1: {
+    new<T>(): AsyncLocalValueChangedArgs_1$instance<T>;
+};
+
+
 export type AsyncLocalValueChangedArgs_1<T> = AsyncLocalValueChangedArgs_1$instance<T>;
 
-export class CancellationToken$instance {
-    constructor(canceled: boolean);
+export interface CancellationToken$instance {
     readonly canBeCanceled: boolean;
     readonly isCancellationRequested: boolean;
     readonly waitHandle: WaitHandle;
@@ -164,8 +200,13 @@ export class CancellationToken$instance {
     throwIfCancellationRequested(): void;
     unsafeRegister(callback: Action_1<unknown>, state: unknown): CancellationTokenRegistration;
     unsafeRegister(callback: Action_2<unknown, CancellationToken>, state: unknown): CancellationTokenRegistration;
-    static readonly none: CancellationToken;
 }
+
+
+export const CancellationToken: {
+    new(canceled: boolean): CancellationToken$instance;
+    readonly none: CancellationToken;
+};
 
 
 export interface __CancellationToken$views {
@@ -178,7 +219,7 @@ export interface __CancellationToken$views {
 export type CancellationToken = CancellationToken$instance & __CancellationToken$views;
 
 
-export class CancellationTokenRegistration$instance {
+export interface CancellationTokenRegistration$instance {
     readonly token: CancellationToken;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -187,6 +228,11 @@ export class CancellationTokenRegistration$instance {
     getHashCode(): int;
     unregister(): boolean;
 }
+
+
+export const CancellationTokenRegistration: {
+    new(): CancellationTokenRegistration$instance;
+};
 
 
 export interface __CancellationTokenRegistration$views {
@@ -203,18 +249,28 @@ export interface CancellationTokenRegistration$instance extends System_Internal.
 export type CancellationTokenRegistration = CancellationTokenRegistration$instance & __CancellationTokenRegistration$views;
 
 
-export class Lock_Scope$instance {
+export interface Lock_Scope$instance {
     dispose(): void;
 }
 
 
+export const Lock_Scope: {
+    new(): Lock_Scope$instance;
+};
+
+
 export type Lock_Scope = Lock_Scope$instance;
 
-export class LockCookie$instance {
+export interface LockCookie$instance {
     equals(obj: unknown): boolean;
     equals(obj: LockCookie): boolean;
     getHashCode(): int;
 }
+
+
+export const LockCookie: {
+    new(): LockCookie$instance;
+};
 
 
 export interface __LockCookie$views {
@@ -227,15 +283,20 @@ export interface __LockCookie$views {
 export type LockCookie = LockCookie$instance & __LockCookie$views;
 
 
-export class NamedWaitHandleOptions$instance {
+export interface NamedWaitHandleOptions$instance {
     currentSessionOnly: boolean;
     currentUserOnly: boolean;
 }
 
 
+export const NamedWaitHandleOptions: {
+    new(): NamedWaitHandleOptions$instance;
+};
+
+
 export type NamedWaitHandleOptions = NamedWaitHandleOptions$instance;
 
-export class NativeOverlapped$instance {
+export interface NativeOverlapped$instance {
     internalLow: nint;
     internalHigh: nint;
     offsetLow: int;
@@ -244,10 +305,14 @@ export class NativeOverlapped$instance {
 }
 
 
+export const NativeOverlapped: {
+    new(): NativeOverlapped$instance;
+};
+
+
 export type NativeOverlapped = NativeOverlapped$instance;
 
-export class SpinLock$instance {
-    constructor(enableThreadOwnerTracking: boolean);
+export interface SpinLock$instance {
     readonly isHeld: boolean;
     readonly isHeldByCurrentThread: boolean;
     readonly isThreadOwnerTrackingEnabled: boolean;
@@ -260,33 +325,47 @@ export class SpinLock$instance {
 }
 
 
+export const SpinLock: {
+    new(enableThreadOwnerTracking: boolean): SpinLock$instance;
+};
+
+
 export type SpinLock = SpinLock$instance;
 
-export class SpinWait$instance {
+export interface SpinWait$instance {
     readonly count: int;
     readonly nextSpinWillYield: boolean;
     reset(): void;
     spinOnce(): void;
     spinOnce(sleep1Threshold: int): void;
-    static spinUntil(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
-    static spinUntil(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
-    static spinUntil(condition: Func_1<CLROf<boolean>>): void;
 }
+
+
+export const SpinWait: {
+    new(): SpinWait$instance;
+    spinUntil(condition: Func_1<CLROf<boolean>>, millisecondsTimeout: int): boolean;
+    spinUntil(condition: Func_1<CLROf<boolean>>, timeout: TimeSpan): boolean;
+    spinUntil(condition: Func_1<CLROf<boolean>>): void;
+};
 
 
 export type SpinWait = SpinWait$instance;
 
-export class AbandonedMutexException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(location: int, handle: WaitHandle);
-    constructor(message: string, location: int, handle: WaitHandle);
-    constructor(message: string, inner: Exception, location: int, handle: WaitHandle);
+export interface AbandonedMutexException$instance extends SystemException {
     readonly mutex: Mutex;
     readonly mutexIndex: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AbandonedMutexException: {
+    new(): AbandonedMutexException$instance;
+    new(message: string): AbandonedMutexException$instance;
+    new(message: string, inner: Exception): AbandonedMutexException$instance;
+    new(location: int, handle: WaitHandle): AbandonedMutexException$instance;
+    new(message: string, location: int, handle: WaitHandle): AbandonedMutexException$instance;
+    new(message: string, inner: Exception, location: int, handle: WaitHandle): AbandonedMutexException$instance;
+};
 
 
 export interface __AbandonedMutexException$views {
@@ -296,19 +375,27 @@ export interface __AbandonedMutexException$views {
 export type AbandonedMutexException = AbandonedMutexException$instance & __AbandonedMutexException$views;
 
 
-export class AsyncLocal_1$instance<T> {
-    constructor();
-    constructor(valueChangedHandler: Action_1<AsyncLocalValueChangedArgs_1<T>>);
+export interface AsyncLocal_1$instance<T> {
     value: T;
 }
 
 
+export const AsyncLocal_1: {
+    new<T>(): AsyncLocal_1$instance<T>;
+    new<T>(valueChangedHandler: Action_1<AsyncLocalValueChangedArgs_1<T>>): AsyncLocal_1$instance<T>;
+};
+
+
 export type AsyncLocal_1<T> = AsyncLocal_1$instance<T>;
 
-export class AutoResetEvent$instance extends EventWaitHandle$instance {
-    constructor(initialState: boolean);
+export interface AutoResetEvent$instance extends EventWaitHandle$instance {
     dispose(): void;
 }
+
+
+export const AutoResetEvent: {
+    new(initialState: boolean): AutoResetEvent$instance;
+};
 
 
 export interface __AutoResetEvent$views {
@@ -318,9 +405,7 @@ export interface __AutoResetEvent$views {
 export type AutoResetEvent = AutoResetEvent$instance & __AutoResetEvent$views;
 
 
-export class Barrier$instance {
-    constructor(participantCount: int);
-    constructor(participantCount: int, postPhaseAction: Action_1<Barrier>);
+export interface Barrier$instance {
     readonly currentPhaseNumber: long;
     readonly participantCount: int;
     readonly participantsRemaining: int;
@@ -338,6 +423,12 @@ export class Barrier$instance {
 }
 
 
+export const Barrier: {
+    new(participantCount: int): Barrier$instance;
+    new(participantCount: int, postPhaseAction: Action_1<Barrier>): Barrier$instance;
+};
+
+
 export interface __Barrier$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -347,13 +438,17 @@ export interface Barrier$instance extends System_Internal.IDisposable$instance {
 export type Barrier = Barrier$instance & __Barrier$views;
 
 
-export class BarrierPostPhaseException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(innerException: Exception);
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface BarrierPostPhaseException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const BarrierPostPhaseException: {
+    new(): BarrierPostPhaseException$instance;
+    new(innerException: Exception): BarrierPostPhaseException$instance;
+    new(message: string): BarrierPostPhaseException$instance;
+    new(message: string, innerException: Exception): BarrierPostPhaseException$instance;
+};
 
 
 export interface __BarrierPostPhaseException$views {
@@ -363,11 +458,7 @@ export interface __BarrierPostPhaseException$views {
 export type BarrierPostPhaseException = BarrierPostPhaseException$instance & __BarrierPostPhaseException$views;
 
 
-export class CancellationTokenSource$instance {
-    constructor();
-    constructor(delay: TimeSpan);
-    constructor(delay: TimeSpan, timeProvider: TimeProvider);
-    constructor(millisecondsDelay: int);
+export interface CancellationTokenSource$instance {
     readonly isCancellationRequested: boolean;
     readonly token: CancellationToken;
     cancel(): void;
@@ -377,11 +468,19 @@ export class CancellationTokenSource$instance {
     cancelAsync(): Task;
     dispose(): void;
     tryReset(): boolean;
-    static createLinkedTokenSource(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
-    static createLinkedTokenSource(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource(token: CancellationToken): CancellationTokenSource;
-    static createLinkedTokenSource(tokens: CancellationToken[]): CancellationTokenSource;
 }
+
+
+export const CancellationTokenSource: {
+    new(): CancellationTokenSource$instance;
+    new(delay: TimeSpan): CancellationTokenSource$instance;
+    new(delay: TimeSpan, timeProvider: TimeProvider): CancellationTokenSource$instance;
+    new(millisecondsDelay: int): CancellationTokenSource$instance;
+    createLinkedTokenSource(tokens: ReadOnlySpan_1<CancellationToken>): CancellationTokenSource;
+    createLinkedTokenSource(token1: CancellationToken, token2: CancellationToken): CancellationTokenSource;
+    createLinkedTokenSource(token: CancellationToken): CancellationTokenSource;
+    createLinkedTokenSource(tokens: CancellationToken[]): CancellationTokenSource;
+};
 
 
 export interface __CancellationTokenSource$views {
@@ -393,13 +492,18 @@ export interface CancellationTokenSource$instance extends System_Internal.IDispo
 export type CancellationTokenSource = CancellationTokenSource$instance & __CancellationTokenSource$views;
 
 
-export class CompressedStack$instance {
+export interface CompressedStack$instance {
     createCopy(): CompressedStack;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static capture(): CompressedStack;
-    static getCompressedStack(): CompressedStack;
-    static run(compressedStack: CompressedStack, callback: ContextCallback, state: unknown): void;
 }
+
+
+export const CompressedStack: {
+    new(): CompressedStack$instance;
+    capture(): CompressedStack;
+    getCompressedStack(): CompressedStack;
+    run(compressedStack: CompressedStack, callback: ContextCallback, state: unknown): void;
+};
 
 
 export interface __CompressedStack$views {
@@ -411,26 +515,7 @@ export interface CompressedStack$instance extends System_Runtime_Serialization_I
 export type CompressedStack = CompressedStack$instance & __CompressedStack$views;
 
 
-export class ContextCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(state: unknown): void;
-}
-
-
-export interface __ContextCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ContextCallback = ContextCallback$instance & __ContextCallback$views;
-
-
-export class CountdownEvent$instance {
-    constructor(initialCount: int);
+export interface CountdownEvent$instance {
     readonly currentCount: int;
     readonly initialCount: int;
     readonly isSet: boolean;
@@ -453,6 +538,11 @@ export class CountdownEvent$instance {
 }
 
 
+export const CountdownEvent: {
+    new(initialCount: int): CountdownEvent$instance;
+};
+
+
 export interface __CountdownEvent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -462,20 +552,24 @@ export interface CountdownEvent$instance extends System_Internal.IDisposable$ins
 export type CountdownEvent = CountdownEvent$instance & __CountdownEvent$views;
 
 
-export class EventWaitHandle$instance extends WaitHandle$instance {
-    constructor(initialState: boolean, mode: EventResetMode);
-    constructor(initialState: boolean, mode: EventResetMode, name: string, options: NamedWaitHandleOptions);
-    constructor(initialState: boolean, mode: EventResetMode, name: string);
-    constructor(initialState: boolean, mode: EventResetMode, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>);
-    constructor(initialState: boolean, mode: EventResetMode, name: string, createdNew: ref<boolean>);
+export interface EventWaitHandle$instance extends WaitHandle$instance {
     dispose(): void;
     reset(): boolean;
     set_(): boolean;
-    static openExisting(name: string, options: NamedWaitHandleOptions): EventWaitHandle;
-    static openExisting(name: string): EventWaitHandle;
-    static tryOpenExisting(name: string, result: { value: ref<EventWaitHandle> }): boolean;
-    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
 }
+
+
+export const EventWaitHandle: {
+    new(initialState: boolean, mode: EventResetMode): EventWaitHandle$instance;
+    new(initialState: boolean, mode: EventResetMode, name: string, options: NamedWaitHandleOptions): EventWaitHandle$instance;
+    new(initialState: boolean, mode: EventResetMode, name: string): EventWaitHandle$instance;
+    new(initialState: boolean, mode: EventResetMode, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>): EventWaitHandle$instance;
+    new(initialState: boolean, mode: EventResetMode, name: string, createdNew: ref<boolean>): EventWaitHandle$instance;
+    openExisting(name: string, options: NamedWaitHandleOptions): EventWaitHandle;
+    openExisting(name: string): EventWaitHandle;
+    tryOpenExisting(name: string, result: { value: ref<EventWaitHandle> }): boolean;
+    tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<EventWaitHandle> }): boolean;
+};
 
 
 export interface __EventWaitHandle$views {
@@ -485,17 +579,22 @@ export interface __EventWaitHandle$views {
 export type EventWaitHandle = EventWaitHandle$instance & __EventWaitHandle$views;
 
 
-export class ExecutionContext$instance {
+export interface ExecutionContext$instance {
     createCopy(): ExecutionContext;
     dispose(): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    static capture(): ExecutionContext;
-    static isFlowSuppressed(): boolean;
-    static restore(executionContext: ExecutionContext): void;
-    static restoreFlow(): void;
-    static run(executionContext: ExecutionContext, callback: ContextCallback, state: unknown): void;
-    static suppressFlow(): AsyncFlowControl;
 }
+
+
+export const ExecutionContext: {
+    new(): ExecutionContext$instance;
+    capture(): ExecutionContext;
+    isFlowSuppressed(): boolean;
+    restore(executionContext: ExecutionContext): void;
+    restoreFlow(): void;
+    run(executionContext: ExecutionContext, callback: ContextCallback, state: unknown): void;
+    suppressFlow(): AsyncFlowControl;
+};
 
 
 export interface __ExecutionContext$views {
@@ -508,13 +607,17 @@ export interface ExecutionContext$instance extends System_Internal.IDisposable$i
 export type ExecutionContext = ExecutionContext$instance & __ExecutionContext$views;
 
 
-export class HostExecutionContext$instance {
-    constructor();
-    constructor(state: unknown);
+export interface HostExecutionContext$instance {
     createCopy(): HostExecutionContext;
     dispose(): void;
     dispose(disposing: boolean): void;
 }
+
+
+export const HostExecutionContext: {
+    new(): HostExecutionContext$instance;
+    new(state: unknown): HostExecutionContext$instance;
+};
 
 
 export interface __HostExecutionContext$views {
@@ -524,36 +627,21 @@ export interface __HostExecutionContext$views {
 export type HostExecutionContext = HostExecutionContext$instance & __HostExecutionContext$views;
 
 
-export class HostExecutionContextManager$instance {
-    constructor();
+export interface HostExecutionContextManager$instance {
     capture(): HostExecutionContext;
     revert(previousState: unknown): void;
     setHostExecutionContext(hostExecutionContext: HostExecutionContext): unknown;
 }
 
 
+export const HostExecutionContextManager: {
+    new(): HostExecutionContextManager$instance;
+};
+
+
 export type HostExecutionContextManager = HostExecutionContextManager$instance;
 
-export class IOCompletionCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(errorCode: uint, numBytes: uint, pOVERLAP: ptr<NativeOverlapped>): void;
-}
-
-
-export interface __IOCompletionCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type IOCompletionCallback = IOCompletionCallback$instance & __IOCompletionCallback$views;
-
-
-export class Lock$instance {
-    constructor();
+export interface Lock$instance {
     readonly isHeldByCurrentThread: boolean;
     enter(): void;
     enterScope(): Lock_Scope;
@@ -564,14 +652,23 @@ export class Lock$instance {
 }
 
 
+export const Lock: {
+    new(): Lock$instance;
+};
+
+
 export type Lock = Lock$instance;
 
-export class LockRecursionException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface LockRecursionException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const LockRecursionException: {
+    new(): LockRecursionException$instance;
+    new(message: string): LockRecursionException$instance;
+    new(message: string, innerException: Exception): LockRecursionException$instance;
+};
 
 
 export interface __LockRecursionException$views {
@@ -581,10 +678,14 @@ export interface __LockRecursionException$views {
 export type LockRecursionException = LockRecursionException$instance & __LockRecursionException$views;
 
 
-export class ManualResetEvent$instance extends EventWaitHandle$instance {
-    constructor(initialState: boolean);
+export interface ManualResetEvent$instance extends EventWaitHandle$instance {
     dispose(): void;
 }
+
+
+export const ManualResetEvent: {
+    new(initialState: boolean): ManualResetEvent$instance;
+};
 
 
 export interface __ManualResetEvent$views {
@@ -594,10 +695,7 @@ export interface __ManualResetEvent$views {
 export type ManualResetEvent = ManualResetEvent$instance & __ManualResetEvent$views;
 
 
-export class ManualResetEventSlim$instance {
-    constructor();
-    constructor(initialState: boolean);
-    constructor(initialState: boolean, spinCount: int);
+export interface ManualResetEventSlim$instance {
     readonly isSet: boolean;
     readonly spinCount: int;
     readonly waitHandle: WaitHandle;
@@ -613,6 +711,13 @@ export class ManualResetEventSlim$instance {
 }
 
 
+export const ManualResetEventSlim: {
+    new(): ManualResetEventSlim$instance;
+    new(initialState: boolean): ManualResetEventSlim$instance;
+    new(initialState: boolean, spinCount: int): ManualResetEventSlim$instance;
+};
+
+
 export interface __ManualResetEventSlim$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -622,21 +727,25 @@ export interface ManualResetEventSlim$instance extends System_Internal.IDisposab
 export type ManualResetEventSlim = ManualResetEventSlim$instance & __ManualResetEventSlim$views;
 
 
-export class Mutex$instance extends WaitHandle$instance {
-    constructor(initiallyOwned: boolean, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>);
-    constructor(initiallyOwned: boolean, name: string, createdNew: ref<boolean>);
-    constructor(initiallyOwned: boolean, name: string, options: NamedWaitHandleOptions);
-    constructor(initiallyOwned: boolean, name: string);
-    constructor(name: string, options: NamedWaitHandleOptions);
-    constructor(initiallyOwned: boolean);
-    constructor();
+export interface Mutex$instance extends WaitHandle$instance {
     dispose(): void;
     releaseMutex(): void;
-    static openExisting(name: string, options: NamedWaitHandleOptions): Mutex;
-    static openExisting(name: string): Mutex;
-    static tryOpenExisting(name: string, result: { value: ref<Mutex> }): boolean;
-    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
 }
+
+
+export const Mutex: {
+    new(initiallyOwned: boolean, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>): Mutex$instance;
+    new(initiallyOwned: boolean, name: string, createdNew: ref<boolean>): Mutex$instance;
+    new(initiallyOwned: boolean, name: string, options: NamedWaitHandleOptions): Mutex$instance;
+    new(initiallyOwned: boolean, name: string): Mutex$instance;
+    new(name: string, options: NamedWaitHandleOptions): Mutex$instance;
+    new(initiallyOwned: boolean): Mutex$instance;
+    new(): Mutex$instance;
+    openExisting(name: string, options: NamedWaitHandleOptions): Mutex;
+    openExisting(name: string): Mutex;
+    tryOpenExisting(name: string, result: { value: ref<Mutex> }): boolean;
+    tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Mutex> }): boolean;
+};
 
 
 export interface __Mutex$views {
@@ -646,10 +755,7 @@ export interface __Mutex$views {
 export type Mutex = Mutex$instance & __Mutex$views;
 
 
-export class Overlapped$instance {
-    constructor();
-    constructor(offsetLo: int, offsetHi: int, hEvent: nint, ar: IAsyncResult);
-    constructor(offsetLo: int, offsetHi: int, hEvent: int, ar: IAsyncResult);
+export interface Overlapped$instance {
     asyncResult: IAsyncResult;
     eventHandle: int;
     eventHandleIntPtr: nint;
@@ -659,38 +765,31 @@ export class Overlapped$instance {
     pack(iocb: IOCompletionCallback, userData: unknown): ptr<NativeOverlapped>;
     unsafePack(iocb: IOCompletionCallback): ptr<NativeOverlapped>;
     unsafePack(iocb: IOCompletionCallback, userData: unknown): ptr<NativeOverlapped>;
-    static free(nativeOverlappedPtr: ptr<NativeOverlapped>): void;
-    static unpack(nativeOverlappedPtr: ptr<NativeOverlapped>): Overlapped;
 }
+
+
+export const Overlapped: {
+    new(): Overlapped$instance;
+    new(offsetLo: int, offsetHi: int, hEvent: nint, ar: IAsyncResult): Overlapped$instance;
+    new(offsetLo: int, offsetHi: int, hEvent: int, ar: IAsyncResult): Overlapped$instance;
+    free(nativeOverlappedPtr: ptr<NativeOverlapped>): void;
+    unpack(nativeOverlappedPtr: ptr<NativeOverlapped>): Overlapped;
+};
 
 
 export type Overlapped = Overlapped$instance;
 
-export class ParameterizedThreadStart$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(obj: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(obj: unknown): void;
-}
-
-
-export interface __ParameterizedThreadStart$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ParameterizedThreadStart = ParameterizedThreadStart$instance & __ParameterizedThreadStart$views;
-
-
-export class PeriodicTimer$instance {
-    constructor(period: TimeSpan);
-    constructor(period: TimeSpan, timeProvider: TimeProvider);
+export interface PeriodicTimer$instance {
     period: TimeSpan;
     dispose(): void;
     waitForNextTickAsync(cancellationToken?: CancellationToken): ValueTask_1<CLROf<boolean>>;
 }
+
+
+export const PeriodicTimer: {
+    new(period: TimeSpan): PeriodicTimer$instance;
+    new(period: TimeSpan, timeProvider: TimeProvider): PeriodicTimer$instance;
+};
 
 
 export interface __PeriodicTimer$views {
@@ -702,11 +801,15 @@ export interface PeriodicTimer$instance extends System_Internal.IDisposable$inst
 export type PeriodicTimer = PeriodicTimer$instance & __PeriodicTimer$views;
 
 
-export class PreAllocatedOverlapped$instance {
-    constructor(callback: IOCompletionCallback, state: unknown, pinData: unknown);
+export interface PreAllocatedOverlapped$instance {
     dispose(): void;
-    static unsafeCreate(callback: IOCompletionCallback, state: unknown, pinData: unknown): PreAllocatedOverlapped;
 }
+
+
+export const PreAllocatedOverlapped: {
+    new(callback: IOCompletionCallback, state: unknown, pinData: unknown): PreAllocatedOverlapped$instance;
+    unsafeCreate(callback: IOCompletionCallback, state: unknown, pinData: unknown): PreAllocatedOverlapped;
+};
 
 
 export interface __PreAllocatedOverlapped$views {
@@ -718,8 +821,7 @@ export interface PreAllocatedOverlapped$instance extends System_Internal.IDispos
 export type PreAllocatedOverlapped = PreAllocatedOverlapped$instance & __PreAllocatedOverlapped$views;
 
 
-export class ReaderWriterLock$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
-    constructor();
+export interface ReaderWriterLock$instance extends CriticalFinalizerObject {
     readonly isReaderLockHeld: boolean;
     readonly isWriterLockHeld: boolean;
     readonly writerSeqNum: int;
@@ -738,11 +840,14 @@ export class ReaderWriterLock$instance extends System_Runtime_ConstrainedExecuti
 }
 
 
+export const ReaderWriterLock: {
+    new(): ReaderWriterLock$instance;
+};
+
+
 export type ReaderWriterLock = ReaderWriterLock$instance;
 
-export class ReaderWriterLockSlim$instance {
-    constructor();
-    constructor(recursionPolicy: LockRecursionPolicy);
+export interface ReaderWriterLockSlim$instance {
     readonly currentReadCount: int;
     readonly isReadLockHeld: boolean;
     readonly isUpgradeableReadLockHeld: boolean;
@@ -770,6 +875,12 @@ export class ReaderWriterLockSlim$instance {
 }
 
 
+export const ReaderWriterLockSlim: {
+    new(): ReaderWriterLockSlim$instance;
+    new(recursionPolicy: LockRecursionPolicy): ReaderWriterLockSlim$instance;
+};
+
+
 export interface __ReaderWriterLockSlim$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -779,27 +890,36 @@ export interface ReaderWriterLockSlim$instance extends System_Internal.IDisposab
 export type ReaderWriterLockSlim = ReaderWriterLockSlim$instance & __ReaderWriterLockSlim$views;
 
 
-export class RegisteredWaitHandle$instance extends System_Internal.MarshalByRefObject$instance {
+export interface RegisteredWaitHandle$instance extends MarshalByRefObject {
     unregister(waitObject: WaitHandle): boolean;
 }
 
 
+export const RegisteredWaitHandle: {
+    new(): RegisteredWaitHandle$instance;
+};
+
+
 export type RegisteredWaitHandle = RegisteredWaitHandle$instance;
 
-export class Semaphore$instance extends WaitHandle$instance {
-    constructor(initialCount: int, maximumCount: int);
-    constructor(initialCount: int, maximumCount: int, name: string, options: NamedWaitHandleOptions);
-    constructor(initialCount: int, maximumCount: int, name: string);
-    constructor(initialCount: int, maximumCount: int, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>);
-    constructor(initialCount: int, maximumCount: int, name: string, createdNew: ref<boolean>);
+export interface Semaphore$instance extends WaitHandle$instance {
     dispose(): void;
     release(): int;
     release(releaseCount: int): int;
-    static openExisting(name: string, options: NamedWaitHandleOptions): Semaphore;
-    static openExisting(name: string): Semaphore;
-    static tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Semaphore> }): boolean;
-    static tryOpenExisting(name: string, result: { value: ref<Semaphore> }): boolean;
 }
+
+
+export const Semaphore: {
+    new(initialCount: int, maximumCount: int): Semaphore$instance;
+    new(initialCount: int, maximumCount: int, name: string, options: NamedWaitHandleOptions): Semaphore$instance;
+    new(initialCount: int, maximumCount: int, name: string): Semaphore$instance;
+    new(initialCount: int, maximumCount: int, name: string, options: NamedWaitHandleOptions, createdNew: ref<boolean>): Semaphore$instance;
+    new(initialCount: int, maximumCount: int, name: string, createdNew: ref<boolean>): Semaphore$instance;
+    openExisting(name: string, options: NamedWaitHandleOptions): Semaphore;
+    openExisting(name: string): Semaphore;
+    tryOpenExisting(name: string, options: NamedWaitHandleOptions, result: { value: ref<Semaphore> }): boolean;
+    tryOpenExisting(name: string, result: { value: ref<Semaphore> }): boolean;
+};
 
 
 export interface __Semaphore$views {
@@ -809,12 +929,16 @@ export interface __Semaphore$views {
 export type Semaphore = Semaphore$instance & __Semaphore$views;
 
 
-export class SemaphoreFullException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SemaphoreFullException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SemaphoreFullException: {
+    new(): SemaphoreFullException$instance;
+    new(message: string): SemaphoreFullException$instance;
+    new(message: string, innerException: Exception): SemaphoreFullException$instance;
+};
 
 
 export interface __SemaphoreFullException$views {
@@ -824,9 +948,7 @@ export interface __SemaphoreFullException$views {
 export type SemaphoreFullException = SemaphoreFullException$instance & __SemaphoreFullException$views;
 
 
-export class SemaphoreSlim$instance {
-    constructor(initialCount: int);
-    constructor(initialCount: int, maxCount: int);
+export interface SemaphoreSlim$instance {
     readonly availableWaitHandle: WaitHandle;
     readonly currentCount: int;
     dispose(): void;
@@ -847,6 +969,12 @@ export class SemaphoreSlim$instance {
 }
 
 
+export const SemaphoreSlim: {
+    new(initialCount: int): SemaphoreSlim$instance;
+    new(initialCount: int, maxCount: int): SemaphoreSlim$instance;
+};
+
+
 export interface __SemaphoreSlim$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -856,26 +984,7 @@ export interface SemaphoreSlim$instance extends System_Internal.IDisposable$inst
 export type SemaphoreSlim = SemaphoreSlim$instance & __SemaphoreSlim$views;
 
 
-export class SendOrPostCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(state: unknown): void;
-}
-
-
-export interface __SendOrPostCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type SendOrPostCallback = SendOrPostCallback$instance & __SendOrPostCallback$views;
-
-
-export class SynchronizationContext$instance {
-    constructor();
+export interface SynchronizationContext$instance {
     createCopy(): SynchronizationContext;
     isWaitNotificationRequired(): boolean;
     operationCompleted(): void;
@@ -883,19 +992,28 @@ export class SynchronizationContext$instance {
     post(d: SendOrPostCallback, state: unknown): void;
     send(d: SendOrPostCallback, state: unknown): void;
     wait(waitHandles: nint[], waitAll: boolean, millisecondsTimeout: int): int;
-    static readonly current: SynchronizationContext;
-    static setSynchronizationContext(syncContext: SynchronizationContext): void;
 }
+
+
+export const SynchronizationContext: {
+    new(): SynchronizationContext$instance;
+    readonly current: SynchronizationContext;
+    setSynchronizationContext(syncContext: SynchronizationContext): void;
+};
 
 
 export type SynchronizationContext = SynchronizationContext$instance;
 
-export class SynchronizationLockException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SynchronizationLockException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SynchronizationLockException: {
+    new(): SynchronizationLockException$instance;
+    new(message: string): SynchronizationLockException$instance;
+    new(message: string, innerException: Exception): SynchronizationLockException$instance;
+};
 
 
 export interface __SynchronizationLockException$views {
@@ -905,11 +1023,7 @@ export interface __SynchronizationLockException$views {
 export type SynchronizationLockException = SynchronizationLockException$instance & __SynchronizationLockException$views;
 
 
-export class Thread$instance extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance {
-    constructor(start: ThreadStart);
-    constructor(start: ThreadStart, maxStackSize: int);
-    constructor(start: ParameterizedThreadStart);
-    constructor(start: ParameterizedThreadStart, maxStackSize: int);
+export interface Thread$instance extends CriticalFinalizerObject {
     apartmentState: ApartmentState;
     currentCulture: CultureInfo;
     currentUICulture: CultureInfo;
@@ -940,62 +1054,75 @@ export class Thread$instance extends System_Runtime_ConstrainedExecution_Interna
     trySetApartmentState(state: ApartmentState): boolean;
     unsafeStart(parameter: unknown): void;
     unsafeStart(): void;
-    static currentPrincipal: IPrincipal;
-    static readonly currentThread: Thread;
-    static allocateDataSlot(): LocalDataStoreSlot;
-    static allocateNamedDataSlot(name: string): LocalDataStoreSlot;
-    static beginCriticalRegion(): void;
-    static beginThreadAffinity(): void;
-    static endCriticalRegion(): void;
-    static endThreadAffinity(): void;
-    static freeNamedDataSlot(name: string): void;
-    static getCurrentProcessorId(): int;
-    static getData(slot: LocalDataStoreSlot): unknown;
-    static getDomain(): AppDomain;
-    static getDomainID(): int;
-    static getNamedDataSlot(name: string): LocalDataStoreSlot;
-    static memoryBarrier(): void;
-    static resetAbort(): void;
-    static setData(slot: LocalDataStoreSlot, data: unknown): void;
-    static sleep(millisecondsTimeout: int): void;
-    static sleep(timeout: TimeSpan): void;
-    static spinWait(iterations: int): void;
-    static volatileRead(address: { value: ref<byte> }): byte;
-    static volatileRead(address: { value: ref<double> }): double;
-    static volatileRead(address: { value: ref<short> }): short;
-    static volatileRead(address: { value: ref<int> }): int;
-    static volatileRead(address: { value: ref<long> }): long;
-    static volatileRead(address: { value: ref<nint> }): nint;
-    static volatileRead(address: { value: ref<unknown> }): unknown;
-    static volatileRead(address: { value: ref<sbyte> }): sbyte;
-    static volatileRead(address: { value: ref<float> }): float;
-    static volatileRead(address: { value: ref<ushort> }): ushort;
-    static volatileRead(address: { value: ref<uint> }): uint;
-    static volatileRead(address: { value: ref<ulong> }): ulong;
-    static volatileRead(address: { value: ref<nuint> }): nuint;
-    static volatileWrite(address: { value: ref<byte> }, value: byte): void;
-    static volatileWrite(address: { value: ref<double> }, value: double): void;
-    static volatileWrite(address: { value: ref<short> }, value: short): void;
-    static volatileWrite(address: { value: ref<int> }, value: int): void;
-    static volatileWrite(address: { value: ref<long> }, value: long): void;
-    static volatileWrite(address: { value: ref<nint> }, value: nint): void;
-    static volatileWrite(address: { value: ref<unknown> }, value: unknown): void;
-    static volatileWrite(address: { value: ref<sbyte> }, value: sbyte): void;
-    static volatileWrite(address: { value: ref<float> }, value: float): void;
-    static volatileWrite(address: { value: ref<ushort> }, value: ushort): void;
-    static volatileWrite(address: { value: ref<uint> }, value: uint): void;
-    static volatileWrite(address: { value: ref<ulong> }, value: ulong): void;
-    static volatileWrite(address: { value: ref<nuint> }, value: nuint): void;
-    static yield_(): boolean;
 }
+
+
+export const Thread: {
+    new(start: ThreadStart): Thread$instance;
+    new(start: ThreadStart, maxStackSize: int): Thread$instance;
+    new(start: ParameterizedThreadStart): Thread$instance;
+    new(start: ParameterizedThreadStart, maxStackSize: int): Thread$instance;
+    currentPrincipal: IPrincipal;
+    readonly currentThread: Thread;
+    allocateDataSlot(): LocalDataStoreSlot;
+    allocateNamedDataSlot(name: string): LocalDataStoreSlot;
+    beginCriticalRegion(): void;
+    beginThreadAffinity(): void;
+    endCriticalRegion(): void;
+    endThreadAffinity(): void;
+    freeNamedDataSlot(name: string): void;
+    getCurrentProcessorId(): int;
+    getData(slot: LocalDataStoreSlot): unknown;
+    getDomain(): AppDomain;
+    getDomainID(): int;
+    getNamedDataSlot(name: string): LocalDataStoreSlot;
+    memoryBarrier(): void;
+    resetAbort(): void;
+    setData(slot: LocalDataStoreSlot, data: unknown): void;
+    sleep(millisecondsTimeout: int): void;
+    sleep(timeout: TimeSpan): void;
+    spinWait(iterations: int): void;
+    volatileRead(address: { value: ref<byte> }): byte;
+    volatileRead(address: { value: ref<double> }): double;
+    volatileRead(address: { value: ref<short> }): short;
+    volatileRead(address: { value: ref<int> }): int;
+    volatileRead(address: { value: ref<long> }): long;
+    volatileRead(address: { value: ref<nint> }): nint;
+    volatileRead(address: { value: ref<unknown> }): unknown;
+    volatileRead(address: { value: ref<sbyte> }): sbyte;
+    volatileRead(address: { value: ref<float> }): float;
+    volatileRead(address: { value: ref<ushort> }): ushort;
+    volatileRead(address: { value: ref<uint> }): uint;
+    volatileRead(address: { value: ref<ulong> }): ulong;
+    volatileRead(address: { value: ref<nuint> }): nuint;
+    volatileWrite(address: { value: ref<byte> }, value: byte): void;
+    volatileWrite(address: { value: ref<double> }, value: double): void;
+    volatileWrite(address: { value: ref<short> }, value: short): void;
+    volatileWrite(address: { value: ref<int> }, value: int): void;
+    volatileWrite(address: { value: ref<long> }, value: long): void;
+    volatileWrite(address: { value: ref<nint> }, value: nint): void;
+    volatileWrite(address: { value: ref<unknown> }, value: unknown): void;
+    volatileWrite(address: { value: ref<sbyte> }, value: sbyte): void;
+    volatileWrite(address: { value: ref<float> }, value: float): void;
+    volatileWrite(address: { value: ref<ushort> }, value: ushort): void;
+    volatileWrite(address: { value: ref<uint> }, value: uint): void;
+    volatileWrite(address: { value: ref<ulong> }, value: ulong): void;
+    volatileWrite(address: { value: ref<nuint> }, value: nuint): void;
+    yield_(): boolean;
+};
 
 
 export type Thread = Thread$instance;
 
-export class ThreadAbortException$instance extends System_Internal.SystemException$instance {
+export interface ThreadAbortException$instance extends SystemException {
     readonly exceptionState: unknown;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ThreadAbortException: {
+    new(): ThreadAbortException$instance;
+};
 
 
 export interface __ThreadAbortException$views {
@@ -1005,38 +1132,28 @@ export interface __ThreadAbortException$views {
 export type ThreadAbortException = ThreadAbortException$instance & __ThreadAbortException$views;
 
 
-export class ThreadExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(t: Exception);
+export interface ThreadExceptionEventArgs$instance extends EventArgs {
     readonly exception: Exception;
 }
 
 
+export const ThreadExceptionEventArgs: {
+    new(t: Exception): ThreadExceptionEventArgs$instance;
+};
+
+
 export type ThreadExceptionEventArgs = ThreadExceptionEventArgs$instance;
 
-export class ThreadExceptionEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ThreadExceptionEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ThreadExceptionEventArgs): void;
-}
-
-
-export interface __ThreadExceptionEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ThreadExceptionEventHandler = ThreadExceptionEventHandler$instance & __ThreadExceptionEventHandler$views;
-
-
-export class ThreadInterruptedException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ThreadInterruptedException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ThreadInterruptedException: {
+    new(): ThreadInterruptedException$instance;
+    new(message: string): ThreadInterruptedException$instance;
+    new(message: string, innerException: Exception): ThreadInterruptedException$instance;
+};
 
 
 export interface __ThreadInterruptedException$views {
@@ -1046,17 +1163,21 @@ export interface __ThreadInterruptedException$views {
 export type ThreadInterruptedException = ThreadInterruptedException$instance & __ThreadInterruptedException$views;
 
 
-export class ThreadLocal_1$instance<T> {
-    constructor();
-    constructor(trackAllValues: boolean);
-    constructor(valueFactory: Func_1<T>);
-    constructor(valueFactory: Func_1<T>, trackAllValues: boolean);
+export interface ThreadLocal_1$instance<T> {
     readonly isValueCreated: boolean;
     value: T;
     readonly values: IList_1<T>;
     dispose(): void;
     toString(): string;
 }
+
+
+export const ThreadLocal_1: {
+    new<T>(): ThreadLocal_1$instance<T>;
+    new<T>(trackAllValues: boolean): ThreadLocal_1$instance<T>;
+    new<T>(valueFactory: Func_1<T>): ThreadLocal_1$instance<T>;
+    new<T>(valueFactory: Func_1<T>, trackAllValues: boolean): ThreadLocal_1$instance<T>;
+};
 
 
 export interface __ThreadLocal_1$views<T> {
@@ -1068,16 +1189,21 @@ export interface ThreadLocal_1$instance<T> extends System_Internal.IDisposable$i
 export type ThreadLocal_1<T> = ThreadLocal_1$instance<T> & __ThreadLocal_1$views<T>;
 
 
-export class ThreadPoolBoundHandle$instance {
+export interface ThreadPoolBoundHandle$instance {
     readonly handle: SafeHandle;
     allocateNativeOverlapped(callback: IOCompletionCallback, state: unknown, pinData: unknown): ptr<NativeOverlapped>;
     allocateNativeOverlapped(preAllocated: PreAllocatedOverlapped): ptr<NativeOverlapped>;
     dispose(): void;
     freeNativeOverlapped(overlapped: ptr<NativeOverlapped>): void;
     unsafeAllocateNativeOverlapped(callback: IOCompletionCallback, state: unknown, pinData: unknown): ptr<NativeOverlapped>;
-    static bindHandle(handle: SafeHandle): ThreadPoolBoundHandle;
-    static getNativeOverlappedState(overlapped: ptr<NativeOverlapped>): unknown;
 }
+
+
+export const ThreadPoolBoundHandle: {
+    new(): ThreadPoolBoundHandle$instance;
+    bindHandle(handle: SafeHandle): ThreadPoolBoundHandle;
+    getNativeOverlappedState(overlapped: ptr<NativeOverlapped>): unknown;
+};
 
 
 export interface __ThreadPoolBoundHandle$views {
@@ -1089,27 +1215,14 @@ export interface ThreadPoolBoundHandle$instance extends System_Internal.IDisposa
 export type ThreadPoolBoundHandle = ThreadPoolBoundHandle$instance & __ThreadPoolBoundHandle$views;
 
 
-export class ThreadStart$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(): void;
-}
-
-
-export interface __ThreadStart$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ThreadStart = ThreadStart$instance & __ThreadStart$views;
-
-
-export class ThreadStartException$instance extends System_Internal.SystemException$instance {
+export interface ThreadStartException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ThreadStartException: {
+    new(): ThreadStartException$instance;
+};
 
 
 export interface __ThreadStartException$views {
@@ -1119,12 +1232,16 @@ export interface __ThreadStartException$views {
 export type ThreadStartException = ThreadStartException$instance & __ThreadStartException$views;
 
 
-export class ThreadStateException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ThreadStateException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ThreadStateException: {
+    new(): ThreadStateException$instance;
+    new(message: string): ThreadStateException$instance;
+    new(message: string, innerException: Exception): ThreadStateException$instance;
+};
 
 
 export interface __ThreadStateException$views {
@@ -1134,12 +1251,7 @@ export interface __ThreadStateException$views {
 export type ThreadStateException = ThreadStateException$instance & __ThreadStateException$views;
 
 
-export class Timer$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor(callback: TimerCallback, state: unknown, dueTime: int, period: int);
-    constructor(callback: TimerCallback, state: unknown, dueTime: TimeSpan, period: TimeSpan);
-    constructor(callback: TimerCallback, state: unknown, dueTime: uint, period: uint);
-    constructor(callback: TimerCallback, state: unknown, dueTime: long, period: long);
-    constructor(callback: TimerCallback);
+export interface Timer$instance extends MarshalByRefObject {
     change(dueTime: int, period: int): boolean;
     change(dueTime: TimeSpan, period: TimeSpan): boolean;
     change(dueTime: uint, period: uint): boolean;
@@ -1147,8 +1259,17 @@ export class Timer$instance extends System_Internal.MarshalByRefObject$instance 
     dispose(notifyObject: WaitHandle): boolean;
     dispose(): void;
     disposeAsync(): ValueTask;
-    static readonly activeCount: long;
 }
+
+
+export const Timer: {
+    new(callback: TimerCallback, state: unknown, dueTime: int, period: int): Timer$instance;
+    new(callback: TimerCallback, state: unknown, dueTime: TimeSpan, period: TimeSpan): Timer$instance;
+    new(callback: TimerCallback, state: unknown, dueTime: uint, period: uint): Timer$instance;
+    new(callback: TimerCallback, state: unknown, dueTime: long, period: long): Timer$instance;
+    new(callback: TimerCallback): Timer$instance;
+    readonly activeCount: long;
+};
 
 
 export interface __Timer$views {
@@ -1160,43 +1281,7 @@ export interface __Timer$views {
 export type Timer = Timer$instance & __Timer$views;
 
 
-export class TimerCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(state: unknown): void;
-}
-
-
-export interface __TimerCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type TimerCallback = TimerCallback$instance & __TimerCallback$views;
-
-
-export class WaitCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(state: unknown): void;
-}
-
-
-export interface __WaitCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type WaitCallback = WaitCallback$instance & __WaitCallback$views;
-
-
-export abstract class WaitHandle$instance extends System_Internal.MarshalByRefObject$instance {
+export interface WaitHandle$instance extends MarshalByRefObject {
     handle: nint;
     safeWaitHandle: SafeWaitHandle;
     close(): void;
@@ -1206,21 +1291,25 @@ export abstract class WaitHandle$instance extends System_Internal.MarshalByRefOb
     waitOne(): boolean;
     waitOne(millisecondsTimeout: int, exitContext: boolean): boolean;
     waitOne(timeout: TimeSpan, exitContext: boolean): boolean;
-    static readonly waitTimeout: int;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
-    static signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
-    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
-    static waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
-    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
-    static waitAll(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
-    static waitAll(waitHandles: WaitHandle[]): boolean;
-    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
-    static waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
-    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
-    static waitAny(waitHandles: WaitHandle[], timeout: TimeSpan): int;
-    static waitAny(waitHandles: WaitHandle[]): int;
 }
+
+
+export const WaitHandle: {
+    readonly waitTimeout: int;
+    signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, millisecondsTimeout: int, exitContext: boolean): boolean;
+    signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle, timeout: TimeSpan, exitContext: boolean): boolean;
+    signalAndWait(toSignal: WaitHandle, toWaitOn: WaitHandle): boolean;
+    waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): boolean;
+    waitAll(waitHandles: WaitHandle[], millisecondsTimeout: int): boolean;
+    waitAll(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): boolean;
+    waitAll(waitHandles: WaitHandle[], timeout: TimeSpan): boolean;
+    waitAll(waitHandles: WaitHandle[]): boolean;
+    waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int, exitContext: boolean): int;
+    waitAny(waitHandles: WaitHandle[], millisecondsTimeout: int): int;
+    waitAny(waitHandles: WaitHandle[], timeout: TimeSpan, exitContext: boolean): int;
+    waitAny(waitHandles: WaitHandle[], timeout: TimeSpan): int;
+    waitAny(waitHandles: WaitHandle[]): int;
+};
 
 
 export interface __WaitHandle$views {
@@ -1232,12 +1321,16 @@ export interface WaitHandle$instance extends System_Internal.IDisposable$instanc
 export type WaitHandle = WaitHandle$instance & __WaitHandle$views;
 
 
-export class WaitHandleCannotBeOpenedException$instance extends System_Internal.ApplicationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface WaitHandleCannotBeOpenedException$instance extends ApplicationException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const WaitHandleCannotBeOpenedException: {
+    new(): WaitHandleCannotBeOpenedException$instance;
+    new(message: string): WaitHandleCannotBeOpenedException$instance;
+    new(message: string, innerException: Exception): WaitHandleCannotBeOpenedException$instance;
+};
 
 
 export interface __WaitHandleCannotBeOpenedException$views {
@@ -1245,24 +1338,6 @@ export interface __WaitHandleCannotBeOpenedException$views {
 }
 
 export type WaitHandleCannotBeOpenedException = WaitHandleCannotBeOpenedException$instance & __WaitHandleCannotBeOpenedException$views;
-
-
-export class WaitOrTimerCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(state: unknown, timedOut: boolean, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(state: unknown, timedOut: boolean): void;
-}
-
-
-export interface __WaitOrTimerCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type WaitOrTimerCallback = WaitOrTimerCallback$instance & __WaitOrTimerCallback$views;
 
 
 export abstract class EventWaitHandleAcl$instance {

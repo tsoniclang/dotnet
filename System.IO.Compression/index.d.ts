@@ -20,20 +20,20 @@ import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, 
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { ZipArchive$instance as ZipArchive } from './internal/index.js';
-export { ZipArchiveEntry$instance as ZipArchiveEntry } from './internal/index.js';
+export { ZipArchive as ZipArchive } from './internal/index.js';
+export { ZipArchiveEntry as ZipArchiveEntry } from './internal/index.js';
 export { ZipArchiveMode as ZipArchiveMode } from './internal/index.js';
-export { DeflateStream$instance as DeflateStream } from './internal/index.js';
-export { ZLibException$instance as ZLibException } from './internal/index.js';
+export { DeflateStream as DeflateStream } from './internal/index.js';
+export { ZLibException as ZLibException } from './internal/index.js';
 export { CompressionLevel as CompressionLevel } from './internal/index.js';
 export { CompressionMode as CompressionMode } from './internal/index.js';
-export { GZipStream$instance as GZipStream } from './internal/index.js';
-export { ZLibCompressionOptions$instance as ZLibCompressionOptions } from './internal/index.js';
+export { GZipStream as GZipStream } from './internal/index.js';
+export { ZLibCompressionOptions as ZLibCompressionOptions } from './internal/index.js';
 export { ZLibCompressionStrategy as ZLibCompressionStrategy } from './internal/index.js';
-export { ZLibStream$instance as ZLibStream } from './internal/index.js';
-export { BrotliCompressionOptions$instance as BrotliCompressionOptions } from './internal/index.js';
-export { BrotliStream$instance as BrotliStream } from './internal/index.js';
-export { BrotliDecoder$instance as BrotliDecoder } from './internal/index.js';
-export { BrotliEncoder$instance as BrotliEncoder } from './internal/index.js';
+export { ZLibStream as ZLibStream } from './internal/index.js';
+export { BrotliCompressionOptions as BrotliCompressionOptions } from './internal/index.js';
+export { BrotliStream as BrotliStream } from './internal/index.js';
+export { BrotliDecoder as BrotliDecoder } from './internal/index.js';
+export { BrotliEncoder as BrotliEncoder } from './internal/index.js';
 export { ZipFile$instance as ZipFile } from './internal/index.js';
 export { ZipFileExtensions$instance as ZipFileExtensions } from './internal/index.js';

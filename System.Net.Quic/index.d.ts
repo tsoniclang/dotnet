@@ -23,15 +23,15 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { QuicAbortDirection as QuicAbortDirection } from './internal/index.js';
-export { QuicConnection$instance as QuicConnection } from './internal/index.js';
-export { QuicReceiveWindowSizes$instance as QuicReceiveWindowSizes } from './internal/index.js';
-export { QuicStreamCapacityChangedArgs$instance as QuicStreamCapacityChangedArgs } from './internal/index.js';
-export { QuicConnectionOptions$instance as QuicConnectionOptions } from './internal/index.js';
-export { QuicClientConnectionOptions$instance as QuicClientConnectionOptions } from './internal/index.js';
-export { QuicServerConnectionOptions$instance as QuicServerConnectionOptions } from './internal/index.js';
+export { QuicConnection as QuicConnection } from './internal/index.js';
+export { QuicReceiveWindowSizes as QuicReceiveWindowSizes } from './internal/index.js';
+export { QuicStreamCapacityChangedArgs as QuicStreamCapacityChangedArgs } from './internal/index.js';
+export { QuicConnectionOptions as QuicConnectionOptions } from './internal/index.js';
+export { QuicClientConnectionOptions as QuicClientConnectionOptions } from './internal/index.js';
+export { QuicServerConnectionOptions as QuicServerConnectionOptions } from './internal/index.js';
 export { QuicError as QuicError } from './internal/index.js';
-export { QuicException$instance as QuicException } from './internal/index.js';
-export { QuicListener$instance as QuicListener } from './internal/index.js';
-export { QuicListenerOptions$instance as QuicListenerOptions } from './internal/index.js';
-export { QuicStream$instance as QuicStream } from './internal/index.js';
+export { QuicException as QuicException } from './internal/index.js';
+export { QuicListener as QuicListener } from './internal/index.js';
+export { QuicListenerOptions as QuicListenerOptions } from './internal/index.js';
+export { QuicStream as QuicStream } from './internal/index.js';
 export { QuicStreamType as QuicStreamType } from './internal/index.js';

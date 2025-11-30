@@ -1635,7 +1635,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -1649,7 +1649,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1663,7 +1663,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1978,7 +1978,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -1988,7 +1988,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -1998,7 +1998,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -2517,7 +2517,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -2531,7 +2531,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2545,7 +2545,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3028,7 +3028,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -3038,7 +3038,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -3048,7 +3048,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -3710,7 +3710,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -3724,7 +3724,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -3738,7 +3738,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -4218,7 +4218,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -4228,7 +4228,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -4238,7 +4238,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -4627,7 +4627,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -4641,7 +4641,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -4655,7 +4655,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -5075,7 +5075,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -5085,7 +5085,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -5095,7 +5095,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -5863,7 +5863,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -5877,7 +5877,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -5891,7 +5891,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -6552,7 +6552,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -6562,7 +6562,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -6572,7 +6572,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -7206,7 +7206,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -7220,7 +7220,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -7234,7 +7234,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -7654,7 +7654,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -7664,7 +7664,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -7674,7 +7674,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -8063,7 +8063,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8077,7 +8077,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -8091,7 +8091,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8105,7 +8105,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8422,7 +8422,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -8432,7 +8432,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -8442,7 +8442,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -8452,7 +8452,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -9062,7 +9062,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -9076,7 +9076,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9090,7 +9090,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -9570,7 +9570,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -9580,7 +9580,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -9590,7 +9590,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -10203,7 +10203,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -10217,7 +10217,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10231,7 +10231,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10711,7 +10711,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -10721,7 +10721,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -10731,7 +10731,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -11344,7 +11344,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -11358,7 +11358,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -11372,7 +11372,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -11852,7 +11852,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -11862,7 +11862,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -11872,7 +11872,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -12485,7 +12485,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -12499,7 +12499,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -12513,7 +12513,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -13023,7 +13023,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -13033,7 +13033,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -13043,7 +13043,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -13599,7 +13599,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -13613,7 +13613,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -13627,7 +13627,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -14057,7 +14057,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -14067,7 +14067,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -14077,7 +14077,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -14657,7 +14657,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -14671,7 +14671,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -14685,7 +14685,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -15284,7 +15284,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -15294,7 +15294,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -15304,7 +15304,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -15579,7 +15579,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -15647,7 +15647,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -15739,7 +15739,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -15749,7 +15749,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -15759,7 +15759,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -15769,7 +15769,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -15779,7 +15779,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -15789,7 +15789,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -15799,7 +15799,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -15809,7 +15809,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -15938,7 +15938,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -15952,7 +15952,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -15966,7 +15966,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -15980,7 +15980,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -16245,7 +16245,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -16255,7 +16255,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -16265,7 +16265,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -16275,7 +16275,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -16575,7 +16575,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -16589,7 +16589,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -16603,7 +16603,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -16617,7 +16617,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -16858,7 +16858,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -16868,7 +16868,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -16878,7 +16878,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -16888,7 +16888,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -17085,7 +17085,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -17153,7 +17153,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -17245,7 +17245,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -17255,7 +17255,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -17265,7 +17265,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -17275,7 +17275,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -17285,7 +17285,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -17295,7 +17295,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -17305,7 +17305,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -17315,7 +17315,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -17360,7 +17360,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -17428,7 +17428,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -17520,7 +17520,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -17530,7 +17530,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -17540,7 +17540,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -17550,7 +17550,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -17560,7 +17560,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -17570,7 +17570,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -17580,7 +17580,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -17590,7 +17590,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -17635,7 +17635,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -17703,7 +17703,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -17795,7 +17795,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -17805,7 +17805,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -17815,7 +17815,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -17825,7 +17825,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -17835,7 +17835,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -17845,7 +17845,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -17855,7 +17855,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -17865,7 +17865,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -17910,7 +17910,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -17978,7 +17978,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -18070,7 +18070,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -18080,7 +18080,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -18090,7 +18090,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -18100,7 +18100,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -18110,7 +18110,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -18120,7 +18120,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -18130,7 +18130,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -18140,7 +18140,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -18213,7 +18213,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -18227,7 +18227,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -18241,7 +18241,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -18372,7 +18372,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -18382,7 +18382,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -18392,7 +18392,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {

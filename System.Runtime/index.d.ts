@@ -17,13 +17,13 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { ControlledExecution$instance as ControlledExecution } from './internal/index.js';
-export { DependentHandle$instance as DependentHandle } from './internal/index.js';
+export { DependentHandle as DependentHandle } from './internal/index.js';
 export { GCSettings$instance as GCSettings } from './internal/index.js';
 export { JitInfo$instance as JitInfo } from './internal/index.js';
-export { AmbiguousImplementationException$instance as AmbiguousImplementationException } from './internal/index.js';
+export { AmbiguousImplementationException as AmbiguousImplementationException } from './internal/index.js';
 export { GCLargeObjectHeapCompactionMode as GCLargeObjectHeapCompactionMode } from './internal/index.js';
 export { GCLatencyMode as GCLatencyMode } from './internal/index.js';
-export { MemoryFailPoint$instance as MemoryFailPoint } from './internal/index.js';
-export { AssemblyTargetedPatchBandAttribute$instance as AssemblyTargetedPatchBandAttribute } from './internal/index.js';
-export { TargetedPatchingOptOutAttribute$instance as TargetedPatchingOptOutAttribute } from './internal/index.js';
+export { MemoryFailPoint as MemoryFailPoint } from './internal/index.js';
+export { AssemblyTargetedPatchBandAttribute as AssemblyTargetedPatchBandAttribute } from './internal/index.js';
+export { TargetedPatchingOptOutAttribute as TargetedPatchingOptOutAttribute } from './internal/index.js';
 export { ProfileOptimization$instance as ProfileOptimization } from './internal/index.js';

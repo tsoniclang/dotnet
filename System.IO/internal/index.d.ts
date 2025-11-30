@@ -191,7 +191,16 @@ export enum WatcherChangeTypes {
 }
 
 
-export class WaitForChangedResult$instance {
+export type ErrorEventHandler = (sender: unknown, e: ErrorEventArgs) => void;
+
+
+export type FileSystemEventHandler = (sender: unknown, e: FileSystemEventArgs) => void;
+
+
+export type RenamedEventHandler = (sender: unknown, e: RenamedEventArgs) => void;
+
+
+export interface WaitForChangedResult$instance {
     changeType: WatcherChangeTypes;
     name: string;
     oldName: string;
@@ -199,12 +208,14 @@ export class WaitForChangedResult$instance {
 }
 
 
+export const WaitForChangedResult: {
+    new(): WaitForChangedResult$instance;
+};
+
+
 export type WaitForChangedResult = WaitForChangedResult$instance;
 
-export class BinaryReader$instance {
-    constructor(input: Stream);
-    constructor(input: Stream, encoding: Encoding);
-    constructor(input: Stream, encoding: Encoding, leaveOpen: boolean);
+export interface BinaryReader$instance {
     readonly baseStream: Stream;
     close(): void;
     dispose(): void;
@@ -237,6 +248,13 @@ export class BinaryReader$instance {
 }
 
 
+export const BinaryReader: {
+    new(input: Stream): BinaryReader$instance;
+    new(input: Stream, encoding: Encoding): BinaryReader$instance;
+    new(input: Stream, encoding: Encoding, leaveOpen: boolean): BinaryReader$instance;
+};
+
+
 export interface __BinaryReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -246,10 +264,7 @@ export interface BinaryReader$instance extends System_Internal.IDisposable$insta
 export type BinaryReader = BinaryReader$instance & __BinaryReader$views;
 
 
-export class BinaryWriter$instance {
-    constructor(output: Stream);
-    constructor(output: Stream, encoding: Encoding);
-    constructor(output: Stream, encoding: Encoding, leaveOpen: boolean);
+export interface BinaryWriter$instance {
     readonly baseStream: Stream;
     close(): void;
     dispose(): void;
@@ -279,8 +294,15 @@ export class BinaryWriter$instance {
     write(chars: ReadOnlySpan_1<CLROf<char>>): void;
     write7BitEncodedInt(value: int): void;
     write7BitEncodedInt64(value: long): void;
-    static readonly null_: BinaryWriter;
 }
+
+
+export const BinaryWriter: {
+    new(output: Stream): BinaryWriter$instance;
+    new(output: Stream, encoding: Encoding): BinaryWriter$instance;
+    new(output: Stream, encoding: Encoding, leaveOpen: boolean): BinaryWriter$instance;
+    readonly null_: BinaryWriter;
+};
 
 
 export interface __BinaryWriter$views {
@@ -293,9 +315,7 @@ export interface BinaryWriter$instance extends System_Internal.IAsyncDisposable$
 export type BinaryWriter = BinaryWriter$instance & __BinaryWriter$views;
 
 
-export class BufferedStream$instance extends Stream$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, bufferSize: int);
+export interface BufferedStream$instance extends Stream$instance {
     readonly bufferSize: int;
     readonly canRead: boolean;
     readonly canSeek: boolean;
@@ -340,6 +360,12 @@ export class BufferedStream$instance extends Stream$instance {
 }
 
 
+export const BufferedStream: {
+    new(stream: Stream): BufferedStream$instance;
+    new(stream: Stream, bufferSize: int): BufferedStream$instance;
+};
+
+
 export interface __BufferedStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -348,8 +374,7 @@ export interface __BufferedStream$views {
 export type BufferedStream = BufferedStream$instance & __BufferedStream$views;
 
 
-export class DirectoryInfo$instance extends FileSystemInfo$instance {
-    constructor(path: string);
+export interface DirectoryInfo$instance extends FileSystemInfo$instance {
     readonly exists: boolean;
     readonly name: string;
     readonly parent: DirectoryInfo;
@@ -386,6 +411,11 @@ export class DirectoryInfo$instance extends FileSystemInfo$instance {
 }
 
 
+export const DirectoryInfo: {
+    new(path: string): DirectoryInfo$instance;
+};
+
+
 export interface __DirectoryInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -393,12 +423,16 @@ export interface __DirectoryInfo$views {
 export type DirectoryInfo = DirectoryInfo$instance & __DirectoryInfo$views;
 
 
-export class DirectoryNotFoundException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface DirectoryNotFoundException$instance extends IOException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DirectoryNotFoundException: {
+    new(): DirectoryNotFoundException$instance;
+    new(message: string): DirectoryNotFoundException$instance;
+    new(message: string, innerException: Exception): DirectoryNotFoundException$instance;
+};
 
 
 export interface __DirectoryNotFoundException$views {
@@ -408,8 +442,7 @@ export interface __DirectoryNotFoundException$views {
 export type DirectoryNotFoundException = DirectoryNotFoundException$instance & __DirectoryNotFoundException$views;
 
 
-export class DriveInfo$instance {
-    constructor(driveName: string);
+export interface DriveInfo$instance {
     readonly availableFreeSpace: long;
     readonly driveFormat: string;
     readonly driveType: DriveType;
@@ -420,8 +453,13 @@ export class DriveInfo$instance {
     readonly totalSize: long;
     volumeLabel: string;
     toString(): string;
-    static getDrives(): DriveInfo[];
 }
+
+
+export const DriveInfo: {
+    new(driveName: string): DriveInfo$instance;
+    getDrives(): DriveInfo[];
+};
 
 
 export interface __DriveInfo$views {
@@ -433,12 +471,16 @@ export interface DriveInfo$instance extends System_Runtime_Serialization_Interna
 export type DriveInfo = DriveInfo$instance & __DriveInfo$views;
 
 
-export class DriveNotFoundException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface DriveNotFoundException$instance extends IOException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const DriveNotFoundException: {
+    new(): DriveNotFoundException$instance;
+    new(message: string): DriveNotFoundException$instance;
+    new(message: string, innerException: Exception): DriveNotFoundException$instance;
+};
 
 
 export interface __DriveNotFoundException$views {
@@ -448,12 +490,16 @@ export interface __DriveNotFoundException$views {
 export type DriveNotFoundException = DriveNotFoundException$instance & __DriveNotFoundException$views;
 
 
-export class EndOfStreamException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface EndOfStreamException$instance extends IOException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const EndOfStreamException: {
+    new(): EndOfStreamException$instance;
+    new(message: string): EndOfStreamException$instance;
+    new(message: string, innerException: Exception): EndOfStreamException$instance;
+};
 
 
 export interface __EndOfStreamException$views {
@@ -463,8 +509,7 @@ export interface __EndOfStreamException$views {
 export type EndOfStreamException = EndOfStreamException$instance & __EndOfStreamException$views;
 
 
-export class EnumerationOptions$instance {
-    constructor();
+export interface EnumerationOptions$instance {
     attributesToSkip: FileAttributes;
     bufferSize: int;
     ignoreInaccessible: boolean;
@@ -476,36 +521,26 @@ export class EnumerationOptions$instance {
 }
 
 
+export const EnumerationOptions: {
+    new(): EnumerationOptions$instance;
+};
+
+
 export type EnumerationOptions = EnumerationOptions$instance;
 
-export class ErrorEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(exception: Exception);
+export interface ErrorEventArgs$instance extends EventArgs {
     getException(): Exception;
 }
 
 
+export const ErrorEventArgs: {
+    new(exception: Exception): ErrorEventArgs$instance;
+};
+
+
 export type ErrorEventArgs = ErrorEventArgs$instance;
 
-export class ErrorEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ErrorEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ErrorEventArgs): void;
-}
-
-
-export interface __ErrorEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ErrorEventHandler = ErrorEventHandler$instance & __ErrorEventHandler$views;
-
-
-export class FileInfo$instance extends FileSystemInfo$instance {
-    constructor(fileName: string);
+export interface FileInfo$instance extends FileSystemInfo$instance {
     readonly directory: DirectoryInfo;
     readonly directoryName: string;
     readonly exists: boolean;
@@ -535,6 +570,11 @@ export class FileInfo$instance extends FileSystemInfo$instance {
 }
 
 
+export const FileInfo: {
+    new(fileName: string): FileInfo$instance;
+};
+
+
 export interface __FileInfo$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -542,18 +582,22 @@ export interface __FileInfo$views {
 export type FileInfo = FileInfo$instance & __FileInfo$views;
 
 
-export class FileLoadException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, fileName: string);
-    constructor(message: string, fileName: string, inner: Exception);
+export interface FileLoadException$instance extends IOException$instance {
     readonly fileName: string;
     readonly fusionLog: string;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const FileLoadException: {
+    new(): FileLoadException$instance;
+    new(message: string): FileLoadException$instance;
+    new(message: string, inner: Exception): FileLoadException$instance;
+    new(message: string, fileName: string): FileLoadException$instance;
+    new(message: string, fileName: string, inner: Exception): FileLoadException$instance;
+};
 
 
 export interface __FileLoadException$views {
@@ -563,18 +607,22 @@ export interface __FileLoadException$views {
 export type FileLoadException = FileLoadException$instance & __FileLoadException$views;
 
 
-export class FileNotFoundException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, fileName: string);
-    constructor(message: string, fileName: string, innerException: Exception);
+export interface FileNotFoundException$instance extends IOException$instance {
     readonly fileName: string;
     readonly fusionLog: string;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const FileNotFoundException: {
+    new(): FileNotFoundException$instance;
+    new(message: string): FileNotFoundException$instance;
+    new(message: string, innerException: Exception): FileNotFoundException$instance;
+    new(message: string, fileName: string): FileNotFoundException$instance;
+    new(message: string, fileName: string, innerException: Exception): FileNotFoundException$instance;
+};
 
 
 export interface __FileNotFoundException$views {
@@ -584,21 +632,7 @@ export interface __FileNotFoundException$views {
 export type FileNotFoundException = FileNotFoundException$instance & __FileNotFoundException$views;
 
 
-export class FileStream$instance extends Stream$instance {
-    constructor(handle: nint, access: FileAccess);
-    constructor(handle: nint, access: FileAccess, ownsHandle: boolean);
-    constructor(handle: nint, access: FileAccess, ownsHandle: boolean, bufferSize: int);
-    constructor(handle: nint, access: FileAccess, ownsHandle: boolean, bufferSize: int, isAsync: boolean);
-    constructor(handle: SafeFileHandle, access: FileAccess);
-    constructor(handle: SafeFileHandle, access: FileAccess, bufferSize: int);
-    constructor(handle: SafeFileHandle, access: FileAccess, bufferSize: int, isAsync: boolean);
-    constructor(path: string, mode: FileMode);
-    constructor(path: string, mode: FileMode, access: FileAccess);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, useAsync: boolean);
-    constructor(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, options: FileOptions);
-    constructor(path: string, options: FileStreamOptions);
+export interface FileStream$instance extends Stream$instance {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canWrite: boolean;
@@ -647,6 +681,24 @@ export class FileStream$instance extends Stream$instance {
 }
 
 
+export const FileStream: {
+    new(handle: nint, access: FileAccess): FileStream$instance;
+    new(handle: nint, access: FileAccess, ownsHandle: boolean): FileStream$instance;
+    new(handle: nint, access: FileAccess, ownsHandle: boolean, bufferSize: int): FileStream$instance;
+    new(handle: nint, access: FileAccess, ownsHandle: boolean, bufferSize: int, isAsync: boolean): FileStream$instance;
+    new(handle: SafeFileHandle, access: FileAccess): FileStream$instance;
+    new(handle: SafeFileHandle, access: FileAccess, bufferSize: int): FileStream$instance;
+    new(handle: SafeFileHandle, access: FileAccess, bufferSize: int, isAsync: boolean): FileStream$instance;
+    new(path: string, mode: FileMode): FileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess): FileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare): FileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int): FileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, useAsync: boolean): FileStream$instance;
+    new(path: string, mode: FileMode, access: FileAccess, share: FileShare, bufferSize: int, options: FileOptions): FileStream$instance;
+    new(path: string, options: FileStreamOptions): FileStream$instance;
+};
+
+
 export interface __FileStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -655,8 +707,7 @@ export interface __FileStream$views {
 export type FileStream = FileStream$instance & __FileStream$views;
 
 
-export class FileStreamOptions$instance {
-    constructor();
+export interface FileStreamOptions$instance {
     access: FileAccess;
     bufferSize: int;
     mode: FileMode;
@@ -667,37 +718,28 @@ export class FileStreamOptions$instance {
 }
 
 
+export const FileStreamOptions: {
+    new(): FileStreamOptions$instance;
+};
+
+
 export type FileStreamOptions = FileStreamOptions$instance;
 
-export class FileSystemEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(changeType: WatcherChangeTypes, directory: string, name: string);
+export interface FileSystemEventArgs$instance extends EventArgs {
     readonly changeType: WatcherChangeTypes;
     readonly fullPath: string;
     readonly name: string;
 }
 
 
+export const FileSystemEventArgs: {
+    new(changeType: WatcherChangeTypes, directory: string, name: string): FileSystemEventArgs$instance;
+};
+
+
 export type FileSystemEventArgs = FileSystemEventArgs$instance;
 
-export class FileSystemEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: FileSystemEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: FileSystemEventArgs): void;
-}
-
-
-export interface __FileSystemEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type FileSystemEventHandler = FileSystemEventHandler$instance & __FileSystemEventHandler$views;
-
-
-export abstract class FileSystemInfo$instance extends System_Internal.MarshalByRefObject$instance {
+export interface FileSystemInfo$instance extends MarshalByRefObject {
     attributes: FileAttributes;
     creationTime: DateTime;
     creationTimeUtc: DateTime;
@@ -712,12 +754,16 @@ export abstract class FileSystemInfo$instance extends System_Internal.MarshalByR
     readonly name: string;
     unixFileMode: UnixFileMode;
     createAsSymbolicLink(pathToTarget: string): void;
-    abstract delete_(): void;
+    delete_(): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     refresh(): void;
     resolveLinkTarget(returnFinalTarget: boolean): FileSystemInfo;
     toString(): string;
 }
+
+
+export const FileSystemInfo: {
+};
 
 
 export interface __FileSystemInfo$views {
@@ -729,10 +775,7 @@ export interface FileSystemInfo$instance extends System_Runtime_Serialization_In
 export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 
 
-export class FileSystemWatcher$instance extends System_ComponentModel_Internal.Component$instance {
-    constructor();
-    constructor(path: string);
-    constructor(path: string, filter: string);
+export interface FileSystemWatcher$instance extends Component {
     enableRaisingEvents: boolean;
     filter: string;
     readonly filters: Collection_1<CLROf<string>>;
@@ -751,6 +794,13 @@ export class FileSystemWatcher$instance extends System_ComponentModel_Internal.C
 }
 
 
+export const FileSystemWatcher: {
+    new(): FileSystemWatcher$instance;
+    new(path: string): FileSystemWatcher$instance;
+    new(path: string, filter: string): FileSystemWatcher$instance;
+};
+
+
 export interface __FileSystemWatcher$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_ISupportInitialize(): System_ComponentModel_Internal.ISupportInitialize$instance;
@@ -762,12 +812,16 @@ export interface FileSystemWatcher$instance extends System_ComponentModel_Intern
 export type FileSystemWatcher = FileSystemWatcher$instance & __FileSystemWatcher$views;
 
 
-export class InternalBufferOverflowException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface InternalBufferOverflowException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InternalBufferOverflowException: {
+    new(): InternalBufferOverflowException$instance;
+    new(message: string): InternalBufferOverflowException$instance;
+    new(message: string, inner: Exception): InternalBufferOverflowException$instance;
+};
 
 
 export interface __InternalBufferOverflowException$views {
@@ -777,12 +831,16 @@ export interface __InternalBufferOverflowException$views {
 export type InternalBufferOverflowException = InternalBufferOverflowException$instance & __InternalBufferOverflowException$views;
 
 
-export class InvalidDataException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidDataException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidDataException: {
+    new(): InvalidDataException$instance;
+    new(message: string): InvalidDataException$instance;
+    new(message: string, innerException: Exception): InvalidDataException$instance;
+};
 
 
 export interface __InvalidDataException$views {
@@ -792,13 +850,17 @@ export interface __InvalidDataException$views {
 export type InvalidDataException = InvalidDataException$instance & __InvalidDataException$views;
 
 
-export class IOException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, hresult: int);
-    constructor(message: string, innerException: Exception);
+export interface IOException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const IOException: {
+    new(): IOException$instance;
+    new(message: string): IOException$instance;
+    new(message: string, hresult: int): IOException$instance;
+    new(message: string, innerException: Exception): IOException$instance;
+};
 
 
 export interface __IOException$views {
@@ -808,14 +870,7 @@ export interface __IOException$views {
 export type IOException = IOException$instance & __IOException$views;
 
 
-export class MemoryStream$instance extends Stream$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(buffer: byte[]);
-    constructor(buffer: byte[], writable: boolean);
-    constructor(buffer: byte[], index: int, count: int);
-    constructor(buffer: byte[], index: int, count: int, writable: boolean);
-    constructor(buffer: byte[], index: int, count: int, writable: boolean, publiclyVisible: boolean);
+export interface MemoryStream$instance extends Stream$instance {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canWrite: boolean;
@@ -859,6 +914,17 @@ export class MemoryStream$instance extends Stream$instance {
 }
 
 
+export const MemoryStream: {
+    new(): MemoryStream$instance;
+    new(capacity: int): MemoryStream$instance;
+    new(buffer: byte[]): MemoryStream$instance;
+    new(buffer: byte[], writable: boolean): MemoryStream$instance;
+    new(buffer: byte[], index: int, count: int): MemoryStream$instance;
+    new(buffer: byte[], index: int, count: int, writable: boolean): MemoryStream$instance;
+    new(buffer: byte[], index: int, count: int, writable: boolean, publiclyVisible: boolean): MemoryStream$instance;
+};
+
+
 export interface __MemoryStream$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -867,12 +933,16 @@ export interface __MemoryStream$views {
 export type MemoryStream = MemoryStream$instance & __MemoryStream$views;
 
 
-export class PathTooLongException$instance extends IOException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface PathTooLongException$instance extends IOException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const PathTooLongException: {
+    new(): PathTooLongException$instance;
+    new(message: string): PathTooLongException$instance;
+    new(message: string, innerException: Exception): PathTooLongException$instance;
+};
 
 
 export interface __PathTooLongException$views {
@@ -882,34 +952,20 @@ export interface __PathTooLongException$views {
 export type PathTooLongException = PathTooLongException$instance & __PathTooLongException$views;
 
 
-export class RenamedEventArgs$instance extends FileSystemEventArgs$instance {
-    constructor(changeType: WatcherChangeTypes, directory: string, name: string, oldName: string);
+export interface RenamedEventArgs$instance extends FileSystemEventArgs {
     readonly oldFullPath: string;
     readonly oldName: string;
 }
 
 
+export const RenamedEventArgs: {
+    new(changeType: WatcherChangeTypes, directory: string, name: string, oldName: string): RenamedEventArgs$instance;
+};
+
+
 export type RenamedEventArgs = RenamedEventArgs$instance;
 
-export class RenamedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: RenamedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: RenamedEventArgs): void;
-}
-
-
-export interface __RenamedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RenamedEventHandler = RenamedEventHandler$instance & __RenamedEventHandler$views;
-
-
-export abstract class Stream$instance extends System_Internal.MarshalByRefObject$instance {
+export interface Stream$instance extends MarshalByRefObject {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canTimeout: boolean;
@@ -931,7 +987,7 @@ export abstract class Stream$instance extends System_Internal.MarshalByRefObject
     disposeAsync(): ValueTask;
     endRead(asyncResult: IAsyncResult): int;
     endWrite(asyncResult: IAsyncResult): void;
-    abstract flush(): void;
+    flush(): void;
     flushAsync(): Task;
     flushAsync(cancellationToken: CancellationToken): Task;
     read(buffer: byte[], offset: int, count: int): int;
@@ -946,17 +1002,21 @@ export abstract class Stream$instance extends System_Internal.MarshalByRefObject
     readExactly(buffer: byte[], offset: int, count: int): void;
     readExactlyAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     readExactlyAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): ValueTask;
-    abstract seek(offset: long, origin: SeekOrigin): long;
-    abstract setLength(value: long): void;
+    seek(offset: long, origin: SeekOrigin): long;
+    setLength(value: long): void;
     write(buffer: byte[], offset: int, count: int): void;
     write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
-    static readonly null_: Stream;
-    static synchronized(stream: Stream): Stream;
 }
+
+
+export const Stream: {
+    readonly null_: Stream;
+    synchronized(stream: Stream): Stream;
+};
 
 
 export interface __Stream$views {
@@ -969,20 +1029,7 @@ export interface Stream$instance extends System_Internal.IAsyncDisposable$instan
 export type Stream = Stream$instance & __Stream$views;
 
 
-export class StreamReader$instance extends TextReader$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, detectEncodingFromByteOrderMarks: boolean);
-    constructor(stream: Stream, encoding: Encoding);
-    constructor(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean);
-    constructor(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int);
-    constructor(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int, leaveOpen: boolean);
-    constructor(path: string);
-    constructor(path: string, detectEncodingFromByteOrderMarks: boolean);
-    constructor(path: string, encoding: Encoding);
-    constructor(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean);
-    constructor(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int);
-    constructor(path: string, options: FileStreamOptions);
-    constructor(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, options: FileStreamOptions);
+export interface StreamReader$instance extends TextReader$instance {
     readonly baseStream: Stream;
     readonly currentEncoding: Encoding;
     readonly endOfStream: boolean;
@@ -1018,6 +1065,23 @@ export class StreamReader$instance extends TextReader$instance {
 }
 
 
+export const StreamReader: {
+    new(stream: Stream): StreamReader$instance;
+    new(stream: Stream, detectEncodingFromByteOrderMarks: boolean): StreamReader$instance;
+    new(stream: Stream, encoding: Encoding): StreamReader$instance;
+    new(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean): StreamReader$instance;
+    new(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int): StreamReader$instance;
+    new(stream: Stream, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int, leaveOpen: boolean): StreamReader$instance;
+    new(path: string): StreamReader$instance;
+    new(path: string, detectEncodingFromByteOrderMarks: boolean): StreamReader$instance;
+    new(path: string, encoding: Encoding): StreamReader$instance;
+    new(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean): StreamReader$instance;
+    new(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, bufferSize: int): StreamReader$instance;
+    new(path: string, options: FileStreamOptions): StreamReader$instance;
+    new(path: string, encoding: Encoding, detectEncodingFromByteOrderMarks: boolean, options: FileStreamOptions): StreamReader$instance;
+};
+
+
 export interface __StreamReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1025,17 +1089,7 @@ export interface __StreamReader$views {
 export type StreamReader = StreamReader$instance & __StreamReader$views;
 
 
-export class StreamWriter$instance extends TextWriter$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, encoding: Encoding);
-    constructor(stream: Stream, encoding: Encoding, bufferSize: int);
-    constructor(stream: Stream, encoding: Encoding, bufferSize: int, leaveOpen: boolean);
-    constructor(path: string);
-    constructor(path: string, append: boolean);
-    constructor(path: string, append: boolean, encoding: Encoding);
-    constructor(path: string, append: boolean, encoding: Encoding, bufferSize: int);
-    constructor(path: string, options: FileStreamOptions);
-    constructor(path: string, encoding: Encoding, options: FileStreamOptions);
+export interface StreamWriter$instance extends TextWriter$instance {
     autoFlush: boolean;
     readonly baseStream: Stream;
     readonly encoding: Encoding;
@@ -1108,6 +1162,20 @@ export class StreamWriter$instance extends TextWriter$instance {
 }
 
 
+export const StreamWriter: {
+    new(stream: Stream): StreamWriter$instance;
+    new(stream: Stream, encoding: Encoding): StreamWriter$instance;
+    new(stream: Stream, encoding: Encoding, bufferSize: int): StreamWriter$instance;
+    new(stream: Stream, encoding: Encoding, bufferSize: int, leaveOpen: boolean): StreamWriter$instance;
+    new(path: string): StreamWriter$instance;
+    new(path: string, append: boolean): StreamWriter$instance;
+    new(path: string, append: boolean, encoding: Encoding): StreamWriter$instance;
+    new(path: string, append: boolean, encoding: Encoding, bufferSize: int): StreamWriter$instance;
+    new(path: string, options: FileStreamOptions): StreamWriter$instance;
+    new(path: string, encoding: Encoding, options: FileStreamOptions): StreamWriter$instance;
+};
+
+
 export interface __StreamWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -1116,8 +1184,7 @@ export interface __StreamWriter$views {
 export type StreamWriter = StreamWriter$instance & __StreamWriter$views;
 
 
-export class StringReader$instance extends TextReader$instance {
-    constructor(s: string);
+export interface StringReader$instance extends TextReader$instance {
     close(): void;
     dispose(): void;
     peek(): int;
@@ -1149,6 +1216,11 @@ export class StringReader$instance extends TextReader$instance {
 }
 
 
+export const StringReader: {
+    new(s: string): StringReader$instance;
+};
+
+
 export interface __StringReader$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1156,11 +1228,7 @@ export interface __StringReader$views {
 export type StringReader = StringReader$instance & __StringReader$views;
 
 
-export class StringWriter$instance extends TextWriter$instance {
-    constructor();
-    constructor(formatProvider: IFormatProvider);
-    constructor(sb: StringBuilder);
-    constructor(sb: StringBuilder, formatProvider: IFormatProvider);
+export interface StringWriter$instance extends TextWriter$instance {
     readonly encoding: Encoding;
     close(): void;
     dispose(): void;
@@ -1230,6 +1298,14 @@ export class StringWriter$instance extends TextWriter$instance {
 }
 
 
+export const StringWriter: {
+    new(): StringWriter$instance;
+    new(formatProvider: IFormatProvider): StringWriter$instance;
+    new(sb: StringBuilder): StringWriter$instance;
+    new(sb: StringBuilder, formatProvider: IFormatProvider): StringWriter$instance;
+};
+
+
 export interface __StringWriter$views {
     As_IAsyncDisposable(): System_Internal.IAsyncDisposable$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -1238,7 +1314,7 @@ export interface __StringWriter$views {
 export type StringWriter = StringWriter$instance & __StringWriter$views;
 
 
-export abstract class TextReader$instance extends System_Internal.MarshalByRefObject$instance {
+export interface TextReader$instance extends MarshalByRefObject {
     close(): void;
     dispose(): void;
     peek(): int;
@@ -1257,9 +1333,13 @@ export abstract class TextReader$instance extends System_Internal.MarshalByRefOb
     readToEnd(): string;
     readToEndAsync(): Task_1<CLROf<string>>;
     readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
-    static readonly null_: TextReader;
-    static synchronized(reader: TextReader): TextReader;
 }
+
+
+export const TextReader: {
+    readonly null_: TextReader;
+    synchronized(reader: TextReader): TextReader;
+};
 
 
 export interface __TextReader$views {
@@ -1271,7 +1351,7 @@ export interface TextReader$instance extends System_Internal.IDisposable$instanc
 export type TextReader = TextReader$instance & __TextReader$views;
 
 
-export abstract class TextWriter$instance extends System_Internal.MarshalByRefObject$instance {
+export interface TextWriter$instance extends MarshalByRefObject {
     readonly encoding: Encoding;
     readonly formatProvider: IFormatProvider;
     newLine: string;
@@ -1335,10 +1415,14 @@ export abstract class TextWriter$instance extends System_Internal.MarshalByRefOb
     writeLineAsync(buffer: char[], index: int, count: int): Task;
     writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
     writeLineAsync(): Task;
-    static readonly null_: TextWriter;
-    static createBroadcasting(writers: TextWriter[]): TextWriter;
-    static synchronized(writer: TextWriter): TextWriter;
 }
+
+
+export const TextWriter: {
+    readonly null_: TextWriter;
+    createBroadcasting(writers: TextWriter[]): TextWriter;
+    synchronized(writer: TextWriter): TextWriter;
+};
 
 
 export interface __TextWriter$views {
@@ -1351,9 +1435,7 @@ export interface TextWriter$instance extends System_Internal.IAsyncDisposable$in
 export type TextWriter = TextWriter$instance & __TextWriter$views;
 
 
-export class UnmanagedMemoryAccessor$instance {
-    constructor(buffer: SafeBuffer, offset: long, capacity: long);
-    constructor(buffer: SafeBuffer, offset: long, capacity: long, access: FileAccess);
+export interface UnmanagedMemoryAccessor$instance {
     readonly canRead: boolean;
     readonly canWrite: boolean;
     readonly capacity: long;
@@ -1391,6 +1473,12 @@ export class UnmanagedMemoryAccessor$instance {
 }
 
 
+export const UnmanagedMemoryAccessor: {
+    new(buffer: SafeBuffer, offset: long, capacity: long): UnmanagedMemoryAccessor$instance;
+    new(buffer: SafeBuffer, offset: long, capacity: long, access: FileAccess): UnmanagedMemoryAccessor$instance;
+};
+
+
 export interface __UnmanagedMemoryAccessor$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1400,11 +1488,7 @@ export interface UnmanagedMemoryAccessor$instance extends System_Internal.IDispo
 export type UnmanagedMemoryAccessor = UnmanagedMemoryAccessor$instance & __UnmanagedMemoryAccessor$views;
 
 
-export class UnmanagedMemoryStream$instance extends Stream$instance {
-    constructor(buffer: SafeBuffer, offset: long, length: long);
-    constructor(buffer: SafeBuffer, offset: long, length: long, access: FileAccess);
-    constructor(pointer: ptr<byte>, length: long);
-    constructor(pointer: ptr<byte>, length: long, capacity: long, access: FileAccess);
+export interface UnmanagedMemoryStream$instance extends Stream$instance {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canWrite: boolean;
@@ -1437,6 +1521,14 @@ export class UnmanagedMemoryStream$instance extends Stream$instance {
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
+
+
+export const UnmanagedMemoryStream: {
+    new(buffer: SafeBuffer, offset: long, length: long): UnmanagedMemoryStream$instance;
+    new(buffer: SafeBuffer, offset: long, length: long, access: FileAccess): UnmanagedMemoryStream$instance;
+    new(pointer: ptr<byte>, length: long): UnmanagedMemoryStream$instance;
+    new(pointer: ptr<byte>, length: long, capacity: long, access: FileAccess): UnmanagedMemoryStream$instance;
+};
 
 
 export interface __UnmanagedMemoryStream$views {

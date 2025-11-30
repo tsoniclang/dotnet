@@ -178,7 +178,7 @@ export enum UnicodeCategory {
 }
 
 
-export abstract class Calendar$instance {
+export interface Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly isReadOnly: boolean;
@@ -189,30 +189,30 @@ export abstract class Calendar$instance {
     addHours(time: DateTime, hours: int): DateTime;
     addMilliseconds(time: DateTime, milliseconds: double): DateTime;
     addMinutes(time: DateTime, minutes: int): DateTime;
-    abstract addMonths(time: DateTime, months: int): DateTime;
+    addMonths(time: DateTime, months: int): DateTime;
     addSeconds(time: DateTime, seconds: int): DateTime;
     addWeeks(time: DateTime, weeks: int): DateTime;
-    abstract addYears(time: DateTime, years: int): DateTime;
+    addYears(time: DateTime, years: int): DateTime;
     clone(): unknown;
-    abstract getDayOfMonth(time: DateTime): int;
-    abstract getDayOfWeek(time: DateTime): DayOfWeek;
-    abstract getDayOfYear(time: DateTime): int;
+    getDayOfMonth(time: DateTime): int;
+    getDayOfWeek(time: DateTime): DayOfWeek;
+    getDayOfYear(time: DateTime): int;
     getDaysInMonth(year: int, month: int): int;
     getDaysInMonth(year: int, month: int, era: int): int;
     getDaysInYear(year: int): int;
     getDaysInYear(year: int, era: int): int;
-    abstract getEra(time: DateTime): int;
+    getEra(time: DateTime): int;
     getHour(time: DateTime): int;
     getLeapMonth(year: int): int;
     getLeapMonth(year: int, era: int): int;
     getMilliseconds(time: DateTime): double;
     getMinute(time: DateTime): int;
-    abstract getMonth(time: DateTime): int;
+    getMonth(time: DateTime): int;
     getMonthsInYear(year: int): int;
     getMonthsInYear(year: int, era: int): int;
     getSecond(time: DateTime): int;
     getWeekOfYear(time: DateTime, rule: CalendarWeekRule, firstDayOfWeek: DayOfWeek): int;
-    abstract getYear(time: DateTime): int;
+    getYear(time: DateTime): int;
     isLeapDay(year: int, month: int, day: int): boolean;
     isLeapDay(year: int, month: int, day: int, era: int): boolean;
     isLeapMonth(year: int, month: int): boolean;
@@ -222,9 +222,13 @@ export abstract class Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly currentEra: int;
-    static readOnly(calendar: Calendar): Calendar;
 }
+
+
+export const Calendar: {
+    readonly currentEra: int;
+    readOnly(calendar: Calendar): Calendar;
+};
 
 
 export interface __Calendar$views {
@@ -236,15 +240,19 @@ export interface Calendar$instance extends System_Internal.ICloneable$instance {
 export type Calendar = Calendar$instance & __Calendar$views;
 
 
-export class ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    constructor();
+export interface ChineseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
     clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly chineseEra: int;
 }
+
+
+export const ChineseLunisolarCalendar: {
+    new(): ChineseLunisolarCalendar$instance;
+    readonly chineseEra: int;
+};
 
 
 export interface __ChineseLunisolarCalendar$views {
@@ -254,7 +262,7 @@ export interface __ChineseLunisolarCalendar$views {
 export type ChineseLunisolarCalendar = ChineseLunisolarCalendar$instance & __ChineseLunisolarCalendar$views;
 
 
-export class CompareInfo$instance {
+export interface CompareInfo$instance {
     readonly LCID: int;
     readonly name: string;
     readonly version: SortVersion;
@@ -312,15 +320,20 @@ export class CompareInfo$instance {
     lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
     lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: Rune, options?: CompareOptions): int;
     toString(): string;
-    static getCompareInfo(culture: int, assembly: Assembly): CompareInfo;
-    static getCompareInfo(culture: int): CompareInfo;
-    static getCompareInfo(name: string, assembly: Assembly): CompareInfo;
-    static getCompareInfo(name: string): CompareInfo;
-    static isSortable(ch: char): boolean;
-    static isSortable(text: ReadOnlySpan_1<CLROf<char>>): boolean;
-    static isSortable(text: string): boolean;
-    static isSortable(value: Rune): boolean;
 }
+
+
+export const CompareInfo: {
+    new(): CompareInfo$instance;
+    getCompareInfo(culture: int, assembly: Assembly): CompareInfo;
+    getCompareInfo(culture: int): CompareInfo;
+    getCompareInfo(name: string, assembly: Assembly): CompareInfo;
+    getCompareInfo(name: string): CompareInfo;
+    isSortable(ch: char): boolean;
+    isSortable(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    isSortable(text: string): boolean;
+    isSortable(value: Rune): boolean;
+};
 
 
 export interface __CompareInfo$views {
@@ -332,11 +345,7 @@ export interface CompareInfo$instance extends System_Runtime_Serialization_Inter
 export type CompareInfo = CompareInfo$instance & __CompareInfo$views;
 
 
-export class CultureInfo$instance {
-    constructor(name: string);
-    constructor(name: string, useUserOverride: boolean);
-    constructor(culture: int);
-    constructor(culture: int, useUserOverride: boolean);
+export interface CultureInfo$instance {
     readonly calendar: Calendar;
     readonly compareInfo: CompareInfo;
     readonly cultureTypes: CultureTypes;
@@ -365,21 +374,29 @@ export class CultureInfo$instance {
     getFormat(formatType: Type): unknown;
     getHashCode(): int;
     toString(): string;
-    static currentCulture: CultureInfo;
-    static currentUICulture: CultureInfo;
-    static readonly installedUICulture: CultureInfo;
-    static defaultThreadCurrentCulture: CultureInfo;
-    static defaultThreadCurrentUICulture: CultureInfo;
-    static readonly invariantCulture: CultureInfo;
-    static createSpecificCulture(name: string): CultureInfo;
-    static getCultureInfo(culture: int): CultureInfo;
-    static getCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
-    static getCultureInfo(name: string, altName: string): CultureInfo;
-    static getCultureInfo(name: string): CultureInfo;
-    static getCultureInfoByIetfLanguageTag(name: string): CultureInfo;
-    static getCultures(types: CultureTypes): CultureInfo[];
-    static readOnly(ci: CultureInfo): CultureInfo;
 }
+
+
+export const CultureInfo: {
+    new(name: string): CultureInfo$instance;
+    new(name: string, useUserOverride: boolean): CultureInfo$instance;
+    new(culture: int): CultureInfo$instance;
+    new(culture: int, useUserOverride: boolean): CultureInfo$instance;
+    currentCulture: CultureInfo;
+    currentUICulture: CultureInfo;
+    readonly installedUICulture: CultureInfo;
+    defaultThreadCurrentCulture: CultureInfo;
+    defaultThreadCurrentUICulture: CultureInfo;
+    readonly invariantCulture: CultureInfo;
+    createSpecificCulture(name: string): CultureInfo;
+    getCultureInfo(culture: int): CultureInfo;
+    getCultureInfo(name: string, predefinedOnly: boolean): CultureInfo;
+    getCultureInfo(name: string, altName: string): CultureInfo;
+    getCultureInfo(name: string): CultureInfo;
+    getCultureInfoByIetfLanguageTag(name: string): CultureInfo;
+    getCultures(types: CultureTypes): CultureInfo[];
+    readOnly(ci: CultureInfo): CultureInfo;
+};
 
 
 export interface __CultureInfo$views {
@@ -392,20 +409,24 @@ export interface CultureInfo$instance extends System_Internal.ICloneable$instanc
 export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
-export class CultureNotFoundException$instance extends System_Internal.ArgumentException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(paramName: string, message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(paramName: string, invalidCultureName: string, message: string);
-    constructor(message: string, invalidCultureName: string, innerException: Exception);
-    constructor(message: string, invalidCultureId: int, innerException: Exception);
-    constructor(paramName: string, invalidCultureId: int, message: string);
+export interface CultureNotFoundException$instance extends ArgumentException {
     readonly invalidCultureId: Nullable_1<CLROf<int>>;
     readonly invalidCultureName: string;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const CultureNotFoundException: {
+    new(): CultureNotFoundException$instance;
+    new(message: string): CultureNotFoundException$instance;
+    new(paramName: string, message: string): CultureNotFoundException$instance;
+    new(message: string, innerException: Exception): CultureNotFoundException$instance;
+    new(paramName: string, invalidCultureName: string, message: string): CultureNotFoundException$instance;
+    new(message: string, invalidCultureName: string, innerException: Exception): CultureNotFoundException$instance;
+    new(message: string, invalidCultureId: int, innerException: Exception): CultureNotFoundException$instance;
+    new(paramName: string, invalidCultureId: int, message: string): CultureNotFoundException$instance;
+};
 
 
 export interface __CultureNotFoundException$views {
@@ -415,8 +436,7 @@ export interface __CultureNotFoundException$views {
 export type CultureNotFoundException = CultureNotFoundException$instance & __CultureNotFoundException$views;
 
 
-export class DateTimeFormatInfo$instance {
-    constructor();
+export interface DateTimeFormatInfo$instance {
     abbreviatedDayNames: string[];
     abbreviatedMonthGenitiveNames: string[];
     abbreviatedMonthNames: string[];
@@ -456,11 +476,16 @@ export class DateTimeFormatInfo$instance {
     getMonthName(month: int): string;
     getShortestDayName(dayOfWeek: DayOfWeek): string;
     setAllDateTimePatterns(patterns: string[], format: char): void;
-    static readonly invariantInfo: DateTimeFormatInfo;
-    static readonly currentInfo: DateTimeFormatInfo;
-    static getInstance(provider: IFormatProvider): DateTimeFormatInfo;
-    static readOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
 }
+
+
+export const DateTimeFormatInfo: {
+    new(): DateTimeFormatInfo$instance;
+    readonly invariantInfo: DateTimeFormatInfo;
+    readonly currentInfo: DateTimeFormatInfo;
+    getInstance(provider: IFormatProvider): DateTimeFormatInfo;
+    readOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
+};
 
 
 export interface __DateTimeFormatInfo$views {
@@ -473,17 +498,21 @@ export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$
 export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatInfo$views;
 
 
-export class DaylightTime$instance {
-    constructor(start: DateTime, end: DateTime, delta: TimeSpan);
+export interface DaylightTime$instance {
     readonly delta: TimeSpan;
     readonly end: DateTime;
     readonly start: DateTime;
 }
 
 
+export const DaylightTime: {
+    new(start: DateTime, end: DateTime, delta: TimeSpan): DaylightTime$instance;
+};
+
+
 export type DaylightTime = DaylightTime$instance;
 
-export abstract class EastAsianLunisolarCalendar$instance extends Calendar$instance {
+export interface EastAsianLunisolarCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     twoDigitYearMax: int;
     addMonths(time: DateTime, months: int): DateTime;
@@ -517,6 +546,10 @@ export abstract class EastAsianLunisolarCalendar$instance extends Calendar$insta
 }
 
 
+export const EastAsianLunisolarCalendar: {
+};
+
+
 export interface __EastAsianLunisolarCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
@@ -524,9 +557,7 @@ export interface __EastAsianLunisolarCalendar$views {
 export type EastAsianLunisolarCalendar = EastAsianLunisolarCalendar$instance & __EastAsianLunisolarCalendar$views;
 
 
-export class GregorianCalendar$instance extends Calendar$instance {
-    constructor();
-    constructor(type_: GregorianCalendarTypes);
+export interface GregorianCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     calendarType: GregorianCalendarTypes;
     readonly eras: int[];
@@ -559,8 +590,14 @@ export class GregorianCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly adEra: int;
 }
+
+
+export const GregorianCalendar: {
+    new(): GregorianCalendar$instance;
+    new(type_: GregorianCalendarTypes): GregorianCalendar$instance;
+    readonly adEra: int;
+};
 
 
 export interface __GregorianCalendar$views {
@@ -570,8 +607,7 @@ export interface __GregorianCalendar$views {
 export type GregorianCalendar = GregorianCalendar$instance & __GregorianCalendar$views;
 
 
-export class HebrewCalendar$instance extends Calendar$instance {
-    constructor();
+export interface HebrewCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -603,8 +639,13 @@ export class HebrewCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly hebrewEra: int;
 }
+
+
+export const HebrewCalendar: {
+    new(): HebrewCalendar$instance;
+    readonly hebrewEra: int;
+};
 
 
 export interface __HebrewCalendar$views {
@@ -614,8 +655,7 @@ export interface __HebrewCalendar$views {
 export type HebrewCalendar = HebrewCalendar$instance & __HebrewCalendar$views;
 
 
-export class HijriCalendar$instance extends Calendar$instance {
-    constructor();
+export interface HijriCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     hijriAdjustment: int;
@@ -648,8 +688,13 @@ export class HijriCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly hijriEra: int;
 }
+
+
+export const HijriCalendar: {
+    new(): HijriCalendar$instance;
+    readonly hijriEra: int;
+};
 
 
 export interface __HijriCalendar$views {
@@ -659,8 +704,7 @@ export interface __HijriCalendar$views {
 export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 
 
-export class IdnMapping$instance {
-    constructor();
+export interface IdnMapping$instance {
     allowUnassigned: boolean;
     useStd3AsciiRules: boolean;
     equals(obj: unknown): boolean;
@@ -674,10 +718,14 @@ export class IdnMapping$instance {
 }
 
 
+export const IdnMapping: {
+    new(): IdnMapping$instance;
+};
+
+
 export type IdnMapping = IdnMapping$instance;
 
-export class JapaneseCalendar$instance extends Calendar$instance {
-    constructor();
+export interface JapaneseCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -711,6 +759,11 @@ export class JapaneseCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
 }
+
+
+export const JapaneseCalendar: {
+    new(): JapaneseCalendar$instance;
+};
 
 
 export interface __JapaneseCalendar$views {
@@ -720,15 +773,19 @@ export interface __JapaneseCalendar$views {
 export type JapaneseCalendar = JapaneseCalendar$instance & __JapaneseCalendar$views;
 
 
-export class JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    constructor();
+export interface JapaneseLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
     clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly japaneseEra: int;
 }
+
+
+export const JapaneseLunisolarCalendar: {
+    new(): JapaneseLunisolarCalendar$instance;
+    readonly japaneseEra: int;
+};
 
 
 export interface __JapaneseLunisolarCalendar$views {
@@ -738,8 +795,7 @@ export interface __JapaneseLunisolarCalendar$views {
 export type JapaneseLunisolarCalendar = JapaneseLunisolarCalendar$instance & __JapaneseLunisolarCalendar$views;
 
 
-export class JulianCalendar$instance extends Calendar$instance {
-    constructor();
+export interface JulianCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -771,8 +827,13 @@ export class JulianCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly julianEra: int;
 }
+
+
+export const JulianCalendar: {
+    new(): JulianCalendar$instance;
+    readonly julianEra: int;
+};
 
 
 export interface __JulianCalendar$views {
@@ -782,8 +843,7 @@ export interface __JulianCalendar$views {
 export type JulianCalendar = JulianCalendar$instance & __JulianCalendar$views;
 
 
-export class KoreanCalendar$instance extends Calendar$instance {
-    constructor();
+export interface KoreanCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -816,8 +876,13 @@ export class KoreanCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly koreanEra: int;
 }
+
+
+export const KoreanCalendar: {
+    new(): KoreanCalendar$instance;
+    readonly koreanEra: int;
+};
 
 
 export interface __KoreanCalendar$views {
@@ -827,15 +892,19 @@ export interface __KoreanCalendar$views {
 export type KoreanCalendar = KoreanCalendar$instance & __KoreanCalendar$views;
 
 
-export class KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    constructor();
+export interface KoreanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
     clone(): unknown;
     getEra(time: DateTime): int;
-    static readonly gregorianEra: int;
 }
+
+
+export const KoreanLunisolarCalendar: {
+    new(): KoreanLunisolarCalendar$instance;
+    readonly gregorianEra: int;
+};
 
 
 export interface __KoreanLunisolarCalendar$views {
@@ -845,8 +914,7 @@ export interface __KoreanLunisolarCalendar$views {
 export type KoreanLunisolarCalendar = KoreanLunisolarCalendar$instance & __KoreanLunisolarCalendar$views;
 
 
-export class NumberFormatInfo$instance {
-    constructor();
+export interface NumberFormatInfo$instance {
     currencyDecimalDigits: int;
     currencyDecimalSeparator: string;
     currencyGroupSeparator: string;
@@ -877,11 +945,16 @@ export class NumberFormatInfo$instance {
     positiveSign: string;
     clone(): unknown;
     getFormat(formatType: Type): unknown;
-    static readonly invariantInfo: NumberFormatInfo;
-    static readonly currentInfo: NumberFormatInfo;
-    static getInstance(formatProvider: IFormatProvider): NumberFormatInfo;
-    static readOnly(nfi: NumberFormatInfo): NumberFormatInfo;
 }
+
+
+export const NumberFormatInfo: {
+    new(): NumberFormatInfo$instance;
+    readonly invariantInfo: NumberFormatInfo;
+    readonly currentInfo: NumberFormatInfo;
+    getInstance(formatProvider: IFormatProvider): NumberFormatInfo;
+    readOnly(nfi: NumberFormatInfo): NumberFormatInfo;
+};
 
 
 export interface __NumberFormatInfo$views {
@@ -894,8 +967,7 @@ export interface NumberFormatInfo$instance extends System_Internal.ICloneable$in
 export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$views;
 
 
-export class PersianCalendar$instance extends Calendar$instance {
-    constructor();
+export interface PersianCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -927,8 +999,13 @@ export class PersianCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly persianEra: int;
 }
+
+
+export const PersianCalendar: {
+    new(): PersianCalendar$instance;
+    readonly persianEra: int;
+};
 
 
 export interface __PersianCalendar$views {
@@ -938,9 +1015,7 @@ export interface __PersianCalendar$views {
 export type PersianCalendar = PersianCalendar$instance & __PersianCalendar$views;
 
 
-export class RegionInfo$instance {
-    constructor(name: string);
-    constructor(culture: int);
+export interface RegionInfo$instance {
     readonly currencyEnglishName: string;
     readonly currencyNativeName: string;
     readonly currencySymbol: string;
@@ -957,32 +1032,47 @@ export class RegionInfo$instance {
     equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly currentRegion: RegionInfo;
 }
+
+
+export const RegionInfo: {
+    new(name: string): RegionInfo$instance;
+    new(culture: int): RegionInfo$instance;
+    readonly currentRegion: RegionInfo;
+};
 
 
 export type RegionInfo = RegionInfo$instance;
 
-export class SortKey$instance {
+export interface SortKey$instance {
     readonly keyData: byte[];
     readonly originalString: string;
     equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static compare(sortkey1: SortKey, sortkey2: SortKey): int;
 }
+
+
+export const SortKey: {
+    new(): SortKey$instance;
+    compare(sortkey1: SortKey, sortkey2: SortKey): int;
+};
 
 
 export type SortKey = SortKey$instance;
 
-export class SortVersion$instance {
-    constructor(fullVersion: int, sortId: Guid);
+export interface SortVersion$instance {
     readonly fullVersion: int;
     readonly sortId: Guid;
     equals(obj: unknown): boolean;
     equals(other: SortVersion): boolean;
     getHashCode(): int;
 }
+
+
+export const SortVersion: {
+    new(fullVersion: int, sortId: Guid): SortVersion$instance;
+};
 
 
 export interface __SortVersion$views {
@@ -995,30 +1085,33 @@ export interface __SortVersion$views {
 export type SortVersion = SortVersion$instance & __SortVersion$views;
 
 
-export class StringInfo$instance {
-    constructor();
-    constructor(value: string);
+export interface StringInfo$instance {
     readonly lengthInTextElements: int;
     string_: string;
     equals(value: unknown): boolean;
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
-    static getNextTextElement(str: string, index: int): string;
-    static getNextTextElement(str: string): string;
-    static getNextTextElementLength(str: ReadOnlySpan_1<CLROf<char>>): int;
-    static getNextTextElementLength(str: string, index: int): int;
-    static getNextTextElementLength(str: string): int;
-    static getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
-    static getTextElementEnumerator(str: string): TextElementEnumerator;
-    static parseCombiningCharacters(str: string): int[];
 }
+
+
+export const StringInfo: {
+    new(): StringInfo$instance;
+    new(value: string): StringInfo$instance;
+    getNextTextElement(str: string, index: int): string;
+    getNextTextElement(str: string): string;
+    getNextTextElementLength(str: ReadOnlySpan_1<CLROf<char>>): int;
+    getNextTextElementLength(str: string, index: int): int;
+    getNextTextElementLength(str: string): int;
+    getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
+    getTextElementEnumerator(str: string): TextElementEnumerator;
+    parseCombiningCharacters(str: string): int[];
+};
 
 
 export type StringInfo = StringInfo$instance;
 
-export class TaiwanCalendar$instance extends Calendar$instance {
-    constructor();
+export interface TaiwanCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -1054,6 +1147,11 @@ export class TaiwanCalendar$instance extends Calendar$instance {
 }
 
 
+export const TaiwanCalendar: {
+    new(): TaiwanCalendar$instance;
+};
+
+
 export interface __TaiwanCalendar$views {
     As_ICloneable(): System_Internal.ICloneable$instance;
 }
@@ -1061,14 +1159,18 @@ export interface __TaiwanCalendar$views {
 export type TaiwanCalendar = TaiwanCalendar$instance & __TaiwanCalendar$views;
 
 
-export class TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
-    constructor();
+export interface TaiwanLunisolarCalendar$instance extends EastAsianLunisolarCalendar$instance {
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
     readonly minSupportedDateTime: DateTime;
     clone(): unknown;
     getEra(time: DateTime): int;
 }
+
+
+export const TaiwanLunisolarCalendar: {
+    new(): TaiwanLunisolarCalendar$instance;
+};
 
 
 export interface __TaiwanLunisolarCalendar$views {
@@ -1078,13 +1180,18 @@ export interface __TaiwanLunisolarCalendar$views {
 export type TaiwanLunisolarCalendar = TaiwanLunisolarCalendar$instance & __TaiwanLunisolarCalendar$views;
 
 
-export class TextElementEnumerator$instance {
+export interface TextElementEnumerator$instance {
     readonly current: unknown;
     readonly elementIndex: int;
     getTextElement(): string;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const TextElementEnumerator: {
+    new(): TextElementEnumerator$instance;
+};
 
 
 export interface __TextElementEnumerator$views {
@@ -1096,7 +1203,7 @@ export interface TextElementEnumerator$instance extends System_Collections_Inter
 export type TextElementEnumerator = TextElementEnumerator$instance & __TextElementEnumerator$views;
 
 
-export class TextInfo$instance {
+export interface TextInfo$instance {
     readonly ansiCodePage: int;
     readonly cultureName: string;
     readonly ebcdicCodePage: int;
@@ -1115,8 +1222,13 @@ export class TextInfo$instance {
     toTitleCase(str: string): string;
     toUpper(c: char): char;
     toUpper(str: string): string;
-    static readOnly(textInfo: TextInfo): TextInfo;
 }
+
+
+export const TextInfo: {
+    new(): TextInfo$instance;
+    readOnly(textInfo: TextInfo): TextInfo;
+};
 
 
 export interface __TextInfo$views {
@@ -1129,8 +1241,7 @@ export interface TextInfo$instance extends System_Internal.ICloneable$instance, 
 export type TextInfo = TextInfo$instance & __TextInfo$views;
 
 
-export class ThaiBuddhistCalendar$instance extends Calendar$instance {
-    constructor();
+export interface ThaiBuddhistCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -1163,8 +1274,13 @@ export class ThaiBuddhistCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly thaiBuddhistEra: int;
 }
+
+
+export const ThaiBuddhistCalendar: {
+    new(): ThaiBuddhistCalendar$instance;
+    readonly thaiBuddhistEra: int;
+};
 
 
 export interface __ThaiBuddhistCalendar$views {
@@ -1174,8 +1290,7 @@ export interface __ThaiBuddhistCalendar$views {
 export type ThaiBuddhistCalendar = ThaiBuddhistCalendar$instance & __ThaiBuddhistCalendar$views;
 
 
-export class UmAlQuraCalendar$instance extends Calendar$instance {
-    constructor();
+export interface UmAlQuraCalendar$instance extends Calendar$instance {
     readonly algorithmType: CalendarAlgorithmType;
     readonly eras: int[];
     readonly maxSupportedDateTime: DateTime;
@@ -1207,8 +1322,13 @@ export class UmAlQuraCalendar$instance extends Calendar$instance {
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int, era: int): DateTime;
     toDateTime(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: int): DateTime;
     toFourDigitYear(year: int): int;
-    static readonly umAlQuraEra: int;
 }
+
+
+export const UmAlQuraCalendar: {
+    new(): UmAlQuraCalendar$instance;
+    readonly umAlQuraEra: int;
+};
 
 
 export interface __UmAlQuraCalendar$views {

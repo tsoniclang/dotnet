@@ -12,7 +12,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::Unwrap():System.Object",
           "clrName": "Unwrap",
           "tsEmitName": "unwrap",
-          "metadataToken": 100682761,
+          "metadataToken": 100682741,
           "canonicalSignature": "():System.Object",
           "normalizedSignature": "Unwrap|():System.Object|static=false",
           "emitScope": "ClassSurface",
@@ -29,7 +29,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Remoting.ObjectHandle::.ctor(System.Object):void",
-          "metadataToken": 100682760,
+          "metadataToken": 100682740,
           "canonicalSignature": "(System.Object):void",
           "normalizedSignature": "constructor|(System.Object):void|static=false",
           "isStatic": false,
@@ -46,7 +46,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682761
+            "metadataToken": 100682741
           }
         },
         {
@@ -137,7 +137,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Remoting.ObjectHandle",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682760
+            "metadataToken": 100682740
           }
         }
       ]

@@ -48,12 +48,7 @@ export enum XmlKnownDtds {
 }
 
 
-export class XmlPreloadedResolver$instance extends System_Xml_Internal.XmlResolver$instance {
-    constructor();
-    constructor(preloadedDtds: XmlKnownDtds);
-    constructor(fallbackResolver: XmlResolver);
-    constructor(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds);
-    constructor(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri>);
+export interface XmlPreloadedResolver$instance extends XmlResolver {
     credentials: ICredentials;
     readonly preloadedUris: IEnumerable_1<Uri>;
     add(uri: Uri, value: byte[]): void;
@@ -67,6 +62,15 @@ export class XmlPreloadedResolver$instance extends System_Xml_Internal.XmlResolv
     resolveUri(baseUri: Uri, relativeUri: string): Uri;
     supportsType(absoluteUri: Uri, type_: Type): boolean;
 }
+
+
+export const XmlPreloadedResolver: {
+    new(): XmlPreloadedResolver$instance;
+    new(preloadedDtds: XmlKnownDtds): XmlPreloadedResolver$instance;
+    new(fallbackResolver: XmlResolver): XmlPreloadedResolver$instance;
+    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds): XmlPreloadedResolver$instance;
+    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri>): XmlPreloadedResolver$instance;
+};
 
 
 export type XmlPreloadedResolver = XmlPreloadedResolver$instance;

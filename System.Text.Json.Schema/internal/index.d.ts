@@ -37,7 +37,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class JsonSchemaExporterContext$instance {
+export interface JsonSchemaExporterContext$instance {
     readonly baseTypeInfo: JsonTypeInfo;
     readonly path: ReadOnlySpan_1<CLROf<string>>;
     readonly propertyInfo: JsonPropertyInfo;
@@ -45,14 +45,23 @@ export class JsonSchemaExporterContext$instance {
 }
 
 
+export const JsonSchemaExporterContext: {
+    new(): JsonSchemaExporterContext$instance;
+};
+
+
 export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
-export class JsonSchemaExporterOptions$instance {
-    constructor();
+export interface JsonSchemaExporterOptions$instance {
     transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>;
     treatNullObliviousAsNonNullable: boolean;
-    static readonly default_: JsonSchemaExporterOptions;
 }
+
+
+export const JsonSchemaExporterOptions: {
+    new(): JsonSchemaExporterOptions$instance;
+    readonly default_: JsonSchemaExporterOptions;
+};
 
 
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;

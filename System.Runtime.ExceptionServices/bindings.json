@@ -12,7 +12,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Capture(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo",
           "clrName": "Capture",
           "tsEmitName": "capture",
-          "metadataToken": 100695617,
+          "metadataToken": 100695510,
           "canonicalSignature": "(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo",
           "normalizedSignature": "Capture|(System.Exception):System.Runtime.ExceptionServices.ExceptionDispatchInfo|static=true",
           "emitScope": "ClassSurface",
@@ -26,7 +26,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw():System.Void",
           "clrName": "Throw",
           "tsEmitName": "throw_",
-          "metadataToken": 100695619,
+          "metadataToken": 100695512,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Throw|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -40,7 +40,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw(System.Exception):System.Void",
           "clrName": "Throw",
           "tsEmitName": "throw_",
-          "metadataToken": 100695620,
+          "metadataToken": 100695513,
           "canonicalSignature": "(System.Exception):System.Void",
           "normalizedSignature": "Throw|(System.Exception):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -54,7 +54,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetCurrentStackTrace(System.Exception):System.Exception",
           "clrName": "SetCurrentStackTrace",
           "tsEmitName": "setCurrentStackTrace",
-          "metadataToken": 100695621,
+          "metadataToken": 100695514,
           "canonicalSignature": "(System.Exception):System.Exception",
           "normalizedSignature": "SetCurrentStackTrace|(System.Exception):System.Exception|static=true",
           "emitScope": "ClassSurface",
@@ -68,7 +68,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SetRemoteStackTrace(System.Exception,System.String):System.Exception",
           "clrName": "SetRemoteStackTrace",
           "tsEmitName": "setRemoteStackTrace",
-          "metadataToken": 100695622,
+          "metadataToken": 100695515,
           "canonicalSignature": "(System.Exception,System.String):System.Exception",
           "normalizedSignature": "SetRemoteStackTrace|(System.Exception,System.String):System.Exception|static=true",
           "emitScope": "ClassSurface",
@@ -84,7 +84,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::SourceException:System.Exception",
           "clrName": "SourceException",
           "tsEmitName": "sourceException",
-          "metadataToken": 385879744,
+          "metadataToken": 385879704,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "SourceException|:System.Exception|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -106,7 +106,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695617
+            "metadataToken": 100695510
           }
         },
         {
@@ -116,7 +116,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695619
+            "metadataToken": 100695512
           }
         },
         {
@@ -126,7 +126,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695620
+            "metadataToken": 100695513
           }
         },
         {
@@ -136,7 +136,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695621
+            "metadataToken": 100695514
           }
         },
         {
@@ -146,7 +146,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695622
+            "metadataToken": 100695515
           }
         },
         {
@@ -218,7 +218,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionDispatchInfo",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879744
+            "metadataToken": 385879704
           }
         }
       ]
@@ -235,7 +235,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs::Exception:System.Exception",
           "clrName": "Exception",
           "tsEmitName": "exception",
-          "metadataToken": 385879745,
+          "metadataToken": 385879705,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "Exception|:System.Exception|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -251,7 +251,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs::.ctor(System.Exception):void",
-          "metadataToken": 100695626,
+          "metadataToken": 100695519,
           "canonicalSignature": "(System.Exception):void",
           "normalizedSignature": "constructor|(System.Exception):void|static=false",
           "isStatic": false,
@@ -330,7 +330,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879745
+            "metadataToken": 385879705
           }
         }
       ],
@@ -341,7 +341,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695626
+            "metadataToken": 100695519
           }
         }
       ]
@@ -359,7 +359,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute::.ctor():void",
-          "metadataToken": 100695628,
+          "metadataToken": 100695521,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -539,7 +539,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695628
+            "metadataToken": 100695521
           }
         }
       ]
@@ -555,7 +555,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling::SetUnhandledExceptionHandler(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "SetUnhandledExceptionHandler",
           "tsEmitName": "setUnhandledExceptionHandler",
-          "metadataToken": 100695624,
+          "metadataToken": 100695517,
           "canonicalSignature": "(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "SetUnhandledExceptionHandler|(System.Func_2[[System.Exception,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Boolean,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -569,7 +569,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionHandling::RaiseAppDomainUnhandledExceptionEvent(System.Object):System.Void",
           "clrName": "RaiseAppDomainUnhandledExceptionEvent",
           "tsEmitName": "raiseAppDomainUnhandledExceptionEvent",
-          "metadataToken": 100695625,
+          "metadataToken": 100695518,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "RaiseAppDomainUnhandledExceptionEvent|(System.Object):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -592,7 +592,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionHandling",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695624
+            "metadataToken": 100695517
           }
         },
         {
@@ -602,7 +602,7 @@
           "target": {
             "declaringClrType": "System.Runtime.ExceptionServices.ExceptionHandling",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695625
+            "metadataToken": 100695518
           }
         },
         {

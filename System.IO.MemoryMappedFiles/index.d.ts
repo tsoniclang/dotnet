@@ -17,7 +17,7 @@ export * from './internal/index.js';
 // Individual type exports for convenience
 export { MemoryMappedFileOptions as MemoryMappedFileOptions } from './internal/index.js';
 export { MemoryMappedFileAccess as MemoryMappedFileAccess } from './internal/index.js';
-export { MemoryMappedFile$instance as MemoryMappedFile } from './internal/index.js';
-export { MemoryMappedViewAccessor$instance as MemoryMappedViewAccessor } from './internal/index.js';
-export { MemoryMappedViewStream$instance as MemoryMappedViewStream } from './internal/index.js';
+export { MemoryMappedFile as MemoryMappedFile } from './internal/index.js';
+export { MemoryMappedViewAccessor as MemoryMappedViewAccessor } from './internal/index.js';
+export { MemoryMappedViewStream as MemoryMappedViewStream } from './internal/index.js';
 export { MemoryMappedFileRights as MemoryMappedFileRights } from './internal/index.js';

@@ -2599,7 +2599,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -2727,7 +2727,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2741,7 +2741,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -2814,7 +2814,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -3026,7 +3026,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -3036,7 +3036,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -3152,7 +3152,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3196,7 +3196,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3210,7 +3210,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3273,7 +3273,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -3645,7 +3645,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -3655,7 +3655,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -3821,7 +3821,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -3879,7 +3879,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3893,7 +3893,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -3956,7 +3956,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -4338,7 +4338,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -4348,7 +4348,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -4686,7 +4686,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -4744,7 +4744,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -4758,7 +4758,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -4930,7 +4930,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -5332,7 +5332,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -5342,7 +5342,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -6015,7 +6015,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -6101,7 +6101,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -6115,7 +6115,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -6428,7 +6428,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -6950,7 +6950,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -6960,7 +6960,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -7154,7 +7154,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -7254,7 +7254,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -7268,7 +7268,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -7331,7 +7331,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -7743,7 +7743,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -7753,7 +7753,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -8511,7 +8511,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -8525,7 +8525,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::GetSchema():System.Xml.Schema.XmlSchema",
           "clrName": "GetSchema",
           "tsEmitName": "getSchema",
-          "metadataToken": 100678619,
+          "metadataToken": 100678622,
           "canonicalSignature": "():System.Xml.Schema.XmlSchema",
           "normalizedSignature": "GetSchema|():System.Xml.Schema.XmlSchema|static=false",
           "emitScope": "ViewOnly",
@@ -8539,7 +8539,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::ReadXml(System.Xml.XmlReader):System.Void",
           "clrName": "ReadXml",
           "tsEmitName": "readXml",
-          "metadataToken": 100678620,
+          "metadataToken": 100678623,
           "canonicalSignature": "(System.Xml.XmlReader):System.Void",
           "normalizedSignature": "ReadXml|(System.Xml.XmlReader):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8553,7 +8553,7 @@
           "stableId": "System.Private.Xml:System.Xml.Serialization.IXmlSerializable::WriteXml(System.Xml.XmlWriter):System.Void",
           "clrName": "WriteXml",
           "tsEmitName": "writeXml",
-          "metadataToken": 100678621,
+          "metadataToken": 100678624,
           "canonicalSignature": "(System.Xml.XmlWriter):System.Void",
           "normalizedSignature": "WriteXml|(System.Xml.XmlWriter):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -8709,7 +8709,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -8723,7 +8723,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -9246,7 +9246,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -9256,7 +9256,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678619
+            "metadataToken": 100678622
           }
         },
         {
@@ -9266,7 +9266,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678620
+            "metadataToken": 100678623
           }
         },
         {
@@ -9276,7 +9276,7 @@
           "target": {
             "declaringClrType": "System.Xml.Serialization.IXmlSerializable",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100678621
+            "metadataToken": 100678624
           }
         },
         {
@@ -9848,7 +9848,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -9858,7 +9858,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -10117,7 +10117,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -10243,7 +10243,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -10963,7 +10963,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -11049,7 +11049,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -11063,7 +11063,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -11355,7 +11355,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -11537,7 +11537,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -11547,7 +11547,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -11639,7 +11639,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IComparer\u00601::Compare(T,T):System.Int32",
           "clrName": "Compare",
           "tsEmitName": "compare$view",
-          "metadataToken": 100704648,
+          "metadataToken": 100704545,
           "canonicalSignature": "(T,T):System.Int32",
           "normalizedSignature": "Compare|(T,T):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -11653,7 +11653,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IComparer::Compare(System.Object,System.Object):System.Int32",
           "clrName": "Compare",
           "tsEmitName": "compare$view",
-          "metadataToken": 100703933,
+          "metadataToken": 100703830,
           "canonicalSignature": "(System.Object,System.Object):System.Int32",
           "normalizedSignature": "Compare|(System.Object,System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -11697,7 +11697,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IComparer\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704648
+            "metadataToken": 100704545
           }
         },
         {
@@ -11707,7 +11707,7 @@
           "target": {
             "declaringClrType": "System.Collections.IComparer",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703933
+            "metadataToken": 100703830
           }
         },
         {
@@ -11822,7 +11822,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer\u00601::Equals(T,T):System.Boolean",
           "clrName": "Equals",
           "tsEmitName": "equals$view",
-          "metadataToken": 100704665,
+          "metadataToken": 100704562,
           "canonicalSignature": "(T,T):System.Boolean",
           "normalizedSignature": "Equals|(T,T):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -11836,7 +11836,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.Generic.IEqualityComparer\u00601::GetHashCode(T):System.Int32",
           "clrName": "GetHashCode",
           "tsEmitName": "getHashCode$view",
-          "metadataToken": 100704666,
+          "metadataToken": 100704563,
           "canonicalSignature": "(T):System.Int32",
           "normalizedSignature": "GetHashCode|(T):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -11850,7 +11850,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::Equals(System.Object,System.Object):System.Boolean",
           "clrName": "Equals",
           "tsEmitName": "equals$view",
-          "metadataToken": 100703952,
+          "metadataToken": 100703849,
           "canonicalSignature": "(System.Object,System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object,System.Object):System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -11864,7 +11864,7 @@
           "stableId": "System.Private.CoreLib:System.Collections.IEqualityComparer::GetHashCode(System.Object):System.Int32",
           "clrName": "GetHashCode",
           "tsEmitName": "getHashCode$view",
-          "metadataToken": 100703953,
+          "metadataToken": 100703850,
           "canonicalSignature": "(System.Object):System.Int32",
           "normalizedSignature": "GetHashCode|(System.Object):System.Int32|static=false",
           "emitScope": "ViewOnly",
@@ -11918,7 +11918,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704665
+            "metadataToken": 100704562
           }
         },
         {
@@ -11928,7 +11928,7 @@
           "target": {
             "declaringClrType": "System.Collections.Generic.IEqualityComparer\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704666
+            "metadataToken": 100704563
           }
         },
         {
@@ -11938,7 +11938,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEqualityComparer",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703952
+            "metadataToken": 100703849
           }
         },
         {
@@ -11948,7 +11948,7 @@
           "target": {
             "declaringClrType": "System.Collections.IEqualityComparer",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703953
+            "metadataToken": 100703850
           }
         },
         {
@@ -12133,7 +12133,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -12205,7 +12205,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12219,7 +12219,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12332,7 +12332,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -12444,7 +12444,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -12454,7 +12454,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         }
       ],
@@ -12730,7 +12730,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -12802,7 +12802,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12816,7 +12816,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -12879,7 +12879,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -13271,7 +13271,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -13281,7 +13281,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {
@@ -13877,7 +13877,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::HasLineInfo():System.Boolean",
           "clrName": "HasLineInfo",
           "tsEmitName": "hasLineInfo$view",
-          "metadataToken": 100666142,
+          "metadataToken": 100666143,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "HasLineInfo|():System.Boolean|static=false",
           "emitScope": "ViewOnly",
@@ -13935,7 +13935,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LineNumber:System.Int32",
           "clrName": "LineNumber",
           "tsEmitName": "lineNumber",
-          "metadataToken": 385877297,
+          "metadataToken": 385877298,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LineNumber|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -13949,7 +13949,7 @@
           "stableId": "System.Private.Xml:System.Xml.IXmlLineInfo::LinePosition:System.Int32",
           "clrName": "LinePosition",
           "tsEmitName": "linePosition",
-          "metadataToken": 385877298,
+          "metadataToken": 385877299,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "LinePosition|:System.Int32|static=false|accessor=get",
           "emitScope": "ViewOnly",
@@ -14012,7 +14012,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 100666142
+            "metadataToken": 100666143
           }
         },
         {
@@ -14394,7 +14394,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877297
+            "metadataToken": 385877298
           }
         },
         {
@@ -14404,7 +14404,7 @@
           "target": {
             "declaringClrType": "System.Xml.IXmlLineInfo",
             "declaringAssemblyName": "System.Private.Xml",
-            "metadataToken": 385877298
+            "metadataToken": 385877299
           }
         },
         {

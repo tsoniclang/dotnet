@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67113235,
+          "metadataToken": 67113238,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::NoneSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67113236,
+          "metadataToken": 67113239,
           "normalizedSignature": "None|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::ExchangeSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Exchange",
           "tsEmitName": "exchange",
-          "metadataToken": 67113237,
+          "metadataToken": 67113240,
           "normalizedSignature": "Exchange|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::StableSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Stable",
           "tsEmitName": "stable",
-          "metadataToken": 67113238,
+          "metadataToken": 67113241,
           "normalizedSignature": "Stable|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesOptions::SideBySideSystem.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "SideBySide",
           "tsEmitName": "sideBySide",
-          "metadataToken": 67113239,
+          "metadataToken": 67113242,
           "normalizedSignature": "SideBySide|System.Runtime.Versioning.ComponentGuaranteesOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -608,7 +608,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113235
+            "metadataToken": 67113238
           }
         },
         {
@@ -618,7 +618,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113236
+            "metadataToken": 67113239
           }
         },
         {
@@ -628,7 +628,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113237
+            "metadataToken": 67113240
           }
         },
         {
@@ -638,7 +638,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113238
+            "metadataToken": 67113241
           }
         },
         {
@@ -648,7 +648,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113239
+            "metadataToken": 67113242
           }
         }
       ]
@@ -666,7 +666,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67113253,
+          "metadataToken": 67113256,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -677,7 +677,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::NoneSystem.Runtime.Versioning.ResourceScope",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67113254,
+          "metadataToken": 67113257,
           "normalizedSignature": "None|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -688,7 +688,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::MachineSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Machine",
           "tsEmitName": "machine",
-          "metadataToken": 67113255,
+          "metadataToken": 67113258,
           "normalizedSignature": "Machine|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -699,7 +699,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::ProcessSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Process",
           "tsEmitName": "process",
-          "metadataToken": 67113256,
+          "metadataToken": 67113259,
           "normalizedSignature": "Process|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -710,7 +710,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AppDomainSystem.Runtime.Versioning.ResourceScope",
           "clrName": "AppDomain",
           "tsEmitName": "appDomain",
-          "metadataToken": 67113257,
+          "metadataToken": 67113260,
           "normalizedSignature": "AppDomain|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -721,7 +721,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::LibrarySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Library",
           "tsEmitName": "library",
-          "metadataToken": 67113258,
+          "metadataToken": 67113261,
           "normalizedSignature": "Library|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -732,7 +732,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Private",
           "tsEmitName": "private_",
-          "metadataToken": 67113259,
+          "metadataToken": 67113262,
           "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -743,7 +743,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::AssemblySystem.Runtime.Versioning.ResourceScope",
           "clrName": "Assembly",
           "tsEmitName": "assembly",
-          "metadataToken": 67113260,
+          "metadataToken": 67113263,
           "normalizedSignature": "Assembly|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1293,7 +1293,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113253
+            "metadataToken": 67113256
           }
         },
         {
@@ -1303,7 +1303,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113254
+            "metadataToken": 67113257
           }
         },
         {
@@ -1313,7 +1313,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113255
+            "metadataToken": 67113258
           }
         },
         {
@@ -1323,7 +1323,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113256
+            "metadataToken": 67113259
           }
         },
         {
@@ -1333,7 +1333,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113257
+            "metadataToken": 67113260
           }
         },
         {
@@ -1343,7 +1343,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113258
+            "metadataToken": 67113261
           }
         },
         {
@@ -1353,7 +1353,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113259
+            "metadataToken": 67113262
           }
         },
         {
@@ -1363,7 +1363,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceScope",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113260
+            "metadataToken": 67113263
           }
         }
       ]
@@ -1380,7 +1380,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::Guarantees:System.Runtime.Versioning.ComponentGuaranteesOptions",
           "clrName": "Guarantees",
           "tsEmitName": "guarantees",
-          "metadataToken": 385879308,
+          "metadataToken": 385879304,
           "canonicalSignature": ":System.Runtime.Versioning.ComponentGuaranteesOptions",
           "normalizedSignature": "Guarantees|:System.Runtime.Versioning.ComponentGuaranteesOptions|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1396,7 +1396,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ComponentGuaranteesAttribute::.ctor(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
-          "metadataToken": 100682597,
+          "metadataToken": 100682577,
           "canonicalSignature": "(System.Runtime.Versioning.ComponentGuaranteesOptions):void",
           "normalizedSignature": "constructor|(System.Runtime.Versioning.ComponentGuaranteesOptions):void|static=false",
           "isStatic": false,
@@ -1565,7 +1565,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879308
+            "metadataToken": 385879304
           }
         },
         {
@@ -1586,7 +1586,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ComponentGuaranteesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682597
+            "metadataToken": 100682577
           }
         }
       ]
@@ -1602,7 +1602,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Object):System.Boolean",
           "clrName": "Equals",
           "tsEmitName": "equals",
-          "metadataToken": 100682602,
+          "metadataToken": 100682582,
           "canonicalSignature": "(System.Object):System.Boolean",
           "normalizedSignature": "Equals|(System.Object):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -1616,7 +1616,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Equals(System.Runtime.Versioning.FrameworkName):System.Boolean",
           "clrName": "Equals",
           "tsEmitName": "equals",
-          "metadataToken": 100682603,
+          "metadataToken": 100682583,
           "canonicalSignature": "(System.Runtime.Versioning.FrameworkName):System.Boolean",
           "normalizedSignature": "Equals|(System.Runtime.Versioning.FrameworkName):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -1630,7 +1630,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::GetHashCode():System.Int32",
           "clrName": "GetHashCode",
           "tsEmitName": "getHashCode",
-          "metadataToken": 100682604,
+          "metadataToken": 100682584,
           "canonicalSignature": "():System.Int32",
           "normalizedSignature": "GetHashCode|():System.Int32|static=false",
           "emitScope": "ClassSurface",
@@ -1644,7 +1644,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100682605,
+          "metadataToken": 100682585,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -1674,7 +1674,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Identifier:System.String",
           "clrName": "Identifier",
           "tsEmitName": "identifier",
-          "metadataToken": 385879309,
+          "metadataToken": 385879305,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Identifier|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1688,7 +1688,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Version:System.Version",
           "clrName": "Version",
           "tsEmitName": "version",
-          "metadataToken": 385879310,
+          "metadataToken": 385879306,
           "canonicalSignature": ":System.Version",
           "normalizedSignature": "Version|:System.Version|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1702,7 +1702,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::Profile:System.String",
           "clrName": "Profile",
           "tsEmitName": "profile",
-          "metadataToken": 385879311,
+          "metadataToken": 385879307,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Profile|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1716,7 +1716,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::FullName:System.String",
           "clrName": "FullName",
           "tsEmitName": "fullName",
-          "metadataToken": 385879312,
+          "metadataToken": 385879308,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "FullName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1732,7 +1732,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version):void",
-          "metadataToken": 100682606,
+          "metadataToken": 100682586,
           "canonicalSignature": "(System.String,System.Version):void",
           "normalizedSignature": "constructor|(System.String,System.Version):void|static=false",
           "isStatic": false,
@@ -1742,7 +1742,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String,System.Version,System.String):void",
-          "metadataToken": 100682607,
+          "metadataToken": 100682587,
           "canonicalSignature": "(System.String,System.Version,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.Version,System.String):void|static=false",
           "isStatic": false,
@@ -1752,7 +1752,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.FrameworkName::.ctor(System.String):void",
-          "metadataToken": 100682608,
+          "metadataToken": 100682588,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -1769,7 +1769,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682602
+            "metadataToken": 100682582
           }
         },
         {
@@ -1779,7 +1779,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682603
+            "metadataToken": 100682583
           }
         },
         {
@@ -1789,7 +1789,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682604
+            "metadataToken": 100682584
           }
         },
         {
@@ -1799,7 +1799,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682605
+            "metadataToken": 100682585
           }
         },
         {
@@ -1851,7 +1851,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879309
+            "metadataToken": 385879305
           }
         },
         {
@@ -1861,7 +1861,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879310
+            "metadataToken": 385879306
           }
         },
         {
@@ -1871,7 +1871,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879311
+            "metadataToken": 385879307
           }
         },
         {
@@ -1881,7 +1881,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879312
+            "metadataToken": 385879308
           }
         }
       ],
@@ -1892,7 +1892,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682606
+            "metadataToken": 100682586
           }
         },
         {
@@ -1901,7 +1901,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682607
+            "metadataToken": 100682587
           }
         },
         {
@@ -1910,7 +1910,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.FrameworkName",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682608
+            "metadataToken": 100682588
           }
         }
       ]
@@ -1927,7 +1927,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385879315,
+          "metadataToken": 385879311,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1941,7 +1941,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::Url:System.String",
           "clrName": "Url",
           "tsEmitName": "url",
-          "metadataToken": 385879316,
+          "metadataToken": 385879312,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1957,7 +1957,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682618,
+          "metadataToken": 100682598,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -1967,7 +1967,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ObsoletedOSPlatformAttribute::.ctor(System.String,System.String):void",
-          "metadataToken": 100682619,
+          "metadataToken": 100682599,
           "canonicalSignature": "(System.String,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
@@ -2136,7 +2136,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879315
+            "metadataToken": 385879311
           }
         },
         {
@@ -2146,7 +2146,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879316
+            "metadataToken": 385879312
           }
         },
         {
@@ -2156,7 +2156,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -2177,7 +2177,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682618
+            "metadataToken": 100682598
           }
         },
         {
@@ -2186,7 +2186,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ObsoletedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682619
+            "metadataToken": 100682599
           }
         }
       ]
@@ -2203,7 +2203,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.OSPlatformAttribute::PlatformName:System.String",
           "clrName": "PlatformName",
           "tsEmitName": "platformName",
-          "metadataToken": 385879313,
+          "metadataToken": 385879309,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "PlatformName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2377,7 +2377,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -2404,7 +2404,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385879317,
+          "metadataToken": 385879313,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2418,7 +2418,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::Url:System.String",
           "clrName": "Url",
           "tsEmitName": "url",
-          "metadataToken": 385879318,
+          "metadataToken": 385879314,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Url|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -2434,7 +2434,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor():void",
-          "metadataToken": 100682625,
+          "metadataToken": 100682605,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -2444,7 +2444,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.RequiresPreviewFeaturesAttribute::.ctor(System.String):void",
-          "metadataToken": 100682626,
+          "metadataToken": 100682606,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -2613,7 +2613,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879317
+            "metadataToken": 385879313
           }
         },
         {
@@ -2623,7 +2623,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879318
+            "metadataToken": 385879314
           }
         },
         {
@@ -2644,7 +2644,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682625
+            "metadataToken": 100682605
           }
         },
         {
@@ -2653,7 +2653,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.RequiresPreviewFeaturesAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682626
+            "metadataToken": 100682606
           }
         }
       ]
@@ -2670,7 +2670,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ResourceScope:System.Runtime.Versioning.ResourceScope",
           "clrName": "ResourceScope",
           "tsEmitName": "resourceScope",
-          "metadataToken": 385879319,
+          "metadataToken": 385879315,
           "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
           "normalizedSignature": "ResourceScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2684,7 +2684,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::ConsumptionScope:System.Runtime.Versioning.ResourceScope",
           "clrName": "ConsumptionScope",
           "tsEmitName": "consumptionScope",
-          "metadataToken": 385879320,
+          "metadataToken": 385879316,
           "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
           "normalizedSignature": "ConsumptionScope|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2700,7 +2700,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682632,
+          "metadataToken": 100682612,
           "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
           "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
           "isStatic": false,
@@ -2710,7 +2710,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceConsumptionAttribute::.ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682633,
+          "metadataToken": 100682613,
           "canonicalSignature": "(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void",
           "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):void|static=false",
           "isStatic": false,
@@ -2879,7 +2879,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceConsumptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879319
+            "metadataToken": 385879315
           }
         },
         {
@@ -2889,7 +2889,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceConsumptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879320
+            "metadataToken": 385879316
           }
         },
         {
@@ -2910,7 +2910,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceConsumptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682632
+            "metadataToken": 100682612
           }
         },
         {
@@ -2919,7 +2919,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceConsumptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682633
+            "metadataToken": 100682613
           }
         }
       ]
@@ -2936,7 +2936,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::ResourceExposureLevel:System.Runtime.Versioning.ResourceScope",
           "clrName": "ResourceExposureLevel",
           "tsEmitName": "resourceExposureLevel",
-          "metadataToken": 385879321,
+          "metadataToken": 385879317,
           "canonicalSignature": ":System.Runtime.Versioning.ResourceScope",
           "normalizedSignature": "ResourceExposureLevel|:System.Runtime.Versioning.ResourceScope|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2952,7 +2952,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceExposureAttribute::.ctor(System.Runtime.Versioning.ResourceScope):void",
-          "metadataToken": 100682635,
+          "metadataToken": 100682615,
           "canonicalSignature": "(System.Runtime.Versioning.ResourceScope):void",
           "normalizedSignature": "constructor|(System.Runtime.Versioning.ResourceScope):void|static=false",
           "isStatic": false,
@@ -3121,7 +3121,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceExposureAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879321
+            "metadataToken": 385879317
           }
         },
         {
@@ -3142,7 +3142,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.ResourceExposureAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682635
+            "metadataToken": 100682615
           }
         }
       ]
@@ -3160,7 +3160,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682614,
+          "metadataToken": 100682594,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -3329,7 +3329,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -3350,7 +3350,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.SupportedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682614
+            "metadataToken": 100682594
           }
         }
       ]
@@ -3368,7 +3368,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute::.ctor(System.String):void",
-          "metadataToken": 100682623,
+          "metadataToken": 100682603,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -3537,7 +3537,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -3558,7 +3558,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.SupportedOSPlatformGuardAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682623
+            "metadataToken": 100682603
           }
         }
       ]
@@ -3575,7 +3575,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkName:System.String",
           "clrName": "FrameworkName",
           "tsEmitName": "frameworkName",
-          "metadataToken": 385879322,
+          "metadataToken": 385879318,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "FrameworkName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -3589,7 +3589,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::FrameworkDisplayName:System.String",
           "clrName": "FrameworkDisplayName",
           "tsEmitName": "frameworkDisplayName",
-          "metadataToken": 385879323,
+          "metadataToken": 385879319,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "FrameworkDisplayName|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -3605,7 +3605,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(System.String):void",
-          "metadataToken": 100682636,
+          "metadataToken": 100682616,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -3774,7 +3774,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.TargetFrameworkAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879322
+            "metadataToken": 385879318
           }
         },
         {
@@ -3784,7 +3784,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.TargetFrameworkAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879323
+            "metadataToken": 385879319
           }
         },
         {
@@ -3805,7 +3805,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.TargetFrameworkAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682636
+            "metadataToken": 100682616
           }
         }
       ]
@@ -3823,7 +3823,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.TargetPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682613,
+          "metadataToken": 100682593,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -3992,7 +3992,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -4013,7 +4013,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.TargetPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682613
+            "metadataToken": 100682593
           }
         }
       ]
@@ -4030,7 +4030,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385879314,
+          "metadataToken": 385879310,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -4046,7 +4046,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String):void",
-          "metadataToken": 100682615,
+          "metadataToken": 100682595,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -4056,7 +4056,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformAttribute::.ctor(System.String,System.String):void",
-          "metadataToken": 100682616,
+          "metadataToken": 100682596,
           "canonicalSignature": "(System.String,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
@@ -4225,7 +4225,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879314
+            "metadataToken": 385879310
           }
         },
         {
@@ -4235,7 +4235,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -4256,7 +4256,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682615
+            "metadataToken": 100682595
           }
         },
         {
@@ -4265,7 +4265,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.UnsupportedOSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682616
+            "metadataToken": 100682596
           }
         }
       ]
@@ -4283,7 +4283,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute::.ctor(System.String):void",
-          "metadataToken": 100682624,
+          "metadataToken": 100682604,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -4452,7 +4452,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.OSPlatformAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879313
+            "metadataToken": 385879309
           }
         },
         {
@@ -4473,7 +4473,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682624
+            "metadataToken": 100682604
           }
         }
       ]
@@ -4489,7 +4489,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
           "clrName": "MakeVersionSafeName",
           "tsEmitName": "makeVersionSafeName",
-          "metadataToken": 100682640,
+          "metadataToken": 100682620,
           "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String",
           "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -4503,7 +4503,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.VersioningHelper::MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
           "clrName": "MakeVersionSafeName",
           "tsEmitName": "makeVersionSafeName",
-          "metadataToken": 100682641,
+          "metadataToken": 100682621,
           "canonicalSignature": "(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String",
           "normalizedSignature": "MakeVersionSafeName|(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -4526,7 +4526,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.VersioningHelper",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682640
+            "metadataToken": 100682620
           }
         },
         {
@@ -4536,7 +4536,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Versioning.VersioningHelper",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682641
+            "metadataToken": 100682621
           }
         },
         {

@@ -42,6 +42,9 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
+export type MeasurementCallback_1<T extends unknown> = (instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown) => void;
+
+
 export interface IMeterFactory$instance extends IDisposable {
     create(options: MeterOptions): Meter;
     dispose(): void;
@@ -52,20 +55,24 @@ export interface IMeterFactory$instance extends System_Internal.IDisposable$inst
 
 export type IMeterFactory = IMeterFactory$instance;
 
-export class Measurement_1$instance<T extends unknown> {
-    constructor(value: T);
-    constructor(value: T, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>);
-    constructor(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]);
-    constructor(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>);
-    constructor(value: T, tags: ref<TagList>);
+export interface Measurement_1$instance<T extends unknown> {
     readonly tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly value: T;
 }
 
 
+export const Measurement_1: {
+    new<T extends unknown>(value: T): Measurement_1$instance<T>;
+    new<T extends unknown>(value: T, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): Measurement_1$instance<T>;
+    new<T extends unknown>(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): Measurement_1$instance<T>;
+    new<T extends unknown>(value: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): Measurement_1$instance<T>;
+    new<T extends unknown>(value: T, tags: ref<TagList>): Measurement_1$instance<T>;
+};
+
+
 export type Measurement_1<T> = Measurement_1$instance<T>;
 
-export class Counter_1$instance<T extends unknown> extends Instrument_1$instance<T> {
+export interface Counter_1$instance<T extends unknown> extends Instrument_1<T> {
     add(delta: T): void;
     add(delta: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
     add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
@@ -76,9 +83,14 @@ export class Counter_1$instance<T extends unknown> extends Instrument_1$instance
 }
 
 
+export const Counter_1: {
+    new<T extends unknown>(): Counter_1$instance<T>;
+};
+
+
 export type Counter_1<T> = Counter_1$instance<T>;
 
-export class Gauge_1$instance<T extends unknown> extends Instrument_1$instance<T> {
+export interface Gauge_1$instance<T extends unknown> extends Instrument_1<T> {
     record(value: T): void;
     record(value: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
     record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
@@ -87,11 +99,16 @@ export class Gauge_1$instance<T extends unknown> extends Instrument_1$instance<T
     record(value: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     record(value: T, tagList: { value: ref<TagList> }): void;
 }
+
+
+export const Gauge_1: {
+    new<T extends unknown>(): Gauge_1$instance<T>;
+};
 
 
 export type Gauge_1<T> = Gauge_1$instance<T>;
 
-export class Histogram_1$instance<T extends unknown> extends Instrument_1$instance<T> {
+export interface Histogram_1$instance<T extends unknown> extends Instrument_1<T> {
     record(value: T): void;
     record(value: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
     record(value: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
@@ -102,9 +119,14 @@ export class Histogram_1$instance<T extends unknown> extends Instrument_1$instan
 }
 
 
+export const Histogram_1: {
+    new<T extends unknown>(): Histogram_1$instance<T>;
+};
+
+
 export type Histogram_1<T> = Histogram_1$instance<T>;
 
-export abstract class Instrument$instance {
+export interface Instrument$instance {
     readonly description: string;
     readonly enabled: boolean;
     readonly isObservable: boolean;
@@ -115,46 +137,36 @@ export abstract class Instrument$instance {
 }
 
 
+export const Instrument: {
+};
+
+
 export type Instrument = Instrument$instance;
 
-export abstract class Instrument_1$instance<T extends unknown> extends Instrument$instance {
+export interface Instrument_1$instance<T extends unknown> extends Instrument {
     readonly advice: InstrumentAdvice_1<T>;
 }
 
 
+export const Instrument_1: {
+};
+
+
 export type Instrument_1<T> = Instrument_1$instance<T>;
 
-export class InstrumentAdvice_1$instance<T extends unknown> {
-    constructor();
+export interface InstrumentAdvice_1$instance<T extends unknown> {
     histogramBucketBoundaries: IReadOnlyList_1<T>;
 }
 
 
+export const InstrumentAdvice_1: {
+    new<T extends unknown>(): InstrumentAdvice_1$instance<T>;
+};
+
+
 export type InstrumentAdvice_1<T> = InstrumentAdvice_1$instance<T>;
 
-export class MeasurementCallback_1$instance<T extends unknown> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(instrument: Instrument, measurement: T, tags: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>, state: unknown): void;
-}
-
-
-export interface __MeasurementCallback_1$views<T extends unknown> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type MeasurementCallback_1<T> = MeasurementCallback_1$instance<T> & __MeasurementCallback_1$views<T>;
-
-
-export class Meter$instance {
-    constructor(options: MeterOptions);
-    constructor(name: string);
-    constructor(name: string, version: string);
-    constructor(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, scope: unknown);
+export interface Meter$instance {
     readonly name: string;
     readonly scope: unknown;
     readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
@@ -180,6 +192,14 @@ export class Meter$instance {
 }
 
 
+export const Meter: {
+    new(options: MeterOptions): Meter$instance;
+    new(name: string): Meter$instance;
+    new(name: string, version: string): Meter$instance;
+    new(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, scope: unknown): Meter$instance;
+};
+
+
 export interface __Meter$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -189,8 +209,7 @@ export interface Meter$instance extends System_Internal.IDisposable$instance {}
 export type Meter = Meter$instance & __Meter$views;
 
 
-export class MeterListener$instance {
-    constructor();
+export interface MeterListener$instance {
     instrumentPublished: Action_2<Instrument, MeterListener>;
     measurementsCompleted: Action_2<Instrument, unknown>;
     disableMeasurementEvents(instrument: Instrument): unknown;
@@ -202,6 +221,11 @@ export class MeterListener$instance {
 }
 
 
+export const MeterListener: {
+    new(): MeterListener$instance;
+};
+
+
 export interface __MeterListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -211,8 +235,7 @@ export interface MeterListener$instance extends System_Internal.IDisposable$inst
 export type MeterListener = MeterListener$instance & __MeterListener$views;
 
 
-export class MeterOptions$instance {
-    constructor(name: string);
+export interface MeterOptions$instance {
     name: string;
     scope: unknown;
     tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
@@ -221,34 +244,58 @@ export class MeterOptions$instance {
 }
 
 
+export const MeterOptions: {
+    new(name: string): MeterOptions$instance;
+};
+
+
 export type MeterOptions = MeterOptions$instance;
 
-export class ObservableCounter_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
+export interface ObservableCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
 }
+
+
+export const ObservableCounter_1: {
+    new<T extends unknown>(): ObservableCounter_1$instance<T>;
+};
 
 
 export type ObservableCounter_1<T> = ObservableCounter_1$instance<T>;
 
-export class ObservableGauge_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
+export interface ObservableGauge_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
 }
+
+
+export const ObservableGauge_1: {
+    new<T extends unknown>(): ObservableGauge_1$instance<T>;
+};
 
 
 export type ObservableGauge_1<T> = ObservableGauge_1$instance<T>;
 
-export abstract class ObservableInstrument_1$instance<T extends unknown> extends Instrument$instance {
+export interface ObservableInstrument_1$instance<T extends unknown> extends Instrument {
     readonly isObservable: boolean;
 }
 
 
+export const ObservableInstrument_1: {
+};
+
+
 export type ObservableInstrument_1<T> = ObservableInstrument_1$instance<T>;
 
-export class ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableInstrument_1$instance<T> {
+export interface ObservableUpDownCounter_1$instance<T extends unknown> extends ObservableInstrument_1<T> {
 }
+
+
+export const ObservableUpDownCounter_1: {
+    new<T extends unknown>(): ObservableUpDownCounter_1$instance<T>;
+};
 
 
 export type ObservableUpDownCounter_1<T> = ObservableUpDownCounter_1$instance<T>;
 
-export class UpDownCounter_1$instance<T extends unknown> extends Instrument_1$instance<T> {
+export interface UpDownCounter_1$instance<T extends unknown> extends Instrument_1<T> {
     add(delta: T): void;
     add(delta: T, tag: KeyValuePair_2<CLROf<string>, unknown>): void;
     add(delta: T, tag1: KeyValuePair_2<CLROf<string>, unknown>, tag2: KeyValuePair_2<CLROf<string>, unknown>): void;
@@ -257,6 +304,11 @@ export class UpDownCounter_1$instance<T extends unknown> extends Instrument_1$in
     add(delta: T, tags: KeyValuePair_2<CLROf<string>, unknown>[]): void;
     add(delta: T, tagList: { value: ref<TagList> }): void;
 }
+
+
+export const UpDownCounter_1: {
+    new<T extends unknown>(): UpDownCounter_1$instance<T>;
+};
 
 
 export type UpDownCounter_1<T> = UpDownCounter_1$instance<T>;

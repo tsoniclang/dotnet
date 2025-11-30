@@ -42,7 +42,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
+export interface FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey> {
     readonly dictionary: FrozenDictionary_2<TKey, TValue>;
     readonly item: TValue;
     containsKey(key: TAlternateKey): boolean;
@@ -50,13 +50,23 @@ export class FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAltern
 }
 
 
+export const FrozenDictionary_2_AlternateLookup_1: {
+    new<TKey, TValue, TAlternateKey>(): FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
+};
+
+
 export type FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey> = FrozenDictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternateKey>;
 
-export class FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
+export interface FrozenDictionary_2_Enumerator$instance<TKey, TValue> {
     readonly current: KeyValuePair_2<TKey, TValue>;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const FrozenDictionary_2_Enumerator: {
+    new<TKey, TValue>(): FrozenDictionary_2_Enumerator$instance<TKey, TValue>;
+};
 
 
 export interface __FrozenDictionary_2_Enumerator$views<TKey, TValue> {
@@ -67,20 +77,30 @@ export interface __FrozenDictionary_2_Enumerator$views<TKey, TValue> {
 export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enumerator$instance<TKey, TValue> & __FrozenDictionary_2_Enumerator$views<TKey, TValue>;
 
 
-export class FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
+export interface FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
     readonly set_: FrozenSet_1<T>;
     contains(item: TAlternate): boolean;
     tryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
 }
 
 
+export const FrozenSet_1_AlternateLookup_1: {
+    new<T, TAlternate>(): FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
+};
+
+
 export type FrozenSet_1_AlternateLookup_1<T, TAlternate> = FrozenSet_1_AlternateLookup_1$instance<T, TAlternate>;
 
-export class FrozenSet_1_Enumerator$instance<T> {
+export interface FrozenSet_1_Enumerator$instance<T> {
     readonly current: T;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const FrozenSet_1_Enumerator: {
+    new<T>(): FrozenSet_1_Enumerator$instance<T>;
+};
 
 
 export interface __FrozenSet_1_Enumerator$views<T> {
@@ -91,7 +111,7 @@ export interface __FrozenSet_1_Enumerator$views<T> {
 export type FrozenSet_1_Enumerator<T> = FrozenSet_1_Enumerator$instance<T> & __FrozenSet_1_Enumerator$views<T>;
 
 
-export abstract class FrozenDictionary_2$instance<TKey, TValue> {
+export interface FrozenDictionary_2$instance<TKey, TValue> {
     readonly comparer: IEqualityComparer_1<TKey>;
     readonly count: int;
     readonly item: ref<TValue>;
@@ -105,8 +125,12 @@ export abstract class FrozenDictionary_2$instance<TKey, TValue> {
     getValueRefOrNullRef(key: TKey): ref<TValue>;
     tryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<FrozenDictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const FrozenDictionary_2: {
+    readonly empty: unknown;
+};
 
 
 export interface __FrozenDictionary_2$views<TKey, TValue> {
@@ -123,7 +147,7 @@ export interface __FrozenDictionary_2$views<TKey, TValue> {
 export type FrozenDictionary_2<TKey, TValue> = FrozenDictionary_2$instance<TKey, TValue> & __FrozenDictionary_2$views<TKey, TValue>;
 
 
-export abstract class FrozenSet_1$instance<T> {
+export interface FrozenSet_1$instance<T> {
     readonly comparer: IEqualityComparer_1<T>;
     readonly count: int;
     readonly items: ImmutableArray_1<T>;
@@ -140,8 +164,12 @@ export abstract class FrozenSet_1$instance<T> {
     setEquals(other: IEnumerable_1<T>): boolean;
     tryGetAlternateLookup<TAlternate>(lookup: { value: ref<FrozenSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
     tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
-    static readonly empty: unknown;
 }
+
+
+export const FrozenSet_1: {
+    readonly empty: unknown;
+};
 
 
 export interface __FrozenSet_1$views<T> {

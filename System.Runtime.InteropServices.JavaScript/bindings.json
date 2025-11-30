@@ -2,6 +2,708 @@
   "namespace": "System.Runtime.InteropServices.JavaScript",
   "types": [
     {
+      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+      "tsEmitName": "JSMarshalerArgument_ArgumentToJSCallback_1",
+      "assemblyName": "System.Runtime.InteropServices.JavaScript",
+      "metadataToken": 0,
+      "methods": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
+          "clrName": "Invoke",
+          "tsEmitName": "invoke",
+          "metadataToken": 100663533,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
+          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
+          "metadataToken": 100663534,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "tsEmitName": "endInvoke",
+          "metadataToken": 100663535,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100663532,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+        }
+      ],
+      "exposedMethods": [
+        {
+          "tsName": "invoke",
+          "isStatic": false,
+          "tsSignatureId": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663533
+          }
+        },
+        {
+          "tsName": "beginInvoke",
+          "isStatic": false,
+          "tsSignatureId": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663534
+          }
+        },
+        {
+          "tsName": "endInvoke",
+          "isStatic": false,
+          "tsSignatureId": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663535
+          }
+        },
+        {
+          "tsName": "getObjectData",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664795
+          }
+        },
+        {
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664796
+          }
+        },
+        {
+          "tsName": "getInvocationList",
+          "isStatic": false,
+          "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664806
+          }
+        },
+        {
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664809
+          }
+        },
+        {
+          "tsName": "clone$view",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.ICloneable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668509
+          }
+        },
+        {
+          "tsName": "getObjectData$view",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.Serialization.ISerializable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100682649
+          }
+        },
+        {
+          "tsName": "clone",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 0
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664226
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664229
+          }
+        },
+        {
+          "tsName": "combine",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664255
+          }
+        },
+        {
+          "tsName": "combine",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664256
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664258
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664259
+          }
+        },
+        {
+          "tsName": "enumerateInvocationList",
+          "isStatic": true,
+          "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664268
+          }
+        },
+        {
+          "tsName": "dynamicInvoke",
+          "isStatic": false,
+          "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664269
+          }
+        },
+        {
+          "tsName": "remove",
+          "isStatic": true,
+          "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664272
+          }
+        },
+        {
+          "tsName": "removeAll",
+          "isStatic": true,
+          "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664273
+          }
+        },
+        {
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
+          }
+        },
+        {
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
+          }
+        },
+        {
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
+          }
+        },
+        {
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
+          }
+        }
+      ],
+      "exposedProperties": [
+        {
+          "tsName": "target",
+          "isStatic": false,
+          "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876039
+          }
+        },
+        {
+          "tsName": "hasSingleTarget",
+          "isStatic": false,
+          "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876040
+          }
+        },
+        {
+          "tsName": "method",
+          "isStatic": false,
+          "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876041
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663532
+          }
+        }
+      ]
+    },
+    {
+      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+      "tsEmitName": "JSMarshalerArgument_ArgumentToManagedCallback_1",
+      "assemblyName": "System.Runtime.InteropServices.JavaScript",
+      "metadataToken": 0,
+      "methods": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
+          "clrName": "Invoke",
+          "tsEmitName": "invoke",
+          "metadataToken": 100663529,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
+          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "clrName": "BeginInvoke",
+          "tsEmitName": "beginInvoke",
+          "metadataToken": 100663530,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
+          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 4,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        },
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
+          "clrName": "EndInvoke",
+          "tsEmitName": "endInvoke",
+          "metadataToken": 100663531,
+          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
+          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
+          "emitScope": "ClassSurface",
+          "arity": 0,
+          "parameterCount": 3,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+          "isExtensionMethod": false
+        }
+      ],
+      "properties": [],
+      "fields": [],
+      "events": [],
+      "constructors": [
+        {
+          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::.ctor(System.Object,System.IntPtr):void",
+          "metadataToken": 100663528,
+          "canonicalSignature": "(System.Object,System.IntPtr):void",
+          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "isStatic": false,
+          "parameterCount": 2,
+          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
+        }
+      ],
+      "exposedMethods": [
+        {
+          "tsName": "invoke",
+          "isStatic": false,
+          "tsSignatureId": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663529
+          }
+        },
+        {
+          "tsName": "beginInvoke",
+          "isStatic": false,
+          "tsSignatureId": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663530
+          }
+        },
+        {
+          "tsName": "endInvoke",
+          "isStatic": false,
+          "tsSignatureId": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663531
+          }
+        },
+        {
+          "tsName": "getObjectData",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664795
+          }
+        },
+        {
+          "tsName": "equals",
+          "isStatic": false,
+          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664796
+          }
+        },
+        {
+          "tsName": "getInvocationList",
+          "isStatic": false,
+          "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664806
+          }
+        },
+        {
+          "tsName": "getHashCode",
+          "isStatic": false,
+          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664809
+          }
+        },
+        {
+          "tsName": "clone$view",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.ICloneable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100668509
+          }
+        },
+        {
+          "tsName": "getObjectData$view",
+          "isStatic": false,
+          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.Serialization.ISerializable",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100682649
+          }
+        },
+        {
+          "tsName": "clone",
+          "isStatic": false,
+          "tsSignatureId": "Clone|():System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.MulticastDelegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 0
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664226
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664229
+          }
+        },
+        {
+          "tsName": "combine",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664255
+          }
+        },
+        {
+          "tsName": "combine",
+          "isStatic": true,
+          "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664256
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664258
+          }
+        },
+        {
+          "tsName": "createDelegate",
+          "isStatic": true,
+          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664259
+          }
+        },
+        {
+          "tsName": "enumerateInvocationList",
+          "isStatic": true,
+          "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664268
+          }
+        },
+        {
+          "tsName": "dynamicInvoke",
+          "isStatic": false,
+          "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664269
+          }
+        },
+        {
+          "tsName": "remove",
+          "isStatic": true,
+          "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664272
+          }
+        },
+        {
+          "tsName": "removeAll",
+          "isStatic": true,
+          "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664273
+          }
+        },
+        {
+          "tsName": "getType",
+          "isStatic": false,
+          "tsSignatureId": "GetType|():System.Type|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664825
+          }
+        },
+        {
+          "tsName": "toString",
+          "isStatic": false,
+          "tsSignatureId": "ToString|():System.String|static=false",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664829
+          }
+        },
+        {
+          "tsName": "equals",
+          "isStatic": true,
+          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664831
+          }
+        },
+        {
+          "tsName": "referenceEquals",
+          "isStatic": true,
+          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
+          "target": {
+            "declaringClrType": "System.Object",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100664832
+          }
+        }
+      ],
+      "exposedProperties": [
+        {
+          "tsName": "target",
+          "isStatic": false,
+          "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876039
+          }
+        },
+        {
+          "tsName": "hasSingleTarget",
+          "isStatic": false,
+          "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876040
+          }
+        },
+        {
+          "tsName": "method",
+          "isStatic": false,
+          "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
+          "target": {
+            "declaringClrType": "System.Delegate",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 385876041
+          }
+        }
+      ],
+      "exposedConstructors": [
+        {
+          "isStatic": false,
+          "tsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
+          "target": {
+            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
+            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
+            "metadataToken": 100663528
+          }
+        }
+      ]
+    },
+    {
       "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
       "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument",
       "tsEmitName": "JSMarshalerArgument",
@@ -2559,7 +3261,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -2607,7 +3309,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -2699,7 +3401,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -2709,7 +3411,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -2719,7 +3421,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -2729,7 +3431,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -2739,7 +3441,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -2749,7 +3451,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -2759,7 +3461,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -2769,7 +3471,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -3590,820 +4292,6 @@
             "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalAsAttribute\u00601",
             "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
             "metadataToken": 100663345
-          }
-        }
-      ]
-    },
-    {
-      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-      "tsEmitName": "JSMarshalerArgument_ArgumentToJSCallback_1",
-      "assemblyName": "System.Runtime.InteropServices.JavaScript",
-      "metadataToken": 0,
-      "methods": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
-          "clrName": "Invoke",
-          "tsEmitName": "invoke",
-          "metadataToken": 100663533,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void",
-          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
-          "metadataToken": 100663534,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 4,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
-          "metadataToken": 100663535,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
-          "clrName": "Clone",
-          "tsEmitName": "clone$view",
-          "metadataToken": 100668509,
-          "canonicalSignature": "():System.Object",
-          "normalizedSignature": "Clone|():System.Object|static=false",
-          "emitScope": "ViewOnly",
-          "arity": 0,
-          "parameterCount": 0,
-          "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::Clone():System.Object",
-          "clrName": "Clone",
-          "tsEmitName": "clone",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Object",
-          "normalizedSignature": "Clone|():System.Object|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 0,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100663532,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
-        }
-      ],
-      "exposedMethods": [
-        {
-          "tsName": "invoke",
-          "isStatic": false,
-          "tsSignatureId": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663533
-          }
-        },
-        {
-          "tsName": "beginInvoke",
-          "isStatic": false,
-          "tsSignatureId": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663534
-          }
-        },
-        {
-          "tsName": "endInvoke",
-          "isStatic": false,
-          "tsSignatureId": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,System.IAsyncResult):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663535
-          }
-        },
-        {
-          "tsName": "clone$view",
-          "isStatic": false,
-          "tsSignatureId": "Clone|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.ICloneable",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100668509
-          }
-        },
-        {
-          "tsName": "getObjectData$view",
-          "isStatic": false,
-          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.Serialization.ISerializable",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
-          }
-        },
-        {
-          "tsName": "clone",
-          "isStatic": false,
-          "tsSignatureId": "Clone|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 0
-          }
-        },
-        {
-          "tsName": "getObjectData",
-          "isStatic": false,
-          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 0
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": false,
-          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664796
-          }
-        },
-        {
-          "tsName": "getInvocationList",
-          "isStatic": false,
-          "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664806
-          }
-        },
-        {
-          "tsName": "getHashCode",
-          "isStatic": false,
-          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664809
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664226
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664229
-          }
-        },
-        {
-          "tsName": "combine",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664255
-          }
-        },
-        {
-          "tsName": "combine",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664256
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664258
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "enumerateInvocationList",
-          "isStatic": true,
-          "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664268
-          }
-        },
-        {
-          "tsName": "dynamicInvoke",
-          "isStatic": false,
-          "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664269
-          }
-        },
-        {
-          "tsName": "remove",
-          "isStatic": true,
-          "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664272
-          }
-        },
-        {
-          "tsName": "removeAll",
-          "isStatic": true,
-          "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664273
-          }
-        },
-        {
-          "tsName": "getType",
-          "isStatic": false,
-          "tsSignatureId": "GetType|():System.Type|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664825
-          }
-        },
-        {
-          "tsName": "toString",
-          "isStatic": false,
-          "tsSignatureId": "ToString|():System.String|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664829
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": true,
-          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664831
-          }
-        },
-        {
-          "tsName": "referenceEquals",
-          "isStatic": true,
-          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664832
-          }
-        }
-      ],
-      "exposedProperties": [
-        {
-          "tsName": "target",
-          "isStatic": false,
-          "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876038
-          }
-        },
-        {
-          "tsName": "hasSingleTarget",
-          "isStatic": false,
-          "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876039
-          }
-        },
-        {
-          "tsName": "method",
-          "isStatic": false,
-          "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876040
-          }
-        }
-      ],
-      "exposedConstructors": [
-        {
-          "isStatic": false,
-          "tsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToJSCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663532
-          }
-        }
-      ]
-    },
-    {
-      "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-      "clrName": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-      "tsEmitName": "JSMarshalerArgument_ArgumentToManagedCallback_1",
-      "assemblyName": "System.Runtime.InteropServices.JavaScript",
-      "metadataToken": 0,
-      "methods": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Invoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
-          "clrName": "Invoke",
-          "tsEmitName": "invoke",
-          "metadataToken": 100663529,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void",
-          "normalizedSignature": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::BeginInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "clrName": "BeginInvoke",
-          "tsEmitName": "beginInvoke",
-          "metadataToken": 100663530,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult",
-          "normalizedSignature": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 4,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::EndInvoke(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
-          "clrName": "EndInvoke",
-          "tsEmitName": "endInvoke",
-          "metadataToken": 100663531,
-          "canonicalSignature": "(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void",
-          "normalizedSignature": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 3,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.ICloneable::Clone():System.Object",
-          "clrName": "Clone",
-          "tsEmitName": "clone$view",
-          "metadataToken": 100668509,
-          "canonicalSignature": "():System.Object",
-          "normalizedSignature": "Clone|():System.Object|static=false",
-          "emitScope": "ViewOnly",
-          "arity": 0,
-          "parameterCount": 0,
-          "declaringClrType": "System.ICloneable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ViewOnly",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.Serialization.ISerializable",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::Clone():System.Object",
-          "clrName": "Clone",
-          "tsEmitName": "clone",
-          "metadataToken": 0,
-          "canonicalSignature": "():System.Object",
-          "normalizedSignature": "Clone|():System.Object|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 0,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "clrName": "GetObjectData",
-          "tsEmitName": "getObjectData",
-          "metadataToken": 0,
-          "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
-          "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "emitScope": "ClassSurface",
-          "arity": 0,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-          "isExtensionMethod": false
-        }
-      ],
-      "properties": [],
-      "fields": [],
-      "events": [],
-      "constructors": [
-        {
-          "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601::.ctor(System.Object,System.IntPtr):void",
-          "metadataToken": 100663528,
-          "canonicalSignature": "(System.Object,System.IntPtr):void",
-          "normalizedSignature": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "isStatic": false,
-          "parameterCount": 2,
-          "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-          "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript"
-        }
-      ],
-      "exposedMethods": [
-        {
-          "tsName": "invoke",
-          "isStatic": false,
-          "tsSignatureId": "Invoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663529
-          }
-        },
-        {
-          "tsName": "beginInvoke",
-          "isStatic": false,
-          "tsSignatureId": "BeginInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.AsyncCallback,System.Object):System.IAsyncResult|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663530
-          }
-        },
-        {
-          "tsName": "endInvoke",
-          "isStatic": false,
-          "tsSignatureId": "EndInvoke|(System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u0026,T\u0026,System.IAsyncResult):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663531
-          }
-        },
-        {
-          "tsName": "clone$view",
-          "isStatic": false,
-          "tsSignatureId": "Clone|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.ICloneable",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100668509
-          }
-        },
-        {
-          "tsName": "getObjectData$view",
-          "isStatic": false,
-          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.Serialization.ISerializable",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
-          }
-        },
-        {
-          "tsName": "clone",
-          "isStatic": false,
-          "tsSignatureId": "Clone|():System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 0
-          }
-        },
-        {
-          "tsName": "getObjectData",
-          "isStatic": false,
-          "tsSignatureId": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 0
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": false,
-          "tsSignatureId": "Equals|(System.Object):System.Boolean|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664796
-          }
-        },
-        {
-          "tsName": "getInvocationList",
-          "isStatic": false,
-          "tsSignatureId": "GetInvocationList|():System.Delegate[]|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664806
-          }
-        },
-        {
-          "tsName": "getHashCode",
-          "isStatic": false,
-          "tsSignatureId": "GetHashCode|():System.Int32|static=false",
-          "target": {
-            "declaringClrType": "System.MulticastDelegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664809
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.String,System.Boolean,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664226
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo,System.Boolean):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664229
-          }
-        },
-        {
-          "tsName": "combine",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664255
-          }
-        },
-        {
-          "tsName": "combine",
-          "isStatic": true,
-          "tsSignatureId": "Combine|(System.Delegate[]):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664256
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Object,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664258
-          }
-        },
-        {
-          "tsName": "createDelegate",
-          "isStatic": true,
-          "tsSignatureId": "CreateDelegate|(System.Type,System.Reflection.MethodInfo):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664259
-          }
-        },
-        {
-          "tsName": "enumerateInvocationList",
-          "isStatic": true,
-          "tsSignatureId": "EnumerateInvocationList|(TDelegate):InvocationListEnumerator_1|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664268
-          }
-        },
-        {
-          "tsName": "dynamicInvoke",
-          "isStatic": false,
-          "tsSignatureId": "DynamicInvoke|(System.Object[]):System.Object|static=false",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664269
-          }
-        },
-        {
-          "tsName": "remove",
-          "isStatic": true,
-          "tsSignatureId": "Remove|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664272
-          }
-        },
-        {
-          "tsName": "removeAll",
-          "isStatic": true,
-          "tsSignatureId": "RemoveAll|(System.Delegate,System.Delegate):System.Delegate|static=true",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664273
-          }
-        },
-        {
-          "tsName": "getType",
-          "isStatic": false,
-          "tsSignatureId": "GetType|():System.Type|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664825
-          }
-        },
-        {
-          "tsName": "toString",
-          "isStatic": false,
-          "tsSignatureId": "ToString|():System.String|static=false",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664829
-          }
-        },
-        {
-          "tsName": "equals",
-          "isStatic": true,
-          "tsSignatureId": "Equals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664831
-          }
-        },
-        {
-          "tsName": "referenceEquals",
-          "isStatic": true,
-          "tsSignatureId": "ReferenceEquals|(System.Object,System.Object):System.Boolean|static=true",
-          "target": {
-            "declaringClrType": "System.Object",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100664832
-          }
-        }
-      ],
-      "exposedProperties": [
-        {
-          "tsName": "target",
-          "isStatic": false,
-          "tsSignatureId": "Target|:System.Object|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876038
-          }
-        },
-        {
-          "tsName": "hasSingleTarget",
-          "isStatic": false,
-          "tsSignatureId": "HasSingleTarget|:System.Boolean|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876039
-          }
-        },
-        {
-          "tsName": "method",
-          "isStatic": false,
-          "tsSignatureId": "Method|:System.Reflection.MethodInfo|static=false|accessor=get",
-          "target": {
-            "declaringClrType": "System.Delegate",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876040
-          }
-        }
-      ],
-      "exposedConstructors": [
-        {
-          "isStatic": false,
-          "tsSignatureId": "constructor|(System.Object,System.IntPtr):void|static=false",
-          "target": {
-            "declaringClrType": "System.Runtime.InteropServices.JavaScript.JSMarshalerArgument\u002BArgumentToManagedCallback\u00601",
-            "declaringAssemblyName": "System.Runtime.InteropServices.JavaScript",
-            "metadataToken": 100663528
           }
         }
       ]

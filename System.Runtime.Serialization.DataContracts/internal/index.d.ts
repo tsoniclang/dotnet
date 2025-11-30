@@ -43,7 +43,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export abstract class DataContract$instance {
+export interface DataContract$instance {
     readonly baseContract: DataContract;
     readonly contractType: string;
     readonly dataMembers: ReadOnlyCollection_1<DataMember>;
@@ -61,16 +61,18 @@ export abstract class DataContract$instance {
     getArrayTypeName(isNullable: boolean): XmlQualifiedName;
     getHashCode(): int;
     isDictionaryLike(keyName: { value: ref<string> }, valueName: { value: ref<string> }, itemName: { value: ref<string> }): boolean;
-    static getBuiltInDataContract(name: string, ns: string): DataContract;
-    static getXmlName(type_: Type): XmlQualifiedName;
 }
+
+
+export const DataContract: {
+    getBuiltInDataContract(name: string, ns: string): DataContract;
+    getXmlName(type_: Type): XmlQualifiedName;
+};
 
 
 export type DataContract = DataContract$instance;
 
-export class DataContractSet$instance {
-    constructor(dataContractSurrogate: ISerializationSurrogateProvider, referencedTypes: IEnumerable_1<Type>, referencedCollectionTypes: IEnumerable_1<Type>);
-    constructor(dataContractSet: DataContractSet);
+export interface DataContractSet$instance {
     readonly contracts: Dictionary_2<XmlQualifiedName, DataContract>;
     readonly knownTypesForObject: Dictionary_2<XmlQualifiedName, DataContract>;
     readonly processedContracts: Dictionary_2<DataContract, unknown>;
@@ -83,9 +85,15 @@ export class DataContractSet$instance {
 }
 
 
+export const DataContractSet: {
+    new(dataContractSurrogate: ISerializationSurrogateProvider, referencedTypes: IEnumerable_1<Type>, referencedCollectionTypes: IEnumerable_1<Type>): DataContractSet$instance;
+    new(dataContractSet: DataContractSet): DataContractSet$instance;
+};
+
+
 export type DataContractSet = DataContractSet$instance;
 
-export class DataMember$instance {
+export interface DataMember$instance {
     readonly emitDefaultValue: boolean;
     readonly isNullable: boolean;
     readonly isRequired: boolean;
@@ -95,9 +103,14 @@ export class DataMember$instance {
 }
 
 
+export const DataMember: {
+    new(): DataMember$instance;
+};
+
+
 export type DataMember = DataMember$instance;
 
-export class XmlDataContract$instance extends DataContract$instance {
+export interface XmlDataContract$instance extends DataContract {
     readonly contractType: string;
     readonly hasRoot: boolean;
     readonly isAnonymous: boolean;
@@ -110,6 +123,11 @@ export class XmlDataContract$instance extends DataContract$instance {
     readonly topLevelElementNamespace: XmlDictionaryString;
     readonly xsdType: XmlSchemaType;
 }
+
+
+export const XmlDataContract: {
+    new(): XmlDataContract$instance;
+};
 
 
 export type XmlDataContract = XmlDataContract$instance;

@@ -129,17 +129,20 @@ export enum TableIndex {
 }
 
 
-export class ArrayShapeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface ArrayShapeEncoder$instance {
     readonly builder: BlobBuilder;
     shape(rank: int, sizes: ImmutableArray_1<CLROf<int>>, lowerBounds: ImmutableArray_1<CLROf<int>>): void;
 }
 
 
+export const ArrayShapeEncoder: {
+    new(builder: BlobBuilder): ArrayShapeEncoder$instance;
+};
+
+
 export type ArrayShapeEncoder = ArrayShapeEncoder$instance;
 
-export class BlobEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface BlobEncoder$instance {
     readonly builder: BlobBuilder;
     customAttributeSignature(fixedArguments: { value: ref<FixedArgumentsEncoder> }, namedArguments: { value: ref<CustomAttributeNamedArgumentsEncoder> }): void;
     customAttributeSignature(fixedArguments: Action_1<FixedArgumentsEncoder>, namedArguments: Action_1<CustomAttributeNamedArgumentsEncoder>): void;
@@ -155,20 +158,28 @@ export class BlobEncoder$instance {
 }
 
 
+export const BlobEncoder: {
+    new(builder: BlobBuilder): BlobEncoder$instance;
+};
+
+
 export type BlobEncoder = BlobEncoder$instance;
 
-export class CustomAttributeArrayTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface CustomAttributeArrayTypeEncoder$instance {
     readonly builder: BlobBuilder;
     elementType(): CustomAttributeElementTypeEncoder;
     objectArray(): void;
 }
 
 
+export const CustomAttributeArrayTypeEncoder: {
+    new(builder: BlobBuilder): CustomAttributeArrayTypeEncoder$instance;
+};
+
+
 export type CustomAttributeArrayTypeEncoder = CustomAttributeArrayTypeEncoder$instance;
 
-export class CustomAttributeElementTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface CustomAttributeElementTypeEncoder$instance {
     readonly builder: BlobBuilder;
     boolean_(): void;
     byte(): void;
@@ -189,34 +200,51 @@ export class CustomAttributeElementTypeEncoder$instance {
 }
 
 
+export const CustomAttributeElementTypeEncoder: {
+    new(builder: BlobBuilder): CustomAttributeElementTypeEncoder$instance;
+};
+
+
 export type CustomAttributeElementTypeEncoder = CustomAttributeElementTypeEncoder$instance;
 
-export class CustomAttributeNamedArgumentsEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface CustomAttributeNamedArgumentsEncoder$instance {
     readonly builder: BlobBuilder;
     count(count: int): NamedArgumentsEncoder;
 }
 
 
+export const CustomAttributeNamedArgumentsEncoder: {
+    new(builder: BlobBuilder): CustomAttributeNamedArgumentsEncoder$instance;
+};
+
+
 export type CustomAttributeNamedArgumentsEncoder = CustomAttributeNamedArgumentsEncoder$instance;
 
-export class CustomModifiersEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface CustomModifiersEncoder$instance {
     readonly builder: BlobBuilder;
     addModifier(type_: EntityHandle, isOptional: boolean): CustomModifiersEncoder;
 }
 
 
+export const CustomModifiersEncoder: {
+    new(builder: BlobBuilder): CustomModifiersEncoder$instance;
+};
+
+
 export type CustomModifiersEncoder = CustomModifiersEncoder$instance;
 
-export class EditAndContinueLogEntry$instance {
-    constructor(handle: EntityHandle, operation: EditAndContinueOperation);
+export interface EditAndContinueLogEntry$instance {
     readonly handle: EntityHandle;
     readonly operation: EditAndContinueOperation;
     equals(obj: unknown): boolean;
     equals(other: EditAndContinueLogEntry): boolean;
     getHashCode(): int;
 }
+
+
+export const EditAndContinueLogEntry: {
+    new(handle: EntityHandle, operation: EditAndContinueOperation): EditAndContinueLogEntry$instance;
+};
 
 
 export interface __EditAndContinueLogEntry$views {
@@ -229,7 +257,7 @@ export interface __EditAndContinueLogEntry$views {
 export type EditAndContinueLogEntry = EditAndContinueLogEntry$instance & __EditAndContinueLogEntry$views;
 
 
-export class ExceptionRegionEncoder$instance {
+export interface ExceptionRegionEncoder$instance {
     readonly builder: BlobBuilder;
     readonly hasSmallFormat: boolean;
     add(kind: ExceptionRegionKind, tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int, catchType?: EntityHandle, filterOffset?: int): ExceptionRegionEncoder;
@@ -237,15 +265,19 @@ export class ExceptionRegionEncoder$instance {
     addFault(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int): ExceptionRegionEncoder;
     addFilter(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int, filterOffset: int): ExceptionRegionEncoder;
     addFinally(tryOffset: int, tryLength: int, handlerOffset: int, handlerLength: int): ExceptionRegionEncoder;
-    static isSmallExceptionRegion(startOffset: int, length: int): boolean;
-    static isSmallRegionCount(exceptionRegionCount: int): boolean;
 }
+
+
+export const ExceptionRegionEncoder: {
+    new(): ExceptionRegionEncoder$instance;
+    isSmallExceptionRegion(startOffset: int, length: int): boolean;
+    isSmallRegionCount(exceptionRegionCount: int): boolean;
+};
 
 
 export type ExceptionRegionEncoder = ExceptionRegionEncoder$instance;
 
-export class FieldTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface FieldTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
     type_(isByRef?: boolean): SignatureTypeEncoder;
@@ -253,28 +285,40 @@ export class FieldTypeEncoder$instance {
 }
 
 
+export const FieldTypeEncoder: {
+    new(builder: BlobBuilder): FieldTypeEncoder$instance;
+};
+
+
 export type FieldTypeEncoder = FieldTypeEncoder$instance;
 
-export class FixedArgumentsEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface FixedArgumentsEncoder$instance {
     readonly builder: BlobBuilder;
     addArgument(): LiteralEncoder;
 }
 
 
+export const FixedArgumentsEncoder: {
+    new(builder: BlobBuilder): FixedArgumentsEncoder$instance;
+};
+
+
 export type FixedArgumentsEncoder = FixedArgumentsEncoder$instance;
 
-export class GenericTypeArgumentsEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface GenericTypeArgumentsEncoder$instance {
     readonly builder: BlobBuilder;
     addArgument(): SignatureTypeEncoder;
 }
 
 
+export const GenericTypeArgumentsEncoder: {
+    new(builder: BlobBuilder): GenericTypeArgumentsEncoder$instance;
+};
+
+
 export type GenericTypeArgumentsEncoder = GenericTypeArgumentsEncoder$instance;
 
-export class InstructionEncoder$instance {
-    constructor(codeBuilder: BlobBuilder, controlFlowBuilder: ControlFlowBuilder);
+export interface InstructionEncoder$instance {
     readonly codeBuilder: BlobBuilder;
     readonly controlFlowBuilder: ControlFlowBuilder;
     readonly offset: int;
@@ -304,15 +348,25 @@ export class InstructionEncoder$instance {
 }
 
 
+export const InstructionEncoder: {
+    new(codeBuilder: BlobBuilder, controlFlowBuilder: ControlFlowBuilder): InstructionEncoder$instance;
+};
+
+
 export type InstructionEncoder = InstructionEncoder$instance;
 
-export class LabelHandle$instance {
+export interface LabelHandle$instance {
     readonly id: int;
     readonly isNil: boolean;
     equals(other: LabelHandle): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
+
+
+export const LabelHandle: {
+    new(): LabelHandle$instance;
+};
 
 
 export interface __LabelHandle$views {
@@ -325,8 +379,7 @@ export interface __LabelHandle$views {
 export type LabelHandle = LabelHandle$instance & __LabelHandle$views;
 
 
-export class LiteralEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface LiteralEncoder$instance {
     readonly builder: BlobBuilder;
     scalar(): ScalarEncoder;
     taggedScalar(type_: { value: ref<CustomAttributeElementTypeEncoder> }, scalar: { value: ref<ScalarEncoder> }): void;
@@ -337,28 +390,40 @@ export class LiteralEncoder$instance {
 }
 
 
+export const LiteralEncoder: {
+    new(builder: BlobBuilder): LiteralEncoder$instance;
+};
+
+
 export type LiteralEncoder = LiteralEncoder$instance;
 
-export class LiteralsEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface LiteralsEncoder$instance {
     readonly builder: BlobBuilder;
     addLiteral(): LiteralEncoder;
 }
 
 
+export const LiteralsEncoder: {
+    new(builder: BlobBuilder): LiteralsEncoder$instance;
+};
+
+
 export type LiteralsEncoder = LiteralsEncoder$instance;
 
-export class LocalVariablesEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface LocalVariablesEncoder$instance {
     readonly builder: BlobBuilder;
     addVariable(): LocalVariableTypeEncoder;
 }
 
 
+export const LocalVariablesEncoder: {
+    new(builder: BlobBuilder): LocalVariablesEncoder$instance;
+};
+
+
 export type LocalVariablesEncoder = LocalVariablesEncoder$instance;
 
-export class LocalVariableTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface LocalVariableTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
     type_(isByRef?: boolean, isPinned?: boolean): SignatureTypeEncoder;
@@ -366,10 +431,14 @@ export class LocalVariableTypeEncoder$instance {
 }
 
 
+export const LocalVariableTypeEncoder: {
+    new(builder: BlobBuilder): LocalVariableTypeEncoder$instance;
+};
+
+
 export type LocalVariableTypeEncoder = LocalVariableTypeEncoder$instance;
 
-export class MethodBodyStreamEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface MethodBodyStreamEncoder$instance {
     readonly builder: BlobBuilder;
     addMethodBody(codeSize: int, maxStack: int, exceptionRegionCount: int, hasSmallExceptionRegions: boolean, localVariablesSignature: StandaloneSignatureHandle, attributes: MethodBodyAttributes): MethodBodyStreamEncoder_MethodBody;
     addMethodBody(codeSize: int, maxStack?: int, exceptionRegionCount?: int, hasSmallExceptionRegions?: boolean, localVariablesSignature?: StandaloneSignatureHandle, attributes?: MethodBodyAttributes, hasDynamicStackAllocation?: boolean): MethodBodyStreamEncoder_MethodBody;
@@ -378,19 +447,28 @@ export class MethodBodyStreamEncoder$instance {
 }
 
 
+export const MethodBodyStreamEncoder: {
+    new(builder: BlobBuilder): MethodBodyStreamEncoder$instance;
+};
+
+
 export type MethodBodyStreamEncoder = MethodBodyStreamEncoder$instance;
 
-export class MethodBodyStreamEncoder_MethodBody$instance {
+export interface MethodBodyStreamEncoder_MethodBody$instance {
     readonly exceptionRegions: ExceptionRegionEncoder;
     readonly instructions: Blob;
     readonly offset: int;
 }
 
 
+export const MethodBodyStreamEncoder_MethodBody: {
+    new(): MethodBodyStreamEncoder_MethodBody$instance;
+};
+
+
 export type MethodBodyStreamEncoder_MethodBody = MethodBodyStreamEncoder_MethodBody$instance;
 
-export class MethodSignatureEncoder$instance {
-    constructor(builder: BlobBuilder, hasVarArgs: boolean);
+export interface MethodSignatureEncoder$instance {
     readonly builder: BlobBuilder;
     readonly hasVarArgs: boolean;
     parameters(parameterCount: int, returnType: { value: ref<ReturnTypeEncoder> }, parameters: { value: ref<ParametersEncoder> }): void;
@@ -398,20 +476,28 @@ export class MethodSignatureEncoder$instance {
 }
 
 
+export const MethodSignatureEncoder: {
+    new(builder: BlobBuilder, hasVarArgs: boolean): MethodSignatureEncoder$instance;
+};
+
+
 export type MethodSignatureEncoder = MethodSignatureEncoder$instance;
 
-export class NamedArgumentsEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface NamedArgumentsEncoder$instance {
     readonly builder: BlobBuilder;
     addArgument(isField: boolean, type_: { value: ref<NamedArgumentTypeEncoder> }, name: { value: ref<NameEncoder> }, literal: { value: ref<LiteralEncoder> }): void;
     addArgument(isField: boolean, type_: Action_1<NamedArgumentTypeEncoder>, name: Action_1<NameEncoder>, literal: Action_1<LiteralEncoder>): void;
 }
 
 
+export const NamedArgumentsEncoder: {
+    new(builder: BlobBuilder): NamedArgumentsEncoder$instance;
+};
+
+
 export type NamedArgumentsEncoder = NamedArgumentsEncoder$instance;
 
-export class NamedArgumentTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface NamedArgumentTypeEncoder$instance {
     readonly builder: BlobBuilder;
     object_(): void;
     scalarType(): CustomAttributeElementTypeEncoder;
@@ -419,19 +505,27 @@ export class NamedArgumentTypeEncoder$instance {
 }
 
 
+export const NamedArgumentTypeEncoder: {
+    new(builder: BlobBuilder): NamedArgumentTypeEncoder$instance;
+};
+
+
 export type NamedArgumentTypeEncoder = NamedArgumentTypeEncoder$instance;
 
-export class NameEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface NameEncoder$instance {
     readonly builder: BlobBuilder;
     name(name: string): void;
 }
 
 
+export const NameEncoder: {
+    new(builder: BlobBuilder): NameEncoder$instance;
+};
+
+
 export type NameEncoder = NameEncoder$instance;
 
-export class ParametersEncoder$instance {
-    constructor(builder: BlobBuilder, hasVarArgs: boolean);
+export interface ParametersEncoder$instance {
     readonly builder: BlobBuilder;
     readonly hasVarArgs: boolean;
     addParameter(): ParameterTypeEncoder;
@@ -439,10 +533,14 @@ export class ParametersEncoder$instance {
 }
 
 
+export const ParametersEncoder: {
+    new(builder: BlobBuilder, hasVarArgs: boolean): ParametersEncoder$instance;
+};
+
+
 export type ParametersEncoder = ParametersEncoder$instance;
 
-export class ParameterTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface ParameterTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
     type_(isByRef?: boolean): SignatureTypeEncoder;
@@ -450,20 +548,28 @@ export class ParameterTypeEncoder$instance {
 }
 
 
+export const ParameterTypeEncoder: {
+    new(builder: BlobBuilder): ParameterTypeEncoder$instance;
+};
+
+
 export type ParameterTypeEncoder = ParameterTypeEncoder$instance;
 
-export class PermissionSetEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface PermissionSetEncoder$instance {
     readonly builder: BlobBuilder;
     addPermission(typeName: string, encodedArguments: ImmutableArray_1<CLROf<byte>>): PermissionSetEncoder;
     addPermission(typeName: string, encodedArguments: BlobBuilder): PermissionSetEncoder;
 }
 
 
+export const PermissionSetEncoder: {
+    new(builder: BlobBuilder): PermissionSetEncoder$instance;
+};
+
+
 export type PermissionSetEncoder = PermissionSetEncoder$instance;
 
-export class ReturnTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface ReturnTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
     type_(isByRef?: boolean): SignatureTypeEncoder;
@@ -472,10 +578,14 @@ export class ReturnTypeEncoder$instance {
 }
 
 
+export const ReturnTypeEncoder: {
+    new(builder: BlobBuilder): ReturnTypeEncoder$instance;
+};
+
+
 export type ReturnTypeEncoder = ReturnTypeEncoder$instance;
 
-export class ScalarEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface ScalarEncoder$instance {
     readonly builder: BlobBuilder;
     constant(value: unknown): void;
     nullArray(): void;
@@ -483,10 +593,14 @@ export class ScalarEncoder$instance {
 }
 
 
+export const ScalarEncoder: {
+    new(builder: BlobBuilder): ScalarEncoder$instance;
+};
+
+
 export type ScalarEncoder = ScalarEncoder$instance;
 
-export class SignatureDecoder_2$instance<TType, TGenericContext> {
-    constructor(provider: ISignatureTypeProvider_2<TType, TGenericContext>, metadataReader: MetadataReader, genericContext: TGenericContext);
+export interface SignatureDecoder_2$instance<TType, TGenericContext> {
     decodeFieldSignature(blobReader: { value: ref<BlobReader> }): TType;
     decodeLocalSignature(blobReader: { value: ref<BlobReader> }): ImmutableArray_1<TType>;
     decodeMethodSignature(blobReader: { value: ref<BlobReader> }): MethodSignature_1<TType>;
@@ -495,10 +609,14 @@ export class SignatureDecoder_2$instance<TType, TGenericContext> {
 }
 
 
+export const SignatureDecoder_2: {
+    new<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, metadataReader: MetadataReader, genericContext: TGenericContext): SignatureDecoder_2$instance<TType, TGenericContext>;
+};
+
+
 export type SignatureDecoder_2<TType, TGenericContext> = SignatureDecoder_2$instance<TType, TGenericContext>;
 
-export class SignatureTypeEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface SignatureTypeEncoder$instance {
     readonly builder: BlobBuilder;
     array(elementType: { value: ref<SignatureTypeEncoder> }, arrayShape: { value: ref<ArrayShapeEncoder> }): void;
     array(elementType: Action_1<SignatureTypeEncoder>, arrayShape: Action_1<ArrayShapeEncoder>): void;
@@ -532,26 +650,39 @@ export class SignatureTypeEncoder$instance {
 }
 
 
+export const SignatureTypeEncoder: {
+    new(builder: BlobBuilder): SignatureTypeEncoder$instance;
+};
+
+
 export type SignatureTypeEncoder = SignatureTypeEncoder$instance;
 
-export class SwitchInstructionEncoder$instance {
+export interface SwitchInstructionEncoder$instance {
     branch(label: LabelHandle): void;
 }
 
 
+export const SwitchInstructionEncoder: {
+    new(): SwitchInstructionEncoder$instance;
+};
+
+
 export type SwitchInstructionEncoder = SwitchInstructionEncoder$instance;
 
-export class VectorEncoder$instance {
-    constructor(builder: BlobBuilder);
+export interface VectorEncoder$instance {
     readonly builder: BlobBuilder;
     count(count: int): LiteralsEncoder;
 }
 
 
+export const VectorEncoder: {
+    new(builder: BlobBuilder): VectorEncoder$instance;
+};
+
+
 export type VectorEncoder = VectorEncoder$instance;
 
-export class ControlFlowBuilder$instance {
-    constructor();
+export interface ControlFlowBuilder$instance {
     addCatchRegion(tryStart: LabelHandle, tryEnd: LabelHandle, handlerStart: LabelHandle, handlerEnd: LabelHandle, catchType: EntityHandle): void;
     addFaultRegion(tryStart: LabelHandle, tryEnd: LabelHandle, handlerStart: LabelHandle, handlerEnd: LabelHandle): void;
     addFilterRegion(tryStart: LabelHandle, tryEnd: LabelHandle, handlerStart: LabelHandle, handlerEnd: LabelHandle, filterStart: LabelHandle): void;
@@ -560,19 +691,27 @@ export class ControlFlowBuilder$instance {
 }
 
 
+export const ControlFlowBuilder: {
+    new(): ControlFlowBuilder$instance;
+};
+
+
 export type ControlFlowBuilder = ControlFlowBuilder$instance;
 
-export class MetadataAggregator$instance {
-    constructor(baseReader: MetadataReader, deltaReaders: IReadOnlyList_1<MetadataReader>);
-    constructor(baseTableRowCounts: IReadOnlyList_1<CLROf<int>>, baseHeapSizes: IReadOnlyList_1<CLROf<int>>, deltaReaders: IReadOnlyList_1<MetadataReader>);
+export interface MetadataAggregator$instance {
     getGenerationHandle(handle: Handle, generation: { value: ref<int> }): Handle;
 }
 
 
+export const MetadataAggregator: {
+    new(baseReader: MetadataReader, deltaReaders: IReadOnlyList_1<MetadataReader>): MetadataAggregator$instance;
+    new(baseTableRowCounts: IReadOnlyList_1<CLROf<int>>, baseHeapSizes: IReadOnlyList_1<CLROf<int>>, deltaReaders: IReadOnlyList_1<MetadataReader>): MetadataAggregator$instance;
+};
+
+
 export type MetadataAggregator = MetadataAggregator$instance;
 
-export class MetadataBuilder$instance {
-    constructor(userStringHeapStartOffset: int, stringHeapStartOffset: int, blobHeapStartOffset: int, guidHeapStartOffset: int);
+export interface MetadataBuilder$instance {
     addAssembly(name: StringHandle, version: Version, culture: StringHandle, publicKey: BlobHandle, flags: AssemblyFlags, hashAlgorithm: AssemblyHashAlgorithm): AssemblyDefinitionHandle;
     addAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     addAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
@@ -636,10 +775,14 @@ export class MetadataBuilder$instance {
 }
 
 
+export const MetadataBuilder: {
+    new(userStringHeapStartOffset: int, stringHeapStartOffset: int, blobHeapStartOffset: int, guidHeapStartOffset: int): MetadataBuilder$instance;
+};
+
+
 export type MetadataBuilder = MetadataBuilder$instance;
 
-export class MetadataRootBuilder$instance {
-    constructor(tablesAndHeaps: MetadataBuilder, metadataVersion: string, suppressValidation: boolean);
+export interface MetadataRootBuilder$instance {
     readonly metadataVersion: string;
     readonly sizes: MetadataSizes;
     readonly suppressValidation: boolean;
@@ -647,9 +790,14 @@ export class MetadataRootBuilder$instance {
 }
 
 
+export const MetadataRootBuilder: {
+    new(tablesAndHeaps: MetadataBuilder, metadataVersion: string, suppressValidation: boolean): MetadataRootBuilder$instance;
+};
+
+
 export type MetadataRootBuilder = MetadataRootBuilder$instance;
 
-export class MetadataSizes$instance {
+export interface MetadataSizes$instance {
     readonly externalRowCounts: ImmutableArray_1<CLROf<int>>;
     readonly heapSizes: ImmutableArray_1<CLROf<int>>;
     readonly rowCounts: ImmutableArray_1<CLROf<int>>;
@@ -657,15 +805,24 @@ export class MetadataSizes$instance {
 }
 
 
+export const MetadataSizes: {
+    new(): MetadataSizes$instance;
+};
+
+
 export type MetadataSizes = MetadataSizes$instance;
 
-export class PortablePdbBuilder$instance {
-    constructor(tablesAndHeaps: MetadataBuilder, typeSystemRowCounts: ImmutableArray_1<CLROf<int>>, entryPoint: MethodDefinitionHandle, idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>);
+export interface PortablePdbBuilder$instance {
     readonly formatVersion: ushort;
     readonly idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>;
     readonly metadataVersion: string;
     serialize(builder: BlobBuilder): BlobContentId;
 }
+
+
+export const PortablePdbBuilder: {
+    new(tablesAndHeaps: MetadataBuilder, typeSystemRowCounts: ImmutableArray_1<CLROf<int>>, entryPoint: MethodDefinitionHandle, idProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): PortablePdbBuilder$instance;
+};
 
 
 export type PortablePdbBuilder = PortablePdbBuilder$instance;

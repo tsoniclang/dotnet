@@ -18,8 +18,8 @@ import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decim
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { JsonArray$instance as JsonArray } from './internal/index.js';
-export { JsonNode$instance as JsonNode } from './internal/index.js';
-export { JsonNodeOptions$instance as JsonNodeOptions } from './internal/index.js';
-export { JsonObject$instance as JsonObject } from './internal/index.js';
-export { JsonValue$instance as JsonValue } from './internal/index.js';
+export { JsonArray as JsonArray } from './internal/index.js';
+export { JsonNode as JsonNode } from './internal/index.js';
+export { JsonNodeOptions as JsonNodeOptions } from './internal/index.js';
+export { JsonObject as JsonObject } from './internal/index.js';
+export { JsonValue as JsonValue } from './internal/index.js';

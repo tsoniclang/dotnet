@@ -13,7 +13,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::Value:System.Void*",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385879725,
+          "metadataToken": 385879685,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -29,7 +29,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftError::.ctor(System.Void*):void",
-          "metadataToken": 100695307,
+          "metadataToken": 100695203,
           "canonicalSignature": "(System.Void*):void",
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
@@ -108,7 +108,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879725
+            "metadataToken": 385879685
           }
         }
       ],
@@ -119,7 +119,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695307
+            "metadataToken": 100695203
           }
         }
       ]
@@ -136,7 +136,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::Value:System.Void*",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385879726,
+          "metadataToken": 385879686,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -152,7 +152,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftIndirectResult::.ctor(System.Void*):void",
-          "metadataToken": 100695309,
+          "metadataToken": 100695205,
           "canonicalSignature": "(System.Void*):void",
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
@@ -231,7 +231,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879726
+            "metadataToken": 385879686
           }
         }
       ],
@@ -242,7 +242,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftIndirectResult",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695309
+            "metadataToken": 100695205
           }
         }
       ]
@@ -259,7 +259,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::Value:System.Void*",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385879723,
+          "metadataToken": 385879683,
           "canonicalSignature": ":System.Void*",
           "normalizedSignature": "Value|:System.Void*|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -275,7 +275,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf::.ctor(System.Void*):void",
-          "metadataToken": 100695303,
+          "metadataToken": 100695199,
           "canonicalSignature": "(System.Void*):void",
           "normalizedSignature": "constructor|(System.Void*):void|static=false",
           "isStatic": false,
@@ -354,7 +354,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879723
+            "metadataToken": 385879683
           }
         }
       ],
@@ -365,7 +365,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695303
+            "metadataToken": 100695199
           }
         }
       ]
@@ -382,7 +382,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::Value:T",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385879724,
+          "metadataToken": 385879684,
           "canonicalSignature": ":T",
           "normalizedSignature": "Value|:T|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -398,7 +398,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Swift.SwiftSelf\u00601::.ctor(T):void",
-          "metadataToken": 100695305,
+          "metadataToken": 100695201,
           "canonicalSignature": "(T):void",
           "normalizedSignature": "constructor|(T):void|static=false",
           "isStatic": false,
@@ -477,7 +477,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385879724
+            "metadataToken": 385879684
           }
         }
       ],
@@ -488,7 +488,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Swift.SwiftSelf\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695305
+            "metadataToken": 100695201
           }
         }
       ]

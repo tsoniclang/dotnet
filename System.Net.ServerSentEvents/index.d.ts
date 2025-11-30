@@ -19,10 +19,10 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { SseFormatter$instance as SseFormatter } from './internal/index.js';
-export { SseParser_1$instance as SseParser_1 } from './internal/index.js';
-export { SseParser_1$instance as SseParser } from './internal/index.js';
-export { SseItem_1$instance as SseItem_1 } from './internal/index.js';
-export { SseItem_1$instance as SseItem } from './internal/index.js';
-export { SseItemParser_1$instance as SseItemParser_1 } from './internal/index.js';
-export { SseItemParser_1$instance as SseItemParser } from './internal/index.js';
+export { SseParser_1 as SseParser_1 } from './internal/index.js';
+export { SseParser_1 as SseParser } from './internal/index.js';
+export { SseItem_1 as SseItem_1 } from './internal/index.js';
+export { SseItem_1 as SseItem } from './internal/index.js';
+export type SseItemParser_1<T> = Internal.SseItemParser_1<T>;
+export type SseItemParser<T> = Internal.SseItemParser_1<T>;
 export { SseParser$instance as SseParser_0 } from './internal/index.js';

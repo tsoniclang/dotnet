@@ -15,4 +15,4 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export type IHtmlString = Internal.IHtmlString;
-export { HttpUtility$instance as HttpUtility } from './internal/index.js';
+export { HttpUtility as HttpUtility } from './internal/index.js';

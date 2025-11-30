@@ -589,17 +589,21 @@ export interface ISZArrayTypeProvider_1$instance<TType> {
 
 export type ISZArrayTypeProvider_1<TType> = ISZArrayTypeProvider_1$instance<TType>;
 
-export class ArrayShape$instance {
-    constructor(rank: int, sizes: ImmutableArray_1<CLROf<int>>, lowerBounds: ImmutableArray_1<CLROf<int>>);
+export interface ArrayShape$instance {
     readonly lowerBounds: ImmutableArray_1<CLROf<int>>;
     readonly rank: int;
     readonly sizes: ImmutableArray_1<CLROf<int>>;
 }
 
 
+export const ArrayShape: {
+    new(rank: int, sizes: ImmutableArray_1<CLROf<int>>, lowerBounds: ImmutableArray_1<CLROf<int>>): ArrayShape$instance;
+};
+
+
 export type ArrayShape = ArrayShape$instance;
 
-export class AssemblyDefinition$instance {
+export interface AssemblyDefinition$instance {
     readonly culture: StringHandle;
     readonly flags: AssemblyFlags;
     readonly hashAlgorithm: AssemblyHashAlgorithm;
@@ -613,14 +617,24 @@ export class AssemblyDefinition$instance {
 }
 
 
+export const AssemblyDefinition: {
+    new(): AssemblyDefinition$instance;
+};
+
+
 export type AssemblyDefinition = AssemblyDefinition$instance;
 
-export class AssemblyDefinitionHandle$instance {
+export interface AssemblyDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: AssemblyDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const AssemblyDefinitionHandle: {
+    new(): AssemblyDefinitionHandle$instance;
+};
 
 
 export interface __AssemblyDefinitionHandle$views {
@@ -633,7 +647,7 @@ export interface __AssemblyDefinitionHandle$views {
 export type AssemblyDefinitionHandle = AssemblyDefinitionHandle$instance & __AssemblyDefinitionHandle$views;
 
 
-export class AssemblyFile$instance {
+export interface AssemblyFile$instance {
     readonly containsMetadata: boolean;
     readonly hashValue: BlobHandle;
     readonly name: StringHandle;
@@ -641,14 +655,24 @@ export class AssemblyFile$instance {
 }
 
 
+export const AssemblyFile: {
+    new(): AssemblyFile$instance;
+};
+
+
 export type AssemblyFile = AssemblyFile$instance;
 
-export class AssemblyFileHandle$instance {
+export interface AssemblyFileHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: AssemblyFileHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const AssemblyFileHandle: {
+    new(): AssemblyFileHandle$instance;
+};
 
 
 export interface __AssemblyFileHandle$views {
@@ -661,10 +685,15 @@ export interface __AssemblyFileHandle$views {
 export type AssemblyFileHandle = AssemblyFileHandle$instance & __AssemblyFileHandle$views;
 
 
-export class AssemblyFileHandleCollection$instance {
+export interface AssemblyFileHandleCollection$instance {
     readonly count: int;
     getEnumerator(): AssemblyFileHandleCollection_Enumerator;
 }
+
+
+export const AssemblyFileHandleCollection: {
+    new(): AssemblyFileHandleCollection$instance;
+};
 
 
 export interface __AssemblyFileHandleCollection$views {
@@ -676,11 +705,16 @@ export interface __AssemblyFileHandleCollection$views {
 export type AssemblyFileHandleCollection = AssemblyFileHandleCollection$instance & __AssemblyFileHandleCollection$views;
 
 
-export class AssemblyFileHandleCollection_Enumerator$instance {
+export interface AssemblyFileHandleCollection_Enumerator$instance {
     readonly current: AssemblyFileHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const AssemblyFileHandleCollection_Enumerator: {
+    new(): AssemblyFileHandleCollection_Enumerator$instance;
+};
 
 
 export interface __AssemblyFileHandleCollection_Enumerator$views {
@@ -691,7 +725,7 @@ export interface __AssemblyFileHandleCollection_Enumerator$views {
 export type AssemblyFileHandleCollection_Enumerator = AssemblyFileHandleCollection_Enumerator$instance & __AssemblyFileHandleCollection_Enumerator$views;
 
 
-export class AssemblyReference$instance {
+export interface AssemblyReference$instance {
     readonly culture: StringHandle;
     readonly flags: AssemblyFlags;
     readonly hashValue: BlobHandle;
@@ -704,14 +738,24 @@ export class AssemblyReference$instance {
 }
 
 
+export const AssemblyReference: {
+    new(): AssemblyReference$instance;
+};
+
+
 export type AssemblyReference = AssemblyReference$instance;
 
-export class AssemblyReferenceHandle$instance {
+export interface AssemblyReferenceHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: AssemblyReferenceHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const AssemblyReferenceHandle: {
+    new(): AssemblyReferenceHandle$instance;
+};
 
 
 export interface __AssemblyReferenceHandle$views {
@@ -724,10 +768,15 @@ export interface __AssemblyReferenceHandle$views {
 export type AssemblyReferenceHandle = AssemblyReferenceHandle$instance & __AssemblyReferenceHandle$views;
 
 
-export class AssemblyReferenceHandleCollection$instance {
+export interface AssemblyReferenceHandleCollection$instance {
     readonly count: int;
     getEnumerator(): AssemblyReferenceHandleCollection_Enumerator;
 }
+
+
+export const AssemblyReferenceHandleCollection: {
+    new(): AssemblyReferenceHandleCollection$instance;
+};
 
 
 export interface __AssemblyReferenceHandleCollection$views {
@@ -739,11 +788,16 @@ export interface __AssemblyReferenceHandleCollection$views {
 export type AssemblyReferenceHandleCollection = AssemblyReferenceHandleCollection$instance & __AssemblyReferenceHandleCollection$views;
 
 
-export class AssemblyReferenceHandleCollection_Enumerator$instance {
+export interface AssemblyReferenceHandleCollection_Enumerator$instance {
     readonly current: AssemblyReferenceHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const AssemblyReferenceHandleCollection_Enumerator: {
+    new(): AssemblyReferenceHandleCollection_Enumerator$instance;
+};
 
 
 export interface __AssemblyReferenceHandleCollection_Enumerator$views {
@@ -754,21 +808,31 @@ export interface __AssemblyReferenceHandleCollection_Enumerator$views {
 export type AssemblyReferenceHandleCollection_Enumerator = AssemblyReferenceHandleCollection_Enumerator$instance & __AssemblyReferenceHandleCollection_Enumerator$views;
 
 
-export class Blob$instance {
+export interface Blob$instance {
     readonly isDefault: boolean;
     readonly length: int;
     getBytes(): ArraySegment_1<CLROf<byte>>;
 }
 
 
+export const Blob: {
+    new(): Blob$instance;
+};
+
+
 export type Blob = Blob$instance;
 
-export class BlobBuilder_Blobs$instance {
+export interface BlobBuilder_Blobs$instance {
     readonly current: Blob;
     getEnumerator(): BlobBuilder_Blobs;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const BlobBuilder_Blobs: {
+    new(): BlobBuilder_Blobs$instance;
+};
 
 
 export interface __BlobBuilder_Blobs$views {
@@ -782,20 +846,24 @@ export interface __BlobBuilder_Blobs$views {
 export type BlobBuilder_Blobs = BlobBuilder_Blobs$instance & __BlobBuilder_Blobs$views;
 
 
-export class BlobContentId$instance {
-    constructor(guid: Guid, stamp: uint);
-    constructor(id: ImmutableArray_1<CLROf<byte>>);
-    constructor(id: byte[]);
+export interface BlobContentId$instance {
     readonly guid: Guid;
     readonly isDefault: boolean;
     readonly stamp: uint;
     equals(other: BlobContentId): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static fromHash(hashCode: byte[]): BlobContentId;
-    static fromHash(hashCode: ImmutableArray_1<CLROf<byte>>): BlobContentId;
-    static getTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
 }
+
+
+export const BlobContentId: {
+    new(guid: Guid, stamp: uint): BlobContentId$instance;
+    new(id: ImmutableArray_1<CLROf<byte>>): BlobContentId$instance;
+    new(id: byte[]): BlobContentId$instance;
+    fromHash(hashCode: byte[]): BlobContentId;
+    fromHash(hashCode: ImmutableArray_1<CLROf<byte>>): BlobContentId;
+    getTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
+};
 
 
 export interface __BlobContentId$views {
@@ -808,12 +876,17 @@ export interface __BlobContentId$views {
 export type BlobContentId = BlobContentId$instance & __BlobContentId$views;
 
 
-export class BlobHandle$instance {
+export interface BlobHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: BlobHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const BlobHandle: {
+    new(): BlobHandle$instance;
+};
 
 
 export interface __BlobHandle$views {
@@ -826,8 +899,7 @@ export interface __BlobHandle$views {
 export type BlobHandle = BlobHandle$instance & __BlobHandle$views;
 
 
-export class BlobReader$instance {
-    constructor(buffer: ptr<byte>, length: int);
+export interface BlobReader$instance {
     readonly currentPointer: ptr<byte>;
     readonly length: int;
     offset: int;
@@ -869,13 +941,14 @@ export class BlobReader$instance {
 }
 
 
+export const BlobReader: {
+    new(buffer: ptr<byte>, length: int): BlobReader$instance;
+};
+
+
 export type BlobReader = BlobReader$instance;
 
-export class BlobWriter$instance {
-    constructor(size: int);
-    constructor(buffer: byte[]);
-    constructor(blob: Blob);
-    constructor(buffer: byte[], start: int, count: int);
+export interface BlobWriter$instance {
     readonly blob: Blob;
     readonly length: int;
     offset: int;
@@ -926,23 +999,41 @@ export class BlobWriter$instance {
 }
 
 
+export const BlobWriter: {
+    new(size: int): BlobWriter$instance;
+    new(buffer: byte[]): BlobWriter$instance;
+    new(blob: Blob): BlobWriter$instance;
+    new(buffer: byte[], start: int, count: int): BlobWriter$instance;
+};
+
+
 export type BlobWriter = BlobWriter$instance;
 
-export class Constant$instance {
+export interface Constant$instance {
     readonly parent: EntityHandle;
     readonly typeCode: ConstantTypeCode;
     readonly value: BlobHandle;
 }
 
 
+export const Constant: {
+    new(): Constant$instance;
+};
+
+
 export type Constant = Constant$instance;
 
-export class ConstantHandle$instance {
+export interface ConstantHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ConstantHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ConstantHandle: {
+    new(): ConstantHandle$instance;
+};
 
 
 export interface __ConstantHandle$views {
@@ -955,7 +1046,7 @@ export interface __ConstantHandle$views {
 export type ConstantHandle = ConstantHandle$instance & __ConstantHandle$views;
 
 
-export class CustomAttribute$instance {
+export interface CustomAttribute$instance {
     readonly constructor_: EntityHandle;
     readonly parent: EntityHandle;
     readonly value: BlobHandle;
@@ -963,14 +1054,24 @@ export class CustomAttribute$instance {
 }
 
 
+export const CustomAttribute: {
+    new(): CustomAttribute$instance;
+};
+
+
 export type CustomAttribute = CustomAttribute$instance;
 
-export class CustomAttributeHandle$instance {
+export interface CustomAttributeHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: CustomAttributeHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const CustomAttributeHandle: {
+    new(): CustomAttributeHandle$instance;
+};
 
 
 export interface __CustomAttributeHandle$views {
@@ -983,10 +1084,15 @@ export interface __CustomAttributeHandle$views {
 export type CustomAttributeHandle = CustomAttributeHandle$instance & __CustomAttributeHandle$views;
 
 
-export class CustomAttributeHandleCollection$instance {
+export interface CustomAttributeHandleCollection$instance {
     readonly count: int;
     getEnumerator(): CustomAttributeHandleCollection_Enumerator;
 }
+
+
+export const CustomAttributeHandleCollection: {
+    new(): CustomAttributeHandleCollection$instance;
+};
 
 
 export interface __CustomAttributeHandleCollection$views {
@@ -998,11 +1104,16 @@ export interface __CustomAttributeHandleCollection$views {
 export type CustomAttributeHandleCollection = CustomAttributeHandleCollection$instance & __CustomAttributeHandleCollection$views;
 
 
-export class CustomAttributeHandleCollection_Enumerator$instance {
+export interface CustomAttributeHandleCollection_Enumerator$instance {
     readonly current: CustomAttributeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const CustomAttributeHandleCollection_Enumerator: {
+    new(): CustomAttributeHandleCollection_Enumerator$instance;
+};
 
 
 export interface __CustomAttributeHandleCollection_Enumerator$views {
@@ -1013,8 +1124,7 @@ export interface __CustomAttributeHandleCollection_Enumerator$views {
 export type CustomAttributeHandleCollection_Enumerator = CustomAttributeHandleCollection_Enumerator$instance & __CustomAttributeHandleCollection_Enumerator$views;
 
 
-export class CustomAttributeNamedArgument_1$instance<TType> {
-    constructor(name: string, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown);
+export interface CustomAttributeNamedArgument_1$instance<TType> {
     readonly kind: CustomAttributeNamedArgumentKind;
     readonly name: string;
     readonly type_: TType;
@@ -1022,41 +1132,64 @@ export class CustomAttributeNamedArgument_1$instance<TType> {
 }
 
 
+export const CustomAttributeNamedArgument_1: {
+    new<TType>(name: string, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown): CustomAttributeNamedArgument_1$instance<TType>;
+};
+
+
 export type CustomAttributeNamedArgument_1<TType> = CustomAttributeNamedArgument_1$instance<TType>;
 
-export class CustomAttributeTypedArgument_1$instance<TType> {
-    constructor(type_: TType, value: unknown);
+export interface CustomAttributeTypedArgument_1$instance<TType> {
     readonly type_: TType;
     readonly value: unknown;
 }
 
 
+export const CustomAttributeTypedArgument_1: {
+    new<TType>(type_: TType, value: unknown): CustomAttributeTypedArgument_1$instance<TType>;
+};
+
+
 export type CustomAttributeTypedArgument_1<TType> = CustomAttributeTypedArgument_1$instance<TType>;
 
-export class CustomAttributeValue_1$instance<TType> {
-    constructor(fixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>, namedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>);
+export interface CustomAttributeValue_1$instance<TType> {
     readonly fixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>;
     readonly namedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>;
 }
 
 
+export const CustomAttributeValue_1: {
+    new<TType>(fixedArguments: ImmutableArray_1<CustomAttributeTypedArgument_1<TType>>, namedArguments: ImmutableArray_1<CustomAttributeNamedArgument_1<TType>>): CustomAttributeValue_1$instance<TType>;
+};
+
+
 export type CustomAttributeValue_1<TType> = CustomAttributeValue_1$instance<TType>;
 
-export class CustomDebugInformation$instance {
+export interface CustomDebugInformation$instance {
     readonly kind: GuidHandle;
     readonly parent: EntityHandle;
     readonly value: BlobHandle;
 }
 
 
+export const CustomDebugInformation: {
+    new(): CustomDebugInformation$instance;
+};
+
+
 export type CustomDebugInformation = CustomDebugInformation$instance;
 
-export class CustomDebugInformationHandle$instance {
+export interface CustomDebugInformationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: CustomDebugInformationHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const CustomDebugInformationHandle: {
+    new(): CustomDebugInformationHandle$instance;
+};
 
 
 export interface __CustomDebugInformationHandle$views {
@@ -1069,10 +1202,15 @@ export interface __CustomDebugInformationHandle$views {
 export type CustomDebugInformationHandle = CustomDebugInformationHandle$instance & __CustomDebugInformationHandle$views;
 
 
-export class CustomDebugInformationHandleCollection$instance {
+export interface CustomDebugInformationHandleCollection$instance {
     readonly count: int;
     getEnumerator(): CustomDebugInformationHandleCollection_Enumerator;
 }
+
+
+export const CustomDebugInformationHandleCollection: {
+    new(): CustomDebugInformationHandleCollection$instance;
+};
 
 
 export interface __CustomDebugInformationHandleCollection$views {
@@ -1084,11 +1222,16 @@ export interface __CustomDebugInformationHandleCollection$views {
 export type CustomDebugInformationHandleCollection = CustomDebugInformationHandleCollection$instance & __CustomDebugInformationHandleCollection$views;
 
 
-export class CustomDebugInformationHandleCollection_Enumerator$instance {
+export interface CustomDebugInformationHandleCollection_Enumerator$instance {
     readonly current: CustomDebugInformationHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const CustomDebugInformationHandleCollection_Enumerator: {
+    new(): CustomDebugInformationHandleCollection_Enumerator$instance;
+};
 
 
 export interface __CustomDebugInformationHandleCollection_Enumerator$views {
@@ -1099,21 +1242,31 @@ export interface __CustomDebugInformationHandleCollection_Enumerator$views {
 export type CustomDebugInformationHandleCollection_Enumerator = CustomDebugInformationHandleCollection_Enumerator$instance & __CustomDebugInformationHandleCollection_Enumerator$views;
 
 
-export class DeclarativeSecurityAttribute$instance {
+export interface DeclarativeSecurityAttribute$instance {
     readonly action: DeclarativeSecurityAction;
     readonly parent: EntityHandle;
     readonly permissionSet: BlobHandle;
 }
 
 
+export const DeclarativeSecurityAttribute: {
+    new(): DeclarativeSecurityAttribute$instance;
+};
+
+
 export type DeclarativeSecurityAttribute = DeclarativeSecurityAttribute$instance;
 
-export class DeclarativeSecurityAttributeHandle$instance {
+export interface DeclarativeSecurityAttributeHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: DeclarativeSecurityAttributeHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const DeclarativeSecurityAttributeHandle: {
+    new(): DeclarativeSecurityAttributeHandle$instance;
+};
 
 
 export interface __DeclarativeSecurityAttributeHandle$views {
@@ -1126,10 +1279,15 @@ export interface __DeclarativeSecurityAttributeHandle$views {
 export type DeclarativeSecurityAttributeHandle = DeclarativeSecurityAttributeHandle$instance & __DeclarativeSecurityAttributeHandle$views;
 
 
-export class DeclarativeSecurityAttributeHandleCollection$instance {
+export interface DeclarativeSecurityAttributeHandleCollection$instance {
     readonly count: int;
     getEnumerator(): DeclarativeSecurityAttributeHandleCollection_Enumerator;
 }
+
+
+export const DeclarativeSecurityAttributeHandleCollection: {
+    new(): DeclarativeSecurityAttributeHandleCollection$instance;
+};
 
 
 export interface __DeclarativeSecurityAttributeHandleCollection$views {
@@ -1141,11 +1299,16 @@ export interface __DeclarativeSecurityAttributeHandleCollection$views {
 export type DeclarativeSecurityAttributeHandleCollection = DeclarativeSecurityAttributeHandleCollection$instance & __DeclarativeSecurityAttributeHandleCollection$views;
 
 
-export class DeclarativeSecurityAttributeHandleCollection_Enumerator$instance {
+export interface DeclarativeSecurityAttributeHandleCollection_Enumerator$instance {
     readonly current: DeclarativeSecurityAttributeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const DeclarativeSecurityAttributeHandleCollection_Enumerator: {
+    new(): DeclarativeSecurityAttributeHandleCollection_Enumerator$instance;
+};
 
 
 export interface __DeclarativeSecurityAttributeHandleCollection_Enumerator$views {
@@ -1156,7 +1319,7 @@ export interface __DeclarativeSecurityAttributeHandleCollection_Enumerator$views
 export type DeclarativeSecurityAttributeHandleCollection_Enumerator = DeclarativeSecurityAttributeHandleCollection_Enumerator$instance & __DeclarativeSecurityAttributeHandleCollection_Enumerator$views;
 
 
-export class Document$instance {
+export interface Document$instance {
     readonly hash: BlobHandle;
     readonly hashAlgorithm: GuidHandle;
     readonly language: GuidHandle;
@@ -1164,14 +1327,24 @@ export class Document$instance {
 }
 
 
+export const Document: {
+    new(): Document$instance;
+};
+
+
 export type Document = Document$instance;
 
-export class DocumentHandle$instance {
+export interface DocumentHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: DocumentHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const DocumentHandle: {
+    new(): DocumentHandle$instance;
+};
 
 
 export interface __DocumentHandle$views {
@@ -1184,10 +1357,15 @@ export interface __DocumentHandle$views {
 export type DocumentHandle = DocumentHandle$instance & __DocumentHandle$views;
 
 
-export class DocumentHandleCollection$instance {
+export interface DocumentHandleCollection$instance {
     readonly count: int;
     getEnumerator(): DocumentHandleCollection_Enumerator;
 }
+
+
+export const DocumentHandleCollection: {
+    new(): DocumentHandleCollection$instance;
+};
 
 
 export interface __DocumentHandleCollection$views {
@@ -1199,11 +1377,16 @@ export interface __DocumentHandleCollection$views {
 export type DocumentHandleCollection = DocumentHandleCollection$instance & __DocumentHandleCollection$views;
 
 
-export class DocumentHandleCollection_Enumerator$instance {
+export interface DocumentHandleCollection_Enumerator$instance {
     readonly current: DocumentHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const DocumentHandleCollection_Enumerator: {
+    new(): DocumentHandleCollection_Enumerator$instance;
+};
 
 
 export interface __DocumentHandleCollection_Enumerator$views {
@@ -1214,12 +1397,17 @@ export interface __DocumentHandleCollection_Enumerator$views {
 export type DocumentHandleCollection_Enumerator = DocumentHandleCollection_Enumerator$instance & __DocumentHandleCollection_Enumerator$views;
 
 
-export class DocumentNameBlobHandle$instance {
+export interface DocumentNameBlobHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: DocumentNameBlobHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const DocumentNameBlobHandle: {
+    new(): DocumentNameBlobHandle$instance;
+};
 
 
 export interface __DocumentNameBlobHandle$views {
@@ -1232,15 +1420,20 @@ export interface __DocumentNameBlobHandle$views {
 export type DocumentNameBlobHandle = DocumentNameBlobHandle$instance & __DocumentNameBlobHandle$views;
 
 
-export class EntityHandle$instance {
+export interface EntityHandle$instance {
     readonly isNil: boolean;
     readonly kind: HandleKind;
     equals(obj: unknown): boolean;
     equals(other: EntityHandle): boolean;
     getHashCode(): int;
-    static readonly moduleDefinition: ModuleDefinitionHandle;
-    static readonly assemblyDefinition: AssemblyDefinitionHandle;
 }
+
+
+export const EntityHandle: {
+    new(): EntityHandle$instance;
+    readonly moduleDefinition: ModuleDefinitionHandle;
+    readonly assemblyDefinition: AssemblyDefinitionHandle;
+};
 
 
 export interface __EntityHandle$views {
@@ -1253,7 +1446,7 @@ export interface __EntityHandle$views {
 export type EntityHandle = EntityHandle$instance & __EntityHandle$views;
 
 
-export class EventAccessors$instance {
+export interface EventAccessors$instance {
     readonly adder: MethodDefinitionHandle;
     readonly others: ImmutableArray_1<MethodDefinitionHandle>;
     readonly raiser: MethodDefinitionHandle;
@@ -1261,9 +1454,14 @@ export class EventAccessors$instance {
 }
 
 
+export const EventAccessors: {
+    new(): EventAccessors$instance;
+};
+
+
 export type EventAccessors = EventAccessors$instance;
 
-export class EventDefinition$instance {
+export interface EventDefinition$instance {
     readonly attributes: EventAttributes;
     readonly name: StringHandle;
     readonly type_: EntityHandle;
@@ -1273,14 +1471,24 @@ export class EventDefinition$instance {
 }
 
 
+export const EventDefinition: {
+    new(): EventDefinition$instance;
+};
+
+
 export type EventDefinition = EventDefinition$instance;
 
-export class EventDefinitionHandle$instance {
+export interface EventDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: EventDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const EventDefinitionHandle: {
+    new(): EventDefinitionHandle$instance;
+};
 
 
 export interface __EventDefinitionHandle$views {
@@ -1293,10 +1501,15 @@ export interface __EventDefinitionHandle$views {
 export type EventDefinitionHandle = EventDefinitionHandle$instance & __EventDefinitionHandle$views;
 
 
-export class EventDefinitionHandleCollection$instance {
+export interface EventDefinitionHandleCollection$instance {
     readonly count: int;
     getEnumerator(): EventDefinitionHandleCollection_Enumerator;
 }
+
+
+export const EventDefinitionHandleCollection: {
+    new(): EventDefinitionHandleCollection$instance;
+};
 
 
 export interface __EventDefinitionHandleCollection$views {
@@ -1308,11 +1521,16 @@ export interface __EventDefinitionHandleCollection$views {
 export type EventDefinitionHandleCollection = EventDefinitionHandleCollection$instance & __EventDefinitionHandleCollection$views;
 
 
-export class EventDefinitionHandleCollection_Enumerator$instance {
+export interface EventDefinitionHandleCollection_Enumerator$instance {
     readonly current: EventDefinitionHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const EventDefinitionHandleCollection_Enumerator: {
+    new(): EventDefinitionHandleCollection_Enumerator$instance;
+};
 
 
 export interface __EventDefinitionHandleCollection_Enumerator$views {
@@ -1323,7 +1541,7 @@ export interface __EventDefinitionHandleCollection_Enumerator$views {
 export type EventDefinitionHandleCollection_Enumerator = EventDefinitionHandleCollection_Enumerator$instance & __EventDefinitionHandleCollection_Enumerator$views;
 
 
-export class ExceptionRegion$instance {
+export interface ExceptionRegion$instance {
     readonly catchType: EntityHandle;
     readonly filterOffset: int;
     readonly handlerLength: int;
@@ -1334,9 +1552,14 @@ export class ExceptionRegion$instance {
 }
 
 
+export const ExceptionRegion: {
+    new(): ExceptionRegion$instance;
+};
+
+
 export type ExceptionRegion = ExceptionRegion$instance;
 
-export class ExportedType$instance {
+export interface ExportedType$instance {
     readonly attributes: TypeAttributes;
     readonly implementation: EntityHandle;
     readonly isForwarder: boolean;
@@ -1347,14 +1570,24 @@ export class ExportedType$instance {
 }
 
 
+export const ExportedType: {
+    new(): ExportedType$instance;
+};
+
+
 export type ExportedType = ExportedType$instance;
 
-export class ExportedTypeHandle$instance {
+export interface ExportedTypeHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ExportedTypeHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ExportedTypeHandle: {
+    new(): ExportedTypeHandle$instance;
+};
 
 
 export interface __ExportedTypeHandle$views {
@@ -1367,10 +1600,15 @@ export interface __ExportedTypeHandle$views {
 export type ExportedTypeHandle = ExportedTypeHandle$instance & __ExportedTypeHandle$views;
 
 
-export class ExportedTypeHandleCollection$instance {
+export interface ExportedTypeHandleCollection$instance {
     readonly count: int;
     getEnumerator(): ExportedTypeHandleCollection_Enumerator;
 }
+
+
+export const ExportedTypeHandleCollection: {
+    new(): ExportedTypeHandleCollection$instance;
+};
 
 
 export interface __ExportedTypeHandleCollection$views {
@@ -1382,11 +1620,16 @@ export interface __ExportedTypeHandleCollection$views {
 export type ExportedTypeHandleCollection = ExportedTypeHandleCollection$instance & __ExportedTypeHandleCollection$views;
 
 
-export class ExportedTypeHandleCollection_Enumerator$instance {
+export interface ExportedTypeHandleCollection_Enumerator$instance {
     readonly current: ExportedTypeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ExportedTypeHandleCollection_Enumerator: {
+    new(): ExportedTypeHandleCollection_Enumerator$instance;
+};
 
 
 export interface __ExportedTypeHandleCollection_Enumerator$views {
@@ -1397,7 +1640,7 @@ export interface __ExportedTypeHandleCollection_Enumerator$views {
 export type ExportedTypeHandleCollection_Enumerator = ExportedTypeHandleCollection_Enumerator$instance & __ExportedTypeHandleCollection_Enumerator$views;
 
 
-export class FieldDefinition$instance {
+export interface FieldDefinition$instance {
     readonly attributes: FieldAttributes;
     readonly name: StringHandle;
     readonly signature: BlobHandle;
@@ -1411,14 +1654,24 @@ export class FieldDefinition$instance {
 }
 
 
+export const FieldDefinition: {
+    new(): FieldDefinition$instance;
+};
+
+
 export type FieldDefinition = FieldDefinition$instance;
 
-export class FieldDefinitionHandle$instance {
+export interface FieldDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: FieldDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const FieldDefinitionHandle: {
+    new(): FieldDefinitionHandle$instance;
+};
 
 
 export interface __FieldDefinitionHandle$views {
@@ -1431,10 +1684,15 @@ export interface __FieldDefinitionHandle$views {
 export type FieldDefinitionHandle = FieldDefinitionHandle$instance & __FieldDefinitionHandle$views;
 
 
-export class FieldDefinitionHandleCollection$instance {
+export interface FieldDefinitionHandleCollection$instance {
     readonly count: int;
     getEnumerator(): FieldDefinitionHandleCollection_Enumerator;
 }
+
+
+export const FieldDefinitionHandleCollection: {
+    new(): FieldDefinitionHandleCollection$instance;
+};
 
 
 export interface __FieldDefinitionHandleCollection$views {
@@ -1446,11 +1704,16 @@ export interface __FieldDefinitionHandleCollection$views {
 export type FieldDefinitionHandleCollection = FieldDefinitionHandleCollection$instance & __FieldDefinitionHandleCollection$views;
 
 
-export class FieldDefinitionHandleCollection_Enumerator$instance {
+export interface FieldDefinitionHandleCollection_Enumerator$instance {
     readonly current: FieldDefinitionHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const FieldDefinitionHandleCollection_Enumerator: {
+    new(): FieldDefinitionHandleCollection_Enumerator$instance;
+};
 
 
 export interface __FieldDefinitionHandleCollection_Enumerator$views {
@@ -1461,7 +1724,7 @@ export interface __FieldDefinitionHandleCollection_Enumerator$views {
 export type FieldDefinitionHandleCollection_Enumerator = FieldDefinitionHandleCollection_Enumerator$instance & __FieldDefinitionHandleCollection_Enumerator$views;
 
 
-export class GenericParameter$instance {
+export interface GenericParameter$instance {
     readonly attributes: GenericParameterAttributes;
     readonly index: int;
     readonly name: StringHandle;
@@ -1471,23 +1734,38 @@ export class GenericParameter$instance {
 }
 
 
+export const GenericParameter: {
+    new(): GenericParameter$instance;
+};
+
+
 export type GenericParameter = GenericParameter$instance;
 
-export class GenericParameterConstraint$instance {
+export interface GenericParameterConstraint$instance {
     readonly parameter: GenericParameterHandle;
     readonly type_: EntityHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
+export const GenericParameterConstraint: {
+    new(): GenericParameterConstraint$instance;
+};
+
+
 export type GenericParameterConstraint = GenericParameterConstraint$instance;
 
-export class GenericParameterConstraintHandle$instance {
+export interface GenericParameterConstraintHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: GenericParameterConstraintHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const GenericParameterConstraintHandle: {
+    new(): GenericParameterConstraintHandle$instance;
+};
 
 
 export interface __GenericParameterConstraintHandle$views {
@@ -1500,11 +1778,16 @@ export interface __GenericParameterConstraintHandle$views {
 export type GenericParameterConstraintHandle = GenericParameterConstraintHandle$instance & __GenericParameterConstraintHandle$views;
 
 
-export class GenericParameterConstraintHandleCollection$instance {
+export interface GenericParameterConstraintHandleCollection$instance {
     readonly count: int;
     readonly item: GenericParameterConstraintHandle;
     getEnumerator(): GenericParameterConstraintHandleCollection_Enumerator;
 }
+
+
+export const GenericParameterConstraintHandleCollection: {
+    new(): GenericParameterConstraintHandleCollection$instance;
+};
 
 
 export interface __GenericParameterConstraintHandleCollection$views {
@@ -1516,11 +1799,16 @@ export interface __GenericParameterConstraintHandleCollection$views {
 export type GenericParameterConstraintHandleCollection = GenericParameterConstraintHandleCollection$instance & __GenericParameterConstraintHandleCollection$views;
 
 
-export class GenericParameterConstraintHandleCollection_Enumerator$instance {
+export interface GenericParameterConstraintHandleCollection_Enumerator$instance {
     readonly current: GenericParameterConstraintHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const GenericParameterConstraintHandleCollection_Enumerator: {
+    new(): GenericParameterConstraintHandleCollection_Enumerator$instance;
+};
 
 
 export interface __GenericParameterConstraintHandleCollection_Enumerator$views {
@@ -1531,12 +1819,17 @@ export interface __GenericParameterConstraintHandleCollection_Enumerator$views {
 export type GenericParameterConstraintHandleCollection_Enumerator = GenericParameterConstraintHandleCollection_Enumerator$instance & __GenericParameterConstraintHandleCollection_Enumerator$views;
 
 
-export class GenericParameterHandle$instance {
+export interface GenericParameterHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: GenericParameterHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const GenericParameterHandle: {
+    new(): GenericParameterHandle$instance;
+};
 
 
 export interface __GenericParameterHandle$views {
@@ -1549,11 +1842,16 @@ export interface __GenericParameterHandle$views {
 export type GenericParameterHandle = GenericParameterHandle$instance & __GenericParameterHandle$views;
 
 
-export class GenericParameterHandleCollection$instance {
+export interface GenericParameterHandleCollection$instance {
     readonly count: int;
     readonly item: GenericParameterHandle;
     getEnumerator(): GenericParameterHandleCollection_Enumerator;
 }
+
+
+export const GenericParameterHandleCollection: {
+    new(): GenericParameterHandleCollection$instance;
+};
 
 
 export interface __GenericParameterHandleCollection$views {
@@ -1565,11 +1863,16 @@ export interface __GenericParameterHandleCollection$views {
 export type GenericParameterHandleCollection = GenericParameterHandleCollection$instance & __GenericParameterHandleCollection$views;
 
 
-export class GenericParameterHandleCollection_Enumerator$instance {
+export interface GenericParameterHandleCollection_Enumerator$instance {
     readonly current: GenericParameterHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const GenericParameterHandleCollection_Enumerator: {
+    new(): GenericParameterHandleCollection_Enumerator$instance;
+};
 
 
 export interface __GenericParameterHandleCollection_Enumerator$views {
@@ -1580,12 +1883,17 @@ export interface __GenericParameterHandleCollection_Enumerator$views {
 export type GenericParameterHandleCollection_Enumerator = GenericParameterHandleCollection_Enumerator$instance & __GenericParameterHandleCollection_Enumerator$views;
 
 
-export class GuidHandle$instance {
+export interface GuidHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: GuidHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const GuidHandle: {
+    new(): GuidHandle$instance;
+};
 
 
 export interface __GuidHandle$views {
@@ -1598,15 +1906,20 @@ export interface __GuidHandle$views {
 export type GuidHandle = GuidHandle$instance & __GuidHandle$views;
 
 
-export class Handle$instance {
+export interface Handle$instance {
     readonly isNil: boolean;
     readonly kind: HandleKind;
     equals(obj: unknown): boolean;
     equals(other: Handle): boolean;
     getHashCode(): int;
-    static readonly moduleDefinition: ModuleDefinitionHandle;
-    static readonly assemblyDefinition: AssemblyDefinitionHandle;
 }
+
+
+export const Handle: {
+    new(): Handle$instance;
+    readonly moduleDefinition: ModuleDefinitionHandle;
+    readonly assemblyDefinition: AssemblyDefinitionHandle;
+};
 
 
 export interface __Handle$views {
@@ -1619,7 +1932,7 @@ export interface __Handle$views {
 export type Handle = Handle$instance & __Handle$views;
 
 
-export class ImportDefinition$instance {
+export interface ImportDefinition$instance {
     readonly alias: BlobHandle;
     readonly kind: ImportDefinitionKind;
     readonly targetAssembly: AssemblyReferenceHandle;
@@ -1628,11 +1941,21 @@ export class ImportDefinition$instance {
 }
 
 
+export const ImportDefinition: {
+    new(): ImportDefinition$instance;
+};
+
+
 export type ImportDefinition = ImportDefinition$instance;
 
-export class ImportDefinitionCollection$instance {
+export interface ImportDefinitionCollection$instance {
     getEnumerator(): ImportDefinitionCollection_Enumerator;
 }
+
+
+export const ImportDefinitionCollection: {
+    new(): ImportDefinitionCollection$instance;
+};
 
 
 export interface __ImportDefinitionCollection$views {
@@ -1643,11 +1966,16 @@ export interface __ImportDefinitionCollection$views {
 export type ImportDefinitionCollection = ImportDefinitionCollection$instance & __ImportDefinitionCollection$views;
 
 
-export class ImportDefinitionCollection_Enumerator$instance {
+export interface ImportDefinitionCollection_Enumerator$instance {
     readonly current: ImportDefinition;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImportDefinitionCollection_Enumerator: {
+    new(): ImportDefinitionCollection_Enumerator$instance;
+};
 
 
 export interface __ImportDefinitionCollection_Enumerator$views {
@@ -1659,19 +1987,29 @@ export interface __ImportDefinitionCollection_Enumerator$views {
 export type ImportDefinitionCollection_Enumerator = ImportDefinitionCollection_Enumerator$instance & __ImportDefinitionCollection_Enumerator$views;
 
 
-export class ImportScope$instance {
+export interface ImportScope$instance {
     readonly importsBlob: BlobHandle;
     readonly parent: ImportScopeHandle;
     getImports(): ImportDefinitionCollection;
 }
 
 
+export const ImportScope: {
+    new(): ImportScope$instance;
+};
+
+
 export type ImportScope = ImportScope$instance;
 
-export class ImportScopeCollection$instance {
+export interface ImportScopeCollection$instance {
     readonly count: int;
     getEnumerator(): ImportScopeCollection_Enumerator;
 }
+
+
+export const ImportScopeCollection: {
+    new(): ImportScopeCollection$instance;
+};
 
 
 export interface __ImportScopeCollection$views {
@@ -1683,11 +2021,16 @@ export interface __ImportScopeCollection$views {
 export type ImportScopeCollection = ImportScopeCollection$instance & __ImportScopeCollection$views;
 
 
-export class ImportScopeCollection_Enumerator$instance {
+export interface ImportScopeCollection_Enumerator$instance {
     readonly current: ImportScopeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ImportScopeCollection_Enumerator: {
+    new(): ImportScopeCollection_Enumerator$instance;
+};
 
 
 export interface __ImportScopeCollection_Enumerator$views {
@@ -1698,12 +2041,17 @@ export interface __ImportScopeCollection_Enumerator$views {
 export type ImportScopeCollection_Enumerator = ImportScopeCollection_Enumerator$instance & __ImportScopeCollection_Enumerator$views;
 
 
-export class ImportScopeHandle$instance {
+export interface ImportScopeHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ImportScopeHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ImportScopeHandle: {
+    new(): ImportScopeHandle$instance;
+};
 
 
 export interface __ImportScopeHandle$views {
@@ -1716,20 +2064,30 @@ export interface __ImportScopeHandle$views {
 export type ImportScopeHandle = ImportScopeHandle$instance & __ImportScopeHandle$views;
 
 
-export class InterfaceImplementation$instance {
+export interface InterfaceImplementation$instance {
     readonly interface_: EntityHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
+export const InterfaceImplementation: {
+    new(): InterfaceImplementation$instance;
+};
+
+
 export type InterfaceImplementation = InterfaceImplementation$instance;
 
-export class InterfaceImplementationHandle$instance {
+export interface InterfaceImplementationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: InterfaceImplementationHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const InterfaceImplementationHandle: {
+    new(): InterfaceImplementationHandle$instance;
+};
 
 
 export interface __InterfaceImplementationHandle$views {
@@ -1742,10 +2100,15 @@ export interface __InterfaceImplementationHandle$views {
 export type InterfaceImplementationHandle = InterfaceImplementationHandle$instance & __InterfaceImplementationHandle$views;
 
 
-export class InterfaceImplementationHandleCollection$instance {
+export interface InterfaceImplementationHandleCollection$instance {
     readonly count: int;
     getEnumerator(): InterfaceImplementationHandleCollection_Enumerator;
 }
+
+
+export const InterfaceImplementationHandleCollection: {
+    new(): InterfaceImplementationHandleCollection$instance;
+};
 
 
 export interface __InterfaceImplementationHandleCollection$views {
@@ -1757,11 +2120,16 @@ export interface __InterfaceImplementationHandleCollection$views {
 export type InterfaceImplementationHandleCollection = InterfaceImplementationHandleCollection$instance & __InterfaceImplementationHandleCollection$views;
 
 
-export class InterfaceImplementationHandleCollection_Enumerator$instance {
+export interface InterfaceImplementationHandleCollection_Enumerator$instance {
     readonly current: InterfaceImplementationHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const InterfaceImplementationHandleCollection_Enumerator: {
+    new(): InterfaceImplementationHandleCollection_Enumerator$instance;
+};
 
 
 export interface __InterfaceImplementationHandleCollection_Enumerator$views {
@@ -1772,20 +2140,30 @@ export interface __InterfaceImplementationHandleCollection_Enumerator$views {
 export type InterfaceImplementationHandleCollection_Enumerator = InterfaceImplementationHandleCollection_Enumerator$instance & __InterfaceImplementationHandleCollection_Enumerator$views;
 
 
-export class LocalConstant$instance {
+export interface LocalConstant$instance {
     readonly name: StringHandle;
     readonly signature: BlobHandle;
 }
 
 
+export const LocalConstant: {
+    new(): LocalConstant$instance;
+};
+
+
 export type LocalConstant = LocalConstant$instance;
 
-export class LocalConstantHandle$instance {
+export interface LocalConstantHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: LocalConstantHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const LocalConstantHandle: {
+    new(): LocalConstantHandle$instance;
+};
 
 
 export interface __LocalConstantHandle$views {
@@ -1798,10 +2176,15 @@ export interface __LocalConstantHandle$views {
 export type LocalConstantHandle = LocalConstantHandle$instance & __LocalConstantHandle$views;
 
 
-export class LocalConstantHandleCollection$instance {
+export interface LocalConstantHandleCollection$instance {
     readonly count: int;
     getEnumerator(): LocalConstantHandleCollection_Enumerator;
 }
+
+
+export const LocalConstantHandleCollection: {
+    new(): LocalConstantHandleCollection$instance;
+};
 
 
 export interface __LocalConstantHandleCollection$views {
@@ -1813,11 +2196,16 @@ export interface __LocalConstantHandleCollection$views {
 export type LocalConstantHandleCollection = LocalConstantHandleCollection$instance & __LocalConstantHandleCollection$views;
 
 
-export class LocalConstantHandleCollection_Enumerator$instance {
+export interface LocalConstantHandleCollection_Enumerator$instance {
     readonly current: LocalConstantHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const LocalConstantHandleCollection_Enumerator: {
+    new(): LocalConstantHandleCollection_Enumerator$instance;
+};
 
 
 export interface __LocalConstantHandleCollection_Enumerator$views {
@@ -1828,7 +2216,7 @@ export interface __LocalConstantHandleCollection_Enumerator$views {
 export type LocalConstantHandleCollection_Enumerator = LocalConstantHandleCollection_Enumerator$instance & __LocalConstantHandleCollection_Enumerator$views;
 
 
-export class LocalScope$instance {
+export interface LocalScope$instance {
     readonly endOffset: int;
     readonly importScope: ImportScopeHandle;
     readonly length: int;
@@ -1840,14 +2228,24 @@ export class LocalScope$instance {
 }
 
 
+export const LocalScope: {
+    new(): LocalScope$instance;
+};
+
+
 export type LocalScope = LocalScope$instance;
 
-export class LocalScopeHandle$instance {
+export interface LocalScopeHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: LocalScopeHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const LocalScopeHandle: {
+    new(): LocalScopeHandle$instance;
+};
 
 
 export interface __LocalScopeHandle$views {
@@ -1860,10 +2258,15 @@ export interface __LocalScopeHandle$views {
 export type LocalScopeHandle = LocalScopeHandle$instance & __LocalScopeHandle$views;
 
 
-export class LocalScopeHandleCollection$instance {
+export interface LocalScopeHandleCollection$instance {
     readonly count: int;
     getEnumerator(): LocalScopeHandleCollection_Enumerator;
 }
+
+
+export const LocalScopeHandleCollection: {
+    new(): LocalScopeHandleCollection$instance;
+};
 
 
 export interface __LocalScopeHandleCollection$views {
@@ -1875,11 +2278,16 @@ export interface __LocalScopeHandleCollection$views {
 export type LocalScopeHandleCollection = LocalScopeHandleCollection$instance & __LocalScopeHandleCollection$views;
 
 
-export class LocalScopeHandleCollection_ChildrenEnumerator$instance {
+export interface LocalScopeHandleCollection_ChildrenEnumerator$instance {
     readonly current: LocalScopeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const LocalScopeHandleCollection_ChildrenEnumerator: {
+    new(): LocalScopeHandleCollection_ChildrenEnumerator$instance;
+};
 
 
 export interface __LocalScopeHandleCollection_ChildrenEnumerator$views {
@@ -1890,11 +2298,16 @@ export interface __LocalScopeHandleCollection_ChildrenEnumerator$views {
 export type LocalScopeHandleCollection_ChildrenEnumerator = LocalScopeHandleCollection_ChildrenEnumerator$instance & __LocalScopeHandleCollection_ChildrenEnumerator$views;
 
 
-export class LocalScopeHandleCollection_Enumerator$instance {
+export interface LocalScopeHandleCollection_Enumerator$instance {
     readonly current: LocalScopeHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const LocalScopeHandleCollection_Enumerator: {
+    new(): LocalScopeHandleCollection_Enumerator$instance;
+};
 
 
 export interface __LocalScopeHandleCollection_Enumerator$views {
@@ -1905,21 +2318,31 @@ export interface __LocalScopeHandleCollection_Enumerator$views {
 export type LocalScopeHandleCollection_Enumerator = LocalScopeHandleCollection_Enumerator$instance & __LocalScopeHandleCollection_Enumerator$views;
 
 
-export class LocalVariable$instance {
+export interface LocalVariable$instance {
     readonly attributes: LocalVariableAttributes;
     readonly index: int;
     readonly name: StringHandle;
 }
 
 
+export const LocalVariable: {
+    new(): LocalVariable$instance;
+};
+
+
 export type LocalVariable = LocalVariable$instance;
 
-export class LocalVariableHandle$instance {
+export interface LocalVariableHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: LocalVariableHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const LocalVariableHandle: {
+    new(): LocalVariableHandle$instance;
+};
 
 
 export interface __LocalVariableHandle$views {
@@ -1932,10 +2355,15 @@ export interface __LocalVariableHandle$views {
 export type LocalVariableHandle = LocalVariableHandle$instance & __LocalVariableHandle$views;
 
 
-export class LocalVariableHandleCollection$instance {
+export interface LocalVariableHandleCollection$instance {
     readonly count: int;
     getEnumerator(): LocalVariableHandleCollection_Enumerator;
 }
+
+
+export const LocalVariableHandleCollection: {
+    new(): LocalVariableHandleCollection$instance;
+};
 
 
 export interface __LocalVariableHandleCollection$views {
@@ -1947,11 +2375,16 @@ export interface __LocalVariableHandleCollection$views {
 export type LocalVariableHandleCollection = LocalVariableHandleCollection$instance & __LocalVariableHandleCollection$views;
 
 
-export class LocalVariableHandleCollection_Enumerator$instance {
+export interface LocalVariableHandleCollection_Enumerator$instance {
     readonly current: LocalVariableHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const LocalVariableHandleCollection_Enumerator: {
+    new(): LocalVariableHandleCollection_Enumerator$instance;
+};
 
 
 export interface __LocalVariableHandleCollection_Enumerator$views {
@@ -1962,7 +2395,7 @@ export interface __LocalVariableHandleCollection_Enumerator$views {
 export type LocalVariableHandleCollection_Enumerator = LocalVariableHandleCollection_Enumerator$instance & __LocalVariableHandleCollection_Enumerator$views;
 
 
-export class ManifestResource$instance {
+export interface ManifestResource$instance {
     readonly attributes: ManifestResourceAttributes;
     readonly implementation: EntityHandle;
     readonly name: StringHandle;
@@ -1971,14 +2404,24 @@ export class ManifestResource$instance {
 }
 
 
+export const ManifestResource: {
+    new(): ManifestResource$instance;
+};
+
+
 export type ManifestResource = ManifestResource$instance;
 
-export class ManifestResourceHandle$instance {
+export interface ManifestResourceHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ManifestResourceHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ManifestResourceHandle: {
+    new(): ManifestResourceHandle$instance;
+};
 
 
 export interface __ManifestResourceHandle$views {
@@ -1991,10 +2434,15 @@ export interface __ManifestResourceHandle$views {
 export type ManifestResourceHandle = ManifestResourceHandle$instance & __ManifestResourceHandle$views;
 
 
-export class ManifestResourceHandleCollection$instance {
+export interface ManifestResourceHandleCollection$instance {
     readonly count: int;
     getEnumerator(): ManifestResourceHandleCollection_Enumerator;
 }
+
+
+export const ManifestResourceHandleCollection: {
+    new(): ManifestResourceHandleCollection$instance;
+};
 
 
 export interface __ManifestResourceHandleCollection$views {
@@ -2006,11 +2454,16 @@ export interface __ManifestResourceHandleCollection$views {
 export type ManifestResourceHandleCollection = ManifestResourceHandleCollection$instance & __ManifestResourceHandleCollection$views;
 
 
-export class ManifestResourceHandleCollection_Enumerator$instance {
+export interface ManifestResourceHandleCollection_Enumerator$instance {
     readonly current: ManifestResourceHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ManifestResourceHandleCollection_Enumerator: {
+    new(): ManifestResourceHandleCollection_Enumerator$instance;
+};
 
 
 export interface __ManifestResourceHandleCollection_Enumerator$views {
@@ -2021,7 +2474,7 @@ export interface __ManifestResourceHandleCollection_Enumerator$views {
 export type ManifestResourceHandleCollection_Enumerator = ManifestResourceHandleCollection_Enumerator$instance & __ManifestResourceHandleCollection_Enumerator$views;
 
 
-export class MemberReference$instance {
+export interface MemberReference$instance {
     readonly name: StringHandle;
     readonly parent: EntityHandle;
     readonly signature: BlobHandle;
@@ -2032,14 +2485,24 @@ export class MemberReference$instance {
 }
 
 
+export const MemberReference: {
+    new(): MemberReference$instance;
+};
+
+
 export type MemberReference = MemberReference$instance;
 
-export class MemberReferenceHandle$instance {
+export interface MemberReferenceHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: MemberReferenceHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const MemberReferenceHandle: {
+    new(): MemberReferenceHandle$instance;
+};
 
 
 export interface __MemberReferenceHandle$views {
@@ -2052,10 +2515,15 @@ export interface __MemberReferenceHandle$views {
 export type MemberReferenceHandle = MemberReferenceHandle$instance & __MemberReferenceHandle$views;
 
 
-export class MemberReferenceHandleCollection$instance {
+export interface MemberReferenceHandleCollection$instance {
     readonly count: int;
     getEnumerator(): MemberReferenceHandleCollection_Enumerator;
 }
+
+
+export const MemberReferenceHandleCollection: {
+    new(): MemberReferenceHandleCollection$instance;
+};
 
 
 export interface __MemberReferenceHandleCollection$views {
@@ -2067,11 +2535,16 @@ export interface __MemberReferenceHandleCollection$views {
 export type MemberReferenceHandleCollection = MemberReferenceHandleCollection$instance & __MemberReferenceHandleCollection$views;
 
 
-export class MemberReferenceHandleCollection_Enumerator$instance {
+export interface MemberReferenceHandleCollection_Enumerator$instance {
     readonly current: MemberReferenceHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const MemberReferenceHandleCollection_Enumerator: {
+    new(): MemberReferenceHandleCollection_Enumerator$instance;
+};
 
 
 export interface __MemberReferenceHandleCollection_Enumerator$views {
@@ -2082,7 +2555,7 @@ export interface __MemberReferenceHandleCollection_Enumerator$views {
 export type MemberReferenceHandleCollection_Enumerator = MemberReferenceHandleCollection_Enumerator$instance & __MemberReferenceHandleCollection_Enumerator$views;
 
 
-export class MetadataStringComparer$instance {
+export interface MetadataStringComparer$instance {
     equals(handle: StringHandle, value: string): boolean;
     equals(handle: StringHandle, value: string, ignoreCase: boolean): boolean;
     equals(handle: NamespaceDefinitionHandle, value: string): boolean;
@@ -2094,9 +2567,14 @@ export class MetadataStringComparer$instance {
 }
 
 
+export const MetadataStringComparer: {
+    new(): MetadataStringComparer$instance;
+};
+
+
 export type MetadataStringComparer = MetadataStringComparer$instance;
 
-export class MethodDebugInformation$instance {
+export interface MethodDebugInformation$instance {
     readonly document: DocumentHandle;
     readonly localSignature: StandaloneSignatureHandle;
     readonly sequencePointsBlob: BlobHandle;
@@ -2105,15 +2583,25 @@ export class MethodDebugInformation$instance {
 }
 
 
+export const MethodDebugInformation: {
+    new(): MethodDebugInformation$instance;
+};
+
+
 export type MethodDebugInformation = MethodDebugInformation$instance;
 
-export class MethodDebugInformationHandle$instance {
+export interface MethodDebugInformationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: MethodDebugInformationHandle): boolean;
     getHashCode(): int;
     toDefinitionHandle(): MethodDefinitionHandle;
 }
+
+
+export const MethodDebugInformationHandle: {
+    new(): MethodDebugInformationHandle$instance;
+};
 
 
 export interface __MethodDebugInformationHandle$views {
@@ -2126,10 +2614,15 @@ export interface __MethodDebugInformationHandle$views {
 export type MethodDebugInformationHandle = MethodDebugInformationHandle$instance & __MethodDebugInformationHandle$views;
 
 
-export class MethodDebugInformationHandleCollection$instance {
+export interface MethodDebugInformationHandleCollection$instance {
     readonly count: int;
     getEnumerator(): MethodDebugInformationHandleCollection_Enumerator;
 }
+
+
+export const MethodDebugInformationHandleCollection: {
+    new(): MethodDebugInformationHandleCollection$instance;
+};
 
 
 export interface __MethodDebugInformationHandleCollection$views {
@@ -2141,11 +2634,16 @@ export interface __MethodDebugInformationHandleCollection$views {
 export type MethodDebugInformationHandleCollection = MethodDebugInformationHandleCollection$instance & __MethodDebugInformationHandleCollection$views;
 
 
-export class MethodDebugInformationHandleCollection_Enumerator$instance {
+export interface MethodDebugInformationHandleCollection_Enumerator$instance {
     readonly current: MethodDebugInformationHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const MethodDebugInformationHandleCollection_Enumerator: {
+    new(): MethodDebugInformationHandleCollection_Enumerator$instance;
+};
 
 
 export interface __MethodDebugInformationHandleCollection_Enumerator$views {
@@ -2156,7 +2654,7 @@ export interface __MethodDebugInformationHandleCollection_Enumerator$views {
 export type MethodDebugInformationHandleCollection_Enumerator = MethodDebugInformationHandleCollection_Enumerator$instance & __MethodDebugInformationHandleCollection_Enumerator$views;
 
 
-export class MethodDefinition$instance {
+export interface MethodDefinition$instance {
     readonly attributes: MethodAttributes;
     readonly implAttributes: MethodImplAttributes;
     readonly name: StringHandle;
@@ -2172,15 +2670,25 @@ export class MethodDefinition$instance {
 }
 
 
+export const MethodDefinition: {
+    new(): MethodDefinition$instance;
+};
+
+
 export type MethodDefinition = MethodDefinition$instance;
 
-export class MethodDefinitionHandle$instance {
+export interface MethodDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: MethodDefinitionHandle): boolean;
     getHashCode(): int;
     toDebugInformationHandle(): MethodDebugInformationHandle;
 }
+
+
+export const MethodDefinitionHandle: {
+    new(): MethodDefinitionHandle$instance;
+};
 
 
 export interface __MethodDefinitionHandle$views {
@@ -2193,10 +2701,15 @@ export interface __MethodDefinitionHandle$views {
 export type MethodDefinitionHandle = MethodDefinitionHandle$instance & __MethodDefinitionHandle$views;
 
 
-export class MethodDefinitionHandleCollection$instance {
+export interface MethodDefinitionHandleCollection$instance {
     readonly count: int;
     getEnumerator(): MethodDefinitionHandleCollection_Enumerator;
 }
+
+
+export const MethodDefinitionHandleCollection: {
+    new(): MethodDefinitionHandleCollection$instance;
+};
 
 
 export interface __MethodDefinitionHandleCollection$views {
@@ -2208,11 +2721,16 @@ export interface __MethodDefinitionHandleCollection$views {
 export type MethodDefinitionHandleCollection = MethodDefinitionHandleCollection$instance & __MethodDefinitionHandleCollection$views;
 
 
-export class MethodDefinitionHandleCollection_Enumerator$instance {
+export interface MethodDefinitionHandleCollection_Enumerator$instance {
     readonly current: MethodDefinitionHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const MethodDefinitionHandleCollection_Enumerator: {
+    new(): MethodDefinitionHandleCollection_Enumerator$instance;
+};
 
 
 export interface __MethodDefinitionHandleCollection_Enumerator$views {
@@ -2223,7 +2741,7 @@ export interface __MethodDefinitionHandleCollection_Enumerator$views {
 export type MethodDefinitionHandleCollection_Enumerator = MethodDefinitionHandleCollection_Enumerator$instance & __MethodDefinitionHandleCollection_Enumerator$views;
 
 
-export class MethodImplementation$instance {
+export interface MethodImplementation$instance {
     readonly methodBody: EntityHandle;
     readonly methodDeclaration: EntityHandle;
     readonly type_: TypeDefinitionHandle;
@@ -2231,14 +2749,24 @@ export class MethodImplementation$instance {
 }
 
 
+export const MethodImplementation: {
+    new(): MethodImplementation$instance;
+};
+
+
 export type MethodImplementation = MethodImplementation$instance;
 
-export class MethodImplementationHandle$instance {
+export interface MethodImplementationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: MethodImplementationHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const MethodImplementationHandle: {
+    new(): MethodImplementationHandle$instance;
+};
 
 
 export interface __MethodImplementationHandle$views {
@@ -2251,10 +2779,15 @@ export interface __MethodImplementationHandle$views {
 export type MethodImplementationHandle = MethodImplementationHandle$instance & __MethodImplementationHandle$views;
 
 
-export class MethodImplementationHandleCollection$instance {
+export interface MethodImplementationHandleCollection$instance {
     readonly count: int;
     getEnumerator(): MethodImplementationHandleCollection_Enumerator;
 }
+
+
+export const MethodImplementationHandleCollection: {
+    new(): MethodImplementationHandleCollection$instance;
+};
 
 
 export interface __MethodImplementationHandleCollection$views {
@@ -2266,11 +2799,16 @@ export interface __MethodImplementationHandleCollection$views {
 export type MethodImplementationHandleCollection = MethodImplementationHandleCollection$instance & __MethodImplementationHandleCollection$views;
 
 
-export class MethodImplementationHandleCollection_Enumerator$instance {
+export interface MethodImplementationHandleCollection_Enumerator$instance {
     readonly current: MethodImplementationHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const MethodImplementationHandleCollection_Enumerator: {
+    new(): MethodImplementationHandleCollection_Enumerator$instance;
+};
 
 
 export interface __MethodImplementationHandleCollection_Enumerator$views {
@@ -2281,17 +2819,21 @@ export interface __MethodImplementationHandleCollection_Enumerator$views {
 export type MethodImplementationHandleCollection_Enumerator = MethodImplementationHandleCollection_Enumerator$instance & __MethodImplementationHandleCollection_Enumerator$views;
 
 
-export class MethodImport$instance {
+export interface MethodImport$instance {
     readonly attributes: MethodImportAttributes;
     readonly module_: ModuleReferenceHandle;
     readonly name: StringHandle;
 }
 
 
+export const MethodImport: {
+    new(): MethodImport$instance;
+};
+
+
 export type MethodImport = MethodImport$instance;
 
-export class MethodSignature_1$instance<TType> {
-    constructor(header: SignatureHeader, returnType: TType, requiredParameterCount: int, genericParameterCount: int, parameterTypes: ImmutableArray_1<TType>);
+export interface MethodSignature_1$instance<TType> {
     readonly genericParameterCount: int;
     readonly header: SignatureHeader;
     readonly parameterTypes: ImmutableArray_1<TType>;
@@ -2300,9 +2842,14 @@ export class MethodSignature_1$instance<TType> {
 }
 
 
+export const MethodSignature_1: {
+    new<TType>(header: SignatureHeader, returnType: TType, requiredParameterCount: int, genericParameterCount: int, parameterTypes: ImmutableArray_1<TType>): MethodSignature_1$instance<TType>;
+};
+
+
 export type MethodSignature_1<TType> = MethodSignature_1$instance<TType>;
 
-export class MethodSpecification$instance {
+export interface MethodSpecification$instance {
     readonly method: EntityHandle;
     readonly signature: BlobHandle;
     decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
@@ -2310,14 +2857,24 @@ export class MethodSpecification$instance {
 }
 
 
+export const MethodSpecification: {
+    new(): MethodSpecification$instance;
+};
+
+
 export type MethodSpecification = MethodSpecification$instance;
 
-export class MethodSpecificationHandle$instance {
+export interface MethodSpecificationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: MethodSpecificationHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const MethodSpecificationHandle: {
+    new(): MethodSpecificationHandle$instance;
+};
 
 
 export interface __MethodSpecificationHandle$views {
@@ -2330,7 +2887,7 @@ export interface __MethodSpecificationHandle$views {
 export type MethodSpecificationHandle = MethodSpecificationHandle$instance & __MethodSpecificationHandle$views;
 
 
-export class ModuleDefinition$instance {
+export interface ModuleDefinition$instance {
     readonly baseGenerationId: GuidHandle;
     readonly generation: int;
     readonly generationId: GuidHandle;
@@ -2340,14 +2897,24 @@ export class ModuleDefinition$instance {
 }
 
 
+export const ModuleDefinition: {
+    new(): ModuleDefinition$instance;
+};
+
+
 export type ModuleDefinition = ModuleDefinition$instance;
 
-export class ModuleDefinitionHandle$instance {
+export interface ModuleDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ModuleDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ModuleDefinitionHandle: {
+    new(): ModuleDefinitionHandle$instance;
+};
 
 
 export interface __ModuleDefinitionHandle$views {
@@ -2360,20 +2927,30 @@ export interface __ModuleDefinitionHandle$views {
 export type ModuleDefinitionHandle = ModuleDefinitionHandle$instance & __ModuleDefinitionHandle$views;
 
 
-export class ModuleReference$instance {
+export interface ModuleReference$instance {
     readonly name: StringHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
+export const ModuleReference: {
+    new(): ModuleReference$instance;
+};
+
+
 export type ModuleReference = ModuleReference$instance;
 
-export class ModuleReferenceHandle$instance {
+export interface ModuleReferenceHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ModuleReferenceHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ModuleReferenceHandle: {
+    new(): ModuleReferenceHandle$instance;
+};
 
 
 export interface __ModuleReferenceHandle$views {
@@ -2386,7 +2963,7 @@ export interface __ModuleReferenceHandle$views {
 export type ModuleReferenceHandle = ModuleReferenceHandle$instance & __ModuleReferenceHandle$views;
 
 
-export class NamespaceDefinition$instance {
+export interface NamespaceDefinition$instance {
     readonly exportedTypes: ImmutableArray_1<ExportedTypeHandle>;
     readonly name: StringHandle;
     readonly namespaceDefinitions: ImmutableArray_1<NamespaceDefinitionHandle>;
@@ -2395,14 +2972,24 @@ export class NamespaceDefinition$instance {
 }
 
 
+export const NamespaceDefinition: {
+    new(): NamespaceDefinition$instance;
+};
+
+
 export type NamespaceDefinition = NamespaceDefinition$instance;
 
-export class NamespaceDefinitionHandle$instance {
+export interface NamespaceDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: NamespaceDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const NamespaceDefinitionHandle: {
+    new(): NamespaceDefinitionHandle$instance;
+};
 
 
 export interface __NamespaceDefinitionHandle$views {
@@ -2415,7 +3002,7 @@ export interface __NamespaceDefinitionHandle$views {
 export type NamespaceDefinitionHandle = NamespaceDefinitionHandle$instance & __NamespaceDefinitionHandle$views;
 
 
-export class Parameter$instance {
+export interface Parameter$instance {
     readonly attributes: ParameterAttributes;
     readonly name: StringHandle;
     readonly sequenceNumber: int;
@@ -2425,14 +3012,24 @@ export class Parameter$instance {
 }
 
 
+export const Parameter: {
+    new(): Parameter$instance;
+};
+
+
 export type Parameter = Parameter$instance;
 
-export class ParameterHandle$instance {
+export interface ParameterHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: ParameterHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const ParameterHandle: {
+    new(): ParameterHandle$instance;
+};
 
 
 export interface __ParameterHandle$views {
@@ -2445,10 +3042,15 @@ export interface __ParameterHandle$views {
 export type ParameterHandle = ParameterHandle$instance & __ParameterHandle$views;
 
 
-export class ParameterHandleCollection$instance {
+export interface ParameterHandleCollection$instance {
     readonly count: int;
     getEnumerator(): ParameterHandleCollection_Enumerator;
 }
+
+
+export const ParameterHandleCollection: {
+    new(): ParameterHandleCollection$instance;
+};
 
 
 export interface __ParameterHandleCollection$views {
@@ -2460,11 +3062,16 @@ export interface __ParameterHandleCollection$views {
 export type ParameterHandleCollection = ParameterHandleCollection$instance & __ParameterHandleCollection$views;
 
 
-export class ParameterHandleCollection_Enumerator$instance {
+export interface ParameterHandleCollection_Enumerator$instance {
     readonly current: ParameterHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ParameterHandleCollection_Enumerator: {
+    new(): ParameterHandleCollection_Enumerator$instance;
+};
 
 
 export interface __ParameterHandleCollection_Enumerator$views {
@@ -2475,16 +3082,21 @@ export interface __ParameterHandleCollection_Enumerator$views {
 export type ParameterHandleCollection_Enumerator = ParameterHandleCollection_Enumerator$instance & __ParameterHandleCollection_Enumerator$views;
 
 
-export class PropertyAccessors$instance {
+export interface PropertyAccessors$instance {
     readonly getter: MethodDefinitionHandle;
     readonly others: ImmutableArray_1<MethodDefinitionHandle>;
     readonly setter: MethodDefinitionHandle;
 }
 
 
+export const PropertyAccessors: {
+    new(): PropertyAccessors$instance;
+};
+
+
 export type PropertyAccessors = PropertyAccessors$instance;
 
-export class PropertyDefinition$instance {
+export interface PropertyDefinition$instance {
     readonly attributes: PropertyAttributes;
     readonly name: StringHandle;
     readonly signature: BlobHandle;
@@ -2496,14 +3108,24 @@ export class PropertyDefinition$instance {
 }
 
 
+export const PropertyDefinition: {
+    new(): PropertyDefinition$instance;
+};
+
+
 export type PropertyDefinition = PropertyDefinition$instance;
 
-export class PropertyDefinitionHandle$instance {
+export interface PropertyDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: PropertyDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const PropertyDefinitionHandle: {
+    new(): PropertyDefinitionHandle$instance;
+};
 
 
 export interface __PropertyDefinitionHandle$views {
@@ -2516,10 +3138,15 @@ export interface __PropertyDefinitionHandle$views {
 export type PropertyDefinitionHandle = PropertyDefinitionHandle$instance & __PropertyDefinitionHandle$views;
 
 
-export class PropertyDefinitionHandleCollection$instance {
+export interface PropertyDefinitionHandleCollection$instance {
     readonly count: int;
     getEnumerator(): PropertyDefinitionHandleCollection_Enumerator;
 }
+
+
+export const PropertyDefinitionHandleCollection: {
+    new(): PropertyDefinitionHandleCollection$instance;
+};
 
 
 export interface __PropertyDefinitionHandleCollection$views {
@@ -2531,11 +3158,16 @@ export interface __PropertyDefinitionHandleCollection$views {
 export type PropertyDefinitionHandleCollection = PropertyDefinitionHandleCollection$instance & __PropertyDefinitionHandleCollection$views;
 
 
-export class PropertyDefinitionHandleCollection_Enumerator$instance {
+export interface PropertyDefinitionHandleCollection_Enumerator$instance {
     readonly current: PropertyDefinitionHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const PropertyDefinitionHandleCollection_Enumerator: {
+    new(): PropertyDefinitionHandleCollection_Enumerator$instance;
+};
 
 
 export interface __PropertyDefinitionHandleCollection_Enumerator$views {
@@ -2546,16 +3178,21 @@ export interface __PropertyDefinitionHandleCollection_Enumerator$views {
 export type PropertyDefinitionHandleCollection_Enumerator = PropertyDefinitionHandleCollection_Enumerator$instance & __PropertyDefinitionHandleCollection_Enumerator$views;
 
 
-export class ReservedBlob_1$instance<THandle extends unknown> {
+export interface ReservedBlob_1$instance<THandle extends unknown> {
     readonly content: Blob;
     readonly handle: THandle;
     createWriter(): BlobWriter;
 }
 
 
+export const ReservedBlob_1: {
+    new<THandle extends unknown>(): ReservedBlob_1$instance<THandle>;
+};
+
+
 export type ReservedBlob_1<THandle> = ReservedBlob_1$instance<THandle>;
 
-export class SequencePoint$instance {
+export interface SequencePoint$instance {
     readonly document: DocumentHandle;
     readonly endColumn: int;
     readonly endLine: int;
@@ -2566,8 +3203,13 @@ export class SequencePoint$instance {
     equals(obj: unknown): boolean;
     equals(other: SequencePoint): boolean;
     getHashCode(): int;
-    static readonly hiddenLine: int;
 }
+
+
+export const SequencePoint: {
+    new(): SequencePoint$instance;
+    readonly hiddenLine: int;
+};
 
 
 export interface __SequencePoint$views {
@@ -2580,9 +3222,14 @@ export interface __SequencePoint$views {
 export type SequencePoint = SequencePoint$instance & __SequencePoint$views;
 
 
-export class SequencePointCollection$instance {
+export interface SequencePointCollection$instance {
     getEnumerator(): SequencePointCollection_Enumerator;
 }
+
+
+export const SequencePointCollection: {
+    new(): SequencePointCollection$instance;
+};
 
 
 export interface __SequencePointCollection$views {
@@ -2593,11 +3240,16 @@ export interface __SequencePointCollection$views {
 export type SequencePointCollection = SequencePointCollection$instance & __SequencePointCollection$views;
 
 
-export class SequencePointCollection_Enumerator$instance {
+export interface SequencePointCollection_Enumerator$instance {
     readonly current: SequencePoint;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const SequencePointCollection_Enumerator: {
+    new(): SequencePointCollection_Enumerator$instance;
+};
 
 
 export interface __SequencePointCollection_Enumerator$views {
@@ -2609,9 +3261,7 @@ export interface __SequencePointCollection_Enumerator$views {
 export type SequencePointCollection_Enumerator = SequencePointCollection_Enumerator$instance & __SequencePointCollection_Enumerator$views;
 
 
-export class SignatureHeader$instance {
-    constructor(rawValue: byte);
-    constructor(kind: SignatureKind, convention: SignatureCallingConvention, attributes: SignatureAttributes);
+export interface SignatureHeader$instance {
     readonly attributes: SignatureAttributes;
     readonly callingConvention: SignatureCallingConvention;
     readonly hasExplicitThis: boolean;
@@ -2623,8 +3273,14 @@ export class SignatureHeader$instance {
     equals(other: SignatureHeader): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly callingConventionOrKindMask: byte;
 }
+
+
+export const SignatureHeader: {
+    new(rawValue: byte): SignatureHeader$instance;
+    new(kind: SignatureKind, convention: SignatureCallingConvention, attributes: SignatureAttributes): SignatureHeader$instance;
+    readonly callingConventionOrKindMask: byte;
+};
 
 
 export interface __SignatureHeader$views {
@@ -2637,7 +3293,7 @@ export interface __SignatureHeader$views {
 export type SignatureHeader = SignatureHeader$instance & __SignatureHeader$views;
 
 
-export class StandaloneSignature$instance {
+export interface StandaloneSignature$instance {
     readonly signature: BlobHandle;
     decodeLocalSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): ImmutableArray_1<TType>;
     decodeMethodSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): MethodSignature_1<TType>;
@@ -2646,14 +3302,24 @@ export class StandaloneSignature$instance {
 }
 
 
+export const StandaloneSignature: {
+    new(): StandaloneSignature$instance;
+};
+
+
 export type StandaloneSignature = StandaloneSignature$instance;
 
-export class StandaloneSignatureHandle$instance {
+export interface StandaloneSignatureHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: StandaloneSignatureHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const StandaloneSignatureHandle: {
+    new(): StandaloneSignatureHandle$instance;
+};
 
 
 export interface __StandaloneSignatureHandle$views {
@@ -2666,12 +3332,17 @@ export interface __StandaloneSignatureHandle$views {
 export type StandaloneSignatureHandle = StandaloneSignatureHandle$instance & __StandaloneSignatureHandle$views;
 
 
-export class StringHandle$instance {
+export interface StringHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: StringHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const StringHandle: {
+    new(): StringHandle$instance;
+};
 
 
 export interface __StringHandle$views {
@@ -2684,7 +3355,7 @@ export interface __StringHandle$views {
 export type StringHandle = StringHandle$instance & __StringHandle$views;
 
 
-export class TypeDefinition$instance {
+export interface TypeDefinition$instance {
     readonly attributes: TypeAttributes;
     readonly baseType: EntityHandle;
     readonly isNested: boolean;
@@ -2706,14 +3377,24 @@ export class TypeDefinition$instance {
 }
 
 
+export const TypeDefinition: {
+    new(): TypeDefinition$instance;
+};
+
+
 export type TypeDefinition = TypeDefinition$instance;
 
-export class TypeDefinitionHandle$instance {
+export interface TypeDefinitionHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: TypeDefinitionHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const TypeDefinitionHandle: {
+    new(): TypeDefinitionHandle$instance;
+};
 
 
 export interface __TypeDefinitionHandle$views {
@@ -2726,10 +3407,15 @@ export interface __TypeDefinitionHandle$views {
 export type TypeDefinitionHandle = TypeDefinitionHandle$instance & __TypeDefinitionHandle$views;
 
 
-export class TypeDefinitionHandleCollection$instance {
+export interface TypeDefinitionHandleCollection$instance {
     readonly count: int;
     getEnumerator(): TypeDefinitionHandleCollection_Enumerator;
 }
+
+
+export const TypeDefinitionHandleCollection: {
+    new(): TypeDefinitionHandleCollection$instance;
+};
 
 
 export interface __TypeDefinitionHandleCollection$views {
@@ -2741,11 +3427,16 @@ export interface __TypeDefinitionHandleCollection$views {
 export type TypeDefinitionHandleCollection = TypeDefinitionHandleCollection$instance & __TypeDefinitionHandleCollection$views;
 
 
-export class TypeDefinitionHandleCollection_Enumerator$instance {
+export interface TypeDefinitionHandleCollection_Enumerator$instance {
     readonly current: TypeDefinitionHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const TypeDefinitionHandleCollection_Enumerator: {
+    new(): TypeDefinitionHandleCollection_Enumerator$instance;
+};
 
 
 export interface __TypeDefinitionHandleCollection_Enumerator$views {
@@ -2756,31 +3447,45 @@ export interface __TypeDefinitionHandleCollection_Enumerator$views {
 export type TypeDefinitionHandleCollection_Enumerator = TypeDefinitionHandleCollection_Enumerator$instance & __TypeDefinitionHandleCollection_Enumerator$views;
 
 
-export class TypeLayout$instance {
-    constructor(size: int, packingSize: int);
+export interface TypeLayout$instance {
     readonly isDefault: boolean;
     readonly packingSize: int;
     readonly size: int;
 }
 
 
+export const TypeLayout: {
+    new(size: int, packingSize: int): TypeLayout$instance;
+};
+
+
 export type TypeLayout = TypeLayout$instance;
 
-export class TypeReference$instance {
+export interface TypeReference$instance {
     readonly name: StringHandle;
     readonly namespace_: StringHandle;
     readonly resolutionScope: EntityHandle;
 }
 
 
+export const TypeReference: {
+    new(): TypeReference$instance;
+};
+
+
 export type TypeReference = TypeReference$instance;
 
-export class TypeReferenceHandle$instance {
+export interface TypeReferenceHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: TypeReferenceHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const TypeReferenceHandle: {
+    new(): TypeReferenceHandle$instance;
+};
 
 
 export interface __TypeReferenceHandle$views {
@@ -2793,10 +3498,15 @@ export interface __TypeReferenceHandle$views {
 export type TypeReferenceHandle = TypeReferenceHandle$instance & __TypeReferenceHandle$views;
 
 
-export class TypeReferenceHandleCollection$instance {
+export interface TypeReferenceHandleCollection$instance {
     readonly count: int;
     getEnumerator(): TypeReferenceHandleCollection_Enumerator;
 }
+
+
+export const TypeReferenceHandleCollection: {
+    new(): TypeReferenceHandleCollection$instance;
+};
 
 
 export interface __TypeReferenceHandleCollection$views {
@@ -2808,11 +3518,16 @@ export interface __TypeReferenceHandleCollection$views {
 export type TypeReferenceHandleCollection = TypeReferenceHandleCollection$instance & __TypeReferenceHandleCollection$views;
 
 
-export class TypeReferenceHandleCollection_Enumerator$instance {
+export interface TypeReferenceHandleCollection_Enumerator$instance {
     readonly current: TypeReferenceHandle;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const TypeReferenceHandleCollection_Enumerator: {
+    new(): TypeReferenceHandleCollection_Enumerator$instance;
+};
 
 
 export interface __TypeReferenceHandleCollection_Enumerator$views {
@@ -2823,21 +3538,31 @@ export interface __TypeReferenceHandleCollection_Enumerator$views {
 export type TypeReferenceHandleCollection_Enumerator = TypeReferenceHandleCollection_Enumerator$instance & __TypeReferenceHandleCollection_Enumerator$views;
 
 
-export class TypeSpecification$instance {
+export interface TypeSpecification$instance {
     readonly signature: BlobHandle;
     decodeSignature<TType, TGenericContext>(provider: ISignatureTypeProvider_2<TType, TGenericContext>, genericContext: TGenericContext): TType;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
 
+export const TypeSpecification: {
+    new(): TypeSpecification$instance;
+};
+
+
 export type TypeSpecification = TypeSpecification$instance;
 
-export class TypeSpecificationHandle$instance {
+export interface TypeSpecificationHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: TypeSpecificationHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const TypeSpecificationHandle: {
+    new(): TypeSpecificationHandle$instance;
+};
 
 
 export interface __TypeSpecificationHandle$views {
@@ -2850,12 +3575,17 @@ export interface __TypeSpecificationHandle$views {
 export type TypeSpecificationHandle = TypeSpecificationHandle$instance & __TypeSpecificationHandle$views;
 
 
-export class UserStringHandle$instance {
+export interface UserStringHandle$instance {
     readonly isNil: boolean;
     equals(obj: unknown): boolean;
     equals(other: UserStringHandle): boolean;
     getHashCode(): int;
 }
+
+
+export const UserStringHandle: {
+    new(): UserStringHandle$instance;
+};
 
 
 export interface __UserStringHandle$views {
@@ -2868,8 +3598,7 @@ export interface __UserStringHandle$views {
 export type UserStringHandle = UserStringHandle$instance & __UserStringHandle$views;
 
 
-export class AssemblyNameInfo$instance {
-    constructor(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<CLROf<byte>>);
+export interface AssemblyNameInfo$instance {
     readonly cultureName: string;
     readonly flags: AssemblyNameFlags;
     readonly fullName: string;
@@ -2877,15 +3606,19 @@ export class AssemblyNameInfo$instance {
     readonly publicKeyOrToken: ImmutableArray_1<CLROf<byte>>;
     readonly version: Version;
     toAssemblyName(): AssemblyName;
-    static parse(assemblyName: ReadOnlySpan_1<CLROf<char>>): AssemblyNameInfo;
-    static tryParse(assemblyName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<AssemblyNameInfo> }): boolean;
 }
+
+
+export const AssemblyNameInfo: {
+    new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<CLROf<byte>>): AssemblyNameInfo$instance;
+    parse(assemblyName: ReadOnlySpan_1<CLROf<char>>): AssemblyNameInfo;
+    tryParse(assemblyName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<AssemblyNameInfo> }): boolean;
+};
 
 
 export type AssemblyNameInfo = AssemblyNameInfo$instance;
 
-export class BlobBuilder$instance {
-    constructor(capacity: int);
+export interface BlobBuilder$instance {
     readonly count: int;
     align(alignment: int): void;
     clear(): void;
@@ -2939,26 +3672,41 @@ export class BlobBuilder$instance {
 }
 
 
+export const BlobBuilder: {
+    new(capacity: int): BlobBuilder$instance;
+};
+
+
 export type BlobBuilder = BlobBuilder$instance;
 
-export class DebugMetadataHeader$instance {
+export interface DebugMetadataHeader$instance {
     readonly entryPoint: MethodDefinitionHandle;
     readonly id: ImmutableArray_1<CLROf<byte>>;
     readonly idStartOffset: int;
 }
 
 
+export const DebugMetadataHeader: {
+    new(): DebugMetadataHeader$instance;
+};
+
+
 export type DebugMetadataHeader = DebugMetadataHeader$instance;
 
-export class HandleComparer$instance {
+export interface HandleComparer$instance {
     compare(x: Handle, y: Handle): int;
     compare(x: EntityHandle, y: EntityHandle): int;
     equals(x: Handle, y: Handle): boolean;
     equals(x: EntityHandle, y: EntityHandle): boolean;
     getHashCode(obj: Handle): int;
     getHashCode(obj: EntityHandle): int;
-    static readonly default_: HandleComparer;
 }
+
+
+export const HandleComparer: {
+    new(): HandleComparer$instance;
+    readonly default_: HandleComparer;
+};
 
 
 export interface __HandleComparer$views {
@@ -2971,12 +3719,16 @@ export interface HandleComparer$instance extends System_Collections_Generic_Inte
 export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
-export class ImageFormatLimitationException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface ImageFormatLimitationException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const ImageFormatLimitationException: {
+    new(): ImageFormatLimitationException$instance;
+    new(message: string): ImageFormatLimitationException$instance;
+    new(message: string, innerException: Exception): ImageFormatLimitationException$instance;
+};
 
 
 export interface __ImageFormatLimitationException$views {
@@ -2986,10 +3738,7 @@ export interface __ImageFormatLimitationException$views {
 export type ImageFormatLimitationException = ImageFormatLimitationException$instance & __ImageFormatLimitationException$views;
 
 
-export class MetadataReader$instance {
-    constructor(metadata: ptr<byte>, length: int);
-    constructor(metadata: ptr<byte>, length: int, options: MetadataReaderOptions);
-    constructor(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder);
+export interface MetadataReader$instance {
     readonly assemblyFiles: AssemblyFileHandleCollection;
     readonly assemblyReferences: AssemblyReferenceHandleCollection;
     readonly customAttributes: CustomAttributeHandleCollection;
@@ -3067,22 +3816,34 @@ export class MetadataReader$instance {
     getTypeReference(handle: TypeReferenceHandle): TypeReference;
     getTypeSpecification(handle: TypeSpecificationHandle): TypeSpecification;
     getUserString(handle: UserStringHandle): string;
-    static getAssemblyName(assemblyFile: string): AssemblyName;
 }
+
+
+export const MetadataReader: {
+    new(metadata: ptr<byte>, length: int): MetadataReader$instance;
+    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions): MetadataReader$instance;
+    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader$instance;
+    getAssemblyName(assemblyFile: string): AssemblyName;
+};
 
 
 export type MetadataReader = MetadataReader$instance;
 
-export class MetadataReaderProvider$instance {
+export interface MetadataReaderProvider$instance {
     dispose(): void;
     getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder): MetadataReader;
-    static fromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    static fromMetadataImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
-    static fromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
-    static fromPortablePdbImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    static fromPortablePdbImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
-    static fromPortablePdbStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
 }
+
+
+export const MetadataReaderProvider: {
+    new(): MetadataReaderProvider$instance;
+    fromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
+    fromMetadataImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
+    fromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
+    fromPortablePdbImage(start: ptr<byte>, size: int): MetadataReaderProvider;
+    fromPortablePdbImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
+    fromPortablePdbStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
+};
 
 
 export interface __MetadataReaderProvider$views {
@@ -3094,25 +3855,33 @@ export interface MetadataReaderProvider$instance extends System_Internal.IDispos
 export type MetadataReaderProvider = MetadataReaderProvider$instance & __MetadataReaderProvider$views;
 
 
-export class MetadataStringDecoder$instance {
-    constructor(encoding: Encoding);
+export interface MetadataStringDecoder$instance {
     readonly encoding: Encoding;
     getString(bytes: ptr<byte>, byteCount: int): string;
-    static readonly defaultUTF8: MetadataStringDecoder;
 }
+
+
+export const MetadataStringDecoder: {
+    new(encoding: Encoding): MetadataStringDecoder$instance;
+    readonly defaultUTF8: MetadataStringDecoder;
+};
 
 
 export type MetadataStringDecoder = MetadataStringDecoder$instance;
 
-export class MetadataUpdateHandlerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(handlerType: Type);
+export interface MetadataUpdateHandlerAttribute$instance extends Attribute {
     readonly handlerType: Type;
 }
 
 
+export const MetadataUpdateHandlerAttribute: {
+    new(handlerType: Type): MetadataUpdateHandlerAttribute$instance;
+};
+
+
 export type MetadataUpdateHandlerAttribute = MetadataUpdateHandlerAttribute$instance;
 
-export class MethodBodyBlock$instance {
+export interface MethodBodyBlock$instance {
     readonly exceptionRegions: ImmutableArray_1<ExceptionRegion>;
     readonly localSignature: StandaloneSignatureHandle;
     readonly localVariablesInitialized: boolean;
@@ -3121,13 +3890,18 @@ export class MethodBodyBlock$instance {
     getILBytes(): byte[];
     getILContent(): ImmutableArray_1<CLROf<byte>>;
     getILReader(): BlobReader;
-    static create(reader: BlobReader): MethodBodyBlock;
 }
+
+
+export const MethodBodyBlock: {
+    new(): MethodBodyBlock$instance;
+    create(reader: BlobReader): MethodBodyBlock;
+};
 
 
 export type MethodBodyBlock = MethodBodyBlock$instance;
 
-export class TypeName$instance {
+export interface TypeName$instance {
     readonly assemblyName: AssemblyNameInfo;
     readonly assemblyQualifiedName: string;
     readonly declaringType: TypeName;
@@ -3153,18 +3927,27 @@ export class TypeName$instance {
     makePointerTypeName(): TypeName;
     makeSZArrayTypeName(): TypeName;
     withAssemblyName(assemblyName: AssemblyNameInfo): TypeName;
-    static parse(typeName: ReadOnlySpan_1<CLROf<char>>, options?: TypeNameParseOptions): TypeName;
-    static tryParse(typeName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TypeName> }, options?: TypeNameParseOptions): boolean;
-    static unescape(name: string): string;
 }
+
+
+export const TypeName: {
+    new(): TypeName$instance;
+    parse(typeName: ReadOnlySpan_1<CLROf<char>>, options?: TypeNameParseOptions): TypeName;
+    tryParse(typeName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TypeName> }, options?: TypeNameParseOptions): boolean;
+    unescape(name: string): string;
+};
 
 
 export type TypeName = TypeName$instance;
 
-export class TypeNameParseOptions$instance {
-    constructor();
+export interface TypeNameParseOptions$instance {
     maxNodes: int;
 }
+
+
+export const TypeNameParseOptions: {
+    new(): TypeNameParseOptions$instance;
+};
 
 
 export type TypeNameParseOptions = TypeNameParseOptions$instance;

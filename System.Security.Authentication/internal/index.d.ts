@@ -82,12 +82,16 @@ export enum SslProtocols {
 }
 
 
-export class AuthenticationException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface AuthenticationException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AuthenticationException: {
+    new(): AuthenticationException$instance;
+    new(message: string): AuthenticationException$instance;
+    new(message: string, innerException: Exception): AuthenticationException$instance;
+};
 
 
 export interface __AuthenticationException$views {
@@ -97,12 +101,16 @@ export interface __AuthenticationException$views {
 export type AuthenticationException = AuthenticationException$instance & __AuthenticationException$views;
 
 
-export class InvalidCredentialException$instance extends AuthenticationException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidCredentialException$instance extends AuthenticationException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidCredentialException: {
+    new(): InvalidCredentialException$instance;
+    new(message: string): InvalidCredentialException$instance;
+    new(message: string, innerException: Exception): InvalidCredentialException$instance;
+};
 
 
 export interface __InvalidCredentialException$views {

@@ -47,7 +47,13 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class FileSystemEntry$instance {
+export type FileSystemEnumerable_1_FindPredicate<TResult> = (entry: ref<FileSystemEntry>) => boolean;
+
+
+export type FileSystemEnumerable_1_FindTransform<TResult> = (entry: ref<FileSystemEntry>) => TResult;
+
+
+export interface FileSystemEntry$instance {
     readonly attributes: FileAttributes;
     readonly creationTimeUtc: DateTimeOffset;
     readonly directory: ReadOnlySpan_1<CLROf<char>>;
@@ -65,14 +71,23 @@ export class FileSystemEntry$instance {
 }
 
 
+export const FileSystemEntry: {
+    new(): FileSystemEntry$instance;
+};
+
+
 export type FileSystemEntry = FileSystemEntry$instance;
 
-export class FileSystemEnumerable_1$instance<TResult> {
-    constructor(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions);
+export interface FileSystemEnumerable_1$instance<TResult> {
     shouldIncludePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
     shouldRecursePredicate: FileSystemEnumerable_1_FindPredicate<TResult>;
     getEnumerator(): IEnumerator_1<TResult>;
 }
+
+
+export const FileSystemEnumerable_1: {
+    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions): FileSystemEnumerable_1$instance<TResult>;
+};
 
 
 export interface __FileSystemEnumerable_1$views<TResult> {
@@ -83,49 +98,17 @@ export interface __FileSystemEnumerable_1$views<TResult> {
 export type FileSystemEnumerable_1<TResult> = FileSystemEnumerable_1$instance<TResult> & __FileSystemEnumerable_1$views<TResult>;
 
 
-export class FileSystemEnumerable_1_FindPredicate$instance<TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): boolean;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(entry: { value: ref<FileSystemEntry> }): boolean;
-}
-
-
-export interface __FileSystemEnumerable_1_FindPredicate$views<TResult> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type FileSystemEnumerable_1_FindPredicate<TResult> = FileSystemEnumerable_1_FindPredicate$instance<TResult> & __FileSystemEnumerable_1_FindPredicate$views<TResult>;
-
-
-export class FileSystemEnumerable_1_FindTransform$instance<TResult> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(entry: { value: ref<FileSystemEntry> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(entry: { value: ref<FileSystemEntry> }, result: IAsyncResult): TResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(entry: { value: ref<FileSystemEntry> }): TResult;
-}
-
-
-export interface __FileSystemEnumerable_1_FindTransform$views<TResult> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type FileSystemEnumerable_1_FindTransform<TResult> = FileSystemEnumerable_1_FindTransform$instance<TResult> & __FileSystemEnumerable_1_FindTransform$views<TResult>;
-
-
-export abstract class FileSystemEnumerator_1$instance<TResult> extends System_Runtime_ConstrainedExecution_Internal.CriticalFinalizerObject$instance implements System_Internal.IDisposable$instance {
-    constructor(directory: string, options: EnumerationOptions);
+export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinalizerObject, IDisposable {
     readonly current: TResult;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const FileSystemEnumerator_1: {
+    new<TResult>(directory: string, options: EnumerationOptions): FileSystemEnumerator_1$instance<TResult>;
+};
 
 
 export interface __FileSystemEnumerator_1$views<TResult> {

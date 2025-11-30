@@ -229,22 +229,31 @@ export enum VbStrConv {
 }
 
 
-export class SpcInfo$instance {
+export interface SpcInfo$instance {
     count: short;
 }
 
 
+export const SpcInfo: {
+    new(): SpcInfo$instance;
+};
+
+
 export type SpcInfo = SpcInfo$instance;
 
-export class TabInfo$instance {
+export interface TabInfo$instance {
     column: short;
 }
 
 
+export const TabInfo: {
+    new(): TabInfo$instance;
+};
+
+
 export type TabInfo = TabInfo$instance;
 
-export class Collection$instance {
-    constructor();
+export interface Collection$instance {
     readonly count: int;
     add(Item: unknown, Key?: string, Before?: unknown, After?: unknown): void;
     clear(): void;
@@ -258,6 +267,11 @@ export class Collection$instance {
 }
 
 
+export const Collection: {
+    new(): Collection$instance;
+};
+
+
 export interface __Collection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -267,11 +281,7 @@ export interface __Collection$views {
 export type Collection = Collection$instance & __Collection$views;
 
 
-export class ComClassAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(_ClassID: string);
-    constructor(_ClassID: string, _InterfaceID: string);
-    constructor(_ClassID: string, _InterfaceID: string, _EventId: string);
+export interface ComClassAttribute$instance extends Attribute {
     readonly classID: string;
     readonly eventID: string;
     readonly interfaceID: string;
@@ -279,211 +289,238 @@ export class ComClassAttribute$instance extends System_Internal.Attribute$instan
 }
 
 
+export const ComClassAttribute: {
+    new(): ComClassAttribute$instance;
+    new(_ClassID: string): ComClassAttribute$instance;
+    new(_ClassID: string, _InterfaceID: string): ComClassAttribute$instance;
+    new(_ClassID: string, _InterfaceID: string, _EventId: string): ComClassAttribute$instance;
+};
+
+
 export type ComClassAttribute = ComClassAttribute$instance;
 
-export class Constants$instance {
-    static readonly vbCrLf: string;
-    static readonly vbObjectError: int;
-    static readonly vbNewLine: string;
-    static readonly vbCr: string;
-    static readonly vbLf: string;
-    static readonly vbBack: string;
-    static readonly vbFormFeed: string;
-    static readonly vbTab: string;
-    static readonly vbVerticalTab: string;
-    static readonly vbNullChar: string;
-    static readonly vbNullString: string;
-    static readonly vbHide: AppWinStyle;
-    static readonly vbNormalFocus: AppWinStyle;
-    static readonly vbMinimizedFocus: AppWinStyle;
-    static readonly vbMaximizedFocus: AppWinStyle;
-    static readonly vbNormalNoFocus: AppWinStyle;
-    static readonly vbMinimizedNoFocus: AppWinStyle;
-    static readonly vbMethod: CallType;
-    static readonly vbGet: CallType;
-    static readonly vbLet: CallType;
-    static readonly vbSet: CallType;
-    static readonly vbBinaryCompare: CompareMethod;
-    static readonly vbTextCompare: CompareMethod;
-    static readonly vbGeneralDate: DateFormat;
-    static readonly vbLongDate: DateFormat;
-    static readonly vbShortDate: DateFormat;
-    static readonly vbLongTime: DateFormat;
-    static readonly vbShortTime: DateFormat;
-    static readonly vbUseSystemDayOfWeek: FirstDayOfWeek;
-    static readonly vbSunday: FirstDayOfWeek;
-    static readonly vbMonday: FirstDayOfWeek;
-    static readonly vbTuesday: FirstDayOfWeek;
-    static readonly vbWednesday: FirstDayOfWeek;
-    static readonly vbThursday: FirstDayOfWeek;
-    static readonly vbFriday: FirstDayOfWeek;
-    static readonly vbSaturday: FirstDayOfWeek;
-    static readonly vbNormal: FileAttribute;
-    static readonly vbReadOnly: FileAttribute;
-    static readonly vbHidden: FileAttribute;
-    static readonly vbSystem: FileAttribute;
-    static readonly vbVolume: FileAttribute;
-    static readonly vbDirectory: FileAttribute;
-    static readonly vbArchive: FileAttribute;
-    static readonly vbUseSystem: FirstWeekOfYear;
-    static readonly vbFirstJan1: FirstWeekOfYear;
-    static readonly vbFirstFourDays: FirstWeekOfYear;
-    static readonly vbFirstFullWeek: FirstWeekOfYear;
-    static readonly vbUpperCase: VbStrConv;
-    static readonly vbLowerCase: VbStrConv;
-    static readonly vbProperCase: VbStrConv;
-    static readonly vbWide: VbStrConv;
-    static readonly vbNarrow: VbStrConv;
-    static readonly vbKatakana: VbStrConv;
-    static readonly vbHiragana: VbStrConv;
-    static readonly vbSimplifiedChinese: VbStrConv;
-    static readonly vbTraditionalChinese: VbStrConv;
-    static readonly vbLinguisticCasing: VbStrConv;
-    static readonly vbUseDefault: TriState;
-    static readonly vbTrue: TriState;
-    static readonly vbFalse: TriState;
-    static readonly vbEmpty: VariantType;
-    static readonly vbNull: VariantType;
-    static readonly vbInteger: VariantType;
-    static readonly vbLong: VariantType;
-    static readonly vbSingle: VariantType;
-    static readonly vbDouble: VariantType;
-    static readonly vbCurrency: VariantType;
-    static readonly vbDate: VariantType;
-    static readonly vbString: VariantType;
-    static readonly vbObject: VariantType;
-    static readonly vbBoolean: VariantType;
-    static readonly vbVariant: VariantType;
-    static readonly vbDecimal: VariantType;
-    static readonly vbByte: VariantType;
-    static readonly vbUserDefinedType: VariantType;
-    static readonly vbArray: VariantType;
-    static readonly vbOK: MsgBoxResult;
-    static readonly vbCancel: MsgBoxResult;
-    static readonly vbAbort: MsgBoxResult;
-    static readonly vbRetry: MsgBoxResult;
-    static readonly vbIgnore: MsgBoxResult;
-    static readonly vbYes: MsgBoxResult;
-    static readonly vbNo: MsgBoxResult;
-    static readonly vbOKOnly: MsgBoxStyle;
-    static readonly vbOKCancel: MsgBoxStyle;
-    static readonly vbAbortRetryIgnore: MsgBoxStyle;
-    static readonly vbYesNoCancel: MsgBoxStyle;
-    static readonly vbYesNo: MsgBoxStyle;
-    static readonly vbRetryCancel: MsgBoxStyle;
-    static readonly vbCritical: MsgBoxStyle;
-    static readonly vbQuestion: MsgBoxStyle;
-    static readonly vbExclamation: MsgBoxStyle;
-    static readonly vbInformation: MsgBoxStyle;
-    static readonly vbDefaultButton1: MsgBoxStyle;
-    static readonly vbDefaultButton2: MsgBoxStyle;
-    static readonly vbDefaultButton3: MsgBoxStyle;
-    static readonly vbApplicationModal: MsgBoxStyle;
-    static readonly vbSystemModal: MsgBoxStyle;
-    static readonly vbMsgBoxHelp: MsgBoxStyle;
-    static readonly vbMsgBoxRight: MsgBoxStyle;
-    static readonly vbMsgBoxRtlReading: MsgBoxStyle;
-    static readonly vbMsgBoxSetForeground: MsgBoxStyle;
+export interface Constants$instance {
 }
+
+
+export const Constants: {
+    new(): Constants$instance;
+    readonly vbCrLf: string;
+    readonly vbObjectError: int;
+    readonly vbNewLine: string;
+    readonly vbCr: string;
+    readonly vbLf: string;
+    readonly vbBack: string;
+    readonly vbFormFeed: string;
+    readonly vbTab: string;
+    readonly vbVerticalTab: string;
+    readonly vbNullChar: string;
+    readonly vbNullString: string;
+    readonly vbHide: AppWinStyle;
+    readonly vbNormalFocus: AppWinStyle;
+    readonly vbMinimizedFocus: AppWinStyle;
+    readonly vbMaximizedFocus: AppWinStyle;
+    readonly vbNormalNoFocus: AppWinStyle;
+    readonly vbMinimizedNoFocus: AppWinStyle;
+    readonly vbMethod: CallType;
+    readonly vbGet: CallType;
+    readonly vbLet: CallType;
+    readonly vbSet: CallType;
+    readonly vbBinaryCompare: CompareMethod;
+    readonly vbTextCompare: CompareMethod;
+    readonly vbGeneralDate: DateFormat;
+    readonly vbLongDate: DateFormat;
+    readonly vbShortDate: DateFormat;
+    readonly vbLongTime: DateFormat;
+    readonly vbShortTime: DateFormat;
+    readonly vbUseSystemDayOfWeek: FirstDayOfWeek;
+    readonly vbSunday: FirstDayOfWeek;
+    readonly vbMonday: FirstDayOfWeek;
+    readonly vbTuesday: FirstDayOfWeek;
+    readonly vbWednesday: FirstDayOfWeek;
+    readonly vbThursday: FirstDayOfWeek;
+    readonly vbFriday: FirstDayOfWeek;
+    readonly vbSaturday: FirstDayOfWeek;
+    readonly vbNormal: FileAttribute;
+    readonly vbReadOnly: FileAttribute;
+    readonly vbHidden: FileAttribute;
+    readonly vbSystem: FileAttribute;
+    readonly vbVolume: FileAttribute;
+    readonly vbDirectory: FileAttribute;
+    readonly vbArchive: FileAttribute;
+    readonly vbUseSystem: FirstWeekOfYear;
+    readonly vbFirstJan1: FirstWeekOfYear;
+    readonly vbFirstFourDays: FirstWeekOfYear;
+    readonly vbFirstFullWeek: FirstWeekOfYear;
+    readonly vbUpperCase: VbStrConv;
+    readonly vbLowerCase: VbStrConv;
+    readonly vbProperCase: VbStrConv;
+    readonly vbWide: VbStrConv;
+    readonly vbNarrow: VbStrConv;
+    readonly vbKatakana: VbStrConv;
+    readonly vbHiragana: VbStrConv;
+    readonly vbSimplifiedChinese: VbStrConv;
+    readonly vbTraditionalChinese: VbStrConv;
+    readonly vbLinguisticCasing: VbStrConv;
+    readonly vbUseDefault: TriState;
+    readonly vbTrue: TriState;
+    readonly vbFalse: TriState;
+    readonly vbEmpty: VariantType;
+    readonly vbNull: VariantType;
+    readonly vbInteger: VariantType;
+    readonly vbLong: VariantType;
+    readonly vbSingle: VariantType;
+    readonly vbDouble: VariantType;
+    readonly vbCurrency: VariantType;
+    readonly vbDate: VariantType;
+    readonly vbString: VariantType;
+    readonly vbObject: VariantType;
+    readonly vbBoolean: VariantType;
+    readonly vbVariant: VariantType;
+    readonly vbDecimal: VariantType;
+    readonly vbByte: VariantType;
+    readonly vbUserDefinedType: VariantType;
+    readonly vbArray: VariantType;
+    readonly vbOK: MsgBoxResult;
+    readonly vbCancel: MsgBoxResult;
+    readonly vbAbort: MsgBoxResult;
+    readonly vbRetry: MsgBoxResult;
+    readonly vbIgnore: MsgBoxResult;
+    readonly vbYes: MsgBoxResult;
+    readonly vbNo: MsgBoxResult;
+    readonly vbOKOnly: MsgBoxStyle;
+    readonly vbOKCancel: MsgBoxStyle;
+    readonly vbAbortRetryIgnore: MsgBoxStyle;
+    readonly vbYesNoCancel: MsgBoxStyle;
+    readonly vbYesNo: MsgBoxStyle;
+    readonly vbRetryCancel: MsgBoxStyle;
+    readonly vbCritical: MsgBoxStyle;
+    readonly vbQuestion: MsgBoxStyle;
+    readonly vbExclamation: MsgBoxStyle;
+    readonly vbInformation: MsgBoxStyle;
+    readonly vbDefaultButton1: MsgBoxStyle;
+    readonly vbDefaultButton2: MsgBoxStyle;
+    readonly vbDefaultButton3: MsgBoxStyle;
+    readonly vbApplicationModal: MsgBoxStyle;
+    readonly vbSystemModal: MsgBoxStyle;
+    readonly vbMsgBoxHelp: MsgBoxStyle;
+    readonly vbMsgBoxRight: MsgBoxStyle;
+    readonly vbMsgBoxRtlReading: MsgBoxStyle;
+    readonly vbMsgBoxSetForeground: MsgBoxStyle;
+};
 
 
 export type Constants = Constants$instance;
 
-export class ControlChars$instance {
-    constructor();
-    static readonly crLf: string;
-    static readonly newLine: string;
-    static readonly cr: char;
-    static readonly lf: char;
-    static readonly back: char;
-    static readonly formFeed: char;
-    static readonly tab: char;
-    static readonly verticalTab: char;
-    static readonly nullChar: char;
-    static readonly quote: char;
+export interface ControlChars$instance {
 }
+
+
+export const ControlChars: {
+    new(): ControlChars$instance;
+    readonly crLf: string;
+    readonly newLine: string;
+    readonly cr: char;
+    readonly lf: char;
+    readonly back: char;
+    readonly formFeed: char;
+    readonly tab: char;
+    readonly verticalTab: char;
+    readonly nullChar: char;
+    readonly quote: char;
+};
 
 
 export type ControlChars = ControlChars$instance;
 
-export class Conversion$instance {
-    static cTypeDynamic(Expression: unknown, TargetType: Type): unknown;
-    static cTypeDynamic<TargetType>(Expression: unknown): TargetType;
-    static errorToString(): string;
-    static errorToString(ErrorNumber: int): string;
-    static fix(Number: decimal): decimal;
-    static fix(Number: double): double;
-    static fix(Number: short): short;
-    static fix(Number: int): int;
-    static fix(Number: long): long;
-    static fix(Number: unknown): unknown;
-    static fix(Number: float): float;
-    static hex(Number: byte): string;
-    static hex(Number: short): string;
-    static hex(Number: int): string;
-    static hex(Number: long): string;
-    static hex(Number: unknown): string;
-    static hex(Number: sbyte): string;
-    static hex(Number: ushort): string;
-    static hex(Number: uint): string;
-    static hex(Number: ulong): string;
-    static int(Number: decimal): decimal;
-    static int(Number: double): double;
-    static int(Number: short): short;
-    static int(Number: int): int;
-    static int(Number: long): long;
-    static int(Number: unknown): unknown;
-    static int(Number: float): float;
-    static oct(Number: byte): string;
-    static oct(Number: short): string;
-    static oct(Number: int): string;
-    static oct(Number: long): string;
-    static oct(Number: unknown): string;
-    static oct(Number: sbyte): string;
-    static oct(Number: ushort): string;
-    static oct(Number: uint): string;
-    static oct(Number: ulong): string;
-    static str(Number: unknown): string;
-    static val(Expression: char): int;
-    static val(Expression: unknown): double;
-    static val(InputStr: string): double;
+export interface Conversion$instance {
 }
+
+
+export const Conversion: {
+    new(): Conversion$instance;
+    cTypeDynamic(Expression: unknown, TargetType: Type): unknown;
+    cTypeDynamic<TargetType>(Expression: unknown): TargetType;
+    errorToString(): string;
+    errorToString(ErrorNumber: int): string;
+    fix(Number: decimal): decimal;
+    fix(Number: double): double;
+    fix(Number: short): short;
+    fix(Number: int): int;
+    fix(Number: long): long;
+    fix(Number: unknown): unknown;
+    fix(Number: float): float;
+    hex(Number: byte): string;
+    hex(Number: short): string;
+    hex(Number: int): string;
+    hex(Number: long): string;
+    hex(Number: unknown): string;
+    hex(Number: sbyte): string;
+    hex(Number: ushort): string;
+    hex(Number: uint): string;
+    hex(Number: ulong): string;
+    int(Number: decimal): decimal;
+    int(Number: double): double;
+    int(Number: short): short;
+    int(Number: int): int;
+    int(Number: long): long;
+    int(Number: unknown): unknown;
+    int(Number: float): float;
+    oct(Number: byte): string;
+    oct(Number: short): string;
+    oct(Number: int): string;
+    oct(Number: long): string;
+    oct(Number: unknown): string;
+    oct(Number: sbyte): string;
+    oct(Number: ushort): string;
+    oct(Number: uint): string;
+    oct(Number: ulong): string;
+    str(Number: unknown): string;
+    val(Expression: char): int;
+    val(Expression: unknown): double;
+    val(InputStr: string): double;
+};
 
 
 export type Conversion = Conversion$instance;
 
-export class DateAndTime$instance {
-    static today: DateTime;
-    static readonly now: DateTime;
-    static timeOfDay: DateTime;
-    static timeString: string;
-    static dateString: string;
-    static readonly timer: double;
-    static dateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
-    static dateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
-    static dateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    static dateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
-    static datePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
-    static datePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
-    static dateSerial(Year: int, Month: int, Day: int): DateTime;
-    static dateValue(StringDate: string): DateTime;
-    static day(DateValue: DateTime): int;
-    static hour(TimeValue: DateTime): int;
-    static minute(TimeValue: DateTime): int;
-    static month(DateValue: DateTime): int;
-    static monthName(Month: int, Abbreviate?: boolean): string;
-    static second(TimeValue: DateTime): int;
-    static timeSerial(Hour: int, Minute: int, Second: int): DateTime;
-    static timeValue(StringTime: string): DateTime;
-    static weekday(DateValue: DateTime, DayOfWeek?: FirstDayOfWeek): int;
-    static weekdayName(Weekday: int, Abbreviate?: boolean, FirstDayOfWeekValue?: FirstDayOfWeek): string;
-    static year(DateValue: DateTime): int;
+export interface DateAndTime$instance {
 }
+
+
+export const DateAndTime: {
+    new(): DateAndTime$instance;
+    today: DateTime;
+    readonly now: DateTime;
+    timeOfDay: DateTime;
+    timeString: string;
+    dateString: string;
+    readonly timer: double;
+    dateAdd(Interval: DateInterval, Number: double, DateValue: DateTime): DateTime;
+    dateAdd(Interval: string, Number: double, DateValue: unknown): DateTime;
+    dateDiff(Interval: DateInterval, Date1: DateTime, Date2: DateTime, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    dateDiff(Interval: string, Date1: unknown, Date2: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): long;
+    datePart(Interval: DateInterval, DateValue: DateTime, FirstDayOfWeekValue?: FirstDayOfWeek, FirstWeekOfYearValue?: FirstWeekOfYear): int;
+    datePart(Interval: string, DateValue: unknown, DayOfWeek?: FirstDayOfWeek, WeekOfYear?: FirstWeekOfYear): int;
+    dateSerial(Year: int, Month: int, Day: int): DateTime;
+    dateValue(StringDate: string): DateTime;
+    day(DateValue: DateTime): int;
+    hour(TimeValue: DateTime): int;
+    minute(TimeValue: DateTime): int;
+    month(DateValue: DateTime): int;
+    monthName(Month: int, Abbreviate?: boolean): string;
+    second(TimeValue: DateTime): int;
+    timeSerial(Hour: int, Minute: int, Second: int): DateTime;
+    timeValue(StringTime: string): DateTime;
+    weekday(DateValue: DateTime, DayOfWeek?: FirstDayOfWeek): int;
+    weekdayName(Weekday: int, Abbreviate?: boolean, FirstDayOfWeekValue?: FirstDayOfWeek): string;
+    year(DateValue: DateTime): int;
+};
 
 
 export type DateAndTime = DateAndTime$instance;
 
-export class ErrObject$instance {
+export interface ErrObject$instance {
     description: string;
     readonly erl: int;
     helpContext: int;
@@ -497,174 +534,202 @@ export class ErrObject$instance {
 }
 
 
+export const ErrObject: {
+    new(): ErrObject$instance;
+};
+
+
 export type ErrObject = ErrObject$instance;
 
-export class FileSystem$instance {
-    static chDir(Path: string): void;
-    static chDrive(Drive: char): void;
-    static chDrive(Drive: string): void;
-    static curDir(): string;
-    static curDir(Drive: char): string;
-    static dir(): string;
-    static dir(PathName: string, Attributes?: FileAttribute): string;
-    static EOF(FileNumber: int): boolean;
-    static fileAttr(FileNumber: int): OpenMode;
-    static fileClose(FileNumbers: int[]): void;
-    static fileCopy(Source: string, Destination: string): void;
-    static fileDateTime(PathName: string): DateTime;
-    static fileGet(FileNumber: int, Value: { value: ref<ClrArray> }, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
-    static fileGet(FileNumber: int, Value: { value: ref<boolean> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<byte> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<char> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<DateTime> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<decimal> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<double> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<short> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<int> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<long> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<float> }, RecordNumber?: long): void;
-    static fileGet(FileNumber: int, Value: { value: ref<string> }, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    static fileGet(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
-    static fileGetObject(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
-    static fileLen(PathName: string): long;
-    static fileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
-    static filePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
-    static filePut(FileNumber: int, Value: boolean, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: byte, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: char, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: decimal, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: double, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: short, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: int, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: long, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: float, RecordNumber?: long): void;
-    static filePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
-    static filePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    static filePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
-    static filePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
-    static fileWidth(FileNumber: int, RecordWidth: int): void;
-    static freeFile(): int;
-    static getAttr(PathName: string): FileAttribute;
-    static input(FileNumber: int, Value: { value: ref<boolean> }): void;
-    static input(FileNumber: int, Value: { value: ref<byte> }): void;
-    static input(FileNumber: int, Value: { value: ref<char> }): void;
-    static input(FileNumber: int, Value: { value: ref<DateTime> }): void;
-    static input(FileNumber: int, Value: { value: ref<decimal> }): void;
-    static input(FileNumber: int, Value: { value: ref<double> }): void;
-    static input(FileNumber: int, Value: { value: ref<short> }): void;
-    static input(FileNumber: int, Value: { value: ref<int> }): void;
-    static input(FileNumber: int, Value: { value: ref<long> }): void;
-    static input(FileNumber: int, Value: { value: ref<unknown> }): void;
-    static input(FileNumber: int, Value: { value: ref<float> }): void;
-    static input(FileNumber: int, Value: { value: ref<string> }): void;
-    static inputString(FileNumber: int, CharCount: int): string;
-    static kill(PathName: string): void;
-    static lineInput(FileNumber: int): string;
-    static loc(FileNumber: int): long;
-    static lock(FileNumber: int, FromRecord: long, ToRecord: long): void;
-    static lock(FileNumber: int, Record: long): void;
-    static lock(FileNumber: int): void;
-    static LOF(FileNumber: int): long;
-    static mkDir(Path: string): void;
-    static print(FileNumber: int, Output: unknown[]): void;
-    static printLine(FileNumber: int, Output: unknown[]): void;
-    static rename(OldPath: string, NewPath: string): void;
-    static reset(): void;
-    static rmDir(Path: string): void;
-    static seek(FileNumber: int, Position: long): void;
-    static seek(FileNumber: int): long;
-    static setAttr(PathName: string, Attributes: FileAttribute): void;
-    static SPC(Count: short): SpcInfo;
-    static TAB(): TabInfo;
-    static TAB(Column: short): TabInfo;
-    static unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
-    static unlock(FileNumber: int, Record: long): void;
-    static unlock(FileNumber: int): void;
-    static write(FileNumber: int, Output: unknown[]): void;
-    static writeLine(FileNumber: int, Output: unknown[]): void;
+export interface FileSystem$instance {
 }
+
+
+export const FileSystem: {
+    new(): FileSystem$instance;
+    chDir(Path: string): void;
+    chDrive(Drive: char): void;
+    chDrive(Drive: string): void;
+    curDir(): string;
+    curDir(Drive: char): string;
+    dir(): string;
+    dir(PathName: string, Attributes?: FileAttribute): string;
+    EOF(FileNumber: int): boolean;
+    fileAttr(FileNumber: int): OpenMode;
+    fileClose(FileNumbers: int[]): void;
+    fileCopy(Source: string, Destination: string): void;
+    fileDateTime(PathName: string): DateTime;
+    fileGet(FileNumber: int, Value: { value: ref<ClrArray> }, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
+    fileGet(FileNumber: int, Value: { value: ref<boolean> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<byte> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<char> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<DateTime> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<decimal> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<double> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<short> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<int> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<long> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<float> }, RecordNumber?: long): void;
+    fileGet(FileNumber: int, Value: { value: ref<string> }, RecordNumber?: long, StringIsFixedLength?: boolean): void;
+    fileGet(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
+    fileGetObject(FileNumber: int, Value: { value: ref<unknown> }, RecordNumber?: long): void;
+    fileLen(PathName: string): long;
+    fileOpen(FileNumber: int, FileName: string, Mode: OpenMode, Access?: OpenAccess, Share?: OpenShare, RecordLength?: int): void;
+    filePut(FileNumber: int, Value: ClrArray, RecordNumber?: long, ArrayIsDynamic?: boolean, StringIsFixedLength?: boolean): void;
+    filePut(FileNumber: int, Value: boolean, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: byte, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: char, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: DateTime, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: decimal, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: double, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: short, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: int, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: long, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: float, RecordNumber?: long): void;
+    filePut(FileNumber: int, Value: string, RecordNumber?: long, StringIsFixedLength?: boolean): void;
+    filePut(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    filePut(FileNumber: unknown, Value: unknown, RecordNumber?: unknown): void;
+    filePutObject(FileNumber: int, Value: unknown, RecordNumber?: long): void;
+    fileWidth(FileNumber: int, RecordWidth: int): void;
+    freeFile(): int;
+    getAttr(PathName: string): FileAttribute;
+    input(FileNumber: int, Value: { value: ref<boolean> }): void;
+    input(FileNumber: int, Value: { value: ref<byte> }): void;
+    input(FileNumber: int, Value: { value: ref<char> }): void;
+    input(FileNumber: int, Value: { value: ref<DateTime> }): void;
+    input(FileNumber: int, Value: { value: ref<decimal> }): void;
+    input(FileNumber: int, Value: { value: ref<double> }): void;
+    input(FileNumber: int, Value: { value: ref<short> }): void;
+    input(FileNumber: int, Value: { value: ref<int> }): void;
+    input(FileNumber: int, Value: { value: ref<long> }): void;
+    input(FileNumber: int, Value: { value: ref<unknown> }): void;
+    input(FileNumber: int, Value: { value: ref<float> }): void;
+    input(FileNumber: int, Value: { value: ref<string> }): void;
+    inputString(FileNumber: int, CharCount: int): string;
+    kill(PathName: string): void;
+    lineInput(FileNumber: int): string;
+    loc(FileNumber: int): long;
+    lock(FileNumber: int, FromRecord: long, ToRecord: long): void;
+    lock(FileNumber: int, Record: long): void;
+    lock(FileNumber: int): void;
+    LOF(FileNumber: int): long;
+    mkDir(Path: string): void;
+    print(FileNumber: int, Output: unknown[]): void;
+    printLine(FileNumber: int, Output: unknown[]): void;
+    rename(OldPath: string, NewPath: string): void;
+    reset(): void;
+    rmDir(Path: string): void;
+    seek(FileNumber: int, Position: long): void;
+    seek(FileNumber: int): long;
+    setAttr(PathName: string, Attributes: FileAttribute): void;
+    SPC(Count: short): SpcInfo;
+    TAB(): TabInfo;
+    TAB(Column: short): TabInfo;
+    unlock(FileNumber: int, FromRecord: long, ToRecord: long): void;
+    unlock(FileNumber: int, Record: long): void;
+    unlock(FileNumber: int): void;
+    write(FileNumber: int, Output: unknown[]): void;
+    writeLine(FileNumber: int, Output: unknown[]): void;
+};
 
 
 export type FileSystem = FileSystem$instance;
 
-export class Financial$instance {
-    static DDB(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
-    static FV(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
-    static iPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    static IRR(ValueArray: { value: ref<double[]> }, Guess?: double): double;
-    static MIRR(ValueArray: { value: ref<double[]> }, FinanceRate: double, ReinvestRate: double): double;
-    static nPer(Rate: double, Pmt: double, PV: double, FV?: double, Due?: DueDate): double;
-    static NPV(Rate: double, ValueArray: { value: ref<double[]> }): double;
-    static pmt(Rate: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    static pPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
-    static PV(Rate: double, NPer: double, Pmt: double, FV?: double, Due?: DueDate): double;
-    static rate(NPer: double, Pmt: double, PV: double, FV?: double, Due?: DueDate, Guess?: double): double;
-    static SLN(Cost: double, Salvage: double, Life: double): double;
-    static SYD(Cost: double, Salvage: double, Life: double, Period: double): double;
+export interface Financial$instance {
 }
+
+
+export const Financial: {
+    new(): Financial$instance;
+    DDB(Cost: double, Salvage: double, Life: double, Period: double, Factor?: double): double;
+    FV(Rate: double, NPer: double, Pmt: double, PV?: double, Due?: DueDate): double;
+    iPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    IRR(ValueArray: { value: ref<double[]> }, Guess?: double): double;
+    MIRR(ValueArray: { value: ref<double[]> }, FinanceRate: double, ReinvestRate: double): double;
+    nPer(Rate: double, Pmt: double, PV: double, FV?: double, Due?: DueDate): double;
+    NPV(Rate: double, ValueArray: { value: ref<double[]> }): double;
+    pmt(Rate: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    pPmt(Rate: double, Per: double, NPer: double, PV: double, FV?: double, Due?: DueDate): double;
+    PV(Rate: double, NPer: double, Pmt: double, FV?: double, Due?: DueDate): double;
+    rate(NPer: double, Pmt: double, PV: double, FV?: double, Due?: DueDate, Guess?: double): double;
+    SLN(Cost: double, Salvage: double, Life: double): double;
+    SYD(Cost: double, Salvage: double, Life: double, Period: double): double;
+};
 
 
 export type Financial = Financial$instance;
 
-export class HideModuleNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface HideModuleNameAttribute$instance extends Attribute {
 }
+
+
+export const HideModuleNameAttribute: {
+    new(): HideModuleNameAttribute$instance;
+};
 
 
 export type HideModuleNameAttribute = HideModuleNameAttribute$instance;
 
-export class Information$instance {
-    static erl(): int;
-    static err(): ErrObject;
-    static isArray(VarName: unknown): boolean;
-    static isDate(Expression: unknown): boolean;
-    static isDBNull(Expression: unknown): boolean;
-    static isError(Expression: unknown): boolean;
-    static isNothing(Expression: unknown): boolean;
-    static isNumeric(Expression: unknown): boolean;
-    static isReference(Expression: unknown): boolean;
-    static lBound(Array: ClrArray, Rank?: int): int;
-    static qbColor(Color: int): int;
-    static RGB(Red: int, Green: int, Blue: int): int;
-    static systemTypeName(VbName: string): string;
-    static typeName(VarName: unknown): string;
-    static uBound(Array: ClrArray, Rank?: int): int;
-    static varType(VarName: unknown): VariantType;
-    static vbTypeName(UrtName: string): string;
+export interface Information$instance {
 }
+
+
+export const Information: {
+    new(): Information$instance;
+    erl(): int;
+    err(): ErrObject;
+    isArray(VarName: unknown): boolean;
+    isDate(Expression: unknown): boolean;
+    isDBNull(Expression: unknown): boolean;
+    isError(Expression: unknown): boolean;
+    isNothing(Expression: unknown): boolean;
+    isNumeric(Expression: unknown): boolean;
+    isReference(Expression: unknown): boolean;
+    lBound(Array: ClrArray, Rank?: int): int;
+    qbColor(Color: int): int;
+    RGB(Red: int, Green: int, Blue: int): int;
+    systemTypeName(VbName: string): string;
+    typeName(VarName: unknown): string;
+    uBound(Array: ClrArray, Rank?: int): int;
+    varType(VarName: unknown): VariantType;
+    vbTypeName(UrtName: string): string;
+};
 
 
 export type Information = Information$instance;
 
-export class Interaction$instance {
-    static appActivate(ProcessId: int): void;
-    static appActivate(Title: string): void;
-    static beep(): void;
-    static callByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, Args: unknown[]): unknown;
-    static choose(Index: double, Choice: unknown[]): unknown;
-    static command(): string;
-    static createObject(ProgId: string, ServerName?: string): unknown;
-    static deleteSetting(AppName: string, Section?: string, Key?: string): void;
-    static environ(Expression: int): string;
-    static environ(Expression: string): string;
-    static getAllSettings(AppName: string, Section: string): Array<Array<string>>;
-    static getObject(PathName?: string, Class?: string): unknown;
-    static getSetting(AppName: string, Section: string, Key: string, Default?: string): string;
-    static iIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
-    static inputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
-    static msgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
-    static partition(Number: long, Start: long, Stop: long, Interval: long): string;
-    static saveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
-    static shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
-    static switch_(VarExpr: unknown[]): unknown;
+export interface Interaction$instance {
 }
+
+
+export const Interaction: {
+    new(): Interaction$instance;
+    appActivate(ProcessId: int): void;
+    appActivate(Title: string): void;
+    beep(): void;
+    callByName(ObjectRef: unknown, ProcName: string, UseCallType: CallType, Args: unknown[]): unknown;
+    choose(Index: double, Choice: unknown[]): unknown;
+    command(): string;
+    createObject(ProgId: string, ServerName?: string): unknown;
+    deleteSetting(AppName: string, Section?: string, Key?: string): void;
+    environ(Expression: int): string;
+    environ(Expression: string): string;
+    getAllSettings(AppName: string, Section: string): Array<Array<string>>;
+    getObject(PathName?: string, Class?: string): unknown;
+    getSetting(AppName: string, Section: string, Key: string, Default?: string): string;
+    iIf(Expression: boolean, TruePart: unknown, FalsePart: unknown): unknown;
+    inputBox(Prompt: string, Title?: string, DefaultResponse?: string, XPos?: int, YPos?: int): string;
+    msgBox(Prompt: unknown, Buttons?: MsgBoxStyle, Title?: unknown): MsgBoxResult;
+    partition(Number: long, Start: long, Stop: long, Interval: long): string;
+    saveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
+    shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
+    switch_(VarExpr: unknown[]): unknown;
+};
 
 
 export type Interaction = Interaction$instance;
 
-export class MyGroupCollectionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeToCollect: string, createInstanceMethodName: string, disposeInstanceMethodName: string, defaultInstanceAlias: string);
+export interface MyGroupCollectionAttribute$instance extends Attribute {
     readonly createMethod: string;
     readonly defaultInstanceAlias: string;
     readonly disposeMethod: string;
@@ -672,95 +737,118 @@ export class MyGroupCollectionAttribute$instance extends System_Internal.Attribu
 }
 
 
+export const MyGroupCollectionAttribute: {
+    new(typeToCollect: string, createInstanceMethodName: string, disposeInstanceMethodName: string, defaultInstanceAlias: string): MyGroupCollectionAttribute$instance;
+};
+
+
 export type MyGroupCollectionAttribute = MyGroupCollectionAttribute$instance;
 
-export class Strings$instance {
-    static asc(String: char): int;
-    static asc(String: string): int;
-    static ascW(String: char): int;
-    static ascW(String: string): int;
-    static chr(CharCode: int): char;
-    static chrW(CharCode: int): char;
-    static filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    static filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
-    static format(Expression: unknown, Style?: string): string;
-    static formatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    static formatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
-    static formatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    static formatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
-    static getChar(str: string, Index: int): char;
-    static inStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
-    static inStr(String1: string, String2: string, Compare?: CompareMethod): int;
-    static inStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
-    static join(SourceArray: unknown[], Delimiter?: string): string;
-    static join(SourceArray: string[], Delimiter?: string): string;
-    static lCase(Value: char): char;
-    static lCase(Value: string): string;
-    static left(str: string, Length: int): string;
-    static len(Expression: boolean): int;
-    static len(Expression: byte): int;
-    static len(Expression: char): int;
-    static len(Expression: DateTime): int;
-    static len(Expression: decimal): int;
-    static len(Expression: double): int;
-    static len(Expression: short): int;
-    static len(Expression: int): int;
-    static len(Expression: long): int;
-    static len(Expression: unknown): int;
-    static len(Expression: sbyte): int;
-    static len(Expression: float): int;
-    static len(Expression: string): int;
-    static len(Expression: ushort): int;
-    static len(Expression: uint): int;
-    static len(Expression: ulong): int;
-    static lSet(Source: string, Length: int): string;
-    static lTrim(str: string): string;
-    static mid(str: string, Start: int, Length: int): string;
-    static mid(str: string, Start: int): string;
-    static replace(Expression: string, Find: string, Replacement: string, Start?: int, Count?: int, Compare?: CompareMethod): string;
-    static right(str: string, Length: int): string;
-    static rSet(Source: string, Length: int): string;
-    static rTrim(str: string): string;
-    static space(Number: int): string;
-    static split(Expression: string, Delimiter?: string, Limit?: int, Compare?: CompareMethod): string[];
-    static strComp(String1: string, String2: string, Compare?: CompareMethod): int;
-    static strConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
-    static strDup(Number: int, Character: char): string;
-    static strDup(Number: int, Character: unknown): unknown;
-    static strDup(Number: int, Character: string): string;
-    static strReverse(Expression: string): string;
-    static trim(str: string): string;
-    static uCase(Value: char): char;
-    static uCase(Value: string): string;
+export interface Strings$instance {
 }
+
+
+export const Strings: {
+    new(): Strings$instance;
+    asc(String: char): int;
+    asc(String: string): int;
+    ascW(String: char): int;
+    ascW(String: string): int;
+    chr(CharCode: int): char;
+    chrW(CharCode: int): char;
+    filter(Source: unknown[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    filter(Source: string[], Match: string, Include?: boolean, Compare?: CompareMethod): string[];
+    format(Expression: unknown, Style?: string): string;
+    formatCurrency(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    formatDateTime(Expression: DateTime, NamedFormat?: DateFormat): string;
+    formatNumber(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    formatPercent(Expression: unknown, NumDigitsAfterDecimal?: int, IncludeLeadingDigit?: TriState, UseParensForNegativeNumbers?: TriState, GroupDigits?: TriState): string;
+    getChar(str: string, Index: int): char;
+    inStr(Start: int, String1: string, String2: string, Compare?: CompareMethod): int;
+    inStr(String1: string, String2: string, Compare?: CompareMethod): int;
+    inStrRev(StringCheck: string, StringMatch: string, Start?: int, Compare?: CompareMethod): int;
+    join(SourceArray: unknown[], Delimiter?: string): string;
+    join(SourceArray: string[], Delimiter?: string): string;
+    lCase(Value: char): char;
+    lCase(Value: string): string;
+    left(str: string, Length: int): string;
+    len(Expression: boolean): int;
+    len(Expression: byte): int;
+    len(Expression: char): int;
+    len(Expression: DateTime): int;
+    len(Expression: decimal): int;
+    len(Expression: double): int;
+    len(Expression: short): int;
+    len(Expression: int): int;
+    len(Expression: long): int;
+    len(Expression: unknown): int;
+    len(Expression: sbyte): int;
+    len(Expression: float): int;
+    len(Expression: string): int;
+    len(Expression: ushort): int;
+    len(Expression: uint): int;
+    len(Expression: ulong): int;
+    lSet(Source: string, Length: int): string;
+    lTrim(str: string): string;
+    mid(str: string, Start: int, Length: int): string;
+    mid(str: string, Start: int): string;
+    replace(Expression: string, Find: string, Replacement: string, Start?: int, Count?: int, Compare?: CompareMethod): string;
+    right(str: string, Length: int): string;
+    rSet(Source: string, Length: int): string;
+    rTrim(str: string): string;
+    space(Number: int): string;
+    split(Expression: string, Delimiter?: string, Limit?: int, Compare?: CompareMethod): string[];
+    strComp(String1: string, String2: string, Compare?: CompareMethod): int;
+    strConv(str: string, Conversion: VbStrConv, LocaleID?: int): string;
+    strDup(Number: int, Character: char): string;
+    strDup(Number: int, Character: unknown): unknown;
+    strDup(Number: int, Character: string): string;
+    strReverse(Expression: string): string;
+    trim(str: string): string;
+    uCase(Value: char): char;
+    uCase(Value: string): string;
+};
 
 
 export type Strings = Strings$instance;
 
-export class VBFixedArrayAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(UpperBound1: int);
-    constructor(UpperBound1: int, UpperBound2: int);
+export interface VBFixedArrayAttribute$instance extends Attribute {
     readonly bounds: int[];
     readonly length: int;
 }
 
 
+export const VBFixedArrayAttribute: {
+    new(UpperBound1: int): VBFixedArrayAttribute$instance;
+    new(UpperBound1: int, UpperBound2: int): VBFixedArrayAttribute$instance;
+};
+
+
 export type VBFixedArrayAttribute = VBFixedArrayAttribute$instance;
 
-export class VBFixedStringAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(Length: int);
+export interface VBFixedStringAttribute$instance extends Attribute {
     readonly length: int;
 }
 
 
+export const VBFixedStringAttribute: {
+    new(Length: int): VBFixedStringAttribute$instance;
+};
+
+
 export type VBFixedStringAttribute = VBFixedStringAttribute$instance;
 
-export class VBMath$instance {
-    static randomize(): void;
-    static randomize(Number: double): void;
-    static rnd(): float;
-    static rnd(Number: float): float;
+export interface VBMath$instance {
 }
+
+
+export const VBMath: {
+    new(): VBMath$instance;
+    randomize(): void;
+    randomize(Number: double): void;
+    rnd(): float;
+    rnd(Number: float): float;
+};
 
 
 export type VBMath = VBMath$instance;

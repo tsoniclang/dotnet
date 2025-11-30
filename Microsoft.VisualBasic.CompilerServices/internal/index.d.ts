@@ -43,141 +43,189 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class BooleanType$instance {
-    static fromObject(Value: unknown): boolean;
-    static fromString(Value: string): boolean;
+export interface BooleanType$instance {
 }
+
+
+export const BooleanType: {
+    new(): BooleanType$instance;
+    fromObject(Value: unknown): boolean;
+    fromString(Value: string): boolean;
+};
 
 
 export type BooleanType = BooleanType$instance;
 
-export class ByteType$instance {
-    static fromObject(Value: unknown): byte;
-    static fromString(Value: string): byte;
+export interface ByteType$instance {
 }
+
+
+export const ByteType: {
+    new(): ByteType$instance;
+    fromObject(Value: unknown): byte;
+    fromString(Value: string): byte;
+};
 
 
 export type ByteType = ByteType$instance;
 
-export class CharArrayType$instance {
-    static fromObject(Value: unknown): char[];
-    static fromString(Value: string): char[];
+export interface CharArrayType$instance {
 }
+
+
+export const CharArrayType: {
+    new(): CharArrayType$instance;
+    fromObject(Value: unknown): char[];
+    fromString(Value: string): char[];
+};
 
 
 export type CharArrayType = CharArrayType$instance;
 
-export class CharType$instance {
-    static fromObject(Value: unknown): char;
-    static fromString(Value: string): char;
+export interface CharType$instance {
 }
+
+
+export const CharType: {
+    new(): CharType$instance;
+    fromObject(Value: unknown): char;
+    fromString(Value: string): char;
+};
 
 
 export type CharType = CharType$instance;
 
-export class Conversions$instance {
-    static changeType(Expression: unknown, TargetType: Type): unknown;
-    static fallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
-    static fromCharAndCount(Value: char, Count: int): string;
-    static fromCharArray(Value: char[]): string;
-    static fromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
-    static toBoolean(Value: unknown): boolean;
-    static toBoolean(Value: string): boolean;
-    static toByte(Value: unknown): byte;
-    static toByte(Value: string): byte;
-    static toChar(Value: unknown): char;
-    static toChar(Value: string): char;
-    static toCharArrayRankOne(Value: unknown): char[];
-    static toCharArrayRankOne(Value: string): char[];
-    static toDate(Value: unknown): DateTime;
-    static toDate(Value: string): DateTime;
-    static toDecimal(Value: boolean): decimal;
-    static toDecimal(Value: unknown): decimal;
-    static toDecimal(Value: string): decimal;
-    static toDouble(Value: unknown): double;
-    static toDouble(Value: string): double;
-    static toGenericParameter<T>(Value: unknown): T;
-    static toInteger(Value: unknown): int;
-    static toInteger(Value: string): int;
-    static toLong(Value: unknown): long;
-    static toLong(Value: string): long;
-    static toSByte(Value: unknown): sbyte;
-    static toSByte(Value: string): sbyte;
-    static toShort(Value: unknown): short;
-    static toShort(Value: string): short;
-    static toSingle(Value: unknown): float;
-    static toSingle(Value: string): float;
-    static toString(Value: boolean): string;
-    static toString(Value: byte): string;
-    static toString(Value: char): string;
-    static toString(Value: DateTime): string;
-    static toString(Value: decimal, NumberFormat: NumberFormatInfo): string;
-    static toString(Value: decimal): string;
-    static toString(Value: double, NumberFormat: NumberFormatInfo): string;
-    static toString(Value: double): string;
-    static toString(Value: short): string;
-    static toString(Value: int): string;
-    static toString(Value: long): string;
-    static toString(Value: unknown): string;
-    static toString(Value: float, NumberFormat: NumberFormatInfo): string;
-    static toString(Value: float): string;
-    static toString(Value: uint): string;
-    static toString(Value: ulong): string;
-    static toUInteger(Value: unknown): uint;
-    static toUInteger(Value: string): uint;
-    static toULong(Value: unknown): ulong;
-    static toULong(Value: string): ulong;
-    static toUShort(Value: unknown): ushort;
-    static toUShort(Value: string): ushort;
+export interface Conversions$instance {
 }
+
+
+export const Conversions: {
+    new(): Conversions$instance;
+    changeType(Expression: unknown, TargetType: Type): unknown;
+    fallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
+    fromCharAndCount(Value: char, Count: int): string;
+    fromCharArray(Value: char[]): string;
+    fromCharArraySubset(Value: char[], StartIndex: int, Length: int): string;
+    toBoolean(Value: unknown): boolean;
+    toBoolean(Value: string): boolean;
+    toByte(Value: unknown): byte;
+    toByte(Value: string): byte;
+    toChar(Value: unknown): char;
+    toChar(Value: string): char;
+    toCharArrayRankOne(Value: unknown): char[];
+    toCharArrayRankOne(Value: string): char[];
+    toDate(Value: unknown): DateTime;
+    toDate(Value: string): DateTime;
+    toDecimal(Value: boolean): decimal;
+    toDecimal(Value: unknown): decimal;
+    toDecimal(Value: string): decimal;
+    toDouble(Value: unknown): double;
+    toDouble(Value: string): double;
+    toGenericParameter<T>(Value: unknown): T;
+    toInteger(Value: unknown): int;
+    toInteger(Value: string): int;
+    toLong(Value: unknown): long;
+    toLong(Value: string): long;
+    toSByte(Value: unknown): sbyte;
+    toSByte(Value: string): sbyte;
+    toShort(Value: unknown): short;
+    toShort(Value: string): short;
+    toSingle(Value: unknown): float;
+    toSingle(Value: string): float;
+    toString(Value: boolean): string;
+    toString(Value: byte): string;
+    toString(Value: char): string;
+    toString(Value: DateTime): string;
+    toString(Value: decimal, NumberFormat: NumberFormatInfo): string;
+    toString(Value: decimal): string;
+    toString(Value: double, NumberFormat: NumberFormatInfo): string;
+    toString(Value: double): string;
+    toString(Value: short): string;
+    toString(Value: int): string;
+    toString(Value: long): string;
+    toString(Value: unknown): string;
+    toString(Value: float, NumberFormat: NumberFormatInfo): string;
+    toString(Value: float): string;
+    toString(Value: uint): string;
+    toString(Value: ulong): string;
+    toUInteger(Value: unknown): uint;
+    toUInteger(Value: string): uint;
+    toULong(Value: unknown): ulong;
+    toULong(Value: string): ulong;
+    toUShort(Value: unknown): ushort;
+    toUShort(Value: string): ushort;
+};
 
 
 export type Conversions = Conversions$instance;
 
-export class DateType$instance {
-    static fromObject(Value: unknown): DateTime;
-    static fromString(Value: string, culture: CultureInfo): DateTime;
-    static fromString(Value: string): DateTime;
+export interface DateType$instance {
 }
+
+
+export const DateType: {
+    new(): DateType$instance;
+    fromObject(Value: unknown): DateTime;
+    fromString(Value: string, culture: CultureInfo): DateTime;
+    fromString(Value: string): DateTime;
+};
 
 
 export type DateType = DateType$instance;
 
-export class DecimalType$instance {
-    static fromBoolean(Value: boolean): decimal;
-    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
-    static fromObject(Value: unknown): decimal;
-    static fromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
-    static fromString(Value: string): decimal;
-    static parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
+export interface DecimalType$instance {
 }
+
+
+export const DecimalType: {
+    new(): DecimalType$instance;
+    fromBoolean(Value: boolean): decimal;
+    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
+    fromObject(Value: unknown): decimal;
+    fromString(Value: string, NumberFormat: NumberFormatInfo): decimal;
+    fromString(Value: string): decimal;
+    parse(Value: string, NumberFormat: NumberFormatInfo): decimal;
+};
 
 
 export type DecimalType = DecimalType$instance;
 
-export class DesignerGeneratedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DesignerGeneratedAttribute$instance extends Attribute {
 }
+
+
+export const DesignerGeneratedAttribute: {
+    new(): DesignerGeneratedAttribute$instance;
+};
 
 
 export type DesignerGeneratedAttribute = DesignerGeneratedAttribute$instance;
 
-export class DoubleType$instance {
-    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
-    static fromObject(Value: unknown): double;
-    static fromString(Value: string, NumberFormat: NumberFormatInfo): double;
-    static fromString(Value: string): double;
-    static parse(Value: string, NumberFormat: NumberFormatInfo): double;
-    static parse(Value: string): double;
+export interface DoubleType$instance {
 }
+
+
+export const DoubleType: {
+    new(): DoubleType$instance;
+    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
+    fromObject(Value: unknown): double;
+    fromString(Value: string, NumberFormat: NumberFormatInfo): double;
+    fromString(Value: string): double;
+    parse(Value: string, NumberFormat: NumberFormatInfo): double;
+    parse(Value: string): double;
+};
 
 
 export type DoubleType = DoubleType$instance;
 
-export class IncompleteInitialization$instance extends System_Internal.Exception$instance {
-    constructor();
+export interface IncompleteInitialization$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const IncompleteInitialization: {
+    new(): IncompleteInitialization$instance;
+};
 
 
 export interface __IncompleteInitialization$views {
@@ -187,246 +235,336 @@ export interface __IncompleteInitialization$views {
 export type IncompleteInitialization = IncompleteInitialization$instance & __IncompleteInitialization$views;
 
 
-export class IntegerType$instance {
-    static fromObject(Value: unknown): int;
-    static fromString(Value: string): int;
+export interface IntegerType$instance {
 }
+
+
+export const IntegerType: {
+    new(): IntegerType$instance;
+    fromObject(Value: unknown): int;
+    fromString(Value: string): int;
+};
 
 
 export type IntegerType = IntegerType$instance;
 
-export class LateBinding$instance {
-    static lateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
-    static lateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
-    static lateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
-    static lateIndexSet(o: unknown, args: unknown[], paramnames: string[]): void;
-    static lateIndexSetComplex(o: unknown, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    static lateSet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[]): void;
-    static lateSetComplex(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+export interface LateBinding$instance {
 }
+
+
+export const LateBinding: {
+    new(): LateBinding$instance;
+    lateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
+    lateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
+    lateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
+    lateIndexSet(o: unknown, args: unknown[], paramnames: string[]): void;
+    lateIndexSetComplex(o: unknown, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    lateSet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[]): void;
+    lateSetComplex(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+};
 
 
 export type LateBinding = LateBinding$instance;
 
-export class LikeOperator$instance {
-    static likeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
-    static likeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
+export interface LikeOperator$instance {
 }
+
+
+export const LikeOperator: {
+    new(): LikeOperator$instance;
+    likeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
+    likeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
+};
 
 
 export type LikeOperator = LikeOperator$instance;
 
-export class LongType$instance {
-    static fromObject(Value: unknown): long;
-    static fromString(Value: string): long;
+export interface LongType$instance {
 }
+
+
+export const LongType: {
+    new(): LongType$instance;
+    fromObject(Value: unknown): long;
+    fromString(Value: string): long;
+};
 
 
 export type LongType = LongType$instance;
 
-export class NewLateBinding$instance {
-    static fallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
-    static fallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
-    static fallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
-    static fallbackIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    static fallbackInvokeDefault1(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    static fallbackInvokeDefault2(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    static fallbackSet(Instance: unknown, MemberName: string, Arguments: unknown[]): void;
-    static fallbackSetComplex(Instance: unknown, MemberName: string, Arguments: unknown[], OptimisticSet: boolean, RValueBase: boolean): void;
-    static lateCall(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): unknown;
-    static lateCallInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    static lateGet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): unknown;
-    static lateGetInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
-    static lateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
-    static lateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
-    static lateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
-    static lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
-    static lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
-    static lateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
+export interface NewLateBinding$instance {
 }
+
+
+export const NewLateBinding: {
+    new(): NewLateBinding$instance;
+    fallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
+    fallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    fallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    fallbackIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    fallbackInvokeDefault1(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    fallbackInvokeDefault2(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    fallbackSet(Instance: unknown, MemberName: string, Arguments: unknown[]): void;
+    fallbackSetComplex(Instance: unknown, MemberName: string, Arguments: unknown[], OptimisticSet: boolean, RValueBase: boolean): void;
+    lateCall(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[], IgnoreReturn: boolean): unknown;
+    lateCallInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    lateGet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], CopyBack: boolean[]): unknown;
+    lateGetInvokeDefault(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], ReportErrors: boolean): unknown;
+    lateIndexGet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): unknown;
+    lateIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
+    lateIndexSetComplex(Instance: unknown, Arguments: unknown[], ArgumentNames: string[], OptimisticSet: boolean, RValueBase: boolean): void;
+    lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean, CallType: CallType): void;
+    lateSet(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[]): void;
+    lateSetComplex(Instance: unknown, Type: Type, MemberName: string, Arguments: unknown[], ArgumentNames: string[], TypeArguments: Type[], OptimisticSet: boolean, RValueBase: boolean): void;
+};
 
 
 export type NewLateBinding = NewLateBinding$instance;
 
-export class ObjectFlowControl$instance {
-    static checkForSyncLockOnValueType(Expression: unknown): void;
+export interface ObjectFlowControl$instance {
 }
+
+
+export const ObjectFlowControl: {
+    new(): ObjectFlowControl$instance;
+    checkForSyncLockOnValueType(Expression: unknown): void;
+};
 
 
 export type ObjectFlowControl = ObjectFlowControl$instance;
 
-export class ObjectFlowControl_ForLoopControl$instance {
-    static forLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: { value: ref<unknown> }, CounterResult: { value: ref<unknown> }): boolean;
-    static forNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
-    static forNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: { value: ref<unknown> }): boolean;
-    static forNextCheckR4(count: float, limit: float, StepValue: float): boolean;
-    static forNextCheckR8(count: double, limit: double, StepValue: double): boolean;
+export interface ObjectFlowControl_ForLoopControl$instance {
 }
+
+
+export const ObjectFlowControl_ForLoopControl: {
+    new(): ObjectFlowControl_ForLoopControl$instance;
+    forLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: { value: ref<unknown> }, CounterResult: { value: ref<unknown> }): boolean;
+    forNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
+    forNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: { value: ref<unknown> }): boolean;
+    forNextCheckR4(count: float, limit: float, StepValue: float): boolean;
+    forNextCheckR8(count: double, limit: double, StepValue: double): boolean;
+};
 
 
 export type ObjectFlowControl_ForLoopControl = ObjectFlowControl_ForLoopControl$instance;
 
-export class ObjectType$instance {
-    constructor();
-    static addObj(o1: unknown, o2: unknown): unknown;
-    static bitAndObj(obj1: unknown, obj2: unknown): unknown;
-    static bitOrObj(obj1: unknown, obj2: unknown): unknown;
-    static bitXorObj(obj1: unknown, obj2: unknown): unknown;
-    static divObj(o1: unknown, o2: unknown): unknown;
-    static getObjectValuePrimitive(o: unknown): unknown;
-    static iDivObj(o1: unknown, o2: unknown): unknown;
-    static likeObj(vLeft: unknown, vRight: unknown, CompareOption: CompareMethod): boolean;
-    static modObj(o1: unknown, o2: unknown): unknown;
-    static mulObj(o1: unknown, o2: unknown): unknown;
-    static negObj(obj: unknown): unknown;
-    static notObj(obj: unknown): unknown;
-    static objTst(o1: unknown, o2: unknown, TextCompare: boolean): int;
-    static plusObj(obj: unknown): unknown;
-    static powObj(obj1: unknown, obj2: unknown): unknown;
-    static shiftLeftObj(o1: unknown, amount: int): unknown;
-    static shiftRightObj(o1: unknown, amount: int): unknown;
-    static strCatObj(vLeft: unknown, vRight: unknown): unknown;
-    static subObj(o1: unknown, o2: unknown): unknown;
-    static xorObj(obj1: unknown, obj2: unknown): unknown;
+export interface ObjectType$instance {
 }
+
+
+export const ObjectType: {
+    new(): ObjectType$instance;
+    addObj(o1: unknown, o2: unknown): unknown;
+    bitAndObj(obj1: unknown, obj2: unknown): unknown;
+    bitOrObj(obj1: unknown, obj2: unknown): unknown;
+    bitXorObj(obj1: unknown, obj2: unknown): unknown;
+    divObj(o1: unknown, o2: unknown): unknown;
+    getObjectValuePrimitive(o: unknown): unknown;
+    iDivObj(o1: unknown, o2: unknown): unknown;
+    likeObj(vLeft: unknown, vRight: unknown, CompareOption: CompareMethod): boolean;
+    modObj(o1: unknown, o2: unknown): unknown;
+    mulObj(o1: unknown, o2: unknown): unknown;
+    negObj(obj: unknown): unknown;
+    notObj(obj: unknown): unknown;
+    objTst(o1: unknown, o2: unknown, TextCompare: boolean): int;
+    plusObj(obj: unknown): unknown;
+    powObj(obj1: unknown, obj2: unknown): unknown;
+    shiftLeftObj(o1: unknown, amount: int): unknown;
+    shiftRightObj(o1: unknown, amount: int): unknown;
+    strCatObj(vLeft: unknown, vRight: unknown): unknown;
+    subObj(o1: unknown, o2: unknown): unknown;
+    xorObj(obj1: unknown, obj2: unknown): unknown;
+};
 
 
 export type ObjectType = ObjectType$instance;
 
-export class Operators$instance {
-    static addObject(Left: unknown, Right: unknown): unknown;
-    static andObject(Left: unknown, Right: unknown): unknown;
-    static compareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
-    static compareString(Left: string, Right: string, TextCompare: boolean): int;
-    static concatenateObject(Left: unknown, Right: unknown): unknown;
-    static conditionalCompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static conditionalCompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static conditionalCompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static conditionalCompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static conditionalCompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static conditionalCompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
-    static divideObject(Left: unknown, Right: unknown): unknown;
-    static exponentObject(Left: unknown, Right: unknown): unknown;
-    static fallbackInvokeUserDefinedOperator(vbOp: unknown, arguments: unknown[]): unknown;
-    static intDivideObject(Left: unknown, Right: unknown): unknown;
-    static leftShiftObject(Operand: unknown, Amount: unknown): unknown;
-    static modObject(Left: unknown, Right: unknown): unknown;
-    static multiplyObject(Left: unknown, Right: unknown): unknown;
-    static negateObject(Operand: unknown): unknown;
-    static notObject(Operand: unknown): unknown;
-    static orObject(Left: unknown, Right: unknown): unknown;
-    static plusObject(Operand: unknown): unknown;
-    static rightShiftObject(Operand: unknown, Amount: unknown): unknown;
-    static subtractObject(Left: unknown, Right: unknown): unknown;
-    static xorObject(Left: unknown, Right: unknown): unknown;
+export interface Operators$instance {
 }
+
+
+export const Operators: {
+    new(): Operators$instance;
+    addObject(Left: unknown, Right: unknown): unknown;
+    andObject(Left: unknown, Right: unknown): unknown;
+    compareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
+    compareString(Left: string, Right: string, TextCompare: boolean): int;
+    concatenateObject(Left: unknown, Right: unknown): unknown;
+    conditionalCompareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    conditionalCompareObjectGreater(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    conditionalCompareObjectGreaterEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    conditionalCompareObjectLess(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    conditionalCompareObjectLessEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    conditionalCompareObjectNotEqual(Left: unknown, Right: unknown, TextCompare: boolean): boolean;
+    divideObject(Left: unknown, Right: unknown): unknown;
+    exponentObject(Left: unknown, Right: unknown): unknown;
+    fallbackInvokeUserDefinedOperator(vbOp: unknown, arguments: unknown[]): unknown;
+    intDivideObject(Left: unknown, Right: unknown): unknown;
+    leftShiftObject(Operand: unknown, Amount: unknown): unknown;
+    modObject(Left: unknown, Right: unknown): unknown;
+    multiplyObject(Left: unknown, Right: unknown): unknown;
+    negateObject(Operand: unknown): unknown;
+    notObject(Operand: unknown): unknown;
+    orObject(Left: unknown, Right: unknown): unknown;
+    plusObject(Operand: unknown): unknown;
+    rightShiftObject(Operand: unknown, Amount: unknown): unknown;
+    subtractObject(Left: unknown, Right: unknown): unknown;
+    xorObject(Left: unknown, Right: unknown): unknown;
+};
 
 
 export type Operators = Operators$instance;
 
-export class OptionCompareAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OptionCompareAttribute$instance extends Attribute {
 }
+
+
+export const OptionCompareAttribute: {
+    new(): OptionCompareAttribute$instance;
+};
 
 
 export type OptionCompareAttribute = OptionCompareAttribute$instance;
 
-export class OptionTextAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OptionTextAttribute$instance extends Attribute {
 }
+
+
+export const OptionTextAttribute: {
+    new(): OptionTextAttribute$instance;
+};
 
 
 export type OptionTextAttribute = OptionTextAttribute$instance;
 
-export class ProjectData$instance {
-    static clearProjectError(): void;
-    static createProjectError(hr: int): Exception;
-    static endApp(): void;
-    static setProjectError(ex: Exception, lErl: int): void;
-    static setProjectError(ex: Exception): void;
+export interface ProjectData$instance {
 }
+
+
+export const ProjectData: {
+    new(): ProjectData$instance;
+    clearProjectError(): void;
+    createProjectError(hr: int): Exception;
+    endApp(): void;
+    setProjectError(ex: Exception, lErl: int): void;
+    setProjectError(ex: Exception): void;
+};
 
 
 export type ProjectData = ProjectData$instance;
 
-export class ShortType$instance {
-    static fromObject(Value: unknown): short;
-    static fromString(Value: string): short;
+export interface ShortType$instance {
 }
+
+
+export const ShortType: {
+    new(): ShortType$instance;
+    fromObject(Value: unknown): short;
+    fromString(Value: string): short;
+};
 
 
 export type ShortType = ShortType$instance;
 
-export class SingleType$instance {
-    static fromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
-    static fromObject(Value: unknown): float;
-    static fromString(Value: string, NumberFormat: NumberFormatInfo): float;
-    static fromString(Value: string): float;
+export interface SingleType$instance {
 }
+
+
+export const SingleType: {
+    new(): SingleType$instance;
+    fromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
+    fromObject(Value: unknown): float;
+    fromString(Value: string, NumberFormat: NumberFormatInfo): float;
+    fromString(Value: string): float;
+};
 
 
 export type SingleType = SingleType$instance;
 
-export class StandardModuleAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface StandardModuleAttribute$instance extends Attribute {
 }
+
+
+export const StandardModuleAttribute: {
+    new(): StandardModuleAttribute$instance;
+};
 
 
 export type StandardModuleAttribute = StandardModuleAttribute$instance;
 
-export class StaticLocalInitFlag$instance {
-    constructor();
+export interface StaticLocalInitFlag$instance {
     state: short;
 }
 
 
+export const StaticLocalInitFlag: {
+    new(): StaticLocalInitFlag$instance;
+};
+
+
 export type StaticLocalInitFlag = StaticLocalInitFlag$instance;
 
-export class StringType$instance {
-    static fromBoolean(Value: boolean): string;
-    static fromByte(Value: byte): string;
-    static fromChar(Value: char): string;
-    static fromDate(Value: DateTime): string;
-    static fromDecimal(Value: decimal, NumberFormat: NumberFormatInfo): string;
-    static fromDecimal(Value: decimal): string;
-    static fromDouble(Value: double, NumberFormat: NumberFormatInfo): string;
-    static fromDouble(Value: double): string;
-    static fromInteger(Value: int): string;
-    static fromLong(Value: long): string;
-    static fromObject(Value: unknown): string;
-    static fromShort(Value: short): string;
-    static fromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
-    static fromSingle(Value: float): string;
-    static midStmtStr(sDest: { value: ref<string> }, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
-    static strCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
-    static strLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
-    static strLikeBinary(Source: string, Pattern: string): boolean;
-    static strLikeText(Source: string, Pattern: string): boolean;
+export interface StringType$instance {
 }
+
+
+export const StringType: {
+    new(): StringType$instance;
+    fromBoolean(Value: boolean): string;
+    fromByte(Value: byte): string;
+    fromChar(Value: char): string;
+    fromDate(Value: DateTime): string;
+    fromDecimal(Value: decimal, NumberFormat: NumberFormatInfo): string;
+    fromDecimal(Value: decimal): string;
+    fromDouble(Value: double, NumberFormat: NumberFormatInfo): string;
+    fromDouble(Value: double): string;
+    fromInteger(Value: int): string;
+    fromLong(Value: long): string;
+    fromObject(Value: unknown): string;
+    fromShort(Value: short): string;
+    fromSingle(Value: float, NumberFormat: NumberFormatInfo): string;
+    fromSingle(Value: float): string;
+    midStmtStr(sDest: { value: ref<string> }, StartPosition: int, MaxInsertLength: int, sInsert: string): void;
+    strCmp(sLeft: string, sRight: string, TextCompare: boolean): int;
+    strLike(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
+    strLikeBinary(Source: string, Pattern: string): boolean;
+    strLikeText(Source: string, Pattern: string): boolean;
+};
 
 
 export type StringType = StringType$instance;
 
-export class Utils$instance {
-    static copyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
-    static getResourceString(ResourceKey: string, Args: string[]): string;
+export interface Utils$instance {
 }
+
+
+export const Utils: {
+    new(): Utils$instance;
+    copyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
+    getResourceString(ResourceKey: string, Args: string[]): string;
+};
 
 
 export type Utils = Utils$instance;
 
-export class Versioned$instance {
-    static callByName(Instance: unknown, MethodName: string, UseCallType: CallType, Arguments: unknown[]): unknown;
-    static isNumeric(Expression: unknown): boolean;
-    static systemTypeName(VbName: string): string;
-    static typeName(Expression: unknown): string;
-    static vbTypeName(SystemName: string): string;
+export interface Versioned$instance {
 }
+
+
+export const Versioned: {
+    new(): Versioned$instance;
+    callByName(Instance: unknown, MethodName: string, UseCallType: CallType, Arguments: unknown[]): unknown;
+    isNumeric(Expression: unknown): boolean;
+    systemTypeName(VbName: string): string;
+    typeName(Expression: unknown): string;
+    vbTypeName(SystemName: string): string;
+};
 
 
 export type Versioned = Versioned$instance;

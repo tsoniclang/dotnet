@@ -53,18 +53,19 @@ export enum ResourceScope {
 }
 
 
-export class ComponentGuaranteesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(guarantees: ComponentGuaranteesOptions);
+export interface ComponentGuaranteesAttribute$instance extends Attribute {
     readonly guarantees: ComponentGuaranteesOptions;
 }
 
 
+export const ComponentGuaranteesAttribute: {
+    new(guarantees: ComponentGuaranteesOptions): ComponentGuaranteesAttribute$instance;
+};
+
+
 export type ComponentGuaranteesAttribute = ComponentGuaranteesAttribute$instance;
 
-export class FrameworkName$instance {
-    constructor(identifier: string, version: Version);
-    constructor(identifier: string, version: Version, profile: string);
-    constructor(frameworkName: string);
+export interface FrameworkName$instance {
     readonly fullName: string;
     readonly identifier: string;
     readonly profile: string;
@@ -74,6 +75,13 @@ export class FrameworkName$instance {
     getHashCode(): int;
     toString(): string;
 }
+
+
+export const FrameworkName: {
+    new(identifier: string, version: Version): FrameworkName$instance;
+    new(identifier: string, version: Version, profile: string): FrameworkName$instance;
+    new(frameworkName: string): FrameworkName$instance;
+};
 
 
 export interface __FrameworkName$views {
@@ -86,93 +94,137 @@ export interface __FrameworkName$views {
 export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 
-export class ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
-    constructor(platformName: string, message: string);
+export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
     readonly message: string;
     url: string;
 }
+
+
+export const ObsoletedOSPlatformAttribute: {
+    new(platformName: string): ObsoletedOSPlatformAttribute$instance;
+    new(platformName: string, message: string): ObsoletedOSPlatformAttribute$instance;
+};
 
 
 export type ObsoletedOSPlatformAttribute = ObsoletedOSPlatformAttribute$instance;
 
-export abstract class OSPlatformAttribute$instance extends System_Internal.Attribute$instance {
+export interface OSPlatformAttribute$instance extends Attribute {
     readonly platformName: string;
 }
 
 
+export const OSPlatformAttribute: {
+};
+
+
 export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
-export class RequiresPreviewFeaturesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(message: string);
+export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
     readonly message: string;
     url: string;
 }
 
 
+export const RequiresPreviewFeaturesAttribute: {
+    new(): RequiresPreviewFeaturesAttribute$instance;
+    new(message: string): RequiresPreviewFeaturesAttribute$instance;
+};
+
+
 export type RequiresPreviewFeaturesAttribute = RequiresPreviewFeaturesAttribute$instance;
 
-export class ResourceConsumptionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(resourceScope: ResourceScope);
-    constructor(resourceScope: ResourceScope, consumptionScope: ResourceScope);
+export interface ResourceConsumptionAttribute$instance extends Attribute {
     readonly consumptionScope: ResourceScope;
     readonly resourceScope: ResourceScope;
 }
 
 
+export const ResourceConsumptionAttribute: {
+    new(resourceScope: ResourceScope): ResourceConsumptionAttribute$instance;
+    new(resourceScope: ResourceScope, consumptionScope: ResourceScope): ResourceConsumptionAttribute$instance;
+};
+
+
 export type ResourceConsumptionAttribute = ResourceConsumptionAttribute$instance;
 
-export class ResourceExposureAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(exposureLevel: ResourceScope);
+export interface ResourceExposureAttribute$instance extends Attribute {
     readonly resourceExposureLevel: ResourceScope;
 }
 
 
+export const ResourceExposureAttribute: {
+    new(exposureLevel: ResourceScope): ResourceExposureAttribute$instance;
+};
+
+
 export type ResourceExposureAttribute = ResourceExposureAttribute$instance;
 
-export class SupportedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
+export interface SupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
 }
+
+
+export const SupportedOSPlatformAttribute: {
+    new(platformName: string): SupportedOSPlatformAttribute$instance;
+};
 
 
 export type SupportedOSPlatformAttribute = SupportedOSPlatformAttribute$instance;
 
-export class SupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
+export interface SupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
 }
+
+
+export const SupportedOSPlatformGuardAttribute: {
+    new(platformName: string): SupportedOSPlatformGuardAttribute$instance;
+};
 
 
 export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribute$instance;
 
-export class TargetFrameworkAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(frameworkName: string);
+export interface TargetFrameworkAttribute$instance extends Attribute {
     frameworkDisplayName: string;
     readonly frameworkName: string;
 }
 
 
+export const TargetFrameworkAttribute: {
+    new(frameworkName: string): TargetFrameworkAttribute$instance;
+};
+
+
 export type TargetFrameworkAttribute = TargetFrameworkAttribute$instance;
 
-export class TargetPlatformAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
+export interface TargetPlatformAttribute$instance extends OSPlatformAttribute {
 }
+
+
+export const TargetPlatformAttribute: {
+    new(platformName: string): TargetPlatformAttribute$instance;
+};
 
 
 export type TargetPlatformAttribute = TargetPlatformAttribute$instance;
 
-export class UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
-    constructor(platformName: string, message: string);
+export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttribute {
     readonly message: string;
 }
 
 
+export const UnsupportedOSPlatformAttribute: {
+    new(platformName: string): UnsupportedOSPlatformAttribute$instance;
+    new(platformName: string, message: string): UnsupportedOSPlatformAttribute$instance;
+};
+
+
 export type UnsupportedOSPlatformAttribute = UnsupportedOSPlatformAttribute$instance;
 
-export class UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute$instance {
-    constructor(platformName: string);
+export interface UnsupportedOSPlatformGuardAttribute$instance extends OSPlatformAttribute {
 }
+
+
+export const UnsupportedOSPlatformGuardAttribute: {
+    new(platformName: string): UnsupportedOSPlatformGuardAttribute$instance;
+};
 
 
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;

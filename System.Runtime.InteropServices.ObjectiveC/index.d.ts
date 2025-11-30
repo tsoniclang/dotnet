@@ -15,6 +15,6 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { ObjectiveCMarshal$instance as ObjectiveCMarshal } from './internal/index.js';
-export { ObjectiveCMarshal_UnhandledExceptionPropagationHandler$instance as ObjectiveCMarshal_UnhandledExceptionPropagationHandler } from './internal/index.js';
+export type ObjectiveCMarshal_UnhandledExceptionPropagationHandler = Internal.ObjectiveCMarshal_UnhandledExceptionPropagationHandler;
 export { ObjectiveCMarshal_MessageSendFunction as ObjectiveCMarshal_MessageSendFunction } from './internal/index.js';
-export { ObjectiveCTrackedTypeAttribute$instance as ObjectiveCTrackedTypeAttribute } from './internal/index.js';
+export { ObjectiveCTrackedTypeAttribute as ObjectiveCTrackedTypeAttribute } from './internal/index.js';

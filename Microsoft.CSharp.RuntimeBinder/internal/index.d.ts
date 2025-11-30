@@ -66,19 +66,28 @@ export enum CSharpBinderFlags {
 }
 
 
-export class CSharpArgumentInfo$instance {
-    static create(flags: CSharpArgumentInfoFlags, name: string): CSharpArgumentInfo;
+export interface CSharpArgumentInfo$instance {
 }
+
+
+export const CSharpArgumentInfo: {
+    new(): CSharpArgumentInfo$instance;
+    create(flags: CSharpArgumentInfoFlags, name: string): CSharpArgumentInfo;
+};
 
 
 export type CSharpArgumentInfo = CSharpArgumentInfo$instance;
 
-export class RuntimeBinderException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface RuntimeBinderException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const RuntimeBinderException: {
+    new(): RuntimeBinderException$instance;
+    new(message: string): RuntimeBinderException$instance;
+    new(message: string, innerException: Exception): RuntimeBinderException$instance;
+};
 
 
 export interface __RuntimeBinderException$views {
@@ -88,12 +97,16 @@ export interface __RuntimeBinderException$views {
 export type RuntimeBinderException = RuntimeBinderException$instance & __RuntimeBinderException$views;
 
 
-export class RuntimeBinderInternalCompilerException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface RuntimeBinderInternalCompilerException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const RuntimeBinderInternalCompilerException: {
+    new(): RuntimeBinderInternalCompilerException$instance;
+    new(message: string): RuntimeBinderInternalCompilerException$instance;
+    new(message: string, innerException: Exception): RuntimeBinderInternalCompilerException$instance;
+};
 
 
 export interface __RuntimeBinderInternalCompilerException$views {

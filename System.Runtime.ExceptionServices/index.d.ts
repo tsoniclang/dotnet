@@ -11,7 +11,7 @@ import type { Attribute, Boolean as ClrBoolean, EventArgs, Exception, Func_2, In
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { ExceptionDispatchInfo$instance as ExceptionDispatchInfo } from './internal/index.js';
+export { ExceptionDispatchInfo as ExceptionDispatchInfo } from './internal/index.js';
 export { ExceptionHandling$instance as ExceptionHandling } from './internal/index.js';
-export { FirstChanceExceptionEventArgs$instance as FirstChanceExceptionEventArgs } from './internal/index.js';
-export { HandleProcessCorruptedStateExceptionsAttribute$instance as HandleProcessCorruptedStateExceptionsAttribute } from './internal/index.js';
+export { FirstChanceExceptionEventArgs as FirstChanceExceptionEventArgs } from './internal/index.js';
+export { HandleProcessCorruptedStateExceptionsAttribute as HandleProcessCorruptedStateExceptionsAttribute } from './internal/index.js';

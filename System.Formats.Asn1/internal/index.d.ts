@@ -102,9 +102,7 @@ export enum UniversalTagNumber {
 }
 
 
-export class Asn1Tag$instance {
-    constructor(universalTagNumber: UniversalTagNumber, isConstructed: boolean);
-    constructor(tagClass: TagClass, tagValue: int, isConstructed: boolean);
+export interface Asn1Tag$instance {
     readonly isConstructed: boolean;
     readonly tagClass: TagClass;
     readonly tagValue: int;
@@ -118,22 +116,28 @@ export class Asn1Tag$instance {
     hasSameClassAndValue(other: Asn1Tag): boolean;
     toString(): string;
     tryEncode(destination: Span_1<CLROf<byte>>, bytesWritten: { value: ref<int> }): boolean;
-    static readonly boolean_: Asn1Tag;
-    static readonly integer: Asn1Tag;
-    static readonly primitiveBitString: Asn1Tag;
-    static readonly constructedBitString: Asn1Tag;
-    static readonly primitiveOctetString: Asn1Tag;
-    static readonly constructedOctetString: Asn1Tag;
-    static readonly null_: Asn1Tag;
-    static readonly objectIdentifier: Asn1Tag;
-    static readonly enumerated: Asn1Tag;
-    static readonly sequence: Asn1Tag;
-    static readonly setOf: Asn1Tag;
-    static readonly utcTime: Asn1Tag;
-    static readonly generalizedTime: Asn1Tag;
-    static decode(source: ReadOnlySpan_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }): Asn1Tag;
-    static tryDecode(source: ReadOnlySpan_1<CLROf<byte>>, tag: { value: ref<Asn1Tag> }, bytesConsumed: { value: ref<int> }): boolean;
 }
+
+
+export const Asn1Tag: {
+    new(universalTagNumber: UniversalTagNumber, isConstructed: boolean): Asn1Tag$instance;
+    new(tagClass: TagClass, tagValue: int, isConstructed: boolean): Asn1Tag$instance;
+    readonly boolean_: Asn1Tag;
+    readonly integer: Asn1Tag;
+    readonly primitiveBitString: Asn1Tag;
+    readonly constructedBitString: Asn1Tag;
+    readonly primitiveOctetString: Asn1Tag;
+    readonly constructedOctetString: Asn1Tag;
+    readonly null_: Asn1Tag;
+    readonly objectIdentifier: Asn1Tag;
+    readonly enumerated: Asn1Tag;
+    readonly sequence: Asn1Tag;
+    readonly setOf: Asn1Tag;
+    readonly utcTime: Asn1Tag;
+    readonly generalizedTime: Asn1Tag;
+    decode(source: ReadOnlySpan_1<CLROf<byte>>, bytesConsumed: { value: ref<int> }): Asn1Tag;
+    tryDecode(source: ReadOnlySpan_1<CLROf<byte>>, tag: { value: ref<Asn1Tag> }, bytesConsumed: { value: ref<int> }): boolean;
+};
 
 
 export interface __Asn1Tag$views {
@@ -146,17 +150,27 @@ export interface __Asn1Tag$views {
 export type Asn1Tag = Asn1Tag$instance & __Asn1Tag$views;
 
 
-export class AsnReaderOptions$instance {
+export interface AsnReaderOptions$instance {
     skipSetSortOrderVerification: boolean;
     utcTimeTwoDigitYearMax: int;
 }
 
 
+export const AsnReaderOptions: {
+    new(): AsnReaderOptions$instance;
+};
+
+
 export type AsnReaderOptions = AsnReaderOptions$instance;
 
-export class AsnWriter_Scope$instance {
+export interface AsnWriter_Scope$instance {
     dispose(): void;
 }
+
+
+export const AsnWriter_Scope: {
+    new(): AsnWriter_Scope$instance;
+};
 
 
 export interface __AsnWriter_Scope$views {
@@ -168,12 +182,16 @@ export interface AsnWriter_Scope$instance extends System_Internal.IDisposable$in
 export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views;
 
 
-export class AsnContentException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
+export interface AsnContentException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const AsnContentException: {
+    new(): AsnContentException$instance;
+    new(message: string): AsnContentException$instance;
+    new(message: string, inner: Exception): AsnContentException$instance;
+};
 
 
 export interface __AsnContentException$views {
@@ -183,8 +201,7 @@ export interface __AsnContentException$views {
 export type AsnContentException = AsnContentException$instance & __AsnContentException$views;
 
 
-export class AsnReader$instance {
-    constructor(data: ReadOnlyMemory_1<CLROf<byte>>, ruleSet: AsnEncodingRules, options: AsnReaderOptions);
+export interface AsnReader$instance {
     readonly hasData: boolean;
     readonly ruleSet: AsnEncodingRules;
     clone(): AsnReader;
@@ -227,11 +244,14 @@ export class AsnReader$instance {
 }
 
 
+export const AsnReader: {
+    new(data: ReadOnlyMemory_1<CLROf<byte>>, ruleSet: AsnEncodingRules, options: AsnReaderOptions): AsnReader$instance;
+};
+
+
 export type AsnReader = AsnReader$instance;
 
-export class AsnWriter$instance {
-    constructor(ruleSet: AsnEncodingRules);
-    constructor(ruleSet: AsnEncodingRules, initialCapacity: int);
+export interface AsnWriter$instance {
     readonly ruleSet: AsnEncodingRules;
     copyTo(destination: AsnWriter): void;
     encode(destination: Span_1<CLROf<byte>>): int;
@@ -273,6 +293,12 @@ export class AsnWriter$instance {
     writeUtcTime(value: DateTimeOffset, tag?: Nullable_1<Asn1Tag>): void;
     writeUtcTime(value: DateTimeOffset, twoDigitYearMax: int, tag?: Nullable_1<Asn1Tag>): void;
 }
+
+
+export const AsnWriter: {
+    new(ruleSet: AsnEncodingRules): AsnWriter$instance;
+    new(ruleSet: AsnEncodingRules, initialCapacity: int): AsnWriter$instance;
+};
 
 
 export type AsnWriter = AsnWriter$instance;

@@ -68,13 +68,7 @@ export enum RequestCacheLevel {
 }
 
 
-export class HttpRequestCachePolicy$instance extends RequestCachePolicy$instance {
-    constructor();
-    constructor(level: HttpRequestCacheLevel);
-    constructor(cacheAgeControl: HttpCacheAgeControl, ageOrFreshOrStale: TimeSpan);
-    constructor(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan);
-    constructor(cacheSyncDate: DateTime);
-    constructor(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan, cacheSyncDate: DateTime);
+export interface HttpRequestCachePolicy$instance extends RequestCachePolicy {
     readonly cacheSyncDate: DateTime;
     readonly level: HttpRequestCacheLevel | RequestCacheLevel;
     readonly maxAge: TimeSpan;
@@ -84,14 +78,28 @@ export class HttpRequestCachePolicy$instance extends RequestCachePolicy$instance
 }
 
 
+export const HttpRequestCachePolicy: {
+    new(): HttpRequestCachePolicy$instance;
+    new(level: HttpRequestCacheLevel): HttpRequestCachePolicy$instance;
+    new(cacheAgeControl: HttpCacheAgeControl, ageOrFreshOrStale: TimeSpan): HttpRequestCachePolicy$instance;
+    new(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan): HttpRequestCachePolicy$instance;
+    new(cacheSyncDate: DateTime): HttpRequestCachePolicy$instance;
+    new(cacheAgeControl: HttpCacheAgeControl, maxAge: TimeSpan, freshOrStale: TimeSpan, cacheSyncDate: DateTime): HttpRequestCachePolicy$instance;
+};
+
+
 export type HttpRequestCachePolicy = HttpRequestCachePolicy$instance;
 
-export class RequestCachePolicy$instance {
-    constructor();
-    constructor(level: RequestCacheLevel);
+export interface RequestCachePolicy$instance {
     readonly level: HttpRequestCacheLevel | RequestCacheLevel;
     toString(): string;
 }
+
+
+export const RequestCachePolicy: {
+    new(): RequestCachePolicy$instance;
+    new(level: RequestCacheLevel): RequestCachePolicy$instance;
+};
 
 
 export type RequestCachePolicy = RequestCachePolicy$instance;

@@ -525,7 +525,7 @@ export interface ITypeLib2$instance extends ITypeLib$instance {}
 
 export type ITypeLib2 = ITypeLib2$instance;
 
-export class BIND_OPTS$instance {
+export interface BIND_OPTS$instance {
     cbStruct: int;
     grfFlags: int;
     grfMode: int;
@@ -533,26 +533,41 @@ export class BIND_OPTS$instance {
 }
 
 
+export const BIND_OPTS: {
+    new(): BIND_OPTS$instance;
+};
+
+
 export type BIND_OPTS = BIND_OPTS$instance;
 
-export class BINDPTR$instance {
+export interface BINDPTR$instance {
     lpfuncdesc: nint;
     lpvardesc: nint;
     lptcomp: nint;
 }
 
 
+export const BINDPTR: {
+    new(): BINDPTR$instance;
+};
+
+
 export type BINDPTR = BINDPTR$instance;
 
-export class CONNECTDATA$instance {
+export interface CONNECTDATA$instance {
     pUnk: unknown;
     dwCookie: int;
 }
 
 
+export const CONNECTDATA: {
+    new(): CONNECTDATA$instance;
+};
+
+
 export type CONNECTDATA = CONNECTDATA$instance;
 
-export class DISPPARAMS$instance {
+export interface DISPPARAMS$instance {
     rgvarg: nint;
     rgdispidNamedArgs: nint;
     cArgs: int;
@@ -560,25 +575,40 @@ export class DISPPARAMS$instance {
 }
 
 
+export const DISPPARAMS: {
+    new(): DISPPARAMS$instance;
+};
+
+
 export type DISPPARAMS = DISPPARAMS$instance;
 
-export class ELEMDESC$instance {
+export interface ELEMDESC$instance {
     tdesc: TYPEDESC;
     desc: ELEMDESC_DESCUNION;
 }
 
 
+export const ELEMDESC: {
+    new(): ELEMDESC$instance;
+};
+
+
 export type ELEMDESC = ELEMDESC$instance;
 
-export class ELEMDESC_DESCUNION$instance {
+export interface ELEMDESC_DESCUNION$instance {
     idldesc: IDLDESC;
     paramdesc: PARAMDESC;
 }
 
 
+export const ELEMDESC_DESCUNION: {
+    new(): ELEMDESC_DESCUNION$instance;
+};
+
+
 export type ELEMDESC_DESCUNION = ELEMDESC_DESCUNION$instance;
 
-export class EXCEPINFO$instance {
+export interface EXCEPINFO$instance {
     wCode: short;
     wReserved: short;
     bstrSource: string;
@@ -591,17 +621,27 @@ export class EXCEPINFO$instance {
 }
 
 
+export const EXCEPINFO: {
+    new(): EXCEPINFO$instance;
+};
+
+
 export type EXCEPINFO = EXCEPINFO$instance;
 
-export class FILETIME$instance {
+export interface FILETIME$instance {
     dwLowDateTime: int;
     dwHighDateTime: int;
 }
 
 
+export const FILETIME: {
+    new(): FILETIME$instance;
+};
+
+
 export type FILETIME = FILETIME$instance;
 
-export class FORMATETC$instance {
+export interface FORMATETC$instance {
     cfFormat: short;
     ptd: nint;
     dwAspect: DVASPECT;
@@ -610,9 +650,14 @@ export class FORMATETC$instance {
 }
 
 
+export const FORMATETC: {
+    new(): FORMATETC$instance;
+};
+
+
 export type FORMATETC = FORMATETC$instance;
 
-export class FUNCDESC$instance {
+export interface FUNCDESC$instance {
     memid: int;
     lprgscode: nint;
     lprgelemdescParam: nint;
@@ -628,25 +673,40 @@ export class FUNCDESC$instance {
 }
 
 
+export const FUNCDESC: {
+    new(): FUNCDESC$instance;
+};
+
+
 export type FUNCDESC = FUNCDESC$instance;
 
-export class IDLDESC$instance {
+export interface IDLDESC$instance {
     dwReserved: nint;
     wIDLFlags: IDLFLAG;
 }
 
 
+export const IDLDESC: {
+    new(): IDLDESC$instance;
+};
+
+
 export type IDLDESC = IDLDESC$instance;
 
-export class PARAMDESC$instance {
+export interface PARAMDESC$instance {
     lpVarValue: nint;
     wParamFlags: PARAMFLAG;
 }
 
 
+export const PARAMDESC: {
+    new(): PARAMDESC$instance;
+};
+
+
 export type PARAMDESC = PARAMDESC$instance;
 
-export class STATDATA$instance {
+export interface STATDATA$instance {
     formatetc: FORMATETC;
     advf: ADVF;
     advSink: IAdviseSink;
@@ -654,9 +714,14 @@ export class STATDATA$instance {
 }
 
 
+export const STATDATA: {
+    new(): STATDATA$instance;
+};
+
+
 export type STATDATA = STATDATA$instance;
 
-export class STATSTG$instance {
+export interface STATSTG$instance {
     pwcsName: string;
     type_: int;
     cbSize: long;
@@ -671,18 +736,28 @@ export class STATSTG$instance {
 }
 
 
+export const STATSTG: {
+    new(): STATSTG$instance;
+};
+
+
 export type STATSTG = STATSTG$instance;
 
-export class STGMEDIUM$instance {
+export interface STGMEDIUM$instance {
     tymed: TYMED;
     unionmember: nint;
     pUnkForRelease: unknown;
 }
 
 
+export const STGMEDIUM: {
+    new(): STGMEDIUM$instance;
+};
+
+
 export type STGMEDIUM = STGMEDIUM$instance;
 
-export class TYPEATTR$instance {
+export interface TYPEATTR$instance {
     guid: Guid;
     lcid: int;
     dwReserved: int;
@@ -701,21 +776,31 @@ export class TYPEATTR$instance {
     wMinorVerNum: short;
     tdescAlias: TYPEDESC;
     idldescType: IDLDESC;
-    static readonly MEMBER_ID_NIL: int;
 }
+
+
+export const TYPEATTR: {
+    new(): TYPEATTR$instance;
+    readonly MEMBER_ID_NIL: int;
+};
 
 
 export type TYPEATTR = TYPEATTR$instance;
 
-export class TYPEDESC$instance {
+export interface TYPEDESC$instance {
     lpValue: nint;
     vt: short;
 }
 
 
+export const TYPEDESC: {
+    new(): TYPEDESC$instance;
+};
+
+
 export type TYPEDESC = TYPEDESC$instance;
 
-export class TYPELIBATTR$instance {
+export interface TYPELIBATTR$instance {
     guid: Guid;
     lcid: int;
     syskind: SYSKIND;
@@ -725,9 +810,14 @@ export class TYPELIBATTR$instance {
 }
 
 
+export const TYPELIBATTR: {
+    new(): TYPELIBATTR$instance;
+};
+
+
 export type TYPELIBATTR = TYPELIBATTR$instance;
 
-export class VARDESC$instance {
+export interface VARDESC$instance {
     memid: int;
     lpstrSchema: string;
     desc: VARDESC_DESCUNION;
@@ -737,12 +827,22 @@ export class VARDESC$instance {
 }
 
 
+export const VARDESC: {
+    new(): VARDESC$instance;
+};
+
+
 export type VARDESC = VARDESC$instance;
 
-export class VARDESC_DESCUNION$instance {
+export interface VARDESC_DESCUNION$instance {
     oInst: int;
     lpvarValue: nint;
 }
+
+
+export const VARDESC_DESCUNION: {
+    new(): VARDESC_DESCUNION$instance;
+};
 
 
 export type VARDESC_DESCUNION = VARDESC_DESCUNION$instance;

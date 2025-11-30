@@ -76,25 +76,34 @@ export enum QuicStreamType {
 }
 
 
-export class QuicStreamCapacityChangedArgs$instance {
+export interface QuicStreamCapacityChangedArgs$instance {
     bidirectionalIncrement: int;
     unidirectionalIncrement: int;
 }
 
 
+export const QuicStreamCapacityChangedArgs: {
+    new(): QuicStreamCapacityChangedArgs$instance;
+};
+
+
 export type QuicStreamCapacityChangedArgs = QuicStreamCapacityChangedArgs$instance;
 
-export class QuicClientConnectionOptions$instance extends QuicConnectionOptions$instance {
-    constructor();
+export interface QuicClientConnectionOptions$instance extends QuicConnectionOptions {
     clientAuthenticationOptions: SslClientAuthenticationOptions;
     localEndPoint: IPEndPoint;
     remoteEndPoint: EndPoint;
 }
 
 
+export const QuicClientConnectionOptions: {
+    new(): QuicClientConnectionOptions$instance;
+};
+
+
 export type QuicClientConnectionOptions = QuicClientConnectionOptions$instance;
 
-export class QuicConnection$instance {
+export interface QuicConnection$instance {
     readonly localEndPoint: IPEndPoint;
     readonly negotiatedApplicationProtocol: SslApplicationProtocol;
     readonly negotiatedCipherSuite: TlsCipherSuite;
@@ -107,9 +116,14 @@ export class QuicConnection$instance {
     disposeAsync(): ValueTask;
     openOutboundStreamAsync(type_: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
     toString(): string;
-    static readonly isSupported: boolean;
-    static connectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
 }
+
+
+export const QuicConnection: {
+    new(): QuicConnection$instance;
+    readonly isSupported: boolean;
+    connectAsync(options: QuicClientConnectionOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
+};
 
 
 export interface __QuicConnection$views {
@@ -121,7 +135,7 @@ export interface QuicConnection$instance extends System_Internal.IAsyncDisposabl
 export type QuicConnection = QuicConnection$instance & __QuicConnection$views;
 
 
-export abstract class QuicConnectionOptions$instance {
+export interface QuicConnectionOptions$instance {
     defaultCloseErrorCode: long;
     defaultStreamErrorCode: long;
     handshakeTimeout: TimeSpan;
@@ -134,15 +148,23 @@ export abstract class QuicConnectionOptions$instance {
 }
 
 
+export const QuicConnectionOptions: {
+};
+
+
 export type QuicConnectionOptions = QuicConnectionOptions$instance;
 
-export class QuicException$instance extends System_IO_Internal.IOException$instance {
-    constructor(error: QuicError, applicationErrorCode: Nullable_1<CLROf<long>>, message: string);
+export interface QuicException$instance extends IOException {
     readonly applicationErrorCode: Nullable_1<CLROf<long>>;
     readonly quicError: QuicError;
     readonly transportErrorCode: Nullable_1<CLROf<long>>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const QuicException: {
+    new(error: QuicError, applicationErrorCode: Nullable_1<CLROf<long>>, message: string): QuicException$instance;
+};
 
 
 export interface __QuicException$views {
@@ -152,14 +174,19 @@ export interface __QuicException$views {
 export type QuicException = QuicException$instance & __QuicException$views;
 
 
-export class QuicListener$instance {
+export interface QuicListener$instance {
     readonly localEndPoint: IPEndPoint;
     acceptConnectionAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicConnection>;
     disposeAsync(): ValueTask;
     toString(): string;
-    static readonly isSupported: boolean;
-    static listenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
 }
+
+
+export const QuicListener: {
+    new(): QuicListener$instance;
+    readonly isSupported: boolean;
+    listenAsync(options: QuicListenerOptions, cancellationToken?: CancellationToken): ValueTask_1<QuicListener>;
+};
 
 
 export interface __QuicListener$views {
@@ -171,8 +198,7 @@ export interface QuicListener$instance extends System_Internal.IAsyncDisposable$
 export type QuicListener = QuicListener$instance & __QuicListener$views;
 
 
-export class QuicListenerOptions$instance {
-    constructor();
+export interface QuicListenerOptions$instance {
     applicationProtocols: List_1<SslApplicationProtocol>;
     connectionOptionsCallback: Func_4<QuicConnection, SslClientHelloInfo, CancellationToken, ValueTask_1<QuicServerConnectionOptions>>;
     listenBacklog: int;
@@ -180,10 +206,14 @@ export class QuicListenerOptions$instance {
 }
 
 
+export const QuicListenerOptions: {
+    new(): QuicListenerOptions$instance;
+};
+
+
 export type QuicListenerOptions = QuicListenerOptions$instance;
 
-export class QuicReceiveWindowSizes$instance {
-    constructor();
+export interface QuicReceiveWindowSizes$instance {
     connection: int;
     locallyInitiatedBidirectionalStream: int;
     remotelyInitiatedBidirectionalStream: int;
@@ -191,17 +221,26 @@ export class QuicReceiveWindowSizes$instance {
 }
 
 
+export const QuicReceiveWindowSizes: {
+    new(): QuicReceiveWindowSizes$instance;
+};
+
+
 export type QuicReceiveWindowSizes = QuicReceiveWindowSizes$instance;
 
-export class QuicServerConnectionOptions$instance extends QuicConnectionOptions$instance {
-    constructor();
+export interface QuicServerConnectionOptions$instance extends QuicConnectionOptions {
     serverAuthenticationOptions: SslServerAuthenticationOptions;
 }
 
 
+export const QuicServerConnectionOptions: {
+    new(): QuicServerConnectionOptions$instance;
+};
+
+
 export type QuicServerConnectionOptions = QuicServerConnectionOptions$instance;
 
-export class QuicStream$instance extends System_IO_Internal.Stream$instance {
+export interface QuicStream$instance extends Stream {
     readonly canRead: boolean;
     readonly canSeek: boolean;
     readonly canTimeout: boolean;
@@ -246,6 +285,11 @@ export class QuicStream$instance extends System_IO_Internal.Stream$instance {
     writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
+
+
+export const QuicStream: {
+    new(): QuicStream$instance;
+};
 
 
 export interface __QuicStream$views {

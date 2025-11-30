@@ -103,15 +103,19 @@ export interface IXPathNavigable$instance {
 
 export type IXPathNavigable = IXPathNavigable$instance;
 
-export class XPathDocument$instance {
-    constructor(reader: XmlReader);
-    constructor(reader: XmlReader, space: XmlSpace);
-    constructor(textReader: TextReader);
-    constructor(stream: Stream);
-    constructor(uri: string);
-    constructor(uri: string, space: XmlSpace);
+export interface XPathDocument$instance {
     createNavigator(): XPathNavigator;
 }
+
+
+export const XPathDocument: {
+    new(reader: XmlReader): XPathDocument$instance;
+    new(reader: XmlReader, space: XmlSpace): XPathDocument$instance;
+    new(textReader: TextReader): XPathDocument$instance;
+    new(stream: Stream): XPathDocument$instance;
+    new(uri: string): XPathDocument$instance;
+    new(uri: string, space: XmlSpace): XPathDocument$instance;
+};
 
 
 export interface __XPathDocument$views {
@@ -123,13 +127,17 @@ export interface XPathDocument$instance extends IXPathNavigable$instance {}
 export type XPathDocument = XPathDocument$instance & __XPathDocument$views;
 
 
-export class XPathException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface XPathException$instance extends SystemException {
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const XPathException: {
+    new(): XPathException$instance;
+    new(message: string): XPathException$instance;
+    new(message: string, innerException: Exception): XPathException$instance;
+};
 
 
 export interface __XPathException$views {
@@ -139,22 +147,26 @@ export interface __XPathException$views {
 export type XPathException = XPathException$instance & __XPathException$views;
 
 
-export abstract class XPathExpression$instance {
+export interface XPathExpression$instance {
     readonly expression: string;
     readonly returnType: XPathResultType;
-    abstract addSort(expr: unknown, comparer: IComparer): void;
-    abstract addSort(expr: unknown, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
-    abstract clone(): XPathExpression;
-    abstract setContext(nsManager: XmlNamespaceManager): void;
-    abstract setContext(nsResolver: IXmlNamespaceResolver): void;
-    static compile(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
-    static compile(xpath: string): XPathExpression;
+    addSort(expr: unknown, comparer: IComparer): void;
+    addSort(expr: unknown, order: XmlSortOrder, caseOrder: XmlCaseOrder, lang: string, dataType: XmlDataType): void;
+    clone(): XPathExpression;
+    setContext(nsManager: XmlNamespaceManager): void;
+    setContext(nsResolver: IXmlNamespaceResolver): void;
 }
+
+
+export const XPathExpression: {
+    compile(xpath: string, nsResolver: IXmlNamespaceResolver): XPathExpression;
+    compile(xpath: string): XPathExpression;
+};
 
 
 export type XPathExpression = XPathExpression$instance;
 
-export abstract class XPathItem$instance {
+export interface XPathItem$instance {
     readonly isNode: boolean;
     readonly typedValue: unknown;
     readonly value: string;
@@ -170,9 +182,13 @@ export abstract class XPathItem$instance {
 }
 
 
+export const XPathItem: {
+};
+
+
 export type XPathItem = XPathItem$instance;
 
-export abstract class XPathNavigator$instance extends XPathItem$instance {
+export interface XPathNavigator$instance extends XPathItem {
     readonly baseURI: string;
     readonly canEdit: boolean;
     readonly hasAttributes: boolean;
@@ -204,7 +220,7 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     appendChild(newChild: XPathNavigator): void;
     appendChildElement(prefix: string, localName: string, namespaceURI: string, value: string): void;
     checkValidity(schemas: XmlSchemaSet, validationEventHandler: ValidationEventHandler): boolean;
-    abstract clone(): XPathNavigator;
+    clone(): XPathNavigator;
     comparePosition(nav: XPathNavigator): XmlNodeOrder;
     compile(xpath: string): XPathExpression;
     createAttribute(prefix: string, localName: string, namespaceURI: string, value: string): void;
@@ -230,34 +246,34 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     insertElementAfter(prefix: string, localName: string, namespaceURI: string, value: string): void;
     insertElementBefore(prefix: string, localName: string, namespaceURI: string, value: string): void;
     isDescendant(nav: XPathNavigator): boolean;
-    abstract isSamePosition(other: XPathNavigator): boolean;
+    isSamePosition(other: XPathNavigator): boolean;
     lookupNamespace(prefix: string): string;
     lookupPrefix(namespaceURI: string): string;
     matches(expr: XPathExpression): boolean;
     matches(xpath: string): boolean;
-    abstract moveTo(other: XPathNavigator): boolean;
+    moveTo(other: XPathNavigator): boolean;
     moveToAttribute(localName: string, namespaceURI: string): boolean;
     moveToChild(localName: string, namespaceURI: string): boolean;
     moveToChild(type_: XPathNodeType): boolean;
     moveToFirst(): boolean;
-    abstract moveToFirstAttribute(): boolean;
-    abstract moveToFirstChild(): boolean;
+    moveToFirstAttribute(): boolean;
+    moveToFirstChild(): boolean;
     moveToFirstNamespace(namespaceScope: XPathNamespaceScope): boolean;
     moveToFirstNamespace(): boolean;
     moveToFollowing(localName: string, namespaceURI: string): boolean;
     moveToFollowing(localName: string, namespaceURI: string, end: XPathNavigator): boolean;
     moveToFollowing(type_: XPathNodeType): boolean;
     moveToFollowing(type_: XPathNodeType, end: XPathNavigator): boolean;
-    abstract moveToId(id: string): boolean;
+    moveToId(id: string): boolean;
     moveToNamespace(name: string): boolean;
     moveToNext(): boolean;
     moveToNext(localName: string, namespaceURI: string): boolean;
     moveToNext(type_: XPathNodeType): boolean;
-    abstract moveToNextAttribute(): boolean;
+    moveToNextAttribute(): boolean;
     moveToNextNamespace(namespaceScope: XPathNamespaceScope): boolean;
     moveToNextNamespace(): boolean;
-    abstract moveToParent(): boolean;
-    abstract moveToPrevious(): boolean;
+    moveToParent(): boolean;
+    moveToPrevious(): boolean;
     moveToRoot(): void;
     prependChild(): XmlWriter;
     prependChild(newChild: string): void;
@@ -287,8 +303,12 @@ export abstract class XPathNavigator$instance extends XPathItem$instance {
     valueAs(returnType: Type, nsResolver: IXmlNamespaceResolver): unknown;
     valueAs(returnType: Type): unknown;
     writeSubtree(writer: XmlWriter): void;
-    static readonly navigatorComparer: IEqualityComparer;
 }
+
+
+export const XPathNavigator: {
+    readonly navigatorComparer: IEqualityComparer;
+};
 
 
 export interface __XPathNavigator$views {
@@ -302,14 +322,18 @@ export interface XPathNavigator$instance extends System_Xml_Internal.IXmlNamespa
 export type XPathNavigator = XPathNavigator$instance & __XPathNavigator$views;
 
 
-export abstract class XPathNodeIterator$instance {
+export interface XPathNodeIterator$instance {
     readonly count: int;
     readonly current: XPathNavigator;
     readonly currentPosition: int;
-    abstract clone(): XPathNodeIterator;
+    clone(): XPathNodeIterator;
     getEnumerator(): IEnumerator;
-    abstract moveNext(): boolean;
+    moveNext(): boolean;
 }
+
+
+export const XPathNodeIterator: {
+};
 
 
 export interface __XPathNodeIterator$views {

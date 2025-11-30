@@ -170,6 +170,42 @@ export enum ToolboxItemFilterType {
 }
 
 
+export type AddingNewEventHandler = (sender: unknown, e: AddingNewEventArgs) => void;
+
+
+export type AsyncCompletedEventHandler = (sender: unknown, e: AsyncCompletedEventArgs) => void;
+
+
+export type CancelEventHandler = (sender: unknown, e: CancelEventArgs) => void;
+
+
+export type CollectionChangeEventHandler = (sender: unknown, e: CollectionChangeEventArgs) => void;
+
+
+export type DoWorkEventHandler = (sender: unknown, e: DoWorkEventArgs) => void;
+
+
+export type HandledEventHandler = (sender: unknown, e: HandledEventArgs) => void;
+
+
+export type ListChangedEventHandler = (sender: unknown, e: ListChangedEventArgs) => void;
+
+
+export type ProgressChangedEventHandler = (sender: unknown, e: ProgressChangedEventArgs) => void;
+
+
+export type PropertyChangedEventHandler = (sender: unknown, e: PropertyChangedEventArgs) => void;
+
+
+export type PropertyChangingEventHandler = (sender: unknown, e: PropertyChangingEventArgs) => void;
+
+
+export type RefreshEventHandler = (e: RefreshEventArgs) => void;
+
+
+export type RunWorkerCompletedEventHandler = (sender: unknown, e: RunWorkerCompletedEventArgs) => void;
+
+
 export interface IBindingList$instance extends IList, ICollection, IEnumerable {
     readonly allowNew: boolean;
     readonly allowEdit: boolean;
@@ -473,55 +509,44 @@ export interface ITypedList$instance {
 
 export type ITypedList = ITypedList$instance;
 
-export class AddingNewEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor();
-    constructor(newObject: unknown);
+export interface AddingNewEventArgs$instance extends EventArgs {
     newObject: unknown;
 }
 
 
+export const AddingNewEventArgs: {
+    new(): AddingNewEventArgs$instance;
+    new(newObject: unknown): AddingNewEventArgs$instance;
+};
+
+
 export type AddingNewEventArgs = AddingNewEventArgs$instance;
 
-export class AddingNewEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: AddingNewEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: AddingNewEventArgs): void;
-}
-
-
-export interface __AddingNewEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type AddingNewEventHandler = AddingNewEventHandler$instance & __AddingNewEventHandler$views;
-
-
-export class AmbientValueAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(type_: Type, value: string);
-    constructor(value: char);
-    constructor(value: byte);
-    constructor(value: short);
-    constructor(value: int);
-    constructor(value: long);
-    constructor(value: float);
-    constructor(value: double);
-    constructor(value: boolean);
-    constructor(value: string);
-    constructor(value: unknown);
+export interface AmbientValueAttribute$instance extends Attribute {
     readonly value: unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
+export const AmbientValueAttribute: {
+    new(type_: Type, value: string): AmbientValueAttribute$instance;
+    new(value: char): AmbientValueAttribute$instance;
+    new(value: byte): AmbientValueAttribute$instance;
+    new(value: short): AmbientValueAttribute$instance;
+    new(value: int): AmbientValueAttribute$instance;
+    new(value: long): AmbientValueAttribute$instance;
+    new(value: float): AmbientValueAttribute$instance;
+    new(value: double): AmbientValueAttribute$instance;
+    new(value: boolean): AmbientValueAttribute$instance;
+    new(value: string): AmbientValueAttribute$instance;
+    new(value: unknown): AmbientValueAttribute$instance;
+};
+
+
 export type AmbientValueAttribute = AmbientValueAttribute$instance;
 
-export class ArrayConverter$instance extends CollectionConverter$instance {
-    constructor();
+export interface ArrayConverter$instance extends CollectionConverter {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
     getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
@@ -532,37 +557,28 @@ export class ArrayConverter$instance extends CollectionConverter$instance {
 }
 
 
+export const ArrayConverter: {
+    new(): ArrayConverter$instance;
+};
+
+
 export type ArrayConverter = ArrayConverter$instance;
 
-export class AsyncCompletedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(error: Exception, cancelled: boolean, userState: unknown);
+export interface AsyncCompletedEventArgs$instance extends EventArgs {
     readonly cancelled: boolean;
     readonly error: Exception;
     readonly userState: unknown;
 }
 
 
+export const AsyncCompletedEventArgs: {
+    new(error: Exception, cancelled: boolean, userState: unknown): AsyncCompletedEventArgs$instance;
+};
+
+
 export type AsyncCompletedEventArgs = AsyncCompletedEventArgs$instance;
 
-export class AsyncCompletedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: AsyncCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: AsyncCompletedEventArgs): void;
-}
-
-
-export interface __AsyncCompletedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type AsyncCompletedEventHandler = AsyncCompletedEventHandler$instance & __AsyncCompletedEventHandler$views;
-
-
-export class AsyncOperation$instance {
+export interface AsyncOperation$instance {
     readonly synchronizationContext: SynchronizationContext;
     readonly userSuppliedState: unknown;
     operationCompleted(): void;
@@ -571,10 +587,14 @@ export class AsyncOperation$instance {
 }
 
 
+export const AsyncOperation: {
+    new(): AsyncOperation$instance;
+};
+
+
 export type AsyncOperation = AsyncOperation$instance;
 
-export class AttributeCollection$instance {
-    constructor(attributes: Attribute[]);
+export interface AttributeCollection$instance {
     readonly count: int;
     contains(attribute: Attribute): boolean;
     contains(attributes: Attribute[]): boolean;
@@ -584,9 +604,14 @@ export class AttributeCollection$instance {
     getEnumerator(): IEnumerator;
     matches(attribute: Attribute): boolean;
     matches(attributes: Attribute[]): boolean;
-    static readonly empty: AttributeCollection;
-    static fromExisting(existing: AttributeCollection, newAttributes: Attribute[]): AttributeCollection;
 }
+
+
+export const AttributeCollection: {
+    new(attributes: Attribute[]): AttributeCollection$instance;
+    readonly empty: AttributeCollection;
+    fromExisting(existing: AttributeCollection, newAttributes: Attribute[]): AttributeCollection;
+};
 
 
 export interface __AttributeCollection$views {
@@ -597,19 +622,22 @@ export interface __AttributeCollection$views {
 export type AttributeCollection = AttributeCollection$instance & __AttributeCollection$views;
 
 
-export class AttributeProviderAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeName: string);
-    constructor(typeName: string, propertyName: string);
-    constructor(type_: Type);
+export interface AttributeProviderAttribute$instance extends Attribute {
     readonly propertyName: string;
     readonly typeName: string;
 }
 
 
+export const AttributeProviderAttribute: {
+    new(typeName: string): AttributeProviderAttribute$instance;
+    new(typeName: string, propertyName: string): AttributeProviderAttribute$instance;
+    new(type_: Type): AttributeProviderAttribute$instance;
+};
+
+
 export type AttributeProviderAttribute = AttributeProviderAttribute$instance;
 
-export class BackgroundWorker$instance extends Component$instance {
-    constructor();
+export interface BackgroundWorker$instance extends Component$instance {
     readonly cancellationPending: boolean;
     readonly isBusy: boolean;
     workerReportsProgress: boolean;
@@ -623,6 +651,11 @@ export class BackgroundWorker$instance extends Component$instance {
 }
 
 
+export const BackgroundWorker: {
+    new(): BackgroundWorker$instance;
+};
+
+
 export interface __BackgroundWorker$views {
     As_IComponent(): IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -633,7 +666,7 @@ export interface BackgroundWorker$instance extends IComponent$instance {}
 export type BackgroundWorker = BackgroundWorker$instance & __BackgroundWorker$views;
 
 
-export abstract class BaseNumberConverter$instance extends TypeConverter$instance {
+export interface BaseNumberConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -645,29 +678,35 @@ export abstract class BaseNumberConverter$instance extends TypeConverter$instanc
 }
 
 
+export const BaseNumberConverter: {
+};
+
+
 export type BaseNumberConverter = BaseNumberConverter$instance;
 
-export class BindableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(bindable: boolean);
-    constructor(bindable: boolean, direction: BindingDirection);
-    constructor(flags: BindableSupport);
-    constructor(flags: BindableSupport, direction: BindingDirection);
+export interface BindableAttribute$instance extends Attribute {
     readonly bindable: boolean;
     readonly direction: BindingDirection;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: BindableAttribute;
-    static readonly no: BindableAttribute;
-    static readonly default_: BindableAttribute;
 }
+
+
+export const BindableAttribute: {
+    new(bindable: boolean): BindableAttribute$instance;
+    new(bindable: boolean, direction: BindingDirection): BindableAttribute$instance;
+    new(flags: BindableSupport): BindableAttribute$instance;
+    new(flags: BindableSupport, direction: BindingDirection): BindableAttribute$instance;
+    readonly yes: BindableAttribute;
+    readonly no: BindableAttribute;
+    readonly default_: BindableAttribute;
+};
 
 
 export type BindableAttribute = BindableAttribute$instance;
 
-export class BindingList_1$instance<T> extends System_Collections_ObjectModel_Internal.Collection_1$instance<T> {
-    constructor();
-    constructor(list: IList_1<T>);
+export interface BindingList_1$instance<T> extends Collection_1<T> {
     allowEdit: boolean;
     allowNew: boolean;
     allowRemove: boolean;
@@ -695,6 +734,12 @@ export class BindingList_1$instance<T> extends System_Collections_ObjectModel_In
 }
 
 
+export const BindingList_1: {
+    new<T>(): BindingList_1$instance<T>;
+    new<T>(list: IList_1<T>): BindingList_1$instance<T>;
+};
+
+
 export interface __BindingList_1$views<T> {
     As_IBindingList(): IBindingList$instance;
     As_ICancelAddNew(): ICancelAddNew$instance;
@@ -713,8 +758,7 @@ export interface BindingList_1$instance<T> extends ICancelAddNew$instance, IRais
 export type BindingList_1<T> = BindingList_1$instance<T> & __BindingList_1$views<T>;
 
 
-export class BooleanConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface BooleanConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
@@ -728,84 +772,86 @@ export class BooleanConverter$instance extends TypeConverter$instance {
 }
 
 
+export const BooleanConverter: {
+    new(): BooleanConverter$instance;
+};
+
+
 export type BooleanConverter = BooleanConverter$instance;
 
-export class BrowsableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(browsable: boolean);
+export interface BrowsableAttribute$instance extends Attribute {
     readonly browsable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: BrowsableAttribute;
-    static readonly no: BrowsableAttribute;
-    static readonly default_: BrowsableAttribute;
 }
+
+
+export const BrowsableAttribute: {
+    new(browsable: boolean): BrowsableAttribute$instance;
+    readonly yes: BrowsableAttribute;
+    readonly no: BrowsableAttribute;
+    readonly default_: BrowsableAttribute;
+};
 
 
 export type BrowsableAttribute = BrowsableAttribute$instance;
 
-export class ByteConverter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface ByteConverter$instance extends BaseNumberConverter {
 }
+
+
+export const ByteConverter: {
+    new(): ByteConverter$instance;
+};
 
 
 export type ByteConverter = ByteConverter$instance;
 
-export class CancelEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor();
-    constructor(cancel: boolean);
+export interface CancelEventArgs$instance extends EventArgs {
     cancel: boolean;
 }
 
 
+export const CancelEventArgs: {
+    new(): CancelEventArgs$instance;
+    new(cancel: boolean): CancelEventArgs$instance;
+};
+
+
 export type CancelEventArgs = CancelEventArgs$instance;
 
-export class CancelEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: CancelEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: CancelEventArgs): void;
-}
-
-
-export interface __CancelEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type CancelEventHandler = CancelEventHandler$instance & __CancelEventHandler$views;
-
-
-export class CategoryAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(category: string);
+export interface CategoryAttribute$instance extends Attribute {
     readonly category: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly action: CategoryAttribute;
-    static readonly appearance: CategoryAttribute;
-    static readonly asynchronous: CategoryAttribute;
-    static readonly behavior: CategoryAttribute;
-    static readonly data: CategoryAttribute;
-    static readonly default_: CategoryAttribute;
-    static readonly design: CategoryAttribute;
-    static readonly dragDrop: CategoryAttribute;
-    static readonly focus: CategoryAttribute;
-    static readonly format: CategoryAttribute;
-    static readonly key: CategoryAttribute;
-    static readonly layout: CategoryAttribute;
-    static readonly mouse: CategoryAttribute;
-    static readonly windowStyle: CategoryAttribute;
 }
+
+
+export const CategoryAttribute: {
+    new(): CategoryAttribute$instance;
+    new(category: string): CategoryAttribute$instance;
+    readonly action: CategoryAttribute;
+    readonly appearance: CategoryAttribute;
+    readonly asynchronous: CategoryAttribute;
+    readonly behavior: CategoryAttribute;
+    readonly data: CategoryAttribute;
+    readonly default_: CategoryAttribute;
+    readonly design: CategoryAttribute;
+    readonly dragDrop: CategoryAttribute;
+    readonly focus: CategoryAttribute;
+    readonly format: CategoryAttribute;
+    readonly key: CategoryAttribute;
+    readonly layout: CategoryAttribute;
+    readonly mouse: CategoryAttribute;
+    readonly windowStyle: CategoryAttribute;
+};
 
 
 export type CategoryAttribute = CategoryAttribute$instance;
 
-export class CharConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface CharConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
@@ -815,37 +861,27 @@ export class CharConverter$instance extends TypeConverter$instance {
 }
 
 
+export const CharConverter: {
+    new(): CharConverter$instance;
+};
+
+
 export type CharConverter = CharConverter$instance;
 
-export class CollectionChangeEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(action: CollectionChangeAction, element: unknown);
+export interface CollectionChangeEventArgs$instance extends EventArgs {
     readonly action: CollectionChangeAction;
     readonly element: unknown;
 }
 
 
+export const CollectionChangeEventArgs: {
+    new(action: CollectionChangeAction, element: unknown): CollectionChangeEventArgs$instance;
+};
+
+
 export type CollectionChangeEventArgs = CollectionChangeEventArgs$instance;
 
-export class CollectionChangeEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: CollectionChangeEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: CollectionChangeEventArgs): void;
-}
-
-
-export interface __CollectionChangeEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type CollectionChangeEventHandler = CollectionChangeEventHandler$instance & __CollectionChangeEventHandler$views;
-
-
-export class CollectionConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface CollectionConverter$instance extends TypeConverter {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
     getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
@@ -854,29 +890,42 @@ export class CollectionConverter$instance extends TypeConverter$instance {
 }
 
 
+export const CollectionConverter: {
+    new(): CollectionConverter$instance;
+};
+
+
 export type CollectionConverter = CollectionConverter$instance;
 
-export class ComplexBindingPropertiesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(dataSource: string);
-    constructor(dataSource: string, dataMember: string);
+export interface ComplexBindingPropertiesAttribute$instance extends Attribute {
     readonly dataMember: string;
     readonly dataSource: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: ComplexBindingPropertiesAttribute;
 }
+
+
+export const ComplexBindingPropertiesAttribute: {
+    new(): ComplexBindingPropertiesAttribute$instance;
+    new(dataSource: string): ComplexBindingPropertiesAttribute$instance;
+    new(dataSource: string, dataMember: string): ComplexBindingPropertiesAttribute$instance;
+    readonly default_: ComplexBindingPropertiesAttribute;
+};
 
 
 export type ComplexBindingPropertiesAttribute = ComplexBindingPropertiesAttribute$instance;
 
-export class Component$instance extends System_Internal.MarshalByRefObject$instance {
-    constructor();
+export interface Component$instance extends MarshalByRefObject {
     readonly container: IContainer;
     site: ISite;
     dispose(): void;
     toString(): string;
 }
+
+
+export const Component: {
+    new(): Component$instance;
+};
 
 
 export interface __Component$views {
@@ -887,13 +936,17 @@ export interface __Component$views {
 export type Component = Component$instance & __Component$views;
 
 
-export class ComponentCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
-    constructor(components: IComponent[]);
+export interface ComponentCollection$instance extends ReadOnlyCollectionBase {
     copyTo(array: ClrArray, index: int): void;
     get_Item(name: string): IComponent;
     get_Item(index: int): IComponent;
     getEnumerator(): IEnumerator;
 }
+
+
+export const ComponentCollection: {
+    new(components: IComponent[]): ComponentCollection$instance;
+};
 
 
 export interface __ComponentCollection$views {
@@ -906,8 +959,7 @@ export interface ComponentCollection$instance extends System_Collections_Interna
 export type ComponentCollection = ComponentCollection$instance & __ComponentCollection$views;
 
 
-export class ComponentConverter$instance extends ReferenceConverter$instance {
-    constructor(type_: Type);
+export interface ComponentConverter$instance extends ReferenceConverter {
     getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
     getProperties(value: unknown): PropertyDescriptorCollection;
     getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
@@ -916,35 +968,52 @@ export class ComponentConverter$instance extends ReferenceConverter$instance {
 }
 
 
+export const ComponentConverter: {
+    new(type_: Type): ComponentConverter$instance;
+};
+
+
 export type ComponentConverter = ComponentConverter$instance;
 
-export abstract class ComponentEditor$instance {
+export interface ComponentEditor$instance {
     editComponent(component: unknown): boolean;
     editComponent(context: ITypeDescriptorContext, component: unknown): boolean;
 }
 
 
+export const ComponentEditor: {
+};
+
+
 export type ComponentEditor = ComponentEditor$instance;
 
-export class ComponentResourceManager$instance extends System_Resources_Internal.ResourceManager$instance {
-    constructor();
-    constructor(t: Type);
+export interface ComponentResourceManager$instance extends ResourceManager {
     applyResources(value: unknown, objectName: string): void;
     applyResources(value: unknown, objectName: string, culture: CultureInfo): void;
     applyResourcesToRegisteredType(value: unknown, objectName: string, culture: CultureInfo): void;
 }
 
 
+export const ComponentResourceManager: {
+    new(): ComponentResourceManager$instance;
+    new(t: Type): ComponentResourceManager$instance;
+};
+
+
 export type ComponentResourceManager = ComponentResourceManager$instance;
 
-export class Container$instance {
-    constructor();
+export interface Container$instance {
     readonly components: ComponentCollection;
     add(component: IComponent): void;
     add(component: IComponent, name: string): void;
     dispose(): void;
     remove(component: IComponent): void;
 }
+
+
+export const Container: {
+    new(): Container$instance;
+};
 
 
 export interface __Container$views {
@@ -955,15 +1024,18 @@ export interface __Container$views {
 export type Container = Container$instance & __Container$views;
 
 
-export abstract class ContainerFilterService$instance {
+export interface ContainerFilterService$instance {
     filterComponents(components: ComponentCollection): ComponentCollection;
 }
 
 
+export const ContainerFilterService: {
+};
+
+
 export type ContainerFilterService = ContainerFilterService$instance;
 
-export class CultureInfoConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface CultureInfoConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -981,9 +1053,14 @@ export class CultureInfoConverter$instance extends TypeConverter$instance {
 }
 
 
+export const CultureInfoConverter: {
+    new(): CultureInfoConverter$instance;
+};
+
+
 export type CultureInfoConverter = CultureInfoConverter$instance;
 
-export abstract class CustomTypeDescriptor$instance {
+export interface CustomTypeDescriptor$instance {
     readonly requireRegisteredTypes: Nullable_1<CLROf<boolean>>;
     getAttributes(): AttributeCollection;
     getClassName(): string;
@@ -1003,6 +1080,10 @@ export abstract class CustomTypeDescriptor$instance {
 }
 
 
+export const CustomTypeDescriptor: {
+};
+
+
 export interface __CustomTypeDescriptor$views {
     As_ICustomTypeDescriptor(): ICustomTypeDescriptor$instance;
 }
@@ -1012,34 +1093,38 @@ export interface CustomTypeDescriptor$instance extends ICustomTypeDescriptor$ins
 export type CustomTypeDescriptor = CustomTypeDescriptor$instance & __CustomTypeDescriptor$views;
 
 
-export class DataErrorsChangedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(propertyName: string);
+export interface DataErrorsChangedEventArgs$instance extends EventArgs {
     readonly propertyName: string;
 }
 
 
+export const DataErrorsChangedEventArgs: {
+    new(propertyName: string): DataErrorsChangedEventArgs$instance;
+};
+
+
 export type DataErrorsChangedEventArgs = DataErrorsChangedEventArgs$instance;
 
-export class DataObjectAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(isDataObject: boolean);
+export interface DataObjectAttribute$instance extends Attribute {
     readonly isDataObject: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly dataObject: DataObjectAttribute;
-    static readonly nonDataObject: DataObjectAttribute;
-    static readonly default_: DataObjectAttribute;
 }
+
+
+export const DataObjectAttribute: {
+    new(): DataObjectAttribute$instance;
+    new(isDataObject: boolean): DataObjectAttribute$instance;
+    readonly dataObject: DataObjectAttribute;
+    readonly nonDataObject: DataObjectAttribute;
+    readonly default_: DataObjectAttribute;
+};
 
 
 export type DataObjectAttribute = DataObjectAttribute$instance;
 
-export class DataObjectFieldAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(primaryKey: boolean);
-    constructor(primaryKey: boolean, isIdentity: boolean);
-    constructor(primaryKey: boolean, isIdentity: boolean, isNullable: boolean);
-    constructor(primaryKey: boolean, isIdentity: boolean, isNullable: boolean, length: int);
+export interface DataObjectFieldAttribute$instance extends Attribute {
     readonly isIdentity: boolean;
     readonly isNullable: boolean;
     readonly length: int;
@@ -1049,11 +1134,17 @@ export class DataObjectFieldAttribute$instance extends System_Internal.Attribute
 }
 
 
+export const DataObjectFieldAttribute: {
+    new(primaryKey: boolean): DataObjectFieldAttribute$instance;
+    new(primaryKey: boolean, isIdentity: boolean): DataObjectFieldAttribute$instance;
+    new(primaryKey: boolean, isIdentity: boolean, isNullable: boolean): DataObjectFieldAttribute$instance;
+    new(primaryKey: boolean, isIdentity: boolean, isNullable: boolean, length: int): DataObjectFieldAttribute$instance;
+};
+
+
 export type DataObjectFieldAttribute = DataObjectFieldAttribute$instance;
 
-export class DataObjectMethodAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(methodType: DataObjectMethodType);
-    constructor(methodType: DataObjectMethodType, isDefault: boolean);
+export interface DataObjectMethodAttribute$instance extends Attribute {
     readonly isDefault: boolean;
     readonly methodType: DataObjectMethodType;
     equals(obj: unknown): boolean;
@@ -1062,10 +1153,15 @@ export class DataObjectMethodAttribute$instance extends System_Internal.Attribut
 }
 
 
+export const DataObjectMethodAttribute: {
+    new(methodType: DataObjectMethodType): DataObjectMethodAttribute$instance;
+    new(methodType: DataObjectMethodType, isDefault: boolean): DataObjectMethodAttribute$instance;
+};
+
+
 export type DataObjectMethodAttribute = DataObjectMethodAttribute$instance;
 
-export class DateOnlyConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface DateOnlyConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1075,12 +1171,16 @@ export class DateOnlyConverter$instance extends TypeConverter$instance {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
 }
+
+
+export const DateOnlyConverter: {
+    new(): DateOnlyConverter$instance;
+};
 
 
 export type DateOnlyConverter = DateOnlyConverter$instance;
 
-export class DateTimeConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface DateTimeConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1090,12 +1190,16 @@ export class DateTimeConverter$instance extends TypeConverter$instance {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
 }
+
+
+export const DateTimeConverter: {
+    new(): DateTimeConverter$instance;
+};
 
 
 export type DateTimeConverter = DateTimeConverter$instance;
 
-export class DateTimeOffsetConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface DateTimeOffsetConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1107,10 +1211,14 @@ export class DateTimeOffsetConverter$instance extends TypeConverter$instance {
 }
 
 
+export const DateTimeOffsetConverter: {
+    new(): DateTimeOffsetConverter$instance;
+};
+
+
 export type DateTimeOffsetConverter = DateTimeOffsetConverter$instance;
 
-export class DecimalConverter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface DecimalConverter$instance extends BaseNumberConverter {
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
@@ -1118,85 +1226,105 @@ export class DecimalConverter$instance extends BaseNumberConverter$instance {
 }
 
 
+export const DecimalConverter: {
+    new(): DecimalConverter$instance;
+};
+
+
 export type DecimalConverter = DecimalConverter$instance;
 
-export class DefaultBindingPropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(name: string);
+export interface DefaultBindingPropertyAttribute$instance extends Attribute {
     readonly name: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: DefaultBindingPropertyAttribute;
 }
+
+
+export const DefaultBindingPropertyAttribute: {
+    new(): DefaultBindingPropertyAttribute$instance;
+    new(name: string): DefaultBindingPropertyAttribute$instance;
+    readonly default_: DefaultBindingPropertyAttribute;
+};
 
 
 export type DefaultBindingPropertyAttribute = DefaultBindingPropertyAttribute$instance;
 
-export class DefaultEventAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface DefaultEventAttribute$instance extends Attribute {
     readonly name: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: DefaultEventAttribute;
 }
+
+
+export const DefaultEventAttribute: {
+    new(name: string): DefaultEventAttribute$instance;
+    readonly default_: DefaultEventAttribute;
+};
 
 
 export type DefaultEventAttribute = DefaultEventAttribute$instance;
 
-export class DefaultPropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface DefaultPropertyAttribute$instance extends Attribute {
     readonly name: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: DefaultPropertyAttribute;
 }
+
+
+export const DefaultPropertyAttribute: {
+    new(name: string): DefaultPropertyAttribute$instance;
+    readonly default_: DefaultPropertyAttribute;
+};
 
 
 export type DefaultPropertyAttribute = DefaultPropertyAttribute$instance;
 
-export class DefaultValueAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(type_: Type, value: string);
-    constructor(value: char);
-    constructor(value: byte);
-    constructor(value: short);
-    constructor(value: int);
-    constructor(value: long);
-    constructor(value: float);
-    constructor(value: double);
-    constructor(value: boolean);
-    constructor(value: string);
-    constructor(value: unknown);
-    constructor(value: sbyte);
-    constructor(value: ushort);
-    constructor(value: uint);
-    constructor(value: ulong);
+export interface DefaultValueAttribute$instance extends Attribute {
     readonly value: unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
+export const DefaultValueAttribute: {
+    new(type_: Type, value: string): DefaultValueAttribute$instance;
+    new(value: char): DefaultValueAttribute$instance;
+    new(value: byte): DefaultValueAttribute$instance;
+    new(value: short): DefaultValueAttribute$instance;
+    new(value: int): DefaultValueAttribute$instance;
+    new(value: long): DefaultValueAttribute$instance;
+    new(value: float): DefaultValueAttribute$instance;
+    new(value: double): DefaultValueAttribute$instance;
+    new(value: boolean): DefaultValueAttribute$instance;
+    new(value: string): DefaultValueAttribute$instance;
+    new(value: unknown): DefaultValueAttribute$instance;
+    new(value: sbyte): DefaultValueAttribute$instance;
+    new(value: ushort): DefaultValueAttribute$instance;
+    new(value: uint): DefaultValueAttribute$instance;
+    new(value: ulong): DefaultValueAttribute$instance;
+};
+
+
 export type DefaultValueAttribute = DefaultValueAttribute$instance;
 
-export class DescriptionAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(description: string);
+export interface DescriptionAttribute$instance extends Attribute {
     readonly description: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly default_: DescriptionAttribute;
 }
+
+
+export const DescriptionAttribute: {
+    new(): DescriptionAttribute$instance;
+    new(description: string): DescriptionAttribute$instance;
+    readonly default_: DescriptionAttribute;
+};
 
 
 export type DescriptionAttribute = DescriptionAttribute$instance;
 
-export class DesignerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(designerTypeName: string);
-    constructor(designerType: Type);
-    constructor(designerTypeName: string, designerBaseTypeName: string);
-    constructor(designerTypeName: string, designerBaseType: Type);
-    constructor(designerType: Type, designerBaseType: Type);
+export interface DesignerAttribute$instance extends Attribute {
     readonly designerBaseTypeName: string;
     readonly designerTypeName: string;
     readonly typeId: unknown;
@@ -1205,121 +1333,136 @@ export class DesignerAttribute$instance extends System_Internal.Attribute$instan
 }
 
 
+export const DesignerAttribute: {
+    new(designerTypeName: string): DesignerAttribute$instance;
+    new(designerType: Type): DesignerAttribute$instance;
+    new(designerTypeName: string, designerBaseTypeName: string): DesignerAttribute$instance;
+    new(designerTypeName: string, designerBaseType: Type): DesignerAttribute$instance;
+    new(designerType: Type, designerBaseType: Type): DesignerAttribute$instance;
+};
+
+
 export type DesignerAttribute = DesignerAttribute$instance;
 
-export class DesignerCategoryAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(category: string);
+export interface DesignerCategoryAttribute$instance extends Attribute {
     readonly category: string;
     readonly typeId: unknown;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly component: DesignerCategoryAttribute;
-    static readonly default_: DesignerCategoryAttribute;
-    static readonly form: DesignerCategoryAttribute;
-    static readonly generic: DesignerCategoryAttribute;
 }
+
+
+export const DesignerCategoryAttribute: {
+    new(): DesignerCategoryAttribute$instance;
+    new(category: string): DesignerCategoryAttribute$instance;
+    readonly component: DesignerCategoryAttribute;
+    readonly default_: DesignerCategoryAttribute;
+    readonly form: DesignerCategoryAttribute;
+    readonly generic: DesignerCategoryAttribute;
+};
 
 
 export type DesignerCategoryAttribute = DesignerCategoryAttribute$instance;
 
-export class DesignerSerializationVisibilityAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(visibility: DesignerSerializationVisibility);
+export interface DesignerSerializationVisibilityAttribute$instance extends Attribute {
     readonly visibility: DesignerSerializationVisibility;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly content: DesignerSerializationVisibilityAttribute;
-    static readonly hidden: DesignerSerializationVisibilityAttribute;
-    static readonly visible: DesignerSerializationVisibilityAttribute;
-    static readonly default_: DesignerSerializationVisibilityAttribute;
 }
+
+
+export const DesignerSerializationVisibilityAttribute: {
+    new(visibility: DesignerSerializationVisibility): DesignerSerializationVisibilityAttribute$instance;
+    readonly content: DesignerSerializationVisibilityAttribute;
+    readonly hidden: DesignerSerializationVisibilityAttribute;
+    readonly visible: DesignerSerializationVisibilityAttribute;
+    readonly default_: DesignerSerializationVisibilityAttribute;
+};
 
 
 export type DesignerSerializationVisibilityAttribute = DesignerSerializationVisibilityAttribute$instance;
 
-export class DesignOnlyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(isDesignOnly: boolean);
+export interface DesignOnlyAttribute$instance extends Attribute {
     readonly isDesignOnly: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: DesignOnlyAttribute;
-    static readonly no: DesignOnlyAttribute;
-    static readonly default_: DesignOnlyAttribute;
 }
+
+
+export const DesignOnlyAttribute: {
+    new(isDesignOnly: boolean): DesignOnlyAttribute$instance;
+    readonly yes: DesignOnlyAttribute;
+    readonly no: DesignOnlyAttribute;
+    readonly default_: DesignOnlyAttribute;
+};
 
 
 export type DesignOnlyAttribute = DesignOnlyAttribute$instance;
 
-export class DesignTimeVisibleAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(visible: boolean);
-    constructor();
+export interface DesignTimeVisibleAttribute$instance extends Attribute {
     readonly visible: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: DesignTimeVisibleAttribute;
-    static readonly no: DesignTimeVisibleAttribute;
-    static readonly default_: DesignTimeVisibleAttribute;
 }
+
+
+export const DesignTimeVisibleAttribute: {
+    new(visible: boolean): DesignTimeVisibleAttribute$instance;
+    new(): DesignTimeVisibleAttribute$instance;
+    readonly yes: DesignTimeVisibleAttribute;
+    readonly no: DesignTimeVisibleAttribute;
+    readonly default_: DesignTimeVisibleAttribute;
+};
 
 
 export type DesignTimeVisibleAttribute = DesignTimeVisibleAttribute$instance;
 
-export class DisplayNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(displayName: string);
+export interface DisplayNameAttribute$instance extends Attribute {
     readonly displayName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly default_: DisplayNameAttribute;
 }
+
+
+export const DisplayNameAttribute: {
+    new(): DisplayNameAttribute$instance;
+    new(displayName: string): DisplayNameAttribute$instance;
+    readonly default_: DisplayNameAttribute;
+};
 
 
 export type DisplayNameAttribute = DisplayNameAttribute$instance;
 
-export class DoubleConverter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface DoubleConverter$instance extends BaseNumberConverter {
 }
+
+
+export const DoubleConverter: {
+    new(): DoubleConverter$instance;
+};
 
 
 export type DoubleConverter = DoubleConverter$instance;
 
-export class DoWorkEventArgs$instance extends CancelEventArgs$instance {
-    constructor(argument: unknown);
+export interface DoWorkEventArgs$instance extends CancelEventArgs {
     readonly argument: unknown;
     result: unknown;
 }
 
 
+export const DoWorkEventArgs: {
+    new(argument: unknown): DoWorkEventArgs$instance;
+};
+
+
 export type DoWorkEventArgs = DoWorkEventArgs$instance;
 
-export class DoWorkEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DoWorkEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DoWorkEventArgs): void;
-}
-
-
-export interface __DoWorkEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DoWorkEventHandler = DoWorkEventHandler$instance & __DoWorkEventHandler$views;
-
-
-export class EditorAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(typeName: string, baseTypeName: string);
-    constructor(typeName: string, baseType: Type);
-    constructor(type_: Type, baseType: Type);
+export interface EditorAttribute$instance extends Attribute {
     readonly editorBaseTypeName: string;
     readonly editorTypeName: string;
     readonly typeId: unknown;
@@ -1328,21 +1471,32 @@ export class EditorAttribute$instance extends System_Internal.Attribute$instance
 }
 
 
+export const EditorAttribute: {
+    new(): EditorAttribute$instance;
+    new(typeName: string, baseTypeName: string): EditorAttribute$instance;
+    new(typeName: string, baseType: Type): EditorAttribute$instance;
+    new(type_: Type, baseType: Type): EditorAttribute$instance;
+};
+
+
 export type EditorAttribute = EditorAttribute$instance;
 
-export class EditorBrowsableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(state: EditorBrowsableState);
-    constructor();
+export interface EditorBrowsableAttribute$instance extends Attribute {
     readonly state: EditorBrowsableState;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
+export const EditorBrowsableAttribute: {
+    new(state: EditorBrowsableState): EditorBrowsableAttribute$instance;
+    new(): EditorBrowsableAttribute$instance;
+};
+
+
 export type EditorBrowsableAttribute = EditorBrowsableAttribute$instance;
 
-export class EnumConverter$instance extends TypeConverter$instance {
-    constructor(type_: Type);
+export interface EnumConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1362,22 +1516,29 @@ export class EnumConverter$instance extends TypeConverter$instance {
 }
 
 
+export const EnumConverter: {
+    new(type_: Type): EnumConverter$instance;
+};
+
+
 export type EnumConverter = EnumConverter$instance;
 
-export abstract class EventDescriptor$instance extends MemberDescriptor$instance {
+export interface EventDescriptor$instance extends MemberDescriptor {
     readonly componentType: Type;
     readonly eventType: Type;
     readonly isMulticast: boolean;
-    abstract addEventHandler(component: unknown, value: Function): void;
-    abstract removeEventHandler(component: unknown, value: Function): void;
+    addEventHandler(component: unknown, value: Function): void;
+    removeEventHandler(component: unknown, value: Function): void;
 }
+
+
+export const EventDescriptor: {
+};
 
 
 export type EventDescriptor = EventDescriptor$instance;
 
-export class EventDescriptorCollection$instance {
-    constructor(events: EventDescriptor[]);
-    constructor(events: EventDescriptor[], readOnly: boolean);
+export interface EventDescriptorCollection$instance {
     readonly count: int;
     add(value: EventDescriptor): int;
     clear(): void;
@@ -1394,8 +1555,14 @@ export class EventDescriptorCollection$instance {
     sort(names: string[]): EventDescriptorCollection;
     sort(names: string[], comparer: IComparer): EventDescriptorCollection;
     sort(comparer: IComparer): EventDescriptorCollection;
-    static readonly empty: EventDescriptorCollection;
 }
+
+
+export const EventDescriptorCollection: {
+    new(events: EventDescriptor[]): EventDescriptorCollection$instance;
+    new(events: EventDescriptor[], readOnly: boolean): EventDescriptorCollection$instance;
+    readonly empty: EventDescriptorCollection;
+};
 
 
 export interface __EventDescriptorCollection$views {
@@ -1407,14 +1574,18 @@ export interface __EventDescriptorCollection$views {
 export type EventDescriptorCollection = EventDescriptorCollection$instance & __EventDescriptorCollection$views;
 
 
-export class EventHandlerList$instance {
-    constructor();
+export interface EventHandlerList$instance {
     item: Function;
     addHandler(key: unknown, value: Function): void;
     addHandlers(listToAddFrom: EventHandlerList): void;
     dispose(): void;
     removeHandler(key: unknown, value: Function): void;
 }
+
+
+export const EventHandlerList: {
+    new(): EventHandlerList$instance;
+};
 
 
 export interface __EventHandlerList$views {
@@ -1426,8 +1597,7 @@ export interface EventHandlerList$instance extends System_Internal.IDisposable$i
 export type EventHandlerList = EventHandlerList$instance & __EventHandlerList$views;
 
 
-export class ExpandableObjectConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface ExpandableObjectConverter$instance extends TypeConverter {
     getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
     getProperties(value: unknown): PropertyDescriptorCollection;
     getProperties(context: ITypeDescriptorContext, value: unknown): PropertyDescriptorCollection;
@@ -1436,10 +1606,14 @@ export class ExpandableObjectConverter$instance extends TypeConverter$instance {
 }
 
 
+export const ExpandableObjectConverter: {
+    new(): ExpandableObjectConverter$instance;
+};
+
+
 export type ExpandableObjectConverter = ExpandableObjectConverter$instance;
 
-export class ExtenderProvidedPropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ExtenderProvidedPropertyAttribute$instance extends Attribute {
     readonly extenderProperty: PropertyDescriptor;
     readonly provider: IExtenderProvider;
     readonly receiverType: Type;
@@ -1449,10 +1623,14 @@ export class ExtenderProvidedPropertyAttribute$instance extends System_Internal.
 }
 
 
+export const ExtenderProvidedPropertyAttribute: {
+    new(): ExtenderProvidedPropertyAttribute$instance;
+};
+
+
 export type ExtenderProvidedPropertyAttribute = ExtenderProvidedPropertyAttribute$instance;
 
-export class GuidConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface GuidConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -1464,134 +1642,169 @@ export class GuidConverter$instance extends TypeConverter$instance {
 }
 
 
+export const GuidConverter: {
+    new(): GuidConverter$instance;
+};
+
+
 export type GuidConverter = GuidConverter$instance;
 
-export class HalfConverter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface HalfConverter$instance extends BaseNumberConverter {
 }
+
+
+export const HalfConverter: {
+    new(): HalfConverter$instance;
+};
 
 
 export type HalfConverter = HalfConverter$instance;
 
-export class HandledEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor();
-    constructor(defaultHandledValue: boolean);
+export interface HandledEventArgs$instance extends EventArgs {
     handled: boolean;
 }
 
 
+export const HandledEventArgs: {
+    new(): HandledEventArgs$instance;
+    new(defaultHandledValue: boolean): HandledEventArgs$instance;
+};
+
+
 export type HandledEventArgs = HandledEventArgs$instance;
 
-export class HandledEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: HandledEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: HandledEventArgs): void;
-}
-
-
-export interface __HandledEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type HandledEventHandler = HandledEventHandler$instance & __HandledEventHandler$views;
-
-
-export class ImmutableObjectAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(immutable: boolean);
+export interface ImmutableObjectAttribute$instance extends Attribute {
     readonly immutable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: ImmutableObjectAttribute;
-    static readonly no: ImmutableObjectAttribute;
-    static readonly default_: ImmutableObjectAttribute;
 }
+
+
+export const ImmutableObjectAttribute: {
+    new(immutable: boolean): ImmutableObjectAttribute$instance;
+    readonly yes: ImmutableObjectAttribute;
+    readonly no: ImmutableObjectAttribute;
+    readonly default_: ImmutableObjectAttribute;
+};
 
 
 export type ImmutableObjectAttribute = ImmutableObjectAttribute$instance;
 
-export class InheritanceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(inheritanceLevel: InheritanceLevel);
+export interface InheritanceAttribute$instance extends Attribute {
     readonly inheritanceLevel: InheritanceLevel;
     equals(value: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
     toString(): string;
-    static readonly inherited: InheritanceAttribute;
-    static readonly inheritedReadOnly: InheritanceAttribute;
-    static readonly notInherited: InheritanceAttribute;
-    static readonly default_: InheritanceAttribute;
 }
+
+
+export const InheritanceAttribute: {
+    new(): InheritanceAttribute$instance;
+    new(inheritanceLevel: InheritanceLevel): InheritanceAttribute$instance;
+    readonly inherited: InheritanceAttribute;
+    readonly inheritedReadOnly: InheritanceAttribute;
+    readonly notInherited: InheritanceAttribute;
+    readonly default_: InheritanceAttribute;
+};
 
 
 export type InheritanceAttribute = InheritanceAttribute$instance;
 
-export class InitializationEventAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(eventName: string);
+export interface InitializationEventAttribute$instance extends Attribute {
     readonly eventName: string;
 }
 
 
+export const InitializationEventAttribute: {
+    new(eventName: string): InitializationEventAttribute$instance;
+};
+
+
 export type InitializationEventAttribute = InitializationEventAttribute$instance;
 
-export class InstallerTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(installerType: Type);
-    constructor(typeName: string);
+export interface InstallerTypeAttribute$instance extends Attribute {
     readonly installerType: Type;
     equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
+export const InstallerTypeAttribute: {
+    new(installerType: Type): InstallerTypeAttribute$instance;
+    new(typeName: string): InstallerTypeAttribute$instance;
+};
+
+
 export type InstallerTypeAttribute = InstallerTypeAttribute$instance;
 
-export abstract class InstanceCreationEditor$instance {
+export interface InstanceCreationEditor$instance {
     readonly text: string;
-    abstract createInstance(context: ITypeDescriptorContext, instanceType: Type): unknown;
+    createInstance(context: ITypeDescriptorContext, instanceType: Type): unknown;
 }
+
+
+export const InstanceCreationEditor: {
+};
 
 
 export type InstanceCreationEditor = InstanceCreationEditor$instance;
 
-export class Int128Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface Int128Converter$instance extends BaseNumberConverter {
 }
+
+
+export const Int128Converter: {
+    new(): Int128Converter$instance;
+};
 
 
 export type Int128Converter = Int128Converter$instance;
 
-export class Int16Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface Int16Converter$instance extends BaseNumberConverter {
 }
+
+
+export const Int16Converter: {
+    new(): Int16Converter$instance;
+};
 
 
 export type Int16Converter = Int16Converter$instance;
 
-export class Int32Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface Int32Converter$instance extends BaseNumberConverter {
 }
+
+
+export const Int32Converter: {
+    new(): Int32Converter$instance;
+};
 
 
 export type Int32Converter = Int32Converter$instance;
 
-export class Int64Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface Int64Converter$instance extends BaseNumberConverter {
 }
+
+
+export const Int64Converter: {
+    new(): Int64Converter$instance;
+};
 
 
 export type Int64Converter = Int64Converter$instance;
 
-export class InvalidAsynchronousStateException$instance extends System_Internal.ArgumentException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidAsynchronousStateException$instance extends ArgumentException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidAsynchronousStateException: {
+    new(): InvalidAsynchronousStateException$instance;
+    new(message: string): InvalidAsynchronousStateException$instance;
+    new(message: string, innerException: Exception): InvalidAsynchronousStateException$instance;
+};
 
 
 export interface __InvalidAsynchronousStateException$views {
@@ -1601,13 +1814,17 @@ export interface __InvalidAsynchronousStateException$views {
 export type InvalidAsynchronousStateException = InvalidAsynchronousStateException$instance & __InvalidAsynchronousStateException$views;
 
 
-export class InvalidEnumArgumentException$instance extends System_Internal.ArgumentException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(argumentName: string, invalidValue: int, enumClass: Type);
+export interface InvalidEnumArgumentException$instance extends ArgumentException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidEnumArgumentException: {
+    new(): InvalidEnumArgumentException$instance;
+    new(message: string): InvalidEnumArgumentException$instance;
+    new(message: string, innerException: Exception): InvalidEnumArgumentException$instance;
+    new(argumentName: string, invalidValue: int, enumClass: Type): InvalidEnumArgumentException$instance;
+};
 
 
 export interface __InvalidEnumArgumentException$views {
@@ -1617,10 +1834,14 @@ export interface __InvalidEnumArgumentException$views {
 export type InvalidEnumArgumentException = InvalidEnumArgumentException$instance & __InvalidEnumArgumentException$views;
 
 
-export abstract class License$instance {
+export interface License$instance {
     readonly licenseKey: string;
-    abstract dispose(): void;
+    dispose(): void;
 }
+
+
+export const License: {
+};
 
 
 export interface __License$views {
@@ -1632,13 +1853,17 @@ export interface License$instance extends System_Internal.IDisposable$instance {
 export type License = License$instance & __License$views;
 
 
-export class LicenseContext$instance {
-    constructor();
+export interface LicenseContext$instance {
     readonly usageMode: LicenseUsageMode;
     getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string;
     getService(type_: Type): unknown;
     setSavedLicenseKey(type_: Type, key: string): void;
 }
+
+
+export const LicenseContext: {
+    new(): LicenseContext$instance;
+};
 
 
 export interface __LicenseContext$views {
@@ -1650,14 +1875,18 @@ export interface LicenseContext$instance extends System_Internal.IServiceProvide
 export type LicenseContext = LicenseContext$instance & __LicenseContext$views;
 
 
-export class LicenseException$instance extends System_Internal.SystemException$instance {
-    constructor(type_: Type);
-    constructor(type_: Type, instance: unknown);
-    constructor(type_: Type, instance: unknown, message: string);
-    constructor(type_: Type, instance: unknown, message: string, innerException: Exception);
+export interface LicenseException$instance extends SystemException {
     readonly licensedType: Type;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const LicenseException: {
+    new(type_: Type): LicenseException$instance;
+    new(type_: Type, instance: unknown): LicenseException$instance;
+    new(type_: Type, instance: unknown, message: string): LicenseException$instance;
+    new(type_: Type, instance: unknown, message: string, innerException: Exception): LicenseException$instance;
+};
 
 
 export interface __LicenseException$views {
@@ -1667,72 +1896,89 @@ export interface __LicenseException$views {
 export type LicenseException = LicenseException$instance & __LicenseException$views;
 
 
-export class LicenseManager$instance {
-    static currentContext: LicenseContext;
-    static readonly usageMode: LicenseUsageMode;
-    static createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
-    static createWithContext(type_: Type, creationContext: LicenseContext): unknown;
-    static isLicensed(type_: Type): boolean;
-    static isValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
-    static isValid(type_: Type): boolean;
-    static lockContext(contextUser: unknown): void;
-    static unlockContext(contextUser: unknown): void;
-    static validate(type_: Type, instance: unknown): License;
-    static validate(type_: Type): void;
+export interface LicenseManager$instance {
 }
+
+
+export const LicenseManager: {
+    new(): LicenseManager$instance;
+    currentContext: LicenseContext;
+    readonly usageMode: LicenseUsageMode;
+    createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown;
+    createWithContext(type_: Type, creationContext: LicenseContext): unknown;
+    isLicensed(type_: Type): boolean;
+    isValid(type_: Type, instance: unknown, license: { value: ref<License> }): boolean;
+    isValid(type_: Type): boolean;
+    lockContext(contextUser: unknown): void;
+    unlockContext(contextUser: unknown): void;
+    validate(type_: Type, instance: unknown): License;
+    validate(type_: Type): void;
+};
 
 
 export type LicenseManager = LicenseManager$instance;
 
-export abstract class LicenseProvider$instance {
-    abstract getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
-}
-
-
-export type LicenseProvider = LicenseProvider$instance;
-
-export class LicenseProviderAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(typeName: string);
-    constructor(type_: Type);
-    readonly licenseProvider: Type;
-    readonly typeId: unknown;
-    equals(value: unknown): boolean;
-    getHashCode(): int;
-    static readonly default_: LicenseProviderAttribute;
-}
-
-
-export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
-
-export class LicFileLicenseProvider$instance extends LicenseProvider$instance {
-    constructor();
+export interface LicenseProvider$instance {
     getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
 }
 
 
+export const LicenseProvider: {
+};
+
+
+export type LicenseProvider = LicenseProvider$instance;
+
+export interface LicenseProviderAttribute$instance extends Attribute {
+    readonly licenseProvider: Type;
+    readonly typeId: unknown;
+    equals(value: unknown): boolean;
+    getHashCode(): int;
+}
+
+
+export const LicenseProviderAttribute: {
+    new(): LicenseProviderAttribute$instance;
+    new(typeName: string): LicenseProviderAttribute$instance;
+    new(type_: Type): LicenseProviderAttribute$instance;
+    readonly default_: LicenseProviderAttribute;
+};
+
+
+export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
+
+export interface LicFileLicenseProvider$instance extends LicenseProvider {
+    getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License;
+}
+
+
+export const LicFileLicenseProvider: {
+    new(): LicFileLicenseProvider$instance;
+};
+
+
 export type LicFileLicenseProvider = LicFileLicenseProvider$instance;
 
-export class ListBindableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(listBindable: boolean);
-    constructor(flags: BindableSupport);
+export interface ListBindableAttribute$instance extends Attribute {
     readonly listBindable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: ListBindableAttribute;
-    static readonly no: ListBindableAttribute;
-    static readonly default_: ListBindableAttribute;
 }
+
+
+export const ListBindableAttribute: {
+    new(listBindable: boolean): ListBindableAttribute$instance;
+    new(flags: BindableSupport): ListBindableAttribute$instance;
+    readonly yes: ListBindableAttribute;
+    readonly no: ListBindableAttribute;
+    readonly default_: ListBindableAttribute;
+};
 
 
 export type ListBindableAttribute = ListBindableAttribute$instance;
 
-export class ListChangedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(listChangedType: ListChangedType, newIndex: int);
-    constructor(listChangedType: ListChangedType, newIndex: int, propDesc: PropertyDescriptor);
-    constructor(listChangedType: ListChangedType, propDesc: PropertyDescriptor);
-    constructor(listChangedType: ListChangedType, newIndex: int, oldIndex: int);
+export interface ListChangedEventArgs$instance extends EventArgs {
     readonly listChangedType: ListChangedType;
     readonly newIndex: int;
     readonly oldIndex: int;
@@ -1740,44 +1986,42 @@ export class ListChangedEventArgs$instance extends System_Internal.EventArgs$ins
 }
 
 
+export const ListChangedEventArgs: {
+    new(listChangedType: ListChangedType, newIndex: int): ListChangedEventArgs$instance;
+    new(listChangedType: ListChangedType, newIndex: int, propDesc: PropertyDescriptor): ListChangedEventArgs$instance;
+    new(listChangedType: ListChangedType, propDesc: PropertyDescriptor): ListChangedEventArgs$instance;
+    new(listChangedType: ListChangedType, newIndex: int, oldIndex: int): ListChangedEventArgs$instance;
+};
+
+
 export type ListChangedEventArgs = ListChangedEventArgs$instance;
 
-export class ListChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ListChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ListChangedEventArgs): void;
-}
-
-
-export interface __ListChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ListChangedEventHandler = ListChangedEventHandler$instance & __ListChangedEventHandler$views;
-
-
-export class ListSortDescription$instance {
-    constructor(property: PropertyDescriptor, direction: ListSortDirection);
+export interface ListSortDescription$instance {
     propertyDescriptor: PropertyDescriptor;
     sortDirection: ListSortDirection;
 }
 
 
+export const ListSortDescription: {
+    new(property: PropertyDescriptor, direction: ListSortDirection): ListSortDescription$instance;
+};
+
+
 export type ListSortDescription = ListSortDescription$instance;
 
-export class ListSortDescriptionCollection$instance {
-    constructor();
-    constructor(sorts: ListSortDescription[]);
+export interface ListSortDescriptionCollection$instance {
     readonly count: int;
     item: ListSortDescription;
     contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     indexOf(value: unknown): int;
 }
+
+
+export const ListSortDescriptionCollection: {
+    new(): ListSortDescriptionCollection$instance;
+    new(sorts: ListSortDescription[]): ListSortDescriptionCollection$instance;
+};
 
 
 export interface __ListSortDescriptionCollection$views {
@@ -1789,37 +2033,44 @@ export interface __ListSortDescriptionCollection$views {
 export type ListSortDescriptionCollection = ListSortDescriptionCollection$instance & __ListSortDescriptionCollection$views;
 
 
-export class LocalizableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(isLocalizable: boolean);
+export interface LocalizableAttribute$instance extends Attribute {
     readonly isLocalizable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: LocalizableAttribute;
-    static readonly no: LocalizableAttribute;
-    static readonly default_: LocalizableAttribute;
 }
+
+
+export const LocalizableAttribute: {
+    new(isLocalizable: boolean): LocalizableAttribute$instance;
+    readonly yes: LocalizableAttribute;
+    readonly no: LocalizableAttribute;
+    readonly default_: LocalizableAttribute;
+};
 
 
 export type LocalizableAttribute = LocalizableAttribute$instance;
 
-export class LookupBindingPropertiesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(dataSource: string, displayMember: string, valueMember: string, lookupMember: string);
+export interface LookupBindingPropertiesAttribute$instance extends Attribute {
     readonly dataSource: string;
     readonly displayMember: string;
     readonly lookupMember: string;
     readonly valueMember: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: LookupBindingPropertiesAttribute;
 }
+
+
+export const LookupBindingPropertiesAttribute: {
+    new(): LookupBindingPropertiesAttribute$instance;
+    new(dataSource: string, displayMember: string, valueMember: string, lookupMember: string): LookupBindingPropertiesAttribute$instance;
+    readonly default_: LookupBindingPropertiesAttribute;
+};
 
 
 export type LookupBindingPropertiesAttribute = LookupBindingPropertiesAttribute$instance;
 
-export class MarshalByValueComponent$instance {
-    constructor();
+export interface MarshalByValueComponent$instance {
     readonly container: IContainer;
     readonly designMode: boolean;
     site: ISite;
@@ -1827,6 +2078,11 @@ export class MarshalByValueComponent$instance {
     getService(service: Type): unknown;
     toString(): string;
 }
+
+
+export const MarshalByValueComponent: {
+    new(): MarshalByValueComponent$instance;
+};
 
 
 export interface __MarshalByValueComponent$views {
@@ -1840,14 +2096,7 @@ export interface MarshalByValueComponent$instance extends System_Internal.IServi
 export type MarshalByValueComponent = MarshalByValueComponent$instance & __MarshalByValueComponent$views;
 
 
-export class MaskedTextProvider$instance {
-    constructor(mask: string);
-    constructor(mask: string, restrictToAscii: boolean);
-    constructor(mask: string, culture: CultureInfo);
-    constructor(mask: string, culture: CultureInfo, restrictToAscii: boolean);
-    constructor(mask: string, passwordChar: char, allowPromptAsInput: boolean);
-    constructor(mask: string, culture: CultureInfo, passwordChar: char, allowPromptAsInput: boolean);
-    constructor(mask: string, culture: CultureInfo, allowPromptAsInput: boolean, promptChar: char, passwordChar: char, restrictToAscii: boolean);
+export interface MaskedTextProvider$instance {
     readonly allowPromptAsInput: boolean;
     readonly asciiOnly: boolean;
     readonly assignedEditPositionCount: int;
@@ -1915,13 +2164,24 @@ export class MaskedTextProvider$instance {
     verifyEscapeChar(input: char, position: int): boolean;
     verifyString(input: string): boolean;
     verifyString(input: string, testPosition: { value: ref<int> }, resultHint: { value: ref<MaskedTextResultHint> }): boolean;
-    static readonly defaultPasswordChar: char;
-    static readonly invalidIndex: int;
-    static getOperationResultFromHint(hint: MaskedTextResultHint): boolean;
-    static isValidInputChar(c: char): boolean;
-    static isValidMaskChar(c: char): boolean;
-    static isValidPasswordChar(c: char): boolean;
 }
+
+
+export const MaskedTextProvider: {
+    new(mask: string): MaskedTextProvider$instance;
+    new(mask: string, restrictToAscii: boolean): MaskedTextProvider$instance;
+    new(mask: string, culture: CultureInfo): MaskedTextProvider$instance;
+    new(mask: string, culture: CultureInfo, restrictToAscii: boolean): MaskedTextProvider$instance;
+    new(mask: string, passwordChar: char, allowPromptAsInput: boolean): MaskedTextProvider$instance;
+    new(mask: string, culture: CultureInfo, passwordChar: char, allowPromptAsInput: boolean): MaskedTextProvider$instance;
+    new(mask: string, culture: CultureInfo, allowPromptAsInput: boolean, promptChar: char, passwordChar: char, restrictToAscii: boolean): MaskedTextProvider$instance;
+    readonly defaultPasswordChar: char;
+    readonly invalidIndex: int;
+    getOperationResultFromHint(hint: MaskedTextResultHint): boolean;
+    isValidInputChar(c: char): boolean;
+    isValidMaskChar(c: char): boolean;
+    isValidPasswordChar(c: char): boolean;
+};
 
 
 export interface __MaskedTextProvider$views {
@@ -1933,7 +2193,7 @@ export interface MaskedTextProvider$instance extends System_Internal.ICloneable$
 export type MaskedTextProvider = MaskedTextProvider$instance & __MaskedTextProvider$views;
 
 
-export abstract class MemberDescriptor$instance {
+export interface MemberDescriptor$instance {
     readonly attributes: AttributeCollection;
     readonly category: string;
     readonly description: string;
@@ -1946,24 +2206,31 @@ export abstract class MemberDescriptor$instance {
 }
 
 
+export const MemberDescriptor: {
+};
+
+
 export type MemberDescriptor = MemberDescriptor$instance;
 
-export class MergablePropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(allowMerge: boolean);
+export interface MergablePropertyAttribute$instance extends Attribute {
     readonly allowMerge: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: MergablePropertyAttribute;
-    static readonly no: MergablePropertyAttribute;
-    static readonly default_: MergablePropertyAttribute;
 }
+
+
+export const MergablePropertyAttribute: {
+    new(allowMerge: boolean): MergablePropertyAttribute$instance;
+    readonly yes: MergablePropertyAttribute;
+    readonly no: MergablePropertyAttribute;
+    readonly default_: MergablePropertyAttribute;
+};
 
 
 export type MergablePropertyAttribute = MergablePropertyAttribute$instance;
 
-export class MultilineStringConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface MultilineStringConverter$instance extends TypeConverter {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
     getProperties(context: ITypeDescriptorContext, value: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
@@ -1974,15 +2241,24 @@ export class MultilineStringConverter$instance extends TypeConverter$instance {
 }
 
 
+export const MultilineStringConverter: {
+    new(): MultilineStringConverter$instance;
+};
+
+
 export type MultilineStringConverter = MultilineStringConverter$instance;
 
-export class NestedContainer$instance extends Container$instance {
-    constructor(owner: IComponent);
+export interface NestedContainer$instance extends Container$instance {
     readonly owner: IComponent;
     add(component: IComponent): void;
     add(component: IComponent, name: string): void;
     dispose(): void;
 }
+
+
+export const NestedContainer: {
+    new(owner: IComponent): NestedContainer$instance;
+};
 
 
 export interface __NestedContainer$views {
@@ -1994,22 +2270,25 @@ export interface __NestedContainer$views {
 export type NestedContainer = NestedContainer$instance & __NestedContainer$views;
 
 
-export class NotifyParentPropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(notifyParent: boolean);
+export interface NotifyParentPropertyAttribute$instance extends Attribute {
     readonly notifyParent: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: NotifyParentPropertyAttribute;
-    static readonly no: NotifyParentPropertyAttribute;
-    static readonly default_: NotifyParentPropertyAttribute;
 }
+
+
+export const NotifyParentPropertyAttribute: {
+    new(notifyParent: boolean): NotifyParentPropertyAttribute$instance;
+    readonly yes: NotifyParentPropertyAttribute;
+    readonly no: NotifyParentPropertyAttribute;
+    readonly default_: NotifyParentPropertyAttribute;
+};
 
 
 export type NotifyParentPropertyAttribute = NotifyParentPropertyAttribute$instance;
 
-export class NullableConverter$instance extends TypeConverter$instance {
-    constructor(type_: Type);
+export interface NullableConverter$instance extends TypeConverter {
     readonly nullableType: Type;
     readonly underlyingType: Type;
     readonly underlyingTypeConverter: TypeConverter;
@@ -2041,116 +2320,87 @@ export class NullableConverter$instance extends TypeConverter$instance {
 }
 
 
+export const NullableConverter: {
+    new(type_: Type): NullableConverter$instance;
+};
+
+
 export type NullableConverter = NullableConverter$instance;
 
-export class ParenthesizePropertyNameAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(needParenthesis: boolean);
+export interface ParenthesizePropertyNameAttribute$instance extends Attribute {
     readonly needParenthesis: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly default_: ParenthesizePropertyNameAttribute;
 }
+
+
+export const ParenthesizePropertyNameAttribute: {
+    new(): ParenthesizePropertyNameAttribute$instance;
+    new(needParenthesis: boolean): ParenthesizePropertyNameAttribute$instance;
+    readonly default_: ParenthesizePropertyNameAttribute;
+};
 
 
 export type ParenthesizePropertyNameAttribute = ParenthesizePropertyNameAttribute$instance;
 
-export class PasswordPropertyTextAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(password: boolean);
+export interface PasswordPropertyTextAttribute$instance extends Attribute {
     readonly password: boolean;
     equals(o: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: PasswordPropertyTextAttribute;
-    static readonly no: PasswordPropertyTextAttribute;
-    static readonly default_: PasswordPropertyTextAttribute;
 }
+
+
+export const PasswordPropertyTextAttribute: {
+    new(): PasswordPropertyTextAttribute$instance;
+    new(password: boolean): PasswordPropertyTextAttribute$instance;
+    readonly yes: PasswordPropertyTextAttribute;
+    readonly no: PasswordPropertyTextAttribute;
+    readonly default_: PasswordPropertyTextAttribute;
+};
 
 
 export type PasswordPropertyTextAttribute = PasswordPropertyTextAttribute$instance;
 
-export class ProgressChangedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(progressPercentage: int, userState: unknown);
+export interface ProgressChangedEventArgs$instance extends EventArgs {
     readonly progressPercentage: int;
     readonly userState: unknown;
 }
 
 
+export const ProgressChangedEventArgs: {
+    new(progressPercentage: int, userState: unknown): ProgressChangedEventArgs$instance;
+};
+
+
 export type ProgressChangedEventArgs = ProgressChangedEventArgs$instance;
 
-export class ProgressChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: ProgressChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: ProgressChangedEventArgs): void;
-}
-
-
-export interface __ProgressChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ProgressChangedEventHandler = ProgressChangedEventHandler$instance & __ProgressChangedEventHandler$views;
-
-
-export class PropertyChangedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(propertyName: string);
+export interface PropertyChangedEventArgs$instance extends EventArgs {
     readonly propertyName: string;
 }
+
+
+export const PropertyChangedEventArgs: {
+    new(propertyName: string): PropertyChangedEventArgs$instance;
+};
 
 
 export type PropertyChangedEventArgs = PropertyChangedEventArgs$instance;
 
-export class PropertyChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: PropertyChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: PropertyChangedEventArgs): void;
-}
-
-
-export interface __PropertyChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type PropertyChangedEventHandler = PropertyChangedEventHandler$instance & __PropertyChangedEventHandler$views;
-
-
-export class PropertyChangingEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(propertyName: string);
+export interface PropertyChangingEventArgs$instance extends EventArgs {
     readonly propertyName: string;
 }
 
 
+export const PropertyChangingEventArgs: {
+    new(propertyName: string): PropertyChangingEventArgs$instance;
+};
+
+
 export type PropertyChangingEventArgs = PropertyChangingEventArgs$instance;
 
-export class PropertyChangingEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: PropertyChangingEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: PropertyChangingEventArgs): void;
-}
-
-
-export interface __PropertyChangingEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type PropertyChangingEventHandler = PropertyChangingEventHandler$instance & __PropertyChangingEventHandler$views;
-
-
-export abstract class PropertyDescriptor$instance extends MemberDescriptor$instance {
+export interface PropertyDescriptor$instance extends MemberDescriptor {
     readonly componentType: Type;
     readonly converter: TypeConverter;
     readonly converterFromRegisteredType: TypeConverter;
@@ -2160,7 +2410,7 @@ export abstract class PropertyDescriptor$instance extends MemberDescriptor$insta
     readonly serializationVisibility: DesignerSerializationVisibility;
     readonly supportsChangeEvents: boolean;
     addValueChanged(component: unknown, handler: EventHandler): void;
-    abstract canResetValue(component: unknown): boolean;
+    canResetValue(component: unknown): boolean;
     equals(obj: unknown): boolean;
     getChildProperties(): PropertyDescriptorCollection;
     getChildProperties(filter: Attribute[]): PropertyDescriptorCollection;
@@ -2168,19 +2418,21 @@ export abstract class PropertyDescriptor$instance extends MemberDescriptor$insta
     getChildProperties(instance: unknown, filter: Attribute[]): PropertyDescriptorCollection;
     getEditor(editorBaseType: Type): unknown;
     getHashCode(): int;
-    abstract getValue(component: unknown): unknown;
+    getValue(component: unknown): unknown;
     removeValueChanged(component: unknown, handler: EventHandler): void;
-    abstract resetValue(component: unknown): void;
-    abstract setValue(component: unknown, value: unknown): void;
-    abstract shouldSerializeValue(component: unknown): boolean;
+    resetValue(component: unknown): void;
+    setValue(component: unknown, value: unknown): void;
+    shouldSerializeValue(component: unknown): boolean;
 }
+
+
+export const PropertyDescriptor: {
+};
 
 
 export type PropertyDescriptor = PropertyDescriptor$instance;
 
-export class PropertyDescriptorCollection$instance {
-    constructor(properties: PropertyDescriptor[]);
-    constructor(properties: PropertyDescriptor[], readOnly: boolean);
+export interface PropertyDescriptorCollection$instance {
     readonly count: int;
     add(value: PropertyDescriptor): int;
     clear(): void;
@@ -2198,8 +2450,14 @@ export class PropertyDescriptorCollection$instance {
     sort(names: string[]): PropertyDescriptorCollection;
     sort(names: string[], comparer: IComparer): PropertyDescriptorCollection;
     sort(comparer: IComparer): PropertyDescriptorCollection;
-    static readonly empty: PropertyDescriptorCollection;
 }
+
+
+export const PropertyDescriptorCollection: {
+    new(properties: PropertyDescriptor[]): PropertyDescriptorCollection$instance;
+    new(properties: PropertyDescriptor[], readOnly: boolean): PropertyDescriptorCollection$instance;
+    readonly empty: PropertyDescriptorCollection;
+};
 
 
 export interface __PropertyDescriptorCollection$views {
@@ -2212,12 +2470,7 @@ export interface __PropertyDescriptorCollection$views {
 export type PropertyDescriptorCollection = PropertyDescriptorCollection$instance & __PropertyDescriptorCollection$views;
 
 
-export class PropertyTabAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(tabClass: Type);
-    constructor(tabClassName: string);
-    constructor(tabClass: Type, tabScope: PropertyTabScope);
-    constructor(tabClassName: string, tabScope: PropertyTabScope);
+export interface PropertyTabAttribute$instance extends Attribute {
     readonly tabClasses: Type[];
     readonly tabScopes: PropertyTabScope[];
     equals(other: unknown): boolean;
@@ -2226,11 +2479,18 @@ export class PropertyTabAttribute$instance extends System_Internal.Attribute$ins
 }
 
 
+export const PropertyTabAttribute: {
+    new(): PropertyTabAttribute$instance;
+    new(tabClass: Type): PropertyTabAttribute$instance;
+    new(tabClassName: string): PropertyTabAttribute$instance;
+    new(tabClass: Type, tabScope: PropertyTabScope): PropertyTabAttribute$instance;
+    new(tabClassName: string, tabScope: PropertyTabScope): PropertyTabAttribute$instance;
+};
+
+
 export type PropertyTabAttribute = PropertyTabAttribute$instance;
 
-export class ProvidePropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(propertyName: string, receiverType: Type);
-    constructor(propertyName: string, receiverTypeName: string);
+export interface ProvidePropertyAttribute$instance extends Attribute {
     readonly propertyName: string;
     readonly receiverTypeName: string;
     readonly typeId: unknown;
@@ -2239,38 +2499,51 @@ export class ProvidePropertyAttribute$instance extends System_Internal.Attribute
 }
 
 
+export const ProvidePropertyAttribute: {
+    new(propertyName: string, receiverType: Type): ProvidePropertyAttribute$instance;
+    new(propertyName: string, receiverTypeName: string): ProvidePropertyAttribute$instance;
+};
+
+
 export type ProvidePropertyAttribute = ProvidePropertyAttribute$instance;
 
-export class ReadOnlyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(isReadOnly: boolean);
+export interface ReadOnlyAttribute$instance extends Attribute {
     readonly isReadOnly: boolean;
     equals(value: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: ReadOnlyAttribute;
-    static readonly no: ReadOnlyAttribute;
-    static readonly default_: ReadOnlyAttribute;
 }
+
+
+export const ReadOnlyAttribute: {
+    new(isReadOnly: boolean): ReadOnlyAttribute$instance;
+    readonly yes: ReadOnlyAttribute;
+    readonly no: ReadOnlyAttribute;
+    readonly default_: ReadOnlyAttribute;
+};
 
 
 export type ReadOnlyAttribute = ReadOnlyAttribute$instance;
 
-export class RecommendedAsConfigurableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(recommendedAsConfigurable: boolean);
+export interface RecommendedAsConfigurableAttribute$instance extends Attribute {
     readonly recommendedAsConfigurable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly no: RecommendedAsConfigurableAttribute;
-    static readonly yes: RecommendedAsConfigurableAttribute;
-    static readonly default_: RecommendedAsConfigurableAttribute;
 }
+
+
+export const RecommendedAsConfigurableAttribute: {
+    new(recommendedAsConfigurable: boolean): RecommendedAsConfigurableAttribute$instance;
+    readonly no: RecommendedAsConfigurableAttribute;
+    readonly yes: RecommendedAsConfigurableAttribute;
+    readonly default_: RecommendedAsConfigurableAttribute;
+};
 
 
 export type RecommendedAsConfigurableAttribute = RecommendedAsConfigurableAttribute$instance;
 
-export class ReferenceConverter$instance extends TypeConverter$instance {
-    constructor(type_: Type);
+export interface ReferenceConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
@@ -2286,130 +2559,130 @@ export class ReferenceConverter$instance extends TypeConverter$instance {
 }
 
 
+export const ReferenceConverter: {
+    new(type_: Type): ReferenceConverter$instance;
+};
+
+
 export type ReferenceConverter = ReferenceConverter$instance;
 
-export class RefreshEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(componentChanged: unknown);
-    constructor(typeChanged: Type);
+export interface RefreshEventArgs$instance extends EventArgs {
     readonly componentChanged: unknown;
     readonly typeChanged: Type;
 }
 
 
+export const RefreshEventArgs: {
+    new(componentChanged: unknown): RefreshEventArgs$instance;
+    new(typeChanged: Type): RefreshEventArgs$instance;
+};
+
+
 export type RefreshEventArgs = RefreshEventArgs$instance;
 
-export class RefreshEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(e: RefreshEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(e: RefreshEventArgs): void;
-}
-
-
-export interface __RefreshEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RefreshEventHandler = RefreshEventHandler$instance & __RefreshEventHandler$views;
-
-
-export class RefreshPropertiesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(refresh: RefreshProperties);
+export interface RefreshPropertiesAttribute$instance extends Attribute {
     readonly refreshProperties: RefreshProperties;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly all: RefreshPropertiesAttribute;
-    static readonly repaint: RefreshPropertiesAttribute;
-    static readonly default_: RefreshPropertiesAttribute;
 }
+
+
+export const RefreshPropertiesAttribute: {
+    new(refresh: RefreshProperties): RefreshPropertiesAttribute$instance;
+    readonly all: RefreshPropertiesAttribute;
+    readonly repaint: RefreshPropertiesAttribute;
+    readonly default_: RefreshPropertiesAttribute;
+};
 
 
 export type RefreshPropertiesAttribute = RefreshPropertiesAttribute$instance;
 
-export class RunInstallerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(runInstaller: boolean);
+export interface RunInstallerAttribute$instance extends Attribute {
     readonly runInstaller: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly yes: RunInstallerAttribute;
-    static readonly no: RunInstallerAttribute;
-    static readonly default_: RunInstallerAttribute;
 }
+
+
+export const RunInstallerAttribute: {
+    new(runInstaller: boolean): RunInstallerAttribute$instance;
+    readonly yes: RunInstallerAttribute;
+    readonly no: RunInstallerAttribute;
+    readonly default_: RunInstallerAttribute;
+};
 
 
 export type RunInstallerAttribute = RunInstallerAttribute$instance;
 
-export class RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs$instance {
-    constructor(result: unknown, error: Exception, cancelled: boolean);
+export interface RunWorkerCompletedEventArgs$instance extends AsyncCompletedEventArgs {
     readonly result: unknown;
     readonly userState: unknown;
 }
 
 
+export const RunWorkerCompletedEventArgs: {
+    new(result: unknown, error: Exception, cancelled: boolean): RunWorkerCompletedEventArgs$instance;
+};
+
+
 export type RunWorkerCompletedEventArgs = RunWorkerCompletedEventArgs$instance;
 
-export class RunWorkerCompletedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: RunWorkerCompletedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: RunWorkerCompletedEventArgs): void;
+export interface SByteConverter$instance extends BaseNumberConverter {
 }
 
 
-export interface __RunWorkerCompletedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type RunWorkerCompletedEventHandler = RunWorkerCompletedEventHandler$instance & __RunWorkerCompletedEventHandler$views;
-
-
-export class SByteConverter$instance extends BaseNumberConverter$instance {
-    constructor();
-}
+export const SByteConverter: {
+    new(): SByteConverter$instance;
+};
 
 
 export type SByteConverter = SByteConverter$instance;
 
-export class SettingsBindableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(bindable: boolean);
+export interface SettingsBindableAttribute$instance extends Attribute {
     readonly bindable: boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly yes: SettingsBindableAttribute;
-    static readonly no: SettingsBindableAttribute;
 }
+
+
+export const SettingsBindableAttribute: {
+    new(bindable: boolean): SettingsBindableAttribute$instance;
+    readonly yes: SettingsBindableAttribute;
+    readonly no: SettingsBindableAttribute;
+};
 
 
 export type SettingsBindableAttribute = SettingsBindableAttribute$instance;
 
-export class SingleConverter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface SingleConverter$instance extends BaseNumberConverter {
 }
+
+
+export const SingleConverter: {
+    new(): SingleConverter$instance;
+};
 
 
 export type SingleConverter = SingleConverter$instance;
 
-export class StringConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface StringConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown;
     convertFrom(value: unknown): unknown;
 }
+
+
+export const StringConverter: {
+    new(): StringConverter$instance;
+};
 
 
 export type StringConverter = StringConverter$instance;
 
-export class TimeOnlyConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface TimeOnlyConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2419,12 +2692,16 @@ export class TimeOnlyConverter$instance extends TypeConverter$instance {
     convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
     convertTo(value: unknown, destinationType: Type): unknown;
 }
+
+
+export const TimeOnlyConverter: {
+    new(): TimeOnlyConverter$instance;
+};
 
 
 export type TimeOnlyConverter = TimeOnlyConverter$instance;
 
-export class TimeSpanConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface TimeSpanConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2436,27 +2713,34 @@ export class TimeSpanConverter$instance extends TypeConverter$instance {
 }
 
 
+export const TimeSpanConverter: {
+    new(): TimeSpanConverter$instance;
+};
+
+
 export type TimeSpanConverter = TimeSpanConverter$instance;
 
-export class ToolboxItemAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(defaultType: boolean);
-    constructor(toolboxItemTypeName: string);
-    constructor(toolboxItemType: Type);
+export interface ToolboxItemAttribute$instance extends Attribute {
     readonly toolboxItemType: Type;
     readonly toolboxItemTypeName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    static readonly default_: ToolboxItemAttribute;
-    static readonly none: ToolboxItemAttribute;
 }
+
+
+export const ToolboxItemAttribute: {
+    new(defaultType: boolean): ToolboxItemAttribute$instance;
+    new(toolboxItemTypeName: string): ToolboxItemAttribute$instance;
+    new(toolboxItemType: Type): ToolboxItemAttribute$instance;
+    readonly default_: ToolboxItemAttribute;
+    readonly none: ToolboxItemAttribute;
+};
 
 
 export type ToolboxItemAttribute = ToolboxItemAttribute$instance;
 
-export class ToolboxItemFilterAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(filterString: string);
-    constructor(filterString: string, filterType: ToolboxItemFilterType);
+export interface ToolboxItemFilterAttribute$instance extends Attribute {
     readonly filterString: string;
     readonly filterType: ToolboxItemFilterType;
     readonly typeId: unknown;
@@ -2467,10 +2751,15 @@ export class ToolboxItemFilterAttribute$instance extends System_Internal.Attribu
 }
 
 
+export const ToolboxItemFilterAttribute: {
+    new(filterString: string): ToolboxItemFilterAttribute$instance;
+    new(filterString: string, filterType: ToolboxItemFilterType): ToolboxItemFilterAttribute$instance;
+};
+
+
 export type ToolboxItemFilterAttribute = ToolboxItemFilterAttribute$instance;
 
-export class TypeConverter$instance {
-    constructor();
+export interface TypeConverter$instance {
     canConvertFrom(sourceType: Type): boolean;
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertTo(destinationType: Type): boolean;
@@ -2509,15 +2798,24 @@ export class TypeConverter$instance {
 }
 
 
+export const TypeConverter: {
+    new(): TypeConverter$instance;
+};
+
+
 export type TypeConverter = TypeConverter$instance;
 
-export class TypeConverter_StandardValuesCollection$instance {
-    constructor(values: ICollection);
+export interface TypeConverter_StandardValuesCollection$instance {
     readonly count: int;
     readonly item: unknown;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
 }
+
+
+export const TypeConverter_StandardValuesCollection: {
+    new(values: ICollection): TypeConverter_StandardValuesCollection$instance;
+};
 
 
 export interface __TypeConverter_StandardValuesCollection$views {
@@ -2528,20 +2826,24 @@ export interface __TypeConverter_StandardValuesCollection$views {
 export type TypeConverter_StandardValuesCollection = TypeConverter_StandardValuesCollection$instance & __TypeConverter_StandardValuesCollection$views;
 
 
-export class TypeConverterAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(type_: Type);
-    constructor(typeName: string);
+export interface TypeConverterAttribute$instance extends Attribute {
     readonly converterTypeName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static readonly default_: TypeConverterAttribute;
 }
+
+
+export const TypeConverterAttribute: {
+    new(): TypeConverterAttribute$instance;
+    new(type_: Type): TypeConverterAttribute$instance;
+    new(typeName: string): TypeConverterAttribute$instance;
+    readonly default_: TypeConverterAttribute;
+};
 
 
 export type TypeConverterAttribute = TypeConverterAttribute$instance;
 
-export abstract class TypeDescriptionProvider$instance {
+export interface TypeDescriptionProvider$instance {
     readonly requireRegisteredTypes: Nullable_1<CLROf<boolean>>;
     createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
     getCache(instance: unknown): IDictionary;
@@ -2564,96 +2866,109 @@ export abstract class TypeDescriptionProvider$instance {
 }
 
 
+export const TypeDescriptionProvider: {
+};
+
+
 export type TypeDescriptionProvider = TypeDescriptionProvider$instance;
 
-export class TypeDescriptionProviderAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(typeName: string);
-    constructor(type_: Type);
+export interface TypeDescriptionProviderAttribute$instance extends Attribute {
     readonly typeName: string;
 }
 
 
+export const TypeDescriptionProviderAttribute: {
+    new(typeName: string): TypeDescriptionProviderAttribute$instance;
+    new(type_: Type): TypeDescriptionProviderAttribute$instance;
+};
+
+
 export type TypeDescriptionProviderAttribute = TypeDescriptionProviderAttribute$instance;
 
-export class TypeDescriptor$instance {
-    static readonly interfaceType: Type;
-    static readonly comObjectType: Type;
-    static comNativeDescriptorHandler: IComNativeDescriptorHandler;
-    static addAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
-    static addAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
-    static addEditorTable(editorBaseType: Type, table: Hashtable): void;
-    static addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
-    static createAssociation(primary: unknown, secondary: unknown): void;
-    static createDesigner(component: IComponent, designerBaseType: Type): IDesigner;
-    static createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
-    static createEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
-    static createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
-    static createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
-    static createProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
-    static getAssociation(type_: Type, primary: unknown): unknown;
-    static getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
-    static getAttributes(component: unknown): AttributeCollection;
-    static getAttributes(componentType: Type): AttributeCollection;
-    static getClassName(component: unknown, noCustomTypeDesc: boolean): string;
-    static getClassName(component: unknown): string;
-    static getClassName(componentType: Type): string;
-    static getComponentName(component: unknown, noCustomTypeDesc: boolean): string;
-    static getComponentName(component: unknown): string;
-    static getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
-    static getConverter(component: unknown): TypeConverter;
-    static getConverter(type_: Type): TypeConverter;
-    static getConverterFromRegisteredType(component: unknown): TypeConverter;
-    static getConverterFromRegisteredType(type_: Type): TypeConverter;
-    static getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
-    static getDefaultEvent(component: unknown): EventDescriptor;
-    static getDefaultEvent(componentType: Type): EventDescriptor;
-    static getDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
-    static getDefaultProperty(component: unknown): PropertyDescriptor;
-    static getDefaultProperty(componentType: Type): PropertyDescriptor;
-    static getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
-    static getEditor(component: unknown, editorBaseType: Type): unknown;
-    static getEditor(type_: Type, editorBaseType: Type): unknown;
-    static getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
-    static getEvents(component: unknown): EventDescriptorCollection;
-    static getEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
-    static getEvents(componentType: Type): EventDescriptorCollection;
-    static getEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
-    static getFullComponentName(component: unknown): string;
-    static getProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
-    static getProperties(component: unknown): PropertyDescriptorCollection;
-    static getProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
-    static getProperties(componentType: Type): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
-    static getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
-    static getProvider(instance: unknown): TypeDescriptionProvider;
-    static getProvider(type_: Type): TypeDescriptionProvider;
-    static getReflectionType(instance: unknown): Type;
-    static getReflectionType(type_: Type): Type;
-    static refresh(component: unknown): void;
-    static refresh(assembly: Assembly): void;
-    static refresh(module_: Module): void;
-    static refresh(type_: Type): void;
-    static registerType<T>(): void;
-    static removeAssociation(primary: unknown, secondary: unknown): void;
-    static removeAssociations(primary: unknown): void;
-    static removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
-    static removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    static removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
-    static sortDescriptorArray(infos: IList): void;
+export interface TypeDescriptor$instance {
 }
+
+
+export const TypeDescriptor: {
+    new(): TypeDescriptor$instance;
+    readonly interfaceType: Type;
+    readonly comObjectType: Type;
+    comNativeDescriptorHandler: IComNativeDescriptorHandler;
+    addAttributes(instance: unknown, attributes: Attribute[]): TypeDescriptionProvider;
+    addAttributes(type_: Type, attributes: Attribute[]): TypeDescriptionProvider;
+    addEditorTable(editorBaseType: Type, table: Hashtable): void;
+    addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    addProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    createAssociation(primary: unknown, secondary: unknown): void;
+    createDesigner(component: IComponent, designerBaseType: Type): IDesigner;
+    createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, attributes: Attribute[]): EventDescriptor;
+    createEvent(componentType: Type, name: string, type_: Type, attributes: Attribute[]): EventDescriptor;
+    createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown;
+    createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, attributes: Attribute[]): PropertyDescriptor;
+    createProperty(componentType: Type, name: string, type_: Type, attributes: Attribute[]): PropertyDescriptor;
+    getAssociation(type_: Type, primary: unknown): unknown;
+    getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
+    getAttributes(component: unknown): AttributeCollection;
+    getAttributes(componentType: Type): AttributeCollection;
+    getClassName(component: unknown, noCustomTypeDesc: boolean): string;
+    getClassName(component: unknown): string;
+    getClassName(componentType: Type): string;
+    getComponentName(component: unknown, noCustomTypeDesc: boolean): string;
+    getComponentName(component: unknown): string;
+    getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
+    getConverter(component: unknown): TypeConverter;
+    getConverter(type_: Type): TypeConverter;
+    getConverterFromRegisteredType(component: unknown): TypeConverter;
+    getConverterFromRegisteredType(type_: Type): TypeConverter;
+    getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor;
+    getDefaultEvent(component: unknown): EventDescriptor;
+    getDefaultEvent(componentType: Type): EventDescriptor;
+    getDefaultProperty(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptor;
+    getDefaultProperty(component: unknown): PropertyDescriptor;
+    getDefaultProperty(componentType: Type): PropertyDescriptor;
+    getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown;
+    getEditor(component: unknown, editorBaseType: Type): unknown;
+    getEditor(type_: Type, editorBaseType: Type): unknown;
+    getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
+    getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
+    getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
+    getEvents(component: unknown): EventDescriptorCollection;
+    getEvents(componentType: Type, attributes: Attribute[]): EventDescriptorCollection;
+    getEvents(componentType: Type): EventDescriptorCollection;
+    getEventsFromRegisteredType(componentType: Type): EventDescriptorCollection;
+    getFullComponentName(component: unknown): string;
+    getProperties(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    getProperties(component: unknown, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(component: unknown, noCustomTypeDesc: boolean): PropertyDescriptorCollection;
+    getProperties(component: unknown): PropertyDescriptorCollection;
+    getProperties(componentType: Type, attributes: Attribute[]): PropertyDescriptorCollection;
+    getProperties(componentType: Type): PropertyDescriptorCollection;
+    getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
+    getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
+    getProvider(instance: unknown): TypeDescriptionProvider;
+    getProvider(type_: Type): TypeDescriptionProvider;
+    getReflectionType(instance: unknown): Type;
+    getReflectionType(type_: Type): Type;
+    refresh(component: unknown): void;
+    refresh(assembly: Assembly): void;
+    refresh(module_: Module): void;
+    refresh(type_: Type): void;
+    registerType<T>(): void;
+    removeAssociation(primary: unknown, secondary: unknown): void;
+    removeAssociations(primary: unknown): void;
+    removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
+    removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
+    removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    sortDescriptorArray(infos: IList): void;
+};
 
 
 export type TypeDescriptor = TypeDescriptor$instance;
 
-export abstract class TypeListConverter$instance extends TypeConverter$instance {
+export interface TypeListConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2671,38 +2986,57 @@ export abstract class TypeListConverter$instance extends TypeConverter$instance 
 }
 
 
+export const TypeListConverter: {
+};
+
+
 export type TypeListConverter = TypeListConverter$instance;
 
-export class UInt128Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface UInt128Converter$instance extends BaseNumberConverter {
 }
+
+
+export const UInt128Converter: {
+    new(): UInt128Converter$instance;
+};
 
 
 export type UInt128Converter = UInt128Converter$instance;
 
-export class UInt16Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface UInt16Converter$instance extends BaseNumberConverter {
 }
+
+
+export const UInt16Converter: {
+    new(): UInt16Converter$instance;
+};
 
 
 export type UInt16Converter = UInt16Converter$instance;
 
-export class UInt32Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface UInt32Converter$instance extends BaseNumberConverter {
 }
+
+
+export const UInt32Converter: {
+    new(): UInt32Converter$instance;
+};
 
 
 export type UInt32Converter = UInt32Converter$instance;
 
-export class UInt64Converter$instance extends BaseNumberConverter$instance {
-    constructor();
+export interface UInt64Converter$instance extends BaseNumberConverter {
 }
+
+
+export const UInt64Converter: {
+    new(): UInt64Converter$instance;
+};
 
 
 export type UInt64Converter = UInt64Converter$instance;
 
-export class VersionConverter$instance extends TypeConverter$instance {
-    constructor();
+export interface VersionConverter$instance extends TypeConverter {
     canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
     canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
@@ -2716,18 +3050,27 @@ export class VersionConverter$instance extends TypeConverter$instance {
 }
 
 
+export const VersionConverter: {
+    new(): VersionConverter$instance;
+};
+
+
 export type VersionConverter = VersionConverter$instance;
 
-export class WarningException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, helpUrl: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, helpUrl: string, helpTopic: string);
+export interface WarningException$instance extends SystemException {
     readonly helpTopic: string;
     readonly helpUrl: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const WarningException: {
+    new(): WarningException$instance;
+    new(message: string): WarningException$instance;
+    new(message: string, helpUrl: string): WarningException$instance;
+    new(message: string, innerException: Exception): WarningException$instance;
+    new(message: string, helpUrl: string, helpTopic: string): WarningException$instance;
+};
 
 
 export interface __WarningException$views {
@@ -2737,16 +3080,20 @@ export interface __WarningException$views {
 export type WarningException = WarningException$instance & __WarningException$views;
 
 
-export class Win32Exception$instance extends System_Runtime_InteropServices_Internal.ExternalException$instance {
-    constructor();
-    constructor(error: int);
-    constructor(error: int, message: string);
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface Win32Exception$instance extends ExternalException {
     readonly nativeErrorCode: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const Win32Exception: {
+    new(): Win32Exception$instance;
+    new(error: int): Win32Exception$instance;
+    new(error: int, message: string): Win32Exception$instance;
+    new(message: string): Win32Exception$instance;
+    new(message: string, innerException: Exception): Win32Exception$instance;
+};
 
 
 export interface __Win32Exception$views {

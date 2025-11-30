@@ -15,5 +15,5 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { JsonSchemaExporter$instance as JsonSchemaExporter } from './internal/index.js';
-export { JsonSchemaExporterOptions$instance as JsonSchemaExporterOptions } from './internal/index.js';
-export { JsonSchemaExporterContext$instance as JsonSchemaExporterContext } from './internal/index.js';
+export { JsonSchemaExporterOptions as JsonSchemaExporterOptions } from './internal/index.js';
+export { JsonSchemaExporterContext as JsonSchemaExporterContext } from './internal/index.js';

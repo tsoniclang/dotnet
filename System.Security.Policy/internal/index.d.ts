@@ -36,11 +36,7 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class Evidence$instance {
-    constructor();
-    constructor(hostEvidence: unknown[], assemblyEvidence: unknown[]);
-    constructor(evidence: Evidence);
-    constructor(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]);
+export interface Evidence$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -63,6 +59,14 @@ export class Evidence$instance {
 }
 
 
+export const Evidence: {
+    new(): Evidence$instance;
+    new(hostEvidence: unknown[], assemblyEvidence: unknown[]): Evidence$instance;
+    new(evidence: Evidence): Evidence$instance;
+    new(hostEvidence: EvidenceBase[], assemblyEvidence: EvidenceBase[]): Evidence$instance;
+};
+
+
 export interface __Evidence$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -71,9 +75,13 @@ export interface __Evidence$views {
 export type Evidence = Evidence$instance & __Evidence$views;
 
 
-export abstract class EvidenceBase$instance {
+export interface EvidenceBase$instance {
     clone(): EvidenceBase;
 }
+
+
+export const EvidenceBase: {
+};
 
 
 export type EvidenceBase = EvidenceBase$instance;

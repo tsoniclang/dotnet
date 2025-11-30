@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117652,
+          "metadataToken": 67117656,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PreconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Precondition",
           "tsEmitName": "precondition",
-          "metadataToken": 67117653,
+          "metadataToken": 67117657,
           "normalizedSignature": "Precondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Postcondition",
           "tsEmitName": "postcondition",
-          "metadataToken": 67117654,
+          "metadataToken": 67117658,
           "normalizedSignature": "Postcondition|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::PostconditionOnExceptionSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "PostconditionOnException",
           "tsEmitName": "postconditionOnException",
-          "metadataToken": 67117655,
+          "metadataToken": 67117659,
           "normalizedSignature": "PostconditionOnException|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::InvariantSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Invariant",
           "tsEmitName": "invariant",
-          "metadataToken": 67117656,
+          "metadataToken": 67117660,
           "normalizedSignature": "Invariant|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -69,7 +69,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssertSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assert",
           "tsEmitName": "assert",
-          "metadataToken": 67117657,
+          "metadataToken": 67117661,
           "normalizedSignature": "Assert|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -80,7 +80,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailureKind::AssumeSystem.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Assume",
           "tsEmitName": "assume",
-          "metadataToken": 67117658,
+          "metadataToken": 67117662,
           "normalizedSignature": "Assume|System.Diagnostics.Contracts.ContractFailureKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -630,7 +630,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117652
+            "metadataToken": 67117656
           }
         },
         {
@@ -640,7 +640,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117653
+            "metadataToken": 67117657
           }
         },
         {
@@ -650,7 +650,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117654
+            "metadataToken": 67117658
           }
         },
         {
@@ -660,7 +660,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117655
+            "metadataToken": 67117659
           }
         },
         {
@@ -670,7 +670,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117656
+            "metadataToken": 67117660
           }
         },
         {
@@ -680,7 +680,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117657
+            "metadataToken": 67117661
           }
         },
         {
@@ -690,7 +690,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailureKind",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117658
+            "metadataToken": 67117662
           }
         }
       ]
@@ -708,7 +708,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractAbbreviatorAttribute::.ctor():void",
-          "metadataToken": 100703270,
+          "metadataToken": 100703167,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -888,7 +888,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractAbbreviatorAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703270
+            "metadataToken": 100703167
           }
         }
       ]
@@ -906,7 +906,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute::.ctor():void",
-          "metadataToken": 100703269,
+          "metadataToken": 100703166,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -1086,7 +1086,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractArgumentValidatorAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703269
+            "metadataToken": 100703166
           }
         }
       ]
@@ -1103,7 +1103,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::TypeContainingContracts:System.Type",
           "clrName": "TypeContainingContracts",
           "tsEmitName": "typeContainingContracts",
-          "metadataToken": 385881124,
+          "metadataToken": 385881085,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContainingContracts|:System.Type|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1119,7 +1119,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassAttribute::.ctor(System.Type):void",
-          "metadataToken": 100703258,
+          "metadataToken": 100703155,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -1288,7 +1288,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractClassAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881124
+            "metadataToken": 385881085
           }
         },
         {
@@ -1309,7 +1309,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractClassAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703258
+            "metadataToken": 100703155
           }
         }
       ]
@@ -1326,7 +1326,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::TypeContractsAreFor:System.Type",
           "clrName": "TypeContractsAreFor",
           "tsEmitName": "typeContractsAreFor",
-          "metadataToken": 385881125,
+          "metadataToken": 385881086,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "TypeContractsAreFor|:System.Type|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1342,7 +1342,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractClassForAttribute::.ctor(System.Type):void",
-          "metadataToken": 100703260,
+          "metadataToken": 100703157,
           "canonicalSignature": "(System.Type):void",
           "normalizedSignature": "constructor|(System.Type):void|static=false",
           "isStatic": false,
@@ -1511,7 +1511,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractClassForAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881125
+            "metadataToken": 385881086
           }
         },
         {
@@ -1532,7 +1532,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractClassForAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703260
+            "metadataToken": 100703157
           }
         }
       ]
@@ -1548,7 +1548,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData",
-          "metadataToken": 100703247,
+          "metadataToken": 100703144,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1562,7 +1562,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -1578,7 +1578,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Kind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "Kind",
           "tsEmitName": "kind",
-          "metadataToken": 385881114,
+          "metadataToken": 385881075,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "Kind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1592,7 +1592,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Failure:System.String",
           "clrName": "Failure",
           "tsEmitName": "failure",
-          "metadataToken": 385881115,
+          "metadataToken": 385881076,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Failure|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1606,7 +1606,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::UserMessage:System.String",
           "clrName": "UserMessage",
           "tsEmitName": "userMessage",
-          "metadataToken": 385881116,
+          "metadataToken": 385881077,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "UserMessage|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1620,7 +1620,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::Condition:System.String",
           "clrName": "Condition",
           "tsEmitName": "condition",
-          "metadataToken": 385881117,
+          "metadataToken": 385881078,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1636,7 +1636,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractException::.ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void",
-          "metadataToken": 100703245,
+          "metadataToken": 100703142,
           "canonicalSignature": "(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -1653,7 +1653,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703247
+            "metadataToken": 100703144
           }
         },
         {
@@ -1663,7 +1663,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -1745,7 +1745,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881114
+            "metadataToken": 385881075
           }
         },
         {
@@ -1755,7 +1755,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881115
+            "metadataToken": 385881076
           }
         },
         {
@@ -1765,7 +1765,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881116
+            "metadataToken": 385881077
           }
         },
         {
@@ -1775,7 +1775,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881117
+            "metadataToken": 385881078
           }
         },
         {
@@ -1785,7 +1785,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -1795,7 +1795,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -1805,7 +1805,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -1815,7 +1815,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -1825,7 +1825,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -1835,7 +1835,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -1845,7 +1845,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -1855,7 +1855,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -1866,7 +1866,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703245
+            "metadataToken": 100703142
           }
         }
       ]
@@ -1882,7 +1882,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetHandled():System.Void",
           "clrName": "SetHandled",
           "tsEmitName": "setHandled",
-          "metadataToken": 100703254,
+          "metadataToken": 100703151,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetHandled|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1896,7 +1896,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::SetUnwind():System.Void",
           "clrName": "SetUnwind",
           "tsEmitName": "setUnwind",
-          "metadataToken": 100703256,
+          "metadataToken": 100703153,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "SetUnwind|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -1912,7 +1912,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385881118,
+          "metadataToken": 385881079,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1926,7 +1926,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Condition:System.String",
           "clrName": "Condition",
           "tsEmitName": "condition",
-          "metadataToken": 385881119,
+          "metadataToken": 385881080,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Condition|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1940,7 +1940,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::FailureKind:System.Diagnostics.Contracts.ContractFailureKind",
           "clrName": "FailureKind",
           "tsEmitName": "failureKind",
-          "metadataToken": 385881120,
+          "metadataToken": 385881081,
           "canonicalSignature": ":System.Diagnostics.Contracts.ContractFailureKind",
           "normalizedSignature": "FailureKind|:System.Diagnostics.Contracts.ContractFailureKind|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1954,7 +1954,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::OriginalException:System.Exception",
           "clrName": "OriginalException",
           "tsEmitName": "originalException",
-          "metadataToken": 385881121,
+          "metadataToken": 385881082,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "OriginalException|:System.Exception|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1968,7 +1968,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Handled:System.Boolean",
           "clrName": "Handled",
           "tsEmitName": "handled",
-          "metadataToken": 385881122,
+          "metadataToken": 385881083,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Handled|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1982,7 +1982,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::Unwind:System.Boolean",
           "clrName": "Unwind",
           "tsEmitName": "unwind",
-          "metadataToken": 385881123,
+          "metadataToken": 385881084,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Unwind|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1998,7 +1998,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractFailedEventArgs::.ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void",
-          "metadataToken": 100703248,
+          "metadataToken": 100703145,
           "canonicalSignature": "(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -2015,7 +2015,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703254
+            "metadataToken": 100703151
           }
         },
         {
@@ -2025,7 +2025,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703256
+            "metadataToken": 100703153
           }
         },
         {
@@ -2097,7 +2097,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881118
+            "metadataToken": 385881079
           }
         },
         {
@@ -2107,7 +2107,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881119
+            "metadataToken": 385881080
           }
         },
         {
@@ -2117,7 +2117,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881120
+            "metadataToken": 385881081
           }
         },
         {
@@ -2127,7 +2127,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881121
+            "metadataToken": 385881082
           }
         },
         {
@@ -2137,7 +2137,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881122
+            "metadataToken": 385881083
           }
         },
         {
@@ -2147,7 +2147,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881123
+            "metadataToken": 385881084
           }
         }
       ],
@@ -2158,7 +2158,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractFailedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703248
+            "metadataToken": 100703145
           }
         }
       ]
@@ -2176,7 +2176,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractInvariantMethodAttribute::.ctor():void",
-          "metadataToken": 100703262,
+          "metadataToken": 100703159,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -2356,7 +2356,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractInvariantMethodAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703262
+            "metadataToken": 100703159
           }
         }
       ]
@@ -2373,7 +2373,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Category:System.String",
           "clrName": "Category",
           "tsEmitName": "category",
-          "metadataToken": 385881128,
+          "metadataToken": 385881089,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Category|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2387,7 +2387,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Setting:System.String",
           "clrName": "Setting",
           "tsEmitName": "setting",
-          "metadataToken": 385881129,
+          "metadataToken": 385881090,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Setting|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2401,7 +2401,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Enabled:System.Boolean",
           "clrName": "Enabled",
           "tsEmitName": "enabled",
-          "metadataToken": 385881130,
+          "metadataToken": 385881091,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Enabled|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2415,7 +2415,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::Value:System.String",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385881131,
+          "metadataToken": 385881092,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Value|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2431,7 +2431,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::.ctor(System.String,System.String,System.Boolean):void",
-          "metadataToken": 100703271,
+          "metadataToken": 100703168,
           "canonicalSignature": "(System.String,System.String,System.Boolean):void",
           "normalizedSignature": "constructor|(System.String,System.String,System.Boolean):void|static=false",
           "isStatic": false,
@@ -2441,7 +2441,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractOptionAttribute::.ctor(System.String,System.String,System.String):void",
-          "metadataToken": 100703272,
+          "metadataToken": 100703169,
           "canonicalSignature": "(System.String,System.String,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.String,System.String):void|static=false",
           "isStatic": false,
@@ -2610,7 +2610,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881128
+            "metadataToken": 385881089
           }
         },
         {
@@ -2620,7 +2620,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881129
+            "metadataToken": 385881090
           }
         },
         {
@@ -2630,7 +2630,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881130
+            "metadataToken": 385881091
           }
         },
         {
@@ -2640,7 +2640,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881131
+            "metadataToken": 385881092
           }
         },
         {
@@ -2661,7 +2661,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703271
+            "metadataToken": 100703168
           }
         },
         {
@@ -2670,7 +2670,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractOptionAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703272
+            "metadataToken": 100703169
           }
         }
       ]
@@ -2687,7 +2687,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name",
-          "metadataToken": 385881127,
+          "metadataToken": 385881088,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -2703,7 +2703,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute::.ctor(System.String):void",
-          "metadataToken": 100703267,
+          "metadataToken": 100703164,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -2872,7 +2872,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881127
+            "metadataToken": 385881088
           }
         },
         {
@@ -2893,7 +2893,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703267
+            "metadataToken": 100703164
           }
         }
       ]
@@ -2911,7 +2911,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute::.ctor():void",
-          "metadataToken": 100703263,
+          "metadataToken": 100703160,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -3091,7 +3091,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703263
+            "metadataToken": 100703160
           }
         }
       ]
@@ -3109,7 +3109,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute::.ctor():void",
-          "metadataToken": 100703264,
+          "metadataToken": 100703161,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -3289,7 +3289,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703264
+            "metadataToken": 100703161
           }
         }
       ]
@@ -3306,7 +3306,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::Value:System.Boolean",
           "clrName": "Value",
           "tsEmitName": "value",
-          "metadataToken": 385881126,
+          "metadataToken": 385881087,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Value|:System.Boolean|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -3322,7 +3322,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.ContractVerificationAttribute::.ctor(System.Boolean):void",
-          "metadataToken": 100703265,
+          "metadataToken": 100703162,
           "canonicalSignature": "(System.Boolean):void",
           "normalizedSignature": "constructor|(System.Boolean):void|static=false",
           "isStatic": false,
@@ -3491,7 +3491,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractVerificationAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881126
+            "metadataToken": 385881087
           }
         },
         {
@@ -3512,7 +3512,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.ContractVerificationAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703265
+            "metadataToken": 100703162
           }
         }
       ]
@@ -3530,7 +3530,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.PureAttribute::.ctor():void",
-          "metadataToken": 100703257,
+          "metadataToken": 100703154,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -3710,7 +3710,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.PureAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703257
+            "metadataToken": 100703154
           }
         }
       ]
@@ -3726,7 +3726,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean):System.Void",
           "clrName": "Assume",
           "tsEmitName": "assume",
-          "metadataToken": 100703277,
+          "metadataToken": 100703174,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assume|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3740,7 +3740,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assume(System.Boolean,System.String):System.Void",
           "clrName": "Assume",
           "tsEmitName": "assume",
-          "metadataToken": 100703278,
+          "metadataToken": 100703175,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assume|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3754,7 +3754,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean):System.Void",
           "clrName": "Assert",
           "tsEmitName": "assert",
-          "metadataToken": 100703279,
+          "metadataToken": 100703176,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Assert|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3768,7 +3768,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Assert(System.Boolean,System.String):System.Void",
           "clrName": "Assert",
           "tsEmitName": "assert",
-          "metadataToken": 100703280,
+          "metadataToken": 100703177,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Assert|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3782,7 +3782,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean):System.Void",
           "clrName": "Requires",
           "tsEmitName": "requires",
-          "metadataToken": 100703281,
+          "metadataToken": 100703178,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Requires|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3796,7 +3796,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Requires(System.Boolean,System.String):System.Void",
           "clrName": "Requires",
           "tsEmitName": "requires",
-          "metadataToken": 100703282,
+          "metadataToken": 100703179,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Requires|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3810,7 +3810,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean):System.Void",
           "clrName": "Ensures",
           "tsEmitName": "ensures",
-          "metadataToken": 100703285,
+          "metadataToken": 100703182,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3824,7 +3824,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Ensures(System.Boolean,System.String):System.Void",
           "clrName": "Ensures",
           "tsEmitName": "ensures",
-          "metadataToken": 100703286,
+          "metadataToken": 100703183,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Ensures|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3838,7 +3838,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean):System.Void",
           "clrName": "EnsuresOnThrow",
           "tsEmitName": "ensuresOnThrow",
-          "metadataToken": 100703287,
+          "metadataToken": 100703184,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3852,7 +3852,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EnsuresOnThrow(System.Boolean,System.String):System.Void",
           "clrName": "EnsuresOnThrow",
           "tsEmitName": "ensuresOnThrow",
-          "metadataToken": 100703288,
+          "metadataToken": 100703185,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "EnsuresOnThrow|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3866,7 +3866,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Result():T",
           "clrName": "Result",
           "tsEmitName": "result",
-          "metadataToken": 100703289,
+          "metadataToken": 100703186,
           "canonicalSignature": "():T",
           "normalizedSignature": "Result|():T|static=true",
           "emitScope": "ClassSurface",
@@ -3880,7 +3880,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ValueAtReturn(T\u0026):T",
           "clrName": "ValueAtReturn",
           "tsEmitName": "valueAtReturn",
-          "metadataToken": 100703290,
+          "metadataToken": 100703187,
           "canonicalSignature": "(T\u0026):T",
           "normalizedSignature": "ValueAtReturn|(T\u0026):T|static=true",
           "emitScope": "ClassSurface",
@@ -3894,7 +3894,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::OldValue(T):T",
           "clrName": "OldValue",
           "tsEmitName": "oldValue",
-          "metadataToken": 100703291,
+          "metadataToken": 100703188,
           "canonicalSignature": "(T):T",
           "normalizedSignature": "OldValue|(T):T|static=true",
           "emitScope": "ClassSurface",
@@ -3908,7 +3908,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean):System.Void",
           "clrName": "Invariant",
           "tsEmitName": "invariant",
-          "metadataToken": 100703292,
+          "metadataToken": 100703189,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3922,7 +3922,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Invariant(System.Boolean,System.String):System.Void",
           "clrName": "Invariant",
           "tsEmitName": "invariant",
-          "metadataToken": 100703293,
+          "metadataToken": 100703190,
           "canonicalSignature": "(System.Boolean,System.String):System.Void",
           "normalizedSignature": "Invariant|(System.Boolean,System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -3936,7 +3936,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "ForAll",
           "tsEmitName": "forAll",
-          "metadataToken": 100703294,
+          "metadataToken": 100703191,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "ForAll|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -3950,7 +3950,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::ForAll(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "ForAll",
           "tsEmitName": "forAll",
-          "metadataToken": 100703295,
+          "metadataToken": 100703192,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "ForAll|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -3964,7 +3964,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "Exists",
           "tsEmitName": "exists",
-          "metadataToken": 100703296,
+          "metadataToken": 100703193,
           "canonicalSignature": "(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "Exists|(System.Int32,System.Int32,System.Predicate_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -3978,7 +3978,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::Exists(IEnumerable_1,Predicate_1):System.Boolean",
           "clrName": "Exists",
           "tsEmitName": "exists",
-          "metadataToken": 100703297,
+          "metadataToken": 100703194,
           "canonicalSignature": "(IEnumerable_1,Predicate_1):System.Boolean",
           "normalizedSignature": "Exists|(IEnumerable_1,Predicate_1):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -3992,7 +3992,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Contracts.Contract::EndContractBlock():System.Void",
           "clrName": "EndContractBlock",
           "tsEmitName": "endContractBlock",
-          "metadataToken": 100703298,
+          "metadataToken": 100703195,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "EndContractBlock|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -4026,7 +4026,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703277
+            "metadataToken": 100703174
           }
         },
         {
@@ -4036,7 +4036,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703278
+            "metadataToken": 100703175
           }
         },
         {
@@ -4046,7 +4046,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703279
+            "metadataToken": 100703176
           }
         },
         {
@@ -4056,7 +4056,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703280
+            "metadataToken": 100703177
           }
         },
         {
@@ -4066,7 +4066,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703281
+            "metadataToken": 100703178
           }
         },
         {
@@ -4076,7 +4076,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703282
+            "metadataToken": 100703179
           }
         },
         {
@@ -4086,7 +4086,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703285
+            "metadataToken": 100703182
           }
         },
         {
@@ -4096,7 +4096,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703286
+            "metadataToken": 100703183
           }
         },
         {
@@ -4106,7 +4106,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703287
+            "metadataToken": 100703184
           }
         },
         {
@@ -4116,7 +4116,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703288
+            "metadataToken": 100703185
           }
         },
         {
@@ -4126,7 +4126,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703289
+            "metadataToken": 100703186
           }
         },
         {
@@ -4136,7 +4136,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703290
+            "metadataToken": 100703187
           }
         },
         {
@@ -4146,7 +4146,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703291
+            "metadataToken": 100703188
           }
         },
         {
@@ -4156,7 +4156,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703292
+            "metadataToken": 100703189
           }
         },
         {
@@ -4166,7 +4166,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703293
+            "metadataToken": 100703190
           }
         },
         {
@@ -4176,7 +4176,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703294
+            "metadataToken": 100703191
           }
         },
         {
@@ -4186,7 +4186,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703295
+            "metadataToken": 100703192
           }
         },
         {
@@ -4196,7 +4196,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703296
+            "metadataToken": 100703193
           }
         },
         {
@@ -4206,7 +4206,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703297
+            "metadataToken": 100703194
           }
         },
         {
@@ -4216,7 +4216,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Contracts.Contract",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100703298
+            "metadataToken": 100703195
           }
         },
         {

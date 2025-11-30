@@ -41,60 +41,88 @@ export enum DatabaseGeneratedOption {
 }
 
 
-export class ColumnAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(name: string);
+export interface ColumnAttribute$instance extends Attribute {
     readonly name: string;
     order: int;
     typeName: string;
 }
 
 
+export const ColumnAttribute: {
+    new(): ColumnAttribute$instance;
+    new(name: string): ColumnAttribute$instance;
+};
+
+
 export type ColumnAttribute = ColumnAttribute$instance;
 
-export class ComplexTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface ComplexTypeAttribute$instance extends Attribute {
 }
+
+
+export const ComplexTypeAttribute: {
+    new(): ComplexTypeAttribute$instance;
+};
 
 
 export type ComplexTypeAttribute = ComplexTypeAttribute$instance;
 
-export class DatabaseGeneratedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(databaseGeneratedOption: DatabaseGeneratedOption);
+export interface DatabaseGeneratedAttribute$instance extends Attribute {
     readonly databaseGeneratedOption: DatabaseGeneratedOption;
 }
 
 
+export const DatabaseGeneratedAttribute: {
+    new(databaseGeneratedOption: DatabaseGeneratedOption): DatabaseGeneratedAttribute$instance;
+};
+
+
 export type DatabaseGeneratedAttribute = DatabaseGeneratedAttribute$instance;
 
-export class ForeignKeyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface ForeignKeyAttribute$instance extends Attribute {
     readonly name: string;
 }
+
+
+export const ForeignKeyAttribute: {
+    new(name: string): ForeignKeyAttribute$instance;
+};
 
 
 export type ForeignKeyAttribute = ForeignKeyAttribute$instance;
 
-export class InversePropertyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(property: string);
+export interface InversePropertyAttribute$instance extends Attribute {
     readonly property: string;
 }
 
 
+export const InversePropertyAttribute: {
+    new(property: string): InversePropertyAttribute$instance;
+};
+
+
 export type InversePropertyAttribute = InversePropertyAttribute$instance;
 
-export class NotMappedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface NotMappedAttribute$instance extends Attribute {
 }
+
+
+export const NotMappedAttribute: {
+    new(): NotMappedAttribute$instance;
+};
 
 
 export type NotMappedAttribute = NotMappedAttribute$instance;
 
-export class TableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(name: string);
+export interface TableAttribute$instance extends Attribute {
     readonly name: string;
     schema: string;
 }
+
+
+export const TableAttribute: {
+    new(name: string): TableAttribute$instance;
+};
 
 
 export type TableAttribute = TableAttribute$instance;

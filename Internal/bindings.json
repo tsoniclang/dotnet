@@ -12,7 +12,7 @@
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine",
-          "metadataToken": 100704902,
+          "metadataToken": 100704799,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -26,7 +26,7 @@
           "stableId": "System.Private.CoreLib:Internal.Console::WriteLine():System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine",
-          "metadataToken": 100704903,
+          "metadataToken": 100704800,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -40,7 +40,7 @@
           "stableId": "System.Private.CoreLib:Internal.Console::Write(System.String):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100704904,
+          "metadataToken": 100704801,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -63,7 +63,7 @@
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704902
+            "metadataToken": 100704799
           }
         },
         {
@@ -73,7 +73,7 @@
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704903
+            "metadataToken": 100704800
           }
         },
         {
@@ -83,7 +83,7 @@
           "target": {
             "declaringClrType": "Internal.Console",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704904
+            "metadataToken": 100704801
           }
         },
         {
@@ -159,7 +159,7 @@
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::WriteLine():System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine",
-          "metadataToken": 100704905,
+          "metadataToken": 100704802,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -173,7 +173,7 @@
           "stableId": "System.Private.CoreLib:Internal.Console\u002BError::Write(System.String):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100704906,
+          "metadataToken": 100704803,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -196,7 +196,7 @@
           "target": {
             "declaringClrType": "Internal.Console\u002BError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704905
+            "metadataToken": 100704802
           }
         },
         {
@@ -206,7 +206,7 @@
           "target": {
             "declaringClrType": "Internal.Console\u002BError",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100704906
+            "metadataToken": 100704803
           }
         },
         {

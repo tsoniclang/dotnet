@@ -15,18 +15,18 @@ import type { Attribute, Boolean as ClrBoolean, Byte, Enum, IComparable, IConver
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { ColorConverter$instance as ColorConverter } from './internal/index.js';
-export { PointConverter$instance as PointConverter } from './internal/index.js';
-export { RectangleConverter$instance as RectangleConverter } from './internal/index.js';
-export { SizeConverter$instance as SizeConverter } from './internal/index.js';
-export { SizeFConverter$instance as SizeFConverter } from './internal/index.js';
-export { Point$instance as Point } from './internal/index.js';
-export { PointF$instance as PointF } from './internal/index.js';
-export { Rectangle$instance as Rectangle } from './internal/index.js';
-export { RectangleF$instance as RectangleF } from './internal/index.js';
-export { Size$instance as Size } from './internal/index.js';
-export { SizeF$instance as SizeF } from './internal/index.js';
-export { Color$instance as Color } from './internal/index.js';
+export { ColorConverter as ColorConverter } from './internal/index.js';
+export { PointConverter as PointConverter } from './internal/index.js';
+export { RectangleConverter as RectangleConverter } from './internal/index.js';
+export { SizeConverter as SizeConverter } from './internal/index.js';
+export { SizeFConverter as SizeFConverter } from './internal/index.js';
+export { Point as Point } from './internal/index.js';
+export { PointF as PointF } from './internal/index.js';
+export { Rectangle as Rectangle } from './internal/index.js';
+export { RectangleF as RectangleF } from './internal/index.js';
+export { Size as Size } from './internal/index.js';
+export { SizeF as SizeF } from './internal/index.js';
+export { Color as Color } from './internal/index.js';
 export { ColorTranslator$instance as ColorTranslator } from './internal/index.js';
 export { KnownColor as KnownColor } from './internal/index.js';
 export { SystemColors$instance as SystemColors } from './internal/index.js';

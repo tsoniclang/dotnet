@@ -13,6 +13,6 @@ export * from './internal/index.js';
 
 // Individual type exports for convenience
 export { Utf8$instance as Utf8 } from './internal/index.js';
-export { Utf8_TryWriteInterpolatedStringHandler$instance as Utf8_TryWriteInterpolatedStringHandler } from './internal/index.js';
-export { UnicodeRange$instance as UnicodeRange } from './internal/index.js';
+export { Utf8_TryWriteInterpolatedStringHandler as Utf8_TryWriteInterpolatedStringHandler } from './internal/index.js';
+export { UnicodeRange as UnicodeRange } from './internal/index.js';
 export { UnicodeRanges$instance as UnicodeRanges } from './internal/index.js';

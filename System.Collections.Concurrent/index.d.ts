@@ -14,22 +14,22 @@ import type { Array as ClrArray, Boolean as ClrBoolean, Enum, Func_2, Func_3, Fu
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { BlockingCollection_1$instance as BlockingCollection_1 } from './internal/index.js';
-export { BlockingCollection_1$instance as BlockingCollection } from './internal/index.js';
-export { ConcurrentBag_1$instance as ConcurrentBag_1 } from './internal/index.js';
-export { ConcurrentBag_1$instance as ConcurrentBag } from './internal/index.js';
-export { ConcurrentDictionary_2$instance as ConcurrentDictionary_2 } from './internal/index.js';
-export { ConcurrentDictionary_2$instance as ConcurrentDictionary } from './internal/index.js';
-export { ConcurrentDictionary_2_AlternateLookup_1$instance as ConcurrentDictionary_2_AlternateLookup_1 } from './internal/index.js';
-export { ConcurrentStack_1$instance as ConcurrentStack_1 } from './internal/index.js';
-export { ConcurrentStack_1$instance as ConcurrentStack } from './internal/index.js';
-export { OrderablePartitioner_1$instance as OrderablePartitioner_1 } from './internal/index.js';
-export { OrderablePartitioner_1$instance as OrderablePartitioner } from './internal/index.js';
-export { Partitioner_1$instance as Partitioner_1 } from './internal/index.js';
-export { Partitioner_1$instance as Partitioner } from './internal/index.js';
+export { BlockingCollection_1 as BlockingCollection_1 } from './internal/index.js';
+export { BlockingCollection_1 as BlockingCollection } from './internal/index.js';
+export { ConcurrentBag_1 as ConcurrentBag_1 } from './internal/index.js';
+export { ConcurrentBag_1 as ConcurrentBag } from './internal/index.js';
+export { ConcurrentDictionary_2 as ConcurrentDictionary_2 } from './internal/index.js';
+export { ConcurrentDictionary_2 as ConcurrentDictionary } from './internal/index.js';
+export { ConcurrentDictionary_2_AlternateLookup_1 as ConcurrentDictionary_2_AlternateLookup_1 } from './internal/index.js';
+export { ConcurrentStack_1 as ConcurrentStack_1 } from './internal/index.js';
+export { ConcurrentStack_1 as ConcurrentStack } from './internal/index.js';
+export { OrderablePartitioner_1 as OrderablePartitioner_1 } from './internal/index.js';
+export { OrderablePartitioner_1 as OrderablePartitioner } from './internal/index.js';
+export { Partitioner_1 as Partitioner_1 } from './internal/index.js';
+export { Partitioner_1 as Partitioner } from './internal/index.js';
 export { EnumerablePartitionerOptions as EnumerablePartitionerOptions } from './internal/index.js';
 export { Partitioner$instance as Partitioner_0 } from './internal/index.js';
-export { ConcurrentQueue_1$instance as ConcurrentQueue_1 } from './internal/index.js';
-export { ConcurrentQueue_1$instance as ConcurrentQueue } from './internal/index.js';
+export { ConcurrentQueue_1 as ConcurrentQueue_1 } from './internal/index.js';
+export { ConcurrentQueue_1 as ConcurrentQueue } from './internal/index.js';
 export type IProducerConsumerCollection_1<T> = Internal.IProducerConsumerCollection_1<T>;
 export type IProducerConsumerCollection<T> = Internal.IProducerConsumerCollection_1<T>;

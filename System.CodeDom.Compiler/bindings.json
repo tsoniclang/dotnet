@@ -13,7 +13,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Tool:System.String",
           "clrName": "Tool",
           "tsEmitName": "tool",
-          "metadataToken": 385878722,
+          "metadataToken": 385878714,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Tool|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -27,7 +27,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::Version:System.String",
           "clrName": "Version",
           "tsEmitName": "version",
-          "metadataToken": 385878723,
+          "metadataToken": 385878715,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Version|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -43,7 +43,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.GeneratedCodeAttribute::.ctor(System.String,System.String):void",
-          "metadataToken": 100677662,
+          "metadataToken": 100677641,
           "canonicalSignature": "(System.String,System.String):void",
           "normalizedSignature": "constructor|(System.String,System.String):void|static=false",
           "isStatic": false,
@@ -212,7 +212,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878722
+            "metadataToken": 385878714
           }
         },
         {
@@ -222,7 +222,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878723
+            "metadataToken": 385878715
           }
         },
         {
@@ -243,7 +243,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.GeneratedCodeAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677662
+            "metadataToken": 100677641
           }
         }
       ]
@@ -259,7 +259,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Close():System.Void",
           "clrName": "Close",
           "tsEmitName": "close",
-          "metadataToken": 100677673,
+          "metadataToken": 100677652,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Close|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -273,7 +273,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DisposeAsync():System.Threading.Tasks.ValueTask",
           "clrName": "DisposeAsync",
           "tsEmitName": "disposeAsync",
-          "metadataToken": 100677674,
+          "metadataToken": 100677653,
           "canonicalSignature": "():System.Threading.Tasks.ValueTask",
           "normalizedSignature": "DisposeAsync|():System.Threading.Tasks.ValueTask|static=false",
           "emitScope": "ClassSurface",
@@ -287,7 +287,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Flush():System.Void",
           "clrName": "Flush",
           "tsEmitName": "flush",
-          "metadataToken": 100677675,
+          "metadataToken": 100677654,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Flush|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -301,7 +301,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync():System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
           "tsEmitName": "flushAsync",
-          "metadataToken": 100677676,
+          "metadataToken": 100677655,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|():System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -315,7 +315,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::FlushAsync(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "FlushAsync",
           "tsEmitName": "flushAsync",
-          "metadataToken": 100677677,
+          "metadataToken": 100677656,
           "canonicalSignature": "(System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "FlushAsync|(System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -329,7 +329,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677680,
+          "metadataToken": 100677659,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -343,7 +343,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Boolean):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677681,
+          "metadataToken": 100677660,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Write|(System.Boolean):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -357,7 +357,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677682,
+          "metadataToken": 100677661,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "Write|(System.Char):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -371,7 +371,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[]):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677683,
+          "metadataToken": 100677662,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "Write|(System.Char[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -385,7 +385,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677684,
+          "metadataToken": 100677663,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -399,7 +399,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Double):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677685,
+          "metadataToken": 100677664,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "Write|(System.Double):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -413,7 +413,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Single):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677686,
+          "metadataToken": 100677665,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "Write|(System.Single):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -427,7 +427,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int32):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677687,
+          "metadataToken": 100677666,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "Write|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -441,7 +441,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Int64):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677688,
+          "metadataToken": 100677667,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "Write|(System.Int64):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -455,7 +455,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.Object):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677689,
+          "metadataToken": 100677668,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "Write|(System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -469,7 +469,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677690,
+          "metadataToken": 100677669,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -483,7 +483,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object,System.Object):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677691,
+          "metadataToken": 100677670,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object,System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -497,7 +497,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.Object[]):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677692,
+          "metadataToken": 100677671,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "Write|(System.String,System.Object[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -511,7 +511,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Write(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Write",
           "tsEmitName": "write8",
-          "metadataToken": 100677693,
+          "metadataToken": 100677672,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Write|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -525,7 +525,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
           "tsEmitName": "writeAsync3",
-          "metadataToken": 100677694,
+          "metadataToken": 100677673,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -539,7 +539,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
           "tsEmitName": "writeAsync3",
-          "metadataToken": 100677695,
+          "metadataToken": 100677674,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -553,7 +553,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
           "tsEmitName": "writeAsync3",
-          "metadataToken": 100677696,
+          "metadataToken": 100677675,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -567,7 +567,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
           "tsEmitName": "writeAsync3",
-          "metadataToken": 100677697,
+          "metadataToken": 100677676,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -581,7 +581,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteAsync",
           "tsEmitName": "writeAsync3",
-          "metadataToken": 100677698,
+          "metadataToken": 100677677,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -595,7 +595,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabs(System.String):System.Void",
           "clrName": "WriteLineNoTabs",
           "tsEmitName": "writeLineNoTabs",
-          "metadataToken": 100677699,
+          "metadataToken": 100677678,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLineNoTabs|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -609,7 +609,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineNoTabsAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineNoTabsAsync",
           "tsEmitName": "writeLineNoTabsAsync",
-          "metadataToken": 100677700,
+          "metadataToken": 100677679,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineNoTabsAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -623,7 +623,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677701,
+          "metadataToken": 100677680,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "WriteLine|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -637,7 +637,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine():System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677702,
+          "metadataToken": 100677681,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "WriteLine|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -651,7 +651,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Boolean):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677703,
+          "metadataToken": 100677682,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "WriteLine|(System.Boolean):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -665,7 +665,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677704,
+          "metadataToken": 100677683,
           "canonicalSignature": "(System.Char):System.Void",
           "normalizedSignature": "WriteLine|(System.Char):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -679,7 +679,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[]):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677705,
+          "metadataToken": 100677684,
           "canonicalSignature": "(System.Char[]):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -693,7 +693,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Char[],System.Int32,System.Int32):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677706,
+          "metadataToken": 100677685,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Char[],System.Int32,System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -707,7 +707,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Double):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677707,
+          "metadataToken": 100677686,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "WriteLine|(System.Double):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -721,7 +721,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Single):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677708,
+          "metadataToken": 100677687,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "WriteLine|(System.Single):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -735,7 +735,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int32):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677709,
+          "metadataToken": 100677688,
           "canonicalSignature": "(System.Int32):System.Void",
           "normalizedSignature": "WriteLine|(System.Int32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -749,7 +749,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Int64):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677710,
+          "metadataToken": 100677689,
           "canonicalSignature": "(System.Int64):System.Void",
           "normalizedSignature": "WriteLine|(System.Int64):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -763,7 +763,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.Object):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677711,
+          "metadataToken": 100677690,
           "canonicalSignature": "(System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -777,7 +777,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677712,
+          "metadataToken": 100677691,
           "canonicalSignature": "(System.String,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -791,7 +791,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object,System.Object):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677713,
+          "metadataToken": 100677692,
           "canonicalSignature": "(System.String,System.Object,System.Object):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object,System.Object):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -805,7 +805,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.Object[]):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677714,
+          "metadataToken": 100677693,
           "canonicalSignature": "(System.String,System.Object[]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.Object[]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -819,7 +819,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677715,
+          "metadataToken": 100677694,
           "canonicalSignature": "(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "WriteLine|(System.String,System.ReadOnlySpan_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -833,7 +833,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLine(System.UInt32):System.Void",
           "clrName": "WriteLine",
           "tsEmitName": "writeLine7",
-          "metadataToken": 100677716,
+          "metadataToken": 100677695,
           "canonicalSignature": "(System.UInt32):System.Void",
           "normalizedSignature": "WriteLine|(System.UInt32):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -847,7 +847,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync():System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677717,
+          "metadataToken": 100677696,
           "canonicalSignature": "():System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|():System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -861,7 +861,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677718,
+          "metadataToken": 100677697,
           "canonicalSignature": "(System.Char):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -875,7 +875,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677719,
+          "metadataToken": 100677698,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Char[],System.Int32,System.Int32):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -889,7 +889,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.String):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677720,
+          "metadataToken": 100677699,
           "canonicalSignature": "(System.String):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.String):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -903,7 +903,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677721,
+          "metadataToken": 100677700,
           "canonicalSignature": "(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.ReadOnlyMemory_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -917,7 +917,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::WriteLineAsync(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "clrName": "WriteLineAsync",
           "tsEmitName": "writeLineAsync3",
-          "metadataToken": 100677722,
+          "metadataToken": 100677701,
           "canonicalSignature": "(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task",
           "normalizedSignature": "WriteLineAsync|(System.Text.StringBuilder,System.Threading.CancellationToken):System.Threading.Tasks.Task|static=false",
           "emitScope": "ClassSurface",
@@ -1213,7 +1213,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Encoding:System.Text.Encoding",
           "clrName": "Encoding",
           "tsEmitName": "encoding",
-          "metadataToken": 385878724,
+          "metadataToken": 385878716,
           "canonicalSignature": ":System.Text.Encoding",
           "normalizedSignature": "Encoding|:System.Text.Encoding|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1227,7 +1227,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::NewLine:System.String",
           "clrName": "NewLine",
           "tsEmitName": "newLine",
-          "metadataToken": 385878725,
+          "metadataToken": 385878717,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "NewLine|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1241,7 +1241,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::Indent:System.Int32",
           "clrName": "Indent",
           "tsEmitName": "indent",
-          "metadataToken": 385878726,
+          "metadataToken": 385878718,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Indent|:System.Int32|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -1255,7 +1255,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::InnerWriter:System.IO.TextWriter",
           "clrName": "InnerWriter",
           "tsEmitName": "innerWriter",
-          "metadataToken": 385878727,
+          "metadataToken": 385878719,
           "canonicalSignature": ":System.IO.TextWriter",
           "normalizedSignature": "InnerWriter|:System.IO.TextWriter|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -1271,7 +1271,7 @@
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::DefaultTabStringSystem.String",
           "clrName": "DefaultTabString",
           "tsEmitName": "defaultTabString",
-          "metadataToken": 67111679,
+          "metadataToken": 67111678,
           "normalizedSignature": "DefaultTabString|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1283,7 +1283,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::.ctor(System.IO.TextWriter):void",
-          "metadataToken": 100677665,
+          "metadataToken": 100677644,
           "canonicalSignature": "(System.IO.TextWriter):void",
           "normalizedSignature": "constructor|(System.IO.TextWriter):void|static=false",
           "isStatic": false,
@@ -1293,7 +1293,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.CodeDom.Compiler.IndentedTextWriter::.ctor(System.IO.TextWriter,System.String):void",
-          "metadataToken": 100677666,
+          "metadataToken": 100677645,
           "canonicalSignature": "(System.IO.TextWriter,System.String):void",
           "normalizedSignature": "constructor|(System.IO.TextWriter,System.String):void|static=false",
           "isStatic": false,
@@ -1310,7 +1310,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677673
+            "metadataToken": 100677652
           }
         },
         {
@@ -1320,7 +1320,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677674
+            "metadataToken": 100677653
           }
         },
         {
@@ -1330,7 +1330,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677675
+            "metadataToken": 100677654
           }
         },
         {
@@ -1340,7 +1340,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677676
+            "metadataToken": 100677655
           }
         },
         {
@@ -1350,7 +1350,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677677
+            "metadataToken": 100677656
           }
         },
         {
@@ -1360,7 +1360,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677680
+            "metadataToken": 100677659
           }
         },
         {
@@ -1370,7 +1370,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677681
+            "metadataToken": 100677660
           }
         },
         {
@@ -1380,7 +1380,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677682
+            "metadataToken": 100677661
           }
         },
         {
@@ -1390,7 +1390,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677683
+            "metadataToken": 100677662
           }
         },
         {
@@ -1400,7 +1400,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677684
+            "metadataToken": 100677663
           }
         },
         {
@@ -1410,7 +1410,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677685
+            "metadataToken": 100677664
           }
         },
         {
@@ -1420,7 +1420,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677686
+            "metadataToken": 100677665
           }
         },
         {
@@ -1430,7 +1430,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677687
+            "metadataToken": 100677666
           }
         },
         {
@@ -1440,7 +1440,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677688
+            "metadataToken": 100677667
           }
         },
         {
@@ -1450,7 +1450,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677689
+            "metadataToken": 100677668
           }
         },
         {
@@ -1460,7 +1460,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677690
+            "metadataToken": 100677669
           }
         },
         {
@@ -1470,7 +1470,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677691
+            "metadataToken": 100677670
           }
         },
         {
@@ -1480,7 +1480,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677692
+            "metadataToken": 100677671
           }
         },
         {
@@ -1490,7 +1490,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677693
+            "metadataToken": 100677672
           }
         },
         {
@@ -1500,7 +1500,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677694
+            "metadataToken": 100677673
           }
         },
         {
@@ -1510,7 +1510,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677695
+            "metadataToken": 100677674
           }
         },
         {
@@ -1520,7 +1520,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677696
+            "metadataToken": 100677675
           }
         },
         {
@@ -1530,7 +1530,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677697
+            "metadataToken": 100677676
           }
         },
         {
@@ -1540,7 +1540,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677698
+            "metadataToken": 100677677
           }
         },
         {
@@ -1550,7 +1550,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677699
+            "metadataToken": 100677678
           }
         },
         {
@@ -1560,7 +1560,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677700
+            "metadataToken": 100677679
           }
         },
         {
@@ -1570,7 +1570,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677701
+            "metadataToken": 100677680
           }
         },
         {
@@ -1580,7 +1580,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677702
+            "metadataToken": 100677681
           }
         },
         {
@@ -1590,7 +1590,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677703
+            "metadataToken": 100677682
           }
         },
         {
@@ -1600,7 +1600,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677704
+            "metadataToken": 100677683
           }
         },
         {
@@ -1610,7 +1610,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677705
+            "metadataToken": 100677684
           }
         },
         {
@@ -1620,7 +1620,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677706
+            "metadataToken": 100677685
           }
         },
         {
@@ -1630,7 +1630,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677707
+            "metadataToken": 100677686
           }
         },
         {
@@ -1640,7 +1640,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677708
+            "metadataToken": 100677687
           }
         },
         {
@@ -1650,7 +1650,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677709
+            "metadataToken": 100677688
           }
         },
         {
@@ -1660,7 +1660,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677710
+            "metadataToken": 100677689
           }
         },
         {
@@ -1670,7 +1670,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677711
+            "metadataToken": 100677690
           }
         },
         {
@@ -1680,7 +1680,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677712
+            "metadataToken": 100677691
           }
         },
         {
@@ -1690,7 +1690,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677713
+            "metadataToken": 100677692
           }
         },
         {
@@ -1700,7 +1700,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677714
+            "metadataToken": 100677693
           }
         },
         {
@@ -1710,7 +1710,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677715
+            "metadataToken": 100677694
           }
         },
         {
@@ -1720,7 +1720,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677716
+            "metadataToken": 100677695
           }
         },
         {
@@ -1730,7 +1730,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677717
+            "metadataToken": 100677696
           }
         },
         {
@@ -1740,7 +1740,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677718
+            "metadataToken": 100677697
           }
         },
         {
@@ -1750,7 +1750,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677719
+            "metadataToken": 100677698
           }
         },
         {
@@ -1760,7 +1760,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677720
+            "metadataToken": 100677699
           }
         },
         {
@@ -1770,7 +1770,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677721
+            "metadataToken": 100677700
           }
         },
         {
@@ -1780,7 +1780,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677722
+            "metadataToken": 100677701
           }
         },
         {
@@ -1990,7 +1990,7 @@
           "target": {
             "declaringClrType": "System.IO.TextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100701148
+            "metadataToken": 100701045
           }
         },
         {
@@ -2000,7 +2000,7 @@
           "target": {
             "declaringClrType": "System.IO.TextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100701149
+            "metadataToken": 100701046
           }
         },
         {
@@ -2092,7 +2092,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878724
+            "metadataToken": 385878716
           }
         },
         {
@@ -2102,7 +2102,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878725
+            "metadataToken": 385878717
           }
         },
         {
@@ -2112,7 +2112,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878726
+            "metadataToken": 385878718
           }
         },
         {
@@ -2122,7 +2122,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385878727
+            "metadataToken": 385878719
           }
         },
         {
@@ -2132,7 +2132,7 @@
           "target": {
             "declaringClrType": "System.IO.TextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880833
+            "metadataToken": 385880794
           }
         }
       ],
@@ -2144,7 +2144,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67111679
+            "metadataToken": 67111678
           }
         }
       ],
@@ -2155,7 +2155,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677665
+            "metadataToken": 100677644
           }
         },
         {
@@ -2164,7 +2164,7 @@
           "target": {
             "declaringClrType": "System.CodeDom.Compiler.IndentedTextWriter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100677666
+            "metadataToken": 100677645
           }
         }
       ]

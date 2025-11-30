@@ -11,19 +11,19 @@ import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible,
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { ComponentGuaranteesAttribute$instance as ComponentGuaranteesAttribute } from './internal/index.js';
+export { ComponentGuaranteesAttribute as ComponentGuaranteesAttribute } from './internal/index.js';
 export { ComponentGuaranteesOptions as ComponentGuaranteesOptions } from './internal/index.js';
-export { FrameworkName$instance as FrameworkName } from './internal/index.js';
-export { OSPlatformAttribute$instance as OSPlatformAttribute } from './internal/index.js';
-export { TargetPlatformAttribute$instance as TargetPlatformAttribute } from './internal/index.js';
-export { SupportedOSPlatformAttribute$instance as SupportedOSPlatformAttribute } from './internal/index.js';
-export { UnsupportedOSPlatformAttribute$instance as UnsupportedOSPlatformAttribute } from './internal/index.js';
-export { ObsoletedOSPlatformAttribute$instance as ObsoletedOSPlatformAttribute } from './internal/index.js';
-export { SupportedOSPlatformGuardAttribute$instance as SupportedOSPlatformGuardAttribute } from './internal/index.js';
-export { UnsupportedOSPlatformGuardAttribute$instance as UnsupportedOSPlatformGuardAttribute } from './internal/index.js';
-export { RequiresPreviewFeaturesAttribute$instance as RequiresPreviewFeaturesAttribute } from './internal/index.js';
-export { ResourceConsumptionAttribute$instance as ResourceConsumptionAttribute } from './internal/index.js';
-export { ResourceExposureAttribute$instance as ResourceExposureAttribute } from './internal/index.js';
+export { FrameworkName as FrameworkName } from './internal/index.js';
+export { OSPlatformAttribute as OSPlatformAttribute } from './internal/index.js';
+export { TargetPlatformAttribute as TargetPlatformAttribute } from './internal/index.js';
+export { SupportedOSPlatformAttribute as SupportedOSPlatformAttribute } from './internal/index.js';
+export { UnsupportedOSPlatformAttribute as UnsupportedOSPlatformAttribute } from './internal/index.js';
+export { ObsoletedOSPlatformAttribute as ObsoletedOSPlatformAttribute } from './internal/index.js';
+export { SupportedOSPlatformGuardAttribute as SupportedOSPlatformGuardAttribute } from './internal/index.js';
+export { UnsupportedOSPlatformGuardAttribute as UnsupportedOSPlatformGuardAttribute } from './internal/index.js';
+export { RequiresPreviewFeaturesAttribute as RequiresPreviewFeaturesAttribute } from './internal/index.js';
+export { ResourceConsumptionAttribute as ResourceConsumptionAttribute } from './internal/index.js';
+export { ResourceExposureAttribute as ResourceExposureAttribute } from './internal/index.js';
 export { ResourceScope as ResourceScope } from './internal/index.js';
-export { TargetFrameworkAttribute$instance as TargetFrameworkAttribute } from './internal/index.js';
+export { TargetFrameworkAttribute as TargetFrameworkAttribute } from './internal/index.js';
 export { VersioningHelper$instance as VersioningHelper } from './internal/index.js';

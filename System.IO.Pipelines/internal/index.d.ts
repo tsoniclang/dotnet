@@ -50,38 +50,49 @@ export interface IDuplexPipe$instance {
 
 export type IDuplexPipe = IDuplexPipe$instance;
 
-export class FlushResult$instance {
-    constructor(isCanceled: boolean, isCompleted: boolean);
+export interface FlushResult$instance {
     readonly isCanceled: boolean;
     readonly isCompleted: boolean;
 }
 
 
+export const FlushResult: {
+    new(isCanceled: boolean, isCompleted: boolean): FlushResult$instance;
+};
+
+
 export type FlushResult = FlushResult$instance;
 
-export class ReadResult$instance {
-    constructor(buffer: ReadOnlySequence_1<CLROf<byte>>, isCanceled: boolean, isCompleted: boolean);
+export interface ReadResult$instance {
     readonly buffer: ReadOnlySequence_1<CLROf<byte>>;
     readonly isCanceled: boolean;
     readonly isCompleted: boolean;
 }
 
 
+export const ReadResult: {
+    new(buffer: ReadOnlySequence_1<CLROf<byte>>, isCanceled: boolean, isCompleted: boolean): ReadResult$instance;
+};
+
+
 export type ReadResult = ReadResult$instance;
 
-export class Pipe$instance {
-    constructor();
-    constructor(options: PipeOptions);
+export interface Pipe$instance {
     readonly reader: PipeReader;
     readonly writer: PipeWriter;
     reset(): void;
 }
 
 
+export const Pipe: {
+    new(): Pipe$instance;
+    new(options: PipeOptions): Pipe$instance;
+};
+
+
 export type Pipe = Pipe$instance;
 
-export class PipeOptions$instance {
-    constructor(pool: MemoryPool_1<CLROf<byte>>, readerScheduler: PipeScheduler, writerScheduler: PipeScheduler, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean);
+export interface PipeOptions$instance {
     readonly minimumSegmentSize: int;
     readonly pauseWriterThreshold: long;
     readonly pool: MemoryPool_1<CLROf<byte>>;
@@ -89,56 +100,73 @@ export class PipeOptions$instance {
     readonly resumeWriterThreshold: long;
     readonly useSynchronizationContext: boolean;
     readonly writerScheduler: PipeScheduler;
-    static readonly default_: PipeOptions;
 }
+
+
+export const PipeOptions: {
+    new(pool: MemoryPool_1<CLROf<byte>>, readerScheduler: PipeScheduler, writerScheduler: PipeScheduler, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean): PipeOptions$instance;
+    readonly default_: PipeOptions;
+};
 
 
 export type PipeOptions = PipeOptions$instance;
 
-export abstract class PipeReader$instance {
-    abstract advanceTo(consumed: SequencePosition): void;
-    abstract advanceTo(consumed: SequencePosition, examined: SequencePosition): void;
+export interface PipeReader$instance {
+    advanceTo(consumed: SequencePosition): void;
+    advanceTo(consumed: SequencePosition, examined: SequencePosition): void;
     asStream(leaveOpen?: boolean): Stream;
-    abstract cancelPendingRead(): void;
-    abstract complete(exception?: Exception): void;
+    cancelPendingRead(): void;
+    complete(exception?: Exception): void;
     completeAsync(exception?: Exception): ValueTask;
     copyToAsync(destination: PipeWriter, cancellationToken?: CancellationToken): Task;
     copyToAsync(destination: Stream, cancellationToken?: CancellationToken): Task;
     onWriterCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
-    abstract readAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
+    readAsync(cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
     readAtLeastAsync(minimumSize: int, cancellationToken?: CancellationToken): ValueTask_1<ReadResult>;
-    abstract tryRead(result: { value: ref<ReadResult> }): boolean;
-    static create(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
-    static create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+    tryRead(result: { value: ref<ReadResult> }): boolean;
 }
+
+
+export const PipeReader: {
+    create(sequence: ReadOnlySequence_1<CLROf<byte>>): PipeReader;
+    create(stream: Stream, readerOptions?: StreamPipeReaderOptions): PipeReader;
+};
 
 
 export type PipeReader = PipeReader$instance;
 
-export abstract class PipeScheduler$instance {
-    abstract schedule(action: Action_1<unknown>, state: unknown): void;
-    static readonly threadPool: PipeScheduler;
-    static readonly inline: PipeScheduler;
+export interface PipeScheduler$instance {
+    schedule(action: Action_1<unknown>, state: unknown): void;
 }
+
+
+export const PipeScheduler: {
+    readonly threadPool: PipeScheduler;
+    readonly inline: PipeScheduler;
+};
 
 
 export type PipeScheduler = PipeScheduler$instance;
 
-export abstract class PipeWriter$instance {
+export interface PipeWriter$instance {
     readonly canGetUnflushedBytes: boolean;
     readonly unflushedBytes: long;
-    abstract advance(bytes: int): void;
+    advance(bytes: int): void;
     asStream(leaveOpen?: boolean): Stream;
-    abstract cancelPendingFlush(): void;
-    abstract complete(exception?: Exception): void;
+    cancelPendingFlush(): void;
+    complete(exception?: Exception): void;
     completeAsync(exception?: Exception): ValueTask;
-    abstract flushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
-    abstract getMemory(sizeHint?: int): Memory_1<CLROf<byte>>;
-    abstract getSpan(sizeHint?: int): Span_1<CLROf<byte>>;
+    flushAsync(cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
+    getMemory(sizeHint?: int): Memory_1<CLROf<byte>>;
+    getSpan(sizeHint?: int): Span_1<CLROf<byte>>;
     onReaderCompleted(callback: Action_2<Exception, unknown>, state: unknown): void;
     writeAsync(source: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<FlushResult>;
-    static create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
 }
+
+
+export const PipeWriter: {
+    create(stream: Stream, writerOptions?: StreamPipeWriterOptions): PipeWriter;
+};
 
 
 export interface __PipeWriter$views {
@@ -150,9 +178,7 @@ export interface PipeWriter$instance extends System_Buffers_Internal.IBufferWrit
 export type PipeWriter = PipeWriter$instance & __PipeWriter$views;
 
 
-export class StreamPipeReaderOptions$instance {
-    constructor(pool: MemoryPool_1<CLROf<byte>>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean);
-    constructor(pool: MemoryPool_1<CLROf<byte>>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean, useZeroByteReads: boolean);
+export interface StreamPipeReaderOptions$instance {
     readonly bufferSize: int;
     readonly leaveOpen: boolean;
     readonly minimumReadSize: int;
@@ -161,14 +187,24 @@ export class StreamPipeReaderOptions$instance {
 }
 
 
+export const StreamPipeReaderOptions: {
+    new(pool: MemoryPool_1<CLROf<byte>>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean): StreamPipeReaderOptions$instance;
+    new(pool: MemoryPool_1<CLROf<byte>>, bufferSize: int, minimumReadSize: int, leaveOpen: boolean, useZeroByteReads: boolean): StreamPipeReaderOptions$instance;
+};
+
+
 export type StreamPipeReaderOptions = StreamPipeReaderOptions$instance;
 
-export class StreamPipeWriterOptions$instance {
-    constructor(pool: MemoryPool_1<CLROf<byte>>, minimumBufferSize: int, leaveOpen: boolean);
+export interface StreamPipeWriterOptions$instance {
     readonly leaveOpen: boolean;
     readonly minimumBufferSize: int;
     readonly pool: MemoryPool_1<CLROf<byte>>;
 }
+
+
+export const StreamPipeWriterOptions: {
+    new(pool: MemoryPool_1<CLROf<byte>>, minimumBufferSize: int, leaveOpen: boolean): StreamPipeWriterOptions$instance;
+};
 
 
 export type StreamPipeWriterOptions = StreamPipeWriterOptions$instance;

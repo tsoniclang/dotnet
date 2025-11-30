@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67116935,
+          "metadataToken": 67116939,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::NoneSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67116936,
+          "metadataToken": 67116940,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -36,7 +36,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::DisableSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Disable",
           "tsEmitName": "disable",
-          "metadataToken": 67116937,
+          "metadataToken": 67116941,
           "normalizedSignature": "Disable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -47,7 +47,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::RecursiveSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Recursive",
           "tsEmitName": "recursive",
-          "metadataToken": 67116938,
+          "metadataToken": 67116942,
           "normalizedSignature": "Recursive|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -58,7 +58,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventActivityOptions::DetachableSystem.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "Detachable",
           "tsEmitName": "detachable",
-          "metadataToken": 67116939,
+          "metadataToken": 67116943,
           "normalizedSignature": "Detachable|System.Diagnostics.Tracing.EventActivityOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -608,7 +608,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventActivityOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67116935
+            "metadataToken": 67116939
           }
         },
         {
@@ -618,7 +618,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventActivityOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67116936
+            "metadataToken": 67116940
           }
         },
         {
@@ -628,7 +628,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventActivityOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67116937
+            "metadataToken": 67116941
           }
         },
         {
@@ -638,7 +638,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventActivityOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67116938
+            "metadataToken": 67116942
           }
         },
         {
@@ -648,7 +648,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventActivityOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67116939
+            "metadataToken": 67116943
           }
         }
       ]
@@ -666,7 +666,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::value__System.Byte",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117360,
+          "metadataToken": 67117364,
           "normalizedSignature": "value__|System.Byte|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -677,7 +677,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::NoneSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117361,
+          "metadataToken": 67117365,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -688,7 +688,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::AdminSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Admin",
           "tsEmitName": "admin",
-          "metadataToken": 67117362,
+          "metadataToken": 67117366,
           "normalizedSignature": "Admin|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -699,7 +699,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::OperationalSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Operational",
           "tsEmitName": "operational",
-          "metadataToken": 67117363,
+          "metadataToken": 67117367,
           "normalizedSignature": "Operational|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -710,7 +710,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::AnalyticSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Analytic",
           "tsEmitName": "analytic",
-          "metadataToken": 67117364,
+          "metadataToken": 67117368,
           "normalizedSignature": "Analytic|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -721,7 +721,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventChannel::DebugSystem.Diagnostics.Tracing.EventChannel",
           "clrName": "Debug",
           "tsEmitName": "debug",
-          "metadataToken": 67117365,
+          "metadataToken": 67117369,
           "normalizedSignature": "Debug|System.Diagnostics.Tracing.EventChannel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1271,7 +1271,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117360
+            "metadataToken": 67117364
           }
         },
         {
@@ -1281,7 +1281,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117361
+            "metadataToken": 67117365
           }
         },
         {
@@ -1291,7 +1291,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117362
+            "metadataToken": 67117366
           }
         },
         {
@@ -1301,7 +1301,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117363
+            "metadataToken": 67117367
           }
         },
         {
@@ -1311,7 +1311,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117364
+            "metadataToken": 67117368
           }
         },
         {
@@ -1321,7 +1321,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventChannel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117365
+            "metadataToken": 67117369
           }
         }
       ]
@@ -1339,7 +1339,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117147,
+          "metadataToken": 67117151,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -1350,7 +1350,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::UpdateSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Update",
           "tsEmitName": "update",
-          "metadataToken": 67117148,
+          "metadataToken": 67117152,
           "normalizedSignature": "Update|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1361,7 +1361,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::SendManifestSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "SendManifest",
           "tsEmitName": "sendManifest",
-          "metadataToken": 67117149,
+          "metadataToken": 67117153,
           "normalizedSignature": "SendManifest|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1372,7 +1372,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::EnableSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Enable",
           "tsEmitName": "enable",
-          "metadataToken": 67117150,
+          "metadataToken": 67117154,
           "normalizedSignature": "Enable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1383,7 +1383,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommand::DisableSystem.Diagnostics.Tracing.EventCommand",
           "clrName": "Disable",
           "tsEmitName": "disable",
-          "metadataToken": 67117151,
+          "metadataToken": 67117155,
           "normalizedSignature": "Disable|System.Diagnostics.Tracing.EventCommand|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1933,7 +1933,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommand",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117147
+            "metadataToken": 67117151
           }
         },
         {
@@ -1943,7 +1943,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommand",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117148
+            "metadataToken": 67117152
           }
         },
         {
@@ -1953,7 +1953,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommand",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117149
+            "metadataToken": 67117153
           }
         },
         {
@@ -1963,7 +1963,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommand",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117150
+            "metadataToken": 67117154
           }
         },
         {
@@ -1973,7 +1973,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommand",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117151
+            "metadataToken": 67117155
           }
         }
       ]
@@ -1991,7 +1991,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117402,
+          "metadataToken": 67117406,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2002,7 +2002,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::DefaultSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Default",
           "tsEmitName": "default_",
-          "metadataToken": 67117403,
+          "metadataToken": 67117407,
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2013,7 +2013,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::StringSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "String",
           "tsEmitName": "string_",
-          "metadataToken": 67117404,
+          "metadataToken": 67117408,
           "normalizedSignature": "String|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2024,7 +2024,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::BooleanSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Boolean",
           "tsEmitName": "boolean_",
-          "metadataToken": 67117405,
+          "metadataToken": 67117409,
           "normalizedSignature": "Boolean|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2035,7 +2035,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::HexadecimalSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Hexadecimal",
           "tsEmitName": "hexadecimal",
-          "metadataToken": 67117406,
+          "metadataToken": 67117410,
           "normalizedSignature": "Hexadecimal|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2046,7 +2046,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::XmlSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Xml",
           "tsEmitName": "xml",
-          "metadataToken": 67117407,
+          "metadataToken": 67117411,
           "normalizedSignature": "Xml|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2057,7 +2057,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::JsonSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Json",
           "tsEmitName": "json",
-          "metadataToken": 67117408,
+          "metadataToken": 67117412,
           "normalizedSignature": "Json|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2068,7 +2068,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::HResultSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "HResult",
           "tsEmitName": "hResult",
-          "metadataToken": 67117409,
+          "metadataToken": 67117413,
           "normalizedSignature": "HResult|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2618,7 +2618,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117402
+            "metadataToken": 67117406
           }
         },
         {
@@ -2628,7 +2628,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117403
+            "metadataToken": 67117407
           }
         },
         {
@@ -2638,7 +2638,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117404
+            "metadataToken": 67117408
           }
         },
         {
@@ -2648,7 +2648,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117405
+            "metadataToken": 67117409
           }
         },
         {
@@ -2658,7 +2658,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117406
+            "metadataToken": 67117410
           }
         },
         {
@@ -2668,7 +2668,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117407
+            "metadataToken": 67117411
           }
         },
         {
@@ -2678,7 +2678,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117408
+            "metadataToken": 67117412
           }
         },
         {
@@ -2688,7 +2688,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldFormat",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117409
+            "metadataToken": 67117413
           }
         }
       ]
@@ -2706,7 +2706,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldTags::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117397,
+          "metadataToken": 67117401,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -2717,7 +2717,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldTags::NoneSystem.Diagnostics.Tracing.EventFieldTags",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117398,
+          "metadataToken": 67117402,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventFieldTags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3267,7 +3267,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldTags",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117397
+            "metadataToken": 67117401
           }
         },
         {
@@ -3277,7 +3277,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldTags",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117398
+            "metadataToken": 67117402
           }
         }
       ]
@@ -3295,7 +3295,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::value__System.Int64",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117366,
+          "metadataToken": 67117370,
           "normalizedSignature": "value__|System.Int64|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -3306,7 +3306,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::NoneSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117367,
+          "metadataToken": 67117371,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3317,7 +3317,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AllSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "All",
           "tsEmitName": "all",
-          "metadataToken": 67117368,
+          "metadataToken": 67117372,
           "normalizedSignature": "All|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3328,7 +3328,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::MicrosoftTelemetrySystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "MicrosoftTelemetry",
           "tsEmitName": "microsoftTelemetry",
-          "metadataToken": 67117369,
+          "metadataToken": 67117373,
           "normalizedSignature": "MicrosoftTelemetry|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3339,7 +3339,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::WdiContextSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "WdiContext",
           "tsEmitName": "wdiContext",
-          "metadataToken": 67117370,
+          "metadataToken": 67117374,
           "normalizedSignature": "WdiContext|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3350,7 +3350,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::WdiDiagnosticSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "WdiDiagnostic",
           "tsEmitName": "wdiDiagnostic",
-          "metadataToken": 67117371,
+          "metadataToken": 67117375,
           "normalizedSignature": "WdiDiagnostic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3361,7 +3361,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::SqmSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "Sqm",
           "tsEmitName": "sqm",
-          "metadataToken": 67117372,
+          "metadataToken": 67117376,
           "normalizedSignature": "Sqm|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3372,7 +3372,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AuditFailureSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "AuditFailure",
           "tsEmitName": "auditFailure",
-          "metadataToken": 67117373,
+          "metadataToken": 67117377,
           "normalizedSignature": "AuditFailure|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3383,7 +3383,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::AuditSuccessSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "AuditSuccess",
           "tsEmitName": "auditSuccess",
-          "metadataToken": 67117374,
+          "metadataToken": 67117378,
           "normalizedSignature": "AuditSuccess|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3394,7 +3394,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::CorrelationHintSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "CorrelationHint",
           "tsEmitName": "correlationHint",
-          "metadataToken": 67117375,
+          "metadataToken": 67117379,
           "normalizedSignature": "CorrelationHint|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3405,7 +3405,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventKeywords::EventLogClassicSystem.Diagnostics.Tracing.EventKeywords",
           "clrName": "EventLogClassic",
           "tsEmitName": "eventLogClassic",
-          "metadataToken": 67117376,
+          "metadataToken": 67117380,
           "normalizedSignature": "EventLogClassic|System.Diagnostics.Tracing.EventKeywords|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3955,7 +3955,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117366
+            "metadataToken": 67117370
           }
         },
         {
@@ -3965,7 +3965,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117367
+            "metadataToken": 67117371
           }
         },
         {
@@ -3975,7 +3975,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117368
+            "metadataToken": 67117372
           }
         },
         {
@@ -3985,7 +3985,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117369
+            "metadataToken": 67117373
           }
         },
         {
@@ -3995,7 +3995,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117370
+            "metadataToken": 67117374
           }
         },
         {
@@ -4005,7 +4005,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117371
+            "metadataToken": 67117375
           }
         },
         {
@@ -4015,7 +4015,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117372
+            "metadataToken": 67117376
           }
         },
         {
@@ -4025,7 +4025,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117373
+            "metadataToken": 67117377
           }
         },
         {
@@ -4035,7 +4035,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117374
+            "metadataToken": 67117378
           }
         },
         {
@@ -4045,7 +4045,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117375
+            "metadataToken": 67117379
           }
         },
         {
@@ -4055,7 +4055,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventKeywords",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117376
+            "metadataToken": 67117380
           }
         }
       ]
@@ -4073,7 +4073,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117339,
+          "metadataToken": 67117343,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -4084,7 +4084,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::LogAlwaysSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "LogAlways",
           "tsEmitName": "logAlways",
-          "metadataToken": 67117340,
+          "metadataToken": 67117344,
           "normalizedSignature": "LogAlways|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4095,7 +4095,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::CriticalSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Critical",
           "tsEmitName": "critical",
-          "metadataToken": 67117341,
+          "metadataToken": 67117345,
           "normalizedSignature": "Critical|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4106,7 +4106,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::ErrorSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Error",
           "tsEmitName": "error",
-          "metadataToken": 67117342,
+          "metadataToken": 67117346,
           "normalizedSignature": "Error|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4117,7 +4117,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::WarningSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Warning",
           "tsEmitName": "warning",
-          "metadataToken": 67117343,
+          "metadataToken": 67117347,
           "normalizedSignature": "Warning|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4128,7 +4128,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::InformationalSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Informational",
           "tsEmitName": "informational",
-          "metadataToken": 67117344,
+          "metadataToken": 67117348,
           "normalizedSignature": "Informational|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4139,7 +4139,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventLevel::VerboseSystem.Diagnostics.Tracing.EventLevel",
           "clrName": "Verbose",
           "tsEmitName": "verbose",
-          "metadataToken": 67117345,
+          "metadataToken": 67117349,
           "normalizedSignature": "Verbose|System.Diagnostics.Tracing.EventLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4689,7 +4689,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117339
+            "metadataToken": 67117343
           }
         },
         {
@@ -4699,7 +4699,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117340
+            "metadataToken": 67117344
           }
         },
         {
@@ -4709,7 +4709,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117341
+            "metadataToken": 67117345
           }
         },
         {
@@ -4719,7 +4719,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117342
+            "metadataToken": 67117346
           }
         },
         {
@@ -4729,7 +4729,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117343
+            "metadataToken": 67117347
           }
         },
         {
@@ -4739,7 +4739,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117344
+            "metadataToken": 67117348
           }
         },
         {
@@ -4749,7 +4749,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventLevel",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117345
+            "metadataToken": 67117349
           }
         }
       ]
@@ -4767,7 +4767,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117156,
+          "metadataToken": 67117160,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -4778,7 +4778,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::NoneSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117157,
+          "metadataToken": 67117161,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4789,7 +4789,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::StrictSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "Strict",
           "tsEmitName": "strict",
-          "metadataToken": 67117158,
+          "metadataToken": 67117162,
           "normalizedSignature": "Strict|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4800,7 +4800,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::AllCulturesSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "AllCultures",
           "tsEmitName": "allCultures",
-          "metadataToken": 67117159,
+          "metadataToken": 67117163,
           "normalizedSignature": "AllCultures|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4811,7 +4811,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::OnlyIfNeededForRegistrationSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "OnlyIfNeededForRegistration",
           "tsEmitName": "onlyIfNeededForRegistration",
-          "metadataToken": 67117160,
+          "metadataToken": 67117164,
           "normalizedSignature": "OnlyIfNeededForRegistration|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4822,7 +4822,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventManifestOptions::AllowEventSourceOverrideSystem.Diagnostics.Tracing.EventManifestOptions",
           "clrName": "AllowEventSourceOverride",
           "tsEmitName": "allowEventSourceOverride",
-          "metadataToken": 67117161,
+          "metadataToken": 67117165,
           "normalizedSignature": "AllowEventSourceOverride|System.Diagnostics.Tracing.EventManifestOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5372,7 +5372,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117156
+            "metadataToken": 67117160
           }
         },
         {
@@ -5382,7 +5382,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117157
+            "metadataToken": 67117161
           }
         },
         {
@@ -5392,7 +5392,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117158
+            "metadataToken": 67117162
           }
         },
         {
@@ -5402,7 +5402,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117159
+            "metadataToken": 67117163
           }
         },
         {
@@ -5412,7 +5412,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117160
+            "metadataToken": 67117164
           }
         },
         {
@@ -5422,7 +5422,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventManifestOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117161
+            "metadataToken": 67117165
           }
         }
       ]
@@ -5440,7 +5440,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117348,
+          "metadataToken": 67117352,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -5451,7 +5451,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::InfoSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Info",
           "tsEmitName": "info",
-          "metadataToken": 67117349,
+          "metadataToken": 67117353,
           "normalizedSignature": "Info|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5462,7 +5462,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::StartSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Start",
           "tsEmitName": "start",
-          "metadataToken": 67117350,
+          "metadataToken": 67117354,
           "normalizedSignature": "Start|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5473,7 +5473,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::StopSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Stop",
           "tsEmitName": "stop",
-          "metadataToken": 67117351,
+          "metadataToken": 67117355,
           "normalizedSignature": "Stop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5484,7 +5484,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::DataCollectionStartSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "DataCollectionStart",
           "tsEmitName": "dataCollectionStart",
-          "metadataToken": 67117352,
+          "metadataToken": 67117356,
           "normalizedSignature": "DataCollectionStart|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5495,7 +5495,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::DataCollectionStopSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "DataCollectionStop",
           "tsEmitName": "dataCollectionStop",
-          "metadataToken": 67117353,
+          "metadataToken": 67117357,
           "normalizedSignature": "DataCollectionStop|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5506,7 +5506,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ExtensionSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Extension",
           "tsEmitName": "extension",
-          "metadataToken": 67117354,
+          "metadataToken": 67117358,
           "normalizedSignature": "Extension|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5517,7 +5517,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ReplySystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Reply",
           "tsEmitName": "reply",
-          "metadataToken": 67117355,
+          "metadataToken": 67117359,
           "normalizedSignature": "Reply|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5528,7 +5528,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ResumeSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Resume",
           "tsEmitName": "resume",
-          "metadataToken": 67117356,
+          "metadataToken": 67117360,
           "normalizedSignature": "Resume|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5539,7 +5539,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::SuspendSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Suspend",
           "tsEmitName": "suspend",
-          "metadataToken": 67117357,
+          "metadataToken": 67117361,
           "normalizedSignature": "Suspend|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5550,7 +5550,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::SendSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Send",
           "tsEmitName": "send",
-          "metadataToken": 67117358,
+          "metadataToken": 67117362,
           "normalizedSignature": "Send|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5561,7 +5561,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventOpcode::ReceiveSystem.Diagnostics.Tracing.EventOpcode",
           "clrName": "Receive",
           "tsEmitName": "receive",
-          "metadataToken": 67117359,
+          "metadataToken": 67117363,
           "normalizedSignature": "Receive|System.Diagnostics.Tracing.EventOpcode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6111,7 +6111,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117348
+            "metadataToken": 67117352
           }
         },
         {
@@ -6121,7 +6121,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117349
+            "metadataToken": 67117353
           }
         },
         {
@@ -6131,7 +6131,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117350
+            "metadataToken": 67117354
           }
         },
         {
@@ -6141,7 +6141,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117351
+            "metadataToken": 67117355
           }
         },
         {
@@ -6151,7 +6151,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117352
+            "metadataToken": 67117356
           }
         },
         {
@@ -6161,7 +6161,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117353
+            "metadataToken": 67117357
           }
         },
         {
@@ -6171,7 +6171,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117354
+            "metadataToken": 67117358
           }
         },
         {
@@ -6181,7 +6181,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117355
+            "metadataToken": 67117359
           }
         },
         {
@@ -6191,7 +6191,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117356
+            "metadataToken": 67117360
           }
         },
         {
@@ -6201,7 +6201,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117357
+            "metadataToken": 67117361
           }
         },
         {
@@ -6211,7 +6211,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117358
+            "metadataToken": 67117362
           }
         },
         {
@@ -6221,7 +6221,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventOpcode",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117359
+            "metadataToken": 67117363
           }
         }
       ]
@@ -6239,7 +6239,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117086,
+          "metadataToken": 67117090,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6250,7 +6250,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::DefaultSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "Default",
           "tsEmitName": "default_",
-          "metadataToken": 67117087,
+          "metadataToken": 67117091,
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6261,7 +6261,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::ThrowOnEventWriteErrorsSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "ThrowOnEventWriteErrors",
           "tsEmitName": "throwOnEventWriteErrors",
-          "metadataToken": 67117088,
+          "metadataToken": 67117092,
           "normalizedSignature": "ThrowOnEventWriteErrors|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6272,7 +6272,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::EtwManifestEventFormatSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "EtwManifestEventFormat",
           "tsEmitName": "etwManifestEventFormat",
-          "metadataToken": 67117089,
+          "metadataToken": 67117093,
           "normalizedSignature": "EtwManifestEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6283,7 +6283,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::EtwSelfDescribingEventFormatSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "EtwSelfDescribingEventFormat",
           "tsEmitName": "etwSelfDescribingEventFormat",
-          "metadataToken": 67117090,
+          "metadataToken": 67117094,
           "normalizedSignature": "EtwSelfDescribingEventFormat|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6833,7 +6833,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117086
+            "metadataToken": 67117090
           }
         },
         {
@@ -6843,7 +6843,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117087
+            "metadataToken": 67117091
           }
         },
         {
@@ -6853,7 +6853,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117088
+            "metadataToken": 67117092
           }
         },
         {
@@ -6863,7 +6863,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117089
+            "metadataToken": 67117093
           }
         },
         {
@@ -6873,7 +6873,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceSettings",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117090
+            "metadataToken": 67117094
           }
         }
       ]
@@ -6891,7 +6891,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTags::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117590,
+          "metadataToken": 67117594,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -6902,7 +6902,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTags::NoneSystem.Diagnostics.Tracing.EventTags",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117591,
+          "metadataToken": 67117595,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventTags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -7452,7 +7452,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventTags",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117590
+            "metadataToken": 67117594
           }
         },
         {
@@ -7462,7 +7462,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventTags",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117591
+            "metadataToken": 67117595
           }
         }
       ]
@@ -7480,7 +7480,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTask::value__System.Int32",
           "clrName": "value__",
           "tsEmitName": "value__",
-          "metadataToken": 67117346,
+          "metadataToken": 67117350,
           "normalizedSignature": "value__|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -7491,7 +7491,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventTask::NoneSystem.Diagnostics.Tracing.EventTask",
           "clrName": "None",
           "tsEmitName": "none",
-          "metadataToken": 67117347,
+          "metadataToken": 67117351,
           "normalizedSignature": "None|System.Diagnostics.Tracing.EventTask|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -8041,7 +8041,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventTask",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117346
+            "metadataToken": 67117350
           }
         },
         {
@@ -8051,7 +8051,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventTask",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67117347
+            "metadataToken": 67117351
           }
         }
       ]
@@ -8142,7 +8142,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
           "tsEmitName": "level",
-          "metadataToken": 385881089,
+          "metadataToken": 385881050,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventLevel",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8156,7 +8156,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
           "tsEmitName": "opcode",
-          "metadataToken": 385881090,
+          "metadataToken": 385881051,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventOpcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8170,7 +8170,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
           "tsEmitName": "keywords",
-          "metadataToken": 385881092,
+          "metadataToken": 385881053,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventKeywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8184,7 +8184,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
           "tsEmitName": "tags",
-          "metadataToken": 385881093,
+          "metadataToken": 385881054,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventTags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8198,7 +8198,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceOptions::ActivityOptions:System.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "ActivityOptions",
           "tsEmitName": "activityOptions",
-          "metadataToken": 385881094,
+          "metadataToken": 385881055,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventActivityOptions",
           "normalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8282,7 +8282,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881089
+            "metadataToken": 385881050
           }
         },
         {
@@ -8292,7 +8292,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881090
+            "metadataToken": 385881051
           }
         },
         {
@@ -8302,7 +8302,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881092
+            "metadataToken": 385881053
           }
         },
         {
@@ -8312,7 +8312,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881093
+            "metadataToken": 385881054
           }
         },
         {
@@ -8322,7 +8322,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceOptions",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881094
+            "metadataToken": 385881055
           }
         }
       ]
@@ -8338,7 +8338,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::Dispose():System.Void",
           "clrName": "Dispose",
           "tsEmitName": "dispose",
-          "metadataToken": 100702103,
+          "metadataToken": 100702000,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8352,7 +8352,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::AddMetadata(System.String,System.String):System.Void",
           "clrName": "AddMetadata",
           "tsEmitName": "addMetadata",
-          "metadataToken": 100702104,
+          "metadataToken": 100702001,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "AddMetadata|(System.String,System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -8382,7 +8382,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::DisplayName:System.String",
           "clrName": "DisplayName",
           "tsEmitName": "displayName",
-          "metadataToken": 385880956,
+          "metadataToken": 385880917,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "DisplayName|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8396,7 +8396,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::DisplayUnits:System.String",
           "clrName": "DisplayUnits",
           "tsEmitName": "displayUnits",
-          "metadataToken": 385880957,
+          "metadataToken": 385880918,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "DisplayUnits|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8410,7 +8410,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name",
-          "metadataToken": 385880958,
+          "metadataToken": 385880919,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -8424,7 +8424,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.DiagnosticCounter::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
           "tsEmitName": "eventSource",
-          "metadataToken": 385880959,
+          "metadataToken": 385880920,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -8446,7 +8446,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702103
+            "metadataToken": 100702000
           }
         },
         {
@@ -8456,7 +8456,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702104
+            "metadataToken": 100702001
           }
         },
         {
@@ -8538,7 +8538,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880956
+            "metadataToken": 385880917
           }
         },
         {
@@ -8548,7 +8548,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880957
+            "metadataToken": 385880918
           }
         },
         {
@@ -8558,7 +8558,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880958
+            "metadataToken": 385880919
           }
         },
         {
@@ -8568,7 +8568,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880959
+            "metadataToken": 385880920
           }
         }
       ]
@@ -8585,7 +8585,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::EventId:System.Int32",
           "clrName": "EventId",
           "tsEmitName": "eventId",
-          "metadataToken": 385881048,
+          "metadataToken": 385881009,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -8599,7 +8599,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
           "tsEmitName": "level",
-          "metadataToken": 385881049,
+          "metadataToken": 385881010,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventLevel",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8613,7 +8613,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
           "tsEmitName": "keywords",
-          "metadataToken": 385881050,
+          "metadataToken": 385881011,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventKeywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8627,7 +8627,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
           "tsEmitName": "opcode",
-          "metadataToken": 385881051,
+          "metadataToken": 385881012,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventOpcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8641,7 +8641,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Task:System.Diagnostics.Tracing.EventTask",
           "clrName": "Task",
           "tsEmitName": "task",
-          "metadataToken": 385881053,
+          "metadataToken": 385881014,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventTask",
           "normalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8655,7 +8655,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Channel:System.Diagnostics.Tracing.EventChannel",
           "clrName": "Channel",
           "tsEmitName": "channel",
-          "metadataToken": 385881054,
+          "metadataToken": 385881015,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventChannel",
           "normalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8669,7 +8669,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Version:System.Byte",
           "clrName": "Version",
           "tsEmitName": "version",
-          "metadataToken": 385881055,
+          "metadataToken": 385881016,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "Version|:System.Byte|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8683,7 +8683,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385881056,
+          "metadataToken": 385881017,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8697,7 +8697,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
           "tsEmitName": "tags",
-          "metadataToken": 385881057,
+          "metadataToken": 385881018,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventTags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8711,7 +8711,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::ActivityOptions:System.Diagnostics.Tracing.EventActivityOptions",
           "clrName": "ActivityOptions",
           "tsEmitName": "activityOptions",
-          "metadataToken": 385881058,
+          "metadataToken": 385881019,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventActivityOptions",
           "normalizedSignature": "ActivityOptions|:System.Diagnostics.Tracing.EventActivityOptions|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -8727,7 +8727,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventAttribute::.ctor(System.Int32):void",
-          "metadataToken": 100702552,
+          "metadataToken": 100702449,
           "canonicalSignature": "(System.Int32):void",
           "normalizedSignature": "constructor|(System.Int32):void|static=false",
           "isStatic": false,
@@ -8896,7 +8896,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881048
+            "metadataToken": 385881009
           }
         },
         {
@@ -8906,7 +8906,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881049
+            "metadataToken": 385881010
           }
         },
         {
@@ -8916,7 +8916,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881050
+            "metadataToken": 385881011
           }
         },
         {
@@ -8926,7 +8926,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881051
+            "metadataToken": 385881012
           }
         },
         {
@@ -8936,7 +8936,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881053
+            "metadataToken": 385881014
           }
         },
         {
@@ -8946,7 +8946,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881054
+            "metadataToken": 385881015
           }
         },
         {
@@ -8956,7 +8956,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881055
+            "metadataToken": 385881016
           }
         },
         {
@@ -8966,7 +8966,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881056
+            "metadataToken": 385881017
           }
         },
         {
@@ -8976,7 +8976,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881057
+            "metadataToken": 385881018
           }
         },
         {
@@ -8986,7 +8986,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881058
+            "metadataToken": 385881019
           }
         },
         {
@@ -9007,7 +9007,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702552
+            "metadataToken": 100702449
           }
         }
       ]
@@ -9023,7 +9023,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::EnableEvent(System.Int32):System.Boolean",
           "clrName": "EnableEvent",
           "tsEmitName": "enableEvent",
-          "metadataToken": 100702507,
+          "metadataToken": 100702404,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "EnableEvent|(System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -9037,7 +9037,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::DisableEvent(System.Int32):System.Boolean",
           "clrName": "DisableEvent",
           "tsEmitName": "disableEvent",
-          "metadataToken": 100702508,
+          "metadataToken": 100702405,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "DisableEvent|(System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -9053,7 +9053,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::Command:System.Diagnostics.Tracing.EventCommand",
           "clrName": "Command",
           "tsEmitName": "command",
-          "metadataToken": 385881023,
+          "metadataToken": 385880984,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventCommand",
           "normalizedSignature": "Command|:System.Diagnostics.Tracing.EventCommand|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -9067,7 +9067,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCommandEventArgs::Arguments:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Arguments",
           "tsEmitName": "arguments",
-          "metadataToken": 385881024,
+          "metadataToken": 385880985,
           "canonicalSignature": ":System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Arguments|:System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -9089,7 +9089,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702507
+            "metadataToken": 100702404
           }
         },
         {
@@ -9099,7 +9099,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702508
+            "metadataToken": 100702405
           }
         },
         {
@@ -9171,7 +9171,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881023
+            "metadataToken": 385880984
           }
         },
         {
@@ -9181,7 +9181,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCommandEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881024
+            "metadataToken": 385880985
           }
         }
       ]
@@ -9197,7 +9197,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Single):System.Void",
           "clrName": "WriteMetric",
           "tsEmitName": "writeMetric",
-          "metadataToken": 100702194,
+          "metadataToken": 100702091,
           "canonicalSignature": "(System.Single):System.Void",
           "normalizedSignature": "WriteMetric|(System.Single):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9211,7 +9211,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::WriteMetric(System.Double):System.Void",
           "clrName": "WriteMetric",
           "tsEmitName": "writeMetric",
-          "metadataToken": 100702195,
+          "metadataToken": 100702092,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "WriteMetric|(System.Double):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -9225,7 +9225,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100702196,
+          "metadataToken": 100702093,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -9270,7 +9270,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventCounter::.ctor(System.String,System.Diagnostics.Tracing.EventSource):void",
-          "metadataToken": 100702193,
+          "metadataToken": 100702090,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSource):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource):void|static=false",
           "isStatic": false,
@@ -9287,7 +9287,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702194
+            "metadataToken": 100702091
           }
         },
         {
@@ -9297,7 +9297,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702195
+            "metadataToken": 100702092
           }
         },
         {
@@ -9307,7 +9307,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702196
+            "metadataToken": 100702093
           }
         },
         {
@@ -9337,7 +9337,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702104
+            "metadataToken": 100702001
           }
         },
         {
@@ -9399,7 +9399,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880956
+            "metadataToken": 385880917
           }
         },
         {
@@ -9409,7 +9409,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880957
+            "metadataToken": 385880918
           }
         },
         {
@@ -9419,7 +9419,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880958
+            "metadataToken": 385880919
           }
         },
         {
@@ -9429,7 +9429,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880959
+            "metadataToken": 385880920
           }
         }
       ],
@@ -9440,7 +9440,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702193
+            "metadataToken": 100702090
           }
         }
       ]
@@ -9457,7 +9457,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventDataAttribute::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name",
-          "metadataToken": 385881074,
+          "metadataToken": 385881035,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -9473,7 +9473,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventDataAttribute::.ctor():void",
-          "metadataToken": 100702918,
+          "metadataToken": 100702815,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -9642,7 +9642,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventDataAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881074
+            "metadataToken": 385881035
           }
         },
         {
@@ -9663,7 +9663,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventDataAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702918
+            "metadataToken": 100702815
           }
         }
       ]
@@ -9680,7 +9680,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldAttribute::Tags:System.Diagnostics.Tracing.EventFieldTags",
           "clrName": "Tags",
           "tsEmitName": "tags",
-          "metadataToken": 385881079,
+          "metadataToken": 385881040,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventFieldTags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventFieldTags|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -9694,7 +9694,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldAttribute::Format:System.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Format",
           "tsEmitName": "format",
-          "metadataToken": 385881081,
+          "metadataToken": 385881042,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventFieldFormat",
           "normalizedSignature": "Format|:System.Diagnostics.Tracing.EventFieldFormat|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -9710,7 +9710,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldAttribute::.ctor():void",
-          "metadataToken": 100702924,
+          "metadataToken": 100702821,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -9879,7 +9879,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881079
+            "metadataToken": 385881040
           }
         },
         {
@@ -9889,7 +9889,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881081
+            "metadataToken": 385881042
           }
         },
         {
@@ -9910,7 +9910,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventFieldAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702924
+            "metadataToken": 100702821
           }
         }
       ]
@@ -9928,7 +9928,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventIgnoreAttribute::.ctor():void",
-          "metadataToken": 100702925,
+          "metadataToken": 100702822,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -10108,7 +10108,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventIgnoreAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702925
+            "metadataToken": 100702822
           }
         }
       ]
@@ -10124,7 +10124,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::Dispose():System.Void",
           "clrName": "Dispose",
           "tsEmitName": "dispose",
-          "metadataToken": 100702486,
+          "metadataToken": 100702383,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10138,7 +10138,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void",
           "clrName": "EnableEvents",
           "tsEmitName": "enableEvents",
-          "metadataToken": 100702487,
+          "metadataToken": 100702384,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10152,7 +10152,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void",
           "clrName": "EnableEvents",
           "tsEmitName": "enableEvents",
-          "metadataToken": 100702488,
+          "metadataToken": 100702385,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10166,7 +10166,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::EnableEvents(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "EnableEvents",
           "tsEmitName": "enableEvents",
-          "metadataToken": 100702489,
+          "metadataToken": 100702386,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "EnableEvents|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10180,7 +10180,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventListener::DisableEvents(System.Diagnostics.Tracing.EventSource):System.Void",
           "clrName": "DisableEvents",
           "tsEmitName": "disableEvents",
-          "metadataToken": 100702490,
+          "metadataToken": 100702387,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventSource):System.Void",
           "normalizedSignature": "DisableEvents|(System.Diagnostics.Tracing.EventSource):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10238,7 +10238,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventListener",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702486
+            "metadataToken": 100702383
           }
         },
         {
@@ -10248,7 +10248,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventListener",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702487
+            "metadataToken": 100702384
           }
         },
         {
@@ -10258,7 +10258,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventListener",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702488
+            "metadataToken": 100702385
           }
         },
         {
@@ -10268,7 +10268,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventListener",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702489
+            "metadataToken": 100702386
           }
         },
         {
@@ -10278,7 +10278,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventListener",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702490
+            "metadataToken": 100702387
           }
         },
         {
@@ -10386,7 +10386,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled():System.Boolean",
           "clrName": "IsEnabled",
           "tsEmitName": "isEnabled",
-          "metadataToken": 100702325,
+          "metadataToken": 100702222,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "IsEnabled|():System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -10400,7 +10400,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean",
           "clrName": "IsEnabled",
           "tsEmitName": "isEnabled",
-          "metadataToken": 100702326,
+          "metadataToken": 100702223,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean",
           "normalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -10414,7 +10414,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean",
           "clrName": "IsEnabled",
           "tsEmitName": "isEnabled",
-          "metadataToken": 100702327,
+          "metadataToken": 100702224,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean",
           "normalizedSignature": "IsEnabled|(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords,System.Diagnostics.Tracing.EventChannel):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -10428,7 +10428,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetGuid(System.Type):System.Guid",
           "clrName": "GetGuid",
           "tsEmitName": "getGuid",
-          "metadataToken": 100702329,
+          "metadataToken": 100702226,
           "canonicalSignature": "(System.Type):System.Guid",
           "normalizedSignature": "GetGuid|(System.Type):System.Guid|static=true",
           "emitScope": "ClassSurface",
@@ -10442,7 +10442,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetName(System.Type):System.String",
           "clrName": "GetName",
           "tsEmitName": "getName",
-          "metadataToken": 100702330,
+          "metadataToken": 100702227,
           "canonicalSignature": "(System.Type):System.String",
           "normalizedSignature": "GetName|(System.Type):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -10456,7 +10456,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String):System.String",
           "clrName": "GenerateManifest",
           "tsEmitName": "generateManifest",
-          "metadataToken": 100702331,
+          "metadataToken": 100702228,
           "canonicalSignature": "(System.Type,System.String):System.String",
           "normalizedSignature": "GenerateManifest|(System.Type,System.String):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -10470,7 +10470,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GenerateManifest(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String",
           "clrName": "GenerateManifest",
           "tsEmitName": "generateManifest",
-          "metadataToken": 100702332,
+          "metadataToken": 100702229,
           "canonicalSignature": "(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String",
           "normalizedSignature": "GenerateManifest|(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions):System.String|static=true",
           "emitScope": "ClassSurface",
@@ -10484,7 +10484,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetSources():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "GetSources",
           "tsEmitName": "getSources",
-          "metadataToken": 100702333,
+          "metadataToken": 100702230,
           "canonicalSignature": "():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "GetSources|():System.Collections.Generic.IEnumerable_1[[System.Diagnostics.Tracing.EventSource,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=true",
           "emitScope": "ClassSurface",
@@ -10498,7 +10498,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SendCommand(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "SendCommand",
           "tsEmitName": "sendCommand",
-          "metadataToken": 100702334,
+          "metadataToken": 100702231,
           "canonicalSignature": "(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "SendCommand|(System.Diagnostics.Tracing.EventSource,System.Diagnostics.Tracing.EventCommand,System.Collections.Generic.IDictionary_2[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -10512,7 +10512,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::GetTrait(System.String):System.String",
           "clrName": "GetTrait",
           "tsEmitName": "getTrait",
-          "metadataToken": 100702336,
+          "metadataToken": 100702233,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "GetTrait|(System.String):System.String|static=false",
           "emitScope": "ClassSurface",
@@ -10526,7 +10526,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100702337,
+          "metadataToken": 100702234,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -10540,7 +10540,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid):System.Void",
           "clrName": "SetCurrentThreadActivityId",
           "tsEmitName": "setCurrentThreadActivityId",
-          "metadataToken": 100702340,
+          "metadataToken": 100702237,
           "canonicalSignature": "(System.Guid):System.Void",
           "normalizedSignature": "SetCurrentThreadActivityId|(System.Guid):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -10554,7 +10554,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::SetCurrentThreadActivityId(System.Guid,System.Guid\u0026):System.Void",
           "clrName": "SetCurrentThreadActivityId",
           "tsEmitName": "setCurrentThreadActivityId",
-          "metadataToken": 100702342,
+          "metadataToken": 100702239,
           "canonicalSignature": "(System.Guid,System.Guid\u0026):System.Void",
           "normalizedSignature": "SetCurrentThreadActivityId|(System.Guid,System.Guid\u0026):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -10568,7 +10568,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Dispose():System.Void",
           "clrName": "Dispose",
           "tsEmitName": "dispose",
-          "metadataToken": 100702372,
+          "metadataToken": 100702269,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Dispose|():System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10582,7 +10582,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702422,
+          "metadataToken": 100702319,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Write|(System.String):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10596,7 +10596,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702423,
+          "metadataToken": 100702320,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10610,7 +10610,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,T):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702424,
+          "metadataToken": 100702321,
           "canonicalSignature": "(System.String,T):System.Void",
           "normalizedSignature": "Write|(System.String,T):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10624,7 +10624,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702425,
+          "metadataToken": 100702322,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions,T):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10638,7 +10638,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702426,
+          "metadataToken": 100702323,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,T\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10652,7 +10652,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Write(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void",
           "clrName": "Write",
           "tsEmitName": "write",
-          "metadataToken": 100702427,
+          "metadataToken": 100702324,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void",
           "normalizedSignature": "Write|(System.String,System.Diagnostics.Tracing.EventSourceOptions\u0026,System.Guid\u0026,System.Guid\u0026,T\u0026):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -10682,7 +10682,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name",
-          "metadataToken": 385881007,
+          "metadataToken": 385880968,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -10696,7 +10696,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Guid:System.Guid",
           "clrName": "Guid",
           "tsEmitName": "guid",
-          "metadataToken": 385881008,
+          "metadataToken": 385880969,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "Guid|:System.Guid|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -10710,7 +10710,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::Settings:System.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "Settings",
           "tsEmitName": "settings",
-          "metadataToken": 385881009,
+          "metadataToken": 385880970,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventSourceSettings",
           "normalizedSignature": "Settings|:System.Diagnostics.Tracing.EventSourceSettings|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -10724,7 +10724,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::ConstructionException:System.Exception",
           "clrName": "ConstructionException",
           "tsEmitName": "constructionException",
-          "metadataToken": 385881010,
+          "metadataToken": 385880971,
           "canonicalSignature": ":System.Exception",
           "normalizedSignature": "ConstructionException|:System.Exception|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -10738,7 +10738,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::CurrentThreadActivityId:System.Guid",
           "clrName": "CurrentThreadActivityId",
           "tsEmitName": "currentThreadActivityId",
-          "metadataToken": 385881011,
+          "metadataToken": 385880972,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "CurrentThreadActivityId|:System.Guid|static=true|accessor=get",
           "emitScope": "ClassSurface",
@@ -10765,7 +10765,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::.ctor(System.String):void",
-          "metadataToken": 100702419,
+          "metadataToken": 100702316,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -10775,7 +10775,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::.ctor(System.String,System.Diagnostics.Tracing.EventSourceSettings):void",
-          "metadataToken": 100702420,
+          "metadataToken": 100702317,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceSettings):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSourceSettings):void|static=false",
           "isStatic": false,
@@ -10785,7 +10785,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSource::.ctor(System.String,System.Diagnostics.Tracing.EventSourceSettings,System.String[]):void",
-          "metadataToken": 100702421,
+          "metadataToken": 100702318,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSourceSettings,System.String[]):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSourceSettings,System.String[]):void|static=false",
           "isStatic": false,
@@ -10802,7 +10802,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702325
+            "metadataToken": 100702222
           }
         },
         {
@@ -10812,7 +10812,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702326
+            "metadataToken": 100702223
           }
         },
         {
@@ -10822,7 +10822,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702327
+            "metadataToken": 100702224
           }
         },
         {
@@ -10832,7 +10832,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702329
+            "metadataToken": 100702226
           }
         },
         {
@@ -10842,7 +10842,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702330
+            "metadataToken": 100702227
           }
         },
         {
@@ -10852,7 +10852,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702331
+            "metadataToken": 100702228
           }
         },
         {
@@ -10862,7 +10862,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702332
+            "metadataToken": 100702229
           }
         },
         {
@@ -10872,7 +10872,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702333
+            "metadataToken": 100702230
           }
         },
         {
@@ -10882,7 +10882,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702334
+            "metadataToken": 100702231
           }
         },
         {
@@ -10892,7 +10892,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702336
+            "metadataToken": 100702233
           }
         },
         {
@@ -10902,7 +10902,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702337
+            "metadataToken": 100702234
           }
         },
         {
@@ -10912,7 +10912,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702340
+            "metadataToken": 100702237
           }
         },
         {
@@ -10922,7 +10922,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702342
+            "metadataToken": 100702239
           }
         },
         {
@@ -10932,7 +10932,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702372
+            "metadataToken": 100702269
           }
         },
         {
@@ -10942,7 +10942,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702422
+            "metadataToken": 100702319
           }
         },
         {
@@ -10952,7 +10952,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702423
+            "metadataToken": 100702320
           }
         },
         {
@@ -10962,7 +10962,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702424
+            "metadataToken": 100702321
           }
         },
         {
@@ -10972,7 +10972,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702425
+            "metadataToken": 100702322
           }
         },
         {
@@ -10982,7 +10982,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702426
+            "metadataToken": 100702323
           }
         },
         {
@@ -10992,7 +10992,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702427
+            "metadataToken": 100702324
           }
         },
         {
@@ -11064,7 +11064,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881007
+            "metadataToken": 385880968
           }
         },
         {
@@ -11074,7 +11074,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881008
+            "metadataToken": 385880969
           }
         },
         {
@@ -11084,7 +11084,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881009
+            "metadataToken": 385880970
           }
         },
         {
@@ -11094,7 +11094,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881010
+            "metadataToken": 385880971
           }
         },
         {
@@ -11104,7 +11104,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881011
+            "metadataToken": 385880972
           }
         }
       ],
@@ -11127,7 +11127,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702419
+            "metadataToken": 100702316
           }
         },
         {
@@ -11136,7 +11136,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702420
+            "metadataToken": 100702317
           }
         },
         {
@@ -11145,7 +11145,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSource",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702421
+            "metadataToken": 100702318
           }
         }
       ]
@@ -11162,7 +11162,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::Name:System.String",
           "clrName": "Name",
           "tsEmitName": "name",
-          "metadataToken": 385881045,
+          "metadataToken": 385881006,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Name|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -11176,7 +11176,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::Guid:System.String",
           "clrName": "Guid",
           "tsEmitName": "guid",
-          "metadataToken": 385881046,
+          "metadataToken": 385881007,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Guid|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -11190,7 +11190,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::LocalizationResources:System.String",
           "clrName": "LocalizationResources",
           "tsEmitName": "localizationResources",
-          "metadataToken": 385881047,
+          "metadataToken": 385881008,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "LocalizationResources|:System.String|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -11206,7 +11206,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceAttribute::.ctor():void",
-          "metadataToken": 100702551,
+          "metadataToken": 100702448,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11375,7 +11375,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881045
+            "metadataToken": 385881006
           }
         },
         {
@@ -11385,7 +11385,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881046
+            "metadataToken": 385881007
           }
         },
         {
@@ -11395,7 +11395,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881047
+            "metadataToken": 385881008
           }
         },
         {
@@ -11416,7 +11416,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702551
+            "metadataToken": 100702448
           }
         }
       ]
@@ -11433,7 +11433,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceCreatedEventArgs::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
           "tsEmitName": "eventSource",
-          "metadataToken": 385881025,
+          "metadataToken": 385880986,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11449,7 +11449,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceCreatedEventArgs::.ctor():void",
-          "metadataToken": 100702512,
+          "metadataToken": 100702409,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11528,7 +11528,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceCreatedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881025
+            "metadataToken": 385880986
           }
         }
       ],
@@ -11539,7 +11539,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceCreatedEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702512
+            "metadataToken": 100702409
           }
         }
       ]
@@ -11555,7 +11555,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.Serialization.ISerializable::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "clrName": "GetObjectData",
           "tsEmitName": "getObjectData$view",
-          "metadataToken": 100682669,
+          "metadataToken": 100682649,
           "canonicalSignature": "(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void",
           "normalizedSignature": "GetObjectData|(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext):System.Void|static=false",
           "emitScope": "ViewOnly",
@@ -11586,7 +11586,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::.ctor():void",
-          "metadataToken": 100702619,
+          "metadataToken": 100702516,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -11596,7 +11596,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::.ctor(System.String):void",
-          "metadataToken": 100702620,
+          "metadataToken": 100702517,
           "canonicalSignature": "(System.String):void",
           "normalizedSignature": "constructor|(System.String):void|static=false",
           "isStatic": false,
@@ -11606,7 +11606,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceException::.ctor(System.String,System.Exception):void",
-          "metadataToken": 100702621,
+          "metadataToken": 100702518,
           "canonicalSignature": "(System.String,System.Exception):void",
           "normalizedSignature": "constructor|(System.String,System.Exception):void|static=false",
           "isStatic": false,
@@ -11623,7 +11623,7 @@
           "target": {
             "declaringClrType": "System.Runtime.Serialization.ISerializable",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682669
+            "metadataToken": 100682649
           }
         },
         {
@@ -11715,7 +11715,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876072
+            "metadataToken": 385876073
           }
         },
         {
@@ -11725,7 +11725,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876075
+            "metadataToken": 385876076
           }
         },
         {
@@ -11735,7 +11735,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876076
+            "metadataToken": 385876077
           }
         },
         {
@@ -11745,7 +11745,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876077
+            "metadataToken": 385876078
           }
         },
         {
@@ -11755,7 +11755,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876078
+            "metadataToken": 385876079
           }
         },
         {
@@ -11765,7 +11765,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876079
+            "metadataToken": 385876080
           }
         },
         {
@@ -11775,7 +11775,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876080
+            "metadataToken": 385876081
           }
         },
         {
@@ -11785,7 +11785,7 @@
           "target": {
             "declaringClrType": "System.Exception",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385876081
+            "metadataToken": 385876082
           }
         }
       ],
@@ -11796,7 +11796,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702619
+            "metadataToken": 100702516
           }
         },
         {
@@ -11805,7 +11805,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702620
+            "metadataToken": 100702517
           }
         },
         {
@@ -11814,7 +11814,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventSourceException",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702621
+            "metadataToken": 100702518
           }
         }
       ]
@@ -11831,7 +11831,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventName:System.String",
           "clrName": "EventName",
           "tsEmitName": "eventName",
-          "metadataToken": 385881027,
+          "metadataToken": 385880988,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "EventName|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11845,7 +11845,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventId:System.Int32",
           "clrName": "EventId",
           "tsEmitName": "eventId",
-          "metadataToken": 385881028,
+          "metadataToken": 385880989,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "EventId|:System.Int32|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11859,7 +11859,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::ActivityId:System.Guid",
           "clrName": "ActivityId",
           "tsEmitName": "activityId",
-          "metadataToken": 385881029,
+          "metadataToken": 385880990,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "ActivityId|:System.Guid|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11873,7 +11873,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::RelatedActivityId:System.Guid",
           "clrName": "RelatedActivityId",
           "tsEmitName": "relatedActivityId",
-          "metadataToken": 385881030,
+          "metadataToken": 385880991,
           "canonicalSignature": ":System.Guid",
           "normalizedSignature": "RelatedActivityId|:System.Guid|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11887,7 +11887,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Payload:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Payload",
           "tsEmitName": "payload",
-          "metadataToken": 385881031,
+          "metadataToken": 385880992,
           "canonicalSignature": ":System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "Payload|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11901,7 +11901,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::PayloadNames:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "PayloadNames",
           "tsEmitName": "payloadNames",
-          "metadataToken": 385881032,
+          "metadataToken": 385880993,
           "canonicalSignature": ":System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "normalizedSignature": "PayloadNames|:System.Collections.ObjectModel.ReadOnlyCollection_1[[System.String,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11915,7 +11915,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::EventSource:System.Diagnostics.Tracing.EventSource",
           "clrName": "EventSource",
           "tsEmitName": "eventSource",
-          "metadataToken": 385881033,
+          "metadataToken": 385880994,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventSource",
           "normalizedSignature": "EventSource|:System.Diagnostics.Tracing.EventSource|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11929,7 +11929,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Keywords:System.Diagnostics.Tracing.EventKeywords",
           "clrName": "Keywords",
           "tsEmitName": "keywords",
-          "metadataToken": 385881034,
+          "metadataToken": 385880995,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventKeywords",
           "normalizedSignature": "Keywords|:System.Diagnostics.Tracing.EventKeywords|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11943,7 +11943,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Opcode:System.Diagnostics.Tracing.EventOpcode",
           "clrName": "Opcode",
           "tsEmitName": "opcode",
-          "metadataToken": 385881035,
+          "metadataToken": 385880996,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventOpcode",
           "normalizedSignature": "Opcode|:System.Diagnostics.Tracing.EventOpcode|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11957,7 +11957,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Task:System.Diagnostics.Tracing.EventTask",
           "clrName": "Task",
           "tsEmitName": "task",
-          "metadataToken": 385881036,
+          "metadataToken": 385880997,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventTask",
           "normalizedSignature": "Task|:System.Diagnostics.Tracing.EventTask|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11971,7 +11971,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Tags:System.Diagnostics.Tracing.EventTags",
           "clrName": "Tags",
           "tsEmitName": "tags",
-          "metadataToken": 385881037,
+          "metadataToken": 385880998,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventTags",
           "normalizedSignature": "Tags|:System.Diagnostics.Tracing.EventTags|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11985,7 +11985,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Message:System.String",
           "clrName": "Message",
           "tsEmitName": "message",
-          "metadataToken": 385881038,
+          "metadataToken": 385880999,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Message|:System.String|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -11999,7 +11999,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Channel:System.Diagnostics.Tracing.EventChannel",
           "clrName": "Channel",
           "tsEmitName": "channel",
-          "metadataToken": 385881039,
+          "metadataToken": 385881000,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventChannel",
           "normalizedSignature": "Channel|:System.Diagnostics.Tracing.EventChannel|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -12013,7 +12013,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Version:System.Byte",
           "clrName": "Version",
           "tsEmitName": "version",
-          "metadataToken": 385881040,
+          "metadataToken": 385881001,
           "canonicalSignature": ":System.Byte",
           "normalizedSignature": "Version|:System.Byte|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -12027,7 +12027,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::Level:System.Diagnostics.Tracing.EventLevel",
           "clrName": "Level",
           "tsEmitName": "level",
-          "metadataToken": 385881041,
+          "metadataToken": 385881002,
           "canonicalSignature": ":System.Diagnostics.Tracing.EventLevel",
           "normalizedSignature": "Level|:System.Diagnostics.Tracing.EventLevel|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -12041,7 +12041,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::OSThreadId:System.Int64",
           "clrName": "OSThreadId",
           "tsEmitName": "osThreadId",
-          "metadataToken": 385881042,
+          "metadataToken": 385881003,
           "canonicalSignature": ":System.Int64",
           "normalizedSignature": "OSThreadId|:System.Int64|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -12055,7 +12055,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventWrittenEventArgs::TimeStamp:System.DateTime",
           "clrName": "TimeStamp",
           "tsEmitName": "timeStamp",
-          "metadataToken": 385881043,
+          "metadataToken": 385881004,
           "canonicalSignature": ":System.DateTime",
           "normalizedSignature": "TimeStamp|:System.DateTime|static=false|accessor=get",
           "emitScope": "ClassSurface",
@@ -12139,7 +12139,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881027
+            "metadataToken": 385880988
           }
         },
         {
@@ -12149,7 +12149,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881028
+            "metadataToken": 385880989
           }
         },
         {
@@ -12159,7 +12159,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881029
+            "metadataToken": 385880990
           }
         },
         {
@@ -12169,7 +12169,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881030
+            "metadataToken": 385880991
           }
         },
         {
@@ -12179,7 +12179,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881031
+            "metadataToken": 385880992
           }
         },
         {
@@ -12189,7 +12189,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881032
+            "metadataToken": 385880993
           }
         },
         {
@@ -12199,7 +12199,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881033
+            "metadataToken": 385880994
           }
         },
         {
@@ -12209,7 +12209,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881034
+            "metadataToken": 385880995
           }
         },
         {
@@ -12219,7 +12219,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881035
+            "metadataToken": 385880996
           }
         },
         {
@@ -12229,7 +12229,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881036
+            "metadataToken": 385880997
           }
         },
         {
@@ -12239,7 +12239,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881037
+            "metadataToken": 385880998
           }
         },
         {
@@ -12249,7 +12249,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881038
+            "metadataToken": 385880999
           }
         },
         {
@@ -12259,7 +12259,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881039
+            "metadataToken": 385881000
           }
         },
         {
@@ -12269,7 +12269,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881040
+            "metadataToken": 385881001
           }
         },
         {
@@ -12279,7 +12279,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881041
+            "metadataToken": 385881002
           }
         },
         {
@@ -12289,7 +12289,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881042
+            "metadataToken": 385881003
           }
         },
         {
@@ -12299,7 +12299,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.EventWrittenEventArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881043
+            "metadataToken": 385881004
           }
         }
       ]
@@ -12315,7 +12315,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::Increment(System.Double):System.Void",
           "clrName": "Increment",
           "tsEmitName": "increment",
-          "metadataToken": 100702638,
+          "metadataToken": 100702535,
           "canonicalSignature": "(System.Double):System.Void",
           "normalizedSignature": "Increment|(System.Double):System.Void|static=false",
           "emitScope": "ClassSurface",
@@ -12329,7 +12329,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100702641,
+          "metadataToken": 100702538,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -12373,7 +12373,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::DisplayRateTimeScale:System.TimeSpan",
           "clrName": "DisplayRateTimeScale",
           "tsEmitName": "displayRateTimeScale",
-          "metadataToken": 385881065,
+          "metadataToken": 385881026,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -12389,7 +12389,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingEventCounter::.ctor(System.String,System.Diagnostics.Tracing.EventSource):void",
-          "metadataToken": 100702637,
+          "metadataToken": 100702534,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSource):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource):void|static=false",
           "isStatic": false,
@@ -12406,7 +12406,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702638
+            "metadataToken": 100702535
           }
         },
         {
@@ -12416,7 +12416,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702641
+            "metadataToken": 100702538
           }
         },
         {
@@ -12446,7 +12446,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702104
+            "metadataToken": 100702001
           }
         },
         {
@@ -12508,7 +12508,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881065
+            "metadataToken": 385881026
           }
         },
         {
@@ -12518,7 +12518,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880956
+            "metadataToken": 385880917
           }
         },
         {
@@ -12528,7 +12528,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880957
+            "metadataToken": 385880918
           }
         },
         {
@@ -12538,7 +12538,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880958
+            "metadataToken": 385880919
           }
         },
         {
@@ -12548,7 +12548,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880959
+            "metadataToken": 385880920
           }
         }
       ],
@@ -12559,7 +12559,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingEventCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702637
+            "metadataToken": 100702534
           }
         }
       ]
@@ -12575,7 +12575,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100702648,
+          "metadataToken": 100702545,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -12619,7 +12619,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::DisplayRateTimeScale:System.TimeSpan",
           "clrName": "DisplayRateTimeScale",
           "tsEmitName": "displayRateTimeScale",
-          "metadataToken": 385881067,
+          "metadataToken": 385881028,
           "canonicalSignature": ":System.TimeSpan",
           "normalizedSignature": "DisplayRateTimeScale|:System.TimeSpan|static=false|accessor=getset",
           "emitScope": "ClassSurface",
@@ -12635,7 +12635,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.IncrementingPollingCounter::.ctor(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
-          "metadataToken": 100702647,
+          "metadataToken": 100702544,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
@@ -12652,7 +12652,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingPollingCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702648
+            "metadataToken": 100702545
           }
         },
         {
@@ -12682,7 +12682,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702104
+            "metadataToken": 100702001
           }
         },
         {
@@ -12744,7 +12744,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingPollingCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385881067
+            "metadataToken": 385881028
           }
         },
         {
@@ -12754,7 +12754,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880956
+            "metadataToken": 385880917
           }
         },
         {
@@ -12764,7 +12764,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880957
+            "metadataToken": 385880918
           }
         },
         {
@@ -12774,7 +12774,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880958
+            "metadataToken": 385880919
           }
         },
         {
@@ -12784,7 +12784,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880959
+            "metadataToken": 385880920
           }
         }
       ],
@@ -12795,7 +12795,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.IncrementingPollingCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702647
+            "metadataToken": 100702544
           }
         }
       ]
@@ -12813,7 +12813,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.NonEventAttribute::.ctor():void",
-          "metadataToken": 100702573,
+          "metadataToken": 100702470,
           "canonicalSignature": "():void",
           "normalizedSignature": "constructor|():void|static=false",
           "isStatic": false,
@@ -12993,7 +12993,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.NonEventAttribute",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702573
+            "metadataToken": 100702470
           }
         }
       ]
@@ -13009,7 +13009,7 @@
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::ToString():System.String",
           "clrName": "ToString",
           "tsEmitName": "toString",
-          "metadataToken": 100702842,
+          "metadataToken": 100702739,
           "canonicalSignature": "():System.String",
           "normalizedSignature": "ToString|():System.String|static=false",
           "emitScope": "ClassSurface",
@@ -13054,7 +13054,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.PollingCounter::.ctor(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
-          "metadataToken": 100702841,
+          "metadataToken": 100702738,
           "canonicalSignature": "(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void",
           "normalizedSignature": "constructor|(System.String,System.Diagnostics.Tracing.EventSource,System.Func_1[[System.Double,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):void|static=false",
           "isStatic": false,
@@ -13071,7 +13071,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.PollingCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702842
+            "metadataToken": 100702739
           }
         },
         {
@@ -13101,7 +13101,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702104
+            "metadataToken": 100702001
           }
         },
         {
@@ -13163,7 +13163,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880956
+            "metadataToken": 385880917
           }
         },
         {
@@ -13173,7 +13173,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880957
+            "metadataToken": 385880918
           }
         },
         {
@@ -13183,7 +13183,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880958
+            "metadataToken": 385880919
           }
         },
         {
@@ -13193,7 +13193,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.DiagnosticCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 385880959
+            "metadataToken": 385880920
           }
         }
       ],
@@ -13204,7 +13204,7 @@
           "target": {
             "declaringClrType": "System.Diagnostics.Tracing.PollingCounter",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100702841
+            "metadataToken": 100702738
           }
         }
       ]

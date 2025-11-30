@@ -178,13 +178,17 @@ export interface ISymbolWriter$instance {
 
 export type ISymbolWriter = ISymbolWriter$instance;
 
-export class SymbolToken$instance {
-    constructor(val: int);
+export interface SymbolToken$instance {
     equals(obj: unknown): boolean;
     equals(obj: SymbolToken): boolean;
     getHashCode(): int;
     getToken(): int;
 }
+
+
+export const SymbolToken: {
+    new(val: int): SymbolToken$instance;
+};
 
 
 export interface __SymbolToken$views {
@@ -197,36 +201,48 @@ export interface __SymbolToken$views {
 export type SymbolToken = SymbolToken$instance & __SymbolToken$views;
 
 
-export class SymDocumentType$instance {
-    constructor();
-    static readonly text: Guid;
+export interface SymDocumentType$instance {
 }
+
+
+export const SymDocumentType: {
+    new(): SymDocumentType$instance;
+    readonly text: Guid;
+};
 
 
 export type SymDocumentType = SymDocumentType$instance;
 
-export class SymLanguageType$instance {
-    constructor();
-    static readonly C: Guid;
-    static readonly cPlusPlus: Guid;
-    static readonly cSharp: Guid;
-    static readonly basic: Guid;
-    static readonly java: Guid;
-    static readonly cobol: Guid;
-    static readonly pascal: Guid;
-    static readonly ilAssembly: Guid;
-    static readonly jScript: Guid;
-    static readonly SMC: Guid;
-    static readonly mcPlusPlus: Guid;
+export interface SymLanguageType$instance {
 }
+
+
+export const SymLanguageType: {
+    new(): SymLanguageType$instance;
+    readonly C: Guid;
+    readonly cPlusPlus: Guid;
+    readonly cSharp: Guid;
+    readonly basic: Guid;
+    readonly java: Guid;
+    readonly cobol: Guid;
+    readonly pascal: Guid;
+    readonly ilAssembly: Guid;
+    readonly jScript: Guid;
+    readonly SMC: Guid;
+    readonly mcPlusPlus: Guid;
+};
 
 
 export type SymLanguageType = SymLanguageType$instance;
 
-export class SymLanguageVendor$instance {
-    constructor();
-    static readonly microsoft: Guid;
+export interface SymLanguageVendor$instance {
 }
+
+
+export const SymLanguageVendor: {
+    new(): SymLanguageVendor$instance;
+    readonly microsoft: Guid;
+};
 
 
 export type SymLanguageVendor = SymLanguageVendor$instance;

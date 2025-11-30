@@ -37,9 +37,14 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export class AssemblyLoadContext_ContextualReflectionScope$instance {
+export interface AssemblyLoadContext_ContextualReflectionScope$instance {
     dispose(): void;
 }
+
+
+export const AssemblyLoadContext_ContextualReflectionScope: {
+    new(): AssemblyLoadContext_ContextualReflectionScope$instance;
+};
 
 
 export interface __AssemblyLoadContext_ContextualReflectionScope$views {
@@ -51,17 +56,20 @@ export interface AssemblyLoadContext_ContextualReflectionScope$instance extends 
 export type AssemblyLoadContext_ContextualReflectionScope = AssemblyLoadContext_ContextualReflectionScope$instance & __AssemblyLoadContext_ContextualReflectionScope$views;
 
 
-export class AssemblyDependencyResolver$instance {
-    constructor(componentAssemblyPath: string);
+export interface AssemblyDependencyResolver$instance {
     resolveAssemblyToPath(assemblyName: AssemblyName): string;
     resolveUnmanagedDllToPath(unmanagedDllName: string): string;
 }
 
 
+export const AssemblyDependencyResolver: {
+    new(componentAssemblyPath: string): AssemblyDependencyResolver$instance;
+};
+
+
 export type AssemblyDependencyResolver = AssemblyDependencyResolver$instance;
 
-export class AssemblyLoadContext$instance {
-    constructor(name: string, isCollectible: boolean);
+export interface AssemblyLoadContext$instance {
     readonly assemblies: IEnumerable_1<Assembly>;
     readonly isCollectible: boolean;
     readonly name: string;
@@ -75,13 +83,18 @@ export class AssemblyLoadContext$instance {
     startProfileOptimization(profile: string): void;
     toString(): string;
     unload(): void;
-    static readonly default_: AssemblyLoadContext;
-    static readonly all: IEnumerable_1<AssemblyLoadContext>;
-    static readonly currentContextualReflectionContext: AssemblyLoadContext;
-    static enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
-    static getAssemblyName(assemblyPath: string): AssemblyName;
-    static getLoadContext(assembly: Assembly): AssemblyLoadContext;
 }
+
+
+export const AssemblyLoadContext: {
+    new(name: string, isCollectible: boolean): AssemblyLoadContext$instance;
+    readonly default_: AssemblyLoadContext;
+    readonly all: IEnumerable_1<AssemblyLoadContext>;
+    readonly currentContextualReflectionContext: AssemblyLoadContext;
+    enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;
+    getAssemblyName(assemblyPath: string): AssemblyName;
+    getLoadContext(assembly: Assembly): AssemblyLoadContext;
+};
 
 
 export type AssemblyLoadContext = AssemblyLoadContext$instance;

@@ -12,7 +12,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendLiteral(System.String):System.Boolean",
           "clrName": "AppendLiteral",
           "tsEmitName": "appendLiteral",
-          "metadataToken": 100682324,
+          "metadataToken": 100682307,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "AppendLiteral|(System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -26,7 +26,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682325,
+          "metadataToken": 100682308,
           "canonicalSignature": "(T):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -40,7 +40,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682326,
+          "metadataToken": 100682309,
           "canonicalSignature": "(T,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -54,7 +54,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682327,
+          "metadataToken": 100682310,
           "canonicalSignature": "(T,System.Int32):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.Int32):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -68,7 +68,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(T,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682328,
+          "metadataToken": 100682311,
           "canonicalSignature": "(T,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(T,System.Int32,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -82,7 +82,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682329,
+          "metadataToken": 100682312,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -96,7 +96,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682330,
+          "metadataToken": 100682313,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -110,7 +110,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682331,
+          "metadataToken": 100682314,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -124,7 +124,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682332,
+          "metadataToken": 100682315,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -138,7 +138,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682333,
+          "metadataToken": 100682316,
           "canonicalSignature": "(System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -152,7 +152,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.String,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682334,
+          "metadataToken": 100682317,
           "canonicalSignature": "(System.String,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.String,System.Int32,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -166,7 +166,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::AppendFormatted(System.Object,System.Int32,System.String):System.Boolean",
           "clrName": "AppendFormatted",
           "tsEmitName": "appendFormatted",
-          "metadataToken": 100682335,
+          "metadataToken": 100682318,
           "canonicalSignature": "(System.Object,System.Int32,System.String):System.Boolean",
           "normalizedSignature": "AppendFormatted|(System.Object,System.Int32,System.String):System.Boolean|static=false",
           "emitScope": "ClassSurface",
@@ -183,7 +183,7 @@
       "constructors": [
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::.ctor(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void",
-          "metadataToken": 100682322,
+          "metadataToken": 100682305,
           "canonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void",
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Boolean\u0026):void|static=false",
           "isStatic": false,
@@ -193,7 +193,7 @@
         },
         {
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler::.ctor(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void",
-          "metadataToken": 100682323,
+          "metadataToken": 100682306,
           "canonicalSignature": "(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void",
           "normalizedSignature": "constructor|(System.Int32,System.Int32,System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Boolean\u0026):void|static=false",
           "isStatic": false,
@@ -210,7 +210,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682324
+            "metadataToken": 100682307
           }
         },
         {
@@ -220,7 +220,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682325
+            "metadataToken": 100682308
           }
         },
         {
@@ -230,7 +230,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682326
+            "metadataToken": 100682309
           }
         },
         {
@@ -240,7 +240,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682327
+            "metadataToken": 100682310
           }
         },
         {
@@ -250,7 +250,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682328
+            "metadataToken": 100682311
           }
         },
         {
@@ -260,7 +260,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682329
+            "metadataToken": 100682312
           }
         },
         {
@@ -270,7 +270,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682330
+            "metadataToken": 100682313
           }
         },
         {
@@ -280,7 +280,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682331
+            "metadataToken": 100682314
           }
         },
         {
@@ -290,7 +290,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682332
+            "metadataToken": 100682315
           }
         },
         {
@@ -300,7 +300,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682333
+            "metadataToken": 100682316
           }
         },
         {
@@ -310,7 +310,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682334
+            "metadataToken": 100682317
           }
         },
         {
@@ -320,7 +320,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682335
+            "metadataToken": 100682318
           }
         },
         {
@@ -391,7 +391,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682322
+            "metadataToken": 100682305
           }
         },
         {
@@ -400,7 +400,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682323
+            "metadataToken": 100682306
           }
         }
       ]
@@ -4553,7 +4553,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::FromUtf16(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "clrName": "FromUtf16",
           "tsEmitName": "fromUtf16",
-          "metadataToken": 100682316,
+          "metadataToken": 100682299,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "normalizedSignature": "FromUtf16|(System.ReadOnlySpan_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "emitScope": "ClassSurface",
@@ -4567,7 +4567,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::ToUtf16(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "clrName": "ToUtf16",
           "tsEmitName": "toUtf16",
-          "metadataToken": 100682317,
+          "metadataToken": 100682300,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus",
           "normalizedSignature": "ToUtf16|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Span_1[[System.Char,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Int32\u0026,System.Int32\u0026,System.Boolean,System.Boolean):System.Buffers.OperationStatus|static=true",
           "emitScope": "ClassSurface",
@@ -4581,7 +4581,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryWrite",
           "tsEmitName": "tryWrite",
-          "metadataToken": 100682319,
+          "metadataToken": 100682302,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -4595,7 +4595,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::TryWrite(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "clrName": "TryWrite",
           "tsEmitName": "tryWrite",
-          "metadataToken": 100682320,
+          "metadataToken": 100682303,
           "canonicalSignature": "(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean",
           "normalizedSignature": "TryWrite|(System.Span_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]],System.IFormatProvider,System.Text.Unicode.Utf8\u002BTryWriteInterpolatedStringHandler\u0026,System.Int32\u0026):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -4609,7 +4609,7 @@
           "stableId": "System.Private.CoreLib:System.Text.Unicode.Utf8::IsValid(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "clrName": "IsValid",
           "tsEmitName": "isValid",
-          "metadataToken": 100682321,
+          "metadataToken": 100682304,
           "canonicalSignature": "(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean",
           "normalizedSignature": "IsValid|(System.ReadOnlySpan_1[[System.Byte,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Boolean|static=true",
           "emitScope": "ClassSurface",
@@ -4632,7 +4632,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682316
+            "metadataToken": 100682299
           }
         },
         {
@@ -4642,7 +4642,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682317
+            "metadataToken": 100682300
           }
         },
         {
@@ -4652,7 +4652,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682319
+            "metadataToken": 100682302
           }
         },
         {
@@ -4662,7 +4662,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682320
+            "metadataToken": 100682303
           }
         },
         {
@@ -4672,7 +4672,7 @@
           "target": {
             "declaringClrType": "System.Text.Unicode.Utf8",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100682321
+            "metadataToken": 100682304
           }
         },
         {

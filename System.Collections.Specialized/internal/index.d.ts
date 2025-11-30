@@ -48,6 +48,9 @@ export enum NotifyCollectionChangedAction {
 }
 
 
+export type NotifyCollectionChangedEventHandler = (sender: unknown, e: NotifyCollectionChangedEventArgs) => void;
+
+
 export interface INotifyCollectionChanged$instance {
 }
 
@@ -80,9 +83,7 @@ export interface IOrderedDictionary$instance extends IDictionary, ICollection, I
 
 export type IOrderedDictionary = IOrderedDictionary$instance;
 
-export class BitVector32$instance {
-    constructor(data: int);
-    constructor(value: BitVector32);
+export interface BitVector32$instance {
     readonly data: int;
     equals(o: unknown): boolean;
     equals(other: BitVector32): boolean;
@@ -92,12 +93,18 @@ export class BitVector32$instance {
     set_Item(bit: int, value: boolean): void;
     set_Item(section: BitVector32_Section, value: int): void;
     toString(): string;
-    static createMask(): int;
-    static createMask(previous: int): int;
-    static createSection(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
-    static createSection(maxValue: short): BitVector32_Section;
-    static toString(value: BitVector32): string;
 }
+
+
+export const BitVector32: {
+    new(data: int): BitVector32$instance;
+    new(value: BitVector32): BitVector32$instance;
+    createMask(): int;
+    createMask(previous: int): int;
+    createSection(maxValue: short, previous: BitVector32_Section): BitVector32_Section;
+    createSection(maxValue: short): BitVector32_Section;
+    toString(value: BitVector32): string;
+};
 
 
 export interface __BitVector32$views {
@@ -110,15 +117,20 @@ export interface __BitVector32$views {
 export type BitVector32 = BitVector32$instance & __BitVector32$views;
 
 
-export class BitVector32_Section$instance {
+export interface BitVector32_Section$instance {
     readonly mask: short;
     readonly offset: short;
     equals(o: unknown): boolean;
     equals(obj: BitVector32_Section): boolean;
     getHashCode(): int;
     toString(): string;
-    static toString(value: BitVector32_Section): string;
 }
+
+
+export const BitVector32_Section: {
+    new(): BitVector32_Section$instance;
+    toString(value: BitVector32_Section): string;
+};
 
 
 export interface __BitVector32_Section$views {
@@ -131,22 +143,22 @@ export interface __BitVector32_Section$views {
 export type BitVector32_Section = BitVector32_Section$instance & __BitVector32_Section$views;
 
 
-export class CollectionsUtil$instance {
-    constructor();
-    static createCaseInsensitiveHashtable(): Hashtable;
-    static createCaseInsensitiveHashtable(d: IDictionary): Hashtable;
-    static createCaseInsensitiveHashtable(capacity: int): Hashtable;
-    static createCaseInsensitiveSortedList(): SortedList;
+export interface CollectionsUtil$instance {
 }
+
+
+export const CollectionsUtil: {
+    new(): CollectionsUtil$instance;
+    createCaseInsensitiveHashtable(): Hashtable;
+    createCaseInsensitiveHashtable(d: IDictionary): Hashtable;
+    createCaseInsensitiveHashtable(capacity: int): Hashtable;
+    createCaseInsensitiveSortedList(): SortedList;
+};
 
 
 export type CollectionsUtil = CollectionsUtil$instance;
 
-export class HybridDictionary$instance {
-    constructor();
-    constructor(initialSize: int);
-    constructor(caseInsensitive: boolean);
-    constructor(initialSize: int, caseInsensitive: boolean);
+export interface HybridDictionary$instance {
     readonly count: int;
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
@@ -162,6 +174,14 @@ export class HybridDictionary$instance {
     getEnumerator(): IDictionaryEnumerator;
     remove(key: unknown): void;
 }
+
+
+export const HybridDictionary: {
+    new(): HybridDictionary$instance;
+    new(initialSize: int): HybridDictionary$instance;
+    new(caseInsensitive: boolean): HybridDictionary$instance;
+    new(initialSize: int, caseInsensitive: boolean): HybridDictionary$instance;
+};
 
 
 export interface __HybridDictionary$views {
@@ -173,9 +193,7 @@ export interface __HybridDictionary$views {
 export type HybridDictionary = HybridDictionary$instance & __HybridDictionary$views;
 
 
-export class ListDictionary$instance {
-    constructor();
-    constructor(comparer: IComparer);
+export interface ListDictionary$instance {
     readonly count: int;
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
@@ -193,6 +211,12 @@ export class ListDictionary$instance {
 }
 
 
+export const ListDictionary: {
+    new(): ListDictionary$instance;
+    new(comparer: IComparer): ListDictionary$instance;
+};
+
+
 export interface __ListDictionary$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IDictionary(): System_Collections_Internal.IDictionary$instance;
@@ -202,23 +226,31 @@ export interface __ListDictionary$views {
 export type ListDictionary = ListDictionary$instance & __ListDictionary$views;
 
 
-export class ListDictionary_DictionaryNode$instance {
-    constructor();
+export interface ListDictionary_DictionaryNode$instance {
     key: unknown;
     value: unknown;
     next: ListDictionary_DictionaryNode;
 }
 
 
+export const ListDictionary_DictionaryNode: {
+    new(): ListDictionary_DictionaryNode$instance;
+};
+
+
 export type ListDictionary_DictionaryNode = ListDictionary_DictionaryNode$instance;
 
-export abstract class NameObjectCollectionBase$instance {
+export interface NameObjectCollectionBase$instance {
     readonly count: int;
     readonly keys: NameObjectCollectionBase_KeysCollection;
     getEnumerator(): IEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     onDeserialization(sender: unknown): void;
 }
+
+
+export const NameObjectCollectionBase: {
+};
 
 
 export interface __NameObjectCollectionBase$views {
@@ -233,12 +265,17 @@ export interface NameObjectCollectionBase$instance extends System_Runtime_Serial
 export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __NameObjectCollectionBase$views;
 
 
-export class NameObjectCollectionBase_KeysCollection$instance {
+export interface NameObjectCollectionBase_KeysCollection$instance {
     readonly count: int;
     readonly item: string;
     get_(index: int): string;
     getEnumerator(): IEnumerator;
 }
+
+
+export const NameObjectCollectionBase_KeysCollection: {
+    new(): NameObjectCollectionBase_KeysCollection$instance;
+};
 
 
 export interface __NameObjectCollectionBase_KeysCollection$views {
@@ -249,15 +286,7 @@ export interface __NameObjectCollectionBase_KeysCollection$views {
 export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_KeysCollection$instance & __NameObjectCollectionBase_KeysCollection$views;
 
 
-export class NameValueCollection$instance extends NameObjectCollectionBase$instance {
-    constructor();
-    constructor(col: NameValueCollection);
-    constructor(hashProvider: IHashCodeProvider, comparer: IComparer);
-    constructor(capacity: int);
-    constructor(equalityComparer: IEqualityComparer);
-    constructor(capacity: int, equalityComparer: IEqualityComparer);
-    constructor(capacity: int, col: NameValueCollection);
-    constructor(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer);
+export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
     readonly allKeys: string[];
     add(c: NameValueCollection): void;
     add(name: string, value: string): void;
@@ -280,6 +309,18 @@ export class NameValueCollection$instance extends NameObjectCollectionBase$insta
 }
 
 
+export const NameValueCollection: {
+    new(): NameValueCollection$instance;
+    new(col: NameValueCollection): NameValueCollection$instance;
+    new(hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection$instance;
+    new(capacity: int): NameValueCollection$instance;
+    new(equalityComparer: IEqualityComparer): NameValueCollection$instance;
+    new(capacity: int, equalityComparer: IEqualityComparer): NameValueCollection$instance;
+    new(capacity: int, col: NameValueCollection): NameValueCollection$instance;
+    new(capacity: int, hashProvider: IHashCodeProvider, comparer: IComparer): NameValueCollection$instance;
+};
+
+
 export interface __NameValueCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -292,18 +333,7 @@ export interface NameValueCollection$instance extends System_Collections_Interna
 export type NameValueCollection = NameValueCollection$instance & __NameValueCollection$views;
 
 
-export class NotifyCollectionChangedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(action: NotifyCollectionChangedAction);
-    constructor(action: NotifyCollectionChangedAction, changedItem: unknown);
-    constructor(action: NotifyCollectionChangedAction, changedItem: unknown, index: int);
-    constructor(action: NotifyCollectionChangedAction, changedItems: IList);
-    constructor(action: NotifyCollectionChangedAction, changedItems: IList, startingIndex: int);
-    constructor(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown);
-    constructor(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown, index: int);
-    constructor(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList);
-    constructor(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList, startingIndex: int);
-    constructor(action: NotifyCollectionChangedAction, changedItem: unknown, index: int, oldIndex: int);
-    constructor(action: NotifyCollectionChangedAction, changedItems: IList, index: int, oldIndex: int);
+export interface NotifyCollectionChangedEventArgs$instance extends EventArgs {
     readonly action: NotifyCollectionChangedAction;
     readonly newItems: IList;
     readonly newStartingIndex: int;
@@ -312,31 +342,24 @@ export class NotifyCollectionChangedEventArgs$instance extends System_Internal.E
 }
 
 
+export const NotifyCollectionChangedEventArgs: {
+    new(action: NotifyCollectionChangedAction): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItem: unknown): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItem: unknown, index: int): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItems: IList): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItems: IList, startingIndex: int): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, newItem: unknown, oldItem: unknown, index: int): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList, startingIndex: int): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItem: unknown, index: int, oldIndex: int): NotifyCollectionChangedEventArgs$instance;
+    new(action: NotifyCollectionChangedAction, changedItems: IList, index: int, oldIndex: int): NotifyCollectionChangedEventArgs$instance;
+};
+
+
 export type NotifyCollectionChangedEventArgs = NotifyCollectionChangedEventArgs$instance;
 
-export class NotifyCollectionChangedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: NotifyCollectionChangedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: NotifyCollectionChangedEventArgs): void;
-}
-
-
-export interface __NotifyCollectionChangedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type NotifyCollectionChangedEventHandler = NotifyCollectionChangedEventHandler$instance & __NotifyCollectionChangedEventHandler$views;
-
-
-export class OrderedDictionary$instance {
-    constructor();
-    constructor(capacity: int);
-    constructor(comparer: IEqualityComparer);
-    constructor(capacity: int, comparer: IEqualityComparer);
+export interface OrderedDictionary$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly keys: ICollection;
@@ -358,6 +381,14 @@ export class OrderedDictionary$instance {
 }
 
 
+export const OrderedDictionary: {
+    new(): OrderedDictionary$instance;
+    new(capacity: int): OrderedDictionary$instance;
+    new(comparer: IEqualityComparer): OrderedDictionary$instance;
+    new(capacity: int, comparer: IEqualityComparer): OrderedDictionary$instance;
+};
+
+
 export interface __OrderedDictionary$views {
     As_IOrderedDictionary(): IOrderedDictionary$instance;
     As_ICollection(): System_Collections_Internal.ICollection$instance;
@@ -372,8 +403,7 @@ export interface OrderedDictionary$instance extends System_Runtime_Serialization
 export type OrderedDictionary = OrderedDictionary$instance & __OrderedDictionary$views;
 
 
-export class StringCollection$instance {
-    constructor();
+export interface StringCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -392,6 +422,11 @@ export class StringCollection$instance {
 }
 
 
+export const StringCollection: {
+    new(): StringCollection$instance;
+};
+
+
 export interface __StringCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -401,8 +436,7 @@ export interface __StringCollection$views {
 export type StringCollection = StringCollection$instance & __StringCollection$views;
 
 
-export class StringDictionary$instance {
-    constructor();
+export interface StringDictionary$instance {
     readonly count: int;
     readonly isSynchronized: boolean;
     item: string;
@@ -419,6 +453,11 @@ export class StringDictionary$instance {
 }
 
 
+export const StringDictionary: {
+    new(): StringDictionary$instance;
+};
+
+
 export interface __StringDictionary$views {
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
 }
@@ -428,11 +467,16 @@ export interface StringDictionary$instance extends System_Collections_Internal.I
 export type StringDictionary = StringDictionary$instance & __StringDictionary$views;
 
 
-export class StringEnumerator$instance {
+export interface StringEnumerator$instance {
     readonly current: string;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const StringEnumerator: {
+    new(): StringEnumerator$instance;
+};
 
 
 export type StringEnumerator = StringEnumerator$instance;

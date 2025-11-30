@@ -14,7 +14,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.ComponentCrossReference::SourceGroupIndexSystem.UIntPtr",
           "clrName": "SourceGroupIndex",
           "tsEmitName": "sourceGroupIndex",
-          "metadataToken": 67113966,
+          "metadataToken": 67113969,
           "normalizedSignature": "SourceGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -25,7 +25,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.ComponentCrossReference::DestinationGroupIndexSystem.UIntPtr",
           "clrName": "DestinationGroupIndex",
           "tsEmitName": "destinationGroupIndex",
-          "metadataToken": 67113967,
+          "metadataToken": 67113970,
           "normalizedSignature": "DestinationGroupIndex|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -105,7 +105,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.ComponentCrossReference",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113966
+            "metadataToken": 67113969
           }
         },
         {
@@ -115,7 +115,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.ComponentCrossReference",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113967
+            "metadataToken": 67113970
           }
         }
       ]
@@ -133,7 +133,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::ComponentCountSystem.UIntPtr",
           "clrName": "ComponentCount",
           "tsEmitName": "componentCount",
-          "metadataToken": 67113968,
+          "metadataToken": 67113971,
           "normalizedSignature": "ComponentCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::ComponentsSystem.Runtime.InteropServices.Java.StronglyConnectedComponent*",
           "clrName": "Components",
           "tsEmitName": "components",
-          "metadataToken": 67113969,
+          "metadataToken": 67113972,
           "normalizedSignature": "Components|System.Runtime.InteropServices.Java.StronglyConnectedComponent*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -155,7 +155,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::CrossReferenceCountSystem.UIntPtr",
           "clrName": "CrossReferenceCount",
           "tsEmitName": "crossReferenceCount",
-          "metadataToken": 67113970,
+          "metadataToken": 67113973,
           "normalizedSignature": "CrossReferenceCount|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -166,7 +166,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.MarkCrossReferencesArgs::CrossReferencesSystem.Runtime.InteropServices.Java.ComponentCrossReference*",
           "clrName": "CrossReferences",
           "tsEmitName": "crossReferences",
-          "metadataToken": 67113971,
+          "metadataToken": 67113974,
           "normalizedSignature": "CrossReferences|System.Runtime.InteropServices.Java.ComponentCrossReference*|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -246,7 +246,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113968
+            "metadataToken": 67113971
           }
         },
         {
@@ -256,7 +256,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113969
+            "metadataToken": 67113972
           }
         },
         {
@@ -266,7 +266,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113970
+            "metadataToken": 67113973
           }
         },
         {
@@ -276,7 +276,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.MarkCrossReferencesArgs",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113971
+            "metadataToken": 67113974
           }
         }
       ]
@@ -294,7 +294,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.StronglyConnectedComponent::CountSystem.UIntPtr",
           "clrName": "Count",
           "tsEmitName": "count",
-          "metadataToken": 67113972,
+          "metadataToken": 67113975,
           "normalizedSignature": "Count|System.UIntPtr|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -305,7 +305,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.StronglyConnectedComponent::ContextsSystem.Void**",
           "clrName": "Contexts",
           "tsEmitName": "contexts",
-          "metadataToken": 67113973,
+          "metadataToken": 67113976,
           "normalizedSignature": "Contexts|System.Void**|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,
@@ -385,7 +385,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.StronglyConnectedComponent",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113972
+            "metadataToken": 67113975
           }
         },
         {
@@ -395,7 +395,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.StronglyConnectedComponent",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 67113973
+            "metadataToken": 67113976
           }
         }
       ]
@@ -411,7 +411,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::Initialize():System.Void",
           "clrName": "Initialize",
           "tsEmitName": "initialize",
-          "metadataToken": 100695438,
+          "metadataToken": 100695334,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Initialize|():System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -425,7 +425,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::CreateReferenceTrackingHandle(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle",
           "clrName": "CreateReferenceTrackingHandle",
           "tsEmitName": "createReferenceTrackingHandle",
-          "metadataToken": 100695439,
+          "metadataToken": 100695335,
           "canonicalSignature": "(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle",
           "normalizedSignature": "CreateReferenceTrackingHandle|(System.Object,System.Void*):System.Runtime.InteropServices.GCHandle|static=true",
           "emitScope": "ClassSurface",
@@ -439,7 +439,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::GetContext(System.Runtime.InteropServices.GCHandle):System.Void*",
           "clrName": "GetContext",
           "tsEmitName": "getContext",
-          "metadataToken": 100695440,
+          "metadataToken": 100695336,
           "canonicalSignature": "(System.Runtime.InteropServices.GCHandle):System.Void*",
           "normalizedSignature": "GetContext|(System.Runtime.InteropServices.GCHandle):System.Void*|static=true",
           "emitScope": "ClassSurface",
@@ -453,7 +453,7 @@
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Java.JavaMarshal::FinishCrossReferenceProcessing(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "FinishCrossReferenceProcessing",
           "tsEmitName": "finishCrossReferenceProcessing",
-          "metadataToken": 100695441,
+          "metadataToken": 100695337,
           "canonicalSignature": "(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "FinishCrossReferenceProcessing|(System.Runtime.InteropServices.Java.MarkCrossReferencesArgs*,System.ReadOnlySpan_1[[System.Runtime.InteropServices.GCHandle,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=true",
           "emitScope": "ClassSurface",
@@ -476,7 +476,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695438
+            "metadataToken": 100695334
           }
         },
         {
@@ -486,7 +486,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695439
+            "metadataToken": 100695335
           }
         },
         {
@@ -496,7 +496,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695440
+            "metadataToken": 100695336
           }
         },
         {
@@ -506,7 +506,7 @@
           "target": {
             "declaringClrType": "System.Runtime.InteropServices.Java.JavaMarshal",
             "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100695441
+            "metadataToken": 100695337
           }
         },
         {

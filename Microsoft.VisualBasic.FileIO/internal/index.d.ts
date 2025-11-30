@@ -77,78 +77,86 @@ export enum UIOption {
 }
 
 
-export class FileSystem$instance {
-    constructor();
-    static readonly drives: ReadOnlyCollection_1<DriveInfo>;
-    static currentDirectory: string;
-    static combinePath(baseDirectory: string, relativePath: string): string;
-    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    static copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    static copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    static copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    static copyFile(sourceFileName: string, destinationFileName: string): void;
-    static createDirectory(directory: string): void;
-    static deleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
-    static deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    static deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
-    static deleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
-    static deleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
-    static deleteFile(file: string): void;
-    static directoryExists(directory: string): boolean;
-    static fileExists(file: string): boolean;
-    static findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, fileWildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<CLROf<string>>;
-    static getDirectories(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static getDirectories(directory: string): ReadOnlyCollection_1<CLROf<string>>;
-    static getDirectoryInfo(directory: string): DirectoryInfo;
-    static getDriveInfo(drive: string): DriveInfo;
-    static getFileInfo(file: string): FileInfo;
-    static getFiles(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
-    static getFiles(directory: string): ReadOnlyCollection_1<CLROf<string>>;
-    static getName(path: string): string;
-    static getParentPath(path: string): string;
-    static getTempFileName(): string;
-    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
-    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
-    static moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
-    static moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
-    static moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
-    static moveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
-    static moveFile(sourceFileName: string, destinationFileName: string): void;
-    static openTextFieldParser(file: string, fieldWidths: int[]): TextFieldParser;
-    static openTextFieldParser(file: string, delimiters: string[]): TextFieldParser;
-    static openTextFieldParser(file: string): TextFieldParser;
-    static openTextFileReader(file: string, encoding: Encoding): StreamReader;
-    static openTextFileReader(file: string): StreamReader;
-    static openTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
-    static openTextFileWriter(file: string, append: boolean): StreamWriter;
-    static readAllBytes(file: string): byte[];
-    static readAllText(file: string, encoding: Encoding): string;
-    static readAllText(file: string): string;
-    static renameDirectory(directory: string, newName: string): void;
-    static renameFile(file: string, newName: string): void;
-    static writeAllBytes(file: string, data: byte[], append: boolean): void;
-    static writeAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
-    static writeAllText(file: string, text: string, append: boolean): void;
+export interface FileSystem$instance {
 }
+
+
+export const FileSystem: {
+    new(): FileSystem$instance;
+    readonly drives: ReadOnlyCollection_1<DriveInfo>;
+    currentDirectory: string;
+    combinePath(baseDirectory: string, relativePath: string): string;
+    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    copyDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    copyFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    copyFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    copyFile(sourceFileName: string, destinationFileName: string): void;
+    createDirectory(directory: string): void;
+    deleteDirectory(directory: string, onDirectoryNotEmpty: DeleteDirectoryOption): void;
+    deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    deleteDirectory(directory: string, showUI: UIOption, recycle: RecycleOption): void;
+    deleteFile(file: string, showUI: UIOption, recycle: RecycleOption, onUserCancel: UICancelOption): void;
+    deleteFile(file: string, showUI: UIOption, recycle: RecycleOption): void;
+    deleteFile(file: string): void;
+    directoryExists(directory: string): boolean;
+    fileExists(file: string): boolean;
+    findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption, fileWildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    findInFiles(directory: string, containsText: string, ignoreCase: boolean, searchType: SearchOption): ReadOnlyCollection_1<CLROf<string>>;
+    getDirectories(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    getDirectories(directory: string): ReadOnlyCollection_1<CLROf<string>>;
+    getDirectoryInfo(directory: string): DirectoryInfo;
+    getDriveInfo(drive: string): DriveInfo;
+    getFileInfo(file: string): FileInfo;
+    getFiles(directory: string, searchType: SearchOption, wildcards: string[]): ReadOnlyCollection_1<CLROf<string>>;
+    getFiles(directory: string): ReadOnlyCollection_1<CLROf<string>>;
+    getName(path: string): string;
+    getParentPath(path: string): string;
+    getTempFileName(): string;
+    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, showUI: UIOption): void;
+    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string, overwrite: boolean): void;
+    moveDirectory(sourceDirectoryName: string, destinationDirectoryName: string): void;
+    moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption, onUserCancel: UICancelOption): void;
+    moveFile(sourceFileName: string, destinationFileName: string, showUI: UIOption): void;
+    moveFile(sourceFileName: string, destinationFileName: string, overwrite: boolean): void;
+    moveFile(sourceFileName: string, destinationFileName: string): void;
+    openTextFieldParser(file: string, fieldWidths: int[]): TextFieldParser;
+    openTextFieldParser(file: string, delimiters: string[]): TextFieldParser;
+    openTextFieldParser(file: string): TextFieldParser;
+    openTextFileReader(file: string, encoding: Encoding): StreamReader;
+    openTextFileReader(file: string): StreamReader;
+    openTextFileWriter(file: string, append: boolean, encoding: Encoding): StreamWriter;
+    openTextFileWriter(file: string, append: boolean): StreamWriter;
+    readAllBytes(file: string): byte[];
+    readAllText(file: string, encoding: Encoding): string;
+    readAllText(file: string): string;
+    renameDirectory(directory: string, newName: string): void;
+    renameFile(file: string, newName: string): void;
+    writeAllBytes(file: string, data: byte[], append: boolean): void;
+    writeAllText(file: string, text: string, append: boolean, encoding: Encoding): void;
+    writeAllText(file: string, text: string, append: boolean): void;
+};
 
 
 export type FileSystem = FileSystem$instance;
 
-export class MalformedLineException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string, lineNumber: long);
-    constructor(message: string);
-    constructor(message: string, lineNumber: long, innerException: Exception);
-    constructor(message: string, innerException: Exception);
+export interface MalformedLineException$instance extends Exception {
     lineNumber: long;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     toString(): string;
 }
+
+
+export const MalformedLineException: {
+    new(): MalformedLineException$instance;
+    new(message: string, lineNumber: long): MalformedLineException$instance;
+    new(message: string): MalformedLineException$instance;
+    new(message: string, lineNumber: long, innerException: Exception): MalformedLineException$instance;
+    new(message: string, innerException: Exception): MalformedLineException$instance;
+};
 
 
 export interface __MalformedLineException$views {
@@ -158,31 +166,27 @@ export interface __MalformedLineException$views {
 export type MalformedLineException = MalformedLineException$instance & __MalformedLineException$views;
 
 
-export class SpecialDirectories$instance {
-    constructor();
-    static readonly myDocuments: string;
-    static readonly myMusic: string;
-    static readonly myPictures: string;
-    static readonly desktop: string;
-    static readonly programs: string;
-    static readonly programFiles: string;
-    static readonly temp: string;
-    static readonly currentUserApplicationData: string;
-    static readonly allUsersApplicationData: string;
+export interface SpecialDirectories$instance {
 }
+
+
+export const SpecialDirectories: {
+    new(): SpecialDirectories$instance;
+    readonly myDocuments: string;
+    readonly myMusic: string;
+    readonly myPictures: string;
+    readonly desktop: string;
+    readonly programs: string;
+    readonly programFiles: string;
+    readonly temp: string;
+    readonly currentUserApplicationData: string;
+    readonly allUsersApplicationData: string;
+};
 
 
 export type SpecialDirectories = SpecialDirectories$instance;
 
-export class TextFieldParser$instance {
-    constructor(path: string);
-    constructor(path: string, defaultEncoding: Encoding);
-    constructor(path: string, defaultEncoding: Encoding, detectEncoding: boolean);
-    constructor(stream: Stream);
-    constructor(stream: Stream, defaultEncoding: Encoding);
-    constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean);
-    constructor(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean, leaveOpen: boolean);
-    constructor(reader: TextReader);
+export interface TextFieldParser$instance {
     commentTokens: string[];
     delimiters: string[];
     readonly endOfData: boolean;
@@ -202,6 +206,18 @@ export class TextFieldParser$instance {
     setDelimiters(delimiters: string[]): void;
     setFieldWidths(fieldWidths: int[]): void;
 }
+
+
+export const TextFieldParser: {
+    new(path: string): TextFieldParser$instance;
+    new(path: string, defaultEncoding: Encoding): TextFieldParser$instance;
+    new(path: string, defaultEncoding: Encoding, detectEncoding: boolean): TextFieldParser$instance;
+    new(stream: Stream): TextFieldParser$instance;
+    new(stream: Stream, defaultEncoding: Encoding): TextFieldParser$instance;
+    new(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean): TextFieldParser$instance;
+    new(stream: Stream, defaultEncoding: Encoding, detectEncoding: boolean, leaveOpen: boolean): TextFieldParser$instance;
+    new(reader: TextReader): TextFieldParser$instance;
+};
 
 
 export interface __TextFieldParser$views {

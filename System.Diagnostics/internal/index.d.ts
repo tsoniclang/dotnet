@@ -212,25 +212,49 @@ export enum TraceOptions {
 }
 
 
-export class Activity_Enumerator_1$instance<T> {
+export type DataReceivedEventHandler = (sender: unknown, e: DataReceivedEventArgs) => void;
+
+
+export type DistributedContextPropagator_PropagatorGetterCallback = (carrier: unknown, fieldName: string, fieldValue: ref<string>, fieldValues: ref<IEnumerable_1<CLROf<string>>>) => void;
+
+
+export type DistributedContextPropagator_PropagatorSetterCallback = (carrier: unknown, fieldName: string, fieldValue: string) => void;
+
+
+export type ExceptionRecorder = (activity: Activity, exception: Exception, tags: ref<TagList>) => void;
+
+
+export type SampleActivity_1<T> = (options: ref<ActivityCreationOptions_1<T>>) => ActivitySamplingResult;
+
+
+export interface Activity_Enumerator_1$instance<T> {
     readonly current: ref<T>;
     getEnumerator(): Activity_Enumerator_1<T>;
     moveNext(): boolean;
 }
 
 
+export const Activity_Enumerator_1: {
+    new<T>(): Activity_Enumerator_1$instance<T>;
+};
+
+
 export type Activity_Enumerator_1<T> = Activity_Enumerator_1$instance<T>;
 
-export class ActivityChangedEventArgs$instance {
+export interface ActivityChangedEventArgs$instance {
     current: Activity;
     previous: Activity;
 }
 
 
+export const ActivityChangedEventArgs: {
+    new(): ActivityChangedEventArgs$instance;
+};
+
+
 export type ActivityChangedEventArgs = ActivityChangedEventArgs$instance;
 
-export class ActivityContext$instance {
-    constructor(traceId: ActivityTraceId, spanId: ActivitySpanId, traceFlags: ActivityTraceFlags, traceState: string, isRemote: boolean);
+export interface ActivityContext$instance {
     readonly isRemote: boolean;
     readonly spanId: ActivitySpanId;
     readonly traceFlags: ActivityTraceFlags;
@@ -239,10 +263,15 @@ export class ActivityContext$instance {
     equals(value: ActivityContext): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
-    static parse(traceParent: string, traceState: string): ActivityContext;
-    static tryParse(traceParent: string, traceState: string, isRemote: boolean, context: { value: ref<ActivityContext> }): boolean;
-    static tryParse(traceParent: string, traceState: string, context: { value: ref<ActivityContext> }): boolean;
 }
+
+
+export const ActivityContext: {
+    new(traceId: ActivityTraceId, spanId: ActivitySpanId, traceFlags: ActivityTraceFlags, traceState: string, isRemote: boolean): ActivityContext$instance;
+    parse(traceParent: string, traceState: string): ActivityContext;
+    tryParse(traceParent: string, traceState: string, isRemote: boolean, context: { value: ref<ActivityContext> }): boolean;
+    tryParse(traceParent: string, traceState: string, context: { value: ref<ActivityContext> }): boolean;
+};
 
 
 export interface __ActivityContext$views {
@@ -255,7 +284,7 @@ export interface __ActivityContext$views {
 export type ActivityContext = ActivityContext$instance & __ActivityContext$views;
 
 
-export class ActivityCreationOptions_1$instance<T> {
+export interface ActivityCreationOptions_1$instance<T> {
     readonly kind: ActivityKind;
     readonly links: IEnumerable_1<ActivityLink>;
     readonly name: string;
@@ -268,11 +297,14 @@ export class ActivityCreationOptions_1$instance<T> {
 }
 
 
+export const ActivityCreationOptions_1: {
+    new<T>(): ActivityCreationOptions_1$instance<T>;
+};
+
+
 export type ActivityCreationOptions_1<T> = ActivityCreationOptions_1$instance<T>;
 
-export class ActivityEvent$instance {
-    constructor(name: string);
-    constructor(name: string, timestamp: DateTimeOffset, tags: ActivityTagsCollection);
+export interface ActivityEvent$instance {
     readonly name: string;
     readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly timestamp: DateTimeOffset;
@@ -280,10 +312,15 @@ export class ActivityEvent$instance {
 }
 
 
+export const ActivityEvent: {
+    new(name: string): ActivityEvent$instance;
+    new(name: string, timestamp: DateTimeOffset, tags: ActivityTagsCollection): ActivityEvent$instance;
+};
+
+
 export type ActivityEvent = ActivityEvent$instance;
 
-export class ActivityLink$instance {
-    constructor(context: ActivityContext, tags: ActivityTagsCollection);
+export interface ActivityLink$instance {
     readonly context: ActivityContext;
     readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     enumerateTagObjects(): Activity_Enumerator_1<KeyValuePair_2<CLROf<string>, unknown>>;
@@ -291,6 +328,11 @@ export class ActivityLink$instance {
     equals(value: ActivityLink): boolean;
     getHashCode(): int;
 }
+
+
+export const ActivityLink: {
+    new(context: ActivityContext, tags: ActivityTagsCollection): ActivityLink$instance;
+};
 
 
 export interface __ActivityLink$views {
@@ -303,18 +345,23 @@ export interface __ActivityLink$views {
 export type ActivityLink = ActivityLink$instance & __ActivityLink$views;
 
 
-export class ActivitySpanId$instance {
+export interface ActivitySpanId$instance {
     copyTo(destination: Span_1<CLROf<byte>>): void;
     equals(spanId: ActivitySpanId): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toHexString(): string;
     toString(): string;
-    static createFromBytes(idData: ReadOnlySpan_1<CLROf<byte>>): ActivitySpanId;
-    static createFromString(idData: ReadOnlySpan_1<CLROf<char>>): ActivitySpanId;
-    static createFromUtf8String(idData: ReadOnlySpan_1<CLROf<byte>>): ActivitySpanId;
-    static createRandom(): ActivitySpanId;
 }
+
+
+export const ActivitySpanId: {
+    new(): ActivitySpanId$instance;
+    createFromBytes(idData: ReadOnlySpan_1<CLROf<byte>>): ActivitySpanId;
+    createFromString(idData: ReadOnlySpan_1<CLROf<char>>): ActivitySpanId;
+    createFromUtf8String(idData: ReadOnlySpan_1<CLROf<byte>>): ActivitySpanId;
+    createRandom(): ActivitySpanId;
+};
 
 
 export interface __ActivitySpanId$views {
@@ -327,12 +374,17 @@ export interface __ActivitySpanId$views {
 export type ActivitySpanId = ActivitySpanId$instance & __ActivitySpanId$views;
 
 
-export class ActivityTagsCollection_Enumerator$instance implements IDisposable {
+export interface ActivityTagsCollection_Enumerator$instance extends IDisposable {
     readonly current: KeyValuePair_2<CLROf<string>, unknown>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const ActivityTagsCollection_Enumerator: {
+    new(): ActivityTagsCollection_Enumerator$instance;
+};
 
 
 export interface __ActivityTagsCollection_Enumerator$views {
@@ -343,18 +395,23 @@ export interface __ActivityTagsCollection_Enumerator$views {
 export type ActivityTagsCollection_Enumerator = ActivityTagsCollection_Enumerator$instance & __ActivityTagsCollection_Enumerator$views;
 
 
-export class ActivityTraceId$instance {
+export interface ActivityTraceId$instance {
     copyTo(destination: Span_1<CLROf<byte>>): void;
     equals(traceId: ActivityTraceId): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toHexString(): string;
     toString(): string;
-    static createFromBytes(idData: ReadOnlySpan_1<CLROf<byte>>): ActivityTraceId;
-    static createFromString(idData: ReadOnlySpan_1<CLROf<char>>): ActivityTraceId;
-    static createFromUtf8String(idData: ReadOnlySpan_1<CLROf<byte>>): ActivityTraceId;
-    static createRandom(): ActivityTraceId;
 }
+
+
+export const ActivityTraceId: {
+    new(): ActivityTraceId$instance;
+    createFromBytes(idData: ReadOnlySpan_1<CLROf<byte>>): ActivityTraceId;
+    createFromString(idData: ReadOnlySpan_1<CLROf<char>>): ActivityTraceId;
+    createFromUtf8String(idData: ReadOnlySpan_1<CLROf<byte>>): ActivityTraceId;
+    createRandom(): ActivityTraceId;
+};
 
 
 export interface __ActivityTraceId$views {
@@ -367,8 +424,7 @@ export interface __ActivityTraceId$views {
 export type ActivityTraceId = ActivityTraceId$instance & __ActivityTraceId$views;
 
 
-export class Debug_AssertInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, condition: boolean, shouldAppend: ref<boolean>);
+export interface Debug_AssertInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): void;
     appendFormatted<T>(value: T, format: string): void;
     appendFormatted<T>(value: T, alignment: int): void;
@@ -380,12 +436,16 @@ export class Debug_AssertInterpolatedStringHandler$instance {
     appendFormatted(value: unknown, alignment?: int, format?: string): void;
     appendLiteral(value: string): void;
 }
+
+
+export const Debug_AssertInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, condition: boolean, shouldAppend: ref<boolean>): Debug_AssertInterpolatedStringHandler$instance;
+};
 
 
 export type Debug_AssertInterpolatedStringHandler = Debug_AssertInterpolatedStringHandler$instance;
 
-export class Debug_WriteIfInterpolatedStringHandler$instance {
-    constructor(literalLength: int, formattedCount: int, condition: boolean, shouldAppend: ref<boolean>);
+export interface Debug_WriteIfInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): void;
     appendFormatted<T>(value: T, format: string): void;
     appendFormatted<T>(value: T, alignment: int): void;
@@ -399,10 +459,14 @@ export class Debug_WriteIfInterpolatedStringHandler$instance {
 }
 
 
+export const Debug_WriteIfInterpolatedStringHandler: {
+    new(literalLength: int, formattedCount: int, condition: boolean, shouldAppend: ref<boolean>): Debug_WriteIfInterpolatedStringHandler$instance;
+};
+
+
 export type Debug_WriteIfInterpolatedStringHandler = Debug_WriteIfInterpolatedStringHandler$instance;
 
-export class TagList$instance {
-    constructor(tagList: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>);
+export interface TagList$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     item: KeyValuePair_2<CLROf<string>, unknown>;
@@ -420,6 +484,11 @@ export class TagList$instance {
 }
 
 
+export const TagList: {
+    new(tagList: ReadOnlySpan_1<KeyValuePair_2<CLROf<string>, unknown>>): TagList$instance;
+};
+
+
 export interface __TagList$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
@@ -431,12 +500,17 @@ export interface __TagList$views {
 export type TagList = TagList$instance & __TagList$views;
 
 
-export class TagList_Enumerator$instance implements IDisposable {
+export interface TagList_Enumerator$instance extends IDisposable {
     readonly current: KeyValuePair_2<CLROf<string>, unknown>;
     dispose(): void;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const TagList_Enumerator: {
+    new(): TagList_Enumerator$instance;
+};
 
 
 export interface __TagList_Enumerator$views {
@@ -447,8 +521,7 @@ export interface __TagList_Enumerator$views {
 export type TagList_Enumerator = TagList_Enumerator$instance & __TagList_Enumerator$views;
 
 
-export class Activity$instance {
-    constructor(operationName: string);
+export interface Activity$instance {
     activityTraceFlags: ActivityTraceFlags;
     readonly baggage: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>;
     readonly context: ActivityContext;
@@ -501,11 +574,16 @@ export class Activity$instance {
     setTag(key: string, value: unknown): Activity;
     start(): Activity;
     stop(): void;
-    static forceDefaultIdFormat: boolean;
-    static current: Activity;
-    static traceIdGenerator: Func_1<ActivityTraceId>;
-    static defaultIdFormat: ActivityIdFormat;
 }
+
+
+export const Activity: {
+    new(operationName: string): Activity$instance;
+    forceDefaultIdFormat: boolean;
+    current: Activity;
+    traceIdGenerator: Func_1<ActivityTraceId>;
+    defaultIdFormat: ActivityIdFormat;
+};
 
 
 export interface __Activity$views {
@@ -517,8 +595,7 @@ export interface Activity$instance extends System_Internal.IDisposable$instance 
 export type Activity = Activity$instance & __Activity$views;
 
 
-export class ActivityListener$instance {
-    constructor();
+export interface ActivityListener$instance {
     activityStarted: Action_1<Activity>;
     activityStopped: Action_1<Activity>;
     exceptionRecorder: ExceptionRecorder;
@@ -527,6 +604,11 @@ export class ActivityListener$instance {
     shouldListenTo: Func_2<ActivitySource, CLROf<boolean>>;
     dispose(): void;
 }
+
+
+export const ActivityListener: {
+    new(): ActivityListener$instance;
+};
 
 
 export interface __ActivityListener$views {
@@ -538,11 +620,7 @@ export interface ActivityListener$instance extends System_Internal.IDisposable$i
 export type ActivityListener = ActivityListener$instance & __ActivityListener$views;
 
 
-export class ActivitySource$instance {
-    constructor(name: string);
-    constructor(name: string, version: string);
-    constructor(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>);
-    constructor(options: ActivitySourceOptions);
+export interface ActivitySource$instance {
     readonly name: string;
     readonly tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     readonly telemetrySchemaUrl: string;
@@ -556,8 +634,16 @@ export class ActivitySource$instance {
     startActivity(name: string, kind: ActivityKind, parentContext: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, links?: IEnumerable_1<ActivityLink>, startTime?: DateTimeOffset): Activity;
     startActivity(name: string, kind: ActivityKind, parentId: string, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, links?: IEnumerable_1<ActivityLink>, startTime?: DateTimeOffset): Activity;
     startActivity(kind: ActivityKind, parentContext?: ActivityContext, tags?: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>, links?: IEnumerable_1<ActivityLink>, startTime?: DateTimeOffset, name?: string): Activity;
-    static addActivityListener(listener: ActivityListener): void;
 }
+
+
+export const ActivitySource: {
+    new(name: string): ActivitySource$instance;
+    new(name: string, version: string): ActivitySource$instance;
+    new(name: string, version: string, tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): ActivitySource$instance;
+    new(options: ActivitySourceOptions): ActivitySource$instance;
+    addActivityListener(listener: ActivityListener): void;
+};
 
 
 export interface __ActivitySource$views {
@@ -569,8 +655,7 @@ export interface ActivitySource$instance extends System_Internal.IDisposable$ins
 export type ActivitySource = ActivitySource$instance & __ActivitySource$views;
 
 
-export class ActivitySourceOptions$instance {
-    constructor(name: string);
+export interface ActivitySourceOptions$instance {
     name: string;
     tags: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>;
     telemetrySchemaUrl: string;
@@ -578,11 +663,14 @@ export class ActivitySourceOptions$instance {
 }
 
 
+export const ActivitySourceOptions: {
+    new(name: string): ActivitySourceOptions$instance;
+};
+
+
 export type ActivitySourceOptions = ActivitySourceOptions$instance;
 
-export class ActivityTagsCollection$instance {
-    constructor();
-    constructor(list: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>);
+export interface ActivityTagsCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     item: unknown;
@@ -601,6 +689,12 @@ export class ActivityTagsCollection$instance {
 }
 
 
+export const ActivityTagsCollection: {
+    new(): ActivityTagsCollection$instance;
+    new(list: IEnumerable_1<KeyValuePair_2<CLROf<string>, unknown>>): ActivityTagsCollection$instance;
+};
+
+
 export interface __ActivityTagsCollection$views {
     As_ICollection_1(): System_Collections_Generic_Internal.ICollection_1$instance<KeyValuePair_2<CLROf<string>, unknown>>;
     As_IDictionary_2(): System_Collections_Generic_Internal.IDictionary_2$instance<CLROf<string>, unknown>;
@@ -611,29 +705,41 @@ export interface __ActivityTagsCollection$views {
 export type ActivityTagsCollection = ActivityTagsCollection$instance & __ActivityTagsCollection$views;
 
 
-export class BooleanSwitch$instance extends Switch$instance {
-    constructor(displayName: string, description: string);
-    constructor(displayName: string, description: string, defaultSwitchValue: string);
+export interface BooleanSwitch$instance extends Switch {
     enabled: boolean;
 }
 
 
+export const BooleanSwitch: {
+    new(displayName: string, description: string): BooleanSwitch$instance;
+    new(displayName: string, description: string, defaultSwitchValue: string): BooleanSwitch$instance;
+};
+
+
 export type BooleanSwitch = BooleanSwitch$instance;
 
-export class ConditionalAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(conditionString: string);
+export interface ConditionalAttribute$instance extends Attribute {
     readonly conditionString: string;
 }
 
 
+export const ConditionalAttribute: {
+    new(conditionString: string): ConditionalAttribute$instance;
+};
+
+
 export type ConditionalAttribute = ConditionalAttribute$instance;
 
-export class ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
-    constructor();
-    constructor(useErrorStream: boolean);
+export interface ConsoleTraceListener$instance extends TextWriterTraceListener$instance {
     close(): void;
     dispose(): void;
 }
+
+
+export const ConsoleTraceListener: {
+    new(): ConsoleTraceListener$instance;
+    new(useErrorStream: boolean): ConsoleTraceListener$instance;
+};
 
 
 export interface __ConsoleTraceListener$views {
@@ -643,7 +749,7 @@ export interface __ConsoleTraceListener$views {
 export type ConsoleTraceListener = ConsoleTraceListener$instance & __ConsoleTraceListener$views;
 
 
-export class CorrelationManager$instance {
+export interface CorrelationManager$instance {
     activityId: Guid;
     readonly logicalOperationStack: Stack;
     startLogicalOperation(): void;
@@ -652,61 +758,64 @@ export class CorrelationManager$instance {
 }
 
 
+export const CorrelationManager: {
+    new(): CorrelationManager$instance;
+};
+
+
 export type CorrelationManager = CorrelationManager$instance;
 
-export class DataReceivedEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface DataReceivedEventArgs$instance extends EventArgs {
     readonly data: string;
 }
 
 
+export const DataReceivedEventArgs: {
+    new(): DataReceivedEventArgs$instance;
+};
+
+
 export type DataReceivedEventArgs = DataReceivedEventArgs$instance;
 
-export class DataReceivedEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: DataReceivedEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: DataReceivedEventArgs): void;
-}
-
-
-export interface __DataReceivedEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DataReceivedEventHandler = DataReceivedEventHandler$instance & __DataReceivedEventHandler$views;
-
-
-export class DebuggableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(isJITTrackingEnabled: boolean, isJITOptimizerDisabled: boolean);
-    constructor(modes: DebuggableAttribute_DebuggingModes);
+export interface DebuggableAttribute$instance extends Attribute {
     readonly debuggingFlags: DebuggableAttribute_DebuggingModes;
     readonly isJITOptimizerDisabled: boolean;
     readonly isJITTrackingEnabled: boolean;
 }
 
 
+export const DebuggableAttribute: {
+    new(isJITTrackingEnabled: boolean, isJITOptimizerDisabled: boolean): DebuggableAttribute$instance;
+    new(modes: DebuggableAttribute_DebuggingModes): DebuggableAttribute$instance;
+};
+
+
 export type DebuggableAttribute = DebuggableAttribute$instance;
 
-export class DebuggerBrowsableAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(state: DebuggerBrowsableState);
+export interface DebuggerBrowsableAttribute$instance extends Attribute {
     readonly state: DebuggerBrowsableState;
 }
 
 
+export const DebuggerBrowsableAttribute: {
+    new(state: DebuggerBrowsableState): DebuggerBrowsableAttribute$instance;
+};
+
+
 export type DebuggerBrowsableAttribute = DebuggerBrowsableAttribute$instance;
 
-export class DebuggerDisableUserUnhandledExceptionsAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DebuggerDisableUserUnhandledExceptionsAttribute$instance extends Attribute {
 }
+
+
+export const DebuggerDisableUserUnhandledExceptionsAttribute: {
+    new(): DebuggerDisableUserUnhandledExceptionsAttribute$instance;
+};
 
 
 export type DebuggerDisableUserUnhandledExceptionsAttribute = DebuggerDisableUserUnhandledExceptionsAttribute$instance;
 
-export class DebuggerDisplayAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(value: string);
+export interface DebuggerDisplayAttribute$instance extends Attribute {
     name: string;
     target: Type;
     targetTypeName: string;
@@ -715,54 +824,73 @@ export class DebuggerDisplayAttribute$instance extends System_Internal.Attribute
 }
 
 
+export const DebuggerDisplayAttribute: {
+    new(value: string): DebuggerDisplayAttribute$instance;
+};
+
+
 export type DebuggerDisplayAttribute = DebuggerDisplayAttribute$instance;
 
-export class DebuggerHiddenAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DebuggerHiddenAttribute$instance extends Attribute {
 }
+
+
+export const DebuggerHiddenAttribute: {
+    new(): DebuggerHiddenAttribute$instance;
+};
 
 
 export type DebuggerHiddenAttribute = DebuggerHiddenAttribute$instance;
 
-export class DebuggerNonUserCodeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DebuggerNonUserCodeAttribute$instance extends Attribute {
 }
+
+
+export const DebuggerNonUserCodeAttribute: {
+    new(): DebuggerNonUserCodeAttribute$instance;
+};
 
 
 export type DebuggerNonUserCodeAttribute = DebuggerNonUserCodeAttribute$instance;
 
-export class DebuggerStepperBoundaryAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DebuggerStepperBoundaryAttribute$instance extends Attribute {
 }
+
+
+export const DebuggerStepperBoundaryAttribute: {
+    new(): DebuggerStepperBoundaryAttribute$instance;
+};
 
 
 export type DebuggerStepperBoundaryAttribute = DebuggerStepperBoundaryAttribute$instance;
 
-export class DebuggerStepThroughAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DebuggerStepThroughAttribute$instance extends Attribute {
 }
+
+
+export const DebuggerStepThroughAttribute: {
+    new(): DebuggerStepThroughAttribute$instance;
+};
 
 
 export type DebuggerStepThroughAttribute = DebuggerStepThroughAttribute$instance;
 
-export class DebuggerTypeProxyAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(type_: Type);
-    constructor(typeName: string);
+export interface DebuggerTypeProxyAttribute$instance extends Attribute {
     readonly proxyTypeName: string;
     target: Type;
     targetTypeName: string;
 }
 
 
+export const DebuggerTypeProxyAttribute: {
+    new(type_: Type): DebuggerTypeProxyAttribute$instance;
+    new(typeName: string): DebuggerTypeProxyAttribute$instance;
+};
+
+
 export type DebuggerTypeProxyAttribute = DebuggerTypeProxyAttribute$instance;
 
-export class DebuggerVisualizerAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(visualizerTypeName: string);
-    constructor(visualizerTypeName: string, visualizerObjectSourceTypeName: string);
-    constructor(visualizerTypeName: string, visualizerObjectSource: Type);
-    constructor(visualizer: Type);
-    constructor(visualizer: Type, visualizerObjectSource: Type);
-    constructor(visualizer: Type, visualizerObjectSourceTypeName: string);
+export interface DebuggerVisualizerAttribute$instance extends Attribute {
     description: string;
     target: Type;
     targetTypeName: string;
@@ -771,24 +899,37 @@ export class DebuggerVisualizerAttribute$instance extends System_Internal.Attrib
 }
 
 
+export const DebuggerVisualizerAttribute: {
+    new(visualizerTypeName: string): DebuggerVisualizerAttribute$instance;
+    new(visualizerTypeName: string, visualizerObjectSourceTypeName: string): DebuggerVisualizerAttribute$instance;
+    new(visualizerTypeName: string, visualizerObjectSource: Type): DebuggerVisualizerAttribute$instance;
+    new(visualizer: Type): DebuggerVisualizerAttribute$instance;
+    new(visualizer: Type, visualizerObjectSource: Type): DebuggerVisualizerAttribute$instance;
+    new(visualizer: Type, visualizerObjectSourceTypeName: string): DebuggerVisualizerAttribute$instance;
+};
+
+
 export type DebuggerVisualizerAttribute = DebuggerVisualizerAttribute$instance;
 
-export class DebugProvider$instance {
-    constructor();
+export interface DebugProvider$instance {
     fail(message: string, detailMessage: string): void;
     onIndentLevelChanged(indentLevel: int): void;
     onIndentSizeChanged(indentSize: int): void;
     write(message: string): void;
     writeLine(message: string): void;
-    static failCore(stackTrace: string, message: string, detailMessage: string, errorSource: string): void;
-    static writeCore(message: string): void;
 }
+
+
+export const DebugProvider: {
+    new(): DebugProvider$instance;
+    failCore(stackTrace: string, message: string, detailMessage: string, errorSource: string): void;
+    writeCore(message: string): void;
+};
 
 
 export type DebugProvider = DebugProvider$instance;
 
-export class DefaultTraceListener$instance extends TraceListener$instance {
-    constructor();
+export interface DefaultTraceListener$instance extends TraceListener$instance {
     assertUiEnabled: boolean;
     logFileName: string;
     dispose(): void;
@@ -805,6 +946,11 @@ export class DefaultTraceListener$instance extends TraceListener$instance {
 }
 
 
+export const DefaultTraceListener: {
+    new(): DefaultTraceListener$instance;
+};
+
+
 export interface __DefaultTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -812,13 +958,7 @@ export interface __DefaultTraceListener$views {
 export type DefaultTraceListener = DefaultTraceListener$instance & __DefaultTraceListener$views;
 
 
-export class DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, name: string);
-    constructor(writer: TextWriter);
-    constructor(writer: TextWriter, name: string);
-    constructor(fileName: string);
-    constructor(fileName: string, name: string);
+export interface DelimitedListTraceListener$instance extends TextWriterTraceListener$instance {
     delimiter: string;
     dispose(): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
@@ -829,6 +969,16 @@ export class DelimitedListTraceListener$instance extends TextWriterTraceListener
 }
 
 
+export const DelimitedListTraceListener: {
+    new(stream: Stream): DelimitedListTraceListener$instance;
+    new(stream: Stream, name: string): DelimitedListTraceListener$instance;
+    new(writer: TextWriter): DelimitedListTraceListener$instance;
+    new(writer: TextWriter, name: string): DelimitedListTraceListener$instance;
+    new(fileName: string): DelimitedListTraceListener$instance;
+    new(fileName: string, name: string): DelimitedListTraceListener$instance;
+};
+
+
 export interface __DelimitedListTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -836,8 +986,7 @@ export interface __DelimitedListTraceListener$views {
 export type DelimitedListTraceListener = DelimitedListTraceListener$instance & __DelimitedListTraceListener$views;
 
 
-export class DiagnosticListener$instance extends DiagnosticSource$instance {
-    constructor(name: string);
+export interface DiagnosticListener$instance extends DiagnosticSource {
     readonly name: string;
     dispose(): void;
     isEnabled(name: string): boolean;
@@ -851,8 +1000,13 @@ export class DiagnosticListener$instance extends DiagnosticSource$instance {
     toString(): string;
     write(name: string, value: unknown): void;
     write<T>(name: string, value: T): void;
-    static readonly allListeners: IObservable_1<DiagnosticListener>;
 }
+
+
+export const DiagnosticListener: {
+    new(name: string): DiagnosticListener$instance;
+    readonly allListeners: IObservable_1<DiagnosticListener>;
+};
 
 
 export interface __DiagnosticListener$views {
@@ -865,18 +1019,23 @@ export interface DiagnosticListener$instance extends System_Internal.IDisposable
 export type DiagnosticListener = DiagnosticListener$instance & __DiagnosticListener$views;
 
 
-export class DiagnosticMethodInfo$instance {
+export interface DiagnosticMethodInfo$instance {
     readonly declaringAssemblyName: string;
     readonly declaringTypeName: string;
     readonly name: string;
-    static create(delegate: Function): DiagnosticMethodInfo;
-    static create(frame: StackFrame): DiagnosticMethodInfo;
 }
+
+
+export const DiagnosticMethodInfo: {
+    new(): DiagnosticMethodInfo$instance;
+    create(delegate: Function): DiagnosticMethodInfo;
+    create(frame: StackFrame): DiagnosticMethodInfo;
+};
 
 
 export type DiagnosticMethodInfo = DiagnosticMethodInfo$instance;
 
-export abstract class DiagnosticSource$instance {
+export interface DiagnosticSource$instance {
     isEnabled(name: string): boolean;
     isEnabled(name: string, arg1: unknown, arg2?: unknown): boolean;
     onActivityExport(activity: Activity, payload: unknown): void;
@@ -890,88 +1049,46 @@ export abstract class DiagnosticSource$instance {
 }
 
 
+export const DiagnosticSource: {
+};
+
+
 export type DiagnosticSource = DiagnosticSource$instance;
 
-export abstract class DistributedContextPropagator$instance {
+export interface DistributedContextPropagator$instance {
     readonly fields: IReadOnlyCollection_1<CLROf<string>>;
-    abstract extractBaggage(carrier: unknown, getter: DistributedContextPropagator_PropagatorGetterCallback): IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>;
-    abstract extractTraceIdAndState(carrier: unknown, getter: DistributedContextPropagator_PropagatorGetterCallback, traceId: { value: ref<string> }, traceState: { value: ref<string> }): void;
-    abstract inject(activity: Activity, carrier: unknown, setter: DistributedContextPropagator_PropagatorSetterCallback): void;
-    static current: DistributedContextPropagator;
-    static createDefaultPropagator(): DistributedContextPropagator;
-    static createNoOutputPropagator(): DistributedContextPropagator;
-    static createPassThroughPropagator(): DistributedContextPropagator;
-    static createPreW3CPropagator(): DistributedContextPropagator;
-    static createW3CPropagator(): DistributedContextPropagator;
+    extractBaggage(carrier: unknown, getter: DistributedContextPropagator_PropagatorGetterCallback): IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>;
+    extractTraceIdAndState(carrier: unknown, getter: DistributedContextPropagator_PropagatorGetterCallback, traceId: { value: ref<string> }, traceState: { value: ref<string> }): void;
+    inject(activity: Activity, carrier: unknown, setter: DistributedContextPropagator_PropagatorSetterCallback): void;
 }
+
+
+export const DistributedContextPropagator: {
+    current: DistributedContextPropagator;
+    createDefaultPropagator(): DistributedContextPropagator;
+    createNoOutputPropagator(): DistributedContextPropagator;
+    createPassThroughPropagator(): DistributedContextPropagator;
+    createPreW3CPropagator(): DistributedContextPropagator;
+    createW3CPropagator(): DistributedContextPropagator;
+};
 
 
 export type DistributedContextPropagator = DistributedContextPropagator$instance;
 
-export class DistributedContextPropagator_PropagatorGetterCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(carrier: unknown, fieldName: string, fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }, result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(carrier: unknown, fieldName: string, fieldValue: { value: ref<string> }, fieldValues: { value: ref<IEnumerable_1<CLROf<string>>> }): void;
-}
-
-
-export interface __DistributedContextPropagator_PropagatorGetterCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DistributedContextPropagator_PropagatorGetterCallback = DistributedContextPropagator_PropagatorGetterCallback$instance & __DistributedContextPropagator_PropagatorGetterCallback$views;
-
-
-export class DistributedContextPropagator_PropagatorSetterCallback$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(carrier: unknown, fieldName: string, fieldValue: string, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(carrier: unknown, fieldName: string, fieldValue: string): void;
-}
-
-
-export interface __DistributedContextPropagator_PropagatorSetterCallback$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type DistributedContextPropagator_PropagatorSetterCallback = DistributedContextPropagator_PropagatorSetterCallback$instance & __DistributedContextPropagator_PropagatorSetterCallback$views;
-
-
-export class EventTypeFilter$instance extends TraceFilter$instance {
-    constructor(level: SourceLevels);
+export interface EventTypeFilter$instance extends TraceFilter {
     eventType: SourceLevels;
     shouldTrace(cache: TraceEventCache, source: string, eventType: TraceEventType, id: int, formatOrMessage: string, args: unknown[], data1: unknown, data: unknown[]): boolean;
 }
 
 
+export const EventTypeFilter: {
+    new(level: SourceLevels): EventTypeFilter$instance;
+};
+
+
 export type EventTypeFilter = EventTypeFilter$instance;
 
-export class ExceptionRecorder$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(activity: Activity, exception: Exception, tags: { value: ref<TagList> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(tags: { value: ref<TagList> }, result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(activity: Activity, exception: Exception, tags: { value: ref<TagList> }): void;
-}
-
-
-export interface __ExceptionRecorder$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type ExceptionRecorder = ExceptionRecorder$instance & __ExceptionRecorder$views;
-
-
-export class FileVersionInfo$instance {
+export interface FileVersionInfo$instance {
     readonly comments: string;
     readonly companyName: string;
     readonly fileBuildPart: int;
@@ -1000,39 +1117,55 @@ export class FileVersionInfo$instance {
     readonly productVersion: string;
     readonly specialBuild: string;
     toString(): string;
-    static getVersionInfo(fileName: string): FileVersionInfo;
 }
+
+
+export const FileVersionInfo: {
+    new(): FileVersionInfo$instance;
+    getVersionInfo(fileName: string): FileVersionInfo;
+};
 
 
 export type FileVersionInfo = FileVersionInfo$instance;
 
-export class InitializingSwitchEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(switch_: Switch);
+export interface InitializingSwitchEventArgs$instance extends EventArgs {
     readonly switch_: Switch;
 }
 
 
+export const InitializingSwitchEventArgs: {
+    new(switch_: Switch): InitializingSwitchEventArgs$instance;
+};
+
+
 export type InitializingSwitchEventArgs = InitializingSwitchEventArgs$instance;
 
-export class InitializingTraceSourceEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(traceSource: TraceSource);
+export interface InitializingTraceSourceEventArgs$instance extends EventArgs {
     readonly traceSource: TraceSource;
     wasInitialized: boolean;
 }
 
 
+export const InitializingTraceSourceEventArgs: {
+    new(traceSource: TraceSource): InitializingTraceSourceEventArgs$instance;
+};
+
+
 export type InitializingTraceSourceEventArgs = InitializingTraceSourceEventArgs$instance;
 
-export class MonitoringDescriptionAttribute$instance extends System_ComponentModel_Internal.DescriptionAttribute$instance {
-    constructor(description: string);
+export interface MonitoringDescriptionAttribute$instance extends DescriptionAttribute {
     readonly description: string;
 }
 
 
+export const MonitoringDescriptionAttribute: {
+    new(description: string): MonitoringDescriptionAttribute$instance;
+};
+
+
 export type MonitoringDescriptionAttribute = MonitoringDescriptionAttribute$instance;
 
-export class Process$instance extends System_ComponentModel_Internal.Component$instance {
-    constructor();
+export interface Process$instance extends Component {
     readonly basePriority: int;
     enableRaisingEvents: boolean;
     readonly exitCode: int;
@@ -1102,22 +1235,27 @@ export class Process$instance extends System_ComponentModel_Internal.Component$i
     waitForInputIdle(): boolean;
     waitForInputIdle(milliseconds: int): boolean;
     waitForInputIdle(timeout: TimeSpan): boolean;
-    static enterDebugMode(): void;
-    static getCurrentProcess(): Process;
-    static getProcessById(processId: int, machineName: string): Process;
-    static getProcessById(processId: int): Process;
-    static getProcesses(): Process[];
-    static getProcesses(machineName: string): Process[];
-    static getProcessesByName(processName: string, machineName: string): Process[];
-    static getProcessesByName(processName: string): Process[];
-    static leaveDebugMode(): void;
-    static start(startInfo: ProcessStartInfo): Process;
-    static start(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
-    static start(fileName: string, userName: string, password: SecureString, domain: string): Process;
-    static start(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
-    static start(fileName: string, arguments: string): Process;
-    static start(fileName: string): Process;
 }
+
+
+export const Process: {
+    new(): Process$instance;
+    enterDebugMode(): void;
+    getCurrentProcess(): Process;
+    getProcessById(processId: int, machineName: string): Process;
+    getProcessById(processId: int): Process;
+    getProcesses(): Process[];
+    getProcesses(machineName: string): Process[];
+    getProcessesByName(processName: string, machineName: string): Process[];
+    getProcessesByName(processName: string): Process[];
+    leaveDebugMode(): void;
+    start(startInfo: ProcessStartInfo): Process;
+    start(fileName: string, arguments: IEnumerable_1<CLROf<string>>): Process;
+    start(fileName: string, userName: string, password: SecureString, domain: string): Process;
+    start(fileName: string, arguments: string, userName: string, password: SecureString, domain: string): Process;
+    start(fileName: string, arguments: string): Process;
+    start(fileName: string): Process;
+};
 
 
 export interface __Process$views {
@@ -1130,7 +1268,7 @@ export interface Process$instance extends System_ComponentModel_Internal.ICompon
 export type Process = Process$instance & __Process$views;
 
 
-export class ProcessModule$instance extends System_ComponentModel_Internal.Component$instance {
+export interface ProcessModule$instance extends Component {
     readonly baseAddress: nint;
     readonly entryPointAddress: nint;
     readonly fileName: string;
@@ -1140,6 +1278,11 @@ export class ProcessModule$instance extends System_ComponentModel_Internal.Compo
     dispose(): void;
     toString(): string;
 }
+
+
+export const ProcessModule: {
+    new(): ProcessModule$instance;
+};
 
 
 export interface __ProcessModule$views {
@@ -1152,14 +1295,18 @@ export interface ProcessModule$instance extends System_ComponentModel_Internal.I
 export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 
-export class ProcessModuleCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
-    constructor(processModules: ProcessModule[]);
+export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase {
     readonly item: ProcessModule;
     contains(module_: ProcessModule): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     indexOf(module_: ProcessModule): int;
 }
+
+
+export const ProcessModuleCollection: {
+    new(processModules: ProcessModule[]): ProcessModuleCollection$instance;
+};
 
 
 export interface __ProcessModuleCollection$views {
@@ -1172,11 +1319,7 @@ export interface ProcessModuleCollection$instance extends System_Collections_Int
 export type ProcessModuleCollection = ProcessModuleCollection$instance & __ProcessModuleCollection$views;
 
 
-export class ProcessStartInfo$instance {
-    constructor();
-    constructor(fileName: string);
-    constructor(fileName: string, arguments: string);
-    constructor(fileName: string, arguments: IEnumerable_1<CLROf<string>>);
+export interface ProcessStartInfo$instance {
     readonly argumentList: Collection_1<CLROf<string>>;
     arguments: string;
     createNewProcessGroup: boolean;
@@ -1206,9 +1349,17 @@ export class ProcessStartInfo$instance {
 }
 
 
+export const ProcessStartInfo: {
+    new(): ProcessStartInfo$instance;
+    new(fileName: string): ProcessStartInfo$instance;
+    new(fileName: string, arguments: string): ProcessStartInfo$instance;
+    new(fileName: string, arguments: IEnumerable_1<CLROf<string>>): ProcessStartInfo$instance;
+};
+
+
 export type ProcessStartInfo = ProcessStartInfo$instance;
 
-export class ProcessThread$instance extends System_ComponentModel_Internal.Component$instance {
+export interface ProcessThread$instance extends Component {
     readonly basePriority: int;
     readonly currentPriority: int;
     readonly id: int;
@@ -1228,6 +1379,11 @@ export class ProcessThread$instance extends System_ComponentModel_Internal.Compo
 }
 
 
+export const ProcessThread: {
+    new(): ProcessThread$instance;
+};
+
+
 export interface __ProcessThread$views {
     As_IComponent(): System_ComponentModel_Internal.IComponent$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -1238,8 +1394,7 @@ export interface ProcessThread$instance extends System_ComponentModel_Internal.I
 export type ProcessThread = ProcessThread$instance & __ProcessThread$views;
 
 
-export class ProcessThreadCollection$instance extends System_Collections_Internal.ReadOnlyCollectionBase$instance {
-    constructor(processThreads: ProcessThread[]);
+export interface ProcessThreadCollection$instance extends ReadOnlyCollectionBase {
     readonly item: ProcessThread;
     add(thread: ProcessThread): int;
     contains(thread: ProcessThread): boolean;
@@ -1249,6 +1404,11 @@ export class ProcessThreadCollection$instance extends System_Collections_Interna
     insert(index: int, thread: ProcessThread): void;
     remove(thread: ProcessThread): void;
 }
+
+
+export const ProcessThreadCollection: {
+    new(processThreads: ProcessThread[]): ProcessThreadCollection$instance;
+};
 
 
 export interface __ProcessThreadCollection$views {
@@ -1261,50 +1421,34 @@ export interface ProcessThreadCollection$instance extends System_Collections_Int
 export type ProcessThreadCollection = ProcessThreadCollection$instance & __ProcessThreadCollection$views;
 
 
-export class SampleActivity_1$instance<T> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(options: { value: ref<ActivityCreationOptions_1<T>> }, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(options: { value: ref<ActivityCreationOptions_1<T>> }, result: IAsyncResult): ActivitySamplingResult;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(options: { value: ref<ActivityCreationOptions_1<T>> }): ActivitySamplingResult;
-}
-
-
-export interface __SampleActivity_1$views<T> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type SampleActivity_1<T> = SampleActivity_1$instance<T> & __SampleActivity_1$views<T>;
-
-
-export class SourceFilter$instance extends TraceFilter$instance {
-    constructor(source: string);
+export interface SourceFilter$instance extends TraceFilter {
     source: string;
     shouldTrace(cache: TraceEventCache, source: string, eventType: TraceEventType, id: int, formatOrMessage: string, args: unknown[], data1: unknown, data: unknown[]): boolean;
 }
 
 
+export const SourceFilter: {
+    new(source: string): SourceFilter$instance;
+};
+
+
 export type SourceFilter = SourceFilter$instance;
 
-export class SourceSwitch$instance extends Switch$instance {
-    constructor(name: string);
-    constructor(displayName: string, defaultSwitchValue: string);
+export interface SourceSwitch$instance extends Switch {
     level: SourceLevels;
     shouldTrace(eventType: TraceEventType): boolean;
 }
 
 
+export const SourceSwitch: {
+    new(name: string): SourceSwitch$instance;
+    new(displayName: string, defaultSwitchValue: string): SourceSwitch$instance;
+};
+
+
 export type SourceSwitch = SourceSwitch$instance;
 
-export class StackFrame$instance {
-    constructor();
-    constructor(needFileInfo: boolean);
-    constructor(skipFrames: int);
-    constructor(skipFrames: int, needFileInfo: boolean);
-    constructor(fileName: string, lineNumber: int);
-    constructor(fileName: string, lineNumber: int, colNumber: int);
+export interface StackFrame$instance {
     getFileColumnNumber(): int;
     getFileLineNumber(): int;
     getFileName(): string;
@@ -1312,42 +1456,59 @@ export class StackFrame$instance {
     getMethod(): MethodBase;
     getNativeOffset(): int;
     toString(): string;
-    static readonly OFFSET_UNKNOWN: int;
 }
+
+
+export const StackFrame: {
+    new(): StackFrame$instance;
+    new(needFileInfo: boolean): StackFrame$instance;
+    new(skipFrames: int): StackFrame$instance;
+    new(skipFrames: int, needFileInfo: boolean): StackFrame$instance;
+    new(fileName: string, lineNumber: int): StackFrame$instance;
+    new(fileName: string, lineNumber: int, colNumber: int): StackFrame$instance;
+    readonly OFFSET_UNKNOWN: int;
+};
 
 
 export type StackFrame = StackFrame$instance;
 
-export class StackTrace$instance {
-    constructor();
-    constructor(fNeedFileInfo: boolean);
-    constructor(skipFrames: int);
-    constructor(skipFrames: int, fNeedFileInfo: boolean);
-    constructor(e: Exception);
-    constructor(e: Exception, fNeedFileInfo: boolean);
-    constructor(e: Exception, skipFrames: int);
-    constructor(e: Exception, skipFrames: int, fNeedFileInfo: boolean);
-    constructor(frame: StackFrame);
-    constructor(frames: IEnumerable_1<StackFrame>);
+export interface StackTrace$instance {
     readonly frameCount: int;
     getFrame(index: int): StackFrame;
     getFrames(): StackFrame[];
     toString(): string;
-    static readonly METHODS_TO_SKIP: int;
 }
+
+
+export const StackTrace: {
+    new(): StackTrace$instance;
+    new(fNeedFileInfo: boolean): StackTrace$instance;
+    new(skipFrames: int): StackTrace$instance;
+    new(skipFrames: int, fNeedFileInfo: boolean): StackTrace$instance;
+    new(e: Exception): StackTrace$instance;
+    new(e: Exception, fNeedFileInfo: boolean): StackTrace$instance;
+    new(e: Exception, skipFrames: int): StackTrace$instance;
+    new(e: Exception, skipFrames: int, fNeedFileInfo: boolean): StackTrace$instance;
+    new(frame: StackFrame): StackTrace$instance;
+    new(frames: IEnumerable_1<StackFrame>): StackTrace$instance;
+    readonly METHODS_TO_SKIP: int;
+};
 
 
 export type StackTrace = StackTrace$instance;
 
-export class StackTraceHiddenAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface StackTraceHiddenAttribute$instance extends Attribute {
 }
+
+
+export const StackTraceHiddenAttribute: {
+    new(): StackTraceHiddenAttribute$instance;
+};
 
 
 export type StackTraceHiddenAttribute = StackTraceHiddenAttribute$instance;
 
-export class Stopwatch$instance {
-    constructor();
+export interface Stopwatch$instance {
     readonly elapsed: TimeSpan;
     readonly elapsedMilliseconds: long;
     readonly elapsedTicks: long;
@@ -1357,18 +1518,23 @@ export class Stopwatch$instance {
     start(): void;
     stop(): void;
     toString(): string;
-    static readonly frequency: long;
-    static readonly isHighResolution: boolean;
-    static getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
-    static getElapsedTime(startingTimestamp: long): TimeSpan;
-    static getTimestamp(): long;
-    static startNew(): Stopwatch;
 }
+
+
+export const Stopwatch: {
+    new(): Stopwatch$instance;
+    readonly frequency: long;
+    readonly isHighResolution: boolean;
+    getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
+    getElapsedTime(startingTimestamp: long): TimeSpan;
+    getTimestamp(): long;
+    startNew(): Stopwatch;
+};
 
 
 export type Stopwatch = Stopwatch$instance;
 
-export abstract class Switch$instance {
+export interface Switch$instance {
     readonly attributes: StringDictionary;
     readonly defaultValue: string;
     readonly description: string;
@@ -1378,35 +1544,40 @@ export abstract class Switch$instance {
 }
 
 
+export const Switch: {
+};
+
+
 export type Switch = Switch$instance;
 
-export class SwitchAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(switchName: string, switchType: Type);
+export interface SwitchAttribute$instance extends Attribute {
     switchDescription: string;
     switchName: string;
     switchType: Type;
-    static getAll(assembly: Assembly): SwitchAttribute[];
 }
+
+
+export const SwitchAttribute: {
+    new(switchName: string, switchType: Type): SwitchAttribute$instance;
+    getAll(assembly: Assembly): SwitchAttribute[];
+};
 
 
 export type SwitchAttribute = SwitchAttribute$instance;
 
-export class SwitchLevelAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(switchLevelType: Type);
+export interface SwitchLevelAttribute$instance extends Attribute {
     switchLevelType: Type;
 }
 
 
+export const SwitchLevelAttribute: {
+    new(switchLevelType: Type): SwitchLevelAttribute$instance;
+};
+
+
 export type SwitchLevelAttribute = SwitchLevelAttribute$instance;
 
-export class TextWriterTraceListener$instance extends TraceListener$instance {
-    constructor();
-    constructor(stream: Stream);
-    constructor(stream: Stream, name: string);
-    constructor(writer: TextWriter);
-    constructor(writer: TextWriter, name: string);
-    constructor(fileName: string);
-    constructor(fileName: string, name: string);
+export interface TextWriterTraceListener$instance extends TraceListener$instance {
     writer: TextWriter;
     close(): void;
     dispose(): void;
@@ -1422,6 +1593,17 @@ export class TextWriterTraceListener$instance extends TraceListener$instance {
 }
 
 
+export const TextWriterTraceListener: {
+    new(): TextWriterTraceListener$instance;
+    new(stream: Stream): TextWriterTraceListener$instance;
+    new(stream: Stream, name: string): TextWriterTraceListener$instance;
+    new(writer: TextWriter): TextWriterTraceListener$instance;
+    new(writer: TextWriter, name: string): TextWriterTraceListener$instance;
+    new(fileName: string): TextWriterTraceListener$instance;
+    new(fileName: string, name: string): TextWriterTraceListener$instance;
+};
+
+
 export interface __TextWriterTraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1429,52 +1611,56 @@ export interface __TextWriterTraceListener$views {
 export type TextWriterTraceListener = TextWriterTraceListener$instance & __TextWriterTraceListener$views;
 
 
-export class Trace$instance {
-    static readonly correlationManager: CorrelationManager;
-    static readonly listeners: TraceListenerCollection;
-    static autoFlush: boolean;
-    static useGlobalLock: boolean;
-    static indentLevel: int;
-    static indentSize: int;
-    static assert(condition: boolean, message: string, detailMessage: string): void;
-    static assert(condition: boolean, message?: string): void;
-    static assert(condition: boolean): void;
-    static close(): void;
-    static fail(message: string, detailMessage: string): void;
-    static fail(message: string): void;
-    static flush(): void;
-    static indent(): void;
-    static refresh(): void;
-    static traceError(format: string, args: unknown[]): void;
-    static traceError(message: string): void;
-    static traceInformation(format: string, args: unknown[]): void;
-    static traceInformation(message: string): void;
-    static traceWarning(format: string, args: unknown[]): void;
-    static traceWarning(message: string): void;
-    static unindent(): void;
-    static write(value: unknown, category: string): void;
-    static write(value: unknown): void;
-    static write(message: string, category: string): void;
-    static write(message: string): void;
-    static writeIf(condition: boolean, value: unknown, category: string): void;
-    static writeIf(condition: boolean, value: unknown): void;
-    static writeIf(condition: boolean, message: string, category: string): void;
-    static writeIf(condition: boolean, message: string): void;
-    static writeLine(value: unknown, category: string): void;
-    static writeLine(value: unknown): void;
-    static writeLine(message: string, category: string): void;
-    static writeLine(message: string): void;
-    static writeLineIf(condition: boolean, value: unknown, category: string): void;
-    static writeLineIf(condition: boolean, value: unknown): void;
-    static writeLineIf(condition: boolean, message: string, category: string): void;
-    static writeLineIf(condition: boolean, message: string): void;
+export interface Trace$instance {
 }
+
+
+export const Trace: {
+    new(): Trace$instance;
+    readonly correlationManager: CorrelationManager;
+    readonly listeners: TraceListenerCollection;
+    autoFlush: boolean;
+    useGlobalLock: boolean;
+    indentLevel: int;
+    indentSize: int;
+    assert(condition: boolean, message: string, detailMessage: string): void;
+    assert(condition: boolean, message?: string): void;
+    assert(condition: boolean): void;
+    close(): void;
+    fail(message: string, detailMessage: string): void;
+    fail(message: string): void;
+    flush(): void;
+    indent(): void;
+    refresh(): void;
+    traceError(format: string, args: unknown[]): void;
+    traceError(message: string): void;
+    traceInformation(format: string, args: unknown[]): void;
+    traceInformation(message: string): void;
+    traceWarning(format: string, args: unknown[]): void;
+    traceWarning(message: string): void;
+    unindent(): void;
+    write(value: unknown, category: string): void;
+    write(value: unknown): void;
+    write(message: string, category: string): void;
+    write(message: string): void;
+    writeIf(condition: boolean, value: unknown, category: string): void;
+    writeIf(condition: boolean, value: unknown): void;
+    writeIf(condition: boolean, message: string, category: string): void;
+    writeIf(condition: boolean, message: string): void;
+    writeLine(value: unknown, category: string): void;
+    writeLine(value: unknown): void;
+    writeLine(message: string, category: string): void;
+    writeLine(message: string): void;
+    writeLineIf(condition: boolean, value: unknown, category: string): void;
+    writeLineIf(condition: boolean, value: unknown): void;
+    writeLineIf(condition: boolean, message: string, category: string): void;
+    writeLineIf(condition: boolean, message: string): void;
+};
 
 
 export type Trace = Trace$instance;
 
-export class TraceEventCache$instance {
-    constructor();
+export interface TraceEventCache$instance {
     readonly callstack: string;
     readonly dateTime: DateTime;
     readonly logicalOperationStack: Stack;
@@ -1484,16 +1670,25 @@ export class TraceEventCache$instance {
 }
 
 
+export const TraceEventCache: {
+    new(): TraceEventCache$instance;
+};
+
+
 export type TraceEventCache = TraceEventCache$instance;
 
-export abstract class TraceFilter$instance {
-    abstract shouldTrace(cache: TraceEventCache, source: string, eventType: TraceEventType, id: int, formatOrMessage: string, args: unknown[], data1: unknown, data: unknown[]): boolean;
+export interface TraceFilter$instance {
+    shouldTrace(cache: TraceEventCache, source: string, eventType: TraceEventType, id: int, formatOrMessage: string, args: unknown[], data1: unknown, data: unknown[]): boolean;
 }
+
+
+export const TraceFilter: {
+};
 
 
 export type TraceFilter = TraceFilter$instance;
 
-export abstract class TraceListener$instance extends System_Internal.MarshalByRefObject$instance {
+export interface TraceListener$instance extends MarshalByRefObject {
     readonly attributes: StringDictionary;
     filter: TraceFilter;
     indentLevel: int;
@@ -1523,6 +1718,10 @@ export abstract class TraceListener$instance extends System_Internal.MarshalByRe
 }
 
 
+export const TraceListener: {
+};
+
+
 export interface __TraceListener$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -1532,7 +1731,7 @@ export interface TraceListener$instance extends System_Internal.IDisposable$inst
 export type TraceListener = TraceListener$instance & __TraceListener$views;
 
 
-export class TraceListenerCollection$instance {
+export interface TraceListenerCollection$instance {
     readonly count: int;
     add(listener: TraceListener): int;
     addRange(value: TraceListener[]): void;
@@ -1552,6 +1751,11 @@ export class TraceListenerCollection$instance {
 }
 
 
+export const TraceListenerCollection: {
+    new(): TraceListenerCollection$instance;
+};
+
+
 export interface __TraceListenerCollection$views {
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
@@ -1561,9 +1765,7 @@ export interface __TraceListenerCollection$views {
 export type TraceListenerCollection = TraceListenerCollection$instance & __TraceListenerCollection$views;
 
 
-export class TraceSource$instance {
-    constructor(name: string);
-    constructor(name: string, defaultLevel: SourceLevels);
+export interface TraceSource$instance {
     readonly attributes: StringDictionary;
     readonly defaultLevel: SourceLevels;
     readonly listeners: TraceListenerCollection;
@@ -1582,11 +1784,15 @@ export class TraceSource$instance {
 }
 
 
+export const TraceSource: {
+    new(name: string): TraceSource$instance;
+    new(name: string, defaultLevel: SourceLevels): TraceSource$instance;
+};
+
+
 export type TraceSource = TraceSource$instance;
 
-export class TraceSwitch$instance extends Switch$instance {
-    constructor(displayName: string, description: string);
-    constructor(displayName: string, description: string, defaultSwitchValue: string);
+export interface TraceSwitch$instance extends Switch {
     level: TraceLevel;
     readonly traceError: boolean;
     readonly traceInfo: boolean;
@@ -1595,14 +1801,24 @@ export class TraceSwitch$instance extends Switch$instance {
 }
 
 
+export const TraceSwitch: {
+    new(displayName: string, description: string): TraceSwitch$instance;
+    new(displayName: string, description: string, defaultSwitchValue: string): TraceSwitch$instance;
+};
+
+
 export type TraceSwitch = TraceSwitch$instance;
 
-export class UnreachableException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface UnreachableException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const UnreachableException: {
+    new(): UnreachableException$instance;
+    new(message: string): UnreachableException$instance;
+    new(message: string, innerException: Exception): UnreachableException$instance;
+};
 
 
 export interface __UnreachableException$views {
@@ -1612,13 +1828,7 @@ export interface __UnreachableException$views {
 export type UnreachableException = UnreachableException$instance & __UnreachableException$views;
 
 
-export class XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
-    constructor(stream: Stream);
-    constructor(stream: Stream, name: string);
-    constructor(writer: TextWriter);
-    constructor(writer: TextWriter, name: string);
-    constructor(filename: string);
-    constructor(filename: string, name: string);
+export interface XmlWriterTraceListener$instance extends TextWriterTraceListener$instance {
     close(): void;
     dispose(): void;
     fail(message: string, detailMessage: string): void;
@@ -1638,6 +1848,16 @@ export class XmlWriterTraceListener$instance extends TextWriterTraceListener$ins
     writeLine(message: string, category: string): void;
     writeLine(o: unknown, category: string): void;
 }
+
+
+export const XmlWriterTraceListener: {
+    new(stream: Stream): XmlWriterTraceListener$instance;
+    new(stream: Stream, name: string): XmlWriterTraceListener$instance;
+    new(writer: TextWriter): XmlWriterTraceListener$instance;
+    new(writer: TextWriter, name: string): XmlWriterTraceListener$instance;
+    new(filename: string): XmlWriterTraceListener$instance;
+    new(filename: string, name: string): XmlWriterTraceListener$instance;
+};
 
 
 export interface __XmlWriterTraceListener$views {

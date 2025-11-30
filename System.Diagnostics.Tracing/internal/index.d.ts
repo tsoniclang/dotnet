@@ -150,13 +150,18 @@ export enum EventTask {
 }
 
 
-export class EventSource_EventSourcePrimitive$instance {
+export interface EventSource_EventSourcePrimitive$instance {
 }
+
+
+export const EventSource_EventSourcePrimitive: {
+    new(): EventSource_EventSourcePrimitive$instance;
+};
 
 
 export type EventSource_EventSourcePrimitive = EventSource_EventSourcePrimitive$instance;
 
-export class EventSourceOptions$instance {
+export interface EventSourceOptions$instance {
     activityOptions: EventActivityOptions;
     keywords: EventKeywords;
     level: EventLevel;
@@ -165,9 +170,14 @@ export class EventSourceOptions$instance {
 }
 
 
+export const EventSourceOptions: {
+    new(): EventSourceOptions$instance;
+};
+
+
 export type EventSourceOptions = EventSourceOptions$instance;
 
-export abstract class DiagnosticCounter$instance {
+export interface DiagnosticCounter$instance {
     displayName: string;
     displayUnits: string;
     readonly eventSource: EventSource;
@@ -175,6 +185,10 @@ export abstract class DiagnosticCounter$instance {
     addMetadata(key: string, value: string): void;
     dispose(): void;
 }
+
+
+export const DiagnosticCounter: {
+};
 
 
 export interface __DiagnosticCounter$views {
@@ -186,8 +200,7 @@ export interface DiagnosticCounter$instance extends System_Internal.IDisposable$
 export type DiagnosticCounter = DiagnosticCounter$instance & __DiagnosticCounter$views;
 
 
-export class EventAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(eventId: int);
+export interface EventAttribute$instance extends Attribute {
     activityOptions: EventActivityOptions;
     channel: EventChannel;
     readonly eventId: int;
@@ -201,9 +214,14 @@ export class EventAttribute$instance extends System_Internal.Attribute$instance 
 }
 
 
+export const EventAttribute: {
+    new(eventId: int): EventAttribute$instance;
+};
+
+
 export type EventAttribute = EventAttribute$instance;
 
-export class EventCommandEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface EventCommandEventArgs$instance extends EventArgs {
     readonly arguments: IDictionary_2<CLROf<string>, CLROf<string>>;
     readonly command: EventCommand;
     disableEvent(eventId: int): boolean;
@@ -211,15 +229,24 @@ export class EventCommandEventArgs$instance extends System_Internal.EventArgs$in
 }
 
 
+export const EventCommandEventArgs: {
+    new(): EventCommandEventArgs$instance;
+};
+
+
 export type EventCommandEventArgs = EventCommandEventArgs$instance;
 
-export class EventCounter$instance extends DiagnosticCounter$instance {
-    constructor(name: string, eventSource: EventSource);
+export interface EventCounter$instance extends DiagnosticCounter$instance {
     dispose(): void;
     toString(): string;
     writeMetric(value: float): void;
     writeMetric(value: double): void;
 }
+
+
+export const EventCounter: {
+    new(name: string, eventSource: EventSource): EventCounter$instance;
+};
 
 
 export interface __EventCounter$views {
@@ -229,37 +256,53 @@ export interface __EventCounter$views {
 export type EventCounter = EventCounter$instance & __EventCounter$views;
 
 
-export class EventDataAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EventDataAttribute$instance extends Attribute {
     name: string;
 }
 
 
+export const EventDataAttribute: {
+    new(): EventDataAttribute$instance;
+};
+
+
 export type EventDataAttribute = EventDataAttribute$instance;
 
-export class EventFieldAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EventFieldAttribute$instance extends Attribute {
     format: EventFieldFormat;
     tags: EventFieldTags;
 }
 
 
+export const EventFieldAttribute: {
+    new(): EventFieldAttribute$instance;
+};
+
+
 export type EventFieldAttribute = EventFieldAttribute$instance;
 
-export class EventIgnoreAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EventIgnoreAttribute$instance extends Attribute {
 }
+
+
+export const EventIgnoreAttribute: {
+    new(): EventIgnoreAttribute$instance;
+};
 
 
 export type EventIgnoreAttribute = EventIgnoreAttribute$instance;
 
-export abstract class EventListener$instance {
+export interface EventListener$instance {
     disableEvents(eventSource: EventSource): void;
     dispose(): void;
     enableEvents(eventSource: EventSource, level: EventLevel): void;
     enableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords): void;
     enableEvents(eventSource: EventSource, level: EventLevel, matchAnyKeyword: EventKeywords, arguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
 }
+
+
+export const EventListener: {
+};
 
 
 export interface __EventListener$views {
@@ -271,10 +314,7 @@ export interface EventListener$instance extends System_Internal.IDisposable$inst
 export type EventListener = EventListener$instance & __EventListener$views;
 
 
-export class EventSource$instance {
-    constructor(eventSourceName: string);
-    constructor(eventSourceName: string, config: EventSourceSettings);
-    constructor(eventSourceName: string, config: EventSourceSettings, traits: string[]);
+export interface EventSource$instance {
     readonly constructionException: Exception;
     readonly guid: Guid;
     readonly name: string;
@@ -291,16 +331,23 @@ export class EventSource$instance {
     write<T>(eventName: string, options: EventSourceOptions, data: T): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, data: { value: ref<T> }): void;
     write<T>(eventName: string, options: { value: ref<EventSourceOptions> }, activityId: { value: ref<Guid> }, relatedActivityId: { value: ref<Guid> }, data: { value: ref<T> }): void;
-    static readonly currentThreadActivityId: Guid;
-    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
-    static generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
-    static getGuid(eventSourceType: Type): Guid;
-    static getName(eventSourceType: Type): string;
-    static getSources(): IEnumerable_1<EventSource>;
-    static sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
-    static setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
-    static setCurrentThreadActivityId(activityId: Guid): void;
 }
+
+
+export const EventSource: {
+    new(eventSourceName: string): EventSource$instance;
+    new(eventSourceName: string, config: EventSourceSettings): EventSource$instance;
+    new(eventSourceName: string, config: EventSourceSettings, traits: string[]): EventSource$instance;
+    readonly currentThreadActivityId: Guid;
+    generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string, flags: EventManifestOptions): string;
+    generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string): string;
+    getGuid(eventSourceType: Type): Guid;
+    getName(eventSourceType: Type): string;
+    getSources(): IEnumerable_1<EventSource>;
+    sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<CLROf<string>, CLROf<string>>): void;
+    setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: { value: ref<Guid> }): void;
+    setCurrentThreadActivityId(activityId: Guid): void;
+};
 
 
 export interface __EventSource$views {
@@ -312,30 +359,42 @@ export interface EventSource$instance extends System_Internal.IDisposable$instan
 export type EventSource = EventSource$instance & __EventSource$views;
 
 
-export class EventSourceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EventSourceAttribute$instance extends Attribute {
     guid: string;
     localizationResources: string;
     name: string;
 }
 
 
+export const EventSourceAttribute: {
+    new(): EventSourceAttribute$instance;
+};
+
+
 export type EventSourceAttribute = EventSourceAttribute$instance;
 
-export class EventSourceCreatedEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor();
+export interface EventSourceCreatedEventArgs$instance extends EventArgs {
     readonly eventSource: EventSource;
 }
 
 
+export const EventSourceCreatedEventArgs: {
+    new(): EventSourceCreatedEventArgs$instance;
+};
+
+
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
-export class EventSourceException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface EventSourceException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const EventSourceException: {
+    new(): EventSourceException$instance;
+    new(message: string): EventSourceException$instance;
+    new(message: string, innerException: Exception): EventSourceException$instance;
+};
 
 
 export interface __EventSourceException$views {
@@ -345,7 +404,7 @@ export interface __EventSourceException$views {
 export type EventSourceException = EventSourceException$instance & __EventSourceException$views;
 
 
-export class EventWrittenEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface EventWrittenEventArgs$instance extends EventArgs {
     readonly activityId: Guid;
     readonly channel: EventChannel;
     readonly eventId: int;
@@ -366,15 +425,24 @@ export class EventWrittenEventArgs$instance extends System_Internal.EventArgs$in
 }
 
 
+export const EventWrittenEventArgs: {
+    new(): EventWrittenEventArgs$instance;
+};
+
+
 export type EventWrittenEventArgs = EventWrittenEventArgs$instance;
 
-export class IncrementingEventCounter$instance extends DiagnosticCounter$instance {
-    constructor(name: string, eventSource: EventSource);
+export interface IncrementingEventCounter$instance extends DiagnosticCounter$instance {
     displayRateTimeScale: TimeSpan;
     dispose(): void;
     increment(increment?: double): void;
     toString(): string;
 }
+
+
+export const IncrementingEventCounter: {
+    new(name: string, eventSource: EventSource): IncrementingEventCounter$instance;
+};
 
 
 export interface __IncrementingEventCounter$views {
@@ -384,12 +452,16 @@ export interface __IncrementingEventCounter$views {
 export type IncrementingEventCounter = IncrementingEventCounter$instance & __IncrementingEventCounter$views;
 
 
-export class IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
-    constructor(name: string, eventSource: EventSource, totalValueProvider: Func_1<CLROf<double>>);
+export interface IncrementingPollingCounter$instance extends DiagnosticCounter$instance {
     displayRateTimeScale: TimeSpan;
     dispose(): void;
     toString(): string;
 }
+
+
+export const IncrementingPollingCounter: {
+    new(name: string, eventSource: EventSource, totalValueProvider: Func_1<CLROf<double>>): IncrementingPollingCounter$instance;
+};
 
 
 export interface __IncrementingPollingCounter$views {
@@ -399,18 +471,26 @@ export interface __IncrementingPollingCounter$views {
 export type IncrementingPollingCounter = IncrementingPollingCounter$instance & __IncrementingPollingCounter$views;
 
 
-export class NonEventAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface NonEventAttribute$instance extends Attribute {
 }
+
+
+export const NonEventAttribute: {
+    new(): NonEventAttribute$instance;
+};
 
 
 export type NonEventAttribute = NonEventAttribute$instance;
 
-export class PollingCounter$instance extends DiagnosticCounter$instance {
-    constructor(name: string, eventSource: EventSource, metricProvider: Func_1<CLROf<double>>);
+export interface PollingCounter$instance extends DiagnosticCounter$instance {
     dispose(): void;
     toString(): string;
 }
+
+
+export const PollingCounter: {
+    new(name: string, eventSource: EventSource, metricProvider: Func_1<CLROf<double>>): PollingCounter$instance;
+};
 
 
 export interface __PollingCounter$views {

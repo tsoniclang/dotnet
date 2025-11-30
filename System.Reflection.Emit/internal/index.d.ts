@@ -154,12 +154,17 @@ export enum StackBehaviour {
 }
 
 
-export class Label$instance {
+export interface Label$instance {
     readonly id: int;
     equals(obj: unknown): boolean;
     equals(obj: Label): boolean;
     getHashCode(): int;
 }
+
+
+export const Label: {
+    new(): Label$instance;
+};
 
 
 export interface __Label$views {
@@ -172,7 +177,7 @@ export interface __Label$views {
 export type Label = Label$instance & __Label$views;
 
 
-export class OpCode$instance {
+export interface OpCode$instance {
     readonly evaluationStackDelta: int;
     readonly flowControl: FlowControl;
     readonly name: string;
@@ -189,6 +194,11 @@ export class OpCode$instance {
 }
 
 
+export const OpCode: {
+    new(): OpCode$instance;
+};
+
+
 export interface __OpCode$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<OpCode>;
 
@@ -199,7 +209,7 @@ export interface __OpCode$views {
 export type OpCode = OpCode$instance & __OpCode$views;
 
 
-export abstract class AssemblyBuilder$instance extends System_Reflection_Internal.Assembly$instance {
+export interface AssemblyBuilder$instance extends Assembly {
     readonly codeBase: string;
     readonly entryPoint: MethodInfo;
     readonly isDynamic: boolean;
@@ -220,9 +230,13 @@ export abstract class AssemblyBuilder$instance extends System_Reflection_Interna
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
-    static defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
-    static defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
 }
+
+
+export const AssemblyBuilder: {
+    defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): AssemblyBuilder;
+    defineDynamicAssembly(name: AssemblyName, access: AssemblyBuilderAccess): AssemblyBuilder;
+};
 
 
 export interface __AssemblyBuilder$views {
@@ -233,7 +247,7 @@ export interface __AssemblyBuilder$views {
 export type AssemblyBuilder = AssemblyBuilder$instance & __AssemblyBuilder$views;
 
 
-export abstract class ConstructorBuilder$instance extends System_Reflection_Internal.ConstructorInfo$instance {
+export interface ConstructorBuilder$instance extends ConstructorInfo {
     initLocals: boolean;
     defineParameter(iSequence: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
     getCustomAttributes(inherit: boolean): unknown[];
@@ -247,6 +261,10 @@ export abstract class ConstructorBuilder$instance extends System_Reflection_Inte
 }
 
 
+export const ConstructorBuilder: {
+};
+
+
 export interface __ConstructorBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -254,17 +272,21 @@ export interface __ConstructorBuilder$views {
 export type ConstructorBuilder = ConstructorBuilder$instance & __ConstructorBuilder$views;
 
 
-export class CustomAttributeBuilder$instance {
-    constructor(con: ConstructorInfo, constructorArgs: unknown[]);
-    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[]);
-    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]);
-    constructor(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]);
+export interface CustomAttributeBuilder$instance {
 }
+
+
+export const CustomAttributeBuilder: {
+    new(con: ConstructorInfo, constructorArgs: unknown[]): CustomAttributeBuilder$instance;
+    new(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[]): CustomAttributeBuilder$instance;
+    new(con: ConstructorInfo, constructorArgs: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]): CustomAttributeBuilder$instance;
+    new(con: ConstructorInfo, constructorArgs: unknown[], namedProperties: PropertyInfo[], propertyValues: unknown[], namedFields: FieldInfo[], fieldValues: unknown[]): CustomAttributeBuilder$instance;
+};
 
 
 export type CustomAttributeBuilder = CustomAttributeBuilder$instance;
 
-export class DynamicILInfo$instance {
+export interface DynamicILInfo$instance {
     readonly dynamicMethod: DynamicMethod;
     getTokenFor(method: RuntimeMethodHandle): int;
     getTokenFor(method: DynamicMethod): int;
@@ -283,17 +305,14 @@ export class DynamicILInfo$instance {
 }
 
 
+export const DynamicILInfo: {
+    new(): DynamicILInfo$instance;
+};
+
+
 export type DynamicILInfo = DynamicILInfo$instance;
 
-export class DynamicMethod$instance extends System_Reflection_Internal.MethodInfo$instance {
-    constructor(name: string, returnType: Type, parameterTypes: Type[]);
-    constructor(name: string, returnType: Type, parameterTypes: Type[], restrictedSkipVisibility: boolean);
-    constructor(name: string, returnType: Type, parameterTypes: Type[], m: Module);
-    constructor(name: string, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean);
-    constructor(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean);
-    constructor(name: string, returnType: Type, parameterTypes: Type[], owner: Type);
-    constructor(name: string, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean);
-    constructor(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean);
+export interface DynamicMethod$instance extends MethodInfo {
     readonly attributes: MethodAttributes;
     readonly callingConvention: CallingConventions;
     readonly declaringType: Type;
@@ -328,6 +347,18 @@ export class DynamicMethod$instance extends System_Reflection_Internal.MethodInf
 }
 
 
+export const DynamicMethod: {
+    new(name: string, returnType: Type, parameterTypes: Type[]): DynamicMethod$instance;
+    new(name: string, returnType: Type, parameterTypes: Type[], restrictedSkipVisibility: boolean): DynamicMethod$instance;
+    new(name: string, returnType: Type, parameterTypes: Type[], m: Module): DynamicMethod$instance;
+    new(name: string, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean): DynamicMethod$instance;
+    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], m: Module, skipVisibility: boolean): DynamicMethod$instance;
+    new(name: string, returnType: Type, parameterTypes: Type[], owner: Type): DynamicMethod$instance;
+    new(name: string, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean): DynamicMethod$instance;
+    new(name: string, attributes: MethodAttributes, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], owner: Type, skipVisibility: boolean): DynamicMethod$instance;
+};
+
+
 export interface __DynamicMethod$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -335,7 +366,7 @@ export interface __DynamicMethod$views {
 export type DynamicMethod = DynamicMethod$instance & __DynamicMethod$views;
 
 
-export abstract class EnumBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
+export interface EnumBuilder$instance extends TypeInfo {
     readonly underlyingField: FieldBuilder;
     createType(): Type;
     createTypeInfo(): TypeInfo;
@@ -388,6 +419,10 @@ export abstract class EnumBuilder$instance extends System_Reflection_Internal.Ty
 }
 
 
+export const EnumBuilder: {
+};
+
+
 export interface __EnumBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
     As_IReflect(): System_Reflection_Internal.IReflect$instance;
@@ -399,7 +434,7 @@ export interface EnumBuilder$instance extends System_Reflection_Internal.IReflec
 export type EnumBuilder = EnumBuilder$instance & __EnumBuilder$views;
 
 
-export abstract class EventBuilder$instance {
+export interface EventBuilder$instance {
     addOtherMethod(mdBuilder: MethodBuilder): void;
     setAddOnMethod(mdBuilder: MethodBuilder): void;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -409,9 +444,13 @@ export abstract class EventBuilder$instance {
 }
 
 
+export const EventBuilder: {
+};
+
+
 export type EventBuilder = EventBuilder$instance;
 
-export abstract class FieldBuilder$instance extends System_Reflection_Internal.FieldInfo$instance {
+export interface FieldBuilder$instance extends FieldInfo {
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     isDefined(attributeType: Type, inherit: boolean): boolean;
@@ -422,6 +461,10 @@ export abstract class FieldBuilder$instance extends System_Reflection_Internal.F
 }
 
 
+export const FieldBuilder: {
+};
+
+
 export interface __FieldBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -429,7 +472,7 @@ export interface __FieldBuilder$views {
 export type FieldBuilder = FieldBuilder$instance & __FieldBuilder$views;
 
 
-export abstract class GenericTypeParameterBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
+export interface GenericTypeParameterBuilder$instance extends TypeInfo {
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getField3(name: string, bindingAttr: BindingFlags): FieldInfo;
@@ -477,6 +520,10 @@ export abstract class GenericTypeParameterBuilder$instance extends System_Reflec
 }
 
 
+export const GenericTypeParameterBuilder: {
+};
+
+
 export interface __GenericTypeParameterBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
     As_IReflect(): System_Reflection_Internal.IReflect$instance;
@@ -488,17 +535,17 @@ export interface GenericTypeParameterBuilder$instance extends System_Reflection_
 export type GenericTypeParameterBuilder = GenericTypeParameterBuilder$instance & __GenericTypeParameterBuilder$views;
 
 
-export abstract class ILGenerator$instance {
+export interface ILGenerator$instance {
     readonly ilOffset: int;
-    abstract beginCatchBlock(exceptionType: Type): void;
-    abstract beginExceptFilterBlock(): void;
-    abstract beginExceptionBlock(): Label;
-    abstract beginFaultBlock(): void;
-    abstract beginFinallyBlock(): void;
-    abstract beginScope(): void;
+    beginCatchBlock(exceptionType: Type): void;
+    beginExceptFilterBlock(): void;
+    beginExceptionBlock(): Label;
+    beginFaultBlock(): void;
+    beginFinallyBlock(): void;
+    beginScope(): void;
     declareLocal(localType: Type): LocalBuilder;
     declareLocal(localType: Type, pinned: boolean): LocalBuilder;
-    abstract defineLabel(): Label;
+    defineLabel(): Label;
     emit(opcode: OpCode): void;
     emit(opcode: OpCode, arg: byte): void;
     emit(opcode: OpCode, arg: short): void;
@@ -516,31 +563,39 @@ export abstract class ILGenerator$instance {
     emit(opcode: OpCode, str: string): void;
     emit(opcode: OpCode, local: LocalBuilder): void;
     emit(opcode: OpCode, arg: sbyte): void;
-    abstract emitCall(opcode: OpCode, methodInfo: MethodInfo, optionalParameterTypes: Type[]): void;
-    abstract emitCalli(opcode: OpCode, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], optionalParameterTypes: Type[]): void;
-    abstract emitCalli(opcode: OpCode, unmanagedCallConv: CallingConvention, returnType: Type, parameterTypes: Type[]): void;
+    emitCall(opcode: OpCode, methodInfo: MethodInfo, optionalParameterTypes: Type[]): void;
+    emitCalli(opcode: OpCode, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[], optionalParameterTypes: Type[]): void;
+    emitCalli(opcode: OpCode, unmanagedCallConv: CallingConvention, returnType: Type, parameterTypes: Type[]): void;
     emitWriteLine(value: string): void;
     emitWriteLine(localBuilder: LocalBuilder): void;
     emitWriteLine(fld: FieldInfo): void;
-    abstract endExceptionBlock(): void;
-    abstract endScope(): void;
-    abstract markLabel(loc: Label): void;
+    endExceptionBlock(): void;
+    endScope(): void;
+    markLabel(loc: Label): void;
     markSequencePoint(document: ISymbolDocumentWriter, startLine: int, startColumn: int, endLine: int, endColumn: int): void;
     throwException(excType: Type): void;
-    abstract usingNamespace(usingNamespace: string): void;
+    usingNamespace(usingNamespace: string): void;
 }
+
+
+export const ILGenerator: {
+};
 
 
 export type ILGenerator = ILGenerator$instance;
 
-export abstract class LocalBuilder$instance extends System_Reflection_Internal.LocalVariableInfo$instance {
+export interface LocalBuilder$instance extends LocalVariableInfo {
     setLocalSymInfo(name: string): void;
 }
 
 
+export const LocalBuilder: {
+};
+
+
 export type LocalBuilder = LocalBuilder$instance;
 
-export abstract class MethodBuilder$instance extends System_Reflection_Internal.MethodInfo$instance {
+export interface MethodBuilder$instance extends MethodInfo {
     initLocals: boolean;
     defineGenericParameters(names: string[]): GenericTypeParameterBuilder[];
     defineParameter(position: int, attributes: ParameterAttributes, strParamName: string): ParameterBuilder;
@@ -558,6 +613,10 @@ export abstract class MethodBuilder$instance extends System_Reflection_Internal.
 }
 
 
+export const MethodBuilder: {
+};
+
+
 export interface __MethodBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -565,7 +624,7 @@ export interface __MethodBuilder$views {
 export type MethodBuilder = MethodBuilder$instance & __MethodBuilder$views;
 
 
-export abstract class ModuleBuilder$instance extends System_Reflection_Internal.Module$instance {
+export interface ModuleBuilder$instance extends Module {
     createGlobalFunctions(): void;
     defineDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocumentWriter;
     defineDocument(url: string, language?: Guid): ISymbolDocumentWriter;
@@ -587,17 +646,21 @@ export abstract class ModuleBuilder$instance extends System_Reflection_Internal.
     getArrayMethod(arrayClass: Type, methodName: string, callingConvention: CallingConventions, returnType: Type, parameterTypes: Type[]): MethodInfo;
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
-    abstract getFieldMetadataToken(field: FieldInfo): int;
-    abstract getMethodMetadataToken(method: MethodInfo): int;
-    abstract getMethodMetadataToken(constructor_: ConstructorInfo): int;
+    getFieldMetadataToken(field: FieldInfo): int;
+    getMethodMetadataToken(method: MethodInfo): int;
+    getMethodMetadataToken(constructor_: ConstructorInfo): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    abstract getSignatureMetadataToken(signature: SignatureHelper): int;
-    abstract getStringMetadataToken(stringConstant: string): int;
-    abstract getTypeMetadataToken(type_: Type): int;
+    getSignatureMetadataToken(signature: SignatureHelper): int;
+    getStringMetadataToken(stringConstant: string): int;
+    getTypeMetadataToken(type_: Type): int;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
 }
+
+
+export const ModuleBuilder: {
+};
 
 
 export interface __ModuleBuilder$views {
@@ -608,240 +671,245 @@ export interface __ModuleBuilder$views {
 export type ModuleBuilder = ModuleBuilder$instance & __ModuleBuilder$views;
 
 
-export class OpCodes$instance {
-    static readonly nop: OpCode;
-    static readonly break_: OpCode;
-    static readonly Ldarg_0: OpCode;
-    static readonly Ldarg_1: OpCode;
-    static readonly Ldarg_2: OpCode;
-    static readonly Ldarg_3: OpCode;
-    static readonly Ldloc_0: OpCode;
-    static readonly Ldloc_1: OpCode;
-    static readonly Ldloc_2: OpCode;
-    static readonly Ldloc_3: OpCode;
-    static readonly Stloc_0: OpCode;
-    static readonly Stloc_1: OpCode;
-    static readonly Stloc_2: OpCode;
-    static readonly Stloc_3: OpCode;
-    static readonly Ldarg_S: OpCode;
-    static readonly Ldarga_S: OpCode;
-    static readonly Starg_S: OpCode;
-    static readonly Ldloc_S: OpCode;
-    static readonly Ldloca_S: OpCode;
-    static readonly Stloc_S: OpCode;
-    static readonly ldnull: OpCode;
-    static readonly Ldc_I4_M1: OpCode;
-    static readonly Ldc_I4_0: OpCode;
-    static readonly Ldc_I4_1: OpCode;
-    static readonly Ldc_I4_2: OpCode;
-    static readonly Ldc_I4_3: OpCode;
-    static readonly Ldc_I4_4: OpCode;
-    static readonly Ldc_I4_5: OpCode;
-    static readonly Ldc_I4_6: OpCode;
-    static readonly Ldc_I4_7: OpCode;
-    static readonly Ldc_I4_8: OpCode;
-    static readonly Ldc_I4_S: OpCode;
-    static readonly Ldc_I4: OpCode;
-    static readonly Ldc_I8: OpCode;
-    static readonly Ldc_R4: OpCode;
-    static readonly Ldc_R8: OpCode;
-    static readonly dup: OpCode;
-    static readonly pop: OpCode;
-    static readonly jmp: OpCode;
-    static readonly call: OpCode;
-    static readonly calli: OpCode;
-    static readonly ret: OpCode;
-    static readonly Br_S: OpCode;
-    static readonly Brfalse_S: OpCode;
-    static readonly Brtrue_S: OpCode;
-    static readonly Beq_S: OpCode;
-    static readonly Bge_S: OpCode;
-    static readonly Bgt_S: OpCode;
-    static readonly Ble_S: OpCode;
-    static readonly Blt_S: OpCode;
-    static readonly Bne_Un_S: OpCode;
-    static readonly Bge_Un_S: OpCode;
-    static readonly Bgt_Un_S: OpCode;
-    static readonly Ble_Un_S: OpCode;
-    static readonly Blt_Un_S: OpCode;
-    static readonly br: OpCode;
-    static readonly brfalse: OpCode;
-    static readonly brtrue: OpCode;
-    static readonly beq: OpCode;
-    static readonly bge: OpCode;
-    static readonly bgt: OpCode;
-    static readonly ble: OpCode;
-    static readonly blt: OpCode;
-    static readonly Bne_Un: OpCode;
-    static readonly Bge_Un: OpCode;
-    static readonly Bgt_Un: OpCode;
-    static readonly Ble_Un: OpCode;
-    static readonly Blt_Un: OpCode;
-    static readonly switch_: OpCode;
-    static readonly Ldind_I1: OpCode;
-    static readonly Ldind_U1: OpCode;
-    static readonly Ldind_I2: OpCode;
-    static readonly Ldind_U2: OpCode;
-    static readonly Ldind_I4: OpCode;
-    static readonly Ldind_U4: OpCode;
-    static readonly Ldind_I8: OpCode;
-    static readonly Ldind_I: OpCode;
-    static readonly Ldind_R4: OpCode;
-    static readonly Ldind_R8: OpCode;
-    static readonly Ldind_Ref: OpCode;
-    static readonly Stind_Ref: OpCode;
-    static readonly Stind_I1: OpCode;
-    static readonly Stind_I2: OpCode;
-    static readonly Stind_I4: OpCode;
-    static readonly Stind_I8: OpCode;
-    static readonly Stind_R4: OpCode;
-    static readonly Stind_R8: OpCode;
-    static readonly add: OpCode;
-    static readonly sub: OpCode;
-    static readonly mul: OpCode;
-    static readonly div: OpCode;
-    static readonly Div_Un: OpCode;
-    static readonly rem: OpCode;
-    static readonly Rem_Un: OpCode;
-    static readonly and: OpCode;
-    static readonly or: OpCode;
-    static readonly xor: OpCode;
-    static readonly shl: OpCode;
-    static readonly shr: OpCode;
-    static readonly Shr_Un: OpCode;
-    static readonly neg: OpCode;
-    static readonly not: OpCode;
-    static readonly Conv_I1: OpCode;
-    static readonly Conv_I2: OpCode;
-    static readonly Conv_I4: OpCode;
-    static readonly Conv_I8: OpCode;
-    static readonly Conv_R4: OpCode;
-    static readonly Conv_R8: OpCode;
-    static readonly Conv_U4: OpCode;
-    static readonly Conv_U8: OpCode;
-    static readonly callvirt: OpCode;
-    static readonly cpobj: OpCode;
-    static readonly ldobj: OpCode;
-    static readonly ldstr: OpCode;
-    static readonly newobj: OpCode;
-    static readonly castclass: OpCode;
-    static readonly isinst: OpCode;
-    static readonly Conv_R_Un: OpCode;
-    static readonly unbox: OpCode;
-    static readonly throw_: OpCode;
-    static readonly ldfld: OpCode;
-    static readonly ldflda: OpCode;
-    static readonly stfld: OpCode;
-    static readonly ldsfld: OpCode;
-    static readonly ldsflda: OpCode;
-    static readonly stsfld: OpCode;
-    static readonly stobj: OpCode;
-    static readonly Conv_Ovf_I1_Un: OpCode;
-    static readonly Conv_Ovf_I2_Un: OpCode;
-    static readonly Conv_Ovf_I4_Un: OpCode;
-    static readonly Conv_Ovf_I8_Un: OpCode;
-    static readonly Conv_Ovf_U1_Un: OpCode;
-    static readonly Conv_Ovf_U2_Un: OpCode;
-    static readonly Conv_Ovf_U4_Un: OpCode;
-    static readonly Conv_Ovf_U8_Un: OpCode;
-    static readonly Conv_Ovf_I_Un: OpCode;
-    static readonly Conv_Ovf_U_Un: OpCode;
-    static readonly box: OpCode;
-    static readonly newarr: OpCode;
-    static readonly ldlen: OpCode;
-    static readonly ldelema: OpCode;
-    static readonly Ldelem_I1: OpCode;
-    static readonly Ldelem_U1: OpCode;
-    static readonly Ldelem_I2: OpCode;
-    static readonly Ldelem_U2: OpCode;
-    static readonly Ldelem_I4: OpCode;
-    static readonly Ldelem_U4: OpCode;
-    static readonly Ldelem_I8: OpCode;
-    static readonly Ldelem_I: OpCode;
-    static readonly Ldelem_R4: OpCode;
-    static readonly Ldelem_R8: OpCode;
-    static readonly Ldelem_Ref: OpCode;
-    static readonly Stelem_I: OpCode;
-    static readonly Stelem_I1: OpCode;
-    static readonly Stelem_I2: OpCode;
-    static readonly Stelem_I4: OpCode;
-    static readonly Stelem_I8: OpCode;
-    static readonly Stelem_R4: OpCode;
-    static readonly Stelem_R8: OpCode;
-    static readonly Stelem_Ref: OpCode;
-    static readonly ldelem: OpCode;
-    static readonly stelem: OpCode;
-    static readonly Unbox_Any: OpCode;
-    static readonly Conv_Ovf_I1: OpCode;
-    static readonly Conv_Ovf_U1: OpCode;
-    static readonly Conv_Ovf_I2: OpCode;
-    static readonly Conv_Ovf_U2: OpCode;
-    static readonly Conv_Ovf_I4: OpCode;
-    static readonly Conv_Ovf_U4: OpCode;
-    static readonly Conv_Ovf_I8: OpCode;
-    static readonly Conv_Ovf_U8: OpCode;
-    static readonly refanyval: OpCode;
-    static readonly ckfinite: OpCode;
-    static readonly mkrefany: OpCode;
-    static readonly ldtoken: OpCode;
-    static readonly Conv_U2: OpCode;
-    static readonly Conv_U1: OpCode;
-    static readonly Conv_I: OpCode;
-    static readonly Conv_Ovf_I: OpCode;
-    static readonly Conv_Ovf_U: OpCode;
-    static readonly Add_Ovf: OpCode;
-    static readonly Add_Ovf_Un: OpCode;
-    static readonly Mul_Ovf: OpCode;
-    static readonly Mul_Ovf_Un: OpCode;
-    static readonly Sub_Ovf: OpCode;
-    static readonly Sub_Ovf_Un: OpCode;
-    static readonly endfinally: OpCode;
-    static readonly leave: OpCode;
-    static readonly Leave_S: OpCode;
-    static readonly Stind_I: OpCode;
-    static readonly Conv_U: OpCode;
-    static readonly prefix7: OpCode;
-    static readonly prefix6: OpCode;
-    static readonly prefix5: OpCode;
-    static readonly prefix4: OpCode;
-    static readonly prefix3: OpCode;
-    static readonly prefix2: OpCode;
-    static readonly prefix1: OpCode;
-    static readonly prefixref: OpCode;
-    static readonly arglist: OpCode;
-    static readonly ceq: OpCode;
-    static readonly cgt: OpCode;
-    static readonly Cgt_Un: OpCode;
-    static readonly clt: OpCode;
-    static readonly Clt_Un: OpCode;
-    static readonly ldftn: OpCode;
-    static readonly ldvirtftn: OpCode;
-    static readonly ldarg: OpCode;
-    static readonly ldarga: OpCode;
-    static readonly starg: OpCode;
-    static readonly ldloc: OpCode;
-    static readonly ldloca: OpCode;
-    static readonly stloc: OpCode;
-    static readonly localloc: OpCode;
-    static readonly endfilter: OpCode;
-    static readonly unaligned: OpCode;
-    static readonly volatile: OpCode;
-    static readonly tailcall: OpCode;
-    static readonly initobj: OpCode;
-    static readonly constrained: OpCode;
-    static readonly cpblk: OpCode;
-    static readonly initblk: OpCode;
-    static readonly rethrow: OpCode;
-    static readonly sizeof: OpCode;
-    static readonly refanytype: OpCode;
-    static readonly readonly_: OpCode;
-    static takesSingleByteArgument(inst: OpCode): boolean;
+export interface OpCodes$instance {
 }
+
+
+export const OpCodes: {
+    new(): OpCodes$instance;
+    readonly nop: OpCode;
+    readonly break_: OpCode;
+    readonly Ldarg_0: OpCode;
+    readonly Ldarg_1: OpCode;
+    readonly Ldarg_2: OpCode;
+    readonly Ldarg_3: OpCode;
+    readonly Ldloc_0: OpCode;
+    readonly Ldloc_1: OpCode;
+    readonly Ldloc_2: OpCode;
+    readonly Ldloc_3: OpCode;
+    readonly Stloc_0: OpCode;
+    readonly Stloc_1: OpCode;
+    readonly Stloc_2: OpCode;
+    readonly Stloc_3: OpCode;
+    readonly Ldarg_S: OpCode;
+    readonly Ldarga_S: OpCode;
+    readonly Starg_S: OpCode;
+    readonly Ldloc_S: OpCode;
+    readonly Ldloca_S: OpCode;
+    readonly Stloc_S: OpCode;
+    readonly ldnull: OpCode;
+    readonly Ldc_I4_M1: OpCode;
+    readonly Ldc_I4_0: OpCode;
+    readonly Ldc_I4_1: OpCode;
+    readonly Ldc_I4_2: OpCode;
+    readonly Ldc_I4_3: OpCode;
+    readonly Ldc_I4_4: OpCode;
+    readonly Ldc_I4_5: OpCode;
+    readonly Ldc_I4_6: OpCode;
+    readonly Ldc_I4_7: OpCode;
+    readonly Ldc_I4_8: OpCode;
+    readonly Ldc_I4_S: OpCode;
+    readonly Ldc_I4: OpCode;
+    readonly Ldc_I8: OpCode;
+    readonly Ldc_R4: OpCode;
+    readonly Ldc_R8: OpCode;
+    readonly dup: OpCode;
+    readonly pop: OpCode;
+    readonly jmp: OpCode;
+    readonly call: OpCode;
+    readonly calli: OpCode;
+    readonly ret: OpCode;
+    readonly Br_S: OpCode;
+    readonly Brfalse_S: OpCode;
+    readonly Brtrue_S: OpCode;
+    readonly Beq_S: OpCode;
+    readonly Bge_S: OpCode;
+    readonly Bgt_S: OpCode;
+    readonly Ble_S: OpCode;
+    readonly Blt_S: OpCode;
+    readonly Bne_Un_S: OpCode;
+    readonly Bge_Un_S: OpCode;
+    readonly Bgt_Un_S: OpCode;
+    readonly Ble_Un_S: OpCode;
+    readonly Blt_Un_S: OpCode;
+    readonly br: OpCode;
+    readonly brfalse: OpCode;
+    readonly brtrue: OpCode;
+    readonly beq: OpCode;
+    readonly bge: OpCode;
+    readonly bgt: OpCode;
+    readonly ble: OpCode;
+    readonly blt: OpCode;
+    readonly Bne_Un: OpCode;
+    readonly Bge_Un: OpCode;
+    readonly Bgt_Un: OpCode;
+    readonly Ble_Un: OpCode;
+    readonly Blt_Un: OpCode;
+    readonly switch_: OpCode;
+    readonly Ldind_I1: OpCode;
+    readonly Ldind_U1: OpCode;
+    readonly Ldind_I2: OpCode;
+    readonly Ldind_U2: OpCode;
+    readonly Ldind_I4: OpCode;
+    readonly Ldind_U4: OpCode;
+    readonly Ldind_I8: OpCode;
+    readonly Ldind_I: OpCode;
+    readonly Ldind_R4: OpCode;
+    readonly Ldind_R8: OpCode;
+    readonly Ldind_Ref: OpCode;
+    readonly Stind_Ref: OpCode;
+    readonly Stind_I1: OpCode;
+    readonly Stind_I2: OpCode;
+    readonly Stind_I4: OpCode;
+    readonly Stind_I8: OpCode;
+    readonly Stind_R4: OpCode;
+    readonly Stind_R8: OpCode;
+    readonly add: OpCode;
+    readonly sub: OpCode;
+    readonly mul: OpCode;
+    readonly div: OpCode;
+    readonly Div_Un: OpCode;
+    readonly rem: OpCode;
+    readonly Rem_Un: OpCode;
+    readonly and: OpCode;
+    readonly or: OpCode;
+    readonly xor: OpCode;
+    readonly shl: OpCode;
+    readonly shr: OpCode;
+    readonly Shr_Un: OpCode;
+    readonly neg: OpCode;
+    readonly not: OpCode;
+    readonly Conv_I1: OpCode;
+    readonly Conv_I2: OpCode;
+    readonly Conv_I4: OpCode;
+    readonly Conv_I8: OpCode;
+    readonly Conv_R4: OpCode;
+    readonly Conv_R8: OpCode;
+    readonly Conv_U4: OpCode;
+    readonly Conv_U8: OpCode;
+    readonly callvirt: OpCode;
+    readonly cpobj: OpCode;
+    readonly ldobj: OpCode;
+    readonly ldstr: OpCode;
+    readonly newobj: OpCode;
+    readonly castclass: OpCode;
+    readonly isinst: OpCode;
+    readonly Conv_R_Un: OpCode;
+    readonly unbox: OpCode;
+    readonly throw_: OpCode;
+    readonly ldfld: OpCode;
+    readonly ldflda: OpCode;
+    readonly stfld: OpCode;
+    readonly ldsfld: OpCode;
+    readonly ldsflda: OpCode;
+    readonly stsfld: OpCode;
+    readonly stobj: OpCode;
+    readonly Conv_Ovf_I1_Un: OpCode;
+    readonly Conv_Ovf_I2_Un: OpCode;
+    readonly Conv_Ovf_I4_Un: OpCode;
+    readonly Conv_Ovf_I8_Un: OpCode;
+    readonly Conv_Ovf_U1_Un: OpCode;
+    readonly Conv_Ovf_U2_Un: OpCode;
+    readonly Conv_Ovf_U4_Un: OpCode;
+    readonly Conv_Ovf_U8_Un: OpCode;
+    readonly Conv_Ovf_I_Un: OpCode;
+    readonly Conv_Ovf_U_Un: OpCode;
+    readonly box: OpCode;
+    readonly newarr: OpCode;
+    readonly ldlen: OpCode;
+    readonly ldelema: OpCode;
+    readonly Ldelem_I1: OpCode;
+    readonly Ldelem_U1: OpCode;
+    readonly Ldelem_I2: OpCode;
+    readonly Ldelem_U2: OpCode;
+    readonly Ldelem_I4: OpCode;
+    readonly Ldelem_U4: OpCode;
+    readonly Ldelem_I8: OpCode;
+    readonly Ldelem_I: OpCode;
+    readonly Ldelem_R4: OpCode;
+    readonly Ldelem_R8: OpCode;
+    readonly Ldelem_Ref: OpCode;
+    readonly Stelem_I: OpCode;
+    readonly Stelem_I1: OpCode;
+    readonly Stelem_I2: OpCode;
+    readonly Stelem_I4: OpCode;
+    readonly Stelem_I8: OpCode;
+    readonly Stelem_R4: OpCode;
+    readonly Stelem_R8: OpCode;
+    readonly Stelem_Ref: OpCode;
+    readonly ldelem: OpCode;
+    readonly stelem: OpCode;
+    readonly Unbox_Any: OpCode;
+    readonly Conv_Ovf_I1: OpCode;
+    readonly Conv_Ovf_U1: OpCode;
+    readonly Conv_Ovf_I2: OpCode;
+    readonly Conv_Ovf_U2: OpCode;
+    readonly Conv_Ovf_I4: OpCode;
+    readonly Conv_Ovf_U4: OpCode;
+    readonly Conv_Ovf_I8: OpCode;
+    readonly Conv_Ovf_U8: OpCode;
+    readonly refanyval: OpCode;
+    readonly ckfinite: OpCode;
+    readonly mkrefany: OpCode;
+    readonly ldtoken: OpCode;
+    readonly Conv_U2: OpCode;
+    readonly Conv_U1: OpCode;
+    readonly Conv_I: OpCode;
+    readonly Conv_Ovf_I: OpCode;
+    readonly Conv_Ovf_U: OpCode;
+    readonly Add_Ovf: OpCode;
+    readonly Add_Ovf_Un: OpCode;
+    readonly Mul_Ovf: OpCode;
+    readonly Mul_Ovf_Un: OpCode;
+    readonly Sub_Ovf: OpCode;
+    readonly Sub_Ovf_Un: OpCode;
+    readonly endfinally: OpCode;
+    readonly leave: OpCode;
+    readonly Leave_S: OpCode;
+    readonly Stind_I: OpCode;
+    readonly Conv_U: OpCode;
+    readonly prefix7: OpCode;
+    readonly prefix6: OpCode;
+    readonly prefix5: OpCode;
+    readonly prefix4: OpCode;
+    readonly prefix3: OpCode;
+    readonly prefix2: OpCode;
+    readonly prefix1: OpCode;
+    readonly prefixref: OpCode;
+    readonly arglist: OpCode;
+    readonly ceq: OpCode;
+    readonly cgt: OpCode;
+    readonly Cgt_Un: OpCode;
+    readonly clt: OpCode;
+    readonly Clt_Un: OpCode;
+    readonly ldftn: OpCode;
+    readonly ldvirtftn: OpCode;
+    readonly ldarg: OpCode;
+    readonly ldarga: OpCode;
+    readonly starg: OpCode;
+    readonly ldloc: OpCode;
+    readonly ldloca: OpCode;
+    readonly stloc: OpCode;
+    readonly localloc: OpCode;
+    readonly endfilter: OpCode;
+    readonly unaligned: OpCode;
+    readonly volatile: OpCode;
+    readonly tailcall: OpCode;
+    readonly initobj: OpCode;
+    readonly constrained: OpCode;
+    readonly cpblk: OpCode;
+    readonly initblk: OpCode;
+    readonly rethrow: OpCode;
+    readonly sizeof: OpCode;
+    readonly refanytype: OpCode;
+    readonly readonly_: OpCode;
+    takesSingleByteArgument(inst: OpCode): boolean;
+};
 
 
 export type OpCodes = OpCodes$instance;
 
-export abstract class ParameterBuilder$instance {
+export interface ParameterBuilder$instance {
     readonly attributes: int;
     readonly isIn: boolean;
     readonly isOptional: boolean;
@@ -854,10 +922,13 @@ export abstract class ParameterBuilder$instance {
 }
 
 
+export const ParameterBuilder: {
+};
+
+
 export type ParameterBuilder = ParameterBuilder$instance;
 
-export class PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
-    constructor(name: AssemblyName, coreAssembly: Assembly, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>);
+export interface PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance {
     readonly fullName: string;
     readonly manifestModule: Module;
     generateMetadata(ilStream: { value: ref<BlobBuilder> }, mappedFieldData: { value: ref<BlobBuilder> }): MetadataBuilder;
@@ -873,6 +944,11 @@ export class PersistedAssemblyBuilder$instance extends AssemblyBuilder$instance 
 }
 
 
+export const PersistedAssemblyBuilder: {
+    new(name: AssemblyName, coreAssembly: Assembly, assemblyAttributes: IEnumerable_1<CustomAttributeBuilder>): PersistedAssemblyBuilder$instance;
+};
+
+
 export interface __PersistedAssemblyBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
@@ -881,7 +957,7 @@ export interface __PersistedAssemblyBuilder$views {
 export type PersistedAssemblyBuilder = PersistedAssemblyBuilder$instance & __PersistedAssemblyBuilder$views;
 
 
-export abstract class PropertyBuilder$instance extends System_Reflection_Internal.PropertyInfo$instance {
+export interface PropertyBuilder$instance extends PropertyInfo {
     addOtherMethod(mdBuilder: MethodBuilder): void;
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
@@ -894,6 +970,10 @@ export abstract class PropertyBuilder$instance extends System_Reflection_Interna
 }
 
 
+export const PropertyBuilder: {
+};
+
+
 export interface __PropertyBuilder$views {
     As_ICustomAttributeProvider(): System_Reflection_Internal.ICustomAttributeProvider$instance;
 }
@@ -901,7 +981,7 @@ export interface __PropertyBuilder$views {
 export type PropertyBuilder = PropertyBuilder$instance & __PropertyBuilder$views;
 
 
-export class SignatureHelper$instance {
+export interface SignatureHelper$instance {
     addArgument(clsArgument: Type): void;
     addArgument(argument: Type, pinned: boolean): void;
     addArgument(argument: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[]): void;
@@ -911,21 +991,26 @@ export class SignatureHelper$instance {
     getHashCode(): int;
     getSignature(): byte[];
     toString(): string;
-    static getFieldSigHelper(mod: Module): SignatureHelper;
-    static getLocalVarSigHelper(): SignatureHelper;
-    static getLocalVarSigHelper(mod: Module): SignatureHelper;
-    static getMethodSigHelper(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static getMethodSigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
-    static getMethodSigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
-    static getPropertySigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static getPropertySigHelper(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
-    static getPropertySigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
 }
+
+
+export const SignatureHelper: {
+    new(): SignatureHelper$instance;
+    getFieldSigHelper(mod: Module): SignatureHelper;
+    getLocalVarSigHelper(): SignatureHelper;
+    getLocalVarSigHelper(mod: Module): SignatureHelper;
+    getMethodSigHelper(callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    getMethodSigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type): SignatureHelper;
+    getMethodSigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+    getPropertySigHelper(mod: Module, callingConvention: CallingConventions, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    getPropertySigHelper(mod: Module, returnType: Type, requiredReturnTypeCustomModifiers: Type[], optionalReturnTypeCustomModifiers: Type[], parameterTypes: Type[], requiredParameterTypeCustomModifiers: Type[][], optionalParameterTypeCustomModifiers: Type[][]): SignatureHelper;
+    getPropertySigHelper(mod: Module, returnType: Type, parameterTypes: Type[]): SignatureHelper;
+};
 
 
 export type SignatureHelper = SignatureHelper$instance;
 
-export abstract class TypeBuilder$instance extends System_Reflection_Internal.TypeInfo$instance {
+export interface TypeBuilder$instance extends TypeInfo {
     readonly packingSize: PackingSize;
     readonly size: int;
     addInterfaceImplementation(interfaceType: Type): void;
@@ -1009,11 +1094,15 @@ export abstract class TypeBuilder$instance extends System_Reflection_Internal.Ty
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
     setParent(parent: Type): void;
-    static readonly unspecifiedTypeSize: int;
-    static getConstructor(type_: Type, constructor_: ConstructorInfo): ConstructorInfo;
-    static getField(type_: Type, field: FieldInfo): FieldInfo;
-    static getMethod(type_: Type, method: MethodInfo): MethodInfo;
 }
+
+
+export const TypeBuilder: {
+    readonly unspecifiedTypeSize: int;
+    getConstructor(type_: Type, constructor_: ConstructorInfo): ConstructorInfo;
+    getField(type_: Type, field: FieldInfo): FieldInfo;
+    getMethod(type_: Type, method: MethodInfo): MethodInfo;
+};
 
 
 export interface __TypeBuilder$views {

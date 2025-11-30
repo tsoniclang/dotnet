@@ -91,17 +91,19 @@ export interface IStackWalk$instance {
 
 export type IStackWalk = IStackWalk$instance;
 
-export class AllowPartiallyTrustedCallersAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface AllowPartiallyTrustedCallersAttribute$instance extends Attribute {
     partialTrustVisibilityLevel: PartialTrustVisibilityLevel;
 }
 
 
+export const AllowPartiallyTrustedCallersAttribute: {
+    new(): AllowPartiallyTrustedCallersAttribute$instance;
+};
+
+
 export type AllowPartiallyTrustedCallersAttribute = AllowPartiallyTrustedCallersAttribute$instance;
 
-export class PermissionSet$instance {
-    constructor(state: PermissionState);
-    constructor(permSet: PermissionSet);
+export interface PermissionSet$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
@@ -128,9 +130,15 @@ export class PermissionSet$instance {
     toString(): string;
     toXml(): SecurityElement;
     union(other: PermissionSet): PermissionSet;
-    static convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
-    static revertAssert(): void;
 }
+
+
+export const PermissionSet: {
+    new(state: PermissionState): PermissionSet$instance;
+    new(permSet: PermissionSet): PermissionSet$instance;
+    convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
+    revertAssert(): void;
+};
 
 
 export interface __PermissionSet$views {
@@ -146,9 +154,7 @@ export interface PermissionSet$instance extends System_Runtime_Serialization_Int
 export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
 
-export class SecureString$instance {
-    constructor();
-    constructor(value: ptr<char>, length: int);
+export interface SecureString$instance {
     readonly length: int;
     appendChar(c: char): void;
     clear(): void;
@@ -162,6 +168,12 @@ export class SecureString$instance {
 }
 
 
+export const SecureString: {
+    new(): SecureString$instance;
+    new(value: ptr<char>, length: int): SecureString$instance;
+};
+
+
 export interface __SecureString$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -171,18 +183,20 @@ export interface SecureString$instance extends System_Internal.IDisposable$insta
 export type SecureString = SecureString$instance & __SecureString$views;
 
 
-export class SecurityCriticalAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
-    constructor(scope: SecurityCriticalScope);
+export interface SecurityCriticalAttribute$instance extends Attribute {
     readonly scope: SecurityCriticalScope;
 }
 
 
+export const SecurityCriticalAttribute: {
+    new(): SecurityCriticalAttribute$instance;
+    new(scope: SecurityCriticalScope): SecurityCriticalAttribute$instance;
+};
+
+
 export type SecurityCriticalAttribute = SecurityCriticalAttribute$instance;
 
-export class SecurityElement$instance {
-    constructor(tag: string);
-    constructor(tag: string, text: string);
+export interface SecurityElement$instance {
     attributes: Hashtable;
     children: ArrayList;
     tag: string;
@@ -195,23 +209,24 @@ export class SecurityElement$instance {
     searchForChildByTag(tag: string): SecurityElement;
     searchForTextOfTag(tag: string): string;
     toString(): string;
-    static escape(str: string): string;
-    static fromString(xml: string): SecurityElement;
-    static isValidAttributeName(name: string): boolean;
-    static isValidAttributeValue(value: string): boolean;
-    static isValidTag(tag: string): boolean;
-    static isValidText(text: string): boolean;
 }
+
+
+export const SecurityElement: {
+    new(tag: string): SecurityElement$instance;
+    new(tag: string, text: string): SecurityElement$instance;
+    escape(str: string): string;
+    fromString(xml: string): SecurityElement;
+    isValidAttributeName(name: string): boolean;
+    isValidAttributeValue(value: string): boolean;
+    isValidTag(tag: string): boolean;
+    isValidText(text: string): boolean;
+};
 
 
 export type SecurityElement = SecurityElement$instance;
 
-export class SecurityException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, type_: Type);
-    constructor(message: string, type_: Type, state: string);
+export interface SecurityException$instance extends SystemException {
     demanded: unknown;
     denySetInstance: unknown;
     failedAssemblyInfo: AssemblyName;
@@ -227,6 +242,15 @@ export class SecurityException$instance extends System_Internal.SystemException$
 }
 
 
+export const SecurityException: {
+    new(): SecurityException$instance;
+    new(message: string): SecurityException$instance;
+    new(message: string, inner: Exception): SecurityException$instance;
+    new(message: string, type_: Type): SecurityException$instance;
+    new(message: string, type_: Type, state: string): SecurityException$instance;
+};
+
+
 export interface __SecurityException$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
@@ -234,56 +258,84 @@ export interface __SecurityException$views {
 export type SecurityException = SecurityException$instance & __SecurityException$views;
 
 
-export class SecurityRulesAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(ruleSet: SecurityRuleSet);
+export interface SecurityRulesAttribute$instance extends Attribute {
     readonly ruleSet: SecurityRuleSet;
     skipVerificationInFullTrust: boolean;
 }
 
 
+export const SecurityRulesAttribute: {
+    new(ruleSet: SecurityRuleSet): SecurityRulesAttribute$instance;
+};
+
+
 export type SecurityRulesAttribute = SecurityRulesAttribute$instance;
 
-export class SecuritySafeCriticalAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SecuritySafeCriticalAttribute$instance extends Attribute {
 }
+
+
+export const SecuritySafeCriticalAttribute: {
+    new(): SecuritySafeCriticalAttribute$instance;
+};
 
 
 export type SecuritySafeCriticalAttribute = SecuritySafeCriticalAttribute$instance;
 
-export class SecurityTransparentAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SecurityTransparentAttribute$instance extends Attribute {
 }
+
+
+export const SecurityTransparentAttribute: {
+    new(): SecurityTransparentAttribute$instance;
+};
 
 
 export type SecurityTransparentAttribute = SecurityTransparentAttribute$instance;
 
-export class SecurityTreatAsSafeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SecurityTreatAsSafeAttribute$instance extends Attribute {
 }
+
+
+export const SecurityTreatAsSafeAttribute: {
+    new(): SecurityTreatAsSafeAttribute$instance;
+};
 
 
 export type SecurityTreatAsSafeAttribute = SecurityTreatAsSafeAttribute$instance;
 
-export class SuppressUnmanagedCodeSecurityAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface SuppressUnmanagedCodeSecurityAttribute$instance extends Attribute {
 }
+
+
+export const SuppressUnmanagedCodeSecurityAttribute: {
+    new(): SuppressUnmanagedCodeSecurityAttribute$instance;
+};
 
 
 export type SuppressUnmanagedCodeSecurityAttribute = SuppressUnmanagedCodeSecurityAttribute$instance;
 
-export class UnverifiableCodeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface UnverifiableCodeAttribute$instance extends Attribute {
 }
+
+
+export const UnverifiableCodeAttribute: {
+    new(): UnverifiableCodeAttribute$instance;
+};
 
 
 export type UnverifiableCodeAttribute = UnverifiableCodeAttribute$instance;
 
-export class VerificationException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface VerificationException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const VerificationException: {
+    new(): VerificationException$instance;
+    new(message: string): VerificationException$instance;
+    new(message: string, innerException: Exception): VerificationException$instance;
+};
 
 
 export interface __VerificationException$views {

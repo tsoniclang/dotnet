@@ -97,19 +97,30 @@ export enum HttpVersionPolicy {
 }
 
 
-export class HttpRequestOptionsKey_1$instance<TValue> {
-    constructor(key: string);
+export type HeaderEncodingSelector_1<TContext> = (headerName: string, context: TContext) => Encoding;
+
+
+export interface HttpRequestOptionsKey_1$instance<TValue> {
     readonly key: string;
 }
 
 
+export const HttpRequestOptionsKey_1: {
+    new<TValue>(key: string): HttpRequestOptionsKey_1$instance<TValue>;
+};
+
+
 export type HttpRequestOptionsKey_1<TValue> = HttpRequestOptionsKey_1$instance<TValue>;
 
-export class ByteArrayContent$instance extends HttpContent$instance {
-    constructor(content: byte[]);
-    constructor(content: byte[], offset: int, count: int);
+export interface ByteArrayContent$instance extends HttpContent$instance {
     dispose(): void;
 }
+
+
+export const ByteArrayContent: {
+    new(content: byte[]): ByteArrayContent$instance;
+    new(content: byte[], offset: int, count: int): ByteArrayContent$instance;
+};
 
 
 export interface __ByteArrayContent$views {
@@ -119,10 +130,14 @@ export interface __ByteArrayContent$views {
 export type ByteArrayContent = ByteArrayContent$instance & __ByteArrayContent$views;
 
 
-export abstract class DelegatingHandler$instance extends HttpMessageHandler$instance {
+export interface DelegatingHandler$instance extends HttpMessageHandler$instance {
     innerHandler: HttpMessageHandler;
     dispose(): void;
 }
+
+
+export const DelegatingHandler: {
+};
 
 
 export interface __DelegatingHandler$views {
@@ -132,10 +147,14 @@ export interface __DelegatingHandler$views {
 export type DelegatingHandler = DelegatingHandler$instance & __DelegatingHandler$views;
 
 
-export class FormUrlEncodedContent$instance extends ByteArrayContent$instance {
-    constructor(nameValueCollection: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>);
+export interface FormUrlEncodedContent$instance extends ByteArrayContent$instance {
     dispose(): void;
 }
+
+
+export const FormUrlEncodedContent: {
+    new(nameValueCollection: IEnumerable_1<KeyValuePair_2<CLROf<string>, CLROf<string>>>): FormUrlEncodedContent$instance;
+};
 
 
 export interface __FormUrlEncodedContent$views {
@@ -145,28 +164,7 @@ export interface __FormUrlEncodedContent$views {
 export type FormUrlEncodedContent = FormUrlEncodedContent$instance & __FormUrlEncodedContent$views;
 
 
-export class HeaderEncodingSelector_1$instance<TContext> extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(headerName: string, context: TContext, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): Encoding;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(headerName: string, context: TContext): Encoding;
-}
-
-
-export interface __HeaderEncodingSelector_1$views<TContext> {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type HeaderEncodingSelector_1<TContext> = HeaderEncodingSelector_1$instance<TContext> & __HeaderEncodingSelector_1$views<TContext>;
-
-
-export class HttpClient$instance extends HttpMessageInvoker$instance {
-    constructor();
-    constructor(handler: HttpMessageHandler);
-    constructor(handler: HttpMessageHandler, disposeHandler: boolean);
+export interface HttpClient$instance extends HttpMessageInvoker$instance {
     baseAddress: Uri;
     readonly defaultRequestHeaders: HttpRequestHeaders;
     defaultRequestVersion: Version;
@@ -214,8 +212,15 @@ export class HttpClient$instance extends HttpMessageInvoker$instance {
     send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static defaultProxy: IWebProxy;
 }
+
+
+export const HttpClient: {
+    new(): HttpClient$instance;
+    new(handler: HttpMessageHandler): HttpClient$instance;
+    new(handler: HttpMessageHandler, disposeHandler: boolean): HttpClient$instance;
+    defaultProxy: IWebProxy;
+};
 
 
 export interface __HttpClient$views {
@@ -225,8 +230,7 @@ export interface __HttpClient$views {
 export type HttpClient = HttpClient$instance & __HttpClient$views;
 
 
-export class HttpClientHandler$instance extends HttpMessageHandler$instance {
-    constructor();
+export interface HttpClientHandler$instance extends HttpMessageHandler$instance {
     allowAutoRedirect: boolean;
     automaticDecompression: DecompressionMethods;
     checkCertificateRevocationList: boolean;
@@ -252,8 +256,13 @@ export class HttpClientHandler$instance extends HttpMessageHandler$instance {
     useDefaultCredentials: boolean;
     useProxy: boolean;
     dispose(): void;
-    static readonly dangerousAcceptAnyServerCertificateValidator: Func_5<HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, CLROf<boolean>>;
 }
+
+
+export const HttpClientHandler: {
+    new(): HttpClientHandler$instance;
+    readonly dangerousAcceptAnyServerCertificateValidator: Func_5<HttpRequestMessage, X509Certificate2, X509Chain, SslPolicyErrors, CLROf<boolean>>;
+};
 
 
 export interface __HttpClientHandler$views {
@@ -263,7 +272,7 @@ export interface __HttpClientHandler$views {
 export type HttpClientHandler = HttpClientHandler$instance & __HttpClientHandler$views;
 
 
-export abstract class HttpContent$instance {
+export interface HttpContent$instance {
     readonly headers: HttpContentHeaders;
     copyTo(stream: Stream, context: TransportContext, cancellationToken: CancellationToken): void;
     copyToAsync(stream: Stream): Task;
@@ -286,6 +295,10 @@ export abstract class HttpContent$instance {
 }
 
 
+export const HttpContent: {
+};
+
+
 export interface __HttpContent$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -295,12 +308,16 @@ export interface HttpContent$instance extends System_Internal.IDisposable$instan
 export type HttpContent = HttpContent$instance & __HttpContent$views;
 
 
-export class HttpIOException$instance extends System_IO_Internal.IOException$instance {
-    constructor(httpRequestError: HttpRequestError, message: string, innerException: Exception);
+export interface HttpIOException$instance extends IOException {
     readonly httpRequestError: HttpRequestError;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const HttpIOException: {
+    new(httpRequestError: HttpRequestError, message: string, innerException: Exception): HttpIOException$instance;
+};
 
 
 export interface __HttpIOException$views {
@@ -310,9 +327,13 @@ export interface __HttpIOException$views {
 export type HttpIOException = HttpIOException$instance & __HttpIOException$views;
 
 
-export abstract class HttpMessageHandler$instance {
+export interface HttpMessageHandler$instance {
     dispose(): void;
 }
+
+
+export const HttpMessageHandler: {
+};
 
 
 export interface __HttpMessageHandler$views {
@@ -324,13 +345,17 @@ export interface HttpMessageHandler$instance extends System_Internal.IDisposable
 export type HttpMessageHandler = HttpMessageHandler$instance & __HttpMessageHandler$views;
 
 
-export class HttpMessageInvoker$instance {
-    constructor(handler: HttpMessageHandler);
-    constructor(handler: HttpMessageHandler, disposeHandler: boolean);
+export interface HttpMessageInvoker$instance {
     dispose(): void;
     send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
+
+
+export const HttpMessageInvoker: {
+    new(handler: HttpMessageHandler): HttpMessageInvoker$instance;
+    new(handler: HttpMessageHandler, disposeHandler: boolean): HttpMessageInvoker$instance;
+};
 
 
 export interface __HttpMessageInvoker$views {
@@ -342,25 +367,29 @@ export interface HttpMessageInvoker$instance extends System_Internal.IDisposable
 export type HttpMessageInvoker = HttpMessageInvoker$instance & __HttpMessageInvoker$views;
 
 
-export class HttpMethod$instance {
-    constructor(method: string);
+export interface HttpMethod$instance {
     readonly method: string;
     equals(other: HttpMethod): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static readonly get_: HttpMethod;
-    static readonly put: HttpMethod;
-    static readonly post: HttpMethod;
-    static readonly delete_: HttpMethod;
-    static readonly head: HttpMethod;
-    static readonly options: HttpMethod;
-    static readonly trace: HttpMethod;
-    static readonly patch: HttpMethod;
-    static readonly query: HttpMethod;
-    static readonly connect: HttpMethod;
-    static parse(method: ReadOnlySpan_1<CLROf<char>>): HttpMethod;
 }
+
+
+export const HttpMethod: {
+    new(method: string): HttpMethod$instance;
+    readonly get_: HttpMethod;
+    readonly put: HttpMethod;
+    readonly post: HttpMethod;
+    readonly delete_: HttpMethod;
+    readonly head: HttpMethod;
+    readonly options: HttpMethod;
+    readonly trace: HttpMethod;
+    readonly patch: HttpMethod;
+    readonly query: HttpMethod;
+    readonly connect: HttpMethod;
+    parse(method: ReadOnlySpan_1<CLROf<char>>): HttpMethod;
+};
 
 
 export interface __HttpMethod$views {
@@ -373,11 +402,15 @@ export interface __HttpMethod$views {
 export type HttpMethod = HttpMethod$instance & __HttpMethod$views;
 
 
-export class HttpProtocolException$instance extends HttpIOException$instance {
-    constructor(errorCode: long, message: string, innerException: Exception);
+export interface HttpProtocolException$instance extends HttpIOException$instance {
     readonly errorCode: long;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const HttpProtocolException: {
+    new(errorCode: long, message: string, innerException: Exception): HttpProtocolException$instance;
+};
 
 
 export interface __HttpProtocolException$views {
@@ -387,16 +420,20 @@ export interface __HttpProtocolException$views {
 export type HttpProtocolException = HttpProtocolException$instance & __HttpProtocolException$views;
 
 
-export class HttpRequestException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, inner: Exception);
-    constructor(message: string, inner: Exception, statusCode: Nullable_1<HttpStatusCode>);
-    constructor(httpRequestError: HttpRequestError, message: string, inner: Exception, statusCode: Nullable_1<HttpStatusCode>);
+export interface HttpRequestException$instance extends Exception {
     readonly httpRequestError: HttpRequestError;
     readonly statusCode: Nullable_1<HttpStatusCode>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const HttpRequestException: {
+    new(): HttpRequestException$instance;
+    new(message: string): HttpRequestException$instance;
+    new(message: string, inner: Exception): HttpRequestException$instance;
+    new(message: string, inner: Exception, statusCode: Nullable_1<HttpStatusCode>): HttpRequestException$instance;
+    new(httpRequestError: HttpRequestError, message: string, inner: Exception, statusCode: Nullable_1<HttpStatusCode>): HttpRequestException$instance;
+};
 
 
 export interface __HttpRequestException$views {
@@ -406,10 +443,7 @@ export interface __HttpRequestException$views {
 export type HttpRequestException = HttpRequestException$instance & __HttpRequestException$views;
 
 
-export class HttpRequestMessage$instance {
-    constructor();
-    constructor(method: HttpMethod, requestUri: Uri);
-    constructor(method: HttpMethod, requestUri: string);
+export interface HttpRequestMessage$instance {
     content: HttpContent;
     readonly headers: HttpRequestHeaders;
     method: HttpMethod;
@@ -423,6 +457,13 @@ export class HttpRequestMessage$instance {
 }
 
 
+export const HttpRequestMessage: {
+    new(): HttpRequestMessage$instance;
+    new(method: HttpMethod, requestUri: Uri): HttpRequestMessage$instance;
+    new(method: HttpMethod, requestUri: string): HttpRequestMessage$instance;
+};
+
+
 export interface __HttpRequestMessage$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -432,11 +473,15 @@ export interface HttpRequestMessage$instance extends System_Internal.IDisposable
 export type HttpRequestMessage = HttpRequestMessage$instance & __HttpRequestMessage$views;
 
 
-export class HttpRequestOptions$instance {
-    constructor();
+export interface HttpRequestOptions$instance {
     set_<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): void;
     tryGetValue<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: { value: ref<TValue> }): boolean;
 }
+
+
+export const HttpRequestOptions: {
+    new(): HttpRequestOptions$instance;
+};
 
 
 export interface __HttpRequestOptions$views {
@@ -451,9 +496,7 @@ export interface __HttpRequestOptions$views {
 export type HttpRequestOptions = HttpRequestOptions$instance & __HttpRequestOptions$views;
 
 
-export class HttpResponseMessage$instance {
-    constructor();
-    constructor(statusCode: HttpStatusCode);
+export interface HttpResponseMessage$instance {
     content: HttpContent;
     readonly headers: HttpResponseHeaders;
     readonly isSuccessStatusCode: boolean;
@@ -468,6 +511,12 @@ export class HttpResponseMessage$instance {
 }
 
 
+export const HttpResponseMessage: {
+    new(): HttpResponseMessage$instance;
+    new(statusCode: HttpStatusCode): HttpResponseMessage$instance;
+};
+
+
 export interface __HttpResponseMessage$views {
     As_IDisposable(): System_Internal.IDisposable$instance;
 }
@@ -477,9 +526,13 @@ export interface HttpResponseMessage$instance extends System_Internal.IDisposabl
 export type HttpResponseMessage = HttpResponseMessage$instance & __HttpResponseMessage$views;
 
 
-export abstract class MessageProcessingHandler$instance extends DelegatingHandler$instance {
+export interface MessageProcessingHandler$instance extends DelegatingHandler$instance {
     dispose(): void;
 }
+
+
+export const MessageProcessingHandler: {
+};
 
 
 export interface __MessageProcessingHandler$views {
@@ -489,15 +542,19 @@ export interface __MessageProcessingHandler$views {
 export type MessageProcessingHandler = MessageProcessingHandler$instance & __MessageProcessingHandler$views;
 
 
-export class MultipartContent$instance extends HttpContent$instance {
-    constructor();
-    constructor(subtype: string);
-    constructor(subtype: string, boundary: string);
+export interface MultipartContent$instance extends HttpContent$instance {
     headerEncodingSelector: HeaderEncodingSelector_1<HttpContent>;
     add(content: HttpContent): void;
     dispose(): void;
     getEnumerator(): IEnumerator_1<HttpContent>;
 }
+
+
+export const MultipartContent: {
+    new(): MultipartContent$instance;
+    new(subtype: string): MultipartContent$instance;
+    new(subtype: string, boundary: string): MultipartContent$instance;
+};
 
 
 export interface __MultipartContent$views {
@@ -509,14 +566,18 @@ export interface __MultipartContent$views {
 export type MultipartContent = MultipartContent$instance & __MultipartContent$views;
 
 
-export class MultipartFormDataContent$instance extends MultipartContent$instance {
-    constructor();
-    constructor(boundary: string);
+export interface MultipartFormDataContent$instance extends MultipartContent$instance {
     add(content: HttpContent): void;
     dispose(): void;
     getEnumerator(): IEnumerator_1<HttpContent>;
     getEnumerator(): IEnumerator;
 }
+
+
+export const MultipartFormDataContent: {
+    new(): MultipartFormDataContent$instance;
+    new(boundary: string): MultipartFormDataContent$instance;
+};
 
 
 export interface __MultipartFormDataContent$views {
@@ -528,10 +589,14 @@ export interface __MultipartFormDataContent$views {
 export type MultipartFormDataContent = MultipartFormDataContent$instance & __MultipartFormDataContent$views;
 
 
-export class ReadOnlyMemoryContent$instance extends HttpContent$instance {
-    constructor(content: ReadOnlyMemory_1<CLROf<byte>>);
+export interface ReadOnlyMemoryContent$instance extends HttpContent$instance {
     dispose(): void;
 }
+
+
+export const ReadOnlyMemoryContent: {
+    new(content: ReadOnlyMemory_1<CLROf<byte>>): ReadOnlyMemoryContent$instance;
+};
 
 
 export interface __ReadOnlyMemoryContent$views {
@@ -541,16 +606,20 @@ export interface __ReadOnlyMemoryContent$views {
 export type ReadOnlyMemoryContent = ReadOnlyMemoryContent$instance & __ReadOnlyMemoryContent$views;
 
 
-export class SocketsHttpConnectionContext$instance {
+export interface SocketsHttpConnectionContext$instance {
     readonly dnsEndPoint: DnsEndPoint;
     readonly initialRequestMessage: HttpRequestMessage;
 }
 
 
+export const SocketsHttpConnectionContext: {
+    new(): SocketsHttpConnectionContext$instance;
+};
+
+
 export type SocketsHttpConnectionContext = SocketsHttpConnectionContext$instance;
 
-export class SocketsHttpHandler$instance extends HttpMessageHandler$instance {
-    constructor();
+export interface SocketsHttpHandler$instance extends HttpMessageHandler$instance {
     activityHeadersPropagator: DistributedContextPropagator;
     allowAutoRedirect: boolean;
     automaticDecompression: DecompressionMethods;
@@ -584,8 +653,13 @@ export class SocketsHttpHandler$instance extends HttpMessageHandler$instance {
     useCookies: boolean;
     useProxy: boolean;
     dispose(): void;
-    static readonly isSupported: boolean;
 }
+
+
+export const SocketsHttpHandler: {
+    new(): SocketsHttpHandler$instance;
+    readonly isSupported: boolean;
+};
 
 
 export interface __SocketsHttpHandler$views {
@@ -595,20 +669,29 @@ export interface __SocketsHttpHandler$views {
 export type SocketsHttpHandler = SocketsHttpHandler$instance & __SocketsHttpHandler$views;
 
 
-export class SocketsHttpPlaintextStreamFilterContext$instance {
+export interface SocketsHttpPlaintextStreamFilterContext$instance {
     readonly initialRequestMessage: HttpRequestMessage;
     readonly negotiatedHttpVersion: Version;
     readonly plaintextStream: Stream;
 }
 
 
+export const SocketsHttpPlaintextStreamFilterContext: {
+    new(): SocketsHttpPlaintextStreamFilterContext$instance;
+};
+
+
 export type SocketsHttpPlaintextStreamFilterContext = SocketsHttpPlaintextStreamFilterContext$instance;
 
-export class StreamContent$instance extends HttpContent$instance {
-    constructor(content: Stream);
-    constructor(content: Stream, bufferSize: int);
+export interface StreamContent$instance extends HttpContent$instance {
     dispose(): void;
 }
+
+
+export const StreamContent: {
+    new(content: Stream): StreamContent$instance;
+    new(content: Stream, bufferSize: int): StreamContent$instance;
+};
 
 
 export interface __StreamContent$views {
@@ -618,14 +701,18 @@ export interface __StreamContent$views {
 export type StreamContent = StreamContent$instance & __StreamContent$views;
 
 
-export class StringContent$instance extends ByteArrayContent$instance {
-    constructor(content: string);
-    constructor(content: string, mediaType: MediaTypeHeaderValue);
-    constructor(content: string, encoding: Encoding);
-    constructor(content: string, encoding: Encoding, mediaType: string);
-    constructor(content: string, encoding: Encoding, mediaType: MediaTypeHeaderValue);
+export interface StringContent$instance extends ByteArrayContent$instance {
     dispose(): void;
 }
+
+
+export const StringContent: {
+    new(content: string): StringContent$instance;
+    new(content: string, mediaType: MediaTypeHeaderValue): StringContent$instance;
+    new(content: string, encoding: Encoding): StringContent$instance;
+    new(content: string, encoding: Encoding, mediaType: string): StringContent$instance;
+    new(content: string, encoding: Encoding, mediaType: MediaTypeHeaderValue): StringContent$instance;
+};
 
 
 export interface __StringContent$views {

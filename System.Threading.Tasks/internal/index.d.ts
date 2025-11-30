@@ -94,17 +94,20 @@ export enum TaskStatus {
 }
 
 
-export class ParallelLoopResult$instance {
+export interface ParallelLoopResult$instance {
     readonly isCompleted: boolean;
     readonly lowestBreakIteration: Nullable_1<CLROf<long>>;
 }
 
 
+export const ParallelLoopResult: {
+    new(): ParallelLoopResult$instance;
+};
+
+
 export type ParallelLoopResult = ParallelLoopResult$instance;
 
-export class ValueTask$instance {
-    constructor(task: Task);
-    constructor(source: IValueTaskSource, token: short);
+export interface ValueTask$instance {
     readonly isCanceled: boolean;
     readonly isCompleted: boolean;
     readonly isCompletedSuccessfully: boolean;
@@ -116,13 +119,19 @@ export class ValueTask$instance {
     getAwaiter(): ValueTaskAwaiter;
     getHashCode(): int;
     preserve(): ValueTask;
-    static readonly completedTask: ValueTask;
-    static fromCanceled(cancellationToken: CancellationToken): ValueTask;
-    static fromCanceled<TResult>(cancellationToken: CancellationToken): ValueTask_1<TResult>;
-    static fromException(exception: Exception): ValueTask;
-    static fromException<TResult>(exception: Exception): ValueTask_1<TResult>;
-    static fromResult<TResult>(result: TResult): ValueTask_1<TResult>;
 }
+
+
+export const ValueTask: {
+    new(task: Task): ValueTask$instance;
+    new(source: IValueTaskSource, token: short): ValueTask$instance;
+    readonly completedTask: ValueTask;
+    fromCanceled(cancellationToken: CancellationToken): ValueTask;
+    fromCanceled<TResult>(cancellationToken: CancellationToken): ValueTask_1<TResult>;
+    fromException(exception: Exception): ValueTask;
+    fromException<TResult>(exception: Exception): ValueTask_1<TResult>;
+    fromResult<TResult>(result: TResult): ValueTask_1<TResult>;
+};
 
 
 export interface __ValueTask$views {
@@ -135,10 +144,7 @@ export interface __ValueTask$views {
 export type ValueTask = ValueTask$instance & __ValueTask$views;
 
 
-export class ValueTask_1$instance<TResult> {
-    constructor(result: TResult);
-    constructor(task: Task_1<TResult>);
-    constructor(source: IValueTaskSource_1<TResult>, token: short);
+export interface ValueTask_1$instance<TResult> {
     readonly isCanceled: boolean;
     readonly isCompleted: boolean;
     readonly isCompletedSuccessfully: boolean;
@@ -155,6 +161,13 @@ export class ValueTask_1$instance<TResult> {
 }
 
 
+export const ValueTask_1: {
+    new<TResult>(result: TResult): ValueTask_1$instance<TResult>;
+    new<TResult>(task: Task_1<TResult>): ValueTask_1$instance<TResult>;
+    new<TResult>(source: IValueTaskSource_1<TResult>, token: short): ValueTask_1$instance<TResult>;
+};
+
+
 export interface __ValueTask_1$views<TResult> {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ValueTask_1<TResult>>;
 
@@ -165,11 +178,7 @@ export interface __ValueTask_1$views<TResult> {
 export type ValueTask_1<TResult> = ValueTask_1$instance<TResult> & __ValueTask_1$views<TResult>;
 
 
-export class ConcurrentExclusiveSchedulerPair$instance {
-    constructor();
-    constructor(taskScheduler: TaskScheduler);
-    constructor(taskScheduler: TaskScheduler, maxConcurrencyLevel: int);
-    constructor(taskScheduler: TaskScheduler, maxConcurrencyLevel: int, maxItemsPerTask: int);
+export interface ConcurrentExclusiveSchedulerPair$instance {
     readonly completion: Task;
     readonly concurrentScheduler: TaskScheduler;
     readonly exclusiveScheduler: TaskScheduler;
@@ -177,9 +186,17 @@ export class ConcurrentExclusiveSchedulerPair$instance {
 }
 
 
+export const ConcurrentExclusiveSchedulerPair: {
+    new(): ConcurrentExclusiveSchedulerPair$instance;
+    new(taskScheduler: TaskScheduler): ConcurrentExclusiveSchedulerPair$instance;
+    new(taskScheduler: TaskScheduler, maxConcurrencyLevel: int): ConcurrentExclusiveSchedulerPair$instance;
+    new(taskScheduler: TaskScheduler, maxConcurrencyLevel: int, maxItemsPerTask: int): ConcurrentExclusiveSchedulerPair$instance;
+};
+
+
 export type ConcurrentExclusiveSchedulerPair = ConcurrentExclusiveSchedulerPair$instance;
 
-export class ParallelLoopState$instance {
+export interface ParallelLoopState$instance {
     readonly isExceptional: boolean;
     readonly isStopped: boolean;
     readonly lowestBreakIteration: Nullable_1<CLROf<long>>;
@@ -189,27 +206,28 @@ export class ParallelLoopState$instance {
 }
 
 
+export const ParallelLoopState: {
+    new(): ParallelLoopState$instance;
+};
+
+
 export type ParallelLoopState = ParallelLoopState$instance;
 
-export class ParallelOptions$instance {
-    constructor();
+export interface ParallelOptions$instance {
     cancellationToken: CancellationToken;
     maxDegreeOfParallelism: int;
     taskScheduler: TaskScheduler;
 }
 
 
+export const ParallelOptions: {
+    new(): ParallelOptions$instance;
+};
+
+
 export type ParallelOptions = ParallelOptions$instance;
 
-export class Task$instance {
-    constructor(action: Action);
-    constructor(action: Action, cancellationToken: CancellationToken);
-    constructor(action: Action, creationOptions: TaskCreationOptions);
-    constructor(action: Action, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions);
-    constructor(action: Action_1<unknown>, state: unknown);
-    constructor(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken);
-    constructor(action: Action_1<unknown>, state: unknown, creationOptions: TaskCreationOptions);
-    constructor(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions);
+export interface Task$instance {
     readonly asyncState: unknown;
     readonly creationOptions: TaskCreationOptions;
     readonly exception: AggregateException;
@@ -258,60 +276,72 @@ export class Task$instance {
     waitAsync(timeout: TimeSpan, timeProvider: TimeProvider): Task;
     waitAsync(timeout: TimeSpan, cancellationToken: CancellationToken): Task;
     waitAsync(timeout: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    static readonly currentId: Nullable_1<CLROf<int>>;
-    static readonly factory: TaskFactory;
-    static readonly completedTask: Task;
-    static delay(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
-    static delay(millisecondsDelay: int): Task;
-    static delay(delay: TimeSpan, cancellationToken: CancellationToken): Task;
-    static delay(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
-    static delay(delay: TimeSpan, timeProvider: TimeProvider): Task;
-    static delay(delay: TimeSpan): Task;
-    static fromCanceled(cancellationToken: CancellationToken): Task;
-    static fromCanceled<TResult>(cancellationToken: CancellationToken): Task_1<TResult>;
-    static fromException(exception: Exception): Task;
-    static fromException<TResult>(exception: Exception): Task_1<TResult>;
-    static fromResult<TResult>(result: TResult): Task_1<TResult>;
-    static run<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
-    static run<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
-    static run(action: Action, cancellationToken: CancellationToken): Task;
-    static run(action: Action): Task;
-    static run(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
-    static run(function_: Func_1<Task>): Task;
-    static waitAll(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
-    static waitAll(tasks: ReadOnlySpan_1<Task>): void;
-    static waitAll(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
-    static waitAll(tasks: Task[], millisecondsTimeout: int): boolean;
-    static waitAll(tasks: Task[], cancellationToken: CancellationToken): void;
-    static waitAll(tasks: Task[], timeout: TimeSpan): boolean;
-    static waitAll(tasks: Task[]): void;
-    static waitAny(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    static waitAny(tasks: Task[], millisecondsTimeout: int): int;
-    static waitAny(tasks: Task[], cancellationToken: CancellationToken): int;
-    static waitAny(tasks: Task[], timeout: TimeSpan): int;
-    static waitAny(tasks: Task[]): int;
-    static whenAll<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
-    static whenAll<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
-    static whenAll(tasks: IEnumerable_1<Task>): Task;
-    static whenAll(tasks: ReadOnlySpan_1<Task>): Task;
-    static whenAll(tasks: Task[]): Task;
-    static whenAll<TResult>(tasks: Task_1<TResult>[]): Task_1<TResult[]>;
-    static whenAny<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    static whenAny<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
-    static whenAny(tasks: IEnumerable_1<Task>): Task_1<Task>;
-    static whenAny(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
-    static whenAny(task1: Task, task2: Task): Task_1<Task>;
-    static whenAny(tasks: Task[]): Task_1<Task>;
-    static whenAny<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
-    static whenAny<TResult>(tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
-    static whenEach<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    static whenEach<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
-    static whenEach(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
-    static whenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
-    static whenEach(tasks: Task[]): IAsyncEnumerable_1<Task>;
-    static whenEach<TResult>(tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
-    static yield_(): YieldAwaitable;
 }
+
+
+export const Task: {
+    new(action: Action): Task$instance;
+    new(action: Action, cancellationToken: CancellationToken): Task$instance;
+    new(action: Action, creationOptions: TaskCreationOptions): Task$instance;
+    new(action: Action, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions): Task$instance;
+    new(action: Action_1<unknown>, state: unknown): Task$instance;
+    new(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken): Task$instance;
+    new(action: Action_1<unknown>, state: unknown, creationOptions: TaskCreationOptions): Task$instance;
+    new(action: Action_1<unknown>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions): Task$instance;
+    readonly currentId: Nullable_1<CLROf<int>>;
+    readonly factory: TaskFactory;
+    readonly completedTask: Task;
+    delay(millisecondsDelay: int, cancellationToken: CancellationToken): Task;
+    delay(millisecondsDelay: int): Task;
+    delay(delay: TimeSpan, cancellationToken: CancellationToken): Task;
+    delay(delay: TimeSpan, timeProvider: TimeProvider, cancellationToken: CancellationToken): Task;
+    delay(delay: TimeSpan, timeProvider: TimeProvider): Task;
+    delay(delay: TimeSpan): Task;
+    fromCanceled(cancellationToken: CancellationToken): Task;
+    fromCanceled<TResult>(cancellationToken: CancellationToken): Task_1<TResult>;
+    fromException(exception: Exception): Task;
+    fromException<TResult>(exception: Exception): Task_1<TResult>;
+    fromResult<TResult>(result: TResult): Task_1<TResult>;
+    run<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1<TResult>;
+    run<TResult>(function_: Func_1<TResult>): Task_1<TResult>;
+    run(action: Action, cancellationToken: CancellationToken): Task;
+    run(action: Action): Task;
+    run(function_: Func_1<Task>, cancellationToken: CancellationToken): Task;
+    run(function_: Func_1<Task>): Task;
+    waitAll(tasks: IEnumerable_1<Task>, cancellationToken?: CancellationToken): void;
+    waitAll(tasks: ReadOnlySpan_1<Task>): void;
+    waitAll(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): boolean;
+    waitAll(tasks: Task[], millisecondsTimeout: int): boolean;
+    waitAll(tasks: Task[], cancellationToken: CancellationToken): void;
+    waitAll(tasks: Task[], timeout: TimeSpan): boolean;
+    waitAll(tasks: Task[]): void;
+    waitAny(tasks: Task[], millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    waitAny(tasks: Task[], millisecondsTimeout: int): int;
+    waitAny(tasks: Task[], cancellationToken: CancellationToken): int;
+    waitAny(tasks: Task[], timeout: TimeSpan): int;
+    waitAny(tasks: Task[]): int;
+    whenAll<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<TResult[]>;
+    whenAll<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<TResult[]>;
+    whenAll(tasks: IEnumerable_1<Task>): Task;
+    whenAll(tasks: ReadOnlySpan_1<Task>): Task;
+    whenAll(tasks: Task[]): Task;
+    whenAll<TResult>(tasks: Task_1<TResult>[]): Task_1<TResult[]>;
+    whenAny<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    whenAny<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): Task_1<Task_1<TResult>>;
+    whenAny(tasks: IEnumerable_1<Task>): Task_1<Task>;
+    whenAny(tasks: ReadOnlySpan_1<Task>): Task_1<Task>;
+    whenAny(task1: Task, task2: Task): Task_1<Task>;
+    whenAny(tasks: Task[]): Task_1<Task>;
+    whenAny<TResult>(task1: Task_1<TResult>, task2: Task_1<TResult>): Task_1<Task_1<TResult>>;
+    whenAny<TResult>(tasks: Task_1<TResult>[]): Task_1<Task_1<TResult>>;
+    whenEach<TResult>(tasks: IEnumerable_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    whenEach<TResult>(tasks: ReadOnlySpan_1<Task_1<TResult>>): IAsyncEnumerable_1<Task_1<TResult>>;
+    whenEach(tasks: IEnumerable_1<Task>): IAsyncEnumerable_1<Task>;
+    whenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
+    whenEach(tasks: Task[]): IAsyncEnumerable_1<Task>;
+    whenEach<TResult>(tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
+    yield_(): YieldAwaitable;
+};
 
 
 export interface __Task$views {
@@ -324,15 +354,7 @@ export interface Task$instance extends System_Internal.IAsyncResult$instance, Sy
 export type Task = Task$instance & __Task$views;
 
 
-export class Task_1$instance<TResult> extends Task$instance {
-    constructor(function_: Func_1<TResult>);
-    constructor(function_: Func_1<TResult>, cancellationToken: CancellationToken);
-    constructor(function_: Func_1<TResult>, creationOptions: TaskCreationOptions);
-    constructor(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions);
-    constructor(function_: Func_2<unknown, TResult>, state: unknown);
-    constructor(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken);
-    constructor(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions);
-    constructor(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions);
+export interface Task_1$instance<TResult> extends Task$instance {
     readonly result: TResult;
     configureAwait(options: ConfigureAwaitOptions): ConfiguredTaskAwaitable_1<TResult>;
     configureAwait(continueOnCapturedContext: boolean): ConfiguredTaskAwaitable;
@@ -389,6 +411,18 @@ export class Task_1$instance<TResult> extends Task$instance {
 }
 
 
+export const Task_1: {
+    new<TResult>(function_: Func_1<TResult>): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_1<TResult>, creationOptions: TaskCreationOptions): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_1<TResult>, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_2<unknown, TResult>, state: unknown): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_2<unknown, TResult>, state: unknown, creationOptions: TaskCreationOptions): Task_1$instance<TResult>;
+    new<TResult>(function_: Func_2<unknown, TResult>, state: unknown, cancellationToken: CancellationToken, creationOptions: TaskCreationOptions): Task_1$instance<TResult>;
+};
+
+
 export interface __Task_1$views<TResult> {
     As_IAsyncResult(): System_Internal.IAsyncResult$instance;
     As_IDisposable(): System_Internal.IDisposable$instance;
@@ -399,15 +433,19 @@ export interface Task_1$instance<TResult> extends System_Internal.IAsyncResult$i
 export type Task_1<TResult> = Task_1$instance<TResult> & __Task_1$views<TResult>;
 
 
-export class TaskCanceledException$instance extends System_Internal.OperationCanceledException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string, innerException: Exception, token: CancellationToken);
-    constructor(task: Task);
+export interface TaskCanceledException$instance extends OperationCanceledException {
     readonly task: Task;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TaskCanceledException: {
+    new(): TaskCanceledException$instance;
+    new(message: string): TaskCanceledException$instance;
+    new(message: string, innerException: Exception): TaskCanceledException$instance;
+    new(message: string, innerException: Exception, token: CancellationToken): TaskCanceledException$instance;
+    new(task: Task): TaskCanceledException$instance;
+};
 
 
 export interface __TaskCanceledException$views {
@@ -417,11 +455,7 @@ export interface __TaskCanceledException$views {
 export type TaskCanceledException = TaskCanceledException$instance & __TaskCanceledException$views;
 
 
-export class TaskCompletionSource$instance {
-    constructor();
-    constructor(creationOptions: TaskCreationOptions);
-    constructor(state: unknown);
-    constructor(state: unknown, creationOptions: TaskCreationOptions);
+export interface TaskCompletionSource$instance {
     readonly task: Task;
     setCanceled(): void;
     setCanceled(cancellationToken: CancellationToken): void;
@@ -438,13 +472,17 @@ export class TaskCompletionSource$instance {
 }
 
 
+export const TaskCompletionSource: {
+    new(): TaskCompletionSource$instance;
+    new(creationOptions: TaskCreationOptions): TaskCompletionSource$instance;
+    new(state: unknown): TaskCompletionSource$instance;
+    new(state: unknown, creationOptions: TaskCreationOptions): TaskCompletionSource$instance;
+};
+
+
 export type TaskCompletionSource = TaskCompletionSource$instance;
 
-export class TaskCompletionSource_1$instance<TResult> {
-    constructor();
-    constructor(creationOptions: TaskCreationOptions);
-    constructor(state: unknown);
-    constructor(state: unknown, creationOptions: TaskCreationOptions);
+export interface TaskCompletionSource_1$instance<TResult> {
     readonly task: Task_1<TResult>;
     setCanceled(): void;
     setCanceled(cancellationToken: CancellationToken): void;
@@ -461,14 +499,17 @@ export class TaskCompletionSource_1$instance<TResult> {
 }
 
 
+export const TaskCompletionSource_1: {
+    new<TResult>(): TaskCompletionSource_1$instance<TResult>;
+    new<TResult>(creationOptions: TaskCreationOptions): TaskCompletionSource_1$instance<TResult>;
+    new<TResult>(state: unknown): TaskCompletionSource_1$instance<TResult>;
+    new<TResult>(state: unknown, creationOptions: TaskCreationOptions): TaskCompletionSource_1$instance<TResult>;
+};
+
+
 export type TaskCompletionSource_1<TResult> = TaskCompletionSource_1$instance<TResult>;
 
-export class TaskFactory$instance {
-    constructor();
-    constructor(cancellationToken: CancellationToken);
-    constructor(scheduler: TaskScheduler);
-    constructor(creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions);
-    constructor(cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler);
+export interface TaskFactory$instance {
     readonly cancellationToken: CancellationToken;
     readonly continuationOptions: TaskContinuationOptions;
     readonly creationOptions: TaskCreationOptions;
@@ -546,14 +587,18 @@ export class TaskFactory$instance {
 }
 
 
+export const TaskFactory: {
+    new(): TaskFactory$instance;
+    new(cancellationToken: CancellationToken): TaskFactory$instance;
+    new(scheduler: TaskScheduler): TaskFactory$instance;
+    new(creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions): TaskFactory$instance;
+    new(cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): TaskFactory$instance;
+};
+
+
 export type TaskFactory = TaskFactory$instance;
 
-export class TaskFactory_1$instance<TResult> {
-    constructor();
-    constructor(cancellationToken: CancellationToken);
-    constructor(scheduler: TaskScheduler);
-    constructor(creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions);
-    constructor(cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler);
+export interface TaskFactory_1$instance<TResult> {
     readonly cancellationToken: CancellationToken;
     readonly continuationOptions: TaskContinuationOptions;
     readonly creationOptions: TaskCreationOptions;
@@ -596,26 +641,43 @@ export class TaskFactory_1$instance<TResult> {
 }
 
 
+export const TaskFactory_1: {
+    new<TResult>(): TaskFactory_1$instance<TResult>;
+    new<TResult>(cancellationToken: CancellationToken): TaskFactory_1$instance<TResult>;
+    new<TResult>(scheduler: TaskScheduler): TaskFactory_1$instance<TResult>;
+    new<TResult>(creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions): TaskFactory_1$instance<TResult>;
+    new<TResult>(cancellationToken: CancellationToken, creationOptions: TaskCreationOptions, continuationOptions: TaskContinuationOptions, scheduler: TaskScheduler): TaskFactory_1$instance<TResult>;
+};
+
+
 export type TaskFactory_1<TResult> = TaskFactory_1$instance<TResult>;
 
-export abstract class TaskScheduler$instance {
+export interface TaskScheduler$instance {
     readonly id: int;
     readonly maximumConcurrencyLevel: int;
-    static readonly default_: TaskScheduler;
-    static readonly current: TaskScheduler;
-    static fromCurrentSynchronizationContext(): TaskScheduler;
 }
+
+
+export const TaskScheduler: {
+    readonly default_: TaskScheduler;
+    readonly current: TaskScheduler;
+    fromCurrentSynchronizationContext(): TaskScheduler;
+};
 
 
 export type TaskScheduler = TaskScheduler$instance;
 
-export class TaskSchedulerException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(innerException: Exception);
-    constructor(message: string, innerException: Exception);
+export interface TaskSchedulerException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const TaskSchedulerException: {
+    new(): TaskSchedulerException$instance;
+    new(message: string): TaskSchedulerException$instance;
+    new(innerException: Exception): TaskSchedulerException$instance;
+    new(message: string, innerException: Exception): TaskSchedulerException$instance;
+};
 
 
 export interface __TaskSchedulerException$views {
@@ -625,12 +687,16 @@ export interface __TaskSchedulerException$views {
 export type TaskSchedulerException = TaskSchedulerException$instance & __TaskSchedulerException$views;
 
 
-export class UnobservedTaskExceptionEventArgs$instance extends System_Internal.EventArgs$instance {
-    constructor(exception: AggregateException);
+export interface UnobservedTaskExceptionEventArgs$instance extends EventArgs {
     readonly exception: AggregateException;
     readonly observed: boolean;
     setObserved(): void;
 }
+
+
+export const UnobservedTaskExceptionEventArgs: {
+    new(exception: AggregateException): UnobservedTaskExceptionEventArgs$instance;
+};
 
 
 export type UnobservedTaskExceptionEventArgs = UnobservedTaskExceptionEventArgs$instance;

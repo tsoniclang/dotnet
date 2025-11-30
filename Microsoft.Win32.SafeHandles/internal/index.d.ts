@@ -36,10 +36,14 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
-export abstract class CriticalHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
+export interface CriticalHandleMinusOneIsInvalid$instance extends CriticalHandle {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const CriticalHandleMinusOneIsInvalid: {
+};
 
 
 export interface __CriticalHandleMinusOneIsInvalid$views {
@@ -49,10 +53,14 @@ export interface __CriticalHandleMinusOneIsInvalid$views {
 export type CriticalHandleMinusOneIsInvalid = CriticalHandleMinusOneIsInvalid$instance & __CriticalHandleMinusOneIsInvalid$views;
 
 
-export abstract class CriticalHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.CriticalHandle$instance {
+export interface CriticalHandleZeroOrMinusOneIsInvalid$instance extends CriticalHandle {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const CriticalHandleZeroOrMinusOneIsInvalid: {
+};
 
 
 export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
@@ -62,13 +70,17 @@ export interface __CriticalHandleZeroOrMinusOneIsInvalid$views {
 export type CriticalHandleZeroOrMinusOneIsInvalid = CriticalHandleZeroOrMinusOneIsInvalid$instance & __CriticalHandleZeroOrMinusOneIsInvalid$views;
 
 
-export class SafeAccessTokenHandle$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
-    constructor();
-    constructor(handle: nint);
+export interface SafeAccessTokenHandle$instance extends SafeHandle {
     readonly isInvalid: boolean;
     dispose(): void;
-    static readonly invalidHandle: SafeAccessTokenHandle;
 }
+
+
+export const SafeAccessTokenHandle: {
+    new(): SafeAccessTokenHandle$instance;
+    new(handle: nint): SafeAccessTokenHandle$instance;
+    readonly invalidHandle: SafeAccessTokenHandle;
+};
 
 
 export interface __SafeAccessTokenHandle$views {
@@ -78,13 +90,17 @@ export interface __SafeAccessTokenHandle$views {
 export type SafeAccessTokenHandle = SafeAccessTokenHandle$instance & __SafeAccessTokenHandle$views;
 
 
-export class SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor(preexistingHandle: nint, ownsHandle: boolean);
-    constructor();
+export interface SafeFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly isAsync: boolean;
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafeFileHandle: {
+    new(preexistingHandle: nint, ownsHandle: boolean): SafeFileHandle$instance;
+    new(): SafeFileHandle$instance;
+};
 
 
 export interface __SafeFileHandle$views {
@@ -94,10 +110,14 @@ export interface __SafeFileHandle$views {
 export type SafeFileHandle = SafeFileHandle$instance & __SafeFileHandle$views;
 
 
-export abstract class SafeHandleMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
+export interface SafeHandleMinusOneIsInvalid$instance extends SafeHandle {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafeHandleMinusOneIsInvalid: {
+};
 
 
 export interface __SafeHandleMinusOneIsInvalid$views {
@@ -107,10 +127,14 @@ export interface __SafeHandleMinusOneIsInvalid$views {
 export type SafeHandleMinusOneIsInvalid = SafeHandleMinusOneIsInvalid$instance & __SafeHandleMinusOneIsInvalid$views;
 
 
-export abstract class SafeHandleZeroOrMinusOneIsInvalid$instance extends System_Runtime_InteropServices_Internal.SafeHandle$instance {
+export interface SafeHandleZeroOrMinusOneIsInvalid$instance extends SafeHandle {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafeHandleZeroOrMinusOneIsInvalid: {
+};
 
 
 export interface __SafeHandleZeroOrMinusOneIsInvalid$views {
@@ -120,11 +144,15 @@ export interface __SafeHandleZeroOrMinusOneIsInvalid$views {
 export type SafeHandleZeroOrMinusOneIsInvalid = SafeHandleZeroOrMinusOneIsInvalid$instance & __SafeHandleZeroOrMinusOneIsInvalid$views;
 
 
-export class SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
+export interface SafeMemoryMappedFileHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafeMemoryMappedFileHandle: {
+    new(): SafeMemoryMappedFileHandle$instance;
+};
 
 
 export interface __SafeMemoryMappedFileHandle$views {
@@ -134,10 +162,14 @@ export interface __SafeMemoryMappedFileHandle$views {
 export type SafeMemoryMappedFileHandle = SafeMemoryMappedFileHandle$instance & __SafeMemoryMappedFileHandle$views;
 
 
-export class SafeMemoryMappedViewHandle$instance extends System_Runtime_InteropServices_Internal.SafeBuffer$instance {
-    constructor();
+export interface SafeMemoryMappedViewHandle$instance extends SafeBuffer {
     dispose(): void;
 }
+
+
+export const SafeMemoryMappedViewHandle: {
+    new(): SafeMemoryMappedViewHandle$instance;
+};
 
 
 export interface __SafeMemoryMappedViewHandle$views {
@@ -147,9 +179,13 @@ export interface __SafeMemoryMappedViewHandle$views {
 export type SafeMemoryMappedViewHandle = SafeMemoryMappedViewHandle$instance & __SafeMemoryMappedViewHandle$views;
 
 
-export abstract class SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
+export interface SafeNCryptHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     dispose(): void;
 }
+
+
+export const SafeNCryptHandle: {
+};
 
 
 export interface __SafeNCryptHandle$views {
@@ -159,11 +195,15 @@ export interface __SafeNCryptHandle$views {
 export type SafeNCryptHandle = SafeNCryptHandle$instance & __SafeNCryptHandle$views;
 
 
-export class SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
-    constructor();
-    constructor(handle: nint, parentHandle: SafeHandle);
+export interface SafeNCryptKeyHandle$instance extends SafeNCryptHandle$instance {
     dispose(): void;
 }
+
+
+export const SafeNCryptKeyHandle: {
+    new(): SafeNCryptKeyHandle$instance;
+    new(handle: nint, parentHandle: SafeHandle): SafeNCryptKeyHandle$instance;
+};
 
 
 export interface __SafeNCryptKeyHandle$views {
@@ -173,10 +213,14 @@ export interface __SafeNCryptKeyHandle$views {
 export type SafeNCryptKeyHandle = SafeNCryptKeyHandle$instance & __SafeNCryptKeyHandle$views;
 
 
-export class SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
-    constructor();
+export interface SafeNCryptProviderHandle$instance extends SafeNCryptHandle$instance {
     dispose(): void;
 }
+
+
+export const SafeNCryptProviderHandle: {
+    new(): SafeNCryptProviderHandle$instance;
+};
 
 
 export interface __SafeNCryptProviderHandle$views {
@@ -186,10 +230,14 @@ export interface __SafeNCryptProviderHandle$views {
 export type SafeNCryptProviderHandle = SafeNCryptProviderHandle$instance & __SafeNCryptProviderHandle$views;
 
 
-export class SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
-    constructor();
+export interface SafeNCryptSecretHandle$instance extends SafeNCryptHandle$instance {
     dispose(): void;
 }
+
+
+export const SafeNCryptSecretHandle: {
+    new(): SafeNCryptSecretHandle$instance;
+};
 
 
 export interface __SafeNCryptSecretHandle$views {
@@ -199,12 +247,16 @@ export interface __SafeNCryptSecretHandle$views {
 export type SafeNCryptSecretHandle = SafeNCryptSecretHandle$instance & __SafeNCryptSecretHandle$views;
 
 
-export class SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
-    constructor(preexistingHandle: nint, ownsHandle: boolean);
+export interface SafePipeHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     readonly isInvalid: boolean;
     dispose(): void;
 }
+
+
+export const SafePipeHandle: {
+    new(): SafePipeHandle$instance;
+    new(preexistingHandle: nint, ownsHandle: boolean): SafePipeHandle$instance;
+};
 
 
 export interface __SafePipeHandle$views {
@@ -214,11 +266,15 @@ export interface __SafePipeHandle$views {
 export type SafePipeHandle = SafePipeHandle$instance & __SafePipeHandle$views;
 
 
-export class SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
-    constructor(existingHandle: nint, ownsHandle: boolean);
+export interface SafeProcessHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     dispose(): void;
 }
+
+
+export const SafeProcessHandle: {
+    new(): SafeProcessHandle$instance;
+    new(existingHandle: nint, ownsHandle: boolean): SafeProcessHandle$instance;
+};
 
 
 export interface __SafeProcessHandle$views {
@@ -228,11 +284,15 @@ export interface __SafeProcessHandle$views {
 export type SafeProcessHandle = SafeProcessHandle$instance & __SafeProcessHandle$views;
 
 
-export class SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
-    constructor(preexistingHandle: nint, ownsHandle: boolean);
+export interface SafeRegistryHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     dispose(): void;
 }
+
+
+export const SafeRegistryHandle: {
+    new(): SafeRegistryHandle$instance;
+    new(preexistingHandle: nint, ownsHandle: boolean): SafeRegistryHandle$instance;
+};
 
 
 export interface __SafeRegistryHandle$views {
@@ -242,11 +302,15 @@ export interface __SafeRegistryHandle$views {
 export type SafeRegistryHandle = SafeRegistryHandle$instance & __SafeRegistryHandle$views;
 
 
-export class SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
-    constructor(existingHandle: nint, ownsHandle: boolean);
+export interface SafeWaitHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     dispose(): void;
 }
+
+
+export const SafeWaitHandle: {
+    new(): SafeWaitHandle$instance;
+    new(existingHandle: nint, ownsHandle: boolean): SafeWaitHandle$instance;
+};
 
 
 export interface __SafeWaitHandle$views {
@@ -256,10 +320,14 @@ export interface __SafeWaitHandle$views {
 export type SafeWaitHandle = SafeWaitHandle$instance & __SafeWaitHandle$views;
 
 
-export class SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
-    constructor();
+export interface SafeX509ChainHandle$instance extends SafeHandleZeroOrMinusOneIsInvalid$instance {
     dispose(): void;
 }
+
+
+export const SafeX509ChainHandle: {
+    new(): SafeX509ChainHandle$instance;
+};
 
 
 export interface __SafeX509ChainHandle$views {

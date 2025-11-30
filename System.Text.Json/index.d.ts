@@ -24,23 +24,23 @@ import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decim
 export * from './internal/index.js';
 
 // Individual type exports for convenience
-export { JsonNamingPolicy$instance as JsonNamingPolicy } from './internal/index.js';
+export { JsonNamingPolicy as JsonNamingPolicy } from './internal/index.js';
 export { JsonCommentHandling as JsonCommentHandling } from './internal/index.js';
 export { JsonSerializerDefaults as JsonSerializerDefaults } from './internal/index.js';
-export { JsonDocument$instance as JsonDocument } from './internal/index.js';
-export { JsonDocumentOptions$instance as JsonDocumentOptions } from './internal/index.js';
-export { JsonElement$instance as JsonElement } from './internal/index.js';
-export { JsonElement_ArrayEnumerator$instance as JsonElement_ArrayEnumerator } from './internal/index.js';
-export { JsonElement_ObjectEnumerator$instance as JsonElement_ObjectEnumerator } from './internal/index.js';
-export { JsonProperty$instance as JsonProperty } from './internal/index.js';
+export { JsonDocument as JsonDocument } from './internal/index.js';
+export { JsonDocumentOptions as JsonDocumentOptions } from './internal/index.js';
+export { JsonElement as JsonElement } from './internal/index.js';
+export { JsonElement_ArrayEnumerator as JsonElement_ArrayEnumerator } from './internal/index.js';
+export { JsonElement_ObjectEnumerator as JsonElement_ObjectEnumerator } from './internal/index.js';
+export { JsonProperty as JsonProperty } from './internal/index.js';
 export { JsonValueKind as JsonValueKind } from './internal/index.js';
-export { JsonEncodedText$instance as JsonEncodedText } from './internal/index.js';
-export { JsonException$instance as JsonException } from './internal/index.js';
+export { JsonEncodedText as JsonEncodedText } from './internal/index.js';
+export { JsonException as JsonException } from './internal/index.js';
 export { JsonTokenType as JsonTokenType } from './internal/index.js';
-export { JsonReaderOptions$instance as JsonReaderOptions } from './internal/index.js';
-export { JsonReaderState$instance as JsonReaderState } from './internal/index.js';
-export { Utf8JsonReader$instance as Utf8JsonReader } from './internal/index.js';
+export { JsonReaderOptions as JsonReaderOptions } from './internal/index.js';
+export { JsonReaderState as JsonReaderState } from './internal/index.js';
+export { Utf8JsonReader as Utf8JsonReader } from './internal/index.js';
 export { JsonSerializer$instance as JsonSerializer } from './internal/index.js';
-export { Utf8JsonWriter$instance as Utf8JsonWriter } from './internal/index.js';
-export { JsonSerializerOptions$instance as JsonSerializerOptions } from './internal/index.js';
-export { JsonWriterOptions$instance as JsonWriterOptions } from './internal/index.js';
+export { Utf8JsonWriter as Utf8JsonWriter } from './internal/index.js';
+export { JsonSerializerOptions as JsonSerializerOptions } from './internal/index.js';
+export { JsonWriterOptions as JsonWriterOptions } from './internal/index.js';

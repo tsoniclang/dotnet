@@ -44,6 +44,9 @@ export type CLROf<T> =
     T extends string ? System_Internal.String :
     T; // Identity fallback for non-primitive types
 
+export type XsltMessageEncounteredEventHandler = (sender: unknown, e: XsltMessageEncounteredEventArgs) => void;
+
+
 export interface IXsltContextFunction$instance {
     readonly minargs: int;
     readonly maxargs: int;
@@ -65,9 +68,7 @@ export interface IXsltContextVariable$instance {
 
 export type IXsltContextVariable = IXsltContextVariable$instance;
 
-export class XslCompiledTransform$instance {
-    constructor();
-    constructor(enableDebug: boolean);
+export interface XslCompiledTransform$instance {
     readonly outputSettings: XmlWriterSettings;
     load(stylesheet: XmlReader): void;
     load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
@@ -95,10 +96,15 @@ export class XslCompiledTransform$instance {
 }
 
 
+export const XslCompiledTransform: {
+    new(): XslCompiledTransform$instance;
+    new(enableDebug: boolean): XslCompiledTransform$instance;
+};
+
+
 export type XslCompiledTransform = XslCompiledTransform$instance;
 
-export class XsltArgumentList$instance {
-    constructor();
+export interface XsltArgumentList$instance {
     addExtensionObject(namespaceUri: string, extension: unknown): void;
     addParam(name: string, namespaceUri: string, parameter: unknown): void;
     clear(): void;
@@ -109,15 +115,24 @@ export class XsltArgumentList$instance {
 }
 
 
+export const XsltArgumentList: {
+    new(): XsltArgumentList$instance;
+};
+
+
 export type XsltArgumentList = XsltArgumentList$instance;
 
-export class XsltCompileException$instance extends XsltException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
-    constructor(inner: Exception, sourceUri: string, lineNumber: int, linePosition: int);
+export interface XsltCompileException$instance extends XsltException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const XsltCompileException: {
+    new(): XsltCompileException$instance;
+    new(message: string): XsltCompileException$instance;
+    new(message: string, innerException: Exception): XsltCompileException$instance;
+    new(inner: Exception, sourceUri: string, lineNumber: int, linePosition: int): XsltCompileException$instance;
+};
 
 
 export interface __XsltCompileException$views {
@@ -127,16 +142,20 @@ export interface __XsltCompileException$views {
 export type XsltCompileException = XsltCompileException$instance & __XsltCompileException$views;
 
 
-export abstract class XsltContext$instance extends System_Xml_Internal.XmlNamespaceManager$instance {
+export interface XsltContext$instance extends XmlNamespaceManager {
     readonly whitespace: boolean;
-    abstract compareDocument(baseUri: string, nextbaseUri: string): int;
+    compareDocument(baseUri: string, nextbaseUri: string): int;
     getEnumerator(): IEnumerator;
     getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
     lookupNamespace(prefix: string): string;
-    abstract preserveWhitespace(node: XPathNavigator): boolean;
-    abstract resolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
-    abstract resolveVariable(prefix: string, name: string): IXsltContextVariable;
+    preserveWhitespace(node: XPathNavigator): boolean;
+    resolveFunction(prefix: string, name: string, ArgTypes: XPathResultType[]): IXsltContextFunction;
+    resolveVariable(prefix: string, name: string): IXsltContextVariable;
 }
+
+
+export const XsltContext: {
+};
 
 
 export interface __XsltContext$views {
@@ -147,16 +166,20 @@ export interface __XsltContext$views {
 export type XsltContext = XsltContext$instance & __XsltContext$views;
 
 
-export class XsltException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface XsltException$instance extends SystemException {
     readonly lineNumber: int;
     readonly linePosition: int;
     readonly message: string;
     readonly sourceUri: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const XsltException: {
+    new(): XsltException$instance;
+    new(message: string): XsltException$instance;
+    new(message: string, innerException: Exception): XsltException$instance;
+};
 
 
 export interface __XsltException$views {
@@ -166,33 +189,18 @@ export interface __XsltException$views {
 export type XsltException = XsltException$instance & __XsltException$views;
 
 
-export abstract class XsltMessageEncounteredEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface XsltMessageEncounteredEventArgs$instance extends EventArgs {
     readonly message: string;
 }
 
 
+export const XsltMessageEncounteredEventArgs: {
+};
+
+
 export type XsltMessageEncounteredEventArgs = XsltMessageEncounteredEventArgs$instance;
 
-export class XsltMessageEncounteredEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(sender: unknown, e: XsltMessageEncounteredEventArgs, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(sender: unknown, e: XsltMessageEncounteredEventArgs): void;
-}
-
-
-export interface __XsltMessageEncounteredEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
-}
-
-export type XsltMessageEncounteredEventHandler = XsltMessageEncounteredEventHandler$instance & __XsltMessageEncounteredEventHandler$views;
-
-
-export class XslTransform$instance {
-    constructor();
+export interface XslTransform$instance {
     xmlResolver: XmlResolver;
     load(stylesheet: XmlReader): void;
     load(stylesheet: XmlReader, resolver: XmlResolver): void;
@@ -223,16 +231,25 @@ export class XslTransform$instance {
 }
 
 
+export const XslTransform: {
+    new(): XslTransform$instance;
+};
+
+
 export type XslTransform = XslTransform$instance;
 
-export class XsltSettings$instance {
-    constructor();
-    constructor(enableDocumentFunction: boolean, enableScript: boolean);
+export interface XsltSettings$instance {
     enableDocumentFunction: boolean;
     enableScript: boolean;
-    static readonly default_: XsltSettings;
-    static readonly trustedXslt: XsltSettings;
 }
+
+
+export const XsltSettings: {
+    new(): XsltSettings$instance;
+    new(enableDocumentFunction: boolean, enableScript: boolean): XsltSettings$instance;
+    readonly default_: XsltSettings;
+    readonly trustedXslt: XsltSettings;
+};
 
 
 export type XsltSettings = XsltSettings$instance;

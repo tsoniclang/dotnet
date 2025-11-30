@@ -68,6 +68,9 @@ export enum StreamingContextStates {
 }
 
 
+export type SerializationEventHandler = (context: StreamingContext) => void;
+
+
 export interface IDeserializationCallback$instance {
     onDeserialization(sender: unknown): void;
 }
@@ -176,9 +179,14 @@ export interface ISurrogateSelector$instance {
 
 export type ISurrogateSelector = ISurrogateSelector$instance;
 
-export class DeserializationToken$instance {
+export interface DeserializationToken$instance {
     dispose(): void;
 }
+
+
+export const DeserializationToken: {
+    new(): DeserializationToken$instance;
+};
 
 
 export interface __DeserializationToken$views {
@@ -190,18 +198,21 @@ export interface DeserializationToken$instance extends System_Internal.IDisposab
 export type DeserializationToken = DeserializationToken$instance & __DeserializationToken$views;
 
 
-export class SerializationEntry$instance {
+export interface SerializationEntry$instance {
     readonly name: string;
     readonly objectType: Type;
     readonly value: unknown;
 }
 
 
+export const SerializationEntry: {
+    new(): SerializationEntry$instance;
+};
+
+
 export type SerializationEntry = SerializationEntry$instance;
 
-export class StreamingContext$instance {
-    constructor(state: StreamingContextStates);
-    constructor(state: StreamingContextStates, additional: unknown);
+export interface StreamingContext$instance {
     readonly context: unknown;
     readonly state: StreamingContextStates;
     equals(obj: unknown): boolean;
@@ -209,10 +220,15 @@ export class StreamingContext$instance {
 }
 
 
+export const StreamingContext: {
+    new(state: StreamingContextStates): StreamingContext$instance;
+    new(state: StreamingContextStates, additional: unknown): StreamingContext$instance;
+};
+
+
 export type StreamingContext = StreamingContext$instance;
 
-export class CollectionDataContractAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface CollectionDataContractAttribute$instance extends Attribute {
     readonly isItemNameSetExplicitly: boolean;
     readonly isKeyNameSetExplicitly: boolean;
     readonly isNameSetExplicitly: boolean;
@@ -228,19 +244,27 @@ export class CollectionDataContractAttribute$instance extends System_Internal.At
 }
 
 
+export const CollectionDataContractAttribute: {
+    new(): CollectionDataContractAttribute$instance;
+};
+
+
 export type CollectionDataContractAttribute = CollectionDataContractAttribute$instance;
 
-export class ContractNamespaceAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(contractNamespace: string);
+export interface ContractNamespaceAttribute$instance extends Attribute {
     clrNamespace: string;
     readonly contractNamespace: string;
 }
 
 
+export const ContractNamespaceAttribute: {
+    new(contractNamespace: string): ContractNamespaceAttribute$instance;
+};
+
+
 export type ContractNamespaceAttribute = ContractNamespaceAttribute$instance;
 
-export class DataContractAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DataContractAttribute$instance extends Attribute {
     readonly isNameSetExplicitly: boolean;
     readonly isNamespaceSetExplicitly: boolean;
     isReference: boolean;
@@ -250,24 +274,26 @@ export class DataContractAttribute$instance extends System_Internal.Attribute$in
 }
 
 
+export const DataContractAttribute: {
+    new(): DataContractAttribute$instance;
+};
+
+
 export type DataContractAttribute = DataContractAttribute$instance;
 
-export abstract class DataContractResolver$instance {
-    abstract resolveName(typeName: string, typeNamespace: string, declaredType: Type, knownTypeResolver: DataContractResolver): Type;
-    abstract tryResolveType(type_: Type, declaredType: Type, knownTypeResolver: DataContractResolver, typeName: { value: ref<XmlDictionaryString> }, typeNamespace: { value: ref<XmlDictionaryString> }): boolean;
+export interface DataContractResolver$instance {
+    resolveName(typeName: string, typeNamespace: string, declaredType: Type, knownTypeResolver: DataContractResolver): Type;
+    tryResolveType(type_: Type, declaredType: Type, knownTypeResolver: DataContractResolver, typeName: { value: ref<XmlDictionaryString> }, typeNamespace: { value: ref<XmlDictionaryString> }): boolean;
 }
+
+
+export const DataContractResolver: {
+};
 
 
 export type DataContractResolver = DataContractResolver$instance;
 
-export class DataContractSerializer$instance extends XmlObjectSerializer$instance {
-    constructor(type_: Type);
-    constructor(type_: Type, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, rootName: string, rootNamespace: string);
-    constructor(type_: Type, rootName: string, rootNamespace: string, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString);
-    constructor(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString, knownTypes: IEnumerable_1<Type>);
-    constructor(type_: Type, settings: DataContractSerializerSettings);
+export interface DataContractSerializer$instance extends XmlObjectSerializer {
     readonly dataContractResolver: DataContractResolver;
     readonly ignoreExtensionDataObject: boolean;
     readonly knownTypes: ReadOnlyCollection_1<Type>;
@@ -295,10 +321,20 @@ export class DataContractSerializer$instance extends XmlObjectSerializer$instanc
 }
 
 
+export const DataContractSerializer: {
+    new(type_: Type): DataContractSerializer$instance;
+    new(type_: Type, knownTypes: IEnumerable_1<Type>): DataContractSerializer$instance;
+    new(type_: Type, rootName: string, rootNamespace: string): DataContractSerializer$instance;
+    new(type_: Type, rootName: string, rootNamespace: string, knownTypes: IEnumerable_1<Type>): DataContractSerializer$instance;
+    new(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString): DataContractSerializer$instance;
+    new(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString, knownTypes: IEnumerable_1<Type>): DataContractSerializer$instance;
+    new(type_: Type, settings: DataContractSerializerSettings): DataContractSerializer$instance;
+};
+
+
 export type DataContractSerializer = DataContractSerializer$instance;
 
-export class DataContractSerializerSettings$instance {
-    constructor();
+export interface DataContractSerializerSettings$instance {
     dataContractResolver: DataContractResolver;
     ignoreExtensionDataObject: boolean;
     knownTypes: IEnumerable_1<Type>;
@@ -310,10 +346,14 @@ export class DataContractSerializerSettings$instance {
 }
 
 
+export const DataContractSerializerSettings: {
+    new(): DataContractSerializerSettings$instance;
+};
+
+
 export type DataContractSerializerSettings = DataContractSerializerSettings$instance;
 
-export class DataMemberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface DataMemberAttribute$instance extends Attribute {
     emitDefaultValue: boolean;
     readonly isNameSetExplicitly: boolean;
     isRequired: boolean;
@@ -322,50 +362,76 @@ export class DataMemberAttribute$instance extends System_Internal.Attribute$inst
 }
 
 
+export const DataMemberAttribute: {
+    new(): DataMemberAttribute$instance;
+};
+
+
 export type DataMemberAttribute = DataMemberAttribute$instance;
 
-export class DateTimeFormat$instance {
-    constructor(formatString: string);
-    constructor(formatString: string, formatProvider: IFormatProvider);
+export interface DateTimeFormat$instance {
     dateTimeStyles: DateTimeStyles;
     readonly formatProvider: IFormatProvider;
     readonly formatString: string;
 }
 
 
+export const DateTimeFormat: {
+    new(formatString: string): DateTimeFormat$instance;
+    new(formatString: string, formatProvider: IFormatProvider): DateTimeFormat$instance;
+};
+
+
 export type DateTimeFormat = DateTimeFormat$instance;
 
-export class EnumMemberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface EnumMemberAttribute$instance extends Attribute {
     readonly isValueSetExplicitly: boolean;
     value: string;
 }
 
 
+export const EnumMemberAttribute: {
+    new(): EnumMemberAttribute$instance;
+};
+
+
 export type EnumMemberAttribute = EnumMemberAttribute$instance;
 
-export class ExportOptions$instance {
-    constructor();
+export interface ExportOptions$instance {
     dataContractSurrogate: ISerializationSurrogateProvider;
     readonly knownTypes: Collection_1<Type>;
 }
 
 
+export const ExportOptions: {
+    new(): ExportOptions$instance;
+};
+
+
 export type ExportOptions = ExportOptions$instance;
 
-export class ExtensionDataObject$instance {
+export interface ExtensionDataObject$instance {
 }
+
+
+export const ExtensionDataObject: {
+    new(): ExtensionDataObject$instance;
+};
 
 
 export type ExtensionDataObject = ExtensionDataObject$instance;
 
-export abstract class Formatter$instance {
+export interface Formatter$instance {
     binder: SerializationBinder;
     context: StreamingContext;
     surrogateSelector: ISurrogateSelector;
-    abstract deserialize(serializationStream: Stream): unknown;
-    abstract serialize(serializationStream: Stream, graph: unknown): void;
+    deserialize(serializationStream: Stream): unknown;
+    serialize(serializationStream: Stream, graph: unknown): void;
 }
+
+
+export const Formatter: {
+};
 
 
 export interface __Formatter$views {
@@ -377,8 +443,7 @@ export interface Formatter$instance extends IFormatter$instance {}
 export type Formatter = Formatter$instance & __Formatter$views;
 
 
-export class FormatterConverter$instance {
-    constructor();
+export interface FormatterConverter$instance {
     convert(value: unknown, type_: Type): unknown;
     convert(value: unknown, typeCode: TypeCode): unknown;
     toBoolean(value: unknown): boolean;
@@ -399,6 +464,11 @@ export class FormatterConverter$instance {
 }
 
 
+export const FormatterConverter: {
+    new(): FormatterConverter$instance;
+};
+
+
 export interface __FormatterConverter$views {
     As_IFormatterConverter(): IFormatterConverter$instance;
 }
@@ -406,19 +476,27 @@ export interface __FormatterConverter$views {
 export type FormatterConverter = FormatterConverter$instance & __FormatterConverter$views;
 
 
-export class IgnoreDataMemberAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface IgnoreDataMemberAttribute$instance extends Attribute {
 }
+
+
+export const IgnoreDataMemberAttribute: {
+    new(): IgnoreDataMemberAttribute$instance;
+};
 
 
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
-export class InvalidDataContractException$instance extends System_Internal.Exception$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface InvalidDataContractException$instance extends Exception {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const InvalidDataContractException: {
+    new(): InvalidDataContractException$instance;
+    new(message: string): InvalidDataContractException$instance;
+    new(message: string, innerException: Exception): InvalidDataContractException$instance;
+};
 
 
 export interface __InvalidDataContractException$views {
@@ -428,27 +506,34 @@ export interface __InvalidDataContractException$views {
 export type InvalidDataContractException = InvalidDataContractException$instance & __InvalidDataContractException$views;
 
 
-export class KnownTypeAttribute$instance extends System_Internal.Attribute$instance {
-    constructor(type_: Type);
-    constructor(methodName: string);
+export interface KnownTypeAttribute$instance extends Attribute {
     readonly methodName: string;
     readonly type_: Type;
 }
 
 
+export const KnownTypeAttribute: {
+    new(type_: Type): KnownTypeAttribute$instance;
+    new(methodName: string): KnownTypeAttribute$instance;
+};
+
+
 export type KnownTypeAttribute = KnownTypeAttribute$instance;
 
-export class ObjectIDGenerator$instance {
-    constructor();
+export interface ObjectIDGenerator$instance {
     getId(obj: unknown, firstTime: { value: ref<boolean> }): long;
     hasId(obj: unknown, firstTime: { value: ref<boolean> }): long;
 }
 
 
+export const ObjectIDGenerator: {
+    new(): ObjectIDGenerator$instance;
+};
+
+
 export type ObjectIDGenerator = ObjectIDGenerator$instance;
 
-export class ObjectManager$instance {
-    constructor(selector: ISurrogateSelector, context: StreamingContext);
+export interface ObjectManager$instance {
     doFixups(): void;
     getObject(objectID: long): unknown;
     raiseDeserializationEvent(): void;
@@ -464,84 +549,104 @@ export class ObjectManager$instance {
 }
 
 
+export const ObjectManager: {
+    new(selector: ISurrogateSelector, context: StreamingContext): ObjectManager$instance;
+};
+
+
 export type ObjectManager = ObjectManager$instance;
 
-export class OnDeserializedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OnDeserializedAttribute$instance extends Attribute {
 }
+
+
+export const OnDeserializedAttribute: {
+    new(): OnDeserializedAttribute$instance;
+};
 
 
 export type OnDeserializedAttribute = OnDeserializedAttribute$instance;
 
-export class OnDeserializingAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OnDeserializingAttribute$instance extends Attribute {
 }
+
+
+export const OnDeserializingAttribute: {
+    new(): OnDeserializingAttribute$instance;
+};
 
 
 export type OnDeserializingAttribute = OnDeserializingAttribute$instance;
 
-export class OnSerializedAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OnSerializedAttribute$instance extends Attribute {
 }
+
+
+export const OnSerializedAttribute: {
+    new(): OnSerializedAttribute$instance;
+};
 
 
 export type OnSerializedAttribute = OnSerializedAttribute$instance;
 
-export class OnSerializingAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OnSerializingAttribute$instance extends Attribute {
 }
+
+
+export const OnSerializingAttribute: {
+    new(): OnSerializingAttribute$instance;
+};
 
 
 export type OnSerializingAttribute = OnSerializingAttribute$instance;
 
-export class OptionalFieldAttribute$instance extends System_Internal.Attribute$instance {
-    constructor();
+export interface OptionalFieldAttribute$instance extends Attribute {
     versionAdded: int;
 }
 
 
+export const OptionalFieldAttribute: {
+    new(): OptionalFieldAttribute$instance;
+};
+
+
 export type OptionalFieldAttribute = OptionalFieldAttribute$instance;
 
-export class SafeSerializationEventArgs$instance extends System_Internal.EventArgs$instance {
+export interface SafeSerializationEventArgs$instance extends EventArgs {
     readonly streamingContext: StreamingContext;
     addSerializedState(serializedState: ISafeSerializationData): void;
 }
 
 
+export const SafeSerializationEventArgs: {
+    new(): SafeSerializationEventArgs$instance;
+};
+
+
 export type SafeSerializationEventArgs = SafeSerializationEventArgs$instance;
 
-export abstract class SerializationBinder$instance {
+export interface SerializationBinder$instance {
     bindToName(serializedType: Type, assemblyName: { value: ref<string> }, typeName: { value: ref<string> }): void;
-    abstract bindToType(assemblyName: string, typeName: string): Type;
+    bindToType(assemblyName: string, typeName: string): Type;
 }
+
+
+export const SerializationBinder: {
+};
 
 
 export type SerializationBinder = SerializationBinder$instance;
 
-export class SerializationEventHandler$instance extends Function {
-    constructor(object_: unknown, method: nint);
-    beginInvoke(context: StreamingContext, callback: AsyncCallback, object_: unknown): IAsyncResult;
-    clone(): unknown;
-    endInvoke(result: IAsyncResult): void;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    invoke(context: StreamingContext): void;
-}
-
-
-export interface __SerializationEventHandler$views {
-    As_ICloneable(): System_Internal.ICloneable$instance;
-    As_ISerializable(): ISerializable$instance;
-}
-
-export type SerializationEventHandler = SerializationEventHandler$instance & __SerializationEventHandler$views;
-
-
-export class SerializationException$instance extends System_Internal.SystemException$instance {
-    constructor();
-    constructor(message: string);
-    constructor(message: string, innerException: Exception);
+export interface SerializationException$instance extends SystemException {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const SerializationException: {
+    new(): SerializationException$instance;
+    new(message: string): SerializationException$instance;
+    new(message: string, innerException: Exception): SerializationException$instance;
+};
 
 
 export interface __SerializationException$views {
@@ -551,9 +656,7 @@ export interface __SerializationException$views {
 export type SerializationException = SerializationException$instance & __SerializationException$views;
 
 
-export class SerializationInfo$instance {
-    constructor(type_: Type, converter: IFormatterConverter);
-    constructor(type_: Type, converter: IFormatterConverter, requireSameTokenInPartialTrust: boolean);
+export interface SerializationInfo$instance {
     assemblyName: string;
     fullTypeName: string;
     readonly isAssemblyNameSetExplicit: boolean;
@@ -594,13 +697,19 @@ export class SerializationInfo$instance {
     getUInt64(name: string): ulong;
     getValue(name: string, type_: Type): unknown;
     setType(type_: Type): void;
-    static startDeserialization(): DeserializationToken;
 }
+
+
+export const SerializationInfo: {
+    new(type_: Type, converter: IFormatterConverter): SerializationInfo$instance;
+    new(type_: Type, converter: IFormatterConverter, requireSameTokenInPartialTrust: boolean): SerializationInfo$instance;
+    startDeserialization(): DeserializationToken;
+};
 
 
 export type SerializationInfo = SerializationInfo$instance;
 
-export class SerializationInfoEnumerator$instance {
+export interface SerializationInfoEnumerator$instance {
     readonly current: SerializationEntry | unknown;
     readonly name: string;
     readonly objectType: Type;
@@ -610,6 +719,11 @@ export class SerializationInfoEnumerator$instance {
 }
 
 
+export const SerializationInfoEnumerator: {
+    new(): SerializationInfoEnumerator$instance;
+};
+
+
 export interface __SerializationInfoEnumerator$views {
     As_IEnumerator(): System_Collections_Internal.IEnumerator$instance;
 }
@@ -617,23 +731,31 @@ export interface __SerializationInfoEnumerator$views {
 export type SerializationInfoEnumerator = SerializationInfoEnumerator$instance & __SerializationInfoEnumerator$views;
 
 
-export class SerializationObjectManager$instance {
-    constructor(context: StreamingContext);
+export interface SerializationObjectManager$instance {
     raiseOnSerializedEvent(): void;
     registerObject(obj: unknown): void;
 }
 
 
+export const SerializationObjectManager: {
+    new(context: StreamingContext): SerializationObjectManager$instance;
+};
+
+
 export type SerializationObjectManager = SerializationObjectManager$instance;
 
-export class SurrogateSelector$instance {
-    constructor();
+export interface SurrogateSelector$instance {
     addSurrogate(type_: Type, context: StreamingContext, surrogate: ISerializationSurrogate): void;
     chainSelector(selector: ISurrogateSelector): void;
     getNextSelector(): ISurrogateSelector;
     getSurrogate(type_: Type, context: StreamingContext, selector: { value: ref<ISurrogateSelector> }): ISerializationSurrogate;
     removeSurrogate(type_: Type, context: StreamingContext): void;
 }
+
+
+export const SurrogateSelector: {
+    new(): SurrogateSelector$instance;
+};
 
 
 export interface __SurrogateSelector$views {
@@ -645,13 +767,18 @@ export interface SurrogateSelector$instance extends ISurrogateSelector$instance 
 export type SurrogateSelector = SurrogateSelector$instance & __SurrogateSelector$views;
 
 
-export class TypeLoadExceptionHolder$instance {
+export interface TypeLoadExceptionHolder$instance {
 }
+
+
+export const TypeLoadExceptionHolder: {
+    new(): TypeLoadExceptionHolder$instance;
+};
 
 
 export type TypeLoadExceptionHolder = TypeLoadExceptionHolder$instance;
 
-export abstract class XmlObjectSerializer$instance {
+export interface XmlObjectSerializer$instance {
     isStartObject(reader: XmlReader): boolean;
     isStartObject(reader: XmlDictionaryReader): boolean;
     readObject(stream: Stream): unknown;
@@ -671,11 +798,13 @@ export abstract class XmlObjectSerializer$instance {
 }
 
 
+export const XmlObjectSerializer: {
+};
+
+
 export type XmlObjectSerializer = XmlObjectSerializer$instance;
 
-export class XsdDataContractExporter$instance {
-    constructor();
-    constructor(schemas: XmlSchemaSet);
+export interface XsdDataContractExporter$instance {
     options: ExportOptions;
     readonly schemas: XmlSchemaSet;
     canExport(assemblies: ICollection_1<Assembly>): boolean;
@@ -688,6 +817,12 @@ export class XsdDataContractExporter$instance {
     getSchemaType(type_: Type): XmlSchemaType;
     getSchemaTypeName(type_: Type): XmlQualifiedName;
 }
+
+
+export const XsdDataContractExporter: {
+    new(): XsdDataContractExporter$instance;
+    new(schemas: XmlSchemaSet): XsdDataContractExporter$instance;
+};
 
 
 export type XsdDataContractExporter = XsdDataContractExporter$instance;

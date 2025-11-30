@@ -95,7 +95,7 @@ export enum JsonValueKind {
 }
 
 
-export class JsonDocumentOptions$instance {
+export interface JsonDocumentOptions$instance {
     allowDuplicateProperties: boolean;
     allowTrailingCommas: boolean;
     commentHandling: JsonCommentHandling;
@@ -103,9 +103,14 @@ export class JsonDocumentOptions$instance {
 }
 
 
+export const JsonDocumentOptions: {
+    new(): JsonDocumentOptions$instance;
+};
+
+
 export type JsonDocumentOptions = JsonDocumentOptions$instance;
 
-export class JsonElement$instance {
+export interface JsonElement$instance {
     readonly item: JsonElement;
     readonly valueKind: JsonValueKind;
     clone(): JsonElement;
@@ -157,24 +162,34 @@ export class JsonElement$instance {
     valueEquals(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
     valueEquals(text: ReadOnlySpan_1<CLROf<char>>): boolean;
     writeTo(writer: Utf8JsonWriter): void;
-    static deepEquals(element1: JsonElement, element2: JsonElement): boolean;
-    static parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonElement;
-    static parse(json: ReadOnlySpan_1<CLROf<char>>, options?: JsonDocumentOptions): JsonElement;
-    static parse(json: string, options?: JsonDocumentOptions): JsonElement;
-    static parseValue(reader: { value: ref<Utf8JsonReader> }): JsonElement;
-    static tryParseValue(reader: { value: ref<Utf8JsonReader> }, element: { value: ref<Nullable_1<JsonElement>> }): boolean;
 }
+
+
+export const JsonElement: {
+    new(): JsonElement$instance;
+    deepEquals(element1: JsonElement, element2: JsonElement): boolean;
+    parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonElement;
+    parse(json: ReadOnlySpan_1<CLROf<char>>, options?: JsonDocumentOptions): JsonElement;
+    parse(json: string, options?: JsonDocumentOptions): JsonElement;
+    parseValue(reader: { value: ref<Utf8JsonReader> }): JsonElement;
+    tryParseValue(reader: { value: ref<Utf8JsonReader> }, element: { value: ref<Nullable_1<JsonElement>> }): boolean;
+};
 
 
 export type JsonElement = JsonElement$instance;
 
-export class JsonElement_ArrayEnumerator$instance implements IDisposable {
+export interface JsonElement_ArrayEnumerator$instance extends IDisposable {
     readonly current: JsonElement;
     dispose(): void;
     getEnumerator(): JsonElement_ArrayEnumerator;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const JsonElement_ArrayEnumerator: {
+    new(): JsonElement_ArrayEnumerator$instance;
+};
 
 
 export interface __JsonElement_ArrayEnumerator$views {
@@ -187,13 +202,18 @@ export interface __JsonElement_ArrayEnumerator$views {
 export type JsonElement_ArrayEnumerator = JsonElement_ArrayEnumerator$instance & __JsonElement_ArrayEnumerator$views;
 
 
-export class JsonElement_ObjectEnumerator$instance implements IDisposable {
+export interface JsonElement_ObjectEnumerator$instance extends IDisposable {
     readonly current: JsonProperty;
     dispose(): void;
     getEnumerator(): JsonElement_ObjectEnumerator;
     moveNext(): boolean;
     reset(): void;
 }
+
+
+export const JsonElement_ObjectEnumerator: {
+    new(): JsonElement_ObjectEnumerator$instance;
+};
 
 
 export interface __JsonElement_ObjectEnumerator$views {
@@ -206,17 +226,22 @@ export interface __JsonElement_ObjectEnumerator$views {
 export type JsonElement_ObjectEnumerator = JsonElement_ObjectEnumerator$instance & __JsonElement_ObjectEnumerator$views;
 
 
-export class JsonEncodedText$instance {
+export interface JsonEncodedText$instance {
     readonly encodedUtf8Bytes: ReadOnlySpan_1<CLROf<byte>>;
     readonly value: string;
     equals(other: JsonEncodedText): boolean;
     equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
-    static encode(utf8Value: ReadOnlySpan_1<CLROf<byte>>, encoder?: JavaScriptEncoder): JsonEncodedText;
-    static encode(value: ReadOnlySpan_1<CLROf<char>>, encoder?: JavaScriptEncoder): JsonEncodedText;
-    static encode(value: string, encoder?: JavaScriptEncoder): JsonEncodedText;
 }
+
+
+export const JsonEncodedText: {
+    new(): JsonEncodedText$instance;
+    encode(utf8Value: ReadOnlySpan_1<CLROf<byte>>, encoder?: JavaScriptEncoder): JsonEncodedText;
+    encode(value: ReadOnlySpan_1<CLROf<char>>, encoder?: JavaScriptEncoder): JsonEncodedText;
+    encode(value: string, encoder?: JavaScriptEncoder): JsonEncodedText;
+};
 
 
 export interface __JsonEncodedText$views {
@@ -229,7 +254,7 @@ export interface __JsonEncodedText$views {
 export type JsonEncodedText = JsonEncodedText$instance & __JsonEncodedText$views;
 
 
-export class JsonProperty$instance {
+export interface JsonProperty$instance {
     readonly name: string;
     readonly value: JsonElement;
     nameEquals(text: string): boolean;
@@ -240,9 +265,14 @@ export class JsonProperty$instance {
 }
 
 
+export const JsonProperty: {
+    new(): JsonProperty$instance;
+};
+
+
 export type JsonProperty = JsonProperty$instance;
 
-export class JsonReaderOptions$instance {
+export interface JsonReaderOptions$instance {
     allowMultipleValues: boolean;
     allowTrailingCommas: boolean;
     commentHandling: JsonCommentHandling;
@@ -250,17 +280,26 @@ export class JsonReaderOptions$instance {
 }
 
 
+export const JsonReaderOptions: {
+    new(): JsonReaderOptions$instance;
+};
+
+
 export type JsonReaderOptions = JsonReaderOptions$instance;
 
-export class JsonReaderState$instance {
-    constructor(options: JsonReaderOptions);
+export interface JsonReaderState$instance {
     readonly options: JsonReaderOptions;
 }
 
 
+export const JsonReaderState: {
+    new(options: JsonReaderOptions): JsonReaderState$instance;
+};
+
+
 export type JsonReaderState = JsonReaderState$instance;
 
-export class JsonWriterOptions$instance {
+export interface JsonWriterOptions$instance {
     encoder: JavaScriptEncoder;
     indentCharacter: char;
     indented: boolean;
@@ -271,13 +310,14 @@ export class JsonWriterOptions$instance {
 }
 
 
+export const JsonWriterOptions: {
+    new(): JsonWriterOptions$instance;
+};
+
+
 export type JsonWriterOptions = JsonWriterOptions$instance;
 
-export class Utf8JsonReader$instance {
-    constructor(jsonData: ReadOnlySpan_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState);
-    constructor(jsonData: ReadOnlySpan_1<CLROf<byte>>, options: JsonReaderOptions);
-    constructor(jsonData: ReadOnlySequence_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState);
-    constructor(jsonData: ReadOnlySequence_1<CLROf<byte>>, options: JsonReaderOptions);
+export interface Utf8JsonReader$instance {
     readonly bytesConsumed: long;
     readonly currentDepth: int;
     readonly currentState: JsonReaderState;
@@ -333,21 +373,34 @@ export class Utf8JsonReader$instance {
 }
 
 
+export const Utf8JsonReader: {
+    new(jsonData: ReadOnlySpan_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySpan_1<CLROf<byte>>, options: JsonReaderOptions): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySequence_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySequence_1<CLROf<byte>>, options: JsonReaderOptions): Utf8JsonReader$instance;
+};
+
+
 export type Utf8JsonReader = Utf8JsonReader$instance;
 
-export class JsonDocument$instance {
+export interface JsonDocument$instance {
     readonly rootElement: JsonElement;
     dispose(): void;
     writeTo(writer: Utf8JsonWriter): void;
-    static parse(utf8Json: ReadOnlySequence_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
-    static parse(utf8Json: Stream, options?: JsonDocumentOptions): JsonDocument;
-    static parse(utf8Json: ReadOnlyMemory_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
-    static parse(json: ReadOnlyMemory_1<CLROf<char>>, options?: JsonDocumentOptions): JsonDocument;
-    static parse(json: string, options?: JsonDocumentOptions): JsonDocument;
-    static parseAsync(utf8Json: Stream, options?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonDocument>;
-    static parseValue(reader: { value: ref<Utf8JsonReader> }): JsonDocument;
-    static tryParseValue(reader: { value: ref<Utf8JsonReader> }, document: { value: ref<JsonDocument> }): boolean;
 }
+
+
+export const JsonDocument: {
+    new(): JsonDocument$instance;
+    parse(utf8Json: ReadOnlySequence_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
+    parse(utf8Json: Stream, options?: JsonDocumentOptions): JsonDocument;
+    parse(utf8Json: ReadOnlyMemory_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
+    parse(json: ReadOnlyMemory_1<CLROf<char>>, options?: JsonDocumentOptions): JsonDocument;
+    parse(json: string, options?: JsonDocumentOptions): JsonDocument;
+    parseAsync(utf8Json: Stream, options?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonDocument>;
+    parseValue(reader: { value: ref<Utf8JsonReader> }): JsonDocument;
+    tryParseValue(reader: { value: ref<Utf8JsonReader> }, document: { value: ref<JsonDocument> }): boolean;
+};
 
 
 export interface __JsonDocument$views {
@@ -359,18 +412,22 @@ export interface JsonDocument$instance extends System_Internal.IDisposable$insta
 export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
-export class JsonException$instance extends System_Internal.Exception$instance {
-    constructor(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>, innerException: Exception);
-    constructor(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>);
-    constructor(message: string, innerException: Exception);
-    constructor(message: string);
-    constructor();
+export interface JsonException$instance extends Exception {
     readonly bytePositionInLine: Nullable_1<CLROf<long>>;
     readonly lineNumber: Nullable_1<CLROf<long>>;
     readonly message: string;
     readonly path: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
+
+
+export const JsonException: {
+    new(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>, innerException: Exception): JsonException$instance;
+    new(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>): JsonException$instance;
+    new(message: string, innerException: Exception): JsonException$instance;
+    new(message: string): JsonException$instance;
+    new(): JsonException$instance;
+};
 
 
 export interface __JsonException$views {
@@ -380,22 +437,23 @@ export interface __JsonException$views {
 export type JsonException = JsonException$instance & __JsonException$views;
 
 
-export abstract class JsonNamingPolicy$instance {
-    abstract convertName(name: string): string;
-    static readonly camelCase: JsonNamingPolicy;
-    static readonly snakeCaseLower: JsonNamingPolicy;
-    static readonly snakeCaseUpper: JsonNamingPolicy;
-    static readonly kebabCaseLower: JsonNamingPolicy;
-    static readonly kebabCaseUpper: JsonNamingPolicy;
+export interface JsonNamingPolicy$instance {
+    convertName(name: string): string;
 }
+
+
+export const JsonNamingPolicy: {
+    readonly camelCase: JsonNamingPolicy;
+    readonly snakeCaseLower: JsonNamingPolicy;
+    readonly snakeCaseUpper: JsonNamingPolicy;
+    readonly kebabCaseLower: JsonNamingPolicy;
+    readonly kebabCaseUpper: JsonNamingPolicy;
+};
 
 
 export type JsonNamingPolicy = JsonNamingPolicy$instance;
 
-export class JsonSerializerOptions$instance {
-    constructor();
-    constructor(options: JsonSerializerOptions);
-    constructor(defaults: JsonSerializerDefaults);
+export interface JsonSerializerOptions$instance {
     allowDuplicateProperties: boolean;
     allowOutOfOrderMetadataProperties: boolean;
     allowTrailingCommas: boolean;
@@ -432,17 +490,22 @@ export class JsonSerializerOptions$instance {
     makeReadOnly(): void;
     makeReadOnly(populateMissingResolver: boolean): void;
     tryGetTypeInfo(type_: Type, typeInfo: { value: ref<JsonTypeInfo> }): boolean;
-    static readonly default_: JsonSerializerOptions;
-    static readonly web: JsonSerializerOptions;
-    static readonly strict: JsonSerializerOptions;
 }
+
+
+export const JsonSerializerOptions: {
+    new(): JsonSerializerOptions$instance;
+    new(options: JsonSerializerOptions): JsonSerializerOptions$instance;
+    new(defaults: JsonSerializerDefaults): JsonSerializerOptions$instance;
+    readonly default_: JsonSerializerOptions;
+    readonly web: JsonSerializerOptions;
+    readonly strict: JsonSerializerOptions;
+};
 
 
 export type JsonSerializerOptions = JsonSerializerOptions$instance;
 
-export class Utf8JsonWriter$instance {
-    constructor(bufferWriter: IBufferWriter_1<CLROf<byte>>, options: JsonWriterOptions);
-    constructor(utf8Json: Stream, options: JsonWriterOptions);
+export interface Utf8JsonWriter$instance {
     readonly bytesCommitted: long;
     readonly bytesPending: int;
     readonly currentDepth: int;
@@ -566,6 +629,12 @@ export class Utf8JsonWriter$instance {
     writeStringValueSegment(value: ReadOnlySpan_1<CLROf<char>>, isFinalSegment: boolean): void;
     writeStringValueSegment(value: ReadOnlySpan_1<CLROf<byte>>, isFinalSegment: boolean): void;
 }
+
+
+export const Utf8JsonWriter: {
+    new(bufferWriter: IBufferWriter_1<CLROf<byte>>, options: JsonWriterOptions): Utf8JsonWriter$instance;
+    new(utf8Json: Stream, options: JsonWriterOptions): Utf8JsonWriter$instance;
+};
 
 
 export interface __Utf8JsonWriter$views {
