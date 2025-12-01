@@ -798,7 +798,7 @@ export interface __EqualityComparer_1$views<T> {
 export type EqualityComparer_1<T> = EqualityComparer_1$instance<T> & __EqualityComparer_1$views<T>;
 
 
-export interface GenericComparer_1$instance<T extends IComparable_1<T>> extends Comparer_1$instance<T> {
+export interface GenericComparer_1$instance<T extends (IComparable_1<T> | number | string | boolean)> extends Comparer_1$instance<T> {
     compare(x: unknown, y: unknown): int;
     equals(obj: unknown): boolean;
     getHashCode(): int;
@@ -806,35 +806,35 @@ export interface GenericComparer_1$instance<T extends IComparable_1<T>> extends 
 
 
 export const GenericComparer_1: {
-    new<T extends IComparable_1<T>>(): GenericComparer_1$instance<T>;
+    new<T extends (IComparable_1<T> | number | string | boolean)>(): GenericComparer_1$instance<T>;
 };
 
 
-export interface __GenericComparer_1$views<T extends IComparable_1<T>> {
+export interface __GenericComparer_1$views<T extends (IComparable_1<T> | number | string | boolean)> {
     As_IComparer_1(): IComparer_1$instance<T>;
     As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
 
-export type GenericComparer_1<T extends IComparable_1<T>> = GenericComparer_1$instance<T> & __GenericComparer_1$views<T>;
+export type GenericComparer_1<T extends (IComparable_1<T> | number | string | boolean)> = GenericComparer_1$instance<T> & __GenericComparer_1$views<T>;
 
 
-export interface GenericEqualityComparer_1$instance<T extends IEquatable_1<T>> extends EqualityComparer_1$instance<T> {
+export interface GenericEqualityComparer_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> extends EqualityComparer_1$instance<T> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
 
 
 export const GenericEqualityComparer_1: {
-    new<T extends IEquatable_1<T>>(): GenericEqualityComparer_1$instance<T>;
+    new<T extends (IEquatable_1<T> | number | string | boolean)>(): GenericEqualityComparer_1$instance<T>;
 };
 
 
-export interface __GenericEqualityComparer_1$views<T extends IEquatable_1<T>> {
+export interface __GenericEqualityComparer_1$views<T extends (IEquatable_1<T> | number | string | boolean)> {
     As_IEqualityComparer_1(): IEqualityComparer_1$instance<T>;
     As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
-export type GenericEqualityComparer_1<T extends IEquatable_1<T>> = GenericEqualityComparer_1$instance<T> & __GenericEqualityComparer_1$views<T>;
+export type GenericEqualityComparer_1<T extends (IEquatable_1<T> | number | string | boolean)> = GenericEqualityComparer_1$instance<T> & __GenericEqualityComparer_1$views<T>;
 
 
 export interface HashSet_1$instance<T> {
