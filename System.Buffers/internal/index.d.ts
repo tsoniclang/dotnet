@@ -152,7 +152,7 @@ export const ReadOnlySequence_1_Enumerator: {
 
 export type ReadOnlySequence_1_Enumerator<T> = ReadOnlySequence_1_Enumerator$instance<T>;
 
-export interface SequenceReader_1$instance<T extends IEquatable_1<T>> {
+export interface SequenceReader_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
     readonly consumed: long;
     readonly currentSpan: ReadOnlySpan_1<T>;
     readonly currentSpanIndex: int;
@@ -192,11 +192,11 @@ export interface SequenceReader_1$instance<T extends IEquatable_1<T>> {
 
 
 export const SequenceReader_1: {
-    new<T extends IEquatable_1<T>>(sequence: ReadOnlySequence_1<T>): SequenceReader_1$instance<T>;
+    new<T extends (IEquatable_1<T> | number | string | boolean)>(sequence: ReadOnlySequence_1<T>): SequenceReader_1$instance<T>;
 };
 
 
-export type SequenceReader_1<T extends IEquatable_1<T>> = SequenceReader_1$instance<T>;
+export type SequenceReader_1<T extends (IEquatable_1<T> | number | string | boolean)> = SequenceReader_1$instance<T>;
 
 export interface StandardFormat$instance {
     readonly hasPrecision: boolean;
@@ -331,17 +331,17 @@ export const ReadOnlySequenceSegment_1: {
 
 export type ReadOnlySequenceSegment_1<T> = ReadOnlySequenceSegment_1$instance<T>;
 
-export interface SearchValues_1$instance<T extends IEquatable_1<T>> {
+export interface SearchValues_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> {
     contains(value: T): boolean;
 }
 
 
 export const SearchValues_1: {
-    new<T extends IEquatable_1<T>>(): SearchValues_1$instance<T>;
+    new<T extends (IEquatable_1<T> | number | string | boolean)>(): SearchValues_1$instance<T>;
 };
 
 
-export type SearchValues_1<T extends IEquatable_1<T>> = SearchValues_1$instance<T>;
+export type SearchValues_1<T extends (IEquatable_1<T> | number | string | boolean)> = SearchValues_1$instance<T>;
 
 export abstract class BuffersExtensions$instance {
     static copyTo<T>(source: { value: ref<ReadOnlySequence_1<T>> }, destination: Span_1<T>): void;
