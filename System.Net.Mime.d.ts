@@ -9,9 +9,7 @@ import * as Internal from './System.Net.Mime/internal/index.js';
 import type { StringDictionary } from './System.Collections.Specialized/internal/index.js';
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Net.Mime/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { TransferEncoding as TransferEncoding } from './System.Net.Mime/internal/index.js';
 export { ContentDisposition as ContentDisposition } from './System.Net.Mime/internal/index.js';
 export { ContentType as ContentType } from './System.Net.Mime/internal/index.js';

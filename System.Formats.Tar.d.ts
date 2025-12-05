@@ -12,9 +12,7 @@ import type { Task, ValueTask, ValueTask_1 } from './System.Threading.Tasks/inte
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, IAsyncDisposable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Formats.Tar/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { PosixTarEntry as PosixTarEntry } from './System.Formats.Tar/internal/index.js';
 export { V7TarEntry as V7TarEntry } from './System.Formats.Tar/internal/index.js';
 export { TarEntry as TarEntry } from './System.Formats.Tar/internal/index.js';

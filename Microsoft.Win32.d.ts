@@ -10,9 +10,7 @@ import type { SafeRegistryHandle } from './Microsoft.Win32.SafeHandles/internal/
 import type { AccessControlSections, RegistryRights, RegistrySecurity } from './System.Security.AccessControl/internal/index.js';
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, MarshalByRefObject, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './Microsoft.Win32/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Registry$instance as Registry } from './Microsoft.Win32/internal/index.js';
 export { RegistryHive as RegistryHive } from './Microsoft.Win32/internal/index.js';
 export { RegistryKey as RegistryKey } from './Microsoft.Win32/internal/index.js';

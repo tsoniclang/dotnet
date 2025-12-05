@@ -11,9 +11,7 @@ import type { JsonPropertyInfo, JsonTypeInfo } from './System.Text.Json.Serializ
 import type { JsonSerializerOptions } from './System.Text.Json/internal/index.js';
 import type { Boolean as ClrBoolean, Func_3, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, ValueType } from './System/internal/index.js';
 
-export * from './System.Text.Json.Schema/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { JsonSchemaExporter$instance as JsonSchemaExporter } from './System.Text.Json.Schema/internal/index.js';
 export { JsonSchemaExporterOptions as JsonSchemaExporterOptions } from './System.Text.Json.Schema/internal/index.js';
 export { JsonSchemaExporterContext as JsonSchemaExporterContext } from './System.Text.Json.Schema/internal/index.js';

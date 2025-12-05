@@ -9,9 +9,7 @@ import * as Internal from './System.Security.Permissions/internal/index.js';
 import type { IPermission } from './System.Security/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Security.Permissions/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CodeAccessSecurityAttribute as CodeAccessSecurityAttribute } from './System.Security.Permissions/internal/index.js';
 export { PermissionState as PermissionState } from './System.Security.Permissions/internal/index.js';
 export { SecurityAction as SecurityAction } from './System.Security.Permissions/internal/index.js';

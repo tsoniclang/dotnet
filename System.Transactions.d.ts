@@ -12,9 +12,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { WaitHandle } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTime, Delegate, Enum, EventArgs, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Transactions/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CommittableTransaction as CommittableTransaction } from './System.Transactions/internal/index.js';
 export { DependentTransaction as DependentTransaction } from './System.Transactions/internal/index.js';
 export { Enlistment as Enlistment } from './System.Transactions/internal/index.js';

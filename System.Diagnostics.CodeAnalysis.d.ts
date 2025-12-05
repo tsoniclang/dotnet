@@ -8,9 +8,7 @@ import * as Internal from './System.Diagnostics.CodeAnalysis/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Diagnostics.CodeAnalysis/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ConstantExpectedAttribute as ConstantExpectedAttribute } from './System.Diagnostics.CodeAnalysis/internal/index.js';
 export { DynamicallyAccessedMemberTypes as DynamicallyAccessedMemberTypes } from './System.Diagnostics.CodeAnalysis/internal/index.js';
 export { DynamicallyAccessedMembersAttribute as DynamicallyAccessedMembersAttribute } from './System.Diagnostics.CodeAnalysis/internal/index.js';

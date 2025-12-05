@@ -16,9 +16,7 @@ import type { ValidationEventHandler, XmlSchema, XmlSchemaForm } from './System.
 import type { WhitespaceHandling, XmlAttribute, XmlElement, XmlNodeType, XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Xml.Serialization/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CodeGenerationOptions as CodeGenerationOptions } from './System.Xml.Serialization/internal/index.js';
 export { CodeIdentifier as CodeIdentifier } from './System.Xml.Serialization/internal/index.js';
 export { CodeIdentifiers as CodeIdentifiers } from './System.Xml.Serialization/internal/index.js';

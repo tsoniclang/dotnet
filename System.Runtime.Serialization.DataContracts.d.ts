@@ -14,9 +14,7 @@ import type { XmlSchemaElement, XmlSchemaSet, XmlSchemaType } from './System.Xml
 import type { XmlDictionaryString, XmlQualifiedName } from './System.Xml/internal/index.js';
 import type { Boolean as ClrBoolean, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Serialization.DataContracts/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DataContract as DataContract } from './System.Runtime.Serialization.DataContracts/internal/index.js';
 export { DataContractSet as DataContractSet } from './System.Runtime.Serialization.DataContracts/internal/index.js';
 export { DataMember as DataMember } from './System.Runtime.Serialization.DataContracts/internal/index.js';

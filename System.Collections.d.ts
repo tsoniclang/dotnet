@@ -10,9 +10,7 @@ import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, ICloneable, Int32, Object as ClrObject, Single, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Collections/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { StructuralComparisons$instance as StructuralComparisons } from './System.Collections/internal/index.js';
 export { CaseInsensitiveComparer as CaseInsensitiveComparer } from './System.Collections/internal/index.js';
 export { CaseInsensitiveHashCodeProvider as CaseInsensitiveHashCodeProvider } from './System.Collections/internal/index.js';

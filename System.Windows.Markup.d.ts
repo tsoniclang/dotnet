@@ -8,7 +8,5 @@ import * as Internal from './System.Windows.Markup/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { Attribute, Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type } from './System/internal/index.js';
 
-export * from './System.Windows.Markup/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ValueSerializerAttribute as ValueSerializerAttribute } from './System.Windows.Markup/internal/index.js';

@@ -14,9 +14,7 @@ import type { CallSiteBinder } from './System.Runtime.CompilerServices/internal/
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './Microsoft.CSharp.RuntimeBinder/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Binder$instance as Binder } from './Microsoft.CSharp.RuntimeBinder/internal/index.js';
 export { CSharpArgumentInfo as CSharpArgumentInfo } from './Microsoft.CSharp.RuntimeBinder/internal/index.js';
 export { CSharpArgumentInfoFlags as CSharpArgumentInfoFlags } from './Microsoft.CSharp.RuntimeBinder/internal/index.js';

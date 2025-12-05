@@ -10,9 +10,7 @@ import type { IJsonTypeInfoResolver, JsonTypeInfo } from './System.Text.Json.Ser
 import type { JsonCommentHandling, JsonNamingPolicy, JsonSerializerDefaults, JsonSerializerOptions, Utf8JsonReader, Utf8JsonWriter } from './System.Text.Json/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Char, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Text.Json.Serialization/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { JsonAttribute as JsonAttribute } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonIgnoreCondition as JsonIgnoreCondition } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonKnownNamingPolicy as JsonKnownNamingPolicy } from './System.Text.Json.Serialization/internal/index.js';
@@ -41,19 +39,15 @@ export type IJsonOnDeserialized = Internal.IJsonOnDeserialized;
 export type IJsonOnDeserializing = Internal.IJsonOnDeserializing;
 export type IJsonOnSerialized = Internal.IJsonOnSerialized;
 export type IJsonOnSerializing = Internal.IJsonOnSerializing;
-export { JsonNumberEnumConverter_1 as JsonNumberEnumConverter_1 } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonNumberEnumConverter_1 as JsonNumberEnumConverter } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonSerializerContext as JsonSerializerContext } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonUnknownDerivedTypeHandling as JsonUnknownDerivedTypeHandling } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonConverter as JsonConverter_0 } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonConverterFactory as JsonConverterFactory } from './System.Text.Json.Serialization/internal/index.js';
-export { JsonConverter_1 as JsonConverter_1 } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonConverter_1 as JsonConverter } from './System.Text.Json.Serialization/internal/index.js';
-export { JsonStringEnumConverter_1 as JsonStringEnumConverter_1 } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonStringEnumConverter_1 as JsonStringEnumConverter } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonStringEnumConverter as JsonStringEnumConverter_0 } from './System.Text.Json.Serialization/internal/index.js';
 export { JsonStringEnumMemberNameAttribute as JsonStringEnumMemberNameAttribute } from './System.Text.Json.Serialization/internal/index.js';
 export { ReferenceHandler as ReferenceHandler_0 } from './System.Text.Json.Serialization/internal/index.js';
-export { ReferenceHandler_1 as ReferenceHandler_1 } from './System.Text.Json.Serialization/internal/index.js';
 export { ReferenceHandler_1 as ReferenceHandler } from './System.Text.Json.Serialization/internal/index.js';
 export { ReferenceResolver as ReferenceResolver } from './System.Text.Json.Serialization/internal/index.js';

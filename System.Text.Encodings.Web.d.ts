@@ -12,9 +12,7 @@ import type { TextWriter } from './System.IO/internal/index.js';
 import type { UnicodeRange } from './System.Text.Unicode/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Text.Encodings.Web/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { HtmlEncoder as HtmlEncoder } from './System.Text.Encodings.Web/internal/index.js';
 export { JavaScriptEncoder as JavaScriptEncoder } from './System.Text.Encodings.Web/internal/index.js';
 export { TextEncoder as TextEncoder } from './System.Text.Encodings.Web/internal/index.js';

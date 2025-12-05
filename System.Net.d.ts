@@ -27,9 +27,7 @@ import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Array as ClrArray, ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Delegate, Enum, EventArgs, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, InvalidOperationException, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Net/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { HttpListenerPrefixCollection as HttpListenerPrefixCollection } from './System.Net/internal/index.js';
 export { HttpListenerRequest as HttpListenerRequest } from './System.Net/internal/index.js';
 export type AuthenticationSchemeSelector = Internal.AuthenticationSchemeSelector;

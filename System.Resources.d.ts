@@ -13,9 +13,7 @@ import type { Assembly, MethodBase } from './System.Reflection/internal/index.js
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Byte, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Resources/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type IResourceReader = Internal.IResourceReader;
 export { MissingManifestResourceException as MissingManifestResourceException } from './System.Resources/internal/index.js';
 export { MissingSatelliteAssemblyException as MissingSatelliteAssemblyException } from './System.Resources/internal/index.js';

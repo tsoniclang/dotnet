@@ -11,9 +11,7 @@ import type { Task, Task_1, TaskScheduler } from './System.Threading.Tasks/inter
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, Func_2, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IObservable_1, IObserver_1, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, TimeSpan, Tuple_2, Tuple_3, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Threading.Tasks.Dataflow/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DataflowBlock$instance as DataflowBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { DataflowBlockOptions as DataflowBlockOptions } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { ExecutionDataflowBlockOptions as ExecutionDataflowBlockOptions } from './System.Threading.Tasks.Dataflow/internal/index.js';
@@ -22,31 +20,16 @@ export { DataflowLinkOptions as DataflowLinkOptions } from './System.Threading.T
 export { DataflowMessageHeader as DataflowMessageHeader } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { DataflowMessageStatus as DataflowMessageStatus } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export type IDataflowBlock = Internal.IDataflowBlock;
-export type IPropagatorBlock_2<TInput, TOutput> = Internal.IPropagatorBlock_2<TInput, TOutput>;
 export type IPropagatorBlock<TInput, TOutput> = Internal.IPropagatorBlock_2<TInput, TOutput>;
-export type IReceivableSourceBlock_1<TOutput> = Internal.IReceivableSourceBlock_1<TOutput>;
 export type IReceivableSourceBlock<TOutput> = Internal.IReceivableSourceBlock_1<TOutput>;
-export type ISourceBlock_1<TOutput> = Internal.ISourceBlock_1<TOutput>;
 export type ISourceBlock<TOutput> = Internal.ISourceBlock_1<TOutput>;
-export type ITargetBlock_1<TInput> = Internal.ITargetBlock_1<TInput>;
 export type ITargetBlock<TInput> = Internal.ITargetBlock_1<TInput>;
-export { ActionBlock_1 as ActionBlock_1 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { ActionBlock_1 as ActionBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { BatchBlock_1 as BatchBlock_1 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BatchBlock_1 as BatchBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { BatchedJoinBlock_2 as BatchedJoinBlock_2 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BatchedJoinBlock_2 as BatchedJoinBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { BatchedJoinBlock_3 as BatchedJoinBlock_3 } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { BroadcastBlock_1 as BroadcastBlock_1 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BroadcastBlock_1 as BroadcastBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { BufferBlock_1 as BufferBlock_1 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { BufferBlock_1 as BufferBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { JoinBlock_2 as JoinBlock_2 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { JoinBlock_2 as JoinBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { JoinBlock_3 as JoinBlock_3 } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { TransformBlock_2 as TransformBlock_2 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { TransformBlock_2 as TransformBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { TransformManyBlock_2 as TransformManyBlock_2 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { TransformManyBlock_2 as TransformManyBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';
-export { WriteOnceBlock_1 as WriteOnceBlock_1 } from './System.Threading.Tasks.Dataflow/internal/index.js';
 export { WriteOnceBlock_1 as WriteOnceBlock } from './System.Threading.Tasks.Dataflow/internal/index.js';

@@ -22,9 +22,7 @@ import type { IXmlSerializable } from './System.Xml.Serialization/internal/index
 import type { XmlReader, XmlWriter } from './System.Xml/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Converter_2, DateTime, Decimal, Delegate, Double, Enum, EventArgs, EventHandler, Exception, Func_2, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IServiceProvider, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, Single, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Data/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DataReaderExtensions$instance as DataReaderExtensions } from './System.Data/internal/index.js';
 export { UpdateStatus as UpdateStatus } from './System.Data/internal/index.js';
 export { XmlReadMode as XmlReadMode } from './System.Data/internal/index.js';
@@ -61,7 +59,6 @@ export { DataRowChangeEventArgs as DataRowChangeEventArgs } from './System.Data/
 export type DataRowChangeEventHandler = Internal.DataRowChangeEventHandler;
 export { DataRowCollection as DataRowCollection } from './System.Data/internal/index.js';
 export { DataRowComparer$instance as DataRowComparer_0 } from './System.Data/internal/index.js';
-export { DataRowComparer_1 as DataRowComparer_1 } from './System.Data/internal/index.js';
 export { DataRowComparer_1 as DataRowComparer } from './System.Data/internal/index.js';
 export { DataRowExtensions$instance as DataRowExtensions } from './System.Data/internal/index.js';
 export { DataRowState as DataRowState } from './System.Data/internal/index.js';
@@ -87,7 +84,6 @@ export { DataViewSettingCollection as DataViewSettingCollection } from './System
 export { DBConcurrencyException as DBConcurrencyException } from './System.Data/internal/index.js';
 export { DbType as DbType } from './System.Data/internal/index.js';
 export { EnumerableRowCollection as EnumerableRowCollection_0 } from './System.Data/internal/index.js';
-export { EnumerableRowCollection_1 as EnumerableRowCollection_1 } from './System.Data/internal/index.js';
 export { EnumerableRowCollection_1 as EnumerableRowCollection } from './System.Data/internal/index.js';
 export { EnumerableRowCollectionExtensions$instance as EnumerableRowCollectionExtensions } from './System.Data/internal/index.js';
 export { FillErrorEventArgs as FillErrorEventArgs } from './System.Data/internal/index.js';
@@ -115,7 +111,6 @@ export { MergeFailedEventArgs as MergeFailedEventArgs } from './System.Data/inte
 export type MergeFailedEventHandler = Internal.MergeFailedEventHandler;
 export { MissingMappingAction as MissingMappingAction } from './System.Data/internal/index.js';
 export { MissingSchemaAction as MissingSchemaAction } from './System.Data/internal/index.js';
-export { OrderedEnumerableRowCollection_1 as OrderedEnumerableRowCollection_1 } from './System.Data/internal/index.js';
 export { OrderedEnumerableRowCollection_1 as OrderedEnumerableRowCollection } from './System.Data/internal/index.js';
 export { ParameterDirection as ParameterDirection } from './System.Data/internal/index.js';
 export { PropertyCollection as PropertyCollection } from './System.Data/internal/index.js';
@@ -129,7 +124,6 @@ export { StateChangeEventArgs as StateChangeEventArgs } from './System.Data/inte
 export type StateChangeEventHandler = Internal.StateChangeEventHandler;
 export { StatementType as StatementType } from './System.Data/internal/index.js';
 export { StrongTypingException as StrongTypingException } from './System.Data/internal/index.js';
-export { TypedTableBase_1 as TypedTableBase_1 } from './System.Data/internal/index.js';
 export { TypedTableBase_1 as TypedTableBase } from './System.Data/internal/index.js';
 export { TypedTableBaseExtensions$instance as TypedTableBaseExtensions } from './System.Data/internal/index.js';
 export { UniqueConstraint as UniqueConstraint } from './System.Data/internal/index.js';

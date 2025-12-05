@@ -8,9 +8,7 @@ import * as Internal from './System.Runtime.ExceptionServices/internal/index.js'
 // Cross-namespace type imports for constraints
 import type { Attribute, Boolean as ClrBoolean, EventArgs, Exception, Func_2, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.ExceptionServices/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ExceptionDispatchInfo as ExceptionDispatchInfo } from './System.Runtime.ExceptionServices/internal/index.js';
 export { ExceptionHandling$instance as ExceptionHandling } from './System.Runtime.ExceptionServices/internal/index.js';
 export { FirstChanceExceptionEventArgs as FirstChanceExceptionEventArgs } from './System.Runtime.ExceptionServices/internal/index.js';

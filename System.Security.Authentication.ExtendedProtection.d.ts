@@ -13,9 +13,7 @@ import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Security.Authentication.ExtendedProtection/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ExtendedProtectionPolicyTypeConverter as ExtendedProtectionPolicyTypeConverter } from './System.Security.Authentication.ExtendedProtection/internal/index.js';
 export { ChannelBinding as ChannelBinding } from './System.Security.Authentication.ExtendedProtection/internal/index.js';
 export { ChannelBindingKind as ChannelBindingKind } from './System.Security.Authentication.ExtendedProtection/internal/index.js';

@@ -15,9 +15,7 @@ import type { Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Func_2, Guid, Int16, Int32, Int64, Nullable_1, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Text.Json.Nodes/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { JsonArray as JsonArray } from './System.Text.Json.Nodes/internal/index.js';
 export { JsonNode as JsonNode } from './System.Text.Json.Nodes/internal/index.js';
 export { JsonNodeOptions as JsonNodeOptions } from './System.Text.Json.Nodes/internal/index.js';

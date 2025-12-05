@@ -19,9 +19,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, Func_4, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Net.Quic/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { QuicAbortDirection as QuicAbortDirection } from './System.Net.Quic/internal/index.js';
 export { QuicConnection as QuicConnection } from './System.Net.Quic/internal/index.js';
 export { QuicReceiveWindowSizes as QuicReceiveWindowSizes } from './System.Net.Quic/internal/index.js';

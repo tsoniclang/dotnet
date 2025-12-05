@@ -9,9 +9,7 @@ import * as Internal from './System.Diagnostics.SymbolStore/internal/index.js';
 import type { FieldAttributes, ParameterAttributes } from './System.Reflection/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Diagnostics.SymbolStore/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type ISymbolBinder = Internal.ISymbolBinder;
 export type ISymbolBinder1 = Internal.ISymbolBinder1;
 export type ISymbolDocument = Internal.ISymbolDocument;

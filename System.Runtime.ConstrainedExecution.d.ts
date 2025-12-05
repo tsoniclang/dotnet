@@ -8,9 +8,7 @@ import * as Internal from './System.Runtime.ConstrainedExecution/internal/index.
 // Cross-namespace type imports for constraints
 import type { Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Runtime.ConstrainedExecution/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Cer as Cer } from './System.Runtime.ConstrainedExecution/internal/index.js';
 export { Consistency as Consistency } from './System.Runtime.ConstrainedExecution/internal/index.js';
 export { CriticalFinalizerObject as CriticalFinalizerObject } from './System.Runtime.ConstrainedExecution/internal/index.js';

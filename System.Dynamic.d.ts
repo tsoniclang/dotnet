@@ -14,9 +14,7 @@ import type { Expression, ExpressionType, LabelTarget, ParameterExpression } fro
 import type { CallSite_1, CallSiteBinder } from './System.Runtime.CompilerServices/internal/index.js';
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Dynamic/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DynamicMetaObjectBinder as DynamicMetaObjectBinder } from './System.Dynamic/internal/index.js';
 export { DynamicMetaObject as DynamicMetaObject } from './System.Dynamic/internal/index.js';
 export type IDynamicMetaObjectProvider = Internal.IDynamicMetaObjectProvider;

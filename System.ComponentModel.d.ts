@@ -19,9 +19,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { SendOrPostCallback, SynchronizationContext } from './System.Threading/internal/index.js';
 import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Delegate, Double, Enum, EventArgs, EventHandler, EventHandler_1, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IServiceProvider, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Nullable_1, Object as ClrObject, SByte, Single, String as ClrString, SystemException, Type, TypeCode, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';
 
-export * from './System.ComponentModel/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CancelEventArgs as CancelEventArgs } from './System.ComponentModel/internal/index.js';
 export type IChangeTracking = Internal.IChangeTracking;
 export type IEditableObject = Internal.IEditableObject;
@@ -132,7 +130,6 @@ export { AmbientValueAttribute as AmbientValueAttribute } from './System.Compone
 export { BindableAttribute as BindableAttribute } from './System.ComponentModel/internal/index.js';
 export { BindableSupport as BindableSupport } from './System.ComponentModel/internal/index.js';
 export { BindingDirection as BindingDirection } from './System.ComponentModel/internal/index.js';
-export { BindingList_1 as BindingList_1 } from './System.ComponentModel/internal/index.js';
 export { BindingList_1 as BindingList } from './System.ComponentModel/internal/index.js';
 export type IBindingList = Internal.IBindingList;
 export type ICancelAddNew = Internal.ICancelAddNew;

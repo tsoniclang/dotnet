@@ -8,9 +8,7 @@ import * as Internal from './System.Runtime.Serialization.Formatters/internal/in
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Runtime.Serialization.Formatters/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { FormatterTypeStyle as FormatterTypeStyle } from './System.Runtime.Serialization.Formatters/internal/index.js';
 export { FormatterAssemblyStyle as FormatterAssemblyStyle } from './System.Runtime.Serialization.Formatters/internal/index.js';
 export { TypeFilterLevel as TypeFilterLevel } from './System.Runtime.Serialization.Formatters/internal/index.js';

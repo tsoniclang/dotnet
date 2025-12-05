@@ -14,9 +14,7 @@ import type { Encoding } from './System.Text/internal/index.js';
 import type { OnXmlDictionaryReaderClose, XmlDictionaryReader, XmlDictionaryReaderQuotas, XmlDictionaryString, XmlDictionaryWriter, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Serialization.Json/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DataContractJsonSerializer as DataContractJsonSerializer } from './System.Runtime.Serialization.Json/internal/index.js';
 export { DataContractJsonSerializerExtensions$instance as DataContractJsonSerializerExtensions } from './System.Runtime.Serialization.Json/internal/index.js';
 export { DataContractJsonSerializerSettings as DataContractJsonSerializerSettings } from './System.Runtime.Serialization.Json/internal/index.js';

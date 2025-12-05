@@ -9,9 +9,7 @@ import * as Internal from './System.Text.Unicode/internal/index.js';
 import type { OperationStatus } from './System.Buffers/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType } from './System/internal/index.js';
 
-export * from './System.Text.Unicode/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Utf8$instance as Utf8 } from './System.Text.Unicode/internal/index.js';
 export { Utf8_TryWriteInterpolatedStringHandler as Utf8_TryWriteInterpolatedStringHandler } from './System.Text.Unicode/internal/index.js';
 export { UnicodeRange as UnicodeRange } from './System.Text.Unicode/internal/index.js';

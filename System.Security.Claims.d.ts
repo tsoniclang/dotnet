@@ -11,9 +11,7 @@ import type { BinaryReader, BinaryWriter } from './System.IO/internal/index.js';
 import type { IIdentity, IPrincipal } from './System.Security.Principal/internal/index.js';
 import type { Boolean as ClrBoolean, Func_1, Func_2, Int32, Object as ClrObject, Predicate_1, String as ClrString, StringComparison, Type, Void } from './System/internal/index.js';
 
-export * from './System.Security.Claims/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Claim as Claim } from './System.Security.Claims/internal/index.js';
 export { ClaimsIdentity as ClaimsIdentity } from './System.Security.Claims/internal/index.js';
 export { ClaimsPrincipal as ClaimsPrincipal } from './System.Security.Claims/internal/index.js';

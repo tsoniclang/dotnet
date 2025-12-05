@@ -22,9 +22,7 @@ import type { Task } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from './System/internal/index.js';
 
-export * from './System.Net.Mail/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AlternateView as AlternateView } from './System.Net.Mail/internal/index.js';
 export { AlternateViewCollection as AlternateViewCollection } from './System.Net.Mail/internal/index.js';
 export { AttachmentBase as AttachmentBase } from './System.Net.Mail/internal/index.js';

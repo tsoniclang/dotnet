@@ -11,9 +11,7 @@ import type { Stream } from './System.IO/internal/index.js';
 import type { Assembly, AssemblyName } from './System.Reflection/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Func_3, IDisposable, Int32, IntPtr, Object as ClrObject, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Loader/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AssemblyLoadContext as AssemblyLoadContext } from './System.Runtime.Loader/internal/index.js';
 export { AssemblyLoadContext_ContextualReflectionScope as AssemblyLoadContext_ContextualReflectionScope } from './System.Runtime.Loader/internal/index.js';
 export { AssemblyDependencyResolver as AssemblyDependencyResolver } from './System.Runtime.Loader/internal/index.js';

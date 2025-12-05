@@ -11,9 +11,7 @@ import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, DateTime, Delegate, Double, EventArgs, IAsyncResult, ICloneable, IDisposable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, TimeSpan, Type, Void } from './System/internal/index.js';
 
-export * from './System.Timers/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ElapsedEventArgs as ElapsedEventArgs } from './System.Timers/internal/index.js';
 export type ElapsedEventHandler = Internal.ElapsedEventHandler;
 export { Timer as Timer } from './System.Timers/internal/index.js';

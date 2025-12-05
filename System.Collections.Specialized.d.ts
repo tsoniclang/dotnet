@@ -11,9 +11,7 @@ import type { MethodInfo } from './System.Reflection/internal/index.js';
 import type { IDeserializationCallback, ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Delegate, Enum, EventArgs, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Collections.Specialized/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CollectionsUtil as CollectionsUtil } from './System.Collections.Specialized/internal/index.js';
 export { BitVector32 as BitVector32 } from './System.Collections.Specialized/internal/index.js';
 export { BitVector32_Section as BitVector32_Section } from './System.Collections.Specialized/internal/index.js';

@@ -14,9 +14,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './Microsoft.VisualBasic.FileIO/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { FileSystem as FileSystem } from './Microsoft.VisualBasic.FileIO/internal/index.js';
 export { DeleteDirectoryOption as DeleteDirectoryOption } from './Microsoft.VisualBasic.FileIO/internal/index.js';
 export { RecycleOption as RecycleOption } from './Microsoft.VisualBasic.FileIO/internal/index.js';

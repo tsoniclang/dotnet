@@ -10,9 +10,7 @@ import type { Vector_1 } from './System.Numerics/internal/index.js';
 import type { Vector128_1, Vector64_1 } from './System.Runtime.Intrinsics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueTuple_2, ValueTuple_3, ValueTuple_4, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Intrinsics.Arm/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SveMaskPattern as SveMaskPattern } from './System.Runtime.Intrinsics.Arm/internal/index.js';
 export { SvePrefetchType as SvePrefetchType } from './System.Runtime.Intrinsics.Arm/internal/index.js';
 export { AdvSimd as AdvSimd } from './System.Runtime.Intrinsics.Arm/internal/index.js';

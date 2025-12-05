@@ -15,25 +15,19 @@ import type { JsonConverter, JsonConverter_1, JsonIgnoreCondition, JsonNumberHan
 import type { JsonDocument, JsonElement, JsonSerializerOptions, Utf8JsonWriter } from './System.Text.Json/internal/index.js';
 import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DateTimeOffset, Decimal, Double, Enum, Func_1, Func_2, Func_3, Guid, Half, IComparable, IConvertible, IFormatProvider, IFormattable, Int128, Int16, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, String as ClrString, TimeOnly, TimeSpan, Type, TypeCode, UInt128, UInt16, UInt32, UInt64, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Text.Json.Serialization.Metadata/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DefaultJsonTypeInfoResolver as DefaultJsonTypeInfoResolver } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export type IJsonTypeInfoResolver = Internal.IJsonTypeInfoResolver;
 export { JsonDerivedType as JsonDerivedType } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonPolymorphismOptions as JsonPolymorphismOptions } from './System.Text.Json.Serialization.Metadata/internal/index.js';
-export { JsonTypeInfo_1 as JsonTypeInfo_1 } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonTypeInfo_1 as JsonTypeInfo } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonTypeInfoResolver$instance as JsonTypeInfoResolver } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonTypeInfoKind as JsonTypeInfoKind } from './System.Text.Json.Serialization.Metadata/internal/index.js';
-export { JsonCollectionInfoValues_1 as JsonCollectionInfoValues_1 } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonCollectionInfoValues_1 as JsonCollectionInfoValues } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonMetadataServices$instance as JsonMetadataServices } from './System.Text.Json.Serialization.Metadata/internal/index.js';
-export { JsonObjectInfoValues_1 as JsonObjectInfoValues_1 } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonObjectInfoValues_1 as JsonObjectInfoValues } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonParameterInfoValues as JsonParameterInfoValues } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonParameterInfo as JsonParameterInfo } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonPropertyInfo as JsonPropertyInfo } from './System.Text.Json.Serialization.Metadata/internal/index.js';
-export { JsonPropertyInfoValues_1 as JsonPropertyInfoValues_1 } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonPropertyInfoValues_1 as JsonPropertyInfoValues } from './System.Text.Json.Serialization.Metadata/internal/index.js';
 export { JsonTypeInfo as JsonTypeInfo_0 } from './System.Text.Json.Serialization.Metadata/internal/index.js';

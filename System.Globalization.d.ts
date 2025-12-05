@@ -12,9 +12,7 @@ import type { IDeserializationCallback, ISerializable, SerializationInfo, Stream
 import type { Rune } from './System.Text/internal/index.js';
 import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DayOfWeek, Double, Enum, Exception, Guid, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, StringComparer, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Globalization/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Calendar as Calendar } from './System.Globalization/internal/index.js';
 export { CalendarAlgorithmType as CalendarAlgorithmType } from './System.Globalization/internal/index.js';
 export { CalendarWeekRule as CalendarWeekRule } from './System.Globalization/internal/index.js';

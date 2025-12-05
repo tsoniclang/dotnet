@@ -12,9 +12,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { IdentityReference, SecurityIdentifier } from './System.Security.Principal/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Enum, Exception, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UnauthorizedAccessException, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Security.AccessControl/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { RegistryAccessRule as RegistryAccessRule } from './System.Security.AccessControl/internal/index.js';
 export { RegistryAuditRule as RegistryAuditRule } from './System.Security.AccessControl/internal/index.js';
 export { RegistryRights as RegistryRights } from './System.Security.AccessControl/internal/index.js';
@@ -31,7 +29,6 @@ export { AccessControlModification as AccessControlModification } from './System
 export { AccessControlSections as AccessControlSections } from './System.Security.AccessControl/internal/index.js';
 export { AccessControlType as AccessControlType } from './System.Security.AccessControl/internal/index.js';
 export { AccessRule as AccessRule_0 } from './System.Security.AccessControl/internal/index.js';
-export { AccessRule_1 as AccessRule_1 } from './System.Security.AccessControl/internal/index.js';
 export { AccessRule_1 as AccessRule } from './System.Security.AccessControl/internal/index.js';
 export { AceEnumerator as AceEnumerator } from './System.Security.AccessControl/internal/index.js';
 export { AceFlags as AceFlags } from './System.Security.AccessControl/internal/index.js';
@@ -39,7 +36,6 @@ export { AceQualifier as AceQualifier } from './System.Security.AccessControl/in
 export { AceType as AceType } from './System.Security.AccessControl/internal/index.js';
 export { AuditFlags as AuditFlags } from './System.Security.AccessControl/internal/index.js';
 export { AuditRule as AuditRule_0 } from './System.Security.AccessControl/internal/index.js';
-export { AuditRule_1 as AuditRule_1 } from './System.Security.AccessControl/internal/index.js';
 export { AuditRule_1 as AuditRule } from './System.Security.AccessControl/internal/index.js';
 export { AuthorizationRule as AuthorizationRule } from './System.Security.AccessControl/internal/index.js';
 export { AuthorizationRuleCollection as AuthorizationRuleCollection } from './System.Security.AccessControl/internal/index.js';
@@ -63,7 +59,6 @@ export { ObjectAce as ObjectAce } from './System.Security.AccessControl/internal
 export { ObjectAceFlags as ObjectAceFlags } from './System.Security.AccessControl/internal/index.js';
 export { ObjectAuditRule as ObjectAuditRule } from './System.Security.AccessControl/internal/index.js';
 export { ObjectSecurity as ObjectSecurity_0 } from './System.Security.AccessControl/internal/index.js';
-export { ObjectSecurity_1 as ObjectSecurity_1 } from './System.Security.AccessControl/internal/index.js';
 export { ObjectSecurity_1 as ObjectSecurity } from './System.Security.AccessControl/internal/index.js';
 export { PrivilegeNotHeldException as PrivilegeNotHeldException } from './System.Security.AccessControl/internal/index.js';
 export { PropagationFlags as PropagationFlags } from './System.Security.AccessControl/internal/index.js';

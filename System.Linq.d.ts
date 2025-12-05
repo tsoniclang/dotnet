@@ -16,41 +16,28 @@ import type { ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from './System/internal/index.js';
 
-export * from './System.Linq/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ImmutableArrayExtensions$instance as ImmutableArrayExtensions } from './System.Linq/internal/index.js';
 export { Enumerable$instance as Enumerable } from './System.Linq/internal/index.js';
-export type IGrouping_2<TKey, TElement> = Internal.IGrouping_2<TKey, TElement>;
 export type IGrouping<TKey, TElement> = Internal.IGrouping_2<TKey, TElement>;
-export type ILookup_2<TKey, TElement> = Internal.ILookup_2<TKey, TElement>;
 export type ILookup<TKey, TElement> = Internal.ILookup_2<TKey, TElement>;
-export { Lookup_2 as Lookup_2 } from './System.Linq/internal/index.js';
 export { Lookup_2 as Lookup } from './System.Linq/internal/index.js';
-export type IOrderedEnumerable_1<TElement> = Internal.IOrderedEnumerable_1<TElement>;
 export type IOrderedEnumerable<TElement> = Internal.IOrderedEnumerable_1<TElement>;
 export { AsyncEnumerable$instance as AsyncEnumerable } from './System.Linq/internal/index.js';
-export type IOrderedAsyncEnumerable_1<TElement> = Internal.IOrderedAsyncEnumerable_1<TElement>;
 export type IOrderedAsyncEnumerable<TElement> = Internal.IOrderedAsyncEnumerable_1<TElement>;
 export type IQueryable_0 = Internal.IQueryable;
-export type IQueryable_1<T> = Internal.IQueryable_1<T>;
 export type IQueryable<T> = Internal.IQueryable_1<T>;
 export type IQueryProvider = Internal.IQueryProvider;
 export type IOrderedQueryable_0 = Internal.IOrderedQueryable;
-export type IOrderedQueryable_1<T> = Internal.IOrderedQueryable_1<T>;
 export type IOrderedQueryable<T> = Internal.IOrderedQueryable_1<T>;
-export { OrderedParallelQuery_1 as OrderedParallelQuery_1 } from './System.Linq/internal/index.js';
 export { OrderedParallelQuery_1 as OrderedParallelQuery } from './System.Linq/internal/index.js';
 export { ParallelQuery as ParallelQuery_0 } from './System.Linq/internal/index.js';
-export { ParallelQuery_1 as ParallelQuery_1 } from './System.Linq/internal/index.js';
 export { ParallelQuery_1 as ParallelQuery } from './System.Linq/internal/index.js';
 export { ParallelEnumerable$instance as ParallelEnumerable } from './System.Linq/internal/index.js';
 export { ParallelExecutionMode as ParallelExecutionMode } from './System.Linq/internal/index.js';
 export { ParallelMergeOptions as ParallelMergeOptions } from './System.Linq/internal/index.js';
 export { EnumerableExecutor as EnumerableExecutor_0 } from './System.Linq/internal/index.js';
-export { EnumerableExecutor_1 as EnumerableExecutor_1 } from './System.Linq/internal/index.js';
 export { EnumerableExecutor_1 as EnumerableExecutor } from './System.Linq/internal/index.js';
 export { EnumerableQuery as EnumerableQuery_0 } from './System.Linq/internal/index.js';
-export { EnumerableQuery_1 as EnumerableQuery_1 } from './System.Linq/internal/index.js';
 export { EnumerableQuery_1 as EnumerableQuery } from './System.Linq/internal/index.js';
 export { Queryable$instance as Queryable } from './System.Linq/internal/index.js';

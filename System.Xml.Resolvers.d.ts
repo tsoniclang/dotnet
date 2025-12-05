@@ -13,8 +13,6 @@ import type { Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { XmlResolver } from './System.Xml/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Uri, Void } from './System/internal/index.js';
 
-export * from './System.Xml.Resolvers/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { XmlKnownDtds as XmlKnownDtds } from './System.Xml.Resolvers/internal/index.js';
 export { XmlPreloadedResolver as XmlPreloadedResolver } from './System.Xml.Resolvers/internal/index.js';

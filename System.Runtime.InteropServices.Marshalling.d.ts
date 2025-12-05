@@ -10,12 +10,9 @@ import type { IFloatingPointIeee754_1, INumber_1 } from './System.Numerics/inter
 import type { ComWrappers, ComWrappers_ComInterfaceEntry, CreateComInterfaceFlags, CreateObjectFlags, IDynamicInterfaceCastable, SafeHandle, StringMarshalling, VarEnum } from './System.Runtime.InteropServices/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, RuntimeTypeHandle, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AnsiStringMarshaller$instance as AnsiStringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { AnsiStringMarshaller_ManagedToUnmanagedIn as AnsiStringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { ArrayMarshaller_2_ManagedToUnmanagedIn as ArrayMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { BStrStringMarshaller$instance as BStrStringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { BStrStringMarshaller_ManagedToUnmanagedIn as BStrStringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { ComVariant as ComVariant } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
@@ -25,17 +22,9 @@ export { CustomMarshallerAttribute_GenericPlaceholder as CustomMarshallerAttribu
 export { MarshalMode as MarshalMode } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { MarshalUsingAttribute as MarshalUsingAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { NativeMarshallingAttribute as NativeMarshallingAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { PointerArrayMarshaller_2_ManagedToUnmanagedIn as PointerArrayMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn as ReadOnlySpanMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut as ReadOnlySpanMarshaller_2_ManagedToUnmanagedOut } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { SafeHandleMarshaller_1_ManagedToUnmanagedIn as SafeHandleMarshaller_1_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { SafeHandleMarshaller_1_ManagedToUnmanagedRef as SafeHandleMarshaller_1_ManagedToUnmanagedRef } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { SafeHandleMarshaller_1_ManagedToUnmanagedOut as SafeHandleMarshaller_1_ManagedToUnmanagedOut } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { SpanMarshaller_2_ManagedToUnmanagedIn as SpanMarshaller_2_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf16StringMarshaller$instance as Utf16StringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf8StringMarshaller$instance as Utf8StringMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { Utf8StringMarshaller_ManagedToUnmanagedIn as Utf8StringMarshaller_ManagedToUnmanagedIn } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
-export { ComExposedClassAttribute_1 as ComExposedClassAttribute_1 } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { ComExposedClassAttribute_1 as ComExposedClassAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { ComInterfaceOptions as ComInterfaceOptions } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { ComVariantMarshaller$instance as ComVariantMarshaller } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
@@ -52,7 +41,6 @@ export type IIUnknownDerivedDetails = Internal.IIUnknownDerivedDetails;
 export type IIUnknownInterfaceDetailsStrategy = Internal.IIUnknownInterfaceDetailsStrategy;
 export type IIUnknownInterfaceType = Internal.IIUnknownInterfaceType;
 export type IIUnknownStrategy = Internal.IIUnknownStrategy;
-export { IUnknownDerivedAttribute_2 as IUnknownDerivedAttribute_2 } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export { IUnknownDerivedAttribute_2 as IUnknownDerivedAttribute } from './System.Runtime.InteropServices.Marshalling/internal/index.js';
 export type IUnmanagedVirtualMethodTableProvider = Internal.IUnmanagedVirtualMethodTableProvider;
 export { StrategyBasedComWrappers as StrategyBasedComWrappers } from './System.Runtime.InteropServices.Marshalling/internal/index.js';

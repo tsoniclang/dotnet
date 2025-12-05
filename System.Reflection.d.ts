@@ -16,9 +16,7 @@ import type { IDeserializationCallback, IObjectReference, ISerializable, Seriali
 import type { SecurityRuleSet } from './System.Security/internal/index.js';
 import type { ApplicationException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Delegate, Enum, Exception, FormatException, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, ModuleHandle, MulticastDelegate, Object as ClrObject, ResolveEventArgs, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, Span_1, String as ClrString, SystemException, Type, TypeCode, TypedReference, UInt32, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Reflection/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type ICustomTypeProvider = Internal.ICustomTypeProvider;
 export { Assembly as Assembly } from './System.Reflection/internal/index.js';
 export { AssemblyName as AssemblyName } from './System.Reflection/internal/index.js';

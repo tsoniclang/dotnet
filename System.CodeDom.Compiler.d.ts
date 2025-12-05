@@ -12,8 +12,6 @@ import type { Task, ValueTask } from './System.Threading.Tasks/internal/index.js
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Char, Decimal, Double, IAsyncDisposable, IDisposable, IFormatProvider, Int32, Int64, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Single, String as ClrString, Type, UInt32, UInt64, Void } from './System/internal/index.js';
 
-export * from './System.CodeDom.Compiler/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { GeneratedCodeAttribute as GeneratedCodeAttribute } from './System.CodeDom.Compiler/internal/index.js';
 export { IndentedTextWriter as IndentedTextWriter } from './System.CodeDom.Compiler/internal/index.js';

@@ -14,21 +14,14 @@ import type { Task, ValueTask, ValueTask_1 } from './System.Threading.Tasks/inte
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, InvalidOperationException, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Threading.Channels/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BoundedChannelFullMode as BoundedChannelFullMode } from './System.Threading.Channels/internal/index.js';
 export { Channel$instance as Channel_0 } from './System.Threading.Channels/internal/index.js';
 export { ChannelClosedException as ChannelClosedException } from './System.Threading.Channels/internal/index.js';
 export { ChannelOptions as ChannelOptions } from './System.Threading.Channels/internal/index.js';
 export { BoundedChannelOptions as BoundedChannelOptions } from './System.Threading.Channels/internal/index.js';
 export { UnboundedChannelOptions as UnboundedChannelOptions } from './System.Threading.Channels/internal/index.js';
-export { ChannelReader_1 as ChannelReader_1 } from './System.Threading.Channels/internal/index.js';
 export { ChannelReader_1 as ChannelReader } from './System.Threading.Channels/internal/index.js';
-export { ChannelWriter_1 as ChannelWriter_1 } from './System.Threading.Channels/internal/index.js';
 export { ChannelWriter_1 as ChannelWriter } from './System.Threading.Channels/internal/index.js';
-export { Channel_1 as Channel_1 } from './System.Threading.Channels/internal/index.js';
 export { Channel_1 as Channel } from './System.Threading.Channels/internal/index.js';
-export { Channel_2 as Channel_2 } from './System.Threading.Channels/internal/index.js';
-export { UnboundedPrioritizedChannelOptions_1 as UnboundedPrioritizedChannelOptions_1 } from './System.Threading.Channels/internal/index.js';
 export { UnboundedPrioritizedChannelOptions_1 as UnboundedPrioritizedChannelOptions } from './System.Threading.Channels/internal/index.js';

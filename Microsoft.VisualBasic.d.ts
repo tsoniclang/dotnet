@@ -9,9 +9,7 @@ import * as Internal from './Microsoft.VisualBasic/internal/index.js';
 import type { ICollection, IEnumerator, IList } from './System.Collections/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './Microsoft.VisualBasic/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Collection as Collection } from './Microsoft.VisualBasic/internal/index.js';
 export { ComClassAttribute as ComClassAttribute } from './Microsoft.VisualBasic/internal/index.js';
 export { Constants as Constants } from './Microsoft.VisualBasic/internal/index.js';

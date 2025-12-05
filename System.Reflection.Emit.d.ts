@@ -18,9 +18,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { SecurityRuleSet } from './System.Security/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, ModuleHandle, Object as ClrObject, RuntimeFieldHandle, RuntimeMethodHandle, RuntimeTypeHandle, SByte, Single, String as ClrString, Type, TypeCode, TypedReference, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Reflection.Emit/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CustomAttributeBuilder as CustomAttributeBuilder } from './System.Reflection.Emit/internal/index.js';
 export { DynamicILInfo as DynamicILInfo } from './System.Reflection.Emit/internal/index.js';
 export { DynamicMethod as DynamicMethod } from './System.Reflection.Emit/internal/index.js';

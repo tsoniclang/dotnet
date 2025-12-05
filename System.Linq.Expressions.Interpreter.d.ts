@@ -8,7 +8,5 @@ import * as Internal from './System.Linq.Expressions.Interpreter/internal/index.
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type } from './System/internal/index.js';
 
-export * from './System.Linq.Expressions.Interpreter/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { LightLambda as LightLambda } from './System.Linq.Expressions.Interpreter/internal/index.js';

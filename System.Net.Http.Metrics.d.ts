@@ -9,7 +9,5 @@ import * as Internal from './System.Net.Http.Metrics/internal/index.js';
 import type { HttpRequestMessage, HttpResponseMessage } from './System.Net.Http/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Exception, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Net.Http.Metrics/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { HttpMetricsEnrichmentContext as HttpMetricsEnrichmentContext } from './System.Net.Http.Metrics/internal/index.js';

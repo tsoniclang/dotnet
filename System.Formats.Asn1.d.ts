@@ -12,9 +12,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Action_2, Boolean as ClrBoolean, Byte, Char, DateTimeOffset, Enum, Exception, Func_2, Func_3, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Formats.Asn1/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Asn1Tag as Asn1Tag } from './System.Formats.Asn1/internal/index.js';
 export { AsnContentException as AsnContentException } from './System.Formats.Asn1/internal/index.js';
 export { AsnEncodingRules as AsnEncodingRules } from './System.Formats.Asn1/internal/index.js';

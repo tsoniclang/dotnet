@@ -13,9 +13,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Exception, Int16, Int32, Int64, Object as ClrObject, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';
 
-export * from './Microsoft.VisualBasic.CompilerServices/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BooleanType as BooleanType } from './Microsoft.VisualBasic.CompilerServices/internal/index.js';
 export { ByteType as ByteType } from './Microsoft.VisualBasic.CompilerServices/internal/index.js';
 export { CharType as CharType } from './Microsoft.VisualBasic.CompilerServices/internal/index.js';

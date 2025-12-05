@@ -9,9 +9,7 @@ import * as Internal from './System.Runtime.InteropServices.Java/internal/index.
 import type { GCHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, UIntPtr, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices.Java/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ComponentCrossReference as ComponentCrossReference } from './System.Runtime.InteropServices.Java/internal/index.js';
 export { JavaMarshal$instance as JavaMarshal } from './System.Runtime.InteropServices.Java/internal/index.js';
 export { MarkCrossReferencesArgs as MarkCrossReferencesArgs } from './System.Runtime.InteropServices.Java/internal/index.js';

@@ -15,9 +15,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, Exception, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, IUtf8SpanFormattable, IUtf8SpanParsable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Text/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { EncodingExtensions$instance as EncodingExtensions } from './System.Text/internal/index.js';
 export { StringBuilder as StringBuilder } from './System.Text/internal/index.js';
 export { StringBuilder_ChunkEnumerator as StringBuilder_ChunkEnumerator } from './System.Text/internal/index.js';

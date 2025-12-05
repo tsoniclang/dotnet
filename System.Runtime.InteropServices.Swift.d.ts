@@ -8,11 +8,8 @@ import * as Internal from './System.Runtime.InteropServices.Swift/internal/index
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices.Swift/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SwiftSelf as SwiftSelf_0 } from './System.Runtime.InteropServices.Swift/internal/index.js';
-export { SwiftSelf_1 as SwiftSelf_1 } from './System.Runtime.InteropServices.Swift/internal/index.js';
 export { SwiftSelf_1 as SwiftSelf } from './System.Runtime.InteropServices.Swift/internal/index.js';
 export { SwiftError as SwiftError } from './System.Runtime.InteropServices.Swift/internal/index.js';
 export { SwiftIndirectResult as SwiftIndirectResult } from './System.Runtime.InteropServices.Swift/internal/index.js';

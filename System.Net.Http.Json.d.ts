@@ -18,9 +18,7 @@ import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, Int64, Object as ClrObject, String as ClrString, Type, Uri, Void } from './System/internal/index.js';
 
-export * from './System.Net.Http.Json/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { HttpClientJsonExtensions$instance as HttpClientJsonExtensions } from './System.Net.Http.Json/internal/index.js';
 export { HttpContentJsonExtensions$instance as HttpContentJsonExtensions } from './System.Net.Http.Json/internal/index.js';
 export { JsonContent as JsonContent } from './System.Net.Http.Json/internal/index.js';

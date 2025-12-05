@@ -13,9 +13,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, ValueTuple_2, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ControlledExecution$instance as ControlledExecution } from './System.Runtime/internal/index.js';
 export { DependentHandle as DependentHandle } from './System.Runtime/internal/index.js';
 export { GCSettings$instance as GCSettings } from './System.Runtime/internal/index.js';

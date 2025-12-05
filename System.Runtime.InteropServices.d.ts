@@ -21,9 +21,7 @@ import type { SecureString } from './System.Security/internal/index.js';
 import type { JsonElement, JsonProperty } from './System.Text.Json/internal/index.js';
 import type { Action_1, Array as ClrArray, ArraySegment_1, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, Decimal, Delegate, Double, Enum, Exception, Guid, IAsyncResult, ICloneable, IComparable, IComparable_1, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, IParsable_1, ISpanFormattable, ISpanParsable_1, IUtf8SpanFormattable, IUtf8SpanParsable_1, MarshalByRefObject, Memory_1, MidpointRounding, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, RuntimeTypeHandle, Single, Span_1, String as ClrString, SystemException, Type, TypeCode, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ImmutableCollectionsMarshal$instance as ImmutableCollectionsMarshal } from './System.Runtime.InteropServices/internal/index.js';
 export { SequenceMarshal$instance as SequenceMarshal } from './System.Runtime.InteropServices/internal/index.js';
 export { GCHandle as GCHandle_0 } from './System.Runtime.InteropServices/internal/index.js';
@@ -71,7 +69,6 @@ export { DllImportSearchPath as DllImportSearchPath } from './System.Runtime.Int
 export { ErrorWrapper as ErrorWrapper } from './System.Runtime.InteropServices/internal/index.js';
 export { ExternalException as ExternalException } from './System.Runtime.InteropServices/internal/index.js';
 export { FieldOffsetAttribute as FieldOffsetAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { GCHandle_1 as GCHandle_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { GCHandle_1 as GCHandle } from './System.Runtime.InteropServices/internal/index.js';
 export { GCHandleExtensions$instance as GCHandleExtensions } from './System.Runtime.InteropServices/internal/index.js';
 export { GCHandleType as GCHandleType } from './System.Runtime.InteropServices/internal/index.js';
@@ -98,7 +95,6 @@ export { NFloat as NFloat } from './System.Runtime.InteropServices/internal/inde
 export { OptionalAttribute as OptionalAttribute } from './System.Runtime.InteropServices/internal/index.js';
 export { OSPlatform as OSPlatform } from './System.Runtime.InteropServices/internal/index.js';
 export { OutAttribute as OutAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { PinnedGCHandle_1 as PinnedGCHandle_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { PinnedGCHandle_1 as PinnedGCHandle } from './System.Runtime.InteropServices/internal/index.js';
 export { PosixSignal as PosixSignal } from './System.Runtime.InteropServices/internal/index.js';
 export { PosixSignalContext as PosixSignalContext } from './System.Runtime.InteropServices/internal/index.js';
@@ -115,11 +111,8 @@ export { StringMarshalling as StringMarshalling } from './System.Runtime.Interop
 export { StructLayoutAttribute as StructLayoutAttribute } from './System.Runtime.InteropServices/internal/index.js';
 export { SuppressGCTransitionAttribute as SuppressGCTransitionAttribute } from './System.Runtime.InteropServices/internal/index.js';
 export { TypeIdentifierAttribute as TypeIdentifierAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { TypeMapAttribute_1 as TypeMapAttribute_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { TypeMapAttribute_1 as TypeMapAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { TypeMapAssociationAttribute_1 as TypeMapAssociationAttribute_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { TypeMapAssociationAttribute_1 as TypeMapAssociationAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { TypeMapAssemblyTargetAttribute_1 as TypeMapAssemblyTargetAttribute_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { TypeMapAssemblyTargetAttribute_1 as TypeMapAssemblyTargetAttribute } from './System.Runtime.InteropServices/internal/index.js';
 export { TypeMapping$instance as TypeMapping } from './System.Runtime.InteropServices/internal/index.js';
 export { UnknownWrapper as UnknownWrapper } from './System.Runtime.InteropServices/internal/index.js';
@@ -130,7 +123,6 @@ export { UnmanagedType as UnmanagedType } from './System.Runtime.InteropServices
 export { VarEnum as VarEnum } from './System.Runtime.InteropServices/internal/index.js';
 export { VariantWrapper as VariantWrapper } from './System.Runtime.InteropServices/internal/index.js';
 export { WasmImportLinkageAttribute as WasmImportLinkageAttribute } from './System.Runtime.InteropServices/internal/index.js';
-export { WeakGCHandle_1 as WeakGCHandle_1 } from './System.Runtime.InteropServices/internal/index.js';
 export { WeakGCHandle_1 as WeakGCHandle } from './System.Runtime.InteropServices/internal/index.js';
 export { ComEventsHelper$instance as ComEventsHelper } from './System.Runtime.InteropServices/internal/index.js';
 export { StandardOleMarshalObject as StandardOleMarshalObject } from './System.Runtime.InteropServices/internal/index.js';

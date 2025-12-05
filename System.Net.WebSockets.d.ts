@@ -22,9 +22,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Net.WebSockets/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { HttpListenerWebSocketContext as HttpListenerWebSocketContext } from './System.Net.WebSockets/internal/index.js';
 export { ValueWebSocketReceiveResult as ValueWebSocketReceiveResult } from './System.Net.WebSockets/internal/index.js';
 export { WebSocket as WebSocket } from './System.Net.WebSockets/internal/index.js';

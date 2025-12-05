@@ -15,14 +15,9 @@ import type { Task } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_2, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Net.ServerSentEvents/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SseFormatter$instance as SseFormatter } from './System.Net.ServerSentEvents/internal/index.js';
-export { SseParser_1 as SseParser_1 } from './System.Net.ServerSentEvents/internal/index.js';
 export { SseParser_1 as SseParser } from './System.Net.ServerSentEvents/internal/index.js';
-export { SseItem_1 as SseItem_1 } from './System.Net.ServerSentEvents/internal/index.js';
 export { SseItem_1 as SseItem } from './System.Net.ServerSentEvents/internal/index.js';
-export type SseItemParser_1<T> = Internal.SseItemParser_1<T>;
 export type SseItemParser<T> = Internal.SseItemParser_1<T>;
 export { SseParser$instance as SseParser_0 } from './System.Net.ServerSentEvents/internal/index.js';

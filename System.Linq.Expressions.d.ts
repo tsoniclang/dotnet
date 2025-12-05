@@ -12,9 +12,7 @@ import type { ConstructorInfo, FieldInfo, MemberInfo, MethodInfo, PropertyInfo }
 import type { CallSiteBinder, DebugInfoGenerator } from './System.Runtime.CompilerServices/internal/index.js';
 import type { Boolean as ClrBoolean, Delegate, Enum, Func_2, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Linq.Expressions/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BinaryExpression as BinaryExpression } from './System.Linq.Expressions/internal/index.js';
 export { Expression as Expression_0 } from './System.Linq.Expressions/internal/index.js';
 export { BlockExpression as BlockExpression } from './System.Linq.Expressions/internal/index.js';
@@ -35,7 +33,6 @@ export { InvocationExpression as InvocationExpression } from './System.Linq.Expr
 export { LabelExpression as LabelExpression } from './System.Linq.Expressions/internal/index.js';
 export { LabelTarget as LabelTarget } from './System.Linq.Expressions/internal/index.js';
 export { LambdaExpression as LambdaExpression } from './System.Linq.Expressions/internal/index.js';
-export { Expression_1 as Expression_1 } from './System.Linq.Expressions/internal/index.js';
 export { Expression_1 as Expression } from './System.Linq.Expressions/internal/index.js';
 export { ListInitExpression as ListInitExpression } from './System.Linq.Expressions/internal/index.js';
 export { LoopExpression as LoopExpression } from './System.Linq.Expressions/internal/index.js';

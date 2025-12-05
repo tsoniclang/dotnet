@@ -21,9 +21,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt16, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Net.Security/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AuthenticationLevel as AuthenticationLevel } from './System.Net.Security/internal/index.js';
 export { SslPolicyErrors as SslPolicyErrors } from './System.Net.Security/internal/index.js';
 export { AuthenticatedStream as AuthenticatedStream } from './System.Net.Security/internal/index.js';

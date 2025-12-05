@@ -11,7 +11,5 @@ import type { FormatterAssemblyStyle, FormatterTypeStyle, TypeFilterLevel } from
 import type { IFormatter, ISurrogateSelector, SerializationBinder, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Serialization.Formatters.Binary/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BinaryFormatter as BinaryFormatter } from './System.Runtime.Serialization.Formatters.Binary/internal/index.js';

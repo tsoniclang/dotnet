@@ -8,7 +8,5 @@ import * as Internal from './System.Runtime.Remoting/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, Int32, MarshalByRefObject, Object as ClrObject, String as ClrString, Type } from './System/internal/index.js';
 
-export * from './System.Runtime.Remoting/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ObjectHandle as ObjectHandle } from './System.Runtime.Remoting/internal/index.js';

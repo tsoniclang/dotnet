@@ -18,9 +18,7 @@ import type { XmlSchemaSet, XmlSchemaType } from './System.Xml.Schema/internal/i
 import type { XmlDictionaryReader, XmlDictionaryString, XmlDictionaryWriter, XmlNamespaceManager, XmlNode, XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Serialization/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DeserializationToken as DeserializationToken } from './System.Runtime.Serialization/internal/index.js';
 export type IDeserializationCallback = Internal.IDeserializationCallback;
 export type IFormatterConverter = Internal.IFormatterConverter;

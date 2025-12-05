@@ -15,9 +15,7 @@ import type { IXPathNavigable, XPathNavigator, XPathResultType } from './System.
 import type { IXmlNamespaceResolver, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlReader, XmlResolver, XmlWriter, XmlWriterSettings } from './System.Xml/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, EventArgs, Exception, IAsyncResult, ICloneable, Int32, IntPtr, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, Type, Void } from './System/internal/index.js';
 
-export * from './System.Xml.Xsl/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { XslCompiledTransform as XslCompiledTransform } from './System.Xml.Xsl/internal/index.js';
 export { XsltMessageEncounteredEventArgs as XsltMessageEncounteredEventArgs } from './System.Xml.Xsl/internal/index.js';
 export type XsltMessageEncounteredEventHandler = Internal.XsltMessageEncounteredEventHandler;

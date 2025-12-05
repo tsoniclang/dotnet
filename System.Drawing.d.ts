@@ -12,9 +12,7 @@ import type { CultureInfo } from './System.Globalization/internal/index.js';
 import type { Vector2, Vector4 } from './System.Numerics/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Byte, Enum, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Drawing/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ColorConverter as ColorConverter } from './System.Drawing/internal/index.js';
 export { PointConverter as PointConverter } from './System.Drawing/internal/index.js';
 export { RectangleConverter as RectangleConverter } from './System.Drawing/internal/index.js';

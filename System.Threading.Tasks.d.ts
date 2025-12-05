@@ -17,14 +17,10 @@ import type { IValueTaskSource, IValueTaskSource_1 } from './System.Threading.Ta
 import type { CancellationToken, WaitHandle } from './System.Threading/internal/index.js';
 import type { Action, Action_1, Action_2, Action_3, AggregateException, AsyncCallback, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, Exception, Func_1, Func_2, Func_3, Func_4, Func_5, Func_6, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, OperationCanceledException, ReadOnlySpan_1, String as ClrString, TimeProvider, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Threading.Tasks/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ConcurrentExclusiveSchedulerPair as ConcurrentExclusiveSchedulerPair } from './System.Threading.Tasks/internal/index.js';
 export { ConfigureAwaitOptions as ConfigureAwaitOptions } from './System.Threading.Tasks/internal/index.js';
-export { Task_1 as Task_1 } from './System.Threading.Tasks/internal/index.js';
 export { Task_1 as Task } from './System.Threading.Tasks/internal/index.js';
-export { TaskFactory_1 as TaskFactory_1 } from './System.Threading.Tasks/internal/index.js';
 export { TaskFactory_1 as TaskFactory } from './System.Threading.Tasks/internal/index.js';
 export { TaskStatus as TaskStatus } from './System.Threading.Tasks/internal/index.js';
 export { Task as Task_0 } from './System.Threading.Tasks/internal/index.js';
@@ -33,7 +29,6 @@ export { TaskContinuationOptions as TaskContinuationOptions } from './System.Thr
 export { TaskAsyncEnumerableExtensions$instance as TaskAsyncEnumerableExtensions } from './System.Threading.Tasks/internal/index.js';
 export { TaskCanceledException as TaskCanceledException } from './System.Threading.Tasks/internal/index.js';
 export { TaskCompletionSource as TaskCompletionSource_0 } from './System.Threading.Tasks/internal/index.js';
-export { TaskCompletionSource_1 as TaskCompletionSource_1 } from './System.Threading.Tasks/internal/index.js';
 export { TaskCompletionSource_1 as TaskCompletionSource } from './System.Threading.Tasks/internal/index.js';
 export { TaskExtensions$instance as TaskExtensions } from './System.Threading.Tasks/internal/index.js';
 export { TaskFactory as TaskFactory_0 } from './System.Threading.Tasks/internal/index.js';
@@ -41,7 +36,6 @@ export { TaskScheduler as TaskScheduler } from './System.Threading.Tasks/interna
 export { UnobservedTaskExceptionEventArgs as UnobservedTaskExceptionEventArgs } from './System.Threading.Tasks/internal/index.js';
 export { TaskSchedulerException as TaskSchedulerException } from './System.Threading.Tasks/internal/index.js';
 export { ValueTask as ValueTask_0 } from './System.Threading.Tasks/internal/index.js';
-export { ValueTask_1 as ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 export { ValueTask_1 as ValueTask } from './System.Threading.Tasks/internal/index.js';
 export { TaskToAsyncResult$instance as TaskToAsyncResult } from './System.Threading.Tasks/internal/index.js';
 export { ParallelOptions as ParallelOptions } from './System.Threading.Tasks/internal/index.js';

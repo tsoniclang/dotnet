@@ -11,9 +11,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Security.Authentication/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SslProtocols as SslProtocols } from './System.Security.Authentication/internal/index.js';
 export { ExchangeAlgorithmType as ExchangeAlgorithmType } from './System.Security.Authentication/internal/index.js';
 export { CipherAlgorithmType as CipherAlgorithmType } from './System.Security.Authentication/internal/index.js';

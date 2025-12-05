@@ -23,14 +23,11 @@ import type { Task, Task_1, ValueTask_1 } from './System.Threading.Tasks/interna
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, Exception, Func_3, Func_5, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Net.Http/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ByteArrayContent as ByteArrayContent } from './System.Net.Http/internal/index.js';
 export { ClientCertificateOption as ClientCertificateOption } from './System.Net.Http/internal/index.js';
 export { DelegatingHandler as DelegatingHandler } from './System.Net.Http/internal/index.js';
 export { FormUrlEncodedContent as FormUrlEncodedContent } from './System.Net.Http/internal/index.js';
-export type HeaderEncodingSelector_1<TContext> = Internal.HeaderEncodingSelector_1<TContext>;
 export type HeaderEncodingSelector<TContext> = Internal.HeaderEncodingSelector_1<TContext>;
 export { HttpClient as HttpClient } from './System.Net.Http/internal/index.js';
 export { HttpClientHandler as HttpClientHandler } from './System.Net.Http/internal/index.js';
@@ -44,7 +41,6 @@ export { HttpRequestException as HttpRequestException } from './System.Net.Http/
 export { HttpRequestError as HttpRequestError } from './System.Net.Http/internal/index.js';
 export { HttpRequestMessage as HttpRequestMessage } from './System.Net.Http/internal/index.js';
 export { HttpRequestOptions as HttpRequestOptions } from './System.Net.Http/internal/index.js';
-export { HttpRequestOptionsKey_1 as HttpRequestOptionsKey_1 } from './System.Net.Http/internal/index.js';
 export { HttpRequestOptionsKey_1 as HttpRequestOptionsKey } from './System.Net.Http/internal/index.js';
 export { HttpResponseMessage as HttpResponseMessage } from './System.Net.Http/internal/index.js';
 export { HttpIOException as HttpIOException } from './System.Net.Http/internal/index.js';

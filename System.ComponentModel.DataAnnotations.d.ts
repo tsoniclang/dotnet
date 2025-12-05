@@ -13,9 +13,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Double, Enum, Exception, Func_2, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IServiceProvider, ISpanFormattable, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.ComponentModel.DataAnnotations/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AllowedValuesAttribute as AllowedValuesAttribute } from './System.ComponentModel.DataAnnotations/internal/index.js';
 export { AssociatedMetadataTypeTypeDescriptionProvider as AssociatedMetadataTypeTypeDescriptionProvider } from './System.ComponentModel.DataAnnotations/internal/index.js';
 export { AssociationAttribute as AssociationAttribute } from './System.ComponentModel.DataAnnotations/internal/index.js';

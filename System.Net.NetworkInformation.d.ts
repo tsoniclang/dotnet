@@ -16,9 +16,7 @@ import type { Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Delegate, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, InvalidOperationException, ISpanFormattable, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Net.NetworkInformation/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DuplicateAddressDetectionState as DuplicateAddressDetectionState } from './System.Net.NetworkInformation/internal/index.js';
 export { GatewayIPAddressInformation as GatewayIPAddressInformation } from './System.Net.NetworkInformation/internal/index.js';
 export { GatewayIPAddressInformationCollection as GatewayIPAddressInformationCollection } from './System.Net.NetworkInformation/internal/index.js';

@@ -11,25 +11,14 @@ import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnu
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Enum, Func_2, Func_3, Func_4, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Tuple_2, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Collections.Concurrent/internal/index.js';
-
-// Individual type exports for convenience
-export { BlockingCollection_1 as BlockingCollection_1 } from './System.Collections.Concurrent/internal/index.js';
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BlockingCollection_1 as BlockingCollection } from './System.Collections.Concurrent/internal/index.js';
-export { ConcurrentBag_1 as ConcurrentBag_1 } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentBag_1 as ConcurrentBag } from './System.Collections.Concurrent/internal/index.js';
-export { ConcurrentDictionary_2 as ConcurrentDictionary_2 } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentDictionary_2 as ConcurrentDictionary } from './System.Collections.Concurrent/internal/index.js';
-export { ConcurrentDictionary_2_AlternateLookup_1 as ConcurrentDictionary_2_AlternateLookup_1 } from './System.Collections.Concurrent/internal/index.js';
-export { ConcurrentStack_1 as ConcurrentStack_1 } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentStack_1 as ConcurrentStack } from './System.Collections.Concurrent/internal/index.js';
-export { OrderablePartitioner_1 as OrderablePartitioner_1 } from './System.Collections.Concurrent/internal/index.js';
 export { OrderablePartitioner_1 as OrderablePartitioner } from './System.Collections.Concurrent/internal/index.js';
-export { Partitioner_1 as Partitioner_1 } from './System.Collections.Concurrent/internal/index.js';
 export { Partitioner_1 as Partitioner } from './System.Collections.Concurrent/internal/index.js';
 export { EnumerablePartitionerOptions as EnumerablePartitionerOptions } from './System.Collections.Concurrent/internal/index.js';
 export { Partitioner$instance as Partitioner_0 } from './System.Collections.Concurrent/internal/index.js';
-export { ConcurrentQueue_1 as ConcurrentQueue_1 } from './System.Collections.Concurrent/internal/index.js';
 export { ConcurrentQueue_1 as ConcurrentQueue } from './System.Collections.Concurrent/internal/index.js';
-export type IProducerConsumerCollection_1<T> = Internal.IProducerConsumerCollection_1<T>;
 export type IProducerConsumerCollection<T> = Internal.IProducerConsumerCollection_1<T>;

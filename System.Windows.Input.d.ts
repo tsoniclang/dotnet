@@ -8,7 +8,5 @@ import * as Internal from './System.Windows.Input/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, EventHandler, Object as ClrObject, Void } from './System/internal/index.js';
 
-export * from './System.Windows.Input/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type ICommand = Internal.ICommand;

@@ -13,9 +13,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Byte, DateTime, Double, Enum, EventArgs, EventHandler_1, Exception, Func_1, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Diagnostics.Tracing/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DiagnosticCounter as DiagnosticCounter } from './System.Diagnostics.Tracing/internal/index.js';
 export { EventActivityOptions as EventActivityOptions } from './System.Diagnostics.Tracing/internal/index.js';
 export { EventCounter as EventCounter } from './System.Diagnostics.Tracing/internal/index.js';

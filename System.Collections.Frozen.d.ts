@@ -11,16 +11,8 @@ import type { ImmutableArray_1 } from './System.Collections.Immutable/internal/i
 import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Func_2, IDisposable, Int32, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Collections.Frozen/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { FrozenDictionary$instance as FrozenDictionary_0 } from './System.Collections.Frozen/internal/index.js';
-export { FrozenDictionary_2 as FrozenDictionary_2 } from './System.Collections.Frozen/internal/index.js';
 export { FrozenDictionary_2 as FrozenDictionary } from './System.Collections.Frozen/internal/index.js';
-export { FrozenDictionary_2_Enumerator as FrozenDictionary_2_Enumerator } from './System.Collections.Frozen/internal/index.js';
-export { FrozenDictionary_2_AlternateLookup_1 as FrozenDictionary_2_AlternateLookup_1 } from './System.Collections.Frozen/internal/index.js';
 export { FrozenSet$instance as FrozenSet_0 } from './System.Collections.Frozen/internal/index.js';
-export { FrozenSet_1 as FrozenSet_1 } from './System.Collections.Frozen/internal/index.js';
 export { FrozenSet_1 as FrozenSet } from './System.Collections.Frozen/internal/index.js';
-export { FrozenSet_1_Enumerator as FrozenSet_1_Enumerator } from './System.Collections.Frozen/internal/index.js';
-export { FrozenSet_1_AlternateLookup_1 as FrozenSet_1_AlternateLookup_1 } from './System.Collections.Frozen/internal/index.js';

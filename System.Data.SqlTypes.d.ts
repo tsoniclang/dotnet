@@ -16,9 +16,7 @@ import type { IXmlSerializable } from './System.Xml.Serialization/internal/index
 import type { XmlQualifiedName, XmlReader, XmlWriter } from './System.Xml/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Data.SqlTypes/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SqlChars as SqlChars } from './System.Data.SqlTypes/internal/index.js';
 export { SqlDateTime as SqlDateTime } from './System.Data.SqlTypes/internal/index.js';
 export { SqlDecimal as SqlDecimal } from './System.Data.SqlTypes/internal/index.js';

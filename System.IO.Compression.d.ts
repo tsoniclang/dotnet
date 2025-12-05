@@ -17,9 +17,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt32, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.IO.Compression/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ZipArchive as ZipArchive } from './System.IO.Compression/internal/index.js';
 export { ZipArchiveEntry as ZipArchiveEntry } from './System.IO.Compression/internal/index.js';
 export { ZipArchiveMode as ZipArchiveMode } from './System.IO.Compression/internal/index.js';

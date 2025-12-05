@@ -15,9 +15,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, Type, TypeCode, UInt64, Void } from './System/internal/index.js';
 
-export * from './System.IO.IsolatedStorage/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { IsolatedStorageException as IsolatedStorageException } from './System.IO.IsolatedStorage/internal/index.js';
 export { IsolatedStorageFile as IsolatedStorageFile } from './System.IO.IsolatedStorage/internal/index.js';
 export { IsolatedStorageFileStream as IsolatedStorageFileStream } from './System.IO.IsolatedStorage/internal/index.js';

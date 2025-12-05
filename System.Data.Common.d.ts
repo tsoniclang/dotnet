@@ -21,9 +21,7 @@ import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Transaction } from './System.Transactions/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Nullable_1, Object as ClrObject, Single, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Data.Common/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CatalogLocation as CatalogLocation } from './System.Data.Common/internal/index.js';
 export { DataAdapter as DataAdapter } from './System.Data.Common/internal/index.js';
 export { DataColumnMapping as DataColumnMapping } from './System.Data.Common/internal/index.js';

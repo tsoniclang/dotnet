@@ -12,9 +12,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Char, Decimal, Double, Enum, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Memory_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, Void } from './System/internal/index.js';
 
-export * from './System.IO.MemoryMappedFiles/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { MemoryMappedFileOptions as MemoryMappedFileOptions } from './System.IO.MemoryMappedFiles/internal/index.js';
 export { MemoryMappedFileAccess as MemoryMappedFileAccess } from './System.IO.MemoryMappedFiles/internal/index.js';
 export { MemoryMappedFile as MemoryMappedFile } from './System.IO.MemoryMappedFiles/internal/index.js';

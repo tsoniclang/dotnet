@@ -12,9 +12,7 @@ import type { Task, ValueTask, ValueTask_1 } from './System.Threading.Tasks/inte
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Exception, Int32, Int64, Memory_1, Object as ClrObject, ReadOnlyMemory_1, SequencePosition, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.IO.Pipelines/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { FlushResult as FlushResult } from './System.IO.Pipelines/internal/index.js';
 export type IDuplexPipe = Internal.IDuplexPipe;
 export { Pipe as Pipe } from './System.IO.Pipelines/internal/index.js';

@@ -16,9 +16,7 @@ import type { IXmlSchemaInfo, ValidationEventHandler, XmlSchemaSet, XmlSchemaTyp
 import type { IXmlNamespaceResolver, XmlNamespaceManager, XmlNamespaceScope, XmlNameTable, XmlNodeOrder, XmlReader, XmlSpace, XmlWriter } from './System.Xml/internal/index.js';
 import type { Boolean as ClrBoolean, DateTime, Double, Enum, Exception, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Xml.XPath/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type IXPathNavigable = Internal.IXPathNavigable;
 export { XPathDocument as XPathDocument } from './System.Xml.XPath/internal/index.js';
 export { XPathException as XPathException } from './System.Xml.XPath/internal/index.js';

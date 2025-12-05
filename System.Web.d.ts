@@ -11,8 +11,6 @@ import type { TextWriter } from './System.IO/internal/index.js';
 import type { Encoding } from './System.Text/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Web/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type IHtmlString = Internal.IHtmlString;
 export { HttpUtility as HttpUtility } from './System.Web/internal/index.js';

@@ -16,9 +16,7 @@ import type { XPathItem } from './System.Xml.XPath/internal/index.js';
 import type { IXmlLineInfo, IXmlNamespaceResolver, XmlAttribute, XmlNamespaceManager, XmlNameTable, XmlNode, XmlQualifiedName, XmlReader, XmlResolver, XmlTokenizedType, XmlWriter } from './System.Xml/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Uri, Void } from './System/internal/index.js';
 
-export * from './System.Xml.Schema/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { XmlSchemaDatatypeVariety as XmlSchemaDatatypeVariety } from './System.Xml.Schema/internal/index.js';
 export type IXmlSchemaInfo = Internal.IXmlSchemaInfo;
 export { ValidationEventArgs as ValidationEventArgs } from './System.Xml.Schema/internal/index.js';

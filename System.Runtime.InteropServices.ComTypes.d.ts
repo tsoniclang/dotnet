@@ -8,9 +8,7 @@ import * as Internal from './System.Runtime.InteropServices.ComTypes/internal/in
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices.ComTypes/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { BIND_OPTS as BIND_OPTS } from './System.Runtime.InteropServices.ComTypes/internal/index.js';
 export type IBindCtx = Internal.IBindCtx;
 export type IConnectionPoint = Internal.IConnectionPoint;

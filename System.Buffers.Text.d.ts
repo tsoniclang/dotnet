@@ -9,9 +9,7 @@ import * as Internal from './System.Buffers.Text/internal/index.js';
 import type { OperationStatus, StandardFormat } from './System.Buffers/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Guid, Int16, Int32, Int64, Object as ClrObject, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, TimeSpan, Type, UInt16, UInt32, UInt64 } from './System/internal/index.js';
 
-export * from './System.Buffers.Text/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Base64$instance as Base64 } from './System.Buffers.Text/internal/index.js';
 export { Base64Url$instance as Base64Url } from './System.Buffers.Text/internal/index.js';
 export { Utf8Formatter$instance as Utf8Formatter } from './System.Buffers.Text/internal/index.js';

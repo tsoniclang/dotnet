@@ -12,9 +12,7 @@ import type { IDeserializationCallback, ISerializable, SerializationInfo, Stream
 import type { PermissionState } from './System.Security.Permissions/internal/index.js';
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Security/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AllowPartiallyTrustedCallersAttribute as AllowPartiallyTrustedCallersAttribute } from './System.Security/internal/index.js';
 export type IPermission = Internal.IPermission;
 export type ISecurityEncodable = Internal.ISecurityEncodable;

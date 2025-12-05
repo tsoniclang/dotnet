@@ -8,9 +8,7 @@ import * as Internal from './System.Net.Cache/internal/index.js';
 // Cross-namespace type imports for constraints
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode } from './System/internal/index.js';
 
-export * from './System.Net.Cache/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { RequestCacheLevel as RequestCacheLevel } from './System.Net.Cache/internal/index.js';
 export { RequestCachePolicy as RequestCachePolicy } from './System.Net.Cache/internal/index.js';
 export { HttpCacheAgeControl as HttpCacheAgeControl } from './System.Net.Cache/internal/index.js';

@@ -19,9 +19,7 @@ import type { AsnEncodedData, AsymmetricAlgorithm, CompositeMLDsa, Cryptographic
 import type { SecureString } from './System.Security/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Security.Cryptography.X509Certificates/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Pkcs12LoaderLimits as Pkcs12LoaderLimits } from './System.Security.Cryptography.X509Certificates/internal/index.js';
 export { Pkcs12LoadLimitExceededException as Pkcs12LoadLimitExceededException } from './System.Security.Cryptography.X509Certificates/internal/index.js';
 export { X509CertificateLoader$instance as X509CertificateLoader } from './System.Security.Cryptography.X509Certificates/internal/index.js';

@@ -9,8 +9,6 @@ import * as Internal from './System.Security.Policy/internal/index.js';
 import type { ICollection, IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Security.Policy/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Evidence as Evidence } from './System.Security.Policy/internal/index.js';
 export { EvidenceBase as EvidenceBase } from './System.Security.Policy/internal/index.js';

@@ -13,12 +13,9 @@ import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action, Action_1, Action_2, Action_3, ArraySegment_1, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Delegate, Double, Exception, Func_1, Func_2, Func_3, Func_4, IAsyncResult, ICloneable, IDisposable, Int16, Int32, Int64, IntPtr, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlySpan_1, Single, Span_1, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { JSImportAttribute as JSImportAttribute } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSExportAttribute as JSExportAttribute } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSMarshalAsAttribute_1 as JSMarshalAsAttribute_1 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSMarshalAsAttribute_1 as JSMarshalAsAttribute } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType as JSType } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSObject as JSObject } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
@@ -37,18 +34,10 @@ export { JSType_String as JSType_String } from './System.Runtime.InteropServices
 export { JSType_Object as JSType_Object } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Error as JSType_Error } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_MemoryView as JSType_MemoryView } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Array_1 as JSType_Array_1 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Array_1 as JSType_Array } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Promise_1 as JSType_Promise_1 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Promise_1 as JSType_Promise } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Function as JSType_Function_0 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Function_1 as JSType_Function_1 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Function_1 as JSType_Function } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Function_2 as JSType_Function_2 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Function_3 as JSType_Function_3 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export { JSType_Function_4 as JSType_Function_4 } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
 export { JSType_Any as JSType_Any } from './System.Runtime.InteropServices.JavaScript/internal/index.js';
-export type JSMarshalerArgument_ArgumentToManagedCallback_1<T> = Internal.JSMarshalerArgument_ArgumentToManagedCallback_1<T>;
 export type JSMarshalerArgument_ArgumentToManagedCallback<T> = Internal.JSMarshalerArgument_ArgumentToManagedCallback_1<T>;
-export type JSMarshalerArgument_ArgumentToJSCallback_1<T> = Internal.JSMarshalerArgument_ArgumentToJSCallback_1<T>;
 export type JSMarshalerArgument_ArgumentToJSCallback<T> = Internal.JSMarshalerArgument_ArgumentToJSCallback_1<T>;

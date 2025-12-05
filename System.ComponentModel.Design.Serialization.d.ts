@@ -14,9 +14,7 @@ import type { MemberInfo, MethodInfo } from './System.Reflection/internal/index.
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, EventArgs, EventHandler, IAsyncResult, ICloneable, IDisposable, IEquatable_1, Int32, IntPtr, IServiceProvider, MulticastDelegate, Object as ClrObject, String as ClrString, Type, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.ComponentModel.Design.Serialization/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { DesignerSerializerAttribute as DesignerSerializerAttribute } from './System.ComponentModel.Design.Serialization/internal/index.js';
 export { InstanceDescriptor as InstanceDescriptor } from './System.ComponentModel.Design.Serialization/internal/index.js';
 export { ComponentSerializationService as ComponentSerializationService } from './System.ComponentModel.Design.Serialization/internal/index.js';

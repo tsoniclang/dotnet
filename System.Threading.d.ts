@@ -19,9 +19,7 @@ import type { IPrincipal } from './System.Security.Principal/internal/index.js';
 import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Tasks/internal/index.js';
 import type { Action, Action_1, Action_2, AppDomain, ApplicationException, AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Double, Enum, EventArgs, Exception, Func_1, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, LocalDataStoreSlot, MarshalByRefObject, MulticastDelegate, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, SystemException, TimeProvider, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, UIntPtr, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Threading/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { Interlocked$instance as Interlocked } from './System.Threading/internal/index.js';
 export { Monitor$instance as Monitor } from './System.Threading/internal/index.js';
 export { SynchronizationContext as SynchronizationContext } from './System.Threading/internal/index.js';
@@ -30,9 +28,7 @@ export { WaitHandle as WaitHandle } from './System.Threading/internal/index.js';
 export { Mutex as Mutex } from './System.Threading/internal/index.js';
 export { AbandonedMutexException as AbandonedMutexException } from './System.Threading/internal/index.js';
 export { ApartmentState as ApartmentState } from './System.Threading/internal/index.js';
-export { AsyncLocal_1 as AsyncLocal_1 } from './System.Threading/internal/index.js';
 export { AsyncLocal_1 as AsyncLocal } from './System.Threading/internal/index.js';
-export { AsyncLocalValueChangedArgs_1 as AsyncLocalValueChangedArgs_1 } from './System.Threading/internal/index.js';
 export { AsyncLocalValueChangedArgs_1 as AsyncLocalValueChangedArgs } from './System.Threading/internal/index.js';
 export { AutoResetEvent as AutoResetEvent } from './System.Threading/internal/index.js';
 export { CancellationToken as CancellationToken } from './System.Threading/internal/index.js';
@@ -70,7 +66,6 @@ export { ThreadAbortException as ThreadAbortException } from './System.Threading
 export { ThreadExceptionEventArgs as ThreadExceptionEventArgs } from './System.Threading/internal/index.js';
 export type ThreadExceptionEventHandler = Internal.ThreadExceptionEventHandler;
 export { ThreadInterruptedException as ThreadInterruptedException } from './System.Threading/internal/index.js';
-export { ThreadLocal_1 as ThreadLocal_1 } from './System.Threading/internal/index.js';
 export { ThreadLocal_1 as ThreadLocal } from './System.Threading/internal/index.js';
 export type WaitCallback = Internal.WaitCallback;
 export type WaitOrTimerCallback = Internal.WaitOrTimerCallback;

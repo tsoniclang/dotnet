@@ -16,9 +16,7 @@ import type { Claim, ClaimsIdentity, ClaimsPrincipal } from './System.Security.C
 import type { Task, Task_1 } from './System.Threading.Tasks/internal/index.js';
 import type { Action, Boolean as ClrBoolean, Byte, Enum, Exception, Func_1, IComparable, IComparable_1, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, SystemException, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Security.Principal/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type IIdentity = Internal.IIdentity;
 export type IPrincipal = Internal.IPrincipal;
 export { PrincipalPolicy as PrincipalPolicy } from './System.Security.Principal/internal/index.js';

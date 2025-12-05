@@ -10,9 +10,7 @@ import type { ICollection_1, IEnumerable_1, IEnumerator_1, IReadOnlyCollection_1
 import type { IEnumerable, IEnumerator } from './System.Collections/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Double, ICloneable, IDisposable, Int32, Int64, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, Uri, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Net.Http.Headers/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AuthenticationHeaderValue as AuthenticationHeaderValue } from './System.Net.Http.Headers/internal/index.js';
 export { CacheControlHeaderValue as CacheControlHeaderValue } from './System.Net.Http.Headers/internal/index.js';
 export { ContentDispositionHeaderValue as ContentDispositionHeaderValue } from './System.Net.Http.Headers/internal/index.js';
@@ -24,7 +22,6 @@ export { HttpContentHeaders as HttpContentHeaders } from './System.Net.Http.Head
 export { HttpHeaders as HttpHeaders } from './System.Net.Http.Headers/internal/index.js';
 export { HttpHeadersNonValidated as HttpHeadersNonValidated } from './System.Net.Http.Headers/internal/index.js';
 export { HttpHeadersNonValidated_Enumerator as HttpHeadersNonValidated_Enumerator } from './System.Net.Http.Headers/internal/index.js';
-export { HttpHeaderValueCollection_1 as HttpHeaderValueCollection_1 } from './System.Net.Http.Headers/internal/index.js';
 export { HttpHeaderValueCollection_1 as HttpHeaderValueCollection } from './System.Net.Http.Headers/internal/index.js';
 export { HttpRequestHeaders as HttpRequestHeaders } from './System.Net.Http.Headers/internal/index.js';
 export { HttpResponseHeaders as HttpResponseHeaders } from './System.Net.Http.Headers/internal/index.js';

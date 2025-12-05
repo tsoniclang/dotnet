@@ -13,9 +13,7 @@ import type { AssemblyName, MethodBase, MethodInfo } from './System.Reflection/i
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, Range, ReadOnlySpan_1, String as ClrString, TimeoutException, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Text.RegularExpressions/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ValueMatch as ValueMatch } from './System.Text.RegularExpressions/internal/index.js';
 export { Capture as Capture } from './System.Text.RegularExpressions/internal/index.js';
 export { CaptureCollection as CaptureCollection } from './System.Text.RegularExpressions/internal/index.js';

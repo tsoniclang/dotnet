@@ -19,9 +19,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, Range, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Security.Cryptography/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { CryptographicException as CryptographicException } from './System.Security.Cryptography/internal/index.js';
 export { AesGcm as AesGcm } from './System.Security.Cryptography/internal/index.js';
 export { AuthenticationTagMismatchException as AuthenticationTagMismatchException } from './System.Security.Cryptography/internal/index.js';

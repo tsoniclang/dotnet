@@ -9,9 +9,7 @@ import * as Internal from './System.Runtime.Intrinsics.X86/internal/index.js';
 import type { Vector128_1, Vector256_1, Vector512_1 } from './System.Runtime.Intrinsics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, UIntPtr, ValueTuple_2, ValueTuple_4, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Intrinsics.X86/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { X86Base as X86Base } from './System.Runtime.Intrinsics.X86/internal/index.js';
 export { X86Base_X64 as X86Base_X64 } from './System.Runtime.Intrinsics.X86/internal/index.js';
 export { FloatComparisonMode as FloatComparisonMode } from './System.Runtime.Intrinsics.X86/internal/index.js';

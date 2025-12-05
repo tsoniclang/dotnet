@@ -16,9 +16,7 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from './System.Threading.Ta
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { AsyncCallback, Boolean as ClrBoolean, Byte, Delegate, Enum, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, MulticastDelegate, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.IO.Pipes/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AnonymousPipeClientStream as AnonymousPipeClientStream } from './System.IO.Pipes/internal/index.js';
 export { AnonymousPipeServerStream as AnonymousPipeServerStream } from './System.IO.Pipes/internal/index.js';
 export { NamedPipeClientStream as NamedPipeClientStream } from './System.IO.Pipes/internal/index.js';

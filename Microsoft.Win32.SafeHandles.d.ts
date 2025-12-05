@@ -9,9 +9,7 @@ import * as Internal from './Microsoft.Win32.SafeHandles/internal/index.js';
 import type { CriticalHandle, SafeBuffer, SafeHandle } from './System.Runtime.InteropServices/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, IDisposable, Int32, IntPtr, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, Type, UInt32, UInt64, Void } from './System/internal/index.js';
 
-export * from './Microsoft.Win32.SafeHandles/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { SafeRegistryHandle as SafeRegistryHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
 export { SafeProcessHandle as SafeProcessHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';
 export { SafeMemoryMappedFileHandle as SafeMemoryMappedFileHandle } from './Microsoft.Win32.SafeHandles/internal/index.js';

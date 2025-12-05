@@ -20,9 +20,7 @@ import type { IXmlSchemaInfo, ValidationEventHandler, XmlSchemaCollection, XmlSc
 import type { IXPathNavigable, XPathNavigator } from './System.Xml.XPath/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Delegate, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, Uri, Void } from './System/internal/index.js';
 
-export * from './System.Xml/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { XmlDataDocument as XmlDataDocument } from './System.Xml/internal/index.js';
 export type IFragmentCapableXmlDictionaryWriter = Internal.IFragmentCapableXmlDictionaryWriter;
 export type IStreamProvider = Internal.IStreamProvider;

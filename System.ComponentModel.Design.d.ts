@@ -16,9 +16,7 @@ import type { ExternalException } from './System.Runtime.InteropServices/interna
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Delegate, Enum, EventArgs, EventHandler, Exception, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, IServiceProvider, ISpanFormattable, MulticastDelegate, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.ComponentModel.Design/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export type IDictionaryService = Internal.IDictionaryService;
 export type IExtenderListService = Internal.IExtenderListService;
 export type ITypeDescriptorFilterService = Internal.ITypeDescriptorFilterService;

@@ -13,9 +13,7 @@ import type { MetadataRootBuilder } from './System.Reflection.Metadata.Ecma335/i
 import type { Blob, BlobBuilder, BlobContentId, BlobReader, MetadataReaderProvider, MethodDefinitionHandle } from './System.Reflection.Metadata/internal/index.js';
 import type { Action_2, Boolean as ClrBoolean, Byte, Enum, Func_2, Guid, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Reflection.PortableExecutable/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ManagedPEBuilder as ManagedPEBuilder } from './System.Reflection.PortableExecutable/internal/index.js';
 export { PEBuilder as PEBuilder } from './System.Reflection.PortableExecutable/internal/index.js';
 export { DebugDirectoryBuilder as DebugDirectoryBuilder } from './System.Reflection.PortableExecutable/internal/index.js';

@@ -12,9 +12,7 @@ import type { AssemblyDefinitionHandle, AssemblyFileHandle, AssemblyReferenceHan
 import type { AssemblyFlags, AssemblyHashAlgorithm, DeclarativeSecurityAction, EventAttributes, FieldAttributes, GenericParameterAttributes, ManifestResourceAttributes, MethodAttributes, MethodImplAttributes, MethodImportAttributes, MethodSemanticsAttributes, ParameterAttributes, PropertyAttributes, TypeAttributes } from './System.Reflection/internal/index.js';
 import type { Action_1, Boolean as ClrBoolean, Byte, Double, Enum, Func_2, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Reflection.Metadata.Ecma335/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { FunctionPointerAttributes as FunctionPointerAttributes } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { MethodBodyStreamEncoder as MethodBodyStreamEncoder } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { MethodBodyStreamEncoder_MethodBody as MethodBodyStreamEncoder_MethodBody } from './System.Reflection.Metadata.Ecma335/internal/index.js';
@@ -53,7 +51,6 @@ export { ArrayShapeEncoder as ArrayShapeEncoder } from './System.Reflection.Meta
 export { ReturnTypeEncoder as ReturnTypeEncoder } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { ParametersEncoder as ParametersEncoder } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { MetadataSizes as MetadataSizes } from './System.Reflection.Metadata.Ecma335/internal/index.js';
-export { SignatureDecoder_2 as SignatureDecoder_2 } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { SignatureDecoder_2 as SignatureDecoder } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { EditAndContinueLogEntry as EditAndContinueLogEntry } from './System.Reflection.Metadata.Ecma335/internal/index.js';
 export { EditAndContinueOperation as EditAndContinueOperation } from './System.Reflection.Metadata.Ecma335/internal/index.js';

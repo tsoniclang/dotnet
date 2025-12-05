@@ -14,9 +14,7 @@ import type { XPathItem, XPathNavigator, XPathNodeType } from './System.Xml.XPat
 import type { WriteState, XmlNameTable, XmlQualifiedName, XmlReader, XmlSpace, XmlWriter, XmlWriterSettings } from './System.Xml/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Enum, IAsyncDisposable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Xml.Xsl.Runtime/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ContentIterator as ContentIterator } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { ElementContentIterator as ElementContentIterator } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { NodeKindContentIterator as NodeKindContentIterator } from './System.Xml.Xsl.Runtime/internal/index.js';
@@ -59,7 +57,6 @@ export { XmlNavigatorFilter as XmlNavigatorFilter } from './System.Xml.Xsl.Runti
 export { XmlQueryContext as XmlQueryContext } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { XmlQueryOutput as XmlQueryOutput } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { XmlQueryRuntime as XmlQueryRuntime } from './System.Xml.Xsl.Runtime/internal/index.js';
-export { XmlQuerySequence_1 as XmlQuerySequence_1 } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { XmlQuerySequence_1 as XmlQuerySequence } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { XmlQueryItemSequence as XmlQueryItemSequence } from './System.Xml.Xsl.Runtime/internal/index.js';
 export { XmlQueryNodeSequence as XmlQueryNodeSequence } from './System.Xml.Xsl.Runtime/internal/index.js';

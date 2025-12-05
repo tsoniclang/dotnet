@@ -9,7 +9,5 @@ import * as Internal from './System.Runtime.Intrinsics.Wasm/internal/index.js';
 import type { Vector128_1 } from './System.Runtime.Intrinsics/internal/index.js';
 import type { Boolean as ClrBoolean, Byte, Double, Int16, Int32, Int64, IntPtr, Object as ClrObject, SByte, Single, String as ClrString, Type, UInt16, UInt32, UInt64, UIntPtr, Void } from './System/internal/index.js';
 
-export * from './System.Runtime.Intrinsics.Wasm/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { PackedSimd as PackedSimd } from './System.Runtime.Intrinsics.Wasm/internal/index.js';

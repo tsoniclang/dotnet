@@ -21,12 +21,9 @@ import type { Task } from './System.Threading.Tasks/internal/index.js';
 import type { CancellationToken } from './System.Threading/internal/index.js';
 import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from './System/internal/index.js';
 
-export * from './System.Diagnostics/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ActivityChangedEventArgs as ActivityChangedEventArgs } from './System.Diagnostics/internal/index.js';
 export { Activity as Activity } from './System.Diagnostics/internal/index.js';
-export { Activity_Enumerator_1 as Activity_Enumerator_1 } from './System.Diagnostics/internal/index.js';
 export { Activity_Enumerator_1 as Activity_Enumerator } from './System.Diagnostics/internal/index.js';
 export { ActivityTraceFlags as ActivityTraceFlags } from './System.Diagnostics/internal/index.js';
 export { ActivityIdFormat as ActivityIdFormat } from './System.Diagnostics/internal/index.js';
@@ -36,13 +33,11 @@ export { ActivityStatusCode as ActivityStatusCode } from './System.Diagnostics/i
 export { ActivityTagsCollection as ActivityTagsCollection } from './System.Diagnostics/internal/index.js';
 export { ActivityTagsCollection_Enumerator as ActivityTagsCollection_Enumerator } from './System.Diagnostics/internal/index.js';
 export { ActivityContext as ActivityContext } from './System.Diagnostics/internal/index.js';
-export { ActivityCreationOptions_1 as ActivityCreationOptions_1 } from './System.Diagnostics/internal/index.js';
 export { ActivityCreationOptions_1 as ActivityCreationOptions } from './System.Diagnostics/internal/index.js';
 export { ActivitySamplingResult as ActivitySamplingResult } from './System.Diagnostics/internal/index.js';
 export { ActivityEvent as ActivityEvent } from './System.Diagnostics/internal/index.js';
 export { ActivityKind as ActivityKind } from './System.Diagnostics/internal/index.js';
 export { ActivityLink as ActivityLink } from './System.Diagnostics/internal/index.js';
-export type SampleActivity_1<T> = Internal.SampleActivity_1<T>;
 export type SampleActivity<T> = Internal.SampleActivity_1<T>;
 export type ExceptionRecorder = Internal.ExceptionRecorder;
 export { ActivityListener as ActivityListener } from './System.Diagnostics/internal/index.js';

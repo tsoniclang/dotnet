@@ -16,9 +16,7 @@ import type { ISerializable, SerializationInfo, StreamingContext } from './Syste
 import type { Encoding } from './System.Text/internal/index.js';
 import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from './System/internal/index.js';
 
-export * from './System.Reflection.Metadata/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { AssemblyExtensions$instance as AssemblyExtensions } from './System.Reflection.Metadata/internal/index.js';
 export { MetadataUpdater$instance as MetadataUpdater } from './System.Reflection.Metadata/internal/index.js';
 export { MetadataUpdateHandlerAttribute as MetadataUpdateHandlerAttribute } from './System.Reflection.Metadata/internal/index.js';
@@ -27,15 +25,10 @@ export { Blob as Blob } from './System.Reflection.Metadata/internal/index.js';
 export { BlobWriter as BlobWriter } from './System.Reflection.Metadata/internal/index.js';
 export { BlobBuilder as BlobBuilder } from './System.Reflection.Metadata/internal/index.js';
 export { BlobBuilder_Blobs as BlobBuilder_Blobs } from './System.Reflection.Metadata/internal/index.js';
-export { ReservedBlob_1 as ReservedBlob_1 } from './System.Reflection.Metadata/internal/index.js';
 export { ReservedBlob_1 as ReservedBlob } from './System.Reflection.Metadata/internal/index.js';
-export { CustomAttributeNamedArgument_1 as CustomAttributeNamedArgument_1 } from './System.Reflection.Metadata/internal/index.js';
 export { CustomAttributeNamedArgument_1 as CustomAttributeNamedArgument } from './System.Reflection.Metadata/internal/index.js';
-export { CustomAttributeTypedArgument_1 as CustomAttributeTypedArgument_1 } from './System.Reflection.Metadata/internal/index.js';
 export { CustomAttributeTypedArgument_1 as CustomAttributeTypedArgument } from './System.Reflection.Metadata/internal/index.js';
-export { CustomAttributeValue_1 as CustomAttributeValue_1 } from './System.Reflection.Metadata/internal/index.js';
 export { CustomAttributeValue_1 as CustomAttributeValue } from './System.Reflection.Metadata/internal/index.js';
-export type ICustomAttributeTypeProvider_1<TType> = Internal.ICustomAttributeTypeProvider_1<TType>;
 export type ICustomAttributeTypeProvider<TType> = Internal.ICustomAttributeTypeProvider_1<TType>;
 export { ILOpCode as ILOpCode } from './System.Reflection.Metadata/internal/index.js';
 export { ILOpCodeExtensions$instance as ILOpCodeExtensions } from './System.Reflection.Metadata/internal/index.js';
@@ -87,16 +80,11 @@ export { CustomAttribute as CustomAttribute } from './System.Reflection.Metadata
 export { CustomAttributeNamedArgumentKind as CustomAttributeNamedArgumentKind } from './System.Reflection.Metadata/internal/index.js';
 export { DeclarativeSecurityAttribute as DeclarativeSecurityAttribute } from './System.Reflection.Metadata/internal/index.js';
 export { ArrayShape as ArrayShape } from './System.Reflection.Metadata/internal/index.js';
-export type ISZArrayTypeProvider_1<TType> = Internal.ISZArrayTypeProvider_1<TType>;
 export type ISZArrayTypeProvider<TType> = Internal.ISZArrayTypeProvider_1<TType>;
-export type ISignatureTypeProvider_2<TType, TGenericContext> = Internal.ISignatureTypeProvider_2<TType, TGenericContext>;
 export type ISignatureTypeProvider<TType, TGenericContext> = Internal.ISignatureTypeProvider_2<TType, TGenericContext>;
-export type ISimpleTypeProvider_1<TType> = Internal.ISimpleTypeProvider_1<TType>;
 export type ISimpleTypeProvider<TType> = Internal.ISimpleTypeProvider_1<TType>;
 export { SignatureTypeKind as SignatureTypeKind } from './System.Reflection.Metadata/internal/index.js';
-export type IConstructedTypeProvider_1<TType> = Internal.IConstructedTypeProvider_1<TType>;
 export type IConstructedTypeProvider<TType> = Internal.IConstructedTypeProvider_1<TType>;
-export { MethodSignature_1 as MethodSignature_1 } from './System.Reflection.Metadata/internal/index.js';
 export { MethodSignature_1 as MethodSignature } from './System.Reflection.Metadata/internal/index.js';
 export { PrimitiveTypeCode as PrimitiveTypeCode } from './System.Reflection.Metadata/internal/index.js';
 export { EventDefinition as EventDefinition } from './System.Reflection.Metadata/internal/index.js';

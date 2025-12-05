@@ -12,23 +12,12 @@ import type { ICollection, IDictionary, IDictionaryEnumerator, IEnumerable, IEnu
 import type { INotifyPropertyChanged } from './System.ComponentModel/internal/index.js';
 import type { Array as ClrArray, Boolean as ClrBoolean, Int32, Object as ClrObject, ReadOnlySpan_1, String as ClrString, Type, Void } from './System/internal/index.js';
 
-export * from './System.Collections.ObjectModel/internal/index.js';
-
-// Individual type exports for convenience
-export { KeyedCollection_2 as KeyedCollection_2 } from './System.Collections.ObjectModel/internal/index.js';
+// Public API exports (curated - no internal $instance/$views leakage)
 export { KeyedCollection_2 as KeyedCollection } from './System.Collections.ObjectModel/internal/index.js';
-export { ObservableCollection_1 as ObservableCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
 export { ObservableCollection_1 as ObservableCollection } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlyObservableCollection_1 as ReadOnlyObservableCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlyObservableCollection_1 as ReadOnlyObservableCollection } from './System.Collections.ObjectModel/internal/index.js';
-export { Collection_1 as Collection_1 } from './System.Collections.ObjectModel/internal/index.js';
 export { Collection_1 as Collection } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlyCollection_1 as ReadOnlyCollection_1 } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlyCollection_1 as ReadOnlyCollection } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlyCollection$instance as ReadOnlyCollection_0 } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlyDictionary_2 as ReadOnlyDictionary_2 } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlyDictionary_2 as ReadOnlyDictionary } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlyDictionary_2_KeyCollection as ReadOnlyDictionary_2_KeyCollection } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlyDictionary_2_ValueCollection as ReadOnlyDictionary_2_ValueCollection } from './System.Collections.ObjectModel/internal/index.js';
-export { ReadOnlySet_1 as ReadOnlySet_1 } from './System.Collections.ObjectModel/internal/index.js';
 export { ReadOnlySet_1 as ReadOnlySet } from './System.Collections.ObjectModel/internal/index.js';

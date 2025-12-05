@@ -12,9 +12,7 @@ import type { MethodBase } from './System.Reflection/internal/index.js';
 import type { ISerializable, SerializationInfo, StreamingContext } from './System.Runtime.Serialization/internal/index.js';
 import type { Attribute, Boolean as ClrBoolean, Enum, EventArgs, EventHandler_1, Exception, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, Predicate_1, String as ClrString, Type, TypeCode, Void } from './System/internal/index.js';
 
-export * from './System.Diagnostics.Contracts/internal/index.js';
-
-// Individual type exports for convenience
+// Public API exports (curated - no internal $instance/$views leakage)
 export { ContractException as ContractException } from './System.Diagnostics.Contracts/internal/index.js';
 export { ContractFailedEventArgs as ContractFailedEventArgs } from './System.Diagnostics.Contracts/internal/index.js';
 export { PureAttribute as PureAttribute } from './System.Diagnostics.Contracts/internal/index.js';
