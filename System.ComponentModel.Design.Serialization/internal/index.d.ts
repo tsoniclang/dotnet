@@ -68,6 +68,7 @@ export interface IDesignerLoaderHost$instance extends IDesignerHost, IServiceCon
     reload(): void;
     removeService(serviceType: Type, promote: boolean): void;
     removeService(serviceType: Type): void;
+    activate(): void;
 }
 
 
@@ -98,6 +99,7 @@ export interface IDesignerLoaderHost2$instance extends IDesignerLoaderHost, IDes
     reload(): void;
     removeService(serviceType: Type, promote: boolean): void;
     removeService(serviceType: Type): void;
+    activate(): void;
 }
 
 
@@ -175,7 +177,7 @@ export interface __MemberRelationship$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<MemberRelationship>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: MemberRelationship): boolean;
+    equals(other: MemberRelationship): boolean;
 }
 
 export type MemberRelationship = MemberRelationship$instance & __MemberRelationship$views;

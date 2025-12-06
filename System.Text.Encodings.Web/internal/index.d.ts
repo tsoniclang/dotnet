@@ -48,7 +48,7 @@ export interface HtmlEncoder$instance extends TextEncoder {
 export const HtmlEncoder: {
     readonly default_: HtmlEncoder;
     create(settings: TextEncoderSettings): HtmlEncoder;
-    create(allowedRanges: UnicodeRange[]): HtmlEncoder;
+    create(...allowedRanges: UnicodeRange[]): HtmlEncoder;
 };
 
 
@@ -62,7 +62,7 @@ export const JavaScriptEncoder: {
     readonly default_: JavaScriptEncoder;
     readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
     create(settings: TextEncoderSettings): JavaScriptEncoder;
-    create(allowedRanges: UnicodeRange[]): JavaScriptEncoder;
+    create(...allowedRanges: UnicodeRange[]): JavaScriptEncoder;
 };
 
 
@@ -91,15 +91,15 @@ export type TextEncoder = TextEncoder$instance;
 
 export interface TextEncoderSettings$instance {
     allowCharacter(character: char): void;
-    allowCharacters(characters: char[]): void;
+    allowCharacters(...characters: char[]): void;
     allowCodePoints(codePoints: IEnumerable_1<CLROf<int>>): void;
     allowRange(range: UnicodeRange): void;
-    allowRanges(ranges: UnicodeRange[]): void;
+    allowRanges(...ranges: UnicodeRange[]): void;
     clear(): void;
     forbidCharacter(character: char): void;
-    forbidCharacters(characters: char[]): void;
+    forbidCharacters(...characters: char[]): void;
     forbidRange(range: UnicodeRange): void;
-    forbidRanges(ranges: UnicodeRange[]): void;
+    forbidRanges(...ranges: UnicodeRange[]): void;
     getAllowedCodePoints(): IEnumerable_1<CLROf<int>>;
 }
 
@@ -120,7 +120,7 @@ export interface UrlEncoder$instance extends TextEncoder {
 export const UrlEncoder: {
     readonly default_: UrlEncoder;
     create(settings: TextEncoderSettings): UrlEncoder;
-    create(allowedRanges: UnicodeRange[]): UrlEncoder;
+    create(...allowedRanges: UnicodeRange[]): UrlEncoder;
 };
 
 

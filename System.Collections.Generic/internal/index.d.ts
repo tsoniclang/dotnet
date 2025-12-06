@@ -81,6 +81,7 @@ export interface ICollection_1$instance<T> extends IEnumerable_1<T>, IEnumerable
     copyTo(array: T[], arrayIndex: int): void;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -108,6 +109,7 @@ export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyV
     getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     getEnumerator(): IEnumerator;
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -125,6 +127,7 @@ export interface IEnumerator_1$instance<T> extends IDisposable, IEnumerator {
     readonly current: T;
     dispose(): void;
     moveNext(): boolean;
+    reset(): void;
 }
 
 
@@ -153,6 +156,7 @@ export interface IList_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>,
     indexOf(item: T): int;
     insert(index: int, item: T): void;
     removeAt(index: int): void;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -162,6 +166,7 @@ export interface IReadOnlyCollection_1$instance<T> extends IEnumerable_1<T>, IEn
     readonly count: int;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -176,6 +181,7 @@ export interface IReadOnlyDictionary_2$instance<TKey, TValue> extends IReadOnlyC
     getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     getEnumerator(): IEnumerator;
     tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -186,6 +192,7 @@ export interface IReadOnlyList_1$instance<T> extends IReadOnlyCollection_1<T>, I
     readonly count: int;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -197,6 +204,7 @@ export interface IReadOnlySet_1$instance<T> extends IReadOnlyCollection_1<T>, IE
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
     isProperSubsetOf(other: IEnumerable_1<T>): boolean;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -213,6 +221,8 @@ export interface ISet_1$instance<T> extends ICollection_1<T>, IEnumerable_1<T>, 
     getEnumerator(): IEnumerator;
     isSubsetOf(other: IEnumerable_1<T>): boolean;
     unionWith(other: IEnumerable_1<T>): void;
+    contains(item: T): boolean;
+    getEnumerator2(): IEnumerator;
 }
 
 

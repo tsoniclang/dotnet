@@ -65,6 +65,7 @@ export interface IGrouping_2$instance<TKey, TElement> extends IEnumerable_1<TEle
     readonly key: TKey;
     getEnumerator(): IEnumerator_1<TElement>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -76,6 +77,7 @@ export interface ILookup_2$instance<TKey, TElement> extends IEnumerable_1<IGroup
     contains(key: TKey): boolean;
     getEnumerator(): IEnumerator_1<IGrouping_2<TKey, TElement>>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -96,6 +98,7 @@ export interface IOrderedEnumerable_1$instance<TElement> extends IEnumerable_1<T
     createOrderedEnumerable<TKey>(keySelector: Func_2<TElement, TKey>, comparer: IComparer_1<TKey>, descending: boolean): IOrderedEnumerable_1<TElement>;
     getEnumerator(): IEnumerator_1<TElement>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -117,6 +120,7 @@ export interface IOrderedQueryable_1$instance<T> extends IQueryable_1<T>, IEnume
     readonly provider: IQueryProvider;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 
@@ -140,6 +144,7 @@ export interface IQueryable_1$instance<T> extends IEnumerable_1<T>, IEnumerable,
     readonly provider: IQueryProvider;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
+    getEnumerator2(): IEnumerator;
 }
 
 

@@ -75,7 +75,7 @@ export interface IndentedTextWriter$instance extends TextWriter {
     write(value: unknown): void;
     write(format: string, arg0: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown): void;
-    write(format: string, arg: unknown[]): void;
+    write(format: string, ...arg: unknown[]): void;
     write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
     write(value: uint): void;
@@ -104,7 +104,7 @@ export interface IndentedTextWriter$instance extends TextWriter {
     writeLine(value: unknown): void;
     writeLine(format: string, arg0: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown): void;
-    writeLine(format: string, arg: unknown[]): void;
+    writeLine(format: string, ...arg: unknown[]): void;
     writeLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeLine(value: uint): void;
     writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
