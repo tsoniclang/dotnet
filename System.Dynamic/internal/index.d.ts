@@ -214,8 +214,8 @@ export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    defer(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
-    defer(args: DynamicMetaObject[]): DynamicMetaObject;
+    defer(target: DynamicMetaObject, ...args: DynamicMetaObject[]): DynamicMetaObject;
+    defer(...args: DynamicMetaObject[]): DynamicMetaObject;
     getUpdateExpression(type_: Type): Expression;
 }
 

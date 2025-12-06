@@ -278,7 +278,7 @@ export interface __ActivityContext$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ActivityContext>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: ActivityContext): boolean;
+    equals(other: ActivityContext): boolean;
 }
 
 export type ActivityContext = ActivityContext$instance & __ActivityContext$views;
@@ -339,7 +339,7 @@ export interface __ActivityLink$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ActivityLink>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: ActivityLink): boolean;
+    equals(other: ActivityLink): boolean;
 }
 
 export type ActivityLink = ActivityLink$instance & __ActivityLink$views;
@@ -368,7 +368,7 @@ export interface __ActivitySpanId$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ActivitySpanId>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: ActivitySpanId): boolean;
+    equals(other: ActivitySpanId): boolean;
 }
 
 export type ActivitySpanId = ActivitySpanId$instance & __ActivitySpanId$views;
@@ -418,7 +418,7 @@ export interface __ActivityTraceId$views {
     As_IEquatable_1(): System_Internal.IEquatable_1$instance<ActivityTraceId>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: ActivityTraceId): boolean;
+    equals(other: ActivityTraceId): boolean;
 }
 
 export type ActivityTraceId = ActivityTraceId$instance & __ActivityTraceId$views;
@@ -962,8 +962,8 @@ export interface DelimitedListTraceListener$instance extends TextWriterTraceList
     delimiter: string;
     dispose(): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
-    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown[]): void;
-    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, args: unknown[]): void;
+    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
+    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, message: string): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int): void;
 }
@@ -1632,11 +1632,11 @@ export const Trace: {
     flush(): void;
     indent(): void;
     refresh(): void;
-    traceError(format: string, args: unknown[]): void;
+    traceError(format: string, ...args: unknown[]): void;
     traceError(message: string): void;
-    traceInformation(format: string, args: unknown[]): void;
+    traceInformation(format: string, ...args: unknown[]): void;
     traceInformation(message: string): void;
-    traceWarning(format: string, args: unknown[]): void;
+    traceWarning(format: string, ...args: unknown[]): void;
     traceWarning(message: string): void;
     unindent(): void;
     write(value: unknown, category: string): void;
@@ -1702,10 +1702,10 @@ export interface TraceListener$instance extends MarshalByRefObject {
     fail(message: string, detailMessage: string): void;
     flush(): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
-    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown[]): void;
+    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, message: string): void;
-    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, args: unknown[]): void;
+    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
     traceTransfer(eventCache: TraceEventCache, source: string, id: int, message: string, relatedActivityId: Guid): void;
     write(message: string): void;
     write(o: unknown): void;
@@ -1774,12 +1774,12 @@ export interface TraceSource$instance {
     close(): void;
     flush(): void;
     traceData(eventType: TraceEventType, id: int, data: unknown): void;
-    traceData(eventType: TraceEventType, id: int, data: unknown[]): void;
+    traceData(eventType: TraceEventType, id: int, ...data: unknown[]): void;
     traceEvent(eventType: TraceEventType, id: int): void;
     traceEvent(eventType: TraceEventType, id: int, message: string): void;
-    traceEvent(eventType: TraceEventType, id: int, format: string, args: unknown[]): void;
+    traceEvent(eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
     traceInformation(message: string): void;
-    traceInformation(format: string, args: unknown[]): void;
+    traceInformation(format: string, ...args: unknown[]): void;
     traceTransfer(id: int, message: string, relatedActivityId: Guid): void;
 }
 
@@ -1834,8 +1834,8 @@ export interface XmlWriterTraceListener$instance extends TextWriterTraceListener
     fail(message: string, detailMessage: string): void;
     fail(message: string): void;
     traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown): void;
-    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, data: unknown[]): void;
-    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, args: unknown[]): void;
+    traceData(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, ...data: unknown[]): void;
+    traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, format: string, ...args: unknown[]): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int, message: string): void;
     traceEvent(eventCache: TraceEventCache, source: string, eventType: TraceEventType, id: int): void;
     traceTransfer(eventCache: TraceEventCache, source: string, id: int, message: string, relatedActivityId: Guid): void;
@@ -1873,7 +1873,7 @@ export abstract class Debug$instance {
     static indentSize: int;
     static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }, detailMessage: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
     static assert(condition: boolean, message: { value: ref<Debug_AssertInterpolatedStringHandler> }): void;
-    static assert(condition: boolean, message: string, detailMessageFormat: string, args: unknown[]): void;
+    static assert(condition: boolean, message: string, detailMessageFormat: string, ...args: unknown[]): void;
     static assert(condition: boolean, message: string, detailMessage: string): void;
     static assert(condition: boolean, message?: string): void;
     static assert(condition: boolean): void;
@@ -1882,7 +1882,7 @@ export abstract class Debug$instance {
     static fail(message: string): void;
     static flush(): void;
     static indent(): void;
-    static print(format: string, args: unknown[]): void;
+    static print(format: string, ...args: unknown[]): void;
     static print(message: string): void;
     static setProvider(provider: DebugProvider): DebugProvider;
     static unindent(): void;
@@ -1898,7 +1898,7 @@ export abstract class Debug$instance {
     static writeIf(condition: boolean, message: string): void;
     static writeLine(value: unknown, category: string): void;
     static writeLine(value: unknown): void;
-    static writeLine(format: string, args: unknown[]): void;
+    static writeLine(format: string, ...args: unknown[]): void;
     static writeLine(message: string, category: string): void;
     static writeLine(message: string): void;
     static writeLineIf(condition: boolean, message: { value: ref<Debug_WriteIfInterpolatedStringHandler> }, category: string): void;

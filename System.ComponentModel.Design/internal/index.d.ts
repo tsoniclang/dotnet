@@ -134,6 +134,7 @@ export interface IDesigner$instance extends IDisposable {
     readonly verbs: DesignerVerbCollection;
     doDefaultAction(): void;
     initialize(component: IComponent): void;
+    dispose(): void;
 }
 
 
@@ -292,6 +293,7 @@ export interface IRootDesigner$instance extends IDesigner, IDisposable {
     doDefaultAction(): void;
     getView(technology: ViewTechnology): unknown;
     initialize(component: IComponent): void;
+    dispose(): void;
 }
 
 
@@ -333,6 +335,7 @@ export interface ITreeDesigner$instance extends IDesigner, IDisposable {
     readonly verbs: DesignerVerbCollection;
     doDefaultAction(): void;
     initialize(component: IComponent): void;
+    dispose(): void;
 }
 
 

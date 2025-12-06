@@ -1107,7 +1107,7 @@ export interface StreamWriter$instance extends TextWriter$instance {
     write(format: string, arg0: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    write(format: string, arg: unknown[]): void;
+    write(format: string, ...arg: unknown[]): void;
     write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
     write(value: boolean): void;
@@ -1133,7 +1133,7 @@ export interface StreamWriter$instance extends TextWriter$instance {
     writeLine(format: string, arg0: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    writeLine(format: string, arg: unknown[]): void;
+    writeLine(format: string, ...arg: unknown[]): void;
     writeLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeLine(): void;
     writeLine(value: char): void;
@@ -1256,7 +1256,7 @@ export interface StringWriter$instance extends TextWriter$instance {
     write(format: string, arg0: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    write(format: string, arg: unknown[]): void;
+    write(format: string, ...arg: unknown[]): void;
     write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeAsync(value: char): Task;
     writeAsync(value: string): Task;
@@ -1285,7 +1285,7 @@ export interface StringWriter$instance extends TextWriter$instance {
     writeLine(format: string, arg0: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    writeLine(format: string, arg: unknown[]): void;
+    writeLine(format: string, ...arg: unknown[]): void;
     writeLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeLineAsync(value: char): Task;
     writeLineAsync(value: string): Task;
@@ -1379,7 +1379,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
     write(format: string, arg0: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    write(format: string, arg: unknown[]): void;
+    write(format: string, ...arg: unknown[]): void;
     write(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeAsync(value: char): Task;
     writeAsync(value: string): Task;
@@ -1406,7 +1406,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
     writeLine(format: string, arg0: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
-    writeLine(format: string, arg: unknown[]): void;
+    writeLine(format: string, ...arg: unknown[]): void;
     writeLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
     writeLineAsync(value: char): Task;
     writeLineAsync(value: string): Task;
@@ -1420,7 +1420,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
 
 export const TextWriter: {
     readonly null_: TextWriter;
-    createBroadcasting(writers: TextWriter[]): TextWriter;
+    createBroadcasting(...writers: TextWriter[]): TextWriter;
     synchronized(writer: TextWriter): TextWriter;
 };
 
@@ -1734,7 +1734,7 @@ export abstract class Path$instance {
     static combine(path1: string, path2: string, path3: string, path4: string): string;
     static combine(path1: string, path2: string, path3: string): string;
     static combine(path1: string, path2: string): string;
-    static combine(paths: string[]): string;
+    static combine(...paths: string[]): string;
     static endsInDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): boolean;
     static endsInDirectorySeparator(path: string): boolean;
     static exists(path: string): boolean;
@@ -1769,7 +1769,7 @@ export abstract class Path$instance {
     static join(path1: string, path2: string, path3: string, path4: string): string;
     static join(path1: string, path2: string, path3: string): string;
     static join(path1: string, path2: string): string;
-    static join(paths: string[]): string;
+    static join(...paths: string[]): string;
     static trimEndingDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
     static trimEndingDirectorySeparator(path: string): string;
     static tryJoin(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;

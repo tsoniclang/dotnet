@@ -122,8 +122,9 @@ export interface __Rune$views {
     As_IUtf8SpanParsable_1(): System_Internal.IUtf8SpanParsable_1$instance<Rune>;
 
     // Structural method bridges for numeric interface constraints
-    Equals(other: Rune): boolean;
-    CompareTo(obj: unknown): int;
+    equals(other: Rune): boolean;
+    compareTo(obj: unknown): int;
+    tryFormat(utf8Destination: import("../../System/internal/index").Span_1<import("../../System/internal/index").CLROf<byte>>, bytesWritten: { value: ref<int> }, format: import("../../System/internal/index").ReadOnlySpan_1<import("../../System/internal/index").CLROf<char>>, provider: import("../../System/internal/index").IFormatProvider): boolean;
 }
 
 export interface Rune$instance extends System_Internal.IComparable_1$instance<Rune>, System_Internal.IUtf8SpanFormattable$instance, System_Internal.IUtf8SpanParsable_1$instance<Rune> {}
@@ -758,27 +759,27 @@ export interface StringBuilder$instance {
     appendFormat(format: string, arg0: unknown): StringBuilder;
     appendFormat(format: string, arg0: unknown, arg1: unknown): StringBuilder;
     appendFormat(format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
-    appendFormat(format: string, args: unknown[]): StringBuilder;
+    appendFormat(format: string, ...args: unknown[]): StringBuilder;
     appendFormat(format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
     appendFormat(provider: IFormatProvider, format: string, arg0: unknown): StringBuilder;
     appendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): StringBuilder;
     appendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
-    appendFormat(provider: IFormatProvider, format: string, args: unknown[]): StringBuilder;
+    appendFormat(provider: IFormatProvider, format: string, ...args: unknown[]): StringBuilder;
     appendFormat(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
     appendFormat<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): StringBuilder;
     appendFormat<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): StringBuilder;
     appendFormat<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): StringBuilder;
-    appendFormat(provider: IFormatProvider, format: CompositeFormat, args: unknown[]): StringBuilder;
+    appendFormat(provider: IFormatProvider, format: CompositeFormat, ...args: unknown[]): StringBuilder;
     appendFormat(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): StringBuilder;
-    appendJoin(separator: string, values: unknown[]): StringBuilder;
+    appendJoin(separator: string, ...values: unknown[]): StringBuilder;
     appendJoin(separator: string, values: ReadOnlySpan_1<unknown>): StringBuilder;
     appendJoin<T>(separator: string, values: IEnumerable_1<T>): StringBuilder;
-    appendJoin(separator: string, values: string[]): StringBuilder;
+    appendJoin(separator: string, ...values: string[]): StringBuilder;
     appendJoin(separator: string, values: ReadOnlySpan_1<CLROf<string>>): StringBuilder;
-    appendJoin(separator: char, values: unknown[]): StringBuilder;
+    appendJoin(separator: char, ...values: unknown[]): StringBuilder;
     appendJoin(separator: char, values: ReadOnlySpan_1<unknown>): StringBuilder;
     appendJoin<T>(separator: char, values: IEnumerable_1<T>): StringBuilder;
-    appendJoin(separator: char, values: string[]): StringBuilder;
+    appendJoin(separator: char, ...values: string[]): StringBuilder;
     appendJoin(separator: char, values: ReadOnlySpan_1<CLROf<string>>): StringBuilder;
     appendLine(): StringBuilder;
     appendLine(value: string): StringBuilder;
