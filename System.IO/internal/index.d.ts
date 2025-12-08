@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { SafeFileHandle } from "../../Microsoft.Win32.SafeHandles/internal/index.js";
@@ -25,31 +25,6 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threadin
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, Half, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum DriveType {
     unknown_ = 0,
@@ -222,9 +197,9 @@ export interface BinaryReader$instance {
     peekChar(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
-    read(buffer: Span_1<CLROf<char>>): int;
+    read(buffer: Span_1<System_Internal.Char>): int;
     read(buffer: byte[], index: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
+    read(buffer: Span_1<System_Internal.Byte>): int;
     read7BitEncodedInt(): int;
     read7BitEncodedInt64(): long;
     readBoolean(): boolean;
@@ -234,7 +209,7 @@ export interface BinaryReader$instance {
     readChars(count: int): char[];
     readDecimal(): decimal;
     readDouble(): double;
-    readExactly(buffer: Span_1<CLROf<byte>>): void;
+    readExactly(buffer: Span_1<System_Internal.Byte>): void;
     readHalf(): half;
     readInt16(): short;
     readInt32(): int;
@@ -290,8 +265,8 @@ export interface BinaryWriter$instance {
     write(value: float): void;
     write(value: half): void;
     write(value: string): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(chars: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    write(chars: ReadOnlySpan_1<System_Internal.Char>): void;
     write7BitEncodedInt(value: int): void;
     write7BitEncodedInt64(value: long): void;
 }
@@ -339,23 +314,23 @@ export interface BufferedStream$instance extends Stream$instance {
     flushAsync(cancellationToken: CancellationToken): Task;
     flushAsync(): Task;
     read(buffer: byte[], offset: int, count: int): int;
-    read(destination: Span_1<CLROf<byte>>): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(destination: Span_1<System_Internal.Byte>): int;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readByte(): int;
     seek(offset: long, origin: SeekOrigin): long;
     setLength(value: long): void;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
 
@@ -659,24 +634,24 @@ export interface FileStream$instance extends Stream$instance {
     flushAsync(): Task;
     lock(position: long, length: long): void;
     read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readByte(): int;
     seek(offset: long, origin: SeekOrigin): long;
     setLength(value: long): void;
     unlock(position: long, length: long): void;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
 
@@ -778,7 +753,7 @@ export type FileSystemInfo = FileSystemInfo$instance & __FileSystemInfo$views;
 export interface FileSystemWatcher$instance extends Component {
     enableRaisingEvents: boolean;
     filter: string;
-    readonly filters: Collection_1<CLROf<string>>;
+    readonly filters: Collection_1<System_Internal.String>;
     includeSubdirectories: boolean;
     internalBufferSize: int;
     notifyFilter: NotifyFilters;
@@ -890,25 +865,25 @@ export interface MemoryStream$instance extends Stream$instance {
     flushAsync(): Task;
     getBuffer(): byte[];
     read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readByte(): int;
     seek(offset: long, loc: SeekOrigin): long;
     setLength(value: long): void;
     toArray(): byte[];
-    tryGetBuffer(buffer: { value: ref<ArraySegment_1<CLROf<byte>>> }): boolean;
+    tryGetBuffer(buffer: ArraySegment_1<System_Internal.Byte>): boolean;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
     writeTo(stream: Stream): void;
 }
@@ -991,24 +966,24 @@ export interface Stream$instance extends MarshalByRefObject {
     flushAsync(): Task;
     flushAsync(cancellationToken: CancellationToken): Task;
     read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAtLeast(buffer: Span_1<CLROf<byte>>, minimumBytes: int, throwOnEndOfStream?: boolean): int;
-    readAtLeastAsync(buffer: Memory_1<CLROf<byte>>, minimumBytes: int, throwOnEndOfStream?: boolean, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAtLeast(buffer: Span_1<System_Internal.Byte>, minimumBytes: int, throwOnEndOfStream?: boolean): int;
+    readAtLeastAsync(buffer: Memory_1<System_Internal.Byte>, minimumBytes: int, throwOnEndOfStream?: boolean, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readByte(): int;
-    readExactly(buffer: Span_1<CLROf<byte>>): void;
+    readExactly(buffer: Span_1<System_Internal.Byte>): void;
     readExactly(buffer: byte[], offset: int, count: int): void;
-    readExactlyAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    readExactlyAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     readExactlyAsync(buffer: byte[], offset: int, count: int, cancellationToken?: CancellationToken): ValueTask;
     seek(offset: long, origin: SeekOrigin): long;
     setLength(value: long): void;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
 
@@ -1039,29 +1014,29 @@ export interface StreamReader$instance extends TextReader$instance {
     peek(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
-    read(buffer: Span_1<CLROf<char>>): int;
-    read(buffer: Span_1<CLROf<char>>): int;
-    readAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Char>): int;
+    read(buffer: Span_1<System_Internal.Char>): int;
+    readAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readBlock(buffer: char[], index: int, count: int): int;
-    readBlock(buffer: Span_1<CLROf<char>>): int;
-    readBlock(buffer: Span_1<CLROf<char>>): int;
-    readBlockAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readBlockAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readBlockAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readBlockAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readBlock(buffer: Span_1<System_Internal.Char>): int;
+    readBlock(buffer: Span_1<System_Internal.Char>): int;
+    readBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readLine(): string;
-    readLineAsync(): Task_1<CLROf<string>>;
-    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<CLROf<string>>;
-    readLineAsync(): Task_1<CLROf<string>>;
-    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<CLROf<string>>;
+    readLineAsync(): Task_1<System_Internal.String>;
+    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
+    readLineAsync(): Task_1<System_Internal.String>;
+    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
     readToEnd(): string;
-    readToEndAsync(): Task_1<CLROf<string>>;
-    readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
-    readToEndAsync(): Task_1<CLROf<string>>;
-    readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
+    readToEndAsync(): Task_1<System_Internal.String>;
+    readToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
+    readToEndAsync(): Task_1<System_Internal.String>;
+    readToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
 }
 
 
@@ -1102,14 +1077,14 @@ export interface StreamWriter$instance extends TextWriter$instance {
     write(value: char): void;
     write(buffer: char[]): void;
     write(buffer: char[], index: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     write(value: string): void;
     write(format: string, arg0: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown): void;
     write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
     write(format: string, ...arg: unknown[]): void;
     write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     write(value: boolean): void;
     write(value: int): void;
     write(value: uint): void;
@@ -1124,12 +1099,12 @@ export interface StreamWriter$instance extends TextWriter$instance {
     writeAsync(value: char): Task;
     writeAsync(value: string): Task;
     writeAsync(buffer: char[], index: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeAsync(buffer: char[]): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLine(value: string): void;
-    writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    writeLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     writeLine(format: string, arg0: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown): void;
     writeLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
@@ -1139,7 +1114,7 @@ export interface StreamWriter$instance extends TextWriter$instance {
     writeLine(value: char): void;
     writeLine(buffer: char[]): void;
     writeLine(buffer: char[], index: int, count: int): void;
-    writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    writeLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     writeLine(value: boolean): void;
     writeLine(value: int): void;
     writeLine(value: uint): void;
@@ -1155,10 +1130,10 @@ export interface StreamWriter$instance extends TextWriter$instance {
     writeLineAsync(value: char): Task;
     writeLineAsync(value: string): Task;
     writeLineAsync(buffer: char[], index: int, count: int): Task;
-    writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLineAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeLineAsync(buffer: char[]): Task;
-    writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
 }
 
 
@@ -1190,29 +1165,29 @@ export interface StringReader$instance extends TextReader$instance {
     peek(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
-    read(buffer: Span_1<CLROf<char>>): int;
-    read(buffer: Span_1<CLROf<char>>): int;
-    readAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readBlock(buffer: Span_1<CLROf<char>>): int;
+    read(buffer: Span_1<System_Internal.Char>): int;
+    read(buffer: Span_1<System_Internal.Char>): int;
+    readAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readBlock(buffer: Span_1<System_Internal.Char>): int;
     readBlock(buffer: char[], index: int, count: int): int;
-    readBlock(buffer: Span_1<CLROf<char>>): int;
-    readBlockAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readBlockAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readBlockAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readBlockAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readBlock(buffer: Span_1<System_Internal.Char>): int;
+    readBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readLine(): string;
-    readLineAsync(): Task_1<CLROf<string>>;
-    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<CLROf<string>>;
-    readLineAsync(): Task_1<CLROf<string>>;
-    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<CLROf<string>>;
+    readLineAsync(): Task_1<System_Internal.String>;
+    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
+    readLineAsync(): Task_1<System_Internal.String>;
+    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
     readToEnd(): string;
-    readToEndAsync(): Task_1<CLROf<string>>;
-    readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
-    readToEndAsync(): Task_1<CLROf<string>>;
-    readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
+    readToEndAsync(): Task_1<System_Internal.String>;
+    readToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
+    readToEndAsync(): Task_1<System_Internal.String>;
+    readToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
 }
 
 
@@ -1239,11 +1214,11 @@ export interface StringWriter$instance extends TextWriter$instance {
     toString(): string;
     write(value: char): void;
     write(buffer: char[], index: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     write(value: string): void;
     write(value: StringBuilder): void;
     write(buffer: char[]): void;
-    write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     write(value: boolean): void;
     write(value: int): void;
     write(value: uint): void;
@@ -1261,17 +1236,17 @@ export interface StringWriter$instance extends TextWriter$instance {
     writeAsync(value: char): Task;
     writeAsync(value: string): Task;
     writeAsync(buffer: char[], index: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeAsync(buffer: char[]): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
-    writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
+    writeLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     writeLine(value: StringBuilder): void;
     writeLine(): void;
     writeLine(value: char): void;
     writeLine(buffer: char[]): void;
     writeLine(buffer: char[], index: int, count: int): void;
-    writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    writeLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     writeLine(value: boolean): void;
     writeLine(value: int): void;
     writeLine(value: uint): void;
@@ -1291,9 +1266,9 @@ export interface StringWriter$instance extends TextWriter$instance {
     writeLineAsync(value: string): Task;
     writeLineAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeLineAsync(buffer: char[], index: int, count: int): Task;
-    writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLineAsync(buffer: char[]): Task;
-    writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLineAsync(): Task;
 }
 
@@ -1320,19 +1295,19 @@ export interface TextReader$instance extends MarshalByRefObject {
     peek(): int;
     read(): int;
     read(buffer: char[], index: int, count: int): int;
-    read(buffer: Span_1<CLROf<char>>): int;
-    readAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Char>): int;
+    readAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readBlock(buffer: char[], index: int, count: int): int;
-    readBlock(buffer: Span_1<CLROf<char>>): int;
-    readBlockAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
-    readBlockAsync(buffer: Memory_1<CLROf<char>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    readBlock(buffer: Span_1<System_Internal.Char>): int;
+    readBlockAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
+    readBlockAsync(buffer: Memory_1<System_Internal.Char>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readLine(): string;
-    readLineAsync(): Task_1<CLROf<string>>;
-    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<CLROf<string>>;
+    readLineAsync(): Task_1<System_Internal.String>;
+    readLineAsync(cancellationToken: CancellationToken): ValueTask_1<System_Internal.String>;
     readToEnd(): string;
-    readToEndAsync(): Task_1<CLROf<string>>;
-    readToEndAsync(cancellationToken: CancellationToken): Task_1<CLROf<string>>;
+    readToEndAsync(): Task_1<System_Internal.String>;
+    readToEndAsync(cancellationToken: CancellationToken): Task_1<System_Internal.String>;
 }
 
 
@@ -1364,7 +1339,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
     write(value: char): void;
     write(buffer: char[]): void;
     write(buffer: char[], index: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     write(value: boolean): void;
     write(value: int): void;
     write(value: uint): void;
@@ -1386,12 +1361,12 @@ export interface TextWriter$instance extends MarshalByRefObject {
     writeAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeAsync(buffer: char[]): Task;
     writeAsync(buffer: char[], index: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLine(): void;
     writeLine(value: char): void;
     writeLine(buffer: char[]): void;
     writeLine(buffer: char[], index: int, count: int): void;
-    writeLine(buffer: ReadOnlySpan_1<CLROf<char>>): void;
+    writeLine(buffer: ReadOnlySpan_1<System_Internal.Char>): void;
     writeLine(value: boolean): void;
     writeLine(value: int): void;
     writeLine(value: uint): void;
@@ -1413,7 +1388,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
     writeLineAsync(value: StringBuilder, cancellationToken?: CancellationToken): Task;
     writeLineAsync(buffer: char[]): Task;
     writeLineAsync(buffer: char[], index: int, count: int): Task;
-    writeLineAsync(buffer: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    writeLineAsync(buffer: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     writeLineAsync(): Task;
 }
 
@@ -1440,7 +1415,7 @@ export interface UnmanagedMemoryAccessor$instance {
     readonly canWrite: boolean;
     readonly capacity: long;
     dispose(): void;
-    read<T extends unknown>(position: long, structure: { value: ref<T> }): void;
+    read<T extends unknown>(position: long, structure: T): void;
     readArray<T extends unknown>(position: long, array: T[], offset: int, count: int): int;
     readBoolean(position: long): boolean;
     readByte(position: long): byte;
@@ -1468,7 +1443,7 @@ export interface UnmanagedMemoryAccessor$instance {
     write(position: long, value: ushort): void;
     write(position: long, value: uint): void;
     write(position: long, value: ulong): void;
-    write<T extends unknown>(position: long, structure: { value: ref<T> }): void;
+    write<T extends unknown>(position: long, structure: T): void;
     writeArray<T extends unknown>(position: long, array: T[], offset: int, count: int): void;
 }
 
@@ -1502,23 +1477,23 @@ export interface UnmanagedMemoryStream$instance extends Stream$instance {
     flushAsync(cancellationToken: CancellationToken): Task;
     flushAsync(): Task;
     read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     readByte(): int;
     seek(offset: long, loc: SeekOrigin): long;
     setLength(value: long): void;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeByte(value: byte): void;
 }
 
@@ -1546,18 +1521,18 @@ export abstract class Directory$instance {
     static createTempSubdirectory(prefix?: string): DirectoryInfo;
     static delete_(path: string, recursive: boolean): void;
     static delete_(path: string): void;
-    static enumerateDirectories(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateDirectories(path: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFiles(path: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string, searchPattern: string): IEnumerable_1<CLROf<string>>;
-    static enumerateFileSystemEntries(path: string): IEnumerable_1<CLROf<string>>;
+    static enumerateDirectories(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<System_Internal.String>;
+    static enumerateDirectories(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<System_Internal.String>;
+    static enumerateDirectories(path: string, searchPattern: string): IEnumerable_1<System_Internal.String>;
+    static enumerateDirectories(path: string): IEnumerable_1<System_Internal.String>;
+    static enumerateFiles(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<System_Internal.String>;
+    static enumerateFiles(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<System_Internal.String>;
+    static enumerateFiles(path: string, searchPattern: string): IEnumerable_1<System_Internal.String>;
+    static enumerateFiles(path: string): IEnumerable_1<System_Internal.String>;
+    static enumerateFileSystemEntries(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<System_Internal.String>;
+    static enumerateFileSystemEntries(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<System_Internal.String>;
+    static enumerateFileSystemEntries(path: string, searchPattern: string): IEnumerable_1<System_Internal.String>;
+    static enumerateFileSystemEntries(path: string): IEnumerable_1<System_Internal.String>;
     static exists(path: string): boolean;
     static getCreationTime(path: string): DateTime;
     static getCreationTimeUtc(path: string): DateTime;
@@ -1597,19 +1572,19 @@ export type Directory = Directory$instance;
 
 export abstract class File$instance {
     static appendAllBytes(path: string, bytes: byte[]): void;
-    static appendAllBytes(path: string, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    static appendAllBytes(path: string, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     static appendAllBytesAsync(path: string, bytes: byte[], cancellationToken?: CancellationToken): Task;
-    static appendAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): Task;
-    static appendAllLines(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
-    static appendAllLines(path: string, contents: IEnumerable_1<CLROf<string>>): void;
-    static appendAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static appendAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
-    static appendAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
-    static appendAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
+    static appendAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): Task;
+    static appendAllLines(path: string, contents: IEnumerable_1<System_Internal.String>, encoding: Encoding): void;
+    static appendAllLines(path: string, contents: IEnumerable_1<System_Internal.String>): void;
+    static appendAllLinesAsync(path: string, contents: IEnumerable_1<System_Internal.String>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static appendAllLinesAsync(path: string, contents: IEnumerable_1<System_Internal.String>, cancellationToken?: CancellationToken): Task;
+    static appendAllText(path: string, contents: ReadOnlySpan_1<System_Internal.Char>, encoding: Encoding): void;
+    static appendAllText(path: string, contents: ReadOnlySpan_1<System_Internal.Char>): void;
     static appendAllText(path: string, contents: string, encoding: Encoding): void;
     static appendAllText(path: string, contents: string): void;
-    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<System_Internal.Char>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static appendAllTextAsync(path: string, contents: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     static appendAllTextAsync(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
     static appendAllTextAsync(path: string, contents: string, cancellationToken?: CancellationToken): Task;
     static appendText(path: string): StreamWriter;
@@ -1658,12 +1633,12 @@ export abstract class File$instance {
     static readAllLinesAsync(path: string, cancellationToken?: CancellationToken): Task_1<string[]>;
     static readAllText(path: string, encoding: Encoding): string;
     static readAllText(path: string): string;
-    static readAllTextAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
-    static readAllTextAsync(path: string, cancellationToken?: CancellationToken): Task_1<CLROf<string>>;
-    static readLines(path: string, encoding: Encoding): IEnumerable_1<CLROf<string>>;
-    static readLines(path: string): IEnumerable_1<CLROf<string>>;
-    static readLinesAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
-    static readLinesAsync(path: string, cancellationToken?: CancellationToken): IAsyncEnumerable_1<CLROf<string>>;
+    static readAllTextAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): Task_1<System_Internal.String>;
+    static readAllTextAsync(path: string, cancellationToken?: CancellationToken): Task_1<System_Internal.String>;
+    static readLines(path: string, encoding: Encoding): IEnumerable_1<System_Internal.String>;
+    static readLines(path: string): IEnumerable_1<System_Internal.String>;
+    static readLinesAsync(path: string, encoding: Encoding, cancellationToken?: CancellationToken): IAsyncEnumerable_1<System_Internal.String>;
+    static readLinesAsync(path: string, cancellationToken?: CancellationToken): IAsyncEnumerable_1<System_Internal.String>;
     static replace(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string, ignoreMetadataErrors: boolean): void;
     static replace(sourceFileName: string, destinationFileName: string, destinationBackupFileName: string): void;
     static resolveLinkTarget(linkPath: string, returnFinalTarget: boolean): FileSystemInfo;
@@ -1684,21 +1659,21 @@ export abstract class File$instance {
     static setUnixFileMode(fileHandle: SafeFileHandle, mode: UnixFileMode): void;
     static setUnixFileMode(path: string, mode: UnixFileMode): void;
     static writeAllBytes(path: string, bytes: byte[]): void;
-    static writeAllBytes(path: string, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    static writeAllBytes(path: string, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     static writeAllBytesAsync(path: string, bytes: byte[], cancellationToken?: CancellationToken): Task;
-    static writeAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): Task;
-    static writeAllLines(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding): void;
-    static writeAllLines(path: string, contents: IEnumerable_1<CLROf<string>>): void;
+    static writeAllBytesAsync(path: string, bytes: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): Task;
+    static writeAllLines(path: string, contents: IEnumerable_1<System_Internal.String>, encoding: Encoding): void;
+    static writeAllLines(path: string, contents: IEnumerable_1<System_Internal.String>): void;
     static writeAllLines(path: string, contents: string[], encoding: Encoding): void;
     static writeAllLines(path: string, contents: string[]): void;
-    static writeAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static writeAllLinesAsync(path: string, contents: IEnumerable_1<CLROf<string>>, cancellationToken?: CancellationToken): Task;
-    static writeAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>, encoding: Encoding): void;
-    static writeAllText(path: string, contents: ReadOnlySpan_1<CLROf<char>>): void;
+    static writeAllLinesAsync(path: string, contents: IEnumerable_1<System_Internal.String>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static writeAllLinesAsync(path: string, contents: IEnumerable_1<System_Internal.String>, cancellationToken?: CancellationToken): Task;
+    static writeAllText(path: string, contents: ReadOnlySpan_1<System_Internal.Char>, encoding: Encoding): void;
+    static writeAllText(path: string, contents: ReadOnlySpan_1<System_Internal.Char>): void;
     static writeAllText(path: string, contents: string, encoding: Encoding): void;
     static writeAllText(path: string, contents: string): void;
-    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
-    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<CLROf<char>>, cancellationToken?: CancellationToken): Task;
+    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<System_Internal.Char>, encoding: Encoding, cancellationToken?: CancellationToken): Task;
+    static writeAllTextAsync(path: string, contents: ReadOnlyMemory_1<System_Internal.Char>, cancellationToken?: CancellationToken): Task;
     static writeAllTextAsync(path: string, contents: string, encoding: Encoding, cancellationToken?: CancellationToken): Task;
     static writeAllTextAsync(path: string, contents: string, cancellationToken?: CancellationToken): Task;
 }
@@ -1730,50 +1705,50 @@ export abstract class Path$instance {
     static readonly pathSeparator: char;
     static readonly invalidPathChars: char[];
     static changeExtension(path: string, extension: string): string;
-    static combine(paths: ReadOnlySpan_1<CLROf<string>>): string;
+    static combine(paths: ReadOnlySpan_1<System_Internal.String>): string;
     static combine(path1: string, path2: string, path3: string, path4: string): string;
     static combine(path1: string, path2: string, path3: string): string;
     static combine(path1: string, path2: string): string;
     static combine(...paths: string[]): string;
-    static endsInDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static endsInDirectorySeparator(path: ReadOnlySpan_1<System_Internal.Char>): boolean;
     static endsInDirectorySeparator(path: string): boolean;
     static exists(path: string): boolean;
-    static getDirectoryName(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getDirectoryName(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static getDirectoryName(path: string): string;
-    static getExtension(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getExtension(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static getExtension(path: string): string;
-    static getFileName(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getFileName(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static getFileName(path: string): string;
-    static getFileNameWithoutExtension(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getFileNameWithoutExtension(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static getFileNameWithoutExtension(path: string): string;
     static getFullPath(path: string, basePath: string): string;
     static getFullPath(path: string): string;
     static getInvalidFileNameChars(): char[];
     static getInvalidPathChars(): char[];
-    static getPathRoot(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static getPathRoot(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static getPathRoot(path: string): string;
     static getRandomFileName(): string;
     static getRelativePath(relativeTo: string, path: string): string;
     static getTempFileName(): string;
     static getTempPath(): string;
-    static hasExtension(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static hasExtension(path: ReadOnlySpan_1<System_Internal.Char>): boolean;
     static hasExtension(path: string): boolean;
-    static isPathFullyQualified(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isPathFullyQualified(path: ReadOnlySpan_1<System_Internal.Char>): boolean;
     static isPathFullyQualified(path: string): boolean;
-    static isPathRooted(path: ReadOnlySpan_1<CLROf<char>>): boolean;
+    static isPathRooted(path: ReadOnlySpan_1<System_Internal.Char>): boolean;
     static isPathRooted(path: string): boolean;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, path4: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>): string;
-    static join(paths: ReadOnlySpan_1<CLROf<string>>): string;
+    static join(path1: ReadOnlySpan_1<System_Internal.Char>, path2: ReadOnlySpan_1<System_Internal.Char>, path3: ReadOnlySpan_1<System_Internal.Char>, path4: ReadOnlySpan_1<System_Internal.Char>): string;
+    static join(path1: ReadOnlySpan_1<System_Internal.Char>, path2: ReadOnlySpan_1<System_Internal.Char>, path3: ReadOnlySpan_1<System_Internal.Char>): string;
+    static join(path1: ReadOnlySpan_1<System_Internal.Char>, path2: ReadOnlySpan_1<System_Internal.Char>): string;
+    static join(paths: ReadOnlySpan_1<System_Internal.String>): string;
     static join(path1: string, path2: string, path3: string, path4: string): string;
     static join(path1: string, path2: string, path3: string): string;
     static join(path1: string, path2: string): string;
     static join(...paths: string[]): string;
-    static trimEndingDirectorySeparator(path: ReadOnlySpan_1<CLROf<char>>): ReadOnlySpan_1<CLROf<char>>;
+    static trimEndingDirectorySeparator(path: ReadOnlySpan_1<System_Internal.Char>): ReadOnlySpan_1<System_Internal.Char>;
     static trimEndingDirectorySeparator(path: string): string;
-    static tryJoin(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, path3: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
-    static tryJoin(path1: ReadOnlySpan_1<CLROf<char>>, path2: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<char>>, charsWritten: { value: ref<int> }): boolean;
+    static tryJoin(path1: ReadOnlySpan_1<System_Internal.Char>, path2: ReadOnlySpan_1<System_Internal.Char>, path3: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
+    static tryJoin(path1: ReadOnlySpan_1<System_Internal.Char>, path2: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
 }
 
 
@@ -1782,15 +1757,15 @@ export type Path = Path$instance;
 export abstract class RandomAccess$instance {
     static flushToDisk(handle: SafeFileHandle): void;
     static getLength(handle: SafeFileHandle): long;
-    static read(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long): long;
-    static read(handle: SafeFileHandle, buffer: Span_1<CLROf<byte>>, fileOffset: long): int;
-    static readAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<long>>;
-    static readAsync(handle: SafeFileHandle, buffer: Memory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    static read(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<System_Internal.Byte>>, fileOffset: long): long;
+    static read(handle: SafeFileHandle, buffer: Span_1<System_Internal.Byte>, fileOffset: long): int;
+    static readAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<Memory_1<System_Internal.Byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int64>;
+    static readAsync(handle: SafeFileHandle, buffer: Memory_1<System_Internal.Byte>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     static setLength(handle: SafeFileHandle, length: long): void;
-    static write(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long): void;
-    static write(handle: SafeFileHandle, buffer: ReadOnlySpan_1<CLROf<byte>>, fileOffset: long): void;
-    static writeAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<CLROf<byte>>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
-    static writeAsync(handle: SafeFileHandle, buffer: ReadOnlyMemory_1<CLROf<byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
+    static write(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<System_Internal.Byte>>, fileOffset: long): void;
+    static write(handle: SafeFileHandle, buffer: ReadOnlySpan_1<System_Internal.Byte>, fileOffset: long): void;
+    static writeAsync(handle: SafeFileHandle, buffers: IReadOnlyList_1<ReadOnlyMemory_1<System_Internal.Byte>>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
+    static writeAsync(handle: SafeFileHandle, buffer: ReadOnlyMemory_1<System_Internal.Byte>, fileOffset: long, cancellationToken?: CancellationToken): ValueTask;
 }
 
 

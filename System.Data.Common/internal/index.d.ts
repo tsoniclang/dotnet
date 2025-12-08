@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -30,31 +30,6 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import type { Transaction } from "../../System.Transactions/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, MarshalByRefObject, Nullable_1, Object as ClrObject, Single, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum CatalogLocation {
     start = 1,
@@ -284,7 +259,7 @@ export interface DbBatch$instance {
     dispose(): void;
     disposeAsync(): ValueTask;
     executeNonQuery(): int;
-    executeNonQueryAsync(cancellationToken?: CancellationToken): Task_1<CLROf<int>>;
+    executeNonQueryAsync(cancellationToken?: CancellationToken): Task_1<System_Internal.Int32>;
     executeReader(behavior?: CommandBehavior): DbDataReader;
     executeReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
@@ -356,29 +331,29 @@ export type DbBatchCommandCollection = DbBatchCommandCollection$instance & __DbB
 
 
 export interface DbColumn$instance {
-    readonly allowDBNull: Nullable_1<CLROf<boolean>>;
+    readonly allowDBNull: Nullable_1<System_Internal.Boolean>;
     readonly baseCatalogName: string;
     readonly baseColumnName: string;
     readonly baseSchemaName: string;
     readonly baseServerName: string;
     readonly baseTableName: string;
     readonly columnName: string;
-    readonly columnOrdinal: Nullable_1<CLROf<int>>;
-    readonly columnSize: Nullable_1<CLROf<int>>;
+    readonly columnOrdinal: Nullable_1<System_Internal.Int32>;
+    readonly columnSize: Nullable_1<System_Internal.Int32>;
     readonly dataType: Type;
     readonly dataTypeName: string;
-    readonly isAliased: Nullable_1<CLROf<boolean>>;
-    readonly isAutoIncrement: Nullable_1<CLROf<boolean>>;
-    readonly isExpression: Nullable_1<CLROf<boolean>>;
-    readonly isHidden: Nullable_1<CLROf<boolean>>;
-    readonly isIdentity: Nullable_1<CLROf<boolean>>;
-    readonly isKey: Nullable_1<CLROf<boolean>>;
-    readonly isLong: Nullable_1<CLROf<boolean>>;
-    readonly isReadOnly: Nullable_1<CLROf<boolean>>;
-    readonly isUnique: Nullable_1<CLROf<boolean>>;
+    readonly isAliased: Nullable_1<System_Internal.Boolean>;
+    readonly isAutoIncrement: Nullable_1<System_Internal.Boolean>;
+    readonly isExpression: Nullable_1<System_Internal.Boolean>;
+    readonly isHidden: Nullable_1<System_Internal.Boolean>;
+    readonly isIdentity: Nullable_1<System_Internal.Boolean>;
+    readonly isKey: Nullable_1<System_Internal.Boolean>;
+    readonly isLong: Nullable_1<System_Internal.Boolean>;
+    readonly isReadOnly: Nullable_1<System_Internal.Boolean>;
+    readonly isUnique: Nullable_1<System_Internal.Boolean>;
     readonly item: unknown;
-    readonly numericPrecision: Nullable_1<CLROf<int>>;
-    readonly numericScale: Nullable_1<CLROf<int>>;
+    readonly numericPrecision: Nullable_1<System_Internal.Int32>;
+    readonly numericScale: Nullable_1<System_Internal.Int32>;
     readonly udtAssemblyQualifiedName: string;
 }
 
@@ -403,8 +378,8 @@ export interface DbCommand$instance extends Component {
     dispose(): void;
     disposeAsync(): ValueTask;
     executeNonQuery(): int;
-    executeNonQueryAsync(): Task_1<CLROf<int>>;
-    executeNonQueryAsync(cancellationToken: CancellationToken): Task_1<CLROf<int>>;
+    executeNonQueryAsync(): Task_1<System_Internal.Int32>;
+    executeNonQueryAsync(cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
     executeReader(): DbDataReader;
     executeReader(behavior: CommandBehavior): DbDataReader;
     executeReaderAsync(): Task_1<DbDataReader>;
@@ -536,7 +511,7 @@ export interface DbConnectionStringBuilder$instance {
     remove(keyword: string): boolean;
     shouldSerialize(keyword: string): boolean;
     toString(): string;
-    tryGetValue(keyword: string, value: { value: ref<unknown> }): boolean;
+    tryGetValue(keyword: string, value: unknown): boolean;
 }
 
 
@@ -642,14 +617,14 @@ export interface DbDataReader$instance extends MarshalByRefObject {
     getValue(ordinal: int): unknown;
     getValues(values: unknown[]): int;
     isDBNull(ordinal: int): boolean;
-    isDBNullAsync(ordinal: int): Task_1<CLROf<boolean>>;
-    isDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    isDBNullAsync(ordinal: int): Task_1<System_Internal.Boolean>;
+    isDBNullAsync(ordinal: int, cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
     nextResult(): boolean;
-    nextResultAsync(): Task_1<CLROf<boolean>>;
-    nextResultAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    nextResultAsync(): Task_1<System_Internal.Boolean>;
+    nextResultAsync(cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
     read(): boolean;
-    readAsync(): Task_1<CLROf<boolean>>;
-    readAsync(cancellationToken: CancellationToken): Task_1<CLROf<boolean>>;
+    readAsync(): Task_1<System_Internal.Boolean>;
+    readAsync(cancellationToken: CancellationToken): Task_1<System_Internal.Boolean>;
 }
 
 
@@ -1042,11 +1017,11 @@ export abstract class DbProviderFactories$instance {
     static getFactory(providerRow: DataRow): DbProviderFactory;
     static getFactory(providerInvariantName: string): DbProviderFactory;
     static getFactoryClasses(): DataTable;
-    static getProviderInvariantNames(): IEnumerable_1<CLROf<string>>;
+    static getProviderInvariantNames(): IEnumerable_1<System_Internal.String>;
     static registerFactory(providerInvariantName: string, factory: DbProviderFactory): void;
     static registerFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
     static registerFactory(providerInvariantName: string, providerFactoryClass: Type): void;
-    static tryGetFactory(providerInvariantName: string, factory: { value: ref<DbProviderFactory> }): boolean;
+    static tryGetFactory(providerInvariantName: string, factory: DbProviderFactory): boolean;
     static unregisterFactory(providerInvariantName: string): boolean;
 }
 

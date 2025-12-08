@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { IBufferWriter_1, ReadOnlySequence_1 } from "../../System.Buffers/internal/index.js";
@@ -27,31 +27,6 @@ import type { Task, Task_1, ValueTask, ValueTask_1 } from "../../System.Threadin
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Double, Enum, Exception, Guid, IAsyncDisposable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, SequencePosition, Single, Span_1, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum JsonCommentHandling {
     disallow = 0,
@@ -129,8 +104,8 @@ export interface JsonElement$instance {
     getInt32(): int;
     getInt64(): long;
     getProperty(propertyName: string): JsonElement;
-    getProperty(propertyName: ReadOnlySpan_1<CLROf<char>>): JsonElement;
-    getProperty(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>): JsonElement;
+    getProperty(propertyName: ReadOnlySpan_1<System_Internal.Char>): JsonElement;
+    getProperty(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): JsonElement;
     getPropertyCount(): int;
     getRawText(): string;
     getSByte(): sbyte;
@@ -140,27 +115,27 @@ export interface JsonElement$instance {
     getUInt32(): uint;
     getUInt64(): ulong;
     toString(): string;
-    tryGetByte(value: { value: ref<byte> }): boolean;
-    tryGetBytesFromBase64(value: { value: ref<byte[]> }): boolean;
-    tryGetDateTime(value: { value: ref<DateTime> }): boolean;
-    tryGetDateTimeOffset(value: { value: ref<DateTimeOffset> }): boolean;
-    tryGetDecimal(value: { value: ref<decimal> }): boolean;
-    tryGetDouble(value: { value: ref<double> }): boolean;
-    tryGetGuid(value: { value: ref<Guid> }): boolean;
-    tryGetInt16(value: { value: ref<short> }): boolean;
-    tryGetInt32(value: { value: ref<int> }): boolean;
-    tryGetInt64(value: { value: ref<long> }): boolean;
-    tryGetProperty(propertyName: string, value: { value: ref<JsonElement> }): boolean;
-    tryGetProperty(propertyName: ReadOnlySpan_1<CLROf<char>>, value: { value: ref<JsonElement> }): boolean;
-    tryGetProperty(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: { value: ref<JsonElement> }): boolean;
-    tryGetSByte(value: { value: ref<sbyte> }): boolean;
-    tryGetSingle(value: { value: ref<float> }): boolean;
-    tryGetUInt16(value: { value: ref<ushort> }): boolean;
-    tryGetUInt32(value: { value: ref<uint> }): boolean;
-    tryGetUInt64(value: { value: ref<ulong> }): boolean;
+    tryGetByte(value: byte): boolean;
+    tryGetBytesFromBase64(value: byte[]): boolean;
+    tryGetDateTime(value: DateTime): boolean;
+    tryGetDateTimeOffset(value: DateTimeOffset): boolean;
+    tryGetDecimal(value: decimal): boolean;
+    tryGetDouble(value: double): boolean;
+    tryGetGuid(value: Guid): boolean;
+    tryGetInt16(value: short): boolean;
+    tryGetInt32(value: int): boolean;
+    tryGetInt64(value: long): boolean;
+    tryGetProperty(propertyName: string, value: JsonElement): boolean;
+    tryGetProperty(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: JsonElement): boolean;
+    tryGetProperty(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: JsonElement): boolean;
+    tryGetSByte(value: sbyte): boolean;
+    tryGetSingle(value: float): boolean;
+    tryGetUInt16(value: ushort): boolean;
+    tryGetUInt32(value: uint): boolean;
+    tryGetUInt64(value: ulong): boolean;
     valueEquals(text: string): boolean;
-    valueEquals(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    valueEquals(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    valueEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    valueEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     writeTo(writer: Utf8JsonWriter): void;
 }
 
@@ -168,11 +143,11 @@ export interface JsonElement$instance {
 export const JsonElement: {
     new(): JsonElement$instance;
     deepEquals(element1: JsonElement, element2: JsonElement): boolean;
-    parse(utf8Json: ReadOnlySpan_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonElement;
-    parse(json: ReadOnlySpan_1<CLROf<char>>, options?: JsonDocumentOptions): JsonElement;
+    parse(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, options?: JsonDocumentOptions): JsonElement;
+    parse(json: ReadOnlySpan_1<System_Internal.Char>, options?: JsonDocumentOptions): JsonElement;
     parse(json: string, options?: JsonDocumentOptions): JsonElement;
-    parseValue(reader: { value: ref<Utf8JsonReader> }): JsonElement;
-    tryParseValue(reader: { value: ref<Utf8JsonReader> }, element: { value: ref<Nullable_1<JsonElement>> }): boolean;
+    parseValue(reader: Utf8JsonReader): JsonElement;
+    tryParseValue(reader: Utf8JsonReader, element: Nullable_1<JsonElement>): boolean;
 };
 
 
@@ -227,7 +202,7 @@ export type JsonElement_ObjectEnumerator = JsonElement_ObjectEnumerator$instance
 
 
 export interface JsonEncodedText$instance {
-    readonly encodedUtf8Bytes: ReadOnlySpan_1<CLROf<byte>>;
+    readonly encodedUtf8Bytes: ReadOnlySpan_1<System_Internal.Byte>;
     readonly value: string;
     equals(other: JsonEncodedText): boolean;
     equals(obj: unknown): boolean;
@@ -238,8 +213,8 @@ export interface JsonEncodedText$instance {
 
 export const JsonEncodedText: {
     new(): JsonEncodedText$instance;
-    encode(utf8Value: ReadOnlySpan_1<CLROf<byte>>, encoder?: JavaScriptEncoder): JsonEncodedText;
-    encode(value: ReadOnlySpan_1<CLROf<char>>, encoder?: JavaScriptEncoder): JsonEncodedText;
+    encode(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, encoder?: JavaScriptEncoder): JsonEncodedText;
+    encode(value: ReadOnlySpan_1<System_Internal.Char>, encoder?: JavaScriptEncoder): JsonEncodedText;
     encode(value: string, encoder?: JavaScriptEncoder): JsonEncodedText;
 };
 
@@ -258,8 +233,8 @@ export interface JsonProperty$instance {
     readonly name: string;
     readonly value: JsonElement;
     nameEquals(text: string): boolean;
-    nameEquals(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
-    nameEquals(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    nameEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
+    nameEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     toString(): string;
     writeTo(writer: Utf8JsonWriter): void;
 }
@@ -327,10 +302,10 @@ export interface Utf8JsonReader$instance {
     readonly tokenStartIndex: long;
     readonly tokenType: JsonTokenType;
     readonly valueIsEscaped: boolean;
-    readonly valueSequence: ReadOnlySequence_1<CLROf<byte>>;
-    readonly valueSpan: ReadOnlySpan_1<CLROf<byte>>;
-    copyString(utf8Destination: Span_1<CLROf<byte>>): int;
-    copyString(destination: Span_1<CLROf<char>>): int;
+    readonly valueSequence: ReadOnlySequence_1<System_Internal.Byte>;
+    readonly valueSpan: ReadOnlySpan_1<System_Internal.Byte>;
+    copyString(utf8Destination: Span_1<System_Internal.Byte>): int;
+    copyString(destination: Span_1<System_Internal.Char>): int;
     getBoolean(): boolean;
     getByte(): byte;
     getBytesFromBase64(): byte[];
@@ -351,33 +326,33 @@ export interface Utf8JsonReader$instance {
     getUInt64(): ulong;
     read(): boolean;
     skip(): void;
-    tryGetByte(value: { value: ref<byte> }): boolean;
-    tryGetBytesFromBase64(value: { value: ref<byte[]> }): boolean;
-    tryGetDateTime(value: { value: ref<DateTime> }): boolean;
-    tryGetDateTimeOffset(value: { value: ref<DateTimeOffset> }): boolean;
-    tryGetDecimal(value: { value: ref<decimal> }): boolean;
-    tryGetDouble(value: { value: ref<double> }): boolean;
-    tryGetGuid(value: { value: ref<Guid> }): boolean;
-    tryGetInt16(value: { value: ref<short> }): boolean;
-    tryGetInt32(value: { value: ref<int> }): boolean;
-    tryGetInt64(value: { value: ref<long> }): boolean;
-    tryGetSByte(value: { value: ref<sbyte> }): boolean;
-    tryGetSingle(value: { value: ref<float> }): boolean;
-    tryGetUInt16(value: { value: ref<ushort> }): boolean;
-    tryGetUInt32(value: { value: ref<uint> }): boolean;
-    tryGetUInt64(value: { value: ref<ulong> }): boolean;
+    tryGetByte(value: byte): boolean;
+    tryGetBytesFromBase64(value: byte[]): boolean;
+    tryGetDateTime(value: DateTime): boolean;
+    tryGetDateTimeOffset(value: DateTimeOffset): boolean;
+    tryGetDecimal(value: decimal): boolean;
+    tryGetDouble(value: double): boolean;
+    tryGetGuid(value: Guid): boolean;
+    tryGetInt16(value: short): boolean;
+    tryGetInt32(value: int): boolean;
+    tryGetInt64(value: long): boolean;
+    tryGetSByte(value: sbyte): boolean;
+    tryGetSingle(value: float): boolean;
+    tryGetUInt16(value: ushort): boolean;
+    tryGetUInt32(value: uint): boolean;
+    tryGetUInt64(value: ulong): boolean;
     trySkip(): boolean;
-    valueTextEquals(utf8Text: ReadOnlySpan_1<CLROf<byte>>): boolean;
+    valueTextEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     valueTextEquals(text: string): boolean;
-    valueTextEquals(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    valueTextEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
 }
 
 
 export const Utf8JsonReader: {
-    new(jsonData: ReadOnlySpan_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
-    new(jsonData: ReadOnlySpan_1<CLROf<byte>>, options: JsonReaderOptions): Utf8JsonReader$instance;
-    new(jsonData: ReadOnlySequence_1<CLROf<byte>>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
-    new(jsonData: ReadOnlySequence_1<CLROf<byte>>, options: JsonReaderOptions): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySpan_1<System_Internal.Byte>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySpan_1<System_Internal.Byte>, options: JsonReaderOptions): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySequence_1<System_Internal.Byte>, isFinalBlock: boolean, state: JsonReaderState): Utf8JsonReader$instance;
+    new(jsonData: ReadOnlySequence_1<System_Internal.Byte>, options: JsonReaderOptions): Utf8JsonReader$instance;
 };
 
 
@@ -392,14 +367,14 @@ export interface JsonDocument$instance {
 
 export const JsonDocument: {
     new(): JsonDocument$instance;
-    parse(utf8Json: ReadOnlySequence_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
+    parse(utf8Json: ReadOnlySequence_1<System_Internal.Byte>, options?: JsonDocumentOptions): JsonDocument;
     parse(utf8Json: Stream, options?: JsonDocumentOptions): JsonDocument;
-    parse(utf8Json: ReadOnlyMemory_1<CLROf<byte>>, options?: JsonDocumentOptions): JsonDocument;
-    parse(json: ReadOnlyMemory_1<CLROf<char>>, options?: JsonDocumentOptions): JsonDocument;
+    parse(utf8Json: ReadOnlyMemory_1<System_Internal.Byte>, options?: JsonDocumentOptions): JsonDocument;
+    parse(json: ReadOnlyMemory_1<System_Internal.Char>, options?: JsonDocumentOptions): JsonDocument;
     parse(json: string, options?: JsonDocumentOptions): JsonDocument;
     parseAsync(utf8Json: Stream, options?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonDocument>;
-    parseValue(reader: { value: ref<Utf8JsonReader> }): JsonDocument;
-    tryParseValue(reader: { value: ref<Utf8JsonReader> }, document: { value: ref<JsonDocument> }): boolean;
+    parseValue(reader: Utf8JsonReader): JsonDocument;
+    tryParseValue(reader: Utf8JsonReader, document: JsonDocument): boolean;
 };
 
 
@@ -413,8 +388,8 @@ export type JsonDocument = JsonDocument$instance & __JsonDocument$views;
 
 
 export interface JsonException$instance extends Exception {
-    readonly bytePositionInLine: Nullable_1<CLROf<long>>;
-    readonly lineNumber: Nullable_1<CLROf<long>>;
+    readonly bytePositionInLine: Nullable_1<System_Internal.Int64>;
+    readonly lineNumber: Nullable_1<System_Internal.Int64>;
     readonly message: string;
     readonly path: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -422,8 +397,8 @@ export interface JsonException$instance extends Exception {
 
 
 export const JsonException: {
-    new(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>, innerException: Exception): JsonException$instance;
-    new(message: string, path: string, lineNumber: Nullable_1<CLROf<long>>, bytePositionInLine: Nullable_1<CLROf<long>>): JsonException$instance;
+    new(message: string, path: string, lineNumber: Nullable_1<System_Internal.Int64>, bytePositionInLine: Nullable_1<System_Internal.Int64>, innerException: Exception): JsonException$instance;
+    new(message: string, path: string, lineNumber: Nullable_1<System_Internal.Int64>, bytePositionInLine: Nullable_1<System_Internal.Int64>): JsonException$instance;
     new(message: string, innerException: Exception): JsonException$instance;
     new(message: string): JsonException$instance;
     new(): JsonException$instance;
@@ -489,7 +464,7 @@ export interface JsonSerializerOptions$instance {
     getTypeInfo(type_: Type): JsonTypeInfo;
     makeReadOnly(): void;
     makeReadOnly(populateMissingResolver: boolean): void;
-    tryGetTypeInfo(type_: Type, typeInfo: { value: ref<JsonTypeInfo> }): boolean;
+    tryGetTypeInfo(type_: Type, typeInfo: JsonTypeInfo): boolean;
 }
 
 
@@ -516,56 +491,56 @@ export interface Utf8JsonWriter$instance {
     flushAsync(cancellationToken?: CancellationToken): Task;
     reset(): void;
     reset(utf8Json: Stream): void;
-    reset(bufferWriter: IBufferWriter_1<CLROf<byte>>): void;
-    writeBase64String(propertyName: JsonEncodedText, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeBase64String(propertyName: string, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeBase64String(propertyName: ReadOnlySpan_1<CLROf<char>>, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeBase64String(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, bytes: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeBase64StringSegment(value: ReadOnlySpan_1<CLROf<byte>>, isFinalSegment: boolean): void;
-    writeBase64StringValue(bytes: ReadOnlySpan_1<CLROf<byte>>): void;
+    reset(bufferWriter: IBufferWriter_1<System_Internal.Byte>): void;
+    writeBase64String(propertyName: JsonEncodedText, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeBase64String(propertyName: string, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeBase64String(propertyName: ReadOnlySpan_1<System_Internal.Char>, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeBase64String(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeBase64StringSegment(value: ReadOnlySpan_1<System_Internal.Byte>, isFinalSegment: boolean): void;
+    writeBase64StringValue(bytes: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeBoolean(propertyName: JsonEncodedText, value: boolean): void;
     writeBoolean(propertyName: string, value: boolean): void;
-    writeBoolean(propertyName: ReadOnlySpan_1<CLROf<char>>, value: boolean): void;
-    writeBoolean(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: boolean): void;
+    writeBoolean(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: boolean): void;
+    writeBoolean(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: boolean): void;
     writeBooleanValue(value: boolean): void;
     writeCommentValue(value: string): void;
-    writeCommentValue(value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeCommentValue(utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeCommentValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeCommentValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeEndArray(): void;
     writeEndObject(): void;
     writeNull(propertyName: JsonEncodedText): void;
     writeNull(propertyName: string): void;
-    writeNull(propertyName: ReadOnlySpan_1<CLROf<char>>): void;
-    writeNull(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeNull(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeNull(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeNullValue(): void;
     writeNumber(propertyName: JsonEncodedText, value: decimal): void;
     writeNumber(propertyName: string, value: decimal): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: decimal): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: decimal): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: decimal): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: decimal): void;
     writeNumber(propertyName: JsonEncodedText, value: double): void;
     writeNumber(propertyName: string, value: double): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: double): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: double): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: double): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: double): void;
     writeNumber(propertyName: JsonEncodedText, value: float): void;
     writeNumber(propertyName: string, value: float): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: float): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: float): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: float): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: float): void;
     writeNumber(propertyName: JsonEncodedText, value: long): void;
     writeNumber(propertyName: string, value: long): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: long): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: long): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: long): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: long): void;
     writeNumber(propertyName: JsonEncodedText, value: int): void;
     writeNumber(propertyName: string, value: int): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: int): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: int): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: int): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: int): void;
     writeNumber(propertyName: JsonEncodedText, value: ulong): void;
     writeNumber(propertyName: string, value: ulong): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: ulong): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: ulong): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ulong): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ulong): void;
     writeNumber(propertyName: JsonEncodedText, value: uint): void;
     writeNumber(propertyName: string, value: uint): void;
-    writeNumber(propertyName: ReadOnlySpan_1<CLROf<char>>, value: uint): void;
-    writeNumber(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: uint): void;
+    writeNumber(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: uint): void;
+    writeNumber(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: uint): void;
     writeNumberValue(value: decimal): void;
     writeNumberValue(value: double): void;
     writeNumberValue(value: float): void;
@@ -575,64 +550,64 @@ export interface Utf8JsonWriter$instance {
     writeNumberValue(value: ulong): void;
     writePropertyName(propertyName: JsonEncodedText): void;
     writePropertyName(propertyName: string): void;
-    writePropertyName(propertyName: ReadOnlySpan_1<CLROf<char>>): void;
-    writePropertyName(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>): void;
+    writePropertyName(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
+    writePropertyName(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeRawValue(json: string, skipInputValidation?: boolean): void;
-    writeRawValue(json: ReadOnlySpan_1<CLROf<char>>, skipInputValidation?: boolean): void;
-    writeRawValue(utf8Json: ReadOnlySpan_1<CLROf<byte>>, skipInputValidation?: boolean): void;
-    writeRawValue(utf8Json: ReadOnlySequence_1<CLROf<byte>>, skipInputValidation?: boolean): void;
+    writeRawValue(json: ReadOnlySpan_1<System_Internal.Char>, skipInputValidation?: boolean): void;
+    writeRawValue(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, skipInputValidation?: boolean): void;
+    writeRawValue(utf8Json: ReadOnlySequence_1<System_Internal.Byte>, skipInputValidation?: boolean): void;
     writeStartArray(): void;
     writeStartArray(propertyName: JsonEncodedText): void;
-    writeStartArray(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeStartArray(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeStartArray(propertyName: string): void;
-    writeStartArray(propertyName: ReadOnlySpan_1<CLROf<char>>): void;
+    writeStartArray(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
     writeStartObject(): void;
     writeStartObject(propertyName: JsonEncodedText): void;
-    writeStartObject(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeStartObject(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeStartObject(propertyName: string): void;
-    writeStartObject(propertyName: ReadOnlySpan_1<CLROf<char>>): void;
+    writeStartObject(propertyName: ReadOnlySpan_1<System_Internal.Char>): void;
     writeString(propertyName: JsonEncodedText, value: DateTime): void;
     writeString(propertyName: string, value: DateTime): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: DateTime): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: DateTime): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTime): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTime): void;
     writeString(propertyName: JsonEncodedText, value: DateTimeOffset): void;
     writeString(propertyName: string, value: DateTimeOffset): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: DateTimeOffset): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: DateTimeOffset): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: DateTimeOffset): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: DateTimeOffset): void;
     writeString(propertyName: JsonEncodedText, value: Guid): void;
     writeString(propertyName: string, value: Guid): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: Guid): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: Guid): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: Guid): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: Guid): void;
     writeString(propertyName: JsonEncodedText, value: JsonEncodedText): void;
     writeString(propertyName: string, value: JsonEncodedText): void;
     writeString(propertyName: string, value: string): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeString(propertyName: JsonEncodedText, value: string): void;
-    writeString(propertyName: JsonEncodedText, value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeString(propertyName: string, value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeString(propertyName: JsonEncodedText, utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeString(propertyName: string, utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: JsonEncodedText): void;
-    writeString(propertyName: ReadOnlySpan_1<CLROf<char>>, value: string): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: JsonEncodedText): void;
-    writeString(utf8PropertyName: ReadOnlySpan_1<CLROf<byte>>, value: string): void;
+    writeString(propertyName: JsonEncodedText, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeString(propertyName: string, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeString(propertyName: JsonEncodedText, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeString(propertyName: string, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: JsonEncodedText): void;
+    writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: string): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: JsonEncodedText): void;
+    writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: string): void;
     writeStringValue(value: DateTime): void;
     writeStringValue(value: DateTimeOffset): void;
     writeStringValue(value: Guid): void;
     writeStringValue(value: JsonEncodedText): void;
     writeStringValue(value: string): void;
-    writeStringValue(value: ReadOnlySpan_1<CLROf<char>>): void;
-    writeStringValue(utf8Value: ReadOnlySpan_1<CLROf<byte>>): void;
-    writeStringValueSegment(value: ReadOnlySpan_1<CLROf<char>>, isFinalSegment: boolean): void;
-    writeStringValueSegment(value: ReadOnlySpan_1<CLROf<byte>>, isFinalSegment: boolean): void;
+    writeStringValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
+    writeStringValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
+    writeStringValueSegment(value: ReadOnlySpan_1<System_Internal.Char>, isFinalSegment: boolean): void;
+    writeStringValueSegment(value: ReadOnlySpan_1<System_Internal.Byte>, isFinalSegment: boolean): void;
 }
 
 
 export const Utf8JsonWriter: {
-    new(bufferWriter: IBufferWriter_1<CLROf<byte>>, options: JsonWriterOptions): Utf8JsonWriter$instance;
+    new(bufferWriter: IBufferWriter_1<System_Internal.Byte>, options: JsonWriterOptions): Utf8JsonWriter$instance;
     new(utf8Json: Stream, options: JsonWriterOptions): Utf8JsonWriter$instance;
 };
 
@@ -654,16 +629,16 @@ export abstract class JsonSerializer$instance {
     static deserialize(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo): unknown;
     static deserialize(utf8Json: Stream, returnType: Type, options?: JsonSerializerOptions): unknown;
     static deserialize(utf8Json: Stream, returnType: Type, context: JsonSerializerContext): unknown;
-    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<CLROf<byte>>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<CLROf<byte>>, options?: JsonSerializerOptions): TValue;
-    static deserialize(utf8Json: ReadOnlySpan_1<CLROf<byte>>, jsonTypeInfo: JsonTypeInfo): unknown;
-    static deserialize(utf8Json: ReadOnlySpan_1<CLROf<byte>>, returnType: Type, options?: JsonSerializerOptions): unknown;
-    static deserialize(utf8Json: ReadOnlySpan_1<CLROf<byte>>, returnType: Type, context: JsonSerializerContext): unknown;
-    static deserialize<TValue>(json: ReadOnlySpan_1<CLROf<char>>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(json: ReadOnlySpan_1<CLROf<char>>, options?: JsonSerializerOptions): TValue;
-    static deserialize(json: ReadOnlySpan_1<CLROf<char>>, jsonTypeInfo: JsonTypeInfo): unknown;
-    static deserialize(json: ReadOnlySpan_1<CLROf<char>>, returnType: Type, options?: JsonSerializerOptions): unknown;
-    static deserialize(json: ReadOnlySpan_1<CLROf<char>>, returnType: Type, context: JsonSerializerContext): unknown;
+    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
+    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, options?: JsonSerializerOptions): TValue;
+    static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, jsonTypeInfo: JsonTypeInfo): unknown;
+    static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, returnType: Type, context: JsonSerializerContext): unknown;
+    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
+    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, options?: JsonSerializerOptions): TValue;
+    static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, jsonTypeInfo: JsonTypeInfo): unknown;
+    static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, returnType: Type, context: JsonSerializerContext): unknown;
     static deserialize<TValue>(json: string, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
     static deserialize<TValue>(json: string, options?: JsonSerializerOptions): TValue;
     static deserialize(json: string, jsonTypeInfo: JsonTypeInfo): unknown;
@@ -684,11 +659,11 @@ export abstract class JsonSerializer$instance {
     static deserialize(node: JsonNode, jsonTypeInfo: JsonTypeInfo): unknown;
     static deserialize(node: JsonNode, returnType: Type, options?: JsonSerializerOptions): unknown;
     static deserialize(node: JsonNode, returnType: Type, context: JsonSerializerContext): unknown;
-    static deserialize<TValue>(reader: { value: ref<Utf8JsonReader> }, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(reader: { value: ref<Utf8JsonReader> }, options?: JsonSerializerOptions): TValue;
-    static deserialize(reader: { value: ref<Utf8JsonReader> }, jsonTypeInfo: JsonTypeInfo): unknown;
-    static deserialize(reader: { value: ref<Utf8JsonReader> }, returnType: Type, options?: JsonSerializerOptions): unknown;
-    static deserialize(reader: { value: ref<Utf8JsonReader> }, returnType: Type, context: JsonSerializerContext): unknown;
+    static deserialize<TValue>(reader: Utf8JsonReader, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
+    static deserialize<TValue>(reader: Utf8JsonReader, options?: JsonSerializerOptions): TValue;
+    static deserialize(reader: Utf8JsonReader, jsonTypeInfo: JsonTypeInfo): unknown;
+    static deserialize(reader: Utf8JsonReader, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(reader: Utf8JsonReader, returnType: Type, context: JsonSerializerContext): unknown;
     static deserializeAsync<TValue>(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
     static deserializeAsync<TValue>(utf8Json: PipeReader, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
     static deserializeAsync(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo, cancellationToken?: CancellationToken): ValueTask_1<unknown>;

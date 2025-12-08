@@ -26,31 +26,6 @@ import type { CancellationToken } from "../../System.Threading/internal/index.js
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
 
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
-
 export enum WebSocketCloseStatus {
     normalClosure = 1000,
     endpointUnavailable = 1001,
@@ -121,7 +96,7 @@ export type ValueWebSocketReceiveResult = ValueWebSocketReceiveResult$instance;
 export interface ClientWebSocket$instance extends WebSocket$instance {
     readonly closeStatus: Nullable_1<WebSocketCloseStatus>;
     readonly closeStatusDescription: string;
-    httpResponseHeaders: IReadOnlyDictionary_2<CLROf<string>, IEnumerable_1<CLROf<string>>>;
+    httpResponseHeaders: IReadOnlyDictionary_2<System_Internal.String, IEnumerable_1<System_Internal.String>>;
     readonly httpStatusCode: HttpStatusCode;
     readonly options: ClientWebSocketOptions;
     readonly state: WebSocketState;
@@ -132,14 +107,14 @@ export interface ClientWebSocket$instance extends WebSocket$instance {
     connectAsync(uri: Uri, cancellationToken: CancellationToken): Task;
     connectAsync(uri: Uri, invoker: HttpMessageInvoker, cancellationToken: CancellationToken): Task;
     dispose(): void;
-    receiveAsync(buffer: ArraySegment_1<CLROf<byte>>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
-    receiveAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
-    receiveAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
-    sendAsync(buffer: ArraySegment_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken: CancellationToken): ValueTask;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
+    receiveAsync(buffer: ArraySegment_1<System_Internal.Byte>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
+    receiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
+    receiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
+    sendAsync(buffer: ArraySegment_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken: CancellationToken): ValueTask;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -170,7 +145,7 @@ export interface ClientWebSocketOptions$instance {
     useDefaultCredentials: boolean;
     addSubProtocol(subProtocol: string): void;
     setBuffer(receiveBufferSize: int, sendBufferSize: int): void;
-    setBuffer(receiveBufferSize: int, sendBufferSize: int, buffer: ArraySegment_1<CLROf<byte>>): void;
+    setBuffer(receiveBufferSize: int, sendBufferSize: int, buffer: ArraySegment_1<System_Internal.Byte>): void;
     setRequestHeader(headerName: string, headerValue: string): void;
 }
 
@@ -191,7 +166,7 @@ export interface HttpListenerWebSocketContext$instance extends WebSocketContext 
     readonly origin: string;
     readonly requestUri: Uri;
     readonly secWebSocketKey: string;
-    readonly secWebSocketProtocols: IEnumerable_1<CLROf<string>>;
+    readonly secWebSocketProtocols: IEnumerable_1<System_Internal.String>;
     readonly secWebSocketVersion: string;
     readonly user: IPrincipal;
     readonly webSocket: WebSocket;
@@ -214,21 +189,21 @@ export interface WebSocket$instance {
     closeAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
     closeOutputAsync(closeStatus: WebSocketCloseStatus, statusDescription: string, cancellationToken: CancellationToken): Task;
     dispose(): void;
-    receiveAsync(buffer: ArraySegment_1<CLROf<byte>>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
-    receiveAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
-    sendAsync(buffer: ArraySegment_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
-    sendAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
+    receiveAsync(buffer: ArraySegment_1<System_Internal.Byte>, cancellationToken: CancellationToken): Task_1<WebSocketReceiveResult>;
+    receiveAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken: CancellationToken): ValueTask_1<ValueWebSocketReceiveResult>;
+    sendAsync(buffer: ArraySegment_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): Task;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, endOfMessage: boolean, cancellationToken: CancellationToken): ValueTask;
+    sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, messageType: WebSocketMessageType, messageFlags: WebSocketMessageFlags, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
 export const WebSocket: {
     readonly defaultKeepAliveInterval: TimeSpan;
-    createClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<CLROf<byte>>;
-    createClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<CLROf<byte>>): WebSocket;
+    createClientBuffer(receiveBufferSize: int, sendBufferSize: int): ArraySegment_1<System_Internal.Byte>;
+    createClientWebSocket(innerStream: Stream, subProtocol: string, receiveBufferSize: int, sendBufferSize: int, keepAliveInterval: TimeSpan, useZeroMaskingKey: boolean, internalBuffer: ArraySegment_1<System_Internal.Byte>): WebSocket;
     createFromStream(stream: Stream, isServer: boolean, subProtocol: string, keepAliveInterval: TimeSpan): WebSocket;
     createFromStream(stream: Stream, options: WebSocketCreationOptions): WebSocket;
-    createServerBuffer(receiveBufferSize: int): ArraySegment_1<CLROf<byte>>;
+    createServerBuffer(receiveBufferSize: int): ArraySegment_1<System_Internal.Byte>;
     isApplicationTargeting45(): boolean;
     registerPrefixes(): void;
 };
@@ -252,7 +227,7 @@ export interface WebSocketContext$instance {
     readonly origin: string;
     readonly requestUri: Uri;
     readonly secWebSocketKey: string;
-    readonly secWebSocketProtocols: IEnumerable_1<CLROf<string>>;
+    readonly secWebSocketProtocols: IEnumerable_1<System_Internal.String>;
     readonly secWebSocketVersion: string;
     readonly user: IPrincipal;
     readonly webSocket: WebSocket;
@@ -362,20 +337,20 @@ export interface WebSocketStream$instance extends Stream {
     flushAsync(cancellationToken: CancellationToken): Task;
     flushAsync(): Task;
     read(buffer: byte[], offset: int, count: int): int;
-    read(buffer: Span_1<CLROf<byte>>): int;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int): Task_1<CLROf<int>>;
-    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<CLROf<int>>;
-    readAsync(buffer: Memory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask_1<CLROf<int>>;
+    read(buffer: Span_1<System_Internal.Byte>): int;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int): Task_1<System_Internal.Int32>;
+    readAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task_1<System_Internal.Int32>;
+    readAsync(buffer: Memory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     seek(offset: long, origin: SeekOrigin): long;
     setLength(value: long): void;
     write(buffer: byte[], offset: int, count: int): void;
-    write(buffer: ReadOnlySpan_1<CLROf<byte>>): void;
+    write(buffer: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeAsync(buffer: byte[], offset: int, count: int, cancellationToken: CancellationToken): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
     writeAsync(buffer: byte[], offset: int, count: int): Task;
-    writeAsync(buffer: ReadOnlyMemory_1<CLROf<byte>>, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 }
 
 

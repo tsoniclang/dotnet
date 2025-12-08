@@ -16,31 +16,6 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Double, Enum, Exception, Func_2, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, IServiceProvider, ISpanFormattable, Nullable_1, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
-
 export enum DataType {
     custom = 0,
     dateTime = 1,
@@ -101,9 +76,9 @@ export interface AssociationAttribute$instance extends Attribute {
     isForeignKey: boolean;
     readonly name: string;
     readonly otherKey: string;
-    readonly otherKeyMembers: IEnumerable_1<CLROf<string>>;
+    readonly otherKeyMembers: IEnumerable_1<System_Internal.String>;
     readonly thisKey: string;
-    readonly thisKeyMembers: IEnumerable_1<CLROf<string>>;
+    readonly thisKeyMembers: IEnumerable_1<System_Internal.String>;
 }
 
 
@@ -220,12 +195,12 @@ export interface DisplayAttribute$instance extends Attribute {
     prompt: string;
     resourceType: Type;
     shortName: string;
-    getAutoGenerateField(): Nullable_1<CLROf<boolean>>;
-    getAutoGenerateFilter(): Nullable_1<CLROf<boolean>>;
+    getAutoGenerateField(): Nullable_1<System_Internal.Boolean>;
+    getAutoGenerateFilter(): Nullable_1<System_Internal.Boolean>;
     getDescription(): string;
     getGroupName(): string;
     getName(): string;
-    getOrder(): Nullable_1<CLROf<int>>;
+    getOrder(): Nullable_1<System_Internal.Int32>;
     getPrompt(): string;
     getShortName(): string;
 }
@@ -325,7 +300,7 @@ export const FileExtensionsAttribute: {
 export type FileExtensionsAttribute = FileExtensionsAttribute$instance;
 
 export interface FilterUIHintAttribute$instance extends Attribute {
-    readonly controlParameters: IDictionary_2<CLROf<string>, unknown>;
+    readonly controlParameters: IDictionary_2<System_Internal.String, unknown>;
     readonly filterUIHint: string;
     readonly presentationLayer: string;
     equals(obj: unknown): boolean;
@@ -511,7 +486,7 @@ export const TimestampAttribute: {
 export type TimestampAttribute = TimestampAttribute$instance;
 
 export interface UIHintAttribute$instance extends Attribute {
-    readonly controlParameters: IDictionary_2<CLROf<string>, unknown>;
+    readonly controlParameters: IDictionary_2<System_Internal.String, unknown>;
     readonly presentationLayer: string;
     readonly uiHint: string;
     equals(obj: unknown): boolean;
@@ -613,14 +588,14 @@ export type ValidationException = ValidationException$instance & __ValidationExc
 
 export interface ValidationResult$instance {
     errorMessage: string;
-    readonly memberNames: IEnumerable_1<CLROf<string>>;
+    readonly memberNames: IEnumerable_1<System_Internal.String>;
     toString(): string;
 }
 
 
 export const ValidationResult: {
     new(errorMessage: string): ValidationResult$instance;
-    new(errorMessage: string, memberNames: IEnumerable_1<CLROf<string>>): ValidationResult$instance;
+    new(errorMessage: string, memberNames: IEnumerable_1<System_Internal.String>): ValidationResult$instance;
     readonly success: ValidationResult;
 };
 

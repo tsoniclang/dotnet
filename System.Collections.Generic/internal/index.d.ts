@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { ReadOnlyCollection_1, ReadOnlyDictionary_2, ReadOnlySet_1 } from "../../System.Collections.ObjectModel/internal/index.js";
@@ -19,31 +19,6 @@ import type { ValueTask, ValueTask_1 } from "../../System.Threading.Tasks/intern
 import type { CancellationToken } from "../../System.Threading/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Array as ClrArray, Boolean as ClrBoolean, Byte, Comparison_1, Converter_2, Enum, Exception, Func_2, Func_3, IAsyncDisposable, IComparable_1, IDisposable, IEquatable_1, Int32, Nullable_1, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, SystemException, Type, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export interface IAlternateEqualityComparer_2$instance<TAlternate, T> {
     create(alternate: TAlternate): T;
@@ -64,7 +39,7 @@ export type IAsyncEnumerable_1<T> = IAsyncEnumerable_1$instance<T>;
 export interface IAsyncEnumerator_1$instance<T> extends IAsyncDisposable {
     readonly current: T;
     disposeAsync(): ValueTask;
-    moveNextAsync(): ValueTask_1<CLROf<boolean>>;
+    moveNextAsync(): ValueTask_1<System_Internal.Boolean>;
 }
 
 
@@ -108,7 +83,7 @@ export interface IDictionary_2$instance<TKey, TValue> extends ICollection_1<KeyV
     copyTo(array: KeyValuePair_2<TKey, TValue>[], arrayIndex: int): void;
     getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     getEnumerator(): IEnumerator;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
     getEnumerator2(): IEnumerator;
 }
 
@@ -180,7 +155,7 @@ export interface IReadOnlyDictionary_2$instance<TKey, TValue> extends IReadOnlyC
     containsKey(key: TKey): boolean;
     getEnumerator(): IEnumerator_1<KeyValuePair_2<TKey, TValue>>;
     getEnumerator(): IEnumerator;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
     getEnumerator2(): IEnumerator;
 }
 
@@ -233,10 +208,10 @@ export interface Dictionary_2_AlternateLookup_1$instance<TKey, TValue, TAlternat
     item: TValue;
     containsKey(key: TAlternateKey): boolean;
     remove(key: TAlternateKey): boolean;
-    remove(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
+    remove(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
     tryAdd(key: TAlternateKey, value: TValue): boolean;
-    tryGetValue(key: TAlternateKey, value: { value: ref<TValue> }): boolean;
-    tryGetValue(key: TAlternateKey, actualKey: { value: ref<TKey> }, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TAlternateKey, value: TValue): boolean;
+    tryGetValue(key: TAlternateKey, actualKey: TKey, value: TValue): boolean;
 }
 
 
@@ -316,7 +291,7 @@ export interface HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
     add(item: TAlternate): boolean;
     contains(item: TAlternate): boolean;
     remove(item: TAlternate): boolean;
-    tryGetValue(equalValue: TAlternate, actualValue: { value: ref<T> }): boolean;
+    tryGetValue(equalValue: TAlternate, actualValue: T): boolean;
 }
 
 
@@ -351,7 +326,7 @@ export type HashSet_1_Enumerator<T> = HashSet_1_Enumerator$instance<T> & __HashS
 export interface KeyValuePair_2$instance<TKey, TValue> {
     readonly key: TKey;
     readonly value: TValue;
-    deconstruct(key: { value: ref<TKey> }, value: { value: ref<TValue> }): void;
+    deconstruct(key: TKey, value: TValue): void;
     toString(): string;
 }
 
@@ -622,7 +597,7 @@ export interface __Stack_1_Enumerator$views<T> {
 export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_Enumerator$views<T>;
 
 
-export interface ByteEqualityComparer$instance extends EqualityComparer_1$instance<CLROf<byte>> {
+export interface ByteEqualityComparer$instance extends EqualityComparer_1$instance<System_Internal.Byte> {
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
@@ -634,7 +609,7 @@ export const ByteEqualityComparer: {
 
 
 export interface __ByteEqualityComparer$views {
-    As_IEqualityComparer_1(): IEqualityComparer_1$instance<CLROf<byte>>;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<System_Internal.Byte>;
     As_IEqualityComparer(): System_Collections_Internal.IEqualityComparer$instance;
 }
 
@@ -679,12 +654,12 @@ export interface Dictionary_2$instance<TKey, TValue> {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     onDeserialization(sender: unknown): void;
     remove(key: TKey): boolean;
-    remove(key: TKey, value: { value: ref<TValue> }): boolean;
+    remove(key: TKey, value: TValue): boolean;
     trimExcess(): void;
     trimExcess(capacity: int): void;
     tryAdd(key: TKey, value: TValue): boolean;
-    tryGetAlternateLookup<TAlternateKey>(lookup: { value: ref<Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>> }): boolean;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetAlternateLookup<TAlternateKey>(lookup: Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
 }
 
 
@@ -796,7 +771,7 @@ export interface EqualityComparer_1$instance<T> {
 
 export const EqualityComparer_1: {
     readonly default_: unknown;
-    create<T>(equals: Func_3<T, T, CLROf<boolean>>, getHashCode?: Func_2<T, CLROf<int>>): EqualityComparer_1<T>;
+    create<T>(equals: Func_3<T, T, System_Internal.Boolean>, getHashCode?: Func_2<T, System_Internal.Int32>): EqualityComparer_1<T>;
 };
 
 
@@ -875,8 +850,8 @@ export interface HashSet_1$instance<T> {
     symmetricExceptWith(other: IEnumerable_1<T>): void;
     trimExcess(): void;
     trimExcess(capacity: int): void;
-    tryGetAlternateLookup<TAlternate>(lookup: { value: ref<HashSet_1_AlternateLookup_1<T, TAlternate>> }): boolean;
-    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+    tryGetAlternateLookup<TAlternate>(lookup: HashSet_1_AlternateLookup_1<T, TAlternate>): boolean;
+    tryGetValue(equalValue: T, actualValue: T): boolean;
     unionWith(other: IEnumerable_1<T>): void;
 }
 
@@ -980,7 +955,7 @@ export interface LinkedListNode_1$instance<T> {
     readonly next: LinkedListNode_1<T>;
     readonly previous: LinkedListNode_1<T>;
     value: T;
-    readonly valueRef: ref<T>;
+    readonly valueRef: T;
 }
 
 
@@ -1069,18 +1044,18 @@ export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 export interface NonRandomizedStringEqualityComparer$instance {
     equals(x: string, y: string): boolean;
     getHashCode(obj: string): int;
-    getUnderlyingEqualityComparer(): IEqualityComparer_1<CLROf<string>>;
+    getUnderlyingEqualityComparer(): IEqualityComparer_1<System_Internal.String>;
 }
 
 
 export const NonRandomizedStringEqualityComparer: {
     new(): NonRandomizedStringEqualityComparer$instance;
-    getStringComparer(comparer: unknown): IEqualityComparer_1<CLROf<string>>;
+    getStringComparer(comparer: unknown): IEqualityComparer_1<System_Internal.String>;
 };
 
 
 export interface __NonRandomizedStringEqualityComparer$views {
-    As_IEqualityComparer_1(): IEqualityComparer_1$instance<CLROf<string>>;
+    As_IEqualityComparer_1(): IEqualityComparer_1$instance<System_Internal.String>;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
@@ -1192,16 +1167,16 @@ export interface OrderedDictionary_2$instance<TKey, TValue> {
     indexOf(key: TKey): int;
     insert(index: int, key: TKey, value: TValue): void;
     remove(key: TKey): boolean;
-    remove(key: TKey, value: { value: ref<TValue> }): boolean;
+    remove(key: TKey, value: TValue): boolean;
     removeAt(index: int): void;
     setAt(index: int, value: TValue): void;
     setAt(index: int, key: TKey, value: TValue): void;
     trimExcess(): void;
     trimExcess(capacity: int): void;
     tryAdd(key: TKey, value: TValue): boolean;
-    tryAdd(key: TKey, value: TValue, index: { value: ref<int> }): boolean;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }, index: { value: ref<int> }): boolean;
+    tryAdd(key: TKey, value: TValue, index: int): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
+    tryGetValue(key: TKey, value: TValue, index: int): boolean;
 }
 
 
@@ -1298,10 +1273,10 @@ export interface PriorityQueue_2$instance<TElement, TPriority> {
     enqueueRange(elements: IEnumerable_1<TElement>, priority: TPriority): void;
     ensureCapacity(capacity: int): int;
     peek(): TElement;
-    remove(element: TElement, removedElement: { value: ref<TElement> }, priority: { value: ref<TPriority> }, equalityComparer?: IEqualityComparer_1<TElement>): boolean;
+    remove(element: TElement, removedElement: TElement, priority: TPriority, equalityComparer?: IEqualityComparer_1<TElement>): boolean;
     trimExcess(): void;
-    tryDequeue(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
-    tryPeek(element: { value: ref<TElement> }, priority: { value: ref<TPriority> }): boolean;
+    tryDequeue(element: TElement, priority: TPriority): boolean;
+    tryPeek(element: TElement, priority: TPriority): boolean;
 }
 
 
@@ -1352,8 +1327,8 @@ export interface Queue_1$instance<T> {
     toArray(): T[];
     trimExcess(): void;
     trimExcess(capacity: int): void;
-    tryDequeue(result: { value: ref<T> }): boolean;
-    tryPeek(result: { value: ref<T> }): boolean;
+    tryDequeue(result: T): boolean;
+    tryPeek(result: T): boolean;
 }
 
 
@@ -1407,7 +1382,7 @@ export interface SortedDictionary_2$instance<TKey, TValue> {
     copyTo(array: KeyValuePair_2<TKey, TValue>[], index: int): void;
     getEnumerator(): SortedDictionary_2_Enumerator<TKey, TValue>;
     remove(key: TKey): boolean;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
 }
 
 
@@ -1520,7 +1495,7 @@ export interface SortedList_2$instance<TKey, TValue> {
     removeAt(index: int): void;
     setValueAtIndex(index: int, value: TValue): void;
     trimExcess(): void;
-    tryGetValue(key: TKey, value: { value: ref<TValue> }): boolean;
+    tryGetValue(key: TKey, value: TValue): boolean;
 }
 
 
@@ -1637,7 +1612,7 @@ export interface SortedSet_1$instance<T> {
     reverse(): IEnumerable_1<T>;
     setEquals(other: IEnumerable_1<T>): boolean;
     symmetricExceptWith(other: IEnumerable_1<T>): void;
-    tryGetValue(equalValue: T, actualValue: { value: ref<T> }): boolean;
+    tryGetValue(equalValue: T, actualValue: T): boolean;
     unionWith(other: IEnumerable_1<T>): void;
 }
 
@@ -1683,8 +1658,8 @@ export interface Stack_1$instance<T> {
     toArray(): T[];
     trimExcess(): void;
     trimExcess(capacity: int): void;
-    tryPeek(result: { value: ref<T> }): boolean;
-    tryPop(result: { value: ref<T> }): boolean;
+    tryPeek(result: T): boolean;
+    tryPop(result: T): boolean;
 }
 
 
@@ -1757,7 +1732,7 @@ export abstract class CollectionExtensions$instance {
     static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
     static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
     static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
-    static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: { value: ref<TValue> }): boolean;
+    static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
     static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
 }
 

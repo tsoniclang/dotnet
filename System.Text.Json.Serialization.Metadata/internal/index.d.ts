@@ -16,31 +16,6 @@ import type { JsonDocument, JsonElement, JsonSerializerOptions, Utf8JsonWriter }
 import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DateTimeOffset, Decimal, Double, Enum, Func_1, Func_2, Func_3, Guid, Half, IComparable, IConvertible, IFormatProvider, IFormattable, Int128, Int16, Int32, Int64, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, String as ClrString, TimeOnly, TimeSpan, Type, TypeCode, UInt128, UInt16, UInt32, UInt64, Uri, ValueType, Version, Void } from "../../System/internal/index.js";
 
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
-
 export enum JsonTypeInfoKind {
     none = 0,
     object_ = 1,
@@ -194,7 +169,7 @@ export interface JsonPropertyInfo$instance {
     order: int;
     readonly propertyType: Type;
     set_: Action_2<unknown, unknown>;
-    shouldSerialize: Func_3<unknown, unknown, CLROf<boolean>>;
+    shouldSerialize: Func_3<unknown, unknown, System_Internal.Boolean>;
 }
 
 
@@ -277,39 +252,39 @@ export const JsonTypeInfo_1: {
 export type JsonTypeInfo_1<T> = JsonTypeInfo_1$instance<T>;
 
 export abstract class JsonMetadataServices$instance {
-    static readonly booleanConverter: JsonConverter_1<CLROf<boolean>>;
+    static readonly booleanConverter: JsonConverter_1<System_Internal.Boolean>;
     static readonly byteArrayConverter: JsonConverter_1<byte[]>;
-    static readonly byteConverter: JsonConverter_1<CLROf<byte>>;
-    static readonly charConverter: JsonConverter_1<CLROf<char>>;
+    static readonly byteConverter: JsonConverter_1<System_Internal.Byte>;
+    static readonly charConverter: JsonConverter_1<System_Internal.Char>;
     static readonly dateTimeConverter: JsonConverter_1<DateTime>;
     static readonly dateTimeOffsetConverter: JsonConverter_1<DateTimeOffset>;
     static readonly dateOnlyConverter: JsonConverter_1<DateOnly>;
     static readonly timeOnlyConverter: JsonConverter_1<TimeOnly>;
-    static readonly decimalConverter: JsonConverter_1<CLROf<decimal>>;
-    static readonly doubleConverter: JsonConverter_1<CLROf<double>>;
+    static readonly decimalConverter: JsonConverter_1<System_Internal.Decimal>;
+    static readonly doubleConverter: JsonConverter_1<System_Internal.Double>;
     static readonly guidConverter: JsonConverter_1<Guid>;
-    static readonly int16Converter: JsonConverter_1<CLROf<short>>;
-    static readonly int32Converter: JsonConverter_1<CLROf<int>>;
-    static readonly int64Converter: JsonConverter_1<CLROf<long>>;
-    static readonly int128Converter: JsonConverter_1<CLROf<int128>>;
-    static readonly uInt128Converter: JsonConverter_1<CLROf<uint128>>;
+    static readonly int16Converter: JsonConverter_1<System_Internal.Int16>;
+    static readonly int32Converter: JsonConverter_1<System_Internal.Int32>;
+    static readonly int64Converter: JsonConverter_1<System_Internal.Int64>;
+    static readonly int128Converter: JsonConverter_1<System_Internal.Int128>;
+    static readonly uInt128Converter: JsonConverter_1<System_Internal.UInt128>;
     static readonly jsonArrayConverter: JsonConverter_1<JsonArray>;
     static readonly jsonElementConverter: JsonConverter_1<JsonElement>;
     static readonly jsonNodeConverter: JsonConverter_1<JsonNode>;
     static readonly jsonObjectConverter: JsonConverter_1<JsonObject>;
     static readonly jsonValueConverter: JsonConverter_1<JsonValue>;
     static readonly jsonDocumentConverter: JsonConverter_1<JsonDocument>;
-    static readonly memoryByteConverter: JsonConverter_1<Memory_1<CLROf<byte>>>;
-    static readonly readOnlyMemoryByteConverter: JsonConverter_1<ReadOnlyMemory_1<CLROf<byte>>>;
+    static readonly memoryByteConverter: JsonConverter_1<Memory_1<System_Internal.Byte>>;
+    static readonly readOnlyMemoryByteConverter: JsonConverter_1<ReadOnlyMemory_1<System_Internal.Byte>>;
     static readonly objectConverter: JsonConverter_1<unknown>;
-    static readonly halfConverter: JsonConverter_1<CLROf<half>>;
-    static readonly singleConverter: JsonConverter_1<CLROf<float>>;
-    static readonly sByteConverter: JsonConverter_1<CLROf<sbyte>>;
-    static readonly stringConverter: JsonConverter_1<CLROf<string>>;
+    static readonly halfConverter: JsonConverter_1<System_Internal.Half>;
+    static readonly singleConverter: JsonConverter_1<System_Internal.Single>;
+    static readonly sByteConverter: JsonConverter_1<System_Internal.SByte>;
+    static readonly stringConverter: JsonConverter_1<System_Internal.String>;
     static readonly timeSpanConverter: JsonConverter_1<TimeSpan>;
-    static readonly uInt16Converter: JsonConverter_1<CLROf<ushort>>;
-    static readonly uInt32Converter: JsonConverter_1<CLROf<uint>>;
-    static readonly uInt64Converter: JsonConverter_1<CLROf<ulong>>;
+    static readonly uInt16Converter: JsonConverter_1<System_Internal.UInt16>;
+    static readonly uInt32Converter: JsonConverter_1<System_Internal.UInt32>;
+    static readonly uInt64Converter: JsonConverter_1<System_Internal.UInt64>;
     static readonly uriConverter: JsonConverter_1<Uri>;
     static readonly versionConverter: JsonConverter_1<Version>;
     static createArrayInfo<TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TElement[]>): JsonTypeInfo_1<TElement[]>;

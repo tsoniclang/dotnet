@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Collections_Internal from "../../System.Collections/internal/index.js";
@@ -17,31 +17,6 @@ import type { IDeserializationCallback, ISerializable, SerializationInfo, Stream
 import type { Rune } from "../../System.Text/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DayOfWeek, Double, Enum, Exception, Guid, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, StringComparer, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum CalendarAlgorithmType {
     unknown_ = 0,
@@ -272,15 +247,15 @@ export interface CompareInfo$instance {
     compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
     compare(string1: string, offset1: int, string2: string, offset2: int): int;
     compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
-    compare(string1: ReadOnlySpan_1<CLROf<char>>, string2: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
     equals(value: unknown): boolean;
     getHashCode(): int;
     getHashCode(source: string, options: CompareOptions): int;
-    getHashCode(source: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions): int;
+    getHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
     getSortKey(source: string, options: CompareOptions): SortKey;
     getSortKey(source: string): SortKey;
-    getSortKey(source: ReadOnlySpan_1<CLROf<char>>, destination: Span_1<CLROf<byte>>, options?: CompareOptions): int;
-    getSortKeyLength(source: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
+    getSortKey(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, options?: CompareOptions): int;
+    getSortKeyLength(source: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
     indexOf(source: string, value: char): int;
     indexOf(source: string, value: string): int;
     indexOf(source: string, value: char, options: CompareOptions): int;
@@ -293,16 +268,16 @@ export interface CompareInfo$instance {
     indexOf(source: string, value: string, startIndex: int, count: int): int;
     indexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
     indexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
-    indexOf(source: ReadOnlySpan_1<CLROf<char>>, value: Rune, options?: CompareOptions): int;
+    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
+    indexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
     isPrefix(source: string, prefix: string, options: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<CLROf<char>>, prefix: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): boolean;
-    isPrefix(source: ReadOnlySpan_1<CLROf<char>>, prefix: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
+    isPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
+    isPrefix(source: ReadOnlySpan_1<System_Internal.Char>, prefix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
     isPrefix(source: string, prefix: string): boolean;
     isSuffix(source: string, suffix: string, options: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<CLROf<char>>, suffix: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): boolean;
-    isSuffix(source: ReadOnlySpan_1<CLROf<char>>, suffix: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): boolean;
+    isSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): boolean;
+    isSuffix(source: ReadOnlySpan_1<System_Internal.Char>, suffix: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): boolean;
     isSuffix(source: string, suffix: string): boolean;
     lastIndexOf(source: string, value: char): int;
     lastIndexOf(source: string, value: string): int;
@@ -316,9 +291,9 @@ export interface CompareInfo$instance {
     lastIndexOf(source: string, value: string, startIndex: int, count: int): int;
     lastIndexOf(source: string, value: char, startIndex: int, count: int, options: CompareOptions): int;
     lastIndexOf(source: string, value: string, startIndex: int, count: int, options: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options?: CompareOptions): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: ReadOnlySpan_1<CLROf<char>>, options: CompareOptions, matchLength: { value: ref<int> }): int;
-    lastIndexOf(source: ReadOnlySpan_1<CLROf<char>>, value: Rune, options?: CompareOptions): int;
+    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
+    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions, matchLength: int): int;
+    lastIndexOf(source: ReadOnlySpan_1<System_Internal.Char>, value: Rune, options?: CompareOptions): int;
     toString(): string;
 }
 
@@ -330,7 +305,7 @@ export const CompareInfo: {
     getCompareInfo(name: string, assembly: Assembly): CompareInfo;
     getCompareInfo(name: string): CompareInfo;
     isSortable(ch: char): boolean;
-    isSortable(text: ReadOnlySpan_1<CLROf<char>>): boolean;
+    isSortable(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     isSortable(text: string): boolean;
     isSortable(value: Rune): boolean;
 };
@@ -410,7 +385,7 @@ export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
 
 export interface CultureNotFoundException$instance extends ArgumentException {
-    readonly invalidCultureId: Nullable_1<CLROf<int>>;
+    readonly invalidCultureId: Nullable_1<System_Internal.Int32>;
     readonly invalidCultureName: string;
     readonly message: string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -1100,7 +1075,7 @@ export const StringInfo: {
     new(value: string): StringInfo$instance;
     getNextTextElement(str: string, index: int): string;
     getNextTextElement(str: string): string;
-    getNextTextElementLength(str: ReadOnlySpan_1<CLROf<char>>): int;
+    getNextTextElementLength(str: ReadOnlySpan_1<System_Internal.Char>): int;
     getNextTextElementLength(str: string, index: int): int;
     getNextTextElementLength(str: string): int;
     getTextElementEnumerator(str: string, index: int): TextElementEnumerator;
