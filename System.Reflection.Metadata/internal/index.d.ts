@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -22,31 +22,6 @@ import type { ISerializable, SerializationInfo, StreamingContext } from "../../S
 import type { Encoding } from "../../System.Text/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Double, Enum, Exception, Func_2, Guid, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, ISpanFormattable, Object as ClrObject, ReadOnlySpan_1, SByte, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Version, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum ConstantTypeCode {
     invalid = 0,
@@ -593,14 +568,14 @@ export interface ISZArrayTypeProvider_1$instance<TType> {
 export type ISZArrayTypeProvider_1<TType> = ISZArrayTypeProvider_1$instance<TType>;
 
 export interface ArrayShape$instance {
-    readonly lowerBounds: ImmutableArray_1<CLROf<int>>;
+    readonly lowerBounds: ImmutableArray_1<System_Internal.Int32>;
     readonly rank: int;
-    readonly sizes: ImmutableArray_1<CLROf<int>>;
+    readonly sizes: ImmutableArray_1<System_Internal.Int32>;
 }
 
 
 export const ArrayShape: {
-    new(rank: int, sizes: ImmutableArray_1<CLROf<int>>, lowerBounds: ImmutableArray_1<CLROf<int>>): ArrayShape$instance;
+    new(rank: int, sizes: ImmutableArray_1<System_Internal.Int32>, lowerBounds: ImmutableArray_1<System_Internal.Int32>): ArrayShape$instance;
 };
 
 
@@ -814,7 +789,7 @@ export type AssemblyReferenceHandleCollection_Enumerator = AssemblyReferenceHand
 export interface Blob$instance {
     readonly isDefault: boolean;
     readonly length: int;
-    getBytes(): ArraySegment_1<CLROf<byte>>;
+    getBytes(): ArraySegment_1<System_Internal.Byte>;
 }
 
 
@@ -861,10 +836,10 @@ export interface BlobContentId$instance {
 
 export const BlobContentId: {
     new(guid: Guid, stamp: uint): BlobContentId$instance;
-    new(id: ImmutableArray_1<CLROf<byte>>): BlobContentId$instance;
+    new(id: ImmutableArray_1<System_Internal.Byte>): BlobContentId$instance;
     new(id: byte[]): BlobContentId$instance;
     fromHash(hashCode: byte[]): BlobContentId;
-    fromHash(hashCode: ImmutableArray_1<CLROf<byte>>): BlobContentId;
+    fromHash(hashCode: ImmutableArray_1<System_Internal.Byte>): BlobContentId;
     getTimeBasedProvider(): Func_2<IEnumerable_1<Blob>, BlobContentId>;
 };
 
@@ -939,8 +914,8 @@ export interface BlobReader$instance {
     readUTF16(byteCount: int): string;
     readUTF8(byteCount: int): string;
     reset(): void;
-    tryReadCompressedInteger(value: { value: ref<int> }): boolean;
-    tryReadCompressedSignedInteger(value: { value: ref<int> }): boolean;
+    tryReadCompressedInteger(value: int): boolean;
+    tryReadCompressedSignedInteger(value: int): boolean;
 }
 
 
@@ -962,16 +937,16 @@ export interface BlobWriter$instance {
     padTo(offset: int): void;
     toArray(): byte[];
     toArray(start: int, byteCount: int): byte[];
-    toImmutableArray(): ImmutableArray_1<CLROf<byte>>;
-    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<CLROf<byte>>;
+    toImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
+    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
     writeBoolean(value: boolean): void;
     writeByte(value: byte): void;
     writeBytes(value: byte, byteCount: int): void;
     writeBytes(buffer: ptr<byte>, byteCount: int): void;
     writeBytes(source: BlobBuilder): void;
     writeBytes(source: Stream, byteCount: int): int;
-    writeBytes(buffer: ImmutableArray_1<CLROf<byte>>): void;
-    writeBytes(buffer: ImmutableArray_1<CLROf<byte>>, start: int, byteCount: int): void;
+    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
+    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
     writeBytes(buffer: byte[]): void;
     writeBytes(buffer: byte[], start: int, byteCount: int): void;
     writeCompressedInteger(value: int): void;
@@ -3606,16 +3581,16 @@ export interface AssemblyNameInfo$instance {
     readonly flags: AssemblyNameFlags;
     readonly fullName: string;
     readonly name: string;
-    readonly publicKeyOrToken: ImmutableArray_1<CLROf<byte>>;
+    readonly publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>;
     readonly version: Version;
     toAssemblyName(): AssemblyName;
 }
 
 
 export const AssemblyNameInfo: {
-    new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<CLROf<byte>>): AssemblyNameInfo$instance;
-    parse(assemblyName: ReadOnlySpan_1<CLROf<char>>): AssemblyNameInfo;
-    tryParse(assemblyName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<AssemblyNameInfo> }): boolean;
+    new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>): AssemblyNameInfo$instance;
+    parse(assemblyName: ReadOnlySpan_1<System_Internal.Char>): AssemblyNameInfo;
+    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo): boolean;
 };
 
 
@@ -3633,22 +3608,22 @@ export interface BlobBuilder$instance {
     reserveBytes(byteCount: int): Blob;
     toArray(): byte[];
     toArray(start: int, byteCount: int): byte[];
-    toImmutableArray(): ImmutableArray_1<CLROf<byte>>;
-    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<CLROf<byte>>;
+    toImmutableArray(): ImmutableArray_1<System_Internal.Byte>;
+    toImmutableArray(start: int, byteCount: int): ImmutableArray_1<System_Internal.Byte>;
     tryWriteBytes(source: Stream, byteCount: int): int;
     writeBoolean(value: boolean): void;
     writeByte(value: byte): void;
     writeBytes(value: byte, byteCount: int): void;
     writeBytes(buffer: ptr<byte>, byteCount: int): void;
-    writeBytes(buffer: ImmutableArray_1<CLROf<byte>>): void;
-    writeBytes(buffer: ImmutableArray_1<CLROf<byte>>, start: int, byteCount: int): void;
+    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>): void;
+    writeBytes(buffer: ImmutableArray_1<System_Internal.Byte>, start: int, byteCount: int): void;
     writeBytes(buffer: byte[]): void;
     writeBytes(buffer: byte[], start: int, byteCount: int): void;
     writeCompressedInteger(value: int): void;
     writeCompressedSignedInteger(value: int): void;
     writeConstant(value: unknown): void;
     writeContentTo(destination: Stream): void;
-    writeContentTo(destination: { value: ref<BlobWriter> }): void;
+    writeContentTo(destination: BlobWriter): void;
     writeContentTo(destination: BlobBuilder): void;
     writeDateTime(value: DateTime): void;
     writeDecimal(value: decimal): void;
@@ -3684,7 +3659,7 @@ export type BlobBuilder = BlobBuilder$instance;
 
 export interface DebugMetadataHeader$instance {
     readonly entryPoint: MethodDefinitionHandle;
-    readonly id: ImmutableArray_1<CLROf<byte>>;
+    readonly id: ImmutableArray_1<System_Internal.Byte>;
     readonly idStartOffset: int;
 }
 
@@ -3775,7 +3750,7 @@ export interface MetadataReader$instance {
     getAssemblyFile(handle: AssemblyFileHandle): AssemblyFile;
     getAssemblyReference(handle: AssemblyReferenceHandle): AssemblyReference;
     getBlobBytes(handle: BlobHandle): byte[];
-    getBlobContent(handle: BlobHandle): ImmutableArray_1<CLROf<byte>>;
+    getBlobContent(handle: BlobHandle): ImmutableArray_1<System_Internal.Byte>;
     getBlobReader(handle: BlobHandle): BlobReader;
     getBlobReader(handle: StringHandle): BlobReader;
     getConstant(handle: ConstantHandle): Constant;
@@ -3841,10 +3816,10 @@ export interface MetadataReaderProvider$instance {
 export const MetadataReaderProvider: {
     new(): MetadataReaderProvider$instance;
     fromMetadataImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    fromMetadataImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
+    fromMetadataImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
     fromMetadataStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
     fromPortablePdbImage(start: ptr<byte>, size: int): MetadataReaderProvider;
-    fromPortablePdbImage(image: ImmutableArray_1<CLROf<byte>>): MetadataReaderProvider;
+    fromPortablePdbImage(image: ImmutableArray_1<System_Internal.Byte>): MetadataReaderProvider;
     fromPortablePdbStream(stream: Stream, options?: MetadataStreamOptions, size?: int): MetadataReaderProvider;
 };
 
@@ -3891,7 +3866,7 @@ export interface MethodBodyBlock$instance {
     readonly maxStack: int;
     readonly size: int;
     getILBytes(): byte[];
-    getILContent(): ImmutableArray_1<CLROf<byte>>;
+    getILContent(): ImmutableArray_1<System_Internal.Byte>;
     getILReader(): BlobReader;
 }
 
@@ -3935,8 +3910,8 @@ export interface TypeName$instance {
 
 export const TypeName: {
     new(): TypeName$instance;
-    parse(typeName: ReadOnlySpan_1<CLROf<char>>, options?: TypeNameParseOptions): TypeName;
-    tryParse(typeName: ReadOnlySpan_1<CLROf<char>>, result: { value: ref<TypeName> }, options?: TypeNameParseOptions): boolean;
+    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
+    tryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
     unescape(name: string): string;
 };
 
@@ -3956,7 +3931,7 @@ export const TypeNameParseOptions: {
 export type TypeNameParseOptions = TypeNameParseOptions$instance;
 
 export abstract class AssemblyExtensions$instance {
-    static tryGetRawMetadata(assembly: Assembly, blob: { value: ref<ptr<byte>> }, length: { value: ref<int> }): boolean;
+    static tryGetRawMetadata(assembly: Assembly, blob: ptr<byte>, length: int): boolean;
 }
 
 
@@ -3974,7 +3949,7 @@ export type ILOpCodeExtensions = ILOpCodeExtensions$instance;
 
 export abstract class MetadataUpdater$instance {
     static readonly isSupported: boolean;
-    static applyUpdate(assembly: Assembly, metadataDelta: ReadOnlySpan_1<CLROf<byte>>, ilDelta: ReadOnlySpan_1<CLROf<byte>>, pdbDelta: ReadOnlySpan_1<CLROf<byte>>): void;
+    static applyUpdate(assembly: Assembly, metadataDelta: ReadOnlySpan_1<System_Internal.Byte>, ilDelta: ReadOnlySpan_1<System_Internal.Byte>, pdbDelta: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
 

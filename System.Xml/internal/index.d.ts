@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import type { IDictionary_2 } from "../../System.Collections.Generic/internal/index.js";
@@ -26,31 +26,6 @@ import * as System_Xml_XPath_Internal from "../../System.Xml.XPath/internal/inde
 import type { IXPathNavigable, XPathNavigator } from "../../System.Xml.XPath/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Decimal, Delegate, Double, Enum, EventArgs, Exception, Guid, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, SByte, Single, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, Uri, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum ConformanceLevel {
     auto = 0,
@@ -274,9 +249,9 @@ export interface IXmlBinaryWriterInitializer$instance {
 export type IXmlBinaryWriterInitializer = IXmlBinaryWriterInitializer$instance;
 
 export interface IXmlDictionary$instance {
-    tryLookup(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(key: int, result: XmlDictionaryString): boolean;
+    tryLookup(value: string, result: XmlDictionaryString): boolean;
+    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
@@ -292,7 +267,7 @@ export interface IXmlLineInfo$instance {
 export type IXmlLineInfo = IXmlLineInfo$instance;
 
 export interface IXmlNamespaceResolver$instance {
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
+    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
     lookupNamespace(prefix: string): string;
 }
 
@@ -336,7 +311,7 @@ export interface UniqueId$instance {
     getHashCode(): int;
     toCharArray(chars: char[], offset: int): int;
     toString(): string;
-    tryGetGuid(guid: { value: ref<Guid> }): boolean;
+    tryGetGuid(guid: Guid): boolean;
     tryGetGuid(buffer: byte[], offset: int): boolean;
 }
 
@@ -431,9 +406,9 @@ export type XmlAttributeCollection = XmlAttributeCollection$instance & __XmlAttr
 export interface XmlBinaryReaderSession$instance {
     add(id: int, value: string): XmlDictionaryString;
     clear(): void;
-    tryLookup(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(key: int, result: XmlDictionaryString): boolean;
+    tryLookup(value: string, result: XmlDictionaryString): boolean;
+    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
@@ -451,7 +426,7 @@ export type XmlBinaryReaderSession = XmlBinaryReaderSession$instance & __XmlBina
 
 export interface XmlBinaryWriterSession$instance {
     reset(): void;
-    tryAdd(value: XmlDictionaryString, key: { value: ref<int> }): boolean;
+    tryAdd(value: XmlDictionaryString, key: int): boolean;
 }
 
 
@@ -693,9 +668,9 @@ export type XmlDeclaration = XmlDeclaration$instance & __XmlDeclaration$views;
 
 export interface XmlDictionary$instance {
     add(value: string): XmlDictionaryString;
-    tryLookup(value: string, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(key: int, result: { value: ref<XmlDictionaryString> }): boolean;
-    tryLookup(value: XmlDictionaryString, result: { value: ref<XmlDictionaryString> }): boolean;
+    tryLookup(value: string, result: XmlDictionaryString): boolean;
+    tryLookup(key: int, result: XmlDictionaryString): boolean;
+    tryLookup(value: XmlDictionaryString, result: XmlDictionaryString): boolean;
 }
 
 
@@ -721,14 +696,14 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     getAttribute(name: string): string;
     getAttribute(name: string, namespaceURI: string): string;
     getAttribute(i: int): string;
-    getNonAtomizedNames(localName: { value: ref<string> }, namespaceUri: { value: ref<string> }): void;
+    getNonAtomizedNames(localName: string, namespaceUri: string): void;
     indexOfLocalName(localNames: string[], namespaceUri: string): int;
     indexOfLocalName(localNames: XmlDictionaryString[], namespaceUri: XmlDictionaryString): int;
     isLocalName(localName: string): boolean;
     isLocalName(localName: XmlDictionaryString): boolean;
     isNamespaceUri(namespaceUri: string): boolean;
     isNamespaceUri(namespaceUri: XmlDictionaryString): boolean;
-    isStartArray(type_: { value: ref<Type> }): boolean;
+    isStartArray(type_: Type): boolean;
     isStartElement(): boolean;
     isStartElement(name: string): boolean;
     isStartElement(localname: string, ns: string): boolean;
@@ -765,9 +740,9 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     readContentAsDecimal(): decimal;
     readContentAsFloat(): float;
     readContentAsGuid(): Guid;
-    readContentAsQualifiedName(localName: { value: ref<string> }, namespaceUri: { value: ref<string> }): void;
+    readContentAsQualifiedName(localName: string, namespaceUri: string): void;
     readContentAsString(): string;
-    readContentAsString(strings: XmlDictionaryString[], index: { value: ref<int> }): string;
+    readContentAsString(strings: XmlDictionaryString[], index: int): string;
     readContentAsTimeSpan(): TimeSpan;
     readContentAsUniqueId(): UniqueId;
     readDateTimeArray(localName: string, namespaceUri: string): DateTime[];
@@ -819,11 +794,11 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     readTimeSpanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): TimeSpan[];
     readValueAsBase64(buffer: byte[], offset: int, count: int): int;
     startCanonicalization(stream: Stream, includeComments: boolean, inclusivePrefixes: string[]): void;
-    tryGetArrayLength(count: { value: ref<int> }): boolean;
-    tryGetBase64ContentLength(length: { value: ref<int> }): boolean;
-    tryGetLocalNameAsDictionaryString(localName: { value: ref<XmlDictionaryString> }): boolean;
-    tryGetNamespaceUriAsDictionaryString(namespaceUri: { value: ref<XmlDictionaryString> }): boolean;
-    tryGetValueAsDictionaryString(value: { value: ref<XmlDictionaryString> }): boolean;
+    tryGetArrayLength(count: int): boolean;
+    tryGetBase64ContentLength(length: int): boolean;
+    tryGetLocalNameAsDictionaryString(localName: XmlDictionaryString): boolean;
+    tryGetNamespaceUriAsDictionaryString(namespaceUri: XmlDictionaryString): boolean;
+    tryGetValueAsDictionaryString(value: XmlDictionaryString): boolean;
 }
 
 
@@ -1344,7 +1319,7 @@ export interface XmlNamespaceManager$instance {
     readonly nameTable: XmlNameTable;
     addNamespace(prefix: string, uri: string): void;
     getEnumerator(): IEnumerator;
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
+    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
     hasNamespace(prefix: string): boolean;
     lookupNamespace(prefix: string): string;
     lookupPrefix(uri: string): string;
@@ -1689,7 +1664,7 @@ export interface XmlReader$instance {
     getAttribute(name: string): string;
     getAttribute(name: string, namespaceURI: string): string;
     getAttribute(i: int): string;
-    getValueAsync(): Task_1<CLROf<string>>;
+    getValueAsync(): Task_1<System_Internal.String>;
     isStartElement(): boolean;
     isStartElement(name: string): boolean;
     isStartElement(localname: string, ns: string): boolean;
@@ -1703,14 +1678,14 @@ export interface XmlReader$instance {
     moveToFirstAttribute(): boolean;
     moveToNextAttribute(): boolean;
     read(): boolean;
-    readAsync(): Task_1<CLROf<boolean>>;
+    readAsync(): Task_1<System_Internal.Boolean>;
     readAttributeValue(): boolean;
     readContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
     readContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
     readContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<CLROf<int>>;
+    readContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     readContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<CLROf<int>>;
+    readContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     readContentAsBoolean(): boolean;
     readContentAsDateTime(): DateTime;
     readContentAsDateTimeOffset(): DateTimeOffset;
@@ -1722,14 +1697,14 @@ export interface XmlReader$instance {
     readContentAsObject(): unknown;
     readContentAsObjectAsync(): Task_1<unknown>;
     readContentAsString(): string;
-    readContentAsStringAsync(): Task_1<CLROf<string>>;
+    readContentAsStringAsync(): Task_1<System_Internal.String>;
     readElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
     readElementContentAs(returnType: Type, namespaceResolver: IXmlNamespaceResolver, localName: string, namespaceURI: string): unknown;
     readElementContentAsAsync(returnType: Type, namespaceResolver: IXmlNamespaceResolver): Task_1<unknown>;
     readElementContentAsBase64(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<CLROf<int>>;
+    readElementContentAsBase64Async(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     readElementContentAsBinHex(buffer: byte[], index: int, count: int): int;
-    readElementContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<CLROf<int>>;
+    readElementContentAsBinHexAsync(buffer: byte[], index: int, count: int): Task_1<System_Internal.Int32>;
     readElementContentAsBoolean(): boolean;
     readElementContentAsBoolean(localName: string, namespaceURI: string): boolean;
     readElementContentAsDateTime(): DateTime;
@@ -1749,15 +1724,15 @@ export interface XmlReader$instance {
     readElementContentAsObjectAsync(): Task_1<unknown>;
     readElementContentAsString(): string;
     readElementContentAsString(localName: string, namespaceURI: string): string;
-    readElementContentAsStringAsync(): Task_1<CLROf<string>>;
+    readElementContentAsStringAsync(): Task_1<System_Internal.String>;
     readElementString(): string;
     readElementString(name: string): string;
     readElementString(localname: string, ns: string): string;
     readEndElement(): void;
     readInnerXml(): string;
-    readInnerXmlAsync(): Task_1<CLROf<string>>;
+    readInnerXmlAsync(): Task_1<System_Internal.String>;
     readOuterXml(): string;
-    readOuterXmlAsync(): Task_1<CLROf<string>>;
+    readOuterXmlAsync(): Task_1<System_Internal.String>;
     readStartElement(): void;
     readStartElement(name: string): void;
     readStartElement(localname: string, ns: string): void;
@@ -1770,7 +1745,7 @@ export interface XmlReader$instance {
     readToNextSibling(name: string): boolean;
     readToNextSibling(localName: string, namespaceURI: string): boolean;
     readValueChunk(buffer: char[], index: int, count: int): int;
-    readValueChunkAsync(buffer: char[], index: int, count: int): Task_1<CLROf<int>>;
+    readValueChunkAsync(buffer: char[], index: int, count: int): Task_1<System_Internal.Int32>;
     resolveEntity(): void;
     skip(): void;
     skipAsync(): Task;
@@ -1968,7 +1943,7 @@ export interface XmlTextReader$instance extends XmlReader$instance {
     getAttribute(name: string): string;
     getAttribute(localName: string, namespaceURI: string): string;
     getAttribute(i: int): string;
-    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<CLROf<string>, CLROf<string>>;
+    getNamespacesInScope(scope: XmlNamespaceScope): IDictionary_2<System_Internal.String, System_Internal.String>;
     getRemainder(): TextReader;
     hasLineInfo(): boolean;
     lookupNamespace(prefix: string): string;

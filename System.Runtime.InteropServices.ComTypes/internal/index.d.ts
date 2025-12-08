@@ -6,36 +6,11 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, Enum, Guid, IComparable, IConvertible, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum ADVF {
     ADVF_NODATA = 1,
@@ -235,7 +210,7 @@ export enum VARKIND {
 
 
 export interface IAdviseSink$instance {
-    onDataChange(format: { value: ref<FORMATETC> }, stgmedium: { value: ref<STGMEDIUM> }): void;
+    onDataChange(format: FORMATETC, stgmedium: STGMEDIUM): void;
     onRename(moniker: IMoniker): void;
     onSave(): void;
     onViewChange(aspect: int, index: int): void;
@@ -245,24 +220,24 @@ export interface IAdviseSink$instance {
 export type IAdviseSink = IAdviseSink$instance;
 
 export interface IBindCtx$instance {
-    enumObjectParam(ppenum: { value: ref<IEnumString> }): void;
-    getObjectParam(pszKey: string, ppunk: { value: ref<unknown> }): void;
-    getRunningObjectTable(pprot: { value: ref<IRunningObjectTable> }): void;
+    enumObjectParam(ppenum: IEnumString): void;
+    getObjectParam(pszKey: string, ppunk: unknown): void;
+    getRunningObjectTable(pprot: IRunningObjectTable): void;
     registerObjectBound(punk: unknown): void;
     registerObjectParam(pszKey: string, punk: unknown): void;
     releaseBoundObjects(): void;
     revokeObjectParam(pszKey: string): int;
-    setBindOptions(pbindopts: { value: ref<BIND_OPTS> }): void;
+    setBindOptions(pbindopts: BIND_OPTS): void;
 }
 
 
 export type IBindCtx = IBindCtx$instance;
 
 export interface IConnectionPoint$instance {
-    advise(pUnkSink: unknown, pdwCookie: { value: ref<int> }): void;
-    enumConnections(ppEnum: { value: ref<IEnumConnections> }): void;
-    getConnectionInterface(pIID: { value: ref<Guid> }): void;
-    getConnectionPointContainer(ppCPC: { value: ref<IConnectionPointContainer> }): void;
+    advise(pUnkSink: unknown, pdwCookie: int): void;
+    enumConnections(ppEnum: IEnumConnections): void;
+    getConnectionInterface(pIID: Guid): void;
+    getConnectionPointContainer(ppCPC: IConnectionPointContainer): void;
     unadvise(dwCookie: int): void;
 }
 
@@ -270,30 +245,30 @@ export interface IConnectionPoint$instance {
 export type IConnectionPoint = IConnectionPoint$instance;
 
 export interface IConnectionPointContainer$instance {
-    enumConnectionPoints(ppEnum: { value: ref<IEnumConnectionPoints> }): void;
-    findConnectionPoint(riid: { value: ref<Guid> }, ppCP: { value: ref<IConnectionPoint> }): void;
+    enumConnectionPoints(ppEnum: IEnumConnectionPoints): void;
+    findConnectionPoint(riid: Guid, ppCP: IConnectionPoint): void;
 }
 
 
 export type IConnectionPointContainer = IConnectionPointContainer$instance;
 
 export interface IDataObject$instance {
-    dAdvise(pFormatetc: { value: ref<FORMATETC> }, advf: ADVF, adviseSink: IAdviseSink, connection: { value: ref<int> }): int;
+    dAdvise(pFormatetc: FORMATETC, advf: ADVF, adviseSink: IAdviseSink, connection: int): int;
     dUnadvise(connection: int): void;
-    enumDAdvise(enumAdvise: { value: ref<IEnumSTATDATA> }): int;
+    enumDAdvise(enumAdvise: IEnumSTATDATA): int;
     enumFormatEtc(direction: DATADIR): IEnumFORMATETC;
-    getCanonicalFormatEtc(formatIn: { value: ref<FORMATETC> }, formatOut: { value: ref<FORMATETC> }): int;
-    getData(format: { value: ref<FORMATETC> }, medium: { value: ref<STGMEDIUM> }): void;
-    queryGetData(format: { value: ref<FORMATETC> }): int;
-    setData(formatIn: { value: ref<FORMATETC> }, medium: { value: ref<STGMEDIUM> }, release: boolean): void;
+    getCanonicalFormatEtc(formatIn: FORMATETC, formatOut: FORMATETC): int;
+    getData(format: FORMATETC, medium: STGMEDIUM): void;
+    queryGetData(format: FORMATETC): int;
+    setData(formatIn: FORMATETC, medium: STGMEDIUM, release: boolean): void;
 }
 
 
 export type IDataObject = IDataObject$instance;
 
 export interface IEnumConnectionPoints$instance {
-    clone(ppenum: { value: ref<IEnumConnectionPoints> }): void;
-    next(celt: int, rgelt: { value: IConnectionPoint[] }, pceltFetched: nint): int;
+    clone(ppenum: IEnumConnectionPoints): void;
+    next(celt: int, rgelt: IConnectionPoint[], pceltFetched: nint): int;
     reset(): void;
     skip(celt: int): int;
 }
@@ -302,8 +277,8 @@ export interface IEnumConnectionPoints$instance {
 export type IEnumConnectionPoints = IEnumConnectionPoints$instance;
 
 export interface IEnumConnections$instance {
-    clone(ppenum: { value: ref<IEnumConnections> }): void;
-    next(celt: int, rgelt: { value: CONNECTDATA[] }, pceltFetched: nint): int;
+    clone(ppenum: IEnumConnections): void;
+    next(celt: int, rgelt: CONNECTDATA[], pceltFetched: nint): int;
     reset(): void;
     skip(celt: int): int;
 }
@@ -312,8 +287,8 @@ export interface IEnumConnections$instance {
 export type IEnumConnections = IEnumConnections$instance;
 
 export interface IEnumFORMATETC$instance {
-    clone(newEnum: { value: ref<IEnumFORMATETC> }): void;
-    next(celt: int, rgelt: { value: FORMATETC[] }, pceltFetched: { value: int[] }): int;
+    clone(newEnum: IEnumFORMATETC): void;
+    next(celt: int, rgelt: FORMATETC[], pceltFetched: int[]): int;
     reset(): int;
     skip(celt: int): int;
 }
@@ -322,8 +297,8 @@ export interface IEnumFORMATETC$instance {
 export type IEnumFORMATETC = IEnumFORMATETC$instance;
 
 export interface IEnumMoniker$instance {
-    clone(ppenum: { value: ref<IEnumMoniker> }): void;
-    next(celt: int, rgelt: { value: IMoniker[] }, pceltFetched: nint): int;
+    clone(ppenum: IEnumMoniker): void;
+    next(celt: int, rgelt: IMoniker[], pceltFetched: nint): int;
     reset(): void;
     skip(celt: int): int;
 }
@@ -332,8 +307,8 @@ export interface IEnumMoniker$instance {
 export type IEnumMoniker = IEnumMoniker$instance;
 
 export interface IEnumSTATDATA$instance {
-    clone(newEnum: { value: ref<IEnumSTATDATA> }): void;
-    next(celt: int, rgelt: { value: STATDATA[] }, pceltFetched: { value: int[] }): int;
+    clone(newEnum: IEnumSTATDATA): void;
+    next(celt: int, rgelt: STATDATA[], pceltFetched: int[]): int;
     reset(): int;
     skip(celt: int): int;
 }
@@ -342,8 +317,8 @@ export interface IEnumSTATDATA$instance {
 export type IEnumSTATDATA = IEnumSTATDATA$instance;
 
 export interface IEnumString$instance {
-    clone(ppenum: { value: ref<IEnumString> }): void;
-    next(celt: int, rgelt: { value: string[] }, pceltFetched: nint): int;
+    clone(ppenum: IEnumString): void;
+    next(celt: int, rgelt: string[], pceltFetched: nint): int;
     reset(): void;
     skip(celt: int): int;
 }
@@ -353,7 +328,7 @@ export type IEnumString = IEnumString$instance;
 
 export interface IEnumVARIANT$instance {
     clone(): IEnumVARIANT;
-    next(celt: int, rgVar: { value: unknown[] }, pceltFetched: nint): int;
+    next(celt: int, rgVar: unknown[], pceltFetched: nint): int;
     reset(): int;
     skip(celt: int): int;
 }
@@ -362,23 +337,23 @@ export interface IEnumVARIANT$instance {
 export type IEnumVARIANT = IEnumVARIANT$instance;
 
 export interface IMoniker$instance {
-    bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: { value: ref<Guid> }, ppvResult: { value: ref<unknown> }): void;
-    commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: { value: ref<IMoniker> }): void;
-    composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: { value: ref<IMoniker> }): void;
-    enum_(fForward: boolean, ppenumMoniker: { value: ref<IEnumMoniker> }): void;
-    getClassID(pClassID: { value: ref<Guid> }): void;
-    getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: { value: ref<string> }): void;
-    getSizeMax(pcbSize: { value: ref<long> }): void;
-    getTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker, pFileTime: { value: ref<FILETIME> }): void;
-    hash(pdwHash: { value: ref<int> }): void;
-    inverse(ppmk: { value: ref<IMoniker> }): void;
+    bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: Guid, ppvResult: unknown): void;
+    commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker): void;
+    composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker): void;
+    enum_(fForward: boolean, ppenumMoniker: IEnumMoniker): void;
+    getClassID(pClassID: Guid): void;
+    getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: string): void;
+    getSizeMax(pcbSize: long): void;
+    getTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker, pFileTime: FILETIME): void;
+    hash(pdwHash: int): void;
+    inverse(ppmk: IMoniker): void;
     isDirty(): int;
     isEqual(pmkOtherMoniker: IMoniker): int;
     isRunning(pbc: IBindCtx, pmkToLeft: IMoniker, pmkNewlyRunning: IMoniker): int;
-    isSystemMoniker(pdwMksys: { value: ref<int> }): int;
+    isSystemMoniker(pdwMksys: int): int;
     load(pStm: IStream): void;
-    parseDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, pszDisplayName: string, pchEaten: { value: ref<int> }, ppmkOut: { value: ref<IMoniker> }): void;
-    reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: { value: ref<IMoniker> }, ppmkReduced: { value: ref<IMoniker> }): void;
+    parseDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, pszDisplayName: string, pchEaten: int, ppmkOut: IMoniker): void;
+    reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: IMoniker, ppmkReduced: IMoniker): void;
     save(pStm: IStream, fClearDirty: boolean): void;
 }
 
@@ -386,8 +361,8 @@ export interface IMoniker$instance {
 export type IMoniker = IMoniker$instance;
 
 export interface IPersistFile$instance {
-    getClassID(pClassID: { value: ref<Guid> }): void;
-    getCurFile(ppszFileName: { value: ref<string> }): void;
+    getClassID(pClassID: Guid): void;
+    getCurFile(ppszFileName: string): void;
     isDirty(): int;
     load(pszFileName: string, dwMode: int): void;
     save(pszFileName: string, fRemember: boolean): void;
@@ -398,11 +373,11 @@ export interface IPersistFile$instance {
 export type IPersistFile = IPersistFile$instance;
 
 export interface IRunningObjectTable$instance {
-    enumRunning(ppenumMoniker: { value: ref<IEnumMoniker> }): void;
-    getObject(pmkObjectName: IMoniker, ppunkObject: { value: ref<unknown> }): int;
-    getTimeOfLastChange(pmkObjectName: IMoniker, pfiletime: { value: ref<FILETIME> }): int;
+    enumRunning(ppenumMoniker: IEnumMoniker): void;
+    getObject(pmkObjectName: IMoniker, ppunkObject: unknown): int;
+    getTimeOfLastChange(pmkObjectName: IMoniker, pfiletime: FILETIME): int;
     isRunning(pmkObjectName: IMoniker): int;
-    noteChangeTime(dwRegister: int, pfiletime: { value: ref<FILETIME> }): void;
+    noteChangeTime(dwRegister: int, pfiletime: FILETIME): void;
     register(grfFlags: int, punkObject: unknown, pmkObjectName: IMoniker): int;
     revoke(dwRegister: int): void;
 }
@@ -411,44 +386,44 @@ export interface IRunningObjectTable$instance {
 export type IRunningObjectTable = IRunningObjectTable$instance;
 
 export interface IStream$instance {
-    clone(ppstm: { value: ref<IStream> }): void;
+    clone(ppstm: IStream): void;
     commit(grfCommitFlags: int): void;
     copyTo(pstm: IStream, cb: long, pcbRead: nint, pcbWritten: nint): void;
     lockRegion(libOffset: long, cb: long, dwLockType: int): void;
-    read(pv: { value: byte[] }, cb: int, pcbRead: nint): void;
+    read(pv: byte[], cb: int, pcbRead: nint): void;
     revert(): void;
     seek(dlibMove: long, dwOrigin: int, plibNewPosition: nint): void;
     setSize(libNewSize: long): void;
-    stat(pstatstg: { value: ref<STATSTG> }, grfStatFlag: int): void;
+    stat(pstatstg: STATSTG, grfStatFlag: int): void;
 }
 
 
 export type IStream = IStream$instance;
 
 export interface ITypeComp$instance {
-    bind(szName: string, lHashVal: int, wFlags: short, ppTInfo: { value: ref<ITypeInfo> }, pDescKind: { value: ref<DESCKIND> }, pBindPtr: { value: ref<BINDPTR> }): void;
-    bindType(szName: string, lHashVal: int, ppTInfo: { value: ref<ITypeInfo> }, ppTComp: { value: ref<ITypeComp> }): void;
+    bind(szName: string, lHashVal: int, wFlags: short, ppTInfo: ITypeInfo, pDescKind: DESCKIND, pBindPtr: BINDPTR): void;
+    bindType(szName: string, lHashVal: int, ppTInfo: ITypeInfo, ppTComp: ITypeComp): void;
 }
 
 
 export type ITypeComp = ITypeComp$instance;
 
 export interface ITypeInfo$instance {
-    addressOfMember(memid: int, invKind: INVOKEKIND, ppv: { value: ref<nint> }): void;
-    createInstance(pUnkOuter: unknown, riid: { value: ref<Guid> }, ppvObj: { value: ref<unknown> }): void;
-    getContainingTypeLib(ppTLB: { value: ref<ITypeLib> }, pIndex: { value: ref<int> }): void;
+    addressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
+    createInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
+    getContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
     getDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
-    getDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
-    getFuncDesc(index: int, ppFuncDesc: { value: ref<nint> }): void;
-    getIDsOfNames(rgszNames: string[], cNames: int, pMemId: { value: int[] }): void;
-    getImplTypeFlags(index: int, pImplTypeFlags: { value: ref<IMPLTYPEFLAGS> }): void;
-    getMops(memid: int, pBstrMops: { value: ref<string> }): void;
-    getNames(memid: int, rgBstrNames: { value: string[] }, cMaxNames: int, pcNames: { value: ref<int> }): void;
-    getRefTypeInfo(hRef: int, ppTI: { value: ref<ITypeInfo> }): void;
-    getRefTypeOfImplType(index: int, href: { value: ref<int> }): void;
-    getTypeAttr(ppTypeAttr: { value: ref<nint> }): void;
-    getTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
-    invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
+    getDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
+    getFuncDesc(index: int, ppFuncDesc: nint): void;
+    getIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
+    getImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
+    getMops(memid: int, pBstrMops: string): void;
+    getNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
+    getRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;
+    getRefTypeOfImplType(index: int, href: int): void;
+    getTypeAttr(ppTypeAttr: nint): void;
+    getTypeComp(ppTComp: ITypeComp): void;
+    invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
     releaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -456,30 +431,30 @@ export interface ITypeInfo$instance {
 export type ITypeInfo = ITypeInfo$instance;
 
 export interface ITypeInfo2$instance extends ITypeInfo {
-    addressOfMember(memid: int, invKind: INVOKEKIND, ppv: { value: ref<nint> }): void;
-    createInstance(pUnkOuter: unknown, riid: { value: ref<Guid> }, ppvObj: { value: ref<unknown> }): void;
+    addressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
+    createInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
     getAllFuncCustData(index: int, pCustData: nint): void;
     getAllParamCustData(indexFunc: int, indexParam: int, pCustData: nint): void;
-    getContainingTypeLib(ppTLB: { value: ref<ITypeLib> }, pIndex: { value: ref<int> }): void;
-    getCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
+    getContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
+    getCustData(guid: Guid, pVarVal: unknown): void;
     getDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
-    getDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
-    getDocumentation2(memid: int, pbstrHelpString: { value: ref<string> }, pdwHelpStringContext: { value: ref<int> }, pbstrHelpStringDll: { value: ref<string> }): void;
-    getFuncCustData(index: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
-    getFuncDesc(index: int, ppFuncDesc: { value: ref<nint> }): void;
-    getFuncIndexOfMemId(memid: int, invKind: INVOKEKIND, pFuncIndex: { value: ref<int> }): void;
-    getIDsOfNames(rgszNames: string[], cNames: int, pMemId: { value: int[] }): void;
-    getImplTypeFlags(index: int, pImplTypeFlags: { value: ref<IMPLTYPEFLAGS> }): void;
-    getMops(memid: int, pBstrMops: { value: ref<string> }): void;
-    getNames(memid: int, rgBstrNames: { value: string[] }, cMaxNames: int, pcNames: { value: ref<int> }): void;
-    getParamCustData(indexFunc: int, indexParam: int, guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
-    getRefTypeInfo(hRef: int, ppTI: { value: ref<ITypeInfo> }): void;
-    getRefTypeOfImplType(index: int, href: { value: ref<int> }): void;
-    getTypeAttr(ppTypeAttr: { value: ref<nint> }): void;
-    getTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
-    getTypeFlags(pTypeFlags: { value: ref<int> }): void;
-    getTypeKind(pTypeKind: { value: ref<TYPEKIND> }): void;
-    invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: { value: ref<DISPPARAMS> }, pVarResult: nint, pExcepInfo: nint, puArgErr: { value: ref<int> }): void;
+    getDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
+    getDocumentation2(memid: int, pbstrHelpString: string, pdwHelpStringContext: int, pbstrHelpStringDll: string): void;
+    getFuncCustData(index: int, guid: Guid, pVarVal: unknown): void;
+    getFuncDesc(index: int, ppFuncDesc: nint): void;
+    getFuncIndexOfMemId(memid: int, invKind: INVOKEKIND, pFuncIndex: int): void;
+    getIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
+    getImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
+    getMops(memid: int, pBstrMops: string): void;
+    getNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
+    getParamCustData(indexFunc: int, indexParam: int, guid: Guid, pVarVal: unknown): void;
+    getRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;
+    getRefTypeOfImplType(index: int, href: int): void;
+    getTypeAttr(ppTypeAttr: nint): void;
+    getTypeComp(ppTComp: ITypeComp): void;
+    getTypeFlags(pTypeFlags: int): void;
+    getTypeKind(pTypeKind: TYPEKIND): void;
+    invoke(pvInstance: unknown, memid: int, wFlags: short, pDispParams: DISPPARAMS, pVarResult: nint, pExcepInfo: nint, puArgErr: int): void;
     releaseTypeAttr(pTypeAttr: nint): void;
 }
 
@@ -489,14 +464,14 @@ export interface ITypeInfo2$instance extends ITypeInfo$instance {}
 export type ITypeInfo2 = ITypeInfo2$instance;
 
 export interface ITypeLib$instance {
-    findName(szNameBuf: string, lHashVal: int, ppTInfo: { value: ITypeInfo[] }, rgMemId: { value: int[] }, pcFound: { value: ref<short> }): void;
-    getDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
-    getLibAttr(ppTLibAttr: { value: ref<nint> }): void;
-    getTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
-    getTypeInfo(index: int, ppTI: { value: ref<ITypeInfo> }): void;
+    findName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
+    getDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
+    getLibAttr(ppTLibAttr: nint): void;
+    getTypeComp(ppTComp: ITypeComp): void;
+    getTypeInfo(index: int, ppTI: ITypeInfo): void;
     getTypeInfoCount(): int;
-    getTypeInfoOfGuid(guid: { value: ref<Guid> }, ppTInfo: { value: ref<ITypeInfo> }): void;
-    getTypeInfoType(index: int, pTKind: { value: ref<TYPEKIND> }): void;
+    getTypeInfoOfGuid(guid: Guid, ppTInfo: ITypeInfo): void;
+    getTypeInfoType(index: int, pTKind: TYPEKIND): void;
     isName(szNameBuf: string, lHashVal: int): boolean;
     releaseTLibAttr(pTLibAttr: nint): void;
 }
@@ -505,17 +480,17 @@ export interface ITypeLib$instance {
 export type ITypeLib = ITypeLib$instance;
 
 export interface ITypeLib2$instance extends ITypeLib {
-    findName(szNameBuf: string, lHashVal: int, ppTInfo: { value: ITypeInfo[] }, rgMemId: { value: int[] }, pcFound: { value: ref<short> }): void;
-    getCustData(guid: { value: ref<Guid> }, pVarVal: { value: ref<unknown> }): void;
-    getDocumentation(index: int, strName: { value: ref<string> }, strDocString: { value: ref<string> }, dwHelpContext: { value: ref<int> }, strHelpFile: { value: ref<string> }): void;
-    getDocumentation2(index: int, pbstrHelpString: { value: ref<string> }, pdwHelpStringContext: { value: ref<int> }, pbstrHelpStringDll: { value: ref<string> }): void;
-    getLibAttr(ppTLibAttr: { value: ref<nint> }): void;
-    getLibStatistics(pcUniqueNames: nint, pcchUniqueNames: { value: ref<int> }): void;
-    getTypeComp(ppTComp: { value: ref<ITypeComp> }): void;
-    getTypeInfo(index: int, ppTI: { value: ref<ITypeInfo> }): void;
+    findName(szNameBuf: string, lHashVal: int, ppTInfo: ITypeInfo[], rgMemId: int[], pcFound: short): void;
+    getCustData(guid: Guid, pVarVal: unknown): void;
+    getDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
+    getDocumentation2(index: int, pbstrHelpString: string, pdwHelpStringContext: int, pbstrHelpStringDll: string): void;
+    getLibAttr(ppTLibAttr: nint): void;
+    getLibStatistics(pcUniqueNames: nint, pcchUniqueNames: int): void;
+    getTypeComp(ppTComp: ITypeComp): void;
+    getTypeInfo(index: int, ppTI: ITypeInfo): void;
     getTypeInfoCount(): int;
-    getTypeInfoOfGuid(guid: { value: ref<Guid> }, ppTInfo: { value: ref<ITypeInfo> }): void;
-    getTypeInfoType(index: int, pTKind: { value: ref<TYPEKIND> }): void;
+    getTypeInfoOfGuid(guid: Guid, ppTInfo: ITypeInfo): void;
+    getTypeInfoType(index: int, pTKind: TYPEKIND): void;
     isName(szNameBuf: string, lHashVal: int): boolean;
     releaseTLibAttr(pTLibAttr: nint): void;
 }

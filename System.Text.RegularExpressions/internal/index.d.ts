@@ -6,7 +6,7 @@
 import type { sbyte, byte, short, ushort, int, uint, long, ulong, int128, uint128, half, float, double, decimal, nint, nuint, char } from '@tsonic/types';
 
 // Import support types from @tsonic/types
-import type { ptr, ref } from "@tsonic/types";
+import type { ptr } from "@tsonic/types";
 
 // Import types from other namespaces
 import * as System_Collections_Generic_Internal from "../../System.Collections.Generic/internal/index.js";
@@ -19,31 +19,6 @@ import * as System_Runtime_Serialization_Internal from "../../System.Runtime.Ser
 import type { ISerializable, SerializationInfo, StreamingContext } from "../../System.Runtime.Serialization/internal/index.js";
 import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Char, Delegate, Enum, Exception, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, MulticastDelegate, Object as ClrObject, Range, ReadOnlySpan_1, String as ClrString, TimeoutException, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
-
-// CLROf<T> - Maps ergonomic primitives to their CLR types for generic constraints
-// This utility is used ONLY in generic type arguments to satisfy CLR interface constraints
-// Value positions (parameters, return types) use lowercase primitives for ergonomics
-export type CLROf<T> =
-    T extends sbyte ? System_Internal.SByte :
-    T extends short ? System_Internal.Int16 :
-    T extends int ? System_Internal.Int32 :
-    T extends long ? System_Internal.Int64 :
-    T extends int128 ? System_Internal.Int128 :
-    T extends nint ? System_Internal.IntPtr :
-    T extends byte ? System_Internal.Byte :
-    T extends ushort ? System_Internal.UInt16 :
-    T extends uint ? System_Internal.UInt32 :
-    T extends ulong ? System_Internal.UInt64 :
-    T extends uint128 ? System_Internal.UInt128 :
-    T extends nuint ? System_Internal.UIntPtr :
-    T extends half ? System_Internal.Half :
-    T extends float ? System_Internal.Single :
-    T extends double ? System_Internal.Double :
-    T extends decimal ? System_Internal.Decimal :
-    T extends char ? System_Internal.Char :
-    T extends boolean ? System_Internal.Boolean :
-    T extends string ? System_Internal.String :
-    T; // Identity fallback for non-primitive types
 
 export enum RegexOptions {
     none = 0,
@@ -158,7 +133,7 @@ export interface Capture$instance {
     readonly index: int;
     readonly length: int;
     readonly value: string;
-    readonly valueSpan: ReadOnlySpan_1<CLROf<char>>;
+    readonly valueSpan: ReadOnlySpan_1<System_Internal.Char>;
     toString(): string;
 }
 
@@ -238,7 +213,7 @@ export interface GroupCollection$instance {
     readonly count: int;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    readonly keys: IEnumerable_1<CLROf<string>>;
+    readonly keys: IEnumerable_1<System_Internal.String>;
     readonly syncRoot: unknown;
     readonly values: IEnumerable_1<Group>;
     containsKey(key: string): boolean;
@@ -247,7 +222,7 @@ export interface GroupCollection$instance {
     get_Item(groupnum: int): Group;
     get_Item(groupname: string): Group;
     getEnumerator(): IEnumerator;
-    tryGetValue(key: string, value: { value: ref<Group> }): boolean;
+    tryGetValue(key: string, value: Group): boolean;
 }
 
 
@@ -261,7 +236,7 @@ export interface __GroupCollection$views {
     As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Group>;
     As_IList_1(): System_Collections_Generic_Internal.IList_1$instance<Group>;
     As_IReadOnlyCollection_1(): System_Collections_Generic_Internal.IReadOnlyCollection_1$instance<Group>;
-    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<CLROf<string>, Group>;
+    As_IReadOnlyDictionary_2(): System_Collections_Generic_Internal.IReadOnlyDictionary_2$instance<System_Internal.String, Group>;
     As_ICollection(): System_Collections_Internal.ICollection$instance;
     As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
     As_IList(): System_Collections_Internal.IList$instance;
@@ -320,21 +295,21 @@ export interface Regex$instance {
     readonly options: RegexOptions;
     readonly rightToLeft: boolean;
     count(input: string): int;
-    count(input: ReadOnlySpan_1<CLROf<char>>): int;
-    count(input: ReadOnlySpan_1<CLROf<char>>, startat: int): int;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, startat: int): Regex_ValueMatchEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, count: int): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, count: int, startat: int): Regex_ValueSplitEnumerator;
+    count(input: ReadOnlySpan_1<System_Internal.Char>): int;
+    count(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): int;
+    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueMatchEnumerator;
+    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): Regex_ValueMatchEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>): Regex_ValueSplitEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int): Regex_ValueSplitEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, count: int, startat: int): Regex_ValueSplitEnumerator;
     getGroupNames(): string[];
     getGroupNumbers(): int[];
     groupNameFromNumber(i: int): string;
     groupNumberFromName(name: string): int;
     isMatch(input: string): boolean;
     isMatch(input: string, startat: int): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<char>>): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<char>>, startat: int): boolean;
+    isMatch(input: ReadOnlySpan_1<System_Internal.Char>): boolean;
+    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, startat: int): boolean;
     match(input: string): Match;
     match(input: string, startat: int): Match;
     match(input: string, beginning: int, length: int): Match;
@@ -362,22 +337,22 @@ export const Regex: {
     compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[], resourceFile: string): void;
     compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName, attributes: CustomAttributeBuilder[]): void;
     compileToAssembly(regexinfos: RegexCompilationInfo[], assemblyname: AssemblyName): void;
-    count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
-    count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): int;
-    count(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): int;
+    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
+    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): int;
+    count(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): int;
     count(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): int;
     count(input: string, pattern: string, options: RegexOptions): int;
     count(input: string, pattern: string): int;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
-    enumerateMatches(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueMatchEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
-    enumerateSplits(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): Regex_ValueSplitEnumerator;
+    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueMatchEnumerator;
+    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueMatchEnumerator;
+    enumerateMatches(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueMatchEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): Regex_ValueSplitEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): Regex_ValueSplitEnumerator;
+    enumerateSplits(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): Regex_ValueSplitEnumerator;
     escape(str: string): string;
-    isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string, options: RegexOptions): boolean;
-    isMatch(input: ReadOnlySpan_1<CLROf<char>>, pattern: string): boolean;
+    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
+    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string, options: RegexOptions): boolean;
+    isMatch(input: ReadOnlySpan_1<System_Internal.Char>, pattern: string): boolean;
     isMatch(input: string, pattern: string, options: RegexOptions, matchTimeout: TimeSpan): boolean;
     isMatch(input: string, pattern: string, options: RegexOptions): boolean;
     isMatch(input: string, pattern: string): boolean;
