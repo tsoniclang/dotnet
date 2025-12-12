@@ -867,11 +867,249 @@ export interface __ArraySegment_1_Enumerator$views<T> {
 export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T> & __ArraySegment_1_Enumerator$views<T>;
 
 
-export type Boolean = boolean;
+export interface Boolean$instance {
+    compareTo(obj: unknown): int;
+    compareTo(value: boolean): int;
+    equals(obj: unknown): boolean;
+    equals(obj: boolean): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int): boolean;
+}
 
-export type Byte = byte;
 
-export type Char = char;
+export const Boolean: {
+    new(): Boolean$instance;
+    readonly trueString: string;
+    readonly falseString: string;
+    parse(value: ReadOnlySpan_1<Char>): boolean;
+    parse(value: string): boolean;
+    tryParse(value: ReadOnlySpan_1<Char>, result: boolean): boolean;
+    tryParse(value: string, result: boolean): boolean;
+};
+
+
+export interface __Boolean$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Boolean>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Boolean>;
+    As_IParsable_1(): IParsable_1$instance<Boolean>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Boolean>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Boolean): boolean;
+    compareTo(obj: unknown): int;
+}
+
+export interface Boolean$instance extends ISpanParsable_1$instance<Boolean> {}
+
+export type Boolean = boolean | (boolean & Boolean$instance & __Boolean$views);
+
+
+export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte> {
+    compareTo(value: unknown): int;
+    compareTo(value: byte): int;
+    equals(obj: unknown): boolean;
+    equals(obj: byte): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Byte: {
+    new(): Byte$instance;
+    readonly maxValue: byte;
+    readonly minValue: byte;
+    clamp(value: byte, min: byte, max: byte): byte;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): byte;
+    divRem(left: byte, right: byte): ValueTuple_2<Byte, Byte>;
+    isEvenInteger(value: byte): boolean;
+    isOddInteger(value: byte): boolean;
+    isPow2(value: byte): boolean;
+    leadingZeroCount(value: byte): byte;
+    log2(value: byte): byte;
+    max(x: byte, y: byte): byte;
+    min(x: byte, y: byte): byte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): byte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): byte;
+    parse(s: string, style: NumberStyles): byte;
+    parse(s: string, provider: IFormatProvider): byte;
+    parse(s: string): byte;
+    popCount(value: byte): byte;
+    rotateLeft(value: byte, rotateAmount: int): byte;
+    rotateRight(value: byte, rotateAmount: int): byte;
+    sign(value: byte): int;
+    trailingZeroCount(value: byte): byte;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: byte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: byte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: string, result: byte): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: byte): boolean;
+};
+
+
+export interface __Byte$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Byte>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Byte>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Byte>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Byte>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Byte>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Byte, Byte>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Byte>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Byte>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Byte>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Byte>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Byte): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Byte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Byte> {}
+
+export type Byte = number & Byte$instance & __Byte$views;
+
+
+export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char> {
+    compareTo(value: unknown): int;
+    compareTo(value: char): int;
+    equals(obj: unknown): boolean;
+    equals(obj: char): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+}
+
+
+export const Char: {
+    new(): Char$instance;
+    readonly maxValue: char;
+    readonly minValue: char;
+    convertFromUtf32(utf32: int): string;
+    convertToUtf32(highSurrogate: char, lowSurrogate: char): int;
+    convertToUtf32(s: string, index: int): int;
+    getNumericValue(c: char): double;
+    getNumericValue(s: string, index: int): double;
+    getUnicodeCategory(c: char): UnicodeCategory;
+    getUnicodeCategory(s: string, index: int): UnicodeCategory;
+    isAscii(c: char): boolean;
+    isAsciiDigit(c: char): boolean;
+    isAsciiHexDigit(c: char): boolean;
+    isAsciiHexDigitLower(c: char): boolean;
+    isAsciiHexDigitUpper(c: char): boolean;
+    isAsciiLetter(c: char): boolean;
+    isAsciiLetterLower(c: char): boolean;
+    isAsciiLetterOrDigit(c: char): boolean;
+    isAsciiLetterUpper(c: char): boolean;
+    isBetween(c: char, minInclusive: char, maxInclusive: char): boolean;
+    isControl(c: char): boolean;
+    isControl(s: string, index: int): boolean;
+    isDigit(c: char): boolean;
+    isDigit(s: string, index: int): boolean;
+    isHighSurrogate(c: char): boolean;
+    isHighSurrogate(s: string, index: int): boolean;
+    isLetter(c: char): boolean;
+    isLetter(s: string, index: int): boolean;
+    isLetterOrDigit(c: char): boolean;
+    isLetterOrDigit(s: string, index: int): boolean;
+    isLower(c: char): boolean;
+    isLower(s: string, index: int): boolean;
+    isLowSurrogate(c: char): boolean;
+    isLowSurrogate(s: string, index: int): boolean;
+    isNumber(c: char): boolean;
+    isNumber(s: string, index: int): boolean;
+    isPunctuation(c: char): boolean;
+    isPunctuation(s: string, index: int): boolean;
+    isSeparator(c: char): boolean;
+    isSeparator(s: string, index: int): boolean;
+    isSurrogate(c: char): boolean;
+    isSurrogate(s: string, index: int): boolean;
+    isSurrogatePair(highSurrogate: char, lowSurrogate: char): boolean;
+    isSurrogatePair(s: string, index: int): boolean;
+    isSymbol(c: char): boolean;
+    isSymbol(s: string, index: int): boolean;
+    isUpper(c: char): boolean;
+    isUpper(s: string, index: int): boolean;
+    isWhiteSpace(c: char): boolean;
+    isWhiteSpace(s: string, index: int): boolean;
+    parse(s: string): char;
+    toLower(c: char, culture: CultureInfo): char;
+    toLower(c: char): char;
+    toLowerInvariant(c: char): char;
+    toString(c: char): string;
+    toUpper(c: char, culture: CultureInfo): char;
+    toUpper(c: char): char;
+    toUpperInvariant(c: char): char;
+    tryParse(s: string, result: char): boolean;
+};
+
+
+export interface __Char$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Char>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Char>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Char>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Char>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Char>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Char, Char>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Char>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Char>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Char>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Char>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Char): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Char$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Char> {}
+
+export type Char = string & Char$instance & __Char$views;
+
 
 export interface ConsoleKeyInfo$instance {
     readonly key: ConsoleKey;
@@ -1243,7 +1481,144 @@ export interface DateTimeOffset$instance extends IComparable_1$instance<DateTime
 export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 
-export type Decimal = decimal;
+export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal> {
+    readonly scale: byte;
+    compareTo(value: unknown): int;
+    compareTo(value: decimal): int;
+    equals(value: unknown): boolean;
+    equals(value: decimal): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Decimal: {
+    new(value: int): Decimal$instance;
+    new(value: uint): Decimal$instance;
+    new(value: long): Decimal$instance;
+    new(value: ulong): Decimal$instance;
+    new(value: float): Decimal$instance;
+    new(value: double): Decimal$instance;
+    new(bits: int[]): Decimal$instance;
+    new(bits: ReadOnlySpan_1<Int32>): Decimal$instance;
+    new(lo: int, mid: int, hi: int, isNegative: boolean, scale: byte): Decimal$instance;
+    readonly zero: decimal;
+    readonly one: decimal;
+    readonly minusOne: decimal;
+    readonly maxValue: decimal;
+    readonly minValue: decimal;
+    abs(value: decimal): decimal;
+    add(d1: decimal, d2: decimal): decimal;
+    ceiling(d: decimal): decimal;
+    clamp(value: decimal, min: decimal, max: decimal): decimal;
+    compare(d1: decimal, d2: decimal): int;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: decimal): TInteger;
+    copySign(value: decimal, sign: decimal): decimal;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): decimal;
+    divide(d1: decimal, d2: decimal): decimal;
+    equals(d1: decimal, d2: decimal): boolean;
+    floor(d: decimal): decimal;
+    fromOACurrency(cy: long): decimal;
+    getBits(d: decimal, destination: Span_1<Int32>): int;
+    getBits(d: decimal): int[];
+    isCanonical(value: decimal): boolean;
+    isEvenInteger(value: decimal): boolean;
+    isInteger(value: decimal): boolean;
+    isNegative(value: decimal): boolean;
+    isOddInteger(value: decimal): boolean;
+    isPositive(value: decimal): boolean;
+    max(x: decimal, y: decimal): decimal;
+    maxMagnitude(x: decimal, y: decimal): decimal;
+    min(x: decimal, y: decimal): decimal;
+    minMagnitude(x: decimal, y: decimal): decimal;
+    multiply(d1: decimal, d2: decimal): decimal;
+    negate(d: decimal): decimal;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): decimal;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): decimal;
+    parse(s: string, style: NumberStyles): decimal;
+    parse(s: string, provider: IFormatProvider): decimal;
+    parse(s: string): decimal;
+    remainder(d1: decimal, d2: decimal): decimal;
+    round(d: decimal, decimals: int, mode: MidpointRounding): decimal;
+    round(d: decimal, decimals: int): decimal;
+    round(d: decimal, mode: MidpointRounding): decimal;
+    round(d: decimal): decimal;
+    sign(d: decimal): int;
+    subtract(d1: decimal, d2: decimal): decimal;
+    toByte(value: decimal): byte;
+    toDouble(d: decimal): double;
+    toInt16(value: decimal): short;
+    toInt32(d: decimal): int;
+    toInt64(d: decimal): long;
+    toOACurrency(value: decimal): long;
+    toSByte(value: decimal): sbyte;
+    toSingle(d: decimal): float;
+    toUInt16(value: decimal): ushort;
+    toUInt32(d: decimal): uint;
+    toUInt64(d: decimal): ulong;
+    truncate(d: decimal): decimal;
+    tryGetBits(d: decimal, destination: Span_1<Int32>, valuesWritten: int): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: decimal): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: decimal): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: string, result: decimal): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: decimal): boolean;
+};
+
+
+export interface __Decimal$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Decimal>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Decimal>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Decimal>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Decimal>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Decimal>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Decimal, Decimal>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<Decimal>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Decimal>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Decimal>;
+    As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Decimal): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getExponentByteCount(): int;
+    getExponentShortestBitLength(): int;
+    tryWriteExponentBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeExponentBigEndian(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian(destination: byte[]): int;
+    writeExponentBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Decimal$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Decimal>, System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
+
+export type Decimal = number & Decimal$instance & __Decimal$views;
+
 
 export interface Delegate_InvocationListEnumerator_1$instance<TDelegate extends Function> {
     readonly current: TDelegate;
@@ -1259,7 +1634,184 @@ export const Delegate_InvocationListEnumerator_1: {
 
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
-export type Double = double;
+export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double> {
+    compareTo(value: unknown): int;
+    compareTo(value: double): int;
+    equals(obj: unknown): boolean;
+    equals(obj: double): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Double: {
+    new(): Double$instance;
+    readonly minValue: double;
+    readonly maxValue: double;
+    readonly epsilon: double;
+    readonly negativeInfinity: double;
+    readonly positiveInfinity: double;
+    readonly naN: double;
+    readonly negativeZero: double;
+    readonly E: double;
+    readonly pi: double;
+    readonly tau: double;
+    abs(value: double): double;
+    acos(x: double): double;
+    acosh(x: double): double;
+    acosPi(x: double): double;
+    asin(x: double): double;
+    asinh(x: double): double;
+    asinPi(x: double): double;
+    atan(x: double): double;
+    atan2(y: double, x: double): double;
+    atan2Pi(y: double, x: double): double;
+    atanh(x: double): double;
+    atanPi(x: double): double;
+    bitDecrement(x: double): double;
+    bitIncrement(x: double): double;
+    cbrt(x: double): double;
+    ceiling(x: double): double;
+    clamp(value: double, min: double, max: double): double;
+    clampNative(value: double, min: double, max: double): double;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: double): TInteger;
+    copySign(value: double, sign: double): double;
+    cos(x: double): double;
+    cosh(x: double): double;
+    cosPi(x: double): double;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): double;
+    degreesToRadians(degrees: double): double;
+    exp(x: double): double;
+    exp10(x: double): double;
+    exp10M1(x: double): double;
+    exp2(x: double): double;
+    exp2M1(x: double): double;
+    expM1(x: double): double;
+    floor(x: double): double;
+    fusedMultiplyAdd(left: double, right: double, addend: double): double;
+    hypot(x: double, y: double): double;
+    ieee754Remainder(left: double, right: double): double;
+    iLogB(x: double): int;
+    isEvenInteger(value: double): boolean;
+    isFinite(d: double): boolean;
+    isInfinity(d: double): boolean;
+    isInteger(value: double): boolean;
+    isNaN(d: double): boolean;
+    isNegative(d: double): boolean;
+    isNegativeInfinity(d: double): boolean;
+    isNormal(d: double): boolean;
+    isOddInteger(value: double): boolean;
+    isPositive(value: double): boolean;
+    isPositiveInfinity(d: double): boolean;
+    isPow2(value: double): boolean;
+    isRealNumber(value: double): boolean;
+    isSubnormal(d: double): boolean;
+    lerp(value1: double, value2: double, amount: double): double;
+    log(x: double, newBase: double): double;
+    log(x: double): double;
+    log10(x: double): double;
+    log10P1(x: double): double;
+    log2(value: double): double;
+    log2P1(x: double): double;
+    logP1(x: double): double;
+    max(x: double, y: double): double;
+    maxMagnitude(x: double, y: double): double;
+    maxMagnitudeNumber(x: double, y: double): double;
+    maxNative(x: double, y: double): double;
+    maxNumber(x: double, y: double): double;
+    min(x: double, y: double): double;
+    minMagnitude(x: double, y: double): double;
+    minMagnitudeNumber(x: double, y: double): double;
+    minNative(x: double, y: double): double;
+    minNumber(x: double, y: double): double;
+    multiplyAddEstimate(left: double, right: double, addend: double): double;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): double;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): double;
+    parse(s: string, style: NumberStyles): double;
+    parse(s: string, provider: IFormatProvider): double;
+    parse(s: string): double;
+    pow(x: double, y: double): double;
+    radiansToDegrees(radians: double): double;
+    reciprocalEstimate(x: double): double;
+    reciprocalSqrtEstimate(x: double): double;
+    rootN(x: double, n: int): double;
+    round(x: double, digits: int, mode: MidpointRounding): double;
+    round(x: double, digits: int): double;
+    round(x: double, mode: MidpointRounding): double;
+    round(x: double): double;
+    scaleB(x: double, n: int): double;
+    sign(value: double): int;
+    sin(x: double): double;
+    sinCos(x: double): ValueTuple_2<Double, Double>;
+    sinCosPi(x: double): ValueTuple_2<Double, Double>;
+    sinh(x: double): double;
+    sinPi(x: double): double;
+    sqrt(x: double): double;
+    tan(x: double): double;
+    tanh(x: double): double;
+    tanPi(x: double): double;
+    truncate(x: double): double;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: double): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: double): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: string, result: double): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: double): boolean;
+};
+
+
+export interface __Double$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Double>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Double>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Double>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Double>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Double>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Double, Double>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<Double>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Double>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Double>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Double>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<Double>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<Double>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Double): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getExponentByteCount(): int;
+    getExponentShortestBitLength(): int;
+    tryWriteExponentBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeExponentBigEndian(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian(destination: byte[]): int;
+    writeExponentBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Double$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Double> {}
+
+export type Double = number & Double$instance & __Double$views;
+
 
 export interface Environment_ProcessCpuUsage$instance {
     readonly privilegedTime: TimeSpan;
@@ -1391,7 +1943,186 @@ export interface Guid$instance extends IComparable_1$instance<Guid>, ISpanParsab
 export type Guid = Guid$instance & __Guid$views;
 
 
-export type Half = half;
+export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half> {
+    compareTo(obj: unknown): int;
+    compareTo(other: half): int;
+    equals(obj: unknown): boolean;
+    equals(other: half): boolean;
+    getHashCode(): int;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Half: {
+    new(): Half$instance;
+    readonly epsilon: half;
+    readonly positiveInfinity: half;
+    readonly negativeInfinity: half;
+    readonly naN: half;
+    readonly minValue: half;
+    readonly maxValue: half;
+    readonly E: half;
+    readonly pi: half;
+    readonly tau: half;
+    readonly negativeZero: half;
+    readonly multiplicativeIdentity: half;
+    readonly one: half;
+    readonly zero: half;
+    readonly negativeOne: half;
+    abs(value: half): half;
+    acos(x: half): half;
+    acosh(x: half): half;
+    acosPi(x: half): half;
+    asin(x: half): half;
+    asinh(x: half): half;
+    asinPi(x: half): half;
+    atan(x: half): half;
+    atan2(y: half, x: half): half;
+    atan2Pi(y: half, x: half): half;
+    atanh(x: half): half;
+    atanPi(x: half): half;
+    bitDecrement(x: half): half;
+    bitIncrement(x: half): half;
+    cbrt(x: half): half;
+    ceiling(x: half): half;
+    clamp(value: half, min: half, max: half): half;
+    clampNative(value: half, min: half, max: half): half;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: half): TInteger;
+    copySign(value: half, sign: half): half;
+    cos(x: half): half;
+    cosh(x: half): half;
+    cosPi(x: half): half;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): half;
+    degreesToRadians(degrees: half): half;
+    exp(x: half): half;
+    exp10(x: half): half;
+    exp10M1(x: half): half;
+    exp2(x: half): half;
+    exp2M1(x: half): half;
+    expM1(x: half): half;
+    floor(x: half): half;
+    fusedMultiplyAdd(left: half, right: half, addend: half): half;
+    hypot(x: half, y: half): half;
+    ieee754Remainder(left: half, right: half): half;
+    iLogB(x: half): int;
+    isEvenInteger(value: half): boolean;
+    isFinite(value: half): boolean;
+    isInfinity(value: half): boolean;
+    isInteger(value: half): boolean;
+    isNaN(value: half): boolean;
+    isNegative(value: half): boolean;
+    isNegativeInfinity(value: half): boolean;
+    isNormal(value: half): boolean;
+    isOddInteger(value: half): boolean;
+    isPositive(value: half): boolean;
+    isPositiveInfinity(value: half): boolean;
+    isPow2(value: half): boolean;
+    isRealNumber(value: half): boolean;
+    isSubnormal(value: half): boolean;
+    lerp(value1: half, value2: half, amount: half): half;
+    log(x: half, newBase: half): half;
+    log(x: half): half;
+    log10(x: half): half;
+    log10P1(x: half): half;
+    log2(value: half): half;
+    log2P1(x: half): half;
+    logP1(x: half): half;
+    max(x: half, y: half): half;
+    maxMagnitude(x: half, y: half): half;
+    maxMagnitudeNumber(x: half, y: half): half;
+    maxNative(x: half, y: half): half;
+    maxNumber(x: half, y: half): half;
+    min(x: half, y: half): half;
+    minMagnitude(x: half, y: half): half;
+    minMagnitudeNumber(x: half, y: half): half;
+    minNative(x: half, y: half): half;
+    minNumber(x: half, y: half): half;
+    multiplyAddEstimate(left: half, right: half, addend: half): half;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): half;
+    parse(s: string, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(s: string, style: NumberStyles): half;
+    parse(s: string, provider: IFormatProvider): half;
+    parse(s: string): half;
+    pow(x: half, y: half): half;
+    radiansToDegrees(radians: half): half;
+    reciprocalEstimate(x: half): half;
+    reciprocalSqrtEstimate(x: half): half;
+    rootN(x: half, n: int): half;
+    round(x: half, digits: int, mode: MidpointRounding): half;
+    round(x: half, digits: int): half;
+    round(x: half, mode: MidpointRounding): half;
+    round(x: half): half;
+    scaleB(x: half, n: int): half;
+    sign(value: half): int;
+    sin(x: half): half;
+    sinCos(x: half): ValueTuple_2<Half, Half>;
+    sinCosPi(x: half): ValueTuple_2<Half, Half>;
+    sinh(x: half): half;
+    sinPi(x: half): half;
+    sqrt(x: half): half;
+    tan(x: half): half;
+    tanh(x: half): half;
+    tanPi(x: half): half;
+    truncate(x: half): half;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: half): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: half): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: string, result: half): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: half): boolean;
+};
+
+
+export interface __Half$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Half>;
+    As_IEquatable_1(): IEquatable_1$instance<Half>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Half>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Half>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Half>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Half, Half>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<Half>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Half>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Half>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Half>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<Half>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<Half>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Half): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getExponentByteCount(): int;
+    getExponentShortestBitLength(): int;
+    tryWriteExponentBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeExponentBigEndian(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian(destination: byte[]): int;
+    writeExponentBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Half$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Half> {}
+
+export type Half = number & Half$instance & __Half$views;
+
 
 export interface HashCode$instance {
     add<T>(value: T): void;
@@ -1448,15 +2179,507 @@ export interface __Index$views {
 export type Index = Index$instance & __Index$views;
 
 
-export type Int128 = int128;
+export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128> {
+    compareTo(value: unknown): int;
+    compareTo(value: int128): int;
+    equals(obj: unknown): boolean;
+    equals(other: int128): boolean;
+    getHashCode(): int;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
 
-export type Int16 = short;
 
-export type Int32 = int;
+export const Int128: {
+    new(upper: ulong, lower: ulong): Int128$instance;
+    readonly minValue: int128;
+    readonly maxValue: int128;
+    readonly one: int128;
+    readonly zero: int128;
+    readonly negativeOne: int128;
+    abs(value: int128): int128;
+    bigMul(left: int128, right: int128, lower: int128): int128;
+    clamp(value: int128, min: int128, max: int128): int128;
+    copySign(value: int128, sign: int128): int128;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int128;
+    divRem(left: int128, right: int128): ValueTuple_2<Int128, Int128>;
+    isEvenInteger(value: int128): boolean;
+    isNegative(value: int128): boolean;
+    isOddInteger(value: int128): boolean;
+    isPositive(value: int128): boolean;
+    isPow2(value: int128): boolean;
+    leadingZeroCount(value: int128): int128;
+    log2(value: int128): int128;
+    max(x: int128, y: int128): int128;
+    maxMagnitude(x: int128, y: int128): int128;
+    min(x: int128, y: int128): int128;
+    minMagnitude(x: int128, y: int128): int128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): int128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int128;
+    parse(s: string, style: NumberStyles): int128;
+    parse(s: string, provider: IFormatProvider): int128;
+    parse(s: string): int128;
+    popCount(value: int128): int128;
+    rotateLeft(value: int128, rotateAmount: int): int128;
+    rotateRight(value: int128, rotateAmount: int): int128;
+    sign(value: int128): int;
+    trailingZeroCount(value: int128): int128;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: int128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: int128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: int128): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: string, result: int128): boolean;
+};
 
-export type Int64 = long;
 
-export type IntPtr = nint;
+export interface __Int128$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Int128>;
+    As_IEquatable_1(): IEquatable_1$instance<Int128>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Int128>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Int128>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Int128>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Int128, Int128>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Int128>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Int128>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Int128>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Int128>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Int128): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Int128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int128> {}
+
+export type Int128 = number & Int128$instance & __Int128$views;
+
+
+export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16> {
+    compareTo(value: unknown): int;
+    compareTo(value: short): int;
+    equals(obj: unknown): boolean;
+    equals(obj: short): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Int16: {
+    new(): Int16$instance;
+    readonly maxValue: short;
+    readonly minValue: short;
+    abs(value: short): short;
+    clamp(value: short, min: short, max: short): short;
+    copySign(value: short, sign: short): short;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): short;
+    divRem(left: short, right: short): ValueTuple_2<Int16, Int16>;
+    isEvenInteger(value: short): boolean;
+    isNegative(value: short): boolean;
+    isOddInteger(value: short): boolean;
+    isPositive(value: short): boolean;
+    isPow2(value: short): boolean;
+    leadingZeroCount(value: short): short;
+    log2(value: short): short;
+    max(x: short, y: short): short;
+    maxMagnitude(x: short, y: short): short;
+    min(x: short, y: short): short;
+    minMagnitude(x: short, y: short): short;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): short;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): short;
+    parse(s: string, style: NumberStyles): short;
+    parse(s: string, provider: IFormatProvider): short;
+    parse(s: string): short;
+    popCount(value: short): short;
+    rotateLeft(value: short, rotateAmount: int): short;
+    rotateRight(value: short, rotateAmount: int): short;
+    sign(value: short): int;
+    trailingZeroCount(value: short): short;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: short): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: short): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: short): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: string, result: short): boolean;
+};
+
+
+export interface __Int16$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Int16>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Int16>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Int16>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Int16>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Int16>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Int16, Int16>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Int16>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Int16>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Int16>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Int16>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Int16): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Int16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int16> {}
+
+export type Int16 = number & Int16$instance & __Int16$views;
+
+
+export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32> {
+    compareTo(value: unknown): int;
+    compareTo(value: int): int;
+    equals(obj: unknown): boolean;
+    equals(obj: int): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Int32: {
+    new(): Int32$instance;
+    readonly maxValue: int;
+    readonly minValue: int;
+    abs(value: int): int;
+    bigMul(left: int, right: int): long;
+    clamp(value: int, min: int, max: int): int;
+    copySign(value: int, sign: int): int;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): int;
+    divRem(left: int, right: int): ValueTuple_2<Int32, Int32>;
+    isEvenInteger(value: int): boolean;
+    isNegative(value: int): boolean;
+    isOddInteger(value: int): boolean;
+    isPositive(value: int): boolean;
+    isPow2(value: int): boolean;
+    leadingZeroCount(value: int): int;
+    log2(value: int): int;
+    max(x: int, y: int): int;
+    maxMagnitude(x: int, y: int): int;
+    min(x: int, y: int): int;
+    minMagnitude(x: int, y: int): int;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): int;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int;
+    parse(s: string, style: NumberStyles): int;
+    parse(s: string, provider: IFormatProvider): int;
+    parse(s: string): int;
+    popCount(value: int): int;
+    rotateLeft(value: int, rotateAmount: int): int;
+    rotateRight(value: int, rotateAmount: int): int;
+    sign(value: int): int;
+    trailingZeroCount(value: int): int;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: int): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: int): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: int): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: string, result: int): boolean;
+};
+
+
+export interface __Int32$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Int32>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Int32>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Int32>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Int32>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Int32>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Int32, Int32>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Int32>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Int32>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Int32>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Int32>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Int32): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Int32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int32> {}
+
+export type Int32 = number & Int32$instance & __Int32$views;
+
+
+export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64> {
+    compareTo(value: unknown): int;
+    compareTo(value: long): int;
+    equals(obj: unknown): boolean;
+    equals(obj: long): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Int64: {
+    new(): Int64$instance;
+    readonly maxValue: long;
+    readonly minValue: long;
+    abs(value: long): long;
+    bigMul(left: long, right: long): int128;
+    clamp(value: long, min: long, max: long): long;
+    copySign(value: long, sign: long): long;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): long;
+    divRem(left: long, right: long): ValueTuple_2<Int64, Int64>;
+    isEvenInteger(value: long): boolean;
+    isNegative(value: long): boolean;
+    isOddInteger(value: long): boolean;
+    isPositive(value: long): boolean;
+    isPow2(value: long): boolean;
+    leadingZeroCount(value: long): long;
+    log2(value: long): long;
+    max(x: long, y: long): long;
+    maxMagnitude(x: long, y: long): long;
+    min(x: long, y: long): long;
+    minMagnitude(x: long, y: long): long;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): long;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): long;
+    parse(s: string, style: NumberStyles): long;
+    parse(s: string, provider: IFormatProvider): long;
+    parse(s: string): long;
+    popCount(value: long): long;
+    rotateLeft(value: long, rotateAmount: int): long;
+    rotateRight(value: long, rotateAmount: int): long;
+    sign(value: long): int;
+    trailingZeroCount(value: long): long;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: long): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: long): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: long): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: string, result: long): boolean;
+};
+
+
+export interface __Int64$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Int64>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Int64>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Int64>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Int64>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Int64>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Int64, Int64>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<Int64>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Int64>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Int64>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Int64>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Int64): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Int64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Int64> {}
+
+export type Int64 = number & Int64$instance & __Int64$views;
+
+
+export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr> {
+    compareTo(value: unknown): int;
+    compareTo(value: nint): int;
+    equals(obj: unknown): boolean;
+    equals(other: nint): boolean;
+    getHashCode(): int;
+    toInt32(): int;
+    toInt64(): long;
+    toPointer(): ptr<void>;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const IntPtr: {
+    new(value: int): IntPtr$instance;
+    new(value: long): IntPtr$instance;
+    new(value: ptr<void>): IntPtr$instance;
+    readonly zero: nint;
+    readonly size: int;
+    readonly maxValue: nint;
+    readonly minValue: nint;
+    abs(value: nint): nint;
+    add(pointer: nint, offset: int): nint;
+    bigMul(left: nint, right: nint, lower: nint): nint;
+    clamp(value: nint, min: nint, max: nint): nint;
+    copySign(value: nint, sign: nint): nint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nint;
+    divRem(left: nint, right: nint): ValueTuple_2<IntPtr, IntPtr>;
+    isEvenInteger(value: nint): boolean;
+    isNegative(value: nint): boolean;
+    isOddInteger(value: nint): boolean;
+    isPositive(value: nint): boolean;
+    isPow2(value: nint): boolean;
+    leadingZeroCount(value: nint): nint;
+    log2(value: nint): nint;
+    max(x: nint, y: nint): nint;
+    maxMagnitude(x: nint, y: nint): nint;
+    min(x: nint, y: nint): nint;
+    minMagnitude(x: nint, y: nint): nint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): nint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nint;
+    parse(s: string, style: NumberStyles): nint;
+    parse(s: string, provider: IFormatProvider): nint;
+    parse(s: string): nint;
+    popCount(value: nint): nint;
+    rotateLeft(value: nint, rotateAmount: int): nint;
+    rotateRight(value: nint, rotateAmount: int): nint;
+    sign(value: nint): int;
+    subtract(pointer: nint, offset: int): nint;
+    trailingZeroCount(value: nint): nint;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: nint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: nint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: nint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: string, result: nint): boolean;
+};
+
+
+export interface __IntPtr$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<IntPtr>;
+    As_IEquatable_1(): IEquatable_1$instance<IntPtr>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<IntPtr>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<IntPtr>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<IntPtr>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<IntPtr, IntPtr>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<IntPtr>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<IntPtr>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<IntPtr>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: IntPtr): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface IntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<IntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {}
+
+export type IntPtr = number & IntPtr$instance & __IntPtr$views;
+
 
 export interface Memory_1$instance<T> {
     readonly isEmpty: boolean;
@@ -1801,7 +3024,103 @@ export interface RuntimeTypeHandle$instance extends System_Runtime_Serialization
 export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle$views;
 
 
-export type SByte = sbyte;
+export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte> {
+    compareTo(obj: unknown): int;
+    compareTo(value: sbyte): int;
+    equals(obj: unknown): boolean;
+    equals(obj: sbyte): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const SByte: {
+    new(): SByte$instance;
+    readonly maxValue: sbyte;
+    readonly minValue: sbyte;
+    abs(value: sbyte): sbyte;
+    clamp(value: sbyte, min: sbyte, max: sbyte): sbyte;
+    copySign(value: sbyte, sign: sbyte): sbyte;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): sbyte;
+    divRem(left: sbyte, right: sbyte): ValueTuple_2<SByte, SByte>;
+    isEvenInteger(value: sbyte): boolean;
+    isNegative(value: sbyte): boolean;
+    isOddInteger(value: sbyte): boolean;
+    isPositive(value: sbyte): boolean;
+    isPow2(value: sbyte): boolean;
+    leadingZeroCount(value: sbyte): sbyte;
+    log2(value: sbyte): sbyte;
+    max(x: sbyte, y: sbyte): sbyte;
+    maxMagnitude(x: sbyte, y: sbyte): sbyte;
+    min(x: sbyte, y: sbyte): sbyte;
+    minMagnitude(x: sbyte, y: sbyte): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): sbyte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): sbyte;
+    parse(s: string, style: NumberStyles): sbyte;
+    parse(s: string, provider: IFormatProvider): sbyte;
+    parse(s: string): sbyte;
+    popCount(value: sbyte): sbyte;
+    rotateLeft(value: sbyte, rotateAmount: int): sbyte;
+    rotateRight(value: sbyte, rotateAmount: int): sbyte;
+    sign(value: sbyte): int;
+    trailingZeroCount(value: sbyte): sbyte;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: sbyte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: sbyte): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: string, result: sbyte): boolean;
+};
+
+
+export interface __SByte$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<SByte>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<SByte>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<SByte>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<SByte>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<SByte>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<SByte, SByte>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<SByte>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<SByte>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<SByte>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<SByte>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: SByte): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface SByte$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<SByte> {}
+
+export type SByte = number & SByte$instance & __SByte$views;
+
 
 export interface SequencePosition$instance {
     equals(other: SequencePosition): boolean;
@@ -1827,7 +3146,184 @@ export interface __SequencePosition$views {
 export type SequencePosition = SequencePosition$instance & __SequencePosition$views;
 
 
-export type Single = float;
+export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single> {
+    compareTo(value: unknown): int;
+    compareTo(value: float): int;
+    equals(obj: unknown): boolean;
+    equals(obj: float): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const Single: {
+    new(): Single$instance;
+    readonly minValue: float;
+    readonly maxValue: float;
+    readonly epsilon: float;
+    readonly negativeInfinity: float;
+    readonly positiveInfinity: float;
+    readonly naN: float;
+    readonly negativeZero: float;
+    readonly E: float;
+    readonly pi: float;
+    readonly tau: float;
+    abs(value: float): float;
+    acos(x: float): float;
+    acosh(x: float): float;
+    acosPi(x: float): float;
+    asin(x: float): float;
+    asinh(x: float): float;
+    asinPi(x: float): float;
+    atan(x: float): float;
+    atan2(y: float, x: float): float;
+    atan2Pi(y: float, x: float): float;
+    atanh(x: float): float;
+    atanPi(x: float): float;
+    bitDecrement(x: float): float;
+    bitIncrement(x: float): float;
+    cbrt(x: float): float;
+    ceiling(x: float): float;
+    clamp(value: float, min: float, max: float): float;
+    clampNative(value: float, min: float, max: float): float;
+    convertToInteger<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    convertToIntegerNative<TInteger extends IBinaryInteger_1<TInteger>>(value: float): TInteger;
+    copySign(value: float, sign: float): float;
+    cos(x: float): float;
+    cosh(x: float): float;
+    cosPi(x: float): float;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): float;
+    degreesToRadians(degrees: float): float;
+    exp(x: float): float;
+    exp10(x: float): float;
+    exp10M1(x: float): float;
+    exp2(x: float): float;
+    exp2M1(x: float): float;
+    expM1(x: float): float;
+    floor(x: float): float;
+    fusedMultiplyAdd(left: float, right: float, addend: float): float;
+    hypot(x: float, y: float): float;
+    ieee754Remainder(left: float, right: float): float;
+    iLogB(x: float): int;
+    isEvenInteger(value: float): boolean;
+    isFinite(f: float): boolean;
+    isInfinity(f: float): boolean;
+    isInteger(value: float): boolean;
+    isNaN(f: float): boolean;
+    isNegative(f: float): boolean;
+    isNegativeInfinity(f: float): boolean;
+    isNormal(f: float): boolean;
+    isOddInteger(value: float): boolean;
+    isPositive(value: float): boolean;
+    isPositiveInfinity(f: float): boolean;
+    isPow2(value: float): boolean;
+    isRealNumber(value: float): boolean;
+    isSubnormal(f: float): boolean;
+    lerp(value1: float, value2: float, amount: float): float;
+    log(x: float, newBase: float): float;
+    log(x: float): float;
+    log10(x: float): float;
+    log10P1(x: float): float;
+    log2(value: float): float;
+    log2P1(x: float): float;
+    logP1(x: float): float;
+    max(x: float, y: float): float;
+    maxMagnitude(x: float, y: float): float;
+    maxMagnitudeNumber(x: float, y: float): float;
+    maxNative(x: float, y: float): float;
+    maxNumber(x: float, y: float): float;
+    min(x: float, y: float): float;
+    minMagnitude(x: float, y: float): float;
+    minMagnitudeNumber(x: float, y: float): float;
+    minNative(x: float, y: float): float;
+    minNumber(x: float, y: float): float;
+    multiplyAddEstimate(left: float, right: float, addend: float): float;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): float;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): float;
+    parse(s: string, style: NumberStyles): float;
+    parse(s: string, provider: IFormatProvider): float;
+    parse(s: string): float;
+    pow(x: float, y: float): float;
+    radiansToDegrees(radians: float): float;
+    reciprocalEstimate(x: float): float;
+    reciprocalSqrtEstimate(x: float): float;
+    rootN(x: float, n: int): float;
+    round(x: float, digits: int, mode: MidpointRounding): float;
+    round(x: float, digits: int): float;
+    round(x: float, mode: MidpointRounding): float;
+    round(x: float): float;
+    scaleB(x: float, n: int): float;
+    sign(value: float): int;
+    sin(x: float): float;
+    sinCos(x: float): ValueTuple_2<Single, Single>;
+    sinCosPi(x: float): ValueTuple_2<Single, Single>;
+    sinh(x: float): float;
+    sinPi(x: float): float;
+    sqrt(x: float): float;
+    tan(x: float): float;
+    tanh(x: float): float;
+    tanPi(x: float): float;
+    truncate(x: float): float;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: float): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: float): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: float): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: string, result: float): boolean;
+};
+
+
+export interface __Single$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<Single>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<Single>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<Single>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<Single>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<Single>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<Single, Single>;
+    As_IFloatingPoint_1(): System_Numerics_Internal.IFloatingPoint_1$instance<Single>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<Single>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<Single>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<Single>;
+    As_IRootFunctions_1(): System_Numerics_Internal.IRootFunctions_1$instance<Single>;
+    As_ITrigonometricFunctions_1(): System_Numerics_Internal.ITrigonometricFunctions_1$instance<Single>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: Single): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getExponentByteCount(): int;
+    getExponentShortestBitLength(): int;
+    tryWriteExponentBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeExponentBigEndian(destination: byte[], startIndex: int): int;
+    writeExponentBigEndian(destination: byte[]): int;
+    writeExponentBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface Single$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<Single> {}
+
+export type Single = number & Single$instance & __Single$views;
+
 
 export interface Span_1$instance<T> {
     readonly isEmpty: boolean;
@@ -2160,15 +3656,476 @@ export const TypedReference: {
 
 export type TypedReference = TypedReference$instance;
 
-export type UInt128 = uint128;
+export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128> {
+    compareTo(value: unknown): int;
+    compareTo(value: uint128): int;
+    equals(obj: unknown): boolean;
+    equals(other: uint128): boolean;
+    getHashCode(): int;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
 
-export type UInt16 = ushort;
 
-export type UInt32 = uint;
+export const UInt128: {
+    new(upper: ulong, lower: ulong): UInt128$instance;
+    readonly minValue: uint128;
+    readonly maxValue: uint128;
+    readonly one: uint128;
+    readonly zero: uint128;
+    bigMul(left: uint128, right: uint128, lower: uint128): uint128;
+    clamp(value: uint128, min: uint128, max: uint128): uint128;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint128;
+    divRem(left: uint128, right: uint128): ValueTuple_2<UInt128, UInt128>;
+    isEvenInteger(value: uint128): boolean;
+    isOddInteger(value: uint128): boolean;
+    isPow2(value: uint128): boolean;
+    leadingZeroCount(value: uint128): uint128;
+    log2(value: uint128): uint128;
+    max(x: uint128, y: uint128): uint128;
+    min(x: uint128, y: uint128): uint128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): uint128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint128;
+    parse(s: string, style: NumberStyles): uint128;
+    parse(s: string, provider: IFormatProvider): uint128;
+    parse(s: string): uint128;
+    popCount(value: uint128): uint128;
+    rotateLeft(value: uint128, rotateAmount: int): uint128;
+    rotateRight(value: uint128, rotateAmount: int): uint128;
+    sign(value: uint128): int;
+    trailingZeroCount(value: uint128): uint128;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: uint128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: uint128): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: string, result: uint128): boolean;
+};
 
-export type UInt64 = ulong;
 
-export type UIntPtr = nuint;
+export interface __UInt128$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<UInt128>;
+    As_IEquatable_1(): IEquatable_1$instance<UInt128>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<UInt128>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<UInt128>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<UInt128>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<UInt128, UInt128>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<UInt128>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<UInt128>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<UInt128>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<UInt128>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: UInt128): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface UInt128$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt128> {}
+
+export type UInt128 = number & UInt128$instance & __UInt128$views;
+
+
+export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16> {
+    compareTo(value: unknown): int;
+    compareTo(value: ushort): int;
+    equals(obj: unknown): boolean;
+    equals(obj: ushort): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const UInt16: {
+    new(): UInt16$instance;
+    readonly maxValue: ushort;
+    readonly minValue: ushort;
+    clamp(value: ushort, min: ushort, max: ushort): ushort;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ushort;
+    divRem(left: ushort, right: ushort): ValueTuple_2<UInt16, UInt16>;
+    isEvenInteger(value: ushort): boolean;
+    isOddInteger(value: ushort): boolean;
+    isPow2(value: ushort): boolean;
+    leadingZeroCount(value: ushort): ushort;
+    log2(value: ushort): ushort;
+    max(x: ushort, y: ushort): ushort;
+    min(x: ushort, y: ushort): ushort;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): ushort;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ushort;
+    parse(s: string, style: NumberStyles): ushort;
+    parse(s: string, provider: IFormatProvider): ushort;
+    parse(s: string): ushort;
+    popCount(value: ushort): ushort;
+    rotateLeft(value: ushort, rotateAmount: int): ushort;
+    rotateRight(value: ushort, rotateAmount: int): ushort;
+    sign(value: ushort): int;
+    trailingZeroCount(value: ushort): ushort;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: ushort): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: ushort): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: string, result: ushort): boolean;
+};
+
+
+export interface __UInt16$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<UInt16>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<UInt16>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<UInt16>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<UInt16>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<UInt16>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<UInt16, UInt16>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<UInt16>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<UInt16>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<UInt16>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<UInt16>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: UInt16): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface UInt16$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt16> {}
+
+export type UInt16 = number & UInt16$instance & __UInt16$views;
+
+
+export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32> {
+    compareTo(value: unknown): int;
+    compareTo(value: uint): int;
+    equals(obj: unknown): boolean;
+    equals(obj: uint): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const UInt32: {
+    new(): UInt32$instance;
+    readonly maxValue: uint;
+    readonly minValue: uint;
+    bigMul(left: uint, right: uint): ulong;
+    clamp(value: uint, min: uint, max: uint): uint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): uint;
+    divRem(left: uint, right: uint): ValueTuple_2<UInt32, UInt32>;
+    isEvenInteger(value: uint): boolean;
+    isOddInteger(value: uint): boolean;
+    isPow2(value: uint): boolean;
+    leadingZeroCount(value: uint): uint;
+    log2(value: uint): uint;
+    max(x: uint, y: uint): uint;
+    min(x: uint, y: uint): uint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): uint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint;
+    parse(s: string, style: NumberStyles): uint;
+    parse(s: string, provider: IFormatProvider): uint;
+    parse(s: string): uint;
+    popCount(value: uint): uint;
+    rotateLeft(value: uint, rotateAmount: int): uint;
+    rotateRight(value: uint, rotateAmount: int): uint;
+    sign(value: uint): int;
+    trailingZeroCount(value: uint): uint;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: uint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: uint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: uint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: string, result: uint): boolean;
+};
+
+
+export interface __UInt32$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<UInt32>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<UInt32>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<UInt32>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<UInt32>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<UInt32>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<UInt32, UInt32>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<UInt32>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<UInt32>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<UInt32>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<UInt32>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: UInt32): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface UInt32$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt32> {}
+
+export type UInt32 = number & UInt32$instance & __UInt32$views;
+
+
+export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64> {
+    compareTo(value: unknown): int;
+    compareTo(value: ulong): int;
+    equals(obj: unknown): boolean;
+    equals(obj: ulong): boolean;
+    getHashCode(): int;
+    getTypeCode(): TypeCode;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const UInt64: {
+    new(): UInt64$instance;
+    readonly maxValue: ulong;
+    readonly minValue: ulong;
+    bigMul(left: ulong, right: ulong): uint128;
+    clamp(value: ulong, min: ulong, max: ulong): ulong;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): ulong;
+    divRem(left: ulong, right: ulong): ValueTuple_2<UInt64, UInt64>;
+    isEvenInteger(value: ulong): boolean;
+    isOddInteger(value: ulong): boolean;
+    isPow2(value: ulong): boolean;
+    leadingZeroCount(value: ulong): ulong;
+    log2(value: ulong): ulong;
+    max(x: ulong, y: ulong): ulong;
+    min(x: ulong, y: ulong): ulong;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): ulong;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ulong;
+    parse(s: string, style: NumberStyles): ulong;
+    parse(s: string, provider: IFormatProvider): ulong;
+    parse(s: string): ulong;
+    popCount(value: ulong): ulong;
+    rotateLeft(value: ulong, rotateAmount: int): ulong;
+    rotateRight(value: ulong, rotateAmount: int): ulong;
+    sign(value: ulong): int;
+    trailingZeroCount(value: ulong): ulong;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: ulong): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: ulong): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: string, result: ulong): boolean;
+};
+
+
+export interface __UInt64$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<UInt64>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<UInt64>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<UInt64>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<UInt64>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<UInt64>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<UInt64, UInt64>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<UInt64>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<UInt64>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<UInt64>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<UInt64>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: UInt64): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface UInt64$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UInt64> {}
+
+export type UInt64 = number & UInt64$instance & __UInt64$views;
+
+
+export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr> {
+    compareTo(value: unknown): int;
+    compareTo(value: nuint): int;
+    equals(obj: unknown): boolean;
+    equals(other: nuint): boolean;
+    getHashCode(): int;
+    toPointer(): ptr<void>;
+    toString(): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    toUInt32(): uint;
+    toUInt64(): ulong;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+}
+
+
+export const UIntPtr: {
+    new(value: uint): UIntPtr$instance;
+    new(value: ulong): UIntPtr$instance;
+    new(value: ptr<void>): UIntPtr$instance;
+    readonly zero: nuint;
+    readonly size: int;
+    readonly maxValue: nuint;
+    readonly minValue: nuint;
+    add(pointer: nuint, offset: int): nuint;
+    bigMul(left: nuint, right: nuint, lower: nuint): nuint;
+    clamp(value: nuint, min: nuint, max: nuint): nuint;
+    createChecked<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    createSaturating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    createTruncating<TOther extends INumberBase_1<TOther>>(value: TOther): nuint;
+    divRem(left: nuint, right: nuint): ValueTuple_2<UIntPtr, UIntPtr>;
+    isEvenInteger(value: nuint): boolean;
+    isOddInteger(value: nuint): boolean;
+    isPow2(value: nuint): boolean;
+    leadingZeroCount(value: nuint): nuint;
+    log2(value: nuint): nuint;
+    max(x: nuint, y: nuint): nuint;
+    min(x: nuint, y: nuint): nuint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): nuint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nuint;
+    parse(s: string, style: NumberStyles): nuint;
+    parse(s: string, provider: IFormatProvider): nuint;
+    parse(s: string): nuint;
+    popCount(value: nuint): nuint;
+    rotateLeft(value: nuint, rotateAmount: int): nuint;
+    rotateRight(value: nuint, rotateAmount: int): nuint;
+    sign(value: nuint): int;
+    subtract(pointer: nuint, offset: int): nuint;
+    trailingZeroCount(value: nuint): nuint;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: nuint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, result: nuint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: string, result: nuint): boolean;
+};
+
+
+export interface __UIntPtr$views {
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<UIntPtr>;
+    As_IEquatable_1(): IEquatable_1$instance<UIntPtr>;
+    As_IFormattable(): IFormattable$instance;
+    As_IParsable_1(): IParsable_1$instance<UIntPtr>;
+    As_ISpanFormattable(): ISpanFormattable$instance;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<UIntPtr>;
+    As_IUtf8SpanFormattable(): IUtf8SpanFormattable$instance;
+    As_IUtf8SpanParsable_1(): IUtf8SpanParsable_1$instance<UIntPtr>;
+    As_IAdditiveIdentity_2(): System_Numerics_Internal.IAdditiveIdentity_2$instance<UIntPtr, UIntPtr>;
+    As_IBinaryInteger_1(): System_Numerics_Internal.IBinaryInteger_1$instance<UIntPtr>;
+    As_IMinMaxValue_1(): System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>;
+    As_INumber_1(): System_Numerics_Internal.INumber_1$instance<UIntPtr>;
+    As_INumberBase_1(): System_Numerics_Internal.INumberBase_1$instance<UIntPtr>;
+    As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: UIntPtr): boolean;
+    compareTo(obj: unknown): int;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
+    getByteCount(): int;
+    tryWriteBigEndian(destination: Span_1<Byte>, bytesWritten: int): boolean;
+    writeBigEndian(destination: byte[], startIndex: int): int;
+    writeBigEndian(destination: byte[]): int;
+    writeBigEndian(destination: Span_1<Byte>): int;
+}
+
+export interface UIntPtr$instance extends System_Numerics_Internal.IMinMaxValue_1$instance<UIntPtr>, System_Runtime_Serialization_Internal.ISerializable$instance {}
+
+export type UIntPtr = number & UIntPtr$instance & __UIntPtr$views;
+
 
 export interface UriCreationOptions$instance {
     dangerousDisablePathAndQueryCanonicalization: boolean;
@@ -4467,7 +6424,217 @@ export const STAThreadAttribute: {
 
 export type STAThreadAttribute = STAThreadAttribute$instance;
 
-export type String = string;
+export interface String$instance {
+    readonly chars: char;
+    readonly length: int;
+    clone(): unknown;
+    compareTo(value: unknown): int;
+    compareTo(strB: string): int;
+    contains(value: string): boolean;
+    contains(value: string, comparisonType: StringComparison): boolean;
+    contains(value: char): boolean;
+    contains(value: char, comparisonType: StringComparison): boolean;
+    copyTo(sourceIndex: int, destination: char[], destinationIndex: int, count: int): void;
+    copyTo(destination: Span_1<Char>): void;
+    endsWith(value: string): boolean;
+    endsWith(value: string, comparisonType: StringComparison): boolean;
+    endsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
+    endsWith(value: char): boolean;
+    enumerateRunes(): StringRuneEnumerator;
+    equals(obj: unknown): boolean;
+    equals(value: string): boolean;
+    equals(value: string, comparisonType: StringComparison): boolean;
+    getEnumerator(): CharEnumerator;
+    getHashCode(): int;
+    getHashCode(comparisonType: StringComparison): int;
+    getPinnableReference(): char;
+    getTypeCode(): TypeCode;
+    indexOf(value: char): int;
+    indexOf(value: char, startIndex: int): int;
+    indexOf(value: char, comparisonType: StringComparison): int;
+    indexOf(value: char, startIndex: int, count: int): int;
+    indexOf(value: string): int;
+    indexOf(value: string, startIndex: int): int;
+    indexOf(value: string, startIndex: int, count: int): int;
+    indexOf(value: string, comparisonType: StringComparison): int;
+    indexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
+    indexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
+    indexOfAny(anyOf: char[]): int;
+    indexOfAny(anyOf: char[], startIndex: int): int;
+    indexOfAny(anyOf: char[], startIndex: int, count: int): int;
+    insert(startIndex: int, value: string): string;
+    isNormalized(): boolean;
+    isNormalized(normalizationForm: NormalizationForm): boolean;
+    lastIndexOf(value: char): int;
+    lastIndexOf(value: char, startIndex: int): int;
+    lastIndexOf(value: char, startIndex: int, count: int): int;
+    lastIndexOf(value: string): int;
+    lastIndexOf(value: string, startIndex: int): int;
+    lastIndexOf(value: string, startIndex: int, count: int): int;
+    lastIndexOf(value: string, comparisonType: StringComparison): int;
+    lastIndexOf(value: string, startIndex: int, comparisonType: StringComparison): int;
+    lastIndexOf(value: string, startIndex: int, count: int, comparisonType: StringComparison): int;
+    lastIndexOfAny(anyOf: char[]): int;
+    lastIndexOfAny(anyOf: char[], startIndex: int): int;
+    lastIndexOfAny(anyOf: char[], startIndex: int, count: int): int;
+    normalize(): string;
+    normalize(normalizationForm: NormalizationForm): string;
+    padLeft(totalWidth: int): string;
+    padLeft(totalWidth: int, paddingChar: char): string;
+    padRight(totalWidth: int): string;
+    padRight(totalWidth: int, paddingChar: char): string;
+    remove(startIndex: int, count: int): string;
+    remove(startIndex: int): string;
+    replace(oldValue: string, newValue: string, ignoreCase: boolean, culture: CultureInfo): string;
+    replace(oldValue: string, newValue: string, comparisonType: StringComparison): string;
+    replace(oldChar: char, newChar: char): string;
+    replace(oldValue: string, newValue: string): string;
+    replaceLineEndings(): string;
+    replaceLineEndings(replacementText: string): string;
+    split(separator: char, options?: StringSplitOptions): string[];
+    split(separator: char, count: int, options?: StringSplitOptions): string[];
+    split(...separator: char[]): string[];
+    split(separator: ReadOnlySpan_1<Char>): string[];
+    split(separator: char[], count: int): string[];
+    split(separator: char[], options: StringSplitOptions): string[];
+    split(separator: char[], count: int, options: StringSplitOptions): string[];
+    split(separator: string, options?: StringSplitOptions): string[];
+    split(separator: string, count: int, options?: StringSplitOptions): string[];
+    split(separator: string[], options: StringSplitOptions): string[];
+    split(separator: string[], count: int, options: StringSplitOptions): string[];
+    startsWith(value: string): boolean;
+    startsWith(value: string, comparisonType: StringComparison): boolean;
+    startsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
+    startsWith(value: char): boolean;
+    substring(startIndex: int): string;
+    substring(startIndex: int, length: int): string;
+    toCharArray(): char[];
+    toCharArray(startIndex: int, length: int): char[];
+    toLower(): string;
+    toLower(culture: CultureInfo): string;
+    toLowerInvariant(): string;
+    toString(): string;
+    toString(provider: IFormatProvider): string;
+    toUpper(): string;
+    toUpper(culture: CultureInfo): string;
+    toUpperInvariant(): string;
+    trim(): string;
+    trim(trimChar: char): string;
+    trim(...trimChars: char[]): string;
+    trim(trimChars: ReadOnlySpan_1<Char>): string;
+    trimEnd(): string;
+    trimEnd(trimChar: char): string;
+    trimEnd(...trimChars: char[]): string;
+    trimEnd(trimChars: ReadOnlySpan_1<Char>): string;
+    trimStart(): string;
+    trimStart(trimChar: char): string;
+    trimStart(...trimChars: char[]): string;
+    trimStart(trimChars: ReadOnlySpan_1<Char>): string;
+    tryCopyTo(destination: Span_1<Char>): boolean;
+}
+
+
+export const String: {
+    new(value: char[]): String$instance;
+    new(value: char[], startIndex: int, length: int): String$instance;
+    new(value: ptr<char>): String$instance;
+    new(value: ptr<char>, startIndex: int, length: int): String$instance;
+    new(value: ptr<sbyte>): String$instance;
+    new(value: ptr<sbyte>, startIndex: int, length: int): String$instance;
+    new(value: ptr<sbyte>, startIndex: int, length: int, enc: Encoding): String$instance;
+    new(c: char, count: int): String$instance;
+    new(value: ReadOnlySpan_1<Char>): String$instance;
+    readonly empty: string;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, comparisonType: StringComparison): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compare(strA: string, strB: string, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, strB: string, ignoreCase: boolean): int;
+    compare(strA: string, strB: string, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, strB: string, comparisonType: StringComparison): int;
+    compare(strA: string, strB: string): int;
+    compareOrdinal(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compareOrdinal(strA: string, strB: string): int;
+    concat<T>(values: IEnumerable_1<T>): string;
+    concat(values: IEnumerable_1<String>): string;
+    concat(arg0: unknown, arg1: unknown, arg2: unknown): string;
+    concat(arg0: unknown, arg1: unknown): string;
+    concat(arg0: unknown): string;
+    concat(...args: unknown[]): string;
+    concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>, str3: ReadOnlySpan_1<Char>): string;
+    concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>): string;
+    concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>): string;
+    concat(args: ReadOnlySpan_1<unknown>): string;
+    concat(values: ReadOnlySpan_1<String>): string;
+    concat(str0: string, str1: string, str2: string, str3: string): string;
+    concat(str0: string, str1: string, str2: string): string;
+    concat(str0: string, str1: string): string;
+    concat(...values: string[]): string;
+    copy(str: string): string;
+    create(provider: IFormatProvider, handler: DefaultInterpolatedStringHandler): string;
+    create(provider: IFormatProvider, initialBuffer: Span_1<Char>, handler: DefaultInterpolatedStringHandler): string;
+    create<TState>(length: int, state: TState, action: SpanAction_2<Char, TState>): string;
+    equals(a: string, b: string, comparisonType: StringComparison): boolean;
+    equals(a: string, b: string): boolean;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown): string;
+    format(provider: IFormatProvider, format: string, ...args: unknown[]): string;
+    format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): string;
+    format(provider: IFormatProvider, format: CompositeFormat, ...args: unknown[]): string;
+    format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
+    format<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
+    format<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
+    format<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): string;
+    format(format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(format: string, arg0: unknown, arg1: unknown): string;
+    format(format: string, arg0: unknown): string;
+    format(format: string, ...args: unknown[]): string;
+    format(format: string, args: ReadOnlySpan_1<unknown>): string;
+    getHashCode(value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
+    getHashCode(value: ReadOnlySpan_1<Char>): int;
+    intern(str: string): string;
+    isInterned(str: string): string;
+    isNullOrEmpty(value: string): boolean;
+    isNullOrWhiteSpace(value: string): boolean;
+    join<T>(separator: char, values: IEnumerable_1<T>): string;
+    join(separator: char, ...values: unknown[]): string;
+    join(separator: char, values: ReadOnlySpan_1<unknown>): string;
+    join(separator: char, value: ReadOnlySpan_1<String>): string;
+    join(separator: char, value: string[], startIndex: int, count: int): string;
+    join(separator: char, ...value: string[]): string;
+    join<T>(separator: string, values: IEnumerable_1<T>): string;
+    join(separator: string, values: IEnumerable_1<String>): string;
+    join(separator: string, ...values: unknown[]): string;
+    join(separator: string, values: ReadOnlySpan_1<unknown>): string;
+    join(separator: string, value: ReadOnlySpan_1<String>): string;
+    join(separator: string, value: string[], startIndex: int, count: int): string;
+    join(separator: string, ...value: string[]): string;
+};
+
+
+export interface __String$views {
+    As_IEnumerable_1(): System_Collections_Generic_Internal.IEnumerable_1$instance<Char>;
+    As_IEnumerable(): System_Collections_Internal.IEnumerable$instance;
+    As_ICloneable(): ICloneable$instance;
+    As_IComparable(): IComparable$instance;
+    As_IComparable_1(): IComparable_1$instance<String>;
+    As_IConvertible(): IConvertible$instance;
+    As_IEquatable_1(): IEquatable_1$instance<String>;
+    As_IParsable_1(): IParsable_1$instance<String>;
+    As_ISpanParsable_1(): ISpanParsable_1$instance<String>;
+
+    // Structural method bridges for numeric interface constraints
+    equals(other: String): boolean;
+    compareTo(obj: unknown): int;
+}
+
+export interface String$instance extends ICloneable$instance, IComparable$instance, ISpanParsable_1$instance<String> {}
+
+export type String = string & String$instance & __String$views;
+
 
 export interface StringComparer$instance {
     compare(x: unknown, y: unknown): int;
