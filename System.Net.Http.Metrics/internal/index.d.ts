@@ -19,7 +19,7 @@ export interface HttpMetricsEnrichmentContext$instance {
 
 
 export const HttpMetricsEnrichmentContext: {
-    new(): HttpMetricsEnrichmentContext$instance;
+    new(): HttpMetricsEnrichmentContext;
     addCallback(request: HttpRequestMessage, callback: Action_1<HttpMetricsEnrichmentContext>): void;
 };
 

@@ -23,7 +23,7 @@ export interface BooleanType$instance {
 
 
 export const BooleanType: {
-    new(): BooleanType$instance;
+    new(): BooleanType;
     fromObject(Value: unknown): boolean;
     fromString(Value: string): boolean;
 };
@@ -36,7 +36,7 @@ export interface ByteType$instance {
 
 
 export const ByteType: {
-    new(): ByteType$instance;
+    new(): ByteType;
     fromObject(Value: unknown): byte;
     fromString(Value: string): byte;
 };
@@ -49,7 +49,7 @@ export interface CharArrayType$instance {
 
 
 export const CharArrayType: {
-    new(): CharArrayType$instance;
+    new(): CharArrayType;
     fromObject(Value: unknown): char[];
     fromString(Value: string): char[];
 };
@@ -62,7 +62,7 @@ export interface CharType$instance {
 
 
 export const CharType: {
-    new(): CharType$instance;
+    new(): CharType;
     fromObject(Value: unknown): char;
     fromString(Value: string): char;
 };
@@ -75,7 +75,7 @@ export interface Conversions$instance {
 
 
 export const Conversions: {
-    new(): Conversions$instance;
+    new(): Conversions;
     changeType(Expression: unknown, TargetType: Type): unknown;
     fallbackUserDefinedConversion(Expression: unknown, TargetType: Type): unknown;
     fromCharAndCount(Value: char, Count: int): string;
@@ -139,7 +139,7 @@ export interface DateType$instance {
 
 
 export const DateType: {
-    new(): DateType$instance;
+    new(): DateType;
     fromObject(Value: unknown): DateTime;
     fromString(Value: string, culture: CultureInfo): DateTime;
     fromString(Value: string): DateTime;
@@ -153,7 +153,7 @@ export interface DecimalType$instance {
 
 
 export const DecimalType: {
-    new(): DecimalType$instance;
+    new(): DecimalType;
     fromBoolean(Value: boolean): decimal;
     fromObject(Value: unknown, NumberFormat: NumberFormatInfo): decimal;
     fromObject(Value: unknown): decimal;
@@ -170,7 +170,7 @@ export interface DesignerGeneratedAttribute$instance extends Attribute {
 
 
 export const DesignerGeneratedAttribute: {
-    new(): DesignerGeneratedAttribute$instance;
+    new(): DesignerGeneratedAttribute;
 };
 
 
@@ -181,7 +181,7 @@ export interface DoubleType$instance {
 
 
 export const DoubleType: {
-    new(): DoubleType$instance;
+    new(): DoubleType;
     fromObject(Value: unknown, NumberFormat: NumberFormatInfo): double;
     fromObject(Value: unknown): double;
     fromString(Value: string, NumberFormat: NumberFormatInfo): double;
@@ -199,7 +199,7 @@ export interface IncompleteInitialization$instance extends Exception {
 
 
 export const IncompleteInitialization: {
-    new(): IncompleteInitialization$instance;
+    new(): IncompleteInitialization;
 };
 
 
@@ -215,7 +215,7 @@ export interface IntegerType$instance {
 
 
 export const IntegerType: {
-    new(): IntegerType$instance;
+    new(): IntegerType;
     fromObject(Value: unknown): int;
     fromString(Value: string): int;
 };
@@ -228,7 +228,7 @@ export interface LateBinding$instance {
 
 
 export const LateBinding: {
-    new(): LateBinding$instance;
+    new(): LateBinding;
     lateCall(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): void;
     lateGet(o: unknown, objType: Type, name: string, args: unknown[], paramnames: string[], CopyBack: boolean[]): unknown;
     lateIndexGet(o: unknown, args: unknown[], paramnames: string[]): unknown;
@@ -246,7 +246,7 @@ export interface LikeOperator$instance {
 
 
 export const LikeOperator: {
-    new(): LikeOperator$instance;
+    new(): LikeOperator;
     likeObject(Source: unknown, Pattern: unknown, CompareOption: CompareMethod): unknown;
     likeString(Source: string, Pattern: string, CompareOption: CompareMethod): boolean;
 };
@@ -259,7 +259,7 @@ export interface LongType$instance {
 
 
 export const LongType: {
-    new(): LongType$instance;
+    new(): LongType;
     fromObject(Value: unknown): long;
     fromString(Value: string): long;
 };
@@ -272,7 +272,7 @@ export interface NewLateBinding$instance {
 
 
 export const NewLateBinding: {
-    new(): NewLateBinding$instance;
+    new(): NewLateBinding;
     fallbackCall(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[], IgnoreReturn: boolean): unknown;
     fallbackGet(Instance: unknown, MemberName: string, Arguments: unknown[], ArgumentNames: string[]): unknown;
     fallbackIndexSet(Instance: unknown, Arguments: unknown[], ArgumentNames: string[]): void;
@@ -301,7 +301,7 @@ export interface ObjectFlowControl$instance {
 
 
 export const ObjectFlowControl: {
-    new(): ObjectFlowControl$instance;
+    new(): ObjectFlowControl;
     checkForSyncLockOnValueType(Expression: unknown): void;
 };
 
@@ -313,7 +313,7 @@ export interface ObjectFlowControl_ForLoopControl$instance {
 
 
 export const ObjectFlowControl_ForLoopControl: {
-    new(): ObjectFlowControl_ForLoopControl$instance;
+    new(): ObjectFlowControl_ForLoopControl;
     forLoopInitObj(Counter: unknown, Start: unknown, Limit: unknown, StepValue: unknown, LoopForResult: unknown, CounterResult: unknown): boolean;
     forNextCheckDec(count: decimal, limit: decimal, StepValue: decimal): boolean;
     forNextCheckObj(Counter: unknown, LoopObj: unknown, CounterResult: unknown): boolean;
@@ -329,7 +329,7 @@ export interface ObjectType$instance {
 
 
 export const ObjectType: {
-    new(): ObjectType$instance;
+    new(): ObjectType;
     addObj(o1: unknown, o2: unknown): unknown;
     bitAndObj(obj1: unknown, obj2: unknown): unknown;
     bitOrObj(obj1: unknown, obj2: unknown): unknown;
@@ -360,7 +360,7 @@ export interface Operators$instance {
 
 
 export const Operators: {
-    new(): Operators$instance;
+    new(): Operators;
     addObject(Left: unknown, Right: unknown): unknown;
     andObject(Left: unknown, Right: unknown): unknown;
     compareObjectEqual(Left: unknown, Right: unknown, TextCompare: boolean): unknown;
@@ -401,7 +401,7 @@ export interface OptionCompareAttribute$instance extends Attribute {
 
 
 export const OptionCompareAttribute: {
-    new(): OptionCompareAttribute$instance;
+    new(): OptionCompareAttribute;
 };
 
 
@@ -412,7 +412,7 @@ export interface OptionTextAttribute$instance extends Attribute {
 
 
 export const OptionTextAttribute: {
-    new(): OptionTextAttribute$instance;
+    new(): OptionTextAttribute;
 };
 
 
@@ -423,7 +423,7 @@ export interface ProjectData$instance {
 
 
 export const ProjectData: {
-    new(): ProjectData$instance;
+    new(): ProjectData;
     clearProjectError(): void;
     createProjectError(hr: int): Exception;
     endApp(): void;
@@ -439,7 +439,7 @@ export interface ShortType$instance {
 
 
 export const ShortType: {
-    new(): ShortType$instance;
+    new(): ShortType;
     fromObject(Value: unknown): short;
     fromString(Value: string): short;
 };
@@ -452,7 +452,7 @@ export interface SingleType$instance {
 
 
 export const SingleType: {
-    new(): SingleType$instance;
+    new(): SingleType;
     fromObject(Value: unknown, NumberFormat: NumberFormatInfo): float;
     fromObject(Value: unknown): float;
     fromString(Value: string, NumberFormat: NumberFormatInfo): float;
@@ -467,7 +467,7 @@ export interface StandardModuleAttribute$instance extends Attribute {
 
 
 export const StandardModuleAttribute: {
-    new(): StandardModuleAttribute$instance;
+    new(): StandardModuleAttribute;
 };
 
 
@@ -479,7 +479,7 @@ export interface StaticLocalInitFlag$instance {
 
 
 export const StaticLocalInitFlag: {
-    new(): StaticLocalInitFlag$instance;
+    new(): StaticLocalInitFlag;
 };
 
 
@@ -490,7 +490,7 @@ export interface StringType$instance {
 
 
 export const StringType: {
-    new(): StringType$instance;
+    new(): StringType;
     fromBoolean(Value: boolean): string;
     fromByte(Value: byte): string;
     fromChar(Value: char): string;
@@ -520,7 +520,7 @@ export interface Utils$instance {
 
 
 export const Utils: {
-    new(): Utils$instance;
+    new(): Utils;
     copyArray(arySrc: ClrArray, aryDest: ClrArray): ClrArray;
     getResourceString(ResourceKey: string, ...Args: string[]): string;
 };
@@ -533,7 +533,7 @@ export interface Versioned$instance {
 
 
 export const Versioned: {
-    new(): Versioned$instance;
+    new(): Versioned;
     callByName(Instance: unknown, MethodName: string, UseCallType: CallType, ...Arguments: unknown[]): unknown;
     isNumeric(Expression: unknown): boolean;
     systemTypeName(VbName: string): string;

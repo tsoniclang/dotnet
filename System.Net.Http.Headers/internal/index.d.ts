@@ -24,7 +24,7 @@ export interface HeaderStringValues$instance {
 
 
 export const HeaderStringValues: {
-    new(): HeaderStringValues$instance;
+    new(): HeaderStringValues;
 };
 
 
@@ -46,7 +46,7 @@ export interface HeaderStringValues_Enumerator$instance extends IDisposable {
 
 
 export const HeaderStringValues_Enumerator: {
-    new(): HeaderStringValues_Enumerator$instance;
+    new(): HeaderStringValues_Enumerator;
 };
 
 
@@ -68,7 +68,7 @@ export interface HttpHeadersNonValidated$instance {
 
 
 export const HttpHeadersNonValidated: {
-    new(): HttpHeadersNonValidated$instance;
+    new(): HttpHeadersNonValidated;
 };
 
 
@@ -91,7 +91,7 @@ export interface HttpHeadersNonValidated_Enumerator$instance extends IDisposable
 
 
 export const HttpHeadersNonValidated_Enumerator: {
-    new(): HttpHeadersNonValidated_Enumerator$instance;
+    new(): HttpHeadersNonValidated_Enumerator;
 };
 
 
@@ -113,8 +113,8 @@ export interface AuthenticationHeaderValue$instance {
 
 
 export const AuthenticationHeaderValue: {
-    new(scheme: string): AuthenticationHeaderValue$instance;
-    new(scheme: string, parameter: string): AuthenticationHeaderValue$instance;
+    new(scheme: string): AuthenticationHeaderValue;
+    new(scheme: string, parameter: string): AuthenticationHeaderValue;
     parse(input: string): AuthenticationHeaderValue;
     tryParse(input: string, parsedValue: AuthenticationHeaderValue): boolean;
 };
@@ -153,7 +153,7 @@ export interface CacheControlHeaderValue$instance {
 
 
 export const CacheControlHeaderValue: {
-    new(): CacheControlHeaderValue$instance;
+    new(): CacheControlHeaderValue;
     parse(input: string): CacheControlHeaderValue;
     tryParse(input: string, parsedValue: CacheControlHeaderValue): boolean;
 };
@@ -185,7 +185,7 @@ export interface ContentDispositionHeaderValue$instance {
 
 
 export const ContentDispositionHeaderValue: {
-    new(dispositionType: string): ContentDispositionHeaderValue$instance;
+    new(dispositionType: string): ContentDispositionHeaderValue;
     parse(input: string): ContentDispositionHeaderValue;
     tryParse(input: string, parsedValue: ContentDispositionHeaderValue): boolean;
 };
@@ -214,9 +214,9 @@ export interface ContentRangeHeaderValue$instance {
 
 
 export const ContentRangeHeaderValue: {
-    new(from_: long, to: long, length: long): ContentRangeHeaderValue$instance;
-    new(length: long): ContentRangeHeaderValue$instance;
-    new(from_: long, to: long): ContentRangeHeaderValue$instance;
+    new(from_: long, to: long, length: long): ContentRangeHeaderValue;
+    new(length: long): ContentRangeHeaderValue;
+    new(from_: long, to: long): ContentRangeHeaderValue;
     parse(input: string): ContentRangeHeaderValue;
     tryParse(input: string, parsedValue: ContentRangeHeaderValue): boolean;
 };
@@ -241,8 +241,8 @@ export interface EntityTagHeaderValue$instance {
 
 
 export const EntityTagHeaderValue: {
-    new(tag: string): EntityTagHeaderValue$instance;
-    new(tag: string, isWeak: boolean): EntityTagHeaderValue$instance;
+    new(tag: string): EntityTagHeaderValue;
+    new(tag: string, isWeak: boolean): EntityTagHeaderValue;
     readonly any_: EntityTagHeaderValue;
     parse(input: string): EntityTagHeaderValue;
     tryParse(input: string, parsedValue: EntityTagHeaderValue): boolean;
@@ -276,7 +276,7 @@ export interface HttpContentHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpContentHeaders: {
-    new(): HttpContentHeaders$instance;
+    new(): HttpContentHeaders;
 };
 
 
@@ -332,7 +332,7 @@ export interface HttpHeaderValueCollection_1$instance<T> {
 
 
 export const HttpHeaderValueCollection_1: {
-    new<T>(): HttpHeaderValueCollection_1$instance<T>;
+    new<T>(): HttpHeaderValueCollection_1<T>;
 };
 
 
@@ -384,7 +384,7 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpRequestHeaders: {
-    new(): HttpRequestHeaders$instance;
+    new(): HttpRequestHeaders;
 };
 
 
@@ -423,7 +423,7 @@ export interface HttpResponseHeaders$instance extends HttpHeaders$instance {
 
 
 export const HttpResponseHeaders: {
-    new(): HttpResponseHeaders$instance;
+    new(): HttpResponseHeaders;
 };
 
 
@@ -446,8 +446,8 @@ export interface MediaTypeHeaderValue$instance {
 
 
 export const MediaTypeHeaderValue: {
-    new(mediaType: string): MediaTypeHeaderValue$instance;
-    new(mediaType: string, charSet: string): MediaTypeHeaderValue$instance;
+    new(mediaType: string): MediaTypeHeaderValue;
+    new(mediaType: string, charSet: string): MediaTypeHeaderValue;
     parse(input: string): MediaTypeHeaderValue;
     tryParse(input: string, parsedValue: MediaTypeHeaderValue): boolean;
 };
@@ -469,8 +469,8 @@ export interface MediaTypeWithQualityHeaderValue$instance extends MediaTypeHeade
 
 
 export const MediaTypeWithQualityHeaderValue: {
-    new(mediaType: string): MediaTypeWithQualityHeaderValue$instance;
-    new(mediaType: string, quality: double): MediaTypeWithQualityHeaderValue$instance;
+    new(mediaType: string): MediaTypeWithQualityHeaderValue;
+    new(mediaType: string, quality: double): MediaTypeWithQualityHeaderValue;
 };
 
 
@@ -493,8 +493,8 @@ export interface NameValueHeaderValue$instance {
 
 
 export const NameValueHeaderValue: {
-    new(name: string): NameValueHeaderValue$instance;
-    new(name: string, value: string): NameValueHeaderValue$instance;
+    new(name: string): NameValueHeaderValue;
+    new(name: string, value: string): NameValueHeaderValue;
     parse(input: string): NameValueHeaderValue;
     tryParse(input: string, parsedValue: NameValueHeaderValue): boolean;
 };
@@ -519,8 +519,8 @@ export interface NameValueWithParametersHeaderValue$instance extends NameValueHe
 
 
 export const NameValueWithParametersHeaderValue: {
-    new(name: string): NameValueWithParametersHeaderValue$instance;
-    new(name: string, value: string): NameValueWithParametersHeaderValue$instance;
+    new(name: string): NameValueWithParametersHeaderValue;
+    new(name: string, value: string): NameValueWithParametersHeaderValue;
 };
 
 
@@ -543,8 +543,8 @@ export interface ProductHeaderValue$instance {
 
 
 export const ProductHeaderValue: {
-    new(name: string): ProductHeaderValue$instance;
-    new(name: string, version: string): ProductHeaderValue$instance;
+    new(name: string): ProductHeaderValue;
+    new(name: string, version: string): ProductHeaderValue;
     parse(input: string): ProductHeaderValue;
     tryParse(input: string, parsedValue: ProductHeaderValue): boolean;
 };
@@ -569,9 +569,9 @@ export interface ProductInfoHeaderValue$instance {
 
 
 export const ProductInfoHeaderValue: {
-    new(productName: string, productVersion: string): ProductInfoHeaderValue$instance;
-    new(product: ProductHeaderValue): ProductInfoHeaderValue$instance;
-    new(comment: string): ProductInfoHeaderValue$instance;
+    new(productName: string, productVersion: string): ProductInfoHeaderValue;
+    new(product: ProductHeaderValue): ProductInfoHeaderValue;
+    new(comment: string): ProductInfoHeaderValue;
     parse(input: string): ProductInfoHeaderValue;
     tryParse(input: string, parsedValue: ProductInfoHeaderValue): boolean;
 };
@@ -596,9 +596,9 @@ export interface RangeConditionHeaderValue$instance {
 
 
 export const RangeConditionHeaderValue: {
-    new(date: DateTimeOffset): RangeConditionHeaderValue$instance;
-    new(entityTag: EntityTagHeaderValue): RangeConditionHeaderValue$instance;
-    new(entityTag: string): RangeConditionHeaderValue$instance;
+    new(date: DateTimeOffset): RangeConditionHeaderValue;
+    new(entityTag: EntityTagHeaderValue): RangeConditionHeaderValue;
+    new(entityTag: string): RangeConditionHeaderValue;
     parse(input: string): RangeConditionHeaderValue;
     tryParse(input: string, parsedValue: RangeConditionHeaderValue): boolean;
 };
@@ -623,8 +623,8 @@ export interface RangeHeaderValue$instance {
 
 
 export const RangeHeaderValue: {
-    new(): RangeHeaderValue$instance;
-    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeHeaderValue$instance;
+    new(): RangeHeaderValue;
+    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeHeaderValue;
     parse(input: string): RangeHeaderValue;
     tryParse(input: string, parsedValue: RangeHeaderValue): boolean;
 };
@@ -649,7 +649,7 @@ export interface RangeItemHeaderValue$instance {
 
 
 export const RangeItemHeaderValue: {
-    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeItemHeaderValue$instance;
+    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeItemHeaderValue;
 };
 
 
@@ -672,8 +672,8 @@ export interface RetryConditionHeaderValue$instance {
 
 
 export const RetryConditionHeaderValue: {
-    new(date: DateTimeOffset): RetryConditionHeaderValue$instance;
-    new(delta: TimeSpan): RetryConditionHeaderValue$instance;
+    new(date: DateTimeOffset): RetryConditionHeaderValue;
+    new(delta: TimeSpan): RetryConditionHeaderValue;
     parse(input: string): RetryConditionHeaderValue;
     tryParse(input: string, parsedValue: RetryConditionHeaderValue): boolean;
 };
@@ -698,8 +698,8 @@ export interface StringWithQualityHeaderValue$instance {
 
 
 export const StringWithQualityHeaderValue: {
-    new(value: string): StringWithQualityHeaderValue$instance;
-    new(value: string, quality: double): StringWithQualityHeaderValue$instance;
+    new(value: string): StringWithQualityHeaderValue;
+    new(value: string, quality: double): StringWithQualityHeaderValue;
     parse(input: string): StringWithQualityHeaderValue;
     tryParse(input: string, parsedValue: StringWithQualityHeaderValue): boolean;
 };
@@ -724,7 +724,7 @@ export interface TransferCodingHeaderValue$instance {
 
 
 export const TransferCodingHeaderValue: {
-    new(value: string): TransferCodingHeaderValue$instance;
+    new(value: string): TransferCodingHeaderValue;
     parse(input: string): TransferCodingHeaderValue;
     tryParse(input: string, parsedValue: TransferCodingHeaderValue): boolean;
 };
@@ -746,8 +746,8 @@ export interface TransferCodingWithQualityHeaderValue$instance extends TransferC
 
 
 export const TransferCodingWithQualityHeaderValue: {
-    new(value: string): TransferCodingWithQualityHeaderValue$instance;
-    new(value: string, quality: double): TransferCodingWithQualityHeaderValue$instance;
+    new(value: string): TransferCodingWithQualityHeaderValue;
+    new(value: string, quality: double): TransferCodingWithQualityHeaderValue;
 };
 
 
@@ -772,9 +772,9 @@ export interface ViaHeaderValue$instance {
 
 
 export const ViaHeaderValue: {
-    new(protocolVersion: string, receivedBy: string): ViaHeaderValue$instance;
-    new(protocolVersion: string, receivedBy: string, protocolName: string): ViaHeaderValue$instance;
-    new(protocolVersion: string, receivedBy: string, protocolName: string, comment: string): ViaHeaderValue$instance;
+    new(protocolVersion: string, receivedBy: string): ViaHeaderValue;
+    new(protocolVersion: string, receivedBy: string, protocolName: string): ViaHeaderValue;
+    new(protocolVersion: string, receivedBy: string, protocolName: string, comment: string): ViaHeaderValue;
     parse(input: string): ViaHeaderValue;
     tryParse(input: string, parsedValue: ViaHeaderValue): boolean;
 };
@@ -801,8 +801,8 @@ export interface WarningHeaderValue$instance {
 
 
 export const WarningHeaderValue: {
-    new(code: int, agent: string, text: string): WarningHeaderValue$instance;
-    new(code: int, agent: string, text: string, date: DateTimeOffset): WarningHeaderValue$instance;
+    new(code: int, agent: string, text: string): WarningHeaderValue;
+    new(code: int, agent: string, text: string, date: DateTimeOffset): WarningHeaderValue;
     parse(input: string): WarningHeaderValue;
     tryParse(input: string, parsedValue: WarningHeaderValue): boolean;
 };
