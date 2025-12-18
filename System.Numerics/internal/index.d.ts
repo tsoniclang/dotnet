@@ -342,15 +342,15 @@ export interface BigInteger$instance extends IAdditionOperators_3<BigInteger, Bi
 
 
 export const BigInteger: {
-    new(value: int): BigInteger$instance;
-    new(value: uint): BigInteger$instance;
-    new(value: long): BigInteger$instance;
-    new(value: ulong): BigInteger$instance;
-    new(value: float): BigInteger$instance;
-    new(value: double): BigInteger$instance;
-    new(value: decimal): BigInteger$instance;
-    new(value: byte[]): BigInteger$instance;
-    new(value: ReadOnlySpan_1<System_Internal.Byte>, isUnsigned: boolean, isBigEndian: boolean): BigInteger$instance;
+    new(value: int): BigInteger;
+    new(value: uint): BigInteger;
+    new(value: long): BigInteger;
+    new(value: ulong): BigInteger;
+    new(value: float): BigInteger;
+    new(value: double): BigInteger;
+    new(value: decimal): BigInteger;
+    new(value: byte[]): BigInteger;
+    new(value: ReadOnlySpan_1<System_Internal.Byte>, isUnsigned: boolean, isBigEndian: boolean): BigInteger;
     readonly zero: BigInteger;
     readonly one: BigInteger;
     readonly minusOne: BigInteger;
@@ -454,7 +454,7 @@ export interface Complex$instance extends IAdditionOperators_3<Complex, Complex,
 
 
 export const Complex: {
-    new(real: double, imaginary: double): Complex$instance;
+    new(real: double, imaginary: double): Complex;
     readonly zero: Complex;
     readonly one: Complex;
     readonly imaginaryOne: Complex;
@@ -573,7 +573,7 @@ export interface Matrix3x2$instance {
 
 
 export const Matrix3x2: {
-    new(m11: float, m12: float, m21: float, m22: float, m31: float, m32: float): Matrix3x2$instance;
+    new(m11: float, m12: float, m21: float, m22: float, m31: float, m32: float): Matrix3x2;
     readonly identity: Matrix3x2;
     add(value1: Matrix3x2, value2: Matrix3x2): Matrix3x2;
     create(x: Vector2, y: Vector2, z: Vector2): Matrix3x2;
@@ -651,8 +651,8 @@ export interface Matrix4x4$instance {
 
 
 export const Matrix4x4: {
-    new(m11: float, m12: float, m13: float, m14: float, m21: float, m22: float, m23: float, m24: float, m31: float, m32: float, m33: float, m34: float, m41: float, m42: float, m43: float, m44: float): Matrix4x4$instance;
-    new(value: Matrix3x2): Matrix4x4$instance;
+    new(m11: float, m12: float, m13: float, m14: float, m21: float, m22: float, m23: float, m24: float, m31: float, m32: float, m33: float, m34: float, m41: float, m42: float, m43: float, m44: float): Matrix4x4;
+    new(value: Matrix3x2): Matrix4x4;
     readonly identity: Matrix4x4;
     add(value1: Matrix4x4, value2: Matrix4x4): Matrix4x4;
     create(value: Matrix3x2): Matrix4x4;
@@ -733,9 +733,9 @@ export interface Plane$instance {
 
 
 export const Plane: {
-    new(x: float, y: float, z: float, d: float): Plane$instance;
-    new(normal: Vector3, d: float): Plane$instance;
-    new(value: Vector4): Plane$instance;
+    new(x: float, y: float, z: float, d: float): Plane;
+    new(normal: Vector3, d: float): Plane;
+    new(value: Vector4): Plane;
     create(normal: Vector3, d: float): Plane;
     create(value: Vector4): Plane;
     create(x: float, y: float, z: float, d: float): Plane;
@@ -776,8 +776,8 @@ export interface Quaternion$instance {
 
 
 export const Quaternion: {
-    new(x: float, y: float, z: float, w: float): Quaternion$instance;
-    new(vectorPart: Vector3, scalarPart: float): Quaternion$instance;
+    new(x: float, y: float, z: float, w: float): Quaternion;
+    new(vectorPart: Vector3, scalarPart: float): Quaternion;
     readonly zero: Quaternion;
     readonly identity: Quaternion;
     add(value1: Quaternion, value2: Quaternion): Quaternion;
@@ -822,7 +822,7 @@ export interface TotalOrderIeee754Comparer_1$instance<T extends IFloatingPointIe
 
 
 export const TotalOrderIeee754Comparer_1: {
-    new<T extends IFloatingPointIeee754_1<T>>(): TotalOrderIeee754Comparer_1$instance<T>;
+    new<T extends IFloatingPointIeee754_1<T>>(): TotalOrderIeee754Comparer_1<T>;
 };
 
 
@@ -858,12 +858,12 @@ export interface Vector_1$instance<T> extends IAdditionOperators_3<Vector_1<T>, 
 
 
 export const Vector_1: {
-    new<T>(value: T): Vector_1$instance<T>;
-    new<T>(values: T[]): Vector_1$instance<T>;
-    new<T>(values: T[], index: int): Vector_1$instance<T>;
-    new<T>(values: ReadOnlySpan_1<T>): Vector_1$instance<T>;
-    new<T>(values: ReadOnlySpan_1<System_Internal.Byte>): Vector_1$instance<T>;
-    new<T>(values: Span_1<T>): Vector_1$instance<T>;
+    new<T>(value: T): Vector_1<T>;
+    new<T>(values: T[]): Vector_1<T>;
+    new<T>(values: T[], index: int): Vector_1<T>;
+    new<T>(values: ReadOnlySpan_1<T>): Vector_1<T>;
+    new<T>(values: ReadOnlySpan_1<System_Internal.Byte>): Vector_1<T>;
+    new<T>(values: Span_1<T>): Vector_1<T>;
     readonly allBitsSet: unknown;
     readonly count: int;
     readonly indices: unknown;
@@ -906,9 +906,9 @@ export interface Vector2$instance {
 
 
 export const Vector2: {
-    new(value: float): Vector2$instance;
-    new(x: float, y: float): Vector2$instance;
-    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector2$instance;
+    new(value: float): Vector2;
+    new(x: float, y: float): Vector2;
+    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector2;
     readonly allBitsSet: Vector2;
     readonly E: Vector2;
     readonly epsilon: Vector2;
@@ -1065,10 +1065,10 @@ export interface Vector3$instance {
 
 
 export const Vector3: {
-    new(value: float): Vector3$instance;
-    new(value: Vector2, z: float): Vector3$instance;
-    new(x: float, y: float, z: float): Vector3$instance;
-    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector3$instance;
+    new(value: float): Vector3;
+    new(value: Vector2, z: float): Vector3;
+    new(x: float, y: float, z: float): Vector3;
+    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector3;
     readonly allBitsSet: Vector3;
     readonly E: Vector3;
     readonly epsilon: Vector3;
@@ -1226,11 +1226,11 @@ export interface Vector4$instance {
 
 
 export const Vector4: {
-    new(value: float): Vector4$instance;
-    new(value: Vector2, z: float, w: float): Vector4$instance;
-    new(value: Vector3, w: float): Vector4$instance;
-    new(x: float, y: float, z: float, w: float): Vector4$instance;
-    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector4$instance;
+    new(value: float): Vector4;
+    new(value: Vector2, z: float, w: float): Vector4;
+    new(value: Vector3, w: float): Vector4;
+    new(x: float, y: float, z: float, w: float): Vector4;
+    new(values: ReadOnlySpan_1<System_Internal.Single>): Vector4;
     readonly allBitsSet: Vector4;
     readonly E: Vector4;
     readonly epsilon: Vector4;

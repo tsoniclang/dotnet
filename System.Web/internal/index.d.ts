@@ -24,7 +24,7 @@ export interface HttpUtility$instance {
 
 
 export const HttpUtility: {
-    new(): HttpUtility$instance;
+    new(): HttpUtility;
     htmlAttributeEncode(s: string, output: TextWriter): void;
     htmlAttributeEncode(s: string): string;
     htmlDecode(s: string, output: TextWriter): void;

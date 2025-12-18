@@ -60,7 +60,7 @@ export interface SqlBinary$instance {
 
 
 export const SqlBinary: {
-    new(value: byte[]): SqlBinary$instance;
+    new(value: byte[]): SqlBinary;
     readonly null_: SqlBinary;
     add(x: SqlBinary, y: SqlBinary): SqlBinary;
     concat(x: SqlBinary, y: SqlBinary): SqlBinary;
@@ -116,8 +116,8 @@ export interface SqlBoolean$instance {
 
 
 export const SqlBoolean: {
-    new(value: boolean): SqlBoolean$instance;
-    new(value: int): SqlBoolean$instance;
+    new(value: boolean): SqlBoolean;
+    new(value: int): SqlBoolean;
     readonly true_: SqlBoolean;
     readonly false_: SqlBoolean;
     readonly null_: SqlBoolean;
@@ -176,7 +176,7 @@ export interface SqlByte$instance {
 
 
 export const SqlByte: {
-    new(value: byte): SqlByte$instance;
+    new(value: byte): SqlByte;
     readonly null_: SqlByte;
     readonly zero: SqlByte;
     readonly minValue: SqlByte;
@@ -234,12 +234,12 @@ export interface SqlDateTime$instance {
 
 
 export const SqlDateTime: {
-    new(value: DateTime): SqlDateTime$instance;
-    new(year: int, month: int, day: int): SqlDateTime$instance;
-    new(year: int, month: int, day: int, hour: int, minute: int, second: int): SqlDateTime$instance;
-    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: double): SqlDateTime$instance;
-    new(year: int, month: int, day: int, hour: int, minute: int, second: int, bilisecond: int): SqlDateTime$instance;
-    new(dayTicks: int, timeTicks: int): SqlDateTime$instance;
+    new(value: DateTime): SqlDateTime;
+    new(year: int, month: int, day: int): SqlDateTime;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int): SqlDateTime;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, millisecond: double): SqlDateTime;
+    new(year: int, month: int, day: int, hour: int, minute: int, second: int, bilisecond: int): SqlDateTime;
+    new(dayTicks: int, timeTicks: int): SqlDateTime;
     readonly sqlTicksPerSecond: int;
     readonly sqlTicksPerMinute: int;
     readonly sqlTicksPerHour: int;
@@ -304,12 +304,12 @@ export interface SqlDecimal$instance {
 
 
 export const SqlDecimal: {
-    new(value: decimal): SqlDecimal$instance;
-    new(value: int): SqlDecimal$instance;
-    new(value: long): SqlDecimal$instance;
-    new(bPrecision: byte, bScale: byte, fPositive: boolean, bits: int[]): SqlDecimal$instance;
-    new(bPrecision: byte, bScale: byte, fPositive: boolean, data1: int, data2: int, data3: int, data4: int): SqlDecimal$instance;
-    new(dVal: double): SqlDecimal$instance;
+    new(value: decimal): SqlDecimal;
+    new(value: int): SqlDecimal;
+    new(value: long): SqlDecimal;
+    new(bPrecision: byte, bScale: byte, fPositive: boolean, bits: int[]): SqlDecimal;
+    new(bPrecision: byte, bScale: byte, fPositive: boolean, data1: int, data2: int, data3: int, data4: int): SqlDecimal;
+    new(dVal: double): SqlDecimal;
     readonly maxPrecision: byte;
     readonly maxScale: byte;
     readonly null_: SqlDecimal;
@@ -377,7 +377,7 @@ export interface SqlDouble$instance {
 
 
 export const SqlDouble: {
-    new(value: double): SqlDouble$instance;
+    new(value: double): SqlDouble;
     readonly null_: SqlDouble;
     readonly zero: SqlDouble;
     readonly minValue: SqlDouble;
@@ -429,10 +429,10 @@ export interface SqlGuid$instance {
 
 
 export const SqlGuid: {
-    new(value: byte[]): SqlGuid$instance;
-    new(s: string): SqlGuid$instance;
-    new(g: Guid): SqlGuid$instance;
-    new(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): SqlGuid$instance;
+    new(value: byte[]): SqlGuid;
+    new(s: string): SqlGuid;
+    new(g: Guid): SqlGuid;
+    new(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): SqlGuid;
     readonly null_: SqlGuid;
     equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
@@ -484,7 +484,7 @@ export interface SqlInt16$instance {
 
 
 export const SqlInt16: {
-    new(value: short): SqlInt16$instance;
+    new(value: short): SqlInt16;
     readonly null_: SqlInt16;
     readonly zero: SqlInt16;
     readonly minValue: SqlInt16;
@@ -548,7 +548,7 @@ export interface SqlInt32$instance {
 
 
 export const SqlInt32: {
-    new(value: int): SqlInt32$instance;
+    new(value: int): SqlInt32;
     readonly null_: SqlInt32;
     readonly zero: SqlInt32;
     readonly minValue: SqlInt32;
@@ -612,7 +612,7 @@ export interface SqlInt64$instance {
 
 
 export const SqlInt64: {
-    new(value: long): SqlInt64$instance;
+    new(value: long): SqlInt64;
     readonly null_: SqlInt64;
     readonly zero: SqlInt64;
     readonly minValue: SqlInt64;
@@ -681,10 +681,10 @@ export interface SqlMoney$instance {
 
 
 export const SqlMoney: {
-    new(value: int): SqlMoney$instance;
-    new(value: long): SqlMoney$instance;
-    new(value: decimal): SqlMoney$instance;
-    new(value: double): SqlMoney$instance;
+    new(value: int): SqlMoney;
+    new(value: long): SqlMoney;
+    new(value: decimal): SqlMoney;
+    new(value: double): SqlMoney;
     readonly null_: SqlMoney;
     readonly zero: SqlMoney;
     readonly minValue: SqlMoney;
@@ -743,8 +743,8 @@ export interface SqlSingle$instance {
 
 
 export const SqlSingle: {
-    new(value: float): SqlSingle$instance;
-    new(value: double): SqlSingle$instance;
+    new(value: float): SqlSingle;
+    new(value: double): SqlSingle;
     readonly null_: SqlSingle;
     readonly zero: SqlSingle;
     readonly minValue: SqlSingle;
@@ -811,13 +811,13 @@ export interface SqlString$instance {
 
 
 export const SqlString: {
-    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int, fUnicode: boolean): SqlString$instance;
-    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], fUnicode: boolean): SqlString$instance;
-    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int): SqlString$instance;
-    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[]): SqlString$instance;
-    new(data: string, lcid: int, compareOptions: SqlCompareOptions): SqlString$instance;
-    new(data: string, lcid: int): SqlString$instance;
-    new(data: string): SqlString$instance;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int, fUnicode: boolean): SqlString;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], fUnicode: boolean): SqlString;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[], index: int, count: int): SqlString;
+    new(lcid: int, compareOptions: SqlCompareOptions, data: byte[]): SqlString;
+    new(data: string, lcid: int, compareOptions: SqlCompareOptions): SqlString;
+    new(data: string, lcid: int): SqlString;
+    new(data: string): SqlString;
     readonly null_: SqlString;
     readonly ignoreCase: int;
     readonly ignoreWidth: int;
@@ -860,9 +860,9 @@ export interface SqlAlreadyFilledException$instance extends SqlTypeException$ins
 
 
 export const SqlAlreadyFilledException: {
-    new(): SqlAlreadyFilledException$instance;
-    new(message: string): SqlAlreadyFilledException$instance;
-    new(message: string, e: Exception): SqlAlreadyFilledException$instance;
+    new(): SqlAlreadyFilledException;
+    new(message: string): SqlAlreadyFilledException;
+    new(message: string, e: Exception): SqlAlreadyFilledException;
 };
 
 
@@ -891,10 +891,10 @@ export interface SqlBytes$instance {
 
 
 export const SqlBytes: {
-    new(): SqlBytes$instance;
-    new(buffer: byte[]): SqlBytes$instance;
-    new(value: SqlBinary): SqlBytes$instance;
-    new(s: Stream): SqlBytes$instance;
+    new(): SqlBytes;
+    new(buffer: byte[]): SqlBytes;
+    new(value: SqlBinary): SqlBytes;
+    new(s: Stream): SqlBytes;
     readonly null_: SqlBytes;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };
@@ -928,9 +928,9 @@ export interface SqlChars$instance {
 
 
 export const SqlChars: {
-    new(): SqlChars$instance;
-    new(buffer: char[]): SqlChars$instance;
-    new(value: SqlString): SqlChars$instance;
+    new(): SqlChars;
+    new(buffer: char[]): SqlChars;
+    new(value: SqlString): SqlChars;
     readonly null_: SqlChars;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };
@@ -953,9 +953,9 @@ export interface SqlNotFilledException$instance extends SqlTypeException$instanc
 
 
 export const SqlNotFilledException: {
-    new(): SqlNotFilledException$instance;
-    new(message: string): SqlNotFilledException$instance;
-    new(message: string, e: Exception): SqlNotFilledException$instance;
+    new(): SqlNotFilledException;
+    new(message: string): SqlNotFilledException;
+    new(message: string, e: Exception): SqlNotFilledException;
 };
 
 
@@ -972,9 +972,9 @@ export interface SqlNullValueException$instance extends SqlTypeException$instanc
 
 
 export const SqlNullValueException: {
-    new(): SqlNullValueException$instance;
-    new(message: string): SqlNullValueException$instance;
-    new(message: string, e: Exception): SqlNullValueException$instance;
+    new(): SqlNullValueException;
+    new(message: string): SqlNullValueException;
+    new(message: string, e: Exception): SqlNullValueException;
 };
 
 
@@ -991,9 +991,9 @@ export interface SqlTruncateException$instance extends SqlTypeException$instance
 
 
 export const SqlTruncateException: {
-    new(): SqlTruncateException$instance;
-    new(message: string): SqlTruncateException$instance;
-    new(message: string, e: Exception): SqlTruncateException$instance;
+    new(): SqlTruncateException;
+    new(message: string): SqlTruncateException;
+    new(message: string, e: Exception): SqlTruncateException;
 };
 
 
@@ -1010,9 +1010,9 @@ export interface SqlTypeException$instance extends SystemException {
 
 
 export const SqlTypeException: {
-    new(): SqlTypeException$instance;
-    new(message: string): SqlTypeException$instance;
-    new(message: string, e: Exception): SqlTypeException$instance;
+    new(): SqlTypeException;
+    new(message: string): SqlTypeException;
+    new(message: string, e: Exception): SqlTypeException;
 };
 
 
@@ -1031,9 +1031,9 @@ export interface SqlXml$instance {
 
 
 export const SqlXml: {
-    new(): SqlXml$instance;
-    new(value: XmlReader): SqlXml$instance;
-    new(value: Stream): SqlXml$instance;
+    new(): SqlXml;
+    new(value: XmlReader): SqlXml;
+    new(value: Stream): SqlXml;
     readonly null_: SqlXml;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };

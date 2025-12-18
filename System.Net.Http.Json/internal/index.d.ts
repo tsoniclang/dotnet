@@ -28,7 +28,7 @@ export interface JsonContent$instance extends HttpContent {
 
 
 export const JsonContent: {
-    new(): JsonContent$instance;
+    new(): JsonContent;
     create(inputValue: unknown, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue): JsonContent;
     create(inputValue: unknown, inputType: Type, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
     create<T>(inputValue: T, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue): JsonContent;
