@@ -23352,7 +23352,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.MidpointRounding):TSelf",
           "clrName": "Round",
-          "tsEmitName": "round$view3",
+          "tsEmitName": "round$view2",
           "metadataToken": 100675854,
           "canonicalSignature": "(TSelf,System.MidpointRounding):TSelf",
           "normalizedSignature": "Round|(TSelf,System.MidpointRounding):TSelf|static=false",
@@ -23696,6 +23696,20 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
+          "clrName": "Round",
+          "tsEmitName": "round$view",
+          "metadataToken": 100675853,
+          "canonicalSignature": "(TSelf,System.Int32):TSelf",
+          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
+          "emitScope": "ViewOnly",
+          "arity": 0,
+          "parameterCount": 2,
+          "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
+          "declaringAssemblyName": "System.Private.CoreLib",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Ceiling(TSelf):TSelf",
           "clrName": "Ceiling",
           "tsEmitName": "ceiling$view",
@@ -23705,20 +23719,6 @@
           "emitScope": "ViewOnly",
           "arity": 0,
           "parameterCount": 1,
-          "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
-          "declaringAssemblyName": "System.Private.CoreLib",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
-          "clrName": "Round",
-          "tsEmitName": "round$view2",
-          "metadataToken": 100675853,
-          "canonicalSignature": "(TSelf,System.Int32):TSelf",
-          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
-          "emitScope": "ViewOnly",
-          "arity": 0,
-          "parameterCount": 2,
           "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
           "declaringAssemblyName": "System.Private.CoreLib",
           "isExtensionMethod": false
@@ -25660,7 +25660,7 @@
           }
         },
         {
-          "tsName": "round$view3",
+          "tsName": "round$view2",
           "isStatic": false,
           "tsSignatureId": "Round|(TSelf,System.MidpointRounding):TSelf|static=false",
           "target": {
@@ -25890,6 +25890,16 @@
           }
         },
         {
+          "tsName": "round$view",
+          "isStatic": false,
+          "tsSignatureId": "Round|(TSelf,System.Int32):TSelf|static=false",
+          "target": {
+            "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
+            "declaringAssemblyName": "System.Private.CoreLib",
+            "metadataToken": 100675853
+          }
+        },
+        {
           "tsName": "ceiling$view",
           "isStatic": false,
           "tsSignatureId": "Ceiling|(TSelf):TSelf|static=false",
@@ -25897,16 +25907,6 @@
             "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
             "declaringAssemblyName": "System.Private.CoreLib",
             "metadataToken": 100675848
-          }
-        },
-        {
-          "tsName": "round$view2",
-          "isStatic": false,
-          "tsSignatureId": "Round|(TSelf,System.Int32):TSelf|static=false",
-          "target": {
-            "declaringClrType": "System.Numerics.IFloatingPoint\u00601",
-            "declaringAssemblyName": "System.Private.CoreLib",
-            "metadataToken": 100675853
           }
         },
         {

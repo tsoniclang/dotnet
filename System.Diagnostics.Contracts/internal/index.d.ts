@@ -74,16 +74,16 @@ export const ContractClassForAttribute: {
 export type ContractClassForAttribute = ContractClassForAttribute$instance;
 
 export interface ContractException$instance extends Exception {
-    readonly condition: string;
+    readonly condition: string | undefined;
     readonly failure: string;
     readonly kind: ContractFailureKind;
-    readonly userMessage: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly userMessage: string | undefined;
+    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
 }
 
 
 export const ContractException: {
-    new(kind: ContractFailureKind, failure: string, userMessage: string, condition: string, innerException: Exception): ContractException;
+    new(kind: ContractFailureKind, failure: string | undefined, userMessage: string | undefined, condition: string | undefined, innerException: Exception | undefined): ContractException;
 };
 
 
@@ -95,11 +95,11 @@ export type ContractException = ContractException$instance & __ContractException
 
 
 export interface ContractFailedEventArgs$instance extends EventArgs {
-    readonly condition: string;
+    readonly condition: string | undefined;
     readonly failureKind: ContractFailureKind;
     readonly handled: boolean;
     readonly message: string;
-    readonly originalException: Exception;
+    readonly originalException: Exception | undefined;
     readonly unwind: boolean;
     setHandled(): void;
     setUnwind(): void;
@@ -107,7 +107,7 @@ export interface ContractFailedEventArgs$instance extends EventArgs {
 
 
 export const ContractFailedEventArgs: {
-    new(failureKind: ContractFailureKind, message: string, condition: string, originalException: Exception): ContractFailedEventArgs;
+    new(failureKind: ContractFailureKind, message: string | undefined, condition: string | undefined, originalException: Exception | undefined): ContractFailedEventArgs;
 };
 
 
@@ -205,7 +205,7 @@ export abstract class Contract$instance {
     static endContractBlock(): void;
     static ensures(condition: boolean, userMessage: string): void;
     static ensures(condition: boolean): void;
-    static ensuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string): void;
+    static ensuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string | undefined): void;
     static ensuresOnThrow<TException extends Exception>(condition: boolean): void;
     static exists<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;

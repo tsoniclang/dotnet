@@ -367,7 +367,7 @@ export interface ManagedPEBuilder$instance extends PEBuilder {
 
 
 export const ManagedPEBuilder: {
-    new(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId>): ManagedPEBuilder;
+    new(header: PEHeaderBuilder, metadataRootBuilder: MetadataRootBuilder, ilStream: BlobBuilder, mappedFieldData: BlobBuilder, managedResources: BlobBuilder, nativeResources: ResourceSectionBuilder, debugDirectoryBuilder: DebugDirectoryBuilder, strongNameSignatureSize: int, entryPoint: MethodDefinitionHandle, flags: CorFlags, deterministicIdProvider: Func_2<IEnumerable_1<Blob>, BlobContentId> | undefined): ManagedPEBuilder;
     readonly managedResourcesDataAlignment: int;
     readonly mappedFieldDataAlignment: int;
 };
@@ -504,7 +504,7 @@ export type PEHeaderBuilder = PEHeaderBuilder$instance;
 export interface PEHeaders$instance {
     readonly coffHeader: CoffHeader;
     readonly coffHeaderStartOffset: int;
-    readonly corHeader: CorHeader;
+    readonly corHeader: CorHeader | undefined;
     readonly corHeaderStartOffset: int;
     readonly isCoffOnly: boolean;
     readonly isConsoleApplication: boolean;
@@ -512,7 +512,7 @@ export interface PEHeaders$instance {
     readonly isExe: boolean;
     readonly metadataSize: int;
     readonly metadataStartOffset: int;
-    readonly peHeader: PEHeader;
+    readonly peHeader: PEHeader | undefined;
     readonly peHeaderStartOffset: int;
     readonly sectionHeaders: ImmutableArray_1<SectionHeader>;
     getContainingSectionIndex(relativeVirtualAddress: int): int;
@@ -543,7 +543,7 @@ export interface PEReader$instance {
     readDebugDirectory(): ImmutableArray_1<DebugDirectoryEntry>;
     readEmbeddedPortablePdbDebugDirectoryData(entry: DebugDirectoryEntry): MetadataReaderProvider;
     readPdbChecksumDebugDirectoryData(entry: DebugDirectoryEntry): PdbChecksumDebugDirectoryData;
-    tryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<System_Internal.String, Stream>, pdbReaderProvider: MetadataReaderProvider, pdbPath: string): boolean;
+    tryOpenAssociatedPortablePdb(peImagePath: string, pdbFileStreamProvider: Func_2<System_Internal.String, Stream | undefined>, pdbReaderProvider: MetadataReaderProvider, pdbPath: string): boolean;
 }
 
 

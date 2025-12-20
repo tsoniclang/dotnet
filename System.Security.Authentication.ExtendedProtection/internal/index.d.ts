@@ -56,18 +56,18 @@ export type ChannelBinding = ChannelBinding$instance & __ChannelBinding$views;
 
 
 export interface ExtendedProtectionPolicy$instance {
-    readonly customChannelBinding: ChannelBinding;
-    readonly customServiceNames: ServiceNameCollection;
+    readonly customChannelBinding: ChannelBinding | undefined;
+    readonly customServiceNames: ServiceNameCollection | undefined;
     readonly policyEnforcement: PolicyEnforcement;
     readonly protectionScenario: ProtectionScenario;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
 export const ExtendedProtectionPolicy: {
-    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection): ExtendedProtectionPolicy;
-    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection): ExtendedProtectionPolicy;
-    new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection | undefined): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection | undefined): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding | undefined): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
     readonly osSupportsExtendedProtection: boolean;
 };
@@ -83,10 +83,10 @@ export type ExtendedProtectionPolicy = ExtendedProtectionPolicy$instance & __Ext
 
 
 export interface ExtendedProtectionPolicyTypeConverter$instance extends TypeConverter {
-    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
-    canConvertTo(destinationType: Type): boolean;
-    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
-    convertTo(value: unknown, destinationType: Type): unknown;
+    canConvertTo(context: ITypeDescriptorContext | undefined, destinationType: Type | undefined): boolean;
+    canConvertTo(destinationType: Type | undefined): boolean;
+    convertTo(context: ITypeDescriptorContext | undefined, culture: CultureInfo | undefined, value: unknown | undefined, destinationType: Type): unknown | undefined;
+    convertTo(value: unknown | undefined, destinationType: Type): unknown | undefined;
 }
 
 

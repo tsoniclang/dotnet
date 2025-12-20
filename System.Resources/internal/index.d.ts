@@ -38,9 +38,9 @@ export interface IResourceReader$instance extends System_Collections_Internal.IE
 export type IResourceReader = IResourceReader$instance;
 
 export interface IResourceWriter$instance extends IDisposable {
-    addResource(name: string, value: byte[]): void;
-    addResource(name: string, value: unknown): void;
-    addResource(name: string, value: string): void;
+    addResource(name: string, value: byte[] | undefined): void;
+    addResource(name: string, value: unknown | undefined): void;
+    addResource(name: string, value: string | undefined): void;
     close(): void;
     dispose(): void;
 }
@@ -57,8 +57,8 @@ export interface MissingManifestResourceException$instance extends SystemExcepti
 
 export const MissingManifestResourceException: {
     new(): MissingManifestResourceException;
-    new(message: string): MissingManifestResourceException;
-    new(message: string, inner: Exception): MissingManifestResourceException;
+    new(message: string | undefined): MissingManifestResourceException;
+    new(message: string | undefined, inner: Exception | undefined): MissingManifestResourceException;
 };
 
 
@@ -77,9 +77,9 @@ export interface MissingSatelliteAssemblyException$instance extends SystemExcept
 
 export const MissingSatelliteAssemblyException: {
     new(): MissingSatelliteAssemblyException;
-    new(message: string): MissingSatelliteAssemblyException;
-    new(message: string, cultureName: string): MissingSatelliteAssemblyException;
-    new(message: string, inner: Exception): MissingSatelliteAssemblyException;
+    new(message: string | undefined): MissingSatelliteAssemblyException;
+    new(message: string | undefined, cultureName: string | undefined): MissingSatelliteAssemblyException;
+    new(message: string | undefined, inner: Exception | undefined): MissingSatelliteAssemblyException;
 };
 
 
@@ -108,12 +108,12 @@ export interface ResourceManager$instance {
     readonly baseName: string;
     ignoreCase: boolean;
     readonly resourceSetType: Type;
-    getObject(name: string): unknown;
+    getObject(name: string): unknown | undefined;
     getObject(name: string, culture: CultureInfo): unknown;
-    getResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet;
-    getStream(name: string): UnmanagedMemoryStream;
+    getResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | undefined;
+    getStream(name: string): UnmanagedMemoryStream | undefined;
     getStream(name: string, culture: CultureInfo): UnmanagedMemoryStream;
-    getString(name: string): string;
+    getString(name: string): string | undefined;
     getString(name: string, culture: CultureInfo): string;
     releaseAllResources(): void;
 }
@@ -121,11 +121,11 @@ export interface ResourceManager$instance {
 
 export const ResourceManager: {
     new(baseName: string, assembly: Assembly): ResourceManager;
-    new(baseName: string, assembly: Assembly, usingResourceSet: Type): ResourceManager;
+    new(baseName: string, assembly: Assembly, usingResourceSet: Type | undefined): ResourceManager;
     new(resourceSource: Type): ResourceManager;
     readonly magicNumber: int;
     readonly headerVersionNumber: int;
-    createFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type): ResourceManager;
+    createFileBasedResourceManager(baseName: string, resourceDir: string, usingResourceSet: Type | undefined): ResourceManager;
 };
 
 
@@ -160,10 +160,10 @@ export interface ResourceSet$instance {
     getDefaultReader(): Type;
     getDefaultWriter(): Type;
     getEnumerator(): IDictionaryEnumerator;
-    getObject(name: string): unknown;
-    getObject(name: string, ignoreCase: boolean): unknown;
-    getString(name: string): string;
-    getString(name: string, ignoreCase: boolean): string;
+    getObject(name: string): unknown | undefined;
+    getObject(name: string, ignoreCase: boolean): unknown | undefined;
+    getString(name: string): string | undefined;
+    getString(name: string, ignoreCase: boolean): string | undefined;
 }
 
 
@@ -185,12 +185,12 @@ export type ResourceSet = ResourceSet$instance & __ResourceSet$views;
 
 
 export interface ResourceWriter$instance {
-    typeNameConverter: Func_2<Type, System_Internal.String>;
-    addResource(name: string, value: Stream): void;
-    addResource(name: string, value: string): void;
-    addResource(name: string, value: unknown): void;
-    addResource(name: string, value: Stream, closeAfterWrite?: boolean): void;
-    addResource(name: string, value: byte[]): void;
+    typeNameConverter: Func_2<Type, System_Internal.String> | undefined;
+    addResource(name: string, value: Stream | undefined): void;
+    addResource(name: string, value: string | undefined): void;
+    addResource(name: string, value: unknown | undefined): void;
+    addResource(name: string, value: Stream | undefined, closeAfterWrite?: boolean): void;
+    addResource(name: string, value: byte[] | undefined): void;
     addResourceData(name: string, typeName: string, serializedData: byte[]): void;
     close(): void;
     dispose(): void;

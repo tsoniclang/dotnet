@@ -177,7 +177,7 @@ export enum WindowsBuiltInRole {
 
 export interface IIdentity$instance {
     readonly name: string;
-    readonly authenticationType: string;
+    readonly authenticationType: string | undefined;
     readonly isAuthenticated: boolean;
 }
 
@@ -185,15 +185,15 @@ export interface IIdentity$instance {
 export type IIdentity = IIdentity$instance;
 
 export interface IPrincipal$instance {
-    readonly identity: IIdentity;
-    isInRole(role: string): boolean;
+    readonly identity: IIdentity | undefined;
+    isInRole(role: string | undefined): boolean;
 }
 
 
 export type IPrincipal = IPrincipal$instance;
 
 export interface GenericIdentity$instance extends ClaimsIdentity {
-    readonly authenticationType: string;
+    readonly authenticationType: string | string | undefined;
     readonly claims: IEnumerable_1<Claim>;
     readonly isAuthenticated: boolean;
     readonly name: string;
@@ -211,19 +211,17 @@ export interface __GenericIdentity$views {
     As_IIdentity(): IIdentity$instance;
 }
 
-export interface GenericIdentity$instance extends IIdentity$instance {}
-
 export type GenericIdentity = GenericIdentity$instance & __GenericIdentity$views;
 
 
 export interface GenericPrincipal$instance extends ClaimsPrincipal {
-    readonly identity: IIdentity;
+    readonly identity: IIdentity | IIdentity | undefined;
     isInRole(role: string): boolean;
 }
 
 
 export const GenericPrincipal: {
-    new(identity: IIdentity, roles: string[]): GenericPrincipal;
+    new(identity: IIdentity, roles: string[] | undefined): GenericPrincipal;
 };
 
 
@@ -318,7 +316,7 @@ export const NTAccount: {
 export type NTAccount = NTAccount$instance;
 
 export interface SecurityIdentifier$instance extends IdentityReference {
-    readonly accountDomainSid: SecurityIdentifier;
+    readonly accountDomainSid: SecurityIdentifier | undefined;
     readonly binaryLength: int;
     readonly value: string;
     compareTo(sid: SecurityIdentifier): int;
@@ -359,7 +357,7 @@ export type SecurityIdentifier = SecurityIdentifier$instance & __SecurityIdentif
 
 export interface WindowsIdentity$instance extends ClaimsIdentity {
     readonly accessToken: SafeAccessTokenHandle;
-    readonly authenticationType: string;
+    readonly authenticationType: string | undefined;
     readonly claims: IEnumerable_1<Claim>;
     readonly deviceClaims: IEnumerable_1<Claim>;
     readonly groups: IdentityReferenceCollection;
@@ -411,7 +409,7 @@ export type WindowsIdentity = WindowsIdentity$instance & __WindowsIdentity$views
 
 export interface WindowsPrincipal$instance extends ClaimsPrincipal {
     readonly deviceClaims: IEnumerable_1<Claim>;
-    readonly identity: IIdentity;
+    readonly identity: IIdentity | IIdentity | undefined;
     readonly userClaims: IEnumerable_1<Claim>;
     isInRole(sid: SecurityIdentifier): boolean;
     isInRole(role: WindowsBuiltInRole): boolean;

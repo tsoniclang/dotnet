@@ -104,14 +104,14 @@ export type INotifyCompletion = INotifyCompletion$instance;
 
 export interface IRuntimeVariables$instance {
     readonly count: int;
-    item: unknown;
+    item: unknown | undefined;
 }
 
 
 export type IRuntimeVariables = IRuntimeVariables$instance;
 
 export interface IStrongBox$instance {
-    value: unknown;
+    value: unknown | undefined;
 }
 
 
@@ -119,7 +119,7 @@ export type IStrongBox = IStrongBox$instance;
 
 export interface ITuple$instance {
     readonly length: int;
-    readonly item: unknown;
+    readonly item: unknown | undefined;
 }
 
 
@@ -301,7 +301,7 @@ export type ConfiguredTaskAwaitable_1<TResult> = ConfiguredTaskAwaitable_1$insta
 
 export interface ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
-    getResult(): TResult;
+    getResult(): TResult | undefined;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
@@ -369,7 +369,7 @@ export type ConfiguredValueTaskAwaitable_1<TResult> = ConfiguredValueTaskAwaitab
 
 export interface ConfiguredValueTaskAwaitable_1_ConfiguredValueTaskAwaiter$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
-    getResult(): TResult;
+    getResult(): TResult | undefined;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
@@ -418,13 +418,13 @@ export interface DefaultInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T, alignment: int): void;
     appendFormatted<T>(value: T, alignment: int, format: string): void;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
-    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): void;
+    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | undefined): void;
     appendFormatted(value: string): void;
     appendFormatted(value: string, alignment?: int, format?: string): void;
     appendFormatted(value: unknown, alignment?: int, format?: string): void;
     appendLiteral(value: string): void;
     clear(): void;
-    toString(): string;
+    toString(): string | undefined;
     toStringAndClear(): string;
 }
 
@@ -432,7 +432,7 @@ export interface DefaultInterpolatedStringHandler$instance {
 export const DefaultInterpolatedStringHandler: {
     new(literalLength: int, formattedCount: int): DefaultInterpolatedStringHandler;
     new(literalLength: int, formattedCount: int, provider: IFormatProvider): DefaultInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider | undefined, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
 };
 
 
@@ -665,7 +665,7 @@ export type TaskAwaiter = TaskAwaiter$instance & __TaskAwaiter$views;
 
 export interface TaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
-    getResult(): TResult;
+    getResult(): TResult | undefined;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
@@ -709,7 +709,7 @@ export type ValueTaskAwaiter = ValueTaskAwaiter$instance & __ValueTaskAwaiter$vi
 
 export interface ValueTaskAwaiter_1$instance<TResult> extends ICriticalNotifyCompletion {
     readonly isCompleted: boolean;
-    getResult(): TResult;
+    getResult(): TResult | undefined;
     onCompleted(continuation: Action): void;
     unsafeOnCompleted(continuation: Action): void;
 }
@@ -938,7 +938,7 @@ export interface CallSite$instance {
 
 export const CallSite: {
     new(): CallSite;
-    create(delegateType: Type, binder: CallSiteBinder): CallSite;
+    create(delegateType: Type | undefined, binder: CallSiteBinder | undefined): CallSite | undefined;
 };
 
 
@@ -959,7 +959,7 @@ export type CallSite_1<T> = CallSite_1$instance<T>;
 
 export interface CallSiteBinder$instance {
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
-    bindDelegate<T>(site: CallSite_1<T>, args: unknown[]): T;
+    bindDelegate<T>(site: CallSite_1<T>, args: unknown[]): T | undefined;
 }
 
 
@@ -972,12 +972,12 @@ export type CallSiteBinder = CallSiteBinder$instance;
 
 export interface Closure$instance {
     readonly constants: unknown[];
-    readonly locals: unknown[];
+    readonly locals: unknown[] | undefined;
 }
 
 
 export const Closure: {
-    new(constants: unknown[], locals: unknown[]): Closure;
+    new(constants: unknown[], locals: unknown[] | undefined): Closure;
 };
 
 
@@ -1603,7 +1603,7 @@ export interface ReferenceAssemblyAttribute$instance extends Attribute {
 
 export const ReferenceAssemblyAttribute: {
     new(): ReferenceAssemblyAttribute;
-    new(description: string): ReferenceAssemblyAttribute;
+    new(description: string | undefined): ReferenceAssemblyAttribute;
 };
 
 
@@ -1796,17 +1796,17 @@ export type SuppressIldasmAttribute = SuppressIldasmAttribute$instance;
 
 export interface SwitchExpressionException$instance extends InvalidOperationException {
     readonly message: string;
-    readonly unmatchedValue: unknown;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly unmatchedValue: unknown | undefined;
+    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
 }
 
 
 export const SwitchExpressionException: {
     new(): SwitchExpressionException;
-    new(innerException: Exception): SwitchExpressionException;
-    new(unmatchedValue: unknown): SwitchExpressionException;
-    new(message: string): SwitchExpressionException;
-    new(message: string, innerException: Exception): SwitchExpressionException;
+    new(innerException: Exception | undefined): SwitchExpressionException;
+    new(unmatchedValue: unknown | undefined): SwitchExpressionException;
+    new(message: string | undefined): SwitchExpressionException;
+    new(message: string | undefined, innerException: Exception | undefined): SwitchExpressionException;
 };
 
 
@@ -1818,12 +1818,12 @@ export type SwitchExpressionException = SwitchExpressionException$instance & __S
 
 
 export interface TupleElementNamesAttribute$instance extends Attribute {
-    readonly transformNames: IList_1<System_Internal.String>;
+    readonly transformNames: IList_1<string | undefined>;
 }
 
 
 export const TupleElementNamesAttribute: {
-    new(transformNames: string[]): TupleElementNamesAttribute;
+    new(transformNames: (string | undefined)[]): TupleElementNamesAttribute;
 };
 
 
@@ -1920,7 +1920,7 @@ export abstract class CallSiteOps$instance {
     static getCachedRules<T>(cache: RuleCache_1<T>): T[];
     static getMatch(site: CallSite): boolean;
     static getRuleCache<T>(site: CallSite_1<T>): RuleCache_1<T>;
-    static getRules<T>(site: CallSite_1<T>): T[];
+    static getRules<T>(site: CallSite_1<T>): T[] | undefined;
     static moveRule<T>(cache: RuleCache_1<T>, rule: T, i: int): void;
     static setNotMatched(site: CallSite): boolean;
     static updateRules<T>(this_: CallSite_1<T>, matched: int): void;
@@ -1936,8 +1936,8 @@ export abstract class CompilerMarshalOverride$instance {
 export type CompilerMarshalOverride = CompilerMarshalOverride$instance;
 
 export abstract class ContractHelper$instance {
-    static raiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string, conditionText: string, innerException: Exception): string;
-    static triggerFailure(kind: ContractFailureKind, displayMessage: string, userMessage: string, conditionText: string, innerException: Exception): void;
+    static raiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string | undefined, conditionText: string | undefined, innerException: Exception | undefined): string | undefined;
+    static triggerFailure(kind: ContractFailureKind, displayMessage: string | undefined, userMessage: string | undefined, conditionText: string | undefined, innerException: Exception | undefined): void;
 }
 
 
@@ -2052,7 +2052,7 @@ export abstract class RuntimeHelpers$instance {
     static createSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
     static ensureSufficientExecutionStack(): void;
     static equals(o1: unknown, o2: unknown): boolean;
-    static executeCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown): void;
+    static executeCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown | undefined): void;
     static getHashCode(o: unknown): int;
     static getObjectValue(obj: unknown): unknown;
     static getSubArray<T>(array: T[], range: Range): T[];
@@ -2078,13 +2078,13 @@ export type RuntimeHelpers = RuntimeHelpers$instance;
 export abstract class RuntimeOps$instance {
     static createRuntimeVariables(): IRuntimeVariables;
     static createRuntimeVariables(data: unknown[], indexes: long[]): IRuntimeVariables;
-    static expandoCheckVersion(expando: ExpandoObject, version: unknown): boolean;
+    static expandoCheckVersion(expando: ExpandoObject, version: unknown | undefined): boolean;
     static expandoPromoteClass(expando: ExpandoObject, oldClass: unknown, newClass: unknown): void;
-    static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean): boolean;
-    static expandoTryGetValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean, value: unknown): boolean;
+    static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown | undefined, index: int, name: string, ignoreCase: boolean): boolean;
+    static expandoTryGetValue(expando: ExpandoObject, indexClass: unknown | undefined, index: int, name: string, ignoreCase: boolean, value: unknown | undefined): boolean;
     static expandoTrySetValue(expando: ExpandoObject, indexClass: unknown, index: int, value: unknown, name: string, ignoreCase: boolean): unknown;
     static mergeRuntimeVariables(first: IRuntimeVariables, second: IRuntimeVariables, indexes: int[]): IRuntimeVariables;
-    static quote(expression: Expression, hoistedLocals: unknown, locals: unknown[]): Expression;
+    static quote(expression: Expression | undefined, hoistedLocals: unknown, locals: unknown[]): Expression | undefined;
 }
 
 

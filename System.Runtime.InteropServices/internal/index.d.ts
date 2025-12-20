@@ -397,16 +397,16 @@ export interface IDynamicInterfaceCastable$instance {
 export type IDynamicInterfaceCastable = IDynamicInterfaceCastable$instance;
 
 export interface ArrayWithOffset$instance {
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(obj: ArrayWithOffset): boolean;
-    getArray(): unknown;
+    getArray(): unknown | undefined;
     getHashCode(): int;
     getOffset(): int;
 }
 
 
 export const ArrayWithOffset: {
-    new(array: unknown, offset: int): ArrayWithOffset;
+    new(array: unknown | undefined, offset: int): ArrayWithOffset;
 };
 
 
@@ -425,7 +425,7 @@ export interface CLong$instance {
     equals(o: unknown): boolean;
     equals(other: CLong): boolean;
     getHashCode(): int;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -476,7 +476,7 @@ export interface CULong$instance {
     equals(o: unknown): boolean;
     equals(other: CULong): boolean;
     getHashCode(): int;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -500,7 +500,7 @@ export interface GCHandle$instance {
     readonly isAllocated: boolean;
     target: unknown;
     addrOfPinnedObject(): nint;
-    equals(o: unknown): boolean;
+    equals(o: unknown | undefined): boolean;
     equals(other: GCHandle): boolean;
     free(): void;
     getHashCode(): int;
@@ -509,8 +509,8 @@ export interface GCHandle$instance {
 
 export const GCHandle: {
     new(): GCHandle;
-    alloc(value: unknown, type_: GCHandleType): GCHandle;
-    alloc(value: unknown): GCHandle;
+    alloc(value: unknown | undefined, type_: GCHandleType): GCHandle;
+    alloc(value: unknown | undefined): GCHandle;
     fromIntPtr(value: nint): GCHandle;
     toIntPtr(value: GCHandle): nint;
 };
@@ -558,12 +558,12 @@ export type GCHandle_1<T> = GCHandle_1$instance<T> & __GCHandle_1$views<T>;
 
 export interface HandleRef$instance {
     readonly handle: nint;
-    readonly wrapper: unknown;
+    readonly wrapper: unknown | undefined;
 }
 
 
 export const HandleRef: {
-    new(wrapper: unknown, handle: nint): HandleRef;
+    new(wrapper: unknown | undefined, handle: nint): HandleRef;
     toIntPtr(value: HandleRef): nint;
 };
 
@@ -577,12 +577,12 @@ export interface NFloat$instance extends IBitwiseOperators_3<NFloat, NFloat, NFl
     equals(obj: unknown): boolean;
     equals(other: NFloat): boolean;
     getHashCode(): int;
-    toString(): string;
-    toString(format: string): string;
-    toString(provider: IFormatProvider): string;
+    toString(): string | undefined;
+    toString(format: string | undefined): string;
+    toString(provider: IFormatProvider | undefined): string;
     toString(format: string, provider: IFormatProvider): string;
-    tryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider): boolean;
-    tryFormat(utf8Destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider): boolean;
+    tryFormat(destination: Span_1<System_Internal.Char>, charsWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider | undefined): boolean;
+    tryFormat(utf8Destination: Span_1<System_Internal.Byte>, bytesWritten: int, format?: ReadOnlySpan_1<System_Internal.Char>, provider?: IFormatProvider | undefined): boolean;
 }
 
 
@@ -672,13 +672,13 @@ export const NFloat: {
     minNative(x: NFloat, y: NFloat): NFloat;
     minNumber(x: NFloat, y: NFloat): NFloat;
     multiplyAddEstimate(left: NFloat, right: NFloat, addend: NFloat): NFloat;
-    parse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
-    parse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, provider: IFormatProvider): NFloat;
-    parse(s: ReadOnlySpan_1<System_Internal.Char>, style?: NumberStyles, provider?: IFormatProvider): NFloat;
-    parse(s: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider): NFloat;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider): NFloat;
+    parse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): NFloat;
+    parse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, provider: IFormatProvider | undefined): NFloat;
+    parse(s: ReadOnlySpan_1<System_Internal.Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): NFloat;
+    parse(s: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider | undefined): NFloat;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): NFloat;
     parse(s: string, style: NumberStyles): NFloat;
-    parse(s: string, provider: IFormatProvider): NFloat;
+    parse(s: string, provider: IFormatProvider | undefined): NFloat;
     parse(s: string): NFloat;
     pow(x: NFloat, y: NFloat): NFloat;
     radiansToDegrees(radians: NFloat): NFloat;
@@ -701,11 +701,11 @@ export const NFloat: {
     tanh(x: NFloat): NFloat;
     tanPi(x: NFloat): NFloat;
     truncate(x: NFloat): NFloat;
-    tryParse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, style: NumberStyles, provider: IFormatProvider, result: NFloat): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, provider: IFormatProvider, result: NFloat): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: NFloat): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, provider: IFormatProvider | undefined, result: NFloat): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<System_Internal.Byte>, result: NFloat): boolean;
-    tryParse(s: ReadOnlySpan_1<System_Internal.Char>, style: NumberStyles, provider: IFormatProvider, result: NFloat): boolean;
-    tryParse(s: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider, result: NFloat): boolean;
+    tryParse(s: ReadOnlySpan_1<System_Internal.Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: NFloat): boolean;
+    tryParse(s: ReadOnlySpan_1<System_Internal.Char>, provider: IFormatProvider | undefined, result: NFloat): boolean;
     tryParse(s: ReadOnlySpan_1<System_Internal.Char>, result: NFloat): boolean;
     tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: NFloat): boolean;
     tryParse(s: string, provider: IFormatProvider, result: NFloat): boolean;
@@ -811,16 +811,16 @@ export type PinnedGCHandle_1<T> = PinnedGCHandle_1$instance<T> & __PinnedGCHandl
 export interface WeakGCHandle_1$instance<T> {
     readonly isAllocated: boolean;
     dispose(): void;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: WeakGCHandle_1<T>): boolean;
     getHashCode(): int;
-    setTarget(target: T): void;
-    tryGetTarget(target: T): boolean;
+    setTarget(target: T | undefined): void;
+    tryGetTarget(target: T | undefined): boolean;
 }
 
 
 export const WeakGCHandle_1: {
-    new<T>(target: T, trackResurrection: boolean): WeakGCHandle_1<T>;
+    new<T>(target: T | undefined, trackResurrection: boolean): WeakGCHandle_1<T>;
     fromIntPtr<T>(value: nint): WeakGCHandle_1<T>;
     toIntPtr<T>(value: WeakGCHandle_1<T>): nint;
 };
@@ -876,13 +876,13 @@ export const BestFitMappingAttribute: {
 export type BestFitMappingAttribute = BestFitMappingAttribute$instance;
 
 export interface BStrWrapper$instance {
-    readonly wrappedObject: string;
+    readonly wrappedObject: string | undefined;
 }
 
 
 export const BStrWrapper: {
-    new(value: string): BStrWrapper;
-    new(value: unknown): BStrWrapper;
+    new(value: string | undefined): BStrWrapper;
+    new(value: unknown | undefined): BStrWrapper;
 };
 
 
@@ -931,20 +931,20 @@ export interface ComAwareEventInfo$instance extends EventInfo {
     readonly metadataToken: int;
     readonly module_: Module;
     readonly name: string;
-    readonly reflectedType: Type;
+    readonly reflectedType: Type | undefined;
     addEventHandler(target: unknown, handler: Function): void;
     getAddMethod(nonPublic: boolean): MethodInfo;
-    getAddMethod(): MethodInfo;
+    getAddMethod(): MethodInfo | undefined;
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getCustomAttributes(inherit: boolean): unknown[];
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getCustomAttributesData(): IList_1<CustomAttributeData>;
     getOtherMethods(nonPublic: boolean): MethodInfo[];
-    getOtherMethods(): MethodInfo[];
+    getOtherMethods(): (MethodInfo | undefined)[] | undefined;
     getRaiseMethod(nonPublic: boolean): MethodInfo;
-    getRaiseMethod(): MethodInfo;
+    getRaiseMethod(): MethodInfo | undefined;
     getRemoveMethod(nonPublic: boolean): MethodInfo;
-    getRemoveMethod(): MethodInfo;
+    getRemoveMethod(): MethodInfo | undefined;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     removeEventHandler(target: unknown, handler: Function): void;
 }
@@ -1015,15 +1015,15 @@ export type ComEventInterfaceAttribute = ComEventInterfaceAttribute$instance;
 
 export interface COMException$instance extends ExternalException$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
 export const COMException: {
     new(): COMException;
-    new(message: string): COMException;
-    new(message: string, inner: Exception): COMException;
-    new(message: string, errorCode: int): COMException;
+    new(message: string | undefined): COMException;
+    new(message: string | undefined, inner: Exception | undefined): COMException;
+    new(message: string | undefined, errorCode: int): COMException;
 };
 
 
@@ -1098,7 +1098,7 @@ export type ComVisibleAttribute = ComVisibleAttribute$instance;
 export interface ComWrappers$instance {
     getOrCreateComInterfaceForObject(instance: unknown, flags: CreateComInterfaceFlags): nint;
     getOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags): unknown;
-    getOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, userState: unknown): unknown;
+    getOrCreateObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, userState: unknown | undefined): unknown;
     getOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown): unknown;
     getOrRegisterObjectForComInstance(externalComObject: nint, flags: CreateObjectFlags, wrapper: unknown, inner: nint): unknown;
 }
@@ -1180,19 +1180,19 @@ export interface DefaultParameterValueAttribute$instance extends Attribute {
 
 
 export const DefaultParameterValueAttribute: {
-    new(value: unknown): DefaultParameterValueAttribute;
+    new(value: unknown | undefined): DefaultParameterValueAttribute;
 };
 
 
 export type DefaultParameterValueAttribute = DefaultParameterValueAttribute$instance;
 
 export interface DispatchWrapper$instance {
-    readonly wrappedObject: unknown;
+    readonly wrappedObject: unknown | undefined;
 }
 
 
 export const DispatchWrapper: {
-    new(obj: unknown): DispatchWrapper;
+    new(obj: unknown | undefined): DispatchWrapper;
 };
 
 
@@ -1211,7 +1211,7 @@ export const DispIdAttribute: {
 export type DispIdAttribute = DispIdAttribute$instance;
 
 export interface DllImportAttribute$instance extends Attribute {
-    entryPoint: string;
+    entryPoint: string | undefined;
     charSet: CharSet;
     setLastError: boolean;
     exactSpelling: boolean;
@@ -1258,15 +1258,15 @@ export type ErrorWrapper = ErrorWrapper$instance;
 export interface ExternalException$instance extends SystemException {
     readonly errorCode: int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
 export const ExternalException: {
     new(): ExternalException;
-    new(message: string): ExternalException;
-    new(message: string, inner: Exception): ExternalException;
-    new(message: string, errorCode: int): ExternalException;
+    new(message: string | undefined): ExternalException;
+    new(message: string | undefined, inner: Exception | undefined): ExternalException;
+    new(message: string | undefined, errorCode: int): ExternalException;
 };
 
 
@@ -1362,8 +1362,8 @@ export interface InvalidComObjectException$instance extends SystemException {
 
 export const InvalidComObjectException: {
     new(): InvalidComObjectException;
-    new(message: string): InvalidComObjectException;
-    new(message: string, inner: Exception): InvalidComObjectException;
+    new(message: string | undefined): InvalidComObjectException;
+    new(message: string | undefined, inner: Exception | undefined): InvalidComObjectException;
 };
 
 
@@ -1381,8 +1381,8 @@ export interface InvalidOleVariantTypeException$instance extends SystemException
 
 export const InvalidOleVariantTypeException: {
     new(): InvalidOleVariantTypeException;
-    new(message: string): InvalidOleVariantTypeException;
-    new(message: string, inner: Exception): InvalidOleVariantTypeException;
+    new(message: string | undefined): InvalidOleVariantTypeException;
+    new(message: string | undefined, inner: Exception | undefined): InvalidOleVariantTypeException;
 };
 
 
@@ -1406,16 +1406,16 @@ export const LCIDConversionAttribute: {
 export type LCIDConversionAttribute = LCIDConversionAttribute$instance;
 
 export interface LibraryImportAttribute$instance extends Attribute {
-    entryPoint: string;
+    entryPoint: string | undefined;
     readonly libraryName: string;
     setLastError: boolean;
     stringMarshalling: StringMarshalling;
-    stringMarshallingCustomType: Type;
+    stringMarshallingCustomType: Type | undefined;
 }
 
 
 export const LibraryImportAttribute: {
-    new(libraryName: string): LibraryImportAttribute;
+    new(libraryName: string | undefined): LibraryImportAttribute;
 };
 
 
@@ -1436,14 +1436,14 @@ export type ManagedToNativeComInteropStubAttribute = ManagedToNativeComInteropSt
 
 export interface MarshalAsAttribute$instance extends Attribute {
     safeArraySubType: VarEnum;
-    safeArrayUserDefinedSubType: Type;
+    safeArrayUserDefinedSubType: Type | undefined;
     iidParameterIndex: int;
     arraySubType: UnmanagedType;
     sizeParamIndex: short;
     sizeConst: int;
-    marshalType: string;
-    marshalTypeRef: Type;
-    marshalCookie: string;
+    marshalType: string | undefined;
+    marshalTypeRef: Type | undefined;
+    marshalCookie: string | undefined;
     readonly value: UnmanagedType;
 }
 
@@ -1463,8 +1463,8 @@ export interface MarshalDirectiveException$instance extends SystemException {
 
 export const MarshalDirectiveException: {
     new(): MarshalDirectiveException;
-    new(message: string): MarshalDirectiveException;
-    new(message: string, inner: Exception): MarshalDirectiveException;
+    new(message: string | undefined): MarshalDirectiveException;
+    new(message: string | undefined, inner: Exception | undefined): MarshalDirectiveException;
 };
 
 
@@ -1573,8 +1573,8 @@ export interface SafeArrayRankMismatchException$instance extends SystemException
 
 export const SafeArrayRankMismatchException: {
     new(): SafeArrayRankMismatchException;
-    new(message: string): SafeArrayRankMismatchException;
-    new(message: string, inner: Exception): SafeArrayRankMismatchException;
+    new(message: string | undefined): SafeArrayRankMismatchException;
+    new(message: string | undefined, inner: Exception | undefined): SafeArrayRankMismatchException;
 };
 
 
@@ -1592,8 +1592,8 @@ export interface SafeArrayTypeMismatchException$instance extends SystemException
 
 export const SafeArrayTypeMismatchException: {
     new(): SafeArrayTypeMismatchException;
-    new(message: string): SafeArrayTypeMismatchException;
-    new(message: string, inner: Exception): SafeArrayTypeMismatchException;
+    new(message: string | undefined): SafeArrayTypeMismatchException;
+    new(message: string | undefined, inner: Exception | undefined): SafeArrayTypeMismatchException;
 };
 
 
@@ -1665,8 +1665,8 @@ export interface SEHException$instance extends ExternalException$instance {
 
 export const SEHException: {
     new(): SEHException;
-    new(message: string): SEHException;
-    new(message: string, inner: Exception): SEHException;
+    new(message: string | undefined): SEHException;
+    new(message: string | undefined, inner: Exception | undefined): SEHException;
 };
 
 
@@ -1717,13 +1717,13 @@ export type SuppressGCTransitionAttribute = SuppressGCTransitionAttribute$instan
 
 export interface TypeIdentifierAttribute$instance extends Attribute {
     readonly identifier: string;
-    readonly scope: string;
+    readonly scope: string | undefined;
 }
 
 
 export const TypeIdentifierAttribute: {
     new(): TypeIdentifierAttribute;
-    new(scope: string, identifier: string): TypeIdentifierAttribute;
+    new(scope: string | undefined, identifier: string | undefined): TypeIdentifierAttribute;
 };
 
 
@@ -1828,19 +1828,19 @@ export const TypeMapAttribute_1: {
 export type TypeMapAttribute_1<TTypeMapGroup> = TypeMapAttribute_1$instance<TTypeMapGroup>;
 
 export interface UnknownWrapper$instance {
-    readonly wrappedObject: unknown;
+    readonly wrappedObject: unknown | undefined;
 }
 
 
 export const UnknownWrapper: {
-    new(obj: unknown): UnknownWrapper;
+    new(obj: unknown | undefined): UnknownWrapper;
 };
 
 
 export type UnknownWrapper = UnknownWrapper$instance;
 
 export interface UnmanagedCallConvAttribute$instance extends Attribute {
-    callConvs: Type[];
+    callConvs: Type[] | undefined;
 }
 
 
@@ -1852,8 +1852,8 @@ export const UnmanagedCallConvAttribute: {
 export type UnmanagedCallConvAttribute = UnmanagedCallConvAttribute$instance;
 
 export interface UnmanagedCallersOnlyAttribute$instance extends Attribute {
-    callConvs: Type[];
-    entryPoint: string;
+    callConvs: Type[] | undefined;
+    entryPoint: string | undefined;
 }
 
 
@@ -1881,12 +1881,12 @@ export const UnmanagedFunctionPointerAttribute: {
 export type UnmanagedFunctionPointerAttribute = UnmanagedFunctionPointerAttribute$instance;
 
 export interface VariantWrapper$instance {
-    readonly wrappedObject: unknown;
+    readonly wrappedObject: unknown | undefined;
 }
 
 
 export const VariantWrapper: {
-    new(obj: unknown): VariantWrapper;
+    new(obj: unknown | undefined): VariantWrapper;
 };
 
 
@@ -1904,10 +1904,10 @@ export const WasmImportLinkageAttribute: {
 export type WasmImportLinkageAttribute = WasmImportLinkageAttribute$instance;
 
 export abstract class CollectionsMarshal$instance {
-    static asBytes(array: BitArray): Span_1<System_Internal.Byte>;
-    static asSpan<T>(list: List_1<T>): Span_1<T>;
-    static getValueRefOrAddDefault<TKey, TValue, TAlternateKey>(dictionary: Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>, key: TAlternateKey, exists: boolean): TValue;
-    static getValueRefOrAddDefault<TKey, TValue>(dictionary: Dictionary_2<TKey, TValue>, key: TKey, exists: boolean): TValue;
+    static asBytes(array: BitArray | undefined): Span_1<System_Internal.Byte>;
+    static asSpan<T>(list: List_1<T> | undefined): Span_1<T>;
+    static getValueRefOrAddDefault<TKey, TValue, TAlternateKey>(dictionary: Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>, key: TAlternateKey, exists: boolean): TValue | undefined;
+    static getValueRefOrAddDefault<TKey, TValue>(dictionary: Dictionary_2<TKey, TValue>, key: TKey, exists: boolean): TValue | undefined;
     static getValueRefOrNullRef<TKey, TValue, TAlternateKey>(dictionary: Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>, key: TAlternateKey): TValue;
     static getValueRefOrNullRef<TKey, TValue>(dictionary: Dictionary_2<TKey, TValue>, key: TKey): TValue;
     static setCount<T>(list: List_1<T>, count: int): void;
@@ -1933,9 +1933,9 @@ export abstract class GCHandleExtensions$instance {
 export type GCHandleExtensions = GCHandleExtensions$instance;
 
 export abstract class ImmutableCollectionsMarshal$instance {
-    static asArray<T>(array: ImmutableArray_1<T>): T[];
-    static asImmutableArray<T>(array: T[]): ImmutableArray_1<T>;
-    static asMemory<T>(builder: ImmutableArray_1_Builder<T>): Memory_1<T>;
+    static asArray<T>(array: ImmutableArray_1<T>): T[] | undefined;
+    static asImmutableArray<T>(array: T[] | undefined): ImmutableArray_1<T>;
+    static asMemory<T>(builder: ImmutableArray_1_Builder<T> | undefined): Memory_1<T>;
 }
 
 
@@ -1987,11 +1987,11 @@ export abstract class Marshal$instance {
     static freeCoTaskMem(ptr: nint): void;
     static freeHGlobal(hglobal: nint): void;
     static generateGuidForType(type_: Type): Guid;
-    static generateProgIdForType(type_: Type): string;
+    static generateProgIdForType(type_: Type): string | undefined;
     static getComInterfaceForObject(o: unknown, T: Type, mode: CustomQueryInterfaceMode): nint;
     static getComInterfaceForObject(o: unknown, T: Type): nint;
     static getComInterfaceForObject<T, TInterface>(o: T): nint;
-    static getComObjectData(obj: unknown, key: unknown): unknown;
+    static getComObjectData(obj: unknown, key: unknown): unknown | undefined;
     static getDelegateForFunctionPointer(ptr: nint, t: Type): Function;
     static getDelegateForFunctionPointer<TDelegate>(ptr: nint): TDelegate;
     static getEndComSlot(t: Type): int;
@@ -2016,7 +2016,7 @@ export abstract class Marshal$instance {
     static getObjectForIUnknown(pUnk: nint): unknown;
     static getObjectForNativeVariant(pSrcNativeVariant: nint): unknown;
     static getObjectForNativeVariant<T>(pSrcNativeVariant: nint): T;
-    static getObjectsForNativeVariants(aSrcNativeVariant: nint, cVars: int): unknown[];
+    static getObjectsForNativeVariants(aSrcNativeVariant: nint, cVars: int): (unknown | undefined)[];
     static getObjectsForNativeVariants<T>(aSrcNativeVariant: nint, cVars: int): T[];
     static getPInvokeErrorMessage(error: int): string;
     static getStartComSlot(t: Type): int;
@@ -2041,7 +2041,7 @@ export abstract class Marshal$instance {
     static ptrToStringUTF8(ptr: nint, byteLen: int): string;
     static ptrToStringUTF8(ptr: nint): string;
     static ptrToStructure(ptr: nint, structure: unknown): void;
-    static ptrToStructure(ptr: nint, structureType: Type): unknown;
+    static ptrToStructure(ptr: nint, structureType: Type): unknown | undefined;
     static ptrToStructure<T>(ptr: nint, structure: T): void;
     static ptrToStructure<T>(ptr: nint): T;
     static queryInterface(pUnk: nint, iid: Guid, ppv: nint): int;
@@ -2069,7 +2069,7 @@ export abstract class Marshal$instance {
     static secureStringToCoTaskMemUnicode(s: SecureString): nint;
     static secureStringToGlobalAllocAnsi(s: SecureString): nint;
     static secureStringToGlobalAllocUnicode(s: SecureString): nint;
-    static setComObjectData(obj: unknown, key: unknown, data: unknown): boolean;
+    static setComObjectData(obj: unknown, key: unknown, data: unknown | undefined): boolean;
     static setLastPInvokeError(error: int): void;
     static setLastSystemError(error: int): void;
     static sizeOf<T>(): int;
@@ -2128,7 +2128,7 @@ export abstract class MemoryMarshal$instance {
     static asRef<T extends unknown>(span: Span_1<System_Internal.Byte>): T;
     static cast<TFrom extends unknown, TTo extends unknown>(span: ReadOnlySpan_1<TFrom>): ReadOnlySpan_1<TTo>;
     static cast<TFrom extends unknown, TTo extends unknown>(span: Span_1<TFrom>): Span_1<TTo>;
-    static createFromPinnedArray<T>(array: T[], start: int, length: int): Memory_1<T>;
+    static createFromPinnedArray<T>(array: T[] | undefined, start: int, length: int): Memory_1<T>;
     static createReadOnlySpan<T>(reference: T, length: int): ReadOnlySpan_1<T>;
     static createReadOnlySpanFromNullTerminated(value: ptr<byte>): ReadOnlySpan_1<System_Internal.Byte>;
     static createReadOnlySpanFromNullTerminated(value: ptr<char>): ReadOnlySpan_1<System_Internal.Char>;
@@ -2142,7 +2142,7 @@ export abstract class MemoryMarshal$instance {
     static tryGetArray<T>(memory: ReadOnlyMemory_1<T>, segment: ArraySegment_1<T>): boolean;
     static tryGetMemoryManager<T, TManager extends MemoryManager_1<T>>(memory: ReadOnlyMemory_1<T>, manager: TManager, start: int, length: int): boolean;
     static tryGetMemoryManager<T, TManager extends MemoryManager_1<T>>(memory: ReadOnlyMemory_1<T>, manager: TManager): boolean;
-    static tryGetString(memory: ReadOnlyMemory_1<System_Internal.Char>, text: string, start: int, length: int): boolean;
+    static tryGetString(memory: ReadOnlyMemory_1<System_Internal.Char>, text: string | undefined, start: int, length: int): boolean;
     static tryRead<T extends unknown>(source: ReadOnlySpan_1<System_Internal.Byte>, value: T): boolean;
     static tryWrite<T extends unknown>(destination: Span_1<System_Internal.Byte>, value: T): boolean;
     static write<T extends unknown>(destination: Span_1<System_Internal.Byte>, value: T): void;
@@ -2211,7 +2211,7 @@ export type RuntimeInformation = RuntimeInformation$instance;
 export abstract class SequenceMarshal$instance {
     static tryGetArray<T>(sequence: ReadOnlySequence_1<T>, segment: ArraySegment_1<T>): boolean;
     static tryGetReadOnlyMemory<T>(sequence: ReadOnlySequence_1<T>, memory: ReadOnlyMemory_1<T>): boolean;
-    static tryGetReadOnlySequenceSegment<T>(sequence: ReadOnlySequence_1<T>, startSegment: ReadOnlySequenceSegment_1<T>, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T>, endIndex: int): boolean;
+    static tryGetReadOnlySequenceSegment<T>(sequence: ReadOnlySequence_1<T>, startSegment: ReadOnlySequenceSegment_1<T> | undefined, startIndex: int, endSegment: ReadOnlySequenceSegment_1<T> | undefined, endIndex: int): boolean;
     static tryRead<T extends unknown>(reader: SequenceReader_1<System_Internal.Byte>, value: T): boolean;
 }
 
