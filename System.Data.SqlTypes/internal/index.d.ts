@@ -111,7 +111,7 @@ export interface SqlBoolean$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -171,7 +171,7 @@ export interface SqlByte$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -229,7 +229,7 @@ export interface SqlDateTime$instance {
     equals(other: SqlDateTime): boolean;
     getHashCode(): int;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -298,7 +298,7 @@ export interface SqlDecimal$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
     writeTdsValue(destination: Span_1<System_Internal.UInt32>): int;
 }
 
@@ -372,7 +372,7 @@ export interface SqlDouble$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -424,7 +424,7 @@ export interface SqlGuid$instance {
     toByteArray(): byte[];
     toSqlBinary(): SqlBinary;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -479,7 +479,7 @@ export interface SqlInt16$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -543,7 +543,7 @@ export interface SqlInt32$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -607,7 +607,7 @@ export interface SqlInt64$instance {
     toSqlMoney(): SqlMoney;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -676,7 +676,7 @@ export interface SqlMoney$instance {
     toSqlInt64(): SqlInt64;
     toSqlSingle(): SqlSingle;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -738,7 +738,7 @@ export interface SqlSingle$instance {
     toSqlInt64(): SqlInt64;
     toSqlMoney(): SqlMoney;
     toSqlString(): SqlString;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -861,8 +861,8 @@ export interface SqlAlreadyFilledException$instance extends SqlTypeException$ins
 
 export const SqlAlreadyFilledException: {
     new(): SqlAlreadyFilledException;
-    new(message: string): SqlAlreadyFilledException;
-    new(message: string, e: Exception): SqlAlreadyFilledException;
+    new(message: string | undefined): SqlAlreadyFilledException;
+    new(message: string | undefined, e: Exception | undefined): SqlAlreadyFilledException;
 };
 
 
@@ -954,8 +954,8 @@ export interface SqlNotFilledException$instance extends SqlTypeException$instanc
 
 export const SqlNotFilledException: {
     new(): SqlNotFilledException;
-    new(message: string): SqlNotFilledException;
-    new(message: string, e: Exception): SqlNotFilledException;
+    new(message: string | undefined): SqlNotFilledException;
+    new(message: string | undefined, e: Exception | undefined): SqlNotFilledException;
 };
 
 
@@ -973,8 +973,8 @@ export interface SqlNullValueException$instance extends SqlTypeException$instanc
 
 export const SqlNullValueException: {
     new(): SqlNullValueException;
-    new(message: string): SqlNullValueException;
-    new(message: string, e: Exception): SqlNullValueException;
+    new(message: string | undefined): SqlNullValueException;
+    new(message: string | undefined, e: Exception | undefined): SqlNullValueException;
 };
 
 
@@ -992,8 +992,8 @@ export interface SqlTruncateException$instance extends SqlTypeException$instance
 
 export const SqlTruncateException: {
     new(): SqlTruncateException;
-    new(message: string): SqlTruncateException;
-    new(message: string, e: Exception): SqlTruncateException;
+    new(message: string | undefined): SqlTruncateException;
+    new(message: string | undefined, e: Exception | undefined): SqlTruncateException;
 };
 
 
@@ -1011,8 +1011,8 @@ export interface SqlTypeException$instance extends SystemException {
 
 export const SqlTypeException: {
     new(): SqlTypeException;
-    new(message: string): SqlTypeException;
-    new(message: string, e: Exception): SqlTypeException;
+    new(message: string | undefined): SqlTypeException;
+    new(message: string | undefined, e: Exception | undefined): SqlTypeException;
 };
 
 

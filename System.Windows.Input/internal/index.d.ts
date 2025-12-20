@@ -10,8 +10,8 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, EventHandler, Object as ClrObject, Void } from "../../System/internal/index.js";
 
 export interface ICommand$instance {
-    canExecute(parameter: unknown): boolean;
-    execute(parameter: unknown): void;
+    canExecute(parameter: unknown | undefined): boolean;
+    execute(parameter: unknown | undefined): void;
 }
 
 

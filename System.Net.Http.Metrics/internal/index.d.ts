@@ -14,7 +14,7 @@ export interface HttpMetricsEnrichmentContext$instance {
     readonly exception: Exception;
     readonly request: HttpRequestMessage;
     readonly response: HttpResponseMessage;
-    addCustomTag(name: string, value: unknown): void;
+    addCustomTag(name: string, value: unknown | undefined): void;
 }
 
 

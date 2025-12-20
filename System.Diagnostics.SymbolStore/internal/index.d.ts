@@ -25,14 +25,14 @@ export enum SymAddressKind {
 
 
 export interface ISymbolBinder$instance {
-    getReader(importer: int, filename: string, searchPath: string): ISymbolReader;
+    getReader(importer: int, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
 
 export type ISymbolBinder = ISymbolBinder$instance;
 
 export interface ISymbolBinder1$instance {
-    getReader(importer: nint, filename: string, searchPath: string): ISymbolReader;
+    getReader(importer: nint, filename: string, searchPath: string): ISymbolReader | undefined;
 }
 
 
@@ -71,8 +71,8 @@ export interface ISymbolMethod$instance {
     getParameters(): ISymbolVariable[];
     getRanges(document: ISymbolDocument, line: int, column: int): int[];
     getScope(offset: int): ISymbolScope;
-    getSequencePoints(offsets: int[], documents: ISymbolDocument[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
-    getSourceStartEnd(docs: ISymbolDocument[], lines: int[], columns: int[]): boolean;
+    getSequencePoints(offsets: int[], documents: ISymbolDocument[] | undefined, lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
+    getSourceStartEnd(docs: ISymbolDocument[] | undefined, lines: int[], columns: int[]): boolean;
 }
 
 
@@ -89,7 +89,7 @@ export type ISymbolNamespace = ISymbolNamespace$instance;
 
 export interface ISymbolReader$instance {
     readonly userEntryPoint: SymbolToken;
-    getDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument;
+    getDocument(url: string, language: Guid, languageVendor: Guid, documentType: Guid): ISymbolDocument | undefined;
     getDocuments(): ISymbolDocument[];
     getGlobalVariables(): ISymbolVariable[];
     getMethod(method: SymbolToken, version: int): ISymbolMethod;

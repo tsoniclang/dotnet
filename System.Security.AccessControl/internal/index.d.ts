@@ -279,7 +279,7 @@ export const AccessRule_1: {
 export type AccessRule_1<T> = AccessRule_1$instance<T>;
 
 export interface AceEnumerator$instance {
-    readonly current: GenericAce | unknown;
+    readonly current: GenericAce;
     moveNext(): boolean;
     reset(): void;
 }
@@ -339,7 +339,7 @@ export type AuthorizationRule = AuthorizationRule$instance;
 
 export interface AuthorizationRuleCollection$instance extends ReadOnlyCollectionBase {
     readonly item: AuthorizationRule;
-    addRule(rule: AuthorizationRule): void;
+    addRule(rule: AuthorizationRule | undefined): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
 }
@@ -367,7 +367,7 @@ export interface CommonAce$instance extends QualifiedAce {
 
 
 export const CommonAce: {
-    new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[]): CommonAce;
+    new(flags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, isCallback: boolean, opaque: byte[] | undefined): CommonAce;
     maxOpaqueLength(isCallback: boolean): int;
 };
 
@@ -418,28 +418,28 @@ export type CommonObjectSecurity = CommonObjectSecurity$instance;
 
 export interface CommonSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly controlFlags: ControlFlags;
-    discretionaryAcl: DiscretionaryAcl;
+    discretionaryAcl: DiscretionaryAcl | undefined;
     group: SecurityIdentifier;
     readonly isContainer: boolean;
     readonly isDiscretionaryAclCanonical: boolean;
     readonly isDS: boolean;
     readonly isSystemAclCanonical: boolean;
     owner: SecurityIdentifier;
-    systemAcl: SystemAcl;
+    systemAcl: SystemAcl | undefined;
     addDiscretionaryAcl(revision: byte, trusted: int): void;
     addSystemAcl(revision: byte, trusted: int): void;
-    purgeAccessControl(sid: SecurityIdentifier): void;
-    purgeAudit(sid: SecurityIdentifier): void;
+    purgeAccessControl(sid: SecurityIdentifier | undefined): void;
+    purgeAudit(sid: SecurityIdentifier | undefined): void;
     setDiscretionaryAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
     setSystemAclProtection(isProtected: boolean, preserveInheritance: boolean): void;
 }
 
 
 export const CommonSecurityDescriptor: {
-    new(isContainer: boolean, isDS: boolean, binaryForm: byte[], offset: int): CommonSecurityDescriptor;
-    new(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: SystemAcl, discretionaryAcl: DiscretionaryAcl): CommonSecurityDescriptor;
-    new(isContainer: boolean, isDS: boolean, rawSecurityDescriptor: RawSecurityDescriptor): CommonSecurityDescriptor;
-    new(isContainer: boolean, isDS: boolean, sddlForm: string): CommonSecurityDescriptor;
+    new(isContainer: boolean, isDS: boolean, binaryForm: byte[] | undefined, offset: int): CommonSecurityDescriptor;
+    new(isContainer: boolean, isDS: boolean, flags: ControlFlags, owner: SecurityIdentifier | undefined, group: SecurityIdentifier | undefined, systemAcl: SystemAcl | undefined, discretionaryAcl: DiscretionaryAcl | undefined): CommonSecurityDescriptor;
+    new(isContainer: boolean, isDS: boolean, rawSecurityDescriptor: RawSecurityDescriptor | undefined): CommonSecurityDescriptor;
+    new(isContainer: boolean, isDS: boolean, sddlForm: string | undefined): CommonSecurityDescriptor;
 };
 
 
@@ -462,14 +462,14 @@ export type CompoundAce = CompoundAce$instance;
 export interface CustomAce$instance extends GenericAce {
     readonly binaryLength: int;
     readonly opaqueLength: int;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getOpaque(): byte[];
-    setOpaque(opaque: byte[]): void;
+    getBinaryForm(binaryForm: byte[] | undefined, offset: int): void;
+    getOpaque(): byte[] | undefined;
+    setOpaque(opaque: byte[] | undefined): void;
 }
 
 
 export const CustomAce: {
-    new(type_: AceType, flags: AceFlags, opaque: byte[]): CustomAce;
+    new(type_: AceType, flags: AceFlags, opaque: byte[] | undefined): CustomAce;
     readonly maxOpaqueLength: int;
 };
 
@@ -714,8 +714,8 @@ export interface GenericSecurityDescriptor$instance {
     readonly controlFlags: ControlFlags;
     group: SecurityIdentifier;
     owner: SecurityIdentifier;
-    getBinaryForm(binaryForm: byte[], offset: int): void;
-    getSddlForm(includeSections: AccessControlSections): string;
+    getBinaryForm(binaryForm: byte[] | undefined, offset: int): void;
+    getSddlForm(includeSections: AccessControlSections): string | undefined;
 }
 
 
@@ -825,7 +825,7 @@ export interface ObjectAce$instance extends QualifiedAce {
 
 
 export const ObjectAce: {
-    new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type_: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[]): ObjectAce;
+    new(aceFlags: AceFlags, qualifier: AceQualifier, accessMask: int, sid: SecurityIdentifier, flags: ObjectAceFlags, type_: Guid, inheritedType: Guid, isCallback: boolean, opaque: byte[] | undefined): ObjectAce;
     maxOpaqueLength(isCallback: boolean): int;
 };
 
@@ -855,8 +855,8 @@ export interface ObjectSecurity$instance {
     readonly auditRuleType: Type;
     accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
     auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;
-    getGroup(targetType: Type): IdentityReference;
-    getOwner(targetType: Type): IdentityReference;
+    getGroup(targetType: Type): IdentityReference | undefined;
+    getOwner(targetType: Type): IdentityReference | undefined;
     getSecurityDescriptorBinaryForm(): byte[];
     getSecurityDescriptorSddlForm(includeSections: AccessControlSections): string;
     modifyAccessRule(modification: AccessControlModification, rule: AccessRule, modified: boolean): boolean;
@@ -908,15 +908,15 @@ export const ObjectSecurity_1: {
 export type ObjectSecurity_1<T> = ObjectSecurity_1$instance<T>;
 
 export interface PrivilegeNotHeldException$instance extends UnauthorizedAccessException {
-    readonly privilegeName: string;
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    readonly privilegeName: string | undefined;
+    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
 }
 
 
 export const PrivilegeNotHeldException: {
     new(): PrivilegeNotHeldException;
-    new(privilege: string): PrivilegeNotHeldException;
-    new(privilege: string, inner: Exception): PrivilegeNotHeldException;
+    new(privilege: string | undefined): PrivilegeNotHeldException;
+    new(privilege: string | undefined, inner: Exception | undefined): PrivilegeNotHeldException;
 };
 
 
@@ -931,8 +931,8 @@ export interface QualifiedAce$instance extends KnownAce {
     readonly aceQualifier: AceQualifier;
     readonly isCallback: boolean;
     readonly opaqueLength: int;
-    getOpaque(): byte[];
-    setOpaque(opaque: byte[]): void;
+    getOpaque(): byte[] | undefined;
+    setOpaque(opaque: byte[] | undefined): void;
 }
 
 
@@ -973,19 +973,19 @@ export type RawAcl = RawAcl$instance & __RawAcl$views;
 
 export interface RawSecurityDescriptor$instance extends GenericSecurityDescriptor {
     readonly controlFlags: ControlFlags;
-    discretionaryAcl: RawAcl;
+    discretionaryAcl: RawAcl | undefined;
     group: SecurityIdentifier;
     owner: SecurityIdentifier;
     resourceManagerControl: byte;
-    systemAcl: RawAcl;
+    systemAcl: RawAcl | undefined;
     setFlags(flags: ControlFlags): void;
 }
 
 
 export const RawSecurityDescriptor: {
-    new(binaryForm: byte[], offset: int): RawSecurityDescriptor;
-    new(flags: ControlFlags, owner: SecurityIdentifier, group: SecurityIdentifier, systemAcl: RawAcl, discretionaryAcl: RawAcl): RawSecurityDescriptor;
-    new(sddlForm: string): RawSecurityDescriptor;
+    new(binaryForm: byte[] | undefined, offset: int): RawSecurityDescriptor;
+    new(flags: ControlFlags, owner: SecurityIdentifier | undefined, group: SecurityIdentifier | undefined, systemAcl: RawAcl | undefined, discretionaryAcl: RawAcl | undefined): RawSecurityDescriptor;
+    new(sddlForm: string | undefined): RawSecurityDescriptor;
 };
 
 

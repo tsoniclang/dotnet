@@ -25,10 +25,10 @@ export interface Evidence$instance {
     clone(): Evidence;
     copyTo(array: ClrArray, index: int): void;
     getAssemblyEnumerator(): IEnumerator;
-    getAssemblyEvidence<T extends EvidenceBase>(): T;
+    getAssemblyEvidence<T extends EvidenceBase>(): T | undefined;
     getEnumerator(): IEnumerator;
     getHostEnumerator(): IEnumerator;
-    getHostEvidence<T extends EvidenceBase>(): T;
+    getHostEvidence<T extends EvidenceBase>(): T | undefined;
     merge(evidence: Evidence): void;
     removeType(t: Type): void;
 }

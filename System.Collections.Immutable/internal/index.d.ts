@@ -45,15 +45,15 @@ export interface IImmutableList_1$instance<T> extends IReadOnlyList_1<T>, IEnume
     clear(): IImmutableList_1<T>;
     getEnumerator(): IEnumerator_1<T>;
     getEnumerator(): IEnumerator;
-    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     insert(index: int, element: T): IImmutableList_1<T>;
     insertRange(index: int, items: IEnumerable_1<T>): IImmutableList_1<T>;
-    remove(value: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+    remove(value: T, equalityComparer: IEqualityComparer_1<T> | undefined): IImmutableList_1<T>;
     removeAll(match: Predicate_1<T>): IImmutableList_1<T>;
     removeAt(index: int): IImmutableList_1<T>;
-    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): IImmutableList_1<T>;
     removeRange(index: int, count: int): IImmutableList_1<T>;
-    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): IImmutableList_1<T>;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | undefined): IImmutableList_1<T>;
     getEnumerator2(): IEnumerator;
 }
 
@@ -124,7 +124,7 @@ export interface ImmutableArray_1$instance<T> {
     castArray<TOther>(): ImmutableArray_1<TOther>;
     clear(): ImmutableArray_1<T>;
     contains(item: T): boolean;
-    contains(item: T, equalityComparer: IEqualityComparer_1<T>): boolean;
+    contains(item: T, equalityComparer: IEqualityComparer_1<T> | undefined): boolean;
     copyTo(destination: Span_1<T>): void;
     copyTo(destination: T[]): void;
     copyTo(destination: T[], destinationIndex: int): void;
@@ -134,10 +134,10 @@ export interface ImmutableArray_1$instance<T> {
     getEnumerator(): ImmutableArray_1_Enumerator<T>;
     getHashCode(): int;
     indexOf(item: T): int;
-    indexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     indexOf(item: T, startIndex: int): int;
     indexOf(item: T, startIndex: int, count: int): int;
-    indexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     insert(index: int, item: T): ImmutableArray_1<T>;
     insertRange(index: int, items: IEnumerable_1<T>): ImmutableArray_1<T>;
     insertRange(index: int, items: ImmutableArray_1<T>): ImmutableArray_1<T>;
@@ -147,27 +147,27 @@ export interface ImmutableArray_1$instance<T> {
     lastIndexOf(item: T): int;
     lastIndexOf(item: T, startIndex: int): int;
     lastIndexOf(item: T, startIndex: int, count: int): int;
-    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     ofType<TResult>(): IEnumerable_1<TResult>;
     remove(item: T): ImmutableArray_1<T>;
-    remove(item: T, equalityComparer: IEqualityComparer_1<T>): ImmutableArray_1<T>;
+    remove(item: T, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
     removeAll(match: Predicate_1<T>): ImmutableArray_1<T>;
     removeAt(index: int): ImmutableArray_1<T>;
     removeRange(index: int, length: int): ImmutableArray_1<T>;
     removeRange(items: IEnumerable_1<T>): ImmutableArray_1<T>;
-    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): ImmutableArray_1<T>;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
     removeRange(items: ImmutableArray_1<T>): ImmutableArray_1<T>;
-    removeRange(items: ImmutableArray_1<T>, equalityComparer: IEqualityComparer_1<T>): ImmutableArray_1<T>;
-    removeRange(items: ReadOnlySpan_1<T>, equalityComparer?: IEqualityComparer_1<T>): ImmutableArray_1<T>;
-    removeRange(items: T[], equalityComparer?: IEqualityComparer_1<T>): ImmutableArray_1<T>;
+    removeRange(items: ImmutableArray_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
+    removeRange(items: ReadOnlySpan_1<T>, equalityComparer?: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
+    removeRange(items: T[], equalityComparer?: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
     replace(oldValue: T, newValue: T): ImmutableArray_1<T>;
-    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): ImmutableArray_1<T>;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableArray_1<T>;
     setItem(index: int, item: T): ImmutableArray_1<T>;
     slice(start: int, length: int): ImmutableArray_1<T>;
     sort(): ImmutableArray_1<T>;
     sort(comparison: Comparison_1<T>): ImmutableArray_1<T>;
-    sort(comparer: IComparer_1<T>): ImmutableArray_1<T>;
-    sort(index: int, count: int, comparer: IComparer_1<T>): ImmutableArray_1<T>;
+    sort(comparer: IComparer_1<T> | undefined): ImmutableArray_1<T>;
+    sort(index: int, count: int, comparer: IComparer_1<T> | undefined): ImmutableArray_1<T>;
     toBuilder(): ImmutableArray_1_Builder<T>;
 }
 
@@ -369,8 +369,8 @@ export interface ImmutableArray_1_Builder$instance<T> {
     indexOf(item: T): int;
     indexOf(item: T, startIndex: int): int;
     indexOf(item: T, startIndex: int, count: int): int;
-    indexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
-    indexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
+    indexOf(item: T, startIndex: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     insert(index: int, item: T): void;
     insertRange(index: int, items: IEnumerable_1<T>): void;
     insertRange(index: int, items: ImmutableArray_1<T>): void;
@@ -378,22 +378,22 @@ export interface ImmutableArray_1_Builder$instance<T> {
     lastIndexOf(item: T): int;
     lastIndexOf(item: T, startIndex: int): int;
     lastIndexOf(item: T, startIndex: int, count: int): int;
-    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     moveToImmutable(): ImmutableArray_1<T>;
     remove(element: T): boolean;
-    remove(element: T, equalityComparer: IEqualityComparer_1<T>): boolean;
+    remove(element: T, equalityComparer: IEqualityComparer_1<T> | undefined): boolean;
     removeAll(match: Predicate_1<T>): void;
     removeAt(index: int): void;
     removeRange(index: int, length: int): void;
     removeRange(items: IEnumerable_1<T>): void;
-    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): void;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): void;
     replace(oldValue: T, newValue: T): void;
-    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): void;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | undefined): void;
     reverse(): void;
     sort(): void;
     sort(comparison: Comparison_1<T>): void;
-    sort(comparer: IComparer_1<T>): void;
-    sort(index: int, count: int, comparer: IComparer_1<T>): void;
+    sort(comparer: IComparer_1<T> | undefined): void;
+    sort(index: int, count: int, comparer: IComparer_1<T> | undefined): void;
     toArray(): T[];
     toImmutable(): ImmutableArray_1<T>;
 }
@@ -437,8 +437,8 @@ export interface ImmutableDictionary_2$instance<TKey, TValue> {
     toBuilder(): ImmutableDictionary_2_Builder<TKey, TValue>;
     tryGetKey(equalKey: TKey, actualKey: TKey): boolean;
     tryGetValue(key: TKey, value: TValue): boolean;
-    withComparers(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    withComparers(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    withComparers(keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableDictionary_2<TKey, TValue>;
+    withComparers(keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2<TKey, TValue>;
 }
 
 
@@ -478,7 +478,7 @@ export interface ImmutableDictionary_2_Builder$instance<TKey, TValue> {
     containsKey(key: TKey): boolean;
     containsValue(value: TValue): boolean;
     getEnumerator(): ImmutableDictionary_2_Enumerator<TKey, TValue>;
-    getValueOrDefault(key: TKey): TValue;
+    getValueOrDefault(key: TKey): TValue | undefined;
     getValueOrDefault(key: TKey, defaultValue: TValue): TValue;
     remove(key: TKey): boolean;
     remove(item: KeyValuePair_2<TKey, TValue>): boolean;
@@ -529,7 +529,7 @@ export interface ImmutableHashSet_1$instance<T> {
     toBuilder(): ImmutableHashSet_1_Builder<T>;
     tryGetValue(equalValue: T, actualValue: T): boolean;
     union(other: IEnumerable_1<T>): ImmutableHashSet_1<T>;
-    withComparer(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1<T>;
+    withComparer(equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableHashSet_1<T>;
 }
 
 
@@ -599,8 +599,8 @@ export interface ImmutableList_1$instance<T> {
     add(value: T): ImmutableList_1<T>;
     addRange(items: IEnumerable_1<T>): ImmutableList_1<T>;
     binarySearch(item: T): int;
-    binarySearch(item: T, comparer: IComparer_1<T>): int;
-    binarySearch(index: int, count: int, item: T, comparer: IComparer_1<T>): int;
+    binarySearch(item: T, comparer: IComparer_1<T> | undefined): int;
+    binarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | undefined): int;
     clear(): ImmutableList_1<T>;
     contains(value: T): boolean;
     convertAll<TOutput>(converter: Func_2<T, TOutput>): ImmutableList_1<TOutput>;
@@ -608,40 +608,40 @@ export interface ImmutableList_1$instance<T> {
     copyTo(array: T[], arrayIndex: int): void;
     copyTo(index: int, array: T[], arrayIndex: int, count: int): void;
     exists(match: Predicate_1<T>): boolean;
-    find(match: Predicate_1<T>): T;
+    find(match: Predicate_1<T>): T | undefined;
     findAll(match: Predicate_1<T>): ImmutableList_1<T>;
     findIndex(match: Predicate_1<T>): int;
     findIndex(startIndex: int, match: Predicate_1<T>): int;
     findIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
-    findLast(match: Predicate_1<T>): T;
+    findLast(match: Predicate_1<T>): T | undefined;
     findLastIndex(match: Predicate_1<T>): int;
     findLastIndex(startIndex: int, match: Predicate_1<T>): int;
     findLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
     forEach(action: Action_1<T>): void;
     getEnumerator(): ImmutableList_1_Enumerator<T>;
     getRange(index: int, count: int): ImmutableList_1<T>;
-    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     indexOf(value: T): int;
     insert(index: int, item: T): ImmutableList_1<T>;
     insertRange(index: int, items: IEnumerable_1<T>): ImmutableList_1<T>;
     itemRef(index: int): T;
-    lastIndexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    lastIndexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     remove(value: T): ImmutableList_1<T>;
-    remove(value: T, equalityComparer: IEqualityComparer_1<T>): ImmutableList_1<T>;
+    remove(value: T, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableList_1<T>;
     removeAll(match: Predicate_1<T>): ImmutableList_1<T>;
     removeAt(index: int): ImmutableList_1<T>;
     removeRange(index: int, count: int): ImmutableList_1<T>;
     removeRange(items: IEnumerable_1<T>): ImmutableList_1<T>;
-    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): ImmutableList_1<T>;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableList_1<T>;
     replace(oldValue: T, newValue: T): ImmutableList_1<T>;
-    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): ImmutableList_1<T>;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableList_1<T>;
     reverse(): ImmutableList_1<T>;
     reverse(index: int, count: int): ImmutableList_1<T>;
     setItem(index: int, value: T): ImmutableList_1<T>;
     sort(): ImmutableList_1<T>;
     sort(comparison: Comparison_1<T>): ImmutableList_1<T>;
-    sort(comparer: IComparer_1<T>): ImmutableList_1<T>;
-    sort(index: int, count: int, comparer: IComparer_1<T>): ImmutableList_1<T>;
+    sort(comparer: IComparer_1<T> | undefined): ImmutableList_1<T>;
+    sort(index: int, count: int, comparer: IComparer_1<T> | undefined): ImmutableList_1<T>;
     toBuilder(): ImmutableList_1_Builder<T>;
     trueForAll(match: Predicate_1<T>): boolean;
 }
@@ -673,8 +673,8 @@ export interface ImmutableList_1_Builder$instance<T> {
     add(item: T): void;
     addRange(items: IEnumerable_1<T>): void;
     binarySearch(item: T): int;
-    binarySearch(item: T, comparer: IComparer_1<T>): int;
-    binarySearch(index: int, count: int, item: T, comparer: IComparer_1<T>): int;
+    binarySearch(item: T, comparer: IComparer_1<T> | undefined): int;
+    binarySearch(index: int, count: int, item: T, comparer: IComparer_1<T> | undefined): int;
     clear(): void;
     contains(item: T): boolean;
     convertAll<TOutput>(converter: Func_2<T, TOutput>): ImmutableList_1<TOutput>;
@@ -682,12 +682,12 @@ export interface ImmutableList_1_Builder$instance<T> {
     copyTo(array: T[], arrayIndex: int): void;
     copyTo(index: int, array: T[], arrayIndex: int, count: int): void;
     exists(match: Predicate_1<T>): boolean;
-    find(match: Predicate_1<T>): T;
+    find(match: Predicate_1<T>): T | undefined;
     findAll(match: Predicate_1<T>): ImmutableList_1<T>;
     findIndex(match: Predicate_1<T>): int;
     findIndex(startIndex: int, match: Predicate_1<T>): int;
     findIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
-    findLast(match: Predicate_1<T>): T;
+    findLast(match: Predicate_1<T>): T | undefined;
     findLastIndex(match: Predicate_1<T>): int;
     findLastIndex(startIndex: int, match: Predicate_1<T>): int;
     findLastIndex(startIndex: int, count: int, match: Predicate_1<T>): int;
@@ -697,29 +697,29 @@ export interface ImmutableList_1_Builder$instance<T> {
     indexOf(item: T): int;
     indexOf(item: T, index: int): int;
     indexOf(item: T, index: int, count: int): int;
-    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    indexOf(item: T, index: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     insert(index: int, item: T): void;
     insertRange(index: int, items: IEnumerable_1<T>): void;
     itemRef(index: int): T;
     lastIndexOf(item: T): int;
     lastIndexOf(item: T, startIndex: int): int;
     lastIndexOf(item: T, startIndex: int, count: int): int;
-    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T>): int;
+    lastIndexOf(item: T, startIndex: int, count: int, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     remove(item: T): boolean;
-    remove(item: T, equalityComparer: IEqualityComparer_1<T>): boolean;
+    remove(item: T, equalityComparer: IEqualityComparer_1<T> | undefined): boolean;
     removeAll(match: Predicate_1<T>): int;
     removeAt(index: int): void;
     removeRange(index: int, count: int): void;
-    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T>): void;
+    removeRange(items: IEnumerable_1<T>, equalityComparer: IEqualityComparer_1<T> | undefined): void;
     removeRange(items: IEnumerable_1<T>): void;
     replace(oldValue: T, newValue: T): void;
-    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T>): void;
+    replace(oldValue: T, newValue: T, equalityComparer: IEqualityComparer_1<T> | undefined): void;
     reverse(): void;
     reverse(index: int, count: int): void;
     sort(): void;
     sort(comparison: Comparison_1<T>): void;
-    sort(comparer: IComparer_1<T>): void;
-    sort(index: int, count: int, comparer: IComparer_1<T>): void;
+    sort(comparer: IComparer_1<T> | undefined): void;
+    sort(index: int, count: int, comparer: IComparer_1<T> | undefined): void;
     toImmutable(): ImmutableList_1<T>;
     trueForAll(match: Predicate_1<T>): boolean;
 }
@@ -793,8 +793,8 @@ export interface ImmutableSortedDictionary_2$instance<TKey, TValue> {
     tryGetKey(equalKey: TKey, actualKey: TKey): boolean;
     tryGetValue(key: TKey, value: TValue): boolean;
     valueRef(key: TKey): TValue;
-    withComparers(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    withComparers(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    withComparers(keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
+    withComparers(keyComparer: IComparer_1<TKey> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
 }
 
 
@@ -834,7 +834,7 @@ export interface ImmutableSortedDictionary_2_Builder$instance<TKey, TValue> {
     containsKey(key: TKey): boolean;
     containsValue(value: TValue): boolean;
     getEnumerator(): ImmutableSortedDictionary_2_Enumerator<TKey, TValue>;
-    getValueOrDefault(key: TKey): TValue;
+    getValueOrDefault(key: TKey): TValue | undefined;
     getValueOrDefault(key: TKey, defaultValue: TValue): TValue;
     remove(key: TKey): boolean;
     remove(item: KeyValuePair_2<TKey, TValue>): boolean;
@@ -870,8 +870,8 @@ export interface ImmutableSortedSet_1$instance<T> {
     readonly isEmpty: boolean;
     readonly item: T;
     readonly keyComparer: IComparer_1<T>;
-    readonly max: T;
-    readonly min: T;
+    readonly max: T | undefined;
+    readonly min: T | undefined;
     add(value: T): ImmutableSortedSet_1<T>;
     clear(): ImmutableSortedSet_1<T>;
     contains(value: T): boolean;
@@ -892,7 +892,7 @@ export interface ImmutableSortedSet_1$instance<T> {
     toBuilder(): ImmutableSortedSet_1_Builder<T>;
     tryGetValue(equalValue: T, actualValue: T): boolean;
     union(other: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
-    withComparer(comparer: IComparer_1<T>): ImmutableSortedSet_1<T>;
+    withComparer(comparer: IComparer_1<T> | undefined): ImmutableSortedSet_1<T>;
 }
 
 
@@ -922,8 +922,8 @@ export interface ImmutableSortedSet_1_Builder$instance<T> {
     readonly count: int;
     readonly item: T;
     keyComparer: IComparer_1<T>;
-    readonly max: T;
-    readonly min: T;
+    readonly max: T | undefined;
+    readonly min: T | undefined;
     add(item: T): boolean;
     clear(): void;
     contains(item: T): boolean;
@@ -992,9 +992,9 @@ export type ImmutableStack_1<T> = ImmutableStack_1$instance<T> & __ImmutableStac
 
 
 export abstract class ImmutableArray$instance {
-    static binarySearch<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T, comparer: IComparer_1<T>): int;
+    static binarySearch<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T, comparer: IComparer_1<T> | undefined): int;
     static binarySearch<T>(array: ImmutableArray_1<T>, index: int, length: int, value: T): int;
-    static binarySearch<T>(array: ImmutableArray_1<T>, value: T, comparer: IComparer_1<T>): int;
+    static binarySearch<T>(array: ImmutableArray_1<T>, value: T, comparer: IComparer_1<T> | undefined): int;
     static binarySearch<T>(array: ImmutableArray_1<T>, value: T): int;
     static create<T>(): ImmutableArray_1<T>;
     static create<T>(items: ImmutableArray_1<T>, start: int, length: int): ImmutableArray_1<T>;
@@ -1025,26 +1025,26 @@ export type ImmutableArray = ImmutableArray$instance;
 export abstract class ImmutableDictionary$instance {
     static contains<TKey, TValue>(map: IImmutableDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
     static create<TKey, TValue>(): ImmutableDictionary_2<TKey, TValue>;
-    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2<TKey, TValue>;
     static createBuilder<TKey, TValue>(): ImmutableDictionary_2_Builder<TKey, TValue>;
-    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2_Builder<TKey, TValue>;
-    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2_Builder<TKey, TValue>;
     static createRange<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
-    static createRangeWithOverwrite<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey>, items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
+    static createRangeWithOverwrite<TKey, TValue>(keyComparer: IEqualityComparer_1<TKey> | undefined, items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
     static createRangeWithOverwrite<TKey, TValue>(items: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
     static getValueOrDefault<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static getValueOrDefault<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static getValueOrDefault<TKey, TValue>(dictionary: IImmutableDictionary_2<TKey, TValue>, key: TKey): TValue | undefined;
     static toImmutableDictionary<TKey, TValue>(builder: ImmutableDictionary_2_Builder<TKey, TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static toImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static toImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2<TKey, TValue>;
     static toImmutableDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static toImmutableDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TSource>;
+    static toImmutableDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2<TKey, TSource>;
     static toImmutableDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): ImmutableDictionary_2<TKey, TSource>;
-    static toImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableDictionary_2<TKey, TValue>;
-    static toImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey>): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableDictionary_2<TKey, TValue>;
+    static toImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IEqualityComparer_1<TKey> | undefined): ImmutableDictionary_2<TKey, TValue>;
     static toImmutableDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableDictionary_2<TKey, TValue>;
 }
 
@@ -1053,19 +1053,19 @@ export type ImmutableDictionary = ImmutableDictionary$instance;
 
 export abstract class ImmutableHashSet$instance {
     static create<T>(): ImmutableHashSet_1<T>;
-    static create<T>(equalityComparer: IEqualityComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
-    static create<T>(equalityComparer: IEqualityComparer_1<T>, item: T): ImmutableHashSet_1<T>;
-    static create<T>(equalityComparer: IEqualityComparer_1<T>, ...items: T[]): ImmutableHashSet_1<T>;
-    static create<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T> | undefined, items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T> | undefined, item: T): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T> | undefined, ...items: T[]): ImmutableHashSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableHashSet_1<T>;
     static create<T>(items: ReadOnlySpan_1<T>): ImmutableHashSet_1<T>;
     static create<T>(item: T): ImmutableHashSet_1<T>;
     static create<T>(...items: T[]): ImmutableHashSet_1<T>;
     static createBuilder<T>(): ImmutableHashSet_1_Builder<T>;
-    static createBuilder<T>(equalityComparer: IEqualityComparer_1<T>): ImmutableHashSet_1_Builder<T>;
+    static createBuilder<T>(equalityComparer: IEqualityComparer_1<T> | undefined): ImmutableHashSet_1_Builder<T>;
     static createRange<T>(items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
-    static createRange<T>(equalityComparer: IEqualityComparer_1<T>, items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
+    static createRange<T>(equalityComparer: IEqualityComparer_1<T> | undefined, items: IEnumerable_1<T>): ImmutableHashSet_1<T>;
     static toImmutableHashSet<TSource>(builder: ImmutableHashSet_1_Builder<TSource>): ImmutableHashSet_1<TSource>;
-    static toImmutableHashSet<TSource>(source: IEnumerable_1<TSource>, equalityComparer: IEqualityComparer_1<TSource>): ImmutableHashSet_1<TSource>;
+    static toImmutableHashSet<TSource>(source: IEnumerable_1<TSource>, equalityComparer: IEqualityComparer_1<TSource> | undefined): ImmutableHashSet_1<TSource>;
     static toImmutableHashSet<TSource>(source: IEnumerable_1<TSource>): ImmutableHashSet_1<TSource>;
 }
 
@@ -1104,11 +1104,11 @@ export abstract class ImmutableList$instance {
     static create<T>(...items: T[]): ImmutableList_1<T>;
     static createBuilder<T>(): ImmutableList_1_Builder<T>;
     static createRange<T>(items: IEnumerable_1<T>): ImmutableList_1<T>;
-    static indexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
+    static indexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     static indexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
     static indexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
     static indexOf<T>(list: IImmutableList_1<T>, item: T): int;
-    static lastIndexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T>): int;
+    static lastIndexOf<T>(list: IImmutableList_1<T>, item: T, equalityComparer: IEqualityComparer_1<T> | undefined): int;
     static lastIndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int, count: int): int;
     static lastIndexOf<T>(list: IImmutableList_1<T>, item: T, startIndex: int): int;
     static lastIndexOf<T>(list: IImmutableList_1<T>, item: T): int;
@@ -1136,20 +1136,20 @@ export type ImmutableQueue = ImmutableQueue$instance;
 
 export abstract class ImmutableSortedDictionary$instance {
     static create<TKey, TValue>(): ImmutableSortedDictionary_2<TKey, TValue>;
-    static create<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static create<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
     static createBuilder<TKey, TValue>(): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
-    static createRange<TKey, TValue>(keyComparer: IComparer_1<TKey>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static createRange<TKey, TValue>(keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
+    static createBuilder<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined): ImmutableSortedDictionary_2_Builder<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static createRange<TKey, TValue>(keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined, items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
     static createRange<TKey, TValue>(items: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
     static toImmutableSortedDictionary<TKey, TValue>(builder: ImmutableSortedDictionary_2_Builder<TKey, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static toImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static toImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>, keyComparer: IComparer_1<TKey> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
     static toImmutableSortedDictionary<TSource, TKey, TValue>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static toImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>, valueComparer: IEqualityComparer_1<TValue>): ImmutableSortedDictionary_2<TKey, TValue>;
-    static toImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey>): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey> | undefined, valueComparer: IEqualityComparer_1<TValue> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
+    static toImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, keyComparer: IComparer_1<TKey> | undefined): ImmutableSortedDictionary_2<TKey, TValue>;
     static toImmutableSortedDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ImmutableSortedDictionary_2<TKey, TValue>;
 }
 
@@ -1158,19 +1158,19 @@ export type ImmutableSortedDictionary = ImmutableSortedDictionary$instance;
 
 export abstract class ImmutableSortedSet$instance {
     static create<T>(): ImmutableSortedSet_1<T>;
-    static create<T>(comparer: IComparer_1<T>, items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
-    static create<T>(comparer: IComparer_1<T>, item: T): ImmutableSortedSet_1<T>;
-    static create<T>(comparer: IComparer_1<T>, ...items: T[]): ImmutableSortedSet_1<T>;
-    static create<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T> | undefined, items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T> | undefined, item: T): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T> | undefined, ...items: T[]): ImmutableSortedSet_1<T>;
+    static create<T>(comparer: IComparer_1<T> | undefined): ImmutableSortedSet_1<T>;
     static create<T>(items: ReadOnlySpan_1<T>): ImmutableSortedSet_1<T>;
     static create<T>(item: T): ImmutableSortedSet_1<T>;
     static create<T>(...items: T[]): ImmutableSortedSet_1<T>;
     static createBuilder<T>(): ImmutableSortedSet_1_Builder<T>;
-    static createBuilder<T>(comparer: IComparer_1<T>): ImmutableSortedSet_1_Builder<T>;
-    static createRange<T>(comparer: IComparer_1<T>, items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
+    static createBuilder<T>(comparer: IComparer_1<T> | undefined): ImmutableSortedSet_1_Builder<T>;
+    static createRange<T>(comparer: IComparer_1<T> | undefined, items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
     static createRange<T>(items: IEnumerable_1<T>): ImmutableSortedSet_1<T>;
     static toImmutableSortedSet<TSource>(builder: ImmutableSortedSet_1_Builder<TSource>): ImmutableSortedSet_1<TSource>;
-    static toImmutableSortedSet<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource>): ImmutableSortedSet_1<TSource>;
+    static toImmutableSortedSet<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | undefined): ImmutableSortedSet_1<TSource>;
     static toImmutableSortedSet<TSource>(source: IEnumerable_1<TSource>): ImmutableSortedSet_1<TSource>;
 }
 

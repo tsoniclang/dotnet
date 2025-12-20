@@ -233,7 +233,7 @@ export interface CngProperty$instance {
 
 
 export const CngProperty: {
-    new(name: string, value: byte[], options: CngPropertyOptions): CngProperty;
+    new(name: string, value: byte[] | undefined, options: CngPropertyOptions): CngProperty;
 };
 
 
@@ -248,13 +248,13 @@ export type CngProperty = CngProperty$instance & __CngProperty$views;
 
 
 export interface DSAParameters$instance {
-    P: byte[];
-    Q: byte[];
-    G: byte[];
-    Y: byte[];
-    J: byte[];
-    X: byte[];
-    seed: byte[];
+    P: byte[] | undefined;
+    Q: byte[] | undefined;
+    G: byte[] | undefined;
+    Y: byte[] | undefined;
+    J: byte[] | undefined;
+    X: byte[] | undefined;
+    seed: byte[] | undefined;
     counter: int;
 }
 
@@ -267,16 +267,16 @@ export const DSAParameters: {
 export type DSAParameters = DSAParameters$instance;
 
 export interface ECCurve$instance {
-    A: byte[];
-    B: byte[];
+    A: byte[] | undefined;
+    B: byte[] | undefined;
     G: ECPoint;
-    order: byte[];
-    cofactor: byte[];
-    seed: byte[];
+    order: byte[] | undefined;
+    cofactor: byte[] | undefined;
+    seed: byte[] | undefined;
     curveType: ECCurve_ECCurveType;
     hash: Nullable_1<HashAlgorithmName>;
-    polynomial: byte[];
-    prime: byte[];
+    polynomial: byte[] | undefined;
+    prime: byte[] | undefined;
     readonly isCharacteristic2: boolean;
     readonly isExplicit: boolean;
     readonly isNamed: boolean;
@@ -288,9 +288,9 @@ export interface ECCurve$instance {
 
 export const ECCurve: {
     new(): ECCurve;
-    createFromFriendlyName(oidFriendlyName: string): ECCurve;
-    createFromOid(curveOid: Oid): ECCurve;
-    createFromValue(oidValue: string): ECCurve;
+    createFromFriendlyName(oidFriendlyName: string | undefined): ECCurve;
+    createFromOid(curveOid: Oid | undefined): ECCurve;
+    createFromValue(oidValue: string | undefined): ECCurve;
 };
 
 
@@ -298,7 +298,7 @@ export type ECCurve = ECCurve$instance;
 
 export interface ECParameters$instance {
     Q: ECPoint;
-    D: byte[];
+    D: byte[] | undefined;
     curve: ECCurve;
     validate(): void;
 }
@@ -312,8 +312,8 @@ export const ECParameters: {
 export type ECParameters = ECParameters$instance;
 
 export interface ECPoint$instance {
-    X: byte[];
-    Y: byte[];
+    X: byte[] | undefined;
+    Y: byte[] | undefined;
 }
 
 
@@ -326,15 +326,15 @@ export type ECPoint = ECPoint$instance;
 
 export interface HashAlgorithmName$instance {
     readonly name: string;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: HashAlgorithmName): boolean;
     getHashCode(): int;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
 export const HashAlgorithmName: {
-    new(name: string): HashAlgorithmName;
+    new(name: string | undefined): HashAlgorithmName;
     readonly MD5: HashAlgorithmName;
     readonly SHA1: HashAlgorithmName;
     readonly SHA256: HashAlgorithmName;
@@ -343,8 +343,8 @@ export const HashAlgorithmName: {
     readonly SHA3_256: HashAlgorithmName;
     readonly SHA3_384: HashAlgorithmName;
     readonly SHA3_512: HashAlgorithmName;
-    fromOid(oidValue: string): HashAlgorithmName;
-    tryFromOid(oidValue: string, value: HashAlgorithmName): boolean;
+    fromOid(oidValue: string | undefined): HashAlgorithmName;
+    tryFromOid(oidValue: string | undefined, value: HashAlgorithmName): boolean;
 };
 
 
@@ -374,14 +374,14 @@ export const PemFields: {
 export type PemFields = PemFields$instance;
 
 export interface RSAParameters$instance {
-    D: byte[];
-    DP: byte[];
-    DQ: byte[];
-    exponent: byte[];
-    inverseQ: byte[];
-    modulus: byte[];
-    P: byte[];
-    Q: byte[];
+    D: byte[] | undefined;
+    DP: byte[] | undefined;
+    DQ: byte[] | undefined;
+    exponent: byte[] | undefined;
+    inverseQ: byte[] | undefined;
+    modulus: byte[] | undefined;
+    P: byte[] | undefined;
+    Q: byte[] | undefined;
 }
 
 
@@ -417,10 +417,10 @@ export type Aes = Aes$instance & __Aes$views;
 
 
 export interface AesCcm$instance {
-    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[] | undefined): void;
     decrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: ReadOnlySpan_1<System_Internal.Byte>, tag: ReadOnlySpan_1<System_Internal.Byte>, plaintext: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
     dispose(): void;
-    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[] | undefined): void;
     encrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, plaintext: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: Span_1<System_Internal.Byte>, tag: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
@@ -444,9 +444,9 @@ export type AesCcm = AesCcm$instance & __AesCcm$views;
 
 
 export interface AesCng$instance extends Aes$instance {
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createDecryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
@@ -481,9 +481,9 @@ export interface AesCryptoServiceProvider$instance extends Aes$instance {
     mode: CipherMode;
     padding: PaddingMode;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -504,10 +504,10 @@ export type AesCryptoServiceProvider = AesCryptoServiceProvider$instance & __Aes
 
 export interface AesGcm$instance {
     readonly tagSizeInBytes: Nullable_1<System_Internal.Int32>;
-    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[] | undefined): void;
     decrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: ReadOnlySpan_1<System_Internal.Byte>, tag: ReadOnlySpan_1<System_Internal.Byte>, plaintext: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
     dispose(): void;
-    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[] | undefined): void;
     encrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, plaintext: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: Span_1<System_Internal.Byte>, tag: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
@@ -543,9 +543,9 @@ export interface AesManaged$instance extends Aes$instance {
     mode: CipherMode;
     padding: PaddingMode;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -576,9 +576,9 @@ export const AsnEncodedData: {
     new(rawData: byte[]): AsnEncodedData;
     new(rawData: ReadOnlySpan_1<System_Internal.Byte>): AsnEncodedData;
     new(asnEncodedData: AsnEncodedData): AsnEncodedData;
-    new(oid: Oid, rawData: byte[]): AsnEncodedData;
+    new(oid: Oid | undefined, rawData: byte[]): AsnEncodedData;
     new(oid: string, rawData: byte[]): AsnEncodedData;
-    new(oid: Oid, rawData: ReadOnlySpan_1<System_Internal.Byte>): AsnEncodedData;
+    new(oid: Oid | undefined, rawData: ReadOnlySpan_1<System_Internal.Byte>): AsnEncodedData;
     new(oid: string, rawData: ReadOnlySpan_1<System_Internal.Byte>): AsnEncodedData;
 };
 
@@ -612,7 +612,7 @@ export type AsnEncodedDataCollection = AsnEncodedDataCollection$instance & __Asn
 
 
 export interface AsnEncodedDataEnumerator$instance {
-    readonly current: AsnEncodedData | unknown;
+    readonly current: AsnEncodedData;
     moveNext(): boolean;
     reset(): void;
 }
@@ -631,7 +631,7 @@ export type AsnEncodedDataEnumerator = AsnEncodedDataEnumerator$instance & __Asn
 
 
 export interface AsymmetricAlgorithm$instance {
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | string | undefined;
     keySize: int;
     readonly legalKeySizes: KeySizes[];
     readonly signatureAlgorithm: string;
@@ -667,7 +667,7 @@ export interface AsymmetricAlgorithm$instance {
 
 export const AsymmetricAlgorithm: {
     create(): AsymmetricAlgorithm;
-    create(algName: string): AsymmetricAlgorithm;
+    create(algName: string): AsymmetricAlgorithm | undefined;
 };
 
 
@@ -682,8 +682,8 @@ export type AsymmetricAlgorithm = AsymmetricAlgorithm$instance & __AsymmetricAlg
 
 export interface AsymmetricKeyExchangeDeformatter$instance {
     parameters: string;
-    decryptKeyExchange(rgb: byte[]): byte[];
-    setKey(key: AsymmetricAlgorithm): void;
+    decryptKeyExchange(rgb: byte[] | undefined): byte[] | undefined;
+    setKey(key: AsymmetricAlgorithm | undefined): void;
 }
 
 
@@ -696,7 +696,7 @@ export type AsymmetricKeyExchangeDeformatter = AsymmetricKeyExchangeDeformatter$
 export interface AsymmetricKeyExchangeFormatter$instance {
     readonly parameters: string;
     createKeyExchange(data: byte[]): byte[];
-    createKeyExchange(data: byte[], symAlgType: Type): byte[];
+    createKeyExchange(data: byte[], symAlgType: Type | undefined): byte[];
     setKey(key: AsymmetricAlgorithm): void;
 }
 
@@ -742,8 +742,8 @@ export interface AuthenticationTagMismatchException$instance extends Cryptograph
 
 export const AuthenticationTagMismatchException: {
     new(): AuthenticationTagMismatchException;
-    new(message: string): AuthenticationTagMismatchException;
-    new(message: string, inner: Exception): AuthenticationTagMismatchException;
+    new(message: string | undefined): AuthenticationTagMismatchException;
+    new(message: string | undefined, inner: Exception | undefined): AuthenticationTagMismatchException;
 };
 
 
@@ -755,10 +755,10 @@ export type AuthenticationTagMismatchException = AuthenticationTagMismatchExcept
 
 
 export interface ChaCha20Poly1305$instance {
-    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[]): void;
+    decrypt(nonce: byte[], ciphertext: byte[], tag: byte[], plaintext: byte[], associatedData?: byte[] | undefined): void;
     decrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: ReadOnlySpan_1<System_Internal.Byte>, tag: ReadOnlySpan_1<System_Internal.Byte>, plaintext: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
     dispose(): void;
-    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[]): void;
+    encrypt(nonce: byte[], plaintext: byte[], ciphertext: byte[], tag: byte[], associatedData?: byte[] | undefined): void;
     encrypt(nonce: ReadOnlySpan_1<System_Internal.Byte>, plaintext: ReadOnlySpan_1<System_Internal.Byte>, ciphertext: Span_1<System_Internal.Byte>, tag: Span_1<System_Internal.Byte>, associatedData?: ReadOnlySpan_1<System_Internal.Byte>): void;
 }
 
@@ -866,7 +866,7 @@ export interface CngKey$instance {
     readonly provider: CngProvider;
     readonly providerHandle: SafeNCryptProviderHandle;
     readonly uiPolicy: CngUIPolicy;
-    readonly uniqueName: string;
+    readonly uniqueName: string | undefined;
     delete_(): void;
     dispose(): void;
     export_(format: CngKeyBlobFormat): byte[];
@@ -878,8 +878,8 @@ export interface CngKey$instance {
 
 export const CngKey: {
     new(): CngKey;
-    create(algorithm: CngAlgorithm, keyName: string, creationParameters: CngKeyCreationParameters): CngKey;
-    create(algorithm: CngAlgorithm, keyName: string): CngKey;
+    create(algorithm: CngAlgorithm, keyName: string | undefined, creationParameters: CngKeyCreationParameters | undefined): CngKey;
+    create(algorithm: CngAlgorithm, keyName: string | undefined): CngKey;
     create(algorithm: CngAlgorithm): CngKey;
     exists(keyName: string, provider: CngProvider, options: CngKeyOpenOptions): boolean;
     exists(keyName: string, provider: CngProvider): boolean;
@@ -960,19 +960,19 @@ export type CngKeyCreationParameters = CngKeyCreationParameters$instance;
 
 export interface CngPropertyCollection$instance extends Collection_1<CngProperty> {
     add(item: CngProperty): void;
-    add(value: unknown): int;
+    add(value: unknown | undefined): int;
     clear(): void;
     contains(item: CngProperty): boolean;
-    contains(value: unknown): boolean;
+    contains(value: unknown | undefined): boolean;
     copyTo(array: CngProperty[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<CngProperty>;
     getEnumerator(): IEnumerator;
     indexOf(item: CngProperty): int;
     insert(index: int, item: CngProperty): void;
-    insert(index: int, value: unknown): void;
+    insert(index: int, value: unknown | undefined): void;
     remove(item: CngProperty): boolean;
-    remove(value: unknown): void;
+    remove(value: unknown | undefined): void;
     removeAt(index: int): void;
 }
 
@@ -1023,20 +1023,20 @@ export type CngProvider = CngProvider$instance & __CngProvider$views;
 
 
 export interface CngUIPolicy$instance {
-    readonly creationTitle: string;
+    readonly creationTitle: string | undefined;
     readonly description: string;
     readonly friendlyName: string;
     readonly protectionLevel: CngUIProtectionLevels;
-    readonly useContext: string;
+    readonly useContext: string | undefined;
 }
 
 
 export const CngUIPolicy: {
     new(protectionLevel: CngUIProtectionLevels): CngUIPolicy;
-    new(protectionLevel: CngUIProtectionLevels, friendlyName: string): CngUIPolicy;
-    new(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string): CngUIPolicy;
-    new(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string, useContext: string): CngUIPolicy;
-    new(protectionLevel: CngUIProtectionLevels, friendlyName: string, description: string, useContext: string, creationTitle: string): CngUIPolicy;
+    new(protectionLevel: CngUIProtectionLevels, friendlyName: string | undefined): CngUIPolicy;
+    new(protectionLevel: CngUIProtectionLevels, friendlyName: string | undefined, description: string | undefined): CngUIPolicy;
+    new(protectionLevel: CngUIProtectionLevels, friendlyName: string | undefined, description: string | undefined, useContext: string | undefined): CngUIPolicy;
+    new(protectionLevel: CngUIProtectionLevels, friendlyName: string | undefined, description: string | undefined, useContext: string | undefined, creationTitle: string | undefined): CngUIPolicy;
 };
 
 
@@ -1059,7 +1059,7 @@ export interface CompositeMLDsa$instance {
     exportPkcs8PrivateKeyPem(): string;
     exportSubjectPublicKeyInfo(): byte[];
     exportSubjectPublicKeyInfoPem(): string;
-    signData(data: byte[], context?: byte[]): byte[];
+    signData(data: byte[], context?: byte[] | undefined): byte[];
     signData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): int;
     tryExportCompositeMLDsaPrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportCompositeMLDsaPublicKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
@@ -1068,7 +1068,7 @@ export interface CompositeMLDsa$instance {
     tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
-    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[] | undefined): boolean;
     verifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
 }
 
@@ -1177,9 +1177,9 @@ export const CryptoConfig: {
     addAlgorithm(algorithm: Type, ...names: string[]): void;
     addOID(oid: string, ...names: string[]): void;
     createFromName(name: string, ...args: unknown[]): unknown;
-    createFromName(name: string): unknown;
+    createFromName(name: string): unknown | undefined;
     encodeOID(str: string): byte[];
-    mapNameToOID(name: string): string;
+    mapNameToOID(name: string): string | undefined;
 };
 
 
@@ -1195,7 +1195,7 @@ export const CryptographicException: {
     new(hr: int): CryptographicException;
     new(message: string): CryptographicException;
     new(message: string, inner: Exception): CryptographicException;
-    new(format: string, insert: string): CryptographicException;
+    new(format: string, insert: string | undefined): CryptographicException;
 };
 
 
@@ -1215,7 +1215,7 @@ export const CryptographicUnexpectedOperationException: {
     new(): CryptographicUnexpectedOperationException;
     new(message: string): CryptographicUnexpectedOperationException;
     new(message: string, inner: Exception): CryptographicUnexpectedOperationException;
-    new(format: string, insert: string): CryptographicUnexpectedOperationException;
+    new(format: string, insert: string | undefined): CryptographicUnexpectedOperationException;
 };
 
 
@@ -1233,8 +1233,8 @@ export interface CryptoStream$instance extends Stream {
     readonly hasFlushedFinalBlock: boolean;
     readonly length: long;
     position: long;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     clear(): void;
     copyTo(destination: Stream, bufferSize: int): void;
     copyTo(destination: Stream): void;
@@ -1311,11 +1311,11 @@ export type CspKeyContainerInfo = CspKeyContainerInfo$instance;
 
 export interface CspParameters$instance {
     providerType: int;
-    providerName: string;
-    keyContainerName: string;
+    providerName: string | undefined;
+    keyContainerName: string | undefined;
     keyNumber: int;
     flags: CspProviderFlags;
-    keyPassword: SecureString;
+    keyPassword: SecureString | undefined;
     parentWindowHandle: nint;
 }
 
@@ -1323,8 +1323,8 @@ export interface CspParameters$instance {
 export const CspParameters: {
     new(): CspParameters;
     new(dwTypeIn: int): CspParameters;
-    new(dwTypeIn: int, strProviderNameIn: string): CspParameters;
-    new(dwTypeIn: int, strProviderNameIn: string, strContainerNameIn: string): CspParameters;
+    new(dwTypeIn: int, strProviderNameIn: string | undefined): CspParameters;
+    new(dwTypeIn: int, strProviderNameIn: string | undefined, strContainerNameIn: string | undefined): CspParameters;
 };
 
 
@@ -1380,9 +1380,9 @@ export interface DESCryptoServiceProvider$instance extends DES$instance {
     mode: CipherMode;
     padding: PaddingMode;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -1456,7 +1456,7 @@ export interface DSA$instance extends AsymmetricAlgorithm$instance {
 
 export const DSA: {
     create(parameters: DSAParameters): DSA;
-    create(algName: string): DSA;
+    create(algName: string): DSA | undefined;
 };
 
 
@@ -1497,7 +1497,7 @@ export type DSACng = DSACng$instance & __DSACng$views;
 
 export interface DSACryptoServiceProvider$instance extends DSA$instance {
     readonly cspKeyContainerInfo: CspKeyContainerInfo;
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | undefined;
     keySize: int;
     readonly legalKeySizes: KeySizes[];
     persistKeyInCsp: boolean;
@@ -1682,12 +1682,12 @@ export type ECAlgorithm = ECAlgorithm$instance & __ECAlgorithm$views;
 
 
 export interface ECDiffieHellman$instance extends ECAlgorithm$instance {
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | string | undefined;
     readonly publicKey: ECDiffieHellmanPublicKey;
     readonly signatureAlgorithm: string;
     deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
-    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
-    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[] | undefined, secretAppend: byte[] | undefined): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[] | undefined): byte[];
     deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
     deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
     deriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
@@ -1702,7 +1702,7 @@ export const ECDiffieHellman: {
     create(): ECDiffieHellman;
     create(curve: ECCurve): ECDiffieHellman;
     create(parameters: ECParameters): ECDiffieHellman;
-    create(algorithm: string): ECDiffieHellman;
+    create(algorithm: string): ECDiffieHellman | undefined;
 };
 
 
@@ -1715,18 +1715,18 @@ export type ECDiffieHellman = ECDiffieHellman$instance & __ECDiffieHellman$views
 
 export interface ECDiffieHellmanCng$instance extends ECDiffieHellman$instance {
     hashAlgorithm: CngAlgorithm;
-    hmacKey: byte[];
+    hmacKey: byte[] | undefined;
     readonly key: CngKey;
     keyDerivationFunction: ECDiffieHellmanKeyDerivationFunction;
-    label: byte[];
+    label: byte[] | undefined;
     readonly publicKey: ECDiffieHellmanPublicKey;
-    secretAppend: byte[];
-    secretPrepend: byte[];
-    seed: byte[];
+    secretAppend: byte[] | undefined;
+    secretPrepend: byte[] | undefined;
+    seed: byte[] | undefined;
     readonly useSecretAgreementAsHmacKey: boolean;
     deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
-    deriveSecretAgreementHandle(otherPartyPublicKey: CngKey): SafeNCryptSecretHandle;
-    deriveSecretAgreementHandle(otherPartyPublicKey: ECDiffieHellmanPublicKey): SafeNCryptSecretHandle;
+    deriveSecretAgreementHandle(otherPartyPublicKey: CngKey | undefined): SafeNCryptSecretHandle | undefined;
+    deriveSecretAgreementHandle(otherPartyPublicKey: ECDiffieHellmanPublicKey | undefined): SafeNCryptSecretHandle | undefined;
     dispose(): void;
     fromXmlString(xmlString: string): void;
     toXmlString(includePrivateParameters: boolean): string;
@@ -1736,7 +1736,7 @@ export interface ECDiffieHellmanCng$instance extends ECDiffieHellman$instance {
 export const ECDiffieHellmanCng: {
     new(): ECDiffieHellmanCng;
     new(keySize: int): ECDiffieHellmanCng;
-    new(key: CngKey): ECDiffieHellmanCng;
+    new(key: CngKey | undefined): ECDiffieHellmanCng;
     new(curve: ECCurve): ECDiffieHellmanCng;
 };
 
@@ -1774,10 +1774,10 @@ export interface ECDiffieHellmanOpenSsl$instance extends ECDiffieHellman$instanc
     keySize: int;
     readonly legalKeySizes: KeySizes[];
     readonly publicKey: ECDiffieHellmanPublicKey;
-    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[], secretAppend: byte[]): byte[];
+    deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, secretPrepend: byte[] | undefined, secretAppend: byte[] | undefined): byte[];
     deriveKeyFromHash(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName): byte[];
     deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[], secretPrepend: byte[], secretAppend: byte[]): byte[];
-    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[]): byte[];
+    deriveKeyFromHmac(otherPartyPublicKey: ECDiffieHellmanPublicKey, hashAlgorithm: HashAlgorithmName, hmacKey: byte[] | undefined): byte[];
     deriveKeyMaterial(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
     deriveKeyTls(otherPartyPublicKey: ECDiffieHellmanPublicKey, prfLabel: byte[], prfSeed: byte[]): byte[];
     deriveRawSecretAgreement(otherPartyPublicKey: ECDiffieHellmanPublicKey): byte[];
@@ -1834,7 +1834,7 @@ export type ECDiffieHellmanPublicKey = ECDiffieHellmanPublicKey$instance & __ECD
 
 
 export interface ECDsa$instance extends ECAlgorithm$instance {
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | undefined;
     readonly signatureAlgorithm: string;
     dispose(): void;
     fromXmlString(xmlString: string): void;
@@ -1879,7 +1879,7 @@ export const ECDsa: {
     create(): ECDsa;
     create(curve: ECCurve): ECDsa;
     create(parameters: ECParameters): ECDsa;
-    create(algorithm: string): ECDsa;
+    create(algorithm: string): ECDsa | undefined;
 };
 
 
@@ -2018,7 +2018,7 @@ export type FromBase64Transform = FromBase64Transform$instance & __FromBase64Tra
 export interface HashAlgorithm$instance {
     readonly canReuseTransform: boolean;
     readonly canTransformMultipleBlocks: boolean;
-    readonly hash: byte[];
+    readonly hash: byte[] | undefined;
     readonly hashSize: int;
     readonly inputBlockSize: int;
     readonly outputBlockSize: int;
@@ -2029,7 +2029,7 @@ export interface HashAlgorithm$instance {
     computeHashAsync(inputStream: Stream, cancellationToken?: CancellationToken): Task_1<byte[]>;
     dispose(): void;
     initialize(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
     tryComputeHash(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
@@ -2037,7 +2037,7 @@ export interface HashAlgorithm$instance {
 
 export const HashAlgorithm: {
     create(): HashAlgorithm;
-    create(hashName: string): HashAlgorithm;
+    create(hashName: string): HashAlgorithm | undefined;
 };
 
 
@@ -2394,7 +2394,7 @@ export type IncrementalHash = IncrementalHash$instance & __IncrementalHash$views
 export interface KeyedHashAlgorithm$instance extends HashAlgorithm$instance {
     key: byte[];
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -2438,16 +2438,16 @@ export interface Kmac128$instance {
 
 
 export const Kmac128: {
-    new(key: byte[], customizationString: byte[]): Kmac128;
+    new(key: byte[], customizationString: byte[] | undefined): Kmac128;
     new(key: ReadOnlySpan_1<System_Internal.Byte>, customizationString: ReadOnlySpan_1<System_Internal.Byte>): Kmac128;
     readonly isSupported: boolean;
-    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
-    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
+    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[] | undefined): byte[];
+    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[], cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, destination: Memory_1<System_Internal.Byte>, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 };
@@ -2475,16 +2475,16 @@ export interface Kmac256$instance {
 
 
 export const Kmac256: {
-    new(key: byte[], customizationString: byte[]): Kmac256;
+    new(key: byte[], customizationString: byte[] | undefined): Kmac256;
     new(key: ReadOnlySpan_1<System_Internal.Byte>, customizationString: ReadOnlySpan_1<System_Internal.Byte>): Kmac256;
     readonly isSupported: boolean;
-    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
-    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
+    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[] | undefined): byte[];
+    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[], cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, destination: Memory_1<System_Internal.Byte>, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 };
@@ -2512,16 +2512,16 @@ export interface KmacXof128$instance {
 
 
 export const KmacXof128: {
-    new(key: byte[], customizationString: byte[]): KmacXof128;
+    new(key: byte[], customizationString: byte[] | undefined): KmacXof128;
     new(key: ReadOnlySpan_1<System_Internal.Byte>, customizationString: ReadOnlySpan_1<System_Internal.Byte>): KmacXof128;
     readonly isSupported: boolean;
-    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
-    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
+    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[] | undefined): byte[];
+    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[], cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, destination: Memory_1<System_Internal.Byte>, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 };
@@ -2549,16 +2549,16 @@ export interface KmacXof256$instance {
 
 
 export const KmacXof256: {
-    new(key: byte[], customizationString: byte[]): KmacXof256;
+    new(key: byte[], customizationString: byte[] | undefined): KmacXof256;
     new(key: ReadOnlySpan_1<System_Internal.Byte>, customizationString: ReadOnlySpan_1<System_Internal.Byte>): KmacXof256;
     readonly isSupported: boolean;
-    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[]): byte[];
-    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[]): byte[];
+    hashData(key: byte[], source: byte[], outputLength: int, customizationString?: byte[] | undefined): byte[];
+    hashData(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: Stream, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, outputLength: int, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     hashData(key: ReadOnlySpan_1<System_Internal.Byte>, source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, customizationString?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[], cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
+    hashDataAsync(key: byte[], source: Stream, outputLength: int, customizationString?: byte[] | undefined, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, outputLength: int, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask_1<byte[]>;
     hashDataAsync(key: ReadOnlyMemory_1<System_Internal.Byte>, source: Stream, destination: Memory_1<System_Internal.Byte>, customizationString?: ReadOnlyMemory_1<System_Internal.Byte>, cancellationToken?: CancellationToken): ValueTask;
 };
@@ -2586,7 +2586,7 @@ export type MaskGenerationMethod = MaskGenerationMethod$instance;
 
 export interface MD5$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -2654,23 +2654,23 @@ export interface MLDsa$instance {
     exportSubjectPublicKeyInfo(): byte[];
     exportSubjectPublicKeyInfoPem(): string;
     signData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    signData(data: byte[], context?: byte[]): byte[];
+    signData(data: byte[], context?: byte[] | undefined): byte[];
     signMu(externalMu: byte[]): byte[];
     signMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>): byte[];
     signMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>): void;
     signPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[] | undefined): byte[];
     tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     verifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[] | undefined): boolean;
     verifyMu(externalMu: byte[], signature: byte[]): boolean;
     verifyMu(externalMu: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     verifyPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[] | undefined): boolean;
 }
 
 
@@ -2917,11 +2917,11 @@ export interface Oid$instance {
 
 export const Oid: {
     new(): Oid;
-    new(oid: string): Oid;
-    new(value: string, friendlyName: string): Oid;
-    new(oid: Oid): Oid;
-    fromFriendlyName(friendlyName: string, group: OidGroup): Oid;
-    fromOidValue(oidValue: string, group: OidGroup): Oid;
+    new(oid: string | undefined): Oid;
+    new(value: string | undefined, friendlyName: string | undefined): Oid;
+    new(oid: Oid | undefined): Oid;
+    fromFriendlyName(friendlyName: string | undefined, group: OidGroup): Oid | undefined;
+    fromOidValue(oidValue: string | undefined, group: OidGroup): Oid | undefined;
 };
 
 
@@ -2953,7 +2953,7 @@ export type OidCollection = OidCollection$instance & __OidCollection$views;
 
 
 export interface OidEnumerator$instance {
-    readonly current: Oid | unknown;
+    readonly current: Oid;
     moveNext(): boolean;
     reset(): void;
 }
@@ -2975,7 +2975,7 @@ export interface PasswordDeriveBytes$instance extends DeriveBytes$instance {
     hashName: string;
     iterationCount: int;
     salt: byte[];
-    cryptDeriveKey(algname: string, alghashname: string, keySize: int, rgbIV: byte[]): byte[];
+    cryptDeriveKey(algname: string | undefined, alghashname: string | undefined, keySize: int, rgbIV: byte[]): byte[];
     dispose(): void;
     getBytes(cb: int): byte[];
     reset(): void;
@@ -2983,14 +2983,14 @@ export interface PasswordDeriveBytes$instance extends DeriveBytes$instance {
 
 
 export const PasswordDeriveBytes: {
-    new(strPassword: string, rgbSalt: byte[]): PasswordDeriveBytes;
-    new(password: byte[], salt: byte[]): PasswordDeriveBytes;
-    new(strPassword: string, rgbSalt: byte[], strHashName: string, iterations: int): PasswordDeriveBytes;
-    new(password: byte[], salt: byte[], hashName: string, iterations: int): PasswordDeriveBytes;
+    new(strPassword: string, rgbSalt: byte[] | undefined): PasswordDeriveBytes;
+    new(password: byte[], salt: byte[] | undefined): PasswordDeriveBytes;
+    new(strPassword: string, rgbSalt: byte[] | undefined, strHashName: string, iterations: int): PasswordDeriveBytes;
+    new(password: byte[], salt: byte[] | undefined, hashName: string, iterations: int): PasswordDeriveBytes;
     new(strPassword: string, rgbSalt: byte[], cspParams: CspParameters): PasswordDeriveBytes;
     new(password: byte[], salt: byte[], cspParams: CspParameters): PasswordDeriveBytes;
-    new(strPassword: string, rgbSalt: byte[], strHashName: string, iterations: int, cspParams: CspParameters): PasswordDeriveBytes;
-    new(password: byte[], salt: byte[], hashName: string, iterations: int, cspParams: CspParameters): PasswordDeriveBytes;
+    new(strPassword: string, rgbSalt: byte[] | undefined, strHashName: string, iterations: int, cspParams: CspParameters | undefined): PasswordDeriveBytes;
+    new(password: byte[], salt: byte[] | undefined, hashName: string, iterations: int, cspParams: CspParameters | undefined): PasswordDeriveBytes;
 };
 
 
@@ -3040,7 +3040,7 @@ export interface RandomNumberGenerator$instance {
 
 export const RandomNumberGenerator: {
     create(): RandomNumberGenerator;
-    create(rngName: string): RandomNumberGenerator;
+    create(rngName: string): RandomNumberGenerator | undefined;
     fill(data: Span_1<System_Internal.Byte>): void;
     getBytes(count: int): byte[];
     getHexString(stringLength: int, lowercase?: boolean): string;
@@ -3094,9 +3094,9 @@ export interface RC2CryptoServiceProvider$instance extends RC2$instance {
     padding: PaddingMode;
     useSalt: boolean;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -3177,9 +3177,9 @@ export interface RijndaelManaged$instance extends Rijndael$instance {
     mode: CipherMode;
     padding: PaddingMode;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -3226,7 +3226,7 @@ export type RNGCryptoServiceProvider = RNGCryptoServiceProvider$instance & __RNG
 
 
 export interface RSA$instance extends AsymmetricAlgorithm$instance {
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | undefined;
     readonly signatureAlgorithm: string;
     decrypt(data: byte[], padding: RSAEncryptionPadding): byte[];
     decrypt(data: ReadOnlySpan_1<System_Internal.Byte>, padding: RSAEncryptionPadding): byte[];
@@ -3294,7 +3294,7 @@ export interface RSA$instance extends AsymmetricAlgorithm$instance {
 
 export const RSA: {
     create(parameters: RSAParameters): RSA;
-    create(algName: string): RSA;
+    create(algName: string): RSA | undefined;
 };
 
 
@@ -3329,7 +3329,7 @@ export type RSACng = RSACng$instance & __RSACng$views;
 
 export interface RSACryptoServiceProvider$instance extends RSA$instance {
     readonly cspKeyContainerInfo: CspKeyContainerInfo;
-    readonly keyExchangeAlgorithm: string;
+    readonly keyExchangeAlgorithm: string | undefined;
     keySize: int;
     readonly legalKeySizes: KeySizes[];
     persistKeyInCsp: boolean;
@@ -3448,18 +3448,18 @@ export const RSAOAEPKeyExchangeDeformatter: {
 export type RSAOAEPKeyExchangeDeformatter = RSAOAEPKeyExchangeDeformatter$instance;
 
 export interface RSAOAEPKeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
-    parameter: byte[];
+    parameter: byte[] | undefined;
     readonly parameters: string;
-    rng: RandomNumberGenerator;
-    createKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
-    createKeyExchange(rgbData: byte[]): byte[];
-    setKey(key: AsymmetricAlgorithm): void;
+    rng: RandomNumberGenerator | undefined;
+    createKeyExchange(rgbData: byte[] | undefined, symAlgType: Type | undefined): byte[];
+    createKeyExchange(rgbData: byte[] | undefined): byte[];
+    setKey(key: AsymmetricAlgorithm | undefined): void;
 }
 
 
 export const RSAOAEPKeyExchangeFormatter: {
     new(): RSAOAEPKeyExchangeFormatter;
-    new(key: AsymmetricAlgorithm): RSAOAEPKeyExchangeFormatter;
+    new(key: AsymmetricAlgorithm | undefined): RSAOAEPKeyExchangeFormatter;
 };
 
 
@@ -3534,15 +3534,15 @@ export type RSAOpenSsl = RSAOpenSsl$instance & __RSAOpenSsl$views;
 
 export interface RSAPKCS1KeyExchangeDeformatter$instance extends AsymmetricKeyExchangeDeformatter {
     parameters: string;
-    RNG: RandomNumberGenerator;
-    decryptKeyExchange(rgbIn: byte[]): byte[];
-    setKey(key: AsymmetricAlgorithm): void;
+    RNG: RandomNumberGenerator | undefined;
+    decryptKeyExchange(rgbIn: byte[] | undefined): byte[] | undefined;
+    setKey(key: AsymmetricAlgorithm | undefined): void;
 }
 
 
 export const RSAPKCS1KeyExchangeDeformatter: {
     new(): RSAPKCS1KeyExchangeDeformatter;
-    new(key: AsymmetricAlgorithm): RSAPKCS1KeyExchangeDeformatter;
+    new(key: AsymmetricAlgorithm | undefined): RSAPKCS1KeyExchangeDeformatter;
 };
 
 
@@ -3550,8 +3550,8 @@ export type RSAPKCS1KeyExchangeDeformatter = RSAPKCS1KeyExchangeDeformatter$inst
 
 export interface RSAPKCS1KeyExchangeFormatter$instance extends AsymmetricKeyExchangeFormatter {
     readonly parameters: string;
-    rng: RandomNumberGenerator;
-    createKeyExchange(rgbData: byte[], symAlgType: Type): byte[];
+    rng: RandomNumberGenerator | undefined;
+    createKeyExchange(rgbData: byte[], symAlgType: Type | undefined): byte[];
     createKeyExchange(rgbData: byte[]): byte[];
     setKey(key: AsymmetricAlgorithm): void;
 }
@@ -3649,7 +3649,7 @@ export type SafeEvpPKeyHandle = SafeEvpPKeyHandle$instance & __SafeEvpPKeyHandle
 
 export interface SHA1$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3720,7 +3720,7 @@ export type SHA1Managed = SHA1Managed$instance & __SHA1Managed$views;
 
 export interface SHA256$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3791,7 +3791,7 @@ export type SHA256Managed = SHA256Managed$instance & __SHA256Managed$views;
 
 export interface SHA3_256$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3821,7 +3821,7 @@ export type SHA3_256 = SHA3_256$instance & __SHA3_256$views;
 
 export interface SHA3_384$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3851,7 +3851,7 @@ export type SHA3_384 = SHA3_384$instance & __SHA3_384$views;
 
 export interface SHA3_512$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3881,7 +3881,7 @@ export type SHA3_512 = SHA3_512$instance & __SHA3_512$views;
 
 export interface SHA384$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -3952,7 +3952,7 @@ export type SHA384Managed = SHA384Managed$instance & __SHA384Managed$views;
 
 export interface SHA512$instance extends HashAlgorithm$instance {
     dispose(): void;
-    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[], outputOffset: int): int;
+    transformBlock(inputBuffer: byte[], inputOffset: int, inputCount: int, outputBuffer: byte[] | undefined, outputOffset: int): int;
     transformFinalBlock(inputBuffer: byte[], inputOffset: int, inputCount: int): byte[];
 }
 
@@ -4096,19 +4096,19 @@ export type Shake256 = Shake256$instance & __Shake256$views;
 
 
 export interface SignatureDescription$instance {
-    deformatterAlgorithm: string;
-    digestAlgorithm: string;
-    formatterAlgorithm: string;
-    keyAlgorithm: string;
-    createDeformatter(key: AsymmetricAlgorithm): AsymmetricSignatureDeformatter;
-    createDigest(): HashAlgorithm;
-    createFormatter(key: AsymmetricAlgorithm): AsymmetricSignatureFormatter;
+    deformatterAlgorithm: string | undefined;
+    digestAlgorithm: string | undefined;
+    formatterAlgorithm: string | undefined;
+    keyAlgorithm: string | undefined;
+    createDeformatter(key: AsymmetricAlgorithm | undefined): AsymmetricSignatureDeformatter | undefined;
+    createDigest(): HashAlgorithm | undefined;
+    createFormatter(key: AsymmetricAlgorithm | undefined): AsymmetricSignatureFormatter | undefined;
 }
 
 
 export const SignatureDescription: {
     new(): SignatureDescription;
-    new(el: SecurityElement): SignatureDescription;
+    new(el: SecurityElement | undefined): SignatureDescription;
 };
 
 
@@ -4132,18 +4132,18 @@ export interface SlhDsa$instance {
     exportSubjectPublicKeyInfo(): byte[];
     exportSubjectPublicKeyInfoPem(): string;
     signData(data: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    signData(data: byte[], context?: byte[]): byte[];
+    signData(data: byte[], context?: byte[] | undefined): byte[];
     signPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): void;
-    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[]): byte[];
+    signPreHash(hash: byte[], hashAlgorithmOid: string, context?: byte[] | undefined): byte[];
     tryExportEncryptedPkcs8PrivateKey(password: ReadOnlySpan_1<System_Internal.Char>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportEncryptedPkcs8PrivateKey(passwordBytes: ReadOnlySpan_1<System_Internal.Byte>, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportEncryptedPkcs8PrivateKey(password: string, pbeParameters: PbeParameters, destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportPkcs8PrivateKey(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     tryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
     verifyData(data: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    verifyData(data: byte[], signature: byte[], context?: byte[]): boolean;
+    verifyData(data: byte[], signature: byte[], context?: byte[] | undefined): boolean;
     verifyPreHash(hash: ReadOnlySpan_1<System_Internal.Byte>, signature: ReadOnlySpan_1<System_Internal.Byte>, hashAlgorithmOid: string, context?: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[]): boolean;
+    verifyPreHash(hash: byte[], signature: byte[], hashAlgorithmOid: string, context?: byte[] | undefined): boolean;
 }
 
 
@@ -4298,9 +4298,9 @@ export interface SymmetricAlgorithm$instance {
     padding: PaddingMode;
     clear(): void;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     decryptCbc(ciphertext: byte[], iv: byte[], paddingMode?: PaddingMode): byte[];
     decryptCbc(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, paddingMode?: PaddingMode): byte[];
     decryptCbc(ciphertext: ReadOnlySpan_1<System_Internal.Byte>, iv: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Byte>, paddingMode?: PaddingMode): int;
@@ -4338,7 +4338,7 @@ export interface SymmetricAlgorithm$instance {
 
 export const SymmetricAlgorithm: {
     create(): SymmetricAlgorithm;
-    create(algName: string): SymmetricAlgorithm;
+    create(algName: string): SymmetricAlgorithm | undefined;
 };
 
 
@@ -4395,9 +4395,9 @@ export type TripleDES = TripleDES$instance & __TripleDES$views;
 
 
 export interface TripleDESCng$instance extends TripleDES$instance {
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createDecryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
@@ -4431,9 +4431,9 @@ export interface TripleDESCryptoServiceProvider$instance extends TripleDES$insta
     mode: CipherMode;
     padding: PaddingMode;
     createDecryptor(): ICryptoTransform;
-    createDecryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createDecryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     createEncryptor(): ICryptoTransform;
-    createEncryptor(rgbKey: byte[], rgbIV: byte[]): ICryptoTransform;
+    createEncryptor(rgbKey: byte[], rgbIV: byte[] | undefined): ICryptoTransform;
     dispose(): void;
     generateIV(): void;
     generateKey(): void;
@@ -4502,11 +4502,11 @@ export abstract class ECCurve_NamedCurves$instance {
 export type ECCurve_NamedCurves = ECCurve_NamedCurves$instance;
 
 export abstract class HKDF$instance {
-    static deriveKey(hashAlgorithmName: HashAlgorithmName, ikm: byte[], outputLength: int, salt?: byte[], info?: byte[]): byte[];
+    static deriveKey(hashAlgorithmName: HashAlgorithmName, ikm: byte[], outputLength: int, salt?: byte[] | undefined, info?: byte[] | undefined): byte[];
     static deriveKey(hashAlgorithmName: HashAlgorithmName, ikm: ReadOnlySpan_1<System_Internal.Byte>, output: Span_1<System_Internal.Byte>, salt: ReadOnlySpan_1<System_Internal.Byte>, info: ReadOnlySpan_1<System_Internal.Byte>): void;
-    static expand(hashAlgorithmName: HashAlgorithmName, prk: byte[], outputLength: int, info?: byte[]): byte[];
+    static expand(hashAlgorithmName: HashAlgorithmName, prk: byte[], outputLength: int, info?: byte[] | undefined): byte[];
     static expand(hashAlgorithmName: HashAlgorithmName, prk: ReadOnlySpan_1<System_Internal.Byte>, output: Span_1<System_Internal.Byte>, info: ReadOnlySpan_1<System_Internal.Byte>): void;
-    static extract(hashAlgorithmName: HashAlgorithmName, ikm: byte[], salt?: byte[]): byte[];
+    static extract(hashAlgorithmName: HashAlgorithmName, ikm: byte[], salt?: byte[] | undefined): byte[];
     static extract(hashAlgorithmName: HashAlgorithmName, ikm: ReadOnlySpan_1<System_Internal.Byte>, salt: ReadOnlySpan_1<System_Internal.Byte>, prk: Span_1<System_Internal.Byte>): int;
 }
 

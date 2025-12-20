@@ -24062,7 +24062,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.MidpointRounding):TSelf",
           "clrName": "Round",
-          "tsEmitName": "round$view3",
+          "tsEmitName": "round$view2",
           "normalizedSignature": "Round|(TSelf,System.MidpointRounding):TSelf|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -24509,6 +24509,23 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
+          "clrName": "Round",
+          "tsEmitName": "round$view",
+          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2,
+          "sourceInterface": "System.Numerics.IRootFunctions\u00601",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Ceiling(TSelf):TSelf",
           "clrName": "Ceiling",
           "tsEmitName": "ceiling$view",
@@ -24523,23 +24540,6 @@
           "arity": 0,
           "parameterCount": 1,
           "sourceInterface": "System.Numerics.INumberBase\u00601",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
-          "clrName": "Round",
-          "tsEmitName": "round$view2",
-          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
-          "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "arity": 0,
-          "parameterCount": 2,
-          "sourceInterface": "System.Numerics.IFloatingPoint\u00601",
           "isExtensionMethod": false
         },
         {
@@ -28727,7 +28727,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.MidpointRounding):TSelf",
           "clrName": "Round",
-          "tsEmitName": "round$view3",
+          "tsEmitName": "round$view2",
           "normalizedSignature": "Round|(TSelf,System.MidpointRounding):TSelf|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -29140,6 +29140,23 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
+          "clrName": "Round",
+          "tsEmitName": "round$view",
+          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2,
+          "sourceInterface": "System.Numerics.IRootFunctions\u00601",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Ceiling(TSelf):TSelf",
           "clrName": "Ceiling",
           "tsEmitName": "ceiling$view",
@@ -29154,23 +29171,6 @@
           "arity": 0,
           "parameterCount": 1,
           "sourceInterface": "System.Numerics.INumberBase\u00601",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
-          "clrName": "Round",
-          "tsEmitName": "round$view2",
-          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
-          "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "arity": 0,
-          "parameterCount": 2,
-          "sourceInterface": "System.Numerics.IFloatingPoint\u00601",
           "isExtensionMethod": false
         },
         {
@@ -31663,6 +31663,23 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IBinaryNumber\u00601::Log2(TSelf):TSelf",
+          "clrName": "Log2",
+          "tsEmitName": "log2$view",
+          "normalizedSignature": "Log2|(TSelf):TSelf|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1,
+          "sourceInterface": "System.Numerics.INumberBase\u00601",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IComparable::CompareTo(System.Object):System.Int32",
           "clrName": "CompareTo",
           "tsEmitName": "compareTo$view",
@@ -31717,23 +31734,6 @@
           "arity": 0,
           "parameterCount": 2,
           "sourceInterface": "System.IFormattable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IBinaryNumber\u00601::Log2(TSelf):TSelf",
-          "clrName": "Log2",
-          "tsEmitName": "log2$view",
-          "normalizedSignature": "Log2|(TSelf):TSelf|static=false",
-          "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "arity": 0,
-          "parameterCount": 1,
-          "sourceInterface": "System.Numerics.INumberBase\u00601",
           "isExtensionMethod": false
         },
         {
@@ -47501,7 +47501,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.MidpointRounding):TSelf",
           "clrName": "Round",
-          "tsEmitName": "round$view3",
+          "tsEmitName": "round$view2",
           "normalizedSignature": "Round|(TSelf,System.MidpointRounding):TSelf|static=false",
           "provenance": "ExplicitView",
           "emitScope": "ViewOnly",
@@ -47948,6 +47948,23 @@
           "isExtensionMethod": false
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
+          "clrName": "Round",
+          "tsEmitName": "round$view",
+          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 2,
+          "sourceInterface": "System.Numerics.IRootFunctions\u00601",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Ceiling(TSelf):TSelf",
           "clrName": "Ceiling",
           "tsEmitName": "ceiling$view",
@@ -47962,23 +47979,6 @@
           "arity": 0,
           "parameterCount": 1,
           "sourceInterface": "System.Numerics.INumberBase\u00601",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IFloatingPoint\u00601::Round(TSelf,System.Int32):TSelf",
-          "clrName": "Round",
-          "tsEmitName": "round$view2",
-          "normalizedSignature": "Round|(TSelf,System.Int32):TSelf|static=false",
-          "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "arity": 0,
-          "parameterCount": 2,
-          "sourceInterface": "System.Numerics.IFloatingPoint\u00601",
           "isExtensionMethod": false
         },
         {
@@ -53698,6 +53698,23 @@
           ]
         },
         {
+          "stableId": "System.Private.CoreLib:System.Numerics.IBinaryNumber\u00601::Log2(TSelf):TSelf",
+          "clrName": "Log2",
+          "tsEmitName": "log2$view",
+          "normalizedSignature": "Log2|(TSelf):TSelf|static=false",
+          "provenance": "ExplicitView",
+          "emitScope": "ViewOnly",
+          "isStatic": false,
+          "isAbstract": false,
+          "isVirtual": true,
+          "isOverride": false,
+          "isSealed": false,
+          "arity": 0,
+          "parameterCount": 1,
+          "sourceInterface": "System.Numerics.INumberBase\u00601",
+          "isExtensionMethod": false
+        },
+        {
           "stableId": "System.Private.CoreLib:System.IComparable::CompareTo(System.Object):System.Int32",
           "clrName": "CompareTo",
           "tsEmitName": "compareTo$view",
@@ -53752,23 +53769,6 @@
           "arity": 0,
           "parameterCount": 2,
           "sourceInterface": "System.IFormattable",
-          "isExtensionMethod": false
-        },
-        {
-          "stableId": "System.Private.CoreLib:System.Numerics.IBinaryNumber\u00601::Log2(TSelf):TSelf",
-          "clrName": "Log2",
-          "tsEmitName": "log2$view",
-          "normalizedSignature": "Log2|(TSelf):TSelf|static=false",
-          "provenance": "ExplicitView",
-          "emitScope": "ViewOnly",
-          "isStatic": false,
-          "isAbstract": false,
-          "isVirtual": true,
-          "isOverride": false,
-          "isSealed": false,
-          "arity": 0,
-          "parameterCount": 1,
-          "sourceInterface": "System.Numerics.INumberBase\u00601",
           "isExtensionMethod": false
         },
         {

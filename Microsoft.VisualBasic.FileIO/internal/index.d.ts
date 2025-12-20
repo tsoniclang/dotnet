@@ -121,7 +121,7 @@ export type FileSystem = FileSystem$instance;
 export interface MalformedLineException$instance extends Exception {
     lineNumber: long;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 

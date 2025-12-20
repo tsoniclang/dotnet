@@ -533,6 +533,7 @@ export type ICustomAttributeTypeProvider_1<TType> = ICustomAttributeTypeProvider
 
 export interface ISignatureTypeProvider_2$instance<TType, TGenericContext> extends ISimpleTypeProvider_1<TType>, IConstructedTypeProvider_1<TType>, ISZArrayTypeProvider_1<TType> {
     getArrayType(elementType: TType, shape: ArrayShape): TType;
+    getByReferenceType(elementType: TType): TType;
     getFunctionPointerType(signature: MethodSignature_1<TType>): TType;
     getGenericInstantiation(genericType: TType, typeArguments: ImmutableArray_1<TType>): TType;
     getGenericMethodParameter(genericContext: TGenericContext, index: int): TType;
@@ -542,7 +543,6 @@ export interface ISignatureTypeProvider_2$instance<TType, TGenericContext> exten
     getTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
     getTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
     getTypeFromSpecification(reader: MetadataReader, genericContext: TGenericContext, handle: TypeSpecificationHandle, rawTypeKind: byte): TType;
-    getByReferenceType(elementType: TType): TType;
     getSZArrayType(elementType: TType): TType;
 }
 
@@ -1111,7 +1111,7 @@ export interface CustomAttributeNamedArgument_1$instance<TType> {
 
 
 export const CustomAttributeNamedArgument_1: {
-    new<TType>(name: string, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown): CustomAttributeNamedArgument_1<TType>;
+    new<TType>(name: string | undefined, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown | undefined): CustomAttributeNamedArgument_1<TType>;
 };
 
 
@@ -1124,7 +1124,7 @@ export interface CustomAttributeTypedArgument_1$instance<TType> {
 
 
 export const CustomAttributeTypedArgument_1: {
-    new<TType>(type_: TType, value: unknown): CustomAttributeTypedArgument_1<TType>;
+    new<TType>(type_: TType, value: unknown | undefined): CustomAttributeTypedArgument_1<TType>;
 };
 
 
@@ -3250,7 +3250,7 @@ export interface SignatureHeader$instance {
     equals(obj: unknown): boolean;
     equals(other: SignatureHeader): boolean;
     getHashCode(): int;
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -3590,7 +3590,7 @@ export interface AssemblyNameInfo$instance {
 export const AssemblyNameInfo: {
     new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>): AssemblyNameInfo;
     parse(assemblyName: ReadOnlySpan_1<System_Internal.Char>): AssemblyNameInfo;
-    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo): boolean;
+    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo | undefined): boolean;
 };
 
 
@@ -3698,14 +3698,14 @@ export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
 export interface ImageFormatLimitationException$instance extends Exception {
-    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
 }
 
 
 export const ImageFormatLimitationException: {
     new(): ImageFormatLimitationException;
-    new(message: string): ImageFormatLimitationException;
-    new(message: string, innerException: Exception): ImageFormatLimitationException;
+    new(message: string | undefined): ImageFormatLimitationException;
+    new(message: string | undefined, innerException: Exception | undefined): ImageFormatLimitationException;
 };
 
 
@@ -3721,7 +3721,7 @@ export interface MetadataReader$instance {
     readonly assemblyReferences: AssemblyReferenceHandleCollection;
     readonly customAttributes: CustomAttributeHandleCollection;
     readonly customDebugInformation: CustomDebugInformationHandleCollection;
-    readonly debugMetadataHeader: DebugMetadataHeader;
+    readonly debugMetadataHeader: DebugMetadataHeader | undefined;
     readonly declarativeSecurityAttributes: DeclarativeSecurityAttributeHandleCollection;
     readonly documents: DocumentHandleCollection;
     readonly eventDefinitions: EventDefinitionHandleCollection;
@@ -3800,7 +3800,7 @@ export interface MetadataReader$instance {
 export const MetadataReader: {
     new(metadata: ptr<byte>, length: int): MetadataReader;
     new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions): MetadataReader;
-    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
+    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder | undefined): MetadataReader;
     getAssemblyName(assemblyFile: string): AssemblyName;
 };
 
@@ -3809,7 +3809,7 @@ export type MetadataReader = MetadataReader$instance;
 
 export interface MetadataReaderProvider$instance {
     dispose(): void;
-    getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder): MetadataReader;
+    getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder | undefined): MetadataReader;
 }
 
 
@@ -3904,13 +3904,13 @@ export interface TypeName$instance {
     makeGenericTypeName(typeArguments: ImmutableArray_1<TypeName>): TypeName;
     makePointerTypeName(): TypeName;
     makeSZArrayTypeName(): TypeName;
-    withAssemblyName(assemblyName: AssemblyNameInfo): TypeName;
+    withAssemblyName(assemblyName: AssemblyNameInfo | undefined): TypeName;
 }
 
 
 export const TypeName: {
     new(): TypeName;
-    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
+    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions | undefined): TypeName;
     tryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
     unescape(name: string): string;
 };
@@ -3956,7 +3956,7 @@ export abstract class MetadataUpdater$instance {
 export type MetadataUpdater = MetadataUpdater$instance;
 
 export abstract class PEReaderExtensions$instance {
-    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
+    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder | undefined): MetadataReader;
     static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
     static getMetadataReader(peReader: PEReader): MetadataReader;
     static getMethodBody(peReader: PEReader, relativeVirtualAddress: int): MethodBodyBlock;
