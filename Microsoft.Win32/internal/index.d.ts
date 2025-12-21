@@ -84,10 +84,10 @@ export interface RegistryKey$instance extends MarshalByRefObject {
     getAccessControl(): RegistrySecurity;
     getAccessControl(includeSections: AccessControlSections): RegistrySecurity;
     getSubKeyNames(): string[];
-    getValue(name: string): unknown;
-    getValue(name: string, defaultValue: unknown): unknown;
-    getValue(name: string, defaultValue: unknown, options: RegistryValueOptions): unknown;
-    getValueKind(name: string): RegistryValueKind;
+    getValue(name: string | undefined): unknown | undefined;
+    getValue(name: string | undefined, defaultValue: unknown | undefined): unknown | undefined;
+    getValue(name: string | undefined, defaultValue: unknown | undefined, options: RegistryValueOptions): unknown | undefined;
+    getValueKind(name: string | undefined): RegistryValueKind;
     getValueNames(): string[];
     openSubKey(name: string): RegistryKey | undefined;
     openSubKey(name: string, permissionCheck: RegistryKeyPermissionCheck): RegistryKey | undefined;
@@ -127,7 +127,7 @@ export abstract class Registry$instance {
     static readonly localMachine: RegistryKey;
     static readonly performanceData: RegistryKey;
     static readonly users: RegistryKey;
-    static getValue(keyName: string, valueName: string, defaultValue: unknown): unknown;
+    static getValue(keyName: string, valueName: string | undefined, defaultValue: unknown | undefined): unknown | undefined;
     static setValue(keyName: string, valueName: string | undefined, value: unknown, valueKind: RegistryValueKind): void;
     static setValue(keyName: string, valueName: string | undefined, value: unknown): void;
 }

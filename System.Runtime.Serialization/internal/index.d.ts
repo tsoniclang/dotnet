@@ -64,8 +64,8 @@ export interface IFormatter$instance {
     surrogateSelector: ISurrogateSelector | undefined;
     binder: SerializationBinder;
     context: StreamingContext;
-    deserialize(serializationStream: Stream | undefined): unknown;
-    serialize(serializationStream: Stream | undefined, graph: unknown | undefined): void;
+    deserialize(serializationStream: Stream): unknown;
+    serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 
@@ -147,7 +147,7 @@ export type ISerializationSurrogateProvider2 = ISerializationSurrogateProvider2$
 
 export interface ISurrogateSelector$instance {
     chainSelector(selector: ISurrogateSelector): void;
-    getNextSelector(): ISurrogateSelector;
+    getNextSelector(): ISurrogateSelector | undefined;
     getSurrogate(type_: Type, context: StreamingContext, selector: ISurrogateSelector): ISerializationSurrogate | undefined;
 }
 
@@ -280,13 +280,13 @@ export interface DataContractSerializer$instance extends XmlObjectSerializer {
     readObject(reader: XmlReader): unknown | undefined;
     readObject(reader: XmlReader, verifyObjectName: boolean): unknown | undefined;
     readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | undefined;
-    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver): unknown;
+    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | undefined): unknown | undefined;
     readObject(stream: Stream): unknown | undefined;
     readObject(reader: XmlDictionaryReader): unknown | undefined;
     writeEndObject(writer: XmlWriter): void;
     writeEndObject(writer: XmlDictionaryWriter): void;
     writeObject(writer: XmlWriter, graph: unknown | undefined): void;
-    writeObject(writer: XmlDictionaryWriter, graph: unknown, dataContractResolver: DataContractResolver): void;
+    writeObject(writer: XmlDictionaryWriter, graph: unknown | undefined, dataContractResolver: DataContractResolver | undefined): void;
     writeObject(stream: Stream, graph: unknown | undefined): void;
     writeObject(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
     writeObjectContent(writer: XmlWriter, graph: unknown | undefined): void;
@@ -413,6 +413,8 @@ export interface __Formatter$views {
     As_IFormatter(): IFormatter$instance;
 }
 
+export interface Formatter$instance extends IFormatter$instance {}
+
 export type Formatter = Formatter$instance & __Formatter$views;
 
 
@@ -461,7 +463,7 @@ export const IgnoreDataMemberAttribute: {
 export type IgnoreDataMemberAttribute = IgnoreDataMemberAttribute$instance;
 
 export interface InvalidDataContractException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -486,8 +488,8 @@ export interface KnownTypeAttribute$instance extends Attribute {
 
 
 export const KnownTypeAttribute: {
-    new(type_: Type | undefined): KnownTypeAttribute;
-    new(methodName: string | undefined): KnownTypeAttribute;
+    new(type_: Type): KnownTypeAttribute;
+    new(methodName: string): KnownTypeAttribute;
 };
 
 
@@ -508,7 +510,7 @@ export type ObjectIDGenerator = ObjectIDGenerator$instance;
 
 export interface ObjectManager$instance {
     doFixups(): void;
-    getObject(objectID: long): unknown;
+    getObject(objectID: long): unknown | undefined;
     raiseDeserializationEvent(): void;
     raiseOnDeserializingEvent(obj: unknown): void;
     recordArrayElementFixup(arrayToBeFixed: long, index: int, objectRequired: long): void;
@@ -517,13 +519,13 @@ export interface ObjectManager$instance {
     recordFixup(objectToBeFixed: long, member: MemberInfo, objectRequired: long): void;
     registerObject(obj: unknown, objectID: long): void;
     registerObject(obj: unknown, objectID: long, info: SerializationInfo): void;
-    registerObject(obj: unknown, objectID: long, info: SerializationInfo, idOfContainingObj: long, member: MemberInfo): void;
-    registerObject(obj: unknown, objectID: long, info: SerializationInfo, idOfContainingObj: long, member: MemberInfo, arrayIndex: int[]): void;
+    registerObject(obj: unknown, objectID: long, info: SerializationInfo | undefined, idOfContainingObj: long, member: MemberInfo | undefined): void;
+    registerObject(obj: unknown, objectID: long, info: SerializationInfo | undefined, idOfContainingObj: long, member: MemberInfo | undefined, arrayIndex: int[] | undefined): void;
 }
 
 
 export const ObjectManager: {
-    new(selector: ISurrogateSelector, context: StreamingContext): ObjectManager;
+    new(selector: ISurrogateSelector | undefined, context: StreamingContext): ObjectManager;
 };
 
 
@@ -599,7 +601,7 @@ export const SafeSerializationEventArgs: {
 export type SafeSerializationEventArgs = SafeSerializationEventArgs$instance;
 
 export interface SerializationBinder$instance {
-    bindToName(serializedType: Type, assemblyName: string, typeName: string): void;
+    bindToName(serializedType: Type, assemblyName: string | undefined, typeName: string | undefined): void;
     bindToType(assemblyName: string, typeName: string): Type | undefined;
 }
 
@@ -720,7 +722,7 @@ export type SerializationObjectManager = SerializationObjectManager$instance;
 export interface SurrogateSelector$instance {
     addSurrogate(type_: Type, context: StreamingContext, surrogate: ISerializationSurrogate): void;
     chainSelector(selector: ISurrogateSelector): void;
-    getNextSelector(): ISurrogateSelector;
+    getNextSelector(): ISurrogateSelector | undefined;
     getSurrogate(type_: Type, context: StreamingContext, selector: ISurrogateSelector): ISerializationSurrogate | undefined;
     removeSurrogate(type_: Type, context: StreamingContext): void;
 }
@@ -794,7 +796,7 @@ export interface XsdDataContractExporter$instance {
 
 export const XsdDataContractExporter: {
     new(): XsdDataContractExporter;
-    new(schemas: XmlSchemaSet): XsdDataContractExporter;
+    new(schemas: XmlSchemaSet | undefined): XsdDataContractExporter;
 };
 
 

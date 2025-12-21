@@ -172,18 +172,18 @@ export interface HttpClient$instance extends HttpMessageInvoker$instance {
     getStringAsync(requestUri: Uri | undefined): Task_1<System_Internal.String>;
     getStringAsync(requestUri: string | undefined, cancellationToken: CancellationToken): Task_1<System_Internal.String>;
     getStringAsync(requestUri: Uri | undefined, cancellationToken: CancellationToken): Task_1<System_Internal.String>;
-    patchAsync(requestUri: string, content: HttpContent): Task_1<HttpResponseMessage>;
-    patchAsync(requestUri: Uri, content: HttpContent): Task_1<HttpResponseMessage>;
-    patchAsync(requestUri: string, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    patchAsync(requestUri: Uri, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    postAsync(requestUri: string, content: HttpContent): Task_1<HttpResponseMessage>;
-    postAsync(requestUri: Uri, content: HttpContent): Task_1<HttpResponseMessage>;
-    postAsync(requestUri: string, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    postAsync(requestUri: Uri, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    putAsync(requestUri: string, content: HttpContent): Task_1<HttpResponseMessage>;
-    putAsync(requestUri: Uri, content: HttpContent): Task_1<HttpResponseMessage>;
-    putAsync(requestUri: string, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    putAsync(requestUri: Uri, content: HttpContent, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    patchAsync(requestUri: string | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    patchAsync(requestUri: Uri | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    patchAsync(requestUri: string | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    patchAsync(requestUri: Uri | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    postAsync(requestUri: string | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    postAsync(requestUri: Uri | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    postAsync(requestUri: string | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    postAsync(requestUri: Uri | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    putAsync(requestUri: string | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    putAsync(requestUri: Uri | undefined, content: HttpContent | undefined): Task_1<HttpResponseMessage>;
+    putAsync(requestUri: string | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    putAsync(requestUri: Uri | undefined, content: HttpContent | undefined, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     send(request: HttpRequestMessage, cancellationToken: CancellationToken): HttpResponseMessage;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
     sendAsync(request: HttpRequestMessage, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
@@ -291,7 +291,7 @@ export interface HttpIOException$instance extends IOException {
 
 
 export const HttpIOException: {
-    new(httpRequestError: HttpRequestError, message: string, innerException: Exception): HttpIOException;
+    new(httpRequestError: HttpRequestError, message: string | undefined, innerException: Exception | undefined): HttpIOException;
 };
 
 
@@ -344,8 +344,8 @@ export type HttpMessageInvoker = HttpMessageInvoker$instance & __HttpMessageInvo
 
 export interface HttpMethod$instance {
     readonly method: string;
-    equals(other: HttpMethod): boolean;
-    equals(obj: unknown): boolean;
+    equals(other: HttpMethod | undefined): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -398,7 +398,7 @@ export type HttpProtocolException = HttpProtocolException$instance & __HttpProto
 export interface HttpRequestException$instance extends Exception {
     readonly httpRequestError: HttpRequestError;
     readonly statusCode: Nullable_1<HttpStatusCode>;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -685,8 +685,8 @@ export const StringContent: {
     new(content: string): StringContent;
     new(content: string, mediaType: MediaTypeHeaderValue | undefined): StringContent;
     new(content: string, encoding: Encoding | undefined): StringContent;
-    new(content: string, encoding: Encoding, mediaType: string): StringContent;
-    new(content: string, encoding: Encoding, mediaType: MediaTypeHeaderValue): StringContent;
+    new(content: string, encoding: Encoding | undefined, mediaType: string | undefined): StringContent;
+    new(content: string, encoding: Encoding | undefined, mediaType: MediaTypeHeaderValue | undefined): StringContent;
 };
 
 

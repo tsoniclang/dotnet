@@ -117,9 +117,9 @@ export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 export interface ChannelWriter_1$instance<T> {
     complete(error?: Exception | undefined): void;
     tryComplete(error?: Exception | undefined): boolean;
-    tryWrite(item: T | undefined): boolean;
+    tryWrite(item: T): boolean;
     waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    writeAsync(item: T | undefined, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
 }
 
 

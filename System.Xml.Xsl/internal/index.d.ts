@@ -46,11 +46,11 @@ export type IXsltContextVariable = IXsltContextVariable$instance;
 export interface XslCompiledTransform$instance {
     readonly outputSettings: XmlWriterSettings | undefined;
     load(stylesheet: XmlReader): void;
-    load(stylesheet: XmlReader, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    load(stylesheet: XmlReader, settings: XsltSettings | undefined, stylesheetResolver: XmlResolver | undefined): void;
     load(stylesheet: IXPathNavigable): void;
-    load(stylesheet: IXPathNavigable, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    load(stylesheet: IXPathNavigable, settings: XsltSettings | undefined, stylesheetResolver: XmlResolver | undefined): void;
     load(stylesheetUri: string): void;
-    load(stylesheetUri: string, settings: XsltSettings, stylesheetResolver: XmlResolver): void;
+    load(stylesheetUri: string, settings: XsltSettings | undefined, stylesheetResolver: XmlResolver | undefined): void;
     load(compiledStylesheet: Type): void;
     load(executeMethod: MethodInfo, queryData: byte[], earlyBoundTypes: Type[] | undefined): void;
     transform(input: IXPathNavigable, results: XmlWriter): void;

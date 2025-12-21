@@ -109,12 +109,12 @@ export interface ResourceManager$instance {
     ignoreCase: boolean;
     readonly resourceSetType: Type;
     getObject(name: string): unknown | undefined;
-    getObject(name: string, culture: CultureInfo): unknown;
+    getObject(name: string, culture: CultureInfo | undefined): unknown | undefined;
     getResourceSet(culture: CultureInfo, createIfNotExists: boolean, tryParents: boolean): ResourceSet | undefined;
     getStream(name: string): UnmanagedMemoryStream | undefined;
-    getStream(name: string, culture: CultureInfo): UnmanagedMemoryStream;
+    getStream(name: string, culture: CultureInfo | undefined): UnmanagedMemoryStream | undefined;
     getString(name: string): string | undefined;
-    getString(name: string, culture: CultureInfo): string;
+    getString(name: string, culture: CultureInfo | undefined): string | undefined;
     releaseAllResources(): void;
 }
 

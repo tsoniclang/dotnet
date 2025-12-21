@@ -110,13 +110,13 @@ export interface JsonElement$instance {
     getRawText(): string;
     getSByte(): sbyte;
     getSingle(): float;
-    getString(): string;
+    getString(): string | undefined;
     getUInt16(): ushort;
     getUInt32(): uint;
     getUInt64(): ulong;
-    toString(): string | undefined;
+    toString(): string;
     tryGetByte(value: byte): boolean;
-    tryGetBytesFromBase64(value: byte[]): boolean;
+    tryGetBytesFromBase64(value: byte[] | undefined): boolean;
     tryGetDateTime(value: DateTime): boolean;
     tryGetDateTimeOffset(value: DateTimeOffset): boolean;
     tryGetDecimal(value: decimal): boolean;
@@ -133,7 +133,7 @@ export interface JsonElement$instance {
     tryGetUInt16(value: ushort): boolean;
     tryGetUInt32(value: uint): boolean;
     tryGetUInt64(value: ulong): boolean;
-    valueEquals(text: string): boolean;
+    valueEquals(text: string | undefined): boolean;
     valueEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     valueEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     writeTo(writer: Utf8JsonWriter): void;
@@ -205,9 +205,9 @@ export interface JsonEncodedText$instance {
     readonly encodedUtf8Bytes: ReadOnlySpan_1<System_Internal.Byte>;
     readonly value: string;
     equals(other: JsonEncodedText): boolean;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -232,7 +232,7 @@ export type JsonEncodedText = JsonEncodedText$instance & __JsonEncodedText$views
 export interface JsonProperty$instance {
     readonly name: string;
     readonly value: JsonElement;
-    nameEquals(text: string): boolean;
+    nameEquals(text: string | undefined): boolean;
     nameEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     nameEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
     toString(): string;
@@ -320,14 +320,14 @@ export interface Utf8JsonReader$instance {
     getInt64(): long;
     getSByte(): sbyte;
     getSingle(): float;
-    getString(): string;
+    getString(): string | undefined;
     getUInt16(): ushort;
     getUInt32(): uint;
     getUInt64(): ulong;
     read(): boolean;
     skip(): void;
     tryGetByte(value: byte): boolean;
-    tryGetBytesFromBase64(value: byte[]): boolean;
+    tryGetBytesFromBase64(value: byte[] | undefined): boolean;
     tryGetDateTime(value: DateTime): boolean;
     tryGetDateTimeOffset(value: DateTimeOffset): boolean;
     tryGetDecimal(value: decimal): boolean;
@@ -343,7 +343,7 @@ export interface Utf8JsonReader$instance {
     tryGetUInt64(value: ulong): boolean;
     trySkip(): boolean;
     valueTextEquals(utf8Text: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    valueTextEquals(text: string): boolean;
+    valueTextEquals(text: string | undefined): boolean;
     valueTextEquals(text: ReadOnlySpan_1<System_Internal.Char>): boolean;
 }
 
@@ -374,7 +374,7 @@ export const JsonDocument: {
     parse(json: string, options?: JsonDocumentOptions): JsonDocument;
     parseAsync(utf8Json: Stream, options?: JsonDocumentOptions, cancellationToken?: CancellationToken): Task_1<JsonDocument>;
     parseValue(reader: Utf8JsonReader): JsonDocument;
-    tryParseValue(reader: Utf8JsonReader, document: JsonDocument): boolean;
+    tryParseValue(reader: Utf8JsonReader, document: JsonDocument | undefined): boolean;
 };
 
 
@@ -392,7 +392,7 @@ export interface JsonException$instance extends Exception {
     readonly lineNumber: Nullable_1<System_Internal.Int64>;
     readonly message: string;
     readonly path: string;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -583,7 +583,7 @@ export interface Utf8JsonWriter$instance {
     writeString(propertyName: string, value: string | undefined): void;
     writeString(propertyName: ReadOnlySpan_1<System_Internal.Char>, value: ReadOnlySpan_1<System_Internal.Char>): void;
     writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
-    writeString(propertyName: JsonEncodedText, value: string): void;
+    writeString(propertyName: JsonEncodedText, value: string | undefined): void;
     writeString(propertyName: JsonEncodedText, value: ReadOnlySpan_1<System_Internal.Char>): void;
     writeString(propertyName: string, value: ReadOnlySpan_1<System_Internal.Char>): void;
     writeString(utf8PropertyName: ReadOnlySpan_1<System_Internal.Byte>, value: ReadOnlySpan_1<System_Internal.Char>): void;
@@ -598,7 +598,7 @@ export interface Utf8JsonWriter$instance {
     writeStringValue(value: DateTimeOffset): void;
     writeStringValue(value: Guid): void;
     writeStringValue(value: JsonEncodedText): void;
-    writeStringValue(value: string): void;
+    writeStringValue(value: string | undefined): void;
     writeStringValue(value: ReadOnlySpan_1<System_Internal.Char>): void;
     writeStringValue(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): void;
     writeStringValueSegment(value: ReadOnlySpan_1<System_Internal.Char>, isFinalSegment: boolean): void;
@@ -625,63 +625,63 @@ export type Utf8JsonWriter = Utf8JsonWriter$instance & __Utf8JsonWriter$views;
 export abstract class JsonSerializer$instance {
     static readonly isReflectionEnabledByDefault: boolean;
     static deserialize<TValue>(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
-    static deserialize<TValue>(utf8Json: Stream, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(utf8Json: Stream, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
     static deserialize(utf8Json: Stream, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(utf8Json: Stream, returnType: Type, context: JsonSerializerContext): unknown | undefined;
-    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
+    static deserialize<TValue>(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
-    static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(utf8Json: ReadOnlySpan_1<System_Internal.Byte>, returnType: Type, context: JsonSerializerContext): unknown | undefined;
-    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
+    static deserialize<TValue>(json: ReadOnlySpan_1<System_Internal.Char>, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
-    static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(json: ReadOnlySpan_1<System_Internal.Char>, returnType: Type, context: JsonSerializerContext): unknown | undefined;
     static deserialize<TValue>(json: string, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
-    static deserialize<TValue>(json: string, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(json: string, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(json: string, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
     static deserialize(json: string, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(json: string, returnType: Type, context: JsonSerializerContext): unknown | undefined;
     static deserialize<TValue>(document: JsonDocument, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
-    static deserialize<TValue>(document: JsonDocument, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(document: JsonDocument, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(document: JsonDocument, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
     static deserialize(document: JsonDocument, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(document: JsonDocument, returnType: Type, context: JsonSerializerContext): unknown | undefined;
-    static deserialize<TValue>(element: JsonElement, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(element: JsonElement, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(element: JsonElement, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
+    static deserialize<TValue>(element: JsonElement, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(element: JsonElement, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
-    static deserialize(element: JsonElement, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(element: JsonElement, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(element: JsonElement, returnType: Type, context: JsonSerializerContext): unknown | undefined;
-    static deserialize<TValue>(node: JsonNode, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(node: JsonNode, options?: JsonSerializerOptions): TValue;
-    static deserialize(node: JsonNode, jsonTypeInfo: JsonTypeInfo): unknown;
-    static deserialize(node: JsonNode, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize<TValue>(node: JsonNode | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
+    static deserialize<TValue>(node: JsonNode | undefined, options?: JsonSerializerOptions | undefined): TValue | undefined;
+    static deserialize(node: JsonNode | undefined, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
+    static deserialize(node: JsonNode | undefined, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(node: JsonNode | undefined, returnType: Type, context: JsonSerializerContext): unknown | undefined;
-    static deserialize<TValue>(reader: Utf8JsonReader, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue;
-    static deserialize<TValue>(reader: Utf8JsonReader, options?: JsonSerializerOptions): TValue;
+    static deserialize<TValue>(reader: Utf8JsonReader, jsonTypeInfo: JsonTypeInfo_1<TValue>): TValue | undefined;
+    static deserialize<TValue>(reader: Utf8JsonReader, options?: JsonSerializerOptions | undefined): TValue | undefined;
     static deserialize(reader: Utf8JsonReader, jsonTypeInfo: JsonTypeInfo): unknown | undefined;
-    static deserialize(reader: Utf8JsonReader, returnType: Type, options?: JsonSerializerOptions): unknown;
+    static deserialize(reader: Utf8JsonReader, returnType: Type, options?: JsonSerializerOptions | undefined): unknown | undefined;
     static deserialize(reader: Utf8JsonReader, returnType: Type, context: JsonSerializerContext): unknown | undefined;
     static deserializeAsync<TValue>(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
-    static deserializeAsync<TValue>(utf8Json: PipeReader, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
+    static deserializeAsync<TValue>(utf8Json: PipeReader, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
     static deserializeAsync(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsync(utf8Json: PipeReader, returnType: Type, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsync(utf8Json: PipeReader, returnType: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsync<TValue>(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
-    static deserializeAsync<TValue>(utf8Json: Stream, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
+    static deserializeAsync<TValue>(utf8Json: Stream, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): ValueTask_1<TValue>;
     static deserializeAsync(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsync(utf8Json: Stream, returnType: Type, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsync(utf8Json: Stream, returnType: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): ValueTask_1<unknown>;
     static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo_1<TValue>, topLevelValues: boolean, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, topLevelValues: boolean, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, topLevelValues: boolean, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static deserializeAsyncEnumerable<TValue>(utf8Json: PipeReader, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo_1<TValue>, topLevelValues: boolean, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, topLevelValues: boolean, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, topLevelValues: boolean, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static deserializeAsyncEnumerable<TValue>(utf8Json: Stream, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static serialize(utf8Json: Stream, value: unknown | undefined, jsonTypeInfo: JsonTypeInfo): void;
     static serialize(utf8Json: Stream, value: unknown | undefined, inputType: Type, options?: JsonSerializerOptions | undefined): void;
     static serialize(utf8Json: Stream, value: unknown | undefined, inputType: Type, context: JsonSerializerContext): void;
@@ -713,15 +713,15 @@ export abstract class JsonSerializer$instance {
     static serializeToDocument<TValue>(value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>): JsonDocument;
     static serializeToDocument<TValue>(value: TValue, options?: JsonSerializerOptions | undefined): JsonDocument;
     static serializeToElement(value: unknown | undefined, jsonTypeInfo: JsonTypeInfo): JsonElement;
-    static serializeToElement(value: unknown, inputType: Type, options?: JsonSerializerOptions): JsonElement;
+    static serializeToElement(value: unknown | undefined, inputType: Type, options?: JsonSerializerOptions | undefined): JsonElement;
     static serializeToElement(value: unknown | undefined, inputType: Type, context: JsonSerializerContext): JsonElement;
     static serializeToElement<TValue>(value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>): JsonElement;
-    static serializeToElement<TValue>(value: TValue, options?: JsonSerializerOptions): JsonElement;
-    static serializeToNode(value: unknown, jsonTypeInfo: JsonTypeInfo): JsonNode;
-    static serializeToNode(value: unknown, inputType: Type, options?: JsonSerializerOptions): JsonNode;
+    static serializeToElement<TValue>(value: TValue, options?: JsonSerializerOptions | undefined): JsonElement;
+    static serializeToNode(value: unknown | undefined, jsonTypeInfo: JsonTypeInfo): JsonNode | undefined;
+    static serializeToNode(value: unknown | undefined, inputType: Type, options?: JsonSerializerOptions | undefined): JsonNode | undefined;
     static serializeToNode(value: unknown | undefined, inputType: Type, context: JsonSerializerContext): JsonNode | undefined;
     static serializeToNode<TValue>(value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>): JsonNode | undefined;
-    static serializeToNode<TValue>(value: TValue, options?: JsonSerializerOptions): JsonNode;
+    static serializeToNode<TValue>(value: TValue, options?: JsonSerializerOptions | undefined): JsonNode | undefined;
     static serializeToUtf8Bytes(value: unknown | undefined, jsonTypeInfo: JsonTypeInfo): byte[];
     static serializeToUtf8Bytes(value: unknown | undefined, inputType: Type, options?: JsonSerializerOptions | undefined): byte[];
     static serializeToUtf8Bytes(value: unknown | undefined, inputType: Type, context: JsonSerializerContext): byte[];

@@ -40,10 +40,10 @@ export interface Rune$instance {
     compareTo(other: Rune): int;
     encodeToUtf16(destination: Span_1<System_Internal.Char>): int;
     encodeToUtf8(destination: Span_1<System_Internal.Byte>): int;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: Rune): boolean;
     getHashCode(): int;
-    toString(): string | undefined;
+    toString(): string;
     tryEncodeToUtf16(destination: Span_1<System_Internal.Char>, charsWritten: int): boolean;
     tryEncodeToUtf8(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
@@ -153,14 +153,14 @@ export type SpanRuneEnumerator = SpanRuneEnumerator$instance & __SpanRuneEnumera
 
 export interface StringBuilder_AppendInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): void;
-    appendFormatted<T>(value: T, format: string): void;
+    appendFormatted<T>(value: T, format: string | undefined): void;
     appendFormatted<T>(value: T, alignment: int): void;
-    appendFormatted<T>(value: T, alignment: int, format: string): void;
+    appendFormatted<T>(value: T, alignment: int, format: string | undefined): void;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | undefined): void;
-    appendFormatted(value: string): void;
-    appendFormatted(value: string, alignment?: int, format?: string): void;
-    appendFormatted(value: unknown, alignment?: int, format?: string): void;
+    appendFormatted(value: string | undefined): void;
+    appendFormatted(value: string | undefined, alignment?: int, format?: string | undefined): void;
+    appendFormatted(value: unknown | undefined, alignment?: int, format?: string | undefined): void;
     appendLiteral(value: string): void;
 }
 
@@ -269,7 +269,7 @@ export type ASCIIEncoding = ASCIIEncoding$instance & __ASCIIEncoding$views;
 
 
 export interface CodePagesEncodingProvider$instance extends EncodingProvider {
-    getEncoding(codepage: int): Encoding;
+    getEncoding(codepage: int): Encoding | undefined;
     getEncoding(name: string): Encoding | undefined;
     getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
     getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
@@ -327,7 +327,7 @@ export type Decoder = Decoder$instance;
 export interface DecoderExceptionFallback$instance extends DecoderFallback {
     readonly maxCharCount: int;
     createFallbackBuffer(): DecoderFallbackBuffer;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -386,7 +386,7 @@ export type DecoderFallbackBuffer = DecoderFallbackBuffer$instance;
 export interface DecoderFallbackException$instance extends ArgumentException {
     readonly bytesUnknown: byte[] | undefined;
     readonly index: int;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -409,7 +409,7 @@ export interface DecoderReplacementFallback$instance extends DecoderFallback {
     readonly defaultString: string;
     readonly maxCharCount: int;
     createFallbackBuffer(): DecoderFallbackBuffer;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -463,7 +463,7 @@ export type Encoder = Encoder$instance;
 export interface EncoderExceptionFallback$instance extends EncoderFallback {
     readonly maxCharCount: int;
     createFallbackBuffer(): EncoderFallbackBuffer;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -526,7 +526,7 @@ export interface EncoderFallbackException$instance extends ArgumentException {
     readonly charUnknownHigh: char;
     readonly charUnknownLow: char;
     readonly index: int;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     isUnknownSurrogate(): boolean;
 }
 
@@ -549,7 +549,7 @@ export interface EncoderReplacementFallback$instance extends EncoderFallback {
     readonly defaultString: string;
     readonly maxCharCount: int;
     createFallbackBuffer(): EncoderFallbackBuffer;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -596,7 +596,7 @@ export interface Encoding$instance {
     readonly webName: string;
     readonly windowsCodePage: int;
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getByteCount(chars: char[]): int;
     getByteCount(s: string): int;
     getByteCount(chars: char[], index: int, count: int): int;
@@ -671,7 +671,7 @@ export interface EncodingInfo$instance {
     readonly codePage: int;
     readonly displayName: string;
     readonly name: string;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getEncoding(): Encoding;
     getHashCode(): int;
 }
@@ -686,7 +686,7 @@ export type EncodingInfo = EncodingInfo$instance;
 
 export interface EncodingProvider$instance {
     getEncoding(name: string): Encoding | undefined;
-    getEncoding(codepage: int): Encoding;
+    getEncoding(codepage: int): Encoding | undefined;
     getEncoding(name: string, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
     getEncoding(codepage: int, encoderFallback: EncoderFallback, decoderFallback: DecoderFallback): Encoding | undefined;
     getEncodings(): IEnumerable_1<EncodingInfo>;
@@ -733,12 +733,12 @@ export interface StringBuilder$instance {
     append(value: ptr<char>, valueCount: int): StringBuilder;
     appendFormat(format: string, arg0: unknown | undefined): StringBuilder;
     appendFormat(format: string, arg0: unknown | undefined, arg1: unknown | undefined): StringBuilder;
-    appendFormat(format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
+    appendFormat(format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): StringBuilder;
     appendFormat(format: string, ...args: unknown[]): StringBuilder;
     appendFormat(format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
     appendFormat(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined): StringBuilder;
-    appendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): StringBuilder;
-    appendFormat(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): StringBuilder;
+    appendFormat(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined, arg1: unknown | undefined): StringBuilder;
+    appendFormat(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): StringBuilder;
     appendFormat(provider: IFormatProvider | undefined, format: string, ...args: unknown[]): StringBuilder;
     appendFormat(provider: IFormatProvider | undefined, format: string, args: ReadOnlySpan_1<unknown>): StringBuilder;
     appendFormat<TArg0>(provider: IFormatProvider | undefined, format: CompositeFormat, arg0: TArg0): StringBuilder;
@@ -764,7 +764,7 @@ export interface StringBuilder$instance {
     copyTo(sourceIndex: int, destination: char[], destinationIndex: int, count: int): void;
     copyTo(sourceIndex: int, destination: Span_1<System_Internal.Char>, count: int): void;
     ensureCapacity(capacity: int): int;
-    equals(sb: StringBuilder): boolean;
+    equals(sb: StringBuilder | undefined): boolean;
     equals(span: ReadOnlySpan_1<System_Internal.Char>): boolean;
     getChunks(): StringBuilder_ChunkEnumerator;
     insert(index: int, value: string | undefined, count: int): StringBuilder;
@@ -801,9 +801,9 @@ export interface StringBuilder$instance {
 export const StringBuilder: {
     new(): StringBuilder;
     new(capacity: int): StringBuilder;
-    new(value: string): StringBuilder;
-    new(value: string, capacity: int): StringBuilder;
-    new(value: string, startIndex: int, length: int, capacity: int): StringBuilder;
+    new(value: string | undefined): StringBuilder;
+    new(value: string | undefined, capacity: int): StringBuilder;
+    new(value: string | undefined, startIndex: int, length: int, capacity: int): StringBuilder;
     new(capacity: int, maxCapacity: int): StringBuilder;
 };
 
@@ -820,7 +820,7 @@ export type StringBuilder = StringBuilder$instance & __StringBuilder$views;
 export interface UnicodeEncoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<System_Internal.Byte>;
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getByteCount(chars: char[], index: int, count: int): int;
     getByteCount(s: string): int;
     getByteCount(chars: ptr<char>, count: int): int;
@@ -875,7 +875,7 @@ export type UnicodeEncoding = UnicodeEncoding$instance & __UnicodeEncoding$views
 export interface UTF32Encoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<System_Internal.Byte>;
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getByteCount(chars: char[], index: int, count: int): int;
     getByteCount(s: string): int;
     getByteCount(chars: ptr<char>, count: int): int;
@@ -928,7 +928,7 @@ export type UTF32Encoding = UTF32Encoding$instance & __UTF32Encoding$views;
 
 export interface UTF7Encoding$instance extends Encoding$instance {
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getByteCount(chars: char[], index: int, count: int): int;
     getByteCount(s: string): int;
     getByteCount(chars: ptr<char>, count: int): int;
@@ -980,7 +980,7 @@ export type UTF7Encoding = UTF7Encoding$instance & __UTF7Encoding$views;
 export interface UTF8Encoding$instance extends Encoding$instance {
     readonly preamble: ReadOnlySpan_1<System_Internal.Byte>;
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getByteCount(chars: char[], index: int, count: int): int;
     getByteCount(chars: string): int;
     getByteCount(chars: ptr<char>, count: int): int;

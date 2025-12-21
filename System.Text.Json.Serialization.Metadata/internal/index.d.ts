@@ -225,14 +225,14 @@ export interface JsonTypeInfo$instance {
     readonly properties: IList_1<JsonPropertyInfo>;
     readonly type_: Type;
     unmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
-    createJsonPropertyInfo(propertyType: Type | undefined, name: string | undefined): JsonPropertyInfo | undefined;
+    createJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
     makeReadOnly(): void;
 }
 
 
 export const JsonTypeInfo: {
-    createJsonTypeInfo<T>(options: JsonSerializerOptions | undefined): JsonTypeInfo_1<T | undefined> | undefined;
-    createJsonTypeInfo(type_: Type | undefined, options: JsonSerializerOptions | undefined): JsonTypeInfo | undefined;
+    createJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
+    createJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 };
 
 

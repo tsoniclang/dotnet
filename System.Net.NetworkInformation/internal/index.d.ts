@@ -366,7 +366,7 @@ export interface IPGlobalProperties$instance {
     readonly hostName: string;
     readonly isWinsProxy: boolean;
     readonly nodeType: NetBiosNodeType;
-    beginGetUnicastAddresses(callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginGetUnicastAddresses(callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     endGetUnicastAddresses(asyncResult: IAsyncResult): UnicastIPAddressInformationCollection;
     getActiveTcpConnections(): TcpConnectionInformation[];
     getActiveTcpListeners(): IPEndPoint[];
@@ -580,7 +580,7 @@ export interface NetworkChange$instance {
 
 export const NetworkChange: {
     new(): NetworkChange;
-    registerNetworkChange(nc: NetworkChange | undefined): void;
+    registerNetworkChange(nc: NetworkChange): void;
 };
 
 
@@ -633,7 +633,7 @@ export const NetworkInterface: {
 export type NetworkInterface = NetworkInterface$instance;
 
 export interface PhysicalAddress$instance {
-    equals(comparand: unknown): boolean;
+    equals(comparand: unknown | undefined): boolean;
     getAddressBytes(): byte[];
     getHashCode(): int;
     toString(): string;
@@ -646,7 +646,7 @@ export const PhysicalAddress: {
     parse(address: ReadOnlySpan_1<System_Internal.Char>): PhysicalAddress;
     parse(address: string | undefined): PhysicalAddress;
     tryParse(address: ReadOnlySpan_1<System_Internal.Char>, value: PhysicalAddress | undefined): boolean;
-    tryParse(address: string, value: PhysicalAddress): boolean;
+    tryParse(address: string | undefined, value: PhysicalAddress | undefined): boolean;
 };
 
 

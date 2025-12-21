@@ -86,10 +86,10 @@ export interface Asn1Tag$instance {
     calculateEncodedSize(): int;
     encode(destination: Span_1<System_Internal.Byte>): int;
     equals(other: Asn1Tag): boolean;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     hasSameClassAndValue(other: Asn1Tag): boolean;
-    toString(): string | undefined;
+    toString(): string;
     tryEncode(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
@@ -158,7 +158,7 @@ export type AsnWriter_Scope = AsnWriter_Scope$instance & __AsnWriter_Scope$views
 
 
 export interface AsnContentException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

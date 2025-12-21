@@ -28,7 +28,7 @@ export interface ContentDisposition$instance {
     readonly parameters: StringDictionary;
     readDate: DateTime;
     size: long;
-    equals(rparam: unknown): boolean;
+    equals(rparam: unknown | undefined): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -48,7 +48,7 @@ export interface ContentType$instance {
     mediaType: string;
     name: string;
     readonly parameters: StringDictionary;
-    equals(rparam: unknown): boolean;
+    equals(rparam: unknown | undefined): boolean;
     getHashCode(): int;
     toString(): string;
 }

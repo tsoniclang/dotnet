@@ -34,8 +34,8 @@ export const Claim: {
     new(type_: string, value: string): Claim;
     new(type_: string, value: string, valueType: string | undefined): Claim;
     new(type_: string, value: string, valueType: string | undefined, issuer: string | undefined): Claim;
-    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
-    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
+    new(type_: string, value: string, valueType: string | undefined, issuer: string | undefined, originalIssuer: string | undefined): Claim;
+    new(type_: string, value: string, valueType: string | undefined, issuer: string | undefined, originalIssuer: string | undefined, subject: ClaimsIdentity | undefined): Claim;
 };
 
 
@@ -60,25 +60,25 @@ export interface ClaimsIdentity$instance {
     findFirst(type_: string): Claim | undefined;
     hasClaim(match: Predicate_1<Claim>): boolean;
     hasClaim(type_: string, value: string): boolean;
-    removeClaim(claim: Claim): void;
-    tryRemoveClaim(claim: Claim): boolean;
+    removeClaim(claim: Claim | undefined): void;
+    tryRemoveClaim(claim: Claim | undefined): boolean;
     writeTo(writer: BinaryWriter): void;
 }
 
 
 export const ClaimsIdentity: {
     new(): ClaimsIdentity;
-    new(identity: IIdentity): ClaimsIdentity;
+    new(identity: IIdentity | undefined): ClaimsIdentity;
     new(claims: IEnumerable_1<Claim> | undefined): ClaimsIdentity;
-    new(authenticationType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined): ClaimsIdentity;
-    new(authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
+    new(authenticationType: string | undefined): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string | undefined): ClaimsIdentity;
+    new(identity: IIdentity | undefined, claims: IEnumerable_1<Claim> | undefined): ClaimsIdentity;
+    new(authenticationType: string | undefined, nameType: string | undefined, roleType: string | undefined): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string | undefined, nameType: string | undefined, roleType: string | undefined): ClaimsIdentity;
+    new(identity: IIdentity | undefined, claims: IEnumerable_1<Claim> | undefined, authenticationType: string | undefined, nameType: string | undefined, roleType: string | undefined): ClaimsIdentity;
     new(reader: BinaryReader): ClaimsIdentity;
     new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
+    new(identity: IIdentity | undefined, claims: IEnumerable_1<Claim> | undefined, authenticationType: string | undefined, nameType: string | undefined, roleType: string | undefined, stringComparison: StringComparison): ClaimsIdentity;
     readonly defaultIssuer: string;
     readonly defaultNameClaimType: string;
     readonly defaultRoleClaimType: string;
@@ -127,6 +127,8 @@ export const ClaimsPrincipal: {
 export interface __ClaimsPrincipal$views {
     As_IPrincipal(): System_Security_Principal_Internal.IPrincipal$instance;
 }
+
+export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {}
 
 export type ClaimsPrincipal = ClaimsPrincipal$instance & __ClaimsPrincipal$views;
 

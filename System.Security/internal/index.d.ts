@@ -43,7 +43,7 @@ export interface IPermission$instance extends ISecurityEncodable {
     fromXml(e: SecurityElement): void;
     intersect(target: IPermission | undefined): IPermission | undefined;
     isSubsetOf(target: IPermission | undefined): boolean;
-    toXml(): SecurityElement;
+    toXml(): SecurityElement | undefined;
 }
 
 
@@ -53,7 +53,7 @@ export type IPermission = IPermission$instance;
 
 export interface ISecurityEncodable$instance {
     fromXml(e: SecurityElement): void;
-    toXml(): SecurityElement;
+    toXml(): SecurityElement | undefined;
 }
 
 
@@ -87,11 +87,11 @@ export interface PermissionSet$instance {
     assert(): void;
     containsNonCodeAccessPermissions(): boolean;
     copy(): PermissionSet;
-    copyTo(array: ClrArray | undefined, index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     demand(): void;
     deny(): void;
     equals(o: unknown | undefined): boolean;
-    fromXml(et: SecurityElement | undefined): void;
+    fromXml(et: SecurityElement): void;
     getEnumerator(): IEnumerator;
     getHashCode(): int;
     getPermission(permClass: Type | undefined): IPermission | undefined;
@@ -102,8 +102,8 @@ export interface PermissionSet$instance {
     permitOnly(): void;
     removePermission(permClass: Type | undefined): IPermission | undefined;
     setPermission(perm: IPermission | undefined): IPermission | undefined;
-    toString(): string | undefined;
-    toXml(): SecurityElement;
+    toString(): string;
+    toXml(): SecurityElement | undefined;
     union(other: PermissionSet | undefined): PermissionSet | undefined;
 }
 
@@ -111,7 +111,7 @@ export interface PermissionSet$instance {
 export const PermissionSet: {
     new(state: PermissionState): PermissionSet;
     new(permSet: PermissionSet | undefined): PermissionSet;
-    convertPermissionSet(inFormat: string | undefined, inData: byte[] | undefined, outFormat: string | undefined): byte[] | undefined;
+    convertPermissionSet(inFormat: string, inData: byte[], outFormat: string): byte[];
     revertAssert(): void;
 };
 
@@ -124,7 +124,7 @@ export interface __PermissionSet$views {
     As_IStackWalk(): IStackWalk$instance;
 }
 
-export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, IStackWalk$instance {}
+export interface PermissionSet$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, ISecurityEncodable$instance, IStackWalk$instance {}
 
 export type PermissionSet = PermissionSet$instance & __PermissionSet$views;
 
@@ -176,22 +176,22 @@ export interface SecurityElement$instance {
     children: ArrayList | undefined;
     tag: string;
     text: string;
-    addAttribute(name: string | undefined, value: string | undefined): void;
-    addChild(child: SecurityElement | undefined): void;
-    attribute(name: string | undefined): string | undefined;
+    addAttribute(name: string, value: string): void;
+    addChild(child: SecurityElement): void;
+    attribute(name: string): string | undefined;
     copy(): SecurityElement;
     equal(other: SecurityElement | undefined): boolean;
-    searchForChildByTag(tag: string | undefined): SecurityElement | undefined;
-    searchForTextOfTag(tag: string | undefined): string | undefined;
-    toString(): string | undefined;
+    searchForChildByTag(tag: string): SecurityElement | undefined;
+    searchForTextOfTag(tag: string): string | undefined;
+    toString(): string;
 }
 
 
 export const SecurityElement: {
-    new(tag: string | undefined): SecurityElement;
-    new(tag: string | undefined, text: string | undefined): SecurityElement;
+    new(tag: string): SecurityElement;
+    new(tag: string, text: string | undefined): SecurityElement;
     escape(str: string | undefined): string | undefined;
-    fromString(xml: string | undefined): SecurityElement | undefined;
+    fromString(xml: string): SecurityElement | undefined;
     isValidAttributeName(name: string | undefined): boolean;
     isValidAttributeValue(value: string | undefined): boolean;
     isValidTag(tag: string | undefined): boolean;
@@ -212,8 +212,8 @@ export interface SecurityException$instance extends SystemException {
     permitOnlySetInstance: unknown | undefined;
     refusedSet: string | undefined;
     url: string | undefined;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
-    toString(): string | undefined;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
+    toString(): string;
 }
 
 

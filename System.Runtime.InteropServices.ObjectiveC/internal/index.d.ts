@@ -43,7 +43,7 @@ export abstract class ObjectiveCMarshal$instance {
     static createReferenceTrackingHandle(obj: unknown, taggedMemory: Span_1<System_Internal.IntPtr>): GCHandle;
     static initialize(beginEndCallback: unknown, isReferencedCallback: unknown, trackedObjectEnteredFinalization: unknown, unhandledExceptionPropagationHandler: ObjectiveCMarshal_UnhandledExceptionPropagationHandler): void;
     static setMessageSendCallback(msgSendFunction: ObjectiveCMarshal_MessageSendFunction, func: nint): void;
-    static setMessageSendPendingException(exception: Exception): void;
+    static setMessageSendPendingException(exception: Exception | undefined): void;
 }
 
 

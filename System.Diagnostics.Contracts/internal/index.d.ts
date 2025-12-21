@@ -78,7 +78,7 @@ export interface ContractException$instance extends Exception {
     readonly failure: string;
     readonly kind: ContractFailureKind;
     readonly userMessage: string | undefined;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -198,12 +198,12 @@ export const PureAttribute: {
 export type PureAttribute = PureAttribute$instance;
 
 export abstract class Contract$instance {
-    static assert(condition: boolean, userMessage: string): void;
+    static assert(condition: boolean, userMessage: string | undefined): void;
     static assert(condition: boolean): void;
-    static assume(condition: boolean, userMessage: string): void;
+    static assume(condition: boolean, userMessage: string | undefined): void;
     static assume(condition: boolean): void;
     static endContractBlock(): void;
-    static ensures(condition: boolean, userMessage: string): void;
+    static ensures(condition: boolean, userMessage: string | undefined): void;
     static ensures(condition: boolean): void;
     static ensuresOnThrow<TException extends Exception>(condition: boolean, userMessage: string | undefined): void;
     static ensuresOnThrow<TException extends Exception>(condition: boolean): void;
@@ -211,10 +211,10 @@ export abstract class Contract$instance {
     static exists(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
     static forAll<T>(collection: IEnumerable_1<T>, predicate: Predicate_1<T>): boolean;
     static forAll(fromInclusive: int, toExclusive: int, predicate: Predicate_1<System_Internal.Int32>): boolean;
-    static invariant(condition: boolean, userMessage: string): void;
+    static invariant(condition: boolean, userMessage: string | undefined): void;
     static invariant(condition: boolean): void;
     static oldValue<T>(value: T): T;
-    static requires(condition: boolean, userMessage: string): void;
+    static requires(condition: boolean, userMessage: string | undefined): void;
     static requires(condition: boolean): void;
     static result<T>(): T;
     static valueAtReturn<T>(value: T): T;

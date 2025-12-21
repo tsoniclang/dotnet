@@ -112,7 +112,7 @@ export type IEnumerator_1<T> = IEnumerator_1$instance<T>;
 
 export interface IEqualityComparer_1$instance<T> {
     equals(x: T | undefined, y: T | undefined): boolean;
-    getHashCode(obj: T | undefined): int;
+    getHashCode(obj: T): int;
 }
 
 
@@ -598,7 +598,7 @@ export type Stack_1_Enumerator<T> = Stack_1_Enumerator$instance<T> & __Stack_1_E
 
 
 export interface ByteEqualityComparer$instance extends EqualityComparer_1$instance<System_Internal.Byte> {
-    equals(x: unknown, y: unknown): boolean;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
     getHashCode(obj: unknown): int;
 }
 
@@ -617,7 +617,7 @@ export type ByteEqualityComparer = ByteEqualityComparer$instance & __ByteEqualit
 
 
 export interface Comparer_1$instance<T> {
-    compare(x: T, y: T): int;
+    compare(x: T | undefined, y: T | undefined): int;
 }
 
 
@@ -631,8 +631,6 @@ export interface __Comparer_1$views<T> {
     As_IComparer_1(): IComparer_1$instance<T>;
     As_IComparer(): System_Collections_Internal.IComparer$instance;
 }
-
-export interface Comparer_1$instance<T> extends IComparer_1$instance<T> {}
 
 export type Comparer_1<T> = Comparer_1$instance<T> & __Comparer_1$views<T>;
 
@@ -652,7 +650,7 @@ export interface Dictionary_2$instance<TKey, TValue> {
     getAlternateLookup<TAlternateKey>(): Dictionary_2_AlternateLookup_1<TKey, TValue, TAlternateKey>;
     getEnumerator(): Dictionary_2_Enumerator<TKey, TValue>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown | undefined): void;
     remove(key: TKey): boolean;
     remove(key: TKey, value: TValue): boolean;
     trimExcess(): void;
@@ -688,7 +686,7 @@ export interface __Dictionary_2$views<TKey, TValue> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface Dictionary_2$instance<TKey, TValue> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type Dictionary_2<TKey, TValue> = Dictionary_2$instance<TKey, TValue> & __Dictionary_2$views<TKey, TValue>;
 
@@ -742,7 +740,7 @@ export type Dictionary_2_ValueCollection<TKey, TValue> = Dictionary_2_ValueColle
 
 export interface EnumEqualityComparer_1$instance<T extends number> extends EqualityComparer_1$instance<T> {
     equals(x: T, y: T): boolean;
-    equals(x: unknown, y: unknown): boolean;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
     getHashCode(obj: T): int;
     getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -766,7 +764,7 @@ export type EnumEqualityComparer_1<T extends number> = EnumEqualityComparer_1$in
 
 
 export interface EqualityComparer_1$instance<T> {
-    equals(x: T, y: T): boolean;
+    equals(x: T | undefined, y: T | undefined): boolean;
     getHashCode(obj: T): int;
 }
 
@@ -808,8 +806,8 @@ export type GenericComparer_1<T extends (IComparable_1<T> | number | string | bo
 
 export interface GenericEqualityComparer_1$instance<T extends (IEquatable_1<T> | number | string | boolean)> extends EqualityComparer_1$instance<T> {
     equals(x: T | undefined, y: T | undefined): boolean;
-    equals(x: unknown, y: unknown): boolean;
-    getHashCode(obj: T | undefined): int;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    getHashCode(obj: T): int;
     getHashCode(obj: unknown): int;
 }
 
@@ -847,7 +845,7 @@ export interface HashSet_1$instance<T> {
     isProperSupersetOf(other: IEnumerable_1<T>): boolean;
     isSubsetOf(other: IEnumerable_1<T>): boolean;
     isSupersetOf(other: IEnumerable_1<T>): boolean;
-    onDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown | undefined): void;
     overlaps(other: IEnumerable_1<T>): boolean;
     remove(item: T): boolean;
     removeWhere(match: Predicate_1<T>): int;
@@ -883,7 +881,7 @@ export interface __HashSet_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface HashSet_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type HashSet_1<T> = HashSet_1$instance<T> & __HashSet_1$views<T>;
 
@@ -926,7 +924,7 @@ export interface LinkedList_1$instance<T> {
     findLast(value: T): LinkedListNode_1<T> | undefined;
     getEnumerator(): LinkedList_1_Enumerator<T>;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown | undefined): void;
     remove(value: T): boolean;
     remove(node: LinkedListNode_1<T>): void;
     removeFirst(): void;
@@ -950,7 +948,7 @@ export interface __LinkedList_1$views<T> {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.ISerializable$instance {}
+export interface LinkedList_1$instance<T> extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type LinkedList_1<T> = LinkedList_1$instance<T> & __LinkedList_1$views<T>;
 
@@ -1047,8 +1045,8 @@ export type List_1<T> = List_1$instance<T> & __List_1$views<T>;
 
 
 export interface NonRandomizedStringEqualityComparer$instance {
-    equals(x: string, y: string): boolean;
-    getHashCode(obj: string): int;
+    equals(x: string | undefined, y: string | undefined): boolean;
+    getHashCode(obj: string | undefined): int;
     getUnderlyingEqualityComparer(): IEqualityComparer_1<string | undefined>;
 }
 
@@ -1071,7 +1069,7 @@ export type NonRandomizedStringEqualityComparer = NonRandomizedStringEqualityCom
 
 export interface NullableComparer_1$instance<T extends unknown> extends Comparer_1$instance<Nullable_1<T>> {
     compare(x: unknown | undefined, y: unknown | undefined): int;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -1094,7 +1092,7 @@ export type NullableComparer_1<T> = NullableComparer_1$instance<T> & __NullableC
 
 
 export interface NullableEqualityComparer_1$instance<T extends unknown> extends EqualityComparer_1$instance<Nullable_1<T>> {
-    equals(x: unknown, y: unknown): boolean;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
     getHashCode(obj: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
@@ -1139,8 +1137,8 @@ export type ObjectComparer_1<T> = ObjectComparer_1$instance<T> & __ObjectCompare
 
 export interface ObjectEqualityComparer_1$instance<T> extends EqualityComparer_1$instance<T> {
     equals(x: T | undefined, y: T | undefined): boolean;
-    equals(x: unknown, y: unknown): boolean;
-    getHashCode(obj: T | undefined): int;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    getHashCode(obj: T): int;
     getHashCode(obj: unknown): int;
 }
 
@@ -1358,8 +1356,8 @@ export type Queue_1<T> = Queue_1$instance<T> & __Queue_1$views<T>;
 
 
 export interface ReferenceEqualityComparer$instance {
-    equals(x: unknown, y: unknown): boolean;
-    getHashCode(obj: unknown): int;
+    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    getHashCode(obj: unknown | undefined): int;
 }
 
 
@@ -1608,7 +1606,7 @@ export interface SortedSet_1$instance<T> {
     copyTo(array: T[], index: int, count: int): void;
     exceptWith(other: IEnumerable_1<T>): void;
     getEnumerator(): SortedSet_1_Enumerator<T>;
-    getViewBetween(lowerValue: T, upperValue: T): SortedSet_1<T>;
+    getViewBetween(lowerValue: T | undefined, upperValue: T | undefined): SortedSet_1<T>;
     intersectWith(other: IEnumerable_1<T>): void;
     isProperSubsetOf(other: IEnumerable_1<T>): boolean;
     isProperSupersetOf(other: IEnumerable_1<T>): boolean;
@@ -1738,7 +1736,7 @@ export abstract class CollectionExtensions$instance {
     static asReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
     static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
     static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
-    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue;
+    static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue | undefined;
     static insertRange<T>(list: List_1<T>, index: int, source: ReadOnlySpan_1<T>): void;
     static remove<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;
     static tryAdd<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>, key: TKey, value: TValue): boolean;

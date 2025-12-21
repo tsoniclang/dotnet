@@ -60,14 +60,14 @@ export interface ExtendedProtectionPolicy$instance {
     readonly customServiceNames: ServiceNameCollection | undefined;
     readonly policyEnforcement: PolicyEnforcement;
     readonly protectionScenario: ProtectionScenario;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
 export const ExtendedProtectionPolicy: {
     new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ServiceNameCollection | undefined): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement, protectionScenario: ProtectionScenario, customServiceNames: ICollection | undefined): ExtendedProtectionPolicy;
-    new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding | undefined): ExtendedProtectionPolicy;
+    new(policyEnforcement: PolicyEnforcement, customChannelBinding: ChannelBinding): ExtendedProtectionPolicy;
     new(policyEnforcement: PolicyEnforcement): ExtendedProtectionPolicy;
     readonly osSupportsExtendedProtection: boolean;
 };
@@ -98,7 +98,7 @@ export const ExtendedProtectionPolicyTypeConverter: {
 export type ExtendedProtectionPolicyTypeConverter = ExtendedProtectionPolicyTypeConverter$instance;
 
 export interface ServiceNameCollection$instance extends ReadOnlyCollectionBase {
-    contains(searchServiceName: string): boolean;
+    contains(searchServiceName: string | undefined): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     merge(serviceName: string): ServiceNameCollection;

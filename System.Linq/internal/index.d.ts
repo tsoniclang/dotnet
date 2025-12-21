@@ -167,7 +167,7 @@ export const EnumerableQuery: {
 export type EnumerableQuery = EnumerableQuery$instance;
 
 export interface EnumerableQuery_1$instance<T> extends EnumerableQuery {
-    toString(): string;
+    toString(): string | undefined;
 }
 
 
@@ -495,8 +495,8 @@ export abstract class Enumerable$instance {
     static distinctBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): IEnumerable_1<TSource>;
     static elementAt<TSource>(source: IEnumerable_1<TSource>, index: Index): TSource;
     static elementAt<TSource>(source: IEnumerable_1<TSource>, index: int): TSource;
-    static elementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: Index): TSource;
-    static elementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: int): TSource;
+    static elementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: Index): TSource | undefined;
+    static elementAtOrDefault<TSource>(source: IEnumerable_1<TSource>, index: int): TSource | undefined;
     static empty<TResult>(): IEnumerable_1<TResult>;
     static except<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | undefined): IEnumerable_1<TSource>;
     static except<TSource>(first: IEnumerable_1<TSource>, second: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
@@ -507,7 +507,7 @@ export abstract class Enumerable$instance {
     static firstOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
     static firstOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
     static firstOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static firstOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource;
+    static firstOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | undefined;
     static groupBy<TSource, TKey, TElement, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | undefined): IEnumerable_1<TResult>;
     static groupBy<TSource, TKey, TElement, TResult>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): IEnumerable_1<TResult>;
     static groupBy<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer: IEqualityComparer_1<TKey> | undefined): IEnumerable_1<IGrouping_2<TKey, TElement>>;
@@ -531,7 +531,7 @@ export abstract class Enumerable$instance {
     static lastOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
     static lastOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
     static lastOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static lastOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource;
+    static lastOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | undefined;
     static leftJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | undefined, TResult>, comparer: IEqualityComparer_1<TKey> | undefined): IEnumerable_1<TResult>;
     static leftJoin<TOuter, TInner, TKey, TResult>(outer: IEnumerable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Func_2<TOuter, TKey>, innerKeySelector: Func_2<TInner, TKey>, resultSelector: Func_3<TOuter, TInner | undefined, TResult>): IEnumerable_1<TResult>;
     static longCount<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
@@ -546,9 +546,9 @@ export abstract class Enumerable$instance {
     static max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static max<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static max<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult;
-    static max<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static max<TSource>(source: IEnumerable_1<TSource>): TSource;
+    static max<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | undefined;
+    static max<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static max<TSource>(source: IEnumerable_1<TSource>): TSource | undefined;
     static max(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static max(source: IEnumerable_1<System_Internal.Double>): double;
     static max(source: IEnumerable_1<System_Internal.Int32>): int;
@@ -559,8 +559,8 @@ export abstract class Enumerable$instance {
     static max(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static max(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static max(source: IEnumerable_1<System_Internal.Single>): float;
-    static maxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | undefined): TSource;
-    static maxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource;
+    static maxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | undefined): TSource | undefined;
+    static maxBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | undefined;
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Double>): double;
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Int32>): int;
@@ -571,9 +571,9 @@ export abstract class Enumerable$instance {
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static min<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static min<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult;
-    static min<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static min<TSource>(source: IEnumerable_1<TSource>): TSource;
+    static min<TSource, TResult>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, TResult>): TResult | undefined;
+    static min<TSource>(source: IEnumerable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static min<TSource>(source: IEnumerable_1<TSource>): TSource | undefined;
     static min(source: IEnumerable_1<System_Internal.Decimal>): decimal;
     static min(source: IEnumerable_1<System_Internal.Double>): double;
     static min(source: IEnumerable_1<System_Internal.Int32>): int;
@@ -584,8 +584,8 @@ export abstract class Enumerable$instance {
     static min(source: IEnumerable_1<Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static min(source: IEnumerable_1<Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static min(source: IEnumerable_1<System_Internal.Single>): float;
-    static minBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | undefined): TSource;
-    static minBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource;
+    static minBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer: IComparer_1<TKey> | undefined): TSource | undefined;
+    static minBy<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>): TSource | undefined;
     static ofType<TResult>(source: IEnumerable): IEnumerable_1<TResult>;
     static order<T>(source: IEnumerable_1<T>, comparer: IComparer_1<T> | undefined): IOrderedEnumerable_1<T>;
     static order<T>(source: IEnumerable_1<T>): IOrderedEnumerable_1<T>;
@@ -617,7 +617,7 @@ export abstract class Enumerable$instance {
     static singleOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>, defaultValue: TSource): TSource;
     static singleOrDefault<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
     static singleOrDefault<TSource>(source: IEnumerable_1<TSource>, defaultValue: TSource): TSource;
-    static singleOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource;
+    static singleOrDefault<TSource>(source: IEnumerable_1<TSource>): TSource | undefined;
     static skip<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
     static skipLast<TSource>(source: IEnumerable_1<TSource>, count: int): IEnumerable_1<TSource>;
     static skipWhile<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): IEnumerable_1<TSource>;
@@ -681,7 +681,7 @@ export abstract class Enumerable$instance {
 export type Enumerable = Enumerable$instance;
 
 export abstract class ImmutableArrayExtensions$instance {
-    static aggregate<T>(immutableArray: ImmutableArray_1<T>, func: Func_3<T, T, T>): T;
+    static aggregate<T>(immutableArray: ImmutableArray_1<T>, func: Func_3<T, T, T>): T | undefined;
     static aggregate<TAccumulate, TResult, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
     static aggregate<TAccumulate, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>): TAccumulate;
     static all<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
@@ -689,19 +689,19 @@ export abstract class ImmutableArrayExtensions$instance {
     static any_<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
     static any_<T>(immutableArray: ImmutableArray_1<T>): boolean;
     static elementAt<T>(immutableArray: ImmutableArray_1<T>, index: int): T;
-    static elementAtOrDefault<T>(immutableArray: ImmutableArray_1<T>, index: int): T;
+    static elementAtOrDefault<T>(immutableArray: ImmutableArray_1<T>, index: int): T | undefined;
     static first<T>(builder: ImmutableArray_1_Builder<T>): T;
     static first<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
     static first<T>(immutableArray: ImmutableArray_1<T>): T;
-    static firstOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T;
-    static firstOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static firstOrDefault<T>(immutableArray: ImmutableArray_1<T>): T;
+    static firstOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T | undefined;
+    static firstOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | undefined;
+    static firstOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | undefined;
     static last<T>(builder: ImmutableArray_1_Builder<T>): T;
     static last<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
     static last<T>(immutableArray: ImmutableArray_1<T>): T;
-    static lastOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T;
-    static lastOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static lastOrDefault<T>(immutableArray: ImmutableArray_1<T>): T;
+    static lastOrDefault<T>(builder: ImmutableArray_1_Builder<T>): T | undefined;
+    static lastOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | undefined;
+    static lastOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | undefined;
     static select<T, TResult>(immutableArray: ImmutableArray_1<T>, selector: Func_2<T, TResult>): IEnumerable_1<TResult>;
     static selectMany<TSource, TCollection, TResult>(immutableArray: ImmutableArray_1<TSource>, collectionSelector: Func_2<TSource, IEnumerable_1<TCollection>>, resultSelector: Func_3<TSource, TCollection, TResult>): IEnumerable_1<TResult>;
     static sequenceEqual<TDerived extends TBase, TBase>(immutableArray: ImmutableArray_1<TBase>, items: IEnumerable_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | undefined): boolean;
@@ -709,8 +709,8 @@ export abstract class ImmutableArrayExtensions$instance {
     static sequenceEqual<TDerived extends TBase, TBase>(immutableArray: ImmutableArray_1<TBase>, items: ImmutableArray_1<TDerived>, comparer?: IEqualityComparer_1<TBase> | undefined): boolean;
     static single<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
     static single<T>(immutableArray: ImmutableArray_1<T>): T;
-    static singleOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T;
-    static singleOrDefault<T>(immutableArray: ImmutableArray_1<T>): T;
+    static singleOrDefault<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): T | undefined;
+    static singleOrDefault<T>(immutableArray: ImmutableArray_1<T>): T | undefined;
     static toArray<T>(immutableArray: ImmutableArray_1<T>): T[];
     static toDictionary<TKey, TElement, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>, comparer: IEqualityComparer_1<TKey> | undefined): Dictionary_2<TKey, TElement>;
     static toDictionary<TKey, TElement, T>(immutableArray: ImmutableArray_1<T>, keySelector: Func_2<T, TKey>, elementSelector: Func_2<T, TElement>): Dictionary_2<TKey, TElement>;
@@ -767,7 +767,7 @@ export abstract class ParallelEnumerable$instance {
     static distinct<TSource>(source: ParallelQuery_1<TSource>, comparer: IEqualityComparer_1<TSource> | undefined): ParallelQuery_1<TSource>;
     static distinct<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
     static elementAt<TSource>(source: ParallelQuery_1<TSource>, index: int): TSource;
-    static elementAtOrDefault<TSource>(source: ParallelQuery_1<TSource>, index: int): TSource;
+    static elementAtOrDefault<TSource>(source: ParallelQuery_1<TSource>, index: int): TSource | undefined;
     static empty<TResult>(): ParallelQuery_1<TResult>;
     static except<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | undefined): ParallelQuery_1<TSource>;
     static except<TSource>(first: ParallelQuery_1<TSource>, second: IEnumerable_1<TSource>): ParallelQuery_1<TSource>;
@@ -776,7 +776,7 @@ export abstract class ParallelEnumerable$instance {
     static first<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
     static first<TSource>(source: ParallelQuery_1<TSource>): TSource;
     static firstOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
-    static firstOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource;
+    static firstOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | undefined;
     static forAll<TSource>(source: ParallelQuery_1<TSource>, action: Action_1<TSource>): void;
     static groupBy<TSource, TKey, TElement, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>, comparer: IEqualityComparer_1<TKey> | undefined): ParallelQuery_1<TResult>;
     static groupBy<TSource, TKey, TElement, TResult>(source: ParallelQuery_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, resultSelector: Func_3<TKey, IEnumerable_1<TElement>, TResult>): ParallelQuery_1<TResult>;
@@ -801,7 +801,7 @@ export abstract class ParallelEnumerable$instance {
     static last<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
     static last<TSource>(source: ParallelQuery_1<TSource>): TSource;
     static lastOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
-    static lastOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource;
+    static lastOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | undefined;
     static longCount<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): long;
     static longCount<TSource>(source: ParallelQuery_1<TSource>): long;
     static max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
@@ -814,8 +814,8 @@ export abstract class ParallelEnumerable$instance {
     static max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static max<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static max<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult;
-    static max<TSource>(source: ParallelQuery_1<TSource>): TSource;
+    static max<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | undefined;
+    static max<TSource>(source: ParallelQuery_1<TSource>): TSource | undefined;
     static max(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static max(source: ParallelQuery_1<System_Internal.Double>): double;
     static max(source: ParallelQuery_1<System_Internal.Int32>): int;
@@ -836,8 +836,8 @@ export abstract class ParallelEnumerable$instance {
     static min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Int64>>): Nullable_1<System_Internal.Int64>;
     static min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, Nullable_1<System_Internal.Single>>): Nullable_1<System_Internal.Single>;
     static min<TSource>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, System_Internal.Single>): float;
-    static min<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult;
-    static min<TSource>(source: ParallelQuery_1<TSource>): TSource;
+    static min<TSource, TResult>(source: ParallelQuery_1<TSource>, selector: Func_2<TSource, TResult>): TResult | undefined;
+    static min<TSource>(source: ParallelQuery_1<TSource>): TSource | undefined;
     static min(source: ParallelQuery_1<System_Internal.Decimal>): decimal;
     static min(source: ParallelQuery_1<System_Internal.Double>): double;
     static min(source: ParallelQuery_1<System_Internal.Int32>): int;
@@ -869,7 +869,7 @@ export abstract class ParallelEnumerable$instance {
     static single<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource;
     static single<TSource>(source: ParallelQuery_1<TSource>): TSource;
     static singleOrDefault<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): TSource | undefined;
-    static singleOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource;
+    static singleOrDefault<TSource>(source: ParallelQuery_1<TSource>): TSource | undefined;
     static skip<TSource>(source: ParallelQuery_1<TSource>, count: int): ParallelQuery_1<TSource>;
     static skipWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): ParallelQuery_1<TSource>;
     static skipWhile<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_3<TSource, System_Internal.Int32, System_Internal.Boolean>): ParallelQuery_1<TSource>;
@@ -971,8 +971,8 @@ export abstract class Queryable$instance {
     static distinctBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): IQueryable_1<TSource>;
     static elementAt<TSource>(source: IQueryable_1<TSource>, index: Index): TSource;
     static elementAt<TSource>(source: IQueryable_1<TSource>, index: int): TSource;
-    static elementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: Index): TSource;
-    static elementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: int): TSource;
+    static elementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: Index): TSource | undefined;
+    static elementAtOrDefault<TSource>(source: IQueryable_1<TSource>, index: int): TSource | undefined;
     static except<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>, comparer: IEqualityComparer_1<TSource> | undefined): IQueryable_1<TSource>;
     static except<TSource>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TSource>): IQueryable_1<TSource>;
     static exceptBy<TSource, TKey>(source1: IQueryable_1<TSource>, source2: IEnumerable_1<TKey>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IEqualityComparer_1<TKey> | undefined): IQueryable_1<TSource>;
@@ -982,7 +982,7 @@ export abstract class Queryable$instance {
     static firstOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
     static firstOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | undefined;
     static firstOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static firstOrDefault<TSource>(source: IQueryable_1<TSource>): TSource;
+    static firstOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | undefined;
     static groupBy<TSource, TKey, TElement, TResult>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>, comparer: IEqualityComparer_1<TKey> | undefined): IQueryable_1<TResult>;
     static groupBy<TSource, TKey, TElement, TResult>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, resultSelector: Expression_1<Func_3<TKey, IEnumerable_1<TElement>, TResult>>): IQueryable_1<TResult>;
     static groupBy<TSource, TKey, TElement>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, elementSelector: Expression_1<Func_2<TSource, TElement>>, comparer: IEqualityComparer_1<TKey> | undefined): IQueryable_1<IGrouping_2<TKey, TElement>>;
@@ -1003,21 +1003,21 @@ export abstract class Queryable$instance {
     static lastOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
     static lastOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | undefined;
     static lastOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static lastOrDefault<TSource>(source: IQueryable_1<TSource>): TSource;
+    static lastOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | undefined;
     static leftJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | undefined, TResult>>, comparer: IEqualityComparer_1<TKey> | undefined): IQueryable_1<TResult>;
     static leftJoin<TOuter, TInner, TKey, TResult>(outer: IQueryable_1<TOuter>, inner: IEnumerable_1<TInner>, outerKeySelector: Expression_1<Func_2<TOuter, TKey>>, innerKeySelector: Expression_1<Func_2<TInner, TKey>>, resultSelector: Expression_1<Func_3<TOuter, TInner | undefined, TResult>>): IQueryable_1<TResult>;
     static longCount<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): long;
     static longCount<TSource>(source: IQueryable_1<TSource>): long;
-    static max<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult;
-    static max<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static max<TSource>(source: IQueryable_1<TSource>): TSource;
-    static maxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static maxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource;
-    static min<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult;
-    static min<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static min<TSource>(source: IQueryable_1<TSource>): TSource;
-    static minBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | undefined): TSource;
-    static minBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource;
+    static max<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | undefined;
+    static max<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static max<TSource>(source: IQueryable_1<TSource>): TSource | undefined;
+    static maxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static maxBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | undefined;
+    static min<TSource, TResult>(source: IQueryable_1<TSource>, selector: Expression_1<Func_2<TSource, TResult>>): TResult | undefined;
+    static min<TSource>(source: IQueryable_1<TSource>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static min<TSource>(source: IQueryable_1<TSource>): TSource | undefined;
+    static minBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, comparer: IComparer_1<TSource> | undefined): TSource | undefined;
+    static minBy<TSource, TKey>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>): TSource | undefined;
     static ofType<TResult>(source: IQueryable): IQueryable_1<TResult>;
     static order<T>(source: IQueryable_1<T>, comparer: IComparer_1<T>): IOrderedQueryable_1<T>;
     static order<T>(source: IQueryable_1<T>): IOrderedQueryable_1<T>;
@@ -1042,7 +1042,7 @@ export abstract class Queryable$instance {
     static singleOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>, defaultValue: TSource): TSource;
     static singleOrDefault<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): TSource | undefined;
     static singleOrDefault<TSource>(source: IQueryable_1<TSource>, defaultValue: TSource): TSource;
-    static singleOrDefault<TSource>(source: IQueryable_1<TSource>): TSource;
+    static singleOrDefault<TSource>(source: IQueryable_1<TSource>): TSource | undefined;
     static skip<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
     static skipLast<TSource>(source: IQueryable_1<TSource>, count: int): IQueryable_1<TSource>;
     static skipWhile<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): IQueryable_1<TSource>;

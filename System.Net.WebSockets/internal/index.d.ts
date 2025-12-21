@@ -143,10 +143,10 @@ export interface ClientWebSocketOptions$instance {
     proxy: IWebProxy | undefined;
     remoteCertificateValidationCallback: RemoteCertificateValidationCallback | undefined;
     useDefaultCredentials: boolean;
-    addSubProtocol(subProtocol: string | undefined): void;
+    addSubProtocol(subProtocol: string): void;
     setBuffer(receiveBufferSize: int, sendBufferSize: int): void;
     setBuffer(receiveBufferSize: int, sendBufferSize: int, buffer: ArraySegment_1<System_Internal.Byte>): void;
-    setRequestHeader(headerName: string | undefined, headerValue: string | undefined): void;
+    setRequestHeader(headerName: string, headerValue: string | undefined): void;
 }
 
 
@@ -274,7 +274,7 @@ export type WebSocketDeflateOptions = WebSocketDeflateOptions$instance;
 export interface WebSocketException$instance extends Win32Exception {
     readonly errorCode: int;
     readonly webSocketErrorCode: WebSocketError;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

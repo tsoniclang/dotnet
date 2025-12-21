@@ -54,7 +54,7 @@ export const CSharpArgumentInfo: {
 export type CSharpArgumentInfo = CSharpArgumentInfo$instance;
 
 export interface RuntimeBinderException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -73,7 +73,7 @@ export type RuntimeBinderException = RuntimeBinderException$instance & __Runtime
 
 
 export interface RuntimeBinderInternalCompilerException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

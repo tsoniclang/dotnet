@@ -34,7 +34,7 @@ export interface IValueTaskSource$instance {
 export type IValueTaskSource = IValueTaskSource$instance;
 
 export interface IValueTaskSource_1$instance<TResult> {
-    getResult(token: short): TResult | undefined;
+    getResult(token: short): TResult;
     getStatus(token: short): ValueTaskSourceStatus;
     onCompleted(continuation: Action_1<unknown | undefined>, state: unknown | undefined, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
 }
@@ -47,7 +47,7 @@ export interface ManualResetValueTaskSourceCore_1$instance<TResult> {
     readonly version: short;
     getResult(token: short): TResult;
     getStatus(token: short): ValueTaskSourceStatus;
-    onCompleted(continuation: Action_1<unknown | undefined>, state: unknown, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
+    onCompleted(continuation: Action_1<unknown | undefined>, state: unknown | undefined, token: short, flags: ValueTaskSourceOnCompletedFlags): void;
     reset(): void;
     setException(error: Exception): void;
     setResult(result: TResult): void;

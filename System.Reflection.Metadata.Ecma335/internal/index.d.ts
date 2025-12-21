@@ -211,7 +211,7 @@ export type CustomModifiersEncoder = CustomModifiersEncoder$instance;
 export interface EditAndContinueLogEntry$instance {
     readonly handle: EntityHandle;
     readonly operation: EditAndContinueOperation;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: EditAndContinueLogEntry): boolean;
     getHashCode(): int;
 }
@@ -334,7 +334,7 @@ export interface LabelHandle$instance {
     readonly id: int;
     readonly isNil: boolean;
     equals(other: LabelHandle): boolean;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -562,9 +562,9 @@ export type ReturnTypeEncoder = ReturnTypeEncoder$instance;
 
 export interface ScalarEncoder$instance {
     readonly builder: BlobBuilder;
-    constant(value: unknown): void;
+    constant(value: unknown | undefined): void;
     nullArray(): void;
-    systemType(serializedTypeName: string): void;
+    systemType(serializedTypeName: string | undefined): void;
 }
 
 
@@ -680,7 +680,7 @@ export interface MetadataAggregator$instance {
 
 export const MetadataAggregator: {
     new(baseReader: MetadataReader, deltaReaders: IReadOnlyList_1<MetadataReader>): MetadataAggregator;
-    new(baseTableRowCounts: IReadOnlyList_1<System_Internal.Int32>, baseHeapSizes: IReadOnlyList_1<System_Internal.Int32>, deltaReaders: IReadOnlyList_1<MetadataReader> | undefined): MetadataAggregator;
+    new(baseTableRowCounts: IReadOnlyList_1<System_Internal.Int32> | undefined, baseHeapSizes: IReadOnlyList_1<System_Internal.Int32> | undefined, deltaReaders: IReadOnlyList_1<MetadataReader> | undefined): MetadataAggregator;
 };
 
 
@@ -690,7 +690,7 @@ export interface MetadataBuilder$instance {
     addAssembly(name: StringHandle, version: Version, culture: StringHandle, publicKey: BlobHandle, flags: AssemblyFlags, hashAlgorithm: AssemblyHashAlgorithm): AssemblyDefinitionHandle;
     addAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     addAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
-    addConstant(parent: EntityHandle, value: unknown): ConstantHandle;
+    addConstant(parent: EntityHandle, value: unknown | undefined): ConstantHandle;
     addCustomAttribute(parent: EntityHandle, constructor_: EntityHandle, value: BlobHandle): CustomAttributeHandle;
     addCustomDebugInformation(parent: EntityHandle, kind: GuidHandle, value: BlobHandle): CustomDebugInformationHandle;
     addDeclarativeSecurityAttribute(parent: EntityHandle, action: DeclarativeSecurityAction, permissionSet: BlobHandle): DeclarativeSecurityAttributeHandle;
@@ -736,7 +736,7 @@ export interface MetadataBuilder$instance {
     getOrAddBlob(value: ImmutableArray_1<System_Internal.Byte>): BlobHandle;
     getOrAddBlobUTF16(value: string): BlobHandle;
     getOrAddBlobUTF8(value: string, allowUnpairedSurrogates?: boolean): BlobHandle;
-    getOrAddConstantBlob(value: unknown): BlobHandle;
+    getOrAddConstantBlob(value: unknown | undefined): BlobHandle;
     getOrAddDocumentName(value: string): BlobHandle;
     getOrAddGuid(guid: Guid): GuidHandle;
     getOrAddString(value: string): StringHandle;

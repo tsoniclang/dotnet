@@ -241,14 +241,14 @@ export interface CompareInfo$instance {
     readonly LCID: int;
     readonly name: string;
     readonly version: SortVersion;
-    compare(string1: string, string2: string): int;
-    compare(string1: string, string2: string, options: CompareOptions): int;
-    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int): int;
-    compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
-    compare(string1: string, offset1: int, string2: string, offset2: int): int;
-    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
+    compare(string1: string | undefined, string2: string | undefined): int;
+    compare(string1: string | undefined, string2: string | undefined, options: CompareOptions): int;
+    compare(string1: string | undefined, offset1: int, length1: int, string2: string | undefined, offset2: int, length2: int): int;
+    compare(string1: string | undefined, offset1: int, string2: string | undefined, offset2: int, options: CompareOptions): int;
+    compare(string1: string | undefined, offset1: int, string2: string | undefined, offset2: int): int;
+    compare(string1: string | undefined, offset1: int, length1: int, string2: string | undefined, offset2: int, length2: int, options: CompareOptions): int;
     compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
     getHashCode(source: string, options: CompareOptions): int;
     getHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
@@ -344,9 +344,9 @@ export interface CultureInfo$instance {
     readonly useUserOverride: boolean;
     clearCachedData(): void;
     clone(): unknown;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getConsoleFallbackUICulture(): CultureInfo;
-    getFormat(formatType: Type): unknown;
+    getFormat(formatType: Type | undefined): unknown | undefined;
     getHashCode(): int;
     toString(): string;
 }
@@ -379,7 +379,7 @@ export interface __CultureInfo$views {
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
 
-export interface CultureInfo$instance extends System_Internal.ICloneable$instance {}
+export interface CultureInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type CultureInfo = CultureInfo$instance & __CultureInfo$views;
 
@@ -388,7 +388,7 @@ export interface CultureNotFoundException$instance extends ArgumentException {
     readonly invalidCultureId: Nullable_1<System_Internal.Int32>;
     readonly invalidCultureName: string | undefined;
     readonly message: string;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -447,7 +447,7 @@ export interface DateTimeFormatInfo$instance {
     getDayName(dayofweek: DayOfWeek): string;
     getEra(eraName: string): int;
     getEraName(era: int): string;
-    getFormat(formatType: Type): unknown;
+    getFormat(formatType: Type | undefined): unknown | undefined;
     getMonthName(month: int): string;
     getShortestDayName(dayOfWeek: DayOfWeek): string;
     setAllDateTimePatterns(patterns: string[], format: char): void;
@@ -468,7 +468,7 @@ export interface __DateTimeFormatInfo$views {
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
 
-export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance {}
+export interface DateTimeFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type DateTimeFormatInfo = DateTimeFormatInfo$instance & __DateTimeFormatInfo$views;
 
@@ -682,7 +682,7 @@ export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 export interface IdnMapping$instance {
     allowUnassigned: boolean;
     useStd3AsciiRules: boolean;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getAscii(unicode: string): string;
     getAscii(unicode: string, index: int): string;
     getAscii(unicode: string, index: int, count: int): string;
@@ -919,7 +919,7 @@ export interface NumberFormatInfo$instance {
     positiveInfinitySymbol: string;
     positiveSign: string;
     clone(): unknown;
-    getFormat(formatType: Type): unknown;
+    getFormat(formatType: Type | undefined): unknown | undefined;
 }
 
 
@@ -937,7 +937,7 @@ export interface __NumberFormatInfo$views {
     As_IFormatProvider(): System_Internal.IFormatProvider$instance;
 }
 
-export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance {}
+export interface NumberFormatInfo$instance extends System_Internal.ICloneable$instance, System_Internal.IFormatProvider$instance {}
 
 export type NumberFormatInfo = NumberFormatInfo$instance & __NumberFormatInfo$views;
 
@@ -1004,7 +1004,7 @@ export interface RegionInfo$instance {
     readonly threeLetterISORegionName: string;
     readonly threeLetterWindowsRegionName: string;
     readonly twoLetterISORegionName: string;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -1022,7 +1022,7 @@ export type RegionInfo = RegionInfo$instance;
 export interface SortKey$instance {
     readonly keyData: byte[];
     readonly originalString: string;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -1063,7 +1063,7 @@ export type SortVersion = SortVersion$instance & __SortVersion$views;
 export interface StringInfo$instance {
     readonly lengthInTextElements: int;
     string_: string;
-    equals(value: unknown): boolean;
+    equals(value: unknown | undefined): boolean;
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
@@ -1189,7 +1189,7 @@ export interface TextInfo$instance {
     readonly macCodePage: int;
     readonly oemCodePage: int;
     clone(): unknown;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     toLower(c: char): char;
     toLower(str: string): string;

@@ -295,11 +295,11 @@ export interface EventSource$instance {
     readonly name: string;
     readonly settings: EventSourceSettings;
     dispose(): void;
-    getTrait(key: string | undefined): string | undefined;
+    getTrait(key: string): string | undefined;
     isEnabled(): boolean;
     isEnabled(level: EventLevel, keywords: EventKeywords): boolean;
     isEnabled(level: EventLevel, keywords: EventKeywords, channel: EventChannel): boolean;
-    toString(): string | undefined;
+    toString(): string;
     write(eventName: string | undefined): void;
     write(eventName: string | undefined, options: EventSourceOptions): void;
     write<T>(eventName: string | undefined, data: T): void;
@@ -310,16 +310,16 @@ export interface EventSource$instance {
 
 
 export const EventSource: {
-    new(eventSourceName: string | undefined): EventSource;
-    new(eventSourceName: string | undefined, config: EventSourceSettings): EventSource;
-    new(eventSourceName: string | undefined, config: EventSourceSettings, traits: string[]): EventSource;
+    new(eventSourceName: string): EventSource;
+    new(eventSourceName: string, config: EventSourceSettings): EventSource;
+    new(eventSourceName: string, config: EventSourceSettings, traits: string[]): EventSource;
     readonly currentThreadActivityId: Guid;
     generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string | undefined, flags: EventManifestOptions): string | undefined;
     generateManifest(eventSourceType: Type, assemblyPathToIncludeInManifest: string | undefined): string | undefined;
-    getGuid(eventSourceType: Type | undefined): Guid;
-    getName(eventSourceType: Type | undefined): string | undefined;
-    getSources(): IEnumerable_1<EventSource | undefined> | undefined;
-    sendCommand(eventSource: EventSource | undefined, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, string | undefined> | undefined): void;
+    getGuid(eventSourceType: Type): Guid;
+    getName(eventSourceType: Type): string;
+    getSources(): IEnumerable_1<EventSource>;
+    sendCommand(eventSource: EventSource, command: EventCommand, commandArguments: IDictionary_2<System_Internal.String, string | undefined> | undefined): void;
     setCurrentThreadActivityId(activityId: Guid, oldActivityThatWillContinue: Guid): void;
     setCurrentThreadActivityId(activityId: Guid): void;
 };
@@ -361,7 +361,7 @@ export const EventSourceCreatedEventArgs: {
 export type EventSourceCreatedEventArgs = EventSourceCreatedEventArgs$instance;
 
 export interface EventSourceException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 

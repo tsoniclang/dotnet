@@ -58,14 +58,14 @@ export const IsolatedStorage: {
 export type IsolatedStorage = IsolatedStorage$instance;
 
 export interface IsolatedStorageException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const IsolatedStorageException: {
     new(): IsolatedStorageException;
-    new(message: string): IsolatedStorageException;
-    new(message: string, inner: Exception): IsolatedStorageException;
+    new(message: string | undefined): IsolatedStorageException;
+    new(message: string | undefined, inner: Exception | undefined): IsolatedStorageException;
 };
 
 
@@ -116,9 +116,9 @@ export const IsolatedStorageFile: {
     getMachineStoreForApplication(): IsolatedStorageFile;
     getMachineStoreForAssembly(): IsolatedStorageFile;
     getMachineStoreForDomain(): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, domainIdentity: unknown, assemblyIdentity: unknown): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, domainIdentity: unknown | undefined, assemblyIdentity: unknown | undefined): IsolatedStorageFile;
     getStore(scope: IsolatedStorageScope, applicationIdentity: unknown | undefined): IsolatedStorageFile;
-    getStore(scope: IsolatedStorageScope, domainEvidenceType: Type, assemblyEvidenceType: Type): IsolatedStorageFile;
+    getStore(scope: IsolatedStorageScope, domainEvidenceType: Type | undefined, assemblyEvidenceType: Type | undefined): IsolatedStorageFile;
     getStore(scope: IsolatedStorageScope, applicationEvidenceType: Type | undefined): IsolatedStorageFile;
     getUserStoreForApplication(): IsolatedStorageFile;
     getUserStoreForAssembly(): IsolatedStorageFile;

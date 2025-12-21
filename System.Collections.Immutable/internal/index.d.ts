@@ -129,7 +129,7 @@ export interface ImmutableArray_1$instance<T> {
     copyTo(destination: T[]): void;
     copyTo(destination: T[], destinationIndex: int): void;
     copyTo(sourceIndex: int, destination: T[], destinationIndex: int, length: int): void;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: ImmutableArray_1<T>): boolean;
     getEnumerator(): ImmutableArray_1_Enumerator<T>;
     getHashCode(): int;

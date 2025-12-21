@@ -379,14 +379,14 @@ export interface PublicKey$instance {
     readonly key: AsymmetricAlgorithm;
     readonly oid: Oid;
     exportSubjectPublicKeyInfo(): byte[];
-    getCompositeMLDsaPublicKey(): CompositeMLDsa;
-    getDSAPublicKey(): DSA;
-    getECDiffieHellmanPublicKey(): ECDiffieHellman;
-    getECDsaPublicKey(): ECDsa;
-    getMLDsaPublicKey(): MLDsa;
-    getMLKemPublicKey(): MLKem;
-    getRSAPublicKey(): RSA;
-    getSlhDsaPublicKey(): SlhDsa;
+    getCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
+    getDSAPublicKey(): DSA | undefined;
+    getECDiffieHellmanPublicKey(): ECDiffieHellman | undefined;
+    getECDsaPublicKey(): ECDsa | undefined;
+    getMLDsaPublicKey(): MLDsa | undefined;
+    getMLKemPublicKey(): MLKem | undefined;
+    getRSAPublicKey(): RSA | undefined;
+    getSlhDsaPublicKey(): SlhDsa | undefined;
     tryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
@@ -467,7 +467,7 @@ export interface X500RelativeDistinguishedName$instance {
     readonly hasMultipleElements: boolean;
     readonly rawData: ReadOnlyMemory_1<System_Internal.Byte>;
     getSingleElementType(): Oid;
-    getSingleElementValue(): string;
+    getSingleElementValue(): string | undefined;
 }
 
 
@@ -548,8 +548,8 @@ export interface X509Certificate$instance {
     readonly serialNumberBytes: ReadOnlyMemory_1<System_Internal.Byte>;
     readonly subject: string;
     dispose(): void;
-    equals(obj: unknown): boolean;
-    equals(other: X509Certificate): boolean;
+    equals(obj: unknown | undefined): boolean;
+    equals(other: X509Certificate | undefined): boolean;
     export_(contentType: X509ContentType): byte[];
     export_(contentType: X509ContentType, password: string | undefined): byte[];
     export_(contentType: X509ContentType, password: SecureString | undefined): byte[];
@@ -565,8 +565,8 @@ export interface X509Certificate$instance {
     getHashCode(): int;
     getIssuerName(): string;
     getKeyAlgorithm(): string;
-    getKeyAlgorithmParameters(): byte[];
-    getKeyAlgorithmParametersString(): string;
+    getKeyAlgorithmParameters(): byte[] | undefined;
+    getKeyAlgorithmParametersString(): string | undefined;
     getName(): string;
     getPublicKey(): byte[];
     getPublicKeyString(): string;
@@ -642,18 +642,18 @@ export interface X509Certificate2$instance extends X509Certificate$instance {
     copyWithPrivateKey(privateKey: CompositeMLDsa): X509Certificate2;
     dispose(): void;
     exportCertificatePem(): string;
-    getCompositeMLDsaPrivateKey(): CompositeMLDsa;
-    getCompositeMLDsaPublicKey(): CompositeMLDsa;
-    getECDiffieHellmanPrivateKey(): ECDiffieHellman;
-    getECDiffieHellmanPublicKey(): ECDiffieHellman;
-    getMLDsaPrivateKey(): MLDsa;
-    getMLDsaPublicKey(): MLDsa;
-    getMLKemPrivateKey(): MLKem;
-    getMLKemPublicKey(): MLKem;
+    getCompositeMLDsaPrivateKey(): CompositeMLDsa | undefined;
+    getCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
+    getECDiffieHellmanPrivateKey(): ECDiffieHellman | undefined;
+    getECDiffieHellmanPublicKey(): ECDiffieHellman | undefined;
+    getMLDsaPrivateKey(): MLDsa | undefined;
+    getMLDsaPublicKey(): MLDsa | undefined;
+    getMLKemPrivateKey(): MLKem | undefined;
+    getMLKemPublicKey(): MLKem | undefined;
     getNameInfo(nameType: X509NameType, forIssuer: boolean): string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getSlhDsaPrivateKey(): SlhDsa;
-    getSlhDsaPublicKey(): SlhDsa;
+    getSlhDsaPrivateKey(): SlhDsa | undefined;
+    getSlhDsaPublicKey(): SlhDsa | undefined;
     import_(rawData: byte[]): void;
     import_(rawData: byte[], password: string | undefined, keyStorageFlags: X509KeyStorageFlags): void;
     import_(rawData: byte[], password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): void;
@@ -721,7 +721,7 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     copyTo(array: X509Certificate[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     export_(contentType: X509ContentType): byte[];
-    export_(contentType: X509ContentType, password: string): byte[];
+    export_(contentType: X509ContentType, password: string | undefined): byte[];
     exportCertificatePems(): string;
     exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string | undefined): byte[];
     exportPkcs12(exportParameters: PbeParameters, password: string | undefined): byte[];

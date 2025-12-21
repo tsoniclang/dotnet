@@ -96,7 +96,7 @@ export interface IDesignerSerializationManager$instance extends IServiceProvider
     createInstance(type_: Type, arguments: ICollection | undefined, name: string | undefined, addToContainer: boolean): unknown;
     getInstance(name: string): unknown | undefined;
     getName(value: unknown): string | undefined;
-    getSerializer(objectType: Type, serializerType: Type): unknown;
+    getSerializer(objectType: Type | undefined, serializerType: Type): unknown | undefined;
     getService(serviceType: Type): unknown | undefined;
     getType(typeName: string): Type | undefined;
     reportError(errorInformation: unknown): void;
@@ -136,7 +136,7 @@ export interface MemberRelationship$instance {
     readonly isEmpty: boolean;
     readonly member: MemberDescriptor;
     readonly owner: unknown;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: MemberRelationship): boolean;
     getHashCode(): int;
 }
@@ -181,11 +181,11 @@ export type ComponentSerializationService = ComponentSerializationService$instan
 
 export interface ContextStack$instance {
     readonly current: unknown;
-    append(context: unknown | undefined): void;
+    append(context: unknown): void;
     get_Item(level: int): unknown;
-    get_Item(type_: Type | undefined): unknown | undefined;
+    get_Item(type_: Type): unknown | undefined;
     pop(): unknown;
-    push(context: unknown | undefined): void;
+    push(context: unknown): void;
 }
 
 
@@ -231,8 +231,8 @@ export interface DesignerSerializerAttribute$instance extends Attribute {
 
 
 export const DesignerSerializerAttribute: {
-    new(serializerType: Type | undefined, baseSerializerType: Type | undefined): DesignerSerializerAttribute;
-    new(serializerTypeName: string | undefined, baseSerializerType: Type | undefined): DesignerSerializerAttribute;
+    new(serializerType: Type, baseSerializerType: Type): DesignerSerializerAttribute;
+    new(serializerTypeName: string | undefined, baseSerializerType: Type): DesignerSerializerAttribute;
     new(serializerTypeName: string | undefined, baseSerializerTypeName: string | undefined): DesignerSerializerAttribute;
 };
 
@@ -292,8 +292,8 @@ export interface RootDesignerSerializerAttribute$instance extends Attribute {
 
 
 export const RootDesignerSerializerAttribute: {
-    new(serializerType: Type | undefined, baseSerializerType: Type | undefined, reloadable: boolean): RootDesignerSerializerAttribute;
-    new(serializerTypeName: string | undefined, baseSerializerType: Type | undefined, reloadable: boolean): RootDesignerSerializerAttribute;
+    new(serializerType: Type, baseSerializerType: Type, reloadable: boolean): RootDesignerSerializerAttribute;
+    new(serializerTypeName: string, baseSerializerType: Type, reloadable: boolean): RootDesignerSerializerAttribute;
     new(serializerTypeName: string | undefined, baseSerializerTypeName: string | undefined, reloadable: boolean): RootDesignerSerializerAttribute;
 };
 

@@ -149,7 +149,7 @@ export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_Man
 
 export interface ComVariant$instance {
     readonly varType: VarEnum;
-    as_<T>(): T;
+    as_<T>(): T | undefined;
     dispose(): void;
     getRawDataRef<T extends unknown>(): T;
 }
@@ -176,7 +176,7 @@ export interface ComVariantMarshaller_RefPropagate$instance {
     free(): void;
     fromManaged(managed: unknown | undefined): void;
     fromUnmanaged(unmanaged: ComVariant): void;
-    toManaged(): unknown | undefined;
+    toManaged(): unknown;
     toUnmanaged(): ComVariant;
 }
 
@@ -284,7 +284,7 @@ export type SafeHandleMarshaller_1_ManagedToUnmanagedIn<T extends SafeHandle> = 
 export interface SafeHandleMarshaller_1_ManagedToUnmanagedOut$instance<T extends SafeHandle> {
     free(): void;
     fromUnmanaged(value: nint): void;
-    toManaged(): T | undefined;
+    toManaged(): T;
 }
 
 
@@ -628,7 +628,7 @@ export abstract class Utf16StringMarshaller$instance {
     static convertToManaged(unmanaged: ptr<ushort>): string | undefined;
     static convertToUnmanaged(managed: string | undefined): ptr<ushort>;
     static free(unmanaged: ptr<ushort>): void;
-    static getPinnableReference(str: string): char;
+    static getPinnableReference(str: string | undefined): char;
 }
 
 

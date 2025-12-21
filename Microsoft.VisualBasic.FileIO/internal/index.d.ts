@@ -121,7 +121,7 @@ export type FileSystem = FileSystem$instance;
 export interface MalformedLineException$instance extends Exception {
     lineNumber: long;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -176,7 +176,7 @@ export interface TextFieldParser$instance {
     dispose(): void;
     peekChars(numberOfChars: int): string;
     readFields(): string[];
-    readLine(): string;
+    readLine(): string | undefined;
     readToEnd(): string;
     setDelimiters(...delimiters: string[]): void;
     setFieldWidths(...fieldWidths: int[]): void;

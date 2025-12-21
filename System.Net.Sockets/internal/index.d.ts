@@ -362,7 +362,7 @@ export enum TransmitFileOptions {
 export interface IPPacketInformation$instance {
     readonly address: IPAddress;
     readonly interface_: int;
-    equals(comparand: unknown): boolean;
+    equals(comparand: unknown | undefined): boolean;
     equals(other: IPPacketInformation): boolean;
     getHashCode(): int;
 }
@@ -427,7 +427,7 @@ export type SocketReceiveMessageFromResult = SocketReceiveMessageFromResult$inst
 export interface UdpReceiveResult$instance {
     readonly buffer: byte[];
     readonly remoteEndPoint: IPEndPoint;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: UdpReceiveResult): boolean;
     getHashCode(): int;
 }
@@ -465,7 +465,7 @@ export type IPv6MulticastOption = IPv6MulticastOption$instance;
 export interface LingerOption$instance {
     enabled: boolean;
     lingerTime: int;
-    equals(comparand: unknown): boolean;
+    equals(comparand: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -633,27 +633,27 @@ export interface Socket$instance {
     acceptAsync(): Task_1<Socket>;
     acceptAsync(cancellationToken: CancellationToken): ValueTask_1<Socket>;
     acceptAsync(acceptSocket: Socket | undefined): Task_1<Socket>;
-    acceptAsync(acceptSocket: Socket, cancellationToken: CancellationToken): ValueTask_1<Socket>;
-    beginAccept(callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginAccept(receiveSize: int, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginAccept(acceptSocket: Socket, receiveSize: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    acceptAsync(acceptSocket: Socket | undefined, cancellationToken: CancellationToken): ValueTask_1<Socket>;
+    beginAccept(callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginAccept(receiveSize: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginAccept(acceptSocket: Socket | undefined, receiveSize: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginConnect(remoteEP: EndPoint, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginConnect(host: string, port: int, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginConnect(address: IPAddress, port: int, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginConnect(addresses: IPAddress[], port: int, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
-    beginDisconnect(reuseSocket: boolean, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginDisconnect(reuseSocket: boolean, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginReceive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
-    beginReceive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginReceive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginReceive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginReceive(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult | undefined;
+    beginReceive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginReceive(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult | undefined;
     beginReceiveFrom(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginReceiveMessageFrom(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginSend(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
-    beginSend(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginSend(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginSend(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginSendFile(fileName: string, callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginSendFile(fileName: string, preBuffer: byte[], postBuffer: byte[], flags: TransmitFileOptions, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginSend(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult | undefined;
+    beginSend(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginSend(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags, errorCode: SocketError, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult | undefined;
+    beginSendFile(fileName: string | undefined, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginSendFile(fileName: string | undefined, preBuffer: byte[] | undefined, postBuffer: byte[] | undefined, flags: TransmitFileOptions, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginSendTo(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     bind(localEP: EndPoint): void;
     close(): void;
@@ -690,11 +690,11 @@ export interface Socket$instance {
     endSendFile(asyncResult: IAsyncResult): void;
     endSendTo(asyncResult: IAsyncResult): int;
     getRawSocketOption(optionLevel: int, optionName: int, optionValue: Span_1<System_Internal.Byte>): int;
-    getSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName): unknown;
+    getSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName): unknown | undefined;
     getSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionValue: byte[]): void;
     getSocketOption(optionLevel: SocketOptionLevel, optionName: SocketOptionName, optionLength: int): byte[];
-    ioControl(ioControlCode: int, optionInValue: byte[], optionOutValue: byte[]): int;
-    ioControl(ioControlCode: IOControlCode, optionInValue: byte[], optionOutValue: byte[]): int;
+    ioControl(ioControlCode: int, optionInValue: byte[] | undefined, optionOutValue: byte[] | undefined): int;
+    ioControl(ioControlCode: IOControlCode, optionInValue: byte[] | undefined, optionOutValue: byte[] | undefined): int;
     listen(): void;
     listen(backlog: int): void;
     poll(microSeconds: int, mode: SelectMode): boolean;
@@ -755,10 +755,10 @@ export interface Socket$instance {
     sendAsync(buffer: ReadOnlyMemory_1<System_Internal.Byte>, socketFlags: SocketFlags, cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Int32>;
     sendAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>): Task_1<System_Internal.Int32>;
     sendAsync(buffers: IList_1<ArraySegment_1<System_Internal.Byte>>, socketFlags: SocketFlags): Task_1<System_Internal.Int32>;
-    sendFile(fileName: string): void;
-    sendFile(fileName: string, preBuffer: byte[], postBuffer: byte[], flags: TransmitFileOptions): void;
+    sendFile(fileName: string | undefined): void;
+    sendFile(fileName: string | undefined, preBuffer: byte[] | undefined, postBuffer: byte[] | undefined, flags: TransmitFileOptions): void;
     sendFile(fileName: string | undefined, preBuffer: ReadOnlySpan_1<System_Internal.Byte>, postBuffer: ReadOnlySpan_1<System_Internal.Byte>, flags: TransmitFileOptions): void;
-    sendFileAsync(fileName: string, cancellationToken?: CancellationToken): ValueTask;
+    sendFileAsync(fileName: string | undefined, cancellationToken?: CancellationToken): ValueTask;
     sendFileAsync(fileName: string | undefined, preBuffer: ReadOnlyMemory_1<System_Internal.Byte>, postBuffer: ReadOnlyMemory_1<System_Internal.Byte>, flags: TransmitFileOptions, cancellationToken?: CancellationToken): ValueTask;
     sendPacketsAsync(e: SocketAsyncEventArgs): boolean;
     sendTo(buffer: byte[], offset: int, size: int, socketFlags: SocketFlags, remoteEP: EndPoint): int;
@@ -796,8 +796,8 @@ export const Socket: {
     readonly osSupportsUnixDomainSockets: boolean;
     cancelConnectAsync(e: SocketAsyncEventArgs): void;
     connectAsync(socketType: SocketType, protocolType: ProtocolType, e: SocketAsyncEventArgs): boolean;
-    select(checkRead: IList, checkWrite: IList, checkError: IList, microSeconds: int): void;
-    select(checkRead: IList, checkWrite: IList, checkError: IList, timeout: TimeSpan): void;
+    select(checkRead: IList | undefined, checkWrite: IList | undefined, checkError: IList | undefined, microSeconds: int): void;
+    select(checkRead: IList | undefined, checkWrite: IList | undefined, checkError: IList | undefined, timeout: TimeSpan): void;
 };
 
 
@@ -862,7 +862,7 @@ export interface SocketException$instance extends Win32Exception {
 
 export const SocketException: {
     new(errorCode: int): SocketException;
-    new(errorCode: int, message: string): SocketException;
+    new(errorCode: int, message: string | undefined): SocketException;
     new(): SocketException;
 };
 
@@ -935,8 +935,8 @@ export interface TcpListener$instance {
     acceptTcpClientAsync(): Task_1<TcpClient>;
     acceptTcpClientAsync(cancellationToken: CancellationToken): ValueTask_1<TcpClient>;
     allowNatTraversal(allowed: boolean): void;
-    beginAcceptSocket(callback: AsyncCallback, state: unknown): IAsyncResult;
-    beginAcceptTcpClient(callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginAcceptSocket(callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginAcceptTcpClient(callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     dispose(): void;
     endAcceptSocket(asyncResult: IAsyncResult): Socket;
     endAcceptTcpClient(asyncResult: IAsyncResult): TcpClient;
@@ -973,10 +973,10 @@ export interface UdpClient$instance {
     multicastLoopback: boolean;
     ttl: short;
     allowNatTraversal(allowed: boolean): void;
-    beginReceive(requestCallback: AsyncCallback, state: unknown): IAsyncResult;
+    beginReceive(requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     beginSend(datagram: byte[], bytes: int, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
-    beginSend(datagram: byte[], bytes: int, hostname: string, port: int, requestCallback: AsyncCallback, state: unknown): IAsyncResult;
-    beginSend(datagram: byte[], bytes: int, endPoint: IPEndPoint, requestCallback: AsyncCallback, state: unknown): IAsyncResult;
+    beginSend(datagram: byte[], bytes: int, hostname: string | undefined, port: int, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginSend(datagram: byte[], bytes: int, endPoint: IPEndPoint | undefined, requestCallback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
     close(): void;
     connect(hostname: string, port: int): void;
     connect(addr: IPAddress, port: int): void;
@@ -1030,7 +1030,7 @@ export type UdpClient = UdpClient$instance & __UdpClient$views;
 export interface UnixDomainSocketEndPoint$instance extends EndPoint {
     readonly addressFamily: AddressFamily;
     create(socketAddress: SocketAddress): EndPoint;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     serialize(): SocketAddress;
     toString(): string;

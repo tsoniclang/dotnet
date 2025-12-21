@@ -20,8 +20,8 @@ export interface BinaryFormatter$instance {
     filterLevel: TypeFilterLevel;
     surrogateSelector: ISurrogateSelector | undefined;
     typeFormat: FormatterTypeStyle;
-    deserialize(serializationStream: Stream | undefined): unknown;
-    serialize(serializationStream: Stream | undefined, graph: unknown | undefined): void;
+    deserialize(serializationStream: Stream): unknown;
+    serialize(serializationStream: Stream, graph: unknown): void;
 }
 
 

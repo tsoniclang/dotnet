@@ -46,7 +46,7 @@ export type IValidatableObject = IValidatableObject$instance;
 
 export interface AllowedValuesAttribute$instance extends ValidationAttribute {
     readonly values: (unknown | undefined)[];
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -90,7 +90,7 @@ export const AssociationAttribute: {
 export type AssociationAttribute = AssociationAttribute$instance;
 
 export interface Base64StringAttribute$instance extends ValidationAttribute {
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -128,7 +128,7 @@ export const ConcurrencyCheckAttribute: {
 export type ConcurrencyCheckAttribute = ConcurrencyCheckAttribute$instance;
 
 export interface CreditCardAttribute$instance extends DataTypeAttribute {
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -159,14 +159,14 @@ export interface DataTypeAttribute$instance extends ValidationAttribute {
     readonly customDataType: string | undefined;
     readonly dataType: DataType;
     readonly displayFormat: DisplayFormatAttribute | undefined;
-    getDataTypeName(): string | undefined;
+    getDataTypeName(): string;
     isValid(value: unknown | undefined): boolean;
 }
 
 
 export const DataTypeAttribute: {
     new(dataType: DataType): DataTypeAttribute;
-    new(customDataType: string | undefined): DataTypeAttribute;
+    new(customDataType: string): DataTypeAttribute;
 };
 
 
@@ -174,7 +174,7 @@ export type DataTypeAttribute = DataTypeAttribute$instance;
 
 export interface DeniedValuesAttribute$instance extends ValidationAttribute {
     readonly values: (unknown | undefined)[];
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -261,7 +261,7 @@ export const EditableAttribute: {
 export type EditableAttribute = EditableAttribute$instance;
 
 export interface EmailAddressAttribute$instance extends DataTypeAttribute {
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -274,7 +274,7 @@ export type EmailAddressAttribute = EmailAddressAttribute$instance;
 
 export interface EnumDataTypeAttribute$instance extends DataTypeAttribute {
     readonly enumType: Type;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -288,7 +288,7 @@ export type EnumDataTypeAttribute = EnumDataTypeAttribute$instance;
 export interface FileExtensionsAttribute$instance extends DataTypeAttribute {
     extensions: string;
     formatErrorMessage(name: string): string;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -303,7 +303,7 @@ export interface FilterUIHintAttribute$instance extends Attribute {
     readonly controlParameters: IDictionary_2<System_Internal.String, unknown | undefined>;
     readonly filterUIHint: string;
     readonly presentationLayer: string | undefined;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -331,8 +331,8 @@ export type KeyAttribute = KeyAttribute$instance;
 export interface LengthAttribute$instance extends ValidationAttribute {
     readonly maximumLength: int;
     readonly minimumLength: int;
-    formatErrorMessage(name: string): string | undefined;
-    isValid(value: unknown): boolean;
+    formatErrorMessage(name: string): string;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -346,7 +346,7 @@ export type LengthAttribute = LengthAttribute$instance;
 export interface MaxLengthAttribute$instance extends ValidationAttribute {
     readonly length: int;
     formatErrorMessage(name: string): string;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -372,8 +372,8 @@ export type MetadataTypeAttribute = MetadataTypeAttribute$instance;
 
 export interface MinLengthAttribute$instance extends ValidationAttribute {
     readonly length: int;
-    formatErrorMessage(name: string): string | undefined;
-    isValid(value: unknown): boolean;
+    formatErrorMessage(name: string): string;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -385,7 +385,7 @@ export const MinLengthAttribute: {
 export type MinLengthAttribute = MinLengthAttribute$instance;
 
 export interface PhoneAttribute$instance extends DataTypeAttribute {
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -405,7 +405,7 @@ export interface RangeAttribute$instance extends ValidationAttribute {
     readonly operandType: Type;
     parseLimitsInInvariantCulture: boolean;
     formatErrorMessage(name: string): string;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -423,7 +423,7 @@ export interface RegularExpressionAttribute$instance extends ValidationAttribute
     matchTimeoutInMilliseconds: int;
     readonly pattern: string;
     formatErrorMessage(name: string): string;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -436,7 +436,7 @@ export type RegularExpressionAttribute = RegularExpressionAttribute$instance;
 
 export interface RequiredAttribute$instance extends ValidationAttribute {
     allowEmptyStrings: boolean;
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -462,8 +462,8 @@ export type ScaffoldColumnAttribute = ScaffoldColumnAttribute$instance;
 export interface StringLengthAttribute$instance extends ValidationAttribute {
     readonly maximumLength: int;
     minimumLength: int;
-    formatErrorMessage(name: string): string | undefined;
-    isValid(value: unknown): boolean;
+    formatErrorMessage(name: string): string;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -489,7 +489,7 @@ export interface UIHintAttribute$instance extends Attribute {
     readonly controlParameters: IDictionary_2<System_Internal.String, unknown | undefined>;
     readonly presentationLayer: string | undefined;
     readonly uiHint: string;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -497,14 +497,14 @@ export interface UIHintAttribute$instance extends Attribute {
 export const UIHintAttribute: {
     new(uiHint: string): UIHintAttribute;
     new(uiHint: string, presentationLayer: string | undefined): UIHintAttribute;
-    new(uiHint: string, presentationLayer: string, controlParameters: unknown[]): UIHintAttribute;
+    new(uiHint: string, presentationLayer: string | undefined, controlParameters: unknown[]): UIHintAttribute;
 };
 
 
 export type UIHintAttribute = UIHintAttribute$instance;
 
 export interface UrlAttribute$instance extends DataTypeAttribute {
-    isValid(value: unknown): boolean;
+    isValid(value: unknown | undefined): boolean;
 }
 
 
@@ -520,11 +520,11 @@ export interface ValidationAttribute$instance extends Attribute {
     errorMessageResourceName: string | undefined;
     errorMessageResourceType: Type | undefined;
     readonly requiresValidationContext: boolean;
-    formatErrorMessage(name: string | undefined): string | undefined;
+    formatErrorMessage(name: string): string;
     getValidationResult(value: unknown | undefined, validationContext: ValidationContext): ValidationResult | undefined;
     isValid(value: unknown | undefined): boolean;
-    validate(value: unknown | undefined, name: string | undefined): void;
-    validate(value: unknown | undefined, validationContext: ValidationContext | undefined): void;
+    validate(value: unknown | undefined, name: string): void;
+    validate(value: unknown | undefined, validationContext: ValidationContext): void;
 }
 
 
@@ -566,7 +566,7 @@ export interface ValidationException$instance extends Exception {
     readonly validationAttribute: ValidationAttribute | undefined;
     readonly validationResult: ValidationResult;
     readonly value: unknown;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -589,7 +589,7 @@ export type ValidationException = ValidationException$instance & __ValidationExc
 export interface ValidationResult$instance {
     errorMessage: string | undefined;
     readonly memberNames: IEnumerable_1<System_Internal.String>;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 

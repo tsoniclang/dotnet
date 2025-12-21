@@ -525,7 +525,7 @@ export const Expression: {
     makeGoto(kind: GotoExpressionKind, target: LabelTarget, value: Expression | undefined, type_: Type): GotoExpression;
     makeIndex(instance: Expression, indexer: PropertyInfo | undefined, arguments: IEnumerable_1<Expression> | undefined): IndexExpression;
     makeMemberAccess(expression: Expression | undefined, member: MemberInfo): MemberExpression;
-    makeTry(type_: Type, body: Expression, finally_: Expression, fault: Expression, handlers: IEnumerable_1<CatchBlock> | undefined): TryExpression;
+    makeTry(type_: Type | undefined, body: Expression, finally_: Expression | undefined, fault: Expression | undefined, handlers: IEnumerable_1<CatchBlock> | undefined): TryExpression;
     makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type, method: MethodInfo | undefined): UnaryExpression;
     makeUnary(unaryType: ExpressionType, operand: Expression, type_: Type): UnaryExpression;
     memberBind(member: MemberInfo, bindings: IEnumerable_1<MemberBinding>): MemberMemberBinding;
@@ -629,8 +629,8 @@ export const Expression: {
     switch_(switchValue: Expression, defaultBody: Expression | undefined, comparison: MethodInfo | undefined, cases: IEnumerable_1<SwitchCase> | undefined): SwitchExpression;
     switch_(switchValue: Expression, defaultBody: Expression | undefined, comparison: MethodInfo | undefined, ...cases: SwitchCase[]): SwitchExpression;
     switch_(switchValue: Expression, ...cases: SwitchCase[]): SwitchExpression;
-    switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, cases: IEnumerable_1<SwitchCase> | undefined): SwitchExpression;
-    switch_(type_: Type, switchValue: Expression, defaultBody: Expression, comparison: MethodInfo, ...cases: SwitchCase[]): SwitchExpression;
+    switch_(type_: Type | undefined, switchValue: Expression, defaultBody: Expression | undefined, comparison: MethodInfo | undefined, cases: IEnumerable_1<SwitchCase> | undefined): SwitchExpression;
+    switch_(type_: Type | undefined, switchValue: Expression, defaultBody: Expression | undefined, comparison: MethodInfo | undefined, ...cases: SwitchCase[]): SwitchExpression;
     switchCase(body: Expression, testValues: IEnumerable_1<Expression>): SwitchCase;
     switchCase(body: Expression, ...testValues: Expression[]): SwitchCase;
     symbolDocument(fileName: string, language: Guid, languageVendor: Guid, documentType: Guid): SymbolDocumentInfo;
@@ -677,9 +677,9 @@ export const Expression_1: {
 export type Expression_1<TDelegate> = Expression_1$instance<TDelegate>;
 
 export interface ExpressionVisitor$instance {
-    visit(node: Expression): Expression;
+    visit(node: Expression | undefined): Expression | undefined;
     visit(nodes: ReadOnlyCollection_1<Expression>): ReadOnlyCollection_1<Expression>;
-    visitAndConvert<T extends Expression>(node: T, callerName: string): T;
+    visitAndConvert<T extends Expression>(node: T | undefined, callerName: string | undefined): T | undefined;
     visitAndConvert<T extends Expression>(nodes: ReadOnlyCollection_1<T>, callerName: string | undefined): ReadOnlyCollection_1<T>;
 }
 

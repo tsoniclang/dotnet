@@ -15,16 +15,16 @@ import type { Boolean as ClrBoolean, Byte, Char, IFormatProvider, Int32, Object 
 
 export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): boolean;
-    appendFormatted<T>(value: T, format: string): boolean;
+    appendFormatted<T>(value: T, format: string | undefined): boolean;
     appendFormatted<T>(value: T, alignment: int): boolean;
-    appendFormatted<T>(value: T, alignment: int, format: string): boolean;
+    appendFormatted<T>(value: T, alignment: int, format: string | undefined): boolean;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | undefined): boolean;
     appendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     appendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string | undefined): boolean;
-    appendFormatted(value: string): boolean;
-    appendFormatted(value: string, alignment?: int, format?: string): boolean;
-    appendFormatted(value: unknown, alignment?: int, format?: string): boolean;
+    appendFormatted(value: string | undefined): boolean;
+    appendFormatted(value: string | undefined, alignment?: int, format?: string | undefined): boolean;
+    appendFormatted(value: unknown | undefined, alignment?: int, format?: string | undefined): boolean;
     appendLiteral(value: string): boolean;
 }
 

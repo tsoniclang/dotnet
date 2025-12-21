@@ -61,14 +61,14 @@ export type IOrderedDictionary = IOrderedDictionary$instance;
 
 export interface BitVector32$instance {
     readonly data: int;
-    equals(o: unknown): boolean;
+    equals(o: unknown | undefined): boolean;
     equals(other: BitVector32): boolean;
     get_Item(bit: int): boolean;
     get_Item(section: BitVector32_Section): int;
     getHashCode(): int;
     set_Item(bit: int, value: boolean): void;
     set_Item(section: BitVector32_Section, value: int): void;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -96,10 +96,10 @@ export type BitVector32 = BitVector32$instance & __BitVector32$views;
 export interface BitVector32_Section$instance {
     readonly mask: short;
     readonly offset: short;
-    equals(o: unknown): boolean;
+    equals(o: unknown | undefined): boolean;
     equals(obj: BitVector32_Section): boolean;
     getHashCode(): int;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -189,7 +189,7 @@ export interface ListDictionary$instance {
 
 export const ListDictionary: {
     new(): ListDictionary;
-    new(comparer: IComparer): ListDictionary;
+    new(comparer: IComparer | undefined): ListDictionary;
 };
 
 
@@ -220,7 +220,7 @@ export interface NameObjectCollectionBase$instance {
     readonly count: int;
     readonly keys: NameObjectCollectionBase_KeysCollection;
     getEnumerator(): IEnumerator;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     onDeserialization(sender: unknown | undefined): void;
 }
 
@@ -236,7 +236,7 @@ export interface __NameObjectCollectionBase$views {
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
 
-export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance {}
+export interface NameObjectCollectionBase$instance extends System_Runtime_Serialization_Internal.IDeserializationCallback$instance, System_Runtime_Serialization_Internal.ISerializable$instance {}
 
 export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __NameObjectCollectionBase$views;
 
@@ -264,17 +264,17 @@ export type NameObjectCollectionBase_KeysCollection = NameObjectCollectionBase_K
 
 export interface NameValueCollection$instance extends NameObjectCollectionBase$instance {
     readonly allKeys: (string | undefined)[] | string[];
-    add(c: NameValueCollection | undefined): void;
+    add(c: NameValueCollection): void;
     add(name: string | undefined, value: string | undefined): void;
     clear(): void;
-    copyTo(dest: ClrArray | undefined, index: int): void;
+    copyTo(dest: ClrArray, index: int): void;
     get_(name: string | undefined): string | undefined;
     get_(index: int): string | undefined;
     get_Item(name: string | undefined): string;
     get_Item(index: int): string;
     getEnumerator(): IEnumerator;
     getKey(index: int): string;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getValues(name: string | undefined): string[];
     getValues(index: int): string[] | undefined;
     hasKeys(): boolean;
@@ -287,12 +287,12 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
 
 export const NameValueCollection: {
     new(): NameValueCollection;
-    new(col: NameValueCollection | undefined): NameValueCollection;
+    new(col: NameValueCollection): NameValueCollection;
     new(hashProvider: IHashCodeProvider | undefined, comparer: IComparer | undefined): NameValueCollection;
     new(capacity: int): NameValueCollection;
     new(equalityComparer: IEqualityComparer | undefined): NameValueCollection;
     new(capacity: int, equalityComparer: IEqualityComparer | undefined): NameValueCollection;
-    new(capacity: int, col: NameValueCollection | undefined): NameValueCollection;
+    new(capacity: int, col: NameValueCollection): NameValueCollection;
     new(capacity: int, hashProvider: IHashCodeProvider | undefined, comparer: IComparer | undefined): NameValueCollection;
 };
 
@@ -303,6 +303,8 @@ export interface __NameValueCollection$views {
     As_IDeserializationCallback(): System_Runtime_Serialization_Internal.IDeserializationCallback$instance;
     As_ISerializable(): System_Runtime_Serialization_Internal.ISerializable$instance;
 }
+
+export interface NameValueCollection$instance extends System_Collections_Internal.ICollection$instance {}
 
 export type NameValueCollection = NameValueCollection$instance & __NameValueCollection$views;
 
@@ -324,8 +326,8 @@ export const NotifyCollectionChangedEventArgs: {
     new(action: NotifyCollectionChangedAction, changedItems: IList | undefined, startingIndex: int): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, newItem: unknown | undefined, oldItem: unknown | undefined): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, newItem: unknown | undefined, oldItem: unknown | undefined, index: int): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, newItems: IList | undefined, oldItems: IList | undefined): NotifyCollectionChangedEventArgs;
-    new(action: NotifyCollectionChangedAction, newItems: IList | undefined, oldItems: IList | undefined, startingIndex: int): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList): NotifyCollectionChangedEventArgs;
+    new(action: NotifyCollectionChangedAction, newItems: IList, oldItems: IList, startingIndex: int): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, changedItem: unknown | undefined, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
     new(action: NotifyCollectionChangedAction, changedItems: IList | undefined, index: int, oldIndex: int): NotifyCollectionChangedEventArgs;
 };
@@ -358,8 +360,8 @@ export interface OrderedDictionary$instance {
 export const OrderedDictionary: {
     new(): OrderedDictionary;
     new(capacity: int): OrderedDictionary;
-    new(comparer: IEqualityComparer): OrderedDictionary;
-    new(capacity: int, comparer: IEqualityComparer): OrderedDictionary;
+    new(comparer: IEqualityComparer | undefined): OrderedDictionary;
+    new(capacity: int, comparer: IEqualityComparer | undefined): OrderedDictionary;
 };
 
 
@@ -420,7 +422,7 @@ export interface StringDictionary$instance {
     add(key: string, value: string | undefined): void;
     clear(): void;
     containsKey(key: string): boolean;
-    containsValue(value: string): boolean;
+    containsValue(value: string | undefined): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     remove(key: string): void;

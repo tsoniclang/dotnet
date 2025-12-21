@@ -178,10 +178,10 @@ export interface StandardFormat$instance {
     readonly isDefault: boolean;
     readonly precision: byte;
     readonly symbol_: char;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: StandardFormat): boolean;
     getHashCode(): int;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -190,7 +190,7 @@ export const StandardFormat: {
     readonly noPrecision: byte;
     readonly maxPrecision: byte;
     parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
-    parse(format: string): StandardFormat;
+    parse(format: string | undefined): StandardFormat;
     tryParse(format: ReadOnlySpan_1<System_Internal.Char>, result: StandardFormat): boolean;
 };
 

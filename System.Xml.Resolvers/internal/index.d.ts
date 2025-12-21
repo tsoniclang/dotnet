@@ -30,11 +30,11 @@ export interface XmlPreloadedResolver$instance extends XmlResolver {
     add(uri: Uri, value: byte[], offset: int, count: int): void;
     add(uri: Uri, value: Stream): void;
     add(uri: Uri, value: string): void;
-    getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown;
+    getEntity(absoluteUri: Uri, role: string | undefined, ofObjectToReturn: Type | undefined): unknown | undefined;
     getEntityAsync(absoluteUri: Uri, role: string | undefined, ofObjectToReturn: Type | undefined): Task_1<unknown>;
     getEntityAsync(absoluteUri: Uri, role: string | undefined, ofObjectToReturn: Type | undefined): Task_1<unknown>;
     remove(uri: Uri): void;
-    resolveUri(baseUri: Uri, relativeUri: string): Uri;
+    resolveUri(baseUri: Uri | undefined, relativeUri: string | undefined): Uri;
     supportsType(absoluteUri: Uri, type_: Type | undefined): boolean;
 }
 
@@ -42,9 +42,9 @@ export interface XmlPreloadedResolver$instance extends XmlResolver {
 export const XmlPreloadedResolver: {
     new(): XmlPreloadedResolver;
     new(preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
-    new(fallbackResolver: XmlResolver, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri> | undefined): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | undefined): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | undefined, preloadedDtds: XmlKnownDtds): XmlPreloadedResolver;
+    new(fallbackResolver: XmlResolver | undefined, preloadedDtds: XmlKnownDtds, uriComparer: IEqualityComparer_1<Uri> | undefined): XmlPreloadedResolver;
 };
 
 

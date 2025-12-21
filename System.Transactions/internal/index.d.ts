@@ -133,7 +133,7 @@ export type ITransactionPromoter = ITransactionPromoter$instance;
 export interface TransactionOptions$instance {
     isolationLevel: IsolationLevel;
     timeout: TimeSpan;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     equals(other: TransactionOptions): boolean;
     getHashCode(): int;
 }
@@ -155,7 +155,7 @@ export type TransactionOptions = TransactionOptions$instance & __TransactionOpti
 
 
 export interface CommittableTransaction$instance extends Transaction$instance {
-    beginCommit(asyncCallback: AsyncCallback, asyncState: unknown): IAsyncResult;
+    beginCommit(asyncCallback: AsyncCallback | undefined, asyncState: unknown | undefined): IAsyncResult;
     commit(): void;
     dispose(): void;
     endCommit(asyncResult: IAsyncResult): void;
@@ -217,7 +217,7 @@ export type Enlistment = Enlistment$instance;
 
 export interface PreparingEnlistment$instance extends Enlistment {
     forceRollback(): void;
-    forceRollback(e: Exception): void;
+    forceRollback(e: Exception | undefined): void;
     prepared(): void;
     recoveryInformation(): byte[];
 }
@@ -280,12 +280,12 @@ export interface Transaction$instance {
     enlistPromotableSinglePhase(promotableSinglePhaseNotification: IPromotableSinglePhaseNotification, promoterType: Guid): boolean;
     enlistVolatile(enlistmentNotification: IEnlistmentNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
     enlistVolatile(singlePhaseNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
-    equals(obj: unknown): boolean;
+    equals(obj: unknown | undefined): boolean;
     getHashCode(): int;
     getPromotedToken(): byte[];
     promoteAndEnlistDurable(resourceManagerIdentifier: Guid, promotableNotification: IPromotableSinglePhaseNotification, enlistmentNotification: ISinglePhaseNotification, enlistmentOptions: EnlistmentOptions): Enlistment;
     rollback(): void;
-    rollback(e: Exception): void;
+    rollback(e: Exception | undefined): void;
     setDistributedTransactionIdentifier(promotableNotification: IPromotableSinglePhaseNotification, distributedTransactionIdentifier: Guid): void;
 }
 

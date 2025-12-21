@@ -25,17 +25,17 @@ export interface HttpUtility$instance {
 
 export const HttpUtility: {
     new(): HttpUtility;
-    htmlAttributeEncode(s: string | undefined, output: TextWriter | undefined): void;
+    htmlAttributeEncode(s: string | undefined, output: TextWriter): void;
     htmlAttributeEncode(s: string | undefined): string | undefined;
-    htmlDecode(s: string | undefined, output: TextWriter | undefined): void;
+    htmlDecode(s: string | undefined, output: TextWriter): void;
     htmlDecode(s: string | undefined): string | undefined;
     htmlEncode(value: unknown | undefined): string | undefined;
-    htmlEncode(s: string | undefined, output: TextWriter | undefined): void;
+    htmlEncode(s: string | undefined, output: TextWriter): void;
     htmlEncode(s: string | undefined): string | undefined;
-    javaScriptStringEncode(value: string | undefined, addDoubleQuotes: boolean): string | undefined;
-    javaScriptStringEncode(value: string | undefined): string | undefined;
-    parseQueryString(query: string | undefined, encoding: Encoding | undefined): NameValueCollection | undefined;
-    parseQueryString(query: string | undefined): NameValueCollection | undefined;
+    javaScriptStringEncode(value: string | undefined, addDoubleQuotes: boolean): string;
+    javaScriptStringEncode(value: string | undefined): string;
+    parseQueryString(query: string, encoding: Encoding): NameValueCollection;
+    parseQueryString(query: string): NameValueCollection;
     urlDecode(bytes: byte[] | undefined, offset: int, count: int, e: Encoding): string | undefined;
     urlDecode(bytes: byte[] | undefined, e: Encoding): string | undefined;
     urlDecode(str: string | undefined, e: Encoding): string | undefined;

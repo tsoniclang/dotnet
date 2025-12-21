@@ -352,14 +352,14 @@ export interface IColumnMappingCollection$instance extends IList, ICollection, I
     add(sourceColumnName: string, dataSetColumnName: string): IColumnMapping;
     add(value: unknown | undefined): int;
     clear(): void;
-    contains(sourceColumnName: string): boolean;
+    contains(sourceColumnName: string | undefined): boolean;
     contains(value: unknown | undefined): boolean;
     copyTo(array: ClrArray, index: int): void;
     get_Item2(index: int): unknown;
     get_Item2(index: string): unknown;
     getByDataSetColumn(dataSetColumnName: string): IColumnMapping;
     getEnumerator(): IEnumerator;
-    indexOf(sourceColumnName: string): int;
+    indexOf(sourceColumnName: string | undefined): int;
     insert(index: int, value: unknown | undefined): void;
     remove(value: unknown | undefined): void;
     removeAt(sourceColumnName: string): void;
@@ -432,9 +432,9 @@ export interface IDataReader$instance extends IDisposable, IDataRecord {
     get_Item(name: string): unknown;
     getBoolean(i: int): boolean;
     getByte(i: int): byte;
-    getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
+    getBytes(i: int, fieldOffset: long, buffer: byte[] | undefined, bufferoffset: int, length: int): long;
     getChar(i: int): char;
-    getChars(i: int, fieldoffset: long, buffer: char[], bufferoffset: int, length: int): long;
+    getChars(i: int, fieldoffset: long, buffer: char[] | undefined, bufferoffset: int, length: int): long;
     getData(i: int): IDataReader;
     getDateTime(i: int): DateTime;
     getDecimal(i: int): decimal;
@@ -447,7 +447,7 @@ export interface IDataReader$instance extends IDisposable, IDataRecord {
     getInt64(i: int): long;
     getName(i: int): string;
     getOrdinal(name: string): int;
-    getSchemaTable(): DataTable;
+    getSchemaTable(): DataTable | undefined;
     getValue(i: int): unknown;
     getValues(values: unknown[]): int;
     nextResult(): boolean;
@@ -466,9 +466,9 @@ export interface IDataRecord$instance {
     get_Item(name: string): unknown;
     getBoolean(i: int): boolean;
     getByte(i: int): byte;
-    getBytes(i: int, fieldOffset: long, buffer: byte[], bufferoffset: int, length: int): long;
+    getBytes(i: int, fieldOffset: long, buffer: byte[] | undefined, bufferoffset: int, length: int): long;
     getChar(i: int): char;
-    getChars(i: int, fieldoffset: long, buffer: char[], bufferoffset: int, length: int): long;
+    getChars(i: int, fieldoffset: long, buffer: char[] | undefined, bufferoffset: int, length: int): long;
     getData(i: int): IDataReader;
     getDateTime(i: int): DateTime;
     getDecimal(i: int): decimal;
@@ -500,7 +500,7 @@ export interface IDbCommand$instance extends IDisposable {
     executeNonQuery(): int;
     executeReader(): IDataReader;
     executeReader(behavior: CommandBehavior): IDataReader;
-    executeScalar(): unknown;
+    executeScalar(): unknown | undefined;
     prepare(): void;
     dispose(): void;
 }
@@ -594,14 +594,14 @@ export interface ITableMappingCollection$instance extends IList, ICollection, IE
     add(sourceTableName: string, dataSetTableName: string): ITableMapping;
     add(value: unknown | undefined): int;
     clear(): void;
-    contains(sourceTableName: string): boolean;
+    contains(sourceTableName: string | undefined): boolean;
     contains(value: unknown | undefined): boolean;
     copyTo(array: ClrArray, index: int): void;
     get_Item2(index: int): unknown;
     get_Item2(index: string): unknown;
     getByDataSetTable(dataSetTableName: string): ITableMapping;
     getEnumerator(): IEnumerator;
-    indexOf(sourceTableName: string): int;
+    indexOf(sourceTableName: string | undefined): int;
     insert(index: int, value: unknown | undefined): void;
     remove(value: unknown | undefined): void;
     removeAt(sourceTableName: string): void;
@@ -636,13 +636,13 @@ export interface ConstraintCollection$instance extends InternalDataCollectionBas
     addRange(constraints: Constraint[] | undefined): void;
     canRemove(constraint: Constraint): boolean;
     clear(): void;
-    contains(name: string): boolean;
+    contains(name: string | undefined): boolean;
     copyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): Constraint;
-    get_Item(name: string): Constraint;
+    get_Item(name: string | undefined): Constraint;
     getEnumerator(): IEnumerator;
-    indexOf(constraint: Constraint): int;
-    indexOf(constraintName: string): int;
+    indexOf(constraint: Constraint | undefined): int;
+    indexOf(constraintName: string | undefined): int;
     remove(constraint: Constraint): void;
     remove(name: string): void;
     removeAt(index: int): void;
@@ -702,7 +702,7 @@ export interface DataColumn$instance extends MarshalByValueComponent {
     readonly table: DataTable;
     unique: boolean;
     dispose(): void;
-    getService(service: Type | undefined): unknown | undefined;
+    getService(service: Type): unknown | undefined;
     setOrdinal(ordinal: int): void;
     toString(): string;
 }
@@ -710,10 +710,10 @@ export interface DataColumn$instance extends MarshalByValueComponent {
 
 export const DataColumn: {
     new(): DataColumn;
-    new(columnName: string): DataColumn;
+    new(columnName: string | undefined): DataColumn;
     new(columnName: string | undefined, dataType: Type): DataColumn;
-    new(columnName: string, dataType: Type, expr: string): DataColumn;
-    new(columnName: string, dataType: Type, expr: string, type_: MappingType): DataColumn;
+    new(columnName: string | undefined, dataType: Type, expr: string | undefined): DataColumn;
+    new(columnName: string | undefined, dataType: Type, expr: string | undefined, type_: MappingType): DataColumn;
 };
 
 
@@ -749,15 +749,15 @@ export interface DataColumnCollection$instance extends InternalDataCollectionBas
     add(columnName: string | undefined): DataColumn;
     add(): DataColumn;
     addRange(columns: DataColumn[]): void;
-    canRemove(column: DataColumn): boolean;
+    canRemove(column: DataColumn | undefined): boolean;
     clear(): void;
     contains(name: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataColumn;
     get_Item(name: string): DataColumn;
     getEnumerator(): IEnumerator;
-    indexOf(column: DataColumn): int;
-    indexOf(columnName: string): int;
+    indexOf(column: DataColumn | undefined): int;
+    indexOf(columnName: string | undefined): int;
     remove(column: DataColumn): void;
     remove(name: string): void;
     removeAt(index: int): void;
@@ -816,8 +816,8 @@ export const DataRelation: {
     new(relationName: string | undefined, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation;
     new(relationName: string | undefined, parentColumns: DataColumn[], childColumns: DataColumn[]): DataRelation;
     new(relationName: string | undefined, parentColumns: DataColumn[], childColumns: DataColumn[], createConstraints: boolean): DataRelation;
-    new(relationName: string, parentTableName: string, childTableName: string, parentColumnNames: string[] | undefined, childColumnNames: string[] | undefined, nested: boolean): DataRelation;
-    new(relationName: string, parentTableName: string, parentTableNamespace: string, childTableName: string, childTableNamespace: string, parentColumnNames: string[] | undefined, childColumnNames: string[] | undefined, nested: boolean): DataRelation;
+    new(relationName: string, parentTableName: string | undefined, childTableName: string | undefined, parentColumnNames: string[] | undefined, childColumnNames: string[] | undefined, nested: boolean): DataRelation;
+    new(relationName: string, parentTableName: string | undefined, parentTableNamespace: string | undefined, childTableName: string | undefined, childTableNamespace: string | undefined, parentColumnNames: string[] | undefined, childColumnNames: string[] | undefined, nested: boolean): DataRelation;
 };
 
 
@@ -832,15 +832,15 @@ export interface DataRelationCollection$instance extends InternalDataCollectionB
     add(name: string | undefined, parentColumn: DataColumn, childColumn: DataColumn, createConstraints: boolean): DataRelation;
     add(parentColumn: DataColumn, childColumn: DataColumn): DataRelation;
     addRange(relations: DataRelation[] | undefined): void;
-    canRemove(relation: DataRelation): boolean;
+    canRemove(relation: DataRelation | undefined): boolean;
     clear(): void;
-    contains(name: string): boolean;
+    contains(name: string | undefined): boolean;
     copyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataRelation;
-    get_Item(name: string): DataRelation;
+    get_Item(name: string | undefined): DataRelation;
     getEnumerator(): IEnumerator;
-    indexOf(relation: DataRelation): int;
-    indexOf(relationName: string): int;
+    indexOf(relation: DataRelation | undefined): int;
+    indexOf(relationName: string | undefined): int;
     remove(relation: DataRelation): void;
     remove(name: string): void;
     removeAt(index: int): void;
@@ -885,10 +885,10 @@ export interface DataRow$instance {
     getColumnError(columnName: string): string;
     getColumnError(column: DataColumn): string;
     getColumnsInError(): DataColumn[];
-    getParentRow(relationName: string): DataRow;
-    getParentRow(relationName: string, version: DataRowVersion): DataRow;
-    getParentRow(relation: DataRelation): DataRow;
-    getParentRow(relation: DataRelation, version: DataRowVersion): DataRow;
+    getParentRow(relationName: string | undefined): DataRow | undefined;
+    getParentRow(relationName: string | undefined, version: DataRowVersion): DataRow | undefined;
+    getParentRow(relation: DataRelation | undefined): DataRow | undefined;
+    getParentRow(relation: DataRelation | undefined, version: DataRowVersion): DataRow | undefined;
     getParentRows(relationName: string | undefined): DataRow[];
     getParentRows(relationName: string | undefined, version: DataRowVersion): DataRow[];
     getParentRows(relation: DataRelation | undefined): DataRow[];
@@ -903,12 +903,12 @@ export interface DataRow$instance {
     set_Item(columnName: string, value: unknown): void;
     set_Item(column: DataColumn, value: unknown): void;
     setAdded(): void;
-    setColumnError(columnIndex: int, error: string): void;
+    setColumnError(columnIndex: int, error: string | undefined): void;
     setColumnError(columnName: string, error: string | undefined): void;
     setColumnError(column: DataColumn, error: string | undefined): void;
     setModified(): void;
-    setParentRow(parentRow: DataRow): void;
-    setParentRow(parentRow: DataRow, relation: DataRelation): void;
+    setParentRow(parentRow: DataRow | undefined): void;
+    setParentRow(parentRow: DataRow | undefined, relation: DataRelation | undefined): void;
 }
 
 
@@ -949,14 +949,14 @@ export interface DataRowCollection$instance extends InternalDataCollectionBase$i
     add(row: DataRow): void;
     add(...values: unknown[]): DataRow;
     clear(): void;
-    contains(key: unknown): boolean;
+    contains(key: unknown | undefined): boolean;
     contains(keys: (unknown | undefined)[]): boolean;
     copyTo(ar: ClrArray, index: int): void;
     copyTo(array: DataRow[], index: int): void;
-    find(key: unknown): DataRow;
-    find(keys: (unknown | undefined)[]): DataRow;
+    find(key: unknown | undefined): DataRow | undefined;
+    find(keys: (unknown | undefined)[]): DataRow | undefined;
     getEnumerator(): IEnumerator;
-    indexOf(row: DataRow): int;
+    indexOf(row: DataRow | undefined): int;
     insertAt(row: DataRow, pos: int): void;
     remove(row: DataRow): void;
     removeAt(index: int): void;
@@ -977,7 +977,7 @@ export type DataRowCollection = DataRowCollection$instance & __DataRowCollection
 
 
 export interface DataRowComparer_1$instance<TRow extends DataRow> {
-    equals(leftRow: TRow, rightRow: TRow): boolean;
+    equals(leftRow: TRow | undefined, rightRow: TRow | undefined): boolean;
     getHashCode(row: TRow): int;
 }
 
@@ -1009,7 +1009,7 @@ export interface DataRowView$instance extends INotifyPropertyChanged {
     createChildView(relationName: string): DataView;
     delete_(): void;
     endEdit(): void;
-    equals(other: unknown): boolean;
+    equals(other: unknown | undefined): boolean;
     get_Item(ndx: int): unknown;
     get_Item(property: string): unknown;
     getHashCode(): int;
@@ -1059,17 +1059,17 @@ export interface DataSet$instance extends MarshalByValueComponent {
     createDataReader(...dataTables: DataTable[]): DataTableReader;
     dispose(): void;
     endInit(): void;
-    getChanges(): DataSet;
-    getChanges(rowStates: DataRowState): DataSet;
+    getChanges(): DataSet | undefined;
+    getChanges(rowStates: DataRowState): DataSet | undefined;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type | undefined): unknown | undefined;
+    getService(service: Type): unknown | undefined;
     getXml(): string;
     getXmlSchema(): string;
     hasChanges(): boolean;
     hasChanges(rowStates: DataRowState): boolean;
-    inferXmlSchema(reader: XmlReader, nsArray: string[] | undefined): void;
-    inferXmlSchema(stream: Stream, nsArray: string[] | undefined): void;
-    inferXmlSchema(reader: TextReader, nsArray: string[] | undefined): void;
+    inferXmlSchema(reader: XmlReader | undefined, nsArray: string[] | undefined): void;
+    inferXmlSchema(stream: Stream | undefined, nsArray: string[] | undefined): void;
+    inferXmlSchema(reader: TextReader | undefined, nsArray: string[] | undefined): void;
     inferXmlSchema(fileName: string, nsArray: string[] | undefined): void;
     load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler | undefined, ...tables: DataTable[]): void;
     load(reader: IDataReader, loadOption: LoadOption, ...tables: DataTable[]): void;
@@ -1081,35 +1081,35 @@ export interface DataSet$instance extends MarshalByValueComponent {
     merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
     merge(rows: DataRow[]): void;
     merge(rows: DataRow[], preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
-    readXml(reader: XmlReader): XmlReadMode;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
+    readXml(reader: XmlReader | undefined): XmlReadMode;
+    readXml(stream: Stream | undefined): XmlReadMode;
+    readXml(reader: TextReader | undefined): XmlReadMode;
     readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader, mode: XmlReadMode): XmlReadMode;
-    readXml(stream: Stream, mode: XmlReadMode): XmlReadMode;
-    readXml(reader: TextReader, mode: XmlReadMode): XmlReadMode;
+    readXml(reader: XmlReader | undefined, mode: XmlReadMode): XmlReadMode;
+    readXml(stream: Stream | undefined, mode: XmlReadMode): XmlReadMode;
+    readXml(reader: TextReader | undefined, mode: XmlReadMode): XmlReadMode;
     readXml(fileName: string, mode: XmlReadMode): XmlReadMode;
-    readXmlSchema(reader: XmlReader): void;
-    readXmlSchema(stream: Stream): void;
-    readXmlSchema(reader: TextReader): void;
+    readXmlSchema(reader: XmlReader | undefined): void;
+    readXmlSchema(stream: Stream | undefined): void;
+    readXmlSchema(reader: TextReader | undefined): void;
     readXmlSchema(fileName: string): void;
     rejectChanges(): void;
     reset(): void;
-    writeXml(stream: Stream): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: XmlWriter): void;
+    writeXml(stream: Stream | undefined): void;
+    writeXml(writer: TextWriter | undefined): void;
+    writeXml(writer: XmlWriter | undefined): void;
     writeXml(fileName: string): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
+    writeXml(stream: Stream | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: TextWriter | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: XmlWriter | undefined, mode: XmlWriteMode): void;
     writeXml(fileName: string, mode: XmlWriteMode): void;
-    writeXmlSchema(stream: Stream): void;
+    writeXmlSchema(stream: Stream | undefined): void;
     writeXmlSchema(stream: Stream | undefined, multipleTargetConverter: Converter_2<Type, System_Internal.String>): void;
     writeXmlSchema(fileName: string): void;
     writeXmlSchema(fileName: string, multipleTargetConverter: Converter_2<Type, System_Internal.String>): void;
-    writeXmlSchema(writer: TextWriter): void;
+    writeXmlSchema(writer: TextWriter | undefined): void;
     writeXmlSchema(writer: TextWriter | undefined, multipleTargetConverter: Converter_2<Type, System_Internal.String>): void;
-    writeXmlSchema(writer: XmlWriter): void;
+    writeXmlSchema(writer: XmlWriter | undefined): void;
     writeXmlSchema(writer: XmlWriter | undefined, multipleTargetConverter: Converter_2<Type, System_Internal.String>): void;
 }
 
@@ -1175,18 +1175,18 @@ export interface DataTable$instance extends MarshalByValueComponent {
     beginLoadData(): void;
     clear(): void;
     clone(): DataTable;
-    compute(expression: string, filter: string): unknown;
+    compute(expression: string | undefined, filter: string | undefined): unknown;
     copy(): DataTable;
     createDataReader(): DataTableReader;
     dispose(): void;
     endInit(): void;
     endLoadData(): void;
-    getChanges(): DataTable;
-    getChanges(rowStates: DataRowState): DataTable;
+    getChanges(): DataTable | undefined;
+    getChanges(rowStates: DataRowState): DataTable | undefined;
     getErrors(): DataRow[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getService(service: Type | undefined): unknown | undefined;
-    importRow(row: DataRow): void;
+    getService(service: Type): unknown | undefined;
+    importRow(row: DataRow | undefined): void;
     load(reader: IDataReader): void;
     load(reader: IDataReader, loadOption: LoadOption): void;
     load(reader: IDataReader, loadOption: LoadOption, errorHandler: FillErrorEventHandler | undefined): void;
@@ -1196,43 +1196,43 @@ export interface DataTable$instance extends MarshalByValueComponent {
     merge(table: DataTable, preserveChanges: boolean): void;
     merge(table: DataTable, preserveChanges: boolean, missingSchemaAction: MissingSchemaAction): void;
     newRow(): DataRow;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
+    readXml(stream: Stream | undefined): XmlReadMode;
+    readXml(reader: TextReader | undefined): XmlReadMode;
     readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader): XmlReadMode;
-    readXmlSchema(stream: Stream): void;
-    readXmlSchema(reader: TextReader): void;
+    readXml(reader: XmlReader | undefined): XmlReadMode;
+    readXmlSchema(stream: Stream | undefined): void;
+    readXmlSchema(reader: TextReader | undefined): void;
     readXmlSchema(fileName: string): void;
-    readXmlSchema(reader: XmlReader): void;
+    readXmlSchema(reader: XmlReader | undefined): void;
     rejectChanges(): void;
     reset(): void;
     select(): DataRow[];
     select(filterExpression: string | undefined): DataRow[];
-    select(filterExpression: string, sort: string): DataRow[];
-    select(filterExpression: string, sort: string, recordStates: DataViewRowState): DataRow[];
+    select(filterExpression: string | undefined, sort: string | undefined): DataRow[];
+    select(filterExpression: string | undefined, sort: string | undefined, recordStates: DataViewRowState): DataRow[];
     toString(): string;
-    writeXml(stream: Stream): void;
-    writeXml(stream: Stream, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter): void;
-    writeXml(writer: XmlWriter, writeHierarchy: boolean): void;
+    writeXml(stream: Stream | undefined): void;
+    writeXml(stream: Stream | undefined, writeHierarchy: boolean): void;
+    writeXml(writer: TextWriter | undefined): void;
+    writeXml(writer: TextWriter | undefined, writeHierarchy: boolean): void;
+    writeXml(writer: XmlWriter | undefined): void;
+    writeXml(writer: XmlWriter | undefined, writeHierarchy: boolean): void;
     writeXml(fileName: string): void;
     writeXml(fileName: string, writeHierarchy: boolean): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(stream: Stream | undefined, mode: XmlWriteMode): void;
+    writeXml(stream: Stream | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(writer: TextWriter | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: TextWriter | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(writer: XmlWriter | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: XmlWriter | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
     writeXml(fileName: string, mode: XmlWriteMode): void;
     writeXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXmlSchema(stream: Stream): void;
-    writeXmlSchema(stream: Stream, writeHierarchy: boolean): void;
-    writeXmlSchema(writer: TextWriter): void;
-    writeXmlSchema(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXmlSchema(writer: XmlWriter): void;
-    writeXmlSchema(writer: XmlWriter, writeHierarchy: boolean): void;
+    writeXmlSchema(stream: Stream | undefined): void;
+    writeXmlSchema(stream: Stream | undefined, writeHierarchy: boolean): void;
+    writeXmlSchema(writer: TextWriter | undefined): void;
+    writeXmlSchema(writer: TextWriter | undefined, writeHierarchy: boolean): void;
+    writeXmlSchema(writer: XmlWriter | undefined): void;
+    writeXmlSchema(writer: XmlWriter | undefined, writeHierarchy: boolean): void;
     writeXmlSchema(fileName: string): void;
     writeXmlSchema(fileName: string, writeHierarchy: boolean): void;
 }
@@ -1240,8 +1240,8 @@ export interface DataTable$instance extends MarshalByValueComponent {
 
 export const DataTable: {
     new(): DataTable;
-    new(tableName: string): DataTable;
-    new(tableName: string, tableNamespace: string): DataTable;
+    new(tableName: string | undefined): DataTable;
+    new(tableName: string | undefined, tableNamespace: string | undefined): DataTable;
     getDataTableSchema(schemaSet: XmlSchemaSet | undefined): XmlSchemaComplexType;
 };
 
@@ -1277,7 +1277,7 @@ export const DataTableClearEventArgs: {
 export type DataTableClearEventArgs = DataTableClearEventArgs$instance;
 
 export interface DataTableCollection$instance extends InternalDataCollectionBase$instance {
-    add(table: DataTable | undefined): void;
+    add(table: DataTable): void;
     add(name: string | undefined): DataTable;
     add(name: string | undefined, tableNamespace: string | undefined): DataTable;
     add(): DataTable;
@@ -1285,7 +1285,7 @@ export interface DataTableCollection$instance extends InternalDataCollectionBase
     canRemove(table: DataTable | undefined): boolean;
     clear(): void;
     contains(name: string | undefined): boolean;
-    contains(name: string | undefined, tableNamespace: string | undefined): boolean;
+    contains(name: string, tableNamespace: string): boolean;
     copyTo(ar: ClrArray, index: int): void;
     get_Item(index: int): DataTable;
     get_Item(name: string | undefined): DataTable;
@@ -1293,10 +1293,10 @@ export interface DataTableCollection$instance extends InternalDataCollectionBase
     getEnumerator(): IEnumerator;
     indexOf(table: DataTable | undefined): int;
     indexOf(tableName: string | undefined): int;
-    indexOf(tableName: string | undefined, tableNamespace: string | undefined): int;
-    remove(table: DataTable | undefined): void;
-    remove(name: string | undefined): void;
-    remove(name: string | undefined, tableNamespace: string | undefined): void;
+    indexOf(tableName: string, tableNamespace: string): int;
+    remove(table: DataTable): void;
+    remove(name: string): void;
+    remove(name: string, tableNamespace: string): void;
     removeAt(index: int): void;
 }
 
@@ -1339,9 +1339,9 @@ export interface DataTableReader$instance extends DbDataReader {
     get_Item(name: string): unknown;
     getBoolean(ordinal: int): boolean;
     getByte(ordinal: int): byte;
-    getBytes(ordinal: int, dataIndex: long, buffer: byte[], bufferIndex: int, length: int): long;
+    getBytes(ordinal: int, dataIndex: long, buffer: byte[] | undefined, bufferIndex: int, length: int): long;
     getChar(ordinal: int): char;
-    getChars(ordinal: int, dataIndex: long, buffer: char[], bufferIndex: int, length: int): long;
+    getChars(ordinal: int, dataIndex: long, buffer: char[] | undefined, bufferIndex: int, length: int): long;
     getData(ordinal: int): DbDataReader;
     getData(i: int): IDataReader;
     getDataTypeName(ordinal: int): string;
@@ -1402,7 +1402,7 @@ export interface DataView$instance extends MarshalByValueComponent {
     table: DataTable;
     addNew(): DataRowView;
     beginInit(): void;
-    copyTo(array: ClrArray | undefined, index: int): void;
+    copyTo(array: ClrArray, index: int): void;
     delete_(index: int): void;
     dispose(): void;
     endInit(): void;
@@ -1410,14 +1410,14 @@ export interface DataView$instance extends MarshalByValueComponent {
     equals(obj: unknown | undefined): boolean;
     find(key: unknown | undefined): int;
     find(key: (unknown | undefined)[]): int;
-    findRows(key: unknown | undefined): (DataRowView | undefined)[] | undefined;
-    findRows(key: (unknown | undefined)[]): (DataRowView | undefined)[] | undefined;
+    findRows(key: unknown | undefined): DataRowView[];
+    findRows(key: (unknown | undefined)[]): DataRowView[];
     getEnumerator(): IEnumerator;
-    getService(service: Type | undefined): unknown | undefined;
-    toTable(): DataTable | undefined;
-    toTable(tableName: string | undefined): DataTable | undefined;
-    toTable(distinct: boolean, ...columnNames: string[]): DataTable | undefined;
-    toTable(tableName: string | undefined, distinct: boolean, ...columnNames: string[]): DataTable | undefined;
+    getService(service: Type): unknown | undefined;
+    toTable(): DataTable;
+    toTable(tableName: string | undefined): DataTable;
+    toTable(distinct: boolean, ...columnNames: string[]): DataTable;
+    toTable(tableName: string | undefined, distinct: boolean, ...columnNames: string[]): DataTable;
 }
 
 
@@ -1453,13 +1453,13 @@ export interface DataViewManager$instance extends MarshalByValueComponent {
     readonly dataViewSettings: DataViewSettingCollection;
     createDataView(table: DataTable): DataView;
     dispose(): void;
-    getService(service: Type | undefined): unknown | undefined;
+    getService(service: Type): unknown | undefined;
 }
 
 
 export const DataViewManager: {
     new(): DataViewManager;
-    new(dataSet: DataSet): DataViewManager;
+    new(dataSet: DataSet | undefined): DataViewManager;
 };
 
 
@@ -1528,9 +1528,9 @@ export type DataViewSettingCollection = DataViewSettingCollection$instance & __D
 export interface DBConcurrencyException$instance extends SystemException {
     row: DataRow;
     readonly rowCount: int;
-    copyToRows(array: (DataRow | undefined)[] | undefined): void;
-    copyToRows(array: (DataRow | undefined)[] | undefined, arrayIndex: int): void;
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    copyToRows(array: DataRow[]): void;
+    copyToRows(array: DataRow[], arrayIndex: int): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
@@ -1664,7 +1664,7 @@ export interface ForeignKeyConstraint$instance extends Constraint {
     readonly relatedTable: DataTable;
     readonly table: DataTable;
     updateRule: Rule;
-    equals(key: unknown): boolean;
+    equals(key: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -1675,7 +1675,7 @@ export const ForeignKeyConstraint: {
     new(parentColumns: DataColumn[], childColumns: DataColumn[]): ForeignKeyConstraint;
     new(constraintName: string | undefined, parentColumns: DataColumn[], childColumns: DataColumn[]): ForeignKeyConstraint;
     new(constraintName: string | undefined, parentTableName: string | undefined, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule): ForeignKeyConstraint;
-    new(constraintName: string, parentTableName: string, parentTableNamespace: string, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule): ForeignKeyConstraint;
+    new(constraintName: string | undefined, parentTableName: string | undefined, parentTableNamespace: string | undefined, parentColumnNames: string[], childColumnNames: string[], acceptRejectRule: AcceptRejectRule, deleteRule: Rule, updateRule: Rule): ForeignKeyConstraint;
 };
 
 
@@ -1840,7 +1840,7 @@ export interface PropertyCollection$instance extends Hashtable {
     getEnumerator(): IDictionaryEnumerator;
     getEnumerator(): IEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: unknown): void;
+    onDeserialization(sender: unknown | undefined): void;
     remove(key: unknown): void;
 }
 
@@ -1972,25 +1972,25 @@ export interface TypedTableBase_1$instance<T extends DataRow> extends DataTable$
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getSchema(): XmlSchema;
     getService(serviceType: Type): unknown | undefined;
-    readXml(stream: Stream): XmlReadMode;
-    readXml(reader: TextReader): XmlReadMode;
+    readXml(stream: Stream | undefined): XmlReadMode;
+    readXml(reader: TextReader | undefined): XmlReadMode;
     readXml(fileName: string): XmlReadMode;
-    readXml(reader: XmlReader): XmlReadMode;
+    readXml(reader: XmlReader | undefined): XmlReadMode;
     readXml(reader: XmlReader): void;
-    writeXml(stream: Stream): void;
-    writeXml(stream: Stream, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter): void;
-    writeXml(writer: TextWriter, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter): void;
-    writeXml(writer: XmlWriter, writeHierarchy: boolean): void;
+    writeXml(stream: Stream | undefined): void;
+    writeXml(stream: Stream | undefined, writeHierarchy: boolean): void;
+    writeXml(writer: TextWriter | undefined): void;
+    writeXml(writer: TextWriter | undefined, writeHierarchy: boolean): void;
+    writeXml(writer: XmlWriter | undefined): void;
+    writeXml(writer: XmlWriter | undefined, writeHierarchy: boolean): void;
     writeXml(fileName: string): void;
     writeXml(fileName: string, writeHierarchy: boolean): void;
-    writeXml(stream: Stream, mode: XmlWriteMode): void;
-    writeXml(stream: Stream, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode): void;
-    writeXml(writer: TextWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode): void;
-    writeXml(writer: XmlWriter, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(stream: Stream | undefined, mode: XmlWriteMode): void;
+    writeXml(stream: Stream | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(writer: TextWriter | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: TextWriter | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
+    writeXml(writer: XmlWriter | undefined, mode: XmlWriteMode): void;
+    writeXml(writer: XmlWriter | undefined, mode: XmlWriteMode, writeHierarchy: boolean): void;
     writeXml(fileName: string, mode: XmlWriteMode): void;
     writeXml(fileName: string, mode: XmlWriteMode, writeHierarchy: boolean): void;
 }
@@ -2022,7 +2022,7 @@ export interface UniqueConstraint$instance extends Constraint {
     readonly columns: DataColumn[];
     readonly isPrimaryKey: boolean;
     readonly table: DataTable;
-    equals(key2: unknown): boolean;
+    equals(key2: unknown | undefined): boolean;
     getHashCode(): int;
 }
 
@@ -2032,7 +2032,7 @@ export const UniqueConstraint: {
     new(column: DataColumn): UniqueConstraint;
     new(name: string | undefined, columns: DataColumn[]): UniqueConstraint;
     new(columns: DataColumn[]): UniqueConstraint;
-    new(name: string, columnNames: string[] | undefined, isPrimaryKey: boolean): UniqueConstraint;
+    new(name: string | undefined, columnNames: string[] | undefined, isPrimaryKey: boolean): UniqueConstraint;
     new(name: string | undefined, column: DataColumn, isPrimaryKey: boolean): UniqueConstraint;
     new(column: DataColumn, isPrimaryKey: boolean): UniqueConstraint;
     new(name: string | undefined, columns: DataColumn[], isPrimaryKey: boolean): UniqueConstraint;
@@ -2103,12 +2103,12 @@ export type DataRowComparer = DataRowComparer$instance;
 export abstract class DataRowExtensions$instance {
     static field<T>(row: DataRow, column: DataColumn, version: DataRowVersion): T | undefined;
     static field<T>(row: DataRow, column: DataColumn): T | undefined;
-    static field<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T;
-    static field<T>(row: DataRow, columnIndex: int): T;
+    static field<T>(row: DataRow, columnIndex: int, version: DataRowVersion): T | undefined;
+    static field<T>(row: DataRow, columnIndex: int): T | undefined;
     static field<T>(row: DataRow, columnName: string, version: DataRowVersion): T | undefined;
     static field<T>(row: DataRow, columnName: string): T | undefined;
     static setField<T>(row: DataRow, column: DataColumn, value: T | undefined): void;
-    static setField<T>(row: DataRow, columnIndex: int, value: T): void;
+    static setField<T>(row: DataRow, columnIndex: int, value: T | undefined): void;
     static setField<T>(row: DataRow, columnName: string, value: T | undefined): void;
 }
 
