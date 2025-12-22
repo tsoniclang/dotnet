@@ -295,11 +295,11 @@ export const CertificateRequest: {
     new(subjectName: string, key: CompositeMLDsa): CertificateRequest;
     new(subjectName: X500DistinguishedName, key: CompositeMLDsa): CertificateRequest;
     new(subjectName: X500DistinguishedName, publicKey: PublicKey, hashAlgorithm: HashAlgorithmName): CertificateRequest;
-    new(subjectName: X500DistinguishedName, publicKey: PublicKey, hashAlgorithm: HashAlgorithmName, rsaSignaturePadding: RSASignaturePadding | undefined): CertificateRequest;
-    loadSigningRequest(pkcs10: byte[], signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding | undefined): CertificateRequest;
-    loadSigningRequest(pkcs10: ReadOnlySpan_1<System_Internal.Byte>, signerHashAlgorithm: HashAlgorithmName, bytesConsumed: int, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding | undefined): CertificateRequest;
-    loadSigningRequestPem(pkcs10Pem: ReadOnlySpan_1<System_Internal.Char>, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding | undefined): CertificateRequest;
-    loadSigningRequestPem(pkcs10Pem: string, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding | undefined): CertificateRequest;
+    new(subjectName: X500DistinguishedName, publicKey: PublicKey, hashAlgorithm: HashAlgorithmName, rsaSignaturePadding: RSASignaturePadding): CertificateRequest;
+    loadSigningRequest(pkcs10: byte[], signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
+    loadSigningRequest(pkcs10: ReadOnlySpan_1<System_Internal.Byte>, signerHashAlgorithm: HashAlgorithmName, bytesConsumed: int, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
+    loadSigningRequestPem(pkcs10Pem: ReadOnlySpan_1<System_Internal.Char>, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
+    loadSigningRequestPem(pkcs10Pem: string, signerHashAlgorithm: HashAlgorithmName, options?: CertificateRequestLoadOptions, signerSignaturePadding?: RSASignaturePadding): CertificateRequest;
 };
 
 
@@ -309,7 +309,7 @@ export interface CertificateRevocationListBuilder$instance {
     addEntry(certificate: X509Certificate2, revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
     addEntry(serialNumber: byte[], revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
     addEntry(serialNumber: ReadOnlySpan_1<System_Internal.Byte>, revocationTime?: Nullable_1<DateTimeOffset>, reason?: Nullable_1<X509RevocationReason>): void;
-    build(issuerCertificate: X509Certificate2, crlNumber: BigInteger, nextUpdate: DateTimeOffset, hashAlgorithm: HashAlgorithmName, rsaSignaturePadding?: RSASignaturePadding | undefined, thisUpdate?: Nullable_1<DateTimeOffset>): byte[];
+    build(issuerCertificate: X509Certificate2, crlNumber: BigInteger, nextUpdate: DateTimeOffset, hashAlgorithm: HashAlgorithmName, rsaSignaturePadding?: RSASignaturePadding, thisUpdate?: Nullable_1<DateTimeOffset>): byte[];
     build(issuerName: X500DistinguishedName, generator: X509SignatureGenerator, crlNumber: BigInteger, nextUpdate: DateTimeOffset, hashAlgorithm: HashAlgorithmName, authorityKeyIdentifier: X509AuthorityKeyIdentifierExtension, thisUpdate?: Nullable_1<DateTimeOffset>): byte[];
     removeEntry(serialNumber: byte[]): boolean;
     removeEntry(serialNumber: ReadOnlySpan_1<System_Internal.Byte>): boolean;
@@ -379,20 +379,20 @@ export interface PublicKey$instance {
     readonly key: AsymmetricAlgorithm;
     readonly oid: Oid;
     exportSubjectPublicKeyInfo(): byte[];
-    getCompositeMLDsaPublicKey(): CompositeMLDsa;
-    getDSAPublicKey(): DSA;
-    getECDiffieHellmanPublicKey(): ECDiffieHellman;
-    getECDsaPublicKey(): ECDsa;
-    getMLDsaPublicKey(): MLDsa;
-    getMLKemPublicKey(): MLKem;
-    getRSAPublicKey(): RSA;
-    getSlhDsaPublicKey(): SlhDsa;
+    getCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
+    getDSAPublicKey(): DSA | undefined;
+    getECDiffieHellmanPublicKey(): ECDiffieHellman | undefined;
+    getECDsaPublicKey(): ECDsa | undefined;
+    getMLDsaPublicKey(): MLDsa | undefined;
+    getMLKemPublicKey(): MLKem | undefined;
+    getRSAPublicKey(): RSA | undefined;
+    getSlhDsaPublicKey(): SlhDsa | undefined;
     tryExportSubjectPublicKeyInfo(destination: Span_1<System_Internal.Byte>, bytesWritten: int): boolean;
 }
 
 
 export const PublicKey: {
-    new(oid: Oid, parameters: AsnEncodedData | undefined, keyValue: AsnEncodedData): PublicKey;
+    new(oid: Oid, parameters: AsnEncodedData, keyValue: AsnEncodedData): PublicKey;
     new(key: AsymmetricAlgorithm): PublicKey;
     new(key: MLKem): PublicKey;
     new(key: MLDsa): PublicKey;
@@ -467,7 +467,7 @@ export interface X500RelativeDistinguishedName$instance {
     readonly hasMultipleElements: boolean;
     readonly rawData: ReadOnlyMemory_1<System_Internal.Byte>;
     getSingleElementType(): Oid;
-    getSingleElementValue(): string;
+    getSingleElementValue(): string | undefined;
 }
 
 
@@ -491,7 +491,7 @@ export const X509AuthorityInformationAccessExtension: {
     new(): X509AuthorityInformationAccessExtension;
     new(rawData: byte[], critical: boolean): X509AuthorityInformationAccessExtension;
     new(rawData: ReadOnlySpan_1<System_Internal.Byte>, critical: boolean): X509AuthorityInformationAccessExtension;
-    new(ocspUris: IEnumerable_1<System_Internal.String> | undefined, caIssuersUris: IEnumerable_1<System_Internal.String> | undefined, critical: boolean): X509AuthorityInformationAccessExtension;
+    new(ocspUris: IEnumerable_1<System_Internal.String>, caIssuersUris: IEnumerable_1<System_Internal.String>, critical: boolean): X509AuthorityInformationAccessExtension;
 };
 
 
@@ -551,10 +551,10 @@ export interface X509Certificate$instance {
     equals(obj: unknown): boolean;
     equals(other: X509Certificate): boolean;
     export_(contentType: X509ContentType): byte[];
-    export_(contentType: X509ContentType, password: string | undefined): byte[];
-    export_(contentType: X509ContentType, password: SecureString | undefined): byte[];
-    exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string | undefined): byte[];
-    exportPkcs12(exportParameters: PbeParameters, password: string | undefined): byte[];
+    export_(contentType: X509ContentType, password: string): byte[];
+    export_(contentType: X509ContentType, password: SecureString): byte[];
+    exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string): byte[];
+    exportPkcs12(exportParameters: PbeParameters, password: string): byte[];
     getCertHash(): byte[];
     getCertHash(hashAlgorithm: HashAlgorithmName): byte[];
     getCertHashString(): string;
@@ -565,8 +565,8 @@ export interface X509Certificate$instance {
     getHashCode(): int;
     getIssuerName(): string;
     getKeyAlgorithm(): string;
-    getKeyAlgorithmParameters(): byte[];
-    getKeyAlgorithmParametersString(): string;
+    getKeyAlgorithmParameters(): byte[] | undefined;
+    getKeyAlgorithmParametersString(): string | undefined;
     getName(): string;
     getPublicKey(): byte[];
     getPublicKeyString(): string;
@@ -575,11 +575,11 @@ export interface X509Certificate$instance {
     getSerialNumber(): byte[];
     getSerialNumberString(): string;
     import_(rawData: byte[]): void;
-    import_(rawData: byte[], password: string | undefined, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(rawData: byte[], password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     import_(fileName: string): void;
-    import_(fileName: string, password: string | undefined, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string, password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     reset(): void;
     toString(): string;
     toString(fVerbose: boolean): string;
@@ -590,16 +590,16 @@ export interface X509Certificate$instance {
 export const X509Certificate: {
     new(): X509Certificate;
     new(data: byte[]): X509Certificate;
-    new(rawData: byte[], password: string | undefined): X509Certificate;
-    new(rawData: byte[], password: SecureString | undefined): X509Certificate;
-    new(rawData: byte[], password: string | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
-    new(rawData: byte[], password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
+    new(rawData: byte[], password: string): X509Certificate;
+    new(rawData: byte[], password: SecureString): X509Certificate;
+    new(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
+    new(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
     new(handle: nint): X509Certificate;
     new(fileName: string): X509Certificate;
-    new(fileName: string, password: string | undefined): X509Certificate;
-    new(fileName: string, password: SecureString | undefined): X509Certificate;
-    new(fileName: string, password: string | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
-    new(fileName: string, password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
+    new(fileName: string, password: string): X509Certificate;
+    new(fileName: string, password: SecureString): X509Certificate;
+    new(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
+    new(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate;
     new(cert: X509Certificate): X509Certificate;
     new(info: SerializationInfo, context: StreamingContext): X509Certificate;
     createFromCertFile(filename: string): X509Certificate;
@@ -626,7 +626,8 @@ export interface X509Certificate2$instance extends X509Certificate$instance {
     readonly issuerName: X500DistinguishedName;
     readonly notAfter: DateTime;
     readonly notBefore: DateTime;
-    privateKey: AsymmetricAlgorithm | undefined;
+    get privateKey(): AsymmetricAlgorithm | undefined;
+    set privateKey(value: AsymmetricAlgorithm);
     readonly publicKey: PublicKey;
     readonly rawData: byte[];
     readonly rawDataMemory: ReadOnlyMemory_1<System_Internal.Byte>;
@@ -642,26 +643,26 @@ export interface X509Certificate2$instance extends X509Certificate$instance {
     copyWithPrivateKey(privateKey: CompositeMLDsa): X509Certificate2;
     dispose(): void;
     exportCertificatePem(): string;
-    getCompositeMLDsaPrivateKey(): CompositeMLDsa;
-    getCompositeMLDsaPublicKey(): CompositeMLDsa;
-    getECDiffieHellmanPrivateKey(): ECDiffieHellman;
-    getECDiffieHellmanPublicKey(): ECDiffieHellman;
-    getMLDsaPrivateKey(): MLDsa;
-    getMLDsaPublicKey(): MLDsa;
-    getMLKemPrivateKey(): MLKem;
-    getMLKemPublicKey(): MLKem;
+    getCompositeMLDsaPrivateKey(): CompositeMLDsa | undefined;
+    getCompositeMLDsaPublicKey(): CompositeMLDsa | undefined;
+    getECDiffieHellmanPrivateKey(): ECDiffieHellman | undefined;
+    getECDiffieHellmanPublicKey(): ECDiffieHellman | undefined;
+    getMLDsaPrivateKey(): MLDsa | undefined;
+    getMLDsaPublicKey(): MLDsa | undefined;
+    getMLKemPrivateKey(): MLKem | undefined;
+    getMLKemPublicKey(): MLKem | undefined;
     getNameInfo(nameType: X509NameType, forIssuer: boolean): string;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    getSlhDsaPrivateKey(): SlhDsa;
-    getSlhDsaPublicKey(): SlhDsa;
+    getSlhDsaPrivateKey(): SlhDsa | undefined;
+    getSlhDsaPublicKey(): SlhDsa | undefined;
     import_(rawData: byte[]): void;
-    import_(rawData: byte[], password: string | undefined, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(rawData: byte[], password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     import_(fileName: string): void;
-    import_(fileName: string, password: string | undefined, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string, password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import_(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     matchesHostname(hostname: string, allowWildcards?: boolean, allowCommonName?: boolean): boolean;
-    onDeserialization(sender: unknown | undefined): void;
+    onDeserialization(sender: unknown): void;
     reset(): void;
     toString(): string;
     toString(verbose: boolean): string;
@@ -673,25 +674,25 @@ export interface X509Certificate2$instance extends X509Certificate$instance {
 export const X509Certificate2: {
     new(): X509Certificate2;
     new(rawData: byte[]): X509Certificate2;
-    new(rawData: byte[], password: string | undefined): X509Certificate2;
-    new(rawData: byte[], password: SecureString | undefined): X509Certificate2;
-    new(rawData: byte[], password: string | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
-    new(rawData: byte[], password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
+    new(rawData: byte[], password: string): X509Certificate2;
+    new(rawData: byte[], password: SecureString): X509Certificate2;
+    new(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
+    new(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(rawData: ReadOnlySpan_1<System_Internal.Byte>): X509Certificate2;
     new(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(handle: nint): X509Certificate2;
     new(fileName: string): X509Certificate2;
-    new(fileName: string, password: string | undefined): X509Certificate2;
-    new(fileName: string, password: SecureString | undefined): X509Certificate2;
-    new(fileName: string, password: string | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
-    new(fileName: string, password: SecureString | undefined, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
+    new(fileName: string, password: string): X509Certificate2;
+    new(fileName: string, password: SecureString): X509Certificate2;
+    new(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
+    new(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags: X509KeyStorageFlags): X509Certificate2;
     new(certificate: X509Certificate): X509Certificate2;
     createFromEncryptedPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>, password: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
-    createFromEncryptedPemFile(certPemFilePath: string, password: ReadOnlySpan_1<System_Internal.Char>, keyPemFilePath?: string | undefined): X509Certificate2;
+    createFromEncryptedPemFile(certPemFilePath: string, password: ReadOnlySpan_1<System_Internal.Char>, keyPemFilePath?: string): X509Certificate2;
     createFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>, keyPem: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
     createFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>): X509Certificate2;
-    createFromPemFile(certPemFilePath: string, keyPemFilePath?: string | undefined): X509Certificate2;
+    createFromPemFile(certPemFilePath: string, keyPemFilePath?: string): X509Certificate2;
     getCertContentType(rawData: byte[]): X509ContentType;
     getCertContentType(rawData: ReadOnlySpan_1<System_Internal.Byte>): X509ContentType;
     getCertContentType(fileName: string): X509ContentType;
@@ -711,20 +712,20 @@ export type X509Certificate2 = X509Certificate2$instance & __X509Certificate2$vi
 
 export interface X509Certificate2Collection$instance extends X509CertificateCollection$instance {
     add(value: X509Certificate): int;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     addRange(certificates: X509Certificate2Collection): void;
     addRange(value: X509Certificate[]): void;
     addRange(value: X509CertificateCollection): void;
     clear(): void;
     contains(value: X509Certificate): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: X509Certificate[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     export_(contentType: X509ContentType): byte[];
     export_(contentType: X509ContentType, password: string): byte[];
     exportCertificatePems(): string;
-    exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string | undefined): byte[];
-    exportPkcs12(exportParameters: PbeParameters, password: string | undefined): byte[];
+    exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string): byte[];
+    exportPkcs12(exportParameters: PbeParameters, password: string): byte[];
     exportPkcs7Pem(): string;
     find(findType: X509FindType, findValue: unknown, validOnly: boolean): X509Certificate2Collection;
     findByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintHex: string): X509Certificate2Collection;
@@ -734,19 +735,19 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     getEnumerator(): IEnumerator;
     import_(rawData: byte[]): void;
     import_(rawData: ReadOnlySpan_1<System_Internal.Byte>): void;
-    import_(rawData: byte[], password: string | undefined, keyStorageFlags?: X509KeyStorageFlags): void;
-    import_(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: string | undefined, keyStorageFlags?: X509KeyStorageFlags): void;
+    import_(rawData: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags): void;
+    import_(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
     import_(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
     import_(fileName: string): void;
-    import_(fileName: string, password: string | undefined, keyStorageFlags?: X509KeyStorageFlags): void;
+    import_(fileName: string, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
     import_(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
     importFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>): void;
     importFromPemFile(certPemFilePath: string): void;
     indexOf(value: X509Certificate): int;
     insert(index: int, value: X509Certificate): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(value: X509Certificate): void;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
     removeRange(certificates: X509Certificate2[]): void;
     removeRange(certificates: X509Certificate2Collection): void;
@@ -796,17 +797,17 @@ export type X509Certificate2Enumerator = X509Certificate2Enumerator$instance & _
 
 export interface X509CertificateCollection$instance extends CollectionBase {
     item: X509Certificate | X509Certificate2;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     addRange(value: X509Certificate[]): void;
     addRange(value: X509CertificateCollection): void;
     clear(): void;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     getHashCode(): int;
     indexOf(value: X509Certificate): int;
-    insert(index: int, value: unknown | undefined): void;
-    remove(value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -1176,14 +1177,14 @@ export abstract class X509CertificateLoader$instance {
     static loadCertificate(data: byte[]): X509Certificate2;
     static loadCertificate(data: ReadOnlySpan_1<System_Internal.Byte>): X509Certificate2;
     static loadCertificateFromFile(path: string): X509Certificate2;
-    static loadPkcs12(data: byte[], password: string | undefined, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2;
-    static loadPkcs12(data: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2;
-    static loadPkcs12Collection(data: byte[], password: string | undefined, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2Collection;
-    static loadPkcs12Collection(data: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2Collection;
-    static loadPkcs12CollectionFromFile(path: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2Collection;
-    static loadPkcs12CollectionFromFile(path: string, password: string | undefined, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2Collection;
-    static loadPkcs12FromFile(path: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2;
-    static loadPkcs12FromFile(path: string, password: string | undefined, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits | undefined): X509Certificate2;
+    static loadPkcs12(data: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
+    static loadPkcs12(data: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
+    static loadPkcs12Collection(data: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12Collection(data: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12CollectionFromFile(path: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12CollectionFromFile(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2Collection;
+    static loadPkcs12FromFile(path: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
+    static loadPkcs12FromFile(path: string, password: string, keyStorageFlags?: X509KeyStorageFlags, loaderLimits?: Pkcs12LoaderLimits): X509Certificate2;
 }
 
 

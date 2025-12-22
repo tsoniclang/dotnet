@@ -62,7 +62,7 @@ export type CodeAccessSecurityAttribute = CodeAccessSecurityAttribute$instance;
 export interface SecurityAttribute$instance extends Attribute {
     action: SecurityAction;
     unrestricted: boolean;
-    createPermission(): IPermission;
+    createPermission(): IPermission | undefined;
 }
 
 
@@ -88,7 +88,7 @@ export interface SecurityPermissionAttribute$instance extends CodeAccessSecurity
     serializationFormatter: boolean;
     skipVerification: boolean;
     unmanagedCode: boolean;
-    createPermission(): IPermission;
+    createPermission(): IPermission | undefined;
 }
 
 

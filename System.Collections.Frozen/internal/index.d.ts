@@ -161,20 +161,20 @@ export type FrozenSet_1<T> = FrozenSet_1$instance<T> & __FrozenSet_1$views<T>;
 
 
 export abstract class FrozenDictionary$instance {
-    static create<TKey, TValue>(comparer: IEqualityComparer_1<TKey> | undefined, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
+    static create<TKey, TValue>(comparer: IEqualityComparer_1<TKey>, source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
     static create<TKey, TValue>(source: ReadOnlySpan_1<KeyValuePair_2<TKey, TValue>>): FrozenDictionary_2<TKey, TValue>;
-    static toFrozenDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey> | undefined): FrozenDictionary_2<TKey, TElement>;
-    static toFrozenDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey> | undefined): FrozenDictionary_2<TKey, TSource>;
-    static toFrozenDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey> | undefined): FrozenDictionary_2<TKey, TValue>;
+    static toFrozenDictionary<TSource, TKey, TElement>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, elementSelector: Func_2<TSource, TElement>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TElement>;
+    static toFrozenDictionary<TSource, TKey>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TSource>;
+    static toFrozenDictionary<TKey, TValue>(source: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer?: IEqualityComparer_1<TKey>): FrozenDictionary_2<TKey, TValue>;
 }
 
 
 export type FrozenDictionary = FrozenDictionary$instance;
 
 export abstract class FrozenSet$instance {
-    static create<T>(equalityComparer: IEqualityComparer_1<T> | undefined, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
+    static create<T>(equalityComparer: IEqualityComparer_1<T>, source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
     static create<T>(source: ReadOnlySpan_1<T>): FrozenSet_1<T>;
-    static toFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T> | undefined): FrozenSet_1<T>;
+    static toFrozenSet<T>(source: IEnumerable_1<T>, comparer?: IEqualityComparer_1<T>): FrozenSet_1<T>;
 }
 
 

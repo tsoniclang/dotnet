@@ -119,7 +119,8 @@ export interface QuicConnectionOptions$instance {
     keepAliveInterval: TimeSpan;
     maxInboundBidirectionalStreams: int;
     maxInboundUnidirectionalStreams: int;
-    streamCapacityCallback: Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
+    get streamCapacityCallback(): Action_2<QuicConnection, QuicStreamCapacityChangedArgs> | undefined;
+    set streamCapacityCallback(value: Action_2<QuicConnection, QuicStreamCapacityChangedArgs>);
 }
 
 
@@ -229,8 +230,8 @@ export interface QuicStream$instance extends Stream {
     readonly writesClosed: Task;
     writeTimeout: int;
     abort(abortDirection: QuicAbortDirection, errorCode: long): void;
-    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
-    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback | undefined, state: unknown | undefined): IAsyncResult;
+    beginRead(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
+    beginWrite(buffer: byte[], offset: int, count: int, callback: AsyncCallback, state: unknown): IAsyncResult;
     completeWrites(): void;
     dispose(): void;
     disposeAsync(): ValueTask;

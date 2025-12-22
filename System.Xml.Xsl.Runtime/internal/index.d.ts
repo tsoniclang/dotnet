@@ -433,8 +433,8 @@ export type PrecedingSiblingIterator = PrecedingSiblingIterator$instance;
 export interface StringConcat$instance {
     delimiter: string;
     clear(): void;
-    concat(value: string | undefined): void;
-    getResult(): string | undefined;
+    concat(value: string): void;
+    getResult(): string;
 }
 
 
@@ -579,7 +579,7 @@ export type XmlILIndex = XmlILIndex$instance;
 export interface XmlNavigatorFilter$instance {
     isFiltered(navigator: XPathNavigator): boolean;
     moveToContent(navigator: XPathNavigator): boolean;
-    moveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator | undefined): boolean;
+    moveToFollowing(navigator: XPathNavigator, navigatorEnd: XPathNavigator): boolean;
     moveToFollowingSibling(navigator: XPathNavigator): boolean;
     moveToNextContent(navigator: XPathNavigator): boolean;
     moveToPreviousSibling(navigator: XPathNavigator): boolean;
@@ -596,7 +596,7 @@ export interface XmlQueryContext$instance {
     readonly defaultDataSource: XPathNavigator;
     readonly defaultNameTable: XmlNameTable | undefined;
     readonly queryNameTable: XmlNameTable;
-    getDataSource(uriRelative: string, uriBase: string): XPathNavigator;
+    getDataSource(uriRelative: string, uriBase: string): XPathNavigator | undefined;
     getLateBoundObject(namespaceUri: string): unknown | undefined;
     getParameter(localName: string, namespaceUri: string): unknown | undefined;
     invokeXsltLateBoundFunction(name: string, namespaceUri: string, args: IList_1<XPathItem>[]): IList_1<XPathItem>;
@@ -614,20 +614,20 @@ export type XmlQueryContext = XmlQueryContext$instance;
 
 export interface XmlQueryItemSequence$instance extends XmlQuerySequence_1$instance<XPathItem> {
     add(value: XPathItem): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     addClone(item: XPathItem): void;
     clear(): void;
     contains(value: XPathItem): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: XPathItem[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<XPathItem>;
     getEnumerator(): IEnumerator;
     indexOf(value: XPathItem): int;
     insert(index: int, item: XPathItem): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: XPathItem): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -654,11 +654,11 @@ export type XmlQueryItemSequence = XmlQueryItemSequence$instance & __XmlQueryIte
 export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instance<XPathNavigator> {
     isDocOrderDistinct: boolean;
     add(value: XPathNavigator): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     addClone(navigator: XPathNavigator): void;
     clear(): void;
     contains(value: XPathNavigator): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: XPathNavigator[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     docOrderDistinct(comparer: IComparer_1<XPathNavigator>): XmlQueryNodeSequence;
@@ -666,9 +666,9 @@ export interface XmlQueryNodeSequence$instance extends XmlQuerySequence_1$instan
     getEnumerator(): IEnumerator;
     indexOf(value: XPathNavigator): int;
     insert(index: int, item: XPathNavigator): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: XPathNavigator): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -731,13 +731,13 @@ export interface XmlQueryOutput$instance extends XmlWriter {
     writeNamespaceDeclaration(prefix: string, ns: string): void;
     writeNamespaceDeclarationUnchecked(prefix: string, ns: string): void;
     writeNamespaceString(text: string): void;
-    writeProcessingInstruction(target: string, text: string | undefined): void;
+    writeProcessingInstruction(target: string, text: string): void;
     writeProcessingInstructionString(text: string): void;
     writeRaw(buffer: char[], index: int, count: int): void;
     writeRaw(data: string): void;
     writeRawUnchecked(text: string): void;
     writeStartAttribute(prefix: string, localName: string, ns: string): void;
-    writeStartAttribute(localName: string, ns: string | undefined): void;
+    writeStartAttribute(localName: string, ns: string): void;
     writeStartAttribute(localName: string): void;
     writeStartAttributeComputed(tagName: string, prefixMappingsIndex: int): void;
     writeStartAttributeComputed(tagName: string, ns: string): void;
@@ -750,7 +750,7 @@ export interface XmlQueryOutput$instance extends XmlWriter {
     writeStartDocument(): void;
     writeStartDocument(standalone: boolean): void;
     writeStartElement(prefix: string, localName: string, ns: string): void;
-    writeStartElement(localName: string, ns: string | undefined): void;
+    writeStartElement(localName: string, ns: string): void;
     writeStartElement(localName: string): void;
     writeStartElementComputed(tagName: string, prefixMappingsIndex: int): void;
     writeStartElementComputed(tagName: string, ns: string): void;
@@ -795,7 +795,7 @@ export interface XmlQueryRuntime$instance {
     createCollation(collation: string): XmlCollation | undefined;
     debugGetGlobalNames(): string[] | undefined;
     debugGetGlobalValue(name: string): IList | undefined;
-    debugGetXsltValue(seq: IList): unknown;
+    debugGetXsltValue(seq: IList): unknown | undefined;
     debugSetGlobalValue(name: string, value: unknown): void;
     docOrderDistinct(seq: IList_1<XPathNavigator>): IList_1<XPathNavigator>;
     earlyBoundFunctionExists(name: string, namespaceUri: string): boolean;

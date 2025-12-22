@@ -68,10 +68,13 @@ export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance &
 
 export interface JsonCollectionInfoValues_1$instance<TCollection> {
     elementInfo: JsonTypeInfo;
-    keyInfo: JsonTypeInfo | undefined;
+    get keyInfo(): JsonTypeInfo | undefined;
+    set keyInfo(value: JsonTypeInfo);
     numberHandling: JsonNumberHandling;
-    objectCreator: Func_1<TCollection> | undefined;
-    serializeHandler: Action_2<Utf8JsonWriter, TCollection> | undefined;
+    get objectCreator(): Func_1<TCollection> | undefined;
+    set objectCreator(value: Func_1<TCollection>);
+    get serializeHandler(): Action_2<Utf8JsonWriter, TCollection> | undefined;
+    set serializeHandler(value: Action_2<Utf8JsonWriter, TCollection>);
 }
 
 
@@ -83,13 +86,19 @@ export const JsonCollectionInfoValues_1: {
 export type JsonCollectionInfoValues_1<TCollection> = JsonCollectionInfoValues_1$instance<TCollection>;
 
 export interface JsonObjectInfoValues_1$instance<T> {
-    constructorAttributeProviderFactory: Func_1<ICustomAttributeProvider> | undefined;
-    constructorParameterMetadataInitializer: Func_1<JsonParameterInfoValues[]> | undefined;
+    get constructorAttributeProviderFactory(): Func_1<ICustomAttributeProvider> | undefined;
+    set constructorAttributeProviderFactory(value: Func_1<ICustomAttributeProvider>);
+    get constructorParameterMetadataInitializer(): Func_1<JsonParameterInfoValues[]> | undefined;
+    set constructorParameterMetadataInitializer(value: Func_1<JsonParameterInfoValues[]>);
     numberHandling: JsonNumberHandling;
-    objectCreator: Func_1<T> | undefined;
-    objectWithParameterizedConstructorCreator: Func_2<unknown[], T> | undefined;
-    propertyMetadataInitializer: Func_2<JsonSerializerContext, JsonPropertyInfo[]> | undefined;
-    serializeHandler: Action_2<Utf8JsonWriter, T> | undefined;
+    get objectCreator(): Func_1<T> | undefined;
+    set objectCreator(value: Func_1<T>);
+    get objectWithParameterizedConstructorCreator(): Func_2<unknown[], T> | undefined;
+    set objectWithParameterizedConstructorCreator(value: Func_2<unknown[], T>);
+    get propertyMetadataInitializer(): Func_2<JsonSerializerContext, JsonPropertyInfo[]> | undefined;
+    set propertyMetadataInitializer(value: Func_2<JsonSerializerContext, JsonPropertyInfo[]>);
+    get serializeHandler(): Action_2<Utf8JsonWriter, T> | undefined;
+    set serializeHandler(value: Action_2<Utf8JsonWriter, T>);
 }
 
 
@@ -154,10 +163,13 @@ export type JsonPolymorphismOptions = JsonPolymorphismOptions$instance;
 
 export interface JsonPropertyInfo$instance {
     readonly associatedParameter: JsonParameterInfo | undefined;
-    attributeProvider: ICustomAttributeProvider | undefined;
-    customConverter: JsonConverter | undefined;
+    get attributeProvider(): ICustomAttributeProvider | undefined;
+    set attributeProvider(value: ICustomAttributeProvider);
+    get customConverter(): JsonConverter | undefined;
+    set customConverter(value: JsonConverter);
     readonly declaringType: Type;
-    get_: Func_2<unknown, unknown | undefined> | undefined;
+    get get_(): Func_2<unknown, unknown | undefined> | undefined;
+    set get_(value: Func_2<unknown, unknown | undefined>);
     isExtensionData: boolean;
     isGetNullable: boolean;
     isRequired: boolean;
@@ -169,7 +181,8 @@ export interface JsonPropertyInfo$instance {
     order: int;
     readonly propertyType: Type;
     set_: Action_2<unknown, unknown | undefined>;
-    shouldSerialize: Func_3<unknown, unknown | undefined, System_Internal.Boolean> | undefined;
+    get shouldSerialize(): Func_3<unknown, unknown | undefined, System_Internal.Boolean> | undefined;
+    set shouldSerialize(value: Func_3<unknown, unknown | undefined, System_Internal.Boolean>);
 }
 
 
@@ -180,21 +193,25 @@ export const JsonPropertyInfo: {
 export type JsonPropertyInfo = JsonPropertyInfo$instance;
 
 export interface JsonPropertyInfoValues_1$instance<T> {
-    attributeProviderFactory: Func_1<ICustomAttributeProvider> | undefined;
+    get attributeProviderFactory(): Func_1<ICustomAttributeProvider> | undefined;
+    set attributeProviderFactory(value: Func_1<ICustomAttributeProvider>);
     converter: JsonConverter_1<T>;
     declaringType: Type;
-    getter: Func_2<unknown, T | undefined> | undefined;
+    get getter(): Func_2<unknown, T | undefined> | undefined;
+    set getter(value: Func_2<unknown, T | undefined>);
     hasJsonInclude: boolean;
     ignoreCondition: Nullable_1<JsonIgnoreCondition>;
     isExtensionData: boolean;
     isProperty: boolean;
     isPublic: boolean;
     isVirtual: boolean;
-    jsonPropertyName: string | undefined;
+    get jsonPropertyName(): string | undefined;
+    set jsonPropertyName(value: string);
     numberHandling: Nullable_1<JsonNumberHandling>;
     propertyName: string;
     propertyTypeInfo: JsonTypeInfo;
-    setter: Action_2<unknown, T | undefined> | undefined;
+    get setter(): Action_2<unknown, T | undefined> | undefined;
+    set setter(value: Action_2<unknown, T | undefined>);
 }
 
 
@@ -208,38 +225,46 @@ export type JsonPropertyInfoValues_1<T> = JsonPropertyInfoValues_1$instance<T>;
 export interface JsonTypeInfo$instance {
     readonly constructorAttributeProvider: ICustomAttributeProvider | undefined;
     readonly converter: JsonConverter;
-    createObject: Func_1<unknown> | undefined;
+    get createObject(): Func_1<unknown> | undefined;
+    set createObject(value: Func_1<unknown>);
     readonly elementType: Type;
     readonly isReadOnly: boolean;
     readonly keyType: Type | undefined;
     readonly kind: JsonTypeInfoKind;
     numberHandling: Nullable_1<JsonNumberHandling>;
-    onDeserialized: Action_1<unknown> | undefined;
-    onDeserializing: Action_1<unknown> | undefined;
-    onSerialized: Action_1<unknown> | undefined;
-    onSerializing: Action_1<unknown> | undefined;
+    get onDeserialized(): Action_1<unknown> | undefined;
+    set onDeserialized(value: Action_1<unknown>);
+    get onDeserializing(): Action_1<unknown> | undefined;
+    set onDeserializing(value: Action_1<unknown>);
+    get onSerialized(): Action_1<unknown> | undefined;
+    set onSerialized(value: Action_1<unknown>);
+    get onSerializing(): Action_1<unknown> | undefined;
+    set onSerializing(value: Action_1<unknown>);
     readonly options: JsonSerializerOptions;
-    originatingResolver: IJsonTypeInfoResolver | undefined;
-    polymorphismOptions: JsonPolymorphismOptions | undefined;
+    get originatingResolver(): IJsonTypeInfoResolver | undefined;
+    set originatingResolver(value: IJsonTypeInfoResolver);
+    get polymorphismOptions(): JsonPolymorphismOptions | undefined;
+    set polymorphismOptions(value: JsonPolymorphismOptions);
     preferredPropertyObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
     readonly properties: IList_1<JsonPropertyInfo>;
     readonly type_: Type;
     unmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
-    createJsonPropertyInfo(propertyType: Type | undefined, name: string | undefined): JsonPropertyInfo | undefined;
+    createJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
     makeReadOnly(): void;
 }
 
 
 export const JsonTypeInfo: {
-    createJsonTypeInfo<T>(options: JsonSerializerOptions | undefined): JsonTypeInfo_1<T | undefined> | undefined;
-    createJsonTypeInfo(type_: Type | undefined, options: JsonSerializerOptions | undefined): JsonTypeInfo | undefined;
+    createJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
+    createJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
 };
 
 
 export type JsonTypeInfo = JsonTypeInfo$instance;
 
 export interface JsonTypeInfo_1$instance<T> extends JsonTypeInfo {
-    createObject: Func_1<T> | undefined;
+    get createObject(): Func_1<T> | undefined;
+    set createObject(value: Func_1<T>);
     readonly serializeHandler: Action_2<Utf8JsonWriter, T> | undefined;
 }
 
@@ -304,10 +329,10 @@ export abstract class JsonMetadataServices$instance {
     static createMemoryInfo<TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<Memory_1<TElement>>): JsonTypeInfo_1<Memory_1<TElement>>;
     static createObjectInfo<T>(options: JsonSerializerOptions, objectInfo: JsonObjectInfoValues_1<T>): JsonTypeInfo_1<T>;
     static createPropertyInfo<T>(options: JsonSerializerOptions, propertyInfo: JsonPropertyInfoValues_1<T>): JsonPropertyInfo;
-    static createQueueInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown | undefined>): JsonTypeInfo_1<TCollection>;
+    static createQueueInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
     static createQueueInfo<TCollection extends Queue_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
     static createReadOnlyMemoryInfo<TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<ReadOnlyMemory_1<TElement>>): JsonTypeInfo_1<ReadOnlyMemory_1<TElement>>;
-    static createStackInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown | undefined>): JsonTypeInfo_1<TCollection>;
+    static createStackInfo<TCollection extends IEnumerable>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>, addFunc: Action_2<TCollection, unknown>): JsonTypeInfo_1<TCollection>;
     static createStackInfo<TCollection extends Stack_1<TElement>, TElement>(options: JsonSerializerOptions, collectionInfo: JsonCollectionInfoValues_1<TCollection>): JsonTypeInfo_1<TCollection>;
     static createValueInfo<T>(options: JsonSerializerOptions, converter: JsonConverter): JsonTypeInfo_1<T>;
     static getEnumConverter<T extends number>(options: JsonSerializerOptions): JsonConverter_1<T>;

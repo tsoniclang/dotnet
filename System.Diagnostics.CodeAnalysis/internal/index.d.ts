@@ -55,8 +55,10 @@ export const AllowNullAttribute: {
 export type AllowNullAttribute = AllowNullAttribute$instance;
 
 export interface ConstantExpectedAttribute$instance extends Attribute {
-    max: unknown | undefined;
-    min: unknown | undefined;
+    get max(): unknown | undefined;
+    set max(value: unknown);
+    get min(): unknown | undefined;
+    set min(value: unknown);
 }
 
 
@@ -115,7 +117,8 @@ export type DynamicallyAccessedMembersAttribute = DynamicallyAccessedMembersAttr
 
 export interface DynamicDependencyAttribute$instance extends Attribute {
     readonly assemblyName: string;
-    condition: string | undefined;
+    get condition(): string | undefined;
+    set condition(value: string);
     readonly memberSignature: string | undefined;
     readonly memberTypes: DynamicallyAccessedMemberTypes;
     readonly type_: Type;
@@ -124,18 +127,19 @@ export interface DynamicDependencyAttribute$instance extends Attribute {
 
 
 export const DynamicDependencyAttribute: {
-    new(memberSignature: string | undefined): DynamicDependencyAttribute;
-    new(memberSignature: string | undefined, type_: Type | undefined): DynamicDependencyAttribute;
-    new(memberSignature: string | undefined, typeName: string | undefined, assemblyName: string | undefined): DynamicDependencyAttribute;
-    new(memberTypes: DynamicallyAccessedMemberTypes, type_: Type | undefined): DynamicDependencyAttribute;
-    new(memberTypes: DynamicallyAccessedMemberTypes, typeName: string | undefined, assemblyName: string | undefined): DynamicDependencyAttribute;
+    new(memberSignature: string): DynamicDependencyAttribute;
+    new(memberSignature: string, type_: Type): DynamicDependencyAttribute;
+    new(memberSignature: string, typeName: string, assemblyName: string): DynamicDependencyAttribute;
+    new(memberTypes: DynamicallyAccessedMemberTypes, type_: Type): DynamicDependencyAttribute;
+    new(memberTypes: DynamicallyAccessedMemberTypes, typeName: string, assemblyName: string): DynamicDependencyAttribute;
 };
 
 
 export type DynamicDependencyAttribute = DynamicDependencyAttribute$instance;
 
 export interface ExcludeFromCodeCoverageAttribute$instance extends Attribute {
-    justification: string | undefined;
+    get justification(): string | undefined;
+    set justification(value: string);
 }
 
 
@@ -149,12 +153,13 @@ export type ExcludeFromCodeCoverageAttribute = ExcludeFromCodeCoverageAttribute$
 export interface ExperimentalAttribute$instance extends Attribute {
     readonly diagnosticId: string;
     message: string;
-    urlFormat: string | undefined;
+    get urlFormat(): string | undefined;
+    set urlFormat(value: string);
 }
 
 
 export const ExperimentalAttribute: {
-    new(diagnosticId: string | undefined): ExperimentalAttribute;
+    new(diagnosticId: string): ExperimentalAttribute;
 };
 
 
@@ -271,13 +276,14 @@ export type NotNullWhenAttribute = NotNullWhenAttribute$instance;
 
 export interface RequiresAssemblyFilesAttribute$instance extends Attribute {
     readonly message: string;
-    url: string | undefined;
+    get url(): string | undefined;
+    set url(value: string);
 }
 
 
 export const RequiresAssemblyFilesAttribute: {
     new(): RequiresAssemblyFilesAttribute;
-    new(message: string | undefined): RequiresAssemblyFilesAttribute;
+    new(message: string): RequiresAssemblyFilesAttribute;
 };
 
 
@@ -286,7 +292,8 @@ export type RequiresAssemblyFilesAttribute = RequiresAssemblyFilesAttribute$inst
 export interface RequiresDynamicCodeAttribute$instance extends Attribute {
     excludeStatics: boolean;
     readonly message: string;
-    url: string | undefined;
+    get url(): string | undefined;
+    set url(value: string);
 }
 
 
@@ -300,7 +307,8 @@ export type RequiresDynamicCodeAttribute = RequiresDynamicCodeAttribute$instance
 export interface RequiresUnreferencedCodeAttribute$instance extends Attribute {
     excludeStatics: boolean;
     readonly message: string;
-    url: string | undefined;
+    get url(): string | undefined;
+    set url(value: string);
 }
 
 
@@ -351,15 +359,18 @@ export type StringSyntaxAttribute = StringSyntaxAttribute$instance;
 export interface SuppressMessageAttribute$instance extends Attribute {
     readonly category: string;
     readonly checkId: string;
-    justification: string | undefined;
-    messageId: string | undefined;
-    scope: string | undefined;
+    get justification(): string | undefined;
+    set justification(value: string);
+    get messageId(): string | undefined;
+    set messageId(value: string);
+    get scope(): string | undefined;
+    set scope(value: string);
     target: string;
 }
 
 
 export const SuppressMessageAttribute: {
-    new(category: string | undefined, checkId: string | undefined): SuppressMessageAttribute;
+    new(category: string, checkId: string): SuppressMessageAttribute;
 };
 
 
@@ -368,15 +379,18 @@ export type SuppressMessageAttribute = SuppressMessageAttribute$instance;
 export interface UnconditionalSuppressMessageAttribute$instance extends Attribute {
     readonly category: string;
     readonly checkId: string;
-    justification: string | undefined;
-    messageId: string | undefined;
-    scope: string | undefined;
+    get justification(): string | undefined;
+    set justification(value: string);
+    get messageId(): string | undefined;
+    set messageId(value: string);
+    get scope(): string | undefined;
+    set scope(value: string);
     target: string;
 }
 
 
 export const UnconditionalSuppressMessageAttribute: {
-    new(category: string | undefined, checkId: string | undefined): UnconditionalSuppressMessageAttribute;
+    new(category: string, checkId: string): UnconditionalSuppressMessageAttribute;
 };
 
 

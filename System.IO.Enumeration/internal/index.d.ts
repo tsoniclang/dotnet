@@ -54,14 +54,16 @@ export const FileSystemEntry: {
 export type FileSystemEntry = FileSystemEntry$instance;
 
 export interface FileSystemEnumerable_1$instance<TResult> {
-    shouldIncludePredicate: FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
-    shouldRecursePredicate: FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
+    get shouldIncludePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
+    set shouldIncludePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
+    get shouldRecursePredicate(): FileSystemEnumerable_1_FindPredicate<TResult> | undefined;
+    set shouldRecursePredicate(value: FileSystemEnumerable_1_FindPredicate<TResult>);
     getEnumerator(): IEnumerator_1<TResult>;
 }
 
 
 export const FileSystemEnumerable_1: {
-    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions | undefined): FileSystemEnumerable_1<TResult>;
+    new<TResult>(directory: string, transform: FileSystemEnumerable_1_FindTransform<TResult>, options: EnumerationOptions): FileSystemEnumerable_1<TResult>;
 };
 
 
@@ -82,7 +84,7 @@ export interface FileSystemEnumerator_1$instance<TResult> extends CriticalFinali
 
 
 export const FileSystemEnumerator_1: {
-    new<TResult>(directory: string, options: EnumerationOptions | undefined): FileSystemEnumerator_1<TResult>;
+    new<TResult>(directory: string, options: EnumerationOptions): FileSystemEnumerator_1<TResult>;
 };
 
 
@@ -97,7 +99,7 @@ export type FileSystemEnumerator_1<TResult> = FileSystemEnumerator_1$instance<TR
 export abstract class FileSystemName$instance {
     static matchesSimpleExpression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
     static matchesWin32Expression(expression: ReadOnlySpan_1<System_Internal.Char>, name: ReadOnlySpan_1<System_Internal.Char>, ignoreCase?: boolean): boolean;
-    static translateWin32Expression(expression: string | undefined): string;
+    static translateWin32Expression(expression: string): string;
 }
 
 

@@ -28,7 +28,8 @@ export const JsonSchemaExporterContext: {
 export type JsonSchemaExporterContext = JsonSchemaExporterContext$instance;
 
 export interface JsonSchemaExporterOptions$instance {
-    transformSchemaNode: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
+    get transformSchemaNode(): Func_3<JsonSchemaExporterContext, JsonNode, JsonNode> | undefined;
+    set transformSchemaNode(value: Func_3<JsonSchemaExporterContext, JsonNode, JsonNode>);
     treatNullObliviousAsNonNullable: boolean;
 }
 
@@ -42,8 +43,8 @@ export const JsonSchemaExporterOptions: {
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static getJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions | undefined): JsonNode;
-    static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions | undefined): JsonNode;
+    static getJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
 }
 
 

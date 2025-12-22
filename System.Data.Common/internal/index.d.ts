@@ -108,7 +108,7 @@ export type DataAdapter = DataAdapter$instance & __DataAdapter$views;
 export interface DataColumnMapping$instance extends MarshalByRefObject {
     dataSetColumn: string;
     sourceColumn: string;
-    getDataColumnBySchemaAction(dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
+    getDataColumnBySchemaAction(dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn | undefined;
     toString(): string;
 }
 
@@ -116,7 +116,7 @@ export interface DataColumnMapping$instance extends MarshalByRefObject {
 export const DataColumnMapping: {
     new(): DataColumnMapping;
     new(sourceColumn: string, dataSetColumn: string): DataColumnMapping;
-    getDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn;
+    getDataColumnBySchemaAction(sourceColumn: string, dataSetColumn: string, dataTable: DataTable, dataType: Type, schemaAction: MissingSchemaAction): DataColumn | undefined;
 };
 
 
@@ -161,8 +161,8 @@ export interface DataColumnMappingCollection$instance extends MarshalByRefObject
 
 export const DataColumnMappingCollection: {
     new(): DataColumnMappingCollection;
-    getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping;
-    getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn;
+    getColumnMappingBySchemaAction(columnMappings: DataColumnMappingCollection, sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping | undefined;
+    getDataColumn(columnMappings: DataColumnMappingCollection, sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn | undefined;
 };
 
 
@@ -181,7 +181,7 @@ export interface DataTableMapping$instance extends MarshalByRefObject {
     dataSetTable: string;
     sourceTable: string;
     getColumnMappingBySchemaAction(sourceColumn: string, mappingAction: MissingMappingAction): DataColumnMapping | undefined;
-    getDataColumn(sourceColumn: string, dataType: Type | undefined, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn | undefined;
+    getDataColumn(sourceColumn: string, dataType: Type, dataTable: DataTable, mappingAction: MissingMappingAction, schemaAction: MissingSchemaAction): DataColumn | undefined;
     getDataTableBySchemaAction(dataSet: DataSet, schemaAction: MissingSchemaAction): DataTable | undefined;
     toString(): string;
 }
@@ -190,7 +190,7 @@ export interface DataTableMapping$instance extends MarshalByRefObject {
 export const DataTableMapping: {
     new(): DataTableMapping;
     new(sourceTable: string, dataSetTable: string): DataTableMapping;
-    new(sourceTable: string, dataSetTable: string, columnMappings: DataColumnMapping[] | undefined): DataTableMapping;
+    new(sourceTable: string, dataSetTable: string, columnMappings: DataColumnMapping[]): DataTableMapping;
 };
 
 
@@ -235,7 +235,7 @@ export interface DataTableMappingCollection$instance extends MarshalByRefObject 
 
 export const DataTableMappingCollection: {
     new(): DataTableMappingCollection;
-    getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection | undefined, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping | undefined;
+    getTableMappingBySchemaAction(tableMappings: DataTableMappingCollection, sourceTable: string, dataSetTable: string, mappingAction: MissingMappingAction): DataTableMapping | undefined;
 };
 
 
@@ -253,7 +253,8 @@ export interface DbBatch$instance {
     readonly batchCommands: DbBatchCommandCollection;
     connection: DbConnection;
     timeout: int;
-    transaction: DbTransaction | undefined;
+    get transaction(): DbTransaction | undefined;
+    set transaction(value: DbTransaction);
     cancel(): void;
     createBatchCommand(): DbBatchCommand;
     dispose(): void;
@@ -263,7 +264,7 @@ export interface DbBatch$instance {
     executeReader(behavior?: CommandBehavior): DbDataReader;
     executeReaderAsync(cancellationToken?: CancellationToken): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior, cancellationToken?: CancellationToken): Task_1<DbDataReader>;
-    executeScalar(): unknown;
+    executeScalar(): unknown | undefined;
     executeScalarAsync(cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
     prepare(): void;
     prepareAsync(cancellationToken?: CancellationToken): Task;
@@ -371,7 +372,8 @@ export interface DbCommand$instance extends Component {
     connection: DbConnection;
     designTimeVisible: boolean;
     readonly parameters: DbParameterCollection;
-    transaction: DbTransaction | undefined;
+    get transaction(): DbTransaction | undefined;
+    set transaction(value: DbTransaction);
     updatedRowSource: UpdateRowSource;
     cancel(): void;
     createParameter(): DbParameter;
@@ -386,7 +388,7 @@ export interface DbCommand$instance extends Component {
     executeReaderAsync(cancellationToken: CancellationToken): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior): Task_1<DbDataReader>;
     executeReaderAsync(behavior: CommandBehavior, cancellationToken: CancellationToken): Task_1<DbDataReader>;
-    executeScalar(): unknown;
+    executeScalar(): unknown | undefined;
     executeScalarAsync(): Task_1<unknown | undefined>;
     executeScalarAsync(cancellationToken: CancellationToken): Task_1<unknown | undefined>;
     prepare(): void;
@@ -414,7 +416,8 @@ export interface DbCommandBuilder$instance extends Component {
     catalogLocation: CatalogLocation;
     catalogSeparator: string;
     conflictOption: ConflictOption;
-    dataAdapter: DbDataAdapter | undefined;
+    get dataAdapter(): DbDataAdapter | undefined;
+    set dataAdapter(value: DbDataAdapter);
     quotePrefix: string;
     quoteSuffix: string;
     schemaSeparator: string;
@@ -469,10 +472,10 @@ export interface DbConnection$instance extends Component {
     enlistTransaction(transaction: Transaction): void;
     getSchema(): DataTable;
     getSchema(collectionName: string): DataTable;
-    getSchema(collectionName: string, restrictionValues: (string | undefined)[]): DataTable;
+    getSchema(collectionName: string, restrictionValues: string[]): DataTable;
     getSchemaAsync(cancellationToken?: CancellationToken): Task_1<DataTable>;
     getSchemaAsync(collectionName: string, cancellationToken?: CancellationToken): Task_1<DataTable>;
-    getSchemaAsync(collectionName: string, restrictionValues: (string | undefined)[], cancellationToken?: CancellationToken): Task_1<DataTable>;
+    getSchemaAsync(collectionName: string, restrictionValues: string[], cancellationToken?: CancellationToken): Task_1<DataTable>;
     open(): void;
     openAsync(): Task;
     openAsync(cancellationToken: CancellationToken): Task;
@@ -511,15 +514,15 @@ export interface DbConnectionStringBuilder$instance {
     remove(keyword: string): boolean;
     shouldSerialize(keyword: string): boolean;
     toString(): string;
-    tryGetValue(keyword: string, value: unknown | undefined): boolean;
+    tryGetValue(keyword: string, value: unknown): boolean;
 }
 
 
 export const DbConnectionStringBuilder: {
     new(): DbConnectionStringBuilder;
     new(useOdbcRules: boolean): DbConnectionStringBuilder;
-    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string | undefined, useOdbcRules: boolean): void;
-    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string | undefined): void;
+    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string, useOdbcRules: boolean): void;
+    appendKeyValuePair(builder: StringBuilder, keyword: string, value: string): void;
 };
 
 
@@ -536,11 +539,15 @@ export type DbConnectionStringBuilder = DbConnectionStringBuilder$instance & __D
 
 
 export interface DbDataAdapter$instance extends DataAdapter$instance {
-    deleteCommand: DbCommand | undefined;
-    insertCommand: DbCommand | undefined;
-    selectCommand: DbCommand | undefined;
+    get deleteCommand(): DbCommand | undefined;
+    set deleteCommand(value: DbCommand);
+    get insertCommand(): DbCommand | undefined;
+    set insertCommand(value: DbCommand);
+    get selectCommand(): DbCommand | undefined;
+    set selectCommand(value: DbCommand);
     updateBatchSize: int;
-    updateCommand: DbCommand | undefined;
+    get updateCommand(): DbCommand | undefined;
+    set updateCommand(value: DbCommand);
     dispose(): void;
     fill(dataSet: DataSet): int;
     fill(dataTable: DataTable): int;
@@ -609,7 +616,7 @@ export interface DbDataReader$instance extends MarshalByRefObject {
     getProviderSpecificFieldType(ordinal: int): Type;
     getProviderSpecificValue(ordinal: int): unknown;
     getProviderSpecificValues(values: unknown[]): int;
-    getSchemaTable(): DataTable;
+    getSchemaTable(): DataTable | undefined;
     getSchemaTableAsync(cancellationToken?: CancellationToken): Task_1<DataTable | undefined>;
     getStream(ordinal: int): Stream;
     getString(ordinal: int): string;
@@ -691,7 +698,7 @@ export type DbDataRecord = DbDataRecord$instance & __DbDataRecord$views;
 export interface DbDataSource$instance {
     readonly connectionString: string;
     createBatch(): DbBatch;
-    createCommand(commandText?: string | undefined): DbCommand;
+    createCommand(commandText?: string): DbCommand;
     createConnection(): DbConnection;
     dispose(): void;
     disposeAsync(): ValueTask;
@@ -848,7 +855,7 @@ export interface DbProviderFactory$instance {
     createConnection(): DbConnection;
     createConnectionStringBuilder(): DbConnectionStringBuilder | undefined;
     createDataAdapter(): DbDataAdapter | undefined;
-    createDataSource(connectionString: string | undefined): DbDataSource | undefined;
+    createDataSource(connectionString: string): DbDataSource;
     createDataSourceEnumerator(): DbDataSourceEnumerator | undefined;
     createParameter(): DbParameter;
 }
@@ -921,14 +928,15 @@ export interface RowUpdatedEventArgs$instance extends EventArgs {
 
 
 export const RowUpdatedEventArgs: {
-    new(dataRow: DataRow, command: IDbCommand | undefined, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatedEventArgs;
+    new(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatedEventArgs;
 };
 
 
 export type RowUpdatedEventArgs = RowUpdatedEventArgs$instance;
 
 export interface RowUpdatingEventArgs$instance extends EventArgs {
-    command: IDbCommand | undefined;
+    get command(): IDbCommand | undefined;
+    set command(value: IDbCommand);
     errors: Exception;
     readonly row: DataRow;
     readonly statementType: StatementType;
@@ -938,7 +946,7 @@ export interface RowUpdatingEventArgs$instance extends EventArgs {
 
 
 export const RowUpdatingEventArgs: {
-    new(dataRow: DataRow | undefined, command: IDbCommand | undefined, statementType: StatementType, tableMapping: DataTableMapping | undefined): RowUpdatingEventArgs;
+    new(dataRow: DataRow, command: IDbCommand, statementType: StatementType, tableMapping: DataTableMapping): RowUpdatingEventArgs;
 };
 
 
@@ -1021,7 +1029,7 @@ export abstract class DbProviderFactories$instance {
     static registerFactory(providerInvariantName: string, factory: DbProviderFactory): void;
     static registerFactory(providerInvariantName: string, factoryTypeAssemblyQualifiedName: string): void;
     static registerFactory(providerInvariantName: string, providerFactoryClass: Type): void;
-    static tryGetFactory(providerInvariantName: string, factory: DbProviderFactory | undefined): boolean;
+    static tryGetFactory(providerInvariantName: string, factory: DbProviderFactory): boolean;
     static unregisterFactory(providerInvariantName: string): boolean;
 }
 

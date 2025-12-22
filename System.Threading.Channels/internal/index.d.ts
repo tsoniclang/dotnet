@@ -69,9 +69,9 @@ export interface ChannelClosedException$instance extends InvalidOperationExcepti
 
 export const ChannelClosedException: {
     new(): ChannelClosedException;
-    new(message: string | undefined): ChannelClosedException;
-    new(innerException: Exception | undefined): ChannelClosedException;
-    new(message: string | undefined, innerException: Exception | undefined): ChannelClosedException;
+    new(message: string): ChannelClosedException;
+    new(innerException: Exception): ChannelClosedException;
+    new(message: string, innerException: Exception): ChannelClosedException;
 };
 
 
@@ -115,11 +115,11 @@ export const ChannelReader_1: {
 export type ChannelReader_1<T> = ChannelReader_1$instance<T>;
 
 export interface ChannelWriter_1$instance<T> {
-    complete(error?: Exception | undefined): void;
-    tryComplete(error?: Exception | undefined): boolean;
-    tryWrite(item: T | undefined): boolean;
+    complete(error?: Exception): void;
+    tryComplete(error?: Exception): boolean;
+    tryWrite(item: T): boolean;
     waitToWriteAsync(cancellationToken?: CancellationToken): ValueTask_1<System_Internal.Boolean>;
-    writeAsync(item: T | undefined, cancellationToken?: CancellationToken): ValueTask;
+    writeAsync(item: T, cancellationToken?: CancellationToken): ValueTask;
 }
 
 
@@ -154,7 +154,7 @@ export type UnboundedPrioritizedChannelOptions_1<T> = UnboundedPrioritizedChanne
 
 export abstract class Channel$instance {
     static createBounded<T>(capacity: int): Channel_1<T>;
-    static createBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T> | undefined): Channel_1<T>;
+    static createBounded<T>(options: BoundedChannelOptions, itemDropped: Action_1<T>): Channel_1<T>;
     static createBounded<T>(options: BoundedChannelOptions): Channel_1<T>;
     static createUnbounded<T>(): Channel_1<T>;
     static createUnbounded<T>(options: UnboundedChannelOptions): Channel_1<T>;

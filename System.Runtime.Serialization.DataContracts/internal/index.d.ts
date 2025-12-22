@@ -54,14 +54,14 @@ export interface DataContractSet$instance {
     readonly surrogateData: Hashtable;
     getDataContract(type_: Type): DataContract;
     getDataContract(key: XmlQualifiedName): DataContract | undefined;
-    getReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract | undefined, genericParameters: unknown[] | undefined, supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | undefined;
-    importSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName> | undefined, importXmlDataType: boolean): void;
+    getReferencedType(xmlName: XmlQualifiedName, dataContract: DataContract, referencedContract: DataContract, genericParameters: unknown[], supportGenericTypes?: Nullable_1<System_Internal.Boolean>): Type | undefined;
+    importSchemaSet(schemaSet: XmlSchemaSet, typeNames: IEnumerable_1<XmlQualifiedName>, importXmlDataType: boolean): void;
     importSchemaSet(schemaSet: XmlSchemaSet, elements: IEnumerable_1<XmlSchemaElement>, importXmlDataType: boolean): List_1<XmlQualifiedName>;
 }
 
 
 export const DataContractSet: {
-    new(dataContractSurrogate: ISerializationSurrogateProvider, referencedTypes: IEnumerable_1<Type> | undefined, referencedCollectionTypes: IEnumerable_1<Type> | undefined): DataContractSet;
+    new(dataContractSurrogate: ISerializationSurrogateProvider, referencedTypes: IEnumerable_1<Type>, referencedCollectionTypes: IEnumerable_1<Type>): DataContractSet;
     new(dataContractSet: DataContractSet): DataContractSet;
 };
 

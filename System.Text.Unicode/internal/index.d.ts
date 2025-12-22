@@ -19,9 +19,9 @@ export interface Utf8_TryWriteInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T, alignment: int): boolean;
     appendFormatted<T>(value: T, alignment: int, format: string): boolean;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): boolean;
-    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | undefined): boolean;
+    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): boolean;
     appendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
-    appendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string | undefined): boolean;
+    appendFormatted(utf8Value: ReadOnlySpan_1<System_Internal.Byte>, alignment?: int, format?: string): boolean;
     appendFormatted(value: string): boolean;
     appendFormatted(value: string, alignment?: int, format?: string): boolean;
     appendFormatted(value: unknown, alignment?: int, format?: string): boolean;
@@ -31,7 +31,7 @@ export interface Utf8_TryWriteInterpolatedStringHandler$instance {
 
 export const Utf8_TryWriteInterpolatedStringHandler: {
     new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, provider: IFormatProvider | undefined, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, destination: Span_1<System_Internal.Byte>, provider: IFormatProvider, shouldAppend: boolean): Utf8_TryWriteInterpolatedStringHandler;
 };
 
 
@@ -223,7 +223,7 @@ export abstract class Utf8$instance {
     static fromUtf16(source: ReadOnlySpan_1<System_Internal.Char>, destination: Span_1<System_Internal.Byte>, charsRead: int, bytesWritten: int, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
     static isValid(value: ReadOnlySpan_1<System_Internal.Byte>): boolean;
     static toUtf16(source: ReadOnlySpan_1<System_Internal.Byte>, destination: Span_1<System_Internal.Char>, bytesRead: int, charsWritten: int, replaceInvalidSequences?: boolean, isFinalBlock?: boolean): OperationStatus;
-    static tryWrite(destination: Span_1<System_Internal.Byte>, provider: IFormatProvider | undefined, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
+    static tryWrite(destination: Span_1<System_Internal.Byte>, provider: IFormatProvider, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
     static tryWrite(destination: Span_1<System_Internal.Byte>, handler: Utf8_TryWriteInterpolatedStringHandler, bytesWritten: int): boolean;
 }
 

@@ -22,14 +22,15 @@ export type SseItemParser_1<T> = (eventType: string, data: ReadOnlySpan_1<System
 
 export interface SseItem_1$instance<T> {
     readonly data: T;
-    eventId: string | undefined;
+    get eventId(): string | undefined;
+    set eventId(value: string);
     readonly eventType: string;
     reconnectionInterval: Nullable_1<TimeSpan>;
 }
 
 
 export const SseItem_1: {
-    new<T>(data: T, eventType: string | undefined): SseItem_1<T>;
+    new<T>(data: T, eventType: string): SseItem_1<T>;
 };
 
 

@@ -22,7 +22,7 @@ export interface Claim$instance {
     readonly value: string;
     readonly valueType: string;
     clone(): Claim;
-    clone(identity: ClaimsIdentity | undefined): Claim;
+    clone(identity: ClaimsIdentity): Claim;
     toString(): string;
     writeTo(writer: BinaryWriter): void;
 }
@@ -30,10 +30,10 @@ export interface Claim$instance {
 
 export const Claim: {
     new(reader: BinaryReader): Claim;
-    new(reader: BinaryReader, subject: ClaimsIdentity | undefined): Claim;
+    new(reader: BinaryReader, subject: ClaimsIdentity): Claim;
     new(type_: string, value: string): Claim;
-    new(type_: string, value: string, valueType: string | undefined): Claim;
-    new(type_: string, value: string, valueType: string | undefined, issuer: string | undefined): Claim;
+    new(type_: string, value: string, valueType: string): Claim;
+    new(type_: string, value: string, valueType: string, issuer: string): Claim;
     new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
     new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
 };
@@ -42,17 +42,20 @@ export const Claim: {
 export type Claim = Claim$instance;
 
 export interface ClaimsIdentity$instance {
-    actor: ClaimsIdentity | undefined;
+    get actor(): ClaimsIdentity | undefined;
+    set actor(value: ClaimsIdentity);
     readonly authenticationType: string | string | undefined;
-    bootstrapContext: unknown | undefined;
+    get bootstrapContext(): unknown | undefined;
+    set bootstrapContext(value: unknown);
     readonly claims: IEnumerable_1<Claim>;
     readonly isAuthenticated: boolean;
-    label: string | undefined;
+    get label(): string | undefined;
+    set label(value: string);
     readonly name: string;
     readonly nameClaimType: string;
     readonly roleClaimType: string;
     addClaim(claim: Claim): void;
-    addClaims(claims: IEnumerable_1<Claim | undefined>): void;
+    addClaims(claims: IEnumerable_1<Claim>): void;
     clone(): ClaimsIdentity;
     findAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
     findAll(type_: string): IEnumerable_1<Claim>;
@@ -69,16 +72,16 @@ export interface ClaimsIdentity$instance {
 export const ClaimsIdentity: {
     new(): ClaimsIdentity;
     new(identity: IIdentity): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim> | undefined): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim>): ClaimsIdentity;
     new(authenticationType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim>, authenticationType: string): ClaimsIdentity;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>): ClaimsIdentity;
     new(authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
+    new(claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string): ClaimsIdentity;
     new(reader: BinaryReader): ClaimsIdentity;
     new(reader: BinaryReader, stringComparison: StringComparison): ClaimsIdentity;
-    new(identity: IIdentity, claims: IEnumerable_1<Claim> | undefined, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
+    new(identity: IIdentity, claims: IEnumerable_1<Claim>, authenticationType: string, nameType: string, roleType: string, stringComparison: StringComparison): ClaimsIdentity;
     readonly defaultIssuer: string;
     readonly defaultNameClaimType: string;
     readonly defaultRoleClaimType: string;
@@ -119,7 +122,8 @@ export const ClaimsPrincipal: {
     new(principal: IPrincipal): ClaimsPrincipal;
     new(reader: BinaryReader): ClaimsPrincipal;
     primaryIdentitySelector: Func_2<IEnumerable_1<ClaimsIdentity>, ClaimsIdentity | undefined>;
-    claimsPrincipalSelector: Func_1<ClaimsPrincipal | undefined> | undefined;
+    get claimsPrincipalSelector(): Func_1<ClaimsPrincipal | undefined> | undefined;
+    set claimsPrincipalSelector(value: Func_1<ClaimsPrincipal | undefined>);
     readonly current: ClaimsPrincipal | undefined;
 };
 
@@ -127,6 +131,8 @@ export const ClaimsPrincipal: {
 export interface __ClaimsPrincipal$views {
     As_IPrincipal(): System_Security_Principal_Internal.IPrincipal$instance;
 }
+
+export interface ClaimsPrincipal$instance extends System_Security_Principal_Internal.IPrincipal$instance {}
 
 export type ClaimsPrincipal = ClaimsPrincipal$instance & __ClaimsPrincipal$views;
 

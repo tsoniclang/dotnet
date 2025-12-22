@@ -893,7 +893,7 @@ export interface BlobReader$instance {
     readChar(): char;
     readCompressedInteger(): int;
     readCompressedSignedInteger(): int;
-    readConstant(typeCode: ConstantTypeCode): unknown;
+    readConstant(typeCode: ConstantTypeCode): unknown | undefined;
     readDateTime(): DateTime;
     readDecimal(): decimal;
     readDouble(): double;
@@ -903,7 +903,7 @@ export interface BlobReader$instance {
     readInt64(): long;
     readSByte(): sbyte;
     readSerializationTypeCode(): SerializationTypeCode;
-    readSerializedString(): string;
+    readSerializedString(): string | undefined;
     readSignatureHeader(): SignatureHeader;
     readSignatureTypeCode(): SignatureTypeCode;
     readSingle(): float;
@@ -1111,7 +1111,7 @@ export interface CustomAttributeNamedArgument_1$instance<TType> {
 
 
 export const CustomAttributeNamedArgument_1: {
-    new<TType>(name: string | undefined, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown | undefined): CustomAttributeNamedArgument_1<TType>;
+    new<TType>(name: string, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown): CustomAttributeNamedArgument_1<TType>;
 };
 
 
@@ -1124,7 +1124,7 @@ export interface CustomAttributeTypedArgument_1$instance<TType> {
 
 
 export const CustomAttributeTypedArgument_1: {
-    new<TType>(type_: TType, value: unknown | undefined): CustomAttributeTypedArgument_1<TType>;
+    new<TType>(type_: TType, value: unknown): CustomAttributeTypedArgument_1<TType>;
 };
 
 
@@ -3250,7 +3250,7 @@ export interface SignatureHeader$instance {
     equals(obj: unknown): boolean;
     equals(other: SignatureHeader): boolean;
     getHashCode(): int;
-    toString(): string | undefined;
+    toString(): string;
 }
 
 
@@ -3590,7 +3590,7 @@ export interface AssemblyNameInfo$instance {
 export const AssemblyNameInfo: {
     new(name: string, version: Version, cultureName: string, flags: AssemblyNameFlags, publicKeyOrToken: ImmutableArray_1<System_Internal.Byte>): AssemblyNameInfo;
     parse(assemblyName: ReadOnlySpan_1<System_Internal.Char>): AssemblyNameInfo;
-    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo | undefined): boolean;
+    tryParse(assemblyName: ReadOnlySpan_1<System_Internal.Char>, result: AssemblyNameInfo): boolean;
 };
 
 
@@ -3698,14 +3698,14 @@ export type HandleComparer = HandleComparer$instance & __HandleComparer$views;
 
 
 export interface ImageFormatLimitationException$instance extends Exception {
-    getObjectData(info: SerializationInfo | undefined, context: StreamingContext): void;
+    getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
 
 export const ImageFormatLimitationException: {
     new(): ImageFormatLimitationException;
-    new(message: string | undefined): ImageFormatLimitationException;
-    new(message: string | undefined, innerException: Exception | undefined): ImageFormatLimitationException;
+    new(message: string): ImageFormatLimitationException;
+    new(message: string, innerException: Exception): ImageFormatLimitationException;
 };
 
 
@@ -3800,7 +3800,7 @@ export interface MetadataReader$instance {
 export const MetadataReader: {
     new(metadata: ptr<byte>, length: int): MetadataReader;
     new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions): MetadataReader;
-    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder | undefined): MetadataReader;
+    new(metadata: ptr<byte>, length: int, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
     getAssemblyName(assemblyFile: string): AssemblyName;
 };
 
@@ -3809,7 +3809,7 @@ export type MetadataReader = MetadataReader$instance;
 
 export interface MetadataReaderProvider$instance {
     dispose(): void;
-    getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder | undefined): MetadataReader;
+    getMetadataReader(options?: MetadataReaderOptions, utf8Decoder?: MetadataStringDecoder): MetadataReader;
 }
 
 
@@ -3865,7 +3865,7 @@ export interface MethodBodyBlock$instance {
     readonly localVariablesInitialized: boolean;
     readonly maxStack: int;
     readonly size: int;
-    getILBytes(): byte[];
+    getILBytes(): byte[] | undefined;
     getILContent(): ImmutableArray_1<System_Internal.Byte>;
     getILReader(): BlobReader;
 }
@@ -3904,13 +3904,13 @@ export interface TypeName$instance {
     makeGenericTypeName(typeArguments: ImmutableArray_1<TypeName>): TypeName;
     makePointerTypeName(): TypeName;
     makeSZArrayTypeName(): TypeName;
-    withAssemblyName(assemblyName: AssemblyNameInfo | undefined): TypeName;
+    withAssemblyName(assemblyName: AssemblyNameInfo): TypeName;
 }
 
 
 export const TypeName: {
     new(): TypeName;
-    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions | undefined): TypeName;
+    parse(typeName: ReadOnlySpan_1<System_Internal.Char>, options?: TypeNameParseOptions): TypeName;
     tryParse(typeName: ReadOnlySpan_1<System_Internal.Char>, result: TypeName, options?: TypeNameParseOptions): boolean;
     unescape(name: string): string;
 };
@@ -3956,7 +3956,7 @@ export abstract class MetadataUpdater$instance {
 export type MetadataUpdater = MetadataUpdater$instance;
 
 export abstract class PEReaderExtensions$instance {
-    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder | undefined): MetadataReader;
+    static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions, utf8Decoder: MetadataStringDecoder): MetadataReader;
     static getMetadataReader(peReader: PEReader, options: MetadataReaderOptions): MetadataReader;
     static getMetadataReader(peReader: PEReader): MetadataReader;
     static getMethodBody(peReader: PEReader, relativeVirtualAddress: int): MethodBodyBlock;
