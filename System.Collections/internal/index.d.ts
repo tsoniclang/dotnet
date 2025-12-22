@@ -29,14 +29,15 @@ export interface ICollection$instance extends IEnumerable$instance {}
 export type ICollection = ICollection$instance;
 
 export interface IComparer$instance {
-    compare(x: unknown | undefined, y: unknown | undefined): int;
+    compare(x: unknown, y: unknown): int;
 }
 
 
 export type IComparer = IComparer$instance;
 
 export interface IDictionary$instance extends ICollection, IEnumerable {
-    item: unknown | undefined;
+    get item(): unknown | undefined;
+    set item(value: unknown);
     readonly keys: ICollection;
     readonly values: ICollection;
     readonly isReadOnly: boolean;
@@ -44,7 +45,7 @@ export interface IDictionary$instance extends ICollection, IEnumerable {
     readonly count: int;
     readonly syncRoot: unknown;
     readonly isSynchronized: boolean;
-    add(key: unknown, value: unknown | undefined): void;
+    add(key: unknown, value: unknown): void;
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
@@ -87,7 +88,7 @@ export interface IEnumerator$instance {
 export type IEnumerator = IEnumerator$instance;
 
 export interface IEqualityComparer$instance {
-    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: unknown): int;
 }
 
@@ -108,13 +109,13 @@ export interface IList$instance extends ICollection, IEnumerable {
     readonly count: int;
     readonly syncRoot: unknown;
     readonly isSynchronized: boolean;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     clear(): void;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
-    insert(index: int, value: unknown | undefined): void;
-    remove(value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -122,14 +123,14 @@ export interface IList$instance extends ICollection, IEnumerable {
 export type IList = IList$instance;
 
 export interface IStructuralComparable$instance {
-    compareTo(other: unknown | undefined, comparer: IComparer): int;
+    compareTo(other: unknown, comparer: IComparer): int;
 }
 
 
 export type IStructuralComparable = IStructuralComparable$instance;
 
 export interface IStructuralEquatable$instance {
-    equals(other: unknown | undefined, comparer: IEqualityComparer): boolean;
+    equals(other: unknown, comparer: IEqualityComparer): boolean;
     getHashCode(comparer: IEqualityComparer): int;
 }
 
@@ -139,13 +140,13 @@ export type IStructuralEquatable = IStructuralEquatable$instance;
 export interface DictionaryEntry$instance {
     key: unknown;
     value: unknown;
-    deconstruct(key: unknown, value: unknown | undefined): void;
+    deconstruct(key: unknown, value: unknown): void;
     toString(): string;
 }
 
 
 export const DictionaryEntry: {
-    new(key: unknown, value: unknown | undefined): DictionaryEntry;
+    new(key: unknown, value: unknown): DictionaryEntry;
 };
 
 
@@ -159,37 +160,37 @@ export interface ArrayList$instance {
     readonly isSynchronized: boolean;
     item: unknown;
     readonly syncRoot: unknown;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     addRange(c: ICollection): void;
-    binarySearch(index: int, count: int, value: unknown | undefined, comparer: IComparer | undefined): int;
-    binarySearch(value: unknown | undefined): int;
-    binarySearch(value: unknown | undefined, comparer: IComparer | undefined): int;
+    binarySearch(index: int, count: int, value: unknown, comparer: IComparer): int;
+    binarySearch(value: unknown): int;
+    binarySearch(value: unknown, comparer: IComparer): int;
     clear(): void;
     clone(): unknown;
-    contains(item: unknown | undefined): boolean;
+    contains(item: unknown): boolean;
     copyTo(array: ClrArray): void;
     copyTo(array: ClrArray, arrayIndex: int): void;
     copyTo(index: int, array: ClrArray, arrayIndex: int, count: int): void;
     getEnumerator(): IEnumerator;
     getEnumerator(index: int, count: int): IEnumerator;
     getRange(index: int, count: int): ArrayList;
-    indexOf(value: unknown | undefined): int;
-    indexOf(value: unknown | undefined, startIndex: int): int;
-    indexOf(value: unknown | undefined, startIndex: int, count: int): int;
-    insert(index: int, value: unknown | undefined): void;
+    indexOf(value: unknown): int;
+    indexOf(value: unknown, startIndex: int): int;
+    indexOf(value: unknown, startIndex: int, count: int): int;
+    insert(index: int, value: unknown): void;
     insertRange(index: int, c: ICollection): void;
-    lastIndexOf(value: unknown | undefined): int;
-    lastIndexOf(value: unknown | undefined, startIndex: int): int;
-    lastIndexOf(value: unknown | undefined, startIndex: int, count: int): int;
-    remove(obj: unknown | undefined): void;
+    lastIndexOf(value: unknown): int;
+    lastIndexOf(value: unknown, startIndex: int): int;
+    lastIndexOf(value: unknown, startIndex: int, count: int): int;
+    remove(obj: unknown): void;
     removeAt(index: int): void;
     removeRange(index: int, count: int): void;
     reverse(): void;
     reverse(index: int, count: int): void;
     setRange(index: int, c: ICollection): void;
     sort(): void;
-    sort(comparer: IComparer | undefined): void;
-    sort(index: int, count: int, comparer: IComparer | undefined): void;
+    sort(comparer: IComparer): void;
+    sort(index: int, count: int, comparer: IComparer): void;
     toArray(): (unknown | undefined)[];
     toArray(type_: Type): ClrArray;
     trimToSize(): void;
@@ -205,7 +206,7 @@ export const ArrayList: {
     fixedSize(list: IList): IList;
     readOnly(list: ArrayList): ArrayList;
     readOnly(list: IList): IList;
-    repeat(value: unknown | undefined, count: int): ArrayList;
+    repeat(value: unknown, count: int): ArrayList;
     synchronized(list: ArrayList): ArrayList;
     synchronized(list: IList): IList;
 };
@@ -270,7 +271,7 @@ export type BitArray = BitArray$instance & __BitArray$views;
 
 
 export interface CaseInsensitiveComparer$instance {
-    compare(a: unknown | undefined, b: unknown | undefined): int;
+    compare(a: unknown, b: unknown): int;
 }
 
 
@@ -334,7 +335,7 @@ export type CollectionBase = CollectionBase$instance & __CollectionBase$views;
 
 
 export interface Comparer$instance {
-    compare(a: unknown | undefined, b: unknown | undefined): int;
+    compare(a: unknown, b: unknown): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
 }
 
@@ -382,20 +383,21 @@ export interface Hashtable$instance {
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    item: unknown | undefined;
+    get item(): unknown | undefined;
+    set item(value: unknown);
     readonly keys: ICollection;
     readonly syncRoot: unknown;
     readonly values: ICollection;
-    add(key: unknown, value: unknown | undefined): void;
+    add(key: unknown, value: unknown): void;
     clear(): void;
     clone(): unknown;
     contains(key: unknown): boolean;
     containsKey(key: unknown): boolean;
-    containsValue(value: unknown | undefined): boolean;
+    containsValue(value: unknown): boolean;
     copyTo(array: ClrArray, arrayIndex: int): void;
     getEnumerator(): IDictionaryEnumerator;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
-    onDeserialization(sender: unknown | undefined): void;
+    onDeserialization(sender: unknown): void;
     remove(key: unknown): void;
 }
 
@@ -404,18 +406,18 @@ export const Hashtable: {
     new(): Hashtable;
     new(capacity: int): Hashtable;
     new(capacity: int, loadFactor: float): Hashtable;
-    new(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer | undefined): Hashtable;
-    new(hcp: IHashCodeProvider | undefined, comparer: IComparer | undefined): Hashtable;
-    new(equalityComparer: IEqualityComparer | undefined): Hashtable;
-    new(capacity: int, hcp: IHashCodeProvider | undefined, comparer: IComparer | undefined): Hashtable;
-    new(capacity: int, equalityComparer: IEqualityComparer | undefined): Hashtable;
+    new(capacity: int, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
+    new(hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
+    new(equalityComparer: IEqualityComparer): Hashtable;
+    new(capacity: int, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
+    new(capacity: int, equalityComparer: IEqualityComparer): Hashtable;
     new(d: IDictionary): Hashtable;
     new(d: IDictionary, loadFactor: float): Hashtable;
-    new(d: IDictionary, hcp: IHashCodeProvider | undefined, comparer: IComparer | undefined): Hashtable;
-    new(d: IDictionary, equalityComparer: IEqualityComparer | undefined): Hashtable;
-    new(capacity: int, loadFactor: float, hcp: IHashCodeProvider | undefined, comparer: IComparer | undefined): Hashtable;
-    new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider | undefined, comparer: IComparer | undefined): Hashtable;
-    new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer | undefined): Hashtable;
+    new(d: IDictionary, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
+    new(d: IDictionary, equalityComparer: IEqualityComparer): Hashtable;
+    new(capacity: int, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
+    new(d: IDictionary, loadFactor: float, hcp: IHashCodeProvider, comparer: IComparer): Hashtable;
+    new(d: IDictionary, loadFactor: float, equalityComparer: IEqualityComparer): Hashtable;
     synchronized(table: Hashtable): Hashtable;
 };
 
@@ -439,11 +441,12 @@ export interface ListDictionaryInternal$instance {
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    item: unknown | undefined;
+    get item(): unknown | undefined;
+    set item(value: unknown);
     readonly keys: ICollection;
     readonly syncRoot: unknown;
     readonly values: ICollection;
-    add(key: unknown, value: unknown | undefined): void;
+    add(key: unknown, value: unknown): void;
     clear(): void;
     contains(key: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
@@ -472,10 +475,10 @@ export interface Queue$instance {
     readonly syncRoot: unknown;
     clear(): void;
     clone(): unknown;
-    contains(obj: unknown | undefined): boolean;
+    contains(obj: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     dequeue(): unknown;
-    enqueue(obj: unknown | undefined): void;
+    enqueue(obj: unknown): void;
     getEnumerator(): IEnumerator;
     peek(): unknown;
     toArray(): (unknown | undefined)[];
@@ -527,16 +530,17 @@ export interface SortedList$instance {
     readonly isFixedSize: boolean;
     readonly isReadOnly: boolean;
     readonly isSynchronized: boolean;
-    item: unknown | undefined;
+    get item(): unknown | undefined;
+    set item(value: unknown);
     readonly keys: ICollection;
     readonly syncRoot: unknown;
     readonly values: ICollection;
-    add(key: unknown, value: unknown | undefined): void;
+    add(key: unknown, value: unknown): void;
     clear(): void;
     clone(): unknown;
     contains(key: unknown): boolean;
     containsKey(key: unknown): boolean;
-    containsValue(value: unknown | undefined): boolean;
+    containsValue(value: unknown): boolean;
     copyTo(array: ClrArray, arrayIndex: int): void;
     getByIndex(index: int): unknown | undefined;
     getEnumerator(): IDictionaryEnumerator;
@@ -544,10 +548,10 @@ export interface SortedList$instance {
     getKeyList(): IList;
     getValueList(): IList;
     indexOfKey(key: unknown): int;
-    indexOfValue(value: unknown | undefined): int;
+    indexOfValue(value: unknown): int;
     remove(key: unknown): void;
     removeAt(index: int): void;
-    setByIndex(index: int, value: unknown | undefined): void;
+    setByIndex(index: int, value: unknown): void;
     trimToSize(): void;
 }
 
@@ -555,10 +559,10 @@ export interface SortedList$instance {
 export const SortedList: {
     new(): SortedList;
     new(initialCapacity: int): SortedList;
-    new(comparer: IComparer | undefined): SortedList;
-    new(comparer: IComparer | undefined, capacity: int): SortedList;
+    new(comparer: IComparer): SortedList;
+    new(comparer: IComparer, capacity: int): SortedList;
     new(d: IDictionary): SortedList;
-    new(d: IDictionary, comparer: IComparer | undefined): SortedList;
+    new(d: IDictionary, comparer: IComparer): SortedList;
     synchronized(list: SortedList): SortedList;
 };
 
@@ -581,12 +585,12 @@ export interface Stack$instance {
     readonly syncRoot: unknown;
     clear(): void;
     clone(): unknown;
-    contains(obj: unknown | undefined): boolean;
+    contains(obj: unknown): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
     peek(): unknown;
     pop(): unknown;
-    push(obj: unknown | undefined): void;
+    push(obj: unknown): void;
     toArray(): (unknown | undefined)[];
 }
 

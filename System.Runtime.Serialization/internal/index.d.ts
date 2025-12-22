@@ -47,21 +47,23 @@ export type SerializationEventHandler = (context: StreamingContext) => void;
 
 
 export interface IDeserializationCallback$instance {
-    onDeserialization(sender: unknown | undefined): void;
+    onDeserialization(sender: unknown): void;
 }
 
 
 export type IDeserializationCallback = IDeserializationCallback$instance;
 
 export interface IExtensibleDataObject$instance {
-    extensionData: ExtensionDataObject | undefined;
+    get extensionData(): ExtensionDataObject | undefined;
+    set extensionData(value: ExtensionDataObject);
 }
 
 
 export type IExtensibleDataObject = IExtensibleDataObject$instance;
 
 export interface IFormatter$instance {
-    surrogateSelector: ISurrogateSelector | undefined;
+    get surrogateSelector(): ISurrogateSelector | undefined;
+    set surrogateSelector(value: ISurrogateSelector);
     binder: SerializationBinder;
     context: StreamingContext;
     deserialize(serializationStream: Stream): unknown;
@@ -117,7 +119,7 @@ export type ISerializable = ISerializable$instance;
 
 export interface ISerializationSurrogate$instance {
     getObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext): void;
-    setObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext, selector: ISurrogateSelector | undefined): unknown;
+    setObjectData(obj: unknown, info: SerializationInfo, context: StreamingContext, selector: ISurrogateSelector): unknown;
 }
 
 
@@ -136,7 +138,7 @@ export interface ISerializationSurrogateProvider2$instance extends ISerializatio
     getCustomDataToExport(runtimeType: Type, dataContractType: Type): unknown | undefined;
     getKnownCustomDataTypes(customDataTypes: Collection_1<Type>): void;
     getObjectToSerialize(obj: unknown, targetType: Type): unknown;
-    getReferencedTypeOnImport(typeName: string, typeNamespace: string, customData: unknown | undefined): Type | undefined;
+    getReferencedTypeOnImport(typeName: string, typeNamespace: string, customData: unknown): Type | undefined;
     getSurrogateType(type_: Type): Type;
 }
 
@@ -190,14 +192,14 @@ export type SerializationEntry = SerializationEntry$instance;
 export interface StreamingContext$instance {
     readonly context: unknown | undefined;
     readonly state: StreamingContextStates;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
 
 export const StreamingContext: {
     new(state: StreamingContextStates): StreamingContext;
-    new(state: StreamingContextStates, additional: unknown | undefined): StreamingContext;
+    new(state: StreamingContextStates, additional: unknown): StreamingContext;
 };
 
 
@@ -211,11 +213,13 @@ export interface CollectionDataContractAttribute$instance extends Attribute {
     isReference: boolean;
     readonly isReferenceSetExplicitly: boolean;
     readonly isValueNameSetExplicitly: boolean;
-    itemName: string | undefined;
+    get itemName(): string | undefined;
+    set itemName(value: string);
     keyName: string;
     name: string;
     namespace_: string;
-    valueName: string | undefined;
+    get valueName(): string | undefined;
+    set valueName(value: string);
 }
 
 
@@ -227,7 +231,8 @@ export const CollectionDataContractAttribute: {
 export type CollectionDataContractAttribute = CollectionDataContractAttribute$instance;
 
 export interface ContractNamespaceAttribute$instance extends Attribute {
-    clrNamespace: string | undefined;
+    get clrNamespace(): string | undefined;
+    set clrNamespace(value: string);
     readonly contractNamespace: string;
 }
 
@@ -257,8 +262,8 @@ export const DataContractAttribute: {
 export type DataContractAttribute = DataContractAttribute$instance;
 
 export interface DataContractResolver$instance {
-    resolveName(typeName: string, typeNamespace: string | undefined, declaredType: Type | undefined, knownTypeResolver: DataContractResolver): Type | undefined;
-    tryResolveType(type_: Type, declaredType: Type | undefined, knownTypeResolver: DataContractResolver, typeName: XmlDictionaryString | undefined, typeNamespace: XmlDictionaryString | undefined): boolean;
+    resolveName(typeName: string, typeNamespace: string, declaredType: Type, knownTypeResolver: DataContractResolver): Type | undefined;
+    tryResolveType(type_: Type, declaredType: Type, knownTypeResolver: DataContractResolver, typeName: XmlDictionaryString, typeNamespace: XmlDictionaryString): boolean;
 }
 
 
@@ -280,43 +285,46 @@ export interface DataContractSerializer$instance extends XmlObjectSerializer {
     readObject(reader: XmlReader): unknown | undefined;
     readObject(reader: XmlReader, verifyObjectName: boolean): unknown | undefined;
     readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | undefined;
-    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver | undefined): unknown | undefined;
+    readObject(reader: XmlDictionaryReader, verifyObjectName: boolean, dataContractResolver: DataContractResolver): unknown | undefined;
     readObject(stream: Stream): unknown | undefined;
     readObject(reader: XmlDictionaryReader): unknown | undefined;
     writeEndObject(writer: XmlWriter): void;
     writeEndObject(writer: XmlDictionaryWriter): void;
-    writeObject(writer: XmlWriter, graph: unknown | undefined): void;
-    writeObject(writer: XmlDictionaryWriter, graph: unknown | undefined, dataContractResolver: DataContractResolver | undefined): void;
-    writeObject(stream: Stream, graph: unknown | undefined): void;
-    writeObject(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
-    writeObjectContent(writer: XmlWriter, graph: unknown | undefined): void;
-    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
-    writeStartObject(writer: XmlWriter, graph: unknown | undefined): void;
-    writeStartObject(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
+    writeObject(writer: XmlWriter, graph: unknown): void;
+    writeObject(writer: XmlDictionaryWriter, graph: unknown, dataContractResolver: DataContractResolver): void;
+    writeObject(stream: Stream, graph: unknown): void;
+    writeObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeStartObject(writer: XmlWriter, graph: unknown): void;
+    writeStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
 }
 
 
 export const DataContractSerializer: {
     new(type_: Type): DataContractSerializer;
-    new(type_: Type, knownTypes: IEnumerable_1<Type> | undefined): DataContractSerializer;
+    new(type_: Type, knownTypes: IEnumerable_1<Type>): DataContractSerializer;
     new(type_: Type, rootName: string, rootNamespace: string): DataContractSerializer;
-    new(type_: Type, rootName: string, rootNamespace: string, knownTypes: IEnumerable_1<Type> | undefined): DataContractSerializer;
+    new(type_: Type, rootName: string, rootNamespace: string, knownTypes: IEnumerable_1<Type>): DataContractSerializer;
     new(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString): DataContractSerializer;
-    new(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString, knownTypes: IEnumerable_1<Type> | undefined): DataContractSerializer;
-    new(type_: Type, settings: DataContractSerializerSettings | undefined): DataContractSerializer;
+    new(type_: Type, rootName: XmlDictionaryString, rootNamespace: XmlDictionaryString, knownTypes: IEnumerable_1<Type>): DataContractSerializer;
+    new(type_: Type, settings: DataContractSerializerSettings): DataContractSerializer;
 };
 
 
 export type DataContractSerializer = DataContractSerializer$instance;
 
 export interface DataContractSerializerSettings$instance {
-    dataContractResolver: DataContractResolver | undefined;
+    get dataContractResolver(): DataContractResolver | undefined;
+    set dataContractResolver(value: DataContractResolver);
     ignoreExtensionDataObject: boolean;
     knownTypes: IEnumerable_1<Type>;
     maxItemsInObjectGraph: int;
     preserveObjectReferences: boolean;
-    rootName: XmlDictionaryString | undefined;
-    rootNamespace: XmlDictionaryString | undefined;
+    get rootName(): XmlDictionaryString | undefined;
+    set rootName(value: XmlDictionaryString);
+    get rootNamespace(): XmlDictionaryString | undefined;
+    set rootNamespace(value: XmlDictionaryString);
     serializeReadOnlyTypes: boolean;
 }
 
@@ -373,7 +381,8 @@ export const EnumMemberAttribute: {
 export type EnumMemberAttribute = EnumMemberAttribute$instance;
 
 export interface ExportOptions$instance {
-    dataContractSurrogate: ISerializationSurrogateProvider | undefined;
+    get dataContractSurrogate(): ISerializationSurrogateProvider | undefined;
+    set dataContractSurrogate(value: ISerializationSurrogateProvider);
     readonly knownTypes: Collection_1<Type>;
 }
 
@@ -399,7 +408,8 @@ export type ExtensionDataObject = ExtensionDataObject$instance;
 export interface Formatter$instance {
     binder: SerializationBinder;
     context: StreamingContext;
-    surrogateSelector: ISurrogateSelector | undefined;
+    get surrogateSelector(): ISurrogateSelector | undefined;
+    set surrogateSelector(value: ISurrogateSelector);
     deserialize(serializationStream: Stream): unknown;
     serialize(serializationStream: Stream, graph: unknown): void;
 }
@@ -469,8 +479,8 @@ export interface InvalidDataContractException$instance extends Exception {
 
 export const InvalidDataContractException: {
     new(): InvalidDataContractException;
-    new(message: string | undefined): InvalidDataContractException;
-    new(message: string | undefined, innerException: Exception | undefined): InvalidDataContractException;
+    new(message: string): InvalidDataContractException;
+    new(message: string, innerException: Exception): InvalidDataContractException;
 };
 
 
@@ -519,13 +529,13 @@ export interface ObjectManager$instance {
     recordFixup(objectToBeFixed: long, member: MemberInfo, objectRequired: long): void;
     registerObject(obj: unknown, objectID: long): void;
     registerObject(obj: unknown, objectID: long, info: SerializationInfo): void;
-    registerObject(obj: unknown, objectID: long, info: SerializationInfo | undefined, idOfContainingObj: long, member: MemberInfo | undefined): void;
-    registerObject(obj: unknown, objectID: long, info: SerializationInfo | undefined, idOfContainingObj: long, member: MemberInfo | undefined, arrayIndex: int[] | undefined): void;
+    registerObject(obj: unknown, objectID: long, info: SerializationInfo, idOfContainingObj: long, member: MemberInfo): void;
+    registerObject(obj: unknown, objectID: long, info: SerializationInfo, idOfContainingObj: long, member: MemberInfo, arrayIndex: int[]): void;
 }
 
 
 export const ObjectManager: {
-    new(selector: ISurrogateSelector | undefined, context: StreamingContext): ObjectManager;
+    new(selector: ISurrogateSelector, context: StreamingContext): ObjectManager;
 };
 
 
@@ -601,7 +611,7 @@ export const SafeSerializationEventArgs: {
 export type SafeSerializationEventArgs = SafeSerializationEventArgs$instance;
 
 export interface SerializationBinder$instance {
-    bindToName(serializedType: Type, assemblyName: string | undefined, typeName: string | undefined): void;
+    bindToName(serializedType: Type, assemblyName: string, typeName: string): void;
     bindToType(assemblyName: string, typeName: string): Type | undefined;
 }
 
@@ -619,8 +629,8 @@ export interface SerializationException$instance extends SystemException {
 
 export const SerializationException: {
     new(): SerializationException;
-    new(message: string | undefined): SerializationException;
-    new(message: string | undefined, innerException: Exception | undefined): SerializationException;
+    new(message: string): SerializationException;
+    new(message: string, innerException: Exception): SerializationException;
 };
 
 
@@ -638,8 +648,8 @@ export interface SerializationInfo$instance {
     readonly isFullTypeNameSetExplicit: boolean;
     readonly memberCount: int;
     readonly objectType: Type;
-    addValue(name: string, value: unknown | undefined, type_: Type): void;
-    addValue(name: string, value: unknown | undefined): void;
+    addValue(name: string, value: unknown, type_: Type): void;
+    addValue(name: string, value: unknown): void;
     addValue(name: string, value: boolean): void;
     addValue(name: string, value: char): void;
     addValue(name: string, value: sbyte): void;
@@ -763,13 +773,13 @@ export interface XmlObjectSerializer$instance {
     readObject(reader: XmlDictionaryReader, verifyObjectName: boolean): unknown | undefined;
     writeEndObject(writer: XmlDictionaryWriter): void;
     writeEndObject(writer: XmlWriter): void;
-    writeObject(stream: Stream, graph: unknown | undefined): void;
-    writeObject(writer: XmlWriter, graph: unknown | undefined): void;
-    writeObject(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
-    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
-    writeObjectContent(writer: XmlWriter, graph: unknown | undefined): void;
-    writeStartObject(writer: XmlDictionaryWriter, graph: unknown | undefined): void;
-    writeStartObject(writer: XmlWriter, graph: unknown | undefined): void;
+    writeObject(stream: Stream, graph: unknown): void;
+    writeObject(writer: XmlWriter, graph: unknown): void;
+    writeObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeObjectContent(writer: XmlWriter, graph: unknown): void;
+    writeStartObject(writer: XmlDictionaryWriter, graph: unknown): void;
+    writeStartObject(writer: XmlWriter, graph: unknown): void;
 }
 
 
@@ -796,7 +806,7 @@ export interface XsdDataContractExporter$instance {
 
 export const XsdDataContractExporter: {
     new(): XsdDataContractExporter;
-    new(schemas: XmlSchemaSet | undefined): XsdDataContractExporter;
+    new(schemas: XmlSchemaSet): XsdDataContractExporter;
 };
 
 
@@ -804,7 +814,7 @@ export type XsdDataContractExporter = XsdDataContractExporter$instance;
 
 export abstract class DataContractSerializerExtensions$instance {
     static getSerializationSurrogateProvider(serializer: DataContractSerializer): ISerializationSurrogateProvider | undefined;
-    static setSerializationSurrogateProvider(serializer: DataContractSerializer, provider: ISerializationSurrogateProvider | undefined): void;
+    static setSerializationSurrogateProvider(serializer: DataContractSerializer, provider: ISerializationSurrogateProvider): void;
 }
 
 
@@ -819,7 +829,7 @@ export abstract class FormatterServices$instance {
     static getSurrogateForCyclicalReference(innerSurrogate: ISerializationSurrogate): ISerializationSurrogate;
     static getTypeFromAssembly(assem: Assembly, name: string): Type | undefined;
     static getUninitializedObject(type_: Type): unknown;
-    static populateObjectMembers(obj: unknown, members: MemberInfo[], data: (unknown | undefined)[]): unknown;
+    static populateObjectMembers(obj: unknown, members: MemberInfo[], data: unknown[]): unknown;
 }
 
 
@@ -870,14 +880,14 @@ export type JsonFormatGeneratorStatics = JsonFormatGeneratorStatics$instance;
 export abstract class XmlSerializableServices$instance {
     static addDefaultSchema(schemas: XmlSchemaSet, typeQName: XmlQualifiedName): void;
     static readNodes(xmlReader: XmlReader): XmlNode[];
-    static writeNodes(xmlWriter: XmlWriter, nodes: (XmlNode | undefined)[] | undefined): void;
+    static writeNodes(xmlWriter: XmlWriter, nodes: XmlNode[]): void;
 }
 
 
 export type XmlSerializableServices = XmlSerializableServices$instance;
 
 export abstract class XPathQueryGenerator$instance {
-    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder | undefined, namespaces: XmlNamespaceManager): string;
+    static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], rootElementXpath: StringBuilder, namespaces: XmlNamespaceManager): string;
     static createFromDataContractSerializer(type_: Type, pathToMember: MemberInfo[], namespaces: XmlNamespaceManager): string;
 }
 

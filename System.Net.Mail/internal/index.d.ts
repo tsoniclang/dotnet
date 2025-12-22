@@ -100,13 +100,13 @@ export interface AlternateView$instance extends AttachmentBase$instance {
 
 export const AlternateView: {
     new(fileName: string): AlternateView;
-    new(fileName: string, mediaType: string | undefined): AlternateView;
-    new(fileName: string, contentType: ContentType | undefined): AlternateView;
+    new(fileName: string, mediaType: string): AlternateView;
+    new(fileName: string, contentType: ContentType): AlternateView;
     new(contentStream: Stream): AlternateView;
-    new(contentStream: Stream, mediaType: string | undefined): AlternateView;
-    new(contentStream: Stream, contentType: ContentType | undefined): AlternateView;
-    createAlternateViewFromString(content: string, contentType: ContentType | undefined): AlternateView;
-    createAlternateViewFromString(content: string, contentEncoding: Encoding | undefined, mediaType: string | undefined): AlternateView;
+    new(contentStream: Stream, mediaType: string): AlternateView;
+    new(contentStream: Stream, contentType: ContentType): AlternateView;
+    createAlternateViewFromString(content: string, contentType: ContentType): AlternateView;
+    createAlternateViewFromString(content: string, contentEncoding: Encoding, mediaType: string): AlternateView;
     createAlternateViewFromString(content: string): AlternateView;
 };
 
@@ -120,10 +120,10 @@ export type AlternateView = AlternateView$instance & __AlternateView$views;
 
 export interface AlternateViewCollection$instance extends Collection_1<AlternateView> {
     add(item: AlternateView): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: AlternateView): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: AlternateView[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -131,9 +131,9 @@ export interface AlternateViewCollection$instance extends Collection_1<Alternate
     getEnumerator(): IEnumerator;
     indexOf(item: AlternateView): int;
     insert(index: int, item: AlternateView): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: AlternateView): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -162,21 +162,22 @@ export type AlternateViewCollection = AlternateViewCollection$instance & __Alter
 export interface Attachment$instance extends AttachmentBase$instance {
     readonly contentDisposition: ContentDisposition | undefined;
     name: string;
-    nameEncoding: Encoding | undefined;
+    get nameEncoding(): Encoding | undefined;
+    set nameEncoding(value: Encoding);
     dispose(): void;
 }
 
 
 export const Attachment: {
     new(fileName: string): Attachment;
-    new(fileName: string, mediaType: string | undefined): Attachment;
+    new(fileName: string, mediaType: string): Attachment;
     new(fileName: string, contentType: ContentType): Attachment;
-    new(contentStream: Stream, name: string | undefined): Attachment;
-    new(contentStream: Stream, name: string | undefined, mediaType: string | undefined): Attachment;
+    new(contentStream: Stream, name: string): Attachment;
+    new(contentStream: Stream, name: string, mediaType: string): Attachment;
     new(contentStream: Stream, contentType: ContentType): Attachment;
     createAttachmentFromString(content: string, contentType: ContentType): Attachment;
-    createAttachmentFromString(content: string, name: string | undefined, contentEncoding: Encoding | undefined, mediaType: string | undefined): Attachment;
-    createAttachmentFromString(content: string, name: string | undefined): Attachment;
+    createAttachmentFromString(content: string, name: string, contentEncoding: Encoding, mediaType: string): Attachment;
+    createAttachmentFromString(content: string, name: string): Attachment;
 };
 
 
@@ -211,10 +212,10 @@ export type AttachmentBase = AttachmentBase$instance & __AttachmentBase$views;
 
 export interface AttachmentCollection$instance extends Collection_1<Attachment> {
     add(item: Attachment): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: Attachment): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: Attachment[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -222,9 +223,9 @@ export interface AttachmentCollection$instance extends Collection_1<Attachment> 
     getEnumerator(): IEnumerator;
     indexOf(item: Attachment): int;
     insert(index: int, item: Attachment): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: Attachment): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -251,20 +252,21 @@ export type AttachmentCollection = AttachmentCollection$instance & __AttachmentC
 
 
 export interface LinkedResource$instance extends AttachmentBase$instance {
-    contentLink: Uri | undefined;
+    get contentLink(): Uri | undefined;
+    set contentLink(value: Uri);
     dispose(): void;
 }
 
 
 export const LinkedResource: {
     new(fileName: string): LinkedResource;
-    new(fileName: string, mediaType: string | undefined): LinkedResource;
-    new(fileName: string, contentType: ContentType | undefined): LinkedResource;
+    new(fileName: string, mediaType: string): LinkedResource;
+    new(fileName: string, contentType: ContentType): LinkedResource;
     new(contentStream: Stream): LinkedResource;
-    new(contentStream: Stream, mediaType: string | undefined): LinkedResource;
-    new(contentStream: Stream, contentType: ContentType | undefined): LinkedResource;
-    createLinkedResourceFromString(content: string, contentType: ContentType | undefined): LinkedResource;
-    createLinkedResourceFromString(content: string, contentEncoding: Encoding | undefined, mediaType: string | undefined): LinkedResource;
+    new(contentStream: Stream, mediaType: string): LinkedResource;
+    new(contentStream: Stream, contentType: ContentType): LinkedResource;
+    createLinkedResourceFromString(content: string, contentType: ContentType): LinkedResource;
+    createLinkedResourceFromString(content: string, contentEncoding: Encoding, mediaType: string): LinkedResource;
     createLinkedResourceFromString(content: string): LinkedResource;
 };
 
@@ -278,10 +280,10 @@ export type LinkedResource = LinkedResource$instance & __LinkedResource$views;
 
 export interface LinkedResourceCollection$instance extends Collection_1<LinkedResource> {
     add(item: LinkedResource): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: LinkedResource): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: LinkedResource[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     dispose(): void;
@@ -289,9 +291,9 @@ export interface LinkedResourceCollection$instance extends Collection_1<LinkedRe
     getEnumerator(): IEnumerator;
     indexOf(item: LinkedResource): int;
     insert(index: int, item: LinkedResource): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: LinkedResource): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
 }
 
@@ -322,7 +324,7 @@ export interface MailAddress$instance {
     readonly displayName: string;
     readonly host: string;
     readonly user: string;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -330,11 +332,11 @@ export interface MailAddress$instance {
 
 export const MailAddress: {
     new(address: string): MailAddress;
-    new(address: string, displayName: string | undefined): MailAddress;
-    new(address: string, displayName: string | undefined, displayNameEncoding: Encoding | undefined): MailAddress;
-    tryCreate(address: string | undefined, result: MailAddress | undefined): boolean;
-    tryCreate(address: string | undefined, displayName: string | undefined, result: MailAddress | undefined): boolean;
-    tryCreate(address: string | undefined, displayName: string | undefined, displayNameEncoding: Encoding | undefined, result: MailAddress | undefined): boolean;
+    new(address: string, displayName: string): MailAddress;
+    new(address: string, displayName: string, displayNameEncoding: Encoding): MailAddress;
+    tryCreate(address: string, result: MailAddress): boolean;
+    tryCreate(address: string, displayName: string, result: MailAddress): boolean;
+    tryCreate(address: string, displayName: string, displayNameEncoding: Encoding, result: MailAddress): boolean;
 };
 
 
@@ -342,19 +344,19 @@ export type MailAddress = MailAddress$instance;
 
 export interface MailAddressCollection$instance extends Collection_1<MailAddress> {
     add(item: MailAddress): void;
-    add(value: unknown | undefined): int;
+    add(value: unknown): int;
     clear(): void;
     contains(item: MailAddress): boolean;
-    contains(value: unknown | undefined): boolean;
+    contains(value: unknown): boolean;
     copyTo(array: MailAddress[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator_1<MailAddress>;
     getEnumerator(): IEnumerator;
     indexOf(item: MailAddress): int;
     insert(index: int, item: MailAddress): void;
-    insert(index: int, value: unknown | undefined): void;
+    insert(index: int, value: unknown): void;
     remove(item: MailAddress): boolean;
-    remove(value: unknown | undefined): void;
+    remove(value: unknown): void;
     removeAt(index: int): void;
     toString(): string;
 }
@@ -383,20 +385,26 @@ export interface MailMessage$instance {
     readonly attachments: AttachmentCollection;
     readonly bcc: MailAddressCollection;
     body: string;
-    bodyEncoding: Encoding | undefined;
+    get bodyEncoding(): Encoding | undefined;
+    set bodyEncoding(value: Encoding);
     bodyTransferEncoding: TransferEncoding;
     readonly CC: MailAddressCollection;
     deliveryNotificationOptions: DeliveryNotificationOptions;
-    from_: MailAddress | undefined;
+    get from_(): MailAddress | undefined;
+    set from_(value: MailAddress);
     readonly headers: NameValueCollection;
-    headersEncoding: Encoding | undefined;
+    get headersEncoding(): Encoding | undefined;
+    set headersEncoding(value: Encoding);
     isBodyHtml: boolean;
     priority: MailPriority;
-    replyTo: MailAddress | undefined;
+    get replyTo(): MailAddress | undefined;
+    set replyTo(value: MailAddress);
     readonly replyToList: MailAddressCollection;
-    sender: MailAddress | undefined;
+    get sender(): MailAddress | undefined;
+    set sender(value: MailAddress);
     subject: string;
-    subjectEncoding: Encoding | undefined;
+    get subjectEncoding(): Encoding | undefined;
+    set subjectEncoding(value: Encoding);
     readonly to: MailAddressCollection;
     dispose(): void;
 }
@@ -405,7 +413,7 @@ export interface MailMessage$instance {
 export const MailMessage: {
     new(): MailMessage;
     new(from_: string, to: string): MailMessage;
-    new(from_: string, to: string, subject: string | undefined, body: string | undefined): MailMessage;
+    new(from_: string, to: string, subject: string, body: string): MailMessage;
     new(from_: MailAddress, to: MailAddress): MailMessage;
 };
 
@@ -426,29 +434,31 @@ export interface SmtpClient$instance {
     deliveryMethod: SmtpDeliveryMethod;
     enableSsl: boolean;
     host: string;
-    pickupDirectoryLocation: string | undefined;
+    get pickupDirectoryLocation(): string | undefined;
+    set pickupDirectoryLocation(value: string);
     port: int;
     readonly servicePoint: ServicePoint;
-    targetName: string | undefined;
+    get targetName(): string | undefined;
+    set targetName(value: string);
     timeout: int;
     useDefaultCredentials: boolean;
     dispose(): void;
-    send(from_: string, recipients: string, subject: string | undefined, body: string | undefined): void;
+    send(from_: string, recipients: string, subject: string, body: string): void;
     send(message: MailMessage): void;
-    sendAsync(from_: string, recipients: string, subject: string | undefined, body: string | undefined, userToken: unknown | undefined): void;
-    sendAsync(message: MailMessage, userToken: unknown | undefined): void;
+    sendAsync(from_: string, recipients: string, subject: string, body: string, userToken: unknown): void;
+    sendAsync(message: MailMessage, userToken: unknown): void;
     sendAsyncCancel(): void;
-    sendMailAsync(from_: string, recipients: string, subject: string | undefined, body: string | undefined): Task;
+    sendMailAsync(from_: string, recipients: string, subject: string, body: string): Task;
     sendMailAsync(message: MailMessage): Task;
-    sendMailAsync(from_: string, recipients: string, subject: string | undefined, body: string | undefined, cancellationToken: CancellationToken): Task;
+    sendMailAsync(from_: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
     sendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
 }
 
 
 export const SmtpClient: {
     new(): SmtpClient;
-    new(host: string | undefined): SmtpClient;
-    new(host: string | undefined, port: int): SmtpClient;
+    new(host: string): SmtpClient;
+    new(host: string, port: int): SmtpClient;
 };
 
 
@@ -469,10 +479,10 @@ export interface SmtpException$instance extends Exception {
 
 export const SmtpException: {
     new(statusCode: SmtpStatusCode): SmtpException;
-    new(statusCode: SmtpStatusCode, message: string | undefined): SmtpException;
+    new(statusCode: SmtpStatusCode, message: string): SmtpException;
     new(): SmtpException;
-    new(message: string | undefined): SmtpException;
-    new(message: string | undefined, innerException: Exception | undefined): SmtpException;
+    new(message: string): SmtpException;
+    new(message: string, innerException: Exception): SmtpException;
 };
 
 
@@ -491,11 +501,11 @@ export interface SmtpFailedRecipientException$instance extends SmtpException$ins
 
 export const SmtpFailedRecipientException: {
     new(): SmtpFailedRecipientException;
-    new(message: string | undefined): SmtpFailedRecipientException;
-    new(message: string | undefined, innerException: Exception | undefined): SmtpFailedRecipientException;
-    new(statusCode: SmtpStatusCode, failedRecipient: string | undefined): SmtpFailedRecipientException;
-    new(statusCode: SmtpStatusCode, failedRecipient: string | undefined, serverResponse: string | undefined): SmtpFailedRecipientException;
-    new(message: string | undefined, failedRecipient: string | undefined, innerException: Exception | undefined): SmtpFailedRecipientException;
+    new(message: string): SmtpFailedRecipientException;
+    new(message: string, innerException: Exception): SmtpFailedRecipientException;
+    new(statusCode: SmtpStatusCode, failedRecipient: string): SmtpFailedRecipientException;
+    new(statusCode: SmtpStatusCode, failedRecipient: string, serverResponse: string): SmtpFailedRecipientException;
+    new(message: string, failedRecipient: string, innerException: Exception): SmtpFailedRecipientException;
 };
 
 
@@ -514,9 +524,9 @@ export interface SmtpFailedRecipientsException$instance extends SmtpFailedRecipi
 
 export const SmtpFailedRecipientsException: {
     new(): SmtpFailedRecipientsException;
-    new(message: string | undefined): SmtpFailedRecipientsException;
-    new(message: string | undefined, innerException: Exception | undefined): SmtpFailedRecipientsException;
-    new(message: string | undefined, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException;
+    new(message: string): SmtpFailedRecipientsException;
+    new(message: string, innerException: Exception): SmtpFailedRecipientsException;
+    new(message: string, innerExceptions: SmtpFailedRecipientException[]): SmtpFailedRecipientsException;
 };
 
 

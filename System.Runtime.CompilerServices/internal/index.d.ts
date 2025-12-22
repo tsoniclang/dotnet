@@ -71,10 +71,10 @@ export enum UnsafeAccessorKind {
 export type ConditionalWeakTable_2_CreateValueCallback<TKey, TValue> = (key: TKey) => TValue;
 
 
-export type RuntimeHelpers_CleanupCode = (userData: unknown | undefined, exceptionThrown: boolean) => void;
+export type RuntimeHelpers_CleanupCode = (userData: unknown, exceptionThrown: boolean) => void;
 
 
-export type RuntimeHelpers_TryCode = (userData: unknown | undefined) => void;
+export type RuntimeHelpers_TryCode = (userData: unknown) => void;
 
 
 export interface IAsyncStateMachine$instance {
@@ -104,14 +104,16 @@ export type INotifyCompletion = INotifyCompletion$instance;
 
 export interface IRuntimeVariables$instance {
     readonly count: int;
-    item: unknown | undefined;
+    get item(): unknown | undefined;
+    set item(value: unknown);
 }
 
 
 export type IRuntimeVariables = IRuntimeVariables$instance;
 
 export interface IStrongBox$instance {
-    value: unknown | undefined;
+    get value(): unknown | undefined;
+    set value(value: unknown);
 }
 
 
@@ -414,14 +416,14 @@ export type ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter = Configured
 export interface DefaultInterpolatedStringHandler$instance {
     readonly text: ReadOnlySpan_1<System_Internal.Char>;
     appendFormatted<T>(value: T): void;
-    appendFormatted<T>(value: T, format: string | undefined): void;
+    appendFormatted<T>(value: T, format: string): void;
     appendFormatted<T>(value: T, alignment: int): void;
-    appendFormatted<T>(value: T, alignment: int, format: string | undefined): void;
+    appendFormatted<T>(value: T, alignment: int, format: string): void;
     appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>): void;
-    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string | undefined): void;
-    appendFormatted(value: string | undefined): void;
-    appendFormatted(value: string | undefined, alignment?: int, format?: string | undefined): void;
-    appendFormatted(value: unknown | undefined, alignment?: int, format?: string | undefined): void;
+    appendFormatted(value: ReadOnlySpan_1<System_Internal.Char>, alignment?: int, format?: string): void;
+    appendFormatted(value: string): void;
+    appendFormatted(value: string, alignment?: int, format?: string): void;
+    appendFormatted(value: unknown, alignment?: int, format?: string): void;
     appendLiteral(value: string): void;
     clear(): void;
     toString(): string;
@@ -431,8 +433,8 @@ export interface DefaultInterpolatedStringHandler$instance {
 
 export const DefaultInterpolatedStringHandler: {
     new(literalLength: int, formattedCount: int): DefaultInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, provider: IFormatProvider | undefined): DefaultInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, provider: IFormatProvider | undefined, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider): DefaultInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, provider: IFormatProvider, initialBuffer: Span_1<System_Internal.Char>): DefaultInterpolatedStringHandler;
 };
 
 
@@ -977,7 +979,7 @@ export interface Closure$instance {
 
 
 export const Closure: {
-    new(constants: unknown[], locals: unknown[] | undefined): Closure;
+    new(constants: unknown[], locals: unknown[]): Closure;
 };
 
 
@@ -1603,7 +1605,7 @@ export interface ReferenceAssemblyAttribute$instance extends Attribute {
 
 export const ReferenceAssemblyAttribute: {
     new(): ReferenceAssemblyAttribute;
-    new(description: string | undefined): ReferenceAssemblyAttribute;
+    new(description: string): ReferenceAssemblyAttribute;
 };
 
 
@@ -1803,10 +1805,10 @@ export interface SwitchExpressionException$instance extends InvalidOperationExce
 
 export const SwitchExpressionException: {
     new(): SwitchExpressionException;
-    new(innerException: Exception | undefined): SwitchExpressionException;
-    new(unmatchedValue: unknown | undefined): SwitchExpressionException;
-    new(message: string | undefined): SwitchExpressionException;
-    new(message: string | undefined, innerException: Exception | undefined): SwitchExpressionException;
+    new(innerException: Exception): SwitchExpressionException;
+    new(unmatchedValue: unknown): SwitchExpressionException;
+    new(message: string): SwitchExpressionException;
+    new(message: string, innerException: Exception): SwitchExpressionException;
 };
 
 
@@ -1823,7 +1825,7 @@ export interface TupleElementNamesAttribute$instance extends Attribute {
 
 
 export const TupleElementNamesAttribute: {
-    new(transformNames: (string | undefined)[]): TupleElementNamesAttribute;
+    new(transformNames: string[]): TupleElementNamesAttribute;
 };
 
 
@@ -1936,8 +1938,8 @@ export abstract class CompilerMarshalOverride$instance {
 export type CompilerMarshalOverride = CompilerMarshalOverride$instance;
 
 export abstract class ContractHelper$instance {
-    static raiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string | undefined, conditionText: string | undefined, innerException: Exception | undefined): string | undefined;
-    static triggerFailure(kind: ContractFailureKind, displayMessage: string | undefined, userMessage: string | undefined, conditionText: string | undefined, innerException: Exception | undefined): void;
+    static raiseContractFailedEvent(failureKind: ContractFailureKind, userMessage: string, conditionText: string, innerException: Exception): string | undefined;
+    static triggerFailure(kind: ContractFailureKind, displayMessage: string, userMessage: string, conditionText: string, innerException: Exception): void;
 }
 
 
@@ -2051,10 +2053,10 @@ export abstract class RuntimeHelpers$instance {
     static box(target: byte, type_: RuntimeTypeHandle): unknown | undefined;
     static createSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
     static ensureSufficientExecutionStack(): void;
-    static equals(o1: unknown | undefined, o2: unknown | undefined): boolean;
-    static executeCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown | undefined): void;
-    static getHashCode(o: unknown | undefined): int;
-    static getObjectValue(obj: unknown | undefined): unknown | undefined;
+    static equals(o1: unknown, o2: unknown): boolean;
+    static executeCodeWithGuaranteedCleanup(code: RuntimeHelpers_TryCode, backoutCode: RuntimeHelpers_CleanupCode, userData: unknown): void;
+    static getHashCode(o: unknown): int;
+    static getObjectValue(obj: unknown): unknown | undefined;
     static getSubArray<T>(array: T[], range: Range): T[];
     static getUninitializedObject(type_: Type): unknown;
     static initializeArray(array: ClrArray, fldHandle: RuntimeFieldHandle): void;
@@ -2063,7 +2065,7 @@ export abstract class RuntimeHelpers$instance {
     static prepareConstrainedRegionsNoOP(): void;
     static prepareContractedDelegate(d: Function): void;
     static prepareDelegate(d: Function): void;
-    static prepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[] | undefined): void;
+    static prepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
     static prepareMethod(method: RuntimeMethodHandle): void;
     static probeForSufficientStack(): void;
     static runClassConstructor(type_: RuntimeTypeHandle): void;
@@ -2078,13 +2080,13 @@ export type RuntimeHelpers = RuntimeHelpers$instance;
 export abstract class RuntimeOps$instance {
     static createRuntimeVariables(): IRuntimeVariables;
     static createRuntimeVariables(data: unknown[], indexes: long[]): IRuntimeVariables;
-    static expandoCheckVersion(expando: ExpandoObject, version: unknown | undefined): boolean;
+    static expandoCheckVersion(expando: ExpandoObject, version: unknown): boolean;
     static expandoPromoteClass(expando: ExpandoObject, oldClass: unknown, newClass: unknown): void;
-    static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown | undefined, index: int, name: string, ignoreCase: boolean): boolean;
-    static expandoTryGetValue(expando: ExpandoObject, indexClass: unknown | undefined, index: int, name: string, ignoreCase: boolean, value: unknown | undefined): boolean;
-    static expandoTrySetValue(expando: ExpandoObject, indexClass: unknown | undefined, index: int, value: unknown | undefined, name: string, ignoreCase: boolean): unknown | undefined;
+    static expandoTryDeleteValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean): boolean;
+    static expandoTryGetValue(expando: ExpandoObject, indexClass: unknown, index: int, name: string, ignoreCase: boolean, value: unknown): boolean;
+    static expandoTrySetValue(expando: ExpandoObject, indexClass: unknown, index: int, value: unknown, name: string, ignoreCase: boolean): unknown | undefined;
     static mergeRuntimeVariables(first: IRuntimeVariables, second: IRuntimeVariables, indexes: int[]): IRuntimeVariables;
-    static quote(expression: Expression | undefined, hoistedLocals: unknown, locals: unknown[]): Expression | undefined;
+    static quote(expression: Expression, hoistedLocals: unknown, locals: unknown[]): Expression | undefined;
 }
 
 
@@ -2098,7 +2100,7 @@ export abstract class Unsafe$instance {
     static addByteOffset<T>(source: T, byteOffset: nint): T;
     static addByteOffset<T>(source: T, byteOffset: nuint): T;
     static areSame<T>(left: T, right: T): boolean;
-    static as_<T>(o: unknown | undefined): T;
+    static as_<T>(o: unknown): T;
     static as_<TFrom, TTo>(source: TFrom): TTo;
     static asPointer<T>(value: T): ptr<void>;
     static asRef<T>(source: ptr<void>): T;

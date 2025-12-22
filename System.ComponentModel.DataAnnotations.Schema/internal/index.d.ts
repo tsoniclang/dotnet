@@ -91,7 +91,8 @@ export type NotMappedAttribute = NotMappedAttribute$instance;
 
 export interface TableAttribute$instance extends Attribute {
     readonly name: string;
-    schema: string | undefined;
+    get schema(): string | undefined;
+    set schema(value: string);
 }
 
 

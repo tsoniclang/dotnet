@@ -64,7 +64,7 @@ export interface MemoryHandle$instance {
 
 
 export const MemoryHandle: {
-    new(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable | undefined): MemoryHandle;
+    new(pointer: ptr<void>, handle: GCHandle, pinnable: IPinnable): MemoryHandle;
 };
 
 
@@ -178,7 +178,7 @@ export interface StandardFormat$instance {
     readonly isDefault: boolean;
     readonly precision: byte;
     readonly symbol_: char;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: StandardFormat): boolean;
     getHashCode(): int;
     toString(): string;
@@ -190,7 +190,7 @@ export const StandardFormat: {
     readonly noPrecision: byte;
     readonly maxPrecision: byte;
     parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
-    parse(format: string | undefined): StandardFormat;
+    parse(format: string): StandardFormat;
     tryParse(format: ReadOnlySpan_1<System_Internal.Char>, result: StandardFormat): boolean;
 };
 

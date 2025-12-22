@@ -544,7 +544,7 @@ export type Action_8<T1, T2, T3, T4, T5, T6, T7, T8> = (arg1: T1, arg2: T2, arg3
 export type Action_9<T1, T2, T3, T4, T5, T6, T7, T8, T9> = (arg1: T1, arg2: T2, arg3: T3, arg4: T4, arg5: T5, arg6: T6, arg7: T7, arg8: T8, arg9: T9) => void;
 
 
-export type AssemblyLoadEventHandler = (sender: unknown | undefined, args: AssemblyLoadEventArgs) => void;
+export type AssemblyLoadEventHandler = (sender: unknown, args: AssemblyLoadEventArgs) => void;
 
 
 export type AsyncCallback = (ar: IAsyncResult) => void;
@@ -553,16 +553,16 @@ export type AsyncCallback = (ar: IAsyncResult) => void;
 export type Comparison_1<T> = (x: T, y: T) => int;
 
 
-export type ConsoleCancelEventHandler = (sender: unknown | undefined, e: ConsoleCancelEventArgs) => void;
+export type ConsoleCancelEventHandler = (sender: unknown, e: ConsoleCancelEventArgs) => void;
 
 
 export type Converter_2<TInput, TOutput> = (input: TInput) => TOutput;
 
 
-export type EventHandler = (sender: unknown | undefined, e: EventArgs) => void;
+export type EventHandler = (sender: unknown, e: EventArgs) => void;
 
 
-export type EventHandler_1<TEventArgs> = (sender: unknown | undefined, e: TEventArgs) => void;
+export type EventHandler_1<TEventArgs> = (sender: unknown, e: TEventArgs) => void;
 
 
 export type EventHandler_2<TSender, TEventArgs> = (sender: TSender, e: TEventArgs) => void;
@@ -622,7 +622,7 @@ export type Func_9<T1, T2, T3, T4, T5, T6, T7, T8, TResult> = (arg1: T1, arg2: T
 export type Predicate_1<T> = (obj: T) => boolean;
 
 
-export type ResolveEventHandler = (sender: unknown | undefined, args: ResolveEventArgs) => Assembly;
+export type ResolveEventHandler = (sender: unknown, args: ResolveEventArgs) => Assembly;
 
 
 export type UnhandledExceptionEventHandler = (sender: unknown, e: UnhandledExceptionEventArgs) => void;
@@ -653,14 +653,14 @@ export interface ICloneable$instance {
 export type ICloneable = ICloneable$instance;
 
 export interface IComparable$instance {
-    compareTo(obj: unknown | undefined): int;
+    compareTo(obj: unknown): int;
 }
 
 
 export type IComparable = IComparable$instance;
 
 export interface IComparable_1$instance<T> {
-    compareTo(other: T | undefined): int;
+    compareTo(other: T): int;
 }
 
 
@@ -668,29 +668,29 @@ export type IComparable_1<T> = IComparable_1$instance<T>;
 
 export interface IConvertible$instance {
     getTypeCode(): TypeCode;
-    toBoolean(provider: IFormatProvider | undefined): boolean;
-    toByte(provider: IFormatProvider | undefined): byte;
-    toChar(provider: IFormatProvider | undefined): char;
-    toDateTime(provider: IFormatProvider | undefined): DateTime;
-    toDecimal(provider: IFormatProvider | undefined): decimal;
-    toDouble(provider: IFormatProvider | undefined): double;
-    toInt16(provider: IFormatProvider | undefined): short;
-    toInt32(provider: IFormatProvider | undefined): int;
-    toInt64(provider: IFormatProvider | undefined): long;
-    toSByte(provider: IFormatProvider | undefined): sbyte;
-    toSingle(provider: IFormatProvider | undefined): float;
-    toString(provider: IFormatProvider | undefined): string;
-    toType(conversionType: Type, provider: IFormatProvider | undefined): unknown;
-    toUInt16(provider: IFormatProvider | undefined): ushort;
-    toUInt32(provider: IFormatProvider | undefined): uint;
-    toUInt64(provider: IFormatProvider | undefined): ulong;
+    toBoolean(provider: IFormatProvider): boolean;
+    toByte(provider: IFormatProvider): byte;
+    toChar(provider: IFormatProvider): char;
+    toDateTime(provider: IFormatProvider): DateTime;
+    toDecimal(provider: IFormatProvider): decimal;
+    toDouble(provider: IFormatProvider): double;
+    toInt16(provider: IFormatProvider): short;
+    toInt32(provider: IFormatProvider): int;
+    toInt64(provider: IFormatProvider): long;
+    toSByte(provider: IFormatProvider): sbyte;
+    toSingle(provider: IFormatProvider): float;
+    toString(provider: IFormatProvider): string;
+    toType(conversionType: Type, provider: IFormatProvider): unknown;
+    toUInt16(provider: IFormatProvider): ushort;
+    toUInt32(provider: IFormatProvider): uint;
+    toUInt64(provider: IFormatProvider): ulong;
 }
 
 
 export type IConvertible = IConvertible$instance;
 
 export interface ICustomFormatter$instance {
-    format(format: string | undefined, arg: unknown | undefined, formatProvider: IFormatProvider | undefined): string;
+    format(format: string, arg: unknown, formatProvider: IFormatProvider): string;
 }
 
 
@@ -704,21 +704,21 @@ export interface IDisposable$instance {
 export type IDisposable = IDisposable$instance;
 
 export interface IEquatable_1$instance<T> {
-    equals(other: T | undefined): boolean;
+    equals(other: T): boolean;
 }
 
 
 export type IEquatable_1<T> = IEquatable_1$instance<T>;
 
 export interface IFormatProvider$instance {
-    getFormat(formatType: Type | undefined): unknown | undefined;
+    getFormat(formatType: Type): unknown | undefined;
 }
 
 
 export type IFormatProvider = IFormatProvider$instance;
 
 export interface IFormattable$instance {
-    toString(format: string | undefined, formatProvider: IFormatProvider | undefined): string;
+    toString(format: string, formatProvider: IFormatProvider): string;
 }
 
 
@@ -761,8 +761,8 @@ export interface IServiceProvider$instance {
 export type IServiceProvider = IServiceProvider$instance;
 
 export interface ISpanFormattable$instance extends IFormattable {
-    toString(format: string | undefined, formatProvider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): boolean;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
 
@@ -779,7 +779,7 @@ export interface ISpanParsable_1$instance<TSelf extends ISpanParsable_1<TSelf>> 
 export type ISpanParsable_1<TSelf extends ISpanParsable_1<TSelf>> = ISpanParsable_1$instance<TSelf>;
 
 export interface IUtf8SpanFormattable$instance {
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format: ReadOnlySpan_1<Char>, provider: IFormatProvider): boolean;
 }
 
 
@@ -793,7 +793,7 @@ export type IUtf8SpanParsable_1<TSelf extends IUtf8SpanParsable_1<TSelf>> = IUtf
 
 export interface ArgIterator$instance {
     end(): void;
-    equals(o: unknown | undefined): boolean;
+    equals(o: unknown): boolean;
     getHashCode(): int;
     getNextArg(): TypedReference;
     getNextArg(rth: RuntimeTypeHandle): TypedReference;
@@ -818,7 +818,7 @@ export interface ArraySegment_1$instance<T> {
     copyTo(destination: T[]): void;
     copyTo(destination: T[], destinationIndex: int): void;
     copyTo(destination: ArraySegment_1<T>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: ArraySegment_1<T>): boolean;
     getEnumerator(): ArraySegment_1_Enumerator<T>;
     getHashCode(): int;
@@ -868,14 +868,14 @@ export type ArraySegment_1_Enumerator<T> = ArraySegment_1_Enumerator$instance<T>
 
 
 export interface Boolean$instance {
-    compareTo(obj: unknown | undefined): int;
+    compareTo(obj: unknown): int;
     compareTo(value: boolean): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: boolean): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
+    toString(provider: IFormatProvider): string;
     tryFormat(destination: Span_1<Char>, charsWritten: int): boolean;
 }
 
@@ -887,7 +887,7 @@ export const Boolean: {
     parse(value: ReadOnlySpan_1<Char>): boolean;
     parse(value: string): boolean;
     tryParse(value: ReadOnlySpan_1<Char>, result: boolean): boolean;
-    tryParse(value: string | undefined, result: boolean): boolean;
+    tryParse(value: string, result: boolean): boolean;
 };
 
 
@@ -910,18 +910,18 @@ export type Boolean = boolean | (boolean & Boolean$instance & __Boolean$views);
 
 
 export interface Byte$instance extends IBitwiseOperators_3<Byte, Byte, Byte>, IComparisonOperators_3<Byte, Byte, Boolean>, IEqualityOperators_3<Byte, Byte, Boolean>, IModulusOperators_3<Byte, Byte, Byte>, IAdditionOperators_3<Byte, Byte, Byte>, IDecrementOperators_1<Byte>, IDivisionOperators_3<Byte, Byte, Byte>, IIncrementOperators_1<Byte>, IMultiplyOperators_3<Byte, Byte, Byte>, ISubtractionOperators_3<Byte, Byte, Byte>, IUnaryPlusOperators_2<Byte, Byte>, IUnaryNegationOperators_2<Byte, Byte>, IShiftOperators_3<Byte, Int32, Byte> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: byte): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: byte): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -941,13 +941,13 @@ export const Byte: {
     log2(value: byte): byte;
     max(x: byte, y: byte): byte;
     min(x: byte, y: byte): byte;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): byte;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): byte;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): byte;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): byte;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): byte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): byte;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): byte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): byte;
     parse(s: string, style: NumberStyles): byte;
-    parse(s: string, provider: IFormatProvider | undefined): byte;
+    parse(s: string, provider: IFormatProvider): byte;
     parse(s: string): byte;
     popCount(value: byte): byte;
     rotateLeft(value: byte, rotateAmount: int): byte;
@@ -955,14 +955,14 @@ export const Byte: {
     sign(value: byte): int;
     trailingZeroCount(value: byte): byte;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: byte): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: byte): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: byte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: byte): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: byte): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: byte): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: byte): boolean;
-    tryParse(s: string | undefined, result: byte): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: byte): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: byte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: string, result: byte): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: byte): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: byte): boolean;
 };
 
 
@@ -1002,14 +1002,14 @@ export type Byte = number & Byte$instance & __Byte$views;
 
 
 export interface Char$instance extends IBitwiseOperators_3<Char, Char, Char>, IComparisonOperators_3<Char, Char, Boolean>, IEqualityOperators_3<Char, Char, Boolean>, IModulusOperators_3<Char, Char, Char>, IAdditionOperators_3<Char, Char, Char>, IDecrementOperators_1<Char>, IDivisionOperators_3<Char, Char, Char>, IIncrementOperators_1<Char>, IMultiplyOperators_3<Char, Char, Char>, ISubtractionOperators_3<Char, Char, Char>, IUnaryPlusOperators_2<Char, Char>, IUnaryNegationOperators_2<Char, Char>, IShiftOperators_3<Char, Int32, Char> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: char): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: char): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
+    toString(provider: IFormatProvider): string;
 }
 
 
@@ -1072,7 +1072,7 @@ export const Char: {
     toUpper(c: char, culture: CultureInfo): char;
     toUpper(c: char): char;
     toUpperInvariant(c: char): char;
-    tryParse(s: string | undefined, result: char): boolean;
+    tryParse(s: string, result: char): boolean;
 };
 
 
@@ -1115,7 +1115,7 @@ export interface ConsoleKeyInfo$instance {
     readonly key: ConsoleKey;
     readonly keyChar: char;
     readonly modifiers: ConsoleModifiers;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(obj: ConsoleKeyInfo): boolean;
     getHashCode(): int;
 }
@@ -1147,21 +1147,21 @@ export interface DateOnly$instance {
     addMonths(value: int): DateOnly;
     addYears(value: int): DateOnly;
     compareTo(value: DateOnly): int;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     deconstruct(year: int, month: int, day: int): void;
     equals(value: DateOnly): boolean;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toDateTime(time: TimeOnly): DateTime;
     toDateTime(time: TimeOnly, kind: DateTimeKind): DateTime;
     toLongDateString(): string;
     toShortDateString(): string;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -1172,32 +1172,32 @@ export const DateOnly: {
     readonly maxValue: DateOnly;
     fromDateTime(dateTime: DateTime): DateOnly;
     fromDayNumber(dayNumber: int): DateOnly;
-    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): DateOnly;
-    parse(s: string, provider: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
-    parse(s: string, provider: IFormatProvider | undefined): DateOnly;
+    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): DateOnly;
+    parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parse(s: string, provider: IFormatProvider): DateOnly;
     parse(s: string): DateOnly;
-    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
-    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
+    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider?: IFormatProvider, style?: DateTimeStyles): DateOnly;
+    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     parseExact(s: ReadOnlySpan_1<Char>, formats: string[]): DateOnly;
-    parseExact(s: string, format: string, provider: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
+    parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     parseExact(s: string, format: string): DateOnly;
-    parseExact(s: string, formats: string[], provider: IFormatProvider | undefined, style?: DateTimeStyles): DateOnly;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateOnly;
     parseExact(s: string, formats: string[]): DateOnly;
     tryParse(s: ReadOnlySpan_1<Char>, result: DateOnly): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: DateOnly): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
-    tryParse(s: string | undefined, result: DateOnly): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: DateOnly): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: DateOnly): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParse(s: string, result: DateOnly): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: DateOnly): boolean;
+    tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
     tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, result: DateOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, result: DateOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
-    tryParseExact(s: string | undefined, format: string | undefined, result: DateOnly): boolean;
-    tryParseExact(s: string | undefined, format: string | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
-    tryParseExact(s: string | undefined, formats: (string | undefined)[] | undefined, result: DateOnly): boolean;
-    tryParseExact(s: string | undefined, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, formats: string[], result: DateOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParseExact(s: string, format: string, result: DateOnly): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
+    tryParseExact(s: string, formats: string[], result: DateOnly): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: DateOnly): boolean;
 };
 
 
@@ -1248,16 +1248,16 @@ export interface DateTime$instance {
     addSeconds(value: double): DateTime;
     addTicks(value: long): DateTime;
     addYears(value: int): DateTime;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: DateTime): int;
     deconstruct(date: DateOnly, time: TimeOnly): void;
     deconstruct(year: int, month: int, day: int): void;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(value: DateTime): boolean;
     getDateTimeFormats(): string[];
-    getDateTimeFormats(provider: IFormatProvider | undefined): string[];
+    getDateTimeFormats(provider: IFormatProvider): string[];
     getDateTimeFormats(format: char): string[];
-    getDateTimeFormats(format: char, provider: IFormatProvider | undefined): string[];
+    getDateTimeFormats(format: char, provider: IFormatProvider): string[];
     getHashCode(): int;
     getTypeCode(): TypeCode;
     isDaylightSavingTime(): boolean;
@@ -1273,12 +1273,12 @@ export interface DateTime$instance {
     toShortDateString(): string;
     toShortTimeString(): string;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
     toUniversalTime(): DateTime;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -1314,27 +1314,27 @@ export const DateTime: {
     fromFileTimeUtc(fileTime: long): DateTime;
     fromOADate(d: double): DateTime;
     isLeapYear(year: int): boolean;
-    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined, styles?: DateTimeStyles): DateTime;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): DateTime;
-    parse(s: string, provider: IFormatProvider | undefined, styles: DateTimeStyles): DateTime;
-    parse(s: string, provider: IFormatProvider | undefined): DateTime;
+    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider, styles?: DateTimeStyles): DateTime;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): DateTime;
+    parse(s: string, provider: IFormatProvider, styles: DateTimeStyles): DateTime;
+    parse(s: string, provider: IFormatProvider): DateTime;
     parse(s: string): DateTime;
-    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style?: DateTimeStyles): DateTime;
-    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider | undefined, style?: DateTimeStyles): DateTime;
-    parseExact(s: string, format: string, provider: IFormatProvider | undefined, style: DateTimeStyles): DateTime;
-    parseExact(s: string, format: string, provider: IFormatProvider | undefined): DateTime;
-    parseExact(s: string, formats: string[], provider: IFormatProvider | undefined, style: DateTimeStyles): DateTime;
+    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): DateTime;
+    parseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles): DateTime;
+    parseExact(s: string, format: string, provider: IFormatProvider): DateTime;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles): DateTime;
     specifyKind(value: DateTime, kind: DateTimeKind): DateTime;
     tryParse(s: ReadOnlySpan_1<Char>, result: DateTime): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: DateTime): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTime): boolean;
-    tryParse(s: string | undefined, result: DateTime): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: DateTime): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTime): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateTime): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateTime): boolean;
-    tryParseExact(s: string | undefined, format: string | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateTime): boolean;
-    tryParseExact(s: string | undefined, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: DateTime): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: DateTime): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, styles: DateTimeStyles, result: DateTime): boolean;
+    tryParse(s: string, result: DateTime): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: DateTime): boolean;
+    tryParse(s: string, provider: IFormatProvider, styles: DateTimeStyles, result: DateTime): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider, style: DateTimeStyles, result: DateTime): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: DateTime): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: DateTime): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: DateTime): boolean;
 };
 
 
@@ -1394,7 +1394,7 @@ export interface DateTimeOffset$instance {
     addYears(years: int): DateTimeOffset;
     compareTo(other: DateTimeOffset): int;
     deconstruct(date: DateOnly, time: TimeOnly, offset: TimeSpan): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: DateTimeOffset): boolean;
     equalsExact(other: DateTimeOffset): boolean;
     getHashCode(): int;
@@ -1404,14 +1404,14 @@ export interface DateTimeOffset$instance {
     toLocalTime(): DateTimeOffset;
     toOffset(offset: TimeSpan): DateTimeOffset;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(formatProvider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, formatProvider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(formatProvider: IFormatProvider): string;
+    toString(format: string, formatProvider: IFormatProvider): string;
     toUniversalTime(): DateTimeOffset;
     toUnixTimeMilliseconds(): long;
     toUnixTimeSeconds(): long;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined): boolean;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider): boolean;
 }
 
 
@@ -1435,26 +1435,26 @@ export const DateTimeOffset: {
     fromFileTime(fileTime: long): DateTimeOffset;
     fromUnixTimeMilliseconds(milliseconds: long): DateTimeOffset;
     fromUnixTimeSeconds(seconds: long): DateTimeOffset;
-    parse(input: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined, styles?: DateTimeStyles): DateTimeOffset;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): DateTimeOffset;
-    parse(input: string, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles): DateTimeOffset;
-    parse(input: string, formatProvider: IFormatProvider | undefined): DateTimeOffset;
+    parse(input: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): DateTimeOffset;
+    parse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
+    parse(input: string, formatProvider: IFormatProvider): DateTimeOffset;
     parse(input: string): DateTimeOffset;
-    parseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, styles?: DateTimeStyles): DateTimeOffset;
-    parseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider | undefined, styles?: DateTimeStyles): DateTimeOffset;
-    parseExact(input: string, format: string, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles): DateTimeOffset;
-    parseExact(input: string, format: string, formatProvider: IFormatProvider | undefined): DateTimeOffset;
-    parseExact(input: string, formats: string[], formatProvider: IFormatProvider | undefined, styles: DateTimeStyles): DateTimeOffset;
+    parseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider, styles?: DateTimeStyles): DateTimeOffset;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider): DateTimeOffset;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles): DateTimeOffset;
     tryParse(input: ReadOnlySpan_1<Char>, result: DateTimeOffset): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: DateTimeOffset): boolean;
-    tryParse(input: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
-    tryParse(input: string | undefined, result: DateTimeOffset): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: DateTimeOffset): boolean;
-    tryParse(input: string | undefined, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
-    tryParseExact(input: string | undefined, format: string | undefined, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
-    tryParseExact(input: string | undefined, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: DateTimeOffset): boolean;
+    tryParse(input: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParse(input: string, result: DateTimeOffset): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: DateTimeOffset): boolean;
+    tryParse(input: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: DateTimeStyles, result: DateTimeOffset): boolean;
 };
 
 
@@ -1483,18 +1483,18 @@ export type DateTimeOffset = DateTimeOffset$instance & __DateTimeOffset$views;
 
 export interface Decimal$instance extends IAdditionOperators_3<Decimal, Decimal, Decimal>, IDecrementOperators_1<Decimal>, IDivisionOperators_3<Decimal, Decimal, Decimal>, IEqualityOperators_3<Decimal, Decimal, Boolean>, IIncrementOperators_1<Decimal>, IMultiplyOperators_3<Decimal, Decimal, Decimal>, ISubtractionOperators_3<Decimal, Decimal, Decimal>, IUnaryPlusOperators_2<Decimal, Decimal>, IUnaryNegationOperators_2<Decimal, Decimal>, IComparisonOperators_3<Decimal, Decimal, Boolean>, IModulusOperators_3<Decimal, Decimal, Decimal> {
     readonly scale: byte;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: decimal): int;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(value: decimal): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -1542,13 +1542,13 @@ export const Decimal: {
     minMagnitude(x: decimal, y: decimal): decimal;
     multiply(d1: decimal, d2: decimal): decimal;
     negate(d: decimal): decimal;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): decimal;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): decimal;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): decimal;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): decimal;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): decimal;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): decimal;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): decimal;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): decimal;
     parse(s: string, style: NumberStyles): decimal;
-    parse(s: string, provider: IFormatProvider | undefined): decimal;
+    parse(s: string, provider: IFormatProvider): decimal;
     parse(s: string): decimal;
     remainder(d1: decimal, d2: decimal): decimal;
     round(d: decimal, decimals: int, mode: MidpointRounding): decimal;
@@ -1571,14 +1571,14 @@ export const Decimal: {
     truncate(d: decimal): decimal;
     tryGetBits(d: decimal, destination: Span_1<Int32>, valuesWritten: int): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: decimal): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: decimal): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: decimal): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: decimal): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: decimal): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: decimal): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: decimal): boolean;
-    tryParse(s: string | undefined, result: decimal): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: decimal): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: decimal): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: string, result: decimal): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: decimal): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: decimal): boolean;
 };
 
 
@@ -1635,18 +1635,18 @@ export const Delegate_InvocationListEnumerator_1: {
 export type Delegate_InvocationListEnumerator_1<TDelegate extends Function> = Delegate_InvocationListEnumerator_1$instance<TDelegate>;
 
 export interface Double$instance extends IBitwiseOperators_3<Double, Double, Double>, IComparisonOperators_3<Double, Double, Boolean>, IEqualityOperators_3<Double, Double, Boolean>, IModulusOperators_3<Double, Double, Double>, IAdditionOperators_3<Double, Double, Double>, IDecrementOperators_1<Double>, IDivisionOperators_3<Double, Double, Double>, IIncrementOperators_1<Double>, IMultiplyOperators_3<Double, Double, Double>, ISubtractionOperators_3<Double, Double, Double>, IUnaryPlusOperators_2<Double, Double>, IUnaryNegationOperators_2<Double, Double> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: double): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: double): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -1734,13 +1734,13 @@ export const Double: {
     minNative(x: double, y: double): double;
     minNumber(x: double, y: double): double;
     multiplyAddEstimate(left: double, right: double, addend: double): double;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): double;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): double;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): double;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): double;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): double;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): double;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): double;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): double;
     parse(s: string, style: NumberStyles): double;
-    parse(s: string, provider: IFormatProvider | undefined): double;
+    parse(s: string, provider: IFormatProvider): double;
     parse(s: string): double;
     pow(x: double, y: double): double;
     radiansToDegrees(radians: double): double;
@@ -1764,14 +1764,14 @@ export const Double: {
     tanPi(x: double): double;
     truncate(x: double): double;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: double): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: double): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: double): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: double): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: double): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: double): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: double): boolean;
-    tryParse(s: string | undefined, result: double): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: double): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: double): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: string, result: double): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: double): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: double): boolean;
 };
 
 
@@ -1872,16 +1872,16 @@ export type GCMemoryInfo = GCMemoryInfo$instance;
 export interface Guid$instance {
     readonly variant: int;
     readonly version: int;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: Guid): int;
-    equals(o: unknown | undefined): boolean;
+    equals(o: unknown): boolean;
     equals(g: Guid): boolean;
     getHashCode(): int;
     toByteArray(): byte[];
     toByteArray(bigEndian: boolean): byte[];
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
     tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>): boolean;
     tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>): boolean;
     tryWriteBytes(destination: Span_1<Byte>): boolean;
@@ -1902,22 +1902,22 @@ export const Guid: {
     createVersion7(): Guid;
     createVersion7(timestamp: DateTimeOffset): Guid;
     newGuid(): Guid;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): Guid;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): Guid;
     parse(utf8Text: ReadOnlySpan_1<Byte>): Guid;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): Guid;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): Guid;
     parse(input: ReadOnlySpan_1<Char>): Guid;
-    parse(s: string, provider: IFormatProvider | undefined): Guid;
+    parse(s: string, provider: IFormatProvider): Guid;
     parse(input: string): Guid;
     parseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>): Guid;
     parseExact(input: string, format: string): Guid;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: Guid): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: Guid): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: Guid): boolean;
     tryParse(input: ReadOnlySpan_1<Char>, result: Guid): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: Guid): boolean;
-    tryParse(input: string | undefined, result: Guid): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: Guid): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: Guid): boolean;
+    tryParse(input: string, result: Guid): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: Guid): boolean;
     tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, result: Guid): boolean;
-    tryParseExact(input: string | undefined, format: string | undefined, result: Guid): boolean;
+    tryParseExact(input: string, format: string, result: Guid): boolean;
 };
 
 
@@ -1944,17 +1944,17 @@ export type Guid = Guid$instance & __Guid$views;
 
 
 export interface Half$instance extends IBitwiseOperators_3<Half, Half, Half>, IComparisonOperators_3<Half, Half, Boolean>, IEqualityOperators_3<Half, Half, Boolean>, IModulusOperators_3<Half, Half, Half>, IAdditionOperators_3<Half, Half, Half>, IDecrementOperators_1<Half>, IDivisionOperators_3<Half, Half, Half>, IIncrementOperators_1<Half>, IMultiplicativeIdentity_2<Half, Half>, IMultiplyOperators_3<Half, Half, Half>, ISubtractionOperators_3<Half, Half, Half>, IUnaryPlusOperators_2<Half, Half>, IUnaryNegationOperators_2<Half, Half> {
-    compareTo(obj: unknown | undefined): int;
+    compareTo(obj: unknown): int;
     compareTo(other: half): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: half): boolean;
     getHashCode(): int;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2046,13 +2046,13 @@ export const Half: {
     minNative(x: half, y: half): half;
     minNumber(x: half, y: half): half;
     multiplyAddEstimate(left: half, right: half, addend: half): half;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): half;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): half;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): half;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): half;
-    parse(s: string, style?: NumberStyles, provider?: IFormatProvider | undefined): half;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): half;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): half;
+    parse(s: string, style?: NumberStyles, provider?: IFormatProvider): half;
     parse(s: string, style: NumberStyles): half;
-    parse(s: string, provider: IFormatProvider | undefined): half;
+    parse(s: string, provider: IFormatProvider): half;
     parse(s: string): half;
     pow(x: half, y: half): half;
     radiansToDegrees(radians: half): half;
@@ -2075,15 +2075,15 @@ export const Half: {
     tanh(x: half): half;
     tanPi(x: half): half;
     truncate(x: half): half;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: half): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: half): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: half): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: half): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: half): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: half): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: half): boolean;
-    tryParse(s: string | undefined, result: half): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: half): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: half): boolean;
+    tryParse(s: string, result: half): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: half): boolean;
 };
 
 
@@ -2126,9 +2126,9 @@ export type Half = number & Half$instance & __Half$views;
 
 export interface HashCode$instance {
     add<T>(value: T): void;
-    add<T>(value: T, comparer: IEqualityComparer_1<T> | undefined): void;
+    add<T>(value: T, comparer: IEqualityComparer_1<T>): void;
     addBytes(value: ReadOnlySpan_1<Byte>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toHashCode(): int;
 }
@@ -2152,7 +2152,7 @@ export type HashCode = HashCode$instance;
 export interface Index$instance {
     readonly isFromEnd: boolean;
     readonly value: int;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(other: Index): boolean;
     getHashCode(): int;
     getOffset(length: int): int;
@@ -2180,17 +2180,17 @@ export type Index = Index$instance & __Index$views;
 
 
 export interface Int128$instance extends IBitwiseOperators_3<Int128, Int128, Int128>, IComparisonOperators_3<Int128, Int128, Boolean>, IEqualityOperators_3<Int128, Int128, Boolean>, IModulusOperators_3<Int128, Int128, Int128>, IAdditionOperators_3<Int128, Int128, Int128>, IDecrementOperators_1<Int128>, IDivisionOperators_3<Int128, Int128, Int128>, IIncrementOperators_1<Int128>, IMultiplyOperators_3<Int128, Int128, Int128>, ISubtractionOperators_3<Int128, Int128, Int128>, IUnaryPlusOperators_2<Int128, Int128>, IUnaryNegationOperators_2<Int128, Int128>, IShiftOperators_3<Int128, Int32, Int128> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: int128): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: int128): boolean;
     getHashCode(): int;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2220,28 +2220,28 @@ export const Int128: {
     maxMagnitude(x: int128, y: int128): int128;
     min(x: int128, y: int128): int128;
     minMagnitude(x: int128, y: int128): int128;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): int128;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): int128;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): int128;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): int128;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): int128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): int128;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): int128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int128;
     parse(s: string, style: NumberStyles): int128;
-    parse(s: string, provider: IFormatProvider | undefined): int128;
+    parse(s: string, provider: IFormatProvider): int128;
     parse(s: string): int128;
     popCount(value: int128): int128;
     rotateLeft(value: int128, rotateAmount: int): int128;
     rotateRight(value: int128, rotateAmount: int): int128;
     sign(value: int128): int;
     trailingZeroCount(value: int128): int128;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: int128): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: int128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: int128): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: int128): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: int128): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: int128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: int128): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: int128): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: int128): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: int128): boolean;
-    tryParse(s: string | undefined, result: int128): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: int128): boolean;
+    tryParse(s: string, result: int128): boolean;
 };
 
 
@@ -2279,18 +2279,18 @@ export type Int128 = number & Int128$instance & __Int128$views;
 
 
 export interface Int16$instance extends IBitwiseOperators_3<Int16, Int16, Int16>, IComparisonOperators_3<Int16, Int16, Boolean>, IEqualityOperators_3<Int16, Int16, Boolean>, IModulusOperators_3<Int16, Int16, Int16>, IAdditionOperators_3<Int16, Int16, Int16>, IDecrementOperators_1<Int16>, IDivisionOperators_3<Int16, Int16, Int16>, IIncrementOperators_1<Int16>, IMultiplyOperators_3<Int16, Int16, Int16>, ISubtractionOperators_3<Int16, Int16, Int16>, IUnaryPlusOperators_2<Int16, Int16>, IUnaryNegationOperators_2<Int16, Int16>, IShiftOperators_3<Int16, Int32, Int16> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: short): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: short): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2316,28 +2316,28 @@ export const Int16: {
     maxMagnitude(x: short, y: short): short;
     min(x: short, y: short): short;
     minMagnitude(x: short, y: short): short;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): short;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): short;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): short;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): short;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): short;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): short;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): short;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): short;
     parse(s: string, style: NumberStyles): short;
-    parse(s: string, provider: IFormatProvider | undefined): short;
+    parse(s: string, provider: IFormatProvider): short;
     parse(s: string): short;
     popCount(value: short): short;
     rotateLeft(value: short, rotateAmount: int): short;
     rotateRight(value: short, rotateAmount: int): short;
     sign(value: short): int;
     trailingZeroCount(value: short): short;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: short): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: short): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: short): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: short): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: short): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: short): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: short): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: short): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: short): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: short): boolean;
-    tryParse(s: string | undefined, result: short): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: short): boolean;
+    tryParse(s: string, result: short): boolean;
 };
 
 
@@ -2377,18 +2377,18 @@ export type Int16 = number & Int16$instance & __Int16$views;
 
 
 export interface Int32$instance extends IBitwiseOperators_3<Int32, Int32, Int32>, IComparisonOperators_3<Int32, Int32, Boolean>, IEqualityOperators_3<Int32, Int32, Boolean>, IModulusOperators_3<Int32, Int32, Int32>, IAdditionOperators_3<Int32, Int32, Int32>, IDecrementOperators_1<Int32>, IDivisionOperators_3<Int32, Int32, Int32>, IIncrementOperators_1<Int32>, IMultiplyOperators_3<Int32, Int32, Int32>, ISubtractionOperators_3<Int32, Int32, Int32>, IUnaryPlusOperators_2<Int32, Int32>, IUnaryNegationOperators_2<Int32, Int32>, IShiftOperators_3<Int32, Int32, Int32> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: int): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: int): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2415,28 +2415,28 @@ export const Int32: {
     maxMagnitude(x: int, y: int): int;
     min(x: int, y: int): int;
     minMagnitude(x: int, y: int): int;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): int;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): int;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): int;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): int;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): int;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): int;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): int;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): int;
     parse(s: string, style: NumberStyles): int;
-    parse(s: string, provider: IFormatProvider | undefined): int;
+    parse(s: string, provider: IFormatProvider): int;
     parse(s: string): int;
     popCount(value: int): int;
     rotateLeft(value: int, rotateAmount: int): int;
     rotateRight(value: int, rotateAmount: int): int;
     sign(value: int): int;
     trailingZeroCount(value: int): int;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: int): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: int): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: int): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: int): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: int): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: int): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: int): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: int): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: int): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: int): boolean;
-    tryParse(s: string | undefined, result: int): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: int): boolean;
+    tryParse(s: string, result: int): boolean;
 };
 
 
@@ -2476,18 +2476,18 @@ export type Int32 = number & Int32$instance & __Int32$views;
 
 
 export interface Int64$instance extends IBitwiseOperators_3<Int64, Int64, Int64>, IComparisonOperators_3<Int64, Int64, Boolean>, IEqualityOperators_3<Int64, Int64, Boolean>, IModulusOperators_3<Int64, Int64, Int64>, IAdditionOperators_3<Int64, Int64, Int64>, IDecrementOperators_1<Int64>, IDivisionOperators_3<Int64, Int64, Int64>, IIncrementOperators_1<Int64>, IMultiplyOperators_3<Int64, Int64, Int64>, ISubtractionOperators_3<Int64, Int64, Int64>, IUnaryPlusOperators_2<Int64, Int64>, IUnaryNegationOperators_2<Int64, Int64>, IShiftOperators_3<Int64, Int32, Int64> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: long): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: long): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2514,28 +2514,28 @@ export const Int64: {
     maxMagnitude(x: long, y: long): long;
     min(x: long, y: long): long;
     minMagnitude(x: long, y: long): long;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): long;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): long;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): long;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): long;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): long;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): long;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): long;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): long;
     parse(s: string, style: NumberStyles): long;
-    parse(s: string, provider: IFormatProvider | undefined): long;
+    parse(s: string, provider: IFormatProvider): long;
     parse(s: string): long;
     popCount(value: long): long;
     rotateLeft(value: long, rotateAmount: int): long;
     rotateRight(value: long, rotateAmount: int): long;
     sign(value: long): int;
     trailingZeroCount(value: long): long;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: long): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: long): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: long): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: long): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: long): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: long): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: long): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: long): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: long): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: long): boolean;
-    tryParse(s: string | undefined, result: long): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: long): boolean;
+    tryParse(s: string, result: long): boolean;
 };
 
 
@@ -2575,20 +2575,20 @@ export type Int64 = number & Int64$instance & __Int64$views;
 
 
 export interface IntPtr$instance extends IBitwiseOperators_3<IntPtr, IntPtr, IntPtr>, IComparisonOperators_3<IntPtr, IntPtr, Boolean>, IEqualityOperators_3<IntPtr, IntPtr, Boolean>, IModulusOperators_3<IntPtr, IntPtr, IntPtr>, IAdditionOperators_3<IntPtr, IntPtr, IntPtr>, IDecrementOperators_1<IntPtr>, IDivisionOperators_3<IntPtr, IntPtr, IntPtr>, IIncrementOperators_1<IntPtr>, IMultiplyOperators_3<IntPtr, IntPtr, IntPtr>, ISubtractionOperators_3<IntPtr, IntPtr, IntPtr>, IUnaryPlusOperators_2<IntPtr, IntPtr>, IUnaryNegationOperators_2<IntPtr, IntPtr>, IShiftOperators_3<IntPtr, Int32, IntPtr> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: nint): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: nint): boolean;
     getHashCode(): int;
     toInt32(): int;
     toInt64(): long;
     toPointer(): ptr<void>;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -2620,13 +2620,13 @@ export const IntPtr: {
     maxMagnitude(x: nint, y: nint): nint;
     min(x: nint, y: nint): nint;
     minMagnitude(x: nint, y: nint): nint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): nint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): nint;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): nint;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): nint;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): nint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): nint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): nint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nint;
     parse(s: string, style: NumberStyles): nint;
-    parse(s: string, provider: IFormatProvider | undefined): nint;
+    parse(s: string, provider: IFormatProvider): nint;
     parse(s: string): nint;
     popCount(value: nint): nint;
     rotateLeft(value: nint, rotateAmount: int): nint;
@@ -2634,15 +2634,15 @@ export const IntPtr: {
     sign(value: nint): int;
     subtract(pointer: nint, offset: int): nint;
     trailingZeroCount(value: nint): nint;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: nint): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: nint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: nint): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: nint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: nint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: nint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: nint): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: nint): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: nint): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: nint): boolean;
-    tryParse(s: string | undefined, result: nint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: nint): boolean;
+    tryParse(s: string, result: nint): boolean;
 };
 
 
@@ -2686,7 +2686,7 @@ export interface Memory_1$instance<T> {
     readonly length: int;
     readonly span: Span_1<T>;
     copyTo(destination: Memory_1<T>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: Memory_1<T>): boolean;
     getHashCode(): int;
     pin(): MemoryHandle;
@@ -2699,8 +2699,8 @@ export interface Memory_1$instance<T> {
 
 
 export const Memory_1: {
-    new<T>(array: T[] | undefined): Memory_1<T>;
-    new<T>(array: T[] | undefined, start: int, length: int): Memory_1<T>;
+    new<T>(array: T[]): Memory_1<T>;
+    new<T>(array: T[], start: int, length: int): Memory_1<T>;
     readonly empty: unknown;
 };
 
@@ -2740,21 +2740,21 @@ export type MemoryExtensions_SpanSplitEnumerator_1<T extends (IEquatable_1<T> | 
 
 export interface MemoryExtensions_TryWriteInterpolatedStringHandler$instance {
     appendFormatted<T>(value: T): boolean;
-    appendFormatted<T>(value: T, format: string | undefined): boolean;
+    appendFormatted<T>(value: T, format: string): boolean;
     appendFormatted<T>(value: T, alignment: int): boolean;
-    appendFormatted<T>(value: T, alignment: int, format: string | undefined): boolean;
+    appendFormatted<T>(value: T, alignment: int, format: string): boolean;
     appendFormatted(value: ReadOnlySpan_1<Char>): boolean;
-    appendFormatted(value: ReadOnlySpan_1<Char>, alignment?: int, format?: string | undefined): boolean;
-    appendFormatted(value: string | undefined): boolean;
-    appendFormatted(value: string | undefined, alignment?: int, format?: string | undefined): boolean;
-    appendFormatted(value: unknown | undefined, alignment?: int, format?: string | undefined): boolean;
+    appendFormatted(value: ReadOnlySpan_1<Char>, alignment?: int, format?: string): boolean;
+    appendFormatted(value: string): boolean;
+    appendFormatted(value: string, alignment?: int, format?: string): boolean;
+    appendFormatted(value: unknown, alignment?: int, format?: string): boolean;
     appendLiteral(value: string): boolean;
 }
 
 
 export const MemoryExtensions_TryWriteInterpolatedStringHandler: {
     new(literalLength: int, formattedCount: int, destination: Span_1<Char>, shouldAppend: boolean): MemoryExtensions_TryWriteInterpolatedStringHandler;
-    new(literalLength: int, formattedCount: int, destination: Span_1<Char>, provider: IFormatProvider | undefined, shouldAppend: boolean): MemoryExtensions_TryWriteInterpolatedStringHandler;
+    new(literalLength: int, formattedCount: int, destination: Span_1<Char>, provider: IFormatProvider, shouldAppend: boolean): MemoryExtensions_TryWriteInterpolatedStringHandler;
 };
 
 
@@ -2762,18 +2762,18 @@ export type MemoryExtensions_TryWriteInterpolatedStringHandler = MemoryExtension
 
 export interface ModuleHandle$instance {
     readonly mdStreamVersion: int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(handle: ModuleHandle): boolean;
     getHashCode(): int;
     getRuntimeFieldHandleFromMetadataToken(fieldToken: int): RuntimeFieldHandle;
     getRuntimeMethodHandleFromMetadataToken(methodToken: int): RuntimeMethodHandle;
     getRuntimeTypeHandleFromMetadataToken(typeToken: int): RuntimeTypeHandle;
     resolveFieldHandle(fieldToken: int): RuntimeFieldHandle;
-    resolveFieldHandle(fieldToken: int, typeInstantiationContext: RuntimeTypeHandle[] | undefined, methodInstantiationContext: RuntimeTypeHandle[] | undefined): RuntimeFieldHandle;
+    resolveFieldHandle(fieldToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeFieldHandle;
     resolveMethodHandle(methodToken: int): RuntimeMethodHandle;
-    resolveMethodHandle(methodToken: int, typeInstantiationContext: RuntimeTypeHandle[] | undefined, methodInstantiationContext: RuntimeTypeHandle[] | undefined): RuntimeMethodHandle;
+    resolveMethodHandle(methodToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeMethodHandle;
     resolveTypeHandle(typeToken: int): RuntimeTypeHandle;
-    resolveTypeHandle(typeToken: int, typeInstantiationContext: RuntimeTypeHandle[] | undefined, methodInstantiationContext: RuntimeTypeHandle[] | undefined): RuntimeTypeHandle;
+    resolveTypeHandle(typeToken: int, typeInstantiationContext: RuntimeTypeHandle[], methodInstantiationContext: RuntimeTypeHandle[]): RuntimeTypeHandle;
 }
 
 
@@ -2796,7 +2796,7 @@ export type ModuleHandle = ModuleHandle$instance & __ModuleHandle$views;
 export interface Nullable_1$instance<T extends unknown> {
     readonly hasValue: boolean;
     readonly value: T;
-    equals(other: unknown | undefined): boolean;
+    equals(other: unknown): boolean;
     getHashCode(): int;
     getValueOrDefault(): T;
     getValueOrDefault(defaultValue: T): T;
@@ -2814,7 +2814,7 @@ export type Nullable_1<T> = Nullable_1$instance<T>;
 export interface Range$instance {
     readonly end: Index;
     readonly start: Index;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(other: Range): boolean;
     getHashCode(): int;
     getOffsetAndLength(length: int): ValueTuple_2<Int32, Int32>;
@@ -2845,7 +2845,7 @@ export interface ReadOnlyMemory_1$instance<T> {
     readonly length: int;
     readonly span: ReadOnlySpan_1<T>;
     copyTo(destination: Memory_1<T>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ReadOnlyMemory_1<T>): boolean;
     getHashCode(): int;
     pin(): MemoryHandle;
@@ -2858,8 +2858,8 @@ export interface ReadOnlyMemory_1$instance<T> {
 
 
 export const ReadOnlyMemory_1: {
-    new<T>(array: T[] | undefined): ReadOnlyMemory_1<T>;
-    new<T>(array: T[] | undefined, start: int, length: int): ReadOnlyMemory_1<T>;
+    new<T>(array: T[]): ReadOnlyMemory_1<T>;
+    new<T>(array: T[], start: int, length: int): ReadOnlyMemory_1<T>;
     readonly empty: unknown;
 };
 
@@ -2879,7 +2879,7 @@ export interface ReadOnlySpan_1$instance<T> {
     readonly item: T;
     readonly length: int;
     copyTo(destination: Span_1<T>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getEnumerator(): ReadOnlySpan_1_Enumerator<T>;
     getHashCode(): int;
     getPinnableReference(): T;
@@ -2892,8 +2892,8 @@ export interface ReadOnlySpan_1$instance<T> {
 
 
 export const ReadOnlySpan_1: {
-    new<T>(array: T[] | undefined): ReadOnlySpan_1<T>;
-    new<T>(array: T[] | undefined, start: int, length: int): ReadOnlySpan_1<T>;
+    new<T>(array: T[]): ReadOnlySpan_1<T>;
+    new<T>(array: T[], start: int, length: int): ReadOnlySpan_1<T>;
     new<T>(pointer: ptr<void>, length: int): ReadOnlySpan_1<T>;
     new<T>(reference: T): ReadOnlySpan_1<T>;
     readonly empty: unknown;
@@ -2937,7 +2937,7 @@ export type RuntimeArgumentHandle = RuntimeArgumentHandle$instance;
 
 export interface RuntimeFieldHandle$instance {
     readonly value: nint;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(handle: RuntimeFieldHandle): boolean;
     getHashCode(): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -2966,7 +2966,7 @@ export type RuntimeFieldHandle = RuntimeFieldHandle$instance & __RuntimeFieldHan
 
 export interface RuntimeMethodHandle$instance {
     readonly value: nint;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(handle: RuntimeMethodHandle): boolean;
     getFunctionPointer(): nint;
     getHashCode(): int;
@@ -2996,7 +2996,7 @@ export type RuntimeMethodHandle = RuntimeMethodHandle$instance & __RuntimeMethod
 
 export interface RuntimeTypeHandle$instance {
     readonly value: nint;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(handle: RuntimeTypeHandle): boolean;
     getHashCode(): int;
     getModuleHandle(): ModuleHandle;
@@ -3025,18 +3025,18 @@ export type RuntimeTypeHandle = RuntimeTypeHandle$instance & __RuntimeTypeHandle
 
 
 export interface SByte$instance extends IBitwiseOperators_3<SByte, SByte, SByte>, IComparisonOperators_3<SByte, SByte, Boolean>, IEqualityOperators_3<SByte, SByte, Boolean>, IModulusOperators_3<SByte, SByte, SByte>, IAdditionOperators_3<SByte, SByte, SByte>, IDecrementOperators_1<SByte>, IDivisionOperators_3<SByte, SByte, SByte>, IIncrementOperators_1<SByte>, IMultiplyOperators_3<SByte, SByte, SByte>, ISubtractionOperators_3<SByte, SByte, SByte>, IUnaryPlusOperators_2<SByte, SByte>, IUnaryNegationOperators_2<SByte, SByte>, IShiftOperators_3<SByte, Int32, SByte> {
-    compareTo(obj: unknown | undefined): int;
+    compareTo(obj: unknown): int;
     compareTo(value: sbyte): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: sbyte): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3062,28 +3062,28 @@ export const SByte: {
     maxMagnitude(x: sbyte, y: sbyte): sbyte;
     min(x: sbyte, y: sbyte): sbyte;
     minMagnitude(x: sbyte, y: sbyte): sbyte;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): sbyte;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): sbyte;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): sbyte;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): sbyte;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): sbyte;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): sbyte;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): sbyte;
     parse(s: string, style: NumberStyles): sbyte;
-    parse(s: string, provider: IFormatProvider | undefined): sbyte;
+    parse(s: string, provider: IFormatProvider): sbyte;
     parse(s: string): sbyte;
     popCount(value: sbyte): sbyte;
     rotateLeft(value: sbyte, rotateAmount: int): sbyte;
     rotateRight(value: sbyte, rotateAmount: int): sbyte;
     sign(value: sbyte): int;
     trailingZeroCount(value: sbyte): sbyte;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: sbyte): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: sbyte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: sbyte): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: sbyte): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: sbyte): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: sbyte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: sbyte): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: sbyte): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: sbyte): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: sbyte): boolean;
-    tryParse(s: string | undefined, result: sbyte): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: sbyte): boolean;
+    tryParse(s: string, result: sbyte): boolean;
 };
 
 
@@ -3124,7 +3124,7 @@ export type SByte = number & SByte$instance & __SByte$views;
 
 export interface SequencePosition$instance {
     equals(other: SequencePosition): boolean;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getInteger(): int;
     getObject(): unknown | undefined;
@@ -3132,7 +3132,7 @@ export interface SequencePosition$instance {
 
 
 export const SequencePosition: {
-    new(object_: unknown | undefined, integer: int): SequencePosition;
+    new(object_: unknown, integer: int): SequencePosition;
 };
 
 
@@ -3147,18 +3147,18 @@ export type SequencePosition = SequencePosition$instance & __SequencePosition$vi
 
 
 export interface Single$instance extends IBitwiseOperators_3<Single, Single, Single>, IComparisonOperators_3<Single, Single, Boolean>, IEqualityOperators_3<Single, Single, Boolean>, IModulusOperators_3<Single, Single, Single>, IAdditionOperators_3<Single, Single, Single>, IDecrementOperators_1<Single>, IDivisionOperators_3<Single, Single, Single>, IIncrementOperators_1<Single>, IMultiplyOperators_3<Single, Single, Single>, ISubtractionOperators_3<Single, Single, Single>, IUnaryPlusOperators_2<Single, Single>, IUnaryNegationOperators_2<Single, Single> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: float): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: float): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3246,13 +3246,13 @@ export const Single: {
     minNative(x: float, y: float): float;
     minNumber(x: float, y: float): float;
     multiplyAddEstimate(left: float, right: float, addend: float): float;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): float;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): float;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): float;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): float;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): float;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): float;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): float;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): float;
     parse(s: string, style: NumberStyles): float;
-    parse(s: string, provider: IFormatProvider | undefined): float;
+    parse(s: string, provider: IFormatProvider): float;
     parse(s: string): float;
     pow(x: float, y: float): float;
     radiansToDegrees(radians: float): float;
@@ -3275,15 +3275,15 @@ export const Single: {
     tanh(x: float): float;
     tanPi(x: float): float;
     truncate(x: float): float;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: float): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: float): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: float): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: float): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: float): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: float): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: float): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: float): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: float): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: float): boolean;
-    tryParse(s: string | undefined, result: float): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: float): boolean;
+    tryParse(s: string, result: float): boolean;
 };
 
 
@@ -3331,7 +3331,7 @@ export interface Span_1$instance<T> {
     readonly length: int;
     clear(): void;
     copyTo(destination: Span_1<T>): void;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     fill(value: T): void;
     getEnumerator(): Span_1_Enumerator<T>;
     getHashCode(): int;
@@ -3345,8 +3345,8 @@ export interface Span_1$instance<T> {
 
 
 export const Span_1: {
-    new<T>(array: T[] | undefined): Span_1<T>;
-    new<T>(array: T[] | undefined, start: int, length: int): Span_1<T>;
+    new<T>(array: T[]): Span_1<T>;
+    new<T>(array: T[], start: int, length: int): Span_1<T>;
     new<T>(pointer: ptr<void>, length: int): Span_1<T>;
     new<T>(reference: T): Span_1<T>;
     readonly empty: unknown;
@@ -3391,24 +3391,24 @@ export interface TimeOnly$instance {
     addMinutes(value: double): TimeOnly;
     addMinutes(value: double, wrappedDays: int): TimeOnly;
     compareTo(value: TimeOnly): int;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     deconstruct(hour: int, minute: int): void;
     deconstruct(hour: int, minute: int, second: int): void;
     deconstruct(hour: int, minute: int, second: int, millisecond: int): void;
     deconstruct(hour: int, minute: int, second: int, millisecond: int, microsecond: int): void;
     equals(value: TimeOnly): boolean;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     isBetween(start: TimeOnly, end: TimeOnly): boolean;
     toLongTimeString(): string;
     toShortTimeString(): string;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
     toTimeSpan(): TimeSpan;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3422,32 +3422,32 @@ export const TimeOnly: {
     readonly maxValue: TimeOnly;
     fromDateTime(dateTime: DateTime): TimeOnly;
     fromTimeSpan(timeSpan: TimeSpan): TimeOnly;
-    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): TimeOnly;
-    parse(s: string, provider: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
-    parse(s: string, provider: IFormatProvider | undefined): TimeOnly;
+    parse(s: ReadOnlySpan_1<Char>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): TimeOnly;
+    parse(s: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parse(s: string, provider: IFormatProvider): TimeOnly;
     parse(s: string): TimeOnly;
-    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
-    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider?: IFormatProvider, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     parseExact(s: ReadOnlySpan_1<Char>, formats: string[]): TimeOnly;
-    parseExact(s: string, format: string, provider: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: string, format: string, provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     parseExact(s: string, format: string): TimeOnly;
-    parseExact(s: string, formats: string[], provider: IFormatProvider | undefined, style?: DateTimeStyles): TimeOnly;
+    parseExact(s: string, formats: string[], provider: IFormatProvider, style?: DateTimeStyles): TimeOnly;
     parseExact(s: string, formats: string[]): TimeOnly;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: TimeOnly): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: TimeOnly): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: TimeOnly): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: TimeOnly): boolean;
-    tryParse(s: string | undefined, result: TimeOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParse(s: string, provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: TimeOnly): boolean;
+    tryParse(s: string, result: TimeOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
     tryParseExact(s: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, result: TimeOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
-    tryParseExact(s: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, result: TimeOnly): boolean;
-    tryParseExact(s: string | undefined, format: string | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
-    tryParseExact(s: string | undefined, format: string | undefined, result: TimeOnly): boolean;
-    tryParseExact(s: string | undefined, formats: (string | undefined)[] | undefined, provider: IFormatProvider | undefined, style: DateTimeStyles, result: TimeOnly): boolean;
-    tryParseExact(s: string | undefined, formats: (string | undefined)[] | undefined, result: TimeOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParseExact(s: ReadOnlySpan_1<Char>, formats: string[], result: TimeOnly): boolean;
+    tryParseExact(s: string, format: string, provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParseExact(s: string, format: string, result: TimeOnly): boolean;
+    tryParseExact(s: string, formats: string[], provider: IFormatProvider, style: DateTimeStyles, result: TimeOnly): boolean;
+    tryParseExact(s: string, formats: string[], result: TimeOnly): boolean;
 };
 
 
@@ -3489,22 +3489,22 @@ export interface TimeSpan$instance {
     readonly totalNanoseconds: double;
     readonly totalSeconds: double;
     add(ts: TimeSpan): TimeSpan;
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: TimeSpan): int;
     divide(divisor: double): TimeSpan;
     divide(ts: TimeSpan): double;
     duration(): TimeSpan;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     equals(obj: TimeSpan): boolean;
     getHashCode(): int;
     multiply(factor: double): TimeSpan;
     negate(): TimeSpan;
     subtract(ts: TimeSpan): TimeSpan;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, formatProvider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined): boolean;
+    toString(format: string): string;
+    toString(format: string, formatProvider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider): boolean;
 }
 
 
@@ -3559,27 +3559,27 @@ export const TimeSpan: {
     fromSeconds(seconds: long, milliseconds?: long, microseconds?: long): TimeSpan;
     fromSeconds(seconds: long): TimeSpan;
     fromTicks(value: long): TimeSpan;
-    parse(input: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider | undefined): TimeSpan;
-    parse(input: string, formatProvider: IFormatProvider | undefined): TimeSpan;
+    parse(input: ReadOnlySpan_1<Char>, formatProvider?: IFormatProvider): TimeSpan;
+    parse(input: string, formatProvider: IFormatProvider): TimeSpan;
     parse(s: string): TimeSpan;
-    parseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, styles?: TimeSpanStyles): TimeSpan;
-    parseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider | undefined, styles?: TimeSpanStyles): TimeSpan;
-    parseExact(input: string, format: string, formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles): TimeSpan;
-    parseExact(input: string, format: string, formatProvider: IFormatProvider | undefined): TimeSpan;
-    parseExact(input: string, formats: string[], formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles): TimeSpan;
-    parseExact(input: string, formats: string[], formatProvider: IFormatProvider | undefined): TimeSpan;
-    tryParse(input: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
+    parseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    parseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider, styles?: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, format: string, formatProvider: IFormatProvider): TimeSpan;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles): TimeSpan;
+    parseExact(input: string, formats: string[], formatProvider: IFormatProvider): TimeSpan;
+    tryParse(input: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, result: TimeSpan): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: TimeSpan): boolean;
-    tryParse(input: string | undefined, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
-    tryParse(s: string | undefined, result: TimeSpan): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles, result: TimeSpan): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles, result: TimeSpan): boolean;
-    tryParseExact(input: ReadOnlySpan_1<Char>, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
-    tryParseExact(input: string | undefined, format: string | undefined, formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles, result: TimeSpan): boolean;
-    tryParseExact(input: string | undefined, format: string | undefined, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
-    tryParseExact(input: string | undefined, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, styles: TimeSpanStyles, result: TimeSpan): boolean;
-    tryParseExact(input: string | undefined, formats: (string | undefined)[] | undefined, formatProvider: IFormatProvider | undefined, result: TimeSpan): boolean;
+    tryParse(input: string, formatProvider: IFormatProvider, result: TimeSpan): boolean;
+    tryParse(s: string, result: TimeSpan): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: TimeSpan): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, format: ReadOnlySpan_1<Char>, formatProvider: IFormatProvider, result: TimeSpan): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: TimeSpan): boolean;
+    tryParseExact(input: ReadOnlySpan_1<Char>, formats: string[], formatProvider: IFormatProvider, result: TimeSpan): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, styles: TimeSpanStyles, result: TimeSpan): boolean;
+    tryParseExact(input: string, format: string, formatProvider: IFormatProvider, result: TimeSpan): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, styles: TimeSpanStyles, result: TimeSpan): boolean;
+    tryParseExact(input: string, formats: string[], formatProvider: IFormatProvider, result: TimeSpan): boolean;
 };
 
 
@@ -3611,7 +3611,7 @@ export interface TimeZoneInfo_TransitionTime$instance {
     readonly month: int;
     readonly timeOfDay: DateTime;
     readonly week: int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: TimeZoneInfo_TransitionTime): boolean;
     getHashCode(): int;
 }
@@ -3639,7 +3639,7 @@ export type TimeZoneInfo_TransitionTime = TimeZoneInfo_TransitionTime$instance &
 
 
 export interface TypedReference$instance {
-    equals(o: unknown | undefined): boolean;
+    equals(o: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -3648,7 +3648,7 @@ export const TypedReference: {
     new(): TypedReference;
     getTargetType(value: TypedReference): Type;
     makeTypedReference(target: unknown, flds: FieldInfo[]): TypedReference;
-    setTypedReference(target: TypedReference, value: unknown | undefined): void;
+    setTypedReference(target: TypedReference, value: unknown): void;
     targetTypeToken(value: TypedReference): RuntimeTypeHandle;
     toObject(value: TypedReference): unknown | undefined;
 };
@@ -3657,17 +3657,17 @@ export const TypedReference: {
 export type TypedReference = TypedReference$instance;
 
 export interface UInt128$instance extends IBitwiseOperators_3<UInt128, UInt128, UInt128>, IComparisonOperators_3<UInt128, UInt128, Boolean>, IEqualityOperators_3<UInt128, UInt128, Boolean>, IModulusOperators_3<UInt128, UInt128, UInt128>, IAdditionOperators_3<UInt128, UInt128, UInt128>, IDecrementOperators_1<UInt128>, IDivisionOperators_3<UInt128, UInt128, UInt128>, IIncrementOperators_1<UInt128>, IMultiplyOperators_3<UInt128, UInt128, UInt128>, ISubtractionOperators_3<UInt128, UInt128, UInt128>, IUnaryPlusOperators_2<UInt128, UInt128>, IUnaryNegationOperators_2<UInt128, UInt128>, IShiftOperators_3<UInt128, Int32, UInt128> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: uint128): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: uint128): boolean;
     getHashCode(): int;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3690,28 +3690,28 @@ export const UInt128: {
     log2(value: uint128): uint128;
     max(x: uint128, y: uint128): uint128;
     min(x: uint128, y: uint128): uint128;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): uint128;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): uint128;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): uint128;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): uint128;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): uint128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): uint128;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): uint128;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint128;
     parse(s: string, style: NumberStyles): uint128;
-    parse(s: string, provider: IFormatProvider | undefined): uint128;
+    parse(s: string, provider: IFormatProvider): uint128;
     parse(s: string): uint128;
     popCount(value: uint128): uint128;
     rotateLeft(value: uint128, rotateAmount: int): uint128;
     rotateRight(value: uint128, rotateAmount: int): uint128;
     sign(value: uint128): int;
     trailingZeroCount(value: uint128): uint128;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: uint128): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: uint128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: uint128): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: uint128): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: uint128): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: uint128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: uint128): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: uint128): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: uint128): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: uint128): boolean;
-    tryParse(s: string | undefined, result: uint128): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: uint128): boolean;
+    tryParse(s: string, result: uint128): boolean;
 };
 
 
@@ -3749,18 +3749,18 @@ export type UInt128 = number & UInt128$instance & __UInt128$views;
 
 
 export interface UInt16$instance extends IBitwiseOperators_3<UInt16, UInt16, UInt16>, IComparisonOperators_3<UInt16, UInt16, Boolean>, IEqualityOperators_3<UInt16, UInt16, Boolean>, IModulusOperators_3<UInt16, UInt16, UInt16>, IAdditionOperators_3<UInt16, UInt16, UInt16>, IDecrementOperators_1<UInt16>, IDivisionOperators_3<UInt16, UInt16, UInt16>, IIncrementOperators_1<UInt16>, IMultiplyOperators_3<UInt16, UInt16, UInt16>, ISubtractionOperators_3<UInt16, UInt16, UInt16>, IUnaryPlusOperators_2<UInt16, UInt16>, IUnaryNegationOperators_2<UInt16, UInt16>, IShiftOperators_3<UInt16, Int32, UInt16> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: ushort): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: ushort): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3780,28 +3780,28 @@ export const UInt16: {
     log2(value: ushort): ushort;
     max(x: ushort, y: ushort): ushort;
     min(x: ushort, y: ushort): ushort;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): ushort;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): ushort;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): ushort;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): ushort;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): ushort;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): ushort;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): ushort;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ushort;
     parse(s: string, style: NumberStyles): ushort;
-    parse(s: string, provider: IFormatProvider | undefined): ushort;
+    parse(s: string, provider: IFormatProvider): ushort;
     parse(s: string): ushort;
     popCount(value: ushort): ushort;
     rotateLeft(value: ushort, rotateAmount: int): ushort;
     rotateRight(value: ushort, rotateAmount: int): ushort;
     sign(value: ushort): int;
     trailingZeroCount(value: ushort): ushort;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: ushort): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: ushort): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: ushort): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: ushort): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: ushort): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: ushort): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: ushort): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: ushort): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: ushort): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: ushort): boolean;
-    tryParse(s: string | undefined, result: ushort): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: ushort): boolean;
+    tryParse(s: string, result: ushort): boolean;
 };
 
 
@@ -3841,18 +3841,18 @@ export type UInt16 = number & UInt16$instance & __UInt16$views;
 
 
 export interface UInt32$instance extends IBitwiseOperators_3<UInt32, UInt32, UInt32>, IComparisonOperators_3<UInt32, UInt32, Boolean>, IEqualityOperators_3<UInt32, UInt32, Boolean>, IModulusOperators_3<UInt32, UInt32, UInt32>, IAdditionOperators_3<UInt32, UInt32, UInt32>, IDecrementOperators_1<UInt32>, IDivisionOperators_3<UInt32, UInt32, UInt32>, IIncrementOperators_1<UInt32>, IMultiplyOperators_3<UInt32, UInt32, UInt32>, ISubtractionOperators_3<UInt32, UInt32, UInt32>, IUnaryPlusOperators_2<UInt32, UInt32>, IUnaryNegationOperators_2<UInt32, UInt32>, IShiftOperators_3<UInt32, Int32, UInt32> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: uint): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: uint): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3873,28 +3873,28 @@ export const UInt32: {
     log2(value: uint): uint;
     max(x: uint, y: uint): uint;
     min(x: uint, y: uint): uint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): uint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): uint;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): uint;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): uint;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): uint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): uint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): uint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): uint;
     parse(s: string, style: NumberStyles): uint;
-    parse(s: string, provider: IFormatProvider | undefined): uint;
+    parse(s: string, provider: IFormatProvider): uint;
     parse(s: string): uint;
     popCount(value: uint): uint;
     rotateLeft(value: uint, rotateAmount: int): uint;
     rotateRight(value: uint, rotateAmount: int): uint;
     sign(value: uint): int;
     trailingZeroCount(value: uint): uint;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: uint): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: uint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: uint): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: uint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: uint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: uint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: uint): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: uint): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: uint): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: uint): boolean;
-    tryParse(s: string | undefined, result: uint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: uint): boolean;
+    tryParse(s: string, result: uint): boolean;
 };
 
 
@@ -3934,18 +3934,18 @@ export type UInt32 = number & UInt32$instance & __UInt32$views;
 
 
 export interface UInt64$instance extends IBitwiseOperators_3<UInt64, UInt64, UInt64>, IComparisonOperators_3<UInt64, UInt64, Boolean>, IEqualityOperators_3<UInt64, UInt64, Boolean>, IModulusOperators_3<UInt64, UInt64, UInt64>, IAdditionOperators_3<UInt64, UInt64, UInt64>, IDecrementOperators_1<UInt64>, IDivisionOperators_3<UInt64, UInt64, UInt64>, IIncrementOperators_1<UInt64>, IMultiplyOperators_3<UInt64, UInt64, UInt64>, ISubtractionOperators_3<UInt64, UInt64, UInt64>, IUnaryPlusOperators_2<UInt64, UInt64>, IUnaryNegationOperators_2<UInt64, UInt64>, IShiftOperators_3<UInt64, Int32, UInt64> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: ulong): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: ulong): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    toString(provider: IFormatProvider): string;
+    toString(format: string): string;
+    toString(format: string, provider: IFormatProvider): string;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -3966,28 +3966,28 @@ export const UInt64: {
     log2(value: ulong): ulong;
     max(x: ulong, y: ulong): ulong;
     min(x: ulong, y: ulong): ulong;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): ulong;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): ulong;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): ulong;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): ulong;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): ulong;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): ulong;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): ulong;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): ulong;
     parse(s: string, style: NumberStyles): ulong;
-    parse(s: string, provider: IFormatProvider | undefined): ulong;
+    parse(s: string, provider: IFormatProvider): ulong;
     parse(s: string): ulong;
     popCount(value: ulong): ulong;
     rotateLeft(value: ulong, rotateAmount: int): ulong;
     rotateRight(value: ulong, rotateAmount: int): ulong;
     sign(value: ulong): int;
     trailingZeroCount(value: ulong): ulong;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: ulong): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: ulong): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: ulong): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: ulong): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: ulong): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: ulong): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: ulong): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: ulong): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: ulong): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: ulong): boolean;
-    tryParse(s: string | undefined, result: ulong): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: ulong): boolean;
+    tryParse(s: string, result: ulong): boolean;
 };
 
 
@@ -4027,20 +4027,20 @@ export type UInt64 = number & UInt64$instance & __UInt64$views;
 
 
 export interface UIntPtr$instance extends IBitwiseOperators_3<UIntPtr, UIntPtr, UIntPtr>, IComparisonOperators_3<UIntPtr, UIntPtr, Boolean>, IEqualityOperators_3<UIntPtr, UIntPtr, Boolean>, IModulusOperators_3<UIntPtr, UIntPtr, UIntPtr>, IAdditionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IDecrementOperators_1<UIntPtr>, IDivisionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IIncrementOperators_1<UIntPtr>, IMultiplyOperators_3<UIntPtr, UIntPtr, UIntPtr>, ISubtractionOperators_3<UIntPtr, UIntPtr, UIntPtr>, IUnaryPlusOperators_2<UIntPtr, UIntPtr>, IUnaryNegationOperators_2<UIntPtr, UIntPtr>, IShiftOperators_3<UIntPtr, Int32, UIntPtr> {
-    compareTo(value: unknown | undefined): int;
+    compareTo(value: unknown): int;
     compareTo(value: nuint): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: nuint): boolean;
     getHashCode(): int;
     toPointer(): ptr<void>;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
     toUInt32(): uint;
     toUInt64(): ulong;
-    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
-    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider | undefined): boolean;
+    tryFormat(destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
+    tryFormat(utf8Destination: Span_1<Byte>, bytesWritten: int, format?: ReadOnlySpan_1<Char>, provider?: IFormatProvider): boolean;
 }
 
 
@@ -4066,13 +4066,13 @@ export const UIntPtr: {
     log2(value: nuint): nuint;
     max(x: nuint, y: nuint): nuint;
     min(x: nuint, y: nuint): nuint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider | undefined): nuint;
-    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined): nuint;
-    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider | undefined): nuint;
-    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined): nuint;
-    parse(s: string, style: NumberStyles, provider: IFormatProvider | undefined): nuint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<Char>, style?: NumberStyles, provider?: IFormatProvider): nuint;
+    parse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider): nuint;
+    parse(s: string, style: NumberStyles, provider: IFormatProvider): nuint;
     parse(s: string, style: NumberStyles): nuint;
-    parse(s: string, provider: IFormatProvider | undefined): nuint;
+    parse(s: string, provider: IFormatProvider): nuint;
     parse(s: string): nuint;
     popCount(value: nuint): nuint;
     rotateLeft(value: nuint, rotateAmount: int): nuint;
@@ -4080,15 +4080,15 @@ export const UIntPtr: {
     sign(value: nuint): int;
     subtract(pointer: nuint, offset: int): nuint;
     trailingZeroCount(value: nuint): nuint;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider | undefined, result: nuint): boolean;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider | undefined, result: nuint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, provider: IFormatProvider, result: nuint): boolean;
     tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: nuint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider | undefined, result: nuint): boolean;
-    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider | undefined, result: nuint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: ReadOnlySpan_1<Char>, provider: IFormatProvider, result: nuint): boolean;
     tryParse(s: ReadOnlySpan_1<Char>, result: nuint): boolean;
-    tryParse(s: string | undefined, style: NumberStyles, provider: IFormatProvider | undefined, result: nuint): boolean;
-    tryParse(s: string | undefined, provider: IFormatProvider | undefined, result: nuint): boolean;
-    tryParse(s: string | undefined, result: nuint): boolean;
+    tryParse(s: string, style: NumberStyles, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: string, provider: IFormatProvider, result: nuint): boolean;
+    tryParse(s: string, result: nuint): boolean;
 };
 
 
@@ -4141,7 +4141,7 @@ export type UriCreationOptions = UriCreationOptions$instance;
 
 export interface ValueTuple$instance {
     compareTo(other: ValueTuple): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4183,7 +4183,7 @@ export type ValueTuple = ValueTuple$instance & __ValueTuple$views;
 export interface ValueTuple_1$instance<T1> {
     item1: T1;
     compareTo(other: ValueTuple_1<T1>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_1<T1>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4217,7 +4217,7 @@ export interface ValueTuple_2$instance<T1, T2> {
     item1: T1;
     item2: T2;
     compareTo(other: ValueTuple_2<T1, T2>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_2<T1, T2>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4252,7 +4252,7 @@ export interface ValueTuple_3$instance<T1, T2, T3> {
     item2: T2;
     item3: T3;
     compareTo(other: ValueTuple_3<T1, T2, T3>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_3<T1, T2, T3>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4288,7 +4288,7 @@ export interface ValueTuple_4$instance<T1, T2, T3, T4> {
     item3: T3;
     item4: T4;
     compareTo(other: ValueTuple_4<T1, T2, T3, T4>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_4<T1, T2, T3, T4>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4325,7 +4325,7 @@ export interface ValueTuple_5$instance<T1, T2, T3, T4, T5> {
     item4: T4;
     item5: T5;
     compareTo(other: ValueTuple_5<T1, T2, T3, T4, T5>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_5<T1, T2, T3, T4, T5>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4363,7 +4363,7 @@ export interface ValueTuple_6$instance<T1, T2, T3, T4, T5, T6> {
     item5: T5;
     item6: T6;
     compareTo(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_6<T1, T2, T3, T4, T5, T6>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4402,7 +4402,7 @@ export interface ValueTuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     item6: T6;
     item7: T7;
     compareTo(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_7<T1, T2, T3, T4, T5, T6, T7>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4442,7 +4442,7 @@ export interface ValueTuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest extends
     item7: T7;
     rest: TRest;
     compareTo(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): int;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(other: ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>): boolean;
     getHashCode(): int;
     toString(): string;
@@ -4490,8 +4490,8 @@ export interface AccessViolationException$instance extends SystemException$insta
 
 export const AccessViolationException: {
     new(): AccessViolationException;
-    new(message: string | undefined): AccessViolationException;
-    new(message: string | undefined, innerException: Exception | undefined): AccessViolationException;
+    new(message: string): AccessViolationException;
+    new(message: string, innerException: Exception): AccessViolationException;
 };
 
 
@@ -4515,12 +4515,12 @@ export interface AggregateException$instance extends Exception$instance {
 
 export const AggregateException: {
     new(): AggregateException;
-    new(message: string | undefined): AggregateException;
-    new(message: string | undefined, innerException: Exception): AggregateException;
+    new(message: string): AggregateException;
+    new(message: string, innerException: Exception): AggregateException;
     new(innerExceptions: IEnumerable_1<Exception>): AggregateException;
     new(innerExceptions: Exception[]): AggregateException;
-    new(message: string | undefined, innerExceptions: IEnumerable_1<Exception>): AggregateException;
-    new(message: string | undefined, innerExceptions: Exception[]): AggregateException;
+    new(message: string, innerExceptions: IEnumerable_1<Exception>): AggregateException;
+    new(message: string, innerExceptions: Exception[]): AggregateException;
 };
 
 
@@ -4545,25 +4545,25 @@ export interface AppDomain$instance extends MarshalByRefObject {
     readonly relativeSearchPath: string | undefined;
     readonly setupInformation: AppDomainSetup;
     readonly shadowCopyFiles: boolean;
-    appendPrivatePath(path: string | undefined): void;
+    appendPrivatePath(path: string): void;
     applyPolicy(assemblyName: string): string;
     clearPrivatePath(): void;
     clearShadowCopyPath(): void;
     createInstance(assemblyName: string, typeName: string): ObjectHandle | undefined;
-    createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
-    createInstance(assemblyName: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
+    createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
+    createInstance(assemblyName: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     createInstanceAndUnwrap(assemblyName: string, typeName: string): unknown | undefined;
-    createInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
-    createInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
+    createInstanceAndUnwrap(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
+    createInstanceAndUnwrap(assemblyName: string, typeName: string, activationAttributes: unknown[]): unknown | undefined;
     createInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle | undefined;
-    createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
-    createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
+    createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
+    createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     createInstanceFromAndUnwrap(assemblyFile: string, typeName: string): unknown | undefined;
-    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
-    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
+    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
+    createInstanceFromAndUnwrap(assemblyFile: string, typeName: string, activationAttributes: unknown[]): unknown | undefined;
     executeAssembly(assemblyFile: string): int;
-    executeAssembly(assemblyFile: string, args: (string | undefined)[] | undefined): int;
-    executeAssembly(assemblyFile: string, args: (string | undefined)[] | undefined, hashValue: byte[] | undefined, hashAlgorithm: AssemblyHashAlgorithm): int;
+    executeAssembly(assemblyFile: string, args: string[]): int;
+    executeAssembly(assemblyFile: string, args: string[], hashValue: byte[], hashAlgorithm: AssemblyHashAlgorithm): int;
     executeAssemblyByName(assemblyName: AssemblyName, ...args: string[]): int;
     executeAssemblyByName(assemblyName: string): int;
     executeAssemblyByName(assemblyName: string, ...args: string[]): int;
@@ -4573,16 +4573,16 @@ export interface AppDomain$instance extends MarshalByRefObject {
     isDefaultAppDomain(): boolean;
     isFinalizingForUnload(): boolean;
     load(rawAssembly: byte[]): Assembly;
-    load(rawAssembly: byte[], rawSymbolStore: byte[] | undefined): Assembly;
+    load(rawAssembly: byte[], rawSymbolStore: byte[]): Assembly;
     load(assemblyRef: AssemblyName): Assembly;
     load(assemblyString: string): Assembly;
     reflectionOnlyGetAssemblies(): Assembly[];
-    setCachePath(path: string | undefined): void;
-    setData(name: string, data: unknown | undefined): void;
-    setDynamicBase(path: string | undefined): void;
+    setCachePath(path: string): void;
+    setData(name: string, data: unknown): void;
+    setDynamicBase(path: string): void;
     setPrincipalPolicy(policy: PrincipalPolicy): void;
     setShadowCopyFiles(): void;
-    setShadowCopyPath(path: string | undefined): void;
+    setShadowCopyPath(path: string): void;
     setThreadPrincipal(principal: IPrincipal): void;
     toString(): string;
 }
@@ -4621,8 +4621,8 @@ export interface AppDomainUnloadedException$instance extends SystemException$ins
 
 export const AppDomainUnloadedException: {
     new(): AppDomainUnloadedException;
-    new(message: string | undefined): AppDomainUnloadedException;
-    new(message: string | undefined, innerException: Exception | undefined): AppDomainUnloadedException;
+    new(message: string): AppDomainUnloadedException;
+    new(message: string, innerException: Exception): AppDomainUnloadedException;
 };
 
 
@@ -4640,8 +4640,8 @@ export interface ApplicationException$instance extends Exception$instance {
 
 export const ApplicationException: {
     new(): ApplicationException;
-    new(message: string | undefined): ApplicationException;
-    new(message: string | undefined, innerException: Exception | undefined): ApplicationException;
+    new(message: string): ApplicationException;
+    new(message: string, innerException: Exception): ApplicationException;
 };
 
 
@@ -4659,14 +4659,14 @@ export interface ApplicationId$instance {
     readonly publicKeyToken: byte[];
     readonly version: Version;
     copy(): ApplicationId;
-    equals(o: unknown | undefined): boolean;
+    equals(o: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
 
 
 export const ApplicationId: {
-    new(publicKeyToken: byte[], name: string, version: Version, processorArchitecture: string | undefined, culture: string | undefined): ApplicationId;
+    new(publicKeyToken: byte[], name: string, version: Version, processorArchitecture: string, culture: string): ApplicationId;
 };
 
 
@@ -4681,12 +4681,12 @@ export interface ArgumentException$instance extends SystemException$instance {
 
 export const ArgumentException: {
     new(): ArgumentException;
-    new(message: string | undefined): ArgumentException;
-    new(message: string | undefined, innerException: Exception | undefined): ArgumentException;
-    new(message: string | undefined, paramName: string | undefined, innerException: Exception | undefined): ArgumentException;
-    new(message: string | undefined, paramName: string | undefined): ArgumentException;
-    throwIfNullOrEmpty(argument: string | undefined, paramName?: string | undefined): void;
-    throwIfNullOrWhiteSpace(argument: string | undefined, paramName?: string | undefined): void;
+    new(message: string): ArgumentException;
+    new(message: string, innerException: Exception): ArgumentException;
+    new(message: string, paramName: string, innerException: Exception): ArgumentException;
+    new(message: string, paramName: string): ArgumentException;
+    throwIfNullOrEmpty(argument: string, paramName?: string): void;
+    throwIfNullOrWhiteSpace(argument: string, paramName?: string): void;
 };
 
 
@@ -4704,11 +4704,11 @@ export interface ArgumentNullException$instance extends ArgumentException$instan
 
 export const ArgumentNullException: {
     new(): ArgumentNullException;
-    new(paramName: string | undefined): ArgumentNullException;
-    new(message: string | undefined, innerException: Exception | undefined): ArgumentNullException;
-    new(paramName: string | undefined, message: string | undefined): ArgumentNullException;
-    throwIfNull(argument: unknown | undefined, paramName?: string | undefined): void;
-    throwIfNull(argument: ptr<void>, paramName?: string | undefined): void;
+    new(paramName: string): ArgumentNullException;
+    new(message: string, innerException: Exception): ArgumentNullException;
+    new(paramName: string, message: string): ArgumentNullException;
+    throwIfNull(argument: unknown, paramName?: string): void;
+    throwIfNull(argument: ptr<void>, paramName?: string): void;
 };
 
 
@@ -4728,19 +4728,19 @@ export interface ArgumentOutOfRangeException$instance extends ArgumentException$
 
 export const ArgumentOutOfRangeException: {
     new(): ArgumentOutOfRangeException;
-    new(paramName: string | undefined): ArgumentOutOfRangeException;
-    new(paramName: string | undefined, message: string | undefined): ArgumentOutOfRangeException;
-    new(message: string | undefined, innerException: Exception | undefined): ArgumentOutOfRangeException;
-    new(paramName: string | undefined, actualValue: unknown | undefined, message: string | undefined): ArgumentOutOfRangeException;
-    throwIfEqual<T>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfLessThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfLessThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfNegative<T extends INumberBase_1<T>>(value: T, paramName?: string | undefined): void;
-    throwIfNegativeOrZero<T extends INumberBase_1<T>>(value: T, paramName?: string | undefined): void;
-    throwIfNotEqual<T>(value: T, other: T, paramName?: string | undefined): void;
-    throwIfZero<T extends INumberBase_1<T>>(value: T, paramName?: string | undefined): void;
+    new(paramName: string): ArgumentOutOfRangeException;
+    new(paramName: string, message: string): ArgumentOutOfRangeException;
+    new(message: string, innerException: Exception): ArgumentOutOfRangeException;
+    new(paramName: string, actualValue: unknown, message: string): ArgumentOutOfRangeException;
+    throwIfEqual<T>(value: T, other: T, paramName?: string): void;
+    throwIfGreaterThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfGreaterThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfLessThan<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfLessThanOrEqual<T extends IComparable_1<T>>(value: T, other: T, paramName?: string): void;
+    throwIfNegative<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
+    throwIfNegativeOrZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
+    throwIfNotEqual<T>(value: T, other: T, paramName?: string): void;
+    throwIfZero<T extends INumberBase_1<T>>(value: T, paramName?: string): void;
 };
 
 
@@ -4758,8 +4758,8 @@ export interface ArithmeticException$instance extends SystemException$instance {
 
 export const ArithmeticException: {
     new(): ArithmeticException;
-    new(message: string | undefined): ArithmeticException;
-    new(message: string | undefined, innerException: Exception | undefined): ArithmeticException;
+    new(message: string): ArithmeticException;
+    new(message: string, innerException: Exception): ArithmeticException;
 };
 
 
@@ -4795,27 +4795,27 @@ export interface Array$instance {
     getValue(index1: long, index2: long, index3: long): unknown | undefined;
     getValue(...indices: long[]): unknown | undefined;
     initialize(): void;
-    setValue(value: unknown | undefined, index: int): void;
-    setValue(value: unknown | undefined, index1: int, index2: int): void;
-    setValue(value: unknown | undefined, index1: int, index2: int, index3: int): void;
-    setValue(value: unknown | undefined, ...indices: int[]): void;
-    setValue(value: unknown | undefined, index: long): void;
-    setValue(value: unknown | undefined, index1: long, index2: long): void;
-    setValue(value: unknown | undefined, index1: long, index2: long, index3: long): void;
-    setValue(value: unknown | undefined, ...indices: long[]): void;
+    setValue(value: unknown, index: int): void;
+    setValue(value: unknown, index1: int, index2: int): void;
+    setValue(value: unknown, index1: int, index2: int, index3: int): void;
+    setValue(value: unknown, ...indices: int[]): void;
+    setValue(value: unknown, index: long): void;
+    setValue(value: unknown, index1: long, index2: long): void;
+    setValue(value: unknown, index1: long, index2: long, index3: long): void;
+    setValue(value: unknown, ...indices: long[]): void;
 }
 
 
 export const Array: {
     readonly maxLength: int;
     asReadOnly<T>(array: T[]): ReadOnlyCollection_1<T>;
-    binarySearch(array: Array, index: int, length: int, value: unknown | undefined, comparer: IComparer | undefined): int;
-    binarySearch(array: Array, index: int, length: int, value: unknown | undefined): int;
-    binarySearch(array: Array, value: unknown | undefined, comparer: IComparer | undefined): int;
-    binarySearch(array: Array, value: unknown | undefined): int;
-    binarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T> | undefined): int;
+    binarySearch(array: Array, index: int, length: int, value: unknown, comparer: IComparer): int;
+    binarySearch(array: Array, index: int, length: int, value: unknown): int;
+    binarySearch(array: Array, value: unknown, comparer: IComparer): int;
+    binarySearch(array: Array, value: unknown): int;
+    binarySearch<T>(array: T[], index: int, length: int, value: T, comparer: IComparer_1<T>): int;
     binarySearch<T>(array: T[], index: int, length: int, value: T): int;
-    binarySearch<T>(array: T[], value: T, comparer: IComparer_1<T> | undefined): int;
+    binarySearch<T>(array: T[], value: T, comparer: IComparer_1<T>): int;
     binarySearch<T>(array: T[], value: T): int;
     clear(array: Array, index: int, length: int): void;
     clear(array: Array): void;
@@ -4848,40 +4848,40 @@ export const Array: {
     findLastIndex<T>(array: T[], startIndex: int, match: Predicate_1<T>): int;
     findLastIndex<T>(array: T[], startIndex: int, count: int, match: Predicate_1<T>): int;
     forEach<T>(array: T[], action: Action_1<T>): void;
-    indexOf(array: Array, value: unknown | undefined, startIndex: int, count: int): int;
-    indexOf(array: Array, value: unknown | undefined, startIndex: int): int;
-    indexOf(array: Array, value: unknown | undefined): int;
+    indexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    indexOf(array: Array, value: unknown, startIndex: int): int;
+    indexOf(array: Array, value: unknown): int;
     indexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
     indexOf<T>(array: T[], value: T, startIndex: int): int;
     indexOf<T>(array: T[], value: T): int;
-    lastIndexOf(array: Array, value: unknown | undefined, startIndex: int, count: int): int;
-    lastIndexOf(array: Array, value: unknown | undefined, startIndex: int): int;
-    lastIndexOf(array: Array, value: unknown | undefined): int;
+    lastIndexOf(array: Array, value: unknown, startIndex: int, count: int): int;
+    lastIndexOf(array: Array, value: unknown, startIndex: int): int;
+    lastIndexOf(array: Array, value: unknown): int;
     lastIndexOf<T>(array: T[], value: T, startIndex: int, count: int): int;
     lastIndexOf<T>(array: T[], value: T, startIndex: int): int;
     lastIndexOf<T>(array: T[], value: T): int;
-    resize<T>(array: T[] | undefined, newSize: int): void;
+    resize<T>(array: T[], newSize: int): void;
     reverse(array: Array, index: int, length: int): void;
     reverse(array: Array): void;
     reverse<T>(array: T[], index: int, length: int): void;
     reverse<T>(array: T[]): void;
-    sort(keys: Array, items: Array | undefined, comparer: IComparer | undefined): void;
-    sort(keys: Array, items: Array | undefined, index: int, length: int, comparer: IComparer | undefined): void;
-    sort(keys: Array, items: Array | undefined, index: int, length: int): void;
-    sort(keys: Array, items: Array | undefined): void;
-    sort(array: Array, comparer: IComparer | undefined): void;
-    sort(array: Array, index: int, length: int, comparer: IComparer | undefined): void;
+    sort(keys: Array, items: Array, comparer: IComparer): void;
+    sort(keys: Array, items: Array, index: int, length: int, comparer: IComparer): void;
+    sort(keys: Array, items: Array, index: int, length: int): void;
+    sort(keys: Array, items: Array): void;
+    sort(array: Array, comparer: IComparer): void;
+    sort(array: Array, index: int, length: int, comparer: IComparer): void;
     sort(array: Array, index: int, length: int): void;
     sort(array: Array): void;
     sort<T>(array: T[], comparison: Comparison_1<T>): void;
-    sort<T>(array: T[], comparer: IComparer_1<T> | undefined): void;
-    sort<T>(array: T[], index: int, length: int, comparer: IComparer_1<T> | undefined): void;
+    sort<T>(array: T[], comparer: IComparer_1<T>): void;
+    sort<T>(array: T[], index: int, length: int, comparer: IComparer_1<T>): void;
     sort<T>(array: T[], index: int, length: int): void;
     sort<T>(array: T[]): void;
-    sort<TKey, TValue>(keys: TKey[], items: TValue[] | undefined, comparer: IComparer_1<TKey> | undefined): void;
-    sort<TKey, TValue>(keys: TKey[], items: TValue[] | undefined, index: int, length: int, comparer: IComparer_1<TKey> | undefined): void;
-    sort<TKey, TValue>(keys: TKey[], items: TValue[] | undefined, index: int, length: int): void;
-    sort<TKey, TValue>(keys: TKey[], items: TValue[] | undefined): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], comparer: IComparer_1<TKey>): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int, comparer: IComparer_1<TKey>): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[], index: int, length: int): void;
+    sort<TKey, TValue>(keys: TKey[], items: TValue[]): void;
     trueForAll<T>(array: T[], match: Predicate_1<T>): boolean;
 };
 
@@ -4907,8 +4907,8 @@ export interface ArrayTypeMismatchException$instance extends SystemException$ins
 
 export const ArrayTypeMismatchException: {
     new(): ArrayTypeMismatchException;
-    new(message: string | undefined): ArrayTypeMismatchException;
-    new(message: string | undefined, innerException: Exception | undefined): ArrayTypeMismatchException;
+    new(message: string): ArrayTypeMismatchException;
+    new(message: string, innerException: Exception): ArrayTypeMismatchException;
 };
 
 
@@ -4933,10 +4933,10 @@ export type AssemblyLoadEventArgs = AssemblyLoadEventArgs$instance;
 
 export interface Attribute$instance {
     readonly typeId: unknown;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     isDefaultAttribute(): boolean;
-    match(obj: unknown | undefined): boolean;
+    match(obj: unknown): boolean;
 }
 
 
@@ -5003,10 +5003,10 @@ export interface BadImageFormatException$instance extends SystemException$instan
 
 export const BadImageFormatException: {
     new(): BadImageFormatException;
-    new(message: string | undefined): BadImageFormatException;
-    new(message: string | undefined, inner: Exception | undefined): BadImageFormatException;
-    new(message: string | undefined, fileName: string | undefined): BadImageFormatException;
-    new(message: string | undefined, fileName: string | undefined, inner: Exception | undefined): BadImageFormatException;
+    new(message: string): BadImageFormatException;
+    new(message: string, inner: Exception): BadImageFormatException;
+    new(message: string, fileName: string): BadImageFormatException;
+    new(message: string, fileName: string, inner: Exception): BadImageFormatException;
 };
 
 
@@ -5024,8 +5024,8 @@ export interface CannotUnloadAppDomainException$instance extends SystemException
 
 export const CannotUnloadAppDomainException: {
     new(): CannotUnloadAppDomainException;
-    new(message: string | undefined): CannotUnloadAppDomainException;
-    new(message: string | undefined, innerException: Exception | undefined): CannotUnloadAppDomainException;
+    new(message: string): CannotUnloadAppDomainException;
+    new(message: string, innerException: Exception): CannotUnloadAppDomainException;
 };
 
 
@@ -5103,8 +5103,8 @@ export interface ContextMarshalException$instance extends SystemException$instan
 
 export const ContextMarshalException: {
     new(): ContextMarshalException;
-    new(message: string | undefined): ContextMarshalException;
-    new(message: string | undefined, inner: Exception | undefined): ContextMarshalException;
+    new(message: string): ContextMarshalException;
+    new(message: string, inner: Exception): ContextMarshalException;
 };
 
 
@@ -5127,11 +5127,11 @@ export const ContextStaticAttribute: {
 export type ContextStaticAttribute = ContextStaticAttribute$instance;
 
 export interface CultureAwareComparer$instance extends StringComparer$instance {
-    compare(x: string | undefined, y: string | undefined): int;
-    compare(x: unknown | undefined, y: unknown | undefined): int;
+    compare(x: string, y: string): int;
     compare(x: unknown, y: unknown): int;
-    equals(x: string | undefined, y: string | undefined): boolean;
-    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(x: string, y: string): boolean;
+    equals(x: unknown, y: unknown): boolean;
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: string): int;
     getHashCode(obj: unknown): int;
@@ -5166,8 +5166,8 @@ export interface DataMisalignedException$instance extends SystemException$instan
 
 export const DataMisalignedException: {
     new(): DataMisalignedException;
-    new(message: string | undefined): DataMisalignedException;
-    new(message: string | undefined, innerException: Exception | undefined): DataMisalignedException;
+    new(message: string): DataMisalignedException;
+    new(message: string, innerException: Exception): DataMisalignedException;
 };
 
 
@@ -5182,7 +5182,7 @@ export interface DBNull$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getTypeCode(): TypeCode;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
+    toString(provider: IFormatProvider): string;
 }
 
 
@@ -5208,7 +5208,7 @@ export interface Delegate$instance {
     readonly target: unknown;
     clone(): unknown;
     dynamicInvoke(...args: unknown[]): unknown | undefined;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getInvocationList(): Function[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -5216,11 +5216,11 @@ export interface Delegate$instance {
 
 
 export const Delegate: {
-    combine(a: Function | undefined, b: Function | undefined): Function | undefined;
+    combine(a: Function, b: Function): Function | undefined;
     combine(...delegates: Function[]): Function | undefined;
     combine(delegates: ReadOnlySpan_1<Function>): Function | undefined;
-    createDelegate(type_: Type, firstArgument: unknown | undefined, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
-    createDelegate(type_: Type, firstArgument: unknown | undefined, method: MethodInfo): Function;
+    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
+    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo): Function;
     createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
     createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean): Function;
     createDelegate(type_: Type, target: unknown, method: string): Function;
@@ -5229,9 +5229,9 @@ export const Delegate: {
     createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
     createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean): Function;
     createDelegate(type_: Type, target: Type, method: string): Function;
-    enumerateInvocationList<TDelegate extends Function>(d: TDelegate | undefined): Delegate_InvocationListEnumerator_1<TDelegate>;
-    remove(source: Function | undefined, value: Function | undefined): Function | undefined;
-    removeAll(source: Function | undefined, value: Function | undefined): Function | undefined;
+    enumerateInvocationList<TDelegate extends Function>(d: TDelegate): Delegate_InvocationListEnumerator_1<TDelegate>;
+    remove(source: Function, value: Function): Function | undefined;
+    removeAll(source: Function, value: Function): Function | undefined;
 };
 
 
@@ -5252,8 +5252,8 @@ export interface DivideByZeroException$instance extends ArithmeticException$inst
 
 export const DivideByZeroException: {
     new(): DivideByZeroException;
-    new(message: string | undefined): DivideByZeroException;
-    new(message: string | undefined, innerException: Exception | undefined): DivideByZeroException;
+    new(message: string): DivideByZeroException;
+    new(message: string, innerException: Exception): DivideByZeroException;
 };
 
 
@@ -5271,8 +5271,8 @@ export interface DllNotFoundException$instance extends TypeLoadException$instanc
 
 export const DllNotFoundException: {
     new(): DllNotFoundException;
-    new(message: string | undefined): DllNotFoundException;
-    new(message: string | undefined, inner: Exception | undefined): DllNotFoundException;
+    new(message: string): DllNotFoundException;
+    new(message: string, inner: Exception): DllNotFoundException;
 };
 
 
@@ -5290,9 +5290,9 @@ export interface DuplicateWaitObjectException$instance extends ArgumentException
 
 export const DuplicateWaitObjectException: {
     new(): DuplicateWaitObjectException;
-    new(parameterName: string | undefined): DuplicateWaitObjectException;
-    new(parameterName: string | undefined, message: string | undefined): DuplicateWaitObjectException;
-    new(message: string | undefined, innerException: Exception | undefined): DuplicateWaitObjectException;
+    new(parameterName: string): DuplicateWaitObjectException;
+    new(parameterName: string, message: string): DuplicateWaitObjectException;
+    new(message: string, innerException: Exception): DuplicateWaitObjectException;
 };
 
 
@@ -5310,8 +5310,8 @@ export interface EntryPointNotFoundException$instance extends TypeLoadException$
 
 export const EntryPointNotFoundException: {
     new(): EntryPointNotFoundException;
-    new(message: string | undefined): EntryPointNotFoundException;
-    new(message: string | undefined, inner: Exception | undefined): EntryPointNotFoundException;
+    new(message: string): EntryPointNotFoundException;
+    new(message: string, inner: Exception): EntryPointNotFoundException;
 };
 
 
@@ -5323,15 +5323,15 @@ export type EntryPointNotFoundException = EntryPointNotFoundException$instance &
 
 
 export interface Enum$instance {
-    compareTo(target: unknown | undefined): int;
-    equals(obj: unknown | undefined): boolean;
+    compareTo(target: unknown): int;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getTypeCode(): TypeCode;
     hasFlag(flag: number): boolean;
     toString(): string;
-    toString(format: string | undefined): string;
-    toString(provider: IFormatProvider | undefined): string;
-    toString(format: string | undefined, provider: IFormatProvider | undefined): string;
+    toString(format: string): string;
+    toString(provider: IFormatProvider): string;
+    toString(format: string, provider: IFormatProvider): string;
 }
 
 
@@ -5368,12 +5368,12 @@ export const Enum: {
     tryFormat<TEnum extends unknown>(value: TEnum, destination: Span_1<Char>, charsWritten: int, format?: ReadOnlySpan_1<Char>): boolean;
     tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: TEnum): boolean;
     tryParse<TEnum extends unknown>(value: ReadOnlySpan_1<Char>, result: TEnum): boolean;
-    tryParse<TEnum extends unknown>(value: string | undefined, ignoreCase: boolean, result: TEnum): boolean;
-    tryParse<TEnum extends unknown>(value: string | undefined, result: TEnum): boolean;
-    tryParse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: unknown | undefined): boolean;
-    tryParse(enumType: Type, value: ReadOnlySpan_1<Char>, result: unknown | undefined): boolean;
-    tryParse(enumType: Type, value: string | undefined, ignoreCase: boolean, result: unknown | undefined): boolean;
-    tryParse(enumType: Type, value: string | undefined, result: unknown | undefined): boolean;
+    tryParse<TEnum extends unknown>(value: string, ignoreCase: boolean, result: TEnum): boolean;
+    tryParse<TEnum extends unknown>(value: string, result: TEnum): boolean;
+    tryParse(enumType: Type, value: ReadOnlySpan_1<Char>, ignoreCase: boolean, result: unknown): boolean;
+    tryParse(enumType: Type, value: ReadOnlySpan_1<Char>, result: unknown): boolean;
+    tryParse(enumType: Type, value: string, ignoreCase: boolean, result: unknown): boolean;
+    tryParse(enumType: Type, value: string, result: unknown): boolean;
 };
 
 
@@ -5406,7 +5406,8 @@ export type EventArgs = EventArgs$instance;
 
 export interface Exception$instance {
     readonly data: IDictionary;
-    helpLink: string | undefined;
+    get helpLink(): string | undefined;
+    set helpLink(value: string);
     hResult: int;
     readonly innerException: Exception | undefined;
     readonly message: string;
@@ -5422,8 +5423,8 @@ export interface Exception$instance {
 
 export const Exception: {
     new(): Exception;
-    new(message: string | undefined): Exception;
-    new(message: string | undefined, innerException: Exception | undefined): Exception;
+    new(message: string): Exception;
+    new(message: string, innerException: Exception): Exception;
 };
 
 
@@ -5443,8 +5444,8 @@ export interface ExecutionEngineException$instance extends SystemException$insta
 
 export const ExecutionEngineException: {
     new(): ExecutionEngineException;
-    new(message: string | undefined): ExecutionEngineException;
-    new(message: string | undefined, innerException: Exception | undefined): ExecutionEngineException;
+    new(message: string): ExecutionEngineException;
+    new(message: string, innerException: Exception): ExecutionEngineException;
 };
 
 
@@ -5462,8 +5463,8 @@ export interface FieldAccessException$instance extends MemberAccessException$ins
 
 export const FieldAccessException: {
     new(): FieldAccessException;
-    new(message: string | undefined): FieldAccessException;
-    new(message: string | undefined, inner: Exception | undefined): FieldAccessException;
+    new(message: string): FieldAccessException;
+    new(message: string, inner: Exception): FieldAccessException;
 };
 
 
@@ -5503,8 +5504,8 @@ export interface FormatException$instance extends SystemException$instance {
 
 export const FormatException: {
     new(): FormatException;
-    new(message: string | undefined): FormatException;
-    new(message: string | undefined, innerException: Exception | undefined): FormatException;
+    new(message: string): FormatException;
+    new(message: string, innerException: Exception): FormatException;
 };
 
 
@@ -5520,7 +5521,7 @@ export interface FormattableString$instance {
     readonly format: string;
     getArgument(index: int): unknown;
     getArguments(): (unknown | undefined)[];
-    toString(formatProvider: IFormatProvider | undefined): string;
+    toString(formatProvider: IFormatProvider): string;
     toString(): string;
 }
 
@@ -5589,8 +5590,8 @@ export interface IndexOutOfRangeException$instance extends SystemException$insta
 
 export const IndexOutOfRangeException: {
     new(): IndexOutOfRangeException;
-    new(message: string | undefined): IndexOutOfRangeException;
-    new(message: string | undefined, innerException: Exception | undefined): IndexOutOfRangeException;
+    new(message: string): IndexOutOfRangeException;
+    new(message: string, innerException: Exception): IndexOutOfRangeException;
 };
 
 
@@ -5608,8 +5609,8 @@ export interface InsufficientExecutionStackException$instance extends SystemExce
 
 export const InsufficientExecutionStackException: {
     new(): InsufficientExecutionStackException;
-    new(message: string | undefined): InsufficientExecutionStackException;
-    new(message: string | undefined, innerException: Exception | undefined): InsufficientExecutionStackException;
+    new(message: string): InsufficientExecutionStackException;
+    new(message: string, innerException: Exception): InsufficientExecutionStackException;
 };
 
 
@@ -5627,8 +5628,8 @@ export interface InsufficientMemoryException$instance extends OutOfMemoryExcepti
 
 export const InsufficientMemoryException: {
     new(): InsufficientMemoryException;
-    new(message: string | undefined): InsufficientMemoryException;
-    new(message: string | undefined, innerException: Exception | undefined): InsufficientMemoryException;
+    new(message: string): InsufficientMemoryException;
+    new(message: string, innerException: Exception): InsufficientMemoryException;
 };
 
 
@@ -5646,9 +5647,9 @@ export interface InvalidCastException$instance extends SystemException$instance 
 
 export const InvalidCastException: {
     new(): InvalidCastException;
-    new(message: string | undefined): InvalidCastException;
-    new(message: string | undefined, innerException: Exception | undefined): InvalidCastException;
-    new(message: string | undefined, errorCode: int): InvalidCastException;
+    new(message: string): InvalidCastException;
+    new(message: string, innerException: Exception): InvalidCastException;
+    new(message: string, errorCode: int): InvalidCastException;
 };
 
 
@@ -5666,8 +5667,8 @@ export interface InvalidOperationException$instance extends SystemException$inst
 
 export const InvalidOperationException: {
     new(): InvalidOperationException;
-    new(message: string | undefined): InvalidOperationException;
-    new(message: string | undefined, innerException: Exception | undefined): InvalidOperationException;
+    new(message: string): InvalidOperationException;
+    new(message: string, innerException: Exception): InvalidOperationException;
 };
 
 
@@ -5685,8 +5686,8 @@ export interface InvalidProgramException$instance extends SystemException$instan
 
 export const InvalidProgramException: {
     new(): InvalidProgramException;
-    new(message: string | undefined): InvalidProgramException;
-    new(message: string | undefined, inner: Exception | undefined): InvalidProgramException;
+    new(message: string): InvalidProgramException;
+    new(message: string, inner: Exception): InvalidProgramException;
 };
 
 
@@ -5704,8 +5705,8 @@ export interface InvalidTimeZoneException$instance extends Exception$instance {
 
 export const InvalidTimeZoneException: {
     new(): InvalidTimeZoneException;
-    new(message: string | undefined): InvalidTimeZoneException;
-    new(message: string | undefined, innerException: Exception | undefined): InvalidTimeZoneException;
+    new(message: string): InvalidTimeZoneException;
+    new(message: string, innerException: Exception): InvalidTimeZoneException;
 };
 
 
@@ -5807,8 +5808,8 @@ export interface MemberAccessException$instance extends SystemException$instance
 
 export const MemberAccessException: {
     new(): MemberAccessException;
-    new(message: string | undefined): MemberAccessException;
-    new(message: string | undefined, inner: Exception | undefined): MemberAccessException;
+    new(message: string): MemberAccessException;
+    new(message: string, inner: Exception): MemberAccessException;
 };
 
 
@@ -5826,8 +5827,8 @@ export interface MethodAccessException$instance extends MemberAccessException$in
 
 export const MethodAccessException: {
     new(): MethodAccessException;
-    new(message: string | undefined): MethodAccessException;
-    new(message: string | undefined, inner: Exception | undefined): MethodAccessException;
+    new(message: string): MethodAccessException;
+    new(message: string, inner: Exception): MethodAccessException;
 };
 
 
@@ -5846,9 +5847,9 @@ export interface MissingFieldException$instance extends MissingMemberException$i
 
 export const MissingFieldException: {
     new(): MissingFieldException;
-    new(message: string | undefined): MissingFieldException;
-    new(message: string | undefined, inner: Exception | undefined): MissingFieldException;
-    new(className: string | undefined, fieldName: string | undefined): MissingFieldException;
+    new(message: string): MissingFieldException;
+    new(message: string, inner: Exception): MissingFieldException;
+    new(className: string, fieldName: string): MissingFieldException;
 };
 
 
@@ -5867,9 +5868,9 @@ export interface MissingMemberException$instance extends MemberAccessException$i
 
 export const MissingMemberException: {
     new(): MissingMemberException;
-    new(message: string | undefined): MissingMemberException;
-    new(message: string | undefined, inner: Exception | undefined): MissingMemberException;
-    new(className: string | undefined, memberName: string | undefined): MissingMemberException;
+    new(message: string): MissingMemberException;
+    new(message: string, inner: Exception): MissingMemberException;
+    new(className: string, memberName: string): MissingMemberException;
 };
 
 
@@ -5888,9 +5889,9 @@ export interface MissingMethodException$instance extends MissingMemberException$
 
 export const MissingMethodException: {
     new(): MissingMethodException;
-    new(message: string | undefined): MissingMethodException;
-    new(message: string | undefined, inner: Exception | undefined): MissingMethodException;
-    new(className: string | undefined, methodName: string | undefined): MissingMethodException;
+    new(message: string): MissingMethodException;
+    new(message: string, inner: Exception): MissingMethodException;
+    new(className: string, methodName: string): MissingMethodException;
 };
 
 
@@ -5914,7 +5915,7 @@ export type MTAThreadAttribute = MTAThreadAttribute$instance;
 
 export interface MulticastDelegate$instance extends Function {
     clone(): unknown;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getInvocationList(): Function[];
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
@@ -5940,8 +5941,8 @@ export interface MulticastNotSupportedException$instance extends SystemException
 
 export const MulticastNotSupportedException: {
     new(): MulticastNotSupportedException;
-    new(message: string | undefined): MulticastNotSupportedException;
-    new(message: string | undefined, inner: Exception | undefined): MulticastNotSupportedException;
+    new(message: string): MulticastNotSupportedException;
+    new(message: string, inner: Exception): MulticastNotSupportedException;
 };
 
 
@@ -6005,10 +6006,10 @@ export interface NotFiniteNumberException$instance extends ArithmeticException$i
 export const NotFiniteNumberException: {
     new(): NotFiniteNumberException;
     new(offendingNumber: double): NotFiniteNumberException;
-    new(message: string | undefined): NotFiniteNumberException;
-    new(message: string | undefined, offendingNumber: double): NotFiniteNumberException;
-    new(message: string | undefined, innerException: Exception | undefined): NotFiniteNumberException;
-    new(message: string | undefined, offendingNumber: double, innerException: Exception | undefined): NotFiniteNumberException;
+    new(message: string): NotFiniteNumberException;
+    new(message: string, offendingNumber: double): NotFiniteNumberException;
+    new(message: string, innerException: Exception): NotFiniteNumberException;
+    new(message: string, offendingNumber: double, innerException: Exception): NotFiniteNumberException;
 };
 
 
@@ -6026,8 +6027,8 @@ export interface NotImplementedException$instance extends SystemException$instan
 
 export const NotImplementedException: {
     new(): NotImplementedException;
-    new(message: string | undefined): NotImplementedException;
-    new(message: string | undefined, inner: Exception | undefined): NotImplementedException;
+    new(message: string): NotImplementedException;
+    new(message: string, inner: Exception): NotImplementedException;
 };
 
 
@@ -6045,8 +6046,8 @@ export interface NotSupportedException$instance extends SystemException$instance
 
 export const NotSupportedException: {
     new(): NotSupportedException;
-    new(message: string | undefined): NotSupportedException;
-    new(message: string | undefined, innerException: Exception | undefined): NotSupportedException;
+    new(message: string): NotSupportedException;
+    new(message: string, innerException: Exception): NotSupportedException;
 };
 
 
@@ -6064,8 +6065,8 @@ export interface NullReferenceException$instance extends SystemException$instanc
 
 export const NullReferenceException: {
     new(): NullReferenceException;
-    new(message: string | undefined): NullReferenceException;
-    new(message: string | undefined, innerException: Exception | undefined): NullReferenceException;
+    new(message: string): NullReferenceException;
+    new(message: string, innerException: Exception): NullReferenceException;
 };
 
 
@@ -6077,7 +6078,7 @@ export type NullReferenceException = NullReferenceException$instance & __NullRef
 
 
 export interface Object$instance {
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     getType(): Type;
     toString(): string | undefined;
@@ -6086,8 +6087,8 @@ export interface Object$instance {
 
 export const Object: {
     new(): Object;
-    equals(objA: unknown | undefined, objB: unknown | undefined): boolean;
-    referenceEquals(objA: unknown | undefined, objB: unknown | undefined): boolean;
+    equals(objA: unknown, objB: unknown): boolean;
+    referenceEquals(objA: unknown, objB: unknown): boolean;
 };
 
 
@@ -6101,9 +6102,9 @@ export interface ObjectDisposedException$instance extends InvalidOperationExcept
 
 
 export const ObjectDisposedException: {
-    new(objectName: string | undefined): ObjectDisposedException;
-    new(objectName: string | undefined, message: string | undefined): ObjectDisposedException;
-    new(message: string | undefined, innerException: Exception | undefined): ObjectDisposedException;
+    new(objectName: string): ObjectDisposedException;
+    new(objectName: string, message: string): ObjectDisposedException;
+    new(message: string, innerException: Exception): ObjectDisposedException;
     throwIf(condition: boolean, instance: unknown): void;
     throwIf(condition: boolean, type_: Type): void;
 };
@@ -6120,14 +6121,15 @@ export interface ObsoleteAttribute$instance extends Attribute {
     diagnosticId: string;
     readonly isError: boolean;
     readonly message: string;
-    urlFormat: string | undefined;
+    get urlFormat(): string | undefined;
+    set urlFormat(value: string);
 }
 
 
 export const ObsoleteAttribute: {
     new(): ObsoleteAttribute;
-    new(message: string | undefined): ObsoleteAttribute;
-    new(message: string | undefined, error: boolean): ObsoleteAttribute;
+    new(message: string): ObsoleteAttribute;
+    new(message: string, error: boolean): ObsoleteAttribute;
 };
 
 
@@ -6188,11 +6190,11 @@ export interface OperationCanceledException$instance extends SystemException$ins
 
 export const OperationCanceledException: {
     new(): OperationCanceledException;
-    new(message: string | undefined): OperationCanceledException;
-    new(message: string | undefined, innerException: Exception | undefined): OperationCanceledException;
+    new(message: string): OperationCanceledException;
+    new(message: string, innerException: Exception): OperationCanceledException;
     new(token: CancellationToken): OperationCanceledException;
-    new(message: string | undefined, token: CancellationToken): OperationCanceledException;
-    new(message: string | undefined, innerException: Exception | undefined, token: CancellationToken): OperationCanceledException;
+    new(message: string, token: CancellationToken): OperationCanceledException;
+    new(message: string, innerException: Exception, token: CancellationToken): OperationCanceledException;
 };
 
 
@@ -6204,11 +6206,11 @@ export type OperationCanceledException = OperationCanceledException$instance & _
 
 
 export interface OrdinalComparer$instance extends StringComparer$instance {
-    compare(x: string | undefined, y: string | undefined): int;
-    compare(x: unknown | undefined, y: unknown | undefined): int;
+    compare(x: string, y: string): int;
     compare(x: unknown, y: unknown): int;
-    equals(x: string | undefined, y: string | undefined): boolean;
-    equals(x: unknown | undefined, y: unknown | undefined): boolean;
+    compare(x: unknown, y: unknown): int;
+    equals(x: string, y: string): boolean;
+    equals(x: unknown, y: unknown): boolean;
     equals(x: unknown, y: unknown): boolean;
     getHashCode(obj: string): int;
     getHashCode(obj: unknown): int;
@@ -6239,8 +6241,8 @@ export interface OutOfMemoryException$instance extends SystemException$instance 
 
 export const OutOfMemoryException: {
     new(): OutOfMemoryException;
-    new(message: string | undefined): OutOfMemoryException;
-    new(message: string | undefined, innerException: Exception | undefined): OutOfMemoryException;
+    new(message: string): OutOfMemoryException;
+    new(message: string, innerException: Exception): OutOfMemoryException;
 };
 
 
@@ -6258,8 +6260,8 @@ export interface OverflowException$instance extends ArithmeticException$instance
 
 export const OverflowException: {
     new(): OverflowException;
-    new(message: string | undefined): OverflowException;
-    new(message: string | undefined, innerException: Exception | undefined): OverflowException;
+    new(message: string): OverflowException;
+    new(message: string, innerException: Exception): OverflowException;
 };
 
 
@@ -6288,8 +6290,8 @@ export interface PlatformNotSupportedException$instance extends NotSupportedExce
 
 export const PlatformNotSupportedException: {
     new(): PlatformNotSupportedException;
-    new(message: string | undefined): PlatformNotSupportedException;
-    new(message: string | undefined, inner: Exception | undefined): PlatformNotSupportedException;
+    new(message: string): PlatformNotSupportedException;
+    new(message: string, inner: Exception): PlatformNotSupportedException;
 };
 
 
@@ -6357,8 +6359,8 @@ export interface RankException$instance extends SystemException$instance {
 
 export const RankException: {
     new(): RankException;
-    new(message: string | undefined): RankException;
-    new(message: string | undefined, innerException: Exception | undefined): RankException;
+    new(message: string): RankException;
+    new(message: string, innerException: Exception): RankException;
 };
 
 
@@ -6377,7 +6379,7 @@ export interface ResolveEventArgs$instance extends EventArgs {
 
 export const ResolveEventArgs: {
     new(name: string): ResolveEventArgs;
-    new(name: string, requestingAssembly: Assembly | undefined): ResolveEventArgs;
+    new(name: string, requestingAssembly: Assembly): ResolveEventArgs;
 };
 
 
@@ -6401,8 +6403,8 @@ export interface StackOverflowException$instance extends SystemException$instanc
 
 export const StackOverflowException: {
     new(): StackOverflowException;
-    new(message: string | undefined): StackOverflowException;
-    new(message: string | undefined, innerException: Exception | undefined): StackOverflowException;
+    new(message: string): StackOverflowException;
+    new(message: string, innerException: Exception): StackOverflowException;
 };
 
 
@@ -6428,8 +6430,8 @@ export interface String$instance {
     readonly chars: char;
     readonly length: int;
     clone(): unknown;
-    compareTo(value: unknown | undefined): int;
-    compareTo(strB: string | undefined): int;
+    compareTo(value: unknown): int;
+    compareTo(strB: string): int;
     contains(value: string): boolean;
     contains(value: string, comparisonType: StringComparison): boolean;
     contains(value: char): boolean;
@@ -6438,12 +6440,12 @@ export interface String$instance {
     copyTo(destination: Span_1<Char>): void;
     endsWith(value: string): boolean;
     endsWith(value: string, comparisonType: StringComparison): boolean;
-    endsWith(value: string, ignoreCase: boolean, culture: CultureInfo | undefined): boolean;
+    endsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
     endsWith(value: char): boolean;
     enumerateRunes(): StringRuneEnumerator;
-    equals(obj: unknown | undefined): boolean;
-    equals(value: string | undefined): boolean;
-    equals(value: string | undefined, comparisonType: StringComparison): boolean;
+    equals(obj: unknown): boolean;
+    equals(value: string): boolean;
+    equals(value: string, comparisonType: StringComparison): boolean;
     getEnumerator(): CharEnumerator;
     getHashCode(): int;
     getHashCode(comparisonType: StringComparison): int;
@@ -6485,38 +6487,38 @@ export interface String$instance {
     padRight(totalWidth: int, paddingChar: char): string;
     remove(startIndex: int, count: int): string;
     remove(startIndex: int): string;
-    replace(oldValue: string, newValue: string | undefined, ignoreCase: boolean, culture: CultureInfo | undefined): string;
-    replace(oldValue: string, newValue: string | undefined, comparisonType: StringComparison): string;
+    replace(oldValue: string, newValue: string, ignoreCase: boolean, culture: CultureInfo): string;
+    replace(oldValue: string, newValue: string, comparisonType: StringComparison): string;
     replace(oldChar: char, newChar: char): string;
-    replace(oldValue: string, newValue: string | undefined): string;
+    replace(oldValue: string, newValue: string): string;
     replaceLineEndings(): string;
     replaceLineEndings(replacementText: string): string;
     split(separator: char, options?: StringSplitOptions): string[];
     split(separator: char, count: int, options?: StringSplitOptions): string[];
     split(...separator: char[]): string[];
     split(separator: ReadOnlySpan_1<Char>): string[];
-    split(separator: char[] | undefined, count: int): string[];
-    split(separator: char[] | undefined, options: StringSplitOptions): string[];
-    split(separator: char[] | undefined, count: int, options: StringSplitOptions): string[];
-    split(separator: string | undefined, options?: StringSplitOptions): string[];
-    split(separator: string | undefined, count: int, options?: StringSplitOptions): string[];
-    split(separator: string[] | undefined, options: StringSplitOptions): string[];
-    split(separator: string[] | undefined, count: int, options: StringSplitOptions): string[];
+    split(separator: char[], count: int): string[];
+    split(separator: char[], options: StringSplitOptions): string[];
+    split(separator: char[], count: int, options: StringSplitOptions): string[];
+    split(separator: string, options?: StringSplitOptions): string[];
+    split(separator: string, count: int, options?: StringSplitOptions): string[];
+    split(separator: string[], options: StringSplitOptions): string[];
+    split(separator: string[], count: int, options: StringSplitOptions): string[];
     startsWith(value: string): boolean;
     startsWith(value: string, comparisonType: StringComparison): boolean;
-    startsWith(value: string, ignoreCase: boolean, culture: CultureInfo | undefined): boolean;
+    startsWith(value: string, ignoreCase: boolean, culture: CultureInfo): boolean;
     startsWith(value: char): boolean;
     substring(startIndex: int): string;
     substring(startIndex: int, length: int): string;
     toCharArray(): char[];
     toCharArray(startIndex: int, length: int): char[];
     toLower(): string;
-    toLower(culture: CultureInfo | undefined): string;
+    toLower(culture: CultureInfo): string;
     toLowerInvariant(): string;
     toString(): string;
-    toString(provider: IFormatProvider | undefined): string;
+    toString(provider: IFormatProvider): string;
     toUpper(): string;
-    toUpper(culture: CultureInfo | undefined): string;
+    toUpper(culture: CultureInfo): string;
     toUpperInvariant(): string;
     trim(): string;
     trim(trimChar: char): string;
@@ -6535,7 +6537,7 @@ export interface String$instance {
 
 
 export const String: {
-    new(value: char[] | undefined): String;
+    new(value: char[]): String;
     new(value: char[], startIndex: int, length: int): String;
     new(value: ptr<char>): String;
     new(value: ptr<char>, startIndex: int, length: int): String;
@@ -6545,73 +6547,73 @@ export const String: {
     new(c: char, count: int): String;
     new(value: ReadOnlySpan_1<Char>): String;
     readonly empty: string;
-    compare(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo | undefined): int;
-    compare(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int, ignoreCase: boolean): int;
-    compare(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int, culture: CultureInfo | undefined, options: CompareOptions): int;
-    compare(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int, comparisonType: StringComparison): int;
-    compare(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int): int;
-    compare(strA: string | undefined, strB: string | undefined, ignoreCase: boolean, culture: CultureInfo | undefined): int;
-    compare(strA: string | undefined, strB: string | undefined, ignoreCase: boolean): int;
-    compare(strA: string | undefined, strB: string | undefined, culture: CultureInfo | undefined, options: CompareOptions): int;
-    compare(strA: string | undefined, strB: string | undefined, comparisonType: StringComparison): int;
-    compare(strA: string | undefined, strB: string | undefined): int;
-    compareOrdinal(strA: string | undefined, indexA: int, strB: string | undefined, indexB: int, length: int): int;
-    compareOrdinal(strA: string | undefined, strB: string | undefined): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, ignoreCase: boolean): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int, comparisonType: StringComparison): int;
+    compare(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compare(strA: string, strB: string, ignoreCase: boolean, culture: CultureInfo): int;
+    compare(strA: string, strB: string, ignoreCase: boolean): int;
+    compare(strA: string, strB: string, culture: CultureInfo, options: CompareOptions): int;
+    compare(strA: string, strB: string, comparisonType: StringComparison): int;
+    compare(strA: string, strB: string): int;
+    compareOrdinal(strA: string, indexA: int, strB: string, indexB: int, length: int): int;
+    compareOrdinal(strA: string, strB: string): int;
     concat<T>(values: IEnumerable_1<T>): string;
-    concat(values: IEnumerable_1<string | undefined>): string;
-    concat(arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): string;
-    concat(arg0: unknown | undefined, arg1: unknown | undefined): string;
-    concat(arg0: unknown | undefined): string;
+    concat(values: IEnumerable_1<String>): string;
+    concat(arg0: unknown, arg1: unknown, arg2: unknown): string;
+    concat(arg0: unknown, arg1: unknown): string;
+    concat(arg0: unknown): string;
     concat(...args: unknown[]): string;
     concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>, str3: ReadOnlySpan_1<Char>): string;
     concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>, str2: ReadOnlySpan_1<Char>): string;
     concat(str0: ReadOnlySpan_1<Char>, str1: ReadOnlySpan_1<Char>): string;
     concat(args: ReadOnlySpan_1<unknown>): string;
     concat(values: ReadOnlySpan_1<String>): string;
-    concat(str0: string | undefined, str1: string | undefined, str2: string | undefined, str3: string | undefined): string;
-    concat(str0: string | undefined, str1: string | undefined, str2: string | undefined): string;
-    concat(str0: string | undefined, str1: string | undefined): string;
+    concat(str0: string, str1: string, str2: string, str3: string): string;
+    concat(str0: string, str1: string, str2: string): string;
+    concat(str0: string, str1: string): string;
     concat(...values: string[]): string;
     copy(str: string): string;
-    create(provider: IFormatProvider | undefined, handler: DefaultInterpolatedStringHandler): string;
-    create(provider: IFormatProvider | undefined, initialBuffer: Span_1<Char>, handler: DefaultInterpolatedStringHandler): string;
+    create(provider: IFormatProvider, handler: DefaultInterpolatedStringHandler): string;
+    create(provider: IFormatProvider, initialBuffer: Span_1<Char>, handler: DefaultInterpolatedStringHandler): string;
     create<TState>(length: int, state: TState, action: SpanAction_2<Char, TState>): string;
-    equals(a: string | undefined, b: string | undefined, comparisonType: StringComparison): boolean;
-    equals(a: string | undefined, b: string | undefined): boolean;
-    format(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): string;
-    format(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined, arg1: unknown | undefined): string;
-    format(provider: IFormatProvider | undefined, format: string, arg0: unknown | undefined): string;
-    format(provider: IFormatProvider | undefined, format: string, ...args: unknown[]): string;
-    format(provider: IFormatProvider | undefined, format: string, args: ReadOnlySpan_1<unknown>): string;
-    format(provider: IFormatProvider | undefined, format: CompositeFormat, ...args: unknown[]): string;
-    format(provider: IFormatProvider | undefined, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
-    format<TArg0, TArg1, TArg2>(provider: IFormatProvider | undefined, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
-    format<TArg0, TArg1>(provider: IFormatProvider | undefined, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
-    format<TArg0>(provider: IFormatProvider | undefined, format: CompositeFormat, arg0: TArg0): string;
-    format(format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): string;
-    format(format: string, arg0: unknown | undefined, arg1: unknown | undefined): string;
-    format(format: string, arg0: unknown | undefined): string;
+    equals(a: string, b: string, comparisonType: StringComparison): boolean;
+    equals(a: string, b: string): boolean;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown, arg1: unknown): string;
+    format(provider: IFormatProvider, format: string, arg0: unknown): string;
+    format(provider: IFormatProvider, format: string, ...args: unknown[]): string;
+    format(provider: IFormatProvider, format: string, args: ReadOnlySpan_1<unknown>): string;
+    format(provider: IFormatProvider, format: CompositeFormat, ...args: unknown[]): string;
+    format(provider: IFormatProvider, format: CompositeFormat, args: ReadOnlySpan_1<unknown>): string;
+    format<TArg0, TArg1, TArg2>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1, arg2: TArg2): string;
+    format<TArg0, TArg1>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0, arg1: TArg1): string;
+    format<TArg0>(provider: IFormatProvider, format: CompositeFormat, arg0: TArg0): string;
+    format(format: string, arg0: unknown, arg1: unknown, arg2: unknown): string;
+    format(format: string, arg0: unknown, arg1: unknown): string;
+    format(format: string, arg0: unknown): string;
     format(format: string, ...args: unknown[]): string;
     format(format: string, args: ReadOnlySpan_1<unknown>): string;
     getHashCode(value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
     getHashCode(value: ReadOnlySpan_1<Char>): int;
     intern(str: string): string;
     isInterned(str: string): string | undefined;
-    isNullOrEmpty(value: string | undefined): boolean;
-    isNullOrWhiteSpace(value: string | undefined): boolean;
+    isNullOrEmpty(value: string): boolean;
+    isNullOrWhiteSpace(value: string): boolean;
     join<T>(separator: char, values: IEnumerable_1<T>): string;
     join(separator: char, ...values: unknown[]): string;
     join(separator: char, values: ReadOnlySpan_1<unknown>): string;
     join(separator: char, value: ReadOnlySpan_1<String>): string;
-    join(separator: char, value: (string | undefined)[], startIndex: int, count: int): string;
+    join(separator: char, value: string[], startIndex: int, count: int): string;
     join(separator: char, ...value: string[]): string;
-    join<T>(separator: string | undefined, values: IEnumerable_1<T>): string;
-    join(separator: string | undefined, values: IEnumerable_1<string | undefined>): string;
-    join(separator: string | undefined, ...values: unknown[]): string;
-    join(separator: string | undefined, values: ReadOnlySpan_1<unknown>): string;
-    join(separator: string | undefined, value: ReadOnlySpan_1<String>): string;
-    join(separator: string | undefined, value: (string | undefined)[], startIndex: int, count: int): string;
-    join(separator: string | undefined, ...value: string[]): string;
+    join<T>(separator: string, values: IEnumerable_1<T>): string;
+    join(separator: string, values: IEnumerable_1<String>): string;
+    join(separator: string, ...values: unknown[]): string;
+    join(separator: string, values: ReadOnlySpan_1<unknown>): string;
+    join(separator: string, value: ReadOnlySpan_1<String>): string;
+    join(separator: string, value: string[], startIndex: int, count: int): string;
+    join(separator: string, ...value: string[]): string;
 };
 
 
@@ -6637,10 +6639,10 @@ export type String = string & String$instance & __String$views;
 
 
 export interface StringComparer$instance {
-    compare(x: unknown | undefined, y: unknown | undefined): int;
-    compare(x: string | undefined, y: string | undefined): int;
-    equals(x: unknown | undefined, y: unknown | undefined): boolean;
-    equals(x: string | undefined, y: string | undefined): boolean;
+    compare(x: unknown, y: unknown): int;
+    compare(x: string, y: string): int;
+    equals(x: unknown, y: unknown): boolean;
+    equals(x: string, y: string): boolean;
     getHashCode(obj: unknown): int;
     getHashCode(obj: string): int;
 }
@@ -6656,8 +6658,8 @@ export const StringComparer: {
     create(culture: CultureInfo, ignoreCase: boolean): StringComparer;
     create(culture: CultureInfo, options: CompareOptions): StringComparer;
     fromComparison(comparisonType: StringComparison): StringComparer;
-    isWellKnownCultureAwareComparer(comparer: IEqualityComparer_1<string | undefined> | undefined, compareInfo: CompareInfo | undefined, compareOptions: CompareOptions): boolean;
-    isWellKnownOrdinalComparer(comparer: IEqualityComparer_1<string | undefined> | undefined, ignoreCase: boolean): boolean;
+    isWellKnownCultureAwareComparer(comparer: IEqualityComparer_1<String>, compareInfo: CompareInfo, compareOptions: CompareOptions): boolean;
+    isWellKnownOrdinalComparer(comparer: IEqualityComparer_1<String>, ignoreCase: boolean): boolean;
 };
 
 
@@ -6680,8 +6682,8 @@ export interface SystemException$instance extends Exception$instance {
 
 export const SystemException: {
     new(): SystemException;
-    new(message: string | undefined): SystemException;
-    new(message: string | undefined, innerException: Exception | undefined): SystemException;
+    new(message: string): SystemException;
+    new(message: string, innerException: Exception): SystemException;
 };
 
 
@@ -6710,8 +6712,8 @@ export interface TimeoutException$instance extends SystemException$instance {
 
 export const TimeoutException: {
     new(): TimeoutException;
-    new(message: string | undefined): TimeoutException;
-    new(message: string | undefined, innerException: Exception | undefined): TimeoutException;
+    new(message: string): TimeoutException;
+    new(message: string, innerException: Exception): TimeoutException;
 };
 
 
@@ -6725,7 +6727,7 @@ export type TimeoutException = TimeoutException$instance & __TimeoutException$vi
 export interface TimeProvider$instance {
     readonly localTimeZone: TimeZoneInfo;
     readonly timestampFrequency: long;
-    createTimer(callback: TimerCallback, state: unknown | undefined, dueTime: TimeSpan, period: TimeSpan): ITimer;
+    createTimer(callback: TimerCallback, state: unknown, dueTime: TimeSpan, period: TimeSpan): ITimer;
     getElapsedTime(startingTimestamp: long, endingTimestamp: long): TimeSpan;
     getElapsedTime(startingTimestamp: long): TimeSpan;
     getLocalNow(): DateTimeOffset;
@@ -6768,8 +6770,8 @@ export interface TimeZoneInfo$instance {
     readonly id: string;
     readonly standardName: string;
     readonly supportsDaylightSavingTime: boolean;
-    equals(other: TimeZoneInfo | undefined): boolean;
-    equals(obj: unknown | undefined): boolean;
+    equals(other: TimeZoneInfo): boolean;
+    equals(obj: unknown): boolean;
     getAdjustmentRules(): TimeZoneInfo_AdjustmentRule[];
     getAmbiguousTimeOffsets(dateTimeOffset: DateTimeOffset): TimeSpan[];
     getAmbiguousTimeOffsets(dateTime: DateTime): TimeSpan[];
@@ -6801,17 +6803,17 @@ export const TimeZoneInfo: {
     convertTimeFromUtc(dateTime: DateTime, destinationTimeZone: TimeZoneInfo): DateTime;
     convertTimeToUtc(dateTime: DateTime, sourceTimeZone: TimeZoneInfo): DateTime;
     convertTimeToUtc(dateTime: DateTime): DateTime;
-    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string | undefined, standardDisplayName: string | undefined, daylightDisplayName: string | undefined, adjustmentRules: TimeZoneInfo_AdjustmentRule[] | undefined, disableDaylightSavingTime: boolean): TimeZoneInfo;
-    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string | undefined, standardDisplayName: string | undefined, daylightDisplayName: string | undefined, adjustmentRules: TimeZoneInfo_AdjustmentRule[] | undefined): TimeZoneInfo;
-    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string | undefined, standardDisplayName: string | undefined): TimeZoneInfo;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[], disableDaylightSavingTime: boolean): TimeZoneInfo;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string, daylightDisplayName: string, adjustmentRules: TimeZoneInfo_AdjustmentRule[]): TimeZoneInfo;
+    createCustomTimeZone(id: string, baseUtcOffset: TimeSpan, displayName: string, standardDisplayName: string): TimeZoneInfo;
     findSystemTimeZoneById(id: string): TimeZoneInfo;
     fromSerializedString(source: string): TimeZoneInfo;
     getSystemTimeZones(): ReadOnlyCollection_1<TimeZoneInfo>;
     getSystemTimeZones(skipSorting: boolean): ReadOnlyCollection_1<TimeZoneInfo>;
-    tryConvertIanaIdToWindowsId(ianaId: string, windowsId: string | undefined): boolean;
-    tryConvertWindowsIdToIanaId(windowsId: string, region: string | undefined, ianaId: string | undefined): boolean;
-    tryConvertWindowsIdToIanaId(windowsId: string, ianaId: string | undefined): boolean;
-    tryFindSystemTimeZoneById(id: string, timeZoneInfo: TimeZoneInfo | undefined): boolean;
+    tryConvertIanaIdToWindowsId(ianaId: string, windowsId: string): boolean;
+    tryConvertWindowsIdToIanaId(windowsId: string, region: string, ianaId: string): boolean;
+    tryConvertWindowsIdToIanaId(windowsId: string, ianaId: string): boolean;
+    tryFindSystemTimeZoneById(id: string, timeZoneInfo: TimeZoneInfo): boolean;
 };
 
 
@@ -6836,8 +6838,8 @@ export interface TimeZoneInfo_AdjustmentRule$instance {
     readonly daylightDelta: TimeSpan;
     readonly daylightTransitionEnd: TimeZoneInfo_TransitionTime;
     readonly daylightTransitionStart: TimeZoneInfo_TransitionTime;
-    equals(other: TimeZoneInfo_AdjustmentRule | undefined): boolean;
-    equals(obj: unknown | undefined): boolean;
+    equals(other: TimeZoneInfo_AdjustmentRule): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
 }
 
@@ -6870,8 +6872,8 @@ export interface TimeZoneNotFoundException$instance extends Exception$instance {
 
 export const TimeZoneNotFoundException: {
     new(): TimeZoneNotFoundException;
-    new(message: string | undefined): TimeZoneNotFoundException;
-    new(message: string | undefined, innerException: Exception | undefined): TimeZoneNotFoundException;
+    new(message: string): TimeZoneNotFoundException;
+    new(message: string, innerException: Exception): TimeZoneNotFoundException;
 };
 
 
@@ -6884,7 +6886,7 @@ export type TimeZoneNotFoundException = TimeZoneNotFoundException$instance & __T
 
 export interface Tuple_1$instance<T1> {
     readonly item1: T1;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -6913,7 +6915,7 @@ export type Tuple_1<T1> = Tuple_1$instance<T1> & __Tuple_1$views<T1>;
 export interface Tuple_2$instance<T1, T2> {
     readonly item1: T1;
     readonly item2: T2;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -6943,7 +6945,7 @@ export interface Tuple_3$instance<T1, T2, T3> {
     readonly item1: T1;
     readonly item2: T2;
     readonly item3: T3;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -6974,7 +6976,7 @@ export interface Tuple_4$instance<T1, T2, T3, T4> {
     readonly item2: T2;
     readonly item3: T3;
     readonly item4: T4;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7006,7 +7008,7 @@ export interface Tuple_5$instance<T1, T2, T3, T4, T5> {
     readonly item3: T3;
     readonly item4: T4;
     readonly item5: T5;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7039,7 +7041,7 @@ export interface Tuple_6$instance<T1, T2, T3, T4, T5, T6> {
     readonly item4: T4;
     readonly item5: T5;
     readonly item6: T6;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7073,7 +7075,7 @@ export interface Tuple_7$instance<T1, T2, T3, T4, T5, T6, T7> {
     readonly item5: T5;
     readonly item6: T6;
     readonly item7: T7;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7108,7 +7110,7 @@ export interface Tuple_8$instance<T1, T2, T3, T4, T5, T6, T7, TRest> {
     readonly item6: T6;
     readonly item7: T7;
     readonly rest: TRest;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7204,15 +7206,15 @@ export interface Type$instance extends MemberInfo {
     readonly typeHandle: RuntimeTypeHandle;
     readonly typeInitializer: ConstructorInfo | undefined;
     readonly underlyingSystemType: Type;
-    equals(o: unknown | undefined): boolean;
-    equals(o: Type | undefined): boolean;
-    findInterfaces(filter: TypeFilter, filterCriteria: unknown | undefined): Type[];
-    findMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter | undefined, filterCriteria: unknown | undefined): MemberInfo[];
+    equals(o: unknown): boolean;
+    equals(o: Type): boolean;
+    findInterfaces(filter: TypeFilter, filterCriteria: unknown): Type[];
+    findMembers(memberType: MemberTypes, bindingAttr: BindingFlags, filter: MemberFilter, filterCriteria: unknown): MemberInfo[];
     getArrayRank(): int;
     getConstructor(types: Type[]): ConstructorInfo | undefined;
     getConstructor(bindingAttr: BindingFlags, types: Type[]): ConstructorInfo | undefined;
-    getConstructor(bindingAttr: BindingFlags, binder: Binder | undefined, types: Type[], modifiers: ParameterModifier[] | undefined): ConstructorInfo | undefined;
-    getConstructor(bindingAttr: BindingFlags, binder: Binder | undefined, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | undefined): ConstructorInfo | undefined;
+    getConstructor(bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
+    getConstructor(bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): ConstructorInfo | undefined;
     getConstructors(): ConstructorInfo[];
     getConstructors(bindingAttr: BindingFlags): ConstructorInfo[];
     getCustomAttributes(inherit: boolean): unknown[];
@@ -7253,14 +7255,14 @@ export interface Type$instance extends MemberInfo {
     getMethod(name: string, bindingAttr: BindingFlags): MethodInfo | undefined;
     getMethod(name: string, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
     getMethod(name: string, types: Type[]): MethodInfo | undefined;
-    getMethod(name: string, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
-    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder | undefined, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
-    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder | undefined, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
+    getMethod(name: string, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     getMethod(name: string, genericParameterCount: int, types: Type[]): MethodInfo | undefined;
-    getMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
+    getMethod(name: string, genericParameterCount: int, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, types: Type[]): MethodInfo | undefined;
-    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder | undefined, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
-    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder | undefined, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[] | undefined): MethodInfo | undefined;
+    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
+    getMethod(name: string, genericParameterCount: int, bindingAttr: BindingFlags, binder: Binder, callConvention: CallingConventions, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
     getMethods(): MethodInfo[];
     getMethods(bindingAttr: BindingFlags): MethodInfo[];
     getNestedType(name: string): Type | undefined;
@@ -7272,22 +7274,22 @@ export interface Type$instance extends MemberInfo {
     getProperties(bindingAttr: BindingFlags): PropertyInfo[];
     getProperty(name: string): PropertyInfo | undefined;
     getProperty(name: string, bindingAttr: BindingFlags): PropertyInfo | undefined;
-    getProperty(name: string, returnType: Type | undefined): PropertyInfo | undefined;
+    getProperty(name: string, returnType: Type): PropertyInfo | undefined;
     getProperty(name: string, types: Type[]): PropertyInfo | undefined;
-    getProperty(name: string, returnType: Type | undefined, types: Type[]): PropertyInfo | undefined;
-    getProperty(name: string, returnType: Type | undefined, types: Type[], modifiers: ParameterModifier[] | undefined): PropertyInfo | undefined;
-    getProperty(name: string, bindingAttr: BindingFlags, binder: Binder | undefined, returnType: Type | undefined, types: Type[], modifiers: ParameterModifier[] | undefined): PropertyInfo | undefined;
+    getProperty(name: string, returnType: Type, types: Type[]): PropertyInfo | undefined;
+    getProperty(name: string, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
+    getProperty(name: string, bindingAttr: BindingFlags, binder: Binder, returnType: Type, types: Type[], modifiers: ParameterModifier[]): PropertyInfo | undefined;
     getRequiredCustomModifiers(): Type[];
     getType(): Type;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | undefined, target: unknown | undefined, args: (unknown | undefined)[] | undefined): unknown | undefined;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | undefined, target: unknown | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined): unknown | undefined;
-    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder | undefined, target: unknown | undefined, args: (unknown | undefined)[] | undefined, modifiers: ParameterModifier[] | undefined, culture: CultureInfo | undefined, namedParameters: string[] | undefined): unknown | undefined;
-    isAssignableFrom(c: Type | undefined): boolean;
-    isAssignableTo(targetType: Type | undefined): boolean;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[]): unknown | undefined;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], culture: CultureInfo): unknown | undefined;
+    invokeMember(name: string, invokeAttr: BindingFlags, binder: Binder, target: unknown, args: unknown[], modifiers: ParameterModifier[], culture: CultureInfo, namedParameters: string[]): unknown | undefined;
+    isAssignableFrom(c: Type): boolean;
+    isAssignableTo(targetType: Type): boolean;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     isEnumDefined(value: unknown): boolean;
-    isEquivalentTo(other: Type | undefined): boolean;
-    isInstanceOfType(o: unknown | undefined): boolean;
+    isEquivalentTo(other: Type): boolean;
+    isInstanceOfType(o: unknown): boolean;
     isSubclassOf(c: Type): boolean;
     makeArrayType(): Type;
     makeArrayType(rank: int): Type;
@@ -7308,20 +7310,20 @@ export const Type: {
     readonly defaultBinder: Binder;
     getType(typeName: string, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
     getType(typeName: string, throwOnError: boolean): Type | undefined;
-    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly | undefined> | undefined, typeResolver: Func_4<Assembly | undefined, String, Boolean, Type | undefined> | undefined, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
-    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly | undefined> | undefined, typeResolver: Func_4<Assembly | undefined, String, Boolean, Type | undefined> | undefined, throwOnError: boolean): Type | undefined;
-    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly | undefined> | undefined, typeResolver: Func_4<Assembly | undefined, String, Boolean, Type | undefined> | undefined): Type | undefined;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, String, Boolean, Type>, throwOnError: boolean, ignoreCase: boolean): Type | undefined;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, String, Boolean, Type>, throwOnError: boolean): Type | undefined;
+    getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, String, Boolean, Type>): Type | undefined;
     getType(typeName: string): Type | undefined;
     getTypeArray(args: unknown[]): Type[];
-    getTypeCode(type_: Type | undefined): TypeCode;
+    getTypeCode(type_: Type): TypeCode;
     getTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type | undefined;
-    getTypeFromCLSID(clsid: Guid, server: string | undefined, throwOnError: boolean): Type | undefined;
-    getTypeFromCLSID(clsid: Guid, server: string | undefined): Type | undefined;
+    getTypeFromCLSID(clsid: Guid, server: string, throwOnError: boolean): Type | undefined;
+    getTypeFromCLSID(clsid: Guid, server: string): Type | undefined;
     getTypeFromCLSID(clsid: Guid): Type | undefined;
     getTypeFromHandle(handle: RuntimeTypeHandle): Type | undefined;
     getTypeFromProgID(progID: string, throwOnError: boolean): Type | undefined;
-    getTypeFromProgID(progID: string, server: string | undefined, throwOnError: boolean): Type | undefined;
-    getTypeFromProgID(progID: string, server: string | undefined): Type | undefined;
+    getTypeFromProgID(progID: string, server: string, throwOnError: boolean): Type | undefined;
+    getTypeFromProgID(progID: string, server: string): Type | undefined;
     getTypeFromProgID(progID: string): Type | undefined;
     getTypeHandle(o: unknown): RuntimeTypeHandle;
     makeGenericMethodParameter(position: int): Type;
@@ -7345,8 +7347,8 @@ export interface TypeAccessException$instance extends TypeLoadException$instance
 
 export const TypeAccessException: {
     new(): TypeAccessException;
-    new(message: string | undefined): TypeAccessException;
-    new(message: string | undefined, inner: Exception | undefined): TypeAccessException;
+    new(message: string): TypeAccessException;
+    new(message: string, inner: Exception): TypeAccessException;
 };
 
 
@@ -7364,7 +7366,7 @@ export interface TypeInitializationException$instance extends SystemException$in
 
 
 export const TypeInitializationException: {
-    new(fullTypeName: string | undefined, innerException: Exception | undefined): TypeInitializationException;
+    new(fullTypeName: string, innerException: Exception): TypeInitializationException;
 };
 
 
@@ -7384,8 +7386,8 @@ export interface TypeLoadException$instance extends SystemException$instance {
 
 export const TypeLoadException: {
     new(): TypeLoadException;
-    new(message: string | undefined): TypeLoadException;
-    new(message: string | undefined, inner: Exception | undefined): TypeLoadException;
+    new(message: string): TypeLoadException;
+    new(message: string, inner: Exception): TypeLoadException;
 };
 
 
@@ -7403,8 +7405,8 @@ export interface TypeUnloadedException$instance extends SystemException$instance
 
 export const TypeUnloadedException: {
     new(): TypeUnloadedException;
-    new(message: string | undefined): TypeUnloadedException;
-    new(message: string | undefined, innerException: Exception | undefined): TypeUnloadedException;
+    new(message: string): TypeUnloadedException;
+    new(message: string, innerException: Exception): TypeUnloadedException;
 };
 
 
@@ -7422,8 +7424,8 @@ export interface UnauthorizedAccessException$instance extends SystemException$in
 
 export const UnauthorizedAccessException: {
     new(): UnauthorizedAccessException;
-    new(message: string | undefined): UnauthorizedAccessException;
-    new(message: string | undefined, inner: Exception | undefined): UnauthorizedAccessException;
+    new(message: string): UnauthorizedAccessException;
+    new(message: string, inner: Exception): UnauthorizedAccessException;
 };
 
 
@@ -7491,8 +7493,8 @@ export interface Uri$instance {
     readonly segments: string[];
     readonly userEscaped: boolean;
     readonly userInfo: string;
-    equals(comparand: unknown | undefined): boolean;
-    equals(other: Uri | undefined): boolean;
+    equals(comparand: unknown): boolean;
+    equals(other: Uri): boolean;
     getComponents(components: UriComponents, format: UriFormat): string;
     getHashCode(): int;
     getLeftPart(part: UriPartial): string;
@@ -7508,10 +7510,10 @@ export interface Uri$instance {
 export const Uri: {
     new(uriString: string): Uri;
     new(uriString: string, dontEscape: boolean): Uri;
-    new(baseUri: Uri, relativeUri: string | undefined, dontEscape: boolean): Uri;
+    new(baseUri: Uri, relativeUri: string, dontEscape: boolean): Uri;
     new(uriString: string, uriKind: UriKind): Uri;
     new(uriString: string, creationOptions: UriCreationOptions): Uri;
-    new(baseUri: Uri, relativeUri: string | undefined): Uri;
+    new(baseUri: Uri, relativeUri: string): Uri;
     new(baseUri: Uri, relativeUri: Uri): Uri;
     readonly uriSchemeFile: string;
     readonly uriSchemeFtp: string;
@@ -7530,9 +7532,9 @@ export const Uri: {
     readonly uriSchemeNetTcp: string;
     readonly uriSchemeNetPipe: string;
     readonly schemeDelimiter: string;
-    checkHostName(name: string | undefined): UriHostNameType;
-    checkSchemeName(schemeName: string | undefined): boolean;
-    compare(uri1: Uri | undefined, uri2: Uri | undefined, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
+    checkHostName(name: string): UriHostNameType;
+    checkSchemeName(schemeName: string): boolean;
+    compare(uri1: Uri, uri2: Uri, partsToCompare: UriComponents, compareFormat: UriFormat, comparisonType: StringComparison): int;
     escapeDataString(charsToEscape: ReadOnlySpan_1<Char>): string;
     escapeDataString(stringToEscape: string): string;
     escapeUriString(stringToEscape: string): string;
@@ -7541,11 +7543,11 @@ export const Uri: {
     hexUnescape(pattern: string, index: int): char;
     isHexDigit(character: char): boolean;
     isHexEncoding(pattern: string, index: int): boolean;
-    isWellFormedUriString(uriString: string | undefined, uriKind: UriKind): boolean;
-    tryCreate(uriString: string | undefined, creationOptions: UriCreationOptions, result: Uri | undefined): boolean;
-    tryCreate(uriString: string | undefined, uriKind: UriKind, result: Uri | undefined): boolean;
-    tryCreate(baseUri: Uri | undefined, relativeUri: string | undefined, result: Uri | undefined): boolean;
-    tryCreate(baseUri: Uri | undefined, relativeUri: Uri | undefined, result: Uri | undefined): boolean;
+    isWellFormedUriString(uriString: string, uriKind: UriKind): boolean;
+    tryCreate(uriString: string, creationOptions: UriCreationOptions, result: Uri): boolean;
+    tryCreate(uriString: string, uriKind: UriKind, result: Uri): boolean;
+    tryCreate(baseUri: Uri, relativeUri: string, result: Uri): boolean;
+    tryCreate(baseUri: Uri, relativeUri: Uri, result: Uri): boolean;
     tryEscapeDataString(charsToEscape: ReadOnlySpan_1<Char>, destination: Span_1<Char>, charsWritten: int): boolean;
     tryUnescapeDataString(charsToUnescape: ReadOnlySpan_1<Char>, destination: Span_1<Char>, charsWritten: int): boolean;
     unescapeDataString(charsToUnescape: ReadOnlySpan_1<Char>): string;
@@ -7578,7 +7580,7 @@ export interface UriBuilder$instance {
     scheme: string;
     readonly uri: Uri;
     userName: string;
-    equals(rparam: unknown | undefined): boolean;
+    equals(rparam: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -7588,10 +7590,10 @@ export const UriBuilder: {
     new(): UriBuilder;
     new(uri: string): UriBuilder;
     new(uri: Uri): UriBuilder;
-    new(schemeName: string | undefined, hostName: string | undefined): UriBuilder;
-    new(scheme: string | undefined, host: string | undefined, portNumber: int): UriBuilder;
-    new(scheme: string | undefined, host: string | undefined, port: int, pathValue: string | undefined): UriBuilder;
-    new(scheme: string | undefined, host: string | undefined, port: int, path: string | undefined, extraValue: string | undefined): UriBuilder;
+    new(schemeName: string, hostName: string): UriBuilder;
+    new(scheme: string, host: string, portNumber: int): UriBuilder;
+    new(scheme: string, host: string, port: int, pathValue: string): UriBuilder;
+    new(scheme: string, host: string, port: int, path: string, extraValue: string): UriBuilder;
 };
 
 
@@ -7604,8 +7606,8 @@ export interface UriFormatException$instance extends FormatException$instance {
 
 export const UriFormatException: {
     new(): UriFormatException;
-    new(textString: string | undefined): UriFormatException;
-    new(textString: string | undefined, e: Exception | undefined): UriFormatException;
+    new(textString: string): UriFormatException;
+    new(textString: string, e: Exception): UriFormatException;
 };
 
 
@@ -7629,15 +7631,15 @@ export const UriParser: {
 export type UriParser = UriParser$instance;
 
 export interface UriTypeConverter$instance extends TypeConverter {
-    canConvertFrom(context: ITypeDescriptorContext | undefined, sourceType: Type): boolean;
+    canConvertFrom(context: ITypeDescriptorContext, sourceType: Type): boolean;
     canConvertFrom(sourceType: Type): boolean;
-    canConvertTo(context: ITypeDescriptorContext | undefined, destinationType: Type | undefined): boolean;
-    canConvertTo(destinationType: Type | undefined): boolean;
-    convertFrom(context: ITypeDescriptorContext | undefined, culture: CultureInfo | undefined, value: unknown | undefined): unknown | undefined;
+    canConvertTo(context: ITypeDescriptorContext, destinationType: Type): boolean;
+    canConvertTo(destinationType: Type): boolean;
+    convertFrom(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown): unknown | undefined;
     convertFrom(value: unknown): unknown | undefined;
-    convertTo(context: ITypeDescriptorContext | undefined, culture: CultureInfo | undefined, value: unknown | undefined, destinationType: Type): unknown;
-    convertTo(value: unknown | undefined, destinationType: Type): unknown | undefined;
-    isValid(context: ITypeDescriptorContext | undefined, value: unknown | undefined): boolean;
+    convertTo(context: ITypeDescriptorContext, culture: CultureInfo, value: unknown, destinationType: Type): unknown;
+    convertTo(value: unknown, destinationType: Type): unknown | undefined;
+    isValid(context: ITypeDescriptorContext, value: unknown): boolean;
     isValid(value: unknown): boolean;
 }
 
@@ -7650,7 +7652,7 @@ export const UriTypeConverter: {
 export type UriTypeConverter = UriTypeConverter$instance;
 
 export interface ValueType$instance {
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toString(): string | undefined;
 }
@@ -7670,10 +7672,10 @@ export interface Version$instance {
     readonly minorRevision: short;
     readonly revision: int;
     clone(): unknown;
-    compareTo(version: unknown | undefined): int;
-    compareTo(value: Version | undefined): int;
-    equals(obj: unknown | undefined): boolean;
-    equals(obj: Version | undefined): boolean;
+    compareTo(version: unknown): int;
+    compareTo(value: Version): int;
+    equals(obj: unknown): boolean;
+    equals(obj: Version): boolean;
     getHashCode(): int;
     toString(): string;
     toString(fieldCount: int): string;
@@ -7693,9 +7695,9 @@ export const Version: {
     parse(utf8Text: ReadOnlySpan_1<Byte>): Version;
     parse(input: ReadOnlySpan_1<Char>): Version;
     parse(input: string): Version;
-    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: Version | undefined): boolean;
-    tryParse(input: ReadOnlySpan_1<Char>, result: Version | undefined): boolean;
-    tryParse(input: string | undefined, result: Version | undefined): boolean;
+    tryParse(utf8Text: ReadOnlySpan_1<Byte>, result: Version): boolean;
+    tryParse(input: ReadOnlySpan_1<Char>, result: Version): boolean;
+    tryParse(input: string, result: Version): boolean;
 };
 
 
@@ -7729,8 +7731,8 @@ export interface WeakReference$instance {
 
 
 export const WeakReference: {
-    new(target: unknown | undefined): WeakReference;
-    new(target: unknown | undefined, trackResurrection: boolean): WeakReference;
+    new(target: unknown): WeakReference;
+    new(target: unknown, trackResurrection: boolean): WeakReference;
 };
 
 
@@ -7767,17 +7769,17 @@ export type WeakReference_1<T> = WeakReference_1$instance<T> & __WeakReference_1
 
 export abstract class Activator$instance {
     static createInstance<T>(): T;
-    static createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
-    static createInstance(assemblyName: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
+    static createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
+    static createInstance(assemblyName: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstance(assemblyName: string, typeName: string): ObjectHandle | undefined;
     static createInstance(type_: Type, nonPublic: boolean): unknown | undefined;
-    static createInstance(type_: Type, args: (unknown | undefined)[] | undefined, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
+    static createInstance(type_: Type, args: unknown[], activationAttributes: unknown[]): unknown | undefined;
     static createInstance(type_: Type, ...args: unknown[]): unknown | undefined;
-    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): unknown | undefined;
-    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined): unknown | undefined;
+    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
+    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo): unknown | undefined;
     static createInstance(type_: Type): unknown | undefined;
-    static createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder | undefined, args: (unknown | undefined)[] | undefined, culture: CultureInfo | undefined, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
-    static createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: (unknown | undefined)[] | undefined): ObjectHandle | undefined;
+    static createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
+    static createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle | undefined;
 }
 
@@ -7788,7 +7790,7 @@ export abstract class AppContext$instance {
     static readonly baseDirectory: string;
     static readonly targetFrameworkName: string | undefined;
     static getData(name: string): unknown | undefined;
-    static setData(name: string, data: unknown | undefined): void;
+    static setData(name: string, data: unknown): void;
     static setSwitch(switchName: string, isEnabled: boolean): void;
     static tryGetSwitch(switchName: string, isEnabled: boolean): boolean;
 }
@@ -7937,40 +7939,40 @@ export abstract class Console$instance {
     static write(value: boolean): void;
     static write(value: char): void;
     static write(buffer: char[], index: int, count: int): void;
-    static write(buffer: char[] | undefined): void;
+    static write(buffer: char[]): void;
     static write(value: decimal): void;
     static write(value: double): void;
     static write(value: int): void;
     static write(value: long): void;
-    static write(value: unknown | undefined): void;
+    static write(value: unknown): void;
     static write(value: ReadOnlySpan_1<Char>): void;
     static write(value: float): void;
-    static write(format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): void;
-    static write(format: string, arg0: unknown | undefined, arg1: unknown | undefined): void;
-    static write(format: string, arg0: unknown | undefined): void;
+    static write(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    static write(format: string, arg0: unknown, arg1: unknown): void;
+    static write(format: string, arg0: unknown): void;
     static write(format: string, ...arg: unknown[]): void;
     static write(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    static write(value: string | undefined): void;
+    static write(value: string): void;
     static write(value: uint): void;
     static write(value: ulong): void;
     static writeLine(): void;
     static writeLine(value: boolean): void;
     static writeLine(value: char): void;
     static writeLine(buffer: char[], index: int, count: int): void;
-    static writeLine(buffer: char[] | undefined): void;
+    static writeLine(buffer: char[]): void;
     static writeLine(value: decimal): void;
     static writeLine(value: double): void;
     static writeLine(value: int): void;
     static writeLine(value: long): void;
-    static writeLine(value: unknown | undefined): void;
+    static writeLine(value: unknown): void;
     static writeLine(value: ReadOnlySpan_1<Char>): void;
     static writeLine(value: float): void;
-    static writeLine(format: string, arg0: unknown | undefined, arg1: unknown | undefined, arg2: unknown | undefined): void;
-    static writeLine(format: string, arg0: unknown | undefined, arg1: unknown | undefined): void;
-    static writeLine(format: string, arg0: unknown | undefined): void;
+    static writeLine(format: string, arg0: unknown, arg1: unknown, arg2: unknown): void;
+    static writeLine(format: string, arg0: unknown, arg1: unknown): void;
+    static writeLine(format: string, arg0: unknown): void;
     static writeLine(format: string, ...arg: unknown[]): void;
     static writeLine(format: string, arg: ReadOnlySpan_1<unknown>): void;
-    static writeLine(value: string | undefined): void;
+    static writeLine(value: string): void;
     static writeLine(value: uint): void;
     static writeLine(value: ulong): void;
 }
@@ -7980,10 +7982,10 @@ export type Console = Console$instance;
 
 export abstract class Convert$instance {
     static readonly dbNull: unknown;
-    static changeType(value: unknown | undefined, conversionType: Type, provider: IFormatProvider | undefined): unknown | undefined;
-    static changeType(value: unknown | undefined, conversionType: Type): unknown | undefined;
-    static changeType(value: unknown | undefined, typeCode: TypeCode, provider: IFormatProvider | undefined): unknown | undefined;
-    static changeType(value: unknown | undefined, typeCode: TypeCode): unknown | undefined;
+    static changeType(value: unknown, conversionType: Type, provider: IFormatProvider): unknown | undefined;
+    static changeType(value: unknown, conversionType: Type): unknown | undefined;
+    static changeType(value: unknown, typeCode: TypeCode, provider: IFormatProvider): unknown | undefined;
+    static changeType(value: unknown, typeCode: TypeCode): unknown | undefined;
     static fromBase64CharArray(inArray: char[], offset: int, length: int): byte[];
     static fromBase64String(s: string): byte[];
     static fromHexString(utf8Source: ReadOnlySpan_1<Byte>, destination: Span_1<Byte>, bytesConsumed: int, bytesWritten: int): OperationStatus;
@@ -7992,8 +7994,8 @@ export abstract class Convert$instance {
     static fromHexString(chars: ReadOnlySpan_1<Char>): byte[];
     static fromHexString(source: string, destination: Span_1<Byte>, charsConsumed: int, bytesWritten: int): OperationStatus;
     static fromHexString(s: string): byte[];
-    static getTypeCode(value: unknown | undefined): TypeCode;
-    static isDBNull(value: unknown | undefined): boolean;
+    static getTypeCode(value: unknown): TypeCode;
+    static isDBNull(value: unknown): boolean;
     static toBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int, options: Base64FormattingOptions): int;
     static toBase64CharArray(inArray: byte[], offsetIn: int, length: int, outArray: char[], offsetOut: int): int;
     static toBase64String(inArray: byte[], options: Base64FormattingOptions): string;
@@ -8010,12 +8012,12 @@ export abstract class Convert$instance {
     static toBoolean(value: short): boolean;
     static toBoolean(value: int): boolean;
     static toBoolean(value: long): boolean;
-    static toBoolean(value: unknown | undefined, provider: IFormatProvider | undefined): boolean;
-    static toBoolean(value: unknown | undefined): boolean;
+    static toBoolean(value: unknown, provider: IFormatProvider): boolean;
+    static toBoolean(value: unknown): boolean;
     static toBoolean(value: sbyte): boolean;
     static toBoolean(value: float): boolean;
-    static toBoolean(value: string | undefined, provider: IFormatProvider | undefined): boolean;
-    static toBoolean(value: string | undefined): boolean;
+    static toBoolean(value: string, provider: IFormatProvider): boolean;
+    static toBoolean(value: string): boolean;
     static toBoolean(value: ushort): boolean;
     static toBoolean(value: uint): boolean;
     static toBoolean(value: ulong): boolean;
@@ -8028,13 +8030,13 @@ export abstract class Convert$instance {
     static toByte(value: short): byte;
     static toByte(value: int): byte;
     static toByte(value: long): byte;
-    static toByte(value: unknown | undefined, provider: IFormatProvider | undefined): byte;
-    static toByte(value: unknown | undefined): byte;
+    static toByte(value: unknown, provider: IFormatProvider): byte;
+    static toByte(value: unknown): byte;
     static toByte(value: sbyte): byte;
     static toByte(value: float): byte;
-    static toByte(value: string | undefined, provider: IFormatProvider | undefined): byte;
-    static toByte(value: string | undefined, fromBase: int): byte;
-    static toByte(value: string | undefined): byte;
+    static toByte(value: string, provider: IFormatProvider): byte;
+    static toByte(value: string, fromBase: int): byte;
+    static toByte(value: string): byte;
     static toByte(value: ushort): byte;
     static toByte(value: uint): byte;
     static toByte(value: ulong): byte;
@@ -8047,11 +8049,11 @@ export abstract class Convert$instance {
     static toChar(value: short): char;
     static toChar(value: int): char;
     static toChar(value: long): char;
-    static toChar(value: unknown | undefined, provider: IFormatProvider | undefined): char;
-    static toChar(value: unknown | undefined): char;
+    static toChar(value: unknown, provider: IFormatProvider): char;
+    static toChar(value: unknown): char;
     static toChar(value: sbyte): char;
     static toChar(value: float): char;
-    static toChar(value: string, provider: IFormatProvider | undefined): char;
+    static toChar(value: string, provider: IFormatProvider): char;
     static toChar(value: string): char;
     static toChar(value: ushort): char;
     static toChar(value: uint): char;
@@ -8065,12 +8067,12 @@ export abstract class Convert$instance {
     static toDateTime(value: short): DateTime;
     static toDateTime(value: int): DateTime;
     static toDateTime(value: long): DateTime;
-    static toDateTime(value: unknown | undefined, provider: IFormatProvider | undefined): DateTime;
-    static toDateTime(value: unknown | undefined): DateTime;
+    static toDateTime(value: unknown, provider: IFormatProvider): DateTime;
+    static toDateTime(value: unknown): DateTime;
     static toDateTime(value: sbyte): DateTime;
     static toDateTime(value: float): DateTime;
-    static toDateTime(value: string | undefined, provider: IFormatProvider | undefined): DateTime;
-    static toDateTime(value: string | undefined): DateTime;
+    static toDateTime(value: string, provider: IFormatProvider): DateTime;
+    static toDateTime(value: string): DateTime;
     static toDateTime(value: ushort): DateTime;
     static toDateTime(value: uint): DateTime;
     static toDateTime(value: ulong): DateTime;
@@ -8083,12 +8085,12 @@ export abstract class Convert$instance {
     static toDecimal(value: short): decimal;
     static toDecimal(value: int): decimal;
     static toDecimal(value: long): decimal;
-    static toDecimal(value: unknown | undefined, provider: IFormatProvider | undefined): decimal;
-    static toDecimal(value: unknown | undefined): decimal;
+    static toDecimal(value: unknown, provider: IFormatProvider): decimal;
+    static toDecimal(value: unknown): decimal;
     static toDecimal(value: sbyte): decimal;
     static toDecimal(value: float): decimal;
-    static toDecimal(value: string | undefined, provider: IFormatProvider | undefined): decimal;
-    static toDecimal(value: string | undefined): decimal;
+    static toDecimal(value: string, provider: IFormatProvider): decimal;
+    static toDecimal(value: string): decimal;
     static toDecimal(value: ushort): decimal;
     static toDecimal(value: uint): decimal;
     static toDecimal(value: ulong): decimal;
@@ -8101,12 +8103,12 @@ export abstract class Convert$instance {
     static toDouble(value: short): double;
     static toDouble(value: int): double;
     static toDouble(value: long): double;
-    static toDouble(value: unknown | undefined, provider: IFormatProvider | undefined): double;
-    static toDouble(value: unknown | undefined): double;
+    static toDouble(value: unknown, provider: IFormatProvider): double;
+    static toDouble(value: unknown): double;
     static toDouble(value: sbyte): double;
     static toDouble(value: float): double;
-    static toDouble(value: string | undefined, provider: IFormatProvider | undefined): double;
-    static toDouble(value: string | undefined): double;
+    static toDouble(value: string, provider: IFormatProvider): double;
+    static toDouble(value: string): double;
     static toDouble(value: ushort): double;
     static toDouble(value: uint): double;
     static toDouble(value: ulong): double;
@@ -8125,13 +8127,13 @@ export abstract class Convert$instance {
     static toInt16(value: short): short;
     static toInt16(value: int): short;
     static toInt16(value: long): short;
-    static toInt16(value: unknown | undefined, provider: IFormatProvider | undefined): short;
-    static toInt16(value: unknown | undefined): short;
+    static toInt16(value: unknown, provider: IFormatProvider): short;
+    static toInt16(value: unknown): short;
     static toInt16(value: sbyte): short;
     static toInt16(value: float): short;
-    static toInt16(value: string | undefined, provider: IFormatProvider | undefined): short;
-    static toInt16(value: string | undefined, fromBase: int): short;
-    static toInt16(value: string | undefined): short;
+    static toInt16(value: string, provider: IFormatProvider): short;
+    static toInt16(value: string, fromBase: int): short;
+    static toInt16(value: string): short;
     static toInt16(value: ushort): short;
     static toInt16(value: uint): short;
     static toInt16(value: ulong): short;
@@ -8144,13 +8146,13 @@ export abstract class Convert$instance {
     static toInt32(value: short): int;
     static toInt32(value: int): int;
     static toInt32(value: long): int;
-    static toInt32(value: unknown | undefined, provider: IFormatProvider | undefined): int;
-    static toInt32(value: unknown | undefined): int;
+    static toInt32(value: unknown, provider: IFormatProvider): int;
+    static toInt32(value: unknown): int;
     static toInt32(value: sbyte): int;
     static toInt32(value: float): int;
-    static toInt32(value: string | undefined, provider: IFormatProvider | undefined): int;
-    static toInt32(value: string | undefined, fromBase: int): int;
-    static toInt32(value: string | undefined): int;
+    static toInt32(value: string, provider: IFormatProvider): int;
+    static toInt32(value: string, fromBase: int): int;
+    static toInt32(value: string): int;
     static toInt32(value: ushort): int;
     static toInt32(value: uint): int;
     static toInt32(value: ulong): int;
@@ -8163,13 +8165,13 @@ export abstract class Convert$instance {
     static toInt64(value: short): long;
     static toInt64(value: int): long;
     static toInt64(value: long): long;
-    static toInt64(value: unknown | undefined, provider: IFormatProvider | undefined): long;
-    static toInt64(value: unknown | undefined): long;
+    static toInt64(value: unknown, provider: IFormatProvider): long;
+    static toInt64(value: unknown): long;
     static toInt64(value: sbyte): long;
     static toInt64(value: float): long;
-    static toInt64(value: string | undefined, provider: IFormatProvider | undefined): long;
-    static toInt64(value: string | undefined, fromBase: int): long;
-    static toInt64(value: string | undefined): long;
+    static toInt64(value: string, provider: IFormatProvider): long;
+    static toInt64(value: string, fromBase: int): long;
+    static toInt64(value: string): long;
     static toInt64(value: ushort): long;
     static toInt64(value: uint): long;
     static toInt64(value: ulong): long;
@@ -8182,13 +8184,13 @@ export abstract class Convert$instance {
     static toSByte(value: short): sbyte;
     static toSByte(value: int): sbyte;
     static toSByte(value: long): sbyte;
-    static toSByte(value: unknown | undefined, provider: IFormatProvider | undefined): sbyte;
-    static toSByte(value: unknown | undefined): sbyte;
+    static toSByte(value: unknown, provider: IFormatProvider): sbyte;
+    static toSByte(value: unknown): sbyte;
     static toSByte(value: sbyte): sbyte;
     static toSByte(value: float): sbyte;
-    static toSByte(value: string, provider: IFormatProvider | undefined): sbyte;
-    static toSByte(value: string | undefined, fromBase: int): sbyte;
-    static toSByte(value: string | undefined): sbyte;
+    static toSByte(value: string, provider: IFormatProvider): sbyte;
+    static toSByte(value: string, fromBase: int): sbyte;
+    static toSByte(value: string): sbyte;
     static toSByte(value: ushort): sbyte;
     static toSByte(value: uint): sbyte;
     static toSByte(value: ulong): sbyte;
@@ -8201,50 +8203,50 @@ export abstract class Convert$instance {
     static toSingle(value: short): float;
     static toSingle(value: int): float;
     static toSingle(value: long): float;
-    static toSingle(value: unknown | undefined, provider: IFormatProvider | undefined): float;
-    static toSingle(value: unknown | undefined): float;
+    static toSingle(value: unknown, provider: IFormatProvider): float;
+    static toSingle(value: unknown): float;
     static toSingle(value: sbyte): float;
     static toSingle(value: float): float;
-    static toSingle(value: string | undefined, provider: IFormatProvider | undefined): float;
-    static toSingle(value: string | undefined): float;
+    static toSingle(value: string, provider: IFormatProvider): float;
+    static toSingle(value: string): float;
     static toSingle(value: ushort): float;
     static toSingle(value: uint): float;
     static toSingle(value: ulong): float;
-    static toString(value: boolean, provider: IFormatProvider | undefined): string;
+    static toString(value: boolean, provider: IFormatProvider): string;
     static toString(value: boolean): string;
-    static toString(value: byte, provider: IFormatProvider | undefined): string;
+    static toString(value: byte, provider: IFormatProvider): string;
     static toString(value: byte, toBase: int): string;
     static toString(value: byte): string;
-    static toString(value: char, provider: IFormatProvider | undefined): string;
+    static toString(value: char, provider: IFormatProvider): string;
     static toString(value: char): string;
-    static toString(value: DateTime, provider: IFormatProvider | undefined): string;
+    static toString(value: DateTime, provider: IFormatProvider): string;
     static toString(value: DateTime): string;
-    static toString(value: decimal, provider: IFormatProvider | undefined): string;
+    static toString(value: decimal, provider: IFormatProvider): string;
     static toString(value: decimal): string;
-    static toString(value: double, provider: IFormatProvider | undefined): string;
+    static toString(value: double, provider: IFormatProvider): string;
     static toString(value: double): string;
-    static toString(value: short, provider: IFormatProvider | undefined): string;
+    static toString(value: short, provider: IFormatProvider): string;
     static toString(value: short, toBase: int): string;
     static toString(value: short): string;
-    static toString(value: int, provider: IFormatProvider | undefined): string;
+    static toString(value: int, provider: IFormatProvider): string;
     static toString(value: int, toBase: int): string;
     static toString(value: int): string;
-    static toString(value: long, provider: IFormatProvider | undefined): string;
+    static toString(value: long, provider: IFormatProvider): string;
     static toString(value: long, toBase: int): string;
     static toString(value: long): string;
-    static toString(value: unknown | undefined, provider: IFormatProvider | undefined): string | undefined;
-    static toString(value: unknown | undefined): string | undefined;
-    static toString(value: sbyte, provider: IFormatProvider | undefined): string;
+    static toString(value: unknown, provider: IFormatProvider): string | undefined;
+    static toString(value: unknown): string | undefined;
+    static toString(value: sbyte, provider: IFormatProvider): string;
     static toString(value: sbyte): string;
-    static toString(value: float, provider: IFormatProvider | undefined): string;
+    static toString(value: float, provider: IFormatProvider): string;
     static toString(value: float): string;
-    static toString(value: string | undefined, provider: IFormatProvider | undefined): string | undefined;
-    static toString(value: string | undefined): string | undefined;
-    static toString(value: ushort, provider: IFormatProvider | undefined): string;
+    static toString(value: string, provider: IFormatProvider): string | undefined;
+    static toString(value: string): string | undefined;
+    static toString(value: ushort, provider: IFormatProvider): string;
     static toString(value: ushort): string;
-    static toString(value: uint, provider: IFormatProvider | undefined): string;
+    static toString(value: uint, provider: IFormatProvider): string;
     static toString(value: uint): string;
-    static toString(value: ulong, provider: IFormatProvider | undefined): string;
+    static toString(value: ulong, provider: IFormatProvider): string;
     static toString(value: ulong): string;
     static toUInt16(value: boolean): ushort;
     static toUInt16(value: byte): ushort;
@@ -8255,13 +8257,13 @@ export abstract class Convert$instance {
     static toUInt16(value: short): ushort;
     static toUInt16(value: int): ushort;
     static toUInt16(value: long): ushort;
-    static toUInt16(value: unknown | undefined, provider: IFormatProvider | undefined): ushort;
-    static toUInt16(value: unknown | undefined): ushort;
+    static toUInt16(value: unknown, provider: IFormatProvider): ushort;
+    static toUInt16(value: unknown): ushort;
     static toUInt16(value: sbyte): ushort;
     static toUInt16(value: float): ushort;
-    static toUInt16(value: string | undefined, provider: IFormatProvider | undefined): ushort;
-    static toUInt16(value: string | undefined, fromBase: int): ushort;
-    static toUInt16(value: string | undefined): ushort;
+    static toUInt16(value: string, provider: IFormatProvider): ushort;
+    static toUInt16(value: string, fromBase: int): ushort;
+    static toUInt16(value: string): ushort;
     static toUInt16(value: ushort): ushort;
     static toUInt16(value: uint): ushort;
     static toUInt16(value: ulong): ushort;
@@ -8274,13 +8276,13 @@ export abstract class Convert$instance {
     static toUInt32(value: short): uint;
     static toUInt32(value: int): uint;
     static toUInt32(value: long): uint;
-    static toUInt32(value: unknown | undefined, provider: IFormatProvider | undefined): uint;
-    static toUInt32(value: unknown | undefined): uint;
+    static toUInt32(value: unknown, provider: IFormatProvider): uint;
+    static toUInt32(value: unknown): uint;
     static toUInt32(value: sbyte): uint;
     static toUInt32(value: float): uint;
-    static toUInt32(value: string | undefined, provider: IFormatProvider | undefined): uint;
-    static toUInt32(value: string | undefined, fromBase: int): uint;
-    static toUInt32(value: string | undefined): uint;
+    static toUInt32(value: string, provider: IFormatProvider): uint;
+    static toUInt32(value: string, fromBase: int): uint;
+    static toUInt32(value: string): uint;
     static toUInt32(value: ushort): uint;
     static toUInt32(value: uint): uint;
     static toUInt32(value: ulong): uint;
@@ -8293,13 +8295,13 @@ export abstract class Convert$instance {
     static toUInt64(value: short): ulong;
     static toUInt64(value: int): ulong;
     static toUInt64(value: long): ulong;
-    static toUInt64(value: unknown | undefined, provider: IFormatProvider | undefined): ulong;
-    static toUInt64(value: unknown | undefined): ulong;
+    static toUInt64(value: unknown, provider: IFormatProvider): ulong;
+    static toUInt64(value: unknown): ulong;
     static toUInt64(value: sbyte): ulong;
     static toUInt64(value: float): ulong;
-    static toUInt64(value: string | undefined, provider: IFormatProvider | undefined): ulong;
-    static toUInt64(value: string | undefined, fromBase: int): ulong;
-    static toUInt64(value: string | undefined): ulong;
+    static toUInt64(value: string, provider: IFormatProvider): ulong;
+    static toUInt64(value: string, fromBase: int): ulong;
+    static toUInt64(value: string): ulong;
     static toUInt64(value: ushort): ulong;
     static toUInt64(value: uint): ulong;
     static toUInt64(value: ulong): ulong;
@@ -8343,8 +8345,8 @@ export abstract class Environment$instance {
     static readonly version: Version;
     static exit(exitCode: int): void;
     static expandEnvironmentVariables(name: string): string;
-    static failFast(message: string | undefined, exception: Exception | undefined): void;
-    static failFast(message: string | undefined): void;
+    static failFast(message: string, exception: Exception): void;
+    static failFast(message: string): void;
     static getCommandLineArgs(): string[];
     static getEnvironmentVariable(variable: string, target: EnvironmentVariableTarget): string | undefined;
     static getEnvironmentVariable(variable: string): string | undefined;
@@ -8353,8 +8355,8 @@ export abstract class Environment$instance {
     static getFolderPath(folder: Environment_SpecialFolder, option: Environment_SpecialFolderOption): string;
     static getFolderPath(folder: Environment_SpecialFolder): string;
     static getLogicalDrives(): string[];
-    static setEnvironmentVariable(variable: string, value: string | undefined, target: EnvironmentVariableTarget): void;
-    static setEnvironmentVariable(variable: string, value: string | undefined): void;
+    static setEnvironmentVariable(variable: string, value: string, target: EnvironmentVariableTarget): void;
+    static setEnvironmentVariable(variable: string, value: string): void;
 }
 
 
@@ -8382,7 +8384,7 @@ export abstract class GC$instance {
     static getTotalAllocatedBytes(precise?: boolean): long;
     static getTotalMemory(forceFullCollection: boolean): long;
     static getTotalPauseDuration(): TimeSpan;
-    static keepAlive(obj: unknown | undefined): void;
+    static keepAlive(obj: unknown): void;
     static refreshMemoryLimit(): void;
     static registerForFullGCNotification(maxGenerationThreshold: int, largeObjectHeapThreshold: int): void;
     static registerNoGCRegionCallback(totalSize: long, callback: Action): void;
@@ -8591,51 +8593,51 @@ export abstract class MemoryExtensions$instance {
     static asMemory<T>(segment: ArraySegment_1<T>, start: int, length: int): Memory_1<T>;
     static asMemory<T>(segment: ArraySegment_1<T>, start: int): Memory_1<T>;
     static asMemory<T>(segment: ArraySegment_1<T>): Memory_1<T>;
-    static asMemory(text: string | undefined, startIndex: Index): ReadOnlyMemory_1<Char>;
-    static asMemory(text: string | undefined, start: int, length: int): ReadOnlyMemory_1<Char>;
-    static asMemory(text: string | undefined, start: int): ReadOnlyMemory_1<Char>;
-    static asMemory(text: string | undefined, range: Range): ReadOnlyMemory_1<Char>;
-    static asMemory(text: string | undefined): ReadOnlyMemory_1<Char>;
-    static asMemory<T>(array: T[] | undefined, startIndex: Index): Memory_1<T>;
-    static asMemory<T>(array: T[] | undefined, start: int, length: int): Memory_1<T>;
-    static asMemory<T>(array: T[] | undefined, start: int): Memory_1<T>;
-    static asMemory<T>(array: T[] | undefined, range: Range): Memory_1<T>;
-    static asMemory<T>(array: T[] | undefined): Memory_1<T>;
+    static asMemory(text: string, startIndex: Index): ReadOnlyMemory_1<Char>;
+    static asMemory(text: string, start: int, length: int): ReadOnlyMemory_1<Char>;
+    static asMemory(text: string, start: int): ReadOnlyMemory_1<Char>;
+    static asMemory(text: string, range: Range): ReadOnlyMemory_1<Char>;
+    static asMemory(text: string): ReadOnlyMemory_1<Char>;
+    static asMemory<T>(array: T[], startIndex: Index): Memory_1<T>;
+    static asMemory<T>(array: T[], start: int, length: int): Memory_1<T>;
+    static asMemory<T>(array: T[], start: int): Memory_1<T>;
+    static asMemory<T>(array: T[], range: Range): Memory_1<T>;
+    static asMemory<T>(array: T[]): Memory_1<T>;
     static asSpan<T>(segment: ArraySegment_1<T>, startIndex: Index): Span_1<T>;
     static asSpan<T>(segment: ArraySegment_1<T>, start: int, length: int): Span_1<T>;
     static asSpan<T>(segment: ArraySegment_1<T>, start: int): Span_1<T>;
     static asSpan<T>(segment: ArraySegment_1<T>, range: Range): Span_1<T>;
     static asSpan<T>(segment: ArraySegment_1<T>): Span_1<T>;
-    static asSpan(text: string | undefined, startIndex: Index): ReadOnlySpan_1<Char>;
-    static asSpan(text: string | undefined, start: int, length: int): ReadOnlySpan_1<Char>;
-    static asSpan(text: string | undefined, start: int): ReadOnlySpan_1<Char>;
-    static asSpan(text: string | undefined, range: Range): ReadOnlySpan_1<Char>;
-    static asSpan(text: string | undefined): ReadOnlySpan_1<Char>;
-    static asSpan<T>(array: T[] | undefined, startIndex: Index): Span_1<T>;
-    static asSpan<T>(array: T[] | undefined, start: int, length: int): Span_1<T>;
-    static asSpan<T>(array: T[] | undefined, start: int): Span_1<T>;
-    static asSpan<T>(array: T[] | undefined, range: Range): Span_1<T>;
-    static asSpan<T>(array: T[] | undefined): Span_1<T>;
+    static asSpan(text: string, startIndex: Index): ReadOnlySpan_1<Char>;
+    static asSpan(text: string, start: int, length: int): ReadOnlySpan_1<Char>;
+    static asSpan(text: string, start: int): ReadOnlySpan_1<Char>;
+    static asSpan(text: string, range: Range): ReadOnlySpan_1<Char>;
+    static asSpan(text: string): ReadOnlySpan_1<Char>;
+    static asSpan<T>(array: T[], startIndex: Index): Span_1<T>;
+    static asSpan<T>(array: T[], start: int, length: int): Span_1<T>;
+    static asSpan<T>(array: T[], start: int): Span_1<T>;
+    static asSpan<T>(array: T[], range: Range): Span_1<T>;
+    static asSpan<T>(array: T[]): Span_1<T>;
     static binarySearch<T>(span: ReadOnlySpan_1<T>, comparable: IComparable_1<T>): int;
     static binarySearch<T, TComparer extends IComparer_1<T>>(span: ReadOnlySpan_1<T>, value: T, comparer: TComparer): int;
     static binarySearch<T, TComparable extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, comparable: TComparable): int;
     static binarySearch<T>(span: Span_1<T>, comparable: IComparable_1<T>): int;
     static binarySearch<T, TComparer extends IComparer_1<T>>(span: Span_1<T>, value: T, comparer: TComparer): int;
     static binarySearch<T, TComparable extends IComparable_1<T>>(span: Span_1<T>, comparable: TComparable): int;
-    static commonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | undefined): int;
+    static commonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T>): int;
     static commonPrefixLength<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
-    static commonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T> | undefined): int;
+    static commonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer: IEqualityComparer_1<T>): int;
     static commonPrefixLength<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
     static compareTo(span: ReadOnlySpan_1<Char>, other: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static contains<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static contains<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static contains<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static contains<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): boolean;
     static contains(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
-    static containsAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static containsAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static containsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
     static containsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
-    static containsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
-    static containsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static containsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): boolean;
+    static containsAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): boolean;
     static containsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
     static containsAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
     static containsAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): boolean;
@@ -8644,12 +8646,12 @@ export abstract class MemoryExtensions$instance {
     static containsAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): boolean;
     static containsAny(span: ReadOnlySpan_1<Char>, values: SearchValues_1<String>): boolean;
     static containsAny(span: Span_1<Char>, values: SearchValues_1<String>): boolean;
-    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static containsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): boolean;
     static containsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): boolean;
-    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
-    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
-    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
+    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): boolean;
+    static containsAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): boolean;
     static containsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): boolean;
     static containsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): boolean;
     static containsAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
@@ -8662,20 +8664,20 @@ export abstract class MemoryExtensions$instance {
     static containsAnyExceptInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
     static containsAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): boolean;
     static containsAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): boolean;
-    static copyTo<T>(source: T[] | undefined, destination: Memory_1<T>): void;
-    static copyTo<T>(source: T[] | undefined, destination: Span_1<T>): void;
-    static count<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static copyTo<T>(source: T[], destination: Memory_1<T>): void;
+    static copyTo<T>(source: T[], destination: Span_1<T>): void;
+    static count<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static count<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static count<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static count<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
     static count<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
     static count<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
     static count<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
-    static countAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static countAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static countAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static countAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static endsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static endsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static endsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static endsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static endsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static endsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static endsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
     static endsWith(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
@@ -8684,18 +8686,18 @@ export abstract class MemoryExtensions$instance {
     static enumerateRunes(span: ReadOnlySpan_1<Char>): SpanRuneEnumerator;
     static enumerateRunes(span: Span_1<Char>): SpanRuneEnumerator;
     static equals(span: ReadOnlySpan_1<Char>, other: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
-    static indexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static indexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static indexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
     static indexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
     static indexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
     static indexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
     static indexOf(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static indexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static indexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static indexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static indexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static indexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): int;
+    static indexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): int;
     static indexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
     static indexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
     static indexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
@@ -8704,12 +8706,12 @@ export abstract class MemoryExtensions$instance {
     static indexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
     static indexOfAny(span: ReadOnlySpan_1<Char>, values: SearchValues_1<String>): int;
     static indexOfAny(span: Span_1<Char>, values: SearchValues_1<String>): int;
-    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static indexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static indexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
+    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): int;
+    static indexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): int;
     static indexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
     static indexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
     static indexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
@@ -8723,30 +8725,30 @@ export abstract class MemoryExtensions$instance {
     static indexOfAnyInRange<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, lowInclusive: T, highInclusive: T): int;
     static indexOfAnyInRange<T extends IComparable_1<T>>(span: Span_1<T>, lowInclusive: T, highInclusive: T): int;
     static isWhiteSpace(span: ReadOnlySpan_1<Char>): boolean;
-    static lastIndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOf<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): int;
-    static lastIndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOf<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOf<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
     static lastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): int;
     static lastIndexOf<T extends IEquatable_1<T>>(span: Span_1<T>, value: T): int;
     static lastIndexOf(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): int;
-    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): int;
+    static lastIndexOfAny<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: ReadOnlySpan_1<T>): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T, value2: T): int;
     static lastIndexOfAny<T extends IEquatable_1<T>>(span: Span_1<T>, value0: T, value1: T): int;
-    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: ReadOnlySpan_1<T>): int;
     static lastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, values: SearchValues_1<T>): int;
-    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T> | undefined): int;
-    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T> | undefined): int;
+    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): int;
+    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, comparer?: IEqualityComparer_1<T>): int;
+    static lastIndexOfAnyExcept<T>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T, comparer?: IEqualityComparer_1<T>): int;
     static lastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T, value2: T): int;
     static lastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value0: T, value1: T): int;
     static lastIndexOfAnyExcept<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): int;
@@ -8763,21 +8765,21 @@ export abstract class MemoryExtensions$instance {
     static overlaps<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
     static overlaps<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, elementOffset: int): boolean;
     static overlaps<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static replace<T>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | undefined): void;
+    static replace<T>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T>): void;
     static replace<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, oldValue: T, newValue: T): void;
-    static replace<T>(span: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T> | undefined): void;
+    static replace<T>(span: Span_1<T>, oldValue: T, newValue: T, comparer?: IEqualityComparer_1<T>): void;
     static replace<T extends IEquatable_1<T>>(span: Span_1<T>, oldValue: T, newValue: T): void;
     static replaceAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
     static replaceAny<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
     static replaceAnyExcept<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, destination: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
     static replaceAnyExcept<T extends IEquatable_1<T>>(span: Span_1<T>, values: SearchValues_1<T>, newValue: T): void;
     static reverse<T>(span: Span_1<T>): void;
-    static sequenceCompareTo<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IComparer_1<T> | undefined): int;
+    static sequenceCompareTo<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IComparer_1<T>): int;
     static sequenceCompareTo<T extends IComparable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): int;
     static sequenceCompareTo<T extends IComparable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): int;
-    static sequenceEqual<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static sequenceEqual<T>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static sequenceEqual<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, other: ReadOnlySpan_1<T>): boolean;
-    static sequenceEqual<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static sequenceEqual<T>(span: Span_1<T>, other: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static sequenceEqual<T extends IEquatable_1<T>>(span: Span_1<T>, other: ReadOnlySpan_1<T>): boolean;
     static sort<T>(span: Span_1<T>, comparison: Comparison_1<T>): void;
     static sort<TKey, TValue>(keys: Span_1<TKey>, items: Span_1<TValue>, comparison: Comparison_1<TKey>): void;
@@ -8793,15 +8795,15 @@ export abstract class MemoryExtensions$instance {
     static splitAny<T extends IEquatable_1<T>>(source: ReadOnlySpan_1<T>, separators: SearchValues_1<T>): MemoryExtensions_SpanSplitEnumerator_1<T>;
     static splitAny(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separators: ReadOnlySpan_1<Char>, options?: StringSplitOptions): int;
     static splitAny(source: ReadOnlySpan_1<Char>, destination: Span_1<Range>, separators: ReadOnlySpan_1<String>, options?: StringSplitOptions): int;
-    static startsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static startsWith<T>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>, comparer?: IEqualityComparer_1<T>): boolean;
     static startsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: ReadOnlySpan_1<T>): boolean;
-    static startsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T> | undefined): boolean;
+    static startsWith<T>(span: ReadOnlySpan_1<T>, value: T, comparer?: IEqualityComparer_1<T>): boolean;
     static startsWith<T extends IEquatable_1<T>>(span: ReadOnlySpan_1<T>, value: T): boolean;
     static startsWith<T extends IEquatable_1<T>>(span: Span_1<T>, value: ReadOnlySpan_1<T>): boolean;
     static startsWith(span: ReadOnlySpan_1<Char>, value: ReadOnlySpan_1<Char>, comparisonType: StringComparison): boolean;
-    static toLower(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo | undefined): int;
+    static toLower(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo): int;
     static toLowerInvariant(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>): int;
-    static toUpper(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo | undefined): int;
+    static toUpper(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>, culture: CultureInfo): int;
     static toUpperInvariant(source: ReadOnlySpan_1<Char>, destination: Span_1<Char>): int;
     static trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElements: ReadOnlySpan_1<T>): Memory_1<T>;
     static trim<T extends IEquatable_1<T>>(memory: Memory_1<T>, trimElement: T): Memory_1<T>;
@@ -8845,12 +8847,12 @@ export abstract class MemoryExtensions$instance {
     static trimStart(span: ReadOnlySpan_1<Char>, trimChars: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static trimStart(span: ReadOnlySpan_1<Char>): ReadOnlySpan_1<Char>;
     static trimStart(span: Span_1<Char>): Span_1<Char>;
-    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider | undefined, handler: MemoryExtensions_TryWriteInterpolatedStringHandler, charsWritten: int): boolean;
-    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider | undefined, format: CompositeFormat, charsWritten: int, ...args: unknown[]): boolean;
-    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider | undefined, format: CompositeFormat, charsWritten: int, args: ReadOnlySpan_1<unknown>): boolean;
-    static tryWrite<TArg0, TArg1, TArg2>(destination: Span_1<Char>, provider: IFormatProvider | undefined, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
-    static tryWrite<TArg0, TArg1>(destination: Span_1<Char>, provider: IFormatProvider | undefined, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1): boolean;
-    static tryWrite<TArg0>(destination: Span_1<Char>, provider: IFormatProvider | undefined, format: CompositeFormat, charsWritten: int, arg0: TArg0): boolean;
+    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider, handler: MemoryExtensions_TryWriteInterpolatedStringHandler, charsWritten: int): boolean;
+    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider, format: CompositeFormat, charsWritten: int, ...args: unknown[]): boolean;
+    static tryWrite(destination: Span_1<Char>, provider: IFormatProvider, format: CompositeFormat, charsWritten: int, args: ReadOnlySpan_1<unknown>): boolean;
+    static tryWrite<TArg0, TArg1, TArg2>(destination: Span_1<Char>, provider: IFormatProvider, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1, arg2: TArg2): boolean;
+    static tryWrite<TArg0, TArg1>(destination: Span_1<Char>, provider: IFormatProvider, format: CompositeFormat, charsWritten: int, arg0: TArg0, arg1: TArg1): boolean;
+    static tryWrite<TArg0>(destination: Span_1<Char>, provider: IFormatProvider, format: CompositeFormat, charsWritten: int, arg0: TArg0): boolean;
     static tryWrite(destination: Span_1<Char>, handler: MemoryExtensions_TryWriteInterpolatedStringHandler, charsWritten: int): boolean;
 }
 

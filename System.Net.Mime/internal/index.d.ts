@@ -28,7 +28,7 @@ export interface ContentDisposition$instance {
     readonly parameters: StringDictionary;
     readDate: DateTime;
     size: long;
-    equals(rparam: unknown | undefined): boolean;
+    equals(rparam: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -43,12 +43,14 @@ export const ContentDisposition: {
 export type ContentDisposition = ContentDisposition$instance;
 
 export interface ContentType$instance {
-    boundary: string | undefined;
-    charSet: string | undefined;
+    get boundary(): string | undefined;
+    set boundary(value: string);
+    get charSet(): string | undefined;
+    set charSet(value: string);
     mediaType: string;
     name: string;
     readonly parameters: StringDictionary;
-    equals(rparam: unknown | undefined): boolean;
+    equals(rparam: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }

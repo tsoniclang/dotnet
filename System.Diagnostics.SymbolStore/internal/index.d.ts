@@ -71,8 +71,8 @@ export interface ISymbolMethod$instance {
     getParameters(): ISymbolVariable[];
     getRanges(document: ISymbolDocument, line: int, column: int): int[];
     getScope(offset: int): ISymbolScope;
-    getSequencePoints(offsets: int[] | undefined, documents: ISymbolDocument[] | undefined, lines: int[] | undefined, columns: int[] | undefined, endLines: int[] | undefined, endColumns: int[] | undefined): void;
-    getSourceStartEnd(docs: ISymbolDocument[] | undefined, lines: int[] | undefined, columns: int[] | undefined): boolean;
+    getSequencePoints(offsets: int[], documents: ISymbolDocument[], lines: int[], columns: int[], endLines: int[], endColumns: int[]): void;
+    getSourceStartEnd(docs: ISymbolDocument[], lines: int[], columns: int[]): boolean;
 }
 
 
@@ -154,7 +154,7 @@ export interface ISymbolWriter$instance {
 export type ISymbolWriter = ISymbolWriter$instance;
 
 export interface SymbolToken$instance {
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     equals(obj: SymbolToken): boolean;
     getHashCode(): int;
     getToken(): int;

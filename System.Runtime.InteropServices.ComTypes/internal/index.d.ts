@@ -220,9 +220,9 @@ export interface IAdviseSink$instance {
 export type IAdviseSink = IAdviseSink$instance;
 
 export interface IBindCtx$instance {
-    enumObjectParam(ppenum: IEnumString | undefined): void;
-    getObjectParam(pszKey: string, ppunk: unknown | undefined): void;
-    getRunningObjectTable(pprot: IRunningObjectTable | undefined): void;
+    enumObjectParam(ppenum: IEnumString): void;
+    getObjectParam(pszKey: string, ppunk: unknown): void;
+    getRunningObjectTable(pprot: IRunningObjectTable): void;
     registerObjectBound(punk: unknown): void;
     registerObjectParam(pszKey: string, punk: unknown): void;
     releaseBoundObjects(): void;
@@ -246,7 +246,7 @@ export type IConnectionPoint = IConnectionPoint$instance;
 
 export interface IConnectionPointContainer$instance {
     enumConnectionPoints(ppEnum: IEnumConnectionPoints): void;
-    findConnectionPoint(riid: Guid, ppCP: IConnectionPoint | undefined): void;
+    findConnectionPoint(riid: Guid, ppCP: IConnectionPoint): void;
 }
 
 
@@ -255,7 +255,7 @@ export type IConnectionPointContainer = IConnectionPointContainer$instance;
 export interface IDataObject$instance {
     dAdvise(pFormatetc: FORMATETC, advf: ADVF, adviseSink: IAdviseSink, connection: int): int;
     dUnadvise(connection: int): void;
-    enumDAdvise(enumAdvise: IEnumSTATDATA | undefined): int;
+    enumDAdvise(enumAdvise: IEnumSTATDATA): int;
     enumFormatEtc(direction: DATADIR): IEnumFORMATETC;
     getCanonicalFormatEtc(formatIn: FORMATETC, formatOut: FORMATETC): int;
     getData(format: FORMATETC, medium: STGMEDIUM): void;
@@ -328,7 +328,7 @@ export type IEnumString = IEnumString$instance;
 
 export interface IEnumVARIANT$instance {
     clone(): IEnumVARIANT;
-    next(celt: int, rgVar: (unknown | undefined)[], pceltFetched: nint): int;
+    next(celt: int, rgVar: unknown[], pceltFetched: nint): int;
     reset(): int;
     skip(celt: int): int;
 }
@@ -337,23 +337,23 @@ export interface IEnumVARIANT$instance {
 export type IEnumVARIANT = IEnumVARIANT$instance;
 
 export interface IMoniker$instance {
-    bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker | undefined, riidResult: Guid, ppvResult: unknown): void;
-    commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker | undefined): void;
-    composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker | undefined): void;
-    enum_(fForward: boolean, ppenumMoniker: IEnumMoniker | undefined): void;
+    bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: Guid, ppvResult: unknown): void;
+    commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker): void;
+    composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker): void;
+    enum_(fForward: boolean, ppenumMoniker: IEnumMoniker): void;
     getClassID(pClassID: Guid): void;
-    getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker | undefined, ppszDisplayName: string): void;
+    getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: string): void;
     getSizeMax(pcbSize: long): void;
-    getTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker | undefined, pFileTime: FILETIME): void;
+    getTimeOfLastChange(pbc: IBindCtx, pmkToLeft: IMoniker, pFileTime: FILETIME): void;
     hash(pdwHash: int): void;
     inverse(ppmk: IMoniker): void;
     isDirty(): int;
     isEqual(pmkOtherMoniker: IMoniker): int;
-    isRunning(pbc: IBindCtx, pmkToLeft: IMoniker | undefined, pmkNewlyRunning: IMoniker | undefined): int;
+    isRunning(pbc: IBindCtx, pmkToLeft: IMoniker, pmkNewlyRunning: IMoniker): int;
     isSystemMoniker(pdwMksys: int): int;
     load(pStm: IStream): void;
     parseDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, pszDisplayName: string, pchEaten: int, ppmkOut: IMoniker): void;
-    reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: IMoniker | undefined, ppmkReduced: IMoniker | undefined): void;
+    reduce(pbc: IBindCtx, dwReduceHowFar: int, ppmkToLeft: IMoniker, ppmkReduced: IMoniker): void;
     save(pStm: IStream, fClearDirty: boolean): void;
 }
 
@@ -365,7 +365,7 @@ export interface IPersistFile$instance {
     getCurFile(ppszFileName: string): void;
     isDirty(): int;
     load(pszFileName: string, dwMode: int): void;
-    save(pszFileName: string | undefined, fRemember: boolean): void;
+    save(pszFileName: string, fRemember: boolean): void;
     saveCompleted(pszFileName: string): void;
 }
 
@@ -410,14 +410,14 @@ export type ITypeComp = ITypeComp$instance;
 
 export interface ITypeInfo$instance {
     addressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
-    createInstance(pUnkOuter: unknown | undefined, riid: Guid, ppvObj: unknown): void;
+    createInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
     getContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
     getDllEntry(memid: int, invKind: INVOKEKIND, pBstrDllName: nint, pBstrName: nint, pwOrdinal: nint): void;
     getDocumentation(index: int, strName: string, strDocString: string, dwHelpContext: int, strHelpFile: string): void;
     getFuncDesc(index: int, ppFuncDesc: nint): void;
     getIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
     getImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
-    getMops(memid: int, pBstrMops: string | undefined): void;
+    getMops(memid: int, pBstrMops: string): void;
     getNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
     getRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;
     getRefTypeOfImplType(index: int, href: int): void;
@@ -432,7 +432,7 @@ export type ITypeInfo = ITypeInfo$instance;
 
 export interface ITypeInfo2$instance extends ITypeInfo {
     addressOfMember(memid: int, invKind: INVOKEKIND, ppv: nint): void;
-    createInstance(pUnkOuter: unknown | undefined, riid: Guid, ppvObj: unknown): void;
+    createInstance(pUnkOuter: unknown, riid: Guid, ppvObj: unknown): void;
     getAllFuncCustData(index: int, pCustData: nint): void;
     getAllParamCustData(indexFunc: int, indexParam: int, pCustData: nint): void;
     getContainingTypeLib(ppTLB: ITypeLib, pIndex: int): void;
@@ -445,7 +445,7 @@ export interface ITypeInfo2$instance extends ITypeInfo {
     getFuncIndexOfMemId(memid: int, invKind: INVOKEKIND, pFuncIndex: int): void;
     getIDsOfNames(rgszNames: string[], cNames: int, pMemId: int[]): void;
     getImplTypeFlags(index: int, pImplTypeFlags: IMPLTYPEFLAGS): void;
-    getMops(memid: int, pBstrMops: string | undefined): void;
+    getMops(memid: int, pBstrMops: string): void;
     getNames(memid: int, rgBstrNames: string[], cMaxNames: int, pcNames: int): void;
     getParamCustData(indexFunc: int, indexParam: int, guid: Guid, pVarVal: unknown): void;
     getRefTypeInfo(hRef: int, ppTI: ITypeInfo): void;

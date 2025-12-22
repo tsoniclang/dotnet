@@ -86,7 +86,7 @@ export interface Asn1Tag$instance {
     calculateEncodedSize(): int;
     encode(destination: Span_1<System_Internal.Byte>): int;
     equals(other: Asn1Tag): boolean;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     hasSameClassAndValue(other: Asn1Tag): boolean;
     toString(): string;
@@ -164,8 +164,8 @@ export interface AsnContentException$instance extends Exception {
 
 export const AsnContentException: {
     new(): AsnContentException;
-    new(message: string | undefined): AsnContentException;
-    new(message: string | undefined, inner: Exception | undefined): AsnContentException;
+    new(message: string): AsnContentException;
+    new(message: string, inner: Exception): AsnContentException;
 };
 
 

@@ -29,10 +29,10 @@ export interface JsonContent$instance extends HttpContent {
 
 export const JsonContent: {
     new(): JsonContent;
-    create(inputValue: unknown | undefined, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue | undefined): JsonContent;
-    create(inputValue: unknown | undefined, inputType: Type, mediaType?: MediaTypeHeaderValue | undefined, options?: JsonSerializerOptions | undefined): JsonContent;
-    create<T>(inputValue: T | undefined, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue | undefined): JsonContent;
-    create<T>(inputValue: T, mediaType?: MediaTypeHeaderValue | undefined, options?: JsonSerializerOptions | undefined): JsonContent;
+    create(inputValue: unknown, jsonTypeInfo: JsonTypeInfo, mediaType?: MediaTypeHeaderValue): JsonContent;
+    create(inputValue: unknown, inputType: Type, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
+    create<T>(inputValue: T, jsonTypeInfo: JsonTypeInfo_1<T>, mediaType?: MediaTypeHeaderValue): JsonContent;
+    create<T>(inputValue: T, mediaType?: MediaTypeHeaderValue, options?: JsonSerializerOptions): JsonContent;
 };
 
 
@@ -44,54 +44,54 @@ export type JsonContent = JsonContent$instance & __JsonContent$views;
 
 
 export abstract class HttpClientJsonExtensions$instance {
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: string | undefined, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static getFromJsonAsync(client: HttpClient, requestUri: Uri | undefined, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, options?: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
-    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri | undefined, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: string, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static deleteFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string, options: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: string, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri, options: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsAsyncEnumerable<TValue>(client: HttpClient, requestUri: Uri, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: string, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: string, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync<TValue>(client: HttpClient, requestUri: Uri, cancellationToken?: CancellationToken): Task_1<TValue | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static getFromJsonAsync(client: HttpClient, requestUri: Uri, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static patchAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static postAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: string, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, options?: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<HttpResponseMessage>;
+    static putAsJsonAsync<TValue>(client: HttpClient, requestUri: Uri, value: TValue, cancellationToken: CancellationToken): Task_1<HttpResponseMessage>;
 }
 
 
@@ -99,12 +99,12 @@ export type HttpClientJsonExtensions = HttpClientJsonExtensions$instance;
 
 export abstract class HttpContentJsonExtensions$instance {
     static readFromJsonAsAsyncEnumerable<TValue>(content: HttpContent, jsonTypeInfo: JsonTypeInfo_1<TValue>, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
-    static readFromJsonAsAsyncEnumerable<TValue>(content: HttpContent, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
+    static readFromJsonAsAsyncEnumerable<TValue>(content: HttpContent, options: JsonSerializerOptions, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static readFromJsonAsAsyncEnumerable<TValue>(content: HttpContent, cancellationToken?: CancellationToken): IAsyncEnumerable_1<TValue | undefined>;
     static readFromJsonAsync<T>(content: HttpContent, jsonTypeInfo: JsonTypeInfo_1<T>, cancellationToken?: CancellationToken): Task_1<T | undefined>;
-    static readFromJsonAsync<T>(content: HttpContent, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<T | undefined>;
+    static readFromJsonAsync<T>(content: HttpContent, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<T | undefined>;
     static readFromJsonAsync<T>(content: HttpContent, cancellationToken?: CancellationToken): Task_1<T | undefined>;
-    static readFromJsonAsync(content: HttpContent, type_: Type, options: JsonSerializerOptions | undefined, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
+    static readFromJsonAsync(content: HttpContent, type_: Type, options: JsonSerializerOptions, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
     static readFromJsonAsync(content: HttpContent, type_: Type, context: JsonSerializerContext, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
     static readFromJsonAsync(content: HttpContent, type_: Type, cancellationToken?: CancellationToken): Task_1<unknown | undefined>;
 }

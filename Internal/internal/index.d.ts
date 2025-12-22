@@ -12,7 +12,7 @@ import type { Boolean as ClrBoolean, Int32, Object as ClrObject, String as ClrSt
 export abstract class Console$instance {
     static write(s: string): void;
     static writeLine(): void;
-    static writeLine(s: string | undefined): void;
+    static writeLine(s: string): void;
 }
 
 

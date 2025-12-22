@@ -241,14 +241,14 @@ export interface CompareInfo$instance {
     readonly LCID: int;
     readonly name: string;
     readonly version: SortVersion;
-    compare(string1: string | undefined, string2: string | undefined): int;
-    compare(string1: string | undefined, string2: string | undefined, options: CompareOptions): int;
-    compare(string1: string | undefined, offset1: int, length1: int, string2: string | undefined, offset2: int, length2: int): int;
-    compare(string1: string | undefined, offset1: int, string2: string | undefined, offset2: int, options: CompareOptions): int;
-    compare(string1: string | undefined, offset1: int, string2: string | undefined, offset2: int): int;
-    compare(string1: string | undefined, offset1: int, length1: int, string2: string | undefined, offset2: int, length2: int, options: CompareOptions): int;
+    compare(string1: string, string2: string): int;
+    compare(string1: string, string2: string, options: CompareOptions): int;
+    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int): int;
+    compare(string1: string, offset1: int, string2: string, offset2: int, options: CompareOptions): int;
+    compare(string1: string, offset1: int, string2: string, offset2: int): int;
+    compare(string1: string, offset1: int, length1: int, string2: string, offset2: int, length2: int, options: CompareOptions): int;
     compare(string1: ReadOnlySpan_1<System_Internal.Char>, string2: ReadOnlySpan_1<System_Internal.Char>, options?: CompareOptions): int;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     getHashCode(source: string, options: CompareOptions): int;
     getHashCode(source: ReadOnlySpan_1<System_Internal.Char>, options: CompareOptions): int;
@@ -344,9 +344,9 @@ export interface CultureInfo$instance {
     readonly useUserOverride: boolean;
     clearCachedData(): void;
     clone(): unknown;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getConsoleFallbackUICulture(): CultureInfo;
-    getFormat(formatType: Type | undefined): unknown | undefined;
+    getFormat(formatType: Type): unknown | undefined;
     getHashCode(): int;
     toString(): string;
 }
@@ -360,8 +360,10 @@ export const CultureInfo: {
     currentCulture: CultureInfo;
     currentUICulture: CultureInfo;
     readonly installedUICulture: CultureInfo;
-    defaultThreadCurrentCulture: CultureInfo | undefined;
-    defaultThreadCurrentUICulture: CultureInfo | undefined;
+    get defaultThreadCurrentCulture(): CultureInfo | undefined;
+    set defaultThreadCurrentCulture(value: CultureInfo);
+    get defaultThreadCurrentUICulture(): CultureInfo | undefined;
+    set defaultThreadCurrentUICulture(value: CultureInfo);
     readonly invariantCulture: CultureInfo;
     createSpecificCulture(name: string): CultureInfo;
     getCultureInfo(culture: int): CultureInfo;
@@ -394,13 +396,13 @@ export interface CultureNotFoundException$instance extends ArgumentException {
 
 export const CultureNotFoundException: {
     new(): CultureNotFoundException;
-    new(message: string | undefined): CultureNotFoundException;
-    new(paramName: string | undefined, message: string | undefined): CultureNotFoundException;
-    new(message: string | undefined, innerException: Exception | undefined): CultureNotFoundException;
-    new(paramName: string | undefined, invalidCultureName: string | undefined, message: string | undefined): CultureNotFoundException;
-    new(message: string | undefined, invalidCultureName: string | undefined, innerException: Exception | undefined): CultureNotFoundException;
-    new(message: string | undefined, invalidCultureId: int, innerException: Exception | undefined): CultureNotFoundException;
-    new(paramName: string | undefined, invalidCultureId: int, message: string | undefined): CultureNotFoundException;
+    new(message: string): CultureNotFoundException;
+    new(paramName: string, message: string): CultureNotFoundException;
+    new(message: string, innerException: Exception): CultureNotFoundException;
+    new(paramName: string, invalidCultureName: string, message: string): CultureNotFoundException;
+    new(message: string, invalidCultureName: string, innerException: Exception): CultureNotFoundException;
+    new(message: string, invalidCultureId: int, innerException: Exception): CultureNotFoundException;
+    new(paramName: string, invalidCultureId: int, message: string): CultureNotFoundException;
 };
 
 
@@ -447,7 +449,7 @@ export interface DateTimeFormatInfo$instance {
     getDayName(dayofweek: DayOfWeek): string;
     getEra(eraName: string): int;
     getEraName(era: int): string;
-    getFormat(formatType: Type | undefined): unknown | undefined;
+    getFormat(formatType: Type): unknown | undefined;
     getMonthName(month: int): string;
     getShortestDayName(dayOfWeek: DayOfWeek): string;
     setAllDateTimePatterns(patterns: string[], format: char): void;
@@ -458,7 +460,7 @@ export const DateTimeFormatInfo: {
     new(): DateTimeFormatInfo;
     readonly invariantInfo: DateTimeFormatInfo;
     readonly currentInfo: DateTimeFormatInfo;
-    getInstance(provider: IFormatProvider | undefined): DateTimeFormatInfo;
+    getInstance(provider: IFormatProvider): DateTimeFormatInfo;
     readOnly(dtfi: DateTimeFormatInfo): DateTimeFormatInfo;
 };
 
@@ -682,7 +684,7 @@ export type HijriCalendar = HijriCalendar$instance & __HijriCalendar$views;
 export interface IdnMapping$instance {
     allowUnassigned: boolean;
     useStd3AsciiRules: boolean;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getAscii(unicode: string): string;
     getAscii(unicode: string, index: int): string;
     getAscii(unicode: string, index: int, count: int): string;
@@ -919,7 +921,7 @@ export interface NumberFormatInfo$instance {
     positiveInfinitySymbol: string;
     positiveSign: string;
     clone(): unknown;
-    getFormat(formatType: Type | undefined): unknown | undefined;
+    getFormat(formatType: Type): unknown | undefined;
 }
 
 
@@ -927,7 +929,7 @@ export const NumberFormatInfo: {
     new(): NumberFormatInfo;
     readonly invariantInfo: NumberFormatInfo;
     readonly currentInfo: NumberFormatInfo;
-    getInstance(formatProvider: IFormatProvider | undefined): NumberFormatInfo;
+    getInstance(formatProvider: IFormatProvider): NumberFormatInfo;
     readOnly(nfi: NumberFormatInfo): NumberFormatInfo;
 };
 
@@ -1004,7 +1006,7 @@ export interface RegionInfo$instance {
     readonly threeLetterISORegionName: string;
     readonly threeLetterWindowsRegionName: string;
     readonly twoLetterISORegionName: string;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -1022,7 +1024,7 @@ export type RegionInfo = RegionInfo$instance;
 export interface SortKey$instance {
     readonly keyData: byte[];
     readonly originalString: string;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -1039,8 +1041,8 @@ export type SortKey = SortKey$instance;
 export interface SortVersion$instance {
     readonly fullVersion: int;
     readonly sortId: Guid;
-    equals(obj: unknown | undefined): boolean;
-    equals(other: SortVersion | undefined): boolean;
+    equals(obj: unknown): boolean;
+    equals(other: SortVersion): boolean;
     getHashCode(): int;
 }
 
@@ -1063,7 +1065,7 @@ export type SortVersion = SortVersion$instance & __SortVersion$views;
 export interface StringInfo$instance {
     readonly lengthInTextElements: int;
     string_: string;
-    equals(value: unknown | undefined): boolean;
+    equals(value: unknown): boolean;
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;
     substringByTextElements(startingTextElement: int, lengthInTextElements: int): string;
@@ -1189,7 +1191,7 @@ export interface TextInfo$instance {
     readonly macCodePage: int;
     readonly oemCodePage: int;
     clone(): unknown;
-    equals(obj: unknown | undefined): boolean;
+    equals(obj: unknown): boolean;
     getHashCode(): int;
     toLower(c: char): char;
     toLower(str: string): string;

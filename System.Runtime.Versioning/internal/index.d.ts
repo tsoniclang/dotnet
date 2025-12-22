@@ -45,8 +45,8 @@ export interface FrameworkName$instance {
     readonly identifier: string;
     readonly profile: string;
     readonly version: Version;
-    equals(obj: unknown | undefined): boolean;
-    equals(other: FrameworkName | undefined): boolean;
+    equals(obj: unknown): boolean;
+    equals(other: FrameworkName): boolean;
     getHashCode(): int;
     toString(): string;
 }
@@ -54,7 +54,7 @@ export interface FrameworkName$instance {
 
 export const FrameworkName: {
     new(identifier: string, version: Version): FrameworkName;
-    new(identifier: string, version: Version, profile: string | undefined): FrameworkName;
+    new(identifier: string, version: Version, profile: string): FrameworkName;
     new(frameworkName: string): FrameworkName;
 };
 
@@ -71,13 +71,14 @@ export type FrameworkName = FrameworkName$instance & __FrameworkName$views;
 
 export interface ObsoletedOSPlatformAttribute$instance extends OSPlatformAttribute {
     readonly message: string;
-    url: string | undefined;
+    get url(): string | undefined;
+    set url(value: string);
 }
 
 
 export const ObsoletedOSPlatformAttribute: {
     new(platformName: string): ObsoletedOSPlatformAttribute;
-    new(platformName: string, message: string | undefined): ObsoletedOSPlatformAttribute;
+    new(platformName: string, message: string): ObsoletedOSPlatformAttribute;
 };
 
 
@@ -96,13 +97,14 @@ export type OSPlatformAttribute = OSPlatformAttribute$instance;
 
 export interface RequiresPreviewFeaturesAttribute$instance extends Attribute {
     readonly message: string;
-    url: string | undefined;
+    get url(): string | undefined;
+    set url(value: string);
 }
 
 
 export const RequiresPreviewFeaturesAttribute: {
     new(): RequiresPreviewFeaturesAttribute;
-    new(message: string | undefined): RequiresPreviewFeaturesAttribute;
+    new(message: string): RequiresPreviewFeaturesAttribute;
 };
 
 
@@ -157,7 +159,8 @@ export const SupportedOSPlatformGuardAttribute: {
 export type SupportedOSPlatformGuardAttribute = SupportedOSPlatformGuardAttribute$instance;
 
 export interface TargetFrameworkAttribute$instance extends Attribute {
-    frameworkDisplayName: string | undefined;
+    get frameworkDisplayName(): string | undefined;
+    set frameworkDisplayName(value: string);
     readonly frameworkName: string;
 }
 
@@ -187,7 +190,7 @@ export interface UnsupportedOSPlatformAttribute$instance extends OSPlatformAttri
 
 export const UnsupportedOSPlatformAttribute: {
     new(platformName: string): UnsupportedOSPlatformAttribute;
-    new(platformName: string, message: string | undefined): UnsupportedOSPlatformAttribute;
+    new(platformName: string, message: string): UnsupportedOSPlatformAttribute;
 };
 
 
@@ -205,8 +208,8 @@ export const UnsupportedOSPlatformGuardAttribute: {
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static makeVersionSafeName(name: string | undefined, from_: ResourceScope, to: ResourceScope, type_: Type | undefined): string;
-    static makeVersionSafeName(name: string | undefined, from_: ResourceScope, to: ResourceScope): string;
+    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
+    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope): string;
 }
 
 

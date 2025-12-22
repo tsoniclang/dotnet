@@ -92,16 +92,16 @@ export const BlockingCollection_1: {
     new<T>(collection: IProducerConsumerCollection_1<T>): BlockingCollection_1<T>;
     addToAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
     addToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined, cancellationToken: CancellationToken): int;
-    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined): int;
+    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, cancellationToken: CancellationToken): int;
+    takeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
     tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
     tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
     tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
     tryAddToAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined, millisecondsTimeout: int): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined, timeout: TimeSpan): int;
-    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T | undefined): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int, cancellationToken: CancellationToken): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, millisecondsTimeout: int): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T, timeout: TimeSpan): int;
+    tryTakeFromAny<T>(collections: BlockingCollection_1<T>[], item: T): int;
 };
 
 
@@ -179,10 +179,10 @@ export const ConcurrentDictionary_2: {
     new<TKey, TValue>(): ConcurrentDictionary_2<TKey, TValue>;
     new<TKey, TValue>(concurrencyLevel: int, capacity: int): ConcurrentDictionary_2<TKey, TValue>;
     new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey> | undefined): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | undefined): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey> | undefined): ConcurrentDictionary_2<TKey, TValue>;
-    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey> | undefined): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, collection: IEnumerable_1<KeyValuePair_2<TKey, TValue>>, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
+    new<TKey, TValue>(concurrencyLevel: int, capacity: int, comparer: IEqualityComparer_1<TKey>): ConcurrentDictionary_2<TKey, TValue>;
 };
 
 
