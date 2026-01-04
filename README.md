@@ -21,7 +21,7 @@ npm install @tsonic/dotnet @tsonic/core
 ### Collections
 
 ```typescript
-import type { List, Dictionary, HashSet } from "@tsonic/dotnet/System.Collections.Generic";
+import type { List, Dictionary, HashSet } from "@tsonic/dotnet/System.Collections.Generic.js";
 import type { int, decimal } from "@tsonic/core/types.js";
 
 const ages: List<int> = null!;
@@ -32,7 +32,7 @@ const uniqueIds: HashSet<int> = null!;
 ### Async Programming
 
 ```typescript
-import type { Task } from "@tsonic/dotnet/System.Threading.Tasks";
+import type { Task } from "@tsonic/dotnet/System.Threading.Tasks.js";
 import type { int } from "@tsonic/core/types.js";
 
 const asyncResult: Task<int> = null!;
@@ -41,7 +41,7 @@ const asyncResult: Task<int> = null!;
 ### Core Types
 
 ```typescript
-import type { Nullable, Action, Func } from "@tsonic/dotnet/System";
+import type { Nullable, Action, Func } from "@tsonic/dotnet/System.js";
 import type { int } from "@tsonic/core/types.js";
 
 const optional: Nullable<int> = null!;
@@ -52,7 +52,7 @@ const converter: Func<int, string> = null!;
 ### LINQ
 
 ```typescript
-import type { IEnumerable, IQueryable } from "@tsonic/dotnet/System.Linq";
+import type { IEnumerable, IQueryable } from "@tsonic/dotnet/System.Linq.js";
 import type { int } from "@tsonic/core/types.js";
 
 const sequence: IEnumerable<int> = null!;
@@ -76,20 +76,20 @@ const sequence: IEnumerable<int> = null!;
 ### File I/O
 
 ```typescript
-import type { Stream, FileStream } from "@tsonic/dotnet/System.IO";
+import type { Stream, FileStream } from "@tsonic/dotnet/System.IO.js";
 ```
 
 ### Networking
 
 ```typescript
-import type { HttpClient } from "@tsonic/dotnet/System.Net.Http";
-import type { IPAddress, Socket } from "@tsonic/dotnet/System.Net";
+import type { HttpClient } from "@tsonic/dotnet/System.Net.Http.js";
+import type { IPAddress, Socket } from "@tsonic/dotnet/System.Net.js";
 ```
 
 ### Serialization
 
 ```typescript
-import type { JsonSerializer } from "@tsonic/dotnet/System.Text.Json";
+import type { JsonSerializer } from "@tsonic/dotnet/System.Text.Json.js";
 ```
 
 ## Development
