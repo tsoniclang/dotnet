@@ -7,13 +7,13 @@ TypeScript type definitions for .NET 10 BCL (Base Class Library).
 - ✅ **Complete .NET 10 BCL coverage** - 130 namespaces, 4,295 types, 50,720 members
 - ✅ **camelCase members** - TypeScript-friendly naming conventions
 - ✅ **Friendly generic aliases** - Use `List<T>` instead of `List_1<T>`
-- ✅ **Branded primitive types** - Typed numbers via `@tsonic/types` (int, long, decimal, etc.)
+- ✅ **Primitive aliases** - `int`, `long`, `decimal`, etc. via `@tsonic/core`
 - ✅ **Full type safety** - Zero TypeScript errors
 
 ## Installation
 
 ```bash
-npm install @tsonic/dotnet @tsonic/types
+npm install @tsonic/dotnet @tsonic/core
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ npm install @tsonic/dotnet @tsonic/types
 
 ```typescript
 import type { List, Dictionary, HashSet } from "@tsonic/dotnet/System.Collections.Generic";
-import type { int, decimal } from "@tsonic/types";
+import type { int, decimal } from "@tsonic/core/types.js";
 
 const ages: List<int> = null!;
 const prices: Dictionary<string, decimal> = null!;
@@ -33,7 +33,7 @@ const uniqueIds: HashSet<int> = null!;
 
 ```typescript
 import type { Task } from "@tsonic/dotnet/System.Threading.Tasks";
-import type { int } from "@tsonic/types";
+import type { int } from "@tsonic/core/types.js";
 
 const asyncResult: Task<int> = null!;
 ```
@@ -42,7 +42,7 @@ const asyncResult: Task<int> = null!;
 
 ```typescript
 import type { Nullable, Action, Func } from "@tsonic/dotnet/System";
-import type { int } from "@tsonic/types";
+import type { int } from "@tsonic/core/types.js";
 
 const optional: Nullable<int> = null!;
 const callback: Action<int> = null!;
@@ -53,7 +53,7 @@ const converter: Func<int, string> = null!;
 
 ```typescript
 import type { IEnumerable, IQueryable } from "@tsonic/dotnet/System.Linq";
-import type { int } from "@tsonic/types";
+import type { int } from "@tsonic/core/types.js";
 
 const sequence: IEnumerable<int> = null!;
 ```
@@ -63,7 +63,7 @@ const sequence: IEnumerable<int> = null!;
 - **130 namespaces** - All major .NET namespaces
 - **Flat ESM modules** - Clean import paths
 - **Metadata sidecars** - `metadata.json` files for CLR-specific info
-- **Support types** - All CLR interop types imported from `@tsonic/types` (ptr, ref, etc.)
+- **Support types** - Unsafe markers (`ptr<T>`) and primitives imported from `@tsonic/core`
 
 ## Naming Conventions
 
@@ -119,16 +119,17 @@ The script will:
 
 ```
 @tsonic/dotnet/
-├── [Namespace]/           # .NET namespace directories (System, Microsoft, etc.)
-│   ├── index.d.ts         # Public type declarations
-│   ├── index.js           # ESM module stub
-│   ├── bindings.json      # CLR↔TS name mappings
-│   └── internal/          # Internal implementation types
-├── __internal/            # Extension method buckets
-│   └── extensions/
-└── __build/               # Build tooling
-    └── scripts/
-        └── generate.sh    # Type regeneration script
+├── families.json                      # Multi-arity family index
+├── __internal/extensions/index.d.ts   # Extension method buckets
+├── System.d.ts                        # Facade (public API)
+├── System.js                          # Runtime stub (throws)
+├── System/
+│   ├── bindings.json
+│   └── internal/
+│       ├── index.d.ts
+│       └── metadata.json
+├── ... (more namespaces)
+└── __build/scripts/generate.sh        # Type regeneration script
 ```
 
 ## License
