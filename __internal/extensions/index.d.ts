@@ -2613,3 +2613,4 @@ export type ExtensionMethods_System_Xml_XPath<TShape> =
   : TShape & (
     (TShape extends System_Xml_Linq.XNode ? __Ext_System_Xml_XPath_XNode : {})
   );
+
