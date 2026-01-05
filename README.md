@@ -4,7 +4,7 @@ TypeScript type definitions for .NET 10 BCL (Base Class Library).
 
 ## Features
 
-- ✅ **Complete .NET 10 BCL coverage** - 130 namespaces, 4,295 types, 50,720 members
+- ✅ **Complete .NET 10 BCL coverage** - 130 namespaces, 4,296 types, 50,675 members
 - ✅ **camelCase members** - TypeScript-friendly naming conventions
 - ✅ **Friendly generic aliases** - Use `List<T>` instead of `List_1<T>`
 - ✅ **Primitive aliases** - `int`, `long`, `decimal`, etc. via `@tsonic/core`

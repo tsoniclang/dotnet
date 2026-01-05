@@ -18,8 +18,8 @@ PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
 TSBINDGEN_DIR="$PROJECT_DIR/../tsbindgen"
 
 # .NET runtime path
-DOTNET_VERSION="${DOTNET_VERSION:-10.0.0-rc.1.25451.107}"
-DOTNET_HOME="${DOTNET_HOME:-$HOME/dotnet}"
+DOTNET_VERSION="${DOTNET_VERSION:-10.0.1}"
+DOTNET_HOME="${DOTNET_HOME:-$HOME/.dotnet}"
 DOTNET_RUNTIME_PATH="$DOTNET_HOME/shared/Microsoft.NETCore.App/$DOTNET_VERSION"
 
 echo "================================================================"
@@ -58,8 +58,9 @@ find . -maxdepth 1 -type d \
     ! -name '__build' \
     -exec rm -rf {} \; 2>/dev/null || true
 
-# Also remove internal/ and Internal/ at root level
-rm -rf internal Internal 2>/dev/null || true
+# Remove generated files at root
+rm -f *.d.ts *.js families.json 2>/dev/null || true
+rm -rf __internal Internal internal 2>/dev/null || true
 
 echo "  Done"
 
@@ -69,7 +70,7 @@ cd "$TSBINDGEN_DIR"
 dotnet build src/tsbindgen/tsbindgen.csproj -c Release --verbosity quiet
 echo "  Done"
 
-# Generate types with JavaScript-style naming (lowerFirst for PascalCase members)
+# Generate types with JavaScript-style naming (lowerFirst for PascalCase members).
 echo "[3/3] Generating TypeScript declarations..."
 dotnet run --project src/tsbindgen/tsbindgen.csproj --no-build -c Release -- \
     generate -d "$DOTNET_RUNTIME_PATH" -o "$PROJECT_DIR" \
