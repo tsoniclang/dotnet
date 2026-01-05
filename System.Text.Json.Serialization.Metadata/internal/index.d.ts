@@ -68,7 +68,8 @@ export type DefaultJsonTypeInfoResolver = DefaultJsonTypeInfoResolver$instance &
 
 export interface JsonCollectionInfoValues_1$instance<TCollection> {
     elementInfo: JsonTypeInfo;
-    keyInfo: JsonTypeInfo;
+    get keyInfo(): JsonTypeInfo | undefined;
+    set keyInfo(value: JsonTypeInfo);
     numberHandling: JsonNumberHandling;
     get objectCreator(): Func_1<TCollection> | undefined;
     set objectCreator(value: Func_1<TCollection>);

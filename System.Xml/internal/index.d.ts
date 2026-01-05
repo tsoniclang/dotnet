@@ -1293,7 +1293,7 @@ export interface XmlNamedNodeMap$instance {
     getEnumerator(): IEnumerator;
     getNamedItem(name: string): XmlNode | undefined;
     getNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
-    item(index: int): XmlNode;
+    item(index: int): XmlNode | undefined;
     removeNamedItem(name: string): XmlNode | undefined;
     removeNamedItem(localName: string, namespaceURI: string): XmlNode | undefined;
     setNamedItem(node: XmlNode): XmlNode | undefined;
@@ -1441,9 +1441,9 @@ export type XmlNodeChangedEventArgs = XmlNodeChangedEventArgs$instance;
 
 export interface XmlNodeList$instance {
     readonly count: int;
-    readonly itemOf: XmlNode;
+    readonly itemOf: XmlNode | undefined;
     getEnumerator(): IEnumerator;
-    item(index: int): XmlNode;
+    item(index: int): XmlNode | undefined;
 }
 
 
