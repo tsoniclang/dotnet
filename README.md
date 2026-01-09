@@ -112,8 +112,8 @@ The script will:
 3. Generate fresh TypeScript declarations
 
 **Environment variables:**
-- `DOTNET_VERSION` - .NET runtime version (default: `10.0.0-rc.1.25451.107`)
-- `DOTNET_HOME` - .NET installation directory (default: `$HOME/dotnet`)
+- `DOTNET_VERSION` - .NET runtime version (default: `10.0.1`)
+- `DOTNET_HOME` - .NET installation directory (default: `$HOME/.dotnet`)
 
 ### Package Structure
 
