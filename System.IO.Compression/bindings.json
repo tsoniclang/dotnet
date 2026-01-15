@@ -1917,7 +1917,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibCompressionStrategy::DefaultSystem.IO.Compression.ZLibCompressionStrategy",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109578,
           "normalizedSignature": "Default|System.IO.Compression.ZLibCompressionStrategy|static=true|const=true",
           "isStatic": true,
@@ -2516,7 +2516,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.IO.Compression.ZLibCompressionStrategy|static=true|const=true",
           "target": {
@@ -7479,7 +7479,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZipArchiveEntry::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100663467,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Delete|():System.Void|static=false",
@@ -7680,7 +7680,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|():System.Void|static=false",
           "target": {

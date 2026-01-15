@@ -2269,7 +2269,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.HashSet\u00601\u002BAlternateLookup\u00601::Set:HashSet_1",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|:HashSet_1|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4710,7 +4710,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.Comparer\u00601::Default:Comparer_1",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:Comparer_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6649,7 +6649,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EqualityComparer\u00601::Default:EqualityComparer_1",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:EqualityComparer_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

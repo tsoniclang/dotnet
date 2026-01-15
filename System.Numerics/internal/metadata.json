@@ -15474,7 +15474,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector2::Any(System.Numerics.Vector2,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(System.Numerics.Vector2,System.Single):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17703,7 +17703,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::Any(System.Numerics.Vector3,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(System.Numerics.Vector3,System.Single):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -19945,7 +19945,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::Any(System.Numerics.Vector4,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(System.Numerics.Vector4,System.Single):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22873,7 +22873,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::Any(Vector_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Vector_1,T):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22905,7 +22905,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::As(Vector_1):Vector_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(Vector_1):Vector_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

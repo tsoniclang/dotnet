@@ -150,9 +150,9 @@ export abstract class Vector128$instance {
     static all<T>(vector: Vector128_1<T>, value: T): boolean;
     static allWhereAllBitsSet<T>(vector: Vector128_1<T>): boolean;
     static andNot<T>(left: Vector128_1<T>, right: Vector128_1<T>): Vector128_1<T>;
-    static any_<T>(vector: Vector128_1<T>, value: T): boolean;
+    static any<T>(vector: Vector128_1<T>, value: T): boolean;
     static anyWhereAllBitsSet<T>(vector: Vector128_1<T>): boolean;
-    static as_<TFrom, TTo>(vector: Vector128_1<TFrom>): Vector128_1<TTo>;
+    static as<TFrom, TTo>(vector: Vector128_1<TFrom>): Vector128_1<TTo>;
     static asByte<T>(vector: Vector128_1<T>): Vector128_1<System_Internal.Byte>;
     static asDouble<T>(vector: Vector128_1<T>): Vector128_1<System_Internal.Double>;
     static asInt16<T>(vector: Vector128_1<T>): Vector128_1<System_Internal.Int16>;
@@ -474,9 +474,9 @@ export abstract class Vector256$instance {
     static all<T>(vector: Vector256_1<T>, value: T): boolean;
     static allWhereAllBitsSet<T>(vector: Vector256_1<T>): boolean;
     static andNot<T>(left: Vector256_1<T>, right: Vector256_1<T>): Vector256_1<T>;
-    static any_<T>(vector: Vector256_1<T>, value: T): boolean;
+    static any<T>(vector: Vector256_1<T>, value: T): boolean;
     static anyWhereAllBitsSet<T>(vector: Vector256_1<T>): boolean;
-    static as_<TFrom, TTo>(vector: Vector256_1<TFrom>): Vector256_1<TTo>;
+    static as<TFrom, TTo>(vector: Vector256_1<TFrom>): Vector256_1<TTo>;
     static asByte<T>(vector: Vector256_1<T>): Vector256_1<System_Internal.Byte>;
     static asDouble<T>(vector: Vector256_1<T>): Vector256_1<System_Internal.Double>;
     static asInt16<T>(vector: Vector256_1<T>): Vector256_1<System_Internal.Int16>;
@@ -787,9 +787,9 @@ export abstract class Vector512$instance {
     static all<T>(vector: Vector512_1<T>, value: T): boolean;
     static allWhereAllBitsSet<T>(vector: Vector512_1<T>): boolean;
     static andNot<T>(left: Vector512_1<T>, right: Vector512_1<T>): Vector512_1<T>;
-    static any_<T>(vector: Vector512_1<T>, value: T): boolean;
+    static any<T>(vector: Vector512_1<T>, value: T): boolean;
     static anyWhereAllBitsSet<T>(vector: Vector512_1<T>): boolean;
-    static as_<TFrom, TTo>(vector: Vector512_1<TFrom>): Vector512_1<TTo>;
+    static as<TFrom, TTo>(vector: Vector512_1<TFrom>): Vector512_1<TTo>;
     static asByte<T>(vector: Vector512_1<T>): Vector512_1<System_Internal.Byte>;
     static asDouble<T>(vector: Vector512_1<T>): Vector512_1<System_Internal.Double>;
     static asInt16<T>(vector: Vector512_1<T>): Vector512_1<System_Internal.Int16>;
@@ -1099,9 +1099,9 @@ export abstract class Vector64$instance {
     static all<T>(vector: Vector64_1<T>, value: T): boolean;
     static allWhereAllBitsSet<T>(vector: Vector64_1<T>): boolean;
     static andNot<T>(left: Vector64_1<T>, right: Vector64_1<T>): Vector64_1<T>;
-    static any_<T>(vector: Vector64_1<T>, value: T): boolean;
+    static any<T>(vector: Vector64_1<T>, value: T): boolean;
     static anyWhereAllBitsSet<T>(vector: Vector64_1<T>): boolean;
-    static as_<TFrom, TTo>(vector: Vector64_1<TFrom>): Vector64_1<TTo>;
+    static as<TFrom, TTo>(vector: Vector64_1<TFrom>): Vector64_1<TTo>;
     static asByte<T>(vector: Vector64_1<T>): Vector64_1<System_Internal.Byte>;
     static asDouble<T>(vector: Vector64_1<T>): Vector64_1<System_Internal.Double>;
     static asInt16<T>(vector: Vector64_1<T>): Vector64_1<System_Internal.Int16>;

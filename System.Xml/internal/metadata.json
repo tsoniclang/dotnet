@@ -225,7 +225,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NamespaceHandling::DefaultSystem.Xml.NamespaceHandling",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Xml.NamespaceHandling|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -872,7 +872,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeOrder::UnknownSystem.Xml.XmlNodeOrder",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Xml.XmlNodeOrder|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1166,7 +1166,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSpace::DefaultSystem.Xml.XmlSpace",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Xml.XmlSpace|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2072,7 +2072,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2088,7 +2088,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Get(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13667,7 +13667,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Get(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13683,7 +13683,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16326,7 +16326,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlQualifiedName::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -18569,7 +18569,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReaderSettings::Async:System.Boolean",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "normalizedSignature": "Async|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -24496,7 +24496,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriterSettings::Async:System.Boolean",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "normalizedSignature": "Async|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

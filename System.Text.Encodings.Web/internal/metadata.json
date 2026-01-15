@@ -52,7 +52,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.HtmlEncoder::Default:System.Text.Encodings.Web.HtmlEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.HtmlEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -117,7 +117,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.JavaScriptEncoder::Default:System.Text.Encodings.Web.JavaScriptEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.JavaScriptEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -625,7 +625,7 @@
         {
           "stableId": "System.Text.Encodings.Web:System.Text.Encodings.Web.UrlEncoder::Default:System.Text.Encodings.Web.UrlEncoder",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Text.Encodings.Web.UrlEncoder|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

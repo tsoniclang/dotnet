@@ -2506,7 +2506,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NamespaceHandling::DefaultSystem.Xml.NamespaceHandling",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67110174,
           "normalizedSignature": "Default|System.Xml.NamespaceHandling|static=true|const=true",
           "isStatic": true,
@@ -3072,7 +3072,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Xml.NamespaceHandling|static=true|const=true",
           "target": {
@@ -9059,7 +9059,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNodeOrder::UnknownSystem.Xml.XmlNodeOrder",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67110116,
           "normalizedSignature": "Unknown|System.Xml.XmlNodeOrder|static=true|const=true",
           "isStatic": true,
@@ -9644,7 +9644,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Xml.XmlNodeOrder|static=true|const=true",
           "target": {
@@ -11287,7 +11287,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlSpace::DefaultSystem.Xml.XmlSpace",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67110551,
           "normalizedSignature": "Default|System.Xml.XmlSpace|static=true|const=true",
           "isStatic": true,
@@ -11863,7 +11863,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Xml.XmlSpace|static=true|const=true",
           "target": {
@@ -14182,7 +14182,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100666163,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
@@ -14196,7 +14196,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.NameTable::Get(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100666164,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
@@ -14245,7 +14245,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.String):System.String|static=false",
           "target": {
@@ -14255,7 +14255,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -39780,7 +39780,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Get(System.Char[],System.Int32,System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100666479,
           "canonicalSignature": "(System.Char[],System.Int32,System.Int32):System.String",
           "normalizedSignature": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
@@ -39794,7 +39794,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlNameTable::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100666480,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
@@ -39840,7 +39840,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Char[],System.Int32,System.Int32):System.String|static=false",
           "target": {
@@ -39850,7 +39850,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.String):System.String|static=false",
           "target": {
@@ -45780,7 +45780,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlQualifiedName::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385877329,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
@@ -45940,7 +45940,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {
@@ -49322,7 +49322,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlReaderSettings::Async:System.Boolean",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "metadataToken": 385877521,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Async|:System.Boolean|static=false|accessor=getset",
@@ -49681,7 +49681,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "async_",
+          "tsName": "async",
           "isStatic": false,
           "tsSignatureId": "Async|:System.Boolean|static=false|accessor=getset",
           "target": {
@@ -62487,7 +62487,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XmlWriterSettings::Async:System.Boolean",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "metadataToken": 385877813,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Async|:System.Boolean|static=false|accessor=getset",
@@ -62793,7 +62793,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "async_",
+          "tsName": "async",
           "isStatic": false,
           "tsSignatureId": "Async|:System.Boolean|static=false|accessor=getset",
           "target": {

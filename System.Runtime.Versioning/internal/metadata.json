@@ -136,7 +136,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Versioning.ResourceScope::PrivateSystem.Runtime.Versioning.ResourceScope",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Runtime.Versioning.ResourceScope|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -3748,7 +3748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Symbol:System.Char",
           "clrName": "Symbol",
-          "tsEmitName": "symbol_",
+          "tsEmitName": "symbol",
           "metadataToken": 385878727,
           "canonicalSignature": ":System.Char",
           "normalizedSignature": "Symbol|:System.Char|static=false|accessor=get",
@@ -3953,7 +3953,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "symbol_",
+          "tsName": "symbol",
           "isStatic": false,
           "tsSignatureId": "Symbol|:System.Char|static=false|accessor=get",
           "target": {
@@ -4510,7 +4510,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Return(T[],System.Boolean):System.Void",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "metadataToken": 100677740,
           "canonicalSignature": "(T[],System.Boolean):System.Void",
           "normalizedSignature": "Return|(T[],System.Boolean):System.Void|static=false",
@@ -4573,7 +4573,7 @@
           }
         },
         {
-          "tsName": "return_",
+          "tsName": "return",
           "isStatic": false,
           "tsSignatureId": "Return|(T[],System.Boolean):System.Void|static=false",
           "target": {

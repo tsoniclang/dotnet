@@ -29,7 +29,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarAlgorithmType::UnknownSystem.Globalization.CalendarAlgorithmType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Globalization.CalendarAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -742,7 +742,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::NumberSystem.Globalization.NumberStyles",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "normalizedSignature": "Number|System.Globalization.NumberStyles|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -769,7 +769,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::AnySystem.Globalization.NumberStyles",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|System.Globalization.NumberStyles|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -10827,7 +10827,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::String:System.String",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

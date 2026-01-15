@@ -38,7 +38,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfoKind::ObjectSystem.Text.Json.Serialization.Metadata.JsonTypeInfoKind",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.Text.Json.Serialization.Metadata.JsonTypeInfoKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -853,7 +853,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonPropertyInfo::Get:System.Func_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|:System.Func_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -868,7 +868,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonPropertyInfo::Set:System.Action_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|:System.Action_2[[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Object,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1588,7 +1588,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.Metadata.JsonTypeInfo::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

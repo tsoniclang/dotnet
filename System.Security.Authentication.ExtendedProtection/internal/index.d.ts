@@ -19,14 +19,14 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Attribute, Boolean as ClrBoolean, Enum, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum ChannelBindingKind {
-    unknown_ = 0,
+    unknown = 0,
     unique = 25,
     endpoint = 26
 }
 
 
 export enum PolicyEnforcement {
-    never_ = 0,
+    never = 0,
     whenSupported = 1,
     always = 2
 }

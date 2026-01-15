@@ -83,7 +83,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::BreakSystem.Reflection.Emit.FlowControl",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -137,7 +137,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::ReturnSystem.Reflection.Emit.FlowControl",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -146,7 +146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::ThrowSystem.Reflection.Emit.FlowControl",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2543,7 +2543,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicMethod::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6698,7 +6698,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::BreakSystem.Reflection.Emit.OpCode",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -7301,7 +7301,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::SwitchSystem.Reflection.Emit.OpCode",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -7760,7 +7760,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::ThrowSystem.Reflection.Emit.OpCode",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -8714,7 +8714,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::ReadonlySystem.Reflection.Emit.OpCode",
           "clrName": "Readonly",
-          "tsEmitName": "readonly_",
+          "tsEmitName": "readonly",
           "normalizedSignature": "Readonly|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

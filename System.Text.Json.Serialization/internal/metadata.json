@@ -29,7 +29,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::NeverSystem.Text.Json.Serialization.JsonIgnoreCondition",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "normalizedSignature": "Never|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -348,7 +348,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::DefaultSystem.Text.Json.Serialization.JsonSourceGenerationMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -719,7 +719,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -859,7 +859,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -963,7 +963,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

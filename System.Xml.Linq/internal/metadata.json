@@ -3022,7 +3022,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String):System.Xml.Linq.XName",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String):System.Xml.Linq.XName|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3038,7 +3038,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String,System.String):System.Xml.Linq.XName",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String,System.String):System.Xml.Linq.XName|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3137,7 +3137,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Namespace:System.Xml.Linq.XNamespace",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.Xml.Linq.XNamespace|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3215,7 +3215,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::Get(System.String):System.Xml.Linq.XNamespace",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String):System.Xml.Linq.XNamespace|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

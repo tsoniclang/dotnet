@@ -287,7 +287,7 @@ export type Dictionary_2_ValueCollection_Enumerator<TKey, TValue> = Dictionary_2
 
 
 export interface HashSet_1_AlternateLookup_1$instance<T, TAlternate> {
-    readonly set_: HashSet_1<T>;
+    readonly set: HashSet_1<T>;
     add(item: TAlternate): boolean;
     contains(item: TAlternate): boolean;
     remove(item: TAlternate): boolean;
@@ -622,7 +622,7 @@ export interface Comparer_1$instance<T> {
 
 
 export const Comparer_1: {
-    readonly default_: unknown;
+    readonly default: unknown;
     create<T>(comparison: Comparison_1<T>): Comparer_1<T>;
 };
 
@@ -772,7 +772,7 @@ export interface EqualityComparer_1$instance<T> {
 
 
 export const EqualityComparer_1: {
-    readonly default_: unknown;
+    readonly default: unknown;
     create<T>(equals: Func_3<T, T, System_Internal.Boolean>, getHashCode?: Func_2<T, System_Internal.Int32>): EqualityComparer_1<T>;
 };
 
@@ -1735,7 +1735,7 @@ export abstract class CollectionExtensions$instance {
     static addRange<T>(list: List_1<T>, source: ReadOnlySpan_1<T>): void;
     static asReadOnly<TKey, TValue>(dictionary: IDictionary_2<TKey, TValue>): ReadOnlyDictionary_2<TKey, TValue>;
     static asReadOnly<T>(list: IList_1<T>): ReadOnlyCollection_1<T>;
-    static asReadOnly<T>(set_: ISet_1<T>): ReadOnlySet_1<T>;
+    static asReadOnly<T>(set: ISet_1<T>): ReadOnlySet_1<T>;
     static copyTo<T>(list: List_1<T>, destination: Span_1<T>): void;
     static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey, defaultValue: TValue): TValue;
     static getValueOrDefault<TKey, TValue>(dictionary: IReadOnlyDictionary_2<TKey, TValue>, key: TKey): TValue | undefined;

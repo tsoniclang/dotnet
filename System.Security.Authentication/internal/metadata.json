@@ -111,7 +111,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::NullSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -351,7 +351,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::DefaultSystem.Security.Authentication.SslProtocols",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

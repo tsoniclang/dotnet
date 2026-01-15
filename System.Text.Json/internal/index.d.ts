@@ -50,23 +50,23 @@ export enum JsonTokenType {
     endArray = 4,
     propertyName = 5,
     comment = 6,
-    string_ = 7,
-    number_ = 8,
-    true_ = 9,
-    false_ = 10,
-    null_ = 11
+    string = 7,
+    number = 8,
+    true = 9,
+    false = 10,
+    null = 11
 }
 
 
 export enum JsonValueKind {
     undefined = 0,
-    object_ = 1,
+    object = 1,
     array = 2,
-    string_ = 3,
-    number_ = 4,
-    true_ = 5,
-    false_ = 6,
-    null_ = 7
+    string = 3,
+    number = 4,
+    true = 5,
+    false = 6,
+    null = 7
 }
 
 
@@ -467,10 +467,10 @@ export interface JsonSerializerOptions$instance {
     writeIndented: boolean;
     addContext<TContext extends JsonSerializerContext>(): void;
     getConverter(typeToConvert: Type): JsonConverter;
-    getTypeInfo(type_: Type): JsonTypeInfo;
+    getTypeInfo(type: Type): JsonTypeInfo;
     makeReadOnly(): void;
     makeReadOnly(populateMissingResolver: boolean): void;
-    tryGetTypeInfo(type_: Type, typeInfo: JsonTypeInfo): boolean;
+    tryGetTypeInfo(type: Type, typeInfo: JsonTypeInfo): boolean;
 }
 
 
@@ -478,7 +478,7 @@ export const JsonSerializerOptions: {
     new(): JsonSerializerOptions;
     new(options: JsonSerializerOptions): JsonSerializerOptions;
     new(defaults: JsonSerializerDefaults): JsonSerializerOptions;
-    readonly default_: JsonSerializerOptions;
+    readonly default: JsonSerializerOptions;
     readonly web: JsonSerializerOptions;
     readonly strict: JsonSerializerOptions;
 };

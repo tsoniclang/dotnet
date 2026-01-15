@@ -18,14 +18,14 @@ import type { Action_1, Action_2, Boolean as ClrBoolean, Byte, Char, DateOnly, D
 
 export enum JsonTypeInfoKind {
     none = 0,
-    object_ = 1,
+    object = 1,
     enumerable = 2,
     dictionary = 3
 }
 
 
 export interface IJsonTypeInfoResolver$instance {
-    getTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
+    getTypeInfo(type: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
 
 
@@ -48,7 +48,7 @@ export type JsonDerivedType = JsonDerivedType$instance;
 
 export interface DefaultJsonTypeInfoResolver$instance {
     readonly modifiers: IList_1<Action_1<JsonTypeInfo>>;
-    getTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
+    getTypeInfo(type: Type, options: JsonSerializerOptions): JsonTypeInfo;
 }
 
 
@@ -168,8 +168,8 @@ export interface JsonPropertyInfo$instance {
     get customConverter(): JsonConverter | undefined;
     set customConverter(value: JsonConverter);
     readonly declaringType: Type;
-    get get_(): Func_2<unknown, unknown | undefined> | undefined;
-    set get_(value: Func_2<unknown, unknown | undefined>);
+    get get(): Func_2<unknown, unknown | undefined> | undefined;
+    set get(value: Func_2<unknown, unknown | undefined>);
     isExtensionData: boolean;
     isGetNullable: boolean;
     isRequired: boolean;
@@ -180,7 +180,7 @@ export interface JsonPropertyInfo$instance {
     readonly options: JsonSerializerOptions;
     order: int;
     readonly propertyType: Type;
-    set_: Action_2<unknown, unknown | undefined>;
+    set: Action_2<unknown, unknown | undefined>;
     get shouldSerialize(): Func_3<unknown, unknown | undefined, System_Internal.Boolean> | undefined;
     set shouldSerialize(value: Func_3<unknown, unknown | undefined, System_Internal.Boolean>);
 }
@@ -247,7 +247,7 @@ export interface JsonTypeInfo$instance {
     set polymorphismOptions(value: JsonPolymorphismOptions);
     preferredPropertyObjectCreationHandling: Nullable_1<JsonObjectCreationHandling>;
     readonly properties: IList_1<JsonPropertyInfo>;
-    readonly type_: Type;
+    readonly type: Type;
     unmappedMemberHandling: Nullable_1<JsonUnmappedMemberHandling>;
     createJsonPropertyInfo(propertyType: Type, name: string): JsonPropertyInfo;
     makeReadOnly(): void;
@@ -256,7 +256,7 @@ export interface JsonTypeInfo$instance {
 
 export const JsonTypeInfo: {
     createJsonTypeInfo<T>(options: JsonSerializerOptions): JsonTypeInfo_1<T>;
-    createJsonTypeInfo(type_: Type, options: JsonSerializerOptions): JsonTypeInfo;
+    createJsonTypeInfo(type: Type, options: JsonSerializerOptions): JsonTypeInfo;
 };
 
 

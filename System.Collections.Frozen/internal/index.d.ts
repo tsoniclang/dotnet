@@ -53,7 +53,7 @@ export type FrozenDictionary_2_Enumerator<TKey, TValue> = FrozenDictionary_2_Enu
 
 
 export interface FrozenSet_1_AlternateLookup_1$instance<T, TAlternate> {
-    readonly set_: FrozenSet_1<T>;
+    readonly set: FrozenSet_1<T>;
     contains(item: TAlternate): boolean;
     tryGetValue(equalValue: TAlternate, actualValue: T): boolean;
 }

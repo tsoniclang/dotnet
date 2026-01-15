@@ -198,7 +198,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::StringSystem.Text.Json.JsonTokenType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -207,7 +207,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::NumberSystem.Text.Json.JsonTokenType",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "normalizedSignature": "Number|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -216,7 +216,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::TrueSystem.Text.Json.JsonTokenType",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "normalizedSignature": "True|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -225,7 +225,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::FalseSystem.Text.Json.JsonTokenType",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "normalizedSignature": "False|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -234,7 +234,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::NullSystem.Text.Json.JsonTokenType",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -278,7 +278,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::ObjectSystem.Text.Json.JsonValueKind",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -296,7 +296,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::StringSystem.Text.Json.JsonValueKind",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -305,7 +305,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::NumberSystem.Text.Json.JsonValueKind",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "normalizedSignature": "Number|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -314,7 +314,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::TrueSystem.Text.Json.JsonValueKind",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "normalizedSignature": "True|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -323,7 +323,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::FalseSystem.Text.Json.JsonValueKind",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "normalizedSignature": "False|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -332,7 +332,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::NullSystem.Text.Json.JsonValueKind",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3996,7 +3996,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializerOptions::Default:System.Text.Json.JsonSerializerOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Text.Json.JsonSerializerOptions|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

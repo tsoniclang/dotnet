@@ -54,7 +54,7 @@ export enum SelectionTypes {
 export enum ViewTechnology {
     passthrough = 0,
     windowsForms = 1,
-    default_ = 2
+    default = 2
 }
 
 
@@ -612,9 +612,9 @@ export type DesignerVerbCollection = DesignerVerbCollection$instance & __Designe
 
 export interface DesigntimeLicenseContext$instance extends LicenseContext {
     readonly usageMode: LicenseUsageMode;
-    getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string | undefined;
-    getService(type_: Type): unknown | undefined;
-    setSavedLicenseKey(type_: Type, key: string): void;
+    getSavedLicenseKey(type: Type, resourceAssembly: Assembly): string | undefined;
+    getService(type: Type): unknown | undefined;
+    setSavedLicenseKey(type: Type, key: string): void;
 }
 
 
@@ -654,7 +654,7 @@ export const HelpKeywordAttribute: {
     new(): HelpKeywordAttribute;
     new(keyword: string): HelpKeywordAttribute;
     new(t: Type): HelpKeywordAttribute;
-    readonly default_: HelpKeywordAttribute;
+    readonly default: HelpKeywordAttribute;
 };
 
 
@@ -733,7 +733,7 @@ export const StandardCommands: {
     readonly documentOutline: CommandID;
     readonly copy: CommandID;
     readonly cut: CommandID;
-    readonly delete_: CommandID;
+    readonly delete: CommandID;
     readonly group: CommandID;
     readonly horizSpaceConcatenate: CommandID;
     readonly horizSpaceDecrease: CommandID;
@@ -797,7 +797,7 @@ export type StandardToolWindows = StandardToolWindows$instance;
 
 export interface TypeDescriptionProviderService$instance {
     getProvider(instance: unknown): TypeDescriptionProvider;
-    getProvider(type_: Type): TypeDescriptionProvider;
+    getProvider(type: Type): TypeDescriptionProvider;
 }
 
 

@@ -93,7 +93,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeAccessRights::DeleteSystem.IO.Pipes.PipeAccessRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -209,7 +209,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeDirection::InSystem.IO.Pipes.PipeDirection",
           "clrName": "In",
-          "tsEmitName": "in_",
+          "tsEmitName": "in",
           "normalizedSignature": "In|System.IO.Pipes.PipeDirection|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

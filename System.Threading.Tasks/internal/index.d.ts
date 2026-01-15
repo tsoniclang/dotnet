@@ -176,7 +176,7 @@ export interface ParallelLoopState$instance {
     readonly isStopped: boolean;
     readonly lowestBreakIteration: Nullable_1<System_Internal.Int64>;
     readonly shouldExitCurrentIteration: boolean;
-    break_(): void;
+    break(): void;
     stop(): void;
 }
 
@@ -315,7 +315,7 @@ export const Task: {
     whenEach(tasks: ReadOnlySpan_1<Task>): IAsyncEnumerable_1<Task>;
     whenEach(...tasks: Task[]): IAsyncEnumerable_1<Task>;
     whenEach<TResult>(...tasks: Task_1<TResult>[]): IAsyncEnumerable_1<Task_1<TResult>>;
-    yield_(): YieldAwaitable;
+    yield(): YieldAwaitable;
 };
 
 
@@ -624,7 +624,7 @@ export interface TaskScheduler$instance {
 
 
 export const TaskScheduler: {
-    readonly default_: TaskScheduler;
+    readonly default: TaskScheduler;
     readonly current: TaskScheduler;
     fromCurrentSynchronizationContext(): TaskScheduler;
 };
@@ -667,18 +667,18 @@ export const UnobservedTaskExceptionEventArgs: {
 export type UnobservedTaskExceptionEventArgs = UnobservedTaskExceptionEventArgs$instance;
 
 export abstract class Parallel$instance {
-    static for_<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for_(fromInclusive: int, toExclusive: int, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
-    static for_(fromInclusive: int, toExclusive: int, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
-    static for_<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for_(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
-    static for_(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
-    static for_<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for_(fromInclusive: long, toExclusive: long, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
-    static for_(fromInclusive: long, toExclusive: long, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
-    static for_<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
-    static for_(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
-    static for_(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
+    static for<TLocal>(fromInclusive: int, toExclusive: int, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for(fromInclusive: int, toExclusive: int, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
+    static for(fromInclusive: int, toExclusive: int, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
+    static for<TLocal>(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int32, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int32>): ParallelLoopResult;
+    static for(fromInclusive: int, toExclusive: int, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int32, ParallelLoopState>): ParallelLoopResult;
+    static for<TLocal>(fromInclusive: long, toExclusive: long, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for(fromInclusive: long, toExclusive: long, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
+    static for(fromInclusive: long, toExclusive: long, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
+    static for<TLocal>(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, localInit: Func_1<TLocal>, body: Func_4<System_Internal.Int64, ParallelLoopState, TLocal, TLocal>, localFinally: Action_1<TLocal>): ParallelLoopResult;
+    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_1<System_Internal.Int64>): ParallelLoopResult;
+    static for(fromInclusive: long, toExclusive: long, parallelOptions: ParallelOptions, body: Action_2<System_Internal.Int64, ParallelLoopState>): ParallelLoopResult;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, body: Func_3<T, CancellationToken, ValueTask>): Task;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, cancellationToken: CancellationToken, body: Func_3<T, CancellationToken, ValueTask>): Task;
     static forAsync<T extends IBinaryInteger_1<T>>(fromInclusive: T, toExclusive: T, parallelOptions: ParallelOptions, body: Func_3<T, CancellationToken, ValueTask>): Task;

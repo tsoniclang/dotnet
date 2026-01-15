@@ -32,7 +32,7 @@ import type { ArgumentException, Array as ClrArray, AsyncCallback, Attribute, Bo
 export enum BindableSupport {
     no = 0,
     yes = 1,
-    default_ = 2
+    default = 2
 }
 
 
@@ -54,7 +54,7 @@ export enum DataObjectMethodType {
     select = 1,
     update = 2,
     insert = 3,
-    delete_ = 4
+    delete = 4
 }
 
 
@@ -67,7 +67,7 @@ export enum DesignerSerializationVisibility {
 
 export enum EditorBrowsableState {
     always = 0,
-    never_ = 1,
+    never = 1,
     advanced = 2
 }
 
@@ -104,7 +104,7 @@ export enum ListSortDirection {
 
 
 export enum MaskedTextResultHint {
-    unknown_ = 0,
+    unknown = 0,
     characterEscaped = 1,
     noEffect = 2,
     sideEffect = 3,
@@ -123,7 +123,7 @@ export enum MaskedTextResultHint {
 
 
 export enum PropertyTabScope {
-    static_ = 0,
+    static = 0,
     global = 1,
     document = 2,
     component = 3
@@ -514,7 +514,7 @@ export interface AmbientValueAttribute$instance extends Attribute {
 
 
 export const AmbientValueAttribute: {
-    new(type_: Type, value: string): AmbientValueAttribute;
+    new(type: Type, value: string): AmbientValueAttribute;
     new(value: char): AmbientValueAttribute;
     new(value: byte): AmbientValueAttribute;
     new(value: short): AmbientValueAttribute;
@@ -615,7 +615,7 @@ export interface AttributeProviderAttribute$instance extends Attribute {
 export const AttributeProviderAttribute: {
     new(typeName: string): AttributeProviderAttribute;
     new(typeName: string, propertyName: string): AttributeProviderAttribute;
-    new(type_: Type): AttributeProviderAttribute;
+    new(type: Type): AttributeProviderAttribute;
 };
 
 
@@ -684,7 +684,7 @@ export const BindableAttribute: {
     new(flags: BindableSupport, direction: BindingDirection): BindableAttribute;
     readonly yes: BindableAttribute;
     readonly no: BindableAttribute;
-    readonly default_: BindableAttribute;
+    readonly default: BindableAttribute;
 };
 
 
@@ -775,7 +775,7 @@ export const BrowsableAttribute: {
     new(browsable: boolean): BrowsableAttribute;
     readonly yes: BrowsableAttribute;
     readonly no: BrowsableAttribute;
-    readonly default_: BrowsableAttribute;
+    readonly default: BrowsableAttribute;
 };
 
 
@@ -821,7 +821,7 @@ export const CategoryAttribute: {
     readonly asynchronous: CategoryAttribute;
     readonly behavior: CategoryAttribute;
     readonly data: CategoryAttribute;
-    readonly default_: CategoryAttribute;
+    readonly default: CategoryAttribute;
     readonly design: CategoryAttribute;
     readonly dragDrop: CategoryAttribute;
     readonly focus: CategoryAttribute;
@@ -893,7 +893,7 @@ export const ComplexBindingPropertiesAttribute: {
     new(): ComplexBindingPropertiesAttribute;
     new(dataSource: string): ComplexBindingPropertiesAttribute;
     new(dataSource: string, dataMember: string): ComplexBindingPropertiesAttribute;
-    readonly default_: ComplexBindingPropertiesAttribute;
+    readonly default: ComplexBindingPropertiesAttribute;
 };
 
 
@@ -954,7 +954,7 @@ export interface ComponentConverter$instance extends ReferenceConverter {
 
 
 export const ComponentConverter: {
-    new(type_: Type): ComponentConverter;
+    new(type: Type): ComponentConverter;
 };
 
 
@@ -1103,7 +1103,7 @@ export const DataObjectAttribute: {
     new(isDataObject: boolean): DataObjectAttribute;
     readonly dataObject: DataObjectAttribute;
     readonly nonDataObject: DataObjectAttribute;
-    readonly default_: DataObjectAttribute;
+    readonly default: DataObjectAttribute;
 };
 
 
@@ -1228,7 +1228,7 @@ export interface DefaultBindingPropertyAttribute$instance extends Attribute {
 export const DefaultBindingPropertyAttribute: {
     new(): DefaultBindingPropertyAttribute;
     new(name: string): DefaultBindingPropertyAttribute;
-    readonly default_: DefaultBindingPropertyAttribute;
+    readonly default: DefaultBindingPropertyAttribute;
 };
 
 
@@ -1243,7 +1243,7 @@ export interface DefaultEventAttribute$instance extends Attribute {
 
 export const DefaultEventAttribute: {
     new(name: string): DefaultEventAttribute;
-    readonly default_: DefaultEventAttribute;
+    readonly default: DefaultEventAttribute;
 };
 
 
@@ -1258,7 +1258,7 @@ export interface DefaultPropertyAttribute$instance extends Attribute {
 
 export const DefaultPropertyAttribute: {
     new(name: string): DefaultPropertyAttribute;
-    readonly default_: DefaultPropertyAttribute;
+    readonly default: DefaultPropertyAttribute;
 };
 
 
@@ -1272,7 +1272,7 @@ export interface DefaultValueAttribute$instance extends Attribute {
 
 
 export const DefaultValueAttribute: {
-    new(type_: Type, value: string): DefaultValueAttribute;
+    new(type: Type, value: string): DefaultValueAttribute;
     new(value: char): DefaultValueAttribute;
     new(value: byte): DefaultValueAttribute;
     new(value: short): DefaultValueAttribute;
@@ -1303,7 +1303,7 @@ export interface DescriptionAttribute$instance extends Attribute {
 export const DescriptionAttribute: {
     new(): DescriptionAttribute;
     new(description: string): DescriptionAttribute;
-    readonly default_: DescriptionAttribute;
+    readonly default: DescriptionAttribute;
 };
 
 
@@ -1342,7 +1342,7 @@ export const DesignerCategoryAttribute: {
     new(): DesignerCategoryAttribute;
     new(category: string): DesignerCategoryAttribute;
     readonly component: DesignerCategoryAttribute;
-    readonly default_: DesignerCategoryAttribute;
+    readonly default: DesignerCategoryAttribute;
     readonly form: DesignerCategoryAttribute;
     readonly generic: DesignerCategoryAttribute;
 };
@@ -1363,7 +1363,7 @@ export const DesignerSerializationVisibilityAttribute: {
     readonly content: DesignerSerializationVisibilityAttribute;
     readonly hidden: DesignerSerializationVisibilityAttribute;
     readonly visible: DesignerSerializationVisibilityAttribute;
-    readonly default_: DesignerSerializationVisibilityAttribute;
+    readonly default: DesignerSerializationVisibilityAttribute;
 };
 
 
@@ -1381,7 +1381,7 @@ export const DesignOnlyAttribute: {
     new(isDesignOnly: boolean): DesignOnlyAttribute;
     readonly yes: DesignOnlyAttribute;
     readonly no: DesignOnlyAttribute;
-    readonly default_: DesignOnlyAttribute;
+    readonly default: DesignOnlyAttribute;
 };
 
 
@@ -1400,7 +1400,7 @@ export const DesignTimeVisibleAttribute: {
     new(): DesignTimeVisibleAttribute;
     readonly yes: DesignTimeVisibleAttribute;
     readonly no: DesignTimeVisibleAttribute;
-    readonly default_: DesignTimeVisibleAttribute;
+    readonly default: DesignTimeVisibleAttribute;
 };
 
 
@@ -1417,7 +1417,7 @@ export interface DisplayNameAttribute$instance extends Attribute {
 export const DisplayNameAttribute: {
     new(): DisplayNameAttribute;
     new(displayName: string): DisplayNameAttribute;
-    readonly default_: DisplayNameAttribute;
+    readonly default: DisplayNameAttribute;
 };
 
 
@@ -1460,7 +1460,7 @@ export const EditorAttribute: {
     new(): EditorAttribute;
     new(typeName: string, baseTypeName: string): EditorAttribute;
     new(typeName: string, baseType: Type): EditorAttribute;
-    new(type_: Type, baseType: Type): EditorAttribute;
+    new(type: Type, baseType: Type): EditorAttribute;
 };
 
 
@@ -1502,7 +1502,7 @@ export interface EnumConverter$instance extends TypeConverter {
 
 
 export const EnumConverter: {
-    new(type_: Type): EnumConverter;
+    new(type: Type): EnumConverter;
 };
 
 
@@ -1671,7 +1671,7 @@ export const ImmutableObjectAttribute: {
     new(immutable: boolean): ImmutableObjectAttribute;
     readonly yes: ImmutableObjectAttribute;
     readonly no: ImmutableObjectAttribute;
-    readonly default_: ImmutableObjectAttribute;
+    readonly default: ImmutableObjectAttribute;
 };
 
 
@@ -1692,7 +1692,7 @@ export const InheritanceAttribute: {
     readonly inherited: InheritanceAttribute;
     readonly inheritedReadOnly: InheritanceAttribute;
     readonly notInherited: InheritanceAttribute;
-    readonly default_: InheritanceAttribute;
+    readonly default: InheritanceAttribute;
 };
 
 
@@ -1841,9 +1841,9 @@ export type License = License$instance & __License$views;
 
 export interface LicenseContext$instance {
     readonly usageMode: LicenseUsageMode;
-    getSavedLicenseKey(type_: Type, resourceAssembly: Assembly): string | undefined;
-    getService(type_: Type): unknown | undefined;
-    setSavedLicenseKey(type_: Type, key: string): void;
+    getSavedLicenseKey(type: Type, resourceAssembly: Assembly): string | undefined;
+    getService(type: Type): unknown | undefined;
+    setSavedLicenseKey(type: Type, key: string): void;
 }
 
 
@@ -1868,10 +1868,10 @@ export interface LicenseException$instance extends SystemException {
 
 
 export const LicenseException: {
-    new(type_: Type): LicenseException;
-    new(type_: Type, instance: unknown): LicenseException;
-    new(type_: Type, instance: unknown, message: string): LicenseException;
-    new(type_: Type, instance: unknown, message: string, innerException: Exception): LicenseException;
+    new(type: Type): LicenseException;
+    new(type: Type, instance: unknown): LicenseException;
+    new(type: Type, instance: unknown, message: string): LicenseException;
+    new(type: Type, instance: unknown, message: string, innerException: Exception): LicenseException;
 };
 
 
@@ -1890,22 +1890,22 @@ export const LicenseManager: {
     new(): LicenseManager;
     currentContext: LicenseContext;
     readonly usageMode: LicenseUsageMode;
-    createWithContext(type_: Type, creationContext: LicenseContext, args: unknown[]): unknown | undefined;
-    createWithContext(type_: Type, creationContext: LicenseContext): unknown | undefined;
-    isLicensed(type_: Type): boolean;
-    isValid(type_: Type, instance: unknown, license: License): boolean;
-    isValid(type_: Type): boolean;
+    createWithContext(type: Type, creationContext: LicenseContext, args: unknown[]): unknown | undefined;
+    createWithContext(type: Type, creationContext: LicenseContext): unknown | undefined;
+    isLicensed(type: Type): boolean;
+    isValid(type: Type, instance: unknown, license: License): boolean;
+    isValid(type: Type): boolean;
     lockContext(contextUser: unknown): void;
     unlockContext(contextUser: unknown): void;
-    validate(type_: Type, instance: unknown): License | undefined;
-    validate(type_: Type): void;
+    validate(type: Type, instance: unknown): License | undefined;
+    validate(type: Type): void;
 };
 
 
 export type LicenseManager = LicenseManager$instance;
 
 export interface LicenseProvider$instance {
-    getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License | undefined;
+    getLicense(context: LicenseContext, type: Type, instance: unknown, allowExceptions: boolean): License | undefined;
 }
 
 
@@ -1926,15 +1926,15 @@ export interface LicenseProviderAttribute$instance extends Attribute {
 export const LicenseProviderAttribute: {
     new(): LicenseProviderAttribute;
     new(typeName: string): LicenseProviderAttribute;
-    new(type_: Type): LicenseProviderAttribute;
-    readonly default_: LicenseProviderAttribute;
+    new(type: Type): LicenseProviderAttribute;
+    readonly default: LicenseProviderAttribute;
 };
 
 
 export type LicenseProviderAttribute = LicenseProviderAttribute$instance;
 
 export interface LicFileLicenseProvider$instance extends LicenseProvider {
-    getLicense(context: LicenseContext, type_: Type, instance: unknown, allowExceptions: boolean): License | undefined;
+    getLicense(context: LicenseContext, type: Type, instance: unknown, allowExceptions: boolean): License | undefined;
 }
 
 
@@ -1958,7 +1958,7 @@ export const ListBindableAttribute: {
     new(flags: BindableSupport): ListBindableAttribute;
     readonly yes: ListBindableAttribute;
     readonly no: ListBindableAttribute;
-    readonly default_: ListBindableAttribute;
+    readonly default: ListBindableAttribute;
 };
 
 
@@ -2032,7 +2032,7 @@ export const LocalizableAttribute: {
     new(isLocalizable: boolean): LocalizableAttribute;
     readonly yes: LocalizableAttribute;
     readonly no: LocalizableAttribute;
-    readonly default_: LocalizableAttribute;
+    readonly default: LocalizableAttribute;
 };
 
 
@@ -2051,7 +2051,7 @@ export interface LookupBindingPropertiesAttribute$instance extends Attribute {
 export const LookupBindingPropertiesAttribute: {
     new(): LookupBindingPropertiesAttribute;
     new(dataSource: string, displayMember: string, valueMember: string, lookupMember: string): LookupBindingPropertiesAttribute;
-    readonly default_: LookupBindingPropertiesAttribute;
+    readonly default: LookupBindingPropertiesAttribute;
 };
 
 
@@ -2138,8 +2138,8 @@ export interface MaskedTextProvider$instance {
     replace(input: string, position: int): boolean;
     replace(input: string, position: int, testPosition: int, resultHint: MaskedTextResultHint): boolean;
     replace(input: string, startPosition: int, endPosition: int, testPosition: int, resultHint: MaskedTextResultHint): boolean;
-    set_(input: string): boolean;
-    set_(input: string, testPosition: int, resultHint: MaskedTextResultHint): boolean;
+    set(input: string): boolean;
+    set(input: string, testPosition: int, resultHint: MaskedTextResultHint): boolean;
     toDisplayString(): string;
     toString(): string;
     toString(ignorePasswordChar: boolean): string;
@@ -2212,7 +2212,7 @@ export const MergablePropertyAttribute: {
     new(allowMerge: boolean): MergablePropertyAttribute;
     readonly yes: MergablePropertyAttribute;
     readonly no: MergablePropertyAttribute;
-    readonly default_: MergablePropertyAttribute;
+    readonly default: MergablePropertyAttribute;
 };
 
 
@@ -2270,7 +2270,7 @@ export const NotifyParentPropertyAttribute: {
     new(notifyParent: boolean): NotifyParentPropertyAttribute;
     readonly yes: NotifyParentPropertyAttribute;
     readonly no: NotifyParentPropertyAttribute;
-    readonly default_: NotifyParentPropertyAttribute;
+    readonly default: NotifyParentPropertyAttribute;
 };
 
 
@@ -2309,7 +2309,7 @@ export interface NullableConverter$instance extends TypeConverter {
 
 
 export const NullableConverter: {
-    new(type_: Type): NullableConverter;
+    new(type: Type): NullableConverter;
 };
 
 
@@ -2326,7 +2326,7 @@ export interface ParenthesizePropertyNameAttribute$instance extends Attribute {
 export const ParenthesizePropertyNameAttribute: {
     new(): ParenthesizePropertyNameAttribute;
     new(needParenthesis: boolean): ParenthesizePropertyNameAttribute;
-    readonly default_: ParenthesizePropertyNameAttribute;
+    readonly default: ParenthesizePropertyNameAttribute;
 };
 
 
@@ -2345,7 +2345,7 @@ export const PasswordPropertyTextAttribute: {
     new(password: boolean): PasswordPropertyTextAttribute;
     readonly yes: PasswordPropertyTextAttribute;
     readonly no: PasswordPropertyTextAttribute;
-    readonly default_: PasswordPropertyTextAttribute;
+    readonly default: PasswordPropertyTextAttribute;
 };
 
 
@@ -2507,7 +2507,7 @@ export const ReadOnlyAttribute: {
     new(isReadOnly: boolean): ReadOnlyAttribute;
     readonly yes: ReadOnlyAttribute;
     readonly no: ReadOnlyAttribute;
-    readonly default_: ReadOnlyAttribute;
+    readonly default: ReadOnlyAttribute;
 };
 
 
@@ -2525,7 +2525,7 @@ export const RecommendedAsConfigurableAttribute: {
     new(recommendedAsConfigurable: boolean): RecommendedAsConfigurableAttribute;
     readonly no: RecommendedAsConfigurableAttribute;
     readonly yes: RecommendedAsConfigurableAttribute;
-    readonly default_: RecommendedAsConfigurableAttribute;
+    readonly default: RecommendedAsConfigurableAttribute;
 };
 
 
@@ -2548,7 +2548,7 @@ export interface ReferenceConverter$instance extends TypeConverter {
 
 
 export const ReferenceConverter: {
-    new(type_: Type): ReferenceConverter;
+    new(type: Type): ReferenceConverter;
 };
 
 
@@ -2580,7 +2580,7 @@ export const RefreshPropertiesAttribute: {
     new(refresh: RefreshProperties): RefreshPropertiesAttribute;
     readonly all: RefreshPropertiesAttribute;
     readonly repaint: RefreshPropertiesAttribute;
-    readonly default_: RefreshPropertiesAttribute;
+    readonly default: RefreshPropertiesAttribute;
 };
 
 
@@ -2598,7 +2598,7 @@ export const RunInstallerAttribute: {
     new(runInstaller: boolean): RunInstallerAttribute;
     readonly yes: RunInstallerAttribute;
     readonly no: RunInstallerAttribute;
-    readonly default_: RunInstallerAttribute;
+    readonly default: RunInstallerAttribute;
 };
 
 
@@ -2721,7 +2721,7 @@ export const ToolboxItemAttribute: {
     new(defaultType: boolean): ToolboxItemAttribute;
     new(toolboxItemTypeName: string): ToolboxItemAttribute;
     new(toolboxItemType: Type): ToolboxItemAttribute;
-    readonly default_: ToolboxItemAttribute;
+    readonly default: ToolboxItemAttribute;
     readonly none: ToolboxItemAttribute;
 };
 
@@ -2823,9 +2823,9 @@ export interface TypeConverterAttribute$instance extends Attribute {
 
 export const TypeConverterAttribute: {
     new(): TypeConverterAttribute;
-    new(type_: Type): TypeConverterAttribute;
+    new(type: Type): TypeConverterAttribute;
     new(typeName: string): TypeConverterAttribute;
-    readonly default_: TypeConverterAttribute;
+    readonly default: TypeConverterAttribute;
 };
 
 
@@ -2848,8 +2848,8 @@ export interface TypeDescriptionProvider$instance {
     getTypeDescriptorFromRegisteredType(objectType: Type): ICustomTypeDescriptor | undefined;
     getTypeDescriptorFromRegisteredType(instance: unknown): ICustomTypeDescriptor | undefined;
     getTypeDescriptorFromRegisteredType(objectType: Type, instance: unknown): ICustomTypeDescriptor | undefined;
-    isRegisteredType(type_: Type): boolean;
-    isSupportedType(type_: Type): boolean;
+    isRegisteredType(type: Type): boolean;
+    isSupportedType(type: Type): boolean;
     registerType<T>(): void;
 }
 
@@ -2867,7 +2867,7 @@ export interface TypeDescriptionProviderAttribute$instance extends Attribute {
 
 export const TypeDescriptionProviderAttribute: {
     new(typeName: string): TypeDescriptionProviderAttribute;
-    new(type_: Type): TypeDescriptionProviderAttribute;
+    new(type: Type): TypeDescriptionProviderAttribute;
 };
 
 
@@ -2884,20 +2884,20 @@ export const TypeDescriptor: {
     get comNativeDescriptorHandler(): IComNativeDescriptorHandler | undefined;
     set comNativeDescriptorHandler(value: IComNativeDescriptorHandler);
     addAttributes(instance: unknown, ...attributes: Attribute[]): TypeDescriptionProvider;
-    addAttributes(type_: Type, ...attributes: Attribute[]): TypeDescriptionProvider;
+    addAttributes(type: Type, ...attributes: Attribute[]): TypeDescriptionProvider;
     addEditorTable(editorBaseType: Type, table: Hashtable): void;
     addProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    addProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    addProvider(provider: TypeDescriptionProvider, type: Type): void;
     addProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    addProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    addProviderTransparent(provider: TypeDescriptionProvider, type: Type): void;
     createAssociation(primary: unknown, secondary: unknown): void;
     createDesigner(component: IComponent, designerBaseType: Type): IDesigner | undefined;
     createEvent(componentType: Type, oldEventDescriptor: EventDescriptor, ...attributes: Attribute[]): EventDescriptor;
-    createEvent(componentType: Type, name: string, type_: Type, ...attributes: Attribute[]): EventDescriptor;
+    createEvent(componentType: Type, name: string, type: Type, ...attributes: Attribute[]): EventDescriptor;
     createInstance(provider: IServiceProvider, objectType: Type, argTypes: Type[], args: unknown[]): unknown | undefined;
     createProperty(componentType: Type, oldPropertyDescriptor: PropertyDescriptor, ...attributes: Attribute[]): PropertyDescriptor;
-    createProperty(componentType: Type, name: string, type_: Type, ...attributes: Attribute[]): PropertyDescriptor;
-    getAssociation(type_: Type, primary: unknown): unknown;
+    createProperty(componentType: Type, name: string, type: Type, ...attributes: Attribute[]): PropertyDescriptor;
+    getAssociation(type: Type, primary: unknown): unknown;
     getAttributes(component: unknown, noCustomTypeDesc: boolean): AttributeCollection;
     getAttributes(component: unknown): AttributeCollection;
     getAttributes(componentType: Type): AttributeCollection;
@@ -2908,9 +2908,9 @@ export const TypeDescriptor: {
     getComponentName(component: unknown): string | undefined;
     getConverter(component: unknown, noCustomTypeDesc: boolean): TypeConverter;
     getConverter(component: unknown): TypeConverter;
-    getConverter(type_: Type): TypeConverter;
+    getConverter(type: Type): TypeConverter;
     getConverterFromRegisteredType(component: unknown): TypeConverter;
-    getConverterFromRegisteredType(type_: Type): TypeConverter;
+    getConverterFromRegisteredType(type: Type): TypeConverter;
     getDefaultEvent(component: unknown, noCustomTypeDesc: boolean): EventDescriptor | undefined;
     getDefaultEvent(component: unknown): EventDescriptor | undefined;
     getDefaultEvent(componentType: Type): EventDescriptor | undefined;
@@ -2919,7 +2919,7 @@ export const TypeDescriptor: {
     getDefaultProperty(componentType: Type): PropertyDescriptor | undefined;
     getEditor(component: unknown, editorBaseType: Type, noCustomTypeDesc: boolean): unknown | undefined;
     getEditor(component: unknown, editorBaseType: Type): unknown | undefined;
-    getEditor(type_: Type, editorBaseType: Type): unknown | undefined;
+    getEditor(type: Type, editorBaseType: Type): unknown | undefined;
     getEvents(component: unknown, attributes: Attribute[], noCustomTypeDesc: boolean): EventDescriptorCollection;
     getEvents(component: unknown, attributes: Attribute[]): EventDescriptorCollection;
     getEvents(component: unknown, noCustomTypeDesc: boolean): EventDescriptorCollection;
@@ -2937,20 +2937,20 @@ export const TypeDescriptor: {
     getPropertiesFromRegisteredType(component: unknown): PropertyDescriptorCollection;
     getPropertiesFromRegisteredType(componentType: Type): PropertyDescriptorCollection;
     getProvider(instance: unknown): TypeDescriptionProvider;
-    getProvider(type_: Type): TypeDescriptionProvider;
+    getProvider(type: Type): TypeDescriptionProvider;
     getReflectionType(instance: unknown): Type;
-    getReflectionType(type_: Type): Type;
+    getReflectionType(type: Type): Type;
     refresh(component: unknown): void;
     refresh(assembly: Assembly): void;
-    refresh(module_: Module): void;
-    refresh(type_: Type): void;
+    refresh(module: Module): void;
+    refresh(type: Type): void;
     registerType<T>(): void;
     removeAssociation(primary: unknown, secondary: unknown): void;
     removeAssociations(primary: unknown): void;
     removeProvider(provider: TypeDescriptionProvider, instance: unknown): void;
-    removeProvider(provider: TypeDescriptionProvider, type_: Type): void;
+    removeProvider(provider: TypeDescriptionProvider, type: Type): void;
     removeProviderTransparent(provider: TypeDescriptionProvider, instance: unknown): void;
-    removeProviderTransparent(provider: TypeDescriptionProvider, type_: Type): void;
+    removeProviderTransparent(provider: TypeDescriptionProvider, type: Type): void;
     sortDescriptorArray(infos: IList): void;
 };
 

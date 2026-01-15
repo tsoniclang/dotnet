@@ -80,7 +80,7 @@ export interface PipeOptions$instance {
 
 export const PipeOptions: {
     new(pool: MemoryPool_1<System_Internal.Byte>, readerScheduler: PipeScheduler, writerScheduler: PipeScheduler, pauseWriterThreshold: long, resumeWriterThreshold: long, minimumSegmentSize: int, useSynchronizationContext: boolean): PipeOptions;
-    readonly default_: PipeOptions;
+    readonly default: PipeOptions;
 };
 
 

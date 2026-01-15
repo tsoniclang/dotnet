@@ -10046,7 +10046,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String):System.Xml.Linq.XName",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663962,
           "canonicalSignature": "(System.String):System.Xml.Linq.XName",
           "normalizedSignature": "Get|(System.String):System.Xml.Linq.XName|static=true",
@@ -10060,7 +10060,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Get(System.String,System.String):System.Xml.Linq.XName",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663963,
           "canonicalSignature": "(System.String,System.String):System.Xml.Linq.XName",
           "normalizedSignature": "Get|(System.String,System.String):System.Xml.Linq.XName|static=true",
@@ -10146,7 +10146,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XName::Namespace:System.Xml.Linq.XNamespace",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876075,
           "canonicalSignature": ":System.Xml.Linq.XNamespace",
           "normalizedSignature": "Namespace|:System.Xml.Linq.XNamespace|static=false|accessor=get",
@@ -10187,7 +10187,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|(System.String):System.Xml.Linq.XName|static=true",
           "target": {
@@ -10197,7 +10197,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|(System.String,System.String):System.Xml.Linq.XName|static=true",
           "target": {
@@ -10289,7 +10289,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.Xml.Linq.XNamespace|static=false|accessor=get",
           "target": {
@@ -10348,7 +10348,7 @@
         {
           "stableId": "System.Private.Xml.Linq:System.Xml.Linq.XNamespace::Get(System.String):System.Xml.Linq.XNamespace",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663978,
           "canonicalSignature": "(System.String):System.Xml.Linq.XNamespace",
           "normalizedSignature": "Get|(System.String):System.Xml.Linq.XNamespace|static=true",
@@ -10471,7 +10471,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|(System.String):System.Xml.Linq.XNamespace|static=true",
           "target": {

@@ -33,14 +33,14 @@ export enum AssemblyBuilderAccess {
 
 export enum FlowControl {
     branch = 0,
-    break_ = 1,
+    break = 1,
     call = 2,
     Cond_Branch = 3,
     meta = 4,
     next = 5,
     phi = 6,
-    return_ = 7,
-    throw_ = 8
+    return = 7,
+    throw = 8
 }
 
 
@@ -200,7 +200,7 @@ export interface AssemblyBuilder$instance extends Assembly {
     getManifestResourceInfo(resourceName: string): ManifestResourceInfo | undefined;
     getManifestResourceNames(): string[];
     getManifestResourceStream(name: string): Stream | undefined;
-    getManifestResourceStream(type_: Type, name: string): Stream | undefined;
+    getManifestResourceStream(type: Type, name: string): Stream | undefined;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
@@ -268,7 +268,7 @@ export interface DynamicILInfo$instance {
     getTokenFor(method: RuntimeMethodHandle, contextType: RuntimeTypeHandle): int;
     getTokenFor(field: RuntimeFieldHandle): int;
     getTokenFor(field: RuntimeFieldHandle, contextType: RuntimeTypeHandle): int;
-    getTokenFor(type_: RuntimeTypeHandle): int;
+    getTokenFor(type: RuntimeTypeHandle): int;
     getTokenFor(literal: string): int;
     getTokenFor(signature: byte[]): int;
     setCode(code: byte[], maxStackSize: int): void;
@@ -296,7 +296,7 @@ export interface DynamicMethod$instance extends MethodInfo {
     readonly isSecuritySafeCritical: boolean;
     readonly isSecurityTransparent: boolean;
     readonly methodHandle: RuntimeMethodHandle;
-    readonly module_: Module;
+    readonly module: Module;
     readonly name: string;
     readonly reflectedType: Type | undefined;
     readonly returnParameter: ParameterInfo;
@@ -354,7 +354,7 @@ export interface EnumBuilder$instance extends TypeInfo {
     getFields3(): FieldInfo[];
     getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     getMember(name: string): MemberInfo[];
-    getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
+    getMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(): MemberInfo[];
     getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
@@ -456,7 +456,7 @@ export interface GenericTypeParameterBuilder$instance extends TypeInfo {
     getFields3(): FieldInfo[];
     getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     getMember(name: string): MemberInfo[];
-    getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
+    getMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(): MemberInfo[];
     getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
@@ -623,11 +623,11 @@ export interface ModuleBuilder$instance extends Module {
     getCustomAttributes(attributeType: Type, inherit: boolean): unknown[];
     getFieldMetadataToken(field: FieldInfo): int;
     getMethodMetadataToken(method: MethodInfo): int;
-    getMethodMetadataToken(constructor_: ConstructorInfo): int;
+    getMethodMetadataToken(constructor: ConstructorInfo): int;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getSignatureMetadataToken(signature: SignatureHelper): int;
     getStringMetadataToken(stringConstant: string): int;
-    getTypeMetadataToken(type_: Type): int;
+    getTypeMetadataToken(type: Type): int;
     isDefined(attributeType: Type, inherit: boolean): boolean;
     setCustomAttribute(con: ConstructorInfo, binaryAttribute: byte[]): void;
     setCustomAttribute(customBuilder: CustomAttributeBuilder): void;
@@ -653,7 +653,7 @@ export interface OpCodes$instance {
 export const OpCodes: {
     new(): OpCodes;
     readonly nop: OpCode;
-    readonly break_: OpCode;
+    readonly break: OpCode;
     readonly Ldarg_0: OpCode;
     readonly Ldarg_1: OpCode;
     readonly Ldarg_2: OpCode;
@@ -720,7 +720,7 @@ export const OpCodes: {
     readonly Bgt_Un: OpCode;
     readonly Ble_Un: OpCode;
     readonly Blt_Un: OpCode;
-    readonly switch_: OpCode;
+    readonly switch: OpCode;
     readonly Ldind_I1: OpCode;
     readonly Ldind_U1: OpCode;
     readonly Ldind_I2: OpCode;
@@ -771,7 +771,7 @@ export const OpCodes: {
     readonly isinst: OpCode;
     readonly Conv_R_Un: OpCode;
     readonly unbox: OpCode;
-    readonly throw_: OpCode;
+    readonly throw: OpCode;
     readonly ldfld: OpCode;
     readonly ldflda: OpCode;
     readonly stfld: OpCode;
@@ -877,7 +877,7 @@ export const OpCodes: {
     readonly rethrow: OpCode;
     readonly sizeof: OpCode;
     readonly refanytype: OpCode;
-    readonly readonly_: OpCode;
+    readonly readonly: OpCode;
     takesSingleByteArgument(inst: OpCode): boolean;
 };
 
@@ -995,8 +995,8 @@ export interface TypeBuilder$instance extends TypeInfo {
     defineConstructor(attributes: MethodAttributes, callingConvention: CallingConventions, parameterTypes: Type[], requiredCustomModifiers: Type[][], optionalCustomModifiers: Type[][]): ConstructorBuilder;
     defineDefaultConstructor(attributes: MethodAttributes): ConstructorBuilder;
     defineEvent(name: string, attributes: EventAttributes, eventtype: Type): EventBuilder;
-    defineField(fieldName: string, type_: Type, attributes: FieldAttributes): FieldBuilder;
-    defineField(fieldName: string, type_: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[], attributes: FieldAttributes): FieldBuilder;
+    defineField(fieldName: string, type: Type, attributes: FieldAttributes): FieldBuilder;
+    defineField(fieldName: string, type: Type, requiredCustomModifiers: Type[], optionalCustomModifiers: Type[], attributes: FieldAttributes): FieldBuilder;
     defineGenericParameters(...names: string[]): GenericTypeParameterBuilder[];
     defineInitializedData(name: string, data: byte[], attributes: FieldAttributes): FieldBuilder;
     defineMethod(name: string, attributes: MethodAttributes): MethodBuilder;
@@ -1029,7 +1029,7 @@ export interface TypeBuilder$instance extends TypeInfo {
     getFields3(): FieldInfo[];
     getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
     getMember(name: string): MemberInfo[];
-    getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
+    getMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(bindingAttr: BindingFlags): MemberInfo[];
     getMembers3(): MemberInfo[];
     getMethod(name: string, bindingAttr: BindingFlags, binder: Binder, types: Type[], modifiers: ParameterModifier[]): MethodInfo | undefined;
@@ -1074,9 +1074,9 @@ export interface TypeBuilder$instance extends TypeInfo {
 
 export const TypeBuilder: {
     readonly unspecifiedTypeSize: int;
-    getConstructor(type_: Type, constructor_: ConstructorInfo): ConstructorInfo;
-    getField(type_: Type, field: FieldInfo): FieldInfo;
-    getMethod(type_: Type, method: MethodInfo): MethodInfo;
+    getConstructor(type: Type, constructor: ConstructorInfo): ConstructorInfo;
+    getField(type: Type, field: FieldInfo): FieldInfo;
+    getMethod(type: Type, method: MethodInfo): MethodInfo;
 };
 
 

@@ -11844,7 +11844,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.PbeEncryptionAlgorithm::UnknownSystem.Security.Cryptography.PbeEncryptionAlgorithm",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109375,
           "normalizedSignature": "Unknown|System.Security.Cryptography.PbeEncryptionAlgorithm|static=true|const=true",
           "isStatic": true,
@@ -12443,7 +12443,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Security.Cryptography.PbeEncryptionAlgorithm|static=true|const=true",
           "target": {
@@ -24353,7 +24353,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100667776,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Delete|():System.Void|static=false",
@@ -24381,7 +24381,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Export(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "metadataToken": 100667778,
           "canonicalSignature": "(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]",
           "normalizedSignature": "Export|(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]|static=false",
@@ -24521,7 +24521,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Import(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "metadataToken": 100667788,
           "canonicalSignature": "(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey",
           "normalizedSignature": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey|static=true",
@@ -24535,7 +24535,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Import(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "metadataToken": 100667789,
           "canonicalSignature": "(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey",
           "normalizedSignature": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey|static=true",
@@ -24820,7 +24820,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|():System.Void|static=false",
           "target": {
@@ -24840,7 +24840,7 @@
           }
         },
         {
-          "tsName": "export_",
+          "tsName": "export",
           "isStatic": false,
           "tsSignatureId": "Export|(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]|static=false",
           "target": {
@@ -24940,7 +24940,7 @@
           }
         },
         {
-          "tsName": "import_",
+          "tsName": "import",
           "isStatic": true,
           "tsSignatureId": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey|static=true",
           "target": {
@@ -24950,7 +24950,7 @@
           }
         },
         {
-          "tsName": "import_",
+          "tsName": "import",
           "isStatic": true,
           "tsSignatureId": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey|static=true",
           "target": {
@@ -32333,7 +32333,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CspKeyContainerInfo::Protected:System.Boolean",
           "clrName": "Protected",
-          "tsEmitName": "protected_",
+          "tsEmitName": "protected",
           "metadataToken": 385876758,
           "canonicalSignature": ":System.Boolean",
           "normalizedSignature": "Protected|:System.Boolean|static=false|accessor=get",
@@ -32553,7 +32553,7 @@
           }
         },
         {
-          "tsName": "protected_",
+          "tsName": "protected",
           "isStatic": false,
           "tsSignatureId": "Protected|:System.Boolean|static=false|accessor=get",
           "target": {
@@ -43645,7 +43645,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellmanCngPublicKey::Import():System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "metadataToken": 100667830,
           "canonicalSignature": "():System.Security.Cryptography.CngKey",
           "normalizedSignature": "Import|():System.Security.Cryptography.CngKey|static=false",
@@ -43748,7 +43748,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "import_",
+          "tsName": "import",
           "isStatic": false,
           "tsSignatureId": "Import|():System.Security.Cryptography.CngKey|static=false",
           "target": {

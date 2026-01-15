@@ -629,7 +629,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBinary::NullSystem.Data.SqlTypes.SqlBinary",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlBinary|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1271,7 +1271,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBoolean::TrueSystem.Data.SqlTypes.SqlBoolean",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "normalizedSignature": "True|System.Data.SqlTypes.SqlBoolean|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1280,7 +1280,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBoolean::FalseSystem.Data.SqlTypes.SqlBoolean",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "normalizedSignature": "False|System.Data.SqlTypes.SqlBoolean|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -1289,7 +1289,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBoolean::NullSystem.Data.SqlTypes.SqlBoolean",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlBoolean|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2005,7 +2005,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlByte::NullSystem.Data.SqlTypes.SqlByte",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlByte|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -2544,7 +2544,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDateTime::NullSystem.Data.SqlTypes.SqlDateTime",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlDateTime|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -3435,7 +3435,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDecimal::NullSystem.Data.SqlTypes.SqlDecimal",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlDecimal|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -4075,7 +4075,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlDouble::NullSystem.Data.SqlTypes.SqlDouble",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlDouble|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -4556,7 +4556,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlGuid::NullSystem.Data.SqlTypes.SqlGuid",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlGuid|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -5264,7 +5264,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt16::NullSystem.Data.SqlTypes.SqlInt16",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlInt16|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -5984,7 +5984,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt32::NullSystem.Data.SqlTypes.SqlInt32",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlInt32|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -6704,7 +6704,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlInt64::NullSystem.Data.SqlTypes.SqlInt64",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlInt64|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -7424,7 +7424,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlMoney::NullSystem.Data.SqlTypes.SqlMoney",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlMoney|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -8063,7 +8063,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlSingle::NullSystem.Data.SqlTypes.SqlSingle",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlSingle|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -8800,7 +8800,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlString::NullSystem.Data.SqlTypes.SqlString",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Data.SqlTypes.SqlString|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -9266,7 +9266,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlBytes::Null:System.Data.SqlTypes.SqlBytes",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|:System.Data.SqlTypes.SqlBytes|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9605,7 +9605,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlChars::Null:System.Data.SqlTypes.SqlChars",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|:System.Data.SqlTypes.SqlChars|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10047,7 +10047,7 @@
         {
           "stableId": "System.Data.Common:System.Data.SqlTypes.SqlXml::Null:System.Data.SqlTypes.SqlXml",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|:System.Data.SqlTypes.SqlXml|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

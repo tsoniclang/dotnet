@@ -185,7 +185,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Schema.JsonSchemaExporterOptions::Default:System.Text.Json.Schema.JsonSchemaExporterOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385876381,
           "canonicalSignature": ":System.Text.Json.Schema.JsonSchemaExporterOptions",
           "normalizedSignature": "Default|:System.Text.Json.Schema.JsonSchemaExporterOptions|static=true|accessor=get",
@@ -303,7 +303,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Json.Schema.JsonSchemaExporterOptions|static=true|accessor=get",
           "target": {

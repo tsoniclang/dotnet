@@ -178,7 +178,7 @@ export enum PaddingMode {
 
 
 export enum PbeEncryptionAlgorithm {
-    unknown_ = 0,
+    unknown = 0,
     aes128Cbc = 1,
     aes192Cbc = 2,
     aes256Cbc = 3,
@@ -867,9 +867,9 @@ export interface CngKey$instance {
     readonly providerHandle: SafeNCryptProviderHandle;
     readonly uiPolicy: CngUIPolicy;
     readonly uniqueName: string | undefined;
-    delete_(): void;
+    delete(): void;
     dispose(): void;
-    export_(format: CngKeyBlobFormat): byte[];
+    export(format: CngKeyBlobFormat): byte[];
     getProperty(name: string, options: CngPropertyOptions): CngProperty;
     hasProperty(name: string, options: CngPropertyOptions): boolean;
     setProperty(property: CngProperty): void;
@@ -884,8 +884,8 @@ export const CngKey: {
     exists(keyName: string, provider: CngProvider, options: CngKeyOpenOptions): boolean;
     exists(keyName: string, provider: CngProvider): boolean;
     exists(keyName: string): boolean;
-    import_(keyBlob: byte[], format: CngKeyBlobFormat, provider: CngProvider): CngKey;
-    import_(keyBlob: byte[], format: CngKeyBlobFormat): CngKey;
+    import(keyBlob: byte[], format: CngKeyBlobFormat, provider: CngProvider): CngKey;
+    import(keyBlob: byte[], format: CngKeyBlobFormat): CngKey;
     open(keyHandle: SafeNCryptKeyHandle, keyHandleOpenOptions: CngKeyHandleOpenOptions): CngKey;
     open(keyName: string, provider: CngProvider, openOptions: CngKeyOpenOptions): CngKey;
     open(keyName: string, provider: CngProvider): CngKey;
@@ -1293,7 +1293,7 @@ export interface CspKeyContainerInfo$instance {
     readonly keyContainerName: string;
     readonly keyNumber: KeyNumber;
     readonly machineKeyStore: boolean;
-    readonly protected_: boolean;
+    readonly protected: boolean;
     readonly providerName: string;
     readonly providerType: int;
     readonly randomlyGenerated: boolean;
@@ -1757,7 +1757,7 @@ export type ECDiffieHellmanCng = ECDiffieHellmanCng$instance & __ECDiffieHellman
 export interface ECDiffieHellmanCngPublicKey$instance extends ECDiffieHellmanPublicKey$instance {
     readonly blobFormat: CngKeyBlobFormat;
     dispose(): void;
-    import_(): CngKey;
+    import(): CngKey;
     toXmlString(): string;
 }
 

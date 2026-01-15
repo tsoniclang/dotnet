@@ -161,7 +161,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestError::UnknownSystem.Net.Http.HttpRequestError",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Http.HttpRequestError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2636,7 +2636,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Get:System.Net.Http.HttpMethod",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|:System.Net.Http.HttpMethod|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2681,7 +2681,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Delete:System.Net.Http.HttpMethod",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|:System.Net.Http.HttpMethod|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3227,7 +3227,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestOptions::Set(HttpRequestOptionsKey_1,TValue):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|(HttpRequestOptionsKey_1,TValue):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

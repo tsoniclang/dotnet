@@ -46,7 +46,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.EmitTypeInformation::NeverSystem.Runtime.Serialization.EmitTypeInformation",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "metadataToken": 67110014,
           "normalizedSignature": "Never|System.Runtime.Serialization.EmitTypeInformation|static=true|const=true",
           "isStatic": true,
@@ -621,7 +621,7 @@
           }
         },
         {
-          "tsName": "never_",
+          "tsName": "never",
           "isStatic": true,
           "tsSignatureId": "Never|System.Runtime.Serialization.EmitTypeInformation|static=true|const=true",
           "target": {
@@ -3352,7 +3352,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.CollectionDataContractAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385875971,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
@@ -3686,7 +3686,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=getset",
           "target": {
@@ -4114,7 +4114,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.DataContractAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385875987,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
@@ -4356,7 +4356,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=getset",
           "target": {
@@ -8338,7 +8338,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.KnownTypeAttribute::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385875999,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -8538,7 +8538,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -13056,7 +13056,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "metadataToken": 100666802,
           "canonicalSignature": "(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Export|(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -13070,7 +13070,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "metadataToken": 100666803,
           "canonicalSignature": "(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "normalizedSignature": "Export|(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
@@ -13084,7 +13084,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Type):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "metadataToken": 100666804,
           "canonicalSignature": "(System.Type):System.Void",
           "normalizedSignature": "Export|(System.Type):System.Void|static=false",
@@ -13236,7 +13236,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "export_",
+          "tsName": "export",
           "isStatic": false,
           "tsSignatureId": "Export|(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -13246,7 +13246,7 @@
           }
         },
         {
-          "tsName": "export_",
+          "tsName": "export",
           "isStatic": false,
           "tsSignatureId": "Export|(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "target": {
@@ -13256,7 +13256,7 @@
           }
         },
         {
-          "tsName": "export_",
+          "tsName": "export",
           "isStatic": false,
           "tsSignatureId": "Export|(System.Type):System.Void|static=false",
           "target": {

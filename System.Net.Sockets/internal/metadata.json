@@ -30,7 +30,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.AddressFamily::UnknownSystem.Net.Sockets.AddressFamily",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Sockets.AddressFamily|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -747,7 +747,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolFamily::UnknownSystem.Net.Sockets.ProtocolFamily",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Sockets.ProtocolFamily|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1286,7 +1286,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolType::UnknownSystem.Net.Sockets.ProtocolType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Sockets.ProtocolType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2341,7 +2341,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketOptionName::TypeSystem.Net.Sockets.SocketOptionName",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|System.Net.Sockets.SocketOptionName|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2753,7 +2753,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketType::UnknownSystem.Net.Sockets.SocketType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Sockets.SocketType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2939,7 +2939,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.IPPacketInformation::Interface:System.Int32",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|:System.Int32|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

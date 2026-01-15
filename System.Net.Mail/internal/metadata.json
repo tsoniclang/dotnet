@@ -65,7 +65,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::NeverSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "normalizedSignature": "Never|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4164,7 +4164,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::From:System.Net.Mail.MailAddress",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "normalizedSignature": "From|:System.Net.Mail.MailAddress|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -24,7 +24,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonIgnoreCondition::NeverSystem.Text.Json.Serialization.JsonIgnoreCondition",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "metadataToken": 67109506,
           "normalizedSignature": "Never|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
           "isStatic": true,
@@ -634,7 +634,7 @@
           }
         },
         {
-          "tsName": "never_",
+          "tsName": "never",
           "isStatic": true,
           "tsSignatureId": "Never|System.Text.Json.Serialization.JsonIgnoreCondition|static=true|const=true",
           "target": {
@@ -3305,7 +3305,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonSourceGenerationMode::DefaultSystem.Text.Json.Serialization.JsonSourceGenerationMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109534,
           "normalizedSignature": "Default|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
           "isStatic": true,
@@ -3882,7 +3882,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Text.Json.Serialization.JsonSourceGenerationMode|static=true|const=true",
           "target": {
@@ -6320,7 +6320,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876478,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -6409,7 +6409,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -6528,7 +6528,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverter\u00601::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876502,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -6667,7 +6667,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -6952,7 +6952,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.Serialization.JsonConverterFactory::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876500,
           "canonicalSignature": ":System.Type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
@@ -7051,7 +7051,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -8101,7 +8101,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -10892,7 +10892,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {
@@ -11068,7 +11068,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Type|static=false|accessor=get",
           "target": {

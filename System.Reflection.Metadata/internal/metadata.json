@@ -39,7 +39,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ConstantTypeCode::BooleanSystem.Reflection.Metadata.ConstantTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -147,7 +147,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ConstantTypeCode::StringSystem.Reflection.Metadata.ConstantTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -235,7 +235,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExceptionRegionKind::CatchSystem.Reflection.Metadata.ExceptionRegionKind",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "normalizedSignature": "Catch|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -253,7 +253,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExceptionRegionKind::FinallySystem.Reflection.Metadata.ExceptionRegionKind",
           "clrName": "Finally",
-          "tsEmitName": "finally_",
+          "tsEmitName": "finally",
           "normalizedSignature": "Finally|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -603,7 +603,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.HandleKind::StringSystem.Reflection.Metadata.HandleKind",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.HandleKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -665,7 +665,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::BreakSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1268,7 +1268,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::SwitchSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1727,7 +1727,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::ThrowSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2609,7 +2609,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::ReadonlySystem.Reflection.Metadata.ILOpCode",
           "clrName": "Readonly",
-          "tsEmitName": "readonly_",
+          "tsEmitName": "readonly",
           "normalizedSignature": "Readonly|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2901,7 +2901,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataReaderOptions::DefaultSystem.Reflection.Metadata.MetadataReaderOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.Metadata.MetadataReaderOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2945,7 +2945,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataStreamOptions::DefaultSystem.Reflection.Metadata.MetadataStreamOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.Metadata.MetadataStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2998,7 +2998,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveSerializationTypeCode::BooleanSystem.Reflection.Metadata.PrimitiveSerializationTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3106,7 +3106,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveSerializationTypeCode::StringSystem.Reflection.Metadata.PrimitiveSerializationTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3141,7 +3141,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::BooleanSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3267,7 +3267,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::ObjectSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3276,7 +3276,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::StringSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3294,7 +3294,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::VoidSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "normalizedSignature": "Void|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3338,7 +3338,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::BooleanSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3446,7 +3446,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::StringSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3464,7 +3464,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::TypeSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3482,7 +3482,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::EnumSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "normalizedSignature": "Enum|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3579,7 +3579,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureCallingConvention::DefaultSystem.Reflection.Metadata.SignatureCallingConvention",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.Metadata.SignatureCallingConvention|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3748,7 +3748,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::VoidSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "normalizedSignature": "Void|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3757,7 +3757,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::BooleanSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3865,7 +3865,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::StringSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3955,7 +3955,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::ObjectSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4053,7 +4053,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeKind::UnknownSystem.Reflection.Metadata.SignatureTypeKind",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4062,7 +4062,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeKind::ClassSystem.Reflection.Metadata.SignatureTypeKind",
           "clrName": "Class",
-          "tsEmitName": "class_",
+          "tsEmitName": "class",
           "normalizedSignature": "Class|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -8041,7 +8041,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttribute::Constructor:System.Reflection.Metadata.EntityHandle",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8461,7 +8461,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttributeNamedArgument\u00601::Type:TType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:TType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8514,7 +8514,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttributeTypedArgument\u00601::Type:TType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:TType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10191,7 +10191,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.EventDefinition::Type:System.Reflection.Metadata.EntityHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10735,7 +10735,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExportedType::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11770,7 +11770,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.GenericParameterConstraint::Type:System.Reflection.Metadata.EntityHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13434,7 +13434,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.InterfaceImplementation::Interface:System.Reflection.Metadata.EntityHandle",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17186,7 +17186,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MethodImplementation::Type:System.Reflection.Metadata.TypeDefinitionHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Reflection.Metadata.TypeDefinitionHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17606,7 +17606,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MethodImport::Module:System.Reflection.Metadata.ModuleReferenceHandle",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Metadata.ModuleReferenceHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20663,7 +20663,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeDefinition::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -21151,7 +21151,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeReference::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -22979,7 +22979,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.HandleComparer::Default:System.Reflection.Metadata.HandleComparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Reflection.Metadata.HandleComparer|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -25183,7 +25183,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeName::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

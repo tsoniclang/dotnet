@@ -54,7 +54,7 @@ export enum Formatting {
 
 
 export enum NamespaceHandling {
-    default_ = 0,
+    default = 0,
     omitDuplicates = 1
 }
 
@@ -137,7 +137,7 @@ export enum XmlNodeOrder {
     before = 0,
     after = 1,
     same = 2,
-    unknown_ = 3
+    unknown = 3
 }
 
 
@@ -173,7 +173,7 @@ export enum XmlOutputMethod {
 
 export enum XmlSpace {
     none = 0,
-    default_ = 1,
+    default = 1,
     preserve = 2
 }
 
@@ -292,8 +292,8 @@ export type IXmlTextWriterInitializer = IXmlTextWriterInitializer$instance;
 export interface NameTable$instance extends XmlNameTable {
     add(key: string): string;
     add(key: char[], start: int, len: int): string;
-    get_(value: string): string | undefined;
-    get_(key: char[], start: int, len: int): string | undefined;
+    get(value: string): string | undefined;
+    get(key: char[], start: int, len: int): string | undefined;
 }
 
 
@@ -703,7 +703,7 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     isLocalName(localName: XmlDictionaryString): boolean;
     isNamespaceUri(namespaceUri: string): boolean;
     isNamespaceUri(namespaceUri: XmlDictionaryString): boolean;
-    isStartArray(type_: Type): boolean;
+    isStartArray(type: Type): boolean;
     isStartElement(): boolean;
     isStartElement(name: string): boolean;
     isStartElement(localname: string, ns: string): boolean;
@@ -733,7 +733,7 @@ export interface XmlDictionaryReader$instance extends XmlReader$instance {
     readArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString, array: TimeSpan[], offset: int, count: int): int;
     readBooleanArray(localName: string, namespaceUri: string): boolean[];
     readBooleanArray(localName: XmlDictionaryString, namespaceUri: XmlDictionaryString): boolean[];
-    readContentAs(type_: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
+    readContentAs(type: Type, namespaceResolver: IXmlNamespaceResolver): unknown;
     readContentAsBase642(buffer: byte[], index: int, count: int): int;
     readContentAsBinHex(buffer: byte[], index: int, count: int): int;
     readContentAsChars(chars: char[], offset: int, count: int): int;
@@ -992,9 +992,9 @@ export interface XmlDocument$instance extends XmlNode$instance {
     createElement(prefix: string, localName: string, namespaceURI: string): XmlElement;
     createEntityReference(name: string): XmlEntityReference;
     createNavigator(): XPathNavigator;
-    createNode(type_: XmlNodeType, prefix: string, name: string, namespaceURI: string): XmlNode;
+    createNode(type: XmlNodeType, prefix: string, name: string, namespaceURI: string): XmlNode;
     createNode(nodeTypeString: string, name: string, namespaceURI: string): XmlNode;
-    createNode(type_: XmlNodeType, name: string, namespaceURI: string): XmlNode;
+    createNode(type: XmlNodeType, name: string, namespaceURI: string): XmlNode;
     createProcessingInstruction(target: string, data: string): XmlProcessingInstruction;
     createSignificantWhitespace(text: string): XmlSignificantWhitespace;
     createTextNode(text: string): XmlText;
@@ -1347,8 +1347,8 @@ export type XmlNamespaceManager = XmlNamespaceManager$instance & __XmlNamespaceM
 export interface XmlNameTable$instance {
     add(array: char[], offset: int, length: int): string;
     add(array: string): string;
-    get_(array: char[], offset: int, length: int): string | undefined;
-    get_(array: string): string | undefined;
+    get(array: char[], offset: int, length: int): string | undefined;
+    get(array: string): string | undefined;
 }
 
 
@@ -1613,7 +1613,7 @@ export type XmlProcessingInstruction = XmlProcessingInstruction$instance & __Xml
 export interface XmlQualifiedName$instance {
     readonly isEmpty: boolean;
     readonly name: string;
-    readonly namespace_: string;
+    readonly namespace: string;
     equals(other: unknown): boolean;
     getHashCode(): int;
     toString(): string;
@@ -1781,7 +1781,7 @@ export type XmlReader = XmlReader$instance & __XmlReader$views;
 
 
 export interface XmlReaderSettings$instance {
-    async_: boolean;
+    async: boolean;
     checkCharacters: boolean;
     closeInput: boolean;
     conformanceLevel: ConformanceLevel;
@@ -1816,7 +1816,7 @@ export interface XmlResolver$instance {
     getEntity(absoluteUri: Uri, role: string, ofObjectToReturn: Type): unknown | undefined;
     getEntityAsync(absoluteUri: Uri, role: string, ofObjectToReturn: Type): Task_1<unknown>;
     resolveUri(baseUri: Uri, relativeUri: string): Uri;
-    supportsType(absoluteUri: Uri, type_: Type): boolean;
+    supportsType(absoluteUri: Uri, type: Type): boolean;
 }
 
 
@@ -2297,7 +2297,7 @@ export type XmlWriter = XmlWriter$instance & __XmlWriter$views;
 
 
 export interface XmlWriterSettings$instance {
-    async_: boolean;
+    async: boolean;
     checkCharacters: boolean;
     closeOutput: boolean;
     conformanceLevel: ConformanceLevel;

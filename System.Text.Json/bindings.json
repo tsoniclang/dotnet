@@ -1363,7 +1363,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::StringSystem.Text.Json.JsonTokenType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109004,
           "normalizedSignature": "String|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
@@ -1374,7 +1374,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::NumberSystem.Text.Json.JsonTokenType",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 67109005,
           "normalizedSignature": "Number|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
@@ -1385,7 +1385,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::TrueSystem.Text.Json.JsonTokenType",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "metadataToken": 67109006,
           "normalizedSignature": "True|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
@@ -1396,7 +1396,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::FalseSystem.Text.Json.JsonTokenType",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "metadataToken": 67109007,
           "normalizedSignature": "False|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
@@ -1407,7 +1407,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonTokenType::NullSystem.Text.Json.JsonTokenType",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67109008,
           "normalizedSignature": "Null|System.Text.Json.JsonTokenType|static=true|const=true",
           "isStatic": true,
@@ -2032,7 +2032,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Text.Json.JsonTokenType|static=true|const=true",
           "target": {
@@ -2042,7 +2042,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": true,
           "tsSignatureId": "Number|System.Text.Json.JsonTokenType|static=true|const=true",
           "target": {
@@ -2052,7 +2052,7 @@
           }
         },
         {
-          "tsName": "true_",
+          "tsName": "true",
           "isStatic": true,
           "tsSignatureId": "True|System.Text.Json.JsonTokenType|static=true|const=true",
           "target": {
@@ -2062,7 +2062,7 @@
           }
         },
         {
-          "tsName": "false_",
+          "tsName": "false",
           "isStatic": true,
           "tsSignatureId": "False|System.Text.Json.JsonTokenType|static=true|const=true",
           "target": {
@@ -2072,7 +2072,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.Text.Json.JsonTokenType|static=true|const=true",
           "target": {
@@ -2117,7 +2117,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::ObjectSystem.Text.Json.JsonValueKind",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "metadataToken": 67108982,
           "normalizedSignature": "Object|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2139,7 +2139,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::StringSystem.Text.Json.JsonValueKind",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67108984,
           "normalizedSignature": "String|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2150,7 +2150,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::NumberSystem.Text.Json.JsonValueKind",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 67108985,
           "normalizedSignature": "Number|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2161,7 +2161,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::TrueSystem.Text.Json.JsonValueKind",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "metadataToken": 67108986,
           "normalizedSignature": "True|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2172,7 +2172,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::FalseSystem.Text.Json.JsonValueKind",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "metadataToken": 67108987,
           "normalizedSignature": "False|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2183,7 +2183,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonValueKind::NullSystem.Text.Json.JsonValueKind",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67108988,
           "normalizedSignature": "Null|System.Text.Json.JsonValueKind|static=true|const=true",
           "isStatic": true,
@@ -2748,7 +2748,7 @@
           }
         },
         {
-          "tsName": "object_",
+          "tsName": "object",
           "isStatic": true,
           "tsSignatureId": "Object|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -2768,7 +2768,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -2778,7 +2778,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": true,
           "tsSignatureId": "Number|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -2788,7 +2788,7 @@
           }
         },
         {
-          "tsName": "true_",
+          "tsName": "true",
           "isStatic": true,
           "tsSignatureId": "True|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -2798,7 +2798,7 @@
           }
         },
         {
-          "tsName": "false_",
+          "tsName": "false",
           "isStatic": true,
           "tsSignatureId": "False|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -2808,7 +2808,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.Text.Json.JsonValueKind|static=true|const=true",
           "target": {
@@ -8964,7 +8964,7 @@
         {
           "stableId": "System.Text.Json:System.Text.Json.JsonSerializerOptions::Default:System.Text.Json.JsonSerializerOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385876296,
           "canonicalSignature": ":System.Text.Json.JsonSerializerOptions",
           "normalizedSignature": "Default|:System.Text.Json.JsonSerializerOptions|static=true|accessor=get",
@@ -9578,7 +9578,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Json.JsonSerializerOptions|static=true|accessor=get",
           "target": {

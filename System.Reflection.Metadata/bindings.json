@@ -35,7 +35,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ConstantTypeCode::BooleanSystem.Reflection.Metadata.ConstantTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67109903,
           "normalizedSignature": "Boolean|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "isStatic": true,
@@ -167,7 +167,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ConstantTypeCode::StringSystem.Reflection.Metadata.ConstantTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109915,
           "normalizedSignature": "String|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "isStatic": true,
@@ -743,7 +743,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "target": {
@@ -863,7 +863,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.ConstantTypeCode|static=true|const=true",
           "target": {
@@ -1517,7 +1517,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExceptionRegionKind::CatchSystem.Reflection.Metadata.ExceptionRegionKind",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "metadataToken": 67109964,
           "normalizedSignature": "Catch|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "isStatic": true,
@@ -1539,7 +1539,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExceptionRegionKind::FinallySystem.Reflection.Metadata.ExceptionRegionKind",
           "clrName": "Finally",
-          "tsEmitName": "finally_",
+          "tsEmitName": "finally",
           "metadataToken": 67109966,
           "normalizedSignature": "Finally|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "isStatic": true,
@@ -2105,7 +2105,7 @@
           }
         },
         {
-          "tsName": "catch_",
+          "tsName": "catch",
           "isStatic": true,
           "tsSignatureId": "Catch|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "target": {
@@ -2125,7 +2125,7 @@
           }
         },
         {
-          "tsName": "finally_",
+          "tsName": "finally",
           "isStatic": true,
           "tsSignatureId": "Finally|System.Reflection.Metadata.ExceptionRegionKind|static=true|const=true",
           "target": {
@@ -2543,7 +2543,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.HandleKind::StringSystem.Reflection.Metadata.HandleKind",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67110101,
           "normalizedSignature": "String|System.Reflection.Metadata.HandleKind|static=true|const=true",
           "isStatic": true,
@@ -3460,7 +3460,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.HandleKind|static=true|const=true",
           "target": {
@@ -3525,7 +3525,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::BreakSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "metadataToken": 67109503,
           "normalizedSignature": "Break|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4262,7 +4262,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::SwitchSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "metadataToken": 67109570,
           "normalizedSignature": "Switch|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -4823,7 +4823,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::ThrowSystem.Reflection.Metadata.ILOpCode",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "metadataToken": 67109621,
           "normalizedSignature": "Throw|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -5901,7 +5901,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ILOpCode::ReadonlySystem.Reflection.Metadata.ILOpCode",
           "clrName": "Readonly",
-          "tsEmitName": "readonly_",
+          "tsEmitName": "readonly",
           "metadataToken": 67109719,
           "normalizedSignature": "Readonly|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "isStatic": true,
@@ -6466,7 +6466,7 @@
           }
         },
         {
-          "tsName": "break_",
+          "tsName": "break",
           "isStatic": true,
           "tsSignatureId": "Break|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7136,7 +7136,7 @@
           }
         },
         {
-          "tsName": "switch_",
+          "tsName": "switch",
           "isStatic": true,
           "tsSignatureId": "Switch|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -7646,7 +7646,7 @@
           }
         },
         {
-          "tsName": "throw_",
+          "tsName": "throw",
           "isStatic": true,
           "tsSignatureId": "Throw|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -8626,7 +8626,7 @@
           }
         },
         {
-          "tsName": "readonly_",
+          "tsName": "readonly",
           "isStatic": true,
           "tsSignatureId": "Readonly|System.Reflection.Metadata.ILOpCode|static=true|const=true",
           "target": {
@@ -11279,7 +11279,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataReaderOptions::DefaultSystem.Reflection.Metadata.MetadataReaderOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67110208,
           "normalizedSignature": "Default|System.Reflection.Metadata.MetadataReaderOptions|static=true|const=true",
           "isStatic": true,
@@ -11855,7 +11855,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Reflection.Metadata.MetadataReaderOptions|static=true|const=true",
           "target": {
@@ -11899,7 +11899,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MetadataStreamOptions::DefaultSystem.Reflection.Metadata.MetadataStreamOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109721,
           "normalizedSignature": "Default|System.Reflection.Metadata.MetadataStreamOptions|static=true|const=true",
           "isStatic": true,
@@ -12476,7 +12476,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Reflection.Metadata.MetadataStreamOptions|static=true|const=true",
           "target": {
@@ -12530,7 +12530,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveSerializationTypeCode::BooleanSystem.Reflection.Metadata.PrimitiveSerializationTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67109732,
           "normalizedSignature": "Boolean|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -12662,7 +12662,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveSerializationTypeCode::StringSystem.Reflection.Metadata.PrimitiveSerializationTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109744,
           "normalizedSignature": "String|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -13217,7 +13217,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "target": {
@@ -13337,7 +13337,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.PrimitiveSerializationTypeCode|static=true|const=true",
           "target": {
@@ -13371,7 +13371,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::BooleanSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67109937,
           "normalizedSignature": "Boolean|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
@@ -13525,7 +13525,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::ObjectSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "metadataToken": 67109951,
           "normalizedSignature": "Object|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
@@ -13536,7 +13536,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::StringSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109952,
           "normalizedSignature": "String|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
@@ -13558,7 +13558,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.PrimitiveTypeCode::VoidSystem.Reflection.Metadata.PrimitiveTypeCode",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "metadataToken": 67109954,
           "normalizedSignature": "Void|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "isStatic": true,
@@ -14113,7 +14113,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "target": {
@@ -14253,7 +14253,7 @@
           }
         },
         {
-          "tsName": "object_",
+          "tsName": "object",
           "isStatic": true,
           "tsSignatureId": "Object|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "target": {
@@ -14263,7 +14263,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "target": {
@@ -14283,7 +14283,7 @@
           }
         },
         {
-          "tsName": "void_",
+          "tsName": "void",
           "isStatic": true,
           "tsSignatureId": "Void|System.Reflection.Metadata.PrimitiveTypeCode|static=true|const=true",
           "target": {
@@ -14328,7 +14328,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::BooleanSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67110343,
           "normalizedSignature": "Boolean|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -14460,7 +14460,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::StringSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67110355,
           "normalizedSignature": "String|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -14482,7 +14482,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::TypeSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 67110357,
           "normalizedSignature": "Type|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -14504,7 +14504,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SerializationTypeCode::EnumSystem.Reflection.Metadata.SerializationTypeCode",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "metadataToken": 67110359,
           "normalizedSignature": "Enum|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "isStatic": true,
@@ -15069,7 +15069,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "target": {
@@ -15189,7 +15189,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "target": {
@@ -15209,7 +15209,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": true,
           "tsSignatureId": "Type|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "target": {
@@ -15229,7 +15229,7 @@
           }
         },
         {
-          "tsName": "enum_",
+          "tsName": "enum",
           "isStatic": true,
           "tsSignatureId": "Enum|System.Reflection.Metadata.SerializationTypeCode|static=true|const=true",
           "target": {
@@ -15915,7 +15915,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureCallingConvention::DefaultSystem.Reflection.Metadata.SignatureCallingConvention",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67110366,
           "normalizedSignature": "Default|System.Reflection.Metadata.SignatureCallingConvention|static=true|const=true",
           "isStatic": true,
@@ -16536,7 +16536,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Reflection.Metadata.SignatureCallingConvention|static=true|const=true",
           "target": {
@@ -17314,7 +17314,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::VoidSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "metadataToken": 67110383,
           "normalizedSignature": "Void|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
@@ -17325,7 +17325,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::BooleanSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67110384,
           "normalizedSignature": "Boolean|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
@@ -17457,7 +17457,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::StringSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67110396,
           "normalizedSignature": "String|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
@@ -17567,7 +17567,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeCode::ObjectSystem.Reflection.Metadata.SignatureTypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "metadataToken": 67110406,
           "normalizedSignature": "Object|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "isStatic": true,
@@ -18209,7 +18209,7 @@
           }
         },
         {
-          "tsName": "void_",
+          "tsName": "void",
           "isStatic": true,
           "tsSignatureId": "Void|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "target": {
@@ -18219,7 +18219,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "target": {
@@ -18339,7 +18339,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "target": {
@@ -18439,7 +18439,7 @@
           }
         },
         {
-          "tsName": "object_",
+          "tsName": "object",
           "isStatic": true,
           "tsSignatureId": "Object|System.Reflection.Metadata.SignatureTypeCode|static=true|const=true",
           "target": {
@@ -18543,7 +18543,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeKind::UnknownSystem.Reflection.Metadata.SignatureTypeKind",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109928,
           "normalizedSignature": "Unknown|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "isStatic": true,
@@ -18554,7 +18554,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.SignatureTypeKind::ClassSystem.Reflection.Metadata.SignatureTypeKind",
           "clrName": "Class",
-          "tsEmitName": "class_",
+          "tsEmitName": "class",
           "metadataToken": 67109929,
           "normalizedSignature": "Class|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "isStatic": true,
@@ -19120,7 +19120,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "target": {
@@ -19130,7 +19130,7 @@
           }
         },
         {
-          "tsName": "class_",
+          "tsName": "class",
           "isStatic": true,
           "tsSignatureId": "Class|System.Reflection.Metadata.SignatureTypeKind|static=true|const=true",
           "target": {
@@ -26553,7 +26553,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttribute::Constructor:System.Reflection.Metadata.EntityHandle",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "metadataToken": 385876440,
           "canonicalSignature": ":System.Reflection.Metadata.EntityHandle",
           "normalizedSignature": "Constructor|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
@@ -26670,7 +26670,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "constructor_",
+          "tsName": "constructor",
           "isStatic": false,
           "tsSignatureId": "Constructor|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "target": {
@@ -27362,7 +27362,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttributeNamedArgument\u00601::Type:TType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876312,
           "canonicalSignature": ":TType",
           "normalizedSignature": "Type|:TType|static=false|accessor=get",
@@ -27486,7 +27486,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:TType|static=false|accessor=get",
           "target": {
@@ -27529,7 +27529,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.CustomAttributeTypedArgument\u00601::Type:TType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876314,
           "canonicalSignature": ":TType",
           "normalizedSignature": "Type|:TType|static=false|accessor=get",
@@ -27633,7 +27633,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:TType|static=false|accessor=get",
           "target": {
@@ -30829,7 +30829,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.EventDefinition::Type:System.Reflection.Metadata.EntityHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876457,
           "canonicalSignature": ":System.Reflection.Metadata.EntityHandle",
           "normalizedSignature": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
@@ -30958,7 +30958,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "target": {
@@ -31904,7 +31904,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.ExportedType::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876469,
           "canonicalSignature": ":System.Reflection.Metadata.StringHandle",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
@@ -32051,7 +32051,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "target": {
@@ -33906,7 +33906,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.GenericParameterConstraint::Type:System.Reflection.Metadata.EntityHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876485,
           "canonicalSignature": ":System.Reflection.Metadata.EntityHandle",
           "normalizedSignature": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
@@ -34005,7 +34005,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "target": {
@@ -37145,7 +37145,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.InterfaceImplementation::Interface:System.Reflection.Metadata.EntityHandle",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "metadataToken": 385876564,
           "canonicalSignature": ":System.Reflection.Metadata.EntityHandle",
           "normalizedSignature": "Interface|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
@@ -37234,7 +37234,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "interface_",
+          "tsName": "interface",
           "isStatic": false,
           "tsSignatureId": "Interface|:System.Reflection.Metadata.EntityHandle|static=false|accessor=get",
           "target": {
@@ -44360,7 +44360,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MethodImplementation::Type:System.Reflection.Metadata.TypeDefinitionHandle",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876626,
           "canonicalSignature": ":System.Reflection.Metadata.TypeDefinitionHandle",
           "normalizedSignature": "Type|:System.Reflection.Metadata.TypeDefinitionHandle|static=false|accessor=get",
@@ -44477,7 +44477,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Reflection.Metadata.TypeDefinitionHandle|static=false|accessor=get",
           "target": {
@@ -45169,7 +45169,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.MethodImport::Module:System.Reflection.Metadata.ModuleReferenceHandle",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "metadataToken": 385876631,
           "canonicalSignature": ":System.Reflection.Metadata.ModuleReferenceHandle",
           "normalizedSignature": "Module|:System.Reflection.Metadata.ModuleReferenceHandle|static=false|accessor=get",
@@ -45268,7 +45268,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Metadata.ModuleReferenceHandle|static=false|accessor=get",
           "target": {
@@ -50904,7 +50904,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeDefinition::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876756,
           "canonicalSignature": ":System.Reflection.Metadata.StringHandle",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
@@ -51161,7 +51161,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "target": {
@@ -52024,7 +52024,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeReference::Namespace:System.Reflection.Metadata.StringHandle",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876767,
           "canonicalSignature": ":System.Reflection.Metadata.StringHandle",
           "normalizedSignature": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
@@ -52123,7 +52123,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.Reflection.Metadata.StringHandle|static=false|accessor=get",
           "target": {
@@ -55177,7 +55177,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.HandleComparer::Default:System.Reflection.Metadata.HandleComparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385876549,
           "canonicalSignature": ":System.Reflection.Metadata.HandleComparer",
           "normalizedSignature": "Default|:System.Reflection.Metadata.HandleComparer|static=true|accessor=get",
@@ -55346,7 +55346,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Reflection.Metadata.HandleComparer|static=true|accessor=get",
           "target": {
@@ -59018,7 +59018,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.TypeName::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876425,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
@@ -59367,7 +59367,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {

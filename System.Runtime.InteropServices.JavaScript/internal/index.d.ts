@@ -211,9 +211,9 @@ export interface JSMarshalerType$instance {
 
 export const JSMarshalerType: {
     new(): JSMarshalerType;
-    readonly void_: JSMarshalerType;
+    readonly void: JSMarshalerType;
     readonly discard: JSMarshalerType;
-    readonly boolean_: JSMarshalerType;
+    readonly boolean: JSMarshalerType;
     readonly byte: JSMarshalerType;
     readonly char: JSMarshalerType;
     readonly int16: JSMarshalerType;
@@ -224,8 +224,8 @@ export const JSMarshalerType: {
     readonly single: JSMarshalerType;
     readonly intPtr: JSMarshalerType;
     readonly jsObject: JSMarshalerType;
-    readonly object_: JSMarshalerType;
-    readonly string_: JSMarshalerType;
+    readonly object: JSMarshalerType;
+    readonly string: JSMarshalerType;
     readonly exception: JSMarshalerType;
     readonly dateTime: JSMarshalerType;
     readonly dateTimeOffset: JSMarshalerType;
@@ -235,10 +235,10 @@ export const JSMarshalerType: {
     action(arg1: JSMarshalerType): JSMarshalerType;
     array(element: JSMarshalerType): JSMarshalerType;
     arraySegment(element: JSMarshalerType): JSMarshalerType;
-    function_(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    function_(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    function_(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
-    function_(result: JSMarshalerType): JSMarshalerType;
+    function(arg1: JSMarshalerType, arg2: JSMarshalerType, arg3: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function(arg1: JSMarshalerType, arg2: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function(arg1: JSMarshalerType, result: JSMarshalerType): JSMarshalerType;
+    function(result: JSMarshalerType): JSMarshalerType;
     nullable(primitive: JSMarshalerType): JSMarshalerType;
     span(element: JSMarshalerType): JSMarshalerType;
     task(): JSMarshalerType;

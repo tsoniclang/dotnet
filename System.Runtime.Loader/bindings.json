@@ -477,7 +477,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Default:System.Runtime.Loader.AssemblyLoadContext",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385879345,
           "canonicalSignature": ":System.Runtime.Loader.AssemblyLoadContext",
           "normalizedSignature": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
@@ -784,7 +784,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "target": {

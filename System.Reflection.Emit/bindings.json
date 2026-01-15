@@ -645,7 +645,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::BreakSystem.Reflection.Emit.FlowControl",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "metadataToken": 67115479,
           "normalizedSignature": "Break|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
@@ -711,7 +711,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::ReturnSystem.Reflection.Emit.FlowControl",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "metadataToken": 67115485,
           "normalizedSignature": "Return|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
@@ -722,7 +722,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.FlowControl::ThrowSystem.Reflection.Emit.FlowControl",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "metadataToken": 67115486,
           "normalizedSignature": "Throw|System.Reflection.Emit.FlowControl|static=true|const=true",
           "isStatic": true,
@@ -1287,7 +1287,7 @@
           }
         },
         {
-          "tsName": "break_",
+          "tsName": "break",
           "isStatic": true,
           "tsSignatureId": "Break|System.Reflection.Emit.FlowControl|static=true|const=true",
           "target": {
@@ -1347,7 +1347,7 @@
           }
         },
         {
-          "tsName": "return_",
+          "tsName": "return",
           "isStatic": true,
           "tsSignatureId": "Return|System.Reflection.Emit.FlowControl|static=true|const=true",
           "target": {
@@ -1357,7 +1357,7 @@
           }
         },
         {
-          "tsName": "throw_",
+          "tsName": "throw",
           "isStatic": true,
           "tsSignatureId": "Throw|System.Reflection.Emit.FlowControl|static=true|const=true",
           "target": {
@@ -8148,7 +8148,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -9114,7 +9114,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.DynamicMethod::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "metadataToken": 385880399,
           "canonicalSignature": ":System.Reflection.Module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
@@ -9724,7 +9724,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -12586,7 +12586,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {
@@ -12626,7 +12626,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -14192,7 +14192,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -16610,7 +16610,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {
@@ -16650,7 +16650,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -19451,7 +19451,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -20807,7 +20807,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::BreakSystem.Reflection.Emit.OpCode",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "metadataToken": 67115724,
           "normalizedSignature": "Break|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
@@ -21544,7 +21544,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::SwitchSystem.Reflection.Emit.OpCode",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "metadataToken": 67115791,
           "normalizedSignature": "Switch|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
@@ -22105,7 +22105,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::ThrowSystem.Reflection.Emit.OpCode",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "metadataToken": 67115842,
           "normalizedSignature": "Throw|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
@@ -23271,7 +23271,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.Emit.OpCodes::ReadonlySystem.Reflection.Emit.OpCode",
           "clrName": "Readonly",
-          "tsEmitName": "readonly_",
+          "tsEmitName": "readonly",
           "metadataToken": 67115948,
           "normalizedSignature": "Readonly|System.Reflection.Emit.OpCode|static=true|const=false",
           "isStatic": true,
@@ -23366,7 +23366,7 @@
           }
         },
         {
-          "tsName": "break_",
+          "tsName": "break",
           "isStatic": true,
           "tsSignatureId": "Break|System.Reflection.Emit.OpCode|static=true|const=false",
           "target": {
@@ -24036,7 +24036,7 @@
           }
         },
         {
-          "tsName": "switch_",
+          "tsName": "switch",
           "isStatic": true,
           "tsSignatureId": "Switch|System.Reflection.Emit.OpCode|static=true|const=false",
           "target": {
@@ -24546,7 +24546,7 @@
           }
         },
         {
-          "tsName": "throw_",
+          "tsName": "throw",
           "isStatic": true,
           "tsSignatureId": "Throw|System.Reflection.Emit.OpCode|static=true|const=false",
           "target": {
@@ -25606,7 +25606,7 @@
           }
         },
         {
-          "tsName": "readonly_",
+          "tsName": "readonly",
           "isStatic": true,
           "tsSignatureId": "Readonly|System.Reflection.Emit.OpCode|static=true|const=false",
           "target": {
@@ -27745,7 +27745,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -31610,7 +31610,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {
@@ -31650,7 +31650,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {

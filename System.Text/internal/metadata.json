@@ -5455,7 +5455,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::Default:System.Text.Encoding",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Text.Encoding|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

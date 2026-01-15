@@ -22,7 +22,7 @@ export enum RegistryHive {
 
 
 export enum RegistryKeyPermissionCheck {
-    default_ = 0,
+    default = 0,
     readSubTree = 1,
     readWriteSubTree = 2
 }
@@ -36,8 +36,8 @@ export enum RegistryOptions {
 
 export enum RegistryValueKind {
     none = -1,
-    unknown_ = 0,
-    string_ = 1,
+    unknown = 0,
+    string = 1,
     expandString = 2,
     binary = 3,
     dWord = 4,
@@ -53,7 +53,7 @@ export enum RegistryValueOptions {
 
 
 export enum RegistryView {
-    default_ = 0,
+    default = 0,
     registry64 = 256,
     registry32 = 512
 }

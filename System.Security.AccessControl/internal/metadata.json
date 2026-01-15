@@ -94,7 +94,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.AccessControlModification::SetSystem.Security.AccessControl.AccessControlModification",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|System.Security.AccessControl.AccessControlModification|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -931,7 +931,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.EventWaitHandleRights::DeleteSystem.Security.AccessControl.EventWaitHandleRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Security.AccessControl.EventWaitHandleRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1137,7 +1137,7 @@
         {
           "stableId": "System.IO.FileSystem.AccessControl:System.Security.AccessControl.FileSystemRights::DeleteSystem.Security.AccessControl.FileSystemRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Security.AccessControl.FileSystemRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1306,7 +1306,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.MutexRights::DeleteSystem.Security.AccessControl.MutexRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Security.AccessControl.MutexRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1546,7 +1546,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:System.Security.AccessControl.RegistryRights::DeleteSystem.Security.AccessControl.RegistryRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Security.AccessControl.RegistryRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1644,7 +1644,7 @@
         {
           "stableId": "System.Security.AccessControl:System.Security.AccessControl.ResourceType::UnknownSystem.Security.AccessControl.ResourceType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Security.AccessControl.ResourceType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1858,7 +1858,7 @@
         {
           "stableId": "System.Threading.AccessControl:System.Security.AccessControl.SemaphoreRights::DeleteSystem.Security.AccessControl.SemaphoreRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Security.AccessControl.SemaphoreRights|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

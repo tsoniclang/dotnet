@@ -2562,7 +2562,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_",
+          "tsEmitName": "function",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2578,7 +2578,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_",
+          "tsEmitName": "function",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2594,7 +2594,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_",
+          "tsEmitName": "function",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2610,7 +2610,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Function(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Function",
-          "tsEmitName": "function_",
+          "tsEmitName": "function",
           "normalizedSignature": "Function|(System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType,System.Runtime.InteropServices.JavaScript.JSMarshalerType):System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2628,7 +2628,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Void:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "normalizedSignature": "Void|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2658,7 +2658,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Boolean:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2823,7 +2823,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::Object:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2838,7 +2838,7 @@
         {
           "stableId": "System.Runtime.InteropServices.JavaScript:System.Runtime.InteropServices.JavaScript.JSMarshalerType::String:System.Runtime.InteropServices.JavaScript.JSMarshalerType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|:System.Runtime.InteropServices.JavaScript.JSMarshalerType|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

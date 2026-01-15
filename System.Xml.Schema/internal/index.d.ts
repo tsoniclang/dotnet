@@ -106,14 +106,14 @@ export enum XmlTypeCode {
     document = 3,
     element = 4,
     attribute = 5,
-    namespace_ = 6,
+    namespace = 6,
     processingInstruction = 7,
     comment = 8,
     text = 9,
     anyAtomicType = 10,
     untypedAtomic = 11,
-    string_ = 12,
-    boolean_ = 13,
+    string = 12,
+    boolean = 13,
     decimal = 14,
     float = 15,
     double = 16,
@@ -204,7 +204,7 @@ export interface XmlAtomicValue$instance extends XPathItem {
     readonly xmlType: XmlSchemaType | XmlSchemaType | undefined;
     clone(): XmlAtomicValue;
     toString(): string;
-    valueAs(type_: Type, nsResolver: IXmlNamespaceResolver): unknown;
+    valueAs(type: Type, nsResolver: IXmlNamespaceResolver): unknown;
     valueAs(returnType: Type): unknown;
 }
 
@@ -254,7 +254,7 @@ export interface XmlSchema$instance extends XmlSchemaObject {
 
 export const XmlSchema: {
     new(): XmlSchema;
-    readonly namespace_: string;
+    readonly namespace: string;
     readonly instanceNamespace: string;
     read(stream: Stream, validationEventHandler: ValidationEventHandler): XmlSchema | undefined;
     read(reader: TextReader, validationEventHandler: ValidationEventHandler): XmlSchema | undefined;
@@ -308,7 +308,7 @@ export const XmlSchemaAnnotation: {
 export type XmlSchemaAnnotation = XmlSchemaAnnotation$instance;
 
 export interface XmlSchemaAny$instance extends XmlSchemaParticle {
-    namespace_: string;
+    namespace: string;
     processContents: XmlSchemaContentProcessing;
 }
 
@@ -321,7 +321,7 @@ export const XmlSchemaAny: {
 export type XmlSchemaAny = XmlSchemaAny$instance;
 
 export interface XmlSchemaAnyAttribute$instance extends XmlSchemaAnnotated {
-    namespace_: string;
+    namespace: string;
     processContents: XmlSchemaContentProcessing;
 }
 
@@ -767,7 +767,7 @@ export type XmlSchemaIdentityConstraint = XmlSchemaIdentityConstraint$instance;
 export interface XmlSchemaImport$instance extends XmlSchemaExternal {
     get annotation(): XmlSchemaAnnotation | undefined;
     set annotation(value: XmlSchemaAnnotation);
-    namespace_: string;
+    namespace: string;
 }
 
 
@@ -956,8 +956,8 @@ export type XmlSchemaMinLengthFacet = XmlSchemaMinLengthFacet$instance;
 
 export interface XmlSchemaNotation$instance extends XmlSchemaAnnotated {
     name: string;
-    get public_(): string | undefined;
-    set public_(value: string);
+    get public(): string | undefined;
+    set public(value: string);
     get system(): string | undefined;
     set system(value: string);
 }

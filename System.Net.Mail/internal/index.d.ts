@@ -35,7 +35,7 @@ export enum DeliveryNotificationOptions {
     onSuccess = 1,
     onFailure = 2,
     delay = 4,
-    never_ = 134217728
+    never = 134217728
 }
 
 
@@ -390,8 +390,8 @@ export interface MailMessage$instance {
     bodyTransferEncoding: TransferEncoding;
     readonly CC: MailAddressCollection;
     deliveryNotificationOptions: DeliveryNotificationOptions;
-    get from_(): MailAddress | undefined;
-    set from_(value: MailAddress);
+    get from(): MailAddress | undefined;
+    set from(value: MailAddress);
     readonly headers: NameValueCollection;
     get headersEncoding(): Encoding | undefined;
     set headersEncoding(value: Encoding);
@@ -412,9 +412,9 @@ export interface MailMessage$instance {
 
 export const MailMessage: {
     new(): MailMessage;
-    new(from_: string, to: string): MailMessage;
-    new(from_: string, to: string, subject: string, body: string): MailMessage;
-    new(from_: MailAddress, to: MailAddress): MailMessage;
+    new(from: string, to: string): MailMessage;
+    new(from: string, to: string, subject: string, body: string): MailMessage;
+    new(from: MailAddress, to: MailAddress): MailMessage;
 };
 
 
@@ -443,14 +443,14 @@ export interface SmtpClient$instance {
     timeout: int;
     useDefaultCredentials: boolean;
     dispose(): void;
-    send(from_: string, recipients: string, subject: string, body: string): void;
+    send(from: string, recipients: string, subject: string, body: string): void;
     send(message: MailMessage): void;
-    sendAsync(from_: string, recipients: string, subject: string, body: string, userToken: unknown): void;
+    sendAsync(from: string, recipients: string, subject: string, body: string, userToken: unknown): void;
     sendAsync(message: MailMessage, userToken: unknown): void;
     sendAsyncCancel(): void;
-    sendMailAsync(from_: string, recipients: string, subject: string, body: string): Task;
+    sendMailAsync(from: string, recipients: string, subject: string, body: string): Task;
     sendMailAsync(message: MailMessage): Task;
-    sendMailAsync(from_: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
+    sendMailAsync(from: string, recipients: string, subject: string, body: string, cancellationToken: CancellationToken): Task;
     sendMailAsync(message: MailMessage, cancellationToken: CancellationToken): Task;
 }
 

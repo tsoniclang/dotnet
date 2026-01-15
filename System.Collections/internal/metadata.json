@@ -2146,7 +2146,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Get(System.Int32):System.Boolean",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.Int32):System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2162,7 +2162,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Set(System.Int32,System.Boolean):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|(System.Int32,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2660,7 +2660,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CaseInsensitiveComparer::Default:System.Collections.CaseInsensitiveComparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Collections.CaseInsensitiveComparer|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2752,7 +2752,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CaseInsensitiveHashCodeProvider::Default:System.Collections.CaseInsensitiveHashCodeProvider",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Collections.CaseInsensitiveHashCodeProvider|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3190,7 +3190,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Comparer::DefaultSystem.Collections.Comparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Collections.Comparer|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

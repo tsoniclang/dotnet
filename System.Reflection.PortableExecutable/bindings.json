@@ -1622,7 +1622,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::UnknownSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109227,
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
@@ -2232,7 +2232,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "target": {
@@ -3199,7 +3199,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::UnknownSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109236,
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
@@ -4073,7 +4073,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "target": {
@@ -5007,7 +5007,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::DefaultSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109436,
           "normalizedSignature": "Default|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
@@ -5606,7 +5606,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "target": {
@@ -7214,7 +7214,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::UnknownSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109289,
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
@@ -7912,7 +7912,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "target": {
@@ -8255,7 +8255,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::Type:System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876201,
           "canonicalSignature": ":System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "normalizedSignature": "Type|:System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=false|accessor=get",
@@ -8431,7 +8431,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=false|accessor=get",
           "target": {

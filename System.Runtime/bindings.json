@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.GCLargeObjectHeapCompactionMode::DefaultSystem.Runtime.GCLargeObjectHeapCompactionMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67113220,
           "normalizedSignature": "Default|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "isStatic": true,
@@ -590,7 +590,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Runtime.GCLargeObjectHeapCompactionMode|static=true|const=true",
           "target": {

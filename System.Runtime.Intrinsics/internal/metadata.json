@@ -930,7 +930,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::Any(Vector128_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Vector128_1,T):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -962,7 +962,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::As(Vector128_1):Vector128_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(Vector128_1):Vector128_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6059,7 +6059,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::Any(Vector256_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Vector256_1,T):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6091,7 +6091,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::As(Vector256_1):Vector256_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(Vector256_1):Vector256_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11012,7 +11012,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::Any(Vector512_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Vector512_1,T):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11044,7 +11044,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::As(Vector512_1):Vector512_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(Vector512_1):Vector512_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15949,7 +15949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::Any(Vector64_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Vector64_1,T):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15981,7 +15981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::As(Vector64_1):Vector64_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(Vector64_1):Vector64_1|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

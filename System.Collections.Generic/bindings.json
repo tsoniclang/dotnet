@@ -3416,7 +3416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.HashSet\u00601\u002BAlternateLookup\u00601::Set:HashSet_1",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 385881413,
           "canonicalSignature": ":HashSet_1",
           "normalizedSignature": "Set|:HashSet_1|static=false|accessor=get",
@@ -3535,7 +3535,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|:HashSet_1|static=false|accessor=get",
           "target": {
@@ -7785,7 +7785,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -7875,7 +7875,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.Comparer\u00601::Default:Comparer_1",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385881365,
           "canonicalSignature": ":Comparer_1",
           "normalizedSignature": "Default|:Comparer_1|static=true|accessor=get",
@@ -7994,7 +7994,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:Comparer_1|static=true|accessor=get",
           "target": {
@@ -10945,7 +10945,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -11077,7 +11077,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Generic.EqualityComparer\u00601::Default:EqualityComparer_1",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385881366,
           "canonicalSignature": ":EqualityComparer_1",
           "normalizedSignature": "Default|:EqualityComparer_1|static=true|accessor=get",
@@ -11226,7 +11226,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -11458,7 +11458,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:Comparer_1|static=true|accessor=get",
           "target": {
@@ -11797,7 +11797,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -17153,7 +17153,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:Comparer_1|static=true|accessor=get",
           "target": {
@@ -17588,7 +17588,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -17831,7 +17831,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:Comparer_1|static=true|accessor=get",
           "target": {
@@ -18170,7 +18170,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:EqualityComparer_1|static=true|accessor=get",
           "target": {
@@ -25408,7 +25408,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:Comparer_1|static=true|accessor=get",
           "target": {

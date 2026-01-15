@@ -33,7 +33,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.AssemblyContentType::DefaultSystem.Reflection.AssemblyContentType",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.AssemblyContentType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -308,7 +308,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::DefaultSystem.Reflection.BindingFlags",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.BindingFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -344,7 +344,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::StaticSystem.Reflection.BindingFlags",
           "clrName": "Static",
-          "tsEmitName": "static_",
+          "tsEmitName": "static",
           "normalizedSignature": "Static|System.Reflection.BindingFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -353,7 +353,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.BindingFlags::PublicSystem.Reflection.BindingFlags",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.BindingFlags|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -541,7 +541,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CallingConventions::AnySystem.Reflection.CallingConventions",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|System.Reflection.CallingConventions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -790,7 +790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ExceptionHandlingClauseOptions::FinallySystem.Reflection.ExceptionHandlingClauseOptions",
           "clrName": "Finally",
-          "tsEmitName": "finally_",
+          "tsEmitName": "finally",
           "normalizedSignature": "Finally|System.Reflection.ExceptionHandlingClauseOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -852,7 +852,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::PrivateSystem.Reflection.FieldAttributes",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Reflection.FieldAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -897,7 +897,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::PublicSystem.Reflection.FieldAttributes",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.FieldAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -906,7 +906,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.FieldAttributes::StaticSystem.Reflection.FieldAttributes",
           "clrName": "Static",
-          "tsEmitName": "static_",
+          "tsEmitName": "static",
           "normalizedSignature": "Static|System.Reflection.FieldAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1200,7 +1200,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::PublicSystem.Reflection.ManifestResourceAttributes",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.ManifestResourceAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1209,7 +1209,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.ManifestResourceAttributes::PrivateSystem.Reflection.ManifestResourceAttributes",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Reflection.ManifestResourceAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1253,7 +1253,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberTypes::ConstructorSystem.Reflection.MemberTypes",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|System.Reflection.MemberTypes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1378,7 +1378,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::PrivateSystem.Reflection.MethodAttributes",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Reflection.MethodAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1423,7 +1423,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::PublicSystem.Reflection.MethodAttributes",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.MethodAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1432,7 +1432,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::StaticSystem.Reflection.MethodAttributes",
           "clrName": "Static",
-          "tsEmitName": "static_",
+          "tsEmitName": "static",
           "normalizedSignature": "Static|System.Reflection.MethodAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1504,7 +1504,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodAttributes::AbstractSystem.Reflection.MethodAttributes",
           "clrName": "Abstract",
-          "tsEmitName": "abstract_",
+          "tsEmitName": "abstract",
           "normalizedSignature": "Abstract|System.Reflection.MethodAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1746,7 +1746,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MethodImplAttributes::AsyncSystem.Reflection.MethodImplAttributes",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "normalizedSignature": "Async|System.Reflection.MethodImplAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2067,7 +2067,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityState::UnknownSystem.Reflection.NullabilityState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Reflection.NullabilityState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2129,7 +2129,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ParameterAttributes::InSystem.Reflection.ParameterAttributes",
           "clrName": "In",
-          "tsEmitName": "in_",
+          "tsEmitName": "in",
           "normalizedSignature": "In|System.Reflection.ParameterAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2503,7 +2503,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::PublicSystem.Reflection.ResourceAttributes",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.ResourceAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2512,7 +2512,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.ResourceAttributes::PrivateSystem.Reflection.ResourceAttributes",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Reflection.ResourceAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2618,7 +2618,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::PublicSystem.Reflection.TypeAttributes",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|System.Reflection.TypeAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2726,7 +2726,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::ClassSystem.Reflection.TypeAttributes",
           "clrName": "Class",
-          "tsEmitName": "class_",
+          "tsEmitName": "class",
           "normalizedSignature": "Class|System.Reflection.TypeAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2735,7 +2735,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::InterfaceSystem.Reflection.TypeAttributes",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|System.Reflection.TypeAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2744,7 +2744,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::AbstractSystem.Reflection.TypeAttributes",
           "clrName": "Abstract",
-          "tsEmitName": "abstract_",
+          "tsEmitName": "abstract",
           "normalizedSignature": "Abstract|System.Reflection.TypeAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2771,7 +2771,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeAttributes::ImportSystem.Reflection.TypeAttributes",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "normalizedSignature": "Import|System.Reflection.TypeAttributes|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -7009,7 +7009,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.CustomAttributeData::Constructor:System.Reflection.ConstructorInfo",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|:System.Reflection.ConstructorInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8839,7 +8839,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.MemberInfo::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10982,7 +10982,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.NullabilityInfo::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14133,7 +14133,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14208,7 +14208,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Reflection.TypeDelegator::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

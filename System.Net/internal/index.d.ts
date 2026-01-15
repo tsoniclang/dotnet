@@ -49,11 +49,11 @@ export enum AuthenticationSchemes {
 
 
 export enum CookieVariant {
-    unknown_ = 0,
+    unknown = 0,
     plain = 1,
     rfc2109 = 2,
     rfc2965 = 3,
-    default_ = 2
+    default = 2
 }
 
 
@@ -135,7 +135,7 @@ export enum HttpRequestHeader {
     authorization = 24,
     cookie = 25,
     expect = 26,
-    from_ = 27,
+    from = 27,
     host = 28,
     ifMatch = 29,
     ifModifiedSince = 30,
@@ -187,7 +187,7 @@ export enum HttpResponseHeader {
 
 
 export enum HttpStatusCode {
-    continue_ = 100,
+    continue = 100,
     switchingProtocols = 101,
     processing = 102,
     earlyHints = 103,
@@ -1128,12 +1128,12 @@ export interface HttpWebRequest$instance extends WebRequest$instance {
     useDefaultCredentials: boolean;
     userAgent: string;
     abort(): void;
-    addRange(from_: int, to: int): void;
-    addRange(from_: long, to: long): void;
+    addRange(from: int, to: int): void;
+    addRange(from: long, to: long): void;
     addRange(range: int): void;
     addRange(range: long): void;
-    addRange(rangeSpecifier: string, from_: int, to: int): void;
-    addRange(rangeSpecifier: string, from_: long, to: long): void;
+    addRange(rangeSpecifier: string, from: int, to: int): void;
+    addRange(rangeSpecifier: string, from: long, to: long): void;
     addRange(rangeSpecifier: string, range: int): void;
     addRange(rangeSpecifier: string, range: long): void;
     beginGetRequestStream(callback: AsyncCallback, state: unknown): IAsyncResult;
@@ -1231,7 +1231,7 @@ export const IPAddress: {
     new(address: ReadOnlySpan_1<System_Internal.Byte>, scopeid: long): IPAddress;
     new(address: byte[]): IPAddress;
     new(address: ReadOnlySpan_1<System_Internal.Byte>): IPAddress;
-    readonly any_: IPAddress;
+    readonly any: IPAddress;
     readonly loopback: IPAddress;
     readonly broadcast: IPAddress;
     readonly none: IPAddress;
@@ -1700,8 +1700,8 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
     add(c: NameValueCollection): void;
     clear(): void;
     copyTo(dest: ClrArray, index: int): void;
-    get_(index: int): string | undefined;
-    get_(name: string): string | undefined;
+    get(index: int): string | undefined;
+    get(name: string): string | undefined;
     getEnumerator(): IEnumerator;
     getKey(index: int): string;
     getObjectData(serializationInfo: SerializationInfo, streamingContext: StreamingContext): void;
@@ -1710,8 +1710,8 @@ export interface WebHeaderCollection$instance extends NameValueCollection {
     onDeserialization(sender: unknown): void;
     remove(header: HttpResponseHeader): void;
     remove(name: string): void;
-    set_(name: string, value: string): void;
-    set_(header: HttpResponseHeader, value: string): void;
+    set(name: string, value: string): void;
+    set(header: HttpResponseHeader, value: string): void;
     toByteArray(): byte[];
     toString(): string;
 }
@@ -1897,7 +1897,7 @@ export abstract class Dns$instance {
 export type Dns = Dns$instance;
 
 export abstract class HttpVersion$instance {
-    static readonly unknown_: Version;
+    static readonly unknown: Version;
     static readonly version10: Version;
     static readonly version11: Version;
     static readonly version20: Version;
@@ -1941,7 +1941,7 @@ export abstract class WebRequestMethods_Ftp$instance {
 export type WebRequestMethods_Ftp = WebRequestMethods_Ftp$instance;
 
 export abstract class WebRequestMethods_Http$instance {
-    static readonly get_: string;
+    static readonly get: string;
     static readonly connect: string;
     static readonly head: string;
     static readonly put: string;

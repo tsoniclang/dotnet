@@ -1182,7 +1182,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.PbeEncryptionAlgorithm::UnknownSystem.Security.Cryptography.PbeEncryptionAlgorithm",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Security.Cryptography.PbeEncryptionAlgorithm|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6091,7 +6091,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6123,7 +6123,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Export(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "normalizedSignature": "Export|(System.Security.Cryptography.CngKeyBlobFormat):System.Byte[]|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6283,7 +6283,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Import(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "normalizedSignature": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat):System.Security.Cryptography.CngKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6299,7 +6299,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CngKey::Import(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "normalizedSignature": "Import|(System.Byte[],System.Security.Cryptography.CngKeyBlobFormat,System.Security.Cryptography.CngProvider):System.Security.Cryptography.CngKey|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10429,7 +10429,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.CspKeyContainerInfo::Protected:System.Boolean",
           "clrName": "Protected",
-          "tsEmitName": "protected_",
+          "tsEmitName": "protected",
           "normalizedSignature": "Protected|:System.Boolean|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15182,7 +15182,7 @@
         {
           "stableId": "System.Security.Cryptography:System.Security.Cryptography.ECDiffieHellmanCngPublicKey::Import():System.Security.Cryptography.CngKey",
           "clrName": "Import",
-          "tsEmitName": "import_",
+          "tsEmitName": "import",
           "normalizedSignature": "Import|():System.Security.Cryptography.CngKey|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

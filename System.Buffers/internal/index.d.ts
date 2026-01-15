@@ -177,7 +177,7 @@ export interface StandardFormat$instance {
     readonly hasPrecision: boolean;
     readonly isDefault: boolean;
     readonly precision: byte;
-    readonly symbol_: char;
+    readonly symbol: char;
     equals(obj: unknown): boolean;
     equals(other: StandardFormat): boolean;
     getHashCode(): int;
@@ -186,7 +186,7 @@ export interface StandardFormat$instance {
 
 
 export const StandardFormat: {
-    new(symbol_: char, precision: byte): StandardFormat;
+    new(symbol: char, precision: byte): StandardFormat;
     readonly noPrecision: byte;
     readonly maxPrecision: byte;
     parse(format: ReadOnlySpan_1<System_Internal.Char>): StandardFormat;
@@ -236,7 +236,7 @@ export type ArrayBufferWriter_1<T> = ArrayBufferWriter_1$instance<T> & __ArrayBu
 
 export interface ArrayPool_1$instance<T> {
     rent(minimumLength: int): T[];
-    return_(array: T[], clearArray?: boolean): void;
+    return(array: T[], clearArray?: boolean): void;
 }
 
 

@@ -287,7 +287,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::DefaultSystem.ComponentModel.Design.ViewTechnology",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -5090,7 +5090,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::DefaultSystem.ComponentModel.Design.HelpKeywordAttribute",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.ComponentModel.Design.HelpKeywordAttribute|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -5762,7 +5762,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::DeleteSystem.ComponentModel.Design.CommandID",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

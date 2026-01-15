@@ -29,7 +29,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.EditAndContinueOperation::DefaultSystem.Reflection.Metadata.Ecma335.EditAndContinueOperation",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.Metadata.Ecma335.EditAndContinueOperation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -171,7 +171,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.HeapIndex::StringSystem.Reflection.Metadata.Ecma335.HeapIndex",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Reflection.Metadata.Ecma335.HeapIndex|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -268,7 +268,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.TableIndex::ModuleSystem.Reflection.Metadata.Ecma335.TableIndex",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|System.Reflection.Metadata.Ecma335.TableIndex|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1111,7 +1111,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Boolean():System.Void",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1303,7 +1303,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::String():System.Void",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1351,7 +1351,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.CustomAttributeElementTypeEncoder::Enum(System.String):System.Void",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "normalizedSignature": "Enum|(System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1811,7 +1811,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.FieldTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2328,7 +2328,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.InstructionEncoder::Switch(System.Int32):System.Reflection.Metadata.Ecma335.SwitchInstructionEncoder",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Int32):System.Reflection.Metadata.Ecma335.SwitchInstructionEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2823,7 +2823,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.LocalVariableTypeEncoder::Type(System.Boolean,System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|(System.Boolean,System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3256,7 +3256,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.NamedArgumentTypeEncoder::Object():System.Void",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3484,7 +3484,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ParameterTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3642,7 +3642,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ReturnTypeEncoder::Type(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|(System.Boolean):System.Reflection.Metadata.Ecma335.SignatureTypeEncoder|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3674,7 +3674,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.ReturnTypeEncoder::Void():System.Void",
           "clrName": "Void",
-          "tsEmitName": "void_",
+          "tsEmitName": "void",
           "normalizedSignature": "Void|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3949,7 +3949,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Boolean():System.Void",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4141,7 +4141,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::String():System.Void",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4205,7 +4205,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Object():System.Void",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4279,7 +4279,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.Metadata.Ecma335.SignatureTypeEncoder::Type(System.Reflection.Metadata.EntityHandle,System.Boolean):System.Void",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|(System.Reflection.Metadata.EntityHandle,System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

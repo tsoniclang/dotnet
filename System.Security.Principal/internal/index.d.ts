@@ -203,7 +203,7 @@ export interface GenericIdentity$instance extends ClaimsIdentity {
 
 export const GenericIdentity: {
     new(name: string): GenericIdentity;
-    new(name: string, type_: string): GenericIdentity;
+    new(name: string, type: string): GenericIdentity;
 };
 
 
@@ -327,7 +327,7 @@ export interface SecurityIdentifier$instance extends IdentityReference {
     isAccountSid(): boolean;
     isEqualDomainSid(sid: SecurityIdentifier): boolean;
     isValidTargetType(targetType: Type): boolean;
-    isWellKnown(type_: WellKnownSidType): boolean;
+    isWellKnown(type: WellKnownSidType): boolean;
     toString(): string;
     translate(targetType: Type): IdentityReference;
 }
@@ -378,9 +378,9 @@ export interface WindowsIdentity$instance extends ClaimsIdentity {
 
 export const WindowsIdentity: {
     new(userToken: nint): WindowsIdentity;
-    new(userToken: nint, type_: string): WindowsIdentity;
-    new(userToken: nint, type_: string, acctType: WindowsAccountType): WindowsIdentity;
-    new(userToken: nint, type_: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity;
+    new(userToken: nint, type: string): WindowsIdentity;
+    new(userToken: nint, type: string, acctType: WindowsAccountType): WindowsIdentity;
+    new(userToken: nint, type: string, acctType: WindowsAccountType, isAuthenticated: boolean): WindowsIdentity;
     new(info: SerializationInfo, context: StreamingContext): WindowsIdentity;
     new(sUserPrincipalName: string): WindowsIdentity;
     readonly defaultIssuer: string;

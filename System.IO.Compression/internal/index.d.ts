@@ -45,7 +45,7 @@ export enum ZipArchiveMode {
 
 
 export enum ZLibCompressionStrategy {
-    default_ = 0,
+    default = 0,
     filtered = 1,
     huffmanOnly = 2,
     runLengthEncoding = 3,
@@ -329,7 +329,7 @@ export interface ZipArchiveEntry$instance {
     lastWriteTime: DateTimeOffset;
     readonly length: long;
     readonly name: string;
-    delete_(): void;
+    delete(): void;
     open(): Stream;
     openAsync(cancellationToken?: CancellationToken): Task_1<Stream>;
     toString(): string;

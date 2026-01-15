@@ -141,10 +141,10 @@ export interface CacheControlHeaderValue$instance {
     noStore: boolean;
     noTransform: boolean;
     onlyIfCached: boolean;
-    private_: boolean;
+    private: boolean;
     readonly privateHeaders: ICollection_1<System_Internal.String>;
     proxyRevalidate: boolean;
-    public_: boolean;
+    public: boolean;
     sharedMaxAge: Nullable_1<TimeSpan>;
     equals(obj: unknown): boolean;
     getHashCode(): int;
@@ -202,7 +202,7 @@ export type ContentDispositionHeaderValue = ContentDispositionHeaderValue$instan
 
 
 export interface ContentRangeHeaderValue$instance {
-    readonly from_: Nullable_1<System_Internal.Int64>;
+    readonly from: Nullable_1<System_Internal.Int64>;
     readonly hasLength: boolean;
     readonly hasRange: boolean;
     readonly length: Nullable_1<System_Internal.Int64>;
@@ -215,9 +215,9 @@ export interface ContentRangeHeaderValue$instance {
 
 
 export const ContentRangeHeaderValue: {
-    new(from_: long, to: long, length: long): ContentRangeHeaderValue;
+    new(from: long, to: long, length: long): ContentRangeHeaderValue;
     new(length: long): ContentRangeHeaderValue;
-    new(from_: long, to: long): ContentRangeHeaderValue;
+    new(from: long, to: long): ContentRangeHeaderValue;
     parse(input: string): ContentRangeHeaderValue;
     tryParse(input: string, parsedValue: ContentRangeHeaderValue): boolean;
 };
@@ -244,7 +244,7 @@ export interface EntityTagHeaderValue$instance {
 export const EntityTagHeaderValue: {
     new(tag: string): EntityTagHeaderValue;
     new(tag: string, isWeak: boolean): EntityTagHeaderValue;
-    readonly any_: EntityTagHeaderValue;
+    readonly any: EntityTagHeaderValue;
     parse(input: string): EntityTagHeaderValue;
     tryParse(input: string, parsedValue: EntityTagHeaderValue): boolean;
 };
@@ -364,8 +364,8 @@ export interface HttpRequestHeaders$instance extends HttpHeaders$instance {
     date: Nullable_1<DateTimeOffset>;
     readonly expect: HttpHeaderValueCollection_1<NameValueWithParametersHeaderValue>;
     expectContinue: Nullable_1<System_Internal.Boolean>;
-    get from_(): string | undefined;
-    set from_(value: string);
+    get from(): string | undefined;
+    set from(value: string);
     host: string;
     readonly ifMatch: HttpHeaderValueCollection_1<EntityTagHeaderValue>;
     ifModifiedSince: Nullable_1<DateTimeOffset>;
@@ -641,7 +641,7 @@ export interface RangeHeaderValue$instance {
 
 export const RangeHeaderValue: {
     new(): RangeHeaderValue;
-    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeHeaderValue;
+    new(from: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeHeaderValue;
     parse(input: string): RangeHeaderValue;
     tryParse(input: string, parsedValue: RangeHeaderValue): boolean;
 };
@@ -657,7 +657,7 @@ export type RangeHeaderValue = RangeHeaderValue$instance & __RangeHeaderValue$vi
 
 
 export interface RangeItemHeaderValue$instance {
-    readonly from_: Nullable_1<System_Internal.Int64>;
+    readonly from: Nullable_1<System_Internal.Int64>;
     readonly to: Nullable_1<System_Internal.Int64>;
     equals(obj: unknown): boolean;
     getHashCode(): int;
@@ -666,7 +666,7 @@ export interface RangeItemHeaderValue$instance {
 
 
 export const RangeItemHeaderValue: {
-    new(from_: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeItemHeaderValue;
+    new(from: Nullable_1<System_Internal.Int64>, to: Nullable_1<System_Internal.Int64>): RangeItemHeaderValue;
 };
 
 

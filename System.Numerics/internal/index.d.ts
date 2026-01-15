@@ -927,7 +927,7 @@ export const Vector2: {
     all(vector: Vector2, value: float): boolean;
     allWhereAllBitsSet(vector: Vector2): boolean;
     andNot(left: Vector2, right: Vector2): Vector2;
-    any_(vector: Vector2, value: float): boolean;
+    any(vector: Vector2, value: float): boolean;
     anyWhereAllBitsSet(vector: Vector2): boolean;
     bitwiseAnd(left: Vector2, right: Vector2): Vector2;
     bitwiseOr(left: Vector2, right: Vector2): Vector2;
@@ -1088,7 +1088,7 @@ export const Vector3: {
     all(vector: Vector3, value: float): boolean;
     allWhereAllBitsSet(vector: Vector3): boolean;
     andNot(left: Vector3, right: Vector3): Vector3;
-    any_(vector: Vector3, value: float): boolean;
+    any(vector: Vector3, value: float): boolean;
     anyWhereAllBitsSet(vector: Vector3): boolean;
     bitwiseAnd(left: Vector3, right: Vector3): Vector3;
     bitwiseOr(left: Vector3, right: Vector3): Vector3;
@@ -1251,7 +1251,7 @@ export const Vector4: {
     all(vector: Vector4, value: float): boolean;
     allWhereAllBitsSet(vector: Vector4): boolean;
     andNot(left: Vector4, right: Vector4): Vector4;
-    any_(vector: Vector4, value: float): boolean;
+    any(vector: Vector4, value: float): boolean;
     anyWhereAllBitsSet(vector: Vector4): boolean;
     bitwiseAnd(left: Vector4, right: Vector4): Vector4;
     bitwiseOr(left: Vector4, right: Vector4): Vector4;
@@ -1418,9 +1418,9 @@ export abstract class Vector$instance {
     static all<T>(vector: Vector_1<T>, value: T): boolean;
     static allWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
     static andNot<T>(left: Vector_1<T>, right: Vector_1<T>): Vector_1<T>;
-    static any_<T>(vector: Vector_1<T>, value: T): boolean;
+    static any<T>(vector: Vector_1<T>, value: T): boolean;
     static anyWhereAllBitsSet<T>(vector: Vector_1<T>): boolean;
-    static as_<TFrom, TTo>(vector: Vector_1<TFrom>): Vector_1<TTo>;
+    static as<TFrom, TTo>(vector: Vector_1<TFrom>): Vector_1<TTo>;
     static asPlane(value: Vector4): Plane;
     static asQuaternion(value: Vector4): Quaternion;
     static asVector2(value: Vector3): Vector2;

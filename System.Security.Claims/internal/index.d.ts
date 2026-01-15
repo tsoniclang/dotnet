@@ -18,7 +18,7 @@ export interface Claim$instance {
     readonly originalIssuer: string;
     readonly properties: IDictionary_2<System_Internal.String, System_Internal.String>;
     readonly subject: ClaimsIdentity;
-    readonly type_: string;
+    readonly type: string;
     readonly value: string;
     readonly valueType: string;
     clone(): Claim;
@@ -31,11 +31,11 @@ export interface Claim$instance {
 export const Claim: {
     new(reader: BinaryReader): Claim;
     new(reader: BinaryReader, subject: ClaimsIdentity): Claim;
-    new(type_: string, value: string): Claim;
-    new(type_: string, value: string, valueType: string): Claim;
-    new(type_: string, value: string, valueType: string, issuer: string): Claim;
-    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
-    new(type_: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
+    new(type: string, value: string): Claim;
+    new(type: string, value: string, valueType: string): Claim;
+    new(type: string, value: string, valueType: string, issuer: string): Claim;
+    new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string): Claim;
+    new(type: string, value: string, valueType: string, issuer: string, originalIssuer: string, subject: ClaimsIdentity): Claim;
 };
 
 
@@ -58,11 +58,11 @@ export interface ClaimsIdentity$instance {
     addClaims(claims: IEnumerable_1<Claim>): void;
     clone(): ClaimsIdentity;
     findAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
-    findAll(type_: string): IEnumerable_1<Claim>;
+    findAll(type: string): IEnumerable_1<Claim>;
     findFirst(match: Predicate_1<Claim>): Claim | undefined;
-    findFirst(type_: string): Claim | undefined;
+    findFirst(type: string): Claim | undefined;
     hasClaim(match: Predicate_1<Claim>): boolean;
-    hasClaim(type_: string, value: string): boolean;
+    hasClaim(type: string, value: string): boolean;
     removeClaim(claim: Claim): void;
     tryRemoveClaim(claim: Claim): boolean;
     writeTo(writer: BinaryWriter): void;
@@ -105,11 +105,11 @@ export interface ClaimsPrincipal$instance {
     addIdentity(identity: ClaimsIdentity): void;
     clone(): ClaimsPrincipal;
     findAll(match: Predicate_1<Claim>): IEnumerable_1<Claim>;
-    findAll(type_: string): IEnumerable_1<Claim>;
+    findAll(type: string): IEnumerable_1<Claim>;
     findFirst(match: Predicate_1<Claim>): Claim | undefined;
-    findFirst(type_: string): Claim | undefined;
+    findFirst(type: string): Claim | undefined;
     hasClaim(match: Predicate_1<Claim>): boolean;
-    hasClaim(type_: string, value: string): boolean;
+    hasClaim(type: string, value: string): boolean;
     isInRole(role: string): boolean;
     writeTo(writer: BinaryWriter): void;
 }
@@ -200,7 +200,7 @@ export type ClaimTypes = ClaimTypes$instance;
 export abstract class ClaimValueTypes$instance {
     static readonly base64Binary: string;
     static readonly base64Octet: string;
-    static readonly boolean_: string;
+    static readonly boolean: string;
     static readonly date: string;
     static readonly dateTime: string;
     static readonly double: string;
@@ -210,7 +210,7 @@ export abstract class ClaimValueTypes$instance {
     static readonly integer32: string;
     static readonly integer64: string;
     static readonly sid: string;
-    static readonly string_: string;
+    static readonly string: string;
     static readonly time: string;
     static readonly uInteger32: string;
     static readonly uInteger64: string;

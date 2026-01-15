@@ -35,7 +35,7 @@ export enum MemoryMappedFileRights {
     write = 2,
     read = 4,
     execute = 8,
-    delete_ = 65536,
+    delete = 65536,
     readPermissions = 131072,
     changePermissions = 262144,
     takeOwnership = 524288,

@@ -634,7 +634,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.GroupByBehavior::UnknownSystem.Data.Common.GroupByBehavior",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67110556,
           "normalizedSignature": "Unknown|System.Data.Common.GroupByBehavior|static=true|const=true",
           "isStatic": true,
@@ -1233,7 +1233,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Data.Common.GroupByBehavior|static=true|const=true",
           "target": {
@@ -1307,7 +1307,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.IdentifierCase::UnknownSystem.Data.Common.IdentifierCase",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67110562,
           "normalizedSignature": "Unknown|System.Data.Common.IdentifierCase|static=true|const=true",
           "isStatic": true,
@@ -1884,7 +1884,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Data.Common.IdentifierCase|static=true|const=true",
           "target": {

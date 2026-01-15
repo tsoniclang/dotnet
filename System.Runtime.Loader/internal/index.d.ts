@@ -63,7 +63,7 @@ export interface AssemblyLoadContext$instance {
 
 export const AssemblyLoadContext: {
     new(name: string, isCollectible: boolean): AssemblyLoadContext;
-    readonly default_: AssemblyLoadContext;
+    readonly default: AssemblyLoadContext;
     readonly all: IEnumerable_1<AssemblyLoadContext>;
     readonly currentContextualReflectionContext: AssemblyLoadContext | undefined;
     enterContextualReflection(activating: Assembly): AssemblyLoadContext_ContextualReflectionScope;

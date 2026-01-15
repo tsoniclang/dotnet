@@ -38,7 +38,7 @@ export enum CatalogLocation {
 
 
 export enum GroupByBehavior {
-    unknown_ = 0,
+    unknown = 0,
     notSupported = 1,
     unrelated = 2,
     mustContainAll = 3,
@@ -47,7 +47,7 @@ export enum GroupByBehavior {
 
 
 export enum IdentifierCase {
-    unknown_ = 0,
+    unknown = 0,
     insensitive = 1,
     sensitive = 2
 }

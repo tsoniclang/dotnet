@@ -1706,7 +1706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.StandardFormat::Symbol:System.Char",
           "clrName": "Symbol",
-          "tsEmitName": "symbol_",
+          "tsEmitName": "symbol",
           "normalizedSignature": "Symbol|:System.Char|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2090,7 +2090,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Buffers.ArrayPool\u00601::Return(T[],System.Boolean):System.Void",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|(T[],System.Boolean):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

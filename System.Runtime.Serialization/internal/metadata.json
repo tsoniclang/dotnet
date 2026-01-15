@@ -50,7 +50,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.EmitTypeInformation::NeverSystem.Runtime.Serialization.EmitTypeInformation",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "normalizedSignature": "Never|System.Runtime.Serialization.EmitTypeInformation|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1286,7 +1286,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.CollectionDataContractAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1572,7 +1572,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.DataContractAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -3446,7 +3446,7 @@
         {
           "stableId": "System.Runtime.Serialization.Primitives:System.Runtime.Serialization.KnownTypeAttribute::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5419,7 +5419,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "normalizedSignature": "Export|(System.Collections.Generic.ICollection_1[[System.Reflection.Assembly,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5435,7 +5435,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "normalizedSignature": "Export|(System.Collections.Generic.ICollection_1[[System.Type,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5451,7 +5451,7 @@
         {
           "stableId": "System.Private.DataContractSerialization:System.Runtime.Serialization.XsdDataContractExporter::Export(System.Type):System.Void",
           "clrName": "Export",
-          "tsEmitName": "export_",
+          "tsEmitName": "export",
           "normalizedSignature": "Export|(System.Type):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

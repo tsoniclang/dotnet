@@ -154,7 +154,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexParseError::UnknownSystem.Text.RegularExpressions.RegexParseError",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Text.RegularExpressions.RegexParseError|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4292,7 +4292,7 @@
         {
           "stableId": "System.Text.RegularExpressions:System.Text.RegularExpressions.RegexCompilationInfo::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

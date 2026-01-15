@@ -28,7 +28,7 @@ export enum PipeAccessRights {
     readExtendedAttributes = 8,
     writeExtendedAttributes = 16,
     createNewInstance = 4,
-    delete_ = 65536,
+    delete = 65536,
     readPermissions = 131072,
     changePermissions = 262144,
     takeOwnership = 524288,
@@ -42,7 +42,7 @@ export enum PipeAccessRights {
 
 
 export enum PipeDirection {
-    in_ = 1,
+    in = 1,
     out = 2,
     inOut = 3
 }
@@ -196,8 +196,8 @@ export interface PipeAccessRule$instance extends AccessRule {
 
 
 export const PipeAccessRule: {
-    new(identity: IdentityReference, rights: PipeAccessRights, type_: AccessControlType): PipeAccessRule;
-    new(identity: string, rights: PipeAccessRights, type_: AccessControlType): PipeAccessRule;
+    new(identity: IdentityReference, rights: PipeAccessRights, type: AccessControlType): PipeAccessRule;
+    new(identity: string, rights: PipeAccessRights, type: AccessControlType): PipeAccessRule;
 };
 
 
@@ -220,7 +220,7 @@ export interface PipeSecurity$instance extends NativeObjectSecurity {
     readonly accessRightType: Type;
     readonly accessRuleType: Type;
     readonly auditRuleType: Type;
-    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type_: AccessControlType): AccessRule;
+    accessRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, type: AccessControlType): AccessRule;
     addAccessRule(rule: PipeAccessRule): void;
     addAuditRule(rule: PipeAuditRule): void;
     auditRuleFactory(identityReference: IdentityReference, accessMask: int, isInherited: boolean, inheritanceFlags: InheritanceFlags, propagationFlags: PropagationFlags, flags: AuditFlags): AuditRule;

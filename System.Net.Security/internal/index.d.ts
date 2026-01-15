@@ -513,7 +513,7 @@ export interface NegotiateAuthentication$instance {
     readonly isMutuallyAuthenticated: boolean;
     readonly isServer: boolean;
     readonly isSigned: boolean;
-    readonly package_: string;
+    readonly package: string;
     readonly protectionLevel: ProtectionLevel;
     readonly remoteIdentity: IIdentity;
     readonly targetName: string | undefined;
@@ -548,7 +548,7 @@ export interface NegotiateAuthenticationClientOptions$instance {
     get binding(): ChannelBinding | undefined;
     set binding(value: ChannelBinding);
     credential: NetworkCredential;
-    package_: string;
+    package: string;
     requiredProtectionLevel: ProtectionLevel;
     requireMutualAuthentication: boolean;
     get targetName(): string | undefined;
@@ -567,7 +567,7 @@ export interface NegotiateAuthenticationServerOptions$instance {
     get binding(): ChannelBinding | undefined;
     set binding(value: ChannelBinding);
     credential: NetworkCredential;
-    package_: string;
+    package: string;
     get policy(): ExtendedProtectionPolicy | undefined;
     set policy(value: ExtendedProtectionPolicy);
     requiredImpersonationLevel: TokenImpersonationLevel;

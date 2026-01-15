@@ -4598,7 +4598,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameObjectCollectionBase\u002BKeysCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663455,
           "canonicalSignature": "(System.Int32):System.String",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
@@ -4729,7 +4729,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Int32):System.String|static=false",
           "target": {
@@ -4962,7 +4962,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663480,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
@@ -4990,7 +4990,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Set(System.String,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100663482,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Set|(System.String,System.String):System.Void|static=false",
@@ -5018,7 +5018,7 @@
         {
           "stableId": "System.Collections.Specialized:System.Collections.Specialized.NameValueCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663486,
           "canonicalSignature": "(System.Int32):System.String",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
@@ -5392,7 +5392,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.String):System.String|static=false",
           "target": {
@@ -5412,7 +5412,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -5432,7 +5432,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Int32):System.String|static=false",
           "target": {

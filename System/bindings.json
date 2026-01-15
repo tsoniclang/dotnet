@@ -35,7 +35,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ModuleSystem.AttributeTargets",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "metadataToken": 67109670,
           "normalizedSignature": "Module|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
@@ -46,7 +46,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ClassSystem.AttributeTargets",
           "clrName": "Class",
-          "tsEmitName": "class_",
+          "tsEmitName": "class",
           "metadataToken": 67109671,
           "normalizedSignature": "Class|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
@@ -68,7 +68,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::EnumSystem.AttributeTargets",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "metadataToken": 67109673,
           "normalizedSignature": "Enum|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ConstructorSystem.AttributeTargets",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "metadataToken": 67109674,
           "normalizedSignature": "Constructor|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
@@ -134,7 +134,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::InterfaceSystem.AttributeTargets",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "metadataToken": 67109679,
           "normalizedSignature": "Interface|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
@@ -754,7 +754,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": true,
           "tsSignatureId": "Module|System.AttributeTargets|static=true|const=true",
           "target": {
@@ -764,7 +764,7 @@
           }
         },
         {
-          "tsName": "class_",
+          "tsName": "class",
           "isStatic": true,
           "tsSignatureId": "Class|System.AttributeTargets|static=true|const=true",
           "target": {
@@ -784,7 +784,7 @@
           }
         },
         {
-          "tsName": "enum_",
+          "tsName": "enum",
           "isStatic": true,
           "tsSignatureId": "Enum|System.AttributeTargets|static=true|const=true",
           "target": {
@@ -794,7 +794,7 @@
           }
         },
         {
-          "tsName": "constructor_",
+          "tsName": "constructor",
           "isStatic": true,
           "tsSignatureId": "Constructor|System.AttributeTargets|static=true|const=true",
           "target": {
@@ -844,7 +844,7 @@
           }
         },
         {
-          "tsName": "interface_",
+          "tsName": "interface",
           "isStatic": true,
           "tsSignatureId": "Interface|System.AttributeTargets|static=true|const=true",
           "target": {
@@ -2673,7 +2673,7 @@
         {
           "stableId": "System.Console:System.ConsoleKey::DeleteSystem.ConsoleKey",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 67109065,
           "normalizedSignature": "Delete|System.ConsoleKey|static=true|const=true",
           "isStatic": true,
@@ -4791,7 +4791,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|System.ConsoleKey|static=true|const=true",
           "target": {
@@ -11480,7 +11480,7 @@
         {
           "stableId": "System.Private.CoreLib:System.GCCollectionMode::DefaultSystem.GCCollectionMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109413,
           "normalizedSignature": "Default|System.GCCollectionMode|static=true|const=true",
           "isStatic": true,
@@ -12068,7 +12068,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.GCCollectionMode|static=true|const=true",
           "target": {
@@ -12132,7 +12132,7 @@
         {
           "stableId": "System.Private.CoreLib:System.GCKind::AnySystem.GCKind",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 67109778,
           "normalizedSignature": "Any|System.GCKind|static=true|const=true",
           "isStatic": true,
@@ -12720,7 +12720,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|System.GCKind|static=true|const=true",
           "target": {
@@ -13457,7 +13457,7 @@
         {
           "stableId": "System.Private.Uri:System.GenericUriParserOptions::DefaultSystem.GenericUriParserOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67108874,
           "normalizedSignature": "Default|System.GenericUriParserOptions|static=true|const=true",
           "isStatic": true,
@@ -14133,7 +14133,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.GenericUriParserOptions|static=true|const=true",
           "target": {
@@ -17716,7 +17716,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::ObjectSystem.TypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "metadataToken": 67110602,
           "normalizedSignature": "Object|System.TypeCode|static=true|const=true",
           "isStatic": true,
@@ -17738,7 +17738,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::BooleanSystem.TypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67110604,
           "normalizedSignature": "Boolean|System.TypeCode|static=true|const=true",
           "isStatic": true,
@@ -17892,7 +17892,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::StringSystem.TypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67110618,
           "normalizedSignature": "String|System.TypeCode|static=true|const=true",
           "isStatic": true,
@@ -18457,7 +18457,7 @@
           }
         },
         {
-          "tsName": "object_",
+          "tsName": "object",
           "isStatic": true,
           "tsSignatureId": "Object|System.TypeCode|static=true|const=true",
           "target": {
@@ -18477,7 +18477,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.TypeCode|static=true|const=true",
           "target": {
@@ -18617,7 +18617,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.TypeCode|static=true|const=true",
           "target": {
@@ -20207,7 +20207,7 @@
         {
           "stableId": "System.Private.Uri:System.UriHostNameType::UnknownSystem.UriHostNameType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109065,
           "normalizedSignature": "Unknown|System.UriHostNameType|static=true|const=true",
           "isStatic": true,
@@ -20806,7 +20806,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.UriHostNameType|static=true|const=true",
           "target": {
@@ -170292,7 +170292,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Type::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385876155,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
@@ -170348,7 +170348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Type::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "metadataToken": 385876159,
           "canonicalSignature": ":System.Reflection.Module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
@@ -172654,7 +172654,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=get",
           "target": {
@@ -172694,7 +172694,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {
@@ -183648,7 +183648,7 @@
         {
           "stableId": "System.Console:System.Console::In:System.IO.TextReader",
           "clrName": "In",
-          "tsEmitName": "in_",
+          "tsEmitName": "in",
           "metadataToken": 385875971,
           "canonicalSignature": ":System.IO.TextReader",
           "normalizedSignature": "In|:System.IO.TextReader|static=true|accessor=get",
@@ -184732,7 +184732,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "in_",
+          "tsName": "in",
           "isStatic": true,
           "tsSignatureId": "In|:System.IO.TextReader|static=true|accessor=get",
           "target": {

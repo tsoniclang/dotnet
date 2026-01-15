@@ -28,7 +28,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Enum, EventArgs, EventHandler_1, Exception, IAsyncDisposable, IAsyncResult, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, Memory_1, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum AddressFamily {
-    unknown_ = -1,
+    unknown = -1,
     unspecified = 0,
     unix = 1,
     interNetwork = 2,
@@ -111,7 +111,7 @@ export enum IPProtectionLevel {
 
 
 export enum ProtocolFamily {
-    unknown_ = -1,
+    unknown = -1,
     unspecified = 0,
     unix = 1,
     interNetwork = 2,
@@ -172,7 +172,7 @@ export enum ProtocolType {
     ipx = 1000,
     spx = 1256,
     spxII = 1257,
-    unknown_ = -1
+    unknown = -1
 }
 
 
@@ -297,7 +297,7 @@ export enum SocketOptionName {
     sendTimeout = 4101,
     receiveTimeout = 4102,
     error = 4103,
-    type_ = 4104,
+    type = 4104,
     reuseUnicastPort = 12295,
     maxConnections = 2147483647,
     ipOptions = 1,
@@ -345,7 +345,7 @@ export enum SocketType {
     raw = 3,
     rdm = 4,
     seqpacket = 5,
-    unknown_ = -1
+    unknown = -1
 }
 
 
@@ -361,7 +361,7 @@ export enum TransmitFileOptions {
 
 export interface IPPacketInformation$instance {
     readonly address: IPAddress;
-    readonly interface_: int;
+    readonly interface: int;
     equals(comparand: unknown): boolean;
     equals(other: IPPacketInformation): boolean;
     getHashCode(): int;

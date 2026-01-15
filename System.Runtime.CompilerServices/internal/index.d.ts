@@ -31,7 +31,7 @@ export enum CompilationRelaxations {
 
 
 export enum LoadHint {
-    default_ = 0,
+    default = 0,
     always = 1,
     sometimes = 2
 }
@@ -54,13 +54,13 @@ export enum MethodImplOptions {
     preserveSig = 128,
     aggressiveInlining = 256,
     aggressiveOptimization = 512,
-    async_ = 8192,
+    async = 8192,
     internalCall = 4096
 }
 
 
 export enum UnsafeAccessorKind {
-    constructor_ = 0,
+    constructor = 0,
     method = 1,
     staticMethod = 2,
     field = 3,
@@ -1892,14 +1892,14 @@ export const UnsafeValueTypeAttribute: {
 export type UnsafeValueTypeAttribute = UnsafeValueTypeAttribute$instance;
 
 export abstract class AsyncHelpers$instance {
-    static await_<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
-    static await_<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
-    static await_(configuredAwaitable: ConfiguredTaskAwaitable): void;
-    static await_(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
-    static await_(task: Task): void;
-    static await_(task: ValueTask): void;
-    static await_<T>(task: Task_1<T>): T;
-    static await_<T>(task: ValueTask_1<T>): T;
+    static await<T>(configuredAwaitable: ConfiguredTaskAwaitable_1<T>): T;
+    static await<T>(configuredAwaitable: ConfiguredValueTaskAwaitable_1<T>): T;
+    static await(configuredAwaitable: ConfiguredTaskAwaitable): void;
+    static await(configuredAwaitable: ConfiguredValueTaskAwaitable): void;
+    static await(task: Task): void;
+    static await(task: ValueTask): void;
+    static await<T>(task: Task_1<T>): T;
+    static await<T>(task: ValueTask_1<T>): T;
     static awaitAwaiter<TAwaiter extends INotifyCompletion>(awaiter: TAwaiter): void;
     static unsafeAwaitAwaiter<TAwaiter extends ICriticalNotifyCompletion>(awaiter: TAwaiter): void;
 }
@@ -2049,8 +2049,8 @@ export type RuntimeFeature = RuntimeFeature$instance;
 
 export abstract class RuntimeHelpers$instance {
     static readonly offsetToStringData: int;
-    static allocateTypeAssociatedMemory(type_: Type, size: int): nint;
-    static box(target: byte, type_: RuntimeTypeHandle): unknown | undefined;
+    static allocateTypeAssociatedMemory(type: Type, size: int): nint;
+    static box(target: byte, type: RuntimeTypeHandle): unknown | undefined;
     static createSpan<T>(fldHandle: RuntimeFieldHandle): ReadOnlySpan_1<T>;
     static ensureSufficientExecutionStack(): void;
     static equals(o1: unknown, o2: unknown): boolean;
@@ -2058,7 +2058,7 @@ export abstract class RuntimeHelpers$instance {
     static getHashCode(o: unknown): int;
     static getObjectValue(obj: unknown): unknown | undefined;
     static getSubArray<T>(array: T[], range: Range): T[];
-    static getUninitializedObject(type_: Type): unknown;
+    static getUninitializedObject(type: Type): unknown;
     static initializeArray(array: ClrArray, fldHandle: RuntimeFieldHandle): void;
     static isReferenceOrContainsReferences<T>(): boolean;
     static prepareConstrainedRegions(): void;
@@ -2068,9 +2068,9 @@ export abstract class RuntimeHelpers$instance {
     static prepareMethod(method: RuntimeMethodHandle, instantiation: RuntimeTypeHandle[]): void;
     static prepareMethod(method: RuntimeMethodHandle): void;
     static probeForSufficientStack(): void;
-    static runClassConstructor(type_: RuntimeTypeHandle): void;
-    static runModuleConstructor(module_: ModuleHandle): void;
-    static sizeOf(type_: RuntimeTypeHandle): int;
+    static runClassConstructor(type: RuntimeTypeHandle): void;
+    static runModuleConstructor(module: ModuleHandle): void;
+    static sizeOf(type: RuntimeTypeHandle): int;
     static tryEnsureSufficientExecutionStack(): boolean;
 }
 
@@ -2100,8 +2100,8 @@ export abstract class Unsafe$instance {
     static addByteOffset<T>(source: T, byteOffset: nint): T;
     static addByteOffset<T>(source: T, byteOffset: nuint): T;
     static areSame<T>(left: T, right: T): boolean;
-    static as_<T>(o: unknown): T;
-    static as_<TFrom, TTo>(source: TFrom): TTo;
+    static as<T>(o: unknown): T;
+    static as<TFrom, TTo>(source: TFrom): TTo;
     static asPointer<T>(value: T): ptr<void>;
     static asRef<T>(source: ptr<void>): T;
     static asRef<T>(source: T): T;

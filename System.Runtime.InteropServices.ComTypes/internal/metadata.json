@@ -3024,7 +3024,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Enum(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "normalizedSignature": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5990,7 +5990,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::typeSystem.Int32",
           "clrName": "type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "type|System.Int32|static=false|const=false",
           "isStatic": false,
           "isReadOnly": false,

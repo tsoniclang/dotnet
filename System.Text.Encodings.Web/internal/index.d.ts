@@ -21,7 +21,7 @@ export interface HtmlEncoder$instance extends TextEncoder {
 
 
 export const HtmlEncoder: {
-    readonly default_: HtmlEncoder;
+    readonly default: HtmlEncoder;
     create(settings: TextEncoderSettings): HtmlEncoder;
     create(...allowedRanges: UnicodeRange[]): HtmlEncoder;
 };
@@ -34,7 +34,7 @@ export interface JavaScriptEncoder$instance extends TextEncoder {
 
 
 export const JavaScriptEncoder: {
-    readonly default_: JavaScriptEncoder;
+    readonly default: JavaScriptEncoder;
     readonly unsafeRelaxedJsonEscaping: JavaScriptEncoder;
     create(settings: TextEncoderSettings): JavaScriptEncoder;
     create(...allowedRanges: UnicodeRange[]): JavaScriptEncoder;
@@ -93,7 +93,7 @@ export interface UrlEncoder$instance extends TextEncoder {
 
 
 export const UrlEncoder: {
-    readonly default_: UrlEncoder;
+    readonly default: UrlEncoder;
     create(settings: TextEncoderSettings): UrlEncoder;
     create(...allowedRanges: UnicodeRange[]): UrlEncoder;
 };

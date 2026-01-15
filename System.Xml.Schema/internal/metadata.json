@@ -695,7 +695,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::NamespaceSystem.Xml.Schema.XmlTypeCode",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -749,7 +749,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::StringSystem.Xml.Schema.XmlTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -758,7 +758,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::BooleanSystem.Xml.Schema.XmlTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2161,7 +2161,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::NamespaceSystem.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2375,7 +2375,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaAny::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2428,7 +2428,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaAnyAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4880,7 +4880,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaImport::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -5612,7 +5612,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaNotation::Public:System.String",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

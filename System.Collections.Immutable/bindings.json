@@ -2197,7 +2197,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::As():ImmutableArray_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100663744,
           "canonicalSignature": "():ImmutableArray_1",
           "normalizedSignature": "As|():ImmutableArray_1|static=false",
@@ -3482,7 +3482,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": false,
           "tsSignatureId": "As|():ImmutableArray_1|static=false",
           "target": {

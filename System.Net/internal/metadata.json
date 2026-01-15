@@ -125,7 +125,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieVariant::UnknownSystem.Net.CookieVariant",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.CookieVariant|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -161,7 +161,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieVariant::DefaultSystem.Net.CookieVariant",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Net.CookieVariant|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -869,7 +869,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.HttpRequestHeader::FromSystem.Net.HttpRequestHeader",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "normalizedSignature": "From|System.Net.HttpRequestHeader|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1317,7 +1317,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::ContinueSystem.Net.HttpStatusCode",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|System.Net.HttpStatusCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -11415,7 +11415,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::AnySystem.Net.IPAddress",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|System.Net.IPAddress|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -14858,7 +14858,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.String,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|(System.String,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14874,7 +14874,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpRequestHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|(System.Net.HttpRequestHeader,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14890,7 +14890,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpResponseHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15066,7 +15066,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -15082,7 +15082,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -16990,7 +16990,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpVersion::UnknownSystem.Version",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Version|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -17237,7 +17237,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.WebRequestMethods\u002BHttp::GetSystem.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "normalizedSignature": "Get|System.String|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
