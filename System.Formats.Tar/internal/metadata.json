@@ -29,7 +29,7 @@
         {
           "stableId": "System.Formats.Tar:System.Formats.Tar.TarEntryFormat::UnknownSystem.Formats.Tar.TarEntryFormat",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Formats.Tar.TarEntryFormat|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

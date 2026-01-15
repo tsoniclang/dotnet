@@ -11,7 +11,7 @@ import type { Attribute, Boolean as ClrBoolean, EventArgs, Exception, Func_2, In
 
 export interface ExceptionDispatchInfo$instance {
     readonly sourceException: Exception;
-    throw_(): void;
+    throw(): void;
 }
 
 
@@ -20,7 +20,7 @@ export const ExceptionDispatchInfo: {
     capture(source: Exception): ExceptionDispatchInfo;
     setCurrentStackTrace(source: Exception): Exception;
     setRemoteStackTrace(source: Exception, stackTrace: string): Exception;
-    throw_(source: Exception): void;
+    throw(source: Exception): void;
 };
 
 

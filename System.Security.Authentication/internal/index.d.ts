@@ -23,7 +23,7 @@ export enum CipherAlgorithmType {
     aes128 = 26126,
     aes192 = 26127,
     aes256 = 26128,
-    null_ = 24576
+    null = 24576
 }
 
 
@@ -53,7 +53,7 @@ export enum SslProtocols {
     tls11 = 768,
     tls12 = 3072,
     tls13 = 12288,
-    default_ = 240
+    default = 240
 }
 
 

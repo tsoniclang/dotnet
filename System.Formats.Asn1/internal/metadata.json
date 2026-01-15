@@ -109,7 +109,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.TagClass::PrivateSystem.Formats.Asn1.TagClass",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|System.Formats.Asn1.TagClass|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -153,7 +153,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::BooleanSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -189,7 +189,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::NullSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -306,7 +306,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::SetSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -808,7 +808,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.Asn1Tag::BooleanSystem.Formats.Asn1.Asn1Tag",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,
@@ -862,7 +862,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.Asn1Tag::NullSystem.Formats.Asn1.Asn1Tag",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "normalizedSignature": "Null|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "isStatic": true,
           "isReadOnly": true,

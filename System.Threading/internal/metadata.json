@@ -49,7 +49,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::UnknownSystem.Threading.ApartmentState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3703,7 +3703,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.EventWaitHandle::Set():System.Boolean",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|():System.Boolean|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4423,7 +4423,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ManualResetEventSlim::Set():System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "normalizedSignature": "Set|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6775,7 +6775,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Thread::Yield():System.Boolean",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "normalizedSignature": "Yield|():System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

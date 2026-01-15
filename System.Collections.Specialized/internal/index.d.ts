@@ -246,7 +246,7 @@ export type NameObjectCollectionBase = NameObjectCollectionBase$instance & __Nam
 export interface NameObjectCollectionBase_KeysCollection$instance {
     readonly count: int;
     readonly item: string;
-    get_(index: int): string | undefined;
+    get(index: int): string | undefined;
     getEnumerator(): IEnumerator;
 }
 
@@ -270,8 +270,8 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     add(name: string, value: string): void;
     clear(): void;
     copyTo(dest: ClrArray, index: int): void;
-    get_(name: string): string | undefined;
-    get_(index: int): string | undefined;
+    get(name: string): string | undefined;
+    get(index: int): string | undefined;
     get_Item(name: string): string;
     get_Item(index: int): string;
     getEnumerator(): IEnumerator;
@@ -282,7 +282,7 @@ export interface NameValueCollection$instance extends NameObjectCollectionBase$i
     hasKeys(): boolean;
     onDeserialization(sender: unknown): void;
     remove(name: string): void;
-    set_(name: string, value: string): void;
+    set(name: string, value: string): void;
     set_Item(name: string, value: string | undefined): void;
 }
 

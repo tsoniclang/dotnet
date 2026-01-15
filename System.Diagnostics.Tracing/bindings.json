@@ -2001,7 +2001,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::DefaultSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67117407,
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
@@ -2012,7 +2012,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::StringSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67117408,
           "normalizedSignature": "String|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
@@ -2023,7 +2023,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventFieldFormat::BooleanSystem.Diagnostics.Tracing.EventFieldFormat",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67117409,
           "normalizedSignature": "Boolean|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "isStatic": true,
@@ -2622,7 +2622,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "target": {
@@ -2632,7 +2632,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "target": {
@@ -2642,7 +2642,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Diagnostics.Tracing.EventFieldFormat|static=true|const=true",
           "target": {
@@ -6249,7 +6249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Tracing.EventSourceSettings::DefaultSystem.Diagnostics.Tracing.EventSourceSettings",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67117091,
           "normalizedSignature": "Default|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "isStatic": true,
@@ -6837,7 +6837,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Diagnostics.Tracing.EventSourceSettings|static=true|const=true",
           "target": {

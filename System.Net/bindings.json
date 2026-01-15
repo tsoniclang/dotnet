@@ -739,7 +739,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieVariant::UnknownSystem.Net.CookieVariant",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109001,
           "normalizedSignature": "Unknown|System.Net.CookieVariant|static=true|const=true",
           "isStatic": true,
@@ -783,7 +783,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.CookieVariant::DefaultSystem.Net.CookieVariant",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109005,
           "normalizedSignature": "Default|System.Net.CookieVariant|static=true|const=true",
           "isStatic": true,
@@ -1338,7 +1338,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.CookieVariant|static=true|const=true",
           "target": {
@@ -1378,7 +1378,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Net.CookieVariant|static=true|const=true",
           "target": {
@@ -3727,7 +3727,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.HttpRequestHeader::FromSystem.Net.HttpRequestHeader",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "metadataToken": 67108934,
           "normalizedSignature": "From|System.Net.HttpRequestHeader|static=true|const=true",
           "isStatic": true,
@@ -4695,7 +4695,7 @@
           }
         },
         {
-          "tsName": "from_",
+          "tsName": "from",
           "isStatic": true,
           "tsSignatureId": "From|System.Net.HttpRequestHeader|static=true|const=true",
           "target": {
@@ -6057,7 +6057,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpStatusCode::ContinueSystem.Net.HttpStatusCode",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "metadataToken": 67109081,
           "normalizedSignature": "Continue|System.Net.HttpStatusCode|static=true|const=true",
           "isStatic": true,
@@ -7338,7 +7338,7 @@
           }
         },
         {
-          "tsName": "continue_",
+          "tsName": "continue",
           "isStatic": true,
           "tsSignatureId": "Continue|System.Net.HttpStatusCode|static=true|const=true",
           "target": {
@@ -29551,7 +29551,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.IPAddress::AnySystem.Net.IPAddress",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 67109153,
           "normalizedSignature": "Any|System.Net.IPAddress|static=true|const=false",
           "isStatic": true,
@@ -30135,7 +30135,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|System.Net.IPAddress|static=true|const=false",
           "target": {
@@ -37013,7 +37013,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.String,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100663318,
           "canonicalSignature": "(System.String,System.String):System.Void",
           "normalizedSignature": "Set|(System.String,System.String):System.Void|static=false",
@@ -37027,7 +37027,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpRequestHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100663319,
           "canonicalSignature": "(System.Net.HttpRequestHeader,System.String):System.Void",
           "normalizedSignature": "Set|(System.Net.HttpRequestHeader,System.String):System.Void|static=false",
@@ -37041,7 +37041,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Set(System.Net.HttpResponseHeader,System.String):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100663320,
           "canonicalSignature": "(System.Net.HttpResponseHeader,System.String):System.Void",
           "normalizedSignature": "Set|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
@@ -37195,7 +37195,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Get(System.Int32):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663332,
           "canonicalSignature": "(System.Int32):System.String",
           "normalizedSignature": "Get|(System.Int32):System.String|static=false",
@@ -37209,7 +37209,7 @@
         {
           "stableId": "System.Net.WebHeaderCollection:System.Net.WebHeaderCollection::Get(System.String):System.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100663333,
           "canonicalSignature": "(System.String):System.String",
           "normalizedSignature": "Get|(System.String):System.String|static=false",
@@ -37575,7 +37575,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(System.String,System.String):System.Void|static=false",
           "target": {
@@ -37585,7 +37585,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(System.Net.HttpRequestHeader,System.String):System.Void|static=false",
           "target": {
@@ -37595,7 +37595,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(System.Net.HttpResponseHeader,System.String):System.Void|static=false",
           "target": {
@@ -37705,7 +37705,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Int32):System.String|static=false",
           "target": {
@@ -37715,7 +37715,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.String):System.String|static=false",
           "target": {
@@ -40762,7 +40762,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.HttpVersion::UnknownSystem.Version",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109148,
           "normalizedSignature": "Unknown|System.Version|static=true|const=false",
           "isStatic": true,
@@ -40881,7 +40881,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Version|static=true|const=false",
           "target": {
@@ -41487,7 +41487,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.WebRequestMethods\u002BHttp::GetSystem.String",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 67109099,
           "normalizedSignature": "Get|System.String|static=true|const=true",
           "isStatic": true,
@@ -41617,7 +41617,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|System.String|static=true|const=true",
           "target": {

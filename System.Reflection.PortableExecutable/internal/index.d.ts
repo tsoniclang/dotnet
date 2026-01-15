@@ -48,7 +48,7 @@ export enum CorFlags {
 
 
 export enum DebugDirectoryEntryType {
-    unknown_ = 0,
+    unknown = 0,
     coff = 1,
     codeView = 2,
     reproducible = 16,
@@ -77,7 +77,7 @@ export enum DllCharacteristics {
 
 
 export enum Machine {
-    unknown_ = 0,
+    unknown = 0,
     I386 = 332,
     wceMipsV2 = 361,
     alpha = 388,
@@ -117,7 +117,7 @@ export enum PEMagic {
 
 
 export enum PEStreamOptions {
-    default_ = 0,
+    default = 0,
     leaveOpen = 1,
     prefetchMetadata = 2,
     prefetchEntireImage = 4,
@@ -176,7 +176,7 @@ export enum SectionCharacteristics {
 
 
 export enum Subsystem {
-    unknown_ = 0,
+    unknown = 0,
     native = 1,
     windowsGui = 2,
     windowsCui = 3,
@@ -215,12 +215,12 @@ export interface DebugDirectoryEntry$instance {
     readonly majorVersion: ushort;
     readonly minorVersion: ushort;
     readonly stamp: uint;
-    readonly type_: DebugDirectoryEntryType;
+    readonly type: DebugDirectoryEntryType;
 }
 
 
 export const DebugDirectoryEntry: {
-    new(stamp: uint, majorVersion: ushort, minorVersion: ushort, type_: DebugDirectoryEntryType, dataSize: int, dataRelativeVirtualAddress: int, dataPointer: int): DebugDirectoryEntry;
+    new(stamp: uint, majorVersion: ushort, minorVersion: ushort, type: DebugDirectoryEntryType, dataSize: int, dataRelativeVirtualAddress: int, dataPointer: int): DebugDirectoryEntry;
 };
 
 
@@ -347,8 +347,8 @@ export interface DebugDirectoryBuilder$instance {
     addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort): void;
     addCodeViewEntry(pdbPath: string, pdbContentId: BlobContentId, portablePdbVersion: ushort, age: int): void;
     addEmbeddedPortablePdbEntry(debugMetadata: BlobBuilder, portablePdbVersion: ushort): void;
-    addEntry(type_: DebugDirectoryEntryType, version: uint, stamp: uint): void;
-    addEntry<TData>(type_: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
+    addEntry(type: DebugDirectoryEntryType, version: uint, stamp: uint): void;
+    addEntry<TData>(type: DebugDirectoryEntryType, version: uint, stamp: uint, data: TData, dataSerializer: Action_2<BlobBuilder, TData>): void;
     addPdbChecksumEntry(algorithmName: string, checksum: ImmutableArray_1<System_Internal.Byte>): void;
     addReproducibleEntry(): void;
 }

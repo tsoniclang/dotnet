@@ -19,7 +19,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArgumentException, Boolean as ClrBoolean, Byte, Char, DateOnly, DateTime, DayOfWeek, Double, Enum, Exception, Guid, ICloneable, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlySpan_1, Span_1, String as ClrString, StringComparer, TimeSpan, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum CalendarAlgorithmType {
-    unknown_ = 0,
+    unknown = 0,
     solarCalendar = 1,
     lunarCalendar = 2,
     lunisolarCalendar = 3
@@ -106,10 +106,10 @@ export enum NumberStyles {
     integer = 7,
     hexNumber = 515,
     binaryNumber = 1027,
-    number_ = 111,
+    number = 111,
     float = 167,
     currency = 383,
-    any_ = 511
+    any = 511
 }
 
 
@@ -572,7 +572,7 @@ export interface GregorianCalendar$instance extends Calendar$instance {
 
 export const GregorianCalendar: {
     new(): GregorianCalendar;
-    new(type_: GregorianCalendarTypes): GregorianCalendar;
+    new(type: GregorianCalendarTypes): GregorianCalendar;
     readonly adEra: int;
 };
 
@@ -1064,7 +1064,7 @@ export type SortVersion = SortVersion$instance & __SortVersion$views;
 
 export interface StringInfo$instance {
     readonly lengthInTextElements: int;
-    string_: string;
+    string: string;
     equals(value: unknown): boolean;
     getHashCode(): int;
     substringByTextElements(startingTextElement: int): string;

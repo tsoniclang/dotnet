@@ -4446,7 +4446,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "normalizedSignature": "Package|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4534,7 +4534,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthenticationClientOptions::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "normalizedSignature": "Package|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4662,7 +4662,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthenticationServerOptions::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "normalizedSignature": "Package|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",

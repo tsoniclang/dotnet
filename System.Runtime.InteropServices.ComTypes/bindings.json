@@ -14672,7 +14672,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.IMoniker::Enum(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "metadataToken": 100695384,
           "canonicalSignature": "(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void",
           "normalizedSignature": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
@@ -14948,7 +14948,7 @@
           }
         },
         {
-          "tsName": "enum_",
+          "tsName": "enum",
           "isStatic": false,
           "tsSignatureId": "Enum|(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker\u0026):System.Void|static=false",
           "target": {
@@ -19902,7 +19902,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.ComTypes.STATSTG::typeSystem.Int32",
           "clrName": "type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 67113986,
           "normalizedSignature": "type|System.Int32|static=false|const=false",
           "isStatic": false,
@@ -20086,7 +20086,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "type|System.Int32|static=false|const=false",
           "target": {

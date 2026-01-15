@@ -4736,7 +4736,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {
@@ -10275,7 +10275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Text.Encoding::Default:System.Text.Encoding",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385879205,
           "canonicalSignature": ":System.Text.Encoding",
           "normalizedSignature": "Default|:System.Text.Encoding|static=true|accessor=get",
@@ -11132,7 +11132,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {
@@ -15411,7 +15411,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {
@@ -16779,7 +16779,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {
@@ -18086,7 +18086,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {
@@ -19619,7 +19619,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Text.Encoding|static=true|accessor=get",
           "target": {

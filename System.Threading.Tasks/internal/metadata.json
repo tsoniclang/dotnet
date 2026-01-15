@@ -1159,7 +1159,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.ParallelLoopState::Break():System.Void",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1449,7 +1449,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Yield():System.Runtime.CompilerServices.YieldAwaitable",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "normalizedSignature": "Yield|():System.Runtime.CompilerServices.YieldAwaitable|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6652,7 +6652,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::Default:System.Threading.Tasks.TaskScheduler",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Threading.Tasks.TaskScheduler|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6894,7 +6894,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6910,7 +6910,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6926,7 +6926,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6942,7 +6942,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6958,7 +6958,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6974,7 +6974,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6990,7 +6990,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7006,7 +7006,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7022,7 +7022,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7038,7 +7038,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7054,7 +7054,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7070,7 +7070,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

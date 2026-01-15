@@ -27,7 +27,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { ArraySegment_1, AsyncCallback, Boolean as ClrBoolean, Byte, Char, DateTime, Decimal, Delegate, Double, Enum, EventArgs, Exception, Half, IAsyncDisposable, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int16, Int32, Int64, IntPtr, ISpanFormattable, MarshalByRefObject, Memory_1, MulticastDelegate, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, SByte, Single, Span_1, String as ClrString, SystemException, TimeSpan, Type, TypeCode, UInt16, UInt32, UInt64, ValueType, Void } from "../../System/internal/index.js";
 
 export enum DriveType {
-    unknown_ = 0,
+    unknown = 0,
     noRootDirectory = 1,
     removable = 2,
     fixed = 3,
@@ -91,7 +91,7 @@ export enum FileShare {
     read = 1,
     write = 2,
     readWrite = 3,
-    delete_ = 4,
+    delete = 4,
     inheritable = 16
 }
 
@@ -277,7 +277,7 @@ export const BinaryWriter: {
     new(output: Stream): BinaryWriter;
     new(output: Stream, encoding: Encoding): BinaryWriter;
     new(output: Stream, encoding: Encoding, leaveOpen: boolean): BinaryWriter;
-    readonly null_: BinaryWriter;
+    readonly null: BinaryWriter;
 };
 
 
@@ -357,7 +357,7 @@ export interface DirectoryInfo$instance extends FileSystemInfo$instance {
     readonly root: DirectoryInfo;
     create(): void;
     createSubdirectory(path: string): DirectoryInfo;
-    delete_(): void;
+    delete(): void;
     enumerateDirectories(): IEnumerable_1<DirectoryInfo>;
     enumerateDirectories(searchPattern: string): IEnumerable_1<DirectoryInfo>;
     enumerateDirectories(searchPattern: string, searchOption: SearchOption): IEnumerable_1<DirectoryInfo>;
@@ -529,7 +529,7 @@ export interface FileInfo$instance extends FileSystemInfo$instance {
     create(): FileStream;
     createText(): StreamWriter;
     decrypt(): void;
-    delete_(): void;
+    delete(): void;
     encrypt(): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     moveTo(destFileName: string): void;
@@ -730,7 +730,7 @@ export interface FileSystemInfo$instance extends MarshalByRefObject {
     readonly name: string;
     unixFileMode: UnixFileMode;
     createAsSymbolicLink(pathToTarget: string): void;
-    delete_(): void;
+    delete(): void;
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     refresh(): void;
     resolveLinkTarget(returnFinalTarget: boolean): FileSystemInfo | undefined;
@@ -992,7 +992,7 @@ export interface Stream$instance extends MarshalByRefObject {
 
 
 export const Stream: {
-    readonly null_: Stream;
+    readonly null: Stream;
     synchronized(stream: Stream): Stream;
 };
 
@@ -1315,7 +1315,7 @@ export interface TextReader$instance extends MarshalByRefObject {
 
 
 export const TextReader: {
-    readonly null_: TextReader;
+    readonly null: TextReader;
     synchronized(reader: TextReader): TextReader;
 };
 
@@ -1397,7 +1397,7 @@ export interface TextWriter$instance extends MarshalByRefObject {
 
 
 export const TextWriter: {
-    readonly null_: TextWriter;
+    readonly null: TextWriter;
     createBroadcasting(...writers: TextWriter[]): TextWriter;
     synchronized(writer: TextWriter): TextWriter;
 };
@@ -1522,8 +1522,8 @@ export abstract class Directory$instance {
     static createDirectory(path: string): DirectoryInfo;
     static createSymbolicLink(path: string, pathToTarget: string): FileSystemInfo;
     static createTempSubdirectory(prefix?: string): DirectoryInfo;
-    static delete_(path: string, recursive: boolean): void;
-    static delete_(path: string): void;
+    static delete(path: string, recursive: boolean): void;
+    static delete(path: string): void;
     static enumerateDirectories(path: string, searchPattern: string, enumerationOptions: EnumerationOptions): IEnumerable_1<System_Internal.String>;
     static enumerateDirectories(path: string, searchPattern: string, searchOption: SearchOption): IEnumerable_1<System_Internal.String>;
     static enumerateDirectories(path: string, searchPattern: string): IEnumerable_1<System_Internal.String>;
@@ -1599,7 +1599,7 @@ export abstract class File$instance {
     static createSymbolicLink(path: string, pathToTarget: string): FileSystemInfo;
     static createText(path: string): StreamWriter;
     static decrypt(path: string): void;
-    static delete_(path: string): void;
+    static delete(path: string): void;
     static encrypt(path: string): void;
     static exists(path: string): boolean;
     static getAttributes(fileHandle: SafeFileHandle): FileAttributes;

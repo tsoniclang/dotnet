@@ -29,7 +29,7 @@ export enum XmlCaseOrder {
 
 export enum XmlDataType {
     text = 1,
-    number_ = 2
+    number = 2
 }
 
 
@@ -50,7 +50,7 @@ export enum XPathNodeType {
     root = 0,
     element = 1,
     attribute = 2,
-    namespace_ = 3,
+    namespace = 3,
     text = 4,
     significantWhitespace = 5,
     whitespace = 6,
@@ -61,12 +61,12 @@ export enum XPathNodeType {
 
 
 export enum XPathResultType {
-    number_ = 0,
-    string_ = 1,
-    boolean_ = 2,
+    number = 0,
+    string = 1,
+    boolean = 2,
     nodeSet = 3,
     navigator = 1,
-    any_ = 5,
+    any = 5,
     error = 6
 }
 
@@ -229,7 +229,7 @@ export interface XPathNavigator$instance extends XPathItem {
     moveTo(other: XPathNavigator): boolean;
     moveToAttribute(localName: string, namespaceURI: string): boolean;
     moveToChild(localName: string, namespaceURI: string): boolean;
-    moveToChild(type_: XPathNodeType): boolean;
+    moveToChild(type: XPathNodeType): boolean;
     moveToFirst(): boolean;
     moveToFirstAttribute(): boolean;
     moveToFirstChild(): boolean;
@@ -237,13 +237,13 @@ export interface XPathNavigator$instance extends XPathItem {
     moveToFirstNamespace(): boolean;
     moveToFollowing(localName: string, namespaceURI: string): boolean;
     moveToFollowing(localName: string, namespaceURI: string, end: XPathNavigator): boolean;
-    moveToFollowing(type_: XPathNodeType): boolean;
-    moveToFollowing(type_: XPathNodeType, end: XPathNavigator): boolean;
+    moveToFollowing(type: XPathNodeType): boolean;
+    moveToFollowing(type: XPathNodeType, end: XPathNavigator): boolean;
     moveToId(id: string): boolean;
     moveToNamespace(name: string): boolean;
     moveToNext(): boolean;
     moveToNext(localName: string, namespaceURI: string): boolean;
-    moveToNext(type_: XPathNodeType): boolean;
+    moveToNext(type: XPathNodeType): boolean;
     moveToNextAttribute(): boolean;
     moveToNextNamespace(namespaceScope: XPathNamespaceScope): boolean;
     moveToNextNamespace(): boolean;
@@ -263,11 +263,11 @@ export interface XPathNavigator$instance extends XPathItem {
     select(xpath: string): XPathNodeIterator;
     select(xpath: string, resolver: IXmlNamespaceResolver): XPathNodeIterator;
     select(expr: XPathExpression): XPathNodeIterator;
-    selectAncestors(type_: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
+    selectAncestors(type: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
     selectAncestors(name: string, namespaceURI: string, matchSelf: boolean): XPathNodeIterator;
-    selectChildren(type_: XPathNodeType): XPathNodeIterator;
+    selectChildren(type: XPathNodeType): XPathNodeIterator;
     selectChildren(name: string, namespaceURI: string): XPathNodeIterator;
-    selectDescendants(type_: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
+    selectDescendants(type: XPathNodeType, matchSelf: boolean): XPathNodeIterator;
     selectDescendants(name: string, namespaceURI: string, matchSelf: boolean): XPathNodeIterator;
     selectSingleNode(xpath: string): XPathNavigator | undefined;
     selectSingleNode(xpath: string, resolver: IXmlNamespaceResolver): XPathNavigator | undefined;

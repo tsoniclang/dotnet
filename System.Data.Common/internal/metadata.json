@@ -73,7 +73,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.GroupByBehavior::UnknownSystem.Data.Common.GroupByBehavior",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Data.Common.GroupByBehavior|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -144,7 +144,7 @@
         {
           "stableId": "System.Data.Common:System.Data.Common.IdentifierCase::UnknownSystem.Data.Common.IdentifierCase",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Data.Common.IdentifierCase|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

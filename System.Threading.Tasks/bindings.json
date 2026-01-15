@@ -4364,7 +4364,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.ParallelLoopState::Break():System.Void",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "metadataToken": 100663450,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Break|():System.Void|static=false",
@@ -4449,7 +4449,7 @@
           }
         },
         {
-          "tsName": "break_",
+          "tsName": "break",
           "isStatic": false,
           "tsSignatureId": "Break|():System.Void|static=false",
           "target": {
@@ -4855,7 +4855,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.Task::Yield():System.Runtime.CompilerServices.YieldAwaitable",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "metadataToken": 100680549,
           "canonicalSignature": "():System.Runtime.CompilerServices.YieldAwaitable",
           "normalizedSignature": "Yield|():System.Runtime.CompilerServices.YieldAwaitable|static=true",
@@ -6393,7 +6393,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Runtime.CompilerServices.YieldAwaitable|static=true",
           "target": {
@@ -9122,7 +9122,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Runtime.CompilerServices.YieldAwaitable|static=true",
           "target": {
@@ -14159,7 +14159,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Tasks.TaskScheduler::Default:System.Threading.Tasks.TaskScheduler",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385879113,
           "canonicalSignature": ":System.Threading.Tasks.TaskScheduler",
           "normalizedSignature": "Default|:System.Threading.Tasks.TaskScheduler|static=true|accessor=get",
@@ -14297,7 +14297,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Threading.Tasks.TaskScheduler|static=true|accessor=get",
           "target": {
@@ -14844,7 +14844,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663321,
           "canonicalSignature": "(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14858,7 +14858,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663322,
           "canonicalSignature": "(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14872,7 +14872,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663323,
           "canonicalSignature": "(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14886,7 +14886,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663324,
           "canonicalSignature": "(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14900,7 +14900,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663325,
           "canonicalSignature": "(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14914,7 +14914,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663326,
           "canonicalSignature": "(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14928,7 +14928,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663327,
           "canonicalSignature": "(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14942,7 +14942,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663328,
           "canonicalSignature": "(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14956,7 +14956,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663329,
           "canonicalSignature": "(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14970,7 +14970,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663330,
           "canonicalSignature": "(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14984,7 +14984,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663331,
           "canonicalSignature": "(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -14998,7 +14998,7 @@
         {
           "stableId": "System.Threading.Tasks.Parallel:System.Threading.Tasks.Parallel::For(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "clrName": "For",
-          "tsEmitName": "for_",
+          "tsEmitName": "for",
           "metadataToken": 100663332,
           "canonicalSignature": "(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult",
           "normalizedSignature": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
@@ -15442,7 +15442,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15452,7 +15452,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15462,7 +15462,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15472,7 +15472,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15482,7 +15482,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15492,7 +15492,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15502,7 +15502,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int32,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15512,7 +15512,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,System.Action_2[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e],[System.Threading.Tasks.ParallelLoopState,System.Threading.Tasks.Parallel,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15522,7 +15522,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15532,7 +15532,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15542,7 +15542,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int32,System.Int32,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {
@@ -15552,7 +15552,7 @@
           }
         },
         {
-          "tsName": "for_",
+          "tsName": "for",
           "isStatic": true,
           "tsSignatureId": "For|(System.Int64,System.Int64,System.Threading.Tasks.ParallelOptions,Func_1,Func_4,Action_1):System.Threading.Tasks.ParallelLoopResult|static=true",
           "target": {

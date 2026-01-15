@@ -222,7 +222,7 @@ export interface XsltSettings$instance {
 export const XsltSettings: {
     new(): XsltSettings;
     new(enableDocumentFunction: boolean, enableScript: boolean): XsltSettings;
-    readonly default_: XsltSettings;
+    readonly default: XsltSettings;
     readonly trustedXslt: XsltSettings;
 };
 

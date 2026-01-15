@@ -40,16 +40,16 @@ import type { CancellationToken, ITimer, LazyThreadSafetyMode, TimerCallback, Wa
 
 export enum AttributeTargets {
     assembly = 1,
-    module_ = 2,
-    class_ = 4,
+    module = 2,
+    class = 4,
     struct = 8,
-    enum_ = 16,
-    constructor_ = 32,
+    enum = 16,
+    constructor = 32,
     method = 64,
     property = 128,
     field = 256,
     event = 512,
-    interface_ = 1024,
+    interface = 1024,
     parameter = 2048,
     delegate = 4096,
     returnValue = 8192,
@@ -106,7 +106,7 @@ export enum ConsoleKey {
     execute = 43,
     printScreen = 44,
     insert = 45,
-    delete_ = 46,
+    delete = 46,
     help = 47,
     D0 = 48,
     D1 = 49,
@@ -331,7 +331,7 @@ export enum EnvironmentVariableTarget {
 
 
 export enum GCCollectionMode {
-    default_ = 0,
+    default = 0,
     forced = 1,
     optimized = 2,
     aggressive = 3
@@ -339,7 +339,7 @@ export enum GCCollectionMode {
 
 
 export enum GCKind {
-    any_ = 0,
+    any = 0,
     ephemeral = 1,
     fullBlocking = 2,
     background = 3
@@ -356,7 +356,7 @@ export enum GCNotificationStatus {
 
 
 export enum GenericUriParserOptions {
-    default_ = 0,
+    default = 0,
     genericAuthority = 1,
     allowEmptyAuthority = 2,
     noUserInfo = 4,
@@ -421,9 +421,9 @@ export enum StringSplitOptions {
 
 export enum TypeCode {
     empty = 0,
-    object_ = 1,
+    object = 1,
     dbNull = 2,
-    boolean_ = 3,
+    boolean = 3,
     char = 4,
     sByte = 5,
     byte = 6,
@@ -437,7 +437,7 @@ export enum TypeCode {
     double = 14,
     decimal = 15,
     dateTime = 16,
-    string_ = 18
+    string = 18
 }
 
 
@@ -470,7 +470,7 @@ export enum UriFormat {
 
 
 export enum UriHostNameType {
-    unknown_ = 0,
+    unknown = 0,
     basic = 1,
     dns = 2,
     iPv4 = 3,
@@ -3132,7 +3132,7 @@ export interface SequencePosition$instance {
 
 
 export const SequencePosition: {
-    new(object_: unknown, integer: int): SequencePosition;
+    new(object: unknown, integer: int): SequencePosition;
 };
 
 
@@ -5219,16 +5219,16 @@ export const Delegate: {
     combine(a: Function, b: Function): Function | undefined;
     combine(...delegates: Function[]): Function | undefined;
     combine(delegates: ReadOnlySpan_1<Function>): Function | undefined;
-    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
-    createDelegate(type_: Type, firstArgument: unknown, method: MethodInfo): Function;
-    createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
-    createDelegate(type_: Type, target: unknown, method: string, ignoreCase: boolean): Function;
-    createDelegate(type_: Type, target: unknown, method: string): Function;
-    createDelegate(type_: Type, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
-    createDelegate(type_: Type, method: MethodInfo): Function;
-    createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
-    createDelegate(type_: Type, target: Type, method: string, ignoreCase: boolean): Function;
-    createDelegate(type_: Type, target: Type, method: string): Function;
+    createDelegate(type: Type, firstArgument: unknown, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
+    createDelegate(type: Type, firstArgument: unknown, method: MethodInfo): Function;
+    createDelegate(type: Type, target: unknown, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
+    createDelegate(type: Type, target: unknown, method: string, ignoreCase: boolean): Function;
+    createDelegate(type: Type, target: unknown, method: string): Function;
+    createDelegate(type: Type, method: MethodInfo, throwOnBindFailure: boolean): Function | undefined;
+    createDelegate(type: Type, method: MethodInfo): Function;
+    createDelegate(type: Type, target: Type, method: string, ignoreCase: boolean, throwOnBindFailure: boolean): Function | undefined;
+    createDelegate(type: Type, target: Type, method: string, ignoreCase: boolean): Function;
+    createDelegate(type: Type, target: Type, method: string): Function;
     enumerateInvocationList<TDelegate extends Function>(d: TDelegate): Delegate_InvocationListEnumerator_1<TDelegate>;
     remove(source: Function, value: Function): Function | undefined;
     removeAll(source: Function, value: Function): Function | undefined;
@@ -6106,7 +6106,7 @@ export const ObjectDisposedException: {
     new(objectName: string, message: string): ObjectDisposedException;
     new(message: string, innerException: Exception): ObjectDisposedException;
     throwIf(condition: boolean, instance: unknown): void;
-    throwIf(condition: boolean, type_: Type): void;
+    throwIf(condition: boolean, type: Type): void;
 };
 
 
@@ -7199,8 +7199,8 @@ export interface Type$instance extends MemberInfo {
     readonly isVariableBoundArray: boolean;
     readonly isVisible: boolean;
     readonly memberType: MemberTypes;
-    readonly module_: Module;
-    readonly namespace_: string;
+    readonly module: Module;
+    readonly namespace: string;
     readonly reflectedType: Type | undefined;
     readonly structLayoutAttribute: StructLayoutAttribute | undefined;
     readonly typeHandle: RuntimeTypeHandle;
@@ -7247,7 +7247,7 @@ export interface Type$instance extends MemberInfo {
     getInterfaces(): Type[];
     getMember(name: string): MemberInfo[];
     getMember(name: string, bindingAttr: BindingFlags): MemberInfo[];
-    getMember(name: string, type_: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
+    getMember(name: string, type: MemberTypes, bindingAttr: BindingFlags): MemberInfo[];
     getMembers(): MemberInfo[];
     getMembers(bindingAttr: BindingFlags): MemberInfo[];
     getMemberWithSameMetadataDefinitionAs(member: MemberInfo): MemberInfo;
@@ -7315,7 +7315,7 @@ export const Type: {
     getType(typeName: string, assemblyResolver: Func_2<AssemblyName, Assembly>, typeResolver: Func_4<Assembly, String, Boolean, Type>): Type | undefined;
     getType(typeName: string): Type | undefined;
     getTypeArray(args: unknown[]): Type[];
-    getTypeCode(type_: Type): TypeCode;
+    getTypeCode(type: Type): TypeCode;
     getTypeFromCLSID(clsid: Guid, throwOnError: boolean): Type | undefined;
     getTypeFromCLSID(clsid: Guid, server: string, throwOnError: boolean): Type | undefined;
     getTypeFromCLSID(clsid: Guid, server: string): Type | undefined;
@@ -7772,12 +7772,12 @@ export abstract class Activator$instance {
     static createInstance(assemblyName: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstance(assemblyName: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstance(assemblyName: string, typeName: string): ObjectHandle | undefined;
-    static createInstance(type_: Type, nonPublic: boolean): unknown | undefined;
-    static createInstance(type_: Type, args: unknown[], activationAttributes: unknown[]): unknown | undefined;
-    static createInstance(type_: Type, ...args: unknown[]): unknown | undefined;
-    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
-    static createInstance(type_: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo): unknown | undefined;
-    static createInstance(type_: Type): unknown | undefined;
+    static createInstance(type: Type, nonPublic: boolean): unknown | undefined;
+    static createInstance(type: Type, args: unknown[], activationAttributes: unknown[]): unknown | undefined;
+    static createInstance(type: Type, ...args: unknown[]): unknown | undefined;
+    static createInstance(type: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): unknown | undefined;
+    static createInstance(type: Type, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo): unknown | undefined;
+    static createInstance(type: Type): unknown | undefined;
     static createInstanceFrom(assemblyFile: string, typeName: string, ignoreCase: boolean, bindingAttr: BindingFlags, binder: Binder, args: unknown[], culture: CultureInfo, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstanceFrom(assemblyFile: string, typeName: string, activationAttributes: unknown[]): ObjectHandle | undefined;
     static createInstanceFrom(assemblyFile: string, typeName: string): ObjectHandle | undefined;
@@ -7885,7 +7885,7 @@ export abstract class Buffer$instance {
 export type Buffer = Buffer$instance;
 
 export abstract class Console$instance {
-    static readonly in_: TextReader;
+    static readonly in: TextReader;
     static inputEncoding: Encoding;
     static outputEncoding: Encoding;
     static readonly keyAvailable: boolean;

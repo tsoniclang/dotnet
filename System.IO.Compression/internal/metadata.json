@@ -190,7 +190,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZLibCompressionStrategy::DefaultSystem.IO.Compression.ZLibCompressionStrategy",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.IO.Compression.ZLibCompressionStrategy|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2804,7 +2804,7 @@
         {
           "stableId": "System.IO.Compression:System.IO.Compression.ZipArchiveEntry::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

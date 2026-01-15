@@ -309,7 +309,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.IPStatus::UnknownSystem.Net.NetworkInformation.IPStatus",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -344,7 +344,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetBiosNodeType::UnknownSystem.Net.NetworkInformation.NetBiosNodeType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -459,7 +459,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterfaceType::UnknownSystem.Net.NetworkInformation.NetworkInterfaceType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -764,7 +764,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.OperationalStatus::UnknownSystem.Net.NetworkInformation.OperationalStatus",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -906,7 +906,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.ScopeLevel::InterfaceSystem.Net.NetworkInformation.ScopeLevel",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1075,7 +1075,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpState::UnknownSystem.Net.NetworkInformation.TcpState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -42702,7 +42702,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.ArmBase::Yield():System.Void",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "normalizedSignature": "Yield|():System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

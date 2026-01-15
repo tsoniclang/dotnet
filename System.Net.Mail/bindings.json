@@ -68,7 +68,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.DeliveryNotificationOptions::NeverSystem.Net.Mail.DeliveryNotificationOptions",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "metadataToken": 67108986,
           "normalizedSignature": "Never|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "isStatic": true,
@@ -663,7 +663,7 @@
           }
         },
         {
-          "tsName": "never_",
+          "tsName": "never",
           "isStatic": true,
           "tsSignatureId": "Never|System.Net.Mail.DeliveryNotificationOptions|static=true|const=true",
           "target": {
@@ -10127,7 +10127,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mail.MailMessage::From:System.Net.Mail.MailAddress",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "metadataToken": 385876082,
           "canonicalSignature": ":System.Net.Mail.MailAddress",
           "normalizedSignature": "From|:System.Net.Mail.MailAddress|static=false|accessor=getset",
@@ -10519,7 +10519,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "from_",
+          "tsName": "from",
           "isStatic": false,
           "tsSignatureId": "From|:System.Net.Mail.MailAddress|static=false|accessor=getset",
           "target": {

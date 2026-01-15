@@ -36,14 +36,14 @@ export interface JsonSchemaExporterOptions$instance {
 
 export const JsonSchemaExporterOptions: {
     new(): JsonSchemaExporterOptions;
-    readonly default_: JsonSchemaExporterOptions;
+    readonly default: JsonSchemaExporterOptions;
 };
 
 
 export type JsonSchemaExporterOptions = JsonSchemaExporterOptions$instance;
 
 export abstract class JsonSchemaExporter$instance {
-    static getJsonSchemaAsNode(options: JsonSerializerOptions, type_: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
+    static getJsonSchemaAsNode(options: JsonSerializerOptions, type: Type, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
     static getJsonSchemaAsNode(typeInfo: JsonTypeInfo, exporterOptions?: JsonSchemaExporterOptions): JsonNode;
 }
 

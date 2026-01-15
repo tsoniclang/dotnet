@@ -279,7 +279,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntryType::UnknownSystem.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -520,7 +520,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Machine::UnknownSystem.Reflection.PortableExecutable.Machine",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Machine|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -860,7 +860,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.PEStreamOptions::DefaultSystem.Reflection.PortableExecutable.PEStreamOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Reflection.PortableExecutable.PEStreamOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1371,7 +1371,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.Subsystem::UnknownSystem.Reflection.PortableExecutable.Subsystem",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Reflection.PortableExecutable.Subsystem|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1620,7 +1620,7 @@
         {
           "stableId": "System.Reflection.Metadata:System.Reflection.PortableExecutable.DebugDirectoryEntry::Type:System.Reflection.PortableExecutable.DebugDirectoryEntryType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Reflection.PortableExecutable.DebugDirectoryEntryType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -329,7 +329,7 @@ export type XElement = XElement$instance & __XElement$views;
 
 export interface XName$instance {
     readonly localName: string;
-    readonly namespace_: XNamespace;
+    readonly namespace: XNamespace;
     readonly namespaceName: string;
     equals(obj: unknown): boolean;
     getHashCode(): int;
@@ -339,8 +339,8 @@ export interface XName$instance {
 
 export const XName: {
     new(): XName;
-    get_(localName: string, namespaceName: string): XName;
-    get_(expandedName: string): XName;
+    get(localName: string, namespaceName: string): XName;
+    get(expandedName: string): XName;
 };
 
 
@@ -371,7 +371,7 @@ export const XNamespace: {
     readonly none: XNamespace;
     readonly xml: XNamespace;
     readonly xmlns: XNamespace;
-    get_(namespaceName: string): XNamespace;
+    get(namespaceName: string): XNamespace;
 };
 
 
@@ -471,11 +471,11 @@ export interface XObject$instance {
     readonly nodeType: XmlNodeType;
     readonly parent: XElement;
     addAnnotation(annotation: unknown): void;
-    annotation(type_: Type): unknown | undefined;
+    annotation(type: Type): unknown | undefined;
     annotation<T>(): T | undefined;
-    annotations(type_: Type): IEnumerable_1<unknown>;
+    annotations(type: Type): IEnumerable_1<unknown>;
     annotations<T>(): IEnumerable_1<T>;
-    removeAnnotations(type_: Type): void;
+    removeAnnotations(type: Type): void;
     removeAnnotations<T>(): void;
 }
 

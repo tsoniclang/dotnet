@@ -50,7 +50,7 @@ export enum HttpKeepAlivePingPolicy {
 
 
 export enum HttpRequestError {
-    unknown_ = 0,
+    unknown = 0,
     nameResolutionError = 1,
     connectionError = 2,
     secureConnectionError = 3,
@@ -358,10 +358,10 @@ export interface HttpMethod$instance {
 
 export const HttpMethod: {
     new(method: string): HttpMethod;
-    readonly get_: HttpMethod;
+    readonly get: HttpMethod;
     readonly put: HttpMethod;
     readonly post: HttpMethod;
-    readonly delete_: HttpMethod;
+    readonly delete: HttpMethod;
     readonly head: HttpMethod;
     readonly options: HttpMethod;
     readonly trace: HttpMethod;
@@ -454,7 +454,7 @@ export type HttpRequestMessage = HttpRequestMessage$instance & __HttpRequestMess
 
 
 export interface HttpRequestOptions$instance {
-    set_<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): void;
+    set<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): void;
     tryGetValue<TValue>(key: HttpRequestOptionsKey_1<TValue>, value: TValue): boolean;
 }
 

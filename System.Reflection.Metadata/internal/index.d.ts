@@ -25,7 +25,7 @@ import type { ArraySegment_1, Attribute, Boolean as ClrBoolean, Byte, Char, Date
 
 export enum ConstantTypeCode {
     invalid = 0,
-    boolean_ = 2,
+    boolean = 2,
     char = 3,
     sByte = 4,
     byte = 5,
@@ -37,7 +37,7 @@ export enum ConstantTypeCode {
     uInt64 = 11,
     single = 12,
     double = 13,
-    string_ = 14,
+    string = 14,
     nullReference = 18
 }
 
@@ -49,9 +49,9 @@ export enum CustomAttributeNamedArgumentKind {
 
 
 export enum ExceptionRegionKind {
-    catch_ = 0,
+    catch = 0,
     filter = 1,
-    finally_ = 2,
+    finally = 2,
     fault = 4
 }
 
@@ -91,7 +91,7 @@ export enum HandleKind {
     customDebugInformation = 55,
     namespaceDefinition = 124,
     userString = 112,
-    string_ = 120,
+    string = 120,
     blob = 113,
     guid = 114
 }
@@ -99,7 +99,7 @@ export enum HandleKind {
 
 export enum ILOpCode {
     nop = 0,
-    break_ = 1,
+    break = 1,
     Ldarg_0 = 2,
     Ldarg_1 = 3,
     Ldarg_2 = 4,
@@ -166,7 +166,7 @@ export enum ILOpCode {
     Bgt_un = 66,
     Ble_un = 67,
     Blt_un = 68,
-    switch_ = 69,
+    switch = 69,
     Ldind_i1 = 70,
     Ldind_u1 = 71,
     Ldind_i2 = 72,
@@ -217,7 +217,7 @@ export enum ILOpCode {
     isinst = 117,
     Conv_r_un = 118,
     unbox = 121,
-    throw_ = 122,
+    throw = 122,
     ldfld = 123,
     ldflda = 124,
     stfld = 125,
@@ -315,7 +315,7 @@ export enum ILOpCode {
     rethrow = 65050,
     sizeof = 65052,
     refanytype = 65053,
-    readonly_ = 65054
+    readonly = 65054
 }
 
 
@@ -353,20 +353,20 @@ export enum MetadataKind {
 
 export enum MetadataReaderOptions {
     none = 0,
-    default_ = 1,
+    default = 1,
     applyWindowsRuntimeProjections = 1
 }
 
 
 export enum MetadataStreamOptions {
-    default_ = 0,
+    default = 0,
     leaveOpen = 1,
     prefetchMetadata = 2
 }
 
 
 export enum PrimitiveSerializationTypeCode {
-    boolean_ = 2,
+    boolean = 2,
     byte = 5,
     sByte = 4,
     char = 3,
@@ -378,12 +378,12 @@ export enum PrimitiveSerializationTypeCode {
     uInt64 = 11,
     single = 12,
     double = 13,
-    string_ = 14
+    string = 14
 }
 
 
 export enum PrimitiveTypeCode {
-    boolean_ = 2,
+    boolean = 2,
     byte = 5,
     sByte = 4,
     char = 3,
@@ -397,16 +397,16 @@ export enum PrimitiveTypeCode {
     double = 13,
     intPtr = 24,
     uIntPtr = 25,
-    object_ = 28,
-    string_ = 14,
+    object = 28,
+    string = 14,
     typedReference = 22,
-    void_ = 1
+    void = 1
 }
 
 
 export enum SerializationTypeCode {
     invalid = 0,
-    boolean_ = 2,
+    boolean = 2,
     char = 3,
     sByte = 4,
     byte = 5,
@@ -418,11 +418,11 @@ export enum SerializationTypeCode {
     uInt64 = 11,
     single = 12,
     double = 13,
-    string_ = 14,
+    string = 14,
     szArray = 29,
-    type_ = 80,
+    type = 80,
     taggedObject = 81,
-    enum_ = 85
+    enum = 85
 }
 
 
@@ -435,7 +435,7 @@ export enum SignatureAttributes {
 
 
 export enum SignatureCallingConvention {
-    default_ = 0,
+    default = 0,
     cDecl = 1,
     stdCall = 2,
     thisCall = 3,
@@ -456,8 +456,8 @@ export enum SignatureKind {
 
 export enum SignatureTypeCode {
     invalid = 0,
-    void_ = 1,
-    boolean_ = 2,
+    void = 1,
+    boolean = 2,
     char = 3,
     sByte = 4,
     byte = 5,
@@ -469,7 +469,7 @@ export enum SignatureTypeCode {
     uInt64 = 11,
     single = 12,
     double = 13,
-    string_ = 14,
+    string = 14,
     pointer = 15,
     byReference = 16,
     genericTypeParameter = 19,
@@ -479,7 +479,7 @@ export enum SignatureTypeCode {
     intPtr = 24,
     uIntPtr = 25,
     functionPointer = 27,
-    object_ = 28,
+    object = 28,
     szArray = 29,
     genericMethodParameter = 30,
     requiredModifier = 31,
@@ -491,8 +491,8 @@ export enum SignatureTypeCode {
 
 
 export enum SignatureTypeKind {
-    unknown_ = 0,
-    class_ = 18,
+    unknown = 0,
+    class = 18,
     valueType = 17
 }
 
@@ -522,8 +522,8 @@ export interface ICustomAttributeTypeProvider_1$instance<TType> extends ISimpleT
     getTypeFromDefinition(reader: MetadataReader, handle: TypeDefinitionHandle, rawTypeKind: byte): TType;
     getTypeFromReference(reader: MetadataReader, handle: TypeReferenceHandle, rawTypeKind: byte): TType;
     getTypeFromSerializedName(name: string): TType;
-    getUnderlyingEnumType(type_: TType): PrimitiveTypeCode;
-    isSystemType(type_: TType): boolean;
+    getUnderlyingEnumType(type: TType): PrimitiveTypeCode;
+    isSystemType(type: TType): boolean;
 }
 
 
@@ -1025,7 +1025,7 @@ export type ConstantHandle = ConstantHandle$instance & __ConstantHandle$views;
 
 
 export interface CustomAttribute$instance {
-    readonly constructor_: EntityHandle;
+    readonly constructor: EntityHandle;
     readonly parent: EntityHandle;
     readonly value: BlobHandle;
     decodeValue<TType>(provider: ICustomAttributeTypeProvider_1<TType>): CustomAttributeValue_1<TType>;
@@ -1105,26 +1105,26 @@ export type CustomAttributeHandleCollection_Enumerator = CustomAttributeHandleCo
 export interface CustomAttributeNamedArgument_1$instance<TType> {
     readonly kind: CustomAttributeNamedArgumentKind;
     readonly name: string;
-    readonly type_: TType;
+    readonly type: TType;
     readonly value: unknown;
 }
 
 
 export const CustomAttributeNamedArgument_1: {
-    new<TType>(name: string, kind: CustomAttributeNamedArgumentKind, type_: TType, value: unknown): CustomAttributeNamedArgument_1<TType>;
+    new<TType>(name: string, kind: CustomAttributeNamedArgumentKind, type: TType, value: unknown): CustomAttributeNamedArgument_1<TType>;
 };
 
 
 export type CustomAttributeNamedArgument_1<TType> = CustomAttributeNamedArgument_1$instance<TType>;
 
 export interface CustomAttributeTypedArgument_1$instance<TType> {
-    readonly type_: TType;
+    readonly type: TType;
     readonly value: unknown;
 }
 
 
 export const CustomAttributeTypedArgument_1: {
-    new<TType>(type_: TType, value: unknown): CustomAttributeTypedArgument_1<TType>;
+    new<TType>(type: TType, value: unknown): CustomAttributeTypedArgument_1<TType>;
 };
 
 
@@ -1442,7 +1442,7 @@ export type EventAccessors = EventAccessors$instance;
 export interface EventDefinition$instance {
     readonly attributes: EventAttributes;
     readonly name: StringHandle;
-    readonly type_: EntityHandle;
+    readonly type: EntityHandle;
     getAccessors(): EventAccessors;
     getCustomAttributes(): CustomAttributeHandleCollection;
     getDeclaringType(): TypeDefinitionHandle;
@@ -1542,7 +1542,7 @@ export interface ExportedType$instance {
     readonly implementation: EntityHandle;
     readonly isForwarder: boolean;
     readonly name: StringHandle;
-    readonly namespace_: StringHandle;
+    readonly namespace: StringHandle;
     readonly namespaceDefinition: NamespaceDefinitionHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
@@ -1721,7 +1721,7 @@ export type GenericParameter = GenericParameter$instance;
 
 export interface GenericParameterConstraint$instance {
     readonly parameter: GenericParameterHandle;
-    readonly type_: EntityHandle;
+    readonly type: EntityHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
@@ -2043,7 +2043,7 @@ export type ImportScopeHandle = ImportScopeHandle$instance & __ImportScopeHandle
 
 
 export interface InterfaceImplementation$instance {
-    readonly interface_: EntityHandle;
+    readonly interface: EntityHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
@@ -2722,7 +2722,7 @@ export type MethodDefinitionHandleCollection_Enumerator = MethodDefinitionHandle
 export interface MethodImplementation$instance {
     readonly methodBody: EntityHandle;
     readonly methodDeclaration: EntityHandle;
-    readonly type_: TypeDefinitionHandle;
+    readonly type: TypeDefinitionHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
 }
 
@@ -2799,7 +2799,7 @@ export type MethodImplementationHandleCollection_Enumerator = MethodImplementati
 
 export interface MethodImport$instance {
     readonly attributes: MethodImportAttributes;
-    readonly module_: ModuleReferenceHandle;
+    readonly module: ModuleReferenceHandle;
     readonly name: StringHandle;
 }
 
@@ -3338,7 +3338,7 @@ export interface TypeDefinition$instance {
     readonly baseType: EntityHandle;
     readonly isNested: boolean;
     readonly name: StringHandle;
-    readonly namespace_: StringHandle;
+    readonly namespace: StringHandle;
     readonly namespaceDefinition: NamespaceDefinitionHandle;
     getCustomAttributes(): CustomAttributeHandleCollection;
     getDeclarativeSecurityAttributes(): DeclarativeSecurityAttributeHandleCollection;
@@ -3441,7 +3441,7 @@ export type TypeLayout = TypeLayout$instance;
 
 export interface TypeReference$instance {
     readonly name: StringHandle;
-    readonly namespace_: StringHandle;
+    readonly namespace: StringHandle;
     readonly resolutionScope: EntityHandle;
 }
 
@@ -3683,7 +3683,7 @@ export interface HandleComparer$instance {
 
 export const HandleComparer: {
     new(): HandleComparer;
-    readonly default_: HandleComparer;
+    readonly default: HandleComparer;
 };
 
 
@@ -3893,7 +3893,7 @@ export interface TypeName$instance {
     readonly isSZArray: boolean;
     readonly isVariableBoundArrayType: boolean;
     readonly name: string;
-    readonly namespace_: string;
+    readonly namespace: string;
     getArrayRank(): int;
     getElementType(): TypeName;
     getGenericArguments(): ImmutableArray_1<TypeName>;

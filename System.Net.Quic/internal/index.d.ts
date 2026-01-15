@@ -89,7 +89,7 @@ export interface QuicConnection$instance {
     acceptInboundStreamAsync(cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
     closeAsync(errorCode: long, cancellationToken?: CancellationToken): ValueTask;
     disposeAsync(): ValueTask;
-    openOutboundStreamAsync(type_: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
+    openOutboundStreamAsync(type: QuicStreamType, cancellationToken?: CancellationToken): ValueTask_1<QuicStream>;
     toString(): string;
 }
 
@@ -226,7 +226,7 @@ export interface QuicStream$instance extends Stream {
     position: long;
     readonly readsClosed: Task;
     readTimeout: int;
-    readonly type_: QuicStreamType;
+    readonly type: QuicStreamType;
     readonly writesClosed: Task;
     writeTimeout: int;
     abort(abortDirection: QuicAbortDirection, errorCode: long): void;

@@ -23,7 +23,7 @@ export enum ComInterfaceOptions {
 
 
 export enum MarshalMode {
-    default_ = 0,
+    default = 0,
     managedToUnmanagedIn = 1,
     managedToUnmanagedRef = 2,
     managedToUnmanagedOut = 3,
@@ -69,8 +69,8 @@ export interface IIUnknownDerivedDetails$instance {
 export type IIUnknownDerivedDetails = IIUnknownDerivedDetails$instance;
 
 export interface IIUnknownInterfaceDetailsStrategy$instance {
-    getComExposedTypeDetails(type_: RuntimeTypeHandle): IComExposedDetails | undefined;
-    getIUnknownDerivedDetails(type_: RuntimeTypeHandle): IIUnknownDerivedDetails | undefined;
+    getComExposedTypeDetails(type: RuntimeTypeHandle): IComExposedDetails | undefined;
+    getIUnknownDerivedDetails(type: RuntimeTypeHandle): IIUnknownDerivedDetails | undefined;
 }
 
 
@@ -83,7 +83,7 @@ export interface IIUnknownInterfaceType$instance {
 export type IIUnknownInterfaceType = IIUnknownInterfaceType$instance;
 
 export interface IIUnknownStrategy$instance {
-    createInstancePointer(unknown_: ptr<void>): ptr<void>;
+    createInstancePointer(unknown: ptr<void>): ptr<void>;
     queryInterface(instancePtr: ptr<void>, iid: Guid, ppObj: ptr<void>): int;
     release(instancePtr: ptr<void>): int;
 }
@@ -92,7 +92,7 @@ export interface IIUnknownStrategy$instance {
 export type IIUnknownStrategy = IIUnknownStrategy$instance;
 
 export interface IUnmanagedVirtualMethodTableProvider$instance {
-    getVirtualMethodTableInfoForKey(type_: Type): VirtualMethodTableInfo;
+    getVirtualMethodTableInfoForKey(type: Type): VirtualMethodTableInfo;
 }
 
 
@@ -149,7 +149,7 @@ export type BStrStringMarshaller_ManagedToUnmanagedIn = BStrStringMarshaller_Man
 
 export interface ComVariant$instance {
     readonly varType: VarEnum;
-    as_<T>(): T | undefined;
+    as<T>(): T | undefined;
     dispose(): void;
     getRawDataRef<T extends unknown>(): T;
 }
@@ -157,7 +157,7 @@ export interface ComVariant$instance {
 
 export const ComVariant: {
     new(): ComVariant;
-    readonly null_: ComVariant;
+    readonly null: ComVariant;
     create<T>(value: T): ComVariant;
     createRaw<T extends unknown>(vt: VarEnum, rawValue: T): ComVariant;
 };

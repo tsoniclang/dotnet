@@ -29,7 +29,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::UnknownSystem.Net.Mime.TransferEncoding",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

@@ -44299,7 +44299,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -65333,7 +65333,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -65623,7 +65623,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Arm.ArmBase::Yield():System.Void",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "metadataToken": 100688147,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Yield|():System.Void|static=true",
@@ -65696,7 +65696,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -66266,7 +66266,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -69546,7 +69546,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -74855,7 +74855,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -77351,7 +77351,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -77720,7 +77720,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -117575,7 +117575,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {
@@ -140926,7 +140926,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Void|static=true",
           "target": {

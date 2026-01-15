@@ -6589,7 +6589,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::NamespaceSystem.Xml.Schema.XmlTypeCode",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 67114128,
           "normalizedSignature": "Namespace|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
@@ -6655,7 +6655,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::StringSystem.Xml.Schema.XmlTypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67114134,
           "normalizedSignature": "String|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
@@ -6666,7 +6666,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlTypeCode::BooleanSystem.Xml.Schema.XmlTypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67114135,
           "normalizedSignature": "Boolean|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "isStatic": true,
@@ -7732,7 +7732,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": true,
           "tsSignatureId": "Namespace|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "target": {
@@ -7792,7 +7792,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "target": {
@@ -7802,7 +7802,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Xml.Schema.XmlTypeCode|static=true|const=true",
           "target": {
@@ -10091,7 +10091,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchema::NamespaceSystem.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 67113731,
           "normalizedSignature": "Namespace|System.String|static=true|const=true",
           "isStatic": true,
@@ -10520,7 +10520,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": true,
           "tsSignatureId": "Namespace|System.String|static=true|const=true",
           "target": {
@@ -11248,7 +11248,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaAny::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385878691,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
@@ -11352,7 +11352,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=getset",
           "target": {
@@ -11515,7 +11515,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaAnyAttribute::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385878697,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
@@ -11619,7 +11619,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=getset",
           "target": {
@@ -19108,7 +19108,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaImport::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 385878853,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
@@ -19212,7 +19212,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": false,
           "tsSignatureId": "Namespace|:System.String|static=false|accessor=getset",
           "target": {
@@ -22408,7 +22408,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Schema.XmlSchemaNotation::Public:System.String",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "metadataToken": 385878868,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Public|:System.String|static=false|accessor=getset",
@@ -22522,7 +22522,7 @@
           }
         },
         {
-          "tsName": "public_",
+          "tsName": "public",
           "isStatic": false,
           "tsSignatureId": "Public|:System.String|static=false|accessor=getset",
           "target": {

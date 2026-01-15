@@ -101,7 +101,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeAccessRights::DeleteSystem.IO.Pipes.PipeAccessRights",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 67109025,
           "normalizedSignature": "Delete|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "isStatic": true,
@@ -825,7 +825,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|System.IO.Pipes.PipeAccessRights|static=true|const=true",
           "target": {
@@ -949,7 +949,7 @@
         {
           "stableId": "System.IO.Pipes:System.IO.Pipes.PipeDirection::InSystem.IO.Pipes.PipeDirection",
           "clrName": "In",
-          "tsEmitName": "in_",
+          "tsEmitName": "in",
           "metadataToken": 67109036,
           "normalizedSignature": "In|System.IO.Pipes.PipeDirection|static=true|const=true",
           "isStatic": true,
@@ -1526,7 +1526,7 @@
           }
         },
         {
-          "tsName": "in_",
+          "tsName": "in",
           "isStatic": true,
           "tsSignatureId": "In|System.IO.Pipes.PipeDirection|static=true|const=true",
           "target": {

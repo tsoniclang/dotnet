@@ -28,7 +28,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Array as ClrArray, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, IntPtr, ISpanFormattable, Nullable_1, Object as ClrObject, ReadOnlyMemory_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, Uri, ValueType, Void } from "../../System/internal/index.js";
 
 export enum CertificateRequestLoadOptions {
-    default_ = 0,
+    default = 0,
     skipSignatureValidation = 1,
     unsafeLoadCertificateExtensions = 2
 }
@@ -44,7 +44,7 @@ export enum OpenFlags {
 
 
 export enum Pkcs12ExportPbeParameters {
-    default_ = 0,
+    default = 0,
     pkcs12TripleDesSha1 = 1,
     pbes2Aes256Sha256 = 2
 }
@@ -119,7 +119,7 @@ export enum X509ChainTrustMode {
 
 
 export enum X509ContentType {
-    unknown_ = 0,
+    unknown = 0,
     cert = 1,
     serializedCert = 2,
     pfx = 3,
@@ -550,9 +550,9 @@ export interface X509Certificate$instance {
     dispose(): void;
     equals(obj: unknown): boolean;
     equals(other: X509Certificate): boolean;
-    export_(contentType: X509ContentType): byte[];
-    export_(contentType: X509ContentType, password: string): byte[];
-    export_(contentType: X509ContentType, password: SecureString): byte[];
+    export(contentType: X509ContentType): byte[];
+    export(contentType: X509ContentType, password: string): byte[];
+    export(contentType: X509ContentType, password: SecureString): byte[];
     exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string): byte[];
     exportPkcs12(exportParameters: PbeParameters, password: string): byte[];
     getCertHash(): byte[];
@@ -574,12 +574,12 @@ export interface X509Certificate$instance {
     getRawCertDataString(): string;
     getSerialNumber(): byte[];
     getSerialNumberString(): string;
-    import_(rawData: byte[]): void;
-    import_(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string): void;
-    import_(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
+    import(rawData: byte[]): void;
+    import(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
+    import(fileName: string): void;
+    import(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     reset(): void;
     toString(): string;
     toString(fVerbose: boolean): string;
@@ -655,12 +655,12 @@ export interface X509Certificate2$instance extends X509Certificate$instance {
     getObjectData(info: SerializationInfo, context: StreamingContext): void;
     getSlhDsaPrivateKey(): SlhDsa | undefined;
     getSlhDsaPublicKey(): SlhDsa | undefined;
-    import_(rawData: byte[]): void;
-    import_(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string): void;
-    import_(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
-    import_(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
+    import(rawData: byte[]): void;
+    import(rawData: byte[], password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import(rawData: byte[], password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
+    import(fileName: string): void;
+    import(fileName: string, password: string, keyStorageFlags: X509KeyStorageFlags): void;
+    import(fileName: string, password: SecureString, keyStorageFlags: X509KeyStorageFlags): void;
     matchesHostname(hostname: string, allowWildcards?: boolean, allowCommonName?: boolean): boolean;
     onDeserialization(sender: unknown): void;
     reset(): void;
@@ -721,8 +721,8 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     contains(value: unknown): boolean;
     copyTo(array: X509Certificate[], index: int): void;
     copyTo(array: ClrArray, index: int): void;
-    export_(contentType: X509ContentType): byte[];
-    export_(contentType: X509ContentType, password: string): byte[];
+    export(contentType: X509ContentType): byte[];
+    export(contentType: X509ContentType, password: string): byte[];
     exportCertificatePems(): string;
     exportPkcs12(exportParameters: Pkcs12ExportPbeParameters, password: string): byte[];
     exportPkcs12(exportParameters: PbeParameters, password: string): byte[];
@@ -733,14 +733,14 @@ export interface X509Certificate2Collection$instance extends X509CertificateColl
     findByThumbprint(hashAlgorithm: HashAlgorithmName, thumbprintBytes: ReadOnlySpan_1<System_Internal.Byte>): X509Certificate2Collection;
     getEnumerator(): X509CertificateCollection_X509CertificateEnumerator;
     getEnumerator(): IEnumerator;
-    import_(rawData: byte[]): void;
-    import_(rawData: ReadOnlySpan_1<System_Internal.Byte>): void;
-    import_(rawData: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags): void;
-    import_(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
-    import_(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
-    import_(fileName: string): void;
-    import_(fileName: string, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
-    import_(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
+    import(rawData: byte[]): void;
+    import(rawData: ReadOnlySpan_1<System_Internal.Byte>): void;
+    import(rawData: byte[], password: string, keyStorageFlags?: X509KeyStorageFlags): void;
+    import(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
+    import(rawData: ReadOnlySpan_1<System_Internal.Byte>, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
+    import(fileName: string): void;
+    import(fileName: string, password: string, keyStorageFlags?: X509KeyStorageFlags): void;
+    import(fileName: string, password: ReadOnlySpan_1<System_Internal.Char>, keyStorageFlags?: X509KeyStorageFlags): void;
     importFromPem(certPem: ReadOnlySpan_1<System_Internal.Char>): void;
     importFromPemFile(certPemFilePath: string): void;
     indexOf(value: X509Certificate): int;

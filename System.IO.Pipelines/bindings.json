@@ -584,7 +584,7 @@
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::Default:System.IO.Pipelines.PipeOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385876022,
           "canonicalSignature": ":System.IO.Pipelines.PipeOptions",
           "normalizedSignature": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
@@ -772,7 +772,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
           "target": {

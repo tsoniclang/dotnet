@@ -2128,7 +2128,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.ViewTechnology::DefaultSystem.ComponentModel.Design.ViewTechnology",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109475,
           "normalizedSignature": "Default|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "isStatic": true,
@@ -2703,7 +2703,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.ComponentModel.Design.ViewTechnology|static=true|const=true",
           "target": {
@@ -12999,7 +12999,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.HelpKeywordAttribute::DefaultSystem.ComponentModel.Design.HelpKeywordAttribute",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109461,
           "normalizedSignature": "Default|System.ComponentModel.Design.HelpKeywordAttribute|static=true|const=false",
           "isStatic": true,
@@ -13217,7 +13217,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.ComponentModel.Design.HelpKeywordAttribute|static=true|const=false",
           "target": {
@@ -14309,7 +14309,7 @@
         {
           "stableId": "System.ComponentModel.TypeConverter:System.ComponentModel.Design.StandardCommands::DeleteSystem.ComponentModel.Design.CommandID",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 67109382,
           "normalizedSignature": "Delete|System.ComponentModel.Design.CommandID|static=true|const=false",
           "isStatic": true,
@@ -14972,7 +14972,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|System.ComponentModel.Design.CommandID|static=true|const=false",
           "target": {

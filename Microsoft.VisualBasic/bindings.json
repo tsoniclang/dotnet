@@ -729,7 +729,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CallType::GetMicrosoft.VisualBasic.CallType",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 67109566,
           "normalizedSignature": "Get|Microsoft.VisualBasic.CallType|static=true|const=true",
           "isStatic": true,
@@ -740,7 +740,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CallType::LetMicrosoft.VisualBasic.CallType",
           "clrName": "Let",
-          "tsEmitName": "let_",
+          "tsEmitName": "let",
           "metadataToken": 67109567,
           "normalizedSignature": "Let|Microsoft.VisualBasic.CallType|static=true|const=true",
           "isStatic": true,
@@ -751,7 +751,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.CallType::SetMicrosoft.VisualBasic.CallType",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 67109568,
           "normalizedSignature": "Set|Microsoft.VisualBasic.CallType|static=true|const=true",
           "isStatic": true,
@@ -1316,7 +1316,7 @@
           }
         },
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|Microsoft.VisualBasic.CallType|static=true|const=true",
           "target": {
@@ -1326,7 +1326,7 @@
           }
         },
         {
-          "tsName": "let_",
+          "tsName": "let",
           "isStatic": true,
           "tsSignatureId": "Let|Microsoft.VisualBasic.CallType|static=true|const=true",
           "target": {
@@ -1336,7 +1336,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": true,
           "tsSignatureId": "Set|Microsoft.VisualBasic.CallType|static=true|const=true",
           "target": {
@@ -7826,7 +7826,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.OpenAccess::DefaultMicrosoft.VisualBasic.OpenAccess",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109644,
           "normalizedSignature": "Default|Microsoft.VisualBasic.OpenAccess|static=true|const=true",
           "isStatic": true,
@@ -8414,7 +8414,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|Microsoft.VisualBasic.OpenAccess|static=true|const=true",
           "target": {
@@ -9151,7 +9151,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.OpenShare::DefaultMicrosoft.VisualBasic.OpenShare",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109649,
           "normalizedSignature": "Default|Microsoft.VisualBasic.OpenShare|static=true|const=true",
           "isStatic": true,
@@ -9750,7 +9750,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|Microsoft.VisualBasic.OpenShare|static=true|const=true",
           "target": {
@@ -9824,7 +9824,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.TriState::FalseMicrosoft.VisualBasic.TriState",
           "clrName": "False",
-          "tsEmitName": "false_",
+          "tsEmitName": "false",
           "metadataToken": 67109613,
           "normalizedSignature": "False|Microsoft.VisualBasic.TriState|static=true|const=true",
           "isStatic": true,
@@ -9835,7 +9835,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.TriState::TrueMicrosoft.VisualBasic.TriState",
           "clrName": "True",
-          "tsEmitName": "true_",
+          "tsEmitName": "true",
           "metadataToken": 67109614,
           "normalizedSignature": "True|Microsoft.VisualBasic.TriState|static=true|const=true",
           "isStatic": true,
@@ -10401,7 +10401,7 @@
           }
         },
         {
-          "tsName": "false_",
+          "tsName": "false",
           "isStatic": true,
           "tsSignatureId": "False|Microsoft.VisualBasic.TriState|static=true|const=true",
           "target": {
@@ -10411,7 +10411,7 @@
           }
         },
         {
-          "tsName": "true_",
+          "tsName": "true",
           "isStatic": true,
           "tsSignatureId": "True|Microsoft.VisualBasic.TriState|static=true|const=true",
           "target": {
@@ -10466,7 +10466,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VariantType::NullMicrosoft.VisualBasic.VariantType",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67109538,
           "normalizedSignature": "Null|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "isStatic": true,
@@ -10543,7 +10543,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VariantType::StringMicrosoft.VisualBasic.VariantType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109545,
           "normalizedSignature": "String|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "isStatic": true,
@@ -10554,7 +10554,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VariantType::ObjectMicrosoft.VisualBasic.VariantType",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "metadataToken": 67109546,
           "normalizedSignature": "Object|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "isStatic": true,
@@ -10576,7 +10576,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.VariantType::BooleanMicrosoft.VisualBasic.VariantType",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67109548,
           "normalizedSignature": "Boolean|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "isStatic": true,
@@ -11229,7 +11229,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "target": {
@@ -11299,7 +11299,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "target": {
@@ -11309,7 +11309,7 @@
           }
         },
         {
-          "tsName": "object_",
+          "tsName": "object",
           "isStatic": true,
           "tsSignatureId": "Object|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "target": {
@@ -11329,7 +11329,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|Microsoft.VisualBasic.VariantType|static=true|const=true",
           "target": {
@@ -17728,7 +17728,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.ErrObject::Number:System.Int32",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 385876012,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Number|:System.Int32|static=false|accessor=getset",
@@ -17917,7 +17917,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": false,
           "tsSignatureId": "Number|:System.Int32|static=false|accessor=getset",
           "target": {
@@ -21465,7 +21465,7 @@
         {
           "stableId": "Microsoft.VisualBasic.Core:Microsoft.VisualBasic.Interaction::Switch(System.Object[]):System.Object",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "metadataToken": 100664934,
           "canonicalSignature": "(System.Object[]):System.Object",
           "normalizedSignature": "Switch|(System.Object[]):System.Object|static=true",
@@ -21701,7 +21701,7 @@
           }
         },
         {
-          "tsName": "switch_",
+          "tsName": "switch",
           "isStatic": true,
           "tsSignatureId": "Switch|(System.Object[]):System.Object|static=true",
           "target": {

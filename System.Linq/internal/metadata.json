@@ -34,7 +34,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelExecutionMode::DefaultSystem.Linq.ParallelExecutionMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Linq.ParallelExecutionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -78,7 +78,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelMergeOptions::DefaultSystem.Linq.ParallelMergeOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Linq.ParallelMergeOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -4390,7 +4390,7 @@
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(IEnumerable_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4406,7 +4406,7 @@
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(IEnumerable_1,Func_2):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7965,7 +7965,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(ImmutableArray_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(ImmutableArray_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7981,7 +7981,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(ImmutableArray_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(ImmutableArray_1,Func_2):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8477,7 +8477,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(Builder):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(Builder):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10718,7 +10718,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelEnumerable::Any(ParallelQuery_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(ParallelQuery_1,Func_2):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10734,7 +10734,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelEnumerable::Any(ParallelQuery_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(ParallelQuery_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13167,7 +13167,7 @@
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(IQueryable_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -13183,7 +13183,7 @@
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1,Expression_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|(IQueryable_1,Expression_1):System.Boolean|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

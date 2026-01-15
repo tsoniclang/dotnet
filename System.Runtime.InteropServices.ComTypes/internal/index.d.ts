@@ -340,7 +340,7 @@ export interface IMoniker$instance {
     bindToObject(pbc: IBindCtx, pmkToLeft: IMoniker, riidResult: Guid, ppvResult: unknown): void;
     commonPrefixWith(pmkOther: IMoniker, ppmkPrefix: IMoniker): void;
     composeWith(pmkRight: IMoniker, fOnlyIfNotGeneric: boolean, ppmkComposite: IMoniker): void;
-    enum_(fForward: boolean, ppenumMoniker: IEnumMoniker): void;
+    enum(fForward: boolean, ppenumMoniker: IEnumMoniker): void;
     getClassID(pClassID: Guid): void;
     getDisplayName(pbc: IBindCtx, pmkToLeft: IMoniker, ppszDisplayName: string): void;
     getSizeMax(pcbSize: long): void;
@@ -698,7 +698,7 @@ export type STATDATA = STATDATA$instance;
 
 export interface STATSTG$instance {
     pwcsName: string;
-    type_: int;
+    type: int;
     cbSize: long;
     mtime: FILETIME;
     ctime: FILETIME;

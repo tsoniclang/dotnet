@@ -640,7 +640,7 @@ export interface Encoding$instance {
 
 
 export const Encoding: {
-    readonly default_: Encoding;
+    readonly default: Encoding;
     readonly ASCII: Encoding;
     readonly latin1: Encoding;
     readonly unicode: Encoding;

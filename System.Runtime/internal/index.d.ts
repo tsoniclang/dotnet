@@ -17,7 +17,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action, Attribute, Boolean as ClrBoolean, Enum, Exception, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, TimeSpan, Type, TypeCode, ValueTuple_2, ValueType, Void } from "../../System/internal/index.js";
 
 export enum GCLargeObjectHeapCompactionMode {
-    default_ = 1,
+    default = 1,
     compactOnce = 2
 }
 

@@ -1854,7 +1854,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestError::UnknownSystem.Net.Http.HttpRequestError",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109118,
           "normalizedSignature": "Unknown|System.Net.Http.HttpRequestError|static=true|const=true",
           "isStatic": true,
@@ -2530,7 +2530,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Http.HttpRequestError|static=true|const=true",
           "target": {
@@ -8010,7 +8010,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Get:System.Net.Http.HttpMethod",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 385876192,
           "canonicalSignature": ":System.Net.Http.HttpMethod",
           "normalizedSignature": "Get|:System.Net.Http.HttpMethod|static=true|accessor=get",
@@ -8052,7 +8052,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpMethod::Delete:System.Net.Http.HttpMethod",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 385876195,
           "canonicalSignature": ":System.Net.Http.HttpMethod",
           "normalizedSignature": "Delete|:System.Net.Http.HttpMethod|static=true|accessor=get",
@@ -8270,7 +8270,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": true,
           "tsSignatureId": "Get|:System.Net.Http.HttpMethod|static=true|accessor=get",
           "target": {
@@ -8300,7 +8300,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|:System.Net.Http.HttpMethod|static=true|accessor=get",
           "target": {
@@ -9448,7 +9448,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.HttpRequestOptions::Set(HttpRequestOptionsKey_1,TValue):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100664115,
           "canonicalSignature": "(HttpRequestOptionsKey_1,TValue):System.Void",
           "normalizedSignature": "Set|(HttpRequestOptionsKey_1,TValue):System.Void|static=false",
@@ -9752,7 +9752,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(HttpRequestOptionsKey_1,TValue):System.Void|static=false",
           "target": {

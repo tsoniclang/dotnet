@@ -24,7 +24,7 @@
         {
           "stableId": "System.IO.FileSystem.DriveInfo:System.IO.DriveType::UnknownSystem.IO.DriveType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109077,
           "normalizedSignature": "Unknown|System.IO.DriveType|static=true|const=true",
           "isStatic": true,
@@ -645,7 +645,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.IO.DriveType|static=true|const=true",
           "target": {
@@ -3748,7 +3748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileShare::DeleteSystem.IO.FileShare",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 67116315,
           "normalizedSignature": "Delete|System.IO.FileShare|static=true|const=true",
           "isStatic": true,
@@ -4354,7 +4354,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|System.IO.FileShare|static=true|const=true",
           "target": {
@@ -12249,7 +12249,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.BinaryWriter::NullSystem.IO.BinaryWriter",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116114,
           "normalizedSignature": "Null|System.IO.BinaryWriter|static=true|const=false",
           "isStatic": true,
@@ -12667,7 +12667,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.BinaryWriter|static=true|const=false",
           "target": {
@@ -14386,7 +14386,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700106,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Delete|():System.Void|static=false",
@@ -14400,7 +14400,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.DirectoryInfo::Delete(System.Boolean):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700107,
           "canonicalSignature": "(System.Boolean):System.Void",
           "normalizedSignature": "Delete|(System.Boolean):System.Void|static=false",
@@ -14784,7 +14784,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|():System.Void|static=false",
           "target": {
@@ -14794,7 +14794,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|(System.Boolean):System.Void|static=false",
           "target": {
@@ -16821,7 +16821,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileInfo::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700311,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Delete|():System.Void|static=false",
@@ -17187,7 +17187,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|():System.Void|static=false",
           "target": {
@@ -20502,7 +20502,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.FileSystemInfo::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700465,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Delete|():System.Void|static=false",
@@ -20783,7 +20783,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": false,
           "tsSignatureId": "Delete|():System.Void|static=false",
           "target": {
@@ -25135,7 +25135,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Stream::NullSystem.IO.Stream",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116050,
           "normalizedSignature": "Null|System.IO.Stream|static=true|const=false",
           "isStatic": true,
@@ -25702,7 +25702,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.Stream|static=true|const=false",
           "target": {
@@ -26189,7 +26189,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamReader::NullSystem.IO.StreamReader",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116393,
           "normalizedSignature": "Null|System.IO.StreamReader|static=true|const=false",
           "isStatic": true,
@@ -26757,7 +26757,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.StreamReader|static=true|const=false",
           "target": {
@@ -27895,7 +27895,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.StreamWriter::NullSystem.IO.StreamWriter",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116444,
           "normalizedSignature": "Null|System.IO.StreamWriter|static=true|const=false",
           "isStatic": true,
@@ -28843,7 +28843,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.StreamWriter|static=true|const=false",
           "target": {
@@ -31911,7 +31911,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextReader::NullSystem.IO.TextReader",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116490,
           "normalizedSignature": "Null|System.IO.TextReader|static=true|const=false",
           "isStatic": true,
@@ -32206,7 +32206,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.TextReader|static=true|const=false",
           "target": {
@@ -33169,7 +33169,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.TextWriter::NullSystem.IO.TextWriter",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67116511,
           "normalizedSignature": "Null|System.IO.TextWriter|static=true|const=false",
           "isStatic": true,
@@ -33936,7 +33936,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.IO.TextWriter|static=true|const=false",
           "target": {
@@ -36737,7 +36737,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::Delete(System.String):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700065,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Delete|(System.String):System.Void|static=true",
@@ -36751,7 +36751,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.Directory::Delete(System.String,System.Boolean):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700066,
           "canonicalSignature": "(System.String,System.Boolean):System.Void",
           "normalizedSignature": "Delete|(System.String,System.Boolean):System.Void|static=true",
@@ -37261,7 +37261,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|(System.String):System.Void|static=true",
           "target": {
@@ -37271,7 +37271,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|(System.String,System.Boolean):System.Void|static=true",
           "target": {
@@ -37494,7 +37494,7 @@
         {
           "stableId": "System.Private.CoreLib:System.IO.File::Delete(System.String):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "metadataToken": 100700149,
           "canonicalSignature": "(System.String):System.Void",
           "normalizedSignature": "Delete|(System.String):System.Void|static=true",
@@ -38936,7 +38936,7 @@
           }
         },
         {
-          "tsName": "delete_",
+          "tsName": "delete",
           "isStatic": true,
           "tsSignatureId": "Delete|(System.String):System.Void|static=true",
           "target": {

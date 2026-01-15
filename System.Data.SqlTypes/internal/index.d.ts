@@ -61,7 +61,7 @@ export interface SqlBinary$instance {
 
 export const SqlBinary: {
     new(value: byte[]): SqlBinary;
-    readonly null_: SqlBinary;
+    readonly null: SqlBinary;
     add(x: SqlBinary, y: SqlBinary): SqlBinary;
     concat(x: SqlBinary, y: SqlBinary): SqlBinary;
     equals(x: SqlBinary, y: SqlBinary): SqlBoolean;
@@ -118,9 +118,9 @@ export interface SqlBoolean$instance {
 export const SqlBoolean: {
     new(value: boolean): SqlBoolean;
     new(value: int): SqlBoolean;
-    readonly true_: SqlBoolean;
-    readonly false_: SqlBoolean;
-    readonly null_: SqlBoolean;
+    readonly true: SqlBoolean;
+    readonly false: SqlBoolean;
+    readonly null: SqlBoolean;
     readonly zero: SqlBoolean;
     readonly one: SqlBoolean;
     and(x: SqlBoolean, y: SqlBoolean): SqlBoolean;
@@ -177,7 +177,7 @@ export interface SqlByte$instance {
 
 export const SqlByte: {
     new(value: byte): SqlByte;
-    readonly null_: SqlByte;
+    readonly null: SqlByte;
     readonly zero: SqlByte;
     readonly minValue: SqlByte;
     readonly maxValue: SqlByte;
@@ -245,7 +245,7 @@ export const SqlDateTime: {
     readonly sqlTicksPerHour: int;
     readonly minValue: SqlDateTime;
     readonly maxValue: SqlDateTime;
-    readonly null_: SqlDateTime;
+    readonly null: SqlDateTime;
     add(x: SqlDateTime, t: TimeSpan): SqlDateTime;
     equals(x: SqlDateTime, y: SqlDateTime): SqlBoolean;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
@@ -312,7 +312,7 @@ export const SqlDecimal: {
     new(dVal: double): SqlDecimal;
     readonly maxPrecision: byte;
     readonly maxScale: byte;
-    readonly null_: SqlDecimal;
+    readonly null: SqlDecimal;
     readonly minValue: SqlDecimal;
     readonly maxValue: SqlDecimal;
     abs(n: SqlDecimal): SqlDecimal;
@@ -378,7 +378,7 @@ export interface SqlDouble$instance {
 
 export const SqlDouble: {
     new(value: double): SqlDouble;
-    readonly null_: SqlDouble;
+    readonly null: SqlDouble;
     readonly zero: SqlDouble;
     readonly minValue: SqlDouble;
     readonly maxValue: SqlDouble;
@@ -433,7 +433,7 @@ export const SqlGuid: {
     new(s: string): SqlGuid;
     new(g: Guid): SqlGuid;
     new(a: int, b: short, c: short, d: byte, e: byte, f: byte, g: byte, h: byte, i: byte, j: byte, k: byte): SqlGuid;
-    readonly null_: SqlGuid;
+    readonly null: SqlGuid;
     equals(x: SqlGuid, y: SqlGuid): SqlBoolean;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
     greaterThan(x: SqlGuid, y: SqlGuid): SqlBoolean;
@@ -485,7 +485,7 @@ export interface SqlInt16$instance {
 
 export const SqlInt16: {
     new(value: short): SqlInt16;
-    readonly null_: SqlInt16;
+    readonly null: SqlInt16;
     readonly zero: SqlInt16;
     readonly minValue: SqlInt16;
     readonly maxValue: SqlInt16;
@@ -549,7 +549,7 @@ export interface SqlInt32$instance {
 
 export const SqlInt32: {
     new(value: int): SqlInt32;
-    readonly null_: SqlInt32;
+    readonly null: SqlInt32;
     readonly zero: SqlInt32;
     readonly minValue: SqlInt32;
     readonly maxValue: SqlInt32;
@@ -613,7 +613,7 @@ export interface SqlInt64$instance {
 
 export const SqlInt64: {
     new(value: long): SqlInt64;
-    readonly null_: SqlInt64;
+    readonly null: SqlInt64;
     readonly zero: SqlInt64;
     readonly minValue: SqlInt64;
     readonly maxValue: SqlInt64;
@@ -685,7 +685,7 @@ export const SqlMoney: {
     new(value: long): SqlMoney;
     new(value: decimal): SqlMoney;
     new(value: double): SqlMoney;
-    readonly null_: SqlMoney;
+    readonly null: SqlMoney;
     readonly zero: SqlMoney;
     readonly minValue: SqlMoney;
     readonly maxValue: SqlMoney;
@@ -745,7 +745,7 @@ export interface SqlSingle$instance {
 export const SqlSingle: {
     new(value: float): SqlSingle;
     new(value: double): SqlSingle;
-    readonly null_: SqlSingle;
+    readonly null: SqlSingle;
     readonly zero: SqlSingle;
     readonly minValue: SqlSingle;
     readonly maxValue: SqlSingle;
@@ -818,7 +818,7 @@ export const SqlString: {
     new(data: string, lcid: int, compareOptions: SqlCompareOptions): SqlString;
     new(data: string, lcid: int): SqlString;
     new(data: string): SqlString;
-    readonly null_: SqlString;
+    readonly null: SqlString;
     readonly ignoreCase: int;
     readonly ignoreWidth: int;
     readonly ignoreNonSpace: int;
@@ -895,7 +895,7 @@ export const SqlBytes: {
     new(buffer: byte[]): SqlBytes;
     new(value: SqlBinary): SqlBytes;
     new(s: Stream): SqlBytes;
-    readonly null_: SqlBytes;
+    readonly null: SqlBytes;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };
 
@@ -931,7 +931,7 @@ export const SqlChars: {
     new(): SqlChars;
     new(buffer: char[]): SqlChars;
     new(value: SqlString): SqlChars;
-    readonly null_: SqlChars;
+    readonly null: SqlChars;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };
 
@@ -1034,7 +1034,7 @@ export const SqlXml: {
     new(): SqlXml;
     new(value: XmlReader): SqlXml;
     new(value: Stream): SqlXml;
-    readonly null_: SqlXml;
+    readonly null: SqlXml;
     getXsdType(schemaSet: XmlSchemaSet): XmlQualifiedName;
 };
 

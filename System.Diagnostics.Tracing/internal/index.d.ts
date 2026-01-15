@@ -44,9 +44,9 @@ export enum EventCommand {
 
 
 export enum EventFieldFormat {
-    default_ = 0,
-    string_ = 2,
-    boolean_ = 3,
+    default = 0,
+    string = 2,
+    boolean = 3,
     hexadecimal = 4,
     xml = 11,
     json = 12,
@@ -108,7 +108,7 @@ export enum EventOpcode {
 
 
 export enum EventSourceSettings {
-    default_ = 0,
+    default = 0,
     throwOnEventWriteErrors = 1,
     etwManifestEventFormat = 4,
     etwSelfDescribingEventFormat = 8

@@ -262,7 +262,7 @@
         {
           "stableId": "System.IO.Pipelines:System.IO.Pipelines.PipeOptions::Default:System.IO.Pipelines.PipeOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.IO.Pipelines.PipeOptions|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

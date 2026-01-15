@@ -20,7 +20,7 @@ export enum HttpCacheAgeControl {
 
 
 export enum HttpRequestCacheLevel {
-    default_ = 0,
+    default = 0,
     bypassCache = 1,
     cacheOnly = 2,
     cacheIfAvailable = 3,
@@ -33,7 +33,7 @@ export enum HttpRequestCacheLevel {
 
 
 export enum RequestCacheLevel {
-    default_ = 0,
+    default = 0,
     bypassCache = 1,
     cacheOnly = 2,
     cacheIfAvailable = 3,

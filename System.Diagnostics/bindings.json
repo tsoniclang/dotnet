@@ -24,7 +24,7 @@
         {
           "stableId": "System.Diagnostics.DiagnosticSource:System.Diagnostics.ActivityIdFormat::UnknownSystem.Diagnostics.ActivityIdFormat",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67108945,
           "normalizedSignature": "Unknown|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "isStatic": true,
@@ -601,7 +601,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Diagnostics.ActivityIdFormat|static=true|const=true",
           "target": {
@@ -3232,7 +3232,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggableAttribute\u002BDebuggingModes::DefaultSystem.Diagnostics.DebuggableAttribute\u002BDebuggingModes",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67116843,
           "normalizedSignature": "Default|System.Diagnostics.DebuggableAttribute\u002BDebuggingModes|static=true|const=true",
           "isStatic": true,
@@ -3830,7 +3830,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Diagnostics.DebuggableAttribute\u002BDebuggingModes|static=true|const=true",
           "target": {
@@ -3894,7 +3894,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggerBrowsableState::NeverSystem.Diagnostics.DebuggerBrowsableState",
           "clrName": "Never",
-          "tsEmitName": "never_",
+          "tsEmitName": "never",
           "metadataToken": 67116848,
           "normalizedSignature": "Never|System.Diagnostics.DebuggerBrowsableState|static=true|const=true",
           "isStatic": true,
@@ -4471,7 +4471,7 @@
           }
         },
         {
-          "tsName": "never_",
+          "tsName": "never",
           "isStatic": true,
           "tsSignatureId": "Never|System.Diagnostics.DebuggerBrowsableState|static=true|const=true",
           "target": {
@@ -7399,7 +7399,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadState::UnknownSystem.Diagnostics.ThreadState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109227,
           "normalizedSignature": "Unknown|System.Diagnostics.ThreadState|static=true|const=true",
           "isStatic": true,
@@ -8024,7 +8024,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Diagnostics.ThreadState|static=true|const=true",
           "target": {
@@ -8201,7 +8201,7 @@
         {
           "stableId": "System.Diagnostics.Process:System.Diagnostics.ThreadWaitReason::UnknownSystem.Diagnostics.ThreadWaitReason",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109242,
           "normalizedSignature": "Unknown|System.Diagnostics.ThreadWaitReason|static=true|const=true",
           "isStatic": true,
@@ -8886,7 +8886,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Diagnostics.ThreadWaitReason|static=true|const=true",
           "target": {
@@ -22127,7 +22127,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.DebuggerDisplayAttribute::Type:System.String",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385880895,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Type|:System.String|static=false|accessor=getset",
@@ -22355,7 +22355,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.String|static=false|accessor=getset",
           "target": {
@@ -27683,7 +27683,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.InitializingSwitchEventArgs::Switch:System.Diagnostics.Switch",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "metadataToken": 385875982,
           "canonicalSignature": ":System.Diagnostics.Switch",
           "normalizedSignature": "Switch|:System.Diagnostics.Switch|static=false|accessor=get",
@@ -27773,7 +27773,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "switch_",
+          "tsName": "switch",
           "isStatic": false,
           "tsSignatureId": "Switch|:System.Diagnostics.Switch|static=false|accessor=get",
           "target": {
@@ -39224,7 +39224,7 @@
         {
           "stableId": "System.Diagnostics.TraceSource:System.Diagnostics.TraceSource::Switch:System.Diagnostics.SourceSwitch",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "metadataToken": 385876044,
           "canonicalSignature": ":System.Diagnostics.SourceSwitch",
           "normalizedSignature": "Switch|:System.Diagnostics.SourceSwitch|static=false|accessor=getset",
@@ -39475,7 +39475,7 @@
           }
         },
         {
-          "tsName": "switch_",
+          "tsName": "switch",
           "isStatic": false,
           "tsSignatureId": "Switch|:System.Diagnostics.SourceSwitch|static=false|accessor=getset",
           "target": {
@@ -41927,7 +41927,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Diagnostics.Debugger::Break():System.Void",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "metadataToken": 100701736,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Break|():System.Void|static=true",
@@ -42042,7 +42042,7 @@
       "constructors": [],
       "exposedMethods": [
         {
-          "tsName": "break_",
+          "tsName": "break",
           "isStatic": true,
           "tsSignatureId": "Break|():System.Void|static=true",
           "target": {

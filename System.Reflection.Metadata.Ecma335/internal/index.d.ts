@@ -17,7 +17,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Byte, Double, Enum, Func_2, Guid, IComparable, IConvertible, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, Single, String as ClrString, Type, TypeCode, UInt16, UInt32, ValueType, Version, Void } from "../../System/internal/index.js";
 
 export enum EditAndContinueOperation {
-    default_ = 0,
+    default = 0,
     addMethod = 1,
     addField = 2,
     addParameter = 3,
@@ -35,7 +35,7 @@ export enum FunctionPointerAttributes {
 
 export enum HeapIndex {
     userString = 0,
-    string_ = 1,
+    string = 1,
     blob = 2,
     guid = 3
 }
@@ -48,7 +48,7 @@ export enum MethodBodyAttributes {
 
 
 export enum TableIndex {
-    module_ = 0,
+    module = 0,
     typeRef = 1,
     typeDef = 2,
     fieldPtr = 3,
@@ -156,18 +156,18 @@ export type CustomAttributeArrayTypeEncoder = CustomAttributeArrayTypeEncoder$in
 
 export interface CustomAttributeElementTypeEncoder$instance {
     readonly builder: BlobBuilder;
-    boolean_(): void;
+    boolean(): void;
     byte(): void;
     char(): void;
     double(): void;
-    enum_(enumTypeName: string): void;
+    enum(enumTypeName: string): void;
     int16(): void;
     int32(): void;
     int64(): void;
-    primitiveType(type_: PrimitiveSerializationTypeCode): void;
+    primitiveType(type: PrimitiveSerializationTypeCode): void;
     sByte(): void;
     single(): void;
-    string_(): void;
+    string(): void;
     systemType(): void;
     uInt16(): void;
     uInt32(): void;
@@ -197,7 +197,7 @@ export type CustomAttributeNamedArgumentsEncoder = CustomAttributeNamedArguments
 
 export interface CustomModifiersEncoder$instance {
     readonly builder: BlobBuilder;
-    addModifier(type_: EntityHandle, isOptional: boolean): CustomModifiersEncoder;
+    addModifier(type: EntityHandle, isOptional: boolean): CustomModifiersEncoder;
 }
 
 
@@ -255,7 +255,7 @@ export type ExceptionRegionEncoder = ExceptionRegionEncoder$instance;
 export interface FieldTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
-    type_(isByRef?: boolean): SignatureTypeEncoder;
+    type(isByRef?: boolean): SignatureTypeEncoder;
     typedReference(): void;
 }
 
@@ -317,7 +317,7 @@ export interface InstructionEncoder$instance {
     opCode(code: ILOpCode): void;
     storeArgument(argumentIndex: int): void;
     storeLocal(slotIndex: int): void;
-    switch_(branchCount: int): SwitchInstructionEncoder;
+    switch(branchCount: int): SwitchInstructionEncoder;
     token(handle: EntityHandle): void;
     token(token: int): void;
 }
@@ -357,8 +357,8 @@ export type LabelHandle = LabelHandle$instance & __LabelHandle$views;
 export interface LiteralEncoder$instance {
     readonly builder: BlobBuilder;
     scalar(): ScalarEncoder;
-    taggedScalar(type_: CustomAttributeElementTypeEncoder, scalar: ScalarEncoder): void;
-    taggedScalar(type_: Action_1<CustomAttributeElementTypeEncoder>, scalar: Action_1<ScalarEncoder>): void;
+    taggedScalar(type: CustomAttributeElementTypeEncoder, scalar: ScalarEncoder): void;
+    taggedScalar(type: Action_1<CustomAttributeElementTypeEncoder>, scalar: Action_1<ScalarEncoder>): void;
     taggedVector(arrayType: CustomAttributeArrayTypeEncoder, vector: VectorEncoder): void;
     taggedVector(arrayType: Action_1<CustomAttributeArrayTypeEncoder>, vector: Action_1<VectorEncoder>): void;
     vector(): VectorEncoder;
@@ -401,7 +401,7 @@ export type LocalVariablesEncoder = LocalVariablesEncoder$instance;
 export interface LocalVariableTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
-    type_(isByRef?: boolean, isPinned?: boolean): SignatureTypeEncoder;
+    type(isByRef?: boolean, isPinned?: boolean): SignatureTypeEncoder;
     typedReference(): void;
 }
 
@@ -460,8 +460,8 @@ export type MethodSignatureEncoder = MethodSignatureEncoder$instance;
 
 export interface NamedArgumentsEncoder$instance {
     readonly builder: BlobBuilder;
-    addArgument(isField: boolean, type_: NamedArgumentTypeEncoder, name: NameEncoder, literal: LiteralEncoder): void;
-    addArgument(isField: boolean, type_: Action_1<NamedArgumentTypeEncoder>, name: Action_1<NameEncoder>, literal: Action_1<LiteralEncoder>): void;
+    addArgument(isField: boolean, type: NamedArgumentTypeEncoder, name: NameEncoder, literal: LiteralEncoder): void;
+    addArgument(isField: boolean, type: Action_1<NamedArgumentTypeEncoder>, name: Action_1<NameEncoder>, literal: Action_1<LiteralEncoder>): void;
 }
 
 
@@ -474,7 +474,7 @@ export type NamedArgumentsEncoder = NamedArgumentsEncoder$instance;
 
 export interface NamedArgumentTypeEncoder$instance {
     readonly builder: BlobBuilder;
-    object_(): void;
+    object(): void;
     scalarType(): CustomAttributeElementTypeEncoder;
     szArray(): CustomAttributeArrayTypeEncoder;
 }
@@ -518,7 +518,7 @@ export type ParametersEncoder = ParametersEncoder$instance;
 export interface ParameterTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
-    type_(isByRef?: boolean): SignatureTypeEncoder;
+    type(isByRef?: boolean): SignatureTypeEncoder;
     typedReference(): void;
 }
 
@@ -547,9 +547,9 @@ export type PermissionSetEncoder = PermissionSetEncoder$instance;
 export interface ReturnTypeEncoder$instance {
     readonly builder: BlobBuilder;
     customModifiers(): CustomModifiersEncoder;
-    type_(isByRef?: boolean): SignatureTypeEncoder;
+    type(isByRef?: boolean): SignatureTypeEncoder;
     typedReference(): void;
-    void_(): void;
+    void(): void;
 }
 
 
@@ -595,7 +595,7 @@ export interface SignatureTypeEncoder$instance {
     readonly builder: BlobBuilder;
     array(elementType: SignatureTypeEncoder, arrayShape: ArrayShapeEncoder): void;
     array(elementType: Action_1<SignatureTypeEncoder>, arrayShape: Action_1<ArrayShapeEncoder>): void;
-    boolean_(): void;
+    boolean(): void;
     byte(): void;
     char(): void;
     customModifiers(): CustomModifiersEncoder;
@@ -608,14 +608,14 @@ export interface SignatureTypeEncoder$instance {
     int32(): void;
     int64(): void;
     intPtr(): void;
-    object_(): void;
+    object(): void;
     pointer(): SignatureTypeEncoder;
-    primitiveType(type_: PrimitiveTypeCode): void;
+    primitiveType(type: PrimitiveTypeCode): void;
     sByte(): void;
     single(): void;
-    string_(): void;
+    string(): void;
     szArray(): SignatureTypeEncoder;
-    type_(type_: EntityHandle, isValueType: boolean): void;
+    type(type: EntityHandle, isValueType: boolean): void;
     typedReference(): void;
     uInt16(): void;
     uInt32(): void;
@@ -691,22 +691,22 @@ export interface MetadataBuilder$instance {
     addAssemblyFile(name: StringHandle, hashValue: BlobHandle, containsMetadata: boolean): AssemblyFileHandle;
     addAssemblyReference(name: StringHandle, version: Version, culture: StringHandle, publicKeyOrToken: BlobHandle, flags: AssemblyFlags, hashValue: BlobHandle): AssemblyReferenceHandle;
     addConstant(parent: EntityHandle, value: unknown): ConstantHandle;
-    addCustomAttribute(parent: EntityHandle, constructor_: EntityHandle, value: BlobHandle): CustomAttributeHandle;
+    addCustomAttribute(parent: EntityHandle, constructor: EntityHandle, value: BlobHandle): CustomAttributeHandle;
     addCustomDebugInformation(parent: EntityHandle, kind: GuidHandle, value: BlobHandle): CustomDebugInformationHandle;
     addDeclarativeSecurityAttribute(parent: EntityHandle, action: DeclarativeSecurityAction, permissionSet: BlobHandle): DeclarativeSecurityAttributeHandle;
     addDocument(name: BlobHandle, hashAlgorithm: GuidHandle, hash: BlobHandle, language: GuidHandle): DocumentHandle;
     addEncLogEntry(entity: EntityHandle, code: EditAndContinueOperation): void;
     addEncMapEntry(entity: EntityHandle): void;
-    addEvent(attributes: EventAttributes, name: StringHandle, type_: EntityHandle): EventDefinitionHandle;
+    addEvent(attributes: EventAttributes, name: StringHandle, type: EntityHandle): EventDefinitionHandle;
     addEventMap(declaringType: TypeDefinitionHandle, eventList: EventDefinitionHandle): void;
-    addExportedType(attributes: TypeAttributes, namespace_: StringHandle, name: StringHandle, implementation: EntityHandle, typeDefinitionId: int): ExportedTypeHandle;
+    addExportedType(attributes: TypeAttributes, namespace: StringHandle, name: StringHandle, implementation: EntityHandle, typeDefinitionId: int): ExportedTypeHandle;
     addFieldDefinition(attributes: FieldAttributes, name: StringHandle, signature: BlobHandle): FieldDefinitionHandle;
     addFieldLayout(field: FieldDefinitionHandle, offset: int): void;
     addFieldRelativeVirtualAddress(field: FieldDefinitionHandle, offset: int): void;
     addGenericParameter(parent: EntityHandle, attributes: GenericParameterAttributes, name: StringHandle, index: int): GenericParameterHandle;
     addGenericParameterConstraint(genericParameter: GenericParameterHandle, constraint: EntityHandle): GenericParameterConstraintHandle;
     addImportScope(parentScope: ImportScopeHandle, imports: BlobHandle): ImportScopeHandle;
-    addInterfaceImplementation(type_: TypeDefinitionHandle, implementedInterface: EntityHandle): InterfaceImplementationHandle;
+    addInterfaceImplementation(type: TypeDefinitionHandle, implementedInterface: EntityHandle): InterfaceImplementationHandle;
     addLocalConstant(name: StringHandle, signature: BlobHandle): LocalConstantHandle;
     addLocalScope(method: MethodDefinitionHandle, importScope: ImportScopeHandle, variableList: LocalVariableHandle, constantList: LocalConstantHandle, startOffset: int, length: int): LocalScopeHandle;
     addLocalVariable(attributes: LocalVariableAttributes, index: int, name: StringHandle): LocalVariableHandle;
@@ -715,21 +715,21 @@ export interface MetadataBuilder$instance {
     addMemberReference(parent: EntityHandle, name: StringHandle, signature: BlobHandle): MemberReferenceHandle;
     addMethodDebugInformation(document: DocumentHandle, sequencePoints: BlobHandle): MethodDebugInformationHandle;
     addMethodDefinition(attributes: MethodAttributes, implAttributes: MethodImplAttributes, name: StringHandle, signature: BlobHandle, bodyOffset: int, parameterList: ParameterHandle): MethodDefinitionHandle;
-    addMethodImplementation(type_: TypeDefinitionHandle, methodBody: EntityHandle, methodDeclaration: EntityHandle): MethodImplementationHandle;
-    addMethodImport(method: MethodDefinitionHandle, attributes: MethodImportAttributes, name: StringHandle, module_: ModuleReferenceHandle): void;
+    addMethodImplementation(type: TypeDefinitionHandle, methodBody: EntityHandle, methodDeclaration: EntityHandle): MethodImplementationHandle;
+    addMethodImport(method: MethodDefinitionHandle, attributes: MethodImportAttributes, name: StringHandle, module: ModuleReferenceHandle): void;
     addMethodSemantics(association: EntityHandle, semantics: MethodSemanticsAttributes, methodDefinition: MethodDefinitionHandle): void;
     addMethodSpecification(method: EntityHandle, instantiation: BlobHandle): MethodSpecificationHandle;
     addModule(generation: int, moduleName: StringHandle, mvid: GuidHandle, encId: GuidHandle, encBaseId: GuidHandle): ModuleDefinitionHandle;
     addModuleReference(moduleName: StringHandle): ModuleReferenceHandle;
-    addNestedType(type_: TypeDefinitionHandle, enclosingType: TypeDefinitionHandle): void;
+    addNestedType(type: TypeDefinitionHandle, enclosingType: TypeDefinitionHandle): void;
     addParameter(attributes: ParameterAttributes, name: StringHandle, sequenceNumber: int): ParameterHandle;
     addProperty(attributes: PropertyAttributes, name: StringHandle, signature: BlobHandle): PropertyDefinitionHandle;
     addPropertyMap(declaringType: TypeDefinitionHandle, propertyList: PropertyDefinitionHandle): void;
     addStandaloneSignature(signature: BlobHandle): StandaloneSignatureHandle;
     addStateMachineMethod(moveNextMethod: MethodDefinitionHandle, kickoffMethod: MethodDefinitionHandle): void;
-    addTypeDefinition(attributes: TypeAttributes, namespace_: StringHandle, name: StringHandle, baseType: EntityHandle, fieldList: FieldDefinitionHandle, methodList: MethodDefinitionHandle): TypeDefinitionHandle;
-    addTypeLayout(type_: TypeDefinitionHandle, packingSize: ushort, size: uint): void;
-    addTypeReference(resolutionScope: EntityHandle, namespace_: StringHandle, name: StringHandle): TypeReferenceHandle;
+    addTypeDefinition(attributes: TypeAttributes, namespace: StringHandle, name: StringHandle, baseType: EntityHandle, fieldList: FieldDefinitionHandle, methodList: MethodDefinitionHandle): TypeDefinitionHandle;
+    addTypeLayout(type: TypeDefinitionHandle, packingSize: ushort, size: uint): void;
+    addTypeReference(resolutionScope: EntityHandle, namespace: StringHandle, name: StringHandle): TypeReferenceHandle;
     addTypeSpecification(signature: BlobHandle): TypeSpecificationHandle;
     getOrAddBlob(value: BlobBuilder): BlobHandle;
     getOrAddBlob(value: byte[]): BlobHandle;
@@ -899,8 +899,8 @@ export abstract class MetadataTokens$instance {
     static propertyDefinitionHandle(rowNumber: int): PropertyDefinitionHandle;
     static standaloneSignatureHandle(rowNumber: int): StandaloneSignatureHandle;
     static stringHandle(offset: int): StringHandle;
-    static tryGetHeapIndex(type_: HandleKind, index: HeapIndex): boolean;
-    static tryGetTableIndex(type_: HandleKind, index: TableIndex): boolean;
+    static tryGetHeapIndex(type: HandleKind, index: HeapIndex): boolean;
+    static tryGetTableIndex(type: HandleKind, index: TableIndex): boolean;
     static typeDefinitionHandle(rowNumber: int): TypeDefinitionHandle;
     static typeReferenceHandle(rowNumber: int): TypeReferenceHandle;
     static typeSpecificationHandle(rowNumber: int): TypeSpecificationHandle;

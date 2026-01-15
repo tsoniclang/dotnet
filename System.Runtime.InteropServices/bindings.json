@@ -16248,7 +16248,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.UnmanagedType::InterfaceSystem.Runtime.InteropServices.UnmanagedType",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "metadataToken": 67113779,
           "normalizedSignature": "Interface|System.Runtime.InteropServices.UnmanagedType|static=true|const=true",
           "isStatic": true,
@@ -17190,7 +17190,7 @@
           }
         },
         {
-          "tsName": "interface_",
+          "tsName": "interface",
           "isStatic": true,
           "tsSignatureId": "Interface|System.Runtime.InteropServices.UnmanagedType|static=true|const=true",
           "target": {
@@ -29119,7 +29119,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "metadataToken": 385875983,
           "canonicalSignature": ":System.Reflection.Module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
@@ -29457,7 +29457,7 @@
           }
         },
         {
-          "tsName": "module_",
+          "tsName": "module",
           "isStatic": false,
           "tsSignatureId": "Module|:System.Reflection.Module|static=false|accessor=get",
           "target": {

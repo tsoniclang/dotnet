@@ -116,7 +116,7 @@ export interface ImmutableArray_1$instance<T> {
     addRange<TDerived extends T>(items: ImmutableArray_1<TDerived>): ImmutableArray_1<T>;
     addRange(items: ReadOnlySpan_1<T>): ImmutableArray_1<T>;
     addRange(...items: T[]): ImmutableArray_1<T>;
-    as_<TOther>(): ImmutableArray_1<TOther>;
+    as<TOther>(): ImmutableArray_1<TOther>;
     asMemory(): ReadOnlyMemory_1<T>;
     asSpan(): ReadOnlySpan_1<T>;
     asSpan(start: int, length: int): ReadOnlySpan_1<T>;

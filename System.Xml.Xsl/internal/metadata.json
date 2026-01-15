@@ -1699,7 +1699,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::Default:System.Xml.Xsl.XsltSettings",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -348,7 +348,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Loader.AssemblyLoadContext::Default:System.Runtime.Loader.AssemblyLoadContext",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Runtime.Loader.AssemblyLoadContext|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

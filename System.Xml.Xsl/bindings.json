@@ -3555,7 +3555,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.Xsl.XsltSettings::Default:System.Xml.Xsl.XsltSettings",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385879035,
           "canonicalSignature": ":System.Xml.Xsl.XsltSettings",
           "normalizedSignature": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
@@ -3697,7 +3697,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Xml.Xsl.XsltSettings|static=true|accessor=get",
           "target": {

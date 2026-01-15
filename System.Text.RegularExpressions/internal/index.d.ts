@@ -36,7 +36,7 @@ export enum RegexOptions {
 
 
 export enum RegexParseError {
-    unknown_ = 0,
+    unknown = 0,
     alternationHasTooManyConditions = 1,
     alternationHasMalformedCondition = 2,
     invalidUnicodePropertyEscape = 3,
@@ -388,7 +388,7 @@ export interface RegexCompilationInfo$instance {
     isPublic: boolean;
     matchTimeout: TimeSpan;
     name: string;
-    namespace_: string;
+    namespace: string;
     options: RegexOptions;
     pattern: string;
 }

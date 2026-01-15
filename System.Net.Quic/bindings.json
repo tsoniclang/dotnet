@@ -4820,7 +4820,7 @@
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Type:System.Net.Quic.QuicStreamType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385876162,
           "canonicalSignature": ":System.Net.Quic.QuicStreamType",
           "normalizedSignature": "Type|:System.Net.Quic.QuicStreamType|static=false|accessor=get",
@@ -5539,7 +5539,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.Net.Quic.QuicStreamType|static=false|accessor=get",
           "target": {

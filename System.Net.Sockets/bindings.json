@@ -24,7 +24,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Sockets.AddressFamily::UnknownSystem.Net.Sockets.AddressFamily",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109251,
           "normalizedSignature": "Unknown|System.Net.Sockets.AddressFamily|static=true|const=true",
           "isStatic": true,
@@ -931,7 +931,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Sockets.AddressFamily|static=true|const=true",
           "target": {
@@ -3219,7 +3219,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolFamily::UnknownSystem.Net.Sockets.ProtocolFamily",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109435,
           "normalizedSignature": "Unknown|System.Net.Sockets.ProtocolFamily|static=true|const=true",
           "isStatic": true,
@@ -4126,7 +4126,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Sockets.ProtocolFamily|static=true|const=true",
           "target": {
@@ -4744,7 +4744,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.ProtocolType::UnknownSystem.Net.Sockets.ProtocolType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109493,
           "normalizedSignature": "Unknown|System.Net.Sockets.ProtocolType|static=true|const=true",
           "isStatic": true,
@@ -5539,7 +5539,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Sockets.ProtocolType|static=true|const=true",
           "target": {
@@ -10817,7 +10817,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketOptionName::TypeSystem.Net.Sockets.SocketOptionName",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 67109343,
           "normalizedSignature": "Type|System.Net.Sockets.SocketOptionName|static=true|const=true",
           "isStatic": true,
@@ -11893,7 +11893,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": true,
           "tsSignatureId": "Type|System.Net.Sockets.SocketOptionName|static=true|const=true",
           "target": {
@@ -12923,7 +12923,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.SocketType::UnknownSystem.Net.Sockets.SocketType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109500,
           "normalizedSignature": "Unknown|System.Net.Sockets.SocketType|static=true|const=true",
           "isStatic": true,
@@ -13528,7 +13528,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Sockets.SocketType|static=true|const=true",
           "target": {
@@ -14315,7 +14315,7 @@
         {
           "stableId": "System.Net.Sockets:System.Net.Sockets.IPPacketInformation::Interface:System.Int32",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "metadataToken": 385876032,
           "canonicalSignature": ":System.Int32",
           "normalizedSignature": "Interface|:System.Int32|static=false|accessor=get",
@@ -14424,7 +14424,7 @@
           }
         },
         {
-          "tsName": "interface_",
+          "tsName": "interface",
           "isStatic": false,
           "tsSignatureId": "Interface|:System.Int32|static=false|accessor=get",
           "target": {

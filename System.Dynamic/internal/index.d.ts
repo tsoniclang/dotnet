@@ -63,7 +63,7 @@ export const BindingRestrictions: {
     combine(contributingObjects: IList_1<DynamicMetaObject>): BindingRestrictions;
     getExpressionRestriction(expression: Expression): BindingRestrictions;
     getInstanceRestriction(expression: Expression, instance: unknown): BindingRestrictions;
-    getTypeRestriction(expression: Expression, type_: Type): BindingRestrictions;
+    getTypeRestriction(expression: Expression, type: Type): BindingRestrictions;
 };
 
 
@@ -88,7 +88,7 @@ export type CallInfo = CallInfo$instance;
 export interface ConvertBinder$instance extends DynamicMetaObjectBinder {
     readonly explicit: boolean;
     readonly returnType: Type;
-    readonly type_: Type;
+    readonly type: Type;
     bind(target: DynamicMetaObject, args: DynamicMetaObject[]): DynamicMetaObject;
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     fallbackConvert(target: DynamicMetaObject): DynamicMetaObject;
@@ -191,7 +191,7 @@ export interface DynamicMetaObjectBinder$instance extends CallSiteBinder {
     bind(args: unknown[], parameters: ReadOnlyCollection_1<ParameterExpression>, returnLabel: LabelTarget): Expression;
     defer(target: DynamicMetaObject, ...args: DynamicMetaObject[]): DynamicMetaObject;
     defer(...args: DynamicMetaObject[]): DynamicMetaObject;
-    getUpdateExpression(type_: Type): Expression;
+    getUpdateExpression(type: Type): Expression;
 }
 
 

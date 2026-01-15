@@ -3261,7 +3261,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Get(System.Int32):System.Boolean",
           "clrName": "Get",
-          "tsEmitName": "get_",
+          "tsEmitName": "get",
           "metadataToken": 100703653,
           "canonicalSignature": "(System.Int32):System.Boolean",
           "normalizedSignature": "Get|(System.Int32):System.Boolean|static=false",
@@ -3275,7 +3275,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.BitArray::Set(System.Int32,System.Boolean):System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100703654,
           "canonicalSignature": "(System.Int32,System.Boolean):System.Void",
           "normalizedSignature": "Set|(System.Int32,System.Boolean):System.Void|static=false",
@@ -3705,7 +3705,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "get_",
+          "tsName": "get",
           "isStatic": false,
           "tsSignatureId": "Get|(System.Int32):System.Boolean|static=false",
           "target": {
@@ -3715,7 +3715,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|(System.Int32,System.Boolean):System.Void|static=false",
           "target": {
@@ -4134,7 +4134,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CaseInsensitiveComparer::Default:System.Collections.CaseInsensitiveComparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385875986,
           "canonicalSignature": ":System.Collections.CaseInsensitiveComparer",
           "normalizedSignature": "Default|:System.Collections.CaseInsensitiveComparer|static=true|accessor=get",
@@ -4268,7 +4268,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Collections.CaseInsensitiveComparer|static=true|accessor=get",
           "target": {
@@ -4349,7 +4349,7 @@
         {
           "stableId": "System.Collections.NonGeneric:System.Collections.CaseInsensitiveHashCodeProvider::Default:System.Collections.CaseInsensitiveHashCodeProvider",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 385875988,
           "canonicalSignature": ":System.Collections.CaseInsensitiveHashCodeProvider",
           "normalizedSignature": "Default|:System.Collections.CaseInsensitiveHashCodeProvider|static=true|accessor=get",
@@ -4483,7 +4483,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|:System.Collections.CaseInsensitiveHashCodeProvider|static=true|accessor=get",
           "target": {
@@ -5103,7 +5103,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Collections.Comparer::DefaultSystem.Collections.Comparer",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67117794,
           "normalizedSignature": "Default|System.Collections.Comparer|static=true|const=false",
           "isStatic": true,
@@ -5240,7 +5240,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Collections.Comparer|static=true|const=false",
           "target": {

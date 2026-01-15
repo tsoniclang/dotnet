@@ -14,7 +14,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, Byte, DateTimeOffset, Enum, IAsyncDisposable, IComparable, IConvertible, IDisposable, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, Void } from "../../System/internal/index.js";
 
 export enum TarEntryFormat {
-    unknown_ = 0,
+    unknown = 0,
     V7 = 1,
     ustar = 2,
     pax = 3,

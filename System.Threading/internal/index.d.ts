@@ -28,7 +28,7 @@ import type { Action, Action_1, Action_2, AppDomain, ApplicationException, Async
 export enum ApartmentState {
     STA = 0,
     MTA = 1,
-    unknown_ = 2
+    unknown = 2
 }
 
 
@@ -530,7 +530,7 @@ export type CountdownEvent = CountdownEvent$instance & __CountdownEvent$views;
 export interface EventWaitHandle$instance extends WaitHandle$instance {
     dispose(): void;
     reset(): boolean;
-    set_(): boolean;
+    set(): boolean;
 }
 
 
@@ -676,7 +676,7 @@ export interface ManualResetEventSlim$instance {
     readonly waitHandle: WaitHandle;
     dispose(): void;
     reset(): void;
-    set_(): void;
+    set(): void;
     wait(): void;
     wait(cancellationToken: CancellationToken): void;
     wait(timeout: TimeSpan): boolean;
@@ -1084,7 +1084,7 @@ export const Thread: {
     volatileWrite(address: uint, value: uint): void;
     volatileWrite(address: ulong, value: ulong): void;
     volatileWrite(address: nuint, value: nuint): void;
-    yield_(): boolean;
+    yield(): boolean;
 };
 
 

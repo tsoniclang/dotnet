@@ -1765,7 +1765,7 @@
         {
           "stableId": "System.Net.Quic:System.Net.Quic.QuicStream::Type:System.Net.Quic.QuicStreamType",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Net.Quic.QuicStreamType|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -93,7 +93,7 @@ export type RuntimeBinderInternalCompilerException = RuntimeBinderInternalCompil
 
 export abstract class Binder$instance {
     static binaryOperation(flags: CSharpBinderFlags, operation: ExpressionType, context: Type, argumentInfo: IEnumerable_1<CSharpArgumentInfo>): CallSiteBinder;
-    static convert(flags: CSharpBinderFlags, type_: Type, context: Type): CallSiteBinder;
+    static convert(flags: CSharpBinderFlags, type: Type, context: Type): CallSiteBinder;
     static getIndex(flags: CSharpBinderFlags, context: Type, argumentInfo: IEnumerable_1<CSharpArgumentInfo>): CallSiteBinder;
     static getMember(flags: CSharpBinderFlags, name: string, context: Type, argumentInfo: IEnumerable_1<CSharpArgumentInfo>): CallSiteBinder;
     static invoke(flags: CSharpBinderFlags, context: Type, argumentInfo: IEnumerable_1<CSharpArgumentInfo>): CallSiteBinder;

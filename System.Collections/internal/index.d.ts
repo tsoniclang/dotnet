@@ -192,7 +192,7 @@ export interface ArrayList$instance {
     sort(comparer: IComparer): void;
     sort(index: int, count: int, comparer: IComparer): void;
     toArray(): (unknown | undefined)[];
-    toArray(type_: Type): ClrArray;
+    toArray(type: Type): ClrArray;
     trimToSize(): void;
 }
 
@@ -234,7 +234,7 @@ export interface BitArray$instance {
     and(value: BitArray): BitArray;
     clone(): unknown;
     copyTo(array: ClrArray, index: int): void;
-    get_(index: int): boolean;
+    get(index: int): boolean;
     getEnumerator(): IEnumerator;
     hasAllSet(): boolean;
     hasAnySet(): boolean;
@@ -242,7 +242,7 @@ export interface BitArray$instance {
     not(): BitArray;
     or(value: BitArray): BitArray;
     rightShift(count: int): BitArray;
-    set_(index: int, value: boolean): void;
+    set(index: int, value: boolean): void;
     setAll(value: boolean): void;
     xor(value: BitArray): BitArray;
 }
@@ -278,7 +278,7 @@ export interface CaseInsensitiveComparer$instance {
 export const CaseInsensitiveComparer: {
     new(): CaseInsensitiveComparer;
     new(culture: CultureInfo): CaseInsensitiveComparer;
-    readonly default_: CaseInsensitiveComparer;
+    readonly default: CaseInsensitiveComparer;
     readonly defaultInvariant: CaseInsensitiveComparer;
 };
 
@@ -300,7 +300,7 @@ export interface CaseInsensitiveHashCodeProvider$instance {
 export const CaseInsensitiveHashCodeProvider: {
     new(): CaseInsensitiveHashCodeProvider;
     new(culture: CultureInfo): CaseInsensitiveHashCodeProvider;
-    readonly default_: CaseInsensitiveHashCodeProvider;
+    readonly default: CaseInsensitiveHashCodeProvider;
     readonly defaultInvariant: CaseInsensitiveHashCodeProvider;
 };
 
@@ -342,7 +342,7 @@ export interface Comparer$instance {
 
 export const Comparer: {
     new(culture: CultureInfo): Comparer;
-    readonly default_: Comparer;
+    readonly default: Comparer;
     readonly defaultInvariant: Comparer;
 };
 

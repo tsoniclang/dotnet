@@ -1439,7 +1439,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::Any(Vector128_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100683040,
           "canonicalSignature": "(Vector128_1,T):System.Boolean",
           "normalizedSignature": "Any|(Vector128_1,T):System.Boolean|static=true",
@@ -1467,7 +1467,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector128::As(Vector128_1):Vector128_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100683042,
           "canonicalSignature": "(Vector128_1):Vector128_1",
           "normalizedSignature": "As|(Vector128_1):Vector128_1|static=true",
@@ -5896,7 +5896,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Vector128_1,T):System.Boolean|static=true",
           "target": {
@@ -5916,7 +5916,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(Vector128_1):Vector128_1|static=true",
           "target": {
@@ -9173,7 +9173,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::Any(Vector256_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100683560,
           "canonicalSignature": "(Vector256_1,T):System.Boolean",
           "normalizedSignature": "Any|(Vector256_1,T):System.Boolean|static=true",
@@ -9201,7 +9201,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector256::As(Vector256_1):Vector256_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100683562,
           "canonicalSignature": "(Vector256_1):Vector256_1",
           "normalizedSignature": "As|(Vector256_1):Vector256_1|static=true",
@@ -13476,7 +13476,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Vector256_1,T):System.Boolean|static=true",
           "target": {
@@ -13496,7 +13496,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(Vector256_1):Vector256_1|static=true",
           "target": {
@@ -16643,7 +16643,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::Any(Vector512_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100684040,
           "canonicalSignature": "(Vector512_1,T):System.Boolean",
           "normalizedSignature": "Any|(Vector512_1,T):System.Boolean|static=true",
@@ -16671,7 +16671,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector512::As(Vector512_1):Vector512_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100684042,
           "canonicalSignature": "(Vector512_1):Vector512_1",
           "normalizedSignature": "As|(Vector512_1):Vector512_1|static=true",
@@ -20932,7 +20932,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Vector512_1,T):System.Boolean|static=true",
           "target": {
@@ -20952,7 +20952,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(Vector512_1):Vector512_1|static=true",
           "target": {
@@ -24089,7 +24089,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::Any(Vector64_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100684519,
           "canonicalSignature": "(Vector64_1,T):System.Boolean",
           "normalizedSignature": "Any|(Vector64_1,T):System.Boolean|static=true",
@@ -24117,7 +24117,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.Intrinsics.Vector64::As(Vector64_1):Vector64_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100684521,
           "canonicalSignature": "(Vector64_1):Vector64_1",
           "normalizedSignature": "As|(Vector64_1):Vector64_1|static=true",
@@ -27972,7 +27972,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Vector64_1,T):System.Boolean|static=true",
           "target": {
@@ -27992,7 +27992,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(Vector64_1):Vector64_1|static=true",
           "target": {

@@ -67,7 +67,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.LoadHint::DefaultSystem.Runtime.CompilerServices.LoadHint",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -254,7 +254,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodImplOptions::AsyncSystem.Runtime.CompilerServices.MethodImplOptions",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "normalizedSignature": "Async|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -298,7 +298,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.UnsafeAccessorKind::ConstructorSystem.Runtime.CompilerServices.UnsafeAccessorKind",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -7885,7 +7885,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(Task_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(Task_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7901,7 +7901,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.Task):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(System.Threading.Tasks.Task):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7917,7 +7917,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ValueTask_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(ValueTask_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7933,7 +7933,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.ValueTask):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(System.Threading.Tasks.ValueTask):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7949,7 +7949,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7965,7 +7965,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7981,7 +7981,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(ConfiguredTaskAwaitable_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7997,7 +7997,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredValueTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "normalizedSignature": "Await|(ConfiguredValueTaskAwaitable_1):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9311,7 +9311,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(System.Object):T",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(System.Object):T|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9327,7 +9327,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(TFrom\u0026):TTo\u0026",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|(TFrom\u0026):TTo\u0026|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

@@ -46,7 +46,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ApartmentState::UnknownSystem.Threading.ApartmentState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67111981,
           "normalizedSignature": "Unknown|System.Threading.ApartmentState|static=true|const=true",
           "isStatic": true,
@@ -621,7 +621,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Threading.ApartmentState|static=true|const=true",
           "target": {
@@ -10166,7 +10166,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|():System.Boolean|static=false",
           "target": {
@@ -12567,7 +12567,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.EventWaitHandle::Set():System.Boolean",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100679322,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "Set|():System.Boolean|static=false",
@@ -12726,7 +12726,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|():System.Boolean|static=false",
           "target": {
@@ -14412,7 +14412,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|():System.Boolean|static=false",
           "target": {
@@ -14666,7 +14666,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.ManualResetEventSlim::Set():System.Void",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 100679493,
           "canonicalSignature": "():System.Void",
           "normalizedSignature": "Set|():System.Void|static=false",
@@ -14884,7 +14884,7 @@
       ],
       "exposedMethods": [
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": false,
           "tsSignatureId": "Set|():System.Void|static=false",
           "target": {
@@ -19759,7 +19759,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Threading.Thread::Yield():System.Boolean",
           "clrName": "Yield",
-          "tsEmitName": "yield_",
+          "tsEmitName": "yield",
           "metadataToken": 100678910,
           "canonicalSignature": "():System.Boolean",
           "normalizedSignature": "Yield|():System.Boolean|static=true",
@@ -21035,7 +21035,7 @@
           }
         },
         {
-          "tsName": "yield_",
+          "tsName": "yield",
           "isStatic": true,
           "tsSignatureId": "Yield|():System.Boolean|static=true",
           "target": {

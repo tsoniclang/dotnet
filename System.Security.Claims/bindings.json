@@ -125,7 +125,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.Claim::Type:System.String",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "metadataToken": 385875984,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Type|:System.String|static=false|accessor=get",
@@ -373,7 +373,7 @@
           }
         },
         {
-          "tsName": "type_",
+          "tsName": "type",
           "isStatic": false,
           "tsSignatureId": "Type|:System.String|static=false|accessor=get",
           "target": {
@@ -3297,7 +3297,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimValueTypes::BooleanSystem.String",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67109018,
           "normalizedSignature": "Boolean|System.String|static=true|const=true",
           "isStatic": true,
@@ -3407,7 +3407,7 @@
         {
           "stableId": "System.Security.Claims:System.Security.Claims.ClaimValueTypes::StringSystem.String",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67109028,
           "normalizedSignature": "String|System.String|static=true|const=true",
           "isStatic": true,
@@ -3656,7 +3656,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.String|static=true|const=true",
           "target": {
@@ -3756,7 +3756,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.String|static=true|const=true",
           "target": {

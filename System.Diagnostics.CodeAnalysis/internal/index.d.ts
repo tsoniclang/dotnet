@@ -121,16 +121,16 @@ export interface DynamicDependencyAttribute$instance extends Attribute {
     set condition(value: string);
     readonly memberSignature: string | undefined;
     readonly memberTypes: DynamicallyAccessedMemberTypes;
-    readonly type_: Type;
+    readonly type: Type;
     readonly typeName: string;
 }
 
 
 export const DynamicDependencyAttribute: {
     new(memberSignature: string): DynamicDependencyAttribute;
-    new(memberSignature: string, type_: Type): DynamicDependencyAttribute;
+    new(memberSignature: string, type: Type): DynamicDependencyAttribute;
     new(memberSignature: string, typeName: string, assemblyName: string): DynamicDependencyAttribute;
-    new(memberTypes: DynamicallyAccessedMemberTypes, type_: Type): DynamicDependencyAttribute;
+    new(memberTypes: DynamicallyAccessedMemberTypes, type: Type): DynamicDependencyAttribute;
     new(memberTypes: DynamicallyAccessedMemberTypes, typeName: string, assemblyName: string): DynamicDependencyAttribute;
 };
 

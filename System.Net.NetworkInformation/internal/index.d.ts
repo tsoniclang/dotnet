@@ -58,12 +58,12 @@ export enum IPStatus {
     unrecognizedNextHeader = 11043,
     icmpError = 11044,
     destinationScopeMismatch = 11045,
-    unknown_ = -1
+    unknown = -1
 }
 
 
 export enum NetBiosNodeType {
-    unknown_ = 0,
+    unknown = 0,
     broadcast = 1,
     peer2Peer = 2,
     mixed = 4,
@@ -78,7 +78,7 @@ export enum NetworkInterfaceComponent {
 
 
 export enum NetworkInterfaceType {
-    unknown_ = 1,
+    unknown = 1,
     ethernet = 6,
     tokenRing = 9,
     fddi = 15,
@@ -113,7 +113,7 @@ export enum OperationalStatus {
     up = 1,
     down = 2,
     testing = 3,
-    unknown_ = 4,
+    unknown = 4,
     dormant = 5,
     notPresent = 6,
     lowerLayerDown = 7
@@ -131,7 +131,7 @@ export enum PrefixOrigin {
 
 export enum ScopeLevel {
     none = 0,
-    interface_ = 1,
+    interface = 1,
     link = 2,
     subnet = 3,
     admin = 4,
@@ -152,7 +152,7 @@ export enum SuffixOrigin {
 
 
 export enum TcpState {
-    unknown_ = 0,
+    unknown = 0,
     closed = 1,
     listen = 2,
     synSent = 3,

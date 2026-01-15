@@ -284,7 +284,7 @@ export enum UnmanagedType {
     iUnknown = 25,
     iDispatch = 26,
     struct = 27,
-    interface_ = 28,
+    interface = 28,
     safeArray = 29,
     byValArray = 30,
     sysInt = 31,
@@ -509,7 +509,7 @@ export interface GCHandle$instance {
 
 export const GCHandle: {
     new(): GCHandle;
-    alloc(value: unknown, type_: GCHandleType): GCHandle;
+    alloc(value: unknown, type: GCHandleType): GCHandle;
     alloc(value: unknown): GCHandle;
     fromIntPtr(value: nint): GCHandle;
     toIntPtr(value: GCHandle): nint;
@@ -929,7 +929,7 @@ export interface ComAwareEventInfo$instance extends EventInfo {
     readonly attributes: EventAttributes;
     readonly declaringType: Type;
     readonly metadataToken: int;
-    readonly module_: Module;
+    readonly module: Module;
     readonly name: string;
     readonly reflectedType: Type | undefined;
     addEventHandler(target: unknown, handler: Function): void;
@@ -951,7 +951,7 @@ export interface ComAwareEventInfo$instance extends EventInfo {
 
 
 export const ComAwareEventInfo: {
-    new(type_: Type, eventName: string): ComAwareEventInfo;
+    new(type: Type, eventName: string): ComAwareEventInfo;
 };
 
 
@@ -1108,8 +1108,8 @@ export const ComWrappers: {
     getIUnknownImpl(fpQueryInterface: nint, fpAddRef: nint, fpRelease: nint): void;
     registerForMarshalling(instance: ComWrappers): void;
     registerForTrackerSupport(instance: ComWrappers): void;
-    tryGetComInstance(obj: unknown, unknown_: nint): boolean;
-    tryGetObject(unknown_: nint, obj: unknown): boolean;
+    tryGetComInstance(obj: unknown, unknown: nint): boolean;
+    tryGetObject(unknown: nint, obj: unknown): boolean;
 };
 
 
@@ -1988,8 +1988,8 @@ export abstract class Marshal$instance {
     static freeBSTR(ptr: nint): void;
     static freeCoTaskMem(ptr: nint): void;
     static freeHGlobal(hglobal: nint): void;
-    static generateGuidForType(type_: Type): Guid;
-    static generateProgIdForType(type_: Type): string | undefined;
+    static generateGuidForType(type: Type): Guid;
+    static generateProgIdForType(type: Type): string | undefined;
     static getComInterfaceForObject(o: unknown, T: Type, mode: CustomQueryInterfaceMode): nint;
     static getComInterfaceForObject(o: unknown, T: Type): nint;
     static getComInterfaceForObject<T, TInterface>(o: T): nint;
@@ -2025,7 +2025,7 @@ export abstract class Marshal$instance {
     static getTypedObjectForIUnknown(pUnk: nint, t: Type): unknown;
     static getTypeFromCLSID(clsid: Guid): Type | undefined;
     static getTypeInfoName(typeInfo: ITypeInfo): string;
-    static getUniqueObjectForIUnknown(unknown_: nint): unknown;
+    static getUniqueObjectForIUnknown(unknown: nint): unknown;
     static initHandle(safeHandle: SafeHandle, handle: nint): void;
     static isComObject(o: unknown): boolean;
     static isTypeVisibleFromCom(t: Type): boolean;

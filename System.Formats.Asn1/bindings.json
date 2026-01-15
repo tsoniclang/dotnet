@@ -688,7 +688,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.TagClass::PrivateSystem.Formats.Asn1.TagClass",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "metadataToken": 67108932,
           "normalizedSignature": "Private|System.Formats.Asn1.TagClass|static=true|const=true",
           "isStatic": true,
@@ -1273,7 +1273,7 @@
           }
         },
         {
-          "tsName": "private_",
+          "tsName": "private",
           "isStatic": true,
           "tsSignatureId": "Private|System.Formats.Asn1.TagClass|static=true|const=true",
           "target": {
@@ -1318,7 +1318,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::BooleanSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67108935,
           "normalizedSignature": "Boolean|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -1362,7 +1362,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::NullSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67108939,
           "normalizedSignature": "Null|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -1505,7 +1505,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.UniversalTagNumber::SetSystem.Formats.Asn1.UniversalTagNumber",
           "clrName": "Set",
-          "tsEmitName": "set_",
+          "tsEmitName": "set",
           "metadataToken": 67108952,
           "normalizedSignature": "Set|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "isStatic": true,
@@ -2312,7 +2312,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {
@@ -2352,7 +2352,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {
@@ -2482,7 +2482,7 @@
           }
         },
         {
-          "tsName": "set_",
+          "tsName": "set",
           "isStatic": true,
           "tsSignatureId": "Set|System.Formats.Asn1.UniversalTagNumber|static=true|const=true",
           "target": {
@@ -2973,7 +2973,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.Asn1Tag::BooleanSystem.Formats.Asn1.Asn1Tag",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67108870,
           "normalizedSignature": "Boolean|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "isStatic": true,
@@ -3039,7 +3039,7 @@
         {
           "stableId": "System.Formats.Asn1:System.Formats.Asn1.Asn1Tag::NullSystem.Formats.Asn1.Asn1Tag",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67108876,
           "normalizedSignature": "Null|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "isStatic": true,
@@ -3333,7 +3333,7 @@
       ],
       "exposedFields": [
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "target": {
@@ -3393,7 +3393,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.Formats.Asn1.Asn1Tag|static=true|const=false",
           "target": {

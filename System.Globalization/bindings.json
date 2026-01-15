@@ -24,7 +24,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.CalendarAlgorithmType::UnknownSystem.Globalization.CalendarAlgorithmType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67110939,
           "normalizedSignature": "Unknown|System.Globalization.CalendarAlgorithmType|static=true|const=true",
           "isStatic": true,
@@ -612,7 +612,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Globalization.CalendarAlgorithmType|static=true|const=true",
           "target": {
@@ -5089,7 +5089,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::NumberSystem.Globalization.NumberStyles",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 67111501,
           "normalizedSignature": "Number|System.Globalization.NumberStyles|static=true|const=true",
           "isStatic": true,
@@ -5122,7 +5122,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.NumberStyles::AnySystem.Globalization.NumberStyles",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 67111504,
           "normalizedSignature": "Any|System.Globalization.NumberStyles|static=true|const=true",
           "isStatic": true,
@@ -5827,7 +5827,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": true,
           "tsSignatureId": "Number|System.Globalization.NumberStyles|static=true|const=true",
           "target": {
@@ -5857,7 +5857,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|System.Globalization.NumberStyles|static=true|const=true",
           "target": {
@@ -26169,7 +26169,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Globalization.StringInfo::String:System.String",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 385878655,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "String|:System.String|static=false|accessor=getset",
@@ -26383,7 +26383,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": false,
           "tsSignatureId": "String|:System.String|static=false|accessor=getset",
           "target": {

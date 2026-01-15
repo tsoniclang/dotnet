@@ -666,7 +666,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XmlDataType::NumberSystem.Xml.XPath.XmlDataType",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 67117033,
           "normalizedSignature": "Number|System.Xml.XPath.XmlDataType|static=true|const=true",
           "isStatic": true,
@@ -1231,7 +1231,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": true,
           "tsSignatureId": "Number|System.Xml.XPath.XmlDataType|static=true|const=true",
           "target": {
@@ -2539,7 +2539,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathNodeType::NamespaceSystem.Xml.XPath.XPathNodeType",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "metadataToken": 67117082,
           "normalizedSignature": "Namespace|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "isStatic": true,
@@ -3190,7 +3190,7 @@
           }
         },
         {
-          "tsName": "namespace_",
+          "tsName": "namespace",
           "isStatic": true,
           "tsSignatureId": "Namespace|System.Xml.XPath.XPathNodeType|static=true|const=true",
           "target": {
@@ -3284,7 +3284,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::NumberSystem.Xml.XPath.XPathResultType",
           "clrName": "Number",
-          "tsEmitName": "number_",
+          "tsEmitName": "number",
           "metadataToken": 67117035,
           "normalizedSignature": "Number|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
@@ -3295,7 +3295,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::StringSystem.Xml.XPath.XPathResultType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "metadataToken": 67117036,
           "normalizedSignature": "String|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
@@ -3306,7 +3306,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::BooleanSystem.Xml.XPath.XPathResultType",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "metadataToken": 67117037,
           "normalizedSignature": "Boolean|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
@@ -3339,7 +3339,7 @@
         {
           "stableId": "System.Private.Xml:System.Xml.XPath.XPathResultType::AnySystem.Xml.XPath.XPathResultType",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 67117040,
           "normalizedSignature": "Any|System.Xml.XPath.XPathResultType|static=true|const=true",
           "isStatic": true,
@@ -3905,7 +3905,7 @@
           }
         },
         {
-          "tsName": "number_",
+          "tsName": "number",
           "isStatic": true,
           "tsSignatureId": "Number|System.Xml.XPath.XPathResultType|static=true|const=true",
           "target": {
@@ -3915,7 +3915,7 @@
           }
         },
         {
-          "tsName": "string_",
+          "tsName": "string",
           "isStatic": true,
           "tsSignatureId": "String|System.Xml.XPath.XPathResultType|static=true|const=true",
           "target": {
@@ -3925,7 +3925,7 @@
           }
         },
         {
-          "tsName": "boolean_",
+          "tsName": "boolean",
           "isStatic": true,
           "tsSignatureId": "Boolean|System.Xml.XPath.XPathResultType|static=true|const=true",
           "target": {
@@ -3955,7 +3955,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|System.Xml.XPath.XPathResultType|static=true|const=true",
           "target": {

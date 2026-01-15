@@ -11,7 +11,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Boolean as ClrBoolean, DateTime, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, Int64, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode } from "../../System/internal/index.js";
 
 export enum TransferEncoding {
-    unknown_ = -1,
+    unknown = -1,
     quotedPrintable = 0,
     base64 = 1,
     sevenBit = 2,

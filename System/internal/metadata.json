@@ -43,7 +43,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ModuleSystem.AttributeTargets",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -52,7 +52,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ClassSystem.AttributeTargets",
           "clrName": "Class",
-          "tsEmitName": "class_",
+          "tsEmitName": "class",
           "normalizedSignature": "Class|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -70,7 +70,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::EnumSystem.AttributeTargets",
           "clrName": "Enum",
-          "tsEmitName": "enum_",
+          "tsEmitName": "enum",
           "normalizedSignature": "Enum|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -79,7 +79,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::ConstructorSystem.AttributeTargets",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -124,7 +124,7 @@
         {
           "stableId": "System.Private.CoreLib:System.AttributeTargets::InterfaceSystem.AttributeTargets",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|System.AttributeTargets|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -607,7 +607,7 @@
         {
           "stableId": "System.Console:System.ConsoleKey::DeleteSystem.ConsoleKey",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.ConsoleKey|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2552,7 +2552,7 @@
         {
           "stableId": "System.Private.CoreLib:System.GCCollectionMode::DefaultSystem.GCCollectionMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.GCCollectionMode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2614,7 +2614,7 @@
         {
           "stableId": "System.Private.CoreLib:System.GCKind::AnySystem.GCKind",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|System.GCKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2747,7 +2747,7 @@
         {
           "stableId": "System.Private.Uri:System.GenericUriParserOptions::DefaultSystem.GenericUriParserOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.GenericUriParserOptions|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3272,7 +3272,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::ObjectSystem.TypeCode",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.TypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3290,7 +3290,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::BooleanSystem.TypeCode",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.TypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3416,7 +3416,7 @@
         {
           "stableId": "System.Private.CoreLib:System.TypeCode::StringSystem.TypeCode",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.TypeCode|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -3683,7 +3683,7 @@
         {
           "stableId": "System.Private.Uri:System.UriHostNameType::UnknownSystem.UriHostNameType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|System.UriHostNameType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -86436,7 +86436,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Type::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -86496,7 +86496,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Type::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -93239,7 +93239,7 @@
         {
           "stableId": "System.Console:System.Console::In:System.IO.TextReader",
           "clrName": "In",
-          "tsEmitName": "in_",
+          "tsEmitName": "in",
           "normalizedSignature": "In|:System.IO.TextReader|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

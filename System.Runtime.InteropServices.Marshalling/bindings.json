@@ -655,7 +655,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.MarshalMode::DefaultSystem.Runtime.InteropServices.Marshalling.MarshalMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67113930,
           "normalizedSignature": "Default|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "isStatic": true,
@@ -1309,7 +1309,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Runtime.InteropServices.Marshalling.MarshalMode|static=true|const=true",
           "target": {
@@ -2636,7 +2636,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::As():T",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100695241,
           "canonicalSignature": "():T",
           "normalizedSignature": "As|():T|static=false",
@@ -2680,7 +2680,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.Marshalling.ComVariant::Null:System.Runtime.InteropServices.Marshalling.ComVariant",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 385879690,
           "canonicalSignature": ":System.Runtime.InteropServices.Marshalling.ComVariant",
           "normalizedSignature": "Null|:System.Runtime.InteropServices.Marshalling.ComVariant|static=true|accessor=get",
@@ -2741,7 +2741,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": false,
           "tsSignatureId": "As|():T|static=false",
           "target": {
@@ -2833,7 +2833,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|:System.Runtime.InteropServices.Marshalling.ComVariant|static=true|accessor=get",
           "target": {

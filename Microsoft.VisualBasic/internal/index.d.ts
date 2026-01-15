@@ -26,9 +26,9 @@ export enum AppWinStyle {
 
 export enum CallType {
     method = 1,
-    get_ = 2,
-    let_ = 4,
-    set_ = 8
+    get = 2,
+    let = 4,
+    set = 8
 }
 
 
@@ -133,7 +133,7 @@ export enum MsgBoxStyle {
 
 
 export enum OpenAccess {
-    default_ = -1,
+    default = -1,
     read = 1,
     readWrite = 3,
     write = 2
@@ -150,7 +150,7 @@ export enum OpenMode {
 
 
 export enum OpenShare {
-    default_ = -1,
+    default = -1,
     shared = 3,
     lockRead = 2,
     lockReadWrite = 0,
@@ -159,25 +159,25 @@ export enum OpenShare {
 
 
 export enum TriState {
-    false_ = 0,
-    true_ = -1,
+    false = 0,
+    true = -1,
     useDefault = -2
 }
 
 
 export enum VariantType {
     empty = 0,
-    null_ = 1,
+    null = 1,
     short = 2,
     integer = 3,
     single = 4,
     double = 5,
     currency = 6,
     date = 7,
-    string_ = 8,
-    object_ = 9,
+    string = 8,
+    object = 9,
     error = 10,
-    boolean_ = 11,
+    boolean = 11,
     variant = 12,
     dataObject = 13,
     decimal = 14,
@@ -501,7 +501,7 @@ export interface ErrObject$instance {
     helpContext: int;
     helpFile: string;
     readonly lastDllError: int;
-    number_: int;
+    number: int;
     source: string;
     clear(): void;
     getException(): Exception;
@@ -698,7 +698,7 @@ export const Interaction: {
     partition(Number: long, Start: long, Stop: long, Interval: long): string;
     saveSetting(AppName: string, Section: string, Key: string, Setting: string): void;
     shell(PathName: string, Style?: AppWinStyle, Wait?: boolean, Timeout?: int): int;
-    switch_(...VarExpr: unknown[]): unknown;
+    switch(...VarExpr: unknown[]): unknown;
 };
 
 

@@ -34,7 +34,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw():System.Void",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -50,7 +50,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw(System.Exception):System.Void",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|(System.Exception):System.Void|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",

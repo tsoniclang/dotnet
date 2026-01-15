@@ -1068,7 +1068,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::Public:System.Boolean",
           "clrName": "Public",
-          "tsEmitName": "public_",
+          "tsEmitName": "public",
           "normalizedSignature": "Public|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1083,7 +1083,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.CacheControlHeaderValue::Private:System.Boolean",
           "clrName": "Private",
-          "tsEmitName": "private_",
+          "tsEmitName": "private",
           "normalizedSignature": "Private|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1562,7 +1562,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.ContentRangeHeaderValue::From:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "normalizedSignature": "From|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1804,7 +1804,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.EntityTagHeaderValue::Any:System.Net.Http.Headers.EntityTagHeaderValue",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "normalizedSignature": "Any|:System.Net.Http.Headers.EntityTagHeaderValue|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2828,7 +2828,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.HttpRequestHeaders::From:System.String",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "normalizedSignature": "From|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4960,7 +4960,7 @@
         {
           "stableId": "System.Net.Http:System.Net.Http.Headers.RangeItemHeaderValue::From:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]",
           "clrName": "From",
-          "tsEmitName": "from_",
+          "tsEmitName": "from",
           "normalizedSignature": "From|:System.Nullable_1[[System.Int64,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

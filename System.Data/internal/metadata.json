@@ -73,7 +73,7 @@
         {
           "stableId": "System.Data.Common:System.Data.CommandBehavior::DefaultSystem.Data.CommandBehavior",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Data.CommandBehavior|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -357,7 +357,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowAction::DeleteSystem.Data.DataRowAction",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Data.DataRowAction|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -544,7 +544,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowVersion::DefaultSystem.Data.DataRowVersion",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Data.DataRowVersion|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -766,7 +766,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DbType::BooleanSystem.Data.DbType",
           "clrName": "Boolean",
-          "tsEmitName": "boolean_",
+          "tsEmitName": "boolean",
           "normalizedSignature": "Boolean|System.Data.DbType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -856,7 +856,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DbType::ObjectSystem.Data.DbType",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|System.Data.DbType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -883,7 +883,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DbType::StringSystem.Data.DbType",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|System.Data.DbType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1977,7 +1977,7 @@
         {
           "stableId": "System.Data.Common:System.Data.StatementType::DeleteSystem.Data.StatementType",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|System.Data.StatementType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -2083,7 +2083,7 @@
         {
           "stableId": "System.Data.Common:System.Data.UpdateStatus::ContinueSystem.Data.UpdateStatus",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|System.Data.UpdateStatus|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -6711,7 +6711,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataColumn::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8112,7 +8112,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRow::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9352,7 +9352,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowComparer\u00601::Default:DataRowComparer_1",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:DataRowComparer_1|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9527,7 +9527,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowView::Delete():System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|():System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -11164,7 +11164,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataSet::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -12876,7 +12876,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataTable::Namespace:System.String",
           "clrName": "Namespace",
-          "tsEmitName": "namespace_",
+          "tsEmitName": "namespace",
           "normalizedSignature": "Namespace|:System.String|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -14862,7 +14862,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataView::Delete(System.Int32):System.Void",
           "clrName": "Delete",
-          "tsEmitName": "delete_",
+          "tsEmitName": "delete",
           "normalizedSignature": "Delete|(System.Int32):System.Void|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -17479,7 +17479,7 @@
         {
           "stableId": "System.Data.Common:System.Data.FillErrorEventArgs::Continue:System.Boolean",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|:System.Boolean|static=false|accessor=getset",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -20573,7 +20573,7 @@
         {
           "stableId": "System.Data.Common:System.Data.DataRowComparer::Default:System.Data.DataRowComparer_1[[System.Data.DataRow,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|:System.Data.DataRowComparer_1[[System.Data.DataRow,System.Data.Common,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]|static=true|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

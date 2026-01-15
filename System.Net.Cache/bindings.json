@@ -718,7 +718,7 @@
         {
           "stableId": "System.Net.Requests:System.Net.Cache.HttpRequestCacheLevel::DefaultSystem.Net.Cache.HttpRequestCacheLevel",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109435,
           "normalizedSignature": "Default|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "isStatic": true,
@@ -1361,7 +1361,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Net.Cache.HttpRequestCacheLevel|static=true|const=true",
           "target": {
@@ -1475,7 +1475,7 @@
         {
           "stableId": "System.Net.Primitives:System.Net.Cache.RequestCacheLevel::DefaultSystem.Net.Cache.RequestCacheLevel",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67109232,
           "normalizedSignature": "Default|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "isStatic": true,
@@ -2096,7 +2096,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Net.Cache.RequestCacheLevel|static=true|const=true",
           "target": {

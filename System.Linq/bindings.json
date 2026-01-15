@@ -24,7 +24,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelExecutionMode::DefaultSystem.Linq.ParallelExecutionMode",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67108889,
           "normalizedSignature": "Default|System.Linq.ParallelExecutionMode|static=true|const=true",
           "isStatic": true,
@@ -590,7 +590,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Linq.ParallelExecutionMode|static=true|const=true",
           "target": {
@@ -634,7 +634,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelMergeOptions::DefaultSystem.Linq.ParallelMergeOptions",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67108892,
           "normalizedSignature": "Default|System.Linq.ParallelMergeOptions|static=true|const=true",
           "isStatic": true,
@@ -1222,7 +1222,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Linq.ParallelMergeOptions|static=true|const=true",
           "target": {
@@ -8031,7 +8031,7 @@
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663325,
           "canonicalSignature": "(IEnumerable_1):System.Boolean",
           "normalizedSignature": "Any|(IEnumerable_1):System.Boolean|static=true",
@@ -8045,7 +8045,7 @@
         {
           "stableId": "System.Linq:System.Linq.Enumerable::Any(IEnumerable_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663326,
           "canonicalSignature": "(IEnumerable_1,Func_2):System.Boolean",
           "normalizedSignature": "Any|(IEnumerable_1,Func_2):System.Boolean|static=true",
@@ -11137,7 +11137,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(IEnumerable_1):System.Boolean|static=true",
           "target": {
@@ -11147,7 +11147,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(IEnumerable_1,Func_2):System.Boolean|static=true",
           "target": {
@@ -13440,7 +13440,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(ImmutableArray_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663327,
           "canonicalSignature": "(ImmutableArray_1):System.Boolean",
           "normalizedSignature": "Any|(ImmutableArray_1):System.Boolean|static=true",
@@ -13454,7 +13454,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(ImmutableArray_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663328,
           "canonicalSignature": "(ImmutableArray_1,Func_2):System.Boolean",
           "normalizedSignature": "Any|(ImmutableArray_1,Func_2):System.Boolean|static=true",
@@ -13888,7 +13888,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Linq.ImmutableArrayExtensions::Any(Builder):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663359,
           "canonicalSignature": "(Builder):System.Boolean",
           "normalizedSignature": "Any|(Builder):System.Boolean|static=true",
@@ -13936,7 +13936,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(ImmutableArray_1):System.Boolean|static=true",
           "target": {
@@ -13946,7 +13946,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(ImmutableArray_1,Func_2):System.Boolean|static=true",
           "target": {
@@ -14256,7 +14256,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Builder):System.Boolean|static=true",
           "target": {
@@ -16269,7 +16269,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelEnumerable::Any(ParallelQuery_1,Func_2):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663507,
           "canonicalSignature": "(ParallelQuery_1,Func_2):System.Boolean",
           "normalizedSignature": "Any|(ParallelQuery_1,Func_2):System.Boolean|static=true",
@@ -16283,7 +16283,7 @@
         {
           "stableId": "System.Linq.Parallel:System.Linq.ParallelEnumerable::Any(ParallelQuery_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663508,
           "canonicalSignature": "(ParallelQuery_1):System.Boolean",
           "normalizedSignature": "Any|(ParallelQuery_1):System.Boolean|static=true",
@@ -18507,7 +18507,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(ParallelQuery_1,Func_2):System.Boolean|static=true",
           "target": {
@@ -18517,7 +18517,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(ParallelQuery_1):System.Boolean|static=true",
           "target": {
@@ -20462,7 +20462,7 @@
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663482,
           "canonicalSignature": "(IQueryable_1):System.Boolean",
           "normalizedSignature": "Any|(IQueryable_1):System.Boolean|static=true",
@@ -20476,7 +20476,7 @@
         {
           "stableId": "System.Linq.Queryable:System.Linq.Queryable::Any(IQueryable_1,Expression_1):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100663483,
           "canonicalSignature": "(IQueryable_1,Expression_1):System.Boolean",
           "normalizedSignature": "Any|(IQueryable_1,Expression_1):System.Boolean|static=true",
@@ -22258,7 +22258,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(IQueryable_1):System.Boolean|static=true",
           "target": {
@@ -22268,7 +22268,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(IQueryable_1,Expression_1):System.Boolean|static=true",
           "target": {

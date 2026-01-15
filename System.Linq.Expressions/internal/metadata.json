@@ -308,7 +308,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::NewSystem.Linq.Expressions.ExpressionType",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|System.Linq.Expressions.ExpressionType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -488,7 +488,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::DefaultSystem.Linq.Expressions.ExpressionType",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|System.Linq.Expressions.ExpressionType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -560,7 +560,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::SwitchSystem.Linq.Expressions.ExpressionType",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|System.Linq.Expressions.ExpressionType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -569,7 +569,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::ThrowSystem.Linq.Expressions.ExpressionType",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|System.Linq.Expressions.ExpressionType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -578,7 +578,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ExpressionType::TrySystem.Linq.Expressions.ExpressionType",
           "clrName": "Try",
-          "tsEmitName": "try_",
+          "tsEmitName": "try",
           "normalizedSignature": "Try|System.Linq.Expressions.ExpressionType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -829,7 +829,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.GotoExpressionKind::ReturnSystem.Linq.Expressions.GotoExpressionKind",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|System.Linq.Expressions.GotoExpressionKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -838,7 +838,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.GotoExpressionKind::BreakSystem.Linq.Expressions.GotoExpressionKind",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|System.Linq.Expressions.GotoExpressionKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -847,7 +847,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.GotoExpressionKind::ContinueSystem.Linq.Expressions.GotoExpressionKind",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|System.Linq.Expressions.GotoExpressionKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -1302,7 +1302,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.BlockExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1476,7 +1476,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ConditionalExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1553,7 +1553,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ConstantExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1615,7 +1615,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.DebugInfoExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -1752,7 +1752,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.DefaultExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -2090,7 +2090,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.DynamicExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4091,7 +4091,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Catch(System.Type,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "normalizedSignature": "Catch|(System.Type,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4107,7 +4107,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Catch(System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "normalizedSignature": "Catch|(System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4123,7 +4123,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Catch(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "normalizedSignature": "Catch|(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4139,7 +4139,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Catch(System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock",
           "clrName": "Catch",
-          "tsEmitName": "catch_",
+          "tsEmitName": "catch",
           "normalizedSignature": "Catch|(System.Linq.Expressions.ParameterExpression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression):System.Linq.Expressions.CatchBlock|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4315,7 +4315,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Default(System.Type):System.Linq.Expressions.DefaultExpression",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|(System.Type):System.Linq.Expressions.DefaultExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4619,7 +4619,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Break(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4635,7 +4635,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Break(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression):System.Linq.Expressions.GotoExpression",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4651,7 +4651,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Break(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4667,7 +4667,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Break(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.GotoExpression",
           "clrName": "Break",
-          "tsEmitName": "break_",
+          "tsEmitName": "break",
           "normalizedSignature": "Break|(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4683,7 +4683,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Continue(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4699,7 +4699,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Continue(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression",
           "clrName": "Continue",
-          "tsEmitName": "continue_",
+          "tsEmitName": "continue",
           "normalizedSignature": "Continue|(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4715,7 +4715,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Return(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|(System.Linq.Expressions.LabelTarget):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4731,7 +4731,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Return(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|(System.Linq.Expressions.LabelTarget,System.Type):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4747,7 +4747,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Return(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression):System.Linq.Expressions.GotoExpression",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -4763,7 +4763,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Return(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.GotoExpression",
           "clrName": "Return",
-          "tsEmitName": "return_",
+          "tsEmitName": "return",
           "normalizedSignature": "Return|(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.GotoExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6263,7 +6263,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Reflection.ConstructorInfo):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Reflection.ConstructorInfo):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6279,7 +6279,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Reflection.ConstructorInfo,System.Linq.Expressions.Expression[]):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Reflection.ConstructorInfo,System.Linq.Expressions.Expression[]):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6295,7 +6295,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6311,7 +6311,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Collections.Generic.IEnumerable_1[[System.Reflection.MemberInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Collections.Generic.IEnumerable_1[[System.Reflection.MemberInfo,System.Private.CoreLib,Version=10.0.0.0,Culture=neutral,PublicKeyToken=7cec85d7bea7798e]]):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6327,7 +6327,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Reflection.MemberInfo[]):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Reflection.ConstructorInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.Expression,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]],System.Reflection.MemberInfo[]):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6343,7 +6343,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::New(System.Type):System.Linq.Expressions.NewExpression",
           "clrName": "New",
-          "tsEmitName": "new_",
+          "tsEmitName": "new",
           "normalizedSignature": "New|(System.Type):System.Linq.Expressions.NewExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6487,7 +6487,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Linq.Expressions.Expression,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Linq.Expressions.Expression,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6503,7 +6503,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6519,7 +6519,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6535,7 +6535,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Linq.Expressions.SwitchCase[]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6551,7 +6551,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.SwitchCase,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.SwitchCase,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -6567,7 +6567,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Switch(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.SwitchCase,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.SwitchExpression",
           "clrName": "Switch",
-          "tsEmitName": "switch_",
+          "tsEmitName": "switch",
           "normalizedSignature": "Switch|(System.Type,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Reflection.MethodInfo,System.Collections.Generic.IEnumerable_1[[System.Linq.Expressions.SwitchCase,System.Linq.Expressions,Version=10.0.0.0,Culture=neutral,PublicKeyToken=b03f5f7f11d50a3a]]):System.Linq.Expressions.SwitchExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7175,7 +7175,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Throw(System.Linq.Expressions.Expression):System.Linq.Expressions.UnaryExpression",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|(System.Linq.Expressions.Expression):System.Linq.Expressions.UnaryExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7191,7 +7191,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Throw(System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.UnaryExpression",
           "clrName": "Throw",
-          "tsEmitName": "throw_",
+          "tsEmitName": "throw",
           "normalizedSignature": "Throw|(System.Linq.Expressions.Expression,System.Type):System.Linq.Expressions.UnaryExpression|static=true",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7416,7 +7416,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.Expression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7706,7 +7706,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.GotoExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7863,7 +7863,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.IndexExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -7878,7 +7878,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.IndexExpression::Object:System.Linq.Expressions.Expression",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|:System.Linq.Expressions.Expression|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8021,7 +8021,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.InvocationExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8146,7 +8146,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.LabelExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8255,7 +8255,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.LabelTarget::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8366,7 +8366,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.LambdaExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8536,7 +8536,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ListInitExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8630,7 +8630,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.LoopExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -8947,7 +8947,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.MemberInitExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9202,7 +9202,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.MethodCallExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9232,7 +9232,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.MethodCallExpression::Object:System.Linq.Expressions.Expression",
           "clrName": "Object",
-          "tsEmitName": "object_",
+          "tsEmitName": "object",
           "normalizedSignature": "Object|:System.Linq.Expressions.Expression|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9327,7 +9327,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.NewArrayExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9424,7 +9424,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.NewExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9454,7 +9454,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.NewExpression::Constructor:System.Reflection.ConstructorInfo",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "normalizedSignature": "Constructor|:System.Reflection.ConstructorInfo|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9547,7 +9547,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.ParameterExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9641,7 +9641,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.RuntimeVariablesExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -9800,7 +9800,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.SwitchExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10001,7 +10001,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.TryExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10061,7 +10061,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.TryExpression::Finally:System.Linq.Expressions.Expression",
           "clrName": "Finally",
-          "tsEmitName": "finally_",
+          "tsEmitName": "finally",
           "normalizedSignature": "Finally|:System.Linq.Expressions.Expression|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10125,7 +10125,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.TypeBinaryExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
@@ -10235,7 +10235,7 @@
         {
           "stableId": "System.Linq.Expressions:System.Linq.Expressions.UnaryExpression::Type:System.Type",
           "clrName": "Type",
-          "tsEmitName": "type_",
+          "tsEmitName": "type",
           "normalizedSignature": "Type|:System.Type|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",

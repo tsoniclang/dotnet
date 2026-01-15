@@ -14086,7 +14086,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthentication::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "metadataToken": 385876156,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Package|:System.String|static=false|accessor=get",
@@ -14378,7 +14378,7 @@
           }
         },
         {
-          "tsName": "package_",
+          "tsName": "package",
           "isStatic": false,
           "tsSignatureId": "Package|:System.String|static=false|accessor=get",
           "target": {
@@ -14450,7 +14450,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthenticationClientOptions::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "metadataToken": 385876160,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Package|:System.String|static=false|accessor=getset",
@@ -14624,7 +14624,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "package_",
+          "tsName": "package",
           "isStatic": false,
           "tsSignatureId": "Package|:System.String|static=false|accessor=getset",
           "target": {
@@ -14717,7 +14717,7 @@
         {
           "stableId": "System.Net.Security:System.Net.Security.NegotiateAuthenticationServerOptions::Package:System.String",
           "clrName": "Package",
-          "tsEmitName": "package_",
+          "tsEmitName": "package",
           "metadataToken": 385876167,
           "canonicalSignature": ":System.String",
           "normalizedSignature": "Package|:System.String|static=false|accessor=getset",
@@ -14877,7 +14877,7 @@
       ],
       "exposedProperties": [
         {
-          "tsName": "package_",
+          "tsName": "package",
           "isStatic": false,
           "tsSignatureId": "Package|:System.String|static=false|accessor=getset",
           "target": {

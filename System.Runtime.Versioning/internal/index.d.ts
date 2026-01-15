@@ -23,7 +23,7 @@ export enum ResourceScope {
     process = 2,
     appDomain = 4,
     library = 8,
-    private_ = 16,
+    private = 16,
     assembly = 32
 }
 
@@ -208,8 +208,8 @@ export const UnsupportedOSPlatformGuardAttribute: {
 export type UnsupportedOSPlatformGuardAttribute = UnsupportedOSPlatformGuardAttribute$instance;
 
 export abstract class VersioningHelper$instance {
-    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope, type_: Type): string;
-    static makeVersionSafeName(name: string, from_: ResourceScope, to: ResourceScope): string;
+    static makeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope, type: Type): string;
+    static makeVersionSafeName(name: string, from: ResourceScope, to: ResourceScope): string;
 }
 
 

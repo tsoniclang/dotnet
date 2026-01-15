@@ -109,7 +109,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryKeyPermissionCheck::DefaultMicrosoft.Win32.RegistryKeyPermissionCheck",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|Microsoft.Win32.RegistryKeyPermissionCheck|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -215,7 +215,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueKind::UnknownMicrosoft.Win32.RegistryValueKind",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "normalizedSignature": "Unknown|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -224,7 +224,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryValueKind::StringMicrosoft.Win32.RegistryValueKind",
           "clrName": "String",
-          "tsEmitName": "string_",
+          "tsEmitName": "string",
           "normalizedSignature": "String|Microsoft.Win32.RegistryValueKind|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -348,7 +348,7 @@
         {
           "stableId": "Microsoft.Win32.Registry:Microsoft.Win32.RegistryView::DefaultMicrosoft.Win32.RegistryView",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "normalizedSignature": "Default|Microsoft.Win32.RegistryView|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,

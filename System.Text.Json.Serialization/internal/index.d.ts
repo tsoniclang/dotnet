@@ -16,7 +16,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Attribute, Boolean as ClrBoolean, Char, Enum, IComparable, IConvertible, IFormatProvider, IFormattable, Int32, ISpanFormattable, Object as ClrObject, String as ClrString, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum JsonIgnoreCondition {
-    never_ = 0,
+    never = 0,
     always = 1,
     whenWritingDefault = 2,
     whenWritingNull = 3,
@@ -57,7 +57,7 @@ export enum JsonObjectCreationHandling {
 
 
 export enum JsonSourceGenerationMode {
-    default_ = 0,
+    default = 0,
     metadata = 1,
     serialization = 2
 }
@@ -132,7 +132,7 @@ export const JsonConstructorAttribute: {
 export type JsonConstructorAttribute = JsonConstructorAttribute$instance;
 
 export interface JsonConverter$instance {
-    readonly type_: Type;
+    readonly type: Type;
     canConvert(typeToConvert: Type): boolean;
 }
 
@@ -145,7 +145,7 @@ export type JsonConverter = JsonConverter$instance;
 
 export interface JsonConverter_1$instance<T> extends JsonConverter {
     readonly handleNull: boolean;
-    readonly type_: Type;
+    readonly type: Type;
     canConvert(typeToConvert: Type): boolean;
     read(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T | undefined;
     readAsPropertyName(reader: Utf8JsonReader, typeToConvert: Type, options: JsonSerializerOptions): T;
@@ -174,7 +174,7 @@ export const JsonConverterAttribute: {
 export type JsonConverterAttribute = JsonConverterAttribute$instance;
 
 export interface JsonConverterFactory$instance extends JsonConverter {
-    readonly type_: Type;
+    readonly type: Type;
     createConverter(typeToConvert: Type, options: JsonSerializerOptions): JsonConverter | undefined;
 }
 
@@ -328,7 +328,7 @@ export interface JsonSerializableAttribute$instance extends JsonAttribute {
 
 
 export const JsonSerializableAttribute: {
-    new(type_: Type): JsonSerializableAttribute;
+    new(type: Type): JsonSerializableAttribute;
 };
 
 
@@ -336,7 +336,7 @@ export type JsonSerializableAttribute = JsonSerializableAttribute$instance;
 
 export interface JsonSerializerContext$instance {
     readonly options: JsonSerializerOptions;
-    getTypeInfo(type_: Type): JsonTypeInfo;
+    getTypeInfo(type: Type): JsonTypeInfo;
 }
 
 

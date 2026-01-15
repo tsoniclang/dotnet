@@ -613,7 +613,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.LoadHint::DefaultSystem.Runtime.CompilerServices.LoadHint",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67114394,
           "normalizedSignature": "Default|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "isStatic": true,
@@ -1190,7 +1190,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Runtime.CompilerServices.LoadHint|static=true|const=true",
           "target": {
@@ -1984,7 +1984,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.MethodImplOptions::AsyncSystem.Runtime.CompilerServices.MethodImplOptions",
           "clrName": "Async",
-          "tsEmitName": "async_",
+          "tsEmitName": "async",
           "metadataToken": 67114413,
           "normalizedSignature": "Async|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "isStatic": true,
@@ -2630,7 +2630,7 @@
           }
         },
         {
-          "tsName": "async_",
+          "tsName": "async",
           "isStatic": true,
           "tsSignatureId": "Async|System.Runtime.CompilerServices.MethodImplOptions|static=true|const=true",
           "target": {
@@ -2674,7 +2674,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.UnsafeAccessorKind::ConstructorSystem.Runtime.CompilerServices.UnsafeAccessorKind",
           "clrName": "Constructor",
-          "tsEmitName": "constructor_",
+          "tsEmitName": "constructor",
           "metadataToken": 67114462,
           "normalizedSignature": "Constructor|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "isStatic": true,
@@ -3273,7 +3273,7 @@
           }
         },
         {
-          "tsName": "constructor_",
+          "tsName": "constructor",
           "isStatic": true,
           "tsSignatureId": "Constructor|System.Runtime.CompilerServices.UnsafeAccessorKind|static=true|const=true",
           "target": {
@@ -30706,7 +30706,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(Task_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695587,
           "canonicalSignature": "(Task_1):T",
           "normalizedSignature": "Await|(Task_1):T|static=true",
@@ -30720,7 +30720,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.Task):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695588,
           "canonicalSignature": "(System.Threading.Tasks.Task):System.Void",
           "normalizedSignature": "Await|(System.Threading.Tasks.Task):System.Void|static=true",
@@ -30734,7 +30734,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ValueTask_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695589,
           "canonicalSignature": "(ValueTask_1):T",
           "normalizedSignature": "Await|(ValueTask_1):T|static=true",
@@ -30748,7 +30748,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Threading.Tasks.ValueTask):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695590,
           "canonicalSignature": "(System.Threading.Tasks.ValueTask):System.Void",
           "normalizedSignature": "Await|(System.Threading.Tasks.ValueTask):System.Void|static=true",
@@ -30762,7 +30762,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695591,
           "canonicalSignature": "(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void|static=true",
@@ -30776,7 +30776,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695592,
           "canonicalSignature": "(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void",
           "normalizedSignature": "Await|(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void|static=true",
@@ -30790,7 +30790,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695593,
           "canonicalSignature": "(ConfiguredTaskAwaitable_1):T",
           "normalizedSignature": "Await|(ConfiguredTaskAwaitable_1):T|static=true",
@@ -30804,7 +30804,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.AsyncHelpers::Await(ConfiguredValueTaskAwaitable_1):T",
           "clrName": "Await",
-          "tsEmitName": "await_",
+          "tsEmitName": "await",
           "metadataToken": 100695594,
           "canonicalSignature": "(ConfiguredValueTaskAwaitable_1):T",
           "normalizedSignature": "Await|(ConfiguredValueTaskAwaitable_1):T|static=true",
@@ -30842,7 +30842,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(Task_1):T|static=true",
           "target": {
@@ -30852,7 +30852,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(System.Threading.Tasks.Task):System.Void|static=true",
           "target": {
@@ -30862,7 +30862,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(ValueTask_1):T|static=true",
           "target": {
@@ -30872,7 +30872,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(System.Threading.Tasks.ValueTask):System.Void|static=true",
           "target": {
@@ -30882,7 +30882,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(System.Runtime.CompilerServices.ConfiguredTaskAwaitable):System.Void|static=true",
           "target": {
@@ -30892,7 +30892,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable):System.Void|static=true",
           "target": {
@@ -30902,7 +30902,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(ConfiguredTaskAwaitable_1):T|static=true",
           "target": {
@@ -30912,7 +30912,7 @@
           }
         },
         {
-          "tsName": "await_",
+          "tsName": "await",
           "isStatic": true,
           "tsSignatureId": "Await|(ConfiguredValueTaskAwaitable_1):T|static=true",
           "target": {
@@ -33991,7 +33991,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(System.Object):T",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100696242,
           "canonicalSignature": "(System.Object):T",
           "normalizedSignature": "As|(System.Object):T|static=true",
@@ -34005,7 +34005,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.CompilerServices.Unsafe::As(TFrom\u0026):TTo\u0026",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100696243,
           "canonicalSignature": "(TFrom\u0026):TTo\u0026",
           "normalizedSignature": "As|(TFrom\u0026):TTo\u0026|static=true",
@@ -34817,7 +34817,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(System.Object):T|static=true",
           "target": {
@@ -34827,7 +34827,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(TFrom\u0026):TTo\u0026|static=true",
           "target": {

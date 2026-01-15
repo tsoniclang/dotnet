@@ -28,17 +28,17 @@ export enum TagClass {
     universal = 0,
     application = 64,
     contextSpecific = 128,
-    private_ = 192
+    private = 192
 }
 
 
 export enum UniversalTagNumber {
     endOfContents = 0,
-    boolean_ = 1,
+    boolean = 1,
     integer = 2,
     bitString = 3,
     octetString = 4,
-    null_ = 5,
+    null = 5,
     objectIdentifier = 6,
     objectDescriptor = 7,
     external = 8,
@@ -51,7 +51,7 @@ export enum UniversalTagNumber {
     time = 14,
     sequence = 16,
     sequenceOf = 16,
-    set_ = 17,
+    set = 17,
     setOf = 17,
     numericString = 18,
     printableString = 19,
@@ -97,13 +97,13 @@ export interface Asn1Tag$instance {
 export const Asn1Tag: {
     new(universalTagNumber: UniversalTagNumber, isConstructed: boolean): Asn1Tag;
     new(tagClass: TagClass, tagValue: int, isConstructed: boolean): Asn1Tag;
-    readonly boolean_: Asn1Tag;
+    readonly boolean: Asn1Tag;
     readonly integer: Asn1Tag;
     readonly primitiveBitString: Asn1Tag;
     readonly constructedBitString: Asn1Tag;
     readonly primitiveOctetString: Asn1Tag;
     readonly constructedOctetString: Asn1Tag;
-    readonly null_: Asn1Tag;
+    readonly null: Asn1Tag;
     readonly objectIdentifier: Asn1Tag;
     readonly enumerated: Asn1Tag;
     readonly sequence: Asn1Tag;

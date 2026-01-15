@@ -24,7 +24,7 @@
         {
           "stableId": "System.Net.Mail:System.Net.Mime.TransferEncoding::UnknownSystem.Net.Mime.TransferEncoding",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109364,
           "normalizedSignature": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "isStatic": true,
@@ -623,7 +623,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.Mime.TransferEncoding|static=true|const=true",
           "target": {

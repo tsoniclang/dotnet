@@ -30,7 +30,7 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Action_2, Array as ClrArray, AsyncCallback, Attribute, Boolean as ClrBoolean, Byte, Char, DateTime, DateTimeOffset, Delegate, Enum, EventArgs, EventHandler, EventHandler_1, Exception, Func_1, Func_2, Func_4, Guid, IAsyncResult, ICloneable, IComparable, IConvertible, IDisposable, IEquatable_1, IFormatProvider, IFormattable, Int32, Int64, IntPtr, IObservable_1, IObserver_1, ISpanFormattable, MarshalByRefObject, MulticastDelegate, Object as ClrObject, Predicate_1, ReadOnlySpan_1, Span_1, String as ClrString, TimeSpan, Type, TypeCode, ValueType, Void } from "../../System/internal/index.js";
 
 export enum ActivityIdFormat {
-    unknown_ = 0,
+    unknown = 0,
     hierarchical = 1,
     W3C = 2
 }
@@ -68,7 +68,7 @@ export enum ActivityTraceFlags {
 
 export enum DebuggableAttribute_DebuggingModes {
     none = 0,
-    default_ = 1,
+    default = 1,
     disableOptimizations = 256,
     ignoreSymbolStoreSequencePoints = 2,
     enableEditAndContinue = 4
@@ -76,7 +76,7 @@ export enum DebuggableAttribute_DebuggingModes {
 
 
 export enum DebuggerBrowsableState {
-    never_ = 0,
+    never = 0,
     collapsed = 2,
     rootHidden = 3
 }
@@ -131,7 +131,7 @@ export enum ThreadState {
     terminated = 4,
     wait = 5,
     transition = 6,
-    unknown_ = 7
+    unknown = 7
 }
 
 
@@ -149,7 +149,7 @@ export enum ThreadWaitReason {
     lpcReply = 10,
     virtualMemory = 11,
     pageOut = 12,
-    unknown_ = 13
+    unknown = 13
 }
 
 
@@ -807,7 +807,7 @@ export interface DebuggerDisplayAttribute$instance extends Attribute {
     target: Type;
     get targetTypeName(): string | undefined;
     set targetTypeName(value: string);
-    type_: string;
+    type: string;
     readonly value: string;
 }
 
@@ -872,7 +872,7 @@ export interface DebuggerTypeProxyAttribute$instance extends Attribute {
 
 
 export const DebuggerTypeProxyAttribute: {
-    new(type_: Type): DebuggerTypeProxyAttribute;
+    new(type: Type): DebuggerTypeProxyAttribute;
     new(typeName: string): DebuggerTypeProxyAttribute;
 };
 
@@ -1120,7 +1120,7 @@ export const FileVersionInfo: {
 export type FileVersionInfo = FileVersionInfo$instance;
 
 export interface InitializingSwitchEventArgs$instance extends EventArgs {
-    readonly switch_: Switch;
+    readonly switch: Switch;
 }
 
 
@@ -1289,10 +1289,10 @@ export type ProcessModule = ProcessModule$instance & __ProcessModule$views;
 
 export interface ProcessModuleCollection$instance extends ReadOnlyCollectionBase {
     readonly item: ProcessModule;
-    contains(module_: ProcessModule): boolean;
+    contains(module: ProcessModule): boolean;
     copyTo(array: ClrArray, index: int): void;
     getEnumerator(): IEnumerator;
-    indexOf(module_: ProcessModule): int;
+    indexOf(module: ProcessModule): int;
 }
 
 
@@ -1767,7 +1767,7 @@ export interface TraceSource$instance {
     readonly defaultLevel: SourceLevels;
     readonly listeners: TraceListenerCollection;
     readonly name: string;
-    switch_: SourceSwitch;
+    switch: SourceSwitch;
     close(): void;
     flush(): void;
     traceData(eventType: TraceEventType, id: int, data: unknown): void;
@@ -1912,7 +1912,7 @@ export type Debug = Debug$instance;
 export abstract class Debugger$instance {
     static readonly defaultCategory: string | undefined;
     static readonly isAttached: boolean;
-    static break_(): void;
+    static break(): void;
     static breakForUserUnhandledException(exception: Exception): void;
     static isLogging(): boolean;
     static launch(): boolean;

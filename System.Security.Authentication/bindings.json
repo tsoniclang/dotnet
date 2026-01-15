@@ -123,7 +123,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.CipherAlgorithmType::NullSystem.Security.Authentication.CipherAlgorithmType",
           "clrName": "Null",
-          "tsEmitName": "null_",
+          "tsEmitName": "null",
           "metadataToken": 67108980,
           "normalizedSignature": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "isStatic": true,
@@ -768,7 +768,7 @@
           }
         },
         {
-          "tsName": "null_",
+          "tsName": "null",
           "isStatic": true,
           "tsSignatureId": "Null|System.Security.Authentication.CipherAlgorithmType|static=true|const=true",
           "target": {
@@ -2225,7 +2225,7 @@
         {
           "stableId": "System.Net.Primitives:System.Security.Authentication.SslProtocols::DefaultSystem.Security.Authentication.SslProtocols",
           "clrName": "Default",
-          "tsEmitName": "default_",
+          "tsEmitName": "default",
           "metadataToken": 67108964,
           "normalizedSignature": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
           "isStatic": true,
@@ -2850,7 +2850,7 @@
           }
         },
         {
-          "tsName": "default_",
+          "tsName": "default",
           "isStatic": true,
           "tsSignatureId": "Default|System.Security.Authentication.SslProtocols|static=true|const=true",
           "target": {

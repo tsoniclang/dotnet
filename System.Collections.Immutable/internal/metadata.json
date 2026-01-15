@@ -1909,7 +1909,7 @@
         {
           "stableId": "System.Collections.Immutable:System.Collections.Immutable.ImmutableArray\u00601::As():ImmutableArray_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "normalizedSignature": "As|():ImmutableArray_1|static=false",
           "provenance": "Original",
           "emitScope": "ClassSurface",

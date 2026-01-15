@@ -36,7 +36,7 @@ export enum AcceptRejectRule {
 
 
 export enum CommandBehavior {
-    default_ = 0,
+    default = 0,
     singleResult = 1,
     schemaOnly = 2,
     keyInfo = 4,
@@ -72,7 +72,7 @@ export enum ConnectionState {
 
 export enum DataRowAction {
     nothing = 0,
-    delete_ = 1,
+    delete = 1,
     change = 2,
     rollback = 4,
     commit = 8,
@@ -95,7 +95,7 @@ export enum DataRowVersion {
     original = 256,
     current = 512,
     proposed = 1024,
-    default_ = 1536
+    default = 1536
 }
 
 
@@ -123,7 +123,7 @@ export enum DbType {
     ansiString = 0,
     binary = 1,
     byte = 2,
-    boolean_ = 3,
+    boolean = 3,
     currency = 4,
     date = 5,
     dateTime = 6,
@@ -133,10 +133,10 @@ export enum DbType {
     int16 = 10,
     int32 = 11,
     int64 = 12,
-    object_ = 13,
+    object = 13,
     sByte = 14,
     single = 15,
-    string_ = 16,
+    string = 16,
     time = 17,
     uInt16 = 18,
     uInt32 = 19,
@@ -272,7 +272,7 @@ export enum StatementType {
     select = 0,
     insert = 1,
     update = 2,
-    delete_ = 3,
+    delete = 3,
     batch = 4
 }
 
@@ -286,7 +286,7 @@ export enum UpdateRowSource {
 
 
 export enum UpdateStatus {
-    continue_ = 0,
+    continue = 0,
     errorsOccurred = 1,
     skipCurrentRow = 2,
     skipAllRemainingRows = 3
@@ -700,7 +700,7 @@ export interface DataColumn$instance extends MarshalByValueComponent {
     expression: string;
     readonly extendedProperties: PropertyCollection;
     maxLength: int;
-    namespace_: string;
+    namespace: string;
     readonly ordinal: int;
     prefix: string;
     readOnly: boolean;
@@ -718,7 +718,7 @@ export const DataColumn: {
     new(columnName: string): DataColumn;
     new(columnName: string, dataType: Type): DataColumn;
     new(columnName: string, dataType: Type, expr: string): DataColumn;
-    new(columnName: string, dataType: Type, expr: string, type_: MappingType): DataColumn;
+    new(columnName: string, dataType: Type, expr: string, type: MappingType): DataColumn;
 };
 
 
@@ -750,8 +750,8 @@ export type DataColumnChangeEventArgs = DataColumnChangeEventArgs$instance;
 
 export interface DataColumnCollection$instance extends InternalDataCollectionBase$instance {
     add(column: DataColumn): void;
-    add(columnName: string, type_: Type, expression: string): DataColumn;
-    add(columnName: string, type_: Type): DataColumn;
+    add(columnName: string, type: Type, expression: string): DataColumn;
+    add(columnName: string, type: Type): DataColumn;
     add(columnName: string): DataColumn;
     add(): DataColumn;
     addRange(columns: DataColumn[]): void;
@@ -875,7 +875,7 @@ export interface DataRow$instance {
     beginEdit(): void;
     cancelEdit(): void;
     clearErrors(): void;
-    delete_(): void;
+    delete(): void;
     endEdit(): void;
     get_Item(columnIndex: int): unknown;
     get_Item(columnName: string): unknown;
@@ -990,7 +990,7 @@ export interface DataRowComparer_1$instance<TRow extends DataRow> {
 
 export const DataRowComparer_1: {
     new<TRow extends DataRow>(): DataRowComparer_1<TRow>;
-    readonly default_: unknown;
+    readonly default: unknown;
 };
 
 
@@ -1013,7 +1013,7 @@ export interface DataRowView$instance extends INotifyPropertyChanged {
     createChildView(relation: DataRelation): DataView;
     createChildView(relationName: string, followParent: boolean): DataView;
     createChildView(relationName: string): DataView;
-    delete_(): void;
+    delete(): void;
     endEdit(): void;
     equals(other: unknown): boolean;
     get_Item(ndx: int): unknown;
@@ -1049,7 +1049,7 @@ export interface DataSet$instance extends MarshalByValueComponent {
     readonly hasErrors: boolean;
     readonly isInitialized: boolean;
     locale: CultureInfo;
-    namespace_: string;
+    namespace: string;
     prefix: string;
     readonly relations: DataRelationCollection;
     remotingFormat: SerializationFormat;
@@ -1169,7 +1169,7 @@ export interface DataTable$instance extends MarshalByValueComponent {
     readonly isInitialized: boolean;
     locale: CultureInfo;
     minimumCapacity: int;
-    namespace_: string;
+    namespace: string;
     readonly parentRelations: DataRelationCollection;
     prefix: string;
     primaryKey: DataColumn[];
@@ -1411,7 +1411,7 @@ export interface DataView$instance extends MarshalByValueComponent {
     addNew(): DataRowView;
     beginInit(): void;
     copyTo(array: ClrArray, index: int): void;
-    delete_(index: int): void;
+    delete(index: int): void;
     dispose(): void;
     endInit(): void;
     equals(view: DataView): boolean;
@@ -1650,7 +1650,7 @@ export type EvaluateException = EvaluateException$instance & __EvaluateException
 
 
 export interface FillErrorEventArgs$instance extends EventArgs {
-    continue_: boolean;
+    continue: boolean;
     readonly dataTable: DataTable | undefined;
     errors: Exception;
     readonly values: (unknown | undefined)[];
@@ -2102,7 +2102,7 @@ export abstract class DataReaderExtensions$instance {
 export type DataReaderExtensions = DataReaderExtensions$instance;
 
 export abstract class DataRowComparer$instance {
-    static readonly default_: DataRowComparer_1<DataRow>;
+    static readonly default: DataRowComparer_1<DataRow>;
 }
 
 

@@ -23,13 +23,13 @@ import * as System_Internal from "../../System/internal/index.js";
 import type { Action_1, Boolean as ClrBoolean, Decimal, Double, Enum, Func_1, Func_2, Func_3, Func_4, IComparable, IConvertible, IFormatProvider, IFormattable, Index, Int32, Int64, ISpanFormattable, Nullable_1, Object as ClrObject, Range, Single, String as ClrString, Type, TypeCode, ValueTuple_2, ValueTuple_3, Void } from "../../System/internal/index.js";
 
 export enum ParallelExecutionMode {
-    default_ = 0,
+    default = 0,
     forceParallelism = 1
 }
 
 
 export enum ParallelMergeOptions {
-    default_ = 0,
+    default = 0,
     notBuffered = 1,
     autoBuffered = 2,
     fullyBuffered = 3
@@ -459,8 +459,8 @@ export abstract class Enumerable$instance {
     static aggregateBy<TSource, TKey, TAccumulate>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seedSelector: Func_2<TKey, TAccumulate>, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey>): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
     static aggregateBy<TSource, TKey, TAccumulate>(source: IEnumerable_1<TSource>, keySelector: Func_2<TSource, TKey>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>, keyComparer?: IEqualityComparer_1<TKey>): IEnumerable_1<KeyValuePair_2<TKey, TAccumulate>>;
     static all<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static any_<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static any_<TSource>(source: IEnumerable_1<TSource>): boolean;
+    static any<TSource>(source: IEnumerable_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static any<TSource>(source: IEnumerable_1<TSource>): boolean;
     static append<TSource>(source: IEnumerable_1<TSource>, element: TSource): IEnumerable_1<TSource>;
     static asEnumerable<TSource>(source: IEnumerable_1<TSource>): IEnumerable_1<TSource>;
     static average<TSource>(source: IEnumerable_1<TSource>, selector: Func_2<TSource, System_Internal.Decimal>): decimal;
@@ -685,9 +685,9 @@ export abstract class ImmutableArrayExtensions$instance {
     static aggregate<TAccumulate, TResult, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
     static aggregate<TAccumulate, T>(immutableArray: ImmutableArray_1<T>, seed: TAccumulate, func: Func_3<TAccumulate, T, TAccumulate>): TAccumulate;
     static all<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
-    static any_<T>(builder: ImmutableArray_1_Builder<T>): boolean;
-    static any_<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
-    static any_<T>(immutableArray: ImmutableArray_1<T>): boolean;
+    static any<T>(builder: ImmutableArray_1_Builder<T>): boolean;
+    static any<T>(immutableArray: ImmutableArray_1<T>, predicate: Func_2<T, System_Internal.Boolean>): boolean;
+    static any<T>(immutableArray: ImmutableArray_1<T>): boolean;
     static elementAt<T>(immutableArray: ImmutableArray_1<T>, index: int): T;
     static elementAtOrDefault<T>(immutableArray: ImmutableArray_1<T>, index: int): T | undefined;
     static first<T>(builder: ImmutableArray_1_Builder<T>): T;
@@ -729,8 +729,8 @@ export abstract class ParallelEnumerable$instance {
     static aggregate<TSource, TAccumulate, TResult>(source: ParallelQuery_1<TSource>, seed: TAccumulate, updateAccumulatorFunc: Func_3<TAccumulate, TSource, TAccumulate>, combineAccumulatorsFunc: Func_3<TAccumulate, TAccumulate, TAccumulate>, resultSelector: Func_2<TAccumulate, TResult>): TResult;
     static aggregate<TSource, TAccumulate>(source: ParallelQuery_1<TSource>, seed: TAccumulate, func: Func_3<TAccumulate, TSource, TAccumulate>): TAccumulate;
     static all<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static any_<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
-    static any_<TSource>(source: ParallelQuery_1<TSource>): boolean;
+    static any<TSource>(source: ParallelQuery_1<TSource>, predicate: Func_2<TSource, System_Internal.Boolean>): boolean;
+    static any<TSource>(source: ParallelQuery_1<TSource>): boolean;
     static asEnumerable<TSource>(source: ParallelQuery_1<TSource>): IEnumerable_1<TSource>;
     static asOrdered<TSource>(source: ParallelQuery_1<TSource>): ParallelQuery_1<TSource>;
     static asOrdered(source: ParallelQuery): ParallelQuery;
@@ -934,8 +934,8 @@ export abstract class Queryable$instance {
     static aggregateBy<TSource, TKey, TAccumulate>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seedSelector: Expression_1<Func_2<TKey, TAccumulate>>, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey>): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
     static aggregateBy<TSource, TKey, TAccumulate>(source: IQueryable_1<TSource>, keySelector: Expression_1<Func_2<TSource, TKey>>, seed: TAccumulate, func: Expression_1<Func_3<TAccumulate, TSource, TAccumulate>>, keyComparer?: IEqualityComparer_1<TKey>): IQueryable_1<KeyValuePair_2<TKey, TAccumulate>>;
     static all<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
-    static any_<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
-    static any_<TSource>(source: IQueryable_1<TSource>): boolean;
+    static any<TSource>(source: IQueryable_1<TSource>, predicate: Expression_1<Func_2<TSource, System_Internal.Boolean>>): boolean;
+    static any<TSource>(source: IQueryable_1<TSource>): boolean;
     static append<TSource>(source: IQueryable_1<TSource>, element: TSource): IQueryable_1<TSource>;
     static asQueryable<TElement>(source: IEnumerable_1<TElement>): IQueryable_1<TElement>;
     static asQueryable(source: IEnumerable): IQueryable;

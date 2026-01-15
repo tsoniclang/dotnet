@@ -886,8 +886,8 @@ export interface __Ext_System_Linq_IEnumerable_1<T> {
   aggregate(func: System.Func_3<T, T, T>): ExtensionMethods_System_Linq<T>;
   aggregate<TAccumulate>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>): ExtensionMethods_System_Linq<TAccumulate>;
   aggregate<TAccumulate, TResult>(seed: TAccumulate, func: System.Func_3<TAccumulate, T, TAccumulate>, resultSelector: System.Func_2<TAccumulate, TResult>): ExtensionMethods_System_Linq<TResult>;
-  any_(): ExtensionMethods_System_Linq<boolean>;
-  any_(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
+  any(): ExtensionMethods_System_Linq<boolean>;
+  any(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   all(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   append(element: T): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<T>>;
   prepend(element: T): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<T>>;
@@ -1109,8 +1109,8 @@ export interface __Ext_System_Linq_ImmutableArray_1<T> {
   select<TResult>(selector: System.Func_2<T, TResult>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<TResult>>;
   selectMany<TCollection, TResult>(collectionSelector: System.Func_2<T, System_Collections_Generic.IEnumerable_1<TCollection>>, resultSelector: System.Func_3<T, TCollection, TResult>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<TResult>>;
   where(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<System_Collections_Generic.IEnumerable_1<T>>;
-  any_(): ExtensionMethods_System_Linq<boolean>;
-  any_(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
+  any(): ExtensionMethods_System_Linq<boolean>;
+  any(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   all(predicate: System.Func_2<T, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   sequenceEqual<TDerived>(items: System_Collections_Immutable.ImmutableArray_1<TDerived>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
   sequenceEqual<TDerived>(items: System_Collections_Generic.IEnumerable_1<TDerived>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
@@ -1144,7 +1144,7 @@ export interface __Ext_System_Linq_ImmutableArray_1_Builder<T> {
   firstOrDefault(): ExtensionMethods_System_Linq<T | undefined>;
   last(): ExtensionMethods_System_Linq<T>;
   lastOrDefault(): ExtensionMethods_System_Linq<T | undefined>;
-  any_(): ExtensionMethods_System_Linq<boolean>;
+  any(): ExtensionMethods_System_Linq<boolean>;
 }
 
 export interface __Ext_System_Linq_IOrderedAsyncEnumerable_1<TElement> {
@@ -1257,8 +1257,8 @@ export interface __Ext_System_Linq_IQueryable_1<T> {
   sequenceEqual(source2: System_Collections_Generic.IEnumerable_1<T>): ExtensionMethods_System_Linq<boolean>;
   sequenceEqual(source2: System_Collections_Generic.IEnumerable_1<T>, comparer: System_Collections_Generic.IEqualityComparer_1<T>): ExtensionMethods_System_Linq<boolean>;
   shuffle(): ExtensionMethods_System_Linq<System_Linq.IQueryable_1<T>>;
-  any_(): ExtensionMethods_System_Linq<boolean>;
-  any_(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<boolean>;
+  any(): ExtensionMethods_System_Linq<boolean>;
+  any(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<boolean>;
   all(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<boolean>;
   count(): ExtensionMethods_System_Linq<int>;
   count(predicate: System_Linq_Expressions.Expression_1<System.Func_2<T, System_Internal.Boolean>>): ExtensionMethods_System_Linq<int>;
@@ -1463,8 +1463,8 @@ export interface __Ext_System_Linq_ParallelQuery_1<TSource> {
   average(selector: System.Func_2<TSource, System.Nullable_1<System_Internal.Single>>): ExtensionMethods_System_Linq<System.Nullable_1<System_Internal.Single>>;
   average(selector: System.Func_2<TSource, System_Internal.Decimal>): ExtensionMethods_System_Linq<decimal>;
   average(selector: System.Func_2<TSource, System.Nullable_1<System_Internal.Decimal>>): ExtensionMethods_System_Linq<System.Nullable_1<System_Internal.Decimal>>;
-  any_(predicate: System.Func_2<TSource, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
-  any_(): ExtensionMethods_System_Linq<boolean>;
+  any(predicate: System.Func_2<TSource, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
+  any(): ExtensionMethods_System_Linq<boolean>;
   all(predicate: System.Func_2<TSource, System_Internal.Boolean>): ExtensionMethods_System_Linq<boolean>;
   contains(value: TSource): ExtensionMethods_System_Linq<boolean>;
   contains(value: TSource, comparer: System_Collections_Generic.IEqualityComparer_1<TSource>): ExtensionMethods_System_Linq<boolean>;
@@ -1531,28 +1531,28 @@ export interface __Ext_System_Net_Http_Json_HttpClient {
   getFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
   getFromJsonAsAsyncEnumerable<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
   getFromJsonAsAsyncEnumerable<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  deleteFromJsonAsync(requestUri: string, type_: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  deleteFromJsonAsync(requestUri: System.Uri, type_: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  deleteFromJsonAsync(requestUri: string, type_: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  deleteFromJsonAsync(requestUri: System.Uri, type_: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  deleteFromJsonAsync(requestUri: string, type_: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  deleteFromJsonAsync(requestUri: System.Uri, type_: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: string, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  deleteFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   deleteFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  getFromJsonAsync(requestUri: string, type_: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  getFromJsonAsync(requestUri: System.Uri, type_: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: string, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: System.Uri, type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   getFromJsonAsync<TValue>(requestUri: string, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   getFromJsonAsync<TValue>(requestUri: System.Uri, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  getFromJsonAsync(requestUri: string, type_: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  getFromJsonAsync(requestUri: System.Uri, type_: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: string, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: System.Uri, type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   getFromJsonAsync<TValue>(requestUri: string, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   getFromJsonAsync<TValue>(requestUri: System.Uri, jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
-  getFromJsonAsync(requestUri: string, type_: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  getFromJsonAsync(requestUri: System.Uri, type_: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: string, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  getFromJsonAsync(requestUri: System.Uri, type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   getFromJsonAsync<TValue>(requestUri: string, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   getFromJsonAsync<TValue>(requestUri: System.Uri, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<TValue | undefined>>;
   postAsJsonAsync<TValue>(requestUri: string, value: TValue, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<System_Net_Http.HttpResponseMessage>>;
@@ -1579,11 +1579,11 @@ export interface __Ext_System_Net_Http_Json_HttpContent {
   readFromJsonAsAsyncEnumerable<TValue>(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
   readFromJsonAsAsyncEnumerable<TValue>(options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
   readFromJsonAsAsyncEnumerable<TValue>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<TValue>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Collections_Generic.IAsyncEnumerable_1<TValue | undefined>>;
-  readFromJsonAsync(type_: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
-  readFromJsonAsync(type_: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  readFromJsonAsync(type: System.Type, options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  readFromJsonAsync(type: System.Type, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   readFromJsonAsync<T>(options: System_Text_Json.JsonSerializerOptions, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
   readFromJsonAsync<T>(cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
-  readFromJsonAsync(type_: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
+  readFromJsonAsync(type: System.Type, context: System_Text_Json_Serialization.JsonSerializerContext, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<unknown | undefined>>;
   readFromJsonAsync<T>(jsonTypeInfo: System_Text_Json_Serialization_Metadata.JsonTypeInfo_1<T>, cancellationToken: System_Threading.CancellationToken): ExtensionMethods_System_Net_Http_Json<System_Threading_Tasks.Task_1<T | undefined>>;
 }
 
@@ -1665,7 +1665,7 @@ export interface __Ext_System_Numerics_Vector4 {
 }
 
 export interface __Ext_System_Numerics_Vector_1<T> {
-  as_<TTo>(): ExtensionMethods_System_Numerics<System_Numerics.Vector_1<TTo>>;
+  as<TTo>(): ExtensionMethods_System_Numerics<System_Numerics.Vector_1<TTo>>;
   getElement(index: int): ExtensionMethods_System_Numerics<T>;
   store(destination: ptr<T>): ExtensionMethods_System_Numerics<void>;
   storeAligned(destination: ptr<T>): ExtensionMethods_System_Numerics<void>;
@@ -1883,7 +1883,7 @@ export interface __Ext_System_Runtime_Intrinsics_Vector_1<T> {
 }
 
 export interface __Ext_System_Runtime_Intrinsics_Vector128_1<T> {
-  as_<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector128_1<TTo>>;
+  as<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector128_1<TTo>>;
   asByte(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector128_1<System_Internal.Byte>>;
   asDouble(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector128_1<System_Internal.Double>>;
   asInt16(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector128_1<System_Internal.Int16>>;
@@ -1924,7 +1924,7 @@ export interface __Ext_System_Runtime_Intrinsics_Vector128_1<T> {
 }
 
 export interface __Ext_System_Runtime_Intrinsics_Vector256_1<T> {
-  as_<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector256_1<TTo>>;
+  as<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector256_1<TTo>>;
   asByte(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector256_1<System_Internal.Byte>>;
   asDouble(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector256_1<System_Internal.Double>>;
   asInt16(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector256_1<System_Internal.Int16>>;
@@ -1960,7 +1960,7 @@ export interface __Ext_System_Runtime_Intrinsics_Vector256_1<T> {
 }
 
 export interface __Ext_System_Runtime_Intrinsics_Vector512_1<T> {
-  as_<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector512_1<TTo>>;
+  as<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector512_1<TTo>>;
   asByte(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector512_1<System_Internal.Byte>>;
   asDouble(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector512_1<System_Internal.Double>>;
   asInt16(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector512_1<System_Internal.Int16>>;
@@ -1994,7 +1994,7 @@ export interface __Ext_System_Runtime_Intrinsics_Vector512_1<T> {
 }
 
 export interface __Ext_System_Runtime_Intrinsics_Vector64_1<T> {
-  as_<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector64_1<TTo>>;
+  as<TTo>(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector64_1<TTo>>;
   asByte(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector64_1<System_Internal.Byte>>;
   asDouble(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector64_1<System_Internal.Double>>;
   asInt16(): ExtensionMethods_System_Runtime_Intrinsics<System_Runtime_Intrinsics.Vector64_1<System_Internal.Int16>>;
@@ -2092,7 +2092,7 @@ export interface __Ext_System_Text_Json_JsonNode {
 }
 
 export interface __Ext_System_Text_Json_Schema_JsonSerializerOptions {
-  getJsonSchemaAsNode(type_: System.Type, exporterOptions: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
+  getJsonSchemaAsNode(type: System.Type, exporterOptions: System_Text_Json_Schema.JsonSchemaExporterOptions): ExtensionMethods_System_Text_Json_Schema<System_Text_Json_Nodes.JsonNode>;
 }
 
 export interface __Ext_System_Text_Json_Schema_JsonTypeInfo {

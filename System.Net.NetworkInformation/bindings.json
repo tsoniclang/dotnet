@@ -950,7 +950,7 @@
         {
           "stableId": "System.Net.Ping:System.Net.NetworkInformation.IPStatus::UnknownSystem.Net.NetworkInformation.IPStatus",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67108996,
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "isStatic": true,
@@ -1735,7 +1735,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.NetworkInformation.IPStatus|static=true|const=true",
           "target": {
@@ -1769,7 +1769,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetBiosNodeType::UnknownSystem.Net.NetworkInformation.NetBiosNodeType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109005,
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "isStatic": true,
@@ -2368,7 +2368,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.NetworkInformation.NetBiosNodeType|static=true|const=true",
           "target": {
@@ -3052,7 +3052,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.NetworkInterfaceType::UnknownSystem.Net.NetworkInformation.NetworkInterfaceType",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109032,
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "isStatic": true,
@@ -3904,7 +3904,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.NetworkInformation.NetworkInterfaceType|static=true|const=true",
           "target": {
@@ -4241,7 +4241,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.OperationalStatus::UnknownSystem.Net.NetworkInformation.OperationalStatus",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109064,
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "isStatic": true,
@@ -4859,7 +4859,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.NetworkInformation.OperationalStatus|static=true|const=true",
           "target": {
@@ -5607,7 +5607,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.ScopeLevel::InterfaceSystem.Net.NetworkInformation.ScopeLevel",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "metadataToken": 67109079,
           "normalizedSignature": "Interface|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "isStatic": true,
@@ -6238,7 +6238,7 @@
           }
         },
         {
-          "tsName": "interface_",
+          "tsName": "interface",
           "isStatic": true,
           "tsSignatureId": "Interface|System.Net.NetworkInformation.ScopeLevel|static=true|const=true",
           "target": {
@@ -7026,7 +7026,7 @@
         {
           "stableId": "System.Net.NetworkInformation:System.Net.NetworkInformation.TcpState::UnknownSystem.Net.NetworkInformation.TcpState",
           "clrName": "Unknown",
-          "tsEmitName": "unknown_",
+          "tsEmitName": "unknown",
           "metadataToken": 67109094,
           "normalizedSignature": "Unknown|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "isStatic": true,
@@ -7713,7 +7713,7 @@
           }
         },
         {
-          "tsName": "unknown_",
+          "tsName": "unknown",
           "isStatic": true,
           "tsSignatureId": "Unknown|System.Net.NetworkInformation.TcpState|static=true|const=true",
           "target": {

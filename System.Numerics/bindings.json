@@ -23313,7 +23313,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector2::Any(System.Numerics.Vector2,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100675350,
           "canonicalSignature": "(System.Numerics.Vector2,System.Single):System.Boolean",
           "normalizedSignature": "Any|(System.Numerics.Vector2,System.Single):System.Boolean|static=true",
@@ -25268,7 +25268,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(System.Numerics.Vector2,System.Single):System.Boolean|static=true",
           "target": {
@@ -26742,7 +26742,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector3::Any(System.Numerics.Vector3,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100675508,
           "canonicalSignature": "(System.Numerics.Vector3,System.Single):System.Boolean",
           "normalizedSignature": "Any|(System.Numerics.Vector3,System.Single):System.Boolean|static=true",
@@ -28718,7 +28718,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(System.Numerics.Vector3,System.Single):System.Boolean|static=true",
           "target": {
@@ -30211,7 +30211,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector4::Any(System.Numerics.Vector4,System.Single):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100675667,
           "canonicalSignature": "(System.Numerics.Vector4,System.Single):System.Boolean",
           "normalizedSignature": "Any|(System.Numerics.Vector4,System.Single):System.Boolean|static=true",
@@ -32264,7 +32264,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(System.Numerics.Vector4,System.Single):System.Boolean|static=true",
           "target": {
@@ -34749,7 +34749,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::Any(Vector_1,T):System.Boolean",
           "clrName": "Any",
-          "tsEmitName": "any_",
+          "tsEmitName": "any",
           "metadataToken": 100674815,
           "canonicalSignature": "(Vector_1,T):System.Boolean",
           "normalizedSignature": "Any|(Vector_1,T):System.Boolean|static=true",
@@ -34777,7 +34777,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Numerics.Vector::As(Vector_1):Vector_1",
           "clrName": "As",
-          "tsEmitName": "as_",
+          "tsEmitName": "as",
           "metadataToken": 100674817,
           "canonicalSignature": "(Vector_1):Vector_1",
           "normalizedSignature": "As|(Vector_1):Vector_1|static=true",
@@ -38674,7 +38674,7 @@
           }
         },
         {
-          "tsName": "any_",
+          "tsName": "any",
           "isStatic": true,
           "tsSignatureId": "Any|(Vector_1,T):System.Boolean|static=true",
           "target": {
@@ -38694,7 +38694,7 @@
           }
         },
         {
-          "tsName": "as_",
+          "tsName": "as",
           "isStatic": true,
           "tsSignatureId": "As|(Vector_1):Vector_1|static=true",
           "target": {

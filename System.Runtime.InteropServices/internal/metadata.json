@@ -2071,7 +2071,7 @@
         {
           "stableId": "System.Private.CoreLib:System.Runtime.InteropServices.UnmanagedType::InterfaceSystem.Runtime.InteropServices.UnmanagedType",
           "clrName": "Interface",
-          "tsEmitName": "interface_",
+          "tsEmitName": "interface",
           "normalizedSignature": "Interface|System.Runtime.InteropServices.UnmanagedType|static=true|const=true",
           "isStatic": true,
           "isReadOnly": false,
@@ -8495,7 +8495,7 @@
         {
           "stableId": "System.Runtime.InteropServices:System.Runtime.InteropServices.ComAwareEventInfo::Module:System.Reflection.Module",
           "clrName": "Module",
-          "tsEmitName": "module_",
+          "tsEmitName": "module",
           "normalizedSignature": "Module|:System.Reflection.Module|static=false|accessor=get",
           "provenance": "Original",
           "emitScope": "ClassSurface",
